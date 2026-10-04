@@ -1421,7 +1421,7 @@ class Budowa:
             cz = [f"""<section class="winieta">
   <p class="w-nr">Zestawienie · Top 10</p>
   <h1>{e(okres)}</h1>
-  <p class="w-stan">Dziesięć najważniejszych wydarzeń z perspektywy Polski · stan na {data_dluga(z["opublikowano"])}{(", godz. " + e(z["godzina"])) if z.get("godzina") else ""}</p>
+  <p class="w-stan">Dziesięć najważniejszych wydarzeń – dla Polski i dla świata · stan na {data_dluga(z["opublikowano"])}{(", godz. " + e(z["godzina"])) if z.get("godzina") else ""}</p>
 </section>"""]
             cz.append('<section class="skrot"><h2>W skrócie</h2>' + "".join(f"<p>{T(x)}</p>" for x in z["wstep"]) + "</section>")
             cz.append('<nav class="top-spis" id="lista" aria-label="Dziesięć wydarzeń"><ol>' + "".join(

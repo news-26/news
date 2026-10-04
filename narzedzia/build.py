@@ -733,6 +733,7 @@ def strona(tytul, tresc, prefix="", opis="", aktywne=""):
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="referrer" content="no-referrer">
 <title>{e(tytul)} · {TYTUL}</title>
 <meta name="description" content="{e(opis or PODTYTUL)}">
 <link rel="stylesheet" href="{prefix}assets/styl.css">
@@ -1455,6 +1456,7 @@ class Budowa:
             if nowy in slugi and stary not in slugi:
                 self.zapisz(f"top/{stary}.html", f'''<!doctype html><html lang="pl"><head><meta charset="utf-8">
 <meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="referrer" content="no-referrer">
 <meta http-equiv="refresh" content="0; url={nowy}.html"><link rel="canonical" href="{nowy}.html"><title>Top 10 – {e(okres_topu(slugi[nowy]))}</title></head>
 <body><p>Zestawienie zastąpiono zestawieniem miesięcznym: <a href="{nowy}.html">Top 10 – {e(okres_topu(slugi[nowy]))}</a>.</p></body></html>''')
 

@@ -1454,6 +1454,7 @@ class Budowa:
         for stary, nowy in TOP_PRZEKIEROWANIA.items():
             if nowy in slugi and stary not in slugi:
                 self.zapisz(f"top/{stary}.html", f'''<!doctype html><html lang="pl"><head><meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow, noarchive">
 <meta http-equiv="refresh" content="0; url={nowy}.html"><link rel="canonical" href="{nowy}.html"><title>Top 10 – {e(okres_topu(slugi[nowy]))}</title></head>
 <body><p>Zestawienie zastąpiono zestawieniem miesięcznym: <a href="{nowy}.html">Top 10 – {e(okres_topu(slugi[nowy]))}</a>.</p></body></html>''')
 

@@ -105,7 +105,7 @@ Co miesiąc, za poprzedni **miesiąc kalendarzowy** (plik `dane/top/RRRR-MM-01_R
 
 **Kiedy wydarzenie trafia do Top 10** – trzy warunki naraz:
 1. zmieniło stan rzeczy w tym miesiącu (decyzja przyjęta, zmiana władzy, nowa zdolność wojskowa, incydent z realnym następstwem); retoryka i zapowiedzi bez terminu nie wystarczą,
-2. ma konkretny skutek dla Polski lub Europy, który da się nazwać w jednym zdaniu,
+2. ma konkretny skutek dla Polski lub Europy albo zmienia ogólną sytuację międzynarodową (układ sił, wojny i rozejmy, relacje mocarstw, globalna gospodarka), co da się nazwać w jednym zdaniu,
 3. jest udokumentowane w co najmniej dwóch pozycjach wydań dziennych z tego miesiąca.
 
 Przy wątkach trwających miesiącami liczy się zmiana w danym miesiącu, nie sam wątek. Kolejność: wpływ na bezpieczeństwo i interesy Polski → skala (ile państw lub instytucji) → trwałość skutków. Fakty bierzemy z wydań dziennych (już zweryfikowanych) i ich źródeł; nie weryfikujemy ich drugi raz, ale każdy wiersz przebiegu musi spełniać zasadę rankingu źródeł.

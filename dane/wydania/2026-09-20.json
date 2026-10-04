@@ -1,0 +1,89 @@
+{
+  "nr": 0,
+  "data": "2026-09-20",
+  "godzina": "22:15",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "USA zatwierdziły potencjalną sprzedaż Ukrainie sprzętu obrony powietrznej za 2,68 mld USD; Reuters: wysłannik Kremla Dmitrijew szykuje rozmowy z AfD o wznowieniu dostaw gazu."
+  ],
+  "korekty": [],
+  "analizy": [],
+  "kalendarz": [],
+  "zrodla_analityczne": {
+    "osw": [
+      {
+        "tytul": "Rosyjski plan wojny: podporządkować Ukrainę, zastraszyć Europę, przekupić USA",
+        "autor": "Marek Menkiszak",
+        "data": "2026-09-18",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-09-18/rosyjski-plan-wojny-podporzadkowac-ukraine-zastraszyc-europe"
+      }
+    ],
+    "pism": []
+  },
+  "zarys": [
+    {
+      "id": "z3",
+      "blok": "wojna",
+      "data": "2026-09-19",
+      "tagi": [
+        "ukraina",
+        "usa",
+        "uzbrojenie"
+      ],
+      "tekst": "Departament Stanu USA zatwierdził 19.09 potencjalną sprzedaż Ukrainie sprzętu obrony powietrznej (m.in. wyrzutnie i pociski do systemu typu S-300, radary przeciwdronowe RPS-202) za 2,68 mld USD, finansowaną z europejskich wpłat i amerykańskiego programu {{p:fmf|FMF}}. Według Departamentu Stanu sprzedaż ma zwiększyć zdolność Ukrainy do odpierania obecnych i przyszłych zagrożeń. To dopiero potencjalna sprzedaż, a nie dostawa.",
+      "etap": "ZAPOWIEDŹ",
+      "zrodla": [
+        {
+          "nazwa": "UPI",
+          "url": "https://www.upi.com/Top_News/US/2026/09/19/state-department-equipment-sale-ukraine/4001789851439/",
+          "data": "2026-09-19"
+        },
+        {
+          "nazwa": "CBS",
+          "url": "https://www.cbsnews.com/news/us-ukraine-russia-war-air-defense-state-department/",
+          "data": "2026-09-19"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/09/20/u-s-approves-potential-2-7-billion-air-defense-sale-to-ukraine-funded-by-european-contributions-and-biden-era-military-aid",
+          "data": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "swiat",
+      "data": "2026-09-18",
+      "tagi": [
+        "niemcy",
+        "rosja",
+        "energia"
+      ],
+      "tekst": "Reuters (18.09) podał, że AfD i **Kirył Dmitrijew**, specjalny wysłannik Putina i szef Rosyjskiego Funduszu Inwestycji Bezpośrednich, przygotowują rozmowy o wznowieniu dostaw rosyjskiego gazu, w tym o Nord Stream. 28.09 wiceprzewodniczący klubu AfD w Bundestagu Markus Frohnmaier potwierdził kontakt partii z Dmitrijewem i plan forum z udziałem Rosji i USA w 2027 r. Plan krytykują Zieloni i CDU; AfD nie współrządzi na szczeblu federalnym.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (za Meduzą)",
+          "url": "https://meduza.io/en/news/2026/09/18/reuters-germany-s-afd-party-and-kremlin-envoy-prepare-for-talks-on-restarting-russian-gas-supplies",
+          "data": "2026-09-18"
+        },
+        {
+          "nazwa": "Meduza (za DW)",
+          "url": "https://meduza.io/en/news/2026/09/21/germany-s-afd-held-talks-with-gazprom-ceo-on-resuming-russian-gas-supplies",
+          "data": "2026-09-21"
+        },
+        {
+          "nazwa": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/09/29/afd-vuole-riaprire-dossier-nord-stream-previsto-forum-con-usa_a09e35a1-572f-4de7-9a04-799037eeca9e.html",
+          "data": "2026-09-29"
+        }
+      ]
+    }
+  ],
+  "czego_nie_ma": [
+    {
+      "tekst": "Wybory do Dumy (por. wyd. z 21.09 i nr 6), wyniki wyborów w Niemczech (por. wyd. z 21.09), sankcje UE i Usmanow (por. nr 2), MSZ o „pseudowyborach”, Nawrocki w USA, SAFE, drony nad NATO, ropa i paliwa – nie otwarto czołowych źródeł z treścią.",
+      "prog": "dokumentacja"
+    }
+  ],
+  "nota": "Wydanie z 20.09.2026 (stan na 22:15 CEST) przeniesione na stronę 1.10.2026 z archiwum projektu; powstało przed wprowadzeniem numeracji, dlatego ma numer 0. Źródła każdej pozycji odnaleziono i otwarto ponownie 1.10.2026, wyłącznie w czołowych mediach i instytucjach; zakres jest bardzo wąski w porównaniu z oryginałem (4 z ok. 15 wątków). Pozycja o Dmitrijewie i AfD to doniesienie Reuters, którego nie potwierdziły dalsze źródła."
+}

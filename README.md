@@ -1,0 +1,148 @@
+# Prasówka
+
+Przegląd sytuacji międzynarodowej: codzienne wydania ze źródłami i weryfikacją faktów, powiązane hashtagami wątków.
+
+Strona: https://news-26.github.io/news/
+
+## Jak to działa
+
+Treść każdego wydania jest zapisywana raz, jako dane, a strona i mail powstają z nich automatycznie.
+
+```
+dane/
+  wydania/RRRR-MM-DD.json   jedno wydanie (zarys, analizy, kalendarz, korekty)
+  tagi.json                 słownik hashtagów + „Na czym stoimy” dla każdego wątku
+  osoby.json                karty „Kto jest kim” (funkcja ze źródłem i datą weryfikacji)
+  pojecia.json              słownik pojęć
+  terminy.json              zaplanowane wydarzenia, których nie wolno przegapić
+notatki/
+  rejestr-faktow.md         notatki robocze (statusy, rozbieżności) – edycja punktowa, nie trafia na stronę
+narzedzia/
+  build.py                  walidacja + budowa strony (pliki HTML w katalogu głównym)
+  mail.py                   mail HTML i tekstowy dla danego wydania
+  styl.css                  wygląd strony
+```
+
+Pliki HTML w katalogu głównym (`index.html`, `wydania/`, `watki/`, `osoby/`, `pojecia/` …) są generowane — nie edytuj ich ręcznie.
+
+## Publikacja wydania
+
+```
+python3 narzedzia/kontekst.py              # zwięzły kontekst na start (zamiast czytania plików danych)
+python3 narzedzia/nowe_wydanie.py RRRR-MM-DD   # szkielet wydania: numer, kalendarz, stuby rozstrzygnięć
+python3 narzedzia/build.py            # walidacja i budowa; przy błędzie nic nie powstaje
+python3 narzedzia/mail.py RRRR-MM-DD  # build/mail-RRRR-MM-DD.html (style w bloku), -krotki.txt (body), .txt (pełny tekst do kontroli)
+python3 narzedzia/pdf.py RRRR-MM-DD   # PDF archiwalny – tylko na żądanie
+git add -A && git commit -m "Wydanie nr N, RRRR-MM-DD" && git push
+```
+
+Do zarysu wchodzą **wyłącznie informacje potwierdzone** (komunikat instytucji, dane urzędowe albo dwa niezależne serwisy). Niepotwierdzone i sporne idą do `czego_nie_ma` z progiem `dokumentacja`; pola `status` nie ma (walidacja je odrzuca). Pozycje oznaczone tak przed 01.10.2026 oraz oparte na samych tytułach przeszły rewizję: `dane/rewizje.json` (`wynik`: POTWIERDZONE PO REWIZJI z wersją pierwotną i potwierdzoną albo WYCOFANE z powodem), widoczną w rejestrze korekt i w wydaniach.
+
+Walidacja odrzuca wydanie, jeśli którakolwiek pozycja nie ma źródła z linkiem i datą, ma źródło opisane jako sam tytuł, ma hashtag spoza słownika, osobę bez karty albo analizę bez autora.
+
+## Format wydania (dane/wydania/RRRR-MM-DD.json)
+
+```json
+{
+  "nr": 12, "data": "2026-10-01", "godzina": "20:30", "typ": "dzienne",
+  "w_skrocie": ["3–5 zdań. **słowo kluczowe**, {{o:id-osoby}}, {{p:id-pojecia}}"],
+  "korekty": [{"dotyczy": "2026-09-30#z3", "bylo": "…", "jest": "…", "zrodla": [ZRODLO]}],
+  "zarys": [{
+    "id": "z1", "blok": "wojna|polska|instytucje|swiat|gospodarka", "data": "2026-10-01",
+    "tagi": ["krolewiec", "nato"], "etap": "PROPOZYCJA|ZAPOWIEDŹ|PRZYJĘTE|W TOKU (opcjonalnie)",
+    "tekst": "1–2 zdania: co się stało i co się zmieniło.",
+    "zrodla": [{"nazwa": "Reuters", "url": "https://…", "data": "2026-10-01"}]
+  }],
+  "analizy": [{"tytul": "…", "autor": "OSW (J. Kowalski)", "tekst": "…", "dla_polski": "…", "tagi": ["…"], "zrodla": [ZRODLO]}],
+  "kalendarz": [{"data": "2026-10-03", "tekst": "…", "tagi": ["lotwa", "wybory"]}],
+  "poza_oknem": [{"data": "2026-11-03", "tekst": "…"}],
+  "zrodla_analityczne": {"osw": [{"tytul": "…", "autor": "…", "data": "…", "url": "…"}], "pism": [{"tytul": "…", "numer": "Biuletyn nr 65 (2697)", "data": "…", "url": "…"}]},
+  "czego_nie_ma": [{"tekst": "…", "prog": "dokumentacja|następstwo|kompletność"}],
+  "nota": "Kiedy powstało, co zweryfikowano dziś, czego nie, kontrola niezależna."
+}
+```
+
+### Straże kompletności (od wydania z 5.10.2026)
+
+Wprowadzone po pominięciu szczytu Trump–Xi (23–25.09). `build.py` odrzuca wydanie, gdy:
+
+- wpis `czego_nie_ma` z progiem `dokumentacja` nie ma `id` (`n1`, `n2` …) albo listy `sprawdzono` (co najmniej 3 miejsca otwarte bez skutku: komunikat instytucji obu stron, agencje także w przedrukach) – blokada strony to nie brak dokumentacji;
+- następne wydanie dzienne nie rozlicza każdego takiego wpisu w `rozstrzygniecia`: `{"dotyczy": "RRRR-MM-DD#n1", "wynik": "UZUPEŁNIONE", "pozycja": "z3"}` albo `"NIE DO POTWIERDZENIA"` (z `sprawdzono` i `powod`) albo `"ODPADA"` (z `powod`);
+- termin z kalendarza (data D) dwa dni po D nie ma pozycji w zarysie z datą zdarzenia D…D+2 i tymi samymi hashtagami-miejscami (gdy ich brak – choć jednym wspólnym hashtagiem), ani wpisu w `czego_nie_ma` z polem `"kalendarz": "D"`; jeden wpis kalendarza = jedno wydarzenie;
+- termin z `dane/terminy.json` (szczyty G7/G20/APEC/UE/NATO/ONZ, wizyty przywódców mocarstw, wybory w regionie; `id`, `od`, `do`, `tekst`, `tagi`, `zrodla`) nie stoi w kalendarzu każdego wydania z 7 dni przed nim albo – dwa dni po zakończeniu – nie ma pozycji w zarysie ani wpisu w `czego_nie_ma` z polem `"termin": "<id>"`. Listę uzupełniaj 1. dnia miesiąca i przy każdej zapowiedzi.
+
+`python3 narzedzia/build.py --raport-strazy` sprawdza te reguły na całym archiwum (jako ostrzeżenia).
+
+Pole `do_sprawdzenia` (lista tekstów) to notatki na następne wydanie – nie trafiają na stronę; `kontekst.py` je wypisuje.
+
+Przy każdym wydaniu aktualizuj też w `dane/tagi.json` pola `stan`, `stan_data`, `stan_zrodla` dla wątków, których dotyczyło.
+
+### Teksty OSW i PISM
+
+- `zrodla_analityczne` to wszystkie nowe teksty OSW i PISM z ostatnich 3 dni (tytuł, autor, data, numer, URL). W wydaniu lista stoi w sekcji II, zaraz pod analizami; w mailu tak samo.
+- Analiza oparta na tekście OSW/PISM ma ten tekst jako **pierwsze** źródło w `zrodla`, z tym samym adresem co w `zrodla_analityczne` (różnica `www.` nie ma znaczenia). Wtedy karta analizy pokazuje etykietę wydawcy i link „Przeczytaj tekst OSW/PISM” z oryginalnym tytułem, a lista i Czytelnia – odnośnik do omówienia.
+- `czytelnia.html` zbiera teksty ze wszystkich wydań (bez powtórzeń, od najnowszych) z filtrem OSW / PISM / z omówieniem; dla omówionych pokazuje wniosek „Dla Polski”, a przy tekstach z czytelni tygodniowej – pole `po_co`.
+- Kotwice w wydaniu: `#zarys`, `#mapa`, `#analizy`, `#analiza-N`, `#publikacje`, `#kalendarz`, `#czego-nie-ma`, `#nota`; spis sekcji pod „W skrócie” powstaje z nich automatycznie.
+
+## Wydanie tygodniowe (wycofane 4.10.2026)
+
+Tygodniówek już nie wydajemy; zastąpiło je miesięczne zestawienie Top 10 (niżej). Format zostaje opisany na wypadek archiwalnych danych.
+
+`"typ": "tygodniowe"`, `"okres": "26.09–02.10.2026"`; `zarys` to 5 przesunięć tygodnia, każde może mieć `"dla_polski"`.
+
+```json
+"weryfikacja": [{"dotyczy": "2026-09-29#z1", "bylo": "…", "jest": "…", "werdykt": "POTWIERDZONE|SPROSTOWANE|NADAL OTWARTE", "zrodla": [ZRODLO]}],
+"mapa_ciepla": {"kolumny": ["2026-09-26", "…"], "wiersze": [{"tag": "krolewiec", "wartosci": [0,1,2,3,…], "odnosniki": ["", "", "9/1.2", …], "sprostowane": [false, …]}]},
+"tracker": [{"tag": "slowacja", "tydzien_temu": "…", "dzis": "…", "kierunek": "↑|↓|→"}],
+"czytelnia": [{"tytul": "…", "autor": "…", "wydawca": "OSW|PISM", "numer": "…", "data": "…", "url": "…", "po_co": "…"}]
+```
+
+Werdykt SPROSTOWANE z polem `dotyczy` oznacza oryginalną pozycję znakiem ▲ i trafia do rejestru korekt.
+
+## Zestawienia Top 10 (dane/top/OD_DO.json)
+
+Co miesiąc, za poprzedni **miesiąc kalendarzowy** (plik `dane/top/RRRR-MM-01_RRRR-MM-OSTATNI.json`, publikacja 1. dnia następnego miesiąca). Zestawienie za pełny miesiąc strona nazywa miesiącem („Wrzesień 2026”). Dziesięć najważniejszych wydarzeń miesiąca, z szerszym omówieniem.
+
+**Kiedy wydarzenie trafia do Top 10** – trzy warunki naraz:
+1. zmieniło stan rzeczy w tym miesiącu (decyzja przyjęta, zmiana władzy, nowa zdolność wojskowa, incydent z realnym następstwem); retoryka i zapowiedzi bez terminu nie wystarczą,
+2. ma konkretny skutek dla Polski lub Europy, który da się nazwać w jednym zdaniu,
+3. jest udokumentowane w co najmniej dwóch pozycjach wydań dziennych z tego miesiąca.
+
+Przy wątkach trwających miesiącami liczy się zmiana w danym miesiącu, nie sam wątek. Kolejność: wpływ na bezpieczeństwo i interesy Polski → skala (ile państw lub instytucji) → trwałość skutków. Fakty bierzemy z wydań dziennych (już zweryfikowanych) i ich źródeł; nie weryfikujemy ich drugi raz, ale każdy wiersz przebiegu musi spełniać zasadę rankingu źródeł.
+
+**Historia zestawień.** Sprawa ciągnąca się z miesiąca na miesiąc zachowuje to samo `id` – strona sama oznacza ją odznaką „ponownie” i linkuje do poprzednich zestawień; nowa sprawa dostaje „nowe”, a pole `"rozstrzygniete": true` daje odznakę „rozstrzygnięte”. Stare adresy zestawień zastąpionych miesięcznymi przekierowuje `TOP_PRZEKIEROWANIA` w `build.py`. Strona `top/OD_DO.html`, lista `top/index.html`, blok na stronie głównej, odnośniki na stronach wątków, wyszukiwarka i RSS.
+
+```json
+{
+  "od": "2026-09-07", "do": "2026-10-02", "opublikowano": "2026-10-02", "godzina": "09:00",
+  "tytul": "…", "wstep": ["2–3 zdania"], "kryteria": "jak ustalono kolejność (ocena redakcji)",
+  "pozycje": [{
+    "id": "krolewiec", "tytul": "…", "tagi": ["krolewiec", "nato"], "etap": "PRZYJĘTE (opcjonalnie)",
+    "lead": "1–2 zdania z **wyróżnieniem**", "omowienie": ["akapit: kontekst", "akapit: co się zmieniło"],
+    "przebieg": [{"data": "2026-09-30", "tekst": "fakt", "etap": "opcjonalnie", "zrodla": [ZRODLO]}],
+    "oceny": [{"autor": "OSW (J. Kowalski), Analiza z 1.10.2026", "tekst": "…", "zrodla": [ZRODLO]}],
+    "dla_polski": "… Wniosek redakcji: …", "co_dalej": [{"data": "…", "tekst": "…"}],
+    "w_wydaniach": ["2026-09-30#z2"]
+  }],
+  "czego_nie_ma": [{"tekst": "…", "prog": "dokumentacja|następstwo|kompletność"}], "nota": "…"
+}
+```
+
+Walidacja jak w wydaniach: każdy wiersz `przebieg` musi mieć źródło z poziomu 1 albo dwa niezależne z poziomów 1–2 (daty w okresie zestawienia, dopuszczalny tydzień kontekstu przed jego początkiem), każda ocena – autora, osoby i pojęcia – karty, `w_wydaniach` – istniejące pozycje. Lead i omówienie mogą zawierać tylko fakty z wierszy przebiegu; interpretacja należy do ocen (z autorem) i do „Dla Polski” (oznaczonej jako wniosek redakcji). Najwyżej 10 pozycji.
+
+## Ranking źródeł
+
+`dane/zrodla.json` ocenia każde źródło w skali 1–5 (1 urzędowe – zielony, 2 wysoka wiarygodność, 3 z zastrzeżeniami, 4 niska, 5 strona zainteresowana – czerwony), z typem, krajem i uzasadnieniem. Źródło w wydaniu jest dopasowywane po początku nazwy (`wzorce`, np. „Reuters (za U.S. News)” → Reuters), a potem po domenie linku. Strona `zrodla.html` pokazuje ranking i rozkład cytowań; przy każdym źródle na stronie i w mailu jest kolorowa kropka.
+
+Walidacja odrzuca źródło spoza rankingu (nowe trzeba świadomie dopisać z poziomem i uzasadnieniem), a w wydaniach od 01.10.2026 także pozycję bez wystarczającej podstawy: źródło z poziomu 1 albo dwa niezależne z poziomów 1–2 (poziomy 3–5 nie liczą się do podstawy). Do `zrodla` pozycji wpisuj wszystkie źródła, którymi ją potwierdzono.
+
+## Grafiki
+
+- **Kalendarz wydań** — osobna strona `kalendarz.html` (pozycja „Kalendarz” w menu, wszystkie miesiące naraz), na górze każdego wydania (pasek: poprzednie / kalendarz miesiąca / następne) i na stronie głównej pod „W skrócie” (`#kalendarz`, miesiące przełączane strzałkami, obok pięć ostatnich wydań). Dzień z wydaniem jest odnośnikiem; tygodniówka (`RRRR-MM-DD-tydzien`) ma kolor ochry i znacznik T obok dziennika z tego samego dnia. Bez JavaScriptu poza zamykaniem panelu kliknięciem obok i klawiszem Esc.
+
+`build.py` rysuje dwie grafiki SVG z tych samych danych (bez JavaScriptu poza przewinięciem osi do końca):
+
+- **Mapa Europy** — na stronie głównej (pozycje z 7 dni) i w każdym wydaniu. Kraj z hashtagiem-miejscem jest zabarwiony liczbą pozycji (1 / 2–3 / 4+) i prowadzi do strony wątku; Polska liczy pozycje z bloku „Polska”. Przypisanie hashtagów do krajów: `MAPA_TAGI` w `build.py`; miejsca poza kadrem (USA, Iran, Chiny) są wymienione pod mapą.
+- **Oś czasu wątku** — na każdej stronie `watki/<tag>.html`: kropka = pozycja w dniu zdarzenia (pełna – pozycja, czerwona – sprostowana), romb = termin z kalendarza; kliknięcie przenosi do pozycji na liście.
+
+Kontury (`narzedzia/europa.json`, Natural Earth 1:50m, Krym w granicach Ukrainy) generuje jednorazowo `narzedzia/mapa_dane.py`; nowy hashtag-miejsce w Europie wymaga dopisania do `MAPA_TAGI` (i ewentualnie etykiety w `mapa_dane.py`).

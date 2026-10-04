@@ -1,0 +1,461 @@
+{
+  "nr": 11,
+  "data": "2026-09-30",
+  "godzina": "20:30",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Ujawniono rosyjską **notę do NATO w sprawie Królewca**: w razie próby izolacji obwodu Moskwa grozi użyciem „całego arsenału, w tym broni jądrowej”; Kreml potwierdził jej istnienie, NATO ją odrzuciło.",
+    "W nocy 29/30.09 Rosja zaatakowała Ukrainę 188 dronami i pociskami (celem była energetyka Kijowa); w Polsce poderwano myśliwce, a od 1.10 obowiązują **nowe procedury obrony powietrznej** (identyfikacja pozytywna zamiast wizualnej).",
+    "Wstępna **inflacja CPI za wrzesień wzrosła do 4,0% r/r** (GUS; paliwa +36,1% r/r).",
+    "W Rumunii parlament odrzucił rząd Siegfrieda Mureșana (trzecia nieudana próba od maja), co otwiera drogę do rozwiązania parlamentu."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-09-30",
+      "tagi": [
+        "ukraina",
+        "energia"
+      ],
+      "tekst": "Noc 29/30.09: według Sił Powietrznych Ukrainy Rosja użyła **188 dronów** (w tym 86 odrzutowych) oraz pocisków przeciwokrętowych 3M22 Cyrkon i P-800 Oniks i balistycznych Iskander-M i S-400; strącono lub zneutralizowano 160 celów, trafienia w 18 miejscach. Prezydent {{o:wolodymyr-zelenski|Wołodymyr Zełenski}}: głównym celem była **energetyka Kijowa** i obwodu. Zginęły co najmniej 4 osoby, w tym dziecko w Wyszhorodzie. Rosyjskie MO podało, że celem były węzły łączności i energetyka „wspierająca produkcję wojskową”.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Post",
+          "url": "https://www.kyivpost.com/post/85695",
+          "data": "2026-09-30"
+        },
+        {
+          "nazwa": "RFE/RL",
+          "url": "https://www.rferl.org/a/russia-drone-missile-stirke-ukraine-kyiv/33866974.html",
+          "data": "2026-09-30"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-attacks-kill-at-least-6-injure-34-across-ukraine-as-kyiv-faces-another-overnight-missile-drone-attack/",
+          "data": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-09-30",
+      "tagi": [
+        "krolewiec",
+        "nato",
+        "rosja"
+      ],
+      "tekst": "Rosja przekazała NATO pisemne ostrzeżenie: jeśli Sojusz spróbuje odizolować **obwód królewiecki**, Moskwa użyje „całego arsenału, w tym broni jądrowej”, i zastrzega możliwość uderzeń na „ośrodki decyzyjne” państw członkowskich. Dmitrij Pieskow, rzecznik Kremla, potwierdził: dyplomaci „przypominają gorącym głowom w Europie” o rosyjskich dokumentach doktrynalnych. Rzeczniczka NATO Allison Hart potwierdziła otrzymanie wiadomości i odpowiedź Sojuszu: „stanowczo potępiamy groźbę użycia siły, w tym nieodpowiedzialną retorykę jądrową”. Podobne ostrzeżenie wydała ambasada Rosji w Irlandii.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters za Moscow Times",
+          "url": "https://www.themoscowtimes.com/2026/09/30/moscow-sends-nuclear-warning-to-nato-as-tensions-rise-in-the-baltic-a93828",
+          "data": "2026-09-30"
+        },
+        {
+          "nazwa": "AP (za CP24)",
+          "url": "https://www.cp24.com/news/world/2026/09/30/russia-warns-nato-of-a-possible-nuclear-response-if-kaliningrad-is-cut-off/",
+          "data": "2026-09-30"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russia-issues-new-nuclear-threat-over-kaliningrad-as-tensions-with-nato-rise/",
+          "data": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "swiat",
+      "data": "2026-09-30",
+      "tagi": [
+        "iran",
+        "usa"
+      ],
+      "tekst": "Iran: USA przekazały przez mediatorów z Kataru oficjalną **odpowiedź na irański plan 7-dniowy**; Araghczi przedstawił ją prezydentowi Masudowi Pezeszkianowi na posiedzeniu rządu (AP). Według Reutersa strony zgadzają się co do kroków, ale nie co do kolejności, a Iran żąda powrotu do czerwcowego memorandum; Axios ocenia, że mediacja dała „niewiele”.",
+      "zrodla": [
+        {
+          "nazwa": "Axios",
+          "url": "https://www.axios.com/2026/09/29/trump-iran-war-qatar-diplomacy",
+          "data": "2026-09-29"
+        },
+        {
+          "nazwa": "Reuters (za Investing.com)",
+          "url": "https://www.investing.com/news/commodities-news/iran-receives-us-feedback-on-sevenday-trustbuilding-plan-4924251",
+          "data": "2026-09-30"
+        },
+        {
+          "nazwa": "AP (za Boston Globe)",
+          "url": "https://www.bostonglobe.com/2026/09/30/world/iran-us-response-end-war/",
+          "data": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "polska",
+      "data": "2026-09-30",
+      "tagi": [
+        "obronnosc-polski"
+      ],
+      "tekst": "Wicepremier, minister obrony narodowej {{o:wladyslaw-kosiniak-kamysz|Władysław Kosiniak-Kamysz}}: procedury są gotowe, od 1.10 piloci i {{p:opl|obrona powietrzna}} stosują **identyfikację pozytywną** (radary, systemy elektroniczne, informacje m.in. z Ukrainy) zamiast identyfikacji wizualnej. Zmiana rozkazami wojskowymi, bez nowelizacji ustawy. Zamyka to zapowiedź wiceministra Cezarego Tomczyka z 24 i 28.09.",
+      "zrodla": [
+        {
+          "nazwa": "Dziennik.pl / Gazeta Prawna",
+          "url": "https://wiadomosci.dziennik.pl/polityka/artykuly/11322248,zmiany-w-obronie-polskiego-nieba-wojsko-wprowadza-nowe-zasady.html",
+          "data": "2026-09-30"
+        },
+        {
+          "nazwa": "Polska Zbrojna (MON)",
+          "url": "https://polska-zbrojna.pl/home/articleshow/47316?title=Obrona-powietrzna-bedzie-strzelac-szybciej",
+          "data": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "id": "z9",
+      "blok": "instytucje",
+      "data": "2026-09-30",
+      "tagi": [
+        "rumunia"
+      ],
+      "tekst": "Rumunia: parlament **nie udzielił {{p:wotum-nieufnosci|wotum zaufania}} rządowi {{o:siegfried-muresan|Siegfrieda Mureșana}}** – 182 głosy za przy wymaganych 233 (15 przeciw); AUR zbojkotowała głosowanie, posłowie PSD byli obecni, ale nie głosowali. To trzecia nieudana próba od upadku rządu Ilie Bolojana w maju; według Agerpres art. 89 konstytucji pozwala teraz prezydentowi rozwiązać parlament. USR (Dominic Fritz) żąda przedterminowych wyborów, PSD (Sorin Grindeanu) domaga się rządu „z pełnią władzy” i stanowiska premiera dla siebie; prezydent Nicușor Dan ostrzegał, że przedterminowe wybory nie rozwiążą kryzysu.",
+      "zrodla": [
+        {
+          "nazwa": "Agerpres (agencja państwowa)",
+          "url": "https://agerpres.ro/english/2026/09/30/muresan-gov-t-fails-to-secure-parliament-s-confidence-vote-roundup--1598492",
+          "data": "2026-09-30"
+        },
+        {
+          "nazwa": "AFP (za Arab News)",
+          "url": "https://www.arabnews.com/world/romanian-parliament-rejects-pro-eu-pm-candidate-amid-political-deadlock-3003917",
+          "data": "2026-09-30"
+        },
+        {
+          "nazwa": "Reuters (za Internazionale)",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/30/romanian-pm-designate-muresan-loses-confidence-vote",
+          "data": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "id": "z12",
+      "blok": "instytucje",
+      "data": "2026-09-29",
+      "tagi": [
+        "estonia",
+        "hybryda"
+      ],
+      "tekst": "Estonia: premier {{o:kristen-michal|Kristen Michal}} i dyrektor generalny Policji Bezpieczeństwa (KAPO) Margo Palloson **przypisali rosyjskim służbom podpalenie zakładu Milrem Robotics** (producent bezzałogowych pojazdów lądowych) z 15.08; wezwano rosyjskiego chargé d’affaires.",
+      "zrodla": [
+        {
+          "nazwa": "ERR (estońska telewizja publiczna)",
+          "url": "https://news.err.ee/1610151220/estonia-russia-responsible-for-arson-attack-on-defense-contractor-milrem",
+          "data": "2026-09-29"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/09/29/estonia-slams-russian-sabotage-after-arson-attack-on-defence-company-milrem-robotics",
+          "data": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "id": "z13",
+      "blok": "gospodarka",
+      "data": "2026-09-30",
+      "tagi": [
+        "gospodarka",
+        "energia"
+      ],
+      "tekst": "GUS, szybki szacunek: **{{p:cpi|CPI}} we wrześniu 4,0% r/r** (0,7% m/m; sierpień 3,4%) – nieco poniżej konsensusu PAP Biznes (4,1%), ale wyraźnie powyżej celu NBP (2,5% ±1 pkt proc.). Paliwa +36,1% r/r, energia +4,9%, żywność −0,5%. Ropa Brent 30.09 ok. 98,5 USD (TradingEconomics), +8,8% w miesiącu.",
+      "zrodla": [
+        {
+          "nazwa": "GUS / stat.gov.pl",
+          "url": "https://stat.gov.pl/obszary-tematyczne/ceny-handel/wskazniki-cen/szybki-szacunek-wskaznika-cen-towarow-i-uslug-konsumpcyjnych-we-wrzesniu-2026-r-,21,45.html",
+          "data": "2026-09-30"
+        },
+        {
+          "nazwa": "RMF24",
+          "url": "https://www.rmf24.pl/fakty/ekonomia/news-zle-wiesci-o-inflacji-w-polsce-gus-podal-nowe-dane,nIdn,1019786",
+          "data": "2026-09-30"
+        },
+        {
+          "nazwa": "TradingEconomics",
+          "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+          "data": "2026-09-30"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "Rosja przestawia się na długą wojnę i uderza w infrastrukturę cyfrową",
+      "autor": "OSW (zespół), Analiza z 29.09",
+      "tagi": [
+        "rosja",
+        "ukraina"
+      ],
+      "tekst": "Ataki na centra danych od 23.09 (27.09 – 10 w Kijowie, 1 w Dnieprze) i rekordowe ponad 1684 drony w tygodniu mają przeciążyć ukraińską obronę powietrzną i systemy ostrzegania; dekret o zwiększeniu armii i budżet obronny 2027 (17,1 bln rub.) świadczą o przygotowaniu do długiej wojny.",
+      "dla_polski": "Planowanie wsparcia dla Ukrainy (w tym hubu w Rzeszowie i dostaw środków obrony powietrznej) należy liczyć w horyzoncie wieloletnim; ochrona polskich centrów danych i łączności przed atakami fizycznymi i cybernetycznymi powinna wejść do priorytetów programu ochrony infrastruktury krytycznej.",
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-09-29/rosjanie-atakuja-centra-danych-w-kijowie-1679-dzien-wojny",
+          "data": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "tytul": "Eskalacja jako wybór Moskwy",
+      "autor": "PISM (Anna Maria Dyner), Biuletyn nr 65 (2697), 28.09",
+      "tagi": [
+        "rosja",
+        "krolewiec",
+        "hybryda"
+      ],
+      "tekst": "Wynik wyborów do {{p:duma|Dumy}} pokazuje, że Moskwa wybiera eskalację – należy oczekiwać większej liczby uderzeń na ukraińską infrastrukturę i operacji hybrydowych wobec państw NATO; autorka zaleca zwiększenie pomocy dla Ukrainy, ochrony infrastruktury krytycznej i koordynacji wywiadowczej. Nota o Królewcu z 30.09 wpisuje się w tę ocenę – to wniosek redakcji, nie PISM.",
+      "dla_polski": "Polska jako państwo graniczące z obwodem królewieckim jest bezpośrednim adresatem rosyjskiej presji; Warszawa powinna zabiegać o wspólną, jawną odpowiedź NATO na notę i nie dopuścić, by groźba zniechęciła sojuszników do ćwiczeń i obecności na wschodniej flance.",
+      "zrodla": [
+        {
+          "nazwa": "PISM",
+          "url": "https://pism.pl/publikacje/rosyjski-potencjal-eskalacyjny",
+          "data": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "tytul": "Front i granica w ocenie ISW",
+      "autor": "ISW (Russian Offensive Campaign Assessment, 28.09)",
+      "tagi": [
+        "front",
+        "obronnosc-polski"
+      ],
+      "tekst": "Trzecia faza ukraińskiej operacji „Vivaldi” pod Łymanem przyniosła odbicie 5 miejscowości; rosyjscy milblogerzy obwiniają „kulturę kłamstwa” w armii; drony rosyjskie po raz drugi we wrześniu uderzyły przy Jagodzinie, blisko granicy z Polską, co ISW łączy z zapowiedzią zmiany polskich zasad użycia siły; Kreml ogranicza informacje o sektorze naftowo-gazowym.",
+      "dla_polski": "Nowe procedury obowiązujące od 1.10 zostaną wkrótce przetestowane przez rosyjskie drony operujące przy przejściach granicznych; MON powinien z góry jasno komunikować zasady (także sojusznikom i Ukrainie), aby ewentualne zestrzelenie nie stało się pretekstem do rosyjskiej narracji o eskalacji.",
+      "zrodla": [
+        {
+          "nazwa": "ISW, Russian Offensive Campaign Assessment",
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-september-28-2026",
+          "data": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "tytul": "Serbia: dwa głosowania zamiast jednego",
+      "autor": "OSW (Jan Nowinowski), Analiza z 28.09",
+      "tagi": [
+        "balkany",
+        "wybory"
+      ],
+      "tekst": "Rozdzielenie wyborów parlamentarnych (25.10) i prezydenckich (do 27.12) osłabia mobilizację opozycji, zwłaszcza ruchu studenckiego; obóz rządzący nie ma silnego kandydata na prezydenta.",
+      "dla_polski": "Dla polskiej polityki wobec rozszerzenia UE oznacza to ponad trzy miesiące niepewności w Belgradzie; Warszawa nie powinna liczyć na postęp w negocjacjach akcesyjnych Serbii przed końcem roku.",
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-09-28/dymisja-prezydenta-vucicia-w-serbii-teatr-jednego-aktora",
+          "data": "2026-09-28"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-10-01",
+      "tekst": "Wchodzą w życie nowe procedury polskiej obrony powietrznej (identyfikacja pozytywna).",
+      "tagi": [
+        "obronnosc-polski"
+      ]
+    },
+    {
+      "data": "2026-10-01",
+      "tekst": "Rada UE ds. Wymiaru Sprawiedliwości i Spraw Wewnętrznych (sprawy wewnętrzne), Luksemburg.",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-10-01",
+      "tekst": "Czechy – ciąg dalszy debaty nad wotum nieufności dla rządu Babiša.",
+      "tagi": [
+        "czechy"
+      ]
+    },
+    {
+      "data": "2026-10-01",
+      "tekst": "Sąd rejonowy w Kecskemét – decyzja o areszcie Hankó.",
+      "tagi": [
+        "wegry"
+      ]
+    },
+    {
+      "data": "2026-10-01",
+      "tekst": "Francja – projekt budżetu 2027 na Radzie Ministrów.",
+      "tagi": [
+        "francja"
+      ]
+    },
+    {
+      "data": "2026-10-02",
+      "tekst": "Rada WSiSW (sprawiedliwość): Eurojust, rozliczanie zbrodni wojennych w Ukrainie.",
+      "tagi": [
+        "ue",
+        "ukraina"
+      ]
+    },
+    {
+      "data": "2026-10-03",
+      "tekst": "Wybory do Sejmu Łotwy.",
+      "tagi": [
+        "lotwa",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-04",
+      "tekst": "Wybory powszechne w Bośni i Hercegowinie.",
+      "tagi": [
+        "balkany",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-06",
+      "tekst": "Litwa: pierwsze z dwóch rozstrzygających głosowań Sejmu nad uchyleniem art. 137 konstytucji (zakaz broni masowego rażenia i obcych baz; min. 94 głosy); drugie 12.01.2027.",
+      "tagi": [
+        "litwa"
+      ]
+    },
+    {
+      "data": "2026-10-06",
+      "tekst": "6–7.10: posiedzenie Rady Polityki Pieniężnej (pierwsze po wzroście CPI do 4,0%).",
+      "tagi": [
+        "gospodarka"
+      ]
+    },
+    {
+      "data": "2026-10-08",
+      "tekst": "Eurogrupa (8.10) i ECOFIN (9.10).",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-10-09",
+      "tekst": "9–10.10: Czechy – I tura wyborów do Senatu i wybory samorządowe (II tura 16–17.10).",
+      "tagi": [
+        "czechy",
+        "wybory"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-10-12",
+      "tekst": "12–18.10: doroczne zgromadzenia MFW i Banku Światowego (Bangkok)",
+      "tagi": [
+        "mfw"
+      ]
+    },
+    {
+      "data": "2026-10-13",
+      "tekst": "Rada do Spraw Ogólnych, na którą prezydencja irlandzka ma przygotować propozycję negocjacyjną WRF 2028–34 z liczbami (Agence Europe 22.09; termin niepotwierdzony w kalendarzu Rady)",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-10-15",
+      "tekst": "15–16.10: Rada Europejska",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-10-25",
+      "tekst": "wybory parlamentarne w Serbii",
+      "tagi": [
+        "balkany",
+        "wybory"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [
+      {
+        "tytul": "Rosjanie atakują centra danych w Kijowie. 1679. dzień wojny",
+        "autor": "zespół",
+        "data": "2026-09-29",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-09-29/rosjanie-atakuja-centra-danych-w-kijowie-1679-dzien-wojny"
+      },
+      {
+        "tytul": "Dymisja prezydenta Vučicia w Serbii – teatr jednego aktora",
+        "autor": "Jan Nowinowski",
+        "data": "2026-09-28",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-09-28/dymisja-prezydenta-vucicia-w-serbii-teatr-jednego-aktora"
+      }
+    ],
+    "pism": [
+      {
+        "tytul": "Rosyjski potencjał eskalacyjny",
+        "autor": "Anna Maria Dyner",
+        "numer": "Biuletyn nr 65 (2697)",
+        "data": "2026-09-28",
+        "url": "https://pism.pl/publikacje/rosyjski-potencjal-eskalacyjny"
+      }
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "tekst": "Dzienny atak 30.09 (285 dronów wg Mezha.net) – jedno źródło.",
+      "prog": "dokumentacja"
+    },
+    {
+      "tekst": "Amerykańska propozycja rozejmu energetycznego (Kyiv Independent, źródła anonimowe) – jedno źródło.",
+      "prog": "dokumentacja"
+    },
+    {
+      "tekst": "Wniesienie budżetu Rosji 2027 do Dumy – sprzeczne źródła (Moscow Times: plan na 1.10 vs wzmianka o 24.09), nie rozstrzygnięto.",
+      "prog": "dokumentacja"
+    },
+    {
+      "tekst": "Pierwsze posiedzenie Dumy IX kadencji i ponowny wybór Wiaczesława Wołodina – tylko tytuły.",
+      "prog": "dokumentacja"
+    },
+    {
+      "tekst": "Czechy – głosowania nad wotum nieufności 30.09 nie było.",
+      "prog": "następstwo"
+    },
+    {
+      "tekst": "Premier Litwy Sinkevičius o pokryciu kosztów wojsk USA – jedno źródło.",
+      "prog": "dokumentacja"
+    },
+    {
+      "tekst": "Dron z ładunkiem na wyspie Insula Mare (Rumunia, 29.09) – tylko tytuły.",
+      "prog": "dokumentacja"
+    },
+    {
+      "tekst": "Kanclerz Merz o braku woli negocjacji Rosji.",
+      "prog": "następstwo"
+    },
+    {
+      "tekst": "Brent: rozbieżność 98,5 USD (TradingEconomics) vs ok. 103 USD (Gulf News, kontrakt listopadowy).",
+      "prog": "dokumentacja"
+    },
+    {
+      "tekst": "Kursy NBP z 30.09 (EUR 4,3672) – jedno źródło wtórne.",
+      "prog": "dokumentacja"
+    },
+    {
+      "tekst": "PAC-3 – brak odpowiedzi USA; podpalenie stacji Starlink – bez nowych ustaleń.",
+      "prog": "następstwo"
+    },
+    {
+      "tekst": "Poranny alert RCB i poderwanie samolotów 30.09 – nie otwarto żadnego czołowego źródła z tą datą, pozycję usunięto.",
+      "prog": "dokumentacja"
+    }
+  ],
+  "nota": "Wydanie przygotowane 30.09.2026 między 20:10 a 21:00 CEST na podstawie stron otwartych tego dnia (agencje, serwisy krajowe, Kyiv Independent, Kyiv Post, OSW, PISM, GUS, TradingEconomics; ISW za streszczeniem Kyiv Post – strona ISW niedostępna). Kontrola niezależna przed wysyłką: 0 błędów, 9 doprecyzowań wprowadzonych. Korekty wyd. nr 10: brak błędów. Na stronę przeniesione 1.10.2026 z wysłanego wydania mailowego bez zmian merytorycznych; dodano hashtagi i wyróżnienia słów kluczowych. 1.10.2026 zastąpiono źródła z mniejszych portali źródłami z czołowych mediów; po sprawdzeniu w oryginale ocenę ISW o froncie przypisano do wydania z 28.09 (wcześniej: 29.09), bo tam znajdują się opisane tezy; pozycje o budżecie 2027 i Rumunii ograniczono do tego, co potwierdzają tytuły PAP i Reuters oraz Agerpres."
+}

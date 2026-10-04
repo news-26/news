@@ -1,0 +1,157 @@
+{
+  "nr": 6,
+  "data": "2026-09-25",
+  "godzina": "20:30",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Macron ostrzegł, że po wyborach do {{p:duma|Dumy}} Rosja **szykuje mobilizację** ok. 300 tys. ludzi; Jedna Rosja ma w Dumie rekordowe 355 mandatów.",
+    "Rosyjski atak na Kijów 25.09 zabił co najmniej siedem osób; premier Słowacji Fico mówi, że rząd może stracić większość."
+  ],
+  "korekty": [],
+  "analizy": [],
+  "kalendarz": [],
+  "zrodla_analityczne": {
+    "osw": [],
+    "pism": []
+  },
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "swiat",
+      "data": "2026-09-24",
+      "tagi": [
+        "usa",
+        "chiny"
+      ],
+      "etap": "PRZYJĘTE",
+      "tekst": "Prezydent USA {{o:donald-trump|Donald Trump}} przyjął 23–25.09 z wizytą państwową prezydenta ChRL {{o:xi-jinping|Xi Jinpinga}}; sekretarz skarbu {{o:scott-bessent|Scott Bessent}} ogłosił 23.09 przedłużenie **rozejmu handlowego USA–Chiny** z Busan z 10.11.2026 do 10.01.2027, a według Białego Domu uzgodniono rekomendacje korzystniejszych ceł na towary niewrażliwe o wartości 30 mld dol. w każdą stronę i powołano dialog o superinteligencji (następna runda do listopada). Według komunikatu MSZ ChRL Xi wyraził oczekiwanie, że USA będą się sprzeciwiać niepodległości Tajwanu, a przywódcy wymienili poglądy m.in. o wojnie w Ukrainie – bez ogłoszonych ustaleń w tej sprawie.",
+      "zrodla": [
+        {
+          "nazwa": "Biały Dom (fact sheet o wizycie państwowej)",
+          "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-advances-a-fair-and-reciprocal-relationship-with-china-while-hosting-historic-state-visit/",
+          "data": "2026-09-25"
+        },
+        {
+          "nazwa": "Biały Dom (komunikat o zakończeniu wizyty)",
+          "url": "https://www.whitehouse.gov/releases/2026/09/president-trump-first-lady-conclude-historic-china-state-visit/",
+          "data": "2026-09-25"
+        },
+        {
+          "nazwa": "Reuters (za Investing.com)",
+          "url": "https://www.investing.com/news/stock-market-news/trump-plans-grand-spectacle-for-potentially-tense-xi-talks-4912458",
+          "data": "2026-09-23"
+        },
+        {
+          "nazwa": "ABC News",
+          "url": "https://abcnews.com/Politics/trump-rolls-red-carpet-chinas-xi/story?id=136692781",
+          "data": "2026-09-23"
+        },
+        {
+          "nazwa": "MSZ ChRL (komunikat o rozmowach)",
+          "url": "https://www.fmprc.gov.cn/eng/xw/zyxw/202609/t20260925_12031181.html",
+          "data": "2026-09-25"
+        },
+        {
+          "nazwa": "AP (za WSLS)",
+          "url": "https://www.wsls.com/news/politics/2026/09/24/the-latest-trump-and-xi-jinping-will-hold-talks-in-washington-on-trade-ai-and-more/",
+          "data": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-09-24",
+      "tagi": [
+        "rosja",
+        "ukraina",
+        "francja"
+      ],
+      "tekst": "Prezydent {{o:emmanuel-macron|Emmanuel Macron}} powiedział 24.09, że widać „kilka sygnałów”, iż po wyborach Rosja zmobilizuje ok. 300 tys. ludzi; pytanie, czy ogłosi to publicznie, czy zrobi po cichu. Powołał się na raporty służb europejskich i amerykańskich oraz dane ukraińskie; Kancelaria Prezydenta Ukrainy ostrzegała w sierpniu przed 600 tys. mobilizowanych w latach 2026–2027. Reakcji Kremla w tym źródle nie ma.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/macron-cites-several-signs-russia-is-preparing-to-mobilize-300-000-people/",
+          "data": "2026-09-24"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/09/24/french-president-emmanuel-macron-denies-claims-the-cia-informed-france-of-a-possible-russi",
+          "data": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "swiat",
+      "data": "2026-09-21",
+      "tagi": [
+        "rosja",
+        "wybory"
+      ],
+      "tekst": "W wyborach do {{p:duma|Dumy}} (18–20.09) Jedna Rosja zdobyła rekordowe 355 z 450 mandatów, czyli większość konstytucyjną (frekwencja ponad 59%); Komuniści mają 40, LDPR 25, Nowi Ludzie 20. Euronews zaznacza, że pierwsze wybory po inwazji z 2022 r. odbyły się bez partii krytycznych wobec Putina, a krytyka wojny jest zakazana.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/09/21/russians-vote-in-final-day-of-parliamentary-elections",
+          "data": "2026-09-21"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/09/21/united-russia-secures-constitutional-majority-in-state-duma-with-355-seats-as-election-officials-report-record-59-turnout",
+          "data": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "wojna",
+      "data": "2026-09-25",
+      "tagi": [
+        "ukraina",
+        "rosja"
+      ],
+      "tekst": "Rosyjski atak dronami na blok mieszkalny w Kijowie 25.09 zabił co najmniej siedem osób, w tym 14-latka, a rannych jest kilkudziesięciu; liczby rosły w ciągu dnia i w pierwszych relacjach były niższe.",
+      "zrodla": [
+        {
+          "nazwa": "RFE/RL",
+          "url": "https://www.rferl.org/a/ukraie-russia-attacks-civilians-killed-drone-threats/33864157.html",
+          "data": "2026-09-25"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-overnight-attack-on-kyiv-sets-fires-damages-buildings/",
+          "data": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "z6",
+      "blok": "swiat",
+      "data": "2026-09-25",
+      "tagi": [
+        "slowacja"
+      ],
+      "tekst": "Premier {{o:robert-fico|Robert Fico}} powiedział 25.09, że decyzja SNS o odwołaniu ministra środowiska Tomáša Taraby „prowadzi do utraty większości” parlamentarnej: Taraba zagroził utworzeniem nowego klubu z innymi posłami koalicji, co odebrałoby rządowi trzymandatową większość w 150-osobowej Radzie Narodowej. Fico zażądał od przewodniczącego SNS Andreja Danka i od Taraby gwarancji utrzymania większości i dopuścił wycofanie wniosku o odwołanie.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (za ThePrint)",
+          "url": "https://theprint.in/world/slovak-pm-fico-says-government-may-lose-majority-over-spat-in-coalition-partner/3053714/",
+          "data": "2026-09-25"
+        },
+        {
+          "nazwa": "Denník N",
+          "url": "https://dennikn.sk/5584243/fico-priznal-ze-straca-vacsinu-a-pripusta-ze-tarabu-neodvola-riesenie-ziada-od-danka/",
+          "data": "2026-09-25"
+        }
+      ]
+    }
+  ],
+  "czego_nie_ma": [
+    {
+      "tekst": "Wypowiedź Sikorskiego o „czymś dużym” szykowanym przez Rosję, rozejm UE–Chiny i szczegóły szczytu Trump–Xi (Tajwan), instrukcja MSWiA, cyberataki na dane medyczne, kurs złotego i decyzje banków centralnych – nie otwarto czołowych źródeł z treścią artykułu.",
+      "prog": "dokumentacja"
+    }
+  ],
+  "nota": "Wydanie nr 6 z 25.09.2026 (stan na 20:30 CEST) przeniesione na stronę 1.10.2026 z archiwum projektu. Źródła każdej pozycji odnaleziono i otwarto ponownie 1.10.2026, wyłącznie w czołowych mediach i agencjach; zakres jest znacznie węższy niż w oryginale (bez analiz, kalendarza i danych rynkowych). Tytuł „Rosja szykuje mobilizację” to ocena Macrona, nie fakt. Pozycja z1 (szczyt Trump–Xi) wycofana w rewizji archiwum 1.10.2026 z braku drugiego źródła, przywrócona 4.10.2026 w treści potwierdzonej komunikatami Białego Domu i MSZ ChRL oraz depeszami Reutersa, ABC i AP – korekta w wydaniu nr 15."
+}

@@ -1,0 +1,53 @@
+{
+  "_opis": "Zaplanowane wydarzenia, których nie wolno przegapić (szczyty G7/G20/APEC/UE/NATO/ONZ, spotkania przywódców mocarstw, wybory w sąsiedztwie Polski i w UE). Uzupełniać 1. dnia miesiąca i przy każdej zapowiedzi. build.py wymaga: na 7 dni przed – wpisu w kalendarzu wydania; po zakończeniu (+2 dni) – pozycji w zarysie albo wpisu w „Czego tu nie ma” z polem termin.",
+  "terminy": [
+    {
+      "id": "rada-europejska-2026-10",
+      "od": "2026-10-15",
+      "do": "2026-10-16",
+      "tekst": "Rada Europejska w Brukseli",
+      "tagi": [
+        "ue"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE",
+          "url": "https://www.consilium.europa.eu/en/meetings/european-council/2026/10/15-16/",
+          "data": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "id": "apec-2026",
+      "od": "2026-11-18",
+      "do": "2026-11-19",
+      "tekst": "Spotkanie przywódców APEC w Shenzhen (Chiny)",
+      "tagi": [
+        "chiny"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Władze Shenzhen",
+          "url": "https://www.sz.gov.cn/en_szgov/news/latest/content/post_12548726.html",
+          "data": "2025-12-12"
+        }
+      ]
+    },
+    {
+      "id": "g20-2026",
+      "od": "2026-12-14",
+      "do": "2026-12-15",
+      "tekst": "Szczyt przywódców G20 w Miami (Doral), gospodarz: prezydent USA",
+      "tagi": [
+        "usa"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Departament Stanu",
+          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/the-united-states-to-host-g20-foreign-ministers-meeting-in-atlanta-georgia/",
+          "data": "2026-05-18"
+        }
+      ]
+    }
+  ]
+}

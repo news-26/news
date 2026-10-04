@@ -1,0 +1,222 @@
+{
+  "nr": 10,
+  "data": "2026-09-29",
+  "godzina": "20:30",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Iran rozmawiał w Nowym Jorku z mediatorami z Kataru; USA uzależniają porozumienie od kwestii programu jądrowego, a {{p:ormuz|Cieśnina Ormuz}} pozostaje zamknięta.",
+    "Putin podpisał 28.09 czwarty w tym roku **dekret zwiększający armię** (do 2,44 mln etatów).",
+    "Po uderzeniu rosyjskiego drona ok. 2 km od Dorohuska MON zapowiedział **zestrzeliwanie po identyfikacji pozytywnej**."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "swiat",
+      "data": "2026-09-29",
+      "tagi": [
+        "iran",
+        "usa"
+      ],
+      "tekst": "Minister spraw zagranicznych Iranu {{o:abbas-araghczi|Abbas Araghczi}} czeka na odpowiedź USA na irański **plan otwarcia {{p:ormuz|Cieśniny Ormuz}} w 7 dni** (w zamian za zniesienie amerykańskiej blokady portów, odmrożenie aktywów i zwolnienie z sankcji naftowych). USA oczekują ustępstw w sprawie programu jądrowego, a Araghczi zapowiada, że 7 dni liczyłoby się od przyjęcia planu. Mediatorzy (Katar, według AP także Pakistan) nadal pracują nad porozumieniem.",
+      "zrodla": [
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://aljazeera.com/news/2026/9/29/us-iran-talks-in-new-york-whats-the-latest",
+          "data": "2026-09-29"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/09/26/trump-reportedly-rejects-iranian-plan-to-reopen-strait-of-hormuz",
+          "data": "2026-09-26"
+        },
+        {
+          "nazwa": "AP (za PBS NewsHour)",
+          "url": "https://www.pbs.org/newshour/world/mediators-still-working-on-u-s-iran-deal-after-trump-rejected-latest-tehran-proposal",
+          "data": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-09-28",
+      "tagi": [
+        "rosja"
+      ],
+      "tekst": "Prezydent {{o:wladimir-putin|Władimir Putin}} podpisał dekret zwiększający liczebność sił zbrojnych Rosji do **2 441 630 etatów**, w tym 1 550 500 wojskowych (ok. 15,5 tys. więcej niż od lipca). To czwarte takie zwiększenie w 2026 r. Prezydent Ukrainy {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} ostrzega, że Rosja rozpoczęła już dodatkową mobilizację i przygotowuje wysłanie ok. 10 tys. żołnierzy z Korei Północnej.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/putin-signs-latest-decree-increasing-russian-military-staff-in-wake-of-monster-military-budget-looming-mobilization/",
+          "data": "2026-09-29"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/09/28/putin-orders-fourth-expansion-of-russia-s-armed-forces-this-year",
+          "data": "2026-09-28"
+        },
+        {
+          "nazwa": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/29/putin-russia-army-ukraine-zelenskyy-north-korea.html",
+          "data": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "polska",
+      "data": "2026-09-28",
+      "tagi": [
+        "hybryda",
+        "ukraina",
+        "obronnosc-polski"
+      ],
+      "tekst": "Rosyjski dron odrzutowy uderzył 28.09 ok. **2 km od polsko-ukraińskiego przejścia granicznego w Dorohusku** (po stronie ukraińskiej, rejon Jagodzina). Informację potwierdził wicepremier, minister obrony narodowej {{o:wladyslaw-kosiniak-kamysz|Władysław Kosiniak-Kamysz}}; naruszenia polskiej przestrzeni powietrznej nie było. Przejścia w Dorohusku i Zosinie ewakuowano i ok. 17:20 otwarto ponownie.",
+      "zrodla": [
+        {
+          "nazwa": "RMF24",
+          "url": "https://www.rmf24.pl/fakty/swiat/news-rosyjski-dron-uderzyl-tuz-przy-polskiej-granicy-incydent-w-p,nIdn,1019550",
+          "data": "2026-09-28"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-drone-strikes-near-ukraine-poland-border-crossing-in-volyn-oblast/",
+          "data": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "polska",
+      "data": "2026-09-28",
+      "tagi": [
+        "obronnosc-polski"
+      ],
+      "etap": "ZAPOWIEDŹ",
+      "tekst": "Wiceminister obrony narodowej {{o:cezary-tomczyk|Cezary Tomczyk}} zapowiedział, że MON zmieni procedury użycia broni przez polskie samoloty i śmigłowce wobec obiektów wlatujących od strony Rosji: **identyfikacja pozytywna** (m.in. dane z radarów) zamiast wizualnej. Zmiana nie wymaga, by pilot widział cel przed strzałem.",
+      "zrodla": [
+        {
+          "nazwa": "RMF24",
+          "url": "https://www.rmf24.pl/fakty/polska/news-tomczyk-mon-zmieni-procedury-strzelania-do-obiektow-wlatujac,nIdn,1019454",
+          "data": "2026-09-28"
+        },
+        {
+          "nazwa": "PAP (za Gość Niedzielny)",
+          "url": "https://www.gosc.pl/doc/9906121.MON-Zmieniamy-procedury-dotyczace-uzywania-sil-powietrznych",
+          "data": "2026-09-28"
+        },
+        {
+          "nazwa": "AFP (za Insider Paper)",
+          "url": "https://insiderpaper.com/poland-to-allow-fighter-pilots-to-shoot-down-foreign-aircraft-defense-minister-says",
+          "data": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "z9",
+      "blok": "instytucje",
+      "data": "2026-09-29",
+      "tagi": [
+        "ukraina",
+        "uzbrojenie"
+      ],
+      "tekst": "Prezydent {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} powiedział 29.09 o porozumieniu z Belgią: przekaże ona Ukrainie **trzy myśliwce F-16** do końca 2026 r. w przyspieszonej procedurze.",
+      "zrodla": [
+        {
+          "nazwa": "The Aviationist",
+          "url": "https://theaviationist.com/2026/09/30/ukraine-f-16-update/",
+          "data": "2026-09-30"
+        },
+        {
+          "nazwa": "UNN",
+          "url": "https://unn.ua/en/news/belgium-will-deliver-three-f-16-fighter-jets-to-ukraine-by-the-end-of-the-year-zelenskyy",
+          "data": "2026-09-29"
+        },
+        {
+          "nazwa": "Reuters (za U.S. News)",
+          "url": "https://www.usnews.com/news/world/articles/2026-09-29/belgium-to-transfer-three-f-16s-to-ukraine-this-year-zelenskiy-says",
+          "data": "2026-09-29"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/belgium-to-transfer-3-f-16-fighter-jets-to-ukraine-by-end-of-2026-zelensky-says/",
+          "data": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "id": "z12",
+      "blok": "instytucje",
+      "data": "2026-09-28",
+      "tagi": [
+        "wegry"
+      ],
+      "tekst": "Węgry: po uchyleniu {{p:immunitet|immunitetu}} zatrzymano (28–29.09) byłych ministrów rządu Viktora Orbána: **Balázsa Hankó** (kultury i innowacji; podejrzenie sprzeniewierzenia środków Narodowego Funduszu Kultury) i **Miklósa Sesztáka** (rozwoju narodowego; podejrzenie łapówkarstwa przy zamówieniach na autobusy). Wnioski o areszt trafiają do sądu (por. wyd. nr 11).",
+      "zrodla": [
+        {
+          "nazwa": "444.hu",
+          "url": "https://444.hu/2026/09/28/sesztak-miklos-utan-hanko-balazst-is-orizetbe-vettek",
+          "data": "2026-09-28"
+        },
+        {
+          "nazwa": "Portfolio.hu",
+          "url": "https://www.portfolio.hu/gazdasag/20260930/hanko-balazs-letartoztatasat-inditvanyozta-az-ugyeszseg-sesztakorol-mar-a-birosag-dontott-866310",
+          "data": "2026-09-30"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/09/29/with-two-orban-era-ministers-detained-magyars-operation-purge-takes-shape",
+          "data": "2026-09-29"
+        },
+        {
+          "nazwa": "Reuters (za Internazionale)",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/29/former-hungarian-culture-minister-detained-after-allegations-of-misappropriation",
+          "data": "2026-09-29"
+        }
+      ]
+    }
+  ],
+  "analizy": [],
+  "kalendarz": [],
+  "zrodla_analityczne": {
+    "osw": [
+      {
+        "tytul": "Rosjanie atakują centra danych w Kijowie. 1679. dzień wojny",
+        "autor": "zespół",
+        "data": "2026-09-29",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-09-29/rosjanie-atakuja-centra-danych-w-kijowie-1679-dzien-wojny"
+      },
+      {
+        "tytul": "Dymisja prezydenta Vučicia w Serbii – teatr jednego aktora",
+        "autor": "Jan Nowinowski",
+        "data": "2026-09-28",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-09-28/dymisja-prezydenta-vucicia-w-serbii-teatr-jednego-aktora"
+      }
+    ],
+    "pism": [
+      {
+        "tytul": "Rosyjski potencjał eskalacyjny",
+        "autor": "Anna Maria Dyner",
+        "numer": "Biuletyn nr 65 (2697)",
+        "data": "2026-09-28",
+        "url": "https://pism.pl/publikacje/rosyjski-potencjal-eskalacyjny"
+      }
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "tekst": "Strajk we Francji 29.09 (206 tys. wg MSW, 300 tys. wg CGT) – tylko tytuł.",
+      "prog": "dokumentacja"
+    },
+    {
+      "tekst": "Sondaż przed wyborami na Łotwie (AS 23,8%, Latvijas Fakti) – źródło wtórne.",
+      "prog": "dokumentacja"
+    },
+    {
+      "tekst": "Wiadomości o premierze Burnhamie z 29.09 (zakres: Narodowa Służba Opieki, woda) – źródła sprzeczne.",
+      "prog": "dokumentacja"
+    }
+  ],
+  "nota": "Wydanie nr 10 z 29.09.2026 (stan na 20:30 CEST) przeniesione na stronę 1.10.2026 z archiwum projektu i wysłanego maila. Źródła każdej pozycji odnaleziono i otwarto ponownie 1.10.2026; zakres jest węższy niż w oryginalnym wydaniu (bez analiz i kalendarza, bo ich treść nie zachowała się w pełnej postaci). W pozycji o Czechach zastosowano źródło z 30.09, bo wcześniejsze strony były niedostępne (403). Źródła z mniejszych portali zastąpiono 1.10.2026 źródłami z czołowych mediów; przy pozycjach o MFW i F-16 treść artykułów (Bloomberg, Reuters) była niedostępna, więc opisano wyłącznie to, co potwierdza ich tytuł."
+}

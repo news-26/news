@@ -1,0 +1,1871 @@
+#!/usr/bin/env python3
+"""Generator strony „Prasówka” (GitHub Pages) z danych w katalogu dane/.
+
+Użycie:
+    python3 narzedzia/build.py            # walidacja + budowa strony w katalogu repozytorium
+    python3 narzedzia/build.py --sprawdz  # tylko walidacja
+    python3 narzedzia/build.py --dane INNY_KATALOG --wyjscie INNY_KATALOG  # np. test
+
+Znaczniki w tekstach:
+    **słowo**         wyróżnione słowo kluczowe
+    {{o:id}}          osoba z dane/osoby.json (link do karty; przy pierwszym użyciu z funkcją)
+    {{o:id|tekst}}    osoba, własny tekst linku
+    {{p:id}}          pojęcie z dane/pojecia.json
+    {{p:id|tekst}}    pojęcie, własny tekst linku
+"""
+import argparse
+import calendar
+import datetime as dt
+import html
+import json
+import math
+import re
+import shutil
+import sys
+from pathlib import Path
+from xml.sax.saxutils import escape as xml_escape
+
+REPO = Path(__file__).resolve().parent.parent
+BASE_URL = "https://news-26.github.io/news/"
+SCIEZKA = "/" + BASE_URL.split("/", 3)[3]  # ścieżka strony w serwisie, np. /news/
+TYTUL = "Prasówka"
+PODTYTUL = "Przegląd sytuacji międzynarodowej"
+
+BLOKI = [
+    ("wojna", "Wojna i sankcje"),
+    ("polska", "Polska"),
+    ("instytucje", "Instytucje i Europa"),
+    ("swiat", "Świat"),
+    ("gospodarka", "Gospodarka"),
+]
+# Do zarysu wchodzą wyłącznie informacje potwierdzone; pola „status” nie ma (walidacja je odrzuca).
+# Pozycje oznaczone tak przed 01.10.2026 przeszły rewizję — zapis w dane/rewizje.json.
+ETAPY = {None, "PROPOZYCJA", "ZAPOWIEDŹ", "PRZYJĘTE", "W TOKU"}
+PROGI = {"dokumentacja", "następstwo", "kompletność"}
+WERDYKTY = {"POTWIERDZONE", "SPROSTOWANE", "NADAL OTWARTE"}
+# Straże kompletności (od wydania z 5.10.2026, po pominięciu szczytu Trump–Xi 25.09):
+#  1. „Czego tu nie ma” z progiem dokumentacja: pole id i lista „sprawdzono” (min. 3 miejsca, w tym komunikat instytucji).
+#  2. Następne wydanie dzienne rozlicza każdy taki wpis w „rozstrzygniecia”.
+#  3. Termin z kalendarza po upływie 2 dni ma pozycję w zarysie albo wpis w „Czego tu nie ma” z polem „kalendarz”.
+STRAZE_OD = "2026-10-05"
+DNI_NA_ROZLICZENIE_KALENDARZA = 2
+MIN_SPRAWDZONO = 3
+WYNIKI_ROZSTRZYGNIEC = {"UZUPEŁNIONE", "NIE DO POTWIERDZENIA", "ODPADA"}
+MAPA_TLO = ["#F1F3F6", "#C9D3E6", "#6F86B3", "#1F2A44"]
+DNI = ["poniedziałek", "wtorek", "środa", "czwartek", "piątek", "sobota", "niedziela"]
+DNI_KROTKO = ["pon", "wt", "śr", "czw", "pt", "sob", "nd"]
+MIESIACE = ["stycznia", "lutego", "marca", "kwietnia", "maja", "czerwca", "lipca",
+            "sierpnia", "września", "października", "listopada", "grudnia"]
+MIESIACE_MIAN = ["Styczeń", "Luty", "Marzec", "Kwiecień", "Maj", "Czerwiec", "Lipiec",
+                 "Sierpień", "Wrzesień", "Październik", "Listopad", "Grudzień"]
+# mapa wątków: hashtag-miejsce -> kontury z narzedzia/europa.json (pierwszy kod = miejsce etykiety)
+MAPA_TAGI = {
+    "ukraina": ["UA"], "rosja": ["RU"], "krolewiec": ["KAL"], "bialorus": ["BY"], "niemcy": ["DE"],
+    "czechy": ["CZ"], "slowacja": ["SK"], "wegry": ["HU"], "litwa": ["LT"], "lotwa": ["LV"],
+    "estonia": ["EE"], "nordyckie": ["SE", "NO", "FI", "DK", "IS"], "francja": ["FR"],
+    "wielka-brytania": ["GB"], "rumunia": ["RO"], "balkany": ["RS", "BA", "ME", "MK", "AL", "XK", "HR"],
+}
+EUROPA = json.loads((Path(__file__).resolve().parent / "europa.json").read_text("utf-8"))
+GENEROWANE = ["index.html", "wydania", "watki", "osoby", "pojecia", "top", "czytelnia.html", "kalendarz.html", "korekty.html", "zrodla.html",
+              "jak-weryfikujemy.html", "szukaj.html", "szukaj.json", "feed.xml",
+              "robots.txt", ".nojekyll", "assets", "404.html"]
+
+
+# ---------------------------------------------------------------- dane
+
+def wczytaj(katalog: Path):
+    tagi = json.loads((katalog / "tagi.json").read_text("utf-8"))["tagi"]
+    osoby = json.loads((katalog / "osoby.json").read_text("utf-8"))["osoby"]
+    pojecia = json.loads((katalog / "pojecia.json").read_text("utf-8"))["pojecia"]
+    wydania = []
+    for p in sorted((katalog / "wydania").glob("*.json")):
+        w = json.loads(p.read_text("utf-8"))
+        w["_plik"] = p.name
+        w["_slug"] = p.stem
+        wydania.append(w)
+    wydania.sort(key=lambda w: (w["data"], w.get("godzina", "")))
+    p = katalog / "rewizje.json"
+    rewizje = json.loads(p.read_text("utf-8"))["rewizje"] if p.exists() else []
+    topy = []
+    for p in sorted((katalog / "top").glob("*.json")) if (katalog / "top").exists() else []:
+        z = json.loads(p.read_text("utf-8"))
+        z["_plik"] = "top/" + p.name
+        z["_slug"] = p.stem
+        topy.append(z)
+    topy.sort(key=lambda z: (z.get("do", ""), z.get("od", "")))
+    return ({t["id"]: t for t in tagi}, {o["id"]: o for o in osoby},
+            {x["id"]: x for x in pojecia}, wydania, rewizje, topy)
+
+
+# ---------------------------------------------------------------- ranking źródeł
+
+class Ranking:
+    """Ranking wiarygodności z dane/zrodla.json: dopasowanie po początku nazwy, potem po domenie."""
+
+    def __init__(self, dane):
+        self.dane = dane
+        self.poziomy = {p["poziom"]: p for p in dane["poziomy"]}
+        self.zrodla = dane["zrodla"]
+        wz = [(w, z) for z in self.zrodla for w in z.get("wzorce", [])]
+        wz.sort(key=lambda x: -len(x[0]))
+        self.wzorce = [(re.compile(r"^" + re.escape(w) + r"(?![\w])"), z) for w, z in wz]
+        self.domeny = sorted(((d, z) for z in self.zrodla for d in z.get("domeny", [])), key=lambda x: -len(x[0]))
+
+    def ocen(self, nazwa, url):
+        nazwa = (nazwa or "").strip()
+        for r, z in self.wzorce:
+            if r.match(nazwa):
+                return z
+        host = re.sub(r"^www\.", "", re.sub(r"^https?://([^/]+).*$", r"\1", url or "")).lower()
+        for d, z in self.domeny:
+            if host == d or host.endswith("." + d):
+                return z
+        return None
+
+
+RANKING = None
+# Od tej daty walidacja wymaga przy każdej pozycji zarysu: źródła z poziomu 1 albo dwóch niezależnych
+# źródeł z poziomów 1–2 (poziomy 3–5 się nie liczą do podstawy).
+DWA_ZRODLA_OD = "2026-10-01"
+
+
+def podstawa_ok(zrodla, ranking=None):
+    r = ranking or RANKING
+    oc = [r.ocen(z.get("nazwa"), z.get("url")) for z in zrodla]
+    oc = [o for o in oc if o]
+    if any(o["poziom"] == 1 for o in oc):
+        return True
+    niezalezne = {o["id"] for o in oc if o["poziom"] <= 2}
+    return len(niezalezne) >= 2
+
+
+TERMINY = []  # dane/terminy.json – zaplanowane wydarzenia, których nie wolno przegapić
+
+
+def wczytaj_terminy(katalog: Path):
+    p = katalog / "terminy.json"
+    return json.loads(p.read_text("utf-8"))["terminy"] if p.exists() else []
+
+
+def wczytaj_ranking(katalog: Path):
+    p = katalog / "zrodla.json"
+    return Ranking(json.loads(p.read_text("utf-8"))) if p.exists() else None
+
+
+def kropka(z, prefix="", ranking=None):
+    """Kolorowy znacznik wiarygodności przed nazwą źródła."""
+    r = ranking or RANKING
+    if not r:
+        return ""
+    o = r.ocen(z.get("nazwa"), z.get("url"))
+    if not o:
+        return ""
+    p = r.poziomy[o["poziom"]]
+    return (f'<span class="wz wz{o["poziom"]}" title="Wiarygodność {o["poziom"]}/5 – {e(p["nazwa"])} ({e(o["nazwa"])})" '
+            f'aria-label="wiarygodność {o["poziom"]} z 5: {e(p["nazwa"])}"></span>')
+
+
+def wszystkie_zrodla(o):
+    """Generator wszystkich źródeł (słowników z url) w strukturze danych."""
+    if isinstance(o, dict):
+        if "url" in o and ("nazwa" in o or "tytul" in o):
+            yield {"nazwa": o.get("nazwa") or o.get("wydawca") or "", "url": o["url"]}
+        for k, v in o.items():
+            if k not in ("bylo_zrodla", "pozycja"):
+                yield from wszystkie_zrodla(v)
+    elif isinstance(o, list):
+        for v in o:
+            yield from wszystkie_zrodla(v)
+
+
+def data_(s):
+    return dt.date.fromisoformat(s)
+
+
+# ---------------------------------------------------------------- walidacja
+
+class Bledy(list):
+    def dodaj(self, gdzie, co):
+        self.append(f"{gdzie}: {co}")
+
+
+URL_RE = re.compile(r"^https?://[^\s]+$")
+ZNACZNIK_RE = re.compile(r"\{\{([op]):([a-z0-9-]+)(?:\|([^}]*))?\}\}")
+
+
+def sprawdz_zrodla(zrodla, gdzie, b: Bledy, wymagane=True):
+    if not zrodla:
+        if wymagane:
+            b.dodaj(gdzie, "brak źródeł — pozycja bez źródła nie może trafić na stronę")
+        return
+    for i, z in enumerate(zrodla):
+        if not z.get("nazwa"):
+            b.dodaj(gdzie, f"źródło {i+1}: brak nazwy serwisu")
+        elif "tytuł" in z["nazwa"].lower():
+            b.dodaj(gdzie, f"źródło {i+1} ({z['nazwa']}): sam tytuł nie jest źródłem — otwórz artykuł albo znajdź inne")
+        if not URL_RE.match(z.get("url", "")):
+            b.dodaj(gdzie, f"źródło {i+1}: brak poprawnego linku (http/https)")
+        try:
+            data_(z.get("data", ""))
+        except ValueError:
+            b.dodaj(gdzie, f"źródło {i+1}: brak daty publikacji RRRR-MM-DD")
+
+
+def sprawdz_tekst(tekst, gdzie, osoby, pojecia, b: Bledy):
+    if not tekst or not tekst.strip():
+        b.dodaj(gdzie, "pusty tekst")
+        return
+    for m in ZNACZNIK_RE.finditer(tekst):
+        rodzaj, ident = m.group(1), m.group(2)
+        if rodzaj == "o" and ident not in osoby:
+            b.dodaj(gdzie, f"osoba „{ident}” nie ma karty w dane/osoby.json")
+        if rodzaj == "p" and ident not in pojecia:
+            b.dodaj(gdzie, f"pojęcie „{ident}” nie ma hasła w dane/pojecia.json")
+
+
+def sprawdz_tagi(lista, gdzie, tagi, b: Bledy, wymagane=True):
+    if wymagane and not lista:
+        b.dodaj(gdzie, "brak hashtagów")
+    for t in lista or []:
+        if t not in tagi:
+            b.dodaj(gdzie, f"hashtag „{t}” spoza słownika dane/tagi.json")
+
+
+def waliduj_straze(wydania, tagi, b: Bledy, od=None, raport=None):
+    """Straże kompletności. `od` – od której daty wydań reguły obowiązują (domyślnie STRAZE_OD).
+    `raport` – lista, do której zamiast błędów trafiają ostrzeżenia (przegląd archiwum)."""
+    od = od or STRAZE_OD
+    def zglos(g, co):
+        (raport.append(f"{g}: {co}") if raport is not None else b.dodaj(g, co))
+    dzienne = sorted((w for w in wydania if w.get("typ", "dzienne") == "dzienne"), key=lambda w: w["data"])
+    ostatnia = dzienne[-1]["data"] if dzienne else None
+    # 1. wpisy „dokumentacja” – id i lista sprawdzonych miejsc
+    for w in dzienne:
+        if w["data"] < od:
+            continue
+        ids = set()
+        for i, c in enumerate(w.get("czego_nie_ma", [])):
+            g = f"{w['_plik']} czego_nie_ma {i+1}"
+            if c.get("kalendarz"):
+                try:
+                    data_(c["kalendarz"])
+                except ValueError:
+                    zglos(g, "pole kalendarz musi być datą RRRR-MM-DD terminu z kalendarza")
+            if c.get("prog") != "dokumentacja":
+                continue
+            if not c.get("id") or c["id"] in ids:
+                zglos(g, "wpis z progiem dokumentacja potrzebuje własnego id (n1, n2 …) – następne wydanie musi go rozliczyć")
+            ids.add(c.get("id"))
+            spr = c.get("sprawdzono") or []
+            if len(spr) < MIN_SPRAWDZONO:
+                zglos(g, f"pole sprawdzono: wypisz co najmniej {MIN_SPRAWDZONO} miejsca, które otwarto bez skutku "
+                         "(komunikat instytucji obu stron, agencje także w przedrukach) – blokada strony to nie brak dokumentacji")
+    # 2. rozliczenie wpisów z poprzedniego wydania dziennego
+    for prev, w in zip(dzienne, dzienne[1:]):
+        if prev["data"] < od:
+            continue
+        g0 = w["_plik"]
+        rozl = {r.get("dotyczy"): r for r in w.get("rozstrzygniecia", [])}
+        zarys_ids = {z.get("id") for z in w.get("zarys", [])}
+        for c in prev.get("czego_nie_ma", []):
+            if c.get("prog") != "dokumentacja" or not c.get("id"):
+                continue
+            klucz = f"{prev['_slug']}#{c['id']}"
+            r = rozl.get(klucz)
+            if not r:
+                zglos(g0, f"brak rozstrzygnięcia wpisu {klucz} z „Czego tu nie ma” poprzedniego wydania "
+                          f"(UZUPEŁNIONE z pozycją / NIE DO POTWIERDZENIA ze sprawdzono / ODPADA z powodem)")
+                continue
+            if r.get("wynik") not in WYNIKI_ROZSTRZYGNIEC:
+                zglos(g0, f"rozstrzygnięcie {klucz}: wynik musi być jednym z {sorted(WYNIKI_ROZSTRZYGNIEC)}")
+            elif r["wynik"] == "UZUPEŁNIONE" and r.get("pozycja") not in zarys_ids:
+                zglos(g0, f"rozstrzygnięcie {klucz}: UZUPEŁNIONE wymaga pola pozycja z id pozycji tego wydania")
+            elif r["wynik"] == "NIE DO POTWIERDZENIA" and len(r.get("sprawdzono") or []) < MIN_SPRAWDZONO:
+                zglos(g0, f"rozstrzygnięcie {klucz}: NIE DO POTWIERDZENIA wymaga ponownego sprawdzenia (pole sprawdzono, min. {MIN_SPRAWDZONO})")
+            if r.get("wynik") in ("NIE DO POTWIERDZENIA", "ODPADA") and not r.get("powod"):
+                zglos(g0, f"rozstrzygnięcie {klucz}: brak pola powod")
+        znane = {f"{prev['_slug']}#{c.get('id')}" for c in prev.get("czego_nie_ma", []) if c.get("id")}
+        for k in rozl:
+            if k not in znane:
+                zglos(g0, f"rozstrzygnięcie dotyczy nieistniejącego wpisu {k} (tylko wpisy z poprzedniego wydania)")
+    # 3. terminy z kalendarza
+    if not ostatnia:
+        return
+    granica = dt.date.fromisoformat(ostatnia)
+    pozycje = [(data_(z["data"]), set(z.get("tagi", []))) for w in wydania for z in w.get("zarys", []) if z.get("data")]
+    wyjasnione = [(c["kalendarz"], w["data"]) for w in wydania for c in w.get("czego_nie_ma", []) if c.get("kalendarz")]
+    widziane = set()
+    for w in dzienne:
+        if w["data"] < od:
+            continue
+        for k in w.get("kalendarz", []):
+            klucz = (k["data"], tuple(sorted(k.get("tagi", []))))
+            if klucz in widziane:
+                continue
+            widziane.add(klucz)
+            d = data_(k["data"])
+            if d + dt.timedelta(days=DNI_NA_ROZLICZENIE_KALENDARZA) > granica:
+                continue  # jeszcze nie minął czas na rozliczenie
+            kt = set(k.get("tagi", []))
+            miejsca = {t for t in kt if tagi.get(t, {}).get("grupa") == "miejsce"}
+            def pasuje(pt):
+                return (miejsca <= pt) if miejsca else bool(kt & pt)
+            ok = any(d <= pd <= d + dt.timedelta(days=DNI_NA_ROZLICZENIE_KALENDARZA) and pasuje(pt) for pd, pt in pozycje)
+            ok = ok or any(kd == k["data"] for kd, _ in wyjasnione)
+            if not ok:
+                zglos(f"{w['_plik']} kalendarz {k['data']}",
+                      f"termin minął, a w zarysie (zdarzenia {k['data']} – +{DNI_NA_ROZLICZENIE_KALENDARZA} dni, hashtagi {sorted(miejsca or kt)}) "
+                      f"nie ma pozycji ani wpisu w „Czego tu nie ma” z polem kalendarz: „{k['tekst'][:90]}…”")
+
+    # 4. terminy obowiązkowe (dane/terminy.json): w kalendarzu na 7 dni przed i w zarysie po
+    for i, t in enumerate(TERMINY):
+        g = f"terminy.json {t.get('id', i+1)}"
+        try:
+            t_od, t_do = data_(t["od"]), data_(t.get("do") or t["od"])
+        except (KeyError, ValueError):
+            zglos(g, "pola od/do muszą być datami RRRR-MM-DD")
+            continue
+        if not t.get("id") or not t.get("tekst"):
+            zglos(g, "brak pola id lub tekst")
+        sprawdz_tagi(t.get("tagi"), g, tagi, b)
+        sprawdz_zrodla(t.get("zrodla"), g, b)
+        if RANKING and t.get("zrodla") and not podstawa_ok(t["zrodla"]):
+            zglos(g, "termin potrzebuje źródła z poziomu 1 albo dwóch z poziomów 1–2")
+        kt = set(t.get("tagi", []))
+        miejsca = {x for x in kt if tagi.get(x, {}).get("grupa") == "miejsce"}
+        def pasuje(pt, kt=kt, miejsca=miejsca):
+            return (miejsca <= pt) if miejsca else bool(kt & pt)
+        for w in dzienne:
+            if w["data"] < od:
+                continue
+            dw = data_(w["data"])
+            if t_od - dt.timedelta(days=7) <= dw < t_od:
+                wpisy = w.get("kalendarz", []) + w.get("poza_oknem", [])
+                if not any(t_od <= data_(k["data"]) <= t_do and pasuje(set(k.get("tagi", [])) or kt) for k in wpisy):
+                    zglos(w["_plik"], f"termin obowiązkowy „{t.get('tekst', '')[:70]}” ({t['od']}) musi być w kalendarzu "
+                                      f"wydania (z hashtagami {sorted(miejsca or kt)})")
+        if t_do + dt.timedelta(days=DNI_NA_ROZLICZENIE_KALENDARZA) <= granica:
+            ok = any(t_od - dt.timedelta(days=1) <= pd <= t_do + dt.timedelta(days=DNI_NA_ROZLICZENIE_KALENDARZA) and pasuje(pt)
+                     for pd, pt in pozycje)
+            ok = ok or any(c.get("termin") == t.get("id") for w in wydania for c in w.get("czego_nie_ma", []))
+            if not ok:
+                zglos(g, f"termin obowiązkowy minął ({t['od']}–{t_do.isoformat()}), a w zarysie nie ma pozycji z hashtagami "
+                         f"{sorted(miejsca or kt)} ani wpisu w „Czego tu nie ma” z polem termin: „{t.get('tekst', '')[:80]}”")
+
+
+def waliduj(tagi, osoby, pojecia, wydania, rewizje=(), topy=()) -> Bledy:
+    b = Bledy()
+    for t in tagi.values():
+        if t.get("stan"):
+            try:
+                data_(t.get("stan_data", ""))
+            except ValueError:
+                b.dodaj(f"tag {t['id']}", "stan bez daty stan_data")
+            sprawdz_zrodla(t.get("stan_zrodla"), f"tag {t['id']} (stan)", b)
+    for o in osoby.values():
+        g = f"osoba {o.get('id')}"
+        for pole in ("imie", "funkcja", "zweryfikowano"):
+            if not o.get(pole):
+                b.dodaj(g, f"brak pola {pole}")
+        sprawdz_zrodla(o.get("zrodla"), g, b)
+    klucze = set()
+    for w in wydania:
+        g0 = w["_plik"]
+        for pole in ("nr", "data", "godzina", "w_skrocie", "zarys"):
+            if pole not in w:
+                b.dodaj(g0, f"brak pola {pole}")
+        try:
+            data_(w.get("data", ""))
+        except ValueError:
+            b.dodaj(g0, "zła data wydania")
+        if w.get("typ", "dzienne") not in ("dzienne", "tygodniowe"):
+            b.dodaj(g0, "typ musi być dzienne albo tygodniowe")
+        ids = set()
+        for it in w.get("zarys", []):
+            g = f"{g0} zarys {it.get('id')}"
+            if not it.get("id") or it["id"] in ids:
+                b.dodaj(g, "brak lub powtórzone id pozycji")
+            ids.add(it.get("id"))
+            klucze.add(f"{w['_slug']}#{it.get('id')}")
+            if it.get("blok") not in dict(BLOKI):
+                b.dodaj(g, f"blok musi być jednym z: {', '.join(dict(BLOKI))}")
+            try:
+                data_(it.get("data", ""))
+            except ValueError:
+                b.dodaj(g, "brak daty zdarzenia RRRR-MM-DD")
+            if RANKING and w.get("data", "") >= DWA_ZRODLA_OD and it.get("zrodla") and not podstawa_ok(it["zrodla"]):
+                b.dodaj(g, "za słaba podstawa: potrzebne źródło urzędowe (poziom 1) albo dwa niezależne z poziomów 1–2 "
+                           "(źródła z poziomów 3–5 nie liczą się do podstawy; zob. zrodla.html)")
+            if "status" in it:
+                b.dodaj(g, f"pole status ({it['status']}) — do zarysu wchodzą tylko informacje potwierdzone; "
+                           "niepotwierdzone przenieś do „Czego tu nie ma” (próg: dokumentacja)")
+            if it.get("etap") not in ETAPY:
+                b.dodaj(g, f"etap musi być jednym z {sorted(s for s in ETAPY if s)}")
+            sprawdz_tagi(it.get("tagi"), g, tagi, b)
+            sprawdz_tekst(it.get("tekst"), g, osoby, pojecia, b)
+            sprawdz_zrodla(it.get("zrodla"), g, b)
+        for i, a in enumerate(w.get("analizy", [])):
+            g = f"{g0} analiza {i+1}"
+            for pole in ("tytul", "autor", "tekst", "dla_polski"):
+                if not a.get(pole):
+                    b.dodaj(g, f"brak pola {pole} (ocena zawsze z autorem i wnioskiem dla Polski)")
+            sprawdz_tagi(a.get("tagi"), g, tagi, b)
+            sprawdz_tekst(a.get("tekst"), g, osoby, pojecia, b)
+            sprawdz_zrodla(a.get("zrodla"), g, b)
+        for i, k in enumerate(w.get("kalendarz", []) + w.get("poza_oknem", [])):
+            g = f"{g0} kalendarz {i+1}"
+            try:
+                data_(k.get("data", ""))
+            except ValueError:
+                b.dodaj(g, "brak daty RRRR-MM-DD")
+            sprawdz_tagi(k.get("tagi"), g, tagi, b, wymagane=False)
+            sprawdz_zrodla(k.get("zrodla"), g, b, wymagane=False)
+        for strona in ("osw", "pism"):
+            for i, p in enumerate((w.get("zrodla_analityczne") or {}).get(strona, [])):
+                sprawdz_zrodla([{"nazwa": strona.upper(), "url": p.get("url", ""), "data": p.get("data", "")}],
+                               f"{g0} {strona} {i+1}", b)
+        if not all(isinstance(x, str) and x.strip() for x in w.get("do_sprawdzenia", [])):
+            b.dodaj(g0, "do_sprawdzenia musi być listą niepustych tekstów (notatki robocze na następne wydanie, nie trafiają na stronę)")
+        for i, c in enumerate(w.get("czego_nie_ma", [])):
+            if c.get("prog") not in PROGI:
+                b.dodaj(f"{g0} czego_nie_ma {i+1}", f"prog musi być jednym z {sorted(PROGI)}")
+        # pola tygodniówki
+        m = w.get("mapa_ciepla")
+        if m:
+            g = f"{g0} mapa_ciepla"
+            kol = m.get("kolumny", [])
+            for d in kol:
+                try:
+                    data_(d)
+                except ValueError:
+                    b.dodaj(g, f"kolumna „{d}” nie jest datą RRRR-MM-DD")
+            for r in m.get("wiersze", []):
+                if r.get("tag") not in tagi:
+                    b.dodaj(g, f"wiersz z hashtagiem spoza słownika: {r.get('tag')}")
+                wart = r.get("wartosci", [])
+                if len(wart) != len(kol) or any(v not in (0, 1, 2, 3) for v in wart):
+                    b.dodaj(g, f"wiersz {r.get('tag')}: wartości 0–3, tyle ile kolumn")
+                for pole in ("odnosniki", "sprostowane"):
+                    if pole in r and len(r[pole]) != len(kol):
+                        b.dodaj(g, f"wiersz {r.get('tag')}: {pole} musi mieć tyle elementów, ile kolumn")
+        for i, t in enumerate(w.get("tracker", [])):
+            g = f"{g0} tracker {i+1}"
+            if t.get("tag") not in tagi:
+                b.dodaj(g, "hashtag spoza słownika")
+            if t.get("kierunek") not in ("↑", "↓", "→"):
+                b.dodaj(g, "kierunek musi być ↑, ↓ albo →")
+            for pole in ("tydzien_temu", "dzis"):
+                if not t.get(pole):
+                    b.dodaj(g, f"brak pola {pole}")
+        for i, c in enumerate(w.get("czytelnia", [])):
+            g = f"{g0} czytelnia {i+1}"
+            for pole in ("tytul", "po_co"):
+                if not c.get(pole):
+                    b.dodaj(g, f"brak pola {pole}")
+            sprawdz_zrodla([{"nazwa": c.get("wydawca", "?"), "url": c.get("url", ""), "data": c.get("data", "")}], g, b)
+    for w in wydania:
+        for i, k in enumerate(w.get("weryfikacja", [])):
+            g = f"{w['_plik']} weryfikacja {i+1}"
+            if k.get("werdykt") not in WERDYKTY:
+                b.dodaj(g, f"werdykt musi być jednym z {sorted(WERDYKTY)}")
+            if k.get("dotyczy") and k["dotyczy"] not in klucze:
+                b.dodaj(g, f"dotyczy nieistniejącej pozycji {k['dotyczy']}")
+            for pole in ("bylo", "jest"):
+                if not k.get(pole):
+                    b.dodaj(g, f"brak pola {pole}")
+            sprawdz_zrodla(k.get("zrodla"), g, b)
+        for i, k in enumerate(w.get("korekty", [])):
+            g = f"{w['_plik']} korekta {i+1}"
+            if k.get("dotyczy") and k["dotyczy"] not in klucze:
+                b.dodaj(g, f"dotyczy nieistniejącej pozycji {k['dotyczy']} (format RRRR-MM-DD#id)")
+            for pole in ("bylo", "jest"):
+                if not k.get(pole):
+                    b.dodaj(g, f"brak pola {pole}")
+            sprawdz_zrodla(k.get("zrodla"), g, b)
+    waliduj_straze(wydania, tagi, b)
+    waliduj_topy(topy, tagi, osoby, pojecia, klucze, b)
+    if RANKING:
+        braki = {}
+        for nazwa_pliku, dane in ([(w["_plik"], w) for w in wydania] + [(z["_plik"], z) for z in topy] + [("tagi.json", list(tagi.values())),
+                                  ("osoby.json", list(osoby.values())), ("rewizje.json", list(rewizje))]):
+            for z in wszystkie_zrodla(dane):
+                if not RANKING.ocen(z["nazwa"], z["url"]):
+                    braki.setdefault((z["nazwa"], re.sub(r"^https?://([^/]+).*$", r"\1", z["url"])), nazwa_pliku)
+        for (n, d), f in sorted(braki.items()):
+            b.dodaj(f, f"źródło spoza rankingu: „{n}” ({d}) — dodaj je do dane/zrodla.json z poziomem i uzasadnieniem")
+    slugi = {w["_slug"] for w in wydania}
+    for i, r in enumerate(rewizje):
+        g = f"rewizje.json {i+1}"
+        wycofane = r.get("wynik") == "WYCOFANE"
+        if wycofane:
+            if (r.get("dotyczy") or "#").split("#")[0] not in slugi or r.get("dotyczy") in klucze:
+                b.dodaj(g, "wycofana pozycja musi wskazywać istniejące wydanie i nie może już być w jego zarysie")
+        elif r.get("dotyczy") not in klucze:
+            b.dodaj(g, f"dotyczy nieistniejącej pozycji {r.get('dotyczy')}")
+        if wycofane and r.get("data", "") >= STRAZE_OD and len(r.get("sprawdzono") or []) < MIN_SPRAWDZONO:
+            b.dodaj(g, f"wycofanie wymaga pola sprawdzono (min. {MIN_SPRAWDZONO} miejsca, w tym komunikaty instytucji) – "
+                       "1.10.2026 wycofano tak szczyt Trump–Xi, choć był komunikat Białego Domu")
+        if r.get("wynik") not in ("POTWIERDZONE PO REWIZJI", "WYCOFANE"):
+            b.dodaj(g, "wynik musi być POTWIERDZONE PO REWIZJI albo WYCOFANE")
+        for pole in ("data", "bylo", "zmiana") + (() if wycofane else ("jest",)):
+            if not r.get(pole):
+                b.dodaj(g, f"brak pola {pole}")
+        sprawdz_zrodla(r.get("zrodla"), g, b)
+    return b
+
+
+def waliduj_topy(topy, tagi, osoby, pojecia, klucze, b: Bledy):
+    """Zestawienia Top 10: te same zasady co w wydaniach – każdy wiersz przebiegu ma źródło urzędowe albo
+    dwa niezależne źródła z poziomów 1–2, każda ocena ma autora, osoby i pojęcia mają karty."""
+    for z in topy:
+        g0 = z["_plik"]
+        for pole in ("od", "do", "opublikowano", "tytul", "wstep", "pozycje"):
+            if not z.get(pole):
+                b.dodaj(g0, f"brak pola {pole}")
+        for pole in ("od", "do", "opublikowano"):
+            try:
+                data_(z.get(pole, ""))
+            except ValueError:
+                b.dodaj(g0, f"pole {pole}: brak daty RRRR-MM-DD")
+                return
+        if len(z.get("pozycje", [])) > 10:
+            b.dodaj(g0, "zestawienie Top 10 może mieć najwyżej 10 pozycji")
+        for i, t in enumerate(z.get("wstep", [])):
+            sprawdz_tekst(t, f"{g0} wstęp {i+1}", osoby, pojecia, b)
+        od_kontekst = data_(z["od"]) - dt.timedelta(days=7)
+        ids = set()
+        for n, p in enumerate(z.get("pozycje", []), 1):
+            g = f"{g0} pozycja {n} ({p.get('id')})"
+            if not p.get("id") or p["id"] in ids:
+                b.dodaj(g, "brak lub powtórzone id pozycji")
+            ids.add(p.get("id"))
+            for pole in ("tytul", "lead", "omowienie", "przebieg", "dla_polski"):
+                if not p.get(pole):
+                    b.dodaj(g, f"brak pola {pole}")
+            if p.get("etap") not in ETAPY:
+                b.dodaj(g, f"etap musi być jednym z {sorted(x for x in ETAPY if x)}")
+            if "status" in p:
+                b.dodaj(g, "pole status – w zestawieniu są tylko informacje potwierdzone")
+            if "rozstrzygniete" in p and not isinstance(p["rozstrzygniete"], bool):
+                b.dodaj(g, "pole rozstrzygniete musi być true albo false")
+            sprawdz_tagi(p.get("tagi"), g, tagi, b)
+            for t in [p.get("lead", "")] + list(p.get("omowienie", [])) + [p.get("dla_polski", "")]:
+                sprawdz_tekst(t, g, osoby, pojecia, b)
+            for k, r in enumerate(p.get("przebieg", []), 1):
+                gr = f"{g} przebieg {k}"
+                try:
+                    d = data_(r.get("data", ""))
+                    if not od_kontekst <= d <= data_(z["do"]):
+                        b.dodaj(gr, f"data {r['data']} poza okresem zestawienia (dopuszczalny tydzień kontekstu przed jego początkiem)")
+                except ValueError:
+                    b.dodaj(gr, "brak daty zdarzenia RRRR-MM-DD")
+                if r.get("etap") not in ETAPY:
+                    b.dodaj(gr, f"etap musi być jednym z {sorted(x for x in ETAPY if x)}")
+                sprawdz_tekst(r.get("tekst"), gr, osoby, pojecia, b)
+                sprawdz_zrodla(r.get("zrodla"), gr, b)
+                if RANKING and r.get("zrodla") and not podstawa_ok(r["zrodla"]):
+                    b.dodaj(gr, "za słaba podstawa: potrzebne źródło urzędowe (poziom 1) albo dwa niezależne z poziomów 1–2")
+            for k, o in enumerate(p.get("oceny", []), 1):
+                go = f"{g} ocena {k}"
+                for pole in ("autor", "tekst"):
+                    if not o.get(pole):
+                        b.dodaj(go, f"brak pola {pole} (ocena zawsze z autorem)")
+                sprawdz_tekst(o.get("tekst"), go, osoby, pojecia, b)
+                sprawdz_zrodla(o.get("zrodla"), go, b)
+            for k, c in enumerate(p.get("co_dalej", []), 1):
+                try:
+                    data_(c.get("data", ""))
+                except ValueError:
+                    b.dodaj(f"{g} co_dalej {k}", "brak daty RRRR-MM-DD")
+            for ref in p.get("w_wydaniach", []):
+                if ref not in klucze:
+                    b.dodaj(g, f"w_wydaniach: nie ma pozycji {ref} (format RRRR-MM-DD#id)")
+        for i, c in enumerate(z.get("czego_nie_ma", [])):
+            if c.get("prog") not in PROGI:
+                b.dodaj(f"{g0} czego_nie_ma {i+1}", f"prog musi być jednym z {sorted(PROGI)}")
+
+
+# ---------------------------------------------------------------- formatowanie
+
+def e(s):
+    return html.escape(str(s), quote=True)
+
+
+def data_pelna(s):
+    d = data_(s)
+    return f"{DNI[d.weekday()]}, {d.day} {MIESIACE[d.month-1]} {d.year}"
+
+
+def data_krotka(s):
+    d = data_(s)
+    return f"{d.day:02d}.{d.month:02d}"
+
+
+def skroc(t, n):
+    t = " ".join(t.split())
+    return t if len(t) <= n else t[:n].rsplit(" ", 1)[0].rstrip(",;:–-") + "…"
+
+
+def data_slownie(s, rok=True):
+    d = data_(s)
+    return f"{d.day} {MIESIACE[d.month-1]}" + (f" {d.year}" if rok else "")
+
+
+def okres_slownie(od, do):
+    a, b = data_(od), data_(do)
+    return f"{data_slownie(od, rok=a.year != b.year)} – {data_slownie(do)}"
+
+
+def okres_topu(z):
+    """Zestawienie za pełny miesiąc kalendarzowy nazywa się miesiącem („Wrzesień 2026”), inne – zakresem dat."""
+    a, b = data_(z["od"]), data_(z["do"])
+    if a.day == 1 and (a.year, a.month) == (b.year, b.month) and b.day == calendar.monthrange(b.year, b.month)[1]:
+        return f"{MIESIACE_MIAN[a.month - 1]} {a.year}"
+    return okres_slownie(z["od"], z["do"])
+
+
+# Stare adresy zestawień Top 10 zastąpionych przez zestawienia miesięczne: slug -> nowy slug
+TOP_PRZEKIEROWANIA = {"2026-09-07_2026-10-02": "2026-09-01_2026-09-30"}
+
+
+def data_dluga(s):
+    d = data_(s)
+    return f"{d.day:02d}.{d.month:02d}.{d.year}"
+
+
+class Tekst:
+    """Zamienia znaczniki na HTML; pamięta osoby już przedstawione na danej stronie."""
+
+    def __init__(self, osoby, pojecia, prefix):
+        self.osoby, self.pojecia, self.prefix = osoby, pojecia, prefix
+        self.przedstawione = set()
+
+    def __call__(self, s):
+        wynik = e(s)
+        wynik = re.sub(r"\*\*(.+?)\*\*", r'<mark>\1</mark>', wynik)
+
+        def zam(m):
+            rodzaj, ident, wlasny = m.group(1), m.group(2), m.group(3)
+            if rodzaj == "o":
+                o = self.osoby[ident]
+                napis = e(wlasny) if wlasny else e(o["imie"])
+                link = f'<a class="osoba" href="{self.prefix}osoby/{ident}.html" title="{e(o["funkcja"])}">{napis}</a>'
+                if ident not in self.przedstawione and not wlasny:
+                    self.przedstawione.add(ident)
+                    return f'{link} <span class="funkcja">({e(o["funkcja"])})</span>'
+                return link
+            p = self.pojecia[ident]
+            napis = e(wlasny) if wlasny else e(p["nazwa"])
+            return f'<a class="pojecie" href="{self.prefix}pojecia/{ident}.html" title="{e(p["pelna"])}">{napis}</a>'
+
+        return ZNACZNIK_RE.sub(zam, wynik)
+
+
+def czysty(s, osoby, pojecia):
+    """Tekst bez znaczników (do wyszukiwarki, RSS, tytułów)."""
+    def zam(m):
+        rodzaj, ident, wlasny = m.group(1), m.group(2), m.group(3)
+        if wlasny:
+            return wlasny
+        return osoby[ident]["imie"] if rodzaj == "o" else pojecia[ident]["nazwa"]
+    return re.sub(r"\*\*(.+?)\*\*", r"\1", ZNACZNIK_RE.sub(zam, s))
+
+
+def html_zrodla(zrodla, etykieta="Źródła"):
+    if not zrodla:
+        return ""
+    czesci = [f'{kropka(z)}<a href="{e(z["url"])}" rel="noopener noreferrer" target="_blank">{e(z["nazwa"])}, {data_krotka(z["data"])}</a>'
+              for z in zrodla]
+    return f'<p class="zrodla">{etykieta}: ' + "; ".join(czesci) + "</p>"
+
+
+def html_tagi(lista, tagi, prefix):
+    return "".join(f'<a class="tag tag-{tagi[t]["grupa"]}" href="{prefix}watki/{t}.html">#{e(tagi[t]["nazwa"])}</a>'
+                   for t in lista or [])
+
+
+def klucz_url(u):
+    """Adres bez schematu, „www.” i końcowego ukośnika – do łączenia publikacji z ich omówieniami."""
+    m = re.match(r"^(?:https?://)?(?:www\.)?([^/?#]+)([^?#]*)", (u or "").strip())
+    return (m.group(1).lower() + m.group(2).rstrip("/")) if m else ""
+
+
+WYDAWCY = (("osw.waw.pl", "OSW"), ("pism.pl", "PISM"), ("understandingwar.org", "ISW"))
+
+
+def wydawca(url="", autor=""):
+    """Skrót instytucji autora analizy: z domeny źródła, a w braku – z początku pola „autor”."""
+    k = klucz_url(url)
+    for dom, nazwa in WYDAWCY:
+        if k.startswith(dom):
+            return nazwa
+    m = re.match(r"\s*(OSW|PISM|ISW)\b", autor or "")
+    return m.group(1) if m else ""
+
+
+def w_cudzyslowie(t):
+    """Tytuł w polskim cudzysłowie, chyba że już się od niego zaczyna."""
+    t = (t or "").strip()
+    return t if t[:1] in ("„", '"', "«") else f"„{t}”"
+
+
+def html_wydawca(nazwa):
+    return f'<span class="wyd wyd-{nazwa.lower()}">{e(nazwa)}</span>' if nazwa else ""
+
+
+def html_odznaki(it):
+    s = ""
+    if it.get("etap"):
+        s += f'<span class="odznaka etap">{e(it["etap"])}</span>'
+    return s
+
+
+def strona(tytul, tresc, prefix="", opis="", aktywne=""):
+    nav = [("index.html", "Wydania", "wydania"), ("kalendarz.html", "Kalendarz", "kalendarz"), ("top/index.html", "Top 10", "top"), ("czytelnia.html", "Czytelnia", "czytelnia"), ("watki/index.html", "Wątki", "watki"),
+           ("osoby/index.html", "Kto jest kim", "osoby"), ("pojecia/index.html", "Pojęcia", "pojecia"),
+           ("korekty.html", "Korekty", "korekty"), ("zrodla.html", "Źródła", "zrodla"), ("jak-weryfikujemy.html", "Jak weryfikujemy", "jak"),
+           ("szukaj.html", "Szukaj", "szukaj")]
+    akt = ' aria-current="page"'
+    menu = "".join(f'<a href="{prefix}{h}"{akt if k == aktywne else ""}>{n}</a>' for h, n, k in nav)
+    return f"""<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>{e(tytul)} · {TYTUL}</title>
+<meta name="description" content="{e(opis or PODTYTUL)}">
+<link rel="stylesheet" href="{prefix}assets/styl.css">
+<link rel="alternate" type="application/rss+xml" title="{TYTUL}" href="{prefix}feed.xml">
+</head>
+<body>
+<header class="gora">
+  <div class="wrap">
+    <a class="marka" href="{prefix}index.html"><span class="marka-t">{TYTUL}</span><span class="marka-p">{PODTYTUL}</span></a>
+    <nav class="menu">{menu}</nav>
+  </div>
+</header>
+<main class="wrap">
+{tresc}
+</main>
+<footer class="stopka">
+  <div class="wrap">
+    <p>Każda pozycja ma źródło z linkiem i przeszła <a href="{prefix}jak-weryfikujemy.html">procedurę weryfikacji</a>. Oceny analityczne są podpisane autorem i oddzielone od faktów. Błędy prostujemy jawnie w <a href="{prefix}korekty.html">rejestrze korekt</a>.</p>
+    <p class="wz-leg">Kolor przy źródle to jego wiarygodność według <a href="{prefix}zrodla.html">rankingu źródeł</a>: <span class="wz wz1"></span>urzędowe <span class="wz wz2"></span>wysoka <span class="wz wz3"></span>z zastrzeżeniami <span class="wz wz4"></span>niska <span class="wz wz5"></span>strona zainteresowana</p>
+    <p><a href="{prefix}feed.xml">Kanał RSS</a> · Strona nie jest indeksowana przez wyszukiwarki.</p>
+  </div>
+</footer>
+</body>
+</html>
+"""
+
+
+# ---------------------------------------------------------------- budowa
+
+class Budowa:
+    def __init__(self, tagi, osoby, pojecia, wydania, wyjscie: Path, rewizje=(), topy=()):
+        self.tagi, self.osoby, self.pojecia, self.wydania = tagi, osoby, pojecia, wydania
+        self.topy = list(topy)
+        self.wydania_slug = {w["_slug"]: w for w in wydania}
+        self.rewizje = list(rewizje)
+        self.rewizje_poz = {r["dotyczy"]: r for r in self.rewizje}
+        self.out = wyjscie
+        # korekty: klucz pozycji -> lista (wydanie korygujące, korekta)
+        self.korekty_poz = {}
+        for w in wydania:
+            for k in self.wszystkie_korekty(w):
+                if k.get("dotyczy"):
+                    self.korekty_poz.setdefault(k["dotyczy"], []).append((w, k))
+        self.publikacje = self.zbierz_publikacje()
+
+    def zbierz_publikacje(self):
+        """Teksty OSW i PISM ze wszystkich wydań (stan źródeł + czytelnia tygodniowa), bez powtórzeń,
+        z odnośnikami do wydań, w których je odnotowano, i do naszych omówień w sekcji analiz."""
+        pub = {}
+        def dodaj(w, p, wyd):
+            k = klucz_url(p.get("url"))
+            if not k:
+                return
+            r = pub.setdefault(k, {"url": p["url"], "tytul": p.get("tytul", ""), "autor": p.get("autor", ""),
+                                   "data": p.get("data", ""), "numer": p.get("numer", ""), "wydawca": wyd,
+                                   "po_co": "", "wydania": [], "omowienia": []})
+            for pole in ("autor", "numer", "tytul"):
+                if not r[pole] and p.get(pole):
+                    r[pole] = p[pole]
+            if p.get("po_co") and not r["po_co"]:
+                r["po_co"] = p["po_co"]
+            if w not in r["wydania"]:
+                r["wydania"].append(w)
+        for w in self.wydania:
+            za = w.get("zrodla_analityczne") or {}
+            for klucz, nazwa in (("osw", "OSW"), ("pism", "PISM")):
+                for p in za.get(klucz) or []:
+                    dodaj(w, p, nazwa)
+            for c in w.get("czytelnia") or []:
+                dodaj(w, c, c.get("wydawca") or wydawca(c.get("url", "")))
+        for w in self.wydania:
+            for j, a in enumerate(w.get("analizy") or []):
+                for z in a.get("zrodla") or []:
+                    r = pub.get(klucz_url(z["url"]))
+                    if r and (w, j) not in r["omowienia"]:
+                        r["omowienia"].append((w, j))
+        return pub
+
+    def czytaj_html(self, a):
+        """Etykieta wydawcy oceny i link „Przeczytaj tekst …” do oryginału (tytuł z czytelni, jeśli jest)."""
+        zr = a.get("zrodla") or []
+        wyd = wydawca(zr[0]["url"] if zr else "", a.get("autor", ""))
+        pub = self.publikacja_analizy(a)
+        if pub:
+            return wyd, (f'<p class="an-czytaj"><a href="{e(pub["url"])}" target="_blank" rel="noopener noreferrer">'
+                         f'<span class="an-czytaj-t">Przeczytaj tekst {e(pub["wydawca"] or wyd)}</span> {e(w_cudzyslowie(pub["tytul"]))}</a></p>')
+        if wyd and zr:
+            return wyd, (f'<p class="an-czytaj"><a href="{e(zr[0]["url"])}" target="_blank" rel="noopener noreferrer">'
+                         f'<span class="an-czytaj-t">Przeczytaj tekst {e(wyd)}</span> ({e(zr[0]["nazwa"])}, {data_krotka(zr[0]["data"])})</a></p>')
+        return wyd, ""
+
+    def publikacja_analizy(self, a):
+        """Oryginalny tekst, na którym opiera się analiza (pierwsze źródło znalezione w czytelni)."""
+        for z in a.get("zrodla") or []:
+            r = self.publikacje.get(klucz_url(z["url"]))
+            if r:
+                return r
+        return None
+
+    @staticmethod
+    def wszystkie_korekty(w):
+        """Korekty wydania dziennego plus sprostowania z weryfikacji tygodniowej."""
+        return w.get("korekty", []) + [k for k in w.get("weryfikacja", []) if k.get("werdykt") == "SPROSTOWANE"]
+
+    def mapa_html(self, w, prefix):
+        m = w.get("mapa_ciepla")
+        if not m:
+            return ""
+        glowa = "".join(f'<th>{DNI_KROTKO[data_(d).weekday()]}<br>{data_krotka(d)}</th>' for d in m["kolumny"])
+        wiersze = ""
+        for r in m["wiersze"]:
+            kom = ""
+            for j, v in enumerate(r["wartosci"]):
+                odn = (r.get("odnosniki") or [""] * len(r["wartosci"]))[j]
+                spr = (r.get("sprostowane") or [False] * len(r["wartosci"]))[j]
+                kolor = "#fff" if v >= 2 else "#17243B"
+                znak = '<span class="m-spr">▲</span>' if spr else ""
+                tekst = e(odn) if v >= 2 and odn else ""
+                kom += f'<td style="background:{MAPA_TLO[v]};color:{kolor}" title="{v}">{tekst}{znak}</td>'
+            t = self.tagi[r["tag"]]
+            wiersze += f'<tr><th class="m-tag"><a href="{prefix}watki/{t["id"]}.html">#{e(t["nazwa"])}</a></th>{kom}</tr>'
+        legenda = "".join(f'<span><i style="background:{MAPA_TLO[i]}"></i>{i} {n}</span>'
+                          for i, n in enumerate(["nic", "drobny rozwój", "istotne zdarzenie", "przełom"]))
+        return (f'<h2 class="pasek">Mapa ciepła tygodnia</h2><div class="mapa-wrap"><table class="mapa"><tr><th></th>{glowa}</tr>{wiersze}</table></div>'
+                f'<p class="m-leg">{legenda}<span><b class="m-spr">▲</b> sprostowane w tym tygodniu</span></p>'
+                f'<p class="uwaga">Im ciemniej, tym ważniejsze zdarzenie danego dnia. Liczby w ciemnych polach to numer wydania i punktu. '
+                f'Wartości przyznano tylko za zdarzenia zweryfikowane.</p>')
+
+    def tygodniowe_html(self, w, T, prefix):
+        """Sekcje tygodniówki po analizach: tracker i czytelnia."""
+        cz = []
+        if w.get("tracker"):
+            cz.append('<h2 class="pasek" id="tracker">Tracker wątków</h2><div class="mapa-wrap"><table class="kal tracker"><tr><th>Wątek</th><th>Tydzień temu</th><th>Dziś</th><th></th></tr>' + "".join(
+                f'<tr><td>{html_tagi([t["tag"]], self.tagi, prefix)}</td><td>{T(t["tydzien_temu"])}</td><td>{T(t["dzis"])}</td><td class="kier">{e(t["kierunek"])}</td></tr>'
+                for t in w["tracker"]) + "</table></div>")
+        if w.get("czytelnia"):
+            cz.append('<h2 class="pasek" id="czytelnia-tygodnia">Czytelnia tygodnia: OSW i PISM</h2>' + "".join(
+                f'<article class="poz"><div class="poz-data">{data_krotka(c["data"])}</div><div class="poz-tresc">'
+                f'<p class="poz-tekst"><a href="{e(c["url"])}" target="_blank" rel="noopener noreferrer"><strong>{e(c["tytul"])}</strong></a>'
+                f'{(" · " + e(c["autor"])) if c.get("autor") else ""}{(" · " + e(c["wydawca"])) if c.get("wydawca") else ""}{(", " + e(c["numer"])) if c.get("numer") else ""}</p>'
+                f'<p class="poz-tekst">{T(c["po_co"])}</p></div></article>' for c in w["czytelnia"]))
+        return "\n".join(cz)
+
+    def zapisz(self, sciezka, tresc):
+        p = self.out / sciezka
+        p.parent.mkdir(parents=True, exist_ok=True)
+        p.write_text(tresc, "utf-8")
+
+    # ---- grafiki
+
+    @staticmethod
+    def stopien(n):
+        return 0 if n <= 0 else 1 if n == 1 else 2 if n <= 3 else 3
+
+    def mapa_europy(self, pozycje, prefix, naglowek, opis, kotwica=""):
+        """Mapa Europy: kraje z hashtagów-miejsc zabarwione liczbą pozycji, klikalne do stron wątków."""
+        licz = {}
+        for it in pozycje:
+            for t in it["tagi"]:
+                licz[t] = licz.get(t, 0) + 1
+        polska = sum(1 for it in pozycje if it["blok"] == "polska")
+        na_mapie = {t: n for t, n in licz.items() if t in MAPA_TAGI}
+        poza = {t: n for t, n in licz.items() if t not in MAPA_TAGI and self.tagi[t]["grupa"] == "miejsce"}
+        if not na_mapie and not poza:
+            return ""
+        kontury, ety = EUROPA["kraje"], EUROPA["etykiety"]
+        zajete = {k for t in MAPA_TAGI for k in MAPA_TAGI[t]} | {"PL"}
+        tlo = "".join(f'<path d="{d}"/>' for k, d in kontury.items() if k not in zajete)
+        warstwa, znaczniki = "", ""
+        for t, kody in MAPA_TAGI.items():
+            n, cel = na_mapie.get(t, 0), t
+            if t == "krolewiec" and not n and na_mapie.get("rosja"):
+                n, cel = na_mapie["rosja"], "rosja"  # obwód bez własnych pozycji dziedziczy kolor Rosji
+            sciezki = "".join(f'<path d="{kontury[k]}"/>' for k in kody if k in kontury)
+            if not sciezki:
+                continue
+            nazwa = self.tagi[cel]["nazwa"]
+            if n:
+                opis_ = f"#{nazwa}: {n} poz."
+                warstwa += (f'<a href="{prefix}watki/{cel}.html" aria-label="{e(opis_)}"><title>{e(opis_)}</title>'
+                            f'<g class="m{self.stopien(n)}">{sciezki}</g></a>')
+                if cel == t and kody[0] in ety:
+                    x, y = ety[kody[0]]
+                    znaczniki += (f'<g class="lic" aria-hidden="true"><circle cx="{x}" cy="{y}" r="12"/>'
+                                  f'<text x="{x}" y="{y + 5}">{n}</text></g>')
+            else:
+                warstwa += f'<g class="m0">{sciezki}</g>'
+        if "PL" in kontury:
+            px_, py_ = ety["PL"]
+            warstwa += f'<g class="pl"><title>Polska: {polska} poz. w bloku „Polska”</title><path d="{kontury["PL"]}"/></g>'
+            if polska:
+                znaczniki += (f'<g class="lic lic-pl" aria-hidden="true"><circle cx="{px_}" cy="{py_}" r="12"/>'
+                              f'<text x="{px_}" y="{py_ + 5}">{polska}</text></g>')
+        svg = (f'<svg class="europa" viewBox="0 0 {EUROPA["szer"]} {EUROPA["wys"]}" role="img" aria-label="{e(naglowek)}">'
+               f'<rect class="morze" width="100%" height="100%"/><g class="lad">{tlo}</g>{warstwa}{znaczniki}</svg>')
+        ranking = sorted(list(na_mapie.items()) + list(poza.items()), key=lambda x: (-x[1], self.tagi[x[0]]["nazwa"]))
+        lista = "".join(f'<a class="tag tag-miejsce" href="{prefix}watki/{t}.html">#{e(self.tagi[t]["nazwa"])} <span>{n}</span></a>'
+                        for t, n in ranking)
+        poza_txt = ""
+        if poza:
+            poza_txt = ('<p class="uwaga">Poza kadrem: ' + ", ".join(f'#{e(self.tagi[t]["nazwa"])} ({n})' for t, n in
+                        sorted(poza.items(), key=lambda x: -x[1])) + ".</p>")
+        legenda = "".join(f'<span><i class="m{i}"></i>{n}</span>' for i, n in
+                          ((1, "1 poz."), (2, "2–3"), (3, "4 i więcej")))
+        idk = f' id="{kotwica}"' if kotwica else ""
+        return (f'<h2 class="pasek"{idk}>{e(naglowek)}</h2><figure class="mapa-eu">{svg}'
+                f'<figcaption class="m-leg">{legenda}<span><i class="pl"></i>Polska (blok „Polska”)</span></figcaption></figure>'
+                f'<p class="uwaga">{e(opis)} Kliknij kraj, żeby zobaczyć historię wątku.</p>'
+                f'<div class="chmura">{lista}</div>{poza_txt}')
+
+    def os_czasu(self, wystapienia, przyszle, dzis, prefix):
+        """Oś czasu wątku: kropka = pozycja z wydania (stos w dniu zdarzenia), romb = termin z kalendarza."""
+        if not wystapienia:
+            return ""
+        daty = [data_(it["data"]) for _, it in wystapienia]
+        start = min(daty)
+        koniec = max([dzis] + daty + [data_(k["data"]) for k in przyszle])
+        start = min(start, koniec - dt.timedelta(days=6))
+        dni = (koniec - start).days + 1
+        krok, lewy, prawy = 24, 18, 24
+        szer = max(560, lewy + prawy + (dni - 1) * krok)
+        krok = (szer - lewy - prawy) / max(dni - 1, 1)
+        stosy = {}
+        for w, it in wystapienia:
+            stosy.setdefault(it["data"], []).append((w, it))
+        wys_stosu = min(max(len(v) for v in stosy.values()), 6)
+        r, odstep = 7, 17
+        os_y = 30 + wys_stosu * odstep
+        wys = os_y + 52
+
+        def x(d):
+            return round(lewy + (d - start).days * krok, 1)
+
+        cz = [f'<line class="os-linia" x1="{lewy - 8}" y1="{os_y}" x2="{szer - prawy + 8}" y2="{os_y}"/>']
+        co = max(1, math.ceil(dni / 10))
+        for i in range(dni):
+            d = start + dt.timedelta(days=i)
+            xx = x(d)
+            dlugi = i % co == 0 or d == dzis
+            cz.append(f'<line class="os-tik" x1="{xx}" y1="{os_y}" x2="{xx}" y2="{os_y + (6 if dlugi else 3)}"/>')
+            if dlugi:
+                cz.append(f'<text class="os-data" x="{xx}" y="{os_y + 20}">{d.day:02d}.{d.month:02d}</text>')
+        xd = x(dzis)
+        cz.append(f'<line class="os-dzis" x1="{xd}" y1="16" x2="{xd}" y2="{os_y + 8}"/>'
+                  f'<text class="os-dzis-t" x="{xd - 4}" y="12">ostatnie wydanie</text>')
+        for dzien, lista in stosy.items():
+            xx = x(data_(dzien))
+            lista = sorted(lista, key=lambda p: p[0]["data"])
+            for j, (w, it) in enumerate(lista[:6]):
+                y = os_y - 12 - j * odstep
+                klucz = f"{w['_slug']}#{it['id']}"
+                if klucz in self.korekty_poz:
+                    klasa, stan = "k-spr", "sprostowane"
+                else:
+                    klasa, stan = "k-ok", "potwierdzone"
+                tytul = f"{data_krotka(it['data'])} · {czysty(it['tekst'], self.osoby, self.pojecia)[:140]} ({stan}; wyd. nr {w['nr']})"
+                cz.append(f'<a href="#{w["_slug"]}-{it["id"]}"><title>{e(tytul)}</title>'
+                          f'<circle class="{klasa}" cx="{xx}" cy="{y}" r="{r}"/></a>')
+            if len(lista) > 6:
+                cz.append(f'<text class="os-wiecej" x="{xx}" y="{os_y - 12 - 6 * odstep + 4}">+{len(lista) - 6}</text>')
+        for k in przyszle:
+            xx, y = x(data_(k["data"])), os_y + 36
+            tytul = f"{data_dluga(k['data'])} · {czysty(k['tekst'], self.osoby, self.pojecia)[:140]}"
+            cz.append(f'<g><title>{e(tytul)}</title><path class="k-kal" d="M{xx},{y - 7} L{xx + 7},{y} L{xx},{y + 7} L{xx - 7},{y} Z"/></g>')
+        svg = (f'<svg class="os-czasu" width="{round(szer)}" height="{wys}" viewBox="0 0 {round(szer)} {wys}" role="img" '
+               f'aria-label="Oś czasu wątku: {len(wystapienia)} pozycji od {data_dluga(start.isoformat())}">{"".join(cz)}</svg>')
+        leg = ['<span><i class="k-ok"></i>pozycja</span>']
+        leg += ['<span><i class="k-spr"></i>sprostowana później</span>', '<span><i class="k-kal"></i>termin z kalendarza</span>']
+        legenda = '<p class="m-leg">' + "".join(leg) + "</p>"
+        return (f'<h2 class="pasek">Oś czasu</h2><div class="os-wrap" data-na-koniec>{svg}</div>{legenda}'
+                '<p class="uwaga">Każda kropka to pozycja z wydania w dniu zdarzenia; kliknij, żeby przejść do niej na liście poniżej.</p>'
+                "<script>document.querySelectorAll('[data-na-koniec]').forEach(function(el){el.scrollLeft=el.scrollWidth;});</script>")
+
+    # ---- elementy
+
+    def pozycja(self, w, it, T, prefix, z_wydaniem=False, kotwica=None):
+        klucz = f"{w['_slug']}#{it['id']}"
+        kor = ""
+        for (wk, k) in self.korekty_poz.get(klucz, []):
+            kor += (f'<p class="kor-znak">▲ Sprostowano w wydaniu <a href="{prefix}wydania/{wk["_slug"]}.html#korekty">nr {wk["nr"]} '
+                    f'({data_dluga(wk["data"])})</a>: {e(k["jest"])}</p>')
+        r = self.rewizje_poz.get(klucz)
+        if r:
+            kor += (f'<p class="rew-znak">Zweryfikowano ponownie {data_dluga(r["data"])}: {e(r["zmiana"])}. '
+                    f'<a href="{prefix}korekty.html#rewizja">Wersja pierwotna</a></p>')
+        skad = (f'<a class="z-wydania" href="{prefix}wydania/{w["_slug"]}.html#{it["id"]}">wyd. nr {w["nr"]}</a>'
+                if z_wydaniem else "")
+        return f"""<article class="poz{' skorygowana' if klucz in self.korekty_poz else ''}" id="{e(kotwica or it['id'])}">
+  <div class="poz-data">{data_krotka(it['data'])}</div>
+  <div class="poz-tresc">
+    <div class="poz-meta">{html_tagi(it['tagi'], self.tagi, prefix)}{html_odznaki(it)}{skad}</div>
+    <p class="poz-tekst">{T(it['tekst'])}</p>
+    {('<p class="dla-polski"><strong>Dla Polski:</strong> ' + T(it['dla_polski']) + '</p>') if it.get('dla_polski') else ''}
+    {kor}
+    {html_zrodla(it['zrodla'])}
+  </div>
+</article>"""
+
+    def analiza(self, w, a, T, prefix, z_wydaniem=False, j=None):
+        if j is None:
+            j = next((i for i, x in enumerate(w.get("analizy") or []) if x is a), 0)
+        skad = (f' · <a href="{prefix}wydania/{w["_slug"]}.html#analiza-{j+1}">wyd. nr {w["nr"]}, {data_dluga(w["data"])}</a>'
+                if z_wydaniem else "")
+        wyd, czytaj = self.czytaj_html(a)
+        kotwica = "" if z_wydaniem else f' id="analiza-{j+1}"'
+        return f"""<article class="analiza"{kotwica}>
+  <p class="autor">{html_wydawca(wyd)}Ocena: {e(a['autor'])}{skad}</p>
+  <h3>{e(a['tytul'])}</h3>
+  {czytaj}
+  <div class="poz-meta">{html_tagi(a.get('tagi'), self.tagi, prefix)}</div>
+  <p>{T(a['tekst'])}</p>
+  <p class="dla-polski"><strong>Dla Polski:</strong> {T(a['dla_polski'])}</p>
+  {html_zrodla(a.get('zrodla'))}
+</article>"""
+
+    # ---- strony
+
+    def wydanie(self, i, w):
+        prefix = "../"
+        T = Tekst(self.osoby, self.pojecia, prefix)
+        rodzaj = "Wydanie tygodniowe" if w.get("typ") == "tygodniowe" else "Wydanie"
+        cz = []
+        cz.append(f"""<section class="winieta">
+  <p class="w-nr">{rodzaj} nr {e(w['nr'])}</p>
+  <h1>{data_pelna(w['data']).capitalize()}</h1>
+  <p class="w-stan">stan na godz. {e(w['godzina'])} CEST{(' · okres ' + e(w['okres'])) if w.get('okres') else ''}</p>
+</section>""")
+        prev = self.wydania[i-1] if i > 0 else None
+        nxt = self.wydania[i+1] if i + 1 < len(self.wydania) else None
+        def krotko(x):
+            return ("tyg. " if x.get("typ") == "tygodniowe" else "") + f'nr {x["nr"]}<span class="wn-d"> · {data_krotka(x["data"])}</span>'
+        d0 = data_(w["data"])
+        cz.append('<nav class="wyd-nav" aria-label="Nawigacja między wydaniami">'
+                  + (f'<a class="wn" rel="prev" href="{prev["_slug"]}.html" title="{e(self.etykieta_wydania(prev))}">← {krotko(prev)}</a>' if prev
+                     else '<span class="wn wn-0">← brak wcześniejszych</span>')
+                  + '<details class="wn-kal"><summary>Kalendarz wydań</summary><div class="wn-panel">'
+                  + self.kalendarz_html(d0.year, d0.month, "", aktualny=w, nawigacja=True) + self.kalendarz_legenda()
+                  + '<p class="kal-wszystkie"><a href="../kalendarz.html">Pełny kalendarz – wszystkie miesiące</a></p></div></details>'
+                  + (f'<a class="wn" rel="next" href="{nxt["_slug"]}.html" title="{e(self.etykieta_wydania(nxt))}">{krotko(nxt)} →</a>' if nxt
+                     else '<span class="wn wn-0">najnowsze</span>')
+                  + "</nav>"
+                  + "<script>(function(){var d=document.querySelector('.wn-kal');if(!d)return;"
+                    "document.addEventListener('click',function(e){if(d.open&&!d.contains(e.target))d.open=false;});"
+                    "document.addEventListener('keydown',function(e){if(e.key==='Escape'&&d.open){d.open=false;d.querySelector('summary').focus();}});})();</script>")
+        cz.append('<section class="skrot"><h2>W skrócie</h2>' +
+                  "".join(f"<p>{T(z)}</p>" for z in w["w_skrocie"]) + "</section>")
+        poz_spisu = len(cz)
+        cz.append("")  # spis sekcji – uzupełniany na końcu, gdy wiadomo, co jest w wydaniu
+        spis = []
+        cieplo = self.mapa_html(w, prefix)
+        if cieplo:
+            cz.append(cieplo.replace('<h2 class="pasek">', '<h2 class="pasek" id="mapa-ciepla">', 1))
+            spis.append(("mapa-ciepla", "Mapa ciepła"))
+        if w.get("weryfikacja"):
+            li = ""
+            for k in w["weryfikacja"]:
+                cel = ""
+                if k.get("dotyczy"):
+                    s_, pid = k["dotyczy"].split("#")
+                    cel = f' <a href="{s_}.html#{pid}">(pozycja z {data_dluga(s_)})</a>'
+                klasa = {"POTWIERDZONE": "etap", "SPROSTOWANE": "sprzeczne", "NADAL OTWARTE": "niepotw"}[k["werdykt"]]
+                li += (f'<article class="poz{" skorygowana" if k["werdykt"] == "SPROSTOWANE" else ""}"><div class="poz-data"></div><div class="poz-tresc">'
+                       f'<p class="poz-meta"><span class="odznaka {klasa}">{e(k["werdykt"])}</span>{cel}</p>'
+                       f'<p class="poz-tekst"><strong>Pisaliśmy:</strong> {e(k["bylo"])}</p><p class="poz-tekst"><strong>Jak jest:</strong> {e(k["jest"])}</p>'
+                       f'{html_zrodla(k["zrodla"])}</div></article>')
+            cz.append(f'<h2 class="pasek" id="korekty">Weryfikacja tygodnia</h2>{li}')
+            spis.append(("korekty", "Weryfikacja tygodnia"))
+        if w.get("korekty"):
+            li = ""
+            for k in w["korekty"]:
+                cel = ""
+                if k.get("dotyczy"):
+                    s, pid = k["dotyczy"].split("#")
+                    cel = f' <a href="{s}.html#{pid}">(pozycja z {data_dluga(s)})</a>'
+                li += f"<li><strong>Było:</strong> {e(k['bylo'])}{cel}<br><strong>Jest:</strong> {e(k['jest'])}{html_zrodla(k['zrodla'])}</li>"
+            cz.append(f'<section class="korekta" id="korekty"><h2>Korekta</h2><ul>{li}</ul></section>')
+            if not w.get("weryfikacja"):
+                spis.append(("korekty", "Korekta"))
+        tyg = w.get("typ") == "tygodniowe"
+        cz.append('<h2 class="pasek" id="zarys">' + ("I. Najważniejsze przesunięcia tygodnia" if tyg else "I. Zarys wydarzeń") + '</h2>')
+        spis.append(("zarys", f'{"I. Przesunięcia tygodnia" if tyg else "I. Zarys"} ({len(w["zarys"])})'))
+        for kod, nazwa in BLOKI:
+            poz = sorted([it for it in w["zarys"] if it["blok"] == kod], key=lambda x: x["data"])
+            if not poz:
+                continue
+            cz.append(f'<h3 class="blok">{nazwa}</h3>')
+            cz.extend(self.pozycja(w, it, T, prefix) for it in poz)
+        wyc = [r for r in self.rewizje if r.get("wynik") == "WYCOFANE" and r["dotyczy"].split("#")[0] == w["_slug"]]
+        if wyc:
+            cz.append('<div class="nota wycofane"><h3>Wycofane po rewizji</h3><ul>' + "".join(
+                f'<li id="{e(r["dotyczy"].split("#")[1])}">{data_dluga(r["data"])}: wycofano pozycję o treści „{e(czysty(r["bylo"], self.osoby, self.pojecia))}” – '
+                f'{e(r["zmiana"])}. <a href="{prefix}korekty.html#rewizja">Rejestr korekt</a></li>' for r in wyc) + "</ul></div>")
+        mapa = self.mapa_europy(w["zarys"], prefix, "Mapa wydania",
+                                "Liczba przy kraju to liczba pozycji zarysu z hashtagiem tego miejsca.", "mapa")
+        if mapa:
+            cz.append(mapa)
+        za = w.get("zrodla_analityczne") or {}
+        n_pub = len(za.get("osw") or []) + len(za.get("pism") or [])
+        if w.get("analizy"):
+            cz.append('<h2 class="pasek" id="analizy">II. Analizy</h2><p class="uwaga">Poniżej interpretacje, nie ustalenia. '
+                      'Każda ma autora oceny i link do tekstu, na którym się opiera.</p>')
+            cz.extend(self.analiza(w, a, T, prefix, j=j) for j, a in enumerate(w["analizy"]))
+            spis.append(("analizy", f'II. Analizy ({len(w["analizy"])})'))
+            cz.append('<h3 class="pod-pasek" id="publikacje">Nowe teksty OSW i PISM z ostatnich 3 dni</h3>')
+        else:
+            cz.append('<h2 class="pasek" id="publikacje">Nowe teksty OSW i PISM z ostatnich 3 dni</h2>')
+        spis.append(("publikacje", f"Teksty OSW i PISM ({n_pub})" if n_pub else "Teksty OSW i PISM (brak nowych)"))
+
+        def lista_pub(lst):
+            if not lst:
+                return '<p class="pub-brak">Brak nowych publikacji w ostatnich 3 dniach.</p>'
+            li = ""
+            for p in lst:
+                r = self.publikacje.get(klucz_url(p["url"])) or {"omowienia": []}
+                om = []
+                for w2, j2 in r["omowienia"]:
+                    if w2 is w:
+                        om.append(f'<a class="pub-om" href="#analiza-{j2+1}">omówienie wyżej</a>')
+                    else:
+                        om.append(f'<a class="pub-om" href="{w2["_slug"]}.html#analiza-{j2+1}">omówienie w wyd. nr {w2["nr"]}</a>')
+                meta = " · ".join(x for x in (e(p.get("autor") or ""), data_krotka(p["data"]), e(p.get("numer") or "")) if x)
+                li += (f'<li><a href="{e(p["url"])}" target="_blank" rel="noopener noreferrer">{e(p["tytul"])}</a>'
+                       f'<span class="pub-meta">{meta}{(" · " + " · ".join(om)) if om else ""}</span></li>')
+            return f'<ul class="pub">{li}</ul>'
+        cz.append(f'<div class="publikacje"><h4 class="pub-wyd">{html_wydawca("OSW")}Ośrodek Studiów Wschodnich</h4>{lista_pub(za.get("osw"))}'
+                  f'<h4 class="pub-wyd">{html_wydawca("PISM")}Polski Instytut Spraw Międzynarodowych</h4>{lista_pub(za.get("pism"))}'
+                  f'<p class="dalej"><a href="{prefix}czytelnia.html">Wszystkie teksty OSW i PISM z poprzednich wydań – Czytelnia</a></p></div>')
+        tyg_html = self.tygodniowe_html(w, T, prefix)
+        cz.append(tyg_html)
+        if w.get("tracker"):
+            spis.append(("tracker", "Tracker"))
+        if w.get("czytelnia"):
+            spis.append(("czytelnia-tygodnia", "Czytelnia tygodnia"))
+        cz.append('<h2 class="pasek" id="kalendarz">III. Kalendarz i zastrzeżenia</h2>')
+        spis.append(("kalendarz", "III. Kalendarz"))
+        if w.get("kalendarz"):
+            cz.append('<table class="kal">' + "".join(
+                f'<tr><td class="kal-d">{data_krotka(k["data"])}</td><td>{T(k["tekst"])} {html_tagi(k.get("tagi"), self.tagi, prefix)}</td></tr>'
+                for k in sorted(w["kalendarz"], key=lambda k: k["data"])) + "</table>")
+        if w.get("poza_oknem"):
+            cz.append('<div class="nota"><h3>Poza oknem, ale przesądzające</h3><table class="kal poza">' + "".join(
+                f'<tr><td class="kal-d">{data_krotka(k["data"])}</td><td>{T(k["tekst"])}</td></tr>'
+                for k in sorted(w["poza_oknem"], key=lambda k: k["data"])) + "</table></div>")
+        if w.get("czego_nie_ma"):
+            spis.append(("czego-nie-ma", f'Czego tu nie ma ({len(w["czego_nie_ma"])})'))
+            cz.append('<div class="nota" id="czego-nie-ma"><h3>Czego tu nie ma</h3><ul class="brak">' + "".join(
+                f'<li{(" id=" + chr(34) + e(c["id"]) + chr(34)) if c.get("id") else ""}><span class="prog">próg: {e(c["prog"])}</span> {T(c["tekst"])}'
+                + (f' <span class="prog">sprawdzono: {e(", ".join(c["sprawdzono"]))}</span>' if c.get("sprawdzono") else "") + '</li>'
+                for c in w["czego_nie_ma"]) + "</ul></div>")
+        if w.get("rozstrzygniecia"):
+            li = ""
+            for r in w["rozstrzygniecia"]:
+                s_, pid = r["dotyczy"].split("#")
+                gdzie = f' – <a href="#{e(r["pozycja"])}">pozycja w tym wydaniu</a>' if r.get("pozycja") else ""
+                li += (f'<li><span class="prog">{e(r["wynik"])}</span> <a href="{s_}.html#{e(pid)}">wpis z {data_dluga(s_)}</a>{gdzie}'
+                       f'{(": " + T(r["powod"])) if r.get("powod") else ""}</li>')
+            cz.append(f'<div class="nota" id="rozstrzygniecia"><h3>Rozstrzygnięcia z poprzedniego wydania</h3><ul class="brak">{li}</ul></div>')
+        if w.get("nota"):
+            cz.append(f'<div class="nota" id="nota"><h3>Nota metodyczna</h3><p>{T(w["nota"])}</p></div>')
+        cz[poz_spisu] = ('<nav class="spis" aria-label="Na tej stronie"><span class="spis-t">Na tej stronie</span>' +
+                         "".join(f'<a href="#{k}">{e(n)}</a>' for k, n in spis) + '</nav>')
+        cz.append('<nav class="kolejne">' +
+                  (f'<a href="{prev["_slug"]}.html">← nr {prev["nr"]}, {data_dluga(prev["data"])}</a>' if prev else "<span></span>") +
+                  (f'<a href="{nxt["_slug"]}.html">nr {nxt["nr"]}, {data_dluga(nxt["data"])} →</a>' if nxt else "<span></span>") + "</nav>")
+        opis = czysty(" ".join(w["w_skrocie"]), self.osoby, self.pojecia)[:200]
+        self.zapisz(f"wydania/{w['_slug']}.html",
+                    strona(f"{rodzaj} nr {w['nr']} – {data_dluga(w['data'])}", "\n".join(cz), prefix, opis, "wydania"))
+
+    def index(self):
+        cz = []
+        if self.wydania:
+            w = self.wydania[-1]
+            T = Tekst(self.osoby, self.pojecia, "")
+            cz.append(f"""<section class="winieta">
+  <p class="w-nr">Najnowsze · wydanie nr {e(w['nr'])}</p>
+  <h1><a href="wydania/{w['_slug']}.html">{data_pelna(w['data']).capitalize()}</a></h1>
+  <p class="w-stan">stan na godz. {e(w['godzina'])} CEST</p>
+</section>
+<section class="skrot"><h2>W skrócie</h2>{''.join(f'<p>{T(z)}</p>' for z in w['w_skrocie'])}
+<p class="dalej"><a href="wydania/{w['_slug']}.html">Czytaj całe wydanie</a></p></section>""")
+            kal = "".join(self.kalendarz_html(r, m, "wydania/", aktualny=w, przyciski=True) for r, m in reversed(self.miesiace_wydan()))
+            ostatnie = "".join(
+                f'<li><a href="wydania/{x["_slug"]}.html"><span class="a-d">{DNI_KROTKO[data_(x["data"]).weekday()]} {data_krotka(x["data"])}</span> '
+                f'{"tyg. " if x.get("typ") == "tygodniowe" else ""}nr {x["nr"]}</a>'
+                f'<span class="ost-t">{e(skroc(czysty(x["w_skrocie"][0], self.osoby, self.pojecia), 140))}</span></li>'
+                for x in list(reversed(self.wydania))[:5])
+            cz.append(f'<h2 class="pasek" id="kalendarz">Kalendarz wydań</h2><div class="gl-wydania">'
+                      f'<div><div class="kal-karuzela">{kal}</div>{self.kalendarz_legenda().replace("to wydanie", "najnowsze")}</div>'
+                      f'<div><h3 class="blok">Ostatnie wydania</h3><ul class="ostatnie">{ostatnie}</ul>'
+                      f'<p class="dalej"><a href="kalendarz.html">Pełny kalendarz</a> · <a href="#archiwum">Wszystkie wydania</a></p></div></div>'
+                      "<script>(function(){var k=document.querySelector('.kal-karuzela');if(!k)return;k.classList.add('js');"
+                      "var m=[].slice.call(k.querySelectorAll('.kal-m')),i=0;"
+                      "function pokaz(){m.forEach(function(x,j){x.hidden=j!==i;"
+                      "var s=x.querySelector('[data-kier=\"1\"]'),n=x.querySelector('[data-kier=\"-1\"]');"
+                      "s.disabled=j>=m.length-1;n.disabled=j<=0;});}"
+                      "k.addEventListener('click',function(e){var b=e.target.closest('[data-kier]');if(!b||b.disabled)return;"
+                      "i=Math.max(0,Math.min(m.length-1,i+parseInt(b.getAttribute('data-kier'),10)));pokaz();"
+                      "var f=m[i].querySelector('[data-kier=\"'+b.getAttribute('data-kier')+'\"]');(f.disabled?m[i].querySelector('.kal-strz:not([disabled])'):f).focus();});"
+                      "pokaz();})();</script>")
+            if self.topy:
+                z = self.topy[-1]
+                cz.append(f'<h2 class="pasek">Top 10 · {e(okres_topu(z))}</h2><ol class="top-lista">' + "".join(
+                    f'<li><a href="top/{z["_slug"]}.html#t{n}">{e(p["tytul"])}</a></li>' for n, p in enumerate(z["pozycje"], 1))
+                    + f'</ol><p class="dalej"><a href="top/{z["_slug"]}.html">Całe zestawienie z omówieniami</a></p>')
+            nowe = self.publikacje_posortowane()[:5]
+            if nowe:
+                cz.append('<h2 class="pasek">Nowe teksty OSW i PISM</h2><ul class="pub pub-glowna">' +
+                          "".join(self.publikacja_li(r, "") for r in nowe) +
+                          f'</ul><p class="dalej"><a href="czytelnia.html">Wszystkie teksty ({len(self.publikacje)}) w Czytelni</a></p>')
+            koniec = data_(w["data"])
+            ostatnie = [it for x in self.wydania for it in x["zarys"] if 0 <= (koniec - data_(it["data"])).days < 7]
+            cz.append(self.mapa_europy(ostatnie, "", "Mapa wątków z ostatnich 7 dni",
+                                       f"Pozycje z wydań z datą zdarzenia od {data_dluga((koniec - dt.timedelta(days=6)).isoformat())} do {data_dluga(w['data'])}."))
+            gorace = self.gorace_watki(7)
+            if gorace:
+                cz.append('<h2 class="pasek">Gorące wątki z ostatnich 7 dni</h2><div class="chmura">' + "".join(
+                    f'<a class="tag tag-{self.tagi[t]["grupa"]} duzy" href="watki/{t}.html">#{e(self.tagi[t]["nazwa"])} <span>{n}</span></a>'
+                    for t, n in gorace) + "</div>")
+            cz.append('<h2 class="pasek" id="archiwum">Archiwum wydań</h2>')
+            miesiac = None
+            lista = ""
+            for w in reversed(self.wydania):
+                d = data_(w["data"])
+                if (d.year, d.month) != miesiac:
+                    if lista:
+                        lista += "</ul>"
+                    miesiac = (d.year, d.month)
+                    lista += f'<h3 class="blok">{MIESIACE_MIAN[d.month-1]} {d.year}</h3><ul class="archiwum">'
+
+                rodzaj = " · tygodniowe" if w.get("typ") == "tygodniowe" else ""
+                tg = sorted({t for it in w["zarys"] for t in it["tagi"]})[:6]
+                lista += (f'<li><a href="wydania/{w["_slug"]}.html"><span class="a-d">{DNI_KROTKO[d.weekday()]} {data_krotka(w["data"])}</span> '
+                          f'nr {w["nr"]}{rodzaj}</a> {html_tagi(tg, self.tagi, "")}</li>')
+            cz.append(lista + "</ul>")
+        else:
+            cz.append("""<section class="winieta"><h1>Archiwum rusza wkrótce</h1>
+<p class="w-stan">Pierwsze wydanie pojawi się tu po najbliższej wieczornej publikacji.</p></section>
+<section class="skrot"><h2>Jak czytać tę stronę</h2>
+<p>Każde wydanie ma trzy części: <strong>zarys</strong> udokumentowanych wydarzeń, <strong>analizy</strong> z podpisanym autorem oceny i <strong>kalendarz</strong>.</p>
+<p><strong>Hashtagi</strong> łączą wydania: kliknięcie <span class="tag tag-miejsce">#Słowacja</span> pokazuje całą historię wątku na jednej stronie, z aktualnym stanem na górze.</p>
+<p>Osoby i pojęcia w tekście są klikalne i prowadzą do kart w działach „Kto jest kim” i „Pojęcia”.</p></section>""")
+        self.zapisz("index.html", strona("Wydania", "\n".join(cz), "", "", "wydania"))
+
+    # ---- kalendarz wydań
+
+    def wydania_wg_dni(self):
+        dni = {}
+        for w in self.wydania:
+            dni.setdefault(w["data"], []).append(w)
+        for lst in dni.values():
+            lst.sort(key=lambda w: (w.get("typ") == "tygodniowe", w.get("godzina", "")))
+        return dni
+
+    def miesiace_wydan(self):
+        ms = sorted({(data_(w["data"]).year, data_(w["data"]).month) for w in self.wydania})
+        if not ms:
+            return []
+        (r, m), koniec, wynik = ms[0], ms[-1], []
+        while (r, m) <= koniec:
+            wynik.append((r, m))
+            r, m = (r + 1, 1) if m == 12 else (r, m + 1)
+        return wynik
+
+    @staticmethod
+    def etykieta_wydania(w):
+        return ("Wydanie tygodniowe" if w.get("typ") == "tygodniowe" else "Wydanie") + f" nr {w['nr']} – {data_dluga(w['data'])}"
+
+    def kalendarz_html(self, rok, mies, sciezka, aktualny=None, nawigacja=False, przyciski=False):
+        """Siatka miesiąca (pon–nd). Dni z wydaniem są odnośnikami; tygodniówka ma znacznik T.
+        sciezka: prefiks do katalogu wydania/ ('wydania/' ze strony głównej, '' ze strony wydania)."""
+        dni = self.wydania_wg_dni()
+        nazwa = f"{MIESIACE_MIAN[mies-1]} {rok}"
+        glowa = f'<span class="kal-mies">{nazwa}</span>'
+        if nawigacja:
+            klucz = f"{rok:04d}-{mies:02d}"
+            wcz = [w for w in self.wydania if w["data"][:7] < klucz]
+            pozn = [w for w in self.wydania if w["data"][:7] > klucz]
+            lewo = (f'<a class="kal-strz" href="{sciezka}{wcz[-1]["_slug"]}.html" title="Poprzedni miesiąc: {e(self.etykieta_wydania(wcz[-1]))}">‹ <span class="sr">poprzedni miesiąc</span></a>'
+                    if wcz else '<span class="kal-strz kal-strz-0" aria-hidden="true">‹</span>')
+            prawo = (f'<a class="kal-strz" href="{sciezka}{pozn[0]["_slug"]}.html" title="Następny miesiąc: {e(self.etykieta_wydania(pozn[0]))}"><span class="sr">następny miesiąc</span> ›</a>'
+                     if pozn else '<span class="kal-strz kal-strz-0" aria-hidden="true">›</span>')
+            glowa = lewo + glowa + prawo
+        elif przyciski:
+            glowa = ('<button type="button" class="kal-strz" data-kier="1" aria-label="Poprzedni miesiąc">‹</button>' + glowa
+                     + '<button type="button" class="kal-strz" data-kier="-1" aria-label="Następny miesiąc">›</button>')
+        wiersze = ""
+        for tydzien in calendar.Calendar(firstweekday=0).monthdayscalendar(rok, mies):
+            wiersze += "<tr>"
+            for d in tydzien:
+                if not d:
+                    wiersze += "<td></td>"
+                    continue
+                data = f"{rok:04d}-{mies:02d}-{d:02d}"
+                lst = dni.get(data, [])
+                if not lst:
+                    wiersze += f'<td><span class="kd-0">{d}</span></td>'
+                    continue
+                pierwsze, reszta = lst[0], lst[1:]
+                klasy = "kd" + (" tyg" if pierwsze.get("typ") == "tygodniowe" else "") + (" akt" if pierwsze is aktualny else "")
+                biez = ' aria-current="page"' if pierwsze is aktualny else ""
+                kom = (f'<a class="{klasy}" href="{sciezka}{pierwsze["_slug"]}.html" title="{e(self.etykieta_wydania(pierwsze))}"{biez}>{d}</a>')
+                for w in reszta:
+                    akt = w is aktualny
+                    kom += (f'<a class="kd-t{" akt" if akt else ""}" href="{sciezka}{w["_slug"]}.html" '
+                            f'title="{e(self.etykieta_wydania(w))}"' + (' aria-current="page"' if akt else "") + '>T</a>')
+                wiersze += f"<td>{kom}</td>"
+            wiersze += "</tr>"
+        naglowki = "".join(f'<th scope="col" abbr="{n}">{k}</th>' for k, n in
+                           zip(["pn", "wt", "śr", "cz", "pt", "so", "nd"], DNI))
+        return (f'<div class="kal-m" id="kal-{rok:04d}-{mies:02d}"><div class="kal-gl">{glowa}</div>'
+                f'<table aria-label="Wydania – {nazwa}"><thead><tr>{naglowki}</tr></thead><tbody>{wiersze}</tbody></table></div>')
+
+    @staticmethod
+    def kalendarz_legenda():
+        return ('<p class="kal-leg"><span><i class="kd-i"></i>wydanie dzienne</span><span><i class="kd-i tyg"></i>wydanie tygodniowe (T)</span>'
+                '<span><i class="kd-i akt"></i>to wydanie</span><span><i class="kd-i zero"></i>bez wydania</span></p>')
+
+    @staticmethod
+    def top_okres(p):
+        d = sorted(r["data"] for r in p["przebieg"])
+        a, b = data_krotka(d[0]), data_krotka(d[-1])
+        return a if a == b else f"{a}–{b}"
+
+    def top_historia(self, z, p):
+        """Wcześniejsze zestawienia, w których była ta sama pozycja (to samo id): lista (zestawienie, miejsce)."""
+        wcz = []
+        for z2 in self.topy:
+            if z2 is z:
+                break
+            for n2, p2 in enumerate(z2["pozycje"], 1):
+                if p2["id"] == p["id"]:
+                    wcz.append((z2, n2))
+        return wcz
+
+    def top_odznaka(self, z, p):
+        if p.get("rozstrzygniete"):
+            return '<span class="odznaka hist rozstrz">rozstrzygnięte</span>'
+        return ('<span class="odznaka hist ponownie">ponownie</span>' if self.top_historia(z, p)
+                else '<span class="odznaka hist nowe">nowe</span>')
+
+    def top_pozycja(self, z, n, p, T, prefix):
+        etap = f'<span class="odznaka etap">{e(p["etap"])}</span>' if p.get("etap") else ""
+        etap = self.top_odznaka(z, p) + etap
+        cz = [f'<article class="top" id="t{n}">',
+              f'<header class="top-glowa"><span class="top-nr" aria-hidden="true">{n}</span><div>'
+              f'<h2 class="top-tytul"><span class="sr">{n}. </span>{e(p["tytul"])}</h2>'
+              f'<p class="top-meta"><span class="top-okres">{self.top_okres(p)}</span>{html_tagi(p.get("tagi"), self.tagi, prefix)}{etap}</p></div></header>',
+              f'<p class="top-lead">{T(p["lead"])}</p>']
+        cz.extend(f"<p>{T(x)}</p>" for x in p.get("omowienie", []))
+        cz.append('<h3 class="top-h">Przebieg</h3><ol class="przebieg">' + "".join(
+            f'<li><span class="pb-d">{data_krotka(r["data"])}</span><div class="pb-t"><p>{T(r["tekst"])}'
+            + (f' <span class="odznaka etap">{e(r["etap"])}</span>' if r.get("etap") else "")
+            + f'</p>{html_zrodla(r.get("zrodla"))}</div></li>'
+            for r in sorted(p["przebieg"], key=lambda r: r["data"])) + "</ol>")
+        if p.get("oceny"):
+            cz.append('<h3 class="top-h">Oceny</h3>')
+            for o in p["oceny"]:
+                wyd, czytaj = self.czytaj_html(o)
+                cz.append(f'<div class="top-ocena"><p class="autor">{html_wydawca(wyd)}Ocena: {e(o["autor"])}</p>'
+                          f'<p>{T(o["tekst"])}</p>{czytaj}{html_zrodla(o.get("zrodla"))}</div>')
+        cz.append(f'<p class="dla-polski"><strong>Dla Polski:</strong> {T(p["dla_polski"])}</p>')
+        if p.get("co_dalej"):
+            cz.append('<h3 class="top-h">Co dalej</h3><table class="kal">' + "".join(
+                f'<tr><td class="kal-d">{data_krotka(c["data"])}</td><td>{T(c["tekst"])}</td></tr>'
+                for c in sorted(p["co_dalej"], key=lambda c: c["data"])) + "</table>")
+        odn = []
+        for ref in p.get("w_wydaniach", []):
+            slug, pid = ref.split("#")
+            w = self.wydania_slug.get(slug)
+            if w:
+                odn.append((w["data"], f'<a href="{prefix}wydania/{slug}.html#{pid}">nr {w["nr"]} ({data_krotka(w["data"])})</a>'))
+        if odn:
+            cz.append('<p class="top-wyd">W wydaniach dziennych: ' + ", ".join(x for _, x in sorted(odn)) + "</p>")
+        hist = self.top_historia(z, p)
+        if hist:
+            cz.append('<p class="top-wyd">W poprzednich zestawieniach: ' + ", ".join(
+                f'<a href="{z2["_slug"]}.html#t{n2}">{e(okres_topu(z2))} – miejsce {n2}</a>' for z2, n2 in reversed(hist)) + "</p>")
+        cz.append('<p class="top-gora"><a href="#lista">↑ lista dziesięciu</a></p></article>')
+        return "\n".join(cz)
+
+    def top_strony(self):
+        prefix = "../"
+        for z in self.topy:
+            T = Tekst(self.osoby, self.pojecia, prefix)
+            okres = okres_topu(z)
+            cz = [f"""<section class="winieta">
+  <p class="w-nr">Zestawienie · Top 10</p>
+  <h1>{e(okres)}</h1>
+  <p class="w-stan">Dziesięć najważniejszych wydarzeń z perspektywy Polski · stan na {data_dluga(z["opublikowano"])}{(", godz. " + e(z["godzina"])) if z.get("godzina") else ""}</p>
+</section>"""]
+            cz.append('<section class="skrot"><h2>W skrócie</h2>' + "".join(f"<p>{T(x)}</p>" for x in z["wstep"]) + "</section>")
+            cz.append('<nav class="top-spis" id="lista" aria-label="Dziesięć wydarzeń"><ol>' + "".join(
+                f'<li><a href="#t{n}">{e(p["tytul"])}</a> <span class="top-okres">{self.top_okres(p)}</span></li>'
+                for n, p in enumerate(z["pozycje"], 1)) + "</ol></nav>")
+            if z.get("kryteria"):
+                cz.append(f'<p class="uwaga">{T(z["kryteria"])}</p>')
+            cz.extend(self.top_pozycja(z, n, p, T, prefix) for n, p in enumerate(z["pozycje"], 1))
+            if z.get("czego_nie_ma"):
+                cz.append('<div class="nota" id="czego-nie-ma"><h3>Czego tu nie ma</h3><ul class="brak">' + "".join(
+                    f'<li><span class="prog">próg: {e(c["prog"])}</span> {T(c["tekst"])}</li>' for c in z["czego_nie_ma"]) + "</ul></div>")
+            if z.get("nota"):
+                cz.append(f'<div class="nota" id="nota"><h3>Nota metodyczna</h3><p>{T(z["nota"])}</p></div>')
+            opis = czysty(" ".join(z["wstep"]), self.osoby, self.pojecia)[:200]
+            self.zapisz(f"top/{z['_slug']}.html", strona(f"Top 10 – {okres}", "\n".join(cz), prefix, opis, "top"))
+        lista = ""
+        for z in reversed(self.topy):
+            lista += (f'<article class="top-karta"><h2><a href="{z["_slug"]}.html">{e(okres_topu(z))}</a></h2>'
+                      f'<p class="uwaga">Stan na {data_dluga(z["opublikowano"])}</p><ol class="top-lista">' + "".join(
+                          f'<li><a href="{z["_slug"]}.html#t{n}">{e(p["tytul"])}</a> {self.top_odznaka(z, p)}</li>' for n, p in enumerate(z["pozycje"], 1))
+                      + "</ol></article>")
+        tresc = ('<section class="winieta"><h1>Top 10</h1><p class="w-stan">Historia zestawień: co miesiąc dziesięć najważniejszych wydarzeń poprzedniego miesiąca – '
+                 'z przebiegiem, ocenami ekspertów i wnioskiem „Dla Polski”. Kolejność to ocena redakcji; fakty mają źródła.</p>'
+                 '<p class="w-stan">Odznaki: <span class="odznaka hist nowe">nowe</span> pierwszy raz w zestawieniu · '
+                 '<span class="odznaka hist ponownie">ponownie</span> sprawa była już w zestawieniu, wraca z nowym faktem · '
+                 '<span class="odznaka hist rozstrz">rozstrzygnięte</span> sprawa zamknięta w tym miesiącu.</p></section>'
+                 + (lista or '<p class="uwaga">Pierwsze zestawienie pojawi się wkrótce.</p>'))
+        self.zapisz("top/index.html", strona("Top 10", tresc, "../", "", "top"))
+        slugi = {z["_slug"]: z for z in self.topy}
+        for stary, nowy in TOP_PRZEKIEROWANIA.items():
+            if nowy in slugi and stary not in slugi:
+                self.zapisz(f"top/{stary}.html", f'''<!doctype html><html lang="pl"><head><meta charset="utf-8">
+<meta http-equiv="refresh" content="0; url={nowy}.html"><link rel="canonical" href="{nowy}.html"><title>Top 10 – {e(okres_topu(slugi[nowy]))}</title></head>
+<body><p>Zestawienie zastąpiono zestawieniem miesięcznym: <a href="{nowy}.html">Top 10 – {e(okres_topu(slugi[nowy]))}</a>.</p></body></html>''')
+
+    def publikacje_posortowane(self):
+        return sorted(self.publikacje.values(), key=lambda r: (r["data"], r["wydawca"], r["tytul"]), reverse=True)
+
+    def publikacja_li(self, r, prefix, pelna=False):
+        """Jeden tekst OSW/PISM: wydawca, tytuł z linkiem do oryginału, autor i numer, nasze omówienia."""
+        meta = " · ".join(x for x in (e(r["autor"]), e(r["numer"])) if x)
+        om = "".join(
+            f'<a class="pub-om" href="{prefix}wydania/{w["_slug"]}.html#analiza-{j+1}">Nasze omówienie: {e(w_cudzyslowie(w["analizy"][j]["tytul"]))} (wyd. nr {w["nr"]})</a>'
+            for w, j in r["omowienia"])
+        if pelna:
+            dla = "".join(f'<p class="pub-dla"><strong>Dla Polski:</strong> {Tekst(self.osoby, self.pojecia, prefix)(w["analizy"][j]["dla_polski"])}</p>'
+                          for w, j in r["omowienia"][:1])
+            gdzie = "" if r["omowienia"] else (
+                '<span class="pub-gdzie">Odnotowany w ' + ", ".join(
+                    f'<a href="{prefix}wydania/{w["_slug"]}.html#publikacje">wyd. nr {w["nr"]}</a>' for w in r["wydania"]) + "</span>")
+            po_co = f'<p class="pub-dla">{Tekst(self.osoby, self.pojecia, prefix)(r["po_co"])}</p>' if r["po_co"] else ""
+        else:
+            dla = gdzie = po_co = ""
+        klasa = f' class="w-{r["wydawca"].lower()}"' if r["wydawca"] else ""
+        return (f'<li{klasa}><span class="pub-glowa">{html_wydawca(r["wydawca"])}<span class="pub-data">{data_krotka(r["data"])}</span></span>'
+                f'<a class="pub-tytul" href="{e(r["url"])}" target="_blank" rel="noopener noreferrer">{e(r["tytul"])}</a>'
+                f'<span class="pub-meta">{meta}</span>{po_co}{om}{dla}{gdzie}</li>')
+
+    def czytelnia(self):
+        lista = self.publikacje_posortowane()
+        n = {k: sum(1 for r in lista if r["wydawca"] == k) for k in ("OSW", "PISM")}
+        n_om = sum(1 for r in lista if r["omowienia"])
+        cz = [f"""<section class="winieta">
+  <p class="w-nr">Czytelnia</p>
+  <h1>Teksty OSW i PISM</h1>
+  <p class="w-stan">Wszystkie nowe analizy Ośrodka Studiów Wschodnich i Polskiego Instytutu Spraw Międzynarodowych odnotowane w wydaniach, od najnowszych: {len(lista)} tekstów, w tym {n_om} z naszym omówieniem i wnioskiem „Dla Polski”. Tytuł prowadzi do oryginału.</p>
+</section>"""]
+        if not lista:
+            cz.append('<p class="uwaga">Czytelnia wypełni się z kolejnymi wydaniami.</p>')
+        else:
+            cz.append('<div class="czyt-wrap">'
+                      '<input type="radio" name="czyt-f" id="f-all" class="filtr-r" checked>'
+                      '<input type="radio" name="czyt-f" id="f-osw" class="filtr-r">'
+                      '<input type="radio" name="czyt-f" id="f-pism" class="filtr-r">'
+                      '<input type="radio" name="czyt-f" id="f-om" class="filtr-r">'
+                      f'<p class="filtr"><label for="f-all">Wszystkie ({len(lista)})</label><label for="f-osw">OSW ({n["OSW"]})</label>'
+                      f'<label for="f-pism">PISM ({n["PISM"]})</label><label for="f-om">Z omówieniem ({n_om})</label></p>'
+                      '<ul class="pub pub-czyt">' +
+                      "".join(self.publikacja_li(r, "", pelna=True).replace("<li", f'<li data-om="{1 if r["omowienia"] else 0}"', 1)
+                              for r in lista) + "</ul></div>")
+        self.zapisz("czytelnia.html", strona("Czytelnia OSW i PISM", "\n".join(cz), "",
+                                             "Teksty OSW i PISM odnotowane w wydaniach Prasówki, z linkami do oryginałów i omówień.", "czytelnia"))
+
+    def kalendarz_strona(self):
+        mies = list(reversed(self.miesiace_wydan()))
+        n = len(self.wydania)
+        cz = [f"""<section class="winieta">
+  <p class="w-nr">Kalendarz</p>
+  <h1>Kalendarz wydań</h1>
+  <p class="w-stan">Wszystkie miesiące na jednej stronie, od najnowszego: {n} wydań. Dzień z wydaniem jest odnośnikiem.</p>
+</section>"""]
+        if not mies:
+            cz.append('<p class="uwaga">Kalendarz wypełni się z pierwszym wydaniem.</p>')
+        else:
+            cz.append(self.kalendarz_legenda().replace("to wydanie", "najnowsze"))
+            cz.append('<div class="kal-siatka">' + "".join(self.kalendarz_html(r, m, "wydania/", aktualny=self.wydania[-1]) for r, m in mies) + "</div>")
+            cz.append('<p class="dalej"><a href="index.html#archiwum">Lista wszystkich wydań</a></p>')
+        self.zapisz("kalendarz.html", strona("Kalendarz wydań", "\n".join(cz), "",
+                                             "Kalendarz wydań Prasówki – wszystkie miesiące, z odnośnikami do wydań.", "kalendarz"))
+
+    def gorace_watki(self, dni):
+        if not self.wydania:
+            return []
+        koniec = data_(self.wydania[-1]["data"])
+        licz = {}
+        for w in self.wydania:
+            for it in w["zarys"]:
+                if (koniec - data_(it["data"])).days < dni:
+                    for t in it["tagi"]:
+                        licz[t] = licz.get(t, 0) + 1
+        return sorted(licz.items(), key=lambda x: (-x[1], self.tagi[x[0]]["nazwa"]))[:12]
+
+    def watki(self):
+        prefix = "../"
+        wystapienia = {t: [] for t in self.tagi}
+        analizy = {t: [] for t in self.tagi}
+        kalendarz = {t: {} for t in self.tagi}
+        dzis = data_(self.wydania[-1]["data"]) if self.wydania else dt.date.today()
+        for w in self.wydania:
+            for it in w["zarys"]:
+                for t in it["tagi"]:
+                    wystapienia[t].append((w, it))
+            for a in w.get("analizy", []):
+                for t in a.get("tagi", []):
+                    analizy[t].append((w, a))
+            for k in w.get("kalendarz", []) + w.get("poza_oknem", []):
+                for t in k.get("tagi", []):
+                    if data_(k["data"]) >= dzis:
+                        kalendarz[t][(k["data"], k["tekst"])] = k
+        for t, tag in self.tagi.items():
+            T = Tekst(self.osoby, self.pojecia, prefix)
+            cz = [f"""<section class="winieta"><p class="w-nr">Wątek · {'miejsce' if tag['grupa'] == 'miejsce' else 'temat'}</p>
+<h1>#{e(tag['nazwa'])}</h1><p class="w-stan">{e(tag['opis'])}</p></section>"""]
+            if tag.get("stan"):
+                cz.append(f'<section class="skrot"><h2>Na czym stoimy · {data_dluga(tag["stan_data"])}</h2><p>{T(tag["stan"])}</p>'
+                          f'{html_zrodla(tag.get("stan_zrodla"))}</section>')
+            przyszle = sorted(kalendarz[t].values(), key=lambda k: k["data"])
+            if przyszle:
+                cz.append('<div class="nota"><h3>Najbliższe terminy</h3><table class="kal">' + "".join(
+                    f'<tr><td class="kal-d">{data_dluga(k["data"])}</td><td>{T(k["tekst"])}</td></tr>' for k in przyszle) + "</table></div>")
+            if wystapienia[t]:
+                cz.append(self.os_czasu(wystapienia[t], przyszle, dzis, prefix))
+                cz.append(f'<h2 class="pasek">Wszystkie pozycje · {len(wystapienia[t])}</h2><div class="os">')
+                for w, it in sorted(wystapienia[t], key=lambda x: (x[1]["data"], x[0]["data"]), reverse=True):
+                    cz.append(self.pozycja(w, it, T, prefix, z_wydaniem=True, kotwica=f"{w['_slug']}-{it['id']}"))
+                cz.append("</div>")
+            else:
+                cz.append('<p class="uwaga">W wydaniach nie ma jeszcze pozycji z tym hashtagiem.</p>')
+            w_top = [(z, n, p) for z in reversed(self.topy) for n, p in enumerate(z["pozycje"], 1) if t in p.get("tagi", [])]
+            if w_top:
+                cz.append('<h2 class="pasek">W zestawieniach Top 10</h2><ul class="archiwum">' + "".join(
+                    f'<li><a href="{prefix}top/{z["_slug"]}.html#t{n}">{n}. {e(p["tytul"])}</a> '
+                    f'<span class="uwaga">{e(okres_topu(z))}</span></li>' for z, n, p in w_top) + "</ul>")
+            if analizy[t]:
+                cz.append('<h2 class="pasek">Analizy w tym wątku</h2>')
+                cz.extend(self.analiza(w, a, T, prefix, z_wydaniem=True) for w, a in reversed(analizy[t]))
+            self.zapisz(f"watki/{t}.html", strona(f"#{tag['nazwa']}", "\n".join(cz), prefix, tag["opis"], "watki"))
+        # lista wątków
+        def blok(grupa, naglowek):
+            pozycje = sorted([x for x in self.tagi.values() if x["grupa"] == grupa], key=lambda x: (-len(wystapienia[x["id"]]), x["nazwa"]))
+            return (f'<h2 class="pasek">{naglowek}</h2><ul class="lista-watkow">' + "".join(
+                f'<li><a class="tag tag-{x["grupa"]} duzy" href="{x["id"]}.html">#{e(x["nazwa"])} <span>{len(wystapienia[x["id"]])}</span></a>'
+                f'<span class="lw-opis">{e(x["opis"])}</span>'
+                + (f'<span class="lw-stan">Stan na {data_dluga(x["stan_data"])}: {e(czysty(x["stan"], self.osoby, self.pojecia))}</span>' if x.get("stan") else "")
+                + "</li>" for x in pozycje) + "</ul>")
+        tresc = ('<section class="winieta"><h1>Wątki</h1><p class="w-stan">Każdy hashtag to jedna strona z całą historią tematu. '
+                 'Liczba przy tagu to liczba pozycji we wszystkich wydaniach.</p></section>'
+                 + blok("miejsce", "Miejsca") + blok("temat", "Tematy"))
+        self.zapisz("watki/index.html", strona("Wątki", tresc, prefix, "", "watki"))
+
+    def osoby_strony(self):
+        prefix = "../"
+        wyst = {o: [] for o in self.osoby}
+        for w in self.wydania:
+            elementy = [(it["tekst"], it.get("id")) for it in w["zarys"]] + [(a["tekst"] + a["dla_polski"], "analizy") for a in w.get("analizy", [])]
+            for tekst, kotwica in elementy:
+                for m in ZNACZNIK_RE.finditer(tekst):
+                    if m.group(1) == "o":
+                        wyst[m.group(2)].append((w, kotwica))
+        for oid, o in self.osoby.items():
+            T = Tekst(self.osoby, self.pojecia, prefix)
+            T.przedstawione.add(oid)
+            hist = ""
+            if o.get("historia"):
+                hist = "<h3>Wcześniejsze funkcje</h3><ul>" + "".join(f"<li>{e(h)}</li>" for h in o["historia"]) + "</ul>"
+            widziane = {}
+            for w, k in wyst[oid]:
+                widziane[(w["_slug"], k)] = w
+            lista = "".join(f'<li><a href="../wydania/{s}.html#{k}">wyd. nr {w["nr"]}, {data_dluga(w["data"])}</a></li>'
+                            for (s, k), w in sorted(widziane.items(), reverse=True))
+            tresc = f"""<section class="winieta"><p class="w-nr">Kto jest kim</p><h1>{e(o['imie'])}</h1>
+<p class="w-stan">{e(o['funkcja'])} · zweryfikowano {data_dluga(o['zweryfikowano'])}</p></section>
+<section class="skrot">{f"<p>{T(o['dlaczego'])}</p>" if o.get('dlaczego') else ''}{hist}{html_zrodla(o['zrodla'])}</section>
+<h2 class="pasek">Występuje w wydaniach</h2><ul class="archiwum">{lista or '<li>jeszcze nie</li>'}</ul>"""
+            self.zapisz(f"osoby/{oid}.html", strona(o["imie"], tresc, prefix, o["funkcja"], "osoby"))
+        pozycje = sorted(self.osoby.values(), key=lambda o: o["imie"].split()[-1])
+        tresc = ('<section class="winieta"><h1>Kto jest kim</h1><p class="w-stan">Osoby z przeglądów: funkcja ze źródłem i datą weryfikacji.</p></section>'
+                 + ('<ul class="lista-watkow">' + "".join(
+                     f'<li><a href="{o["id"]}.html"><strong>{e(o["imie"])}</strong></a><span class="lw-opis">{e(o["funkcja"])}</span></li>'
+                     for o in pozycje) + "</ul>" if pozycje else '<p class="uwaga">Karty osób pojawią się wraz z pierwszymi wydaniami.</p>'))
+        self.zapisz("osoby/index.html", strona("Kto jest kim", tresc, prefix, "", "osoby"))
+
+    def pojecia_strony(self):
+        prefix = "../"
+        for pid, p in self.pojecia.items():
+            tresc = f"""<section class="winieta"><p class="w-nr">Pojęcie</p><h1>{e(p['nazwa'])}</h1><p class="w-stan">{e(p['pelna'])}</p></section>
+<section class="skrot"><p>{e(p['definicja'])}</p>{html_zrodla(p.get('zrodla'))}</section>"""
+            self.zapisz(f"pojecia/{pid}.html", strona(p["nazwa"], tresc, prefix, p["pelna"], "pojecia"))
+        pozycje = sorted(self.pojecia.values(), key=lambda p: p["nazwa"].lower())
+        tresc = ('<section class="winieta"><h1>Pojęcia</h1><p class="w-stan">Skróty i terminy używane w przeglądach.</p></section><ul class="lista-watkow">'
+                 + "".join(f'<li><a href="{p["id"]}.html"><strong>{e(p["nazwa"])}</strong></a><span class="lw-opis">{e(p["pelna"])} – {e(p["definicja"])}</span></li>'
+                           for p in pozycje) + "</ul>")
+        self.zapisz("pojecia/index.html", strona("Pojęcia", tresc, prefix, "", "pojecia"))
+
+    def korekty(self):
+        wiersze = []
+        for w in reversed(self.wydania):
+            for k in self.wszystkie_korekty(w):
+                cel = ""
+                if k.get("dotyczy"):
+                    s, pid = k["dotyczy"].split("#")
+                    cel = f'<a href="wydania/{s}.html#{pid}">pozycja z {data_dluga(s)}</a>'
+                wiersze.append(f"""<article class="poz skorygowana"><div class="poz-data">{data_krotka(w['data'])}</div><div class="poz-tresc">
+<p class="poz-meta">Sprostowanie w <a href="wydania/{w['_slug']}.html#korekty">wyd. nr {w['nr']}</a>{(' · dotyczy: ' + cel) if cel else ''}</p>
+<p><strong>Było:</strong> {e(k['bylo'])}</p><p><strong>Jest:</strong> {e(k['jest'])}</p>{html_zrodla(k['zrodla'])}</div></article>""")
+        if self.rewizje:
+            wiersze.append('<h2 class="pasek" id="rewizja">Rewizja archiwum · tylko informacje potwierdzone</h2>'
+                           '<p class="uwaga">Od 01.10.2026 do zarysu wchodzą wyłącznie informacje potwierdzone. Pozycje oznaczone wcześniej '
+                           'jako NIEPOTWIERDZONE lub SPRZECZNE ŹRÓDŁA oraz oparte na samych tytułach sprawdzono ponownie; w wydaniu została wersja potwierdzona, '
+                           'tu – pierwotna. Czego nie dało się potwierdzić, wycofano.</p>')
+            for r in sorted(self.rewizje, key=lambda r: r["dotyczy"], reverse=True):
+                s_, pid = r["dotyczy"].split("#")
+                wiersze.append(f"""<article class="poz"><div class="poz-data">{data_krotka(r['data'])}</div><div class="poz-tresc">
+<p class="poz-meta"><span class="odznaka {'sprzeczne' if r['wynik'] == 'WYCOFANE' else 'etap'}">{e(r['wynik'])}</span> <a href="wydania/{s_}.html#{pid}">pozycja z {data_dluga(s_)}</a> · pierwotnie: {e(r.get('pierwotny_status', ''))}</p>
+<p><strong>Było:</strong> {e(czysty(r['bylo'], self.osoby, self.pojecia))}</p>{html_zrodla(r.get('bylo_zrodla'), 'Źródła pierwotne')}
+{('<p><strong>Jest:</strong> ' + e(czysty(r['jest'], self.osoby, self.pojecia)) + '</p>') if r.get('jest') else '<p><strong>Jest:</strong> pozycja wycofana z wydania.</p>'}<p class="poz-tekst"><strong>{'Powód' if r['wynik'] == 'WYCOFANE' else 'Zmiana'}:</strong> {e(r['zmiana'])}</p>{html_zrodla(r['zrodla'], 'Źródła rewizji')}</div></article>""")
+        tresc = ('<section class="winieta"><h1>Rejestr korekt</h1><p class="w-stan">Każdy wykryty błąd: co napisaliśmy, jak jest naprawdę i na jakiej podstawie. '
+                 'Sprostowana pozycja zostaje w wydaniu z wyraźnym znakiem ▲.</p></section>'
+                 + ("".join(wiersze) if wiersze else '<p class="uwaga">Brak korekt.</p>'))
+        self.zapisz("korekty.html", strona("Korekty", tresc, "", "", "korekty"))
+
+    def ranking_strona(self):
+        if not RANKING:
+            return
+        uzycia = {}
+        for w in self.wydania:
+            for z in wszystkie_zrodla(w):
+                o = RANKING.ocen(z["nazwa"], z["url"])
+                if o:
+                    uzycia[o["id"]] = uzycia.get(o["id"], 0) + 1
+        razem = sum(uzycia.values()) or 1
+        cz = ['<section class="winieta"><h1>Ranking źródeł</h1><p class="w-stan">Na jakich źródłach opiera się Prasówka i jak bardzo im ufamy. '
+              'Kolor przy każdym źródle w wydaniach odpowiada poziomowi z tej strony.</p></section>']
+        # rozkład cytowań
+        rozklad = {p: 0 for p in RANKING.poziomy}
+        for zid, n in uzycia.items():
+            rozklad[next(z for z in RANKING.zrodla if z["id"] == zid)["poziom"]] += n
+        pasek = "".join(f'<span class="rk-seg wzt{p}" style="flex:{n}" title="Poziom {p}: {n} cytowań"></span>' for p, n in rozklad.items() if n)
+        leg = "".join(f'<span><span class="wz wz{p}"></span>{p}. {e(RANKING.poziomy[p]["nazwa"])}: <strong>{n}</strong> ({round(100 * n / razem)}%)</span>'
+                      for p, n in rozklad.items())
+        cz.append(f'<section class="skrot"><h2>Na czym stoją wydania · {razem} cytowań źródeł</h2><div class="rk-pasek">{pasek}</div>'
+                  f'<p class="m-leg">{leg}</p></section>')
+        cz.append('<h2 class="pasek">Jak oceniamy</h2><section class="skrot">' + "".join(
+            f'<p><strong>{e(n)}:</strong> {e(o)}.</p>' for n, o in RANKING.dane["kryteria"]) +
+            '<p>Ranking to <strong>ocena redakcji Prasówki</strong>, nie obiektywna miara: mówi, ile potwierdzenia potrzebuje informacja z danego źródła. '
+            'Poziom dotyczy typowej informacji; źródło z poziomu 5 jest rozstrzygające co do tego, co twierdzi jego rząd, a urzędowe (1) – co do decyzji instytucji, nie co do ocen.</p>'
+            '<p><strong>Zasada publikacji (od 01.10.2026 sprawdzana automatycznie):</strong> pozycja zarysu wymaga źródła urzędowego (poziom 1) '
+            'albo dwóch niezależnych źródeł z poziomów 1–2. Poziomy 3–5 mogą towarzyszyć, ale nie liczą się do podstawy. '
+            'Przy przedruku depeszy kolor bierze się z agencji, którą wskazujemy w nazwie, np. „Reuters (za U.S. News)”.</p></section>')
+        for p, poz in sorted(RANKING.poziomy.items()):
+            lista = sorted([z for z in RANKING.zrodla if z["poziom"] == p], key=lambda z: (-uzycia.get(z["id"], 0), z["nazwa"].lower()))
+            cz.append(f'<h2 class="pasek rk-nag wzb{p}" id="poziom-{p}"><span class="wz wz{p}"></span>{p}. {e(poz["nazwa"])}</h2><p class="uwaga">{e(poz["opis"])}</p>'
+                      '<div class="mapa-wrap"><table class="kal rk"><tr><th>Źródło</th><th>Typ · kraj</th><th>Cytowań</th><th>Dlaczego ten poziom</th></tr>' + "".join(
+                          f'<tr id="{e(z["id"])}"><td><span class="wz wz{p}"></span><strong>{e(z["nazwa"])}</strong></td><td>{e(z["typ"])} · {e(z["kraj"])}</td>'
+                          f'<td class="rk-n">{uzycia.get(z["id"], 0) or "–"}</td><td>{e(z["uzasadnienie"])}</td></tr>' for z in lista) + "</table></div>")
+        self.zapisz("zrodla.html", strona("Ranking źródeł", "\n".join(cz), "", "Ranking wiarygodności źródeł", "zrodla"))
+
+    def jak_weryfikujemy(self):
+        tresc = """<section class="winieta"><h1>Jak weryfikujemy</h1>
+<p class="w-stan">Co musi się stać, żeby informacja trafiła do przeglądu, i jak czytać oznaczenia.</p></section>
+<h2 class="pasek">Trzy progi</h2>
+<section class="skrot">
+<p><strong>1. Dokumentacja.</strong> Komunikat instytucji, dane urzędowe albo dwa niezależne serwisy. Sam nagłówek z wyszukiwarki nie wystarcza: strona źródła jest otwierana i czytana.</p>
+<p><strong>2. Następstwo.</strong> Coś się zmieniło: zapadła decyzja, powstał termin, zmienił się stan rzeczy. Zdarzenie potwierdzone, ale bez skutku, nie wchodzi do zarysu; trafia do noty „Czego tu nie ma” z podaniem powodu.</p>
+<p><strong>3. Kompletność.</strong> Osoba zawsze z funkcją, uzbrojenie z nazwą systemu, liczbą i jednostką, skróty rozwinięte, liczby z datą i źródłem.</p>
+</section>
+<h2 class="pasek">Co sprawdzamy szczególnie</h2>
+<section class="skrot">
+<p><strong>Statusy</strong> (kto pełni funkcję, kto jest więziony lub wolny, co obowiązuje) są sprawdzane w dniu wydania osobnym wyszukiwaniem, a nie przenoszone z poprzednich wydań.</p>
+<p><strong>Daty</strong> zdarzeń są porównywane z datą publikacji; „wtorek” czy „wczoraj” zamieniamy na datę kalendarzową.</p>
+<p><strong>Etap decyzji</strong> nazywamy wprost: propozycja, zapowiedź, przyjęte. Uzgodnienie to jeszcze nie wypłata.</p>
+<p><strong>Wyniki wyborów</strong>: wynik oficjalny, z zaznaczeniem, że wcześniejszy był wstępny.</p>
+<p><strong>Źródła strony zainteresowanej</strong> (rosyjskie, białoruskie, irańskie) przytaczamy z oznaczeniem.</p>
+<p><strong>Kontrola niezależna:</strong> przed publikacją tekst sprawdza osobny agent, który nie brał udziału w pisaniu, samodzielnie wyszukując statusy, daty, etapy decyzji i dane o uzbrojeniu.</p>
+<p><strong>Poprzednie wydania nie są źródłem.</strong> Każda informacja jest sprawdzana w źródle zewnętrznym.</p>
+</section>
+<h2 class="pasek">Oznaczenia</h2>
+<section class="skrot">
+<p><strong>Tylko informacje potwierdzone.</strong> Do zarysu nie wchodzą informacje z jednego źródła ani takie, których nie da się udokumentować; trafiają do noty „Czego tu nie ma” z podaniem powodu. Wypowiedź strony zainteresowanej podajemy tylko jako udokumentowany fakt, że padła, z atrybucją w treści („według Kremla…”).</p>
+<p><strong>Kompletność (od 5.10.2026).</strong> Po pominięciu szczytu Trump–Xi we wrześniu sprawdzamy nie tylko to, co weszło do wydania, ale i to, czego w nim brakuje. Ważne zaplanowane wydarzenia (szczyty, wizyty przywódców mocarstw, wybory w regionie) prowadzimy na liście terminów: na tydzień przed muszą stać w kalendarzu wydania, a po zakończeniu – w zarysie albo w nocie „Czego tu nie ma” z wyjaśnieniem; inaczej wydanie nie zostanie zbudowane. To samo dotyczy każdego terminu z kalendarza. Wpis „Czego tu nie ma” z braku dokumentacji wymaga listy miejsc sprawdzonych bez skutku (w tym komunikatów instytucji obu stron), a następne wydanie musi go rozstrzygnąć: uzupełnić, uznać za niemożliwy do potwierdzenia albo odrzucić z powodem. Kontrola niezależna porównuje też zarys z głównymi tematami dnia w agencjach.</p>
+<p><strong>Rewizja archiwum.</strong> Do 30.09.2026 używaliśmy oznaczeń NIEPOTWIERDZONE i SPRZECZNE ŹRÓDŁA. 01.10.2026 wszystkie takie pozycje, a także oparte na samych tytułach, sprawdzono ponownie: zostawiono tylko część potwierdzoną, a niepotwierdzone wycofano; wersje pierwotne są w <a href="korekty.html#rewizja">rejestrze korekt</a>.</p>
+<p><span class="odznaka etap">PROPOZYCJA</span> <span class="odznaka etap">ZAPOWIEDŹ</span> <span class="odznaka etap">PRZYJĘTE</span> etap decyzji.</p>
+<p><strong>Ocena: autor</strong> przy analizach oznacza interpretację (OSW, PISM, ISW jako think tank albo redakcja), nie ustalenie.</p>
+<p><span class="kor-znak">▲</span> pozycja sprostowana później; link prowadzi do sprostowania.</p>
+<p><mark>wyróżnienie</mark> słowo kluczowe pozycji.</p>
+</section>
+<h2 class="pasek">Źródła stałe</h2>
+<section class="skrot">
+<p>OSW i PISM (publikacje z ostatnich 3 dni), agencje: Reuters, AP, AFP, PAP, Al Jazeera, Kyiv Independent; przy uzbrojeniu komunikaty MON i Dowództwa Operacyjnego RSZ; gospodarka: GUS, NBP; front: ISW, zawsze jako ocena think tanku.</p>
+</section>"""
+        self.zapisz("jak-weryfikujemy.html", strona("Jak weryfikujemy", tresc, "", "", "jak"))
+
+    def szukaj(self):
+        idx = []
+        for w in self.wydania:
+            for it in w["zarys"]:
+                idx.append({"t": czysty(it["tekst"], self.osoby, self.pojecia), "d": it["data"],
+                            "g": [self.tagi[t]["nazwa"] for t in it["tagi"]],
+                            "u": f"wydania/{w['_slug']}.html#{it['id']}", "w": w["nr"]})
+            for a in w.get("analizy", []):
+                idx.append({"t": a["tytul"] + ". " + czysty(a["tekst"], self.osoby, self.pojecia) + " (ocena: " + a["autor"] + ")",
+                            "d": w["data"], "g": [self.tagi[t]["nazwa"] for t in a.get("tagi", [])],
+                            "u": f"wydania/{w['_slug']}.html#analizy", "w": w["nr"]})
+        for z in self.topy:
+            for n, p in enumerate(z["pozycje"], 1):
+                idx.append({"t": f"Top 10: {p['tytul']}. " + czysty(p["lead"], self.osoby, self.pojecia),
+                            "d": max(r["data"] for r in p["przebieg"]), "g": [self.tagi[t]["nazwa"] for t in p.get("tagi", [])],
+                            "u": f"top/{z['_slug']}.html#t{n}", "w": ""})
+        for o in self.osoby.values():
+            idx.append({"t": f"{o['imie']} – {o['funkcja']}", "d": o["zweryfikowano"], "g": ["Kto jest kim"], "u": f"osoby/{o['id']}.html", "w": ""})
+        for p in self.pojecia.values():
+            idx.append({"t": f"{p['nazwa']} – {p['pelna']}: {p['definicja']}", "d": "", "g": ["Pojęcia"], "u": f"pojecia/{p['id']}.html", "w": ""})
+        self.zapisz("szukaj.json", json.dumps(idx, ensure_ascii=False))
+        tresc = """<section class="winieta"><h1>Szukaj</h1><p class="w-stan">Przeszukuje wszystkie wydania, analizy, osoby i pojęcia.</p></section>
+<input id="q" class="szukaj" type="search" placeholder="np. Królewiec, Patriot, Fico…" autofocus>
+<p id="ile" class="uwaga"></p><div id="wyniki"></div>
+<script>
+(function(){
+  var dane=[], q=document.getElementById('q'), out=document.getElementById('wyniki'), ile=document.getElementById('ile');
+  function norm(s){return s.toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').replace(/ł/g,'l');}
+  function esc(s){return s.replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  function szukaj(){
+    var s=norm(q.value.trim()); out.innerHTML='';
+    if(s.length<2){ile.textContent='';return;}
+    var slowa=s.split(/\\s+/), wyn=dane.filter(function(x){var t=norm(x.t+' '+x.g.join(' '));return slowa.every(function(w){return t.indexOf(w)>=0;});});
+    wyn.sort(function(a,b){return (b.d||'').localeCompare(a.d||'');});
+    ile.textContent=wyn.length+' wyników';
+    out.innerHTML=wyn.slice(0,100).map(function(x){
+      var d=x.d?x.d.split('-').reverse().slice(0,2).join('.'):'';
+      return '<article class="poz"><div class="poz-data">'+d+'</div><div class="poz-tresc"><p class="poz-meta">'+x.g.map(function(g){return '<span class="tag">#'+esc(g)+'</span>';}).join('')+(x.w?' <span class="z-wydania">wyd. nr '+x.w+'</span>':'')+'</p><p><a href="'+x.u+'">'+esc(x.t)+'</a></p></div></article>';
+    }).join('');
+  }
+  fetch('szukaj.json').then(function(r){return r.json();}).then(function(j){dane=j; var p=new URLSearchParams(location.search).get('q'); if(p){q.value=p;} szukaj();});
+  q.addEventListener('input',szukaj);
+})();
+</script>"""
+        self.zapisz("szukaj.html", strona("Szukaj", tresc, "", "", "szukaj"))
+
+    def rss(self):
+        items = ""
+        for w in list(reversed(self.wydania))[:30]:
+            url = f"{BASE_URL}wydania/{w['_slug']}.html"
+            opis = " ".join(czysty(z, self.osoby, self.pojecia) for z in w["w_skrocie"])
+            d = data_(w["data"])
+            gg, mm = (w.get("godzina") or "20:00").split(":")
+            pub = dt.datetime(d.year, d.month, d.day, int(gg), int(mm), tzinfo=dt.timezone(dt.timedelta(hours=2)))
+            rodzaj = "Wydanie tygodniowe" if w.get("typ") == "tygodniowe" else "Wydanie"
+            items += f"""<item><title>{xml_escape(f"{rodzaj} nr {w['nr']} – {data_dluga(w['data'])}")}</title><link>{url}</link><guid>{url}</guid>
+<pubDate>{pub.strftime('%a, %d %b %Y %H:%M:%S %z')}</pubDate><description>{xml_escape(opis)}</description></item>\n"""
+        for z in self.topy:
+            url = f"{BASE_URL}top/{z['_slug']}.html"
+            d = data_(z["opublikowano"])
+            gg, mm = (z.get("godzina") or "12:00").split(":")
+            pub = dt.datetime(d.year, d.month, d.day, int(gg), int(mm), tzinfo=dt.timezone(dt.timedelta(hours=2)))
+            opis = " ".join(czysty(x, self.osoby, self.pojecia) for x in z["wstep"])
+            items = f"""<item><title>{xml_escape("Top 10 – " + okres_topu(z))}</title><link>{url}</link><guid>{url}</guid>
+<pubDate>{pub.strftime('%a, %d %b %Y %H:%M:%S %z')}</pubDate><description>{xml_escape(opis)}</description></item>\n""" + items
+        self.zapisz("feed.xml", f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel><title>{TYTUL} – {PODTYTUL}</title><link>{BASE_URL}</link>
+<description>Codzienny przegląd sytuacji międzynarodowej ze źródłami i weryfikacją faktów.</description><language>pl</language>
+{items}</channel></rss>
+""")
+
+    def statyczne(self):
+        self.zapisz("robots.txt", "User-agent: *\nDisallow: /\n")
+        self.zapisz(".nojekyll", "")
+        self.zapisz("404.html", strona("Nie znaleziono", '<section class="winieta"><h1>Nie ma takiej strony</h1><p class="w-stan"><a href="{SCIEZKA}index.html">Wróć do wydań</a></p></section>'.replace("{SCIEZKA}", SCIEZKA), SCIEZKA))
+        src = REPO / "narzedzia" / "styl.css"
+        (self.out / "assets").mkdir(parents=True, exist_ok=True)
+        shutil.copy(src, self.out / "assets" / "styl.css")
+
+    def wszystko(self):
+        for sciezka in ("wydania", "watki", "osoby", "pojecia", "top"):
+            p = self.out / sciezka
+            if p.exists():
+                shutil.rmtree(p)
+        for i, w in enumerate(self.wydania):
+            self.wydanie(i, w)
+        self.index()
+        self.top_strony()
+        self.czytelnia()
+        self.kalendarz_strona()
+        self.watki()
+        self.osoby_strony()
+        self.pojecia_strony()
+        self.korekty()
+        self.ranking_strona()
+        self.jak_weryfikujemy()
+        self.szukaj()
+        self.rss()
+        self.statyczne()
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--dane", type=Path, default=REPO / "dane")
+    ap.add_argument("--wyjscie", type=Path, default=REPO)
+    ap.add_argument("--sprawdz", action="store_true")
+    ap.add_argument("--raport-strazy", action="store_true",
+                    help="przegląd archiwum: straże kompletności od pierwszego wydania, jako ostrzeżenia")
+    a = ap.parse_args()
+    global RANKING
+    RANKING = wczytaj_ranking(a.dane)
+    global TERMINY
+    TERMINY = wczytaj_terminy(a.dane)
+    tagi, osoby, pojecia, wydania, rewizje, topy = wczytaj(a.dane)
+    if a.raport_strazy:
+        raport = []
+        waliduj_straze(wydania, tagi, Bledy(), od="2000-01-01", raport=raport)
+        print("\n".join(raport) or "Brak ostrzeżeń.")
+        return
+    bledy = waliduj(tagi, osoby, pojecia, wydania, rewizje, topy)
+    if bledy:
+        print("WALIDACJA NIE PRZESZŁA — strona nie została zbudowana:", file=sys.stderr)
+        for x in bledy:
+            print("  - " + x, file=sys.stderr)
+        sys.exit(1)
+    print(f"Walidacja OK: {len(wydania)} wydań, {sum(len(w['zarys']) for w in wydania)} pozycji, "
+          f"{len(tagi)} hashtagów, {len(osoby)} osób, {len(pojecia)} pojęć, {len(topy)} zestawień Top 10.")
+    if a.sprawdz:
+        return
+    Budowa(tagi, osoby, pojecia, wydania, a.wyjscie, rewizje, topy).wszystko()
+    print(f"Strona zbudowana w {a.wyjscie}")
+
+
+if __name__ == "__main__":
+    main()

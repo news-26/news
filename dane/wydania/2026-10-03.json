@@ -1,0 +1,450 @@
+{
+  "nr": 14,
+  "data": "2026-10-03",
+  "godzina": "20:30",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Rosja trzeci dzień z rzędu uderzyła w **mosty Kijowa na Dnieprze** – 3.10 uszkodzony został Most Północny – a rosyjskie MSZ ponowiło wezwanie do cudzoziemców, w tym dyplomatów, by nie przebywali w Ukrainie.",
+    "Pięć rosyjskich środków napadu powietrznego, w tym pociski {{p:banderol|Banderol}}, naruszyło w nocy przestrzeń powietrzną **Mołdawii** i eksplodowało na jej terytorium; prezydent {{o:maia-sandu|Maia Sandu}} wezwała do powstrzymania Moskwy.",
+    "W wyborach do {{p:saeima|Saeimy}} Łotwy według sondażu powyborczego wygrywa z ok. **35%** {{p:zjednoczona-lista|Zjednoczona Lista}} premiera {{o:andris-kulbergs|Andrisa Kulbergsa}}; potrzebna będzie koalicja.",
+    "W Szwecji przewodniczący Riksdagu powierzył ponownie liderce socjaldemokratów {{o:magdalena-andersson|Magdalenie Andersson}} misję zbadania możliwości utworzenia rządu – z raportem do 12.10.",
+    "OSW i PISM nie opublikowały nowych tekstów 2 i 3.10; w poniedziałek w Warszawie będzie przewodniczący Rady Europejskiej {{o:antonio-costa|António Costa}}."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-10-03",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "hybryda"
+      ],
+      "tekst": "Rosyjski atak rano 3.10 uszkodził w Kijowie **Most Północny** – według mera {{o:witalij-kliczko|Witalija Kliczki}} nawierzchnię i trakcję trolejbusową – i wstrzymał ruch; to trzeci dzień z rzędu uderzeń w mosty na Dnieprze po wielokrotnych trafieniach Mostu Południowego 1–2.10. Tego samego dnia MSZ Rosji ponowiło ostrzeżenie dla cudzoziemców, „w tym personelu misji dyplomatycznych”, przed pobytem w Ukrainie i zapowiedziało dalsze „zmasowane uderzenia odwetowe”.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russia-strikes-key-kyiv-bridge-for-3rd-straight-day-as-attacks-intensify/",
+          "data": "2026-10-03"
+        },
+        {
+          "nazwa": "AP (za ABC News)",
+          "url": "https://abcnews.com/International/wireStory/russia-strikes-kyivs-northern-bridge-new-tactic-disrupt-136969028",
+          "data": "2026-10-03"
+        },
+        {
+          "nazwa": "Reuters (za Internazionale)",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/03/russia-pledges-to-continue-massive-strikes-on-kyiv-urges-foreign-diplomats-to-leave-city",
+          "data": "2026-10-03"
+        },
+        {
+          "nazwa": "AFP (za Al Arabiya)",
+          "url": "https://english.alarabiya.net/News/world/2026/10/03/russia-issues-fresh-warning-for-diplomats-foreigners-to-leave-kyiv-ministry",
+          "data": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-10-03",
+      "tagi": [
+        "hybryda",
+        "rosja",
+        "ukraina"
+      ],
+      "tekst": "W nocy na 3.10 pięć rosyjskich środków napadu powietrznego – pociski {{p:banderol|Banderol}} i drony – **naruszyło przestrzeń powietrzną Mołdawii** i eksplodowało na jej terytorium, m.in. w rejonach Anenii Noi, Ștefan Vodă i Căușeni; ofiar nie zgłoszono. Prezydent {{o:maia-sandu|Maia Sandu}}: „Moskwa naraża życie ludzi w całej Europie i musi zostać powstrzymana”.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/5-russian-missiles-and-drones-exploded-over-moldovas-airspace-sandu-says/",
+          "data": "2026-10-03"
+        },
+        {
+          "nazwa": "AP (za ABC News)",
+          "url": "https://abcnews.com/International/wireStory/russia-strikes-kyivs-northern-bridge-new-tactic-disrupt-136969028",
+          "data": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "instytucje",
+      "data": "2026-10-03",
+      "tagi": [
+        "lotwa",
+        "wybory"
+      ],
+      "tekst": "Według sondażu powyborczego SKDS (z RSU i agencją LETA) wybory do {{p:saeima|Saeimy}} Łotwy wygrywa **{{p:zjednoczona-lista|Zjednoczona Lista}}** premiera {{o:andris-kulbergs|Andrisa Kulbergsa}} z ok. 35% głosów, przed Łotwa Przede Wszystkim (11,3%), Postępowymi (ok. 11%) i Suwerenną Władzą (10,8%). Zjednoczona Lista nie ma samodzielnej większości i będzie potrzebowała koalicjanta.",
+      "zrodla": [
+        {
+          "nazwa": "LSM",
+          "url": "https://eng.lsm.lv/article/politics/election/03.10.2026-exit-poll-kulbergs-and-united-list-on-track-to-remain-top-dogs-in-latvian-election.a665969/",
+          "data": "2026-10-03"
+        },
+        {
+          "nazwa": "Reuters (za ThePrint)",
+          "url": "https://theprint.in/world/latvian-pm-kulbergs-strongly-ahead-in-election-according-to-exit-poll/3061311/",
+          "data": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "instytucje",
+      "data": "2026-10-02",
+      "tagi": [
+        "nordyckie"
+      ],
+      "etap": "W TOKU",
+      "tekst": "Przewodniczący Riksdagu {{o:andreas-norlen|Andreas Norlén}} powierzył liderce socjaldemokratów {{o:magdalena-andersson|Magdalenie Andersson}} **wznowienie misji zbadania możliwości utworzenia rządu** od 5.10, z raportem do 12.10; potem Riksdag zagłosuje nad kandydatem na premiera (według SVT najwcześniej 14.10). Norlén ocenił, że „warunki parlamentarne nie zmieniły się od wyborów”, w których blok lewicowy zdobył więcej mandatów niż partie z Tidö.",
+      "zrodla": [
+        {
+          "nazwa": "Riksdag (komunikat)",
+          "url": "https://www.riksdagen.se/sv/aktuellt/aktuelltnotiser/2026/okt/2/talmannens-sonderingsuppdrag-till-magdalena_cms77150d24-8e8b-479f-9da0-8df5bf84b9b6sv/",
+          "data": "2026-10-02"
+        },
+        {
+          "nazwa": "SVT",
+          "url": "https://www.svt.se/nyheter/inrikes/det-har-hander-nu-i-sonderingsprocessen",
+          "data": "2026-10-02"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "Iran: wojna przeniosła się na Ormuz i wyczerpanie gospodarcze",
+      "autor": "OSW (Krzysztof Strachota), Komentarze OSW z 1.10.2026",
+      "tagi": [
+        "iran",
+        "energia"
+      ],
+      "tekst": "Strachota ocenia, że działania militarne USA i Izraela nie wystarczyły do osiągnięcia celów, a konflikt przesunął się na „walkę o kontrolę nad cieśniną {{p:ormuz|Ormuz}} i – szerzej – na gospodarcze wyczerpanie Iranu, jak też USA”; eksport irańskiej ropy spadł według niego do ok. 10% stanu przedwojennego. Jego zdaniem „trwałe porozumienie polityczne między stronami jest mało prawdopodobne”, a niestabilność będzie się pogłębiać w Iraku, Jemenie i Libanie.",
+      "dla_polski": "Skoro OSW nie widzi szans na szybkie porozumienie, uzgodnione 2.10 przez {{p:g7|G7}} uwolnienie 100 mln baryłek z rezerw to rozwiązanie na miesiące, nie na koniec kryzysu; Polska powinna planować zapasy oleju napędowego i dostawy przez Naftoport na całą zimę, a nie tylko na ok. 4 miesiące skoordynowanej akcji G7 i {{p:mae|MAE}} (wniosek redakcji).",
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-10-01/kryzys-wokol-iranu-wojna-na-wielu-frontach",
+          "data": "2026-10-01"
+        },
+        {
+          "nazwa": "Rada UE (oświadczenie przywódców G7)",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/02/g7-leaders-statement-on-global-energy-security-and-market-stability/",
+          "data": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "tytul": "USA–Chiny: „strategiczna stabilizacja” bez rozwiązania sporów",
+      "autor": "PISM (Paul Balawajder), Biuletyn nr 67 (3201) z 1.10.2026",
+      "tagi": [
+        "usa",
+        "chiny"
+      ],
+      "tekst": "Według Balawajdera ograniczone rezultaty wrześniowego szczytu w Waszyngtonie świadczą o słabościach strategii negocjacyjnej administracji {{o:donald-trump|Donalda Trumpa}}, a najbardziej palące kwestie sporne pozostają nierozwiązane. Autor zwraca uwagę, że odkładanie dostaw broni dla Tajwanu może osłabić odstraszanie, chińskie licencje na surowce krytyczne ograniczają dostęp także firmom europejskim, a zamykanie rynku USA dla chińskich towarów zwiększa presję na ich sprzedaż w UE.",
+      "dla_polski": "Przekierowanie chińskiego eksportu do UE uderzy w polski przemysł; w pracach Rady UE nad instrumentami ochrony rynku Polska powinna popierać szybkie postępowania antydumpingowe i dywersyfikację dostaw metali ziem rzadkich dla przemysłu obronnego (wniosek redakcji).",
+      "zrodla": [
+        {
+          "nazwa": "PISM",
+          "url": "https://www.pism.pl/publikacje/strategiczna-stabilizacja-w-polityce-administracji-usa-wobec-chin",
+          "data": "2026-10-01"
+        }
+      ]
+    },
+    {
+      "tytul": "Francja: Zjednoczenie Narodowe z własną grupą w Senacie",
+      "autor": "PISM (Tomasz Zając), Komentarz z 1.10.2026",
+      "tagi": [
+        "francja",
+        "wybory"
+      ],
+      "tekst": "Zając odnotowuje, że w częściowych wyborach do Senatu 27.09 (178 z 348 mandatów) Zjednoczenie Narodowe zyskało 9 mandatów i ma ich 12, a najsilniejsi pozostali Republikanie (125). Jego zdaniem wynik „wskazuje na rosnące poparcie dla tego ugrupowania przed wyborami prezydenckimi w 2027 r.”, choć „historyczny sukces RN nie oznacza wysokiego wyniku w liczbach bezwzględnych”; symbolicznym przełomem jest utworzenie przez RN – wspólnie z UDR – własnej grupy politycznej, pierwszej w historii partii.",
+      "dla_polski": "Rosnące szanse RN przed wyborami 2027 r. zwiększają niepewność co do francuskiego udziału w obronności europejskiej i wsparciu Ukrainy; Polska powinna wykorzystać obecny rząd do zamknięcia wiążących zobowiązań z traktatu z Nancy i Trójkąta Weimarskiego przed kampanią prezydencką (wniosek redakcji).",
+      "zrodla": [
+        {
+          "nazwa": "PISM",
+          "url": "https://www.pism.pl/publikacje/radykalna-prawica-zwieksza-stan-posiadania-po-wyborach-do-senatu-we-francji",
+          "data": "2026-10-01"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-10-04",
+      "tekst": "Wybory powszechne w Bośni i Hercegowinie (prezydium, parlamenty państwowy, entytetów i kantonów, prezydent Republiki Serbskiej); 4.10 także spotkanie wybranych państw {{p:opec-plus|OPEC+}} w sprawie limitów wydobycia na listopad.",
+      "tagi": [
+        "balkany",
+        "wybory",
+        "energia"
+      ]
+    },
+    {
+      "data": "2026-10-05",
+      "tekst": "Przewodniczący Rady Europejskiej António Costa w Warszawie: inauguracja roku w Kolegium Europejskim (Natolin), spotkania z premierem Donaldem Tuskiem i prezydentem Warszawy; Rada Stowarzyszenia UE–Mołdawia.",
+      "tagi": [
+        "ue",
+        "dyplomacja-rp"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/02/weekly-schedule-of-president-antonio-costa/",
+          "data": "2026-10-02"
+        },
+        {
+          "nazwa": "Rada UE (Forward look)",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/02/forward-look-2026/",
+          "data": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-05",
+      "tekst": "Rumunia: prezydent wskazuje kandydata na premiera; Słowacja: rząd ma przyjąć budżet 2027 i zmiany w resorcie środowiska; Szwecja: Magdalena Andersson wznawia misję tworzenia rządu (raport do 12.10).",
+      "tagi": [
+        "rumunia",
+        "slowacja",
+        "nordyckie"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Riksdag (komunikat)",
+          "url": "https://www.riksdagen.se/sv/aktuellt/aktuelltnotiser/2026/okt/2/talmannens-sonderingsuppdrag-till-magdalena_cms77150d24-8e8b-479f-9da0-8df5bf84b9b6sv/",
+          "data": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-06",
+      "tekst": "6–7.10: posiedzenie Rady Polityki Pieniężnej (stopa referencyjna 3,75%); 6.10 Litwa – planowane pierwsze z dwóch rozstrzygających głosowań nad zmianą art. 137 konstytucji.",
+      "tagi": [
+        "gospodarka",
+        "litwa"
+      ]
+    },
+    {
+      "data": "2026-10-07",
+      "tekst": "Szczyt MED9 w Splicie z udziałem Antónia Costy.",
+      "tagi": [
+        "ue"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/02/weekly-schedule-of-president-antonio-costa/",
+          "data": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-08",
+      "tekst": "Eurogrupa (8.10) i ECOFIN (9.10).",
+      "tagi": [
+        "ue"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE (Forward look)",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/02/forward-look-2026/",
+          "data": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-09",
+      "tekst": "9–10.10: Czechy – I tura wyborów do Senatu i wybory samorządowe; II tura 16–17.10.",
+      "tagi": [
+        "czechy",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-12",
+      "tekst": "Rada do Spraw Zagranicznych UE (Ukraina); 13.10 Rada do Spraw Ogólnych w Luksemburgu – {{p:wrf|WRF}} 2028–34 i praworządność na Węgrzech.",
+      "tagi": [
+        "ue",
+        "wegry"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE (Forward look)",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/02/forward-look-2026/",
+          "data": "2026-10-02"
+        }
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-10-12",
+      "tekst": "12–18.10: doroczne zgromadzenia MFW i Banku Światowego (Bangkok)",
+      "tagi": [
+        "mfw"
+      ]
+    },
+    {
+      "data": "2026-10-14",
+      "tekst": "najwcześniejszy termin głosowania w Riksdagu nad kandydatem na premiera Szwecji (wg SVT)",
+      "tagi": [
+        "nordyckie"
+      ]
+    },
+    {
+      "data": "2026-10-15",
+      "tekst": "15–16.10: Rada Europejska – WRF 2028–34, Ukraina, obronność",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-10-25",
+      "tekst": "wybory parlamentarne w Serbii",
+      "tagi": [
+        "balkany",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-28",
+      "tekst": "27–28.10 FOMC (Fed), 28–29.10 posiedzenie EBC",
+      "tagi": [
+        "gospodarka"
+      ]
+    },
+    {
+      "data": "2026-11-03",
+      "tekst": "wybory połowy kadencji w USA",
+      "tagi": [
+        "usa",
+        "wybory"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [
+      {
+        "tytul": "Kryzys wokół Iranu – wojna na wielu frontach (Komentarze OSW)",
+        "autor": "Krzysztof Strachota",
+        "data": "2026-10-01",
+        "url": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-10-01/kryzys-wokol-iranu-wojna-na-wielu-frontach"
+      },
+      {
+        "tytul": "Wstrząs na tureckiej giełdzie: kolejny kryzys zaufania do rynku",
+        "autor": "Adam Michalski",
+        "data": "2026-10-01",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-01/wstrzas-na-tureckiej-gieldzie-kolejny-kryzys-zaufania-do-rynku"
+      }
+    ],
+    "pism": [
+      {
+        "tytul": "Radykalna prawica zwiększa stan posiadania po wyborach do senatu we Francji",
+        "autor": "Tomasz Zając",
+        "numer": "Komentarz",
+        "data": "2026-10-01",
+        "url": "https://www.pism.pl/publikacje/radykalna-prawica-zwieksza-stan-posiadania-po-wyborach-do-senatu-we-francji"
+      },
+      {
+        "tytul": "„Strategiczna stabilizacja” w polityce administracji USA wobec Chin",
+        "autor": "Paul Balawajder",
+        "numer": "Biuletyn nr 67 (3201)",
+        "data": "2026-10-01",
+        "url": "https://www.pism.pl/publikacje/strategiczna-stabilizacja-w-polityce-administracji-usa-wobec-chin"
+      },
+      {
+        "tytul": "Kolejna odsłona kryzysu politycznego w Rumunii",
+        "autor": "Jakub Pieńkowski",
+        "numer": "krótki tekst",
+        "data": "2026-10-01",
+        "url": "https://www.pism.pl/publikacje/kolejna-odslona-kryzysu-politycznego-w-rumunii"
+      },
+      {
+        "tytul": "Taktyczna dymisja prezydenta Serbii",
+        "autor": "Tomasz Żornaczuk",
+        "numer": "krótki tekst",
+        "data": "2026-10-01",
+        "url": "https://www.pism.pl/publikacje/taktyczna-dymisja-prezydenta-serbii"
+      },
+      {
+        "tytul": "Wojenny budżet Ukrainy",
+        "autor": "Maria Piechowska",
+        "numer": "krótki tekst",
+        "data": "2026-10-01",
+        "url": "https://www.pism.pl/publikacje/wojenny-budzet-ukrainy"
+      },
+      {
+        "tytul": "Państwa UE zaostrzają wymogi bezpieczeństwa dla operatorów satelitarnych",
+        "autor": "Aleksandra Wójtowicz",
+        "numer": "krótki tekst",
+        "data": "2026-10-01",
+        "url": "https://www.pism.pl/publikacje/panstwa-ue-zaostrzaja-wymogi-bezpieczenstwa-dla-operatorow-satelitarnych"
+      },
+      {
+        "tytul": "Socjaldemokraci zrezygnowali z tworzenia rządu w Szwecji",
+        "autor": "Tomasz Zduńczyk",
+        "numer": "krótki tekst",
+        "data": "2026-10-01",
+        "url": "https://www.pism.pl/publikacje/socjaldemokraci-zrezygnowali-z-tworzenia-rzadu-w-szwecji"
+      },
+      {
+        "tytul": "Zakończyły się ćwiczenia „Siła Jedności 2026”",
+        "autor": "Anna Maria Dyner",
+        "numer": "krótki tekst",
+        "data": "2026-10-01",
+        "url": "https://www.pism.pl/publikacje/zakonczyly-sie-cwiczenia-sila-jednosci-2026"
+      },
+      {
+        "tytul": "Aliko Dangote inauguruje budowę rafinerii w Kenii",
+        "autor": "Jędrzej Czerep",
+        "numer": "krótki tekst",
+        "data": "2026-10-01",
+        "url": "https://www.pism.pl/publikacje/aliko-dangote-inauguruje-budowe-rafinerii-w-kenii"
+      }
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "tekst": "OSW 2.10 i 3.10 oraz PISM 2.10 i 3.10: brak nowych publikacji (stan 3.10 wieczorem; polska lista PISM renderowała się niepełnie, sprawdzono listę angielską i strony tekstów).",
+      "prog": "dokumentacja"
+    },
+    {
+      "tekst": "Blok „Polska”: 2–3.10 brak nowych, udokumentowanych decyzji w polityce zagranicznej i bezpieczeństwa; projekt „ustawy przedwojennej” MON nadal bez tekstu i komunikatu MON (PAP, „Rzeczpospolita”).",
+      "prog": "dokumentacja"
+    },
+    {
+      "tekst": "Łotwa – frekwencja ok. 50,8%, najniższa w historii wyborów do Saeimy – dane cząstkowe (995 z 1059 okręgów) podane tylko przez LSM za CVK; strona CVK pokazywała wieczorem dane z 14:26.",
+      "prog": "dokumentacja"
+    },
+    {
+      "tekst": "Liczba ofiar ataków na Ukrainę w nocy 2/3.10 – Kyiv Independent podaje rozbieżne liczby rannych (81 lub 83), AP nie podaje bilansu ogólnokrajowego.",
+      "prog": "dokumentacja"
+    },
+    {
+      "tekst": "Węgry – areszt b. ministra Balázsa Hankó (1.10) nadal potwierdzają tylko media węgierskie (Telex, BBJ/MTI); Reuters podał jedynie zatrzymanie (29.09).",
+      "prog": "dokumentacja"
+    },
+    {
+      "tekst": "Niemcy – rekordowo niskie (10%) zadowolenie z kanclerza Friedricha Merza w ARD-DeutschlandTrend – otwarte tylko Tagesspiegel i Al Jazeera (poza podstawą rankingu).",
+      "prog": "dokumentacja"
+    },
+    {
+      "tekst": "Spotkanie doradców prezydenta USA w Camp David ws. Iranu i Jemenu (2.10) – Axios i CBS, decyzje nieujawnione; kierunek lotniskowca USS Theodore Roosevelt – źródła anonimowe (WSJ za Stars and Stripes); tankowiec trafiony u wybrzeży Omanu (noc 2/3.10) – Reuters za paywallem, UKMTO cytowane pośrednio.",
+      "prog": "dokumentacja"
+    },
+    {
+      "tekst": "Fundusz URIF (USA–Ukraina) zatwierdził 2.10 pierwszą inwestycję w surowce krytyczne i magazyn energii DTEK; Wielka Brytania 2.10 objęła sankcjami 2 statki floty cieni – udokumentowane, ale bez bezpośredniego skutku dla Polski.",
+      "prog": "następstwo"
+    },
+    {
+      "tekst": "Ropa Brent 2.10 – rozliczenie 102,25 USD tylko w przedruku Reutersa przez portal branżowy; TTF tylko TradingEconomics.",
+      "prog": "dokumentacja"
+    },
+    {
+      "tekst": "List 17 państw „Przyjaciół Spójności” do Costy ws. WRF 2028–34 (2.10) – tylko Agence Europe.",
+      "prog": "dokumentacja"
+    }
+  ],
+  "nota": "Wydanie przygotowane 3.10.2026 między 20:10 a 20:30 CEST na podstawie stron otwartych tego dnia: Kyiv Independent, AP (za ABC News), Reuters (za Internazionale i ThePrint), AFP (za Al Arabiya), LSM, komunikat Riksdagu, SVT, Rada UE (harmonogram A. Costy, Forward look), OSW, PISM. Sobota – mało decyzji instytucji; wydanie celowo krótsze (4 pozycje). Niedostępne: polska lista publikacji PISM (renderowała się częściowo), Bloomberg, Washington Post, nbp.pl. Fakty stałe z rejestru użyte w kalendarzu sprawdzono w ciągu ostatnich 7 dni. Korekt brak. Kontrola niezależna przed wysyłką: poprawiono 4 nieścisłości (cytat OSW uzupełniony o „jak też USA”; usunięte etykieta „prorosyjska” i zobowiązanie 5% PKB – po jednym źródle; usunięta niepotwierdzona informacja o terminie wyników na Łotwie; doprecyzowano, że grupę w Senacie RN utworzyło z UDR) i 2 doprecyzowania (wynik Postępowych, opis akcji G7/MAE); numer Komentarzy OSW usunięty jako niepotwierdzony. Mail wysłano o 20:24; na stronie wydanie opublikowano z opóźnieniem 3.10 ok. 21:00 CEST, bez zmian w treści."
+}

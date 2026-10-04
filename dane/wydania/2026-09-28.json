@@ -1,0 +1,123 @@
+{
+  "nr": 9,
+  "data": "2026-09-28",
+  "godzina": "20:20",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Rada UE ds. obrony przyjęła pierwsze pięć projektów **EDIP**.",
+    "Na Węgrzech parlament uchylił immunitet premierowi Magyarowi i dwóm ministrom z czasów Orbána."
+  ],
+  "korekty": [],
+  "analizy": [],
+  "kalendarz": [],
+  "zrodla_analityczne": {
+    "osw": [
+      {
+        "tytul": "Dymisja prezydenta Vučicia w Serbii – teatr jednego aktora",
+        "autor": "Jan Nowinowski",
+        "data": "2026-09-28",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-09-28/dymisja-prezydenta-vucicia-w-serbii-teatr-jednego-aktora"
+      }
+    ],
+    "pism": []
+  },
+  "zarys": [
+    {
+      "id": "z5",
+      "blok": "polska",
+      "data": "2026-09-24",
+      "tagi": [
+        "ukraina",
+        "dyplomacja-rp"
+      ],
+      "tekst": "Po ataku nożownika na opactwo benedyktynek w Jarosławiu 24.09 (zatrzymano 31-letniego obywatela Ukrainy; pięć osób zaatakowanych, według AFP zmarł ksiądz; zarzuty zabójstwa i usiłowania zabójstwa) sprawa nabiera wymiaru polsko-ukraińskiego: AFP opisuje nastroje antyukraińskie i wykorzystywanie sprawy przez skrajną prawicę.",
+      "zrodla": [
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-09-24/atak-w-klasztorze-piec-osob-rannych-wsrod-nich-ksieza/",
+          "data": "2026-09-24"
+        },
+        {
+          "nazwa": "AFP (za Yahoo News)",
+          "url": "https://sg.news.yahoo.com/deadly-abbey-attack-feeds-anti-145840067.html",
+          "data": "2026-09-26"
+        },
+        {
+          "nazwa": "Policja Podkarpacka (komunikat)",
+          "url": "https://podkarpacka.policja.gov.pl/rze/aktualnosci/153876,Policjanci-zatrzymali-31-latka-ktory-ranil-5-osob.html",
+          "data": "2026-09-24"
+        },
+        {
+          "nazwa": "Prokuratura Okręgowa w Przemyślu (gov.pl)",
+          "url": "https://www.gov.pl/web/po-przemysl/zdarzenie-w-opactwie-siostr-benedyktynek-w-jaroslawiu2",
+          "data": "2026-09-25"
+        },
+        {
+          "nazwa": "AFP (za Yahoo News)",
+          "url": "https://sg.news.yahoo.com/deadly-abbey-attack-feeds-anti-145840067.html",
+          "data": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "z6",
+      "blok": "instytucje",
+      "data": "2026-09-28",
+      "tagi": [
+        "ue",
+        "obronnosc-polski",
+        "ukraina"
+      ],
+      "tekst": "Rada ds. Zagranicznych w formacie obrony (28.09) przyjęła pierwsze pięć projektów wspólnego zainteresowania w ramach programu {{p:edip|EDIP}}, omówiła obronę przeciwlotniczą Ukrainy jako priorytet (Kallas), mobilizację 6,6 mld euro z Europejskiego Instrumentu na rzecz Pokoju i przedłużenie mandatu EUMAM Ukraine na dwa lata oraz reakcję na rosyjskie sabotaże i naruszenia przestrzeni powietrznej.",
+      "zrodla": [
+        {
+          "nazwa": "Rada UE (Consilium), FAC Obrona 28.09.2026",
+          "url": "https://www.consilium.europa.eu/en/meetings/fac/2026/09/28/",
+          "data": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "z7",
+      "blok": "swiat",
+      "data": "2026-09-28",
+      "tagi": [
+        "wegry",
+        "wybory"
+      ],
+      "tekst": "Parlament Węgier uchylił 28.09 {{p:immunitet|immunitet}} premierowi {{o:peter-magyar|Péterowi Magyarowi}} (sprawa kradzieży telefonu z 2024 r.) oraz byłym ministrom Balázsowi Hankó (zarzut defraudacji ponad 40 mln euro) i Miklósowi Seszták (zarzut przyjęcia łapówek). Fidesz i KDNP zbojkotowały głosowanie.",
+      "zrodla": [
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/29/hungary-lifts-immunity-of-prime-minister-magyar-two-orban-era-ministers",
+          "data": "2026-09-29"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/09/28/hungarian-parliament-lifts-immunity-of-pm-and-orban-era-ministers-in-separate-criminal-cas",
+          "data": "2026-09-28"
+        },
+        {
+          "nazwa": "AP (za WRAL)",
+          "url": "https://www.wral.com/news/ap/5e424-hungarys-parliament-suspends-immunity-for-prime-minister-magyar-and-two-orb-n-era-ministers/",
+          "data": "2026-09-28"
+        }
+      ]
+    }
+  ],
+  "czego_nie_ma": [
+    {
+      "tekst": "Trump o ograniczeniu przez Zełenskiego ataków na rosyjskie rafinerie (27.09) – nie udało się otworzyć źródła z czołowego portalu, więc pozycji nie przenoszono.",
+      "prog": "dokumentacja"
+    },
+    {
+      "tekst": "Cofnięcie przez Fico wniosku o odwołanie ministra Taraby i ultimatum Danki do 30.09 – brak dostępu do źródła z czołowego portalu (por. wyd. nr 10, odwołanie Taraby 29.09).",
+      "prog": "dokumentacja"
+    },
+    {
+      "tekst": "Odrzucenie przez Węgry kandydata na prokuratora generalnego, zatrzymanie drona podwodnego USA (IRGC) i naloty po wyborach połówkowych (WSJ) – nie otworzono źródeł.",
+      "prog": "dokumentacja"
+    }
+  ],
+  "nota": "Wydanie nr 9 z 28.09.2026 (stan na 20:20 CEST) przeniesione na stronę 1.10.2026 z archiwum projektu i wysłanego maila. Źródła każdej pozycji odnaleziono i otwarto ponownie 1.10.2026, wyłącznie w czołowych portalach, agencjach i instytucjach; zakres jest węższy niż w oryginale (bez analiz i kalendarza, bo ich treść nie zachowała się w pełnej postaci). Przy ofercie Patriot dodano informację, że pierwsza oferta pochodzi z lipca. Liczba ofiar ataku na Akademię Nauk pochodzi z relacji z 29.09 i jest wyższa niż w pierwszych doniesieniach z 28.09."
+}

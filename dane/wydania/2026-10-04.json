@@ -1,0 +1,375 @@
+{
+  "nr": 15,
+  "data": "2026-10-04",
+  "godzina": "20:45",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Kanclerz Niemiec {{o:friedrich-merz|Friedrich Merz}} przyjechał do Kijowa i zapowiedział **1 mld euro pomocy wojskowej i 350 mln euro na energetykę** oraz wspólną z Ukrainą produkcję dronów, w tym {{p:dron-przechwytujacy|przechwytujących}}; w czasie wizyty Rosja czwarty dzień z rzędu uderzyła w mosty Kijowa.",
+    "Na Łotwie po przeliczeniu niemal wszystkich głosów {{p:zjednoczona-lista|Zjednoczona Lista}} premiera {{o:andris-kulbergs|Andrisa Kulbergsa}} ma **42 ze 100 mandatów** w {{p:saeima|Saeimie}} i może stworzyć większość z jednym z mniejszych ugrupowań.",
+    "OSW i PISM nie opublikowały nowych tekstów 2–4.10. W poniedziałek w Warszawie przewodniczący Rady Europejskiej {{o:antonio-costa|António Costa}} spotka się z premierem Donaldem Tuskiem."
+  ],
+  "korekty": [
+    {
+      "bylo": "Wydanie nr 6 z 25.09 miało pozycję o szczycie Trump–Xi, ale rewizja archiwum 1.10 ją wycofała z braku drugiego niezależnego źródła – nie sprawdzono komunikatów Białego Domu i MSZ ChRL, które były dostępne. Przez to szczyt zniknął ze strony; wcześniejsze wydania (22–24.09) miały go w kalendarzu i w wątkach, ale kalendarzy nie przeniesiono na stronę.",
+      "jest": "Pozycję przywrócono w wydaniu z 25.09 w treści potwierdzonej: wizyta państwowa Xi 23–25.09, przedłużenie rozejmu handlowego z Busan z 10.11.2026 do 10.01.2027 (Bessent, 23.09), według Białego Domu rekomendacje korzystniejszych ceł na towary za 30 mld dol. w każdą stronę i dialog o superinteligencji, według MSZ ChRL oczekiwanie Xi, że USA będą się sprzeciwiać niepodległości Tajwanu.",
+      "zrodla": [
+        {
+          "nazwa": "Biały Dom (fact sheet o wizycie państwowej)",
+          "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-advances-a-fair-and-reciprocal-relationship-with-china-while-hosting-historic-state-visit/",
+          "data": "2026-09-25"
+        },
+        {
+          "nazwa": "Reuters (za Investing.com)",
+          "url": "https://www.investing.com/news/stock-market-news/trump-plans-grand-spectacle-for-potentially-tense-xi-talks-4912458",
+          "data": "2026-09-23"
+        },
+        {
+          "nazwa": "ABC News",
+          "url": "https://abcnews.com/Politics/trump-rolls-red-carpet-chinas-xi/story?id=136692781",
+          "data": "2026-09-23"
+        }
+      ],
+      "dotyczy": "2026-09-25#z1"
+    }
+  ],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-10-04",
+      "tagi": [
+        "ukraina",
+        "niemcy",
+        "uzbrojenie"
+      ],
+      "etap": "ZAPOWIEDŹ",
+      "tekst": "Kanclerz Niemiec {{o:friedrich-merz|Friedrich Merz}}, z federalną minister gospodarki {{o:katherina-reiche|Katheriną Reiche}} i przedstawicielami firm zbrojeniowych i energetycznych, przyjechał 4.10 do Kijowa i zapowiedział **1 mld euro pomocy wojskowej oraz 350 mln euro na naprawę energetyki**; strony finalizują porozumienie o wspólnej produkcji dronów, zwłaszcza {{p:dron-przechwytujacy|przechwytujących}} przeciw rosyjskim dronom odrzutowym, i broni dalekiego zasięgu. Prezydent {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} ocenił według Kyiv Independent wartość wszystkich zawartych tego dnia porozumień na ponad 8,5 mld euro; Merz według Reutera: „Jeśli Rosja nie zostanie powstrzymana, jej machina wojenna prędzej czy później zwróci się przeciwko nam”.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/germany-announces-1-46-billion-in-aid-for-ukraine-including-interceptor-drones/",
+          "data": "2026-10-04"
+        },
+        {
+          "nazwa": "Reuters (za Internazionale)",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/04/germany-s-merz-arrives-in-kyiv-to-finalize-drone-deal-release-aid",
+          "data": "2026-10-04"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/04/merz-makes-surprise-visit-to-kyiv-germany-pledges-further-aid-to-ukraine",
+          "data": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-10-04",
+      "tagi": [
+        "ukraina",
+        "rosja"
+      ],
+      "tekst": "Rano 4.10, w czasie wizyty Merza, rosyjski dron ponownie trafił **Most Północny w Kijowie** – czwarty dzień z rzędu uderzeń w mosty na Dnieprze; według mera {{o:witalij-kliczko|Witalija Kliczki}} uszkodzona została jezdnia, a według Kyiv Independent także magistrala ciepłownicza.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russia-targets-kyiv-bridges-for-fourth-consecutive-day-hits-northern-bridge/",
+          "data": "2026-10-04"
+        },
+        {
+          "nazwa": "CNN (za KWWL)",
+          "url": "https://www.kwwl.com/news/social/russian-drone-slams-into-bridge-in-kyiv-as-germany-s-chancellor-visits/article_261e2244-facd-5c9d-b89f-80c6988bc755.html",
+          "data": "2026-10-04"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/04/merz-makes-surprise-visit-to-kyiv-germany-pledges-further-aid-to-ukraine",
+          "data": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "instytucje",
+      "data": "2026-10-04",
+      "tagi": [
+        "lotwa",
+        "wybory"
+      ],
+      "tekst": "Po przeliczeniu niemal wszystkich głosów z wyborów 3.10 {{p:zjednoczona-lista|Zjednoczona Lista}} premiera {{o:andris-kulbergs|Andrisa Kulbergsa}} ma 35,3% głosów i **42 ze 100 mandatów** w {{p:saeima|Saeimie}} – najlepszy wynik jednej partii od odzyskania niepodległości (AP); Łotwa Przede Wszystkim ma 13,1%, Suwerenna Władza 11,7%. Według Reutera Kulbergs może zbudować większość z Sojuszem Narodowym albo z Postępowymi; większość partii odmawia współpracy z Suwerenną Władzą, przeciwną pomocy wojskowej dla Ukrainy (AP).",
+      "zrodla": [
+        {
+          "nazwa": "LSM",
+          "url": "https://eng.lsm.lv/article/politics/election/04.10.2026-new-latvian-saeima-starts-to-shape-up-with-nearly-all-votes-counted.a666021/",
+          "data": "2026-10-04"
+        },
+        {
+          "nazwa": "Reuters (za Irish Times)",
+          "url": "https://www.irishtimes.com/world/europe/2026/10/04/latvian-pm-on-track-to-lead-pro-ukraine-coalition-after-election-win/",
+          "data": "2026-10-04"
+        },
+        {
+          "nazwa": "AP (za Euronews)",
+          "url": "https://www.euronews.com/2026/10/04/latvias-pro-european-ruling-party-wins-election-as-populists-gain-ground",
+          "data": "2026-10-04"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "Niemcy przesuwają pomoc w stronę wspólnej produkcji obrony przeciwdronowej",
+      "autor": "Redakcja Prasówki (wniosek z pozycji z 1–4.10.2026)",
+      "tagi": [
+        "ukraina",
+        "niemcy",
+        "uzbrojenie"
+      ],
+      "tekst": "Zestawienie pozycji z ostatnich dni: od 1.10 Rosja codziennie uderza w mosty Kijowa, 3.10 pociski i drony spadły na terytorium Mołdawii, a 4.10 Niemcy zapowiedziały pieniądze nie na gotowy sprzęt, lecz na wspólną z Ukrainą produkcję dronów przechwytujących i broni dalekiego zasięgu. Oznacza to, że Berlin traktuje ukraiński przemysł jako część własnej bazy obronnej – i że tania obrona przed masowymi atakami dronów staje się priorytetem, a nie dodatkiem do systemów rakietowych.",
+      "dla_polski": "Polska, która od 1.10 stosuje nowe procedury {{p:opl|OPL}}, powinna zabiegać o udział polskich firm w niemiecko-ukraińskiej produkcji dronów przechwytujących (np. przez {{p:edip|EDIP}} i SAFE), zamiast budować tę zdolność osobno; odpowiednikiem dla wschodniej flanki może być wspólne zamówienie z państwami bałtyckimi (wniosek redakcji).",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/germany-announces-1-46-billion-in-aid-for-ukraine-including-interceptor-drones/",
+          "data": "2026-10-04"
+        },
+        {
+          "nazwa": "Reuters (za Internazionale)",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/04/germany-s-merz-arrives-in-kyiv-to-finalize-drone-deal-release-aid",
+          "data": "2026-10-04"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russia-targets-kyiv-bridges-for-fourth-consecutive-day-hits-northern-bridge/",
+          "data": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "tytul": "Łotwa: silny mandat dla proatlantyckiego rządu, ale z rosnącą opozycją przeciwną pomocy Ukrainie",
+      "autor": "Redakcja Prasówki (wniosek z wyników wyborów 3–4.10.2026)",
+      "tagi": [
+        "lotwa",
+        "wybory"
+      ],
+      "tekst": "Wynik Zjednoczonej Listy (42 mandaty) daje Kulbergsowi wybór koalicjanta i ogranicza ryzyko zależności od jednego małego partnera. Jednocześnie trzecie miejsce Suwerennej Władzy – partii przeciwnej pomocy wojskowej dla Ukrainy i dalszemu zwiększaniu wydatków obronnych – pokazuje, że koszty bezpieczeństwa stają się na Łotwie tematem sporu wyborczego.",
+      "dla_polski": "Polska może liczyć na kontynuację łotewskiej polityki obronnej i wsparcia Ukrainy w kadencji 2026–2030; warto szybko nawiązać kontakt z nowym rządem w sprawie wspólnych projektów wschodniej flanki, zanim spór o koszty obronności przeniesie się do rządu (wniosek redakcji).",
+      "zrodla": [
+        {
+          "nazwa": "LSM",
+          "url": "https://eng.lsm.lv/article/politics/election/04.10.2026-new-latvian-saeima-starts-to-shape-up-with-nearly-all-votes-counted.a666021/",
+          "data": "2026-10-04"
+        },
+        {
+          "nazwa": "AP (za Euronews)",
+          "url": "https://www.euronews.com/2026/10/04/latvias-pro-european-ruling-party-wins-election-as-populists-gain-ground",
+          "data": "2026-10-04"
+        },
+        {
+          "nazwa": "Reuters (za Irish Times)",
+          "url": "https://www.irishtimes.com/world/europe/2026/10/04/latvian-pm-on-track-to-lead-pro-ukraine-coalition-after-election-win/",
+          "data": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "tytul": "Państwa tureckie budują współpracę wojskową poza Rosją",
+      "autor": "PISM (Anna Maria Dyner), tekst z 1.10.2026",
+      "tagi": [
+        "inne"
+      ],
+      "tekst": "Dyner omawia ćwiczenia „Siła Jedności 2026” w Azerbejdżanie (21.09–1.10) z udziałem Turcji, Uzbekistanu i Azerbejdżanu – ponad 3500 żołnierzy, ponad 130 dronów. Jej zdaniem „integracja państw turańskich przestała opierać się jedynie na kwestiach gospodarczo-kulturowych”, a udział Uzbekistanu pokazuje, że szuka on partnerów wojskowych poza Rosją i OUBZ.",
+      "dla_polski": "Słabnięcie rosyjskiej pozycji w Azji Środkowej i na Kaukazie otwiera Polsce pole do współpracy z Turcją (sojusznikiem z NATO) przy projektach tranzytowych przez Morze Kaspijskie, omijających Rosję – istotnych dla dostaw surowców i dla korytarza do Azji Środkowej (wniosek redakcji).",
+      "zrodla": [
+        {
+          "nazwa": "PISM",
+          "url": "https://www.pism.pl/publikacje/zakonczyly-sie-cwiczenia-sila-jednosci-2026",
+          "data": "2026-10-01"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-10-05",
+      "tekst": "Przewodniczący Rady Europejskiej António Costa w Warszawie: przemówienie na inauguracji roku akademickiego w Kolegium Europejskim (Natolin), spotkania z premierem Donaldem Tuskiem i prezydentem Warszawy Rafałem Trzaskowskim.",
+      "tagi": [
+        "ue",
+        "dyplomacja-rp"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/02/weekly-schedule-of-president-antonio-costa/",
+          "data": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-05",
+      "tekst": "Rada Stowarzyszenia UE–Mołdawia.",
+      "tagi": [
+        "ue"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE (Forward look)",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/02/forward-look-2026/",
+          "data": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-05",
+      "tekst": "Rumunia: prezydent Nicușor Dan ma wskazać kandydata na premiera; Słowacja: rząd ma przyjąć projekt budżetu 2027 i zmiany w resorcie środowiska; Szwecja: Magdalena Andersson rozpoczyna misję tworzenia rządu (raport do 12.10).",
+      "tagi": [
+        "rumunia",
+        "slowacja",
+        "nordyckie"
+      ]
+    },
+    {
+      "data": "2026-10-06",
+      "tekst": "6–7.10: posiedzenie Rady Polityki Pieniężnej (stopa referencyjna 3,75%); 6.10 Litwa – planowane pierwsze z dwóch rozstrzygających głosowań w Sejmie nad zmianą art. 137 konstytucji.",
+      "tagi": [
+        "gospodarka",
+        "litwa"
+      ]
+    },
+    {
+      "data": "2026-10-07",
+      "tekst": "Szczyt MED9 w Splicie z udziałem Antónia Costy; protokół z wrześniowego posiedzenia {{p:fomc|FOMC}}.",
+      "tagi": [
+        "ue",
+        "usa"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/02/weekly-schedule-of-president-antonio-costa/",
+          "data": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-08",
+      "tekst": "Eurogrupa (8.10) i ECOFIN (9.10).",
+      "tagi": [
+        "ue"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE (kalendarz posiedzeń)",
+          "url": "https://www.consilium.europa.eu/en/meetings/calendar/",
+          "data": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-09",
+      "tekst": "9–10.10: Czechy – I tura wyborów do Senatu i wybory samorządowe; 9.10 Costa w Amsterdamie i Hadze.",
+      "tagi": [
+        "czechy",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-12",
+      "tekst": "Rada do Spraw Zagranicznych UE (Ukraina); 13.10 Rada do Spraw Ogólnych – {{p:wrf|WRF}} 2028–34 i praworządność na Węgrzech; 12–18.10 doroczne zgromadzenia MFW i Banku Światowego (Bangkok).",
+      "tagi": [
+        "ue",
+        "wegry",
+        "mfw"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE (kalendarz posiedzeń)",
+          "url": "https://www.consilium.europa.eu/en/meetings/calendar/",
+          "data": "2026-10-04"
+        }
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-10-15",
+      "tekst": "15–16.10: Rada Europejska – WRF 2028–34, Ukraina, obronność",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-10-25",
+      "tekst": "wybory parlamentarne w Serbii",
+      "tagi": [
+        "balkany",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-28",
+      "tekst": "27–28.10 FOMC (Fed), 28–29.10 posiedzenie EBC",
+      "tagi": [
+        "gospodarka"
+      ]
+    },
+    {
+      "data": "2026-11-01",
+      "tekst": "kolejne spotkanie państw OPEC+ w sprawie limitów wydobycia (na grudzień)",
+      "tagi": [
+        "energia"
+      ]
+    },
+    {
+      "data": "2026-11-03",
+      "tekst": "wybory połowy kadencji w USA",
+      "tagi": [
+        "usa",
+        "wybory"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [],
+    "pism": []
+  },
+  "czego_nie_ma": [
+    {
+      "tekst": "OSW i PISM: brak nowych publikacji z 2, 3 i 4.10 (sprawdzono listy PL i EN wieczorem 4.10); ostatnie teksty z 1.10 (OSW: Strachota, Michalski; PISM: m.in. Biuletyn nr 67 Balawajdera) wymieniono w wydaniach nr 13 i 14.",
+      "prog": "dokumentacja"
+    },
+    {
+      "tekst": "Blok „Polska”: 3–4.10 brak nowych, udokumentowanych decyzji w polityce zagranicznej i bezpieczeństwa oraz komunikatów DO RSZ o naruszeniach przestrzeni powietrznej.",
+      "prog": "dokumentacja"
+    },
+    {
+      "tekst": "OPEC+ (7 państw) utrzymało 4.10 limity wydobycia na listopad na poziomie z września – potwierdzone przez Reutera (za Investing.com) i The National (spoza rankingu); brak drugiego źródła z poziomów 1–2, a decyzja niczego nie zmienia.",
+      "prog": "dokumentacja"
+    },
+    {
+      "tekst": "Bośnia i Hercegowina – wybory 4.10: wyniki cząstkowe ogłaszały wieczorem tylko partie; frekwencja na zamknięcie lokali rozbieżna w mediach lokalnych (ok. 41,5–42%); CIK wyników jeszcze nie podała.",
+      "prog": "dokumentacja"
+    },
+    {
+      "tekst": "Łotwa – frekwencja 51,8% (najniższa w historii) – tylko Reuters z poziomów 1–2; podział mandatów mniejszych partii różni się między LSM a Al Jazeera.",
+      "prog": "dokumentacja"
+    },
+    {
+      "tekst": "Zełenski 4.10: Rosja przekazuje Korei Północnej technologię dronów odrzutowych (Reuters, Kyiv Independent) – wypowiedź strony bez potwierdzenia niezależnego; SBU: trafienie Su-35 i Su-34 na lotnisku w Adygei (tylko Kyiv Independent); NYT o rozmowach USA–Rosja ws. Łukoilu (tylko pośrednio).",
+      "prog": "dokumentacja"
+    },
+    {
+      "tekst": "Liczba ofiar ataków w Ukrainie w nocy 3/4.10 – tylko tytuł Kyiv Independent.",
+      "prog": "dokumentacja"
+    }
+  ],
+  "nota": "Wydanie przygotowane 4.10.2026 między 20:10 a 20:45 CEST na podstawie stron otwartych tego dnia: Kyiv Independent, Reuters (za Internazionale i Irish Times), AP (za Euronews), Euronews, CNN (za KWWL), LSM, Al Jazeera, Rada UE (harmonogram A. Costy, kalendarz posiedzeń), OSW, PISM. Niedziela – mało decyzji instytucji; wydanie celowo krótkie (3 pozycje). Zweryfikowano dziś wizytę Costy w Warszawie 5.10 (harmonogram Rady UE). Niedostępne: nbp.pl (termin RPP potwierdzony wtórnie), strona ISW, PAP. Korekt brak. Kontrola niezależna przed wysyłką: poprawiono 3 nieścisłości (cytat Merza – „machina wojenna”; „mosty” zamiast „most” w W skrócie; Rada Stowarzyszenia UE–Mołdawia jako osobny termin, nie w programie Costy), usunięto z W skrócie wzmiankę o Bośni (bez pozycji w zarysie) i liczbę mandatów Łotwy Przede Wszystkim (jedno źródło); kwotę 8,5 mld euro i cytat Merza opatrzono atrybucją źródła. Mail wysłano 4.10 wieczorem; na stronie wydanie opublikowano z opóźnieniem, bez zmian w treści. Korekta dopisana 4.10 po wysyłce maila: przywrócono pozycję o szczycie Trump–Xi w wydaniu z 25.09 (wycofaną błędnie w rewizji archiwum 1.10); otwarto dziś: fact sheet i komunikat Białego Domu, depeszę Reutersa (za Investing.com), ABC News, AP (za WSLS), komunikat MSZ ChRL; kontrola niezależna potwierdziła treść po czterech doprecyzowaniach.",
+  "do_sprawdzenia": [
+    "BiH – wyniki CIK; Łotwa – oficjalne wyniki CVK i koalicja",
+    "Costa w Warszawie 5.10 – przebieg; Rumunia – kandydat na premiera; Słowacja – rząd 5.10",
+    "Litwa 6.10 – głosowanie nad art. 137; RPP 6–7.10",
+    "Rada Europejska 15–16.10 – termin obowiązkowy: w kalendarzu od 8.10",
+    "Rozejm USA–Chiny do 10.01.2027; runda dialogu o superinteligencji do listopada"
+  ]
+}

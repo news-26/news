@@ -72,11 +72,18 @@ def main():
             for k in sorted(kal, key=lambda k: k["data"]):
                 print(f"- {k['data']} [{','.join(k.get('tagi', []))}] {B.czysty(k['tekst'], osoby, pojecia)[:140]}")
     print("\n## Terminy obowiązkowe (dane/terminy.json)")
-    for t in terminy:
+    for t in [t for t in terminy if B.obowiazkowy(t)]:
         od, do = dt.date.fromisoformat(t["od"]), dt.date.fromisoformat(t.get("do") or t["od"])
         if od - dt.timedelta(days=10) <= dzis <= do + dt.timedelta(days=B.DNI_NA_ROZLICZENIE_KALENDARZA):
             stan = "TRWA/ROZLICZ" if dzis >= od else f"za {(od - dzis).days} dni – musi być w kalendarzu"
             print(f"- {t['od']}–{do.isoformat()} [{','.join(t['tagi'])}] {t['tekst']} – {stan} (id {t['id']})")
+    print("\n## Kalendarium – inne terminy w oknie 10 dni (do kalendarza wydania według uznania)")
+    for t in terminy:
+        od, do = dt.date.fromisoformat(t["od"]), dt.date.fromisoformat(t.get("do") or t["od"])
+        if not B.obowiazkowy(t) and dzis <= od <= dzis + dt.timedelta(days=10):
+            print(f"- {t['od']}–{do.isoformat()} [{t.get('kategoria')}] {t['tekst'][:110]} (id {t['id']})")
+    kon = max((t.get("do") or t["od"] for t in terminy), default="–")
+    print(f"Kalendarium sięga do {kon}; ma sięgać pół roku naprzód – dopisz nowe zapowiedzi (szczyty, wybory, banki centralne).")
     print("\n## Karty osób z ostatnich 3 wydań starsze niż 7 dni (sprawdź, jeśli występują dziś)")
     uzyte = set()
     for w in dzienne[-3:]:

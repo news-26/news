@@ -205,6 +205,8 @@ def main():
     if w.get("poza_oknem"):
         poza = (f'<div style="font-size:13px;color:{SZARY};margin-top:8px;"><b>Poza oknem, ale przesądzające:</b> ' +
                 "; ".join(f'{B.data_dluga(k["data"])} – {T(k["tekst"])}' for k in w["poza_oknem"]) + "</div>")
+    poza += (f'<div style="font-size:13px;margin-top:6px;"><a href="{B.BASE_URL}kalendarium.html" style="color:#1D5F86;">'
+             'Kalendarium – najważniejsze wydarzenia na pół roku naprzód</a></div>')
     r.append(f'<tr><td style="padding:6px 20px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="font-size:14px;">{kal}</table>{poza}</td></tr>')
     nie_ma = ""
     if w.get("czego_nie_ma"):

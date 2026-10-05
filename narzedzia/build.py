@@ -66,7 +66,7 @@ MAPA_TAGI = {
     "wielka-brytania": ["GB"], "rumunia": ["RO"], "balkany": ["RS", "BA", "ME", "MK", "AL", "XK", "HR"],
 }
 EUROPA = json.loads((Path(__file__).resolve().parent / "europa.json").read_text("utf-8"))
-GENEROWANE = ["index.html", "wydania", "watki", "osoby", "pojecia", "top", "czytelnia.html", "kalendarz.html", "korekty.html", "zrodla.html",
+GENEROWANE = ["index.html", "wydania", "watki", "osoby", "pojecia", "top", "czytelnia.html", "kalendarz.html", "kalendarium.html", "kalendarium.ics", "korekty.html", "zrodla.html",
               "jak-weryfikujemy.html", "szukaj.html", "szukaj.json", "feed.xml",
               "robots.txt", ".nojekyll", "assets", "404.html"]
 
@@ -139,7 +139,15 @@ def podstawa_ok(zrodla, ranking=None):
     return len(niezalezne) >= 2
 
 
-TERMINY = []  # dane/terminy.json – zaplanowane wydarzenia, których nie wolno przegapić
+TERMINY = []  # dane/terminy.json – zaplanowane wydarzenia (kalendarium); obowiązkowe przechodzą przez straże
+KALENDARIUM_DNI = 183  # zakładka Kalendarium: pół roku naprzód od najnowszego wydania
+KATEGORIE_TERMINOW = {"szczyt": "Szczyty", "wybory": "Wybory", "banki": "Banki centralne",
+                      "instytucje": "Instytucje i organizacje", "polska": "Polska", "inne": "Inne"}
+
+
+def obowiazkowy(t):
+    """Termin obowiązkowy (straże kompletności): domyślnie tak, chyba że wpis ma "obowiazkowy": false."""
+    return t.get("obowiazkowy", True) is not False
 
 
 def wczytaj_terminy(katalog: Path):
@@ -329,8 +337,16 @@ def waliduj_straze(wydania, tagi, b: Bledy, od=None, raport=None):
             zglos(g, "brak pola id lub tekst")
         sprawdz_tagi(t.get("tagi"), g, tagi, b)
         sprawdz_zrodla(t.get("zrodla"), g, b)
+        if not t.get("zrodla"):
+            zglos(g, "termin bez źródła")
+        if t.get("kategoria") not in KATEGORIE_TERMINOW:
+            zglos(g, f"kategoria musi być jedną z: {', '.join(KATEGORIE_TERMINOW)}")
+        if t_do < t_od:
+            zglos(g, "data do jest wcześniejsza niż od")
         if RANKING and t.get("zrodla") and not podstawa_ok(t["zrodla"]):
             zglos(g, "termin potrzebuje źródła z poziomu 1 albo dwóch z poziomów 1–2")
+        if not obowiazkowy(t):
+            continue
         kt = set(t.get("tagi", []))
         miejsca = {x for x in kt if tagi.get(x, {}).get("grupa") == "miejsce"}
         def pasuje(pt, kt=kt, miejsca=miejsca):
@@ -601,6 +617,26 @@ def data_krotka(s):
     return f"{d.day:02d}.{d.month:02d}"
 
 
+def zakres_dat(od, do=None):
+    """15–16 października 2026 / 30 listopada – 1 grudnia 2026 / 3 listopada 2026."""
+    a, b = data_(od), data_(do or od)
+    if a == b:
+        return f"{a.day} {MIESIACE[a.month-1]} {a.year}"
+    if (a.year, a.month) == (b.year, b.month):
+        return f"{a.day}–{b.day} {MIESIACE[a.month-1]} {a.year}"
+    if a.year == b.year:
+        return f"{a.day} {MIESIACE[a.month-1]} – {b.day} {MIESIACE[b.month-1]} {a.year}"
+    return f"{a.day} {MIESIACE[a.month-1]} {a.year} – {b.day} {MIESIACE[b.month-1]} {b.year}"
+
+
+def terminy_w_oknie(od, dni=None):
+    """Terminy z dane/terminy.json, które nie zakończyły się przed `od` i zaczynają się do `od` + dni."""
+    od = data_(od)
+    kon = od + dt.timedelta(days=dni or KALENDARIUM_DNI)
+    wyn = [t for t in TERMINY if data_(t.get("do") or t["od"]) >= od and data_(t["od"]) <= kon]
+    return sorted(wyn, key=lambda t: (t["od"], t.get("do") or t["od"], t["tekst"]))
+
+
 def skroc(t, n):
     t = " ".join(t.split())
     return t if len(t) <= n else t[:n].rsplit(" ", 1)[0].rstrip(",;:–-") + "…"
@@ -722,7 +758,7 @@ def html_odznaki(it):
 
 
 def strona(tytul, tresc, prefix="", opis="", aktywne=""):
-    nav = [("index.html", "Wydania", "wydania"), ("kalendarz.html", "Kalendarz", "kalendarz"), ("top/index.html", "Top 10", "top"), ("czytelnia.html", "Czytelnia", "czytelnia"), ("watki/index.html", "Wątki", "watki"),
+    nav = [("index.html", "Wydania", "wydania"), ("kalendarium.html", "Kalendarium", "kalendarium"), ("kalendarz.html", "Kalendarz wydań", "kalendarz"), ("top/index.html", "Top 10", "top"), ("czytelnia.html", "Czytelnia", "czytelnia"), ("watki/index.html", "Wątki", "watki"),
            ("osoby/index.html", "Kto jest kim", "osoby"), ("pojecia/index.html", "Pojęcia", "pojecia"),
            ("korekty.html", "Korekty", "korekty"), ("zrodla.html", "Źródła", "zrodla"), ("jak-weryfikujemy.html", "Jak weryfikujemy", "jak"),
            ("szukaj.html", "Szukaj", "szukaj")]
@@ -1177,7 +1213,8 @@ class Budowa:
         if w.get("poza_oknem"):
             cz.append('<div class="nota"><h3>Poza oknem, ale przesądzające</h3><table class="kal poza">' + "".join(
                 f'<tr><td class="kal-d">{data_krotka(k["data"])}</td><td>{T(k["tekst"])}</td></tr>'
-                for k in sorted(w["poza_oknem"], key=lambda k: k["data"])) + "</table></div>")
+                for k in sorted(w["poza_oknem"], key=lambda k: k["data"])) + "</table>"
+                      f'<p class="dalej"><a href="{prefix}kalendarium.html">Kalendarium – najważniejsze wydarzenia na pół roku naprzód</a></p></div>')
         if w.get("czego_nie_ma"):
             spis.append(("czego-nie-ma", f'Czego tu nie ma ({len(w["czego_nie_ma"])})'))
             cz.append('<div class="nota" id="czego-nie-ma"><h3>Czego tu nie ma</h3><ul class="brak">' + "".join(
@@ -1215,6 +1252,7 @@ class Budowa:
 </section>
 <section class="skrot"><h2>W skrócie</h2>{''.join(f'<p>{T(z)}</p>' for z in w['w_skrocie'])}
 <p class="dalej"><a href="wydania/{w['_slug']}.html">Czytaj całe wydanie</a></p></section>""")
+            cz.append(self.najblizsze_terminy(w["data"]))
             kal = "".join(self.kalendarz_html(r, m, "wydania/", aktualny=w, przyciski=True) for r, m in reversed(self.miesiace_wydan()))
             ostatnie = "".join(
                 f'<li><a href="wydania/{x["_slug"]}.html"><span class="a-d">{DNI_KROTKO[data_(x["data"]).weekday()]} {data_krotka(x["data"])}</span> '
@@ -1526,6 +1564,102 @@ class Budowa:
         self.zapisz("kalendarz.html", strona("Kalendarz wydań", "\n".join(cz), "",
                                              "Kalendarz wydań Prasówki – wszystkie miesiące, z odnośnikami do wydań.", "kalendarz"))
 
+    def kalendarium_strona(self):
+        ref = self.wydania[-1]["data"] if self.wydania else dt.date.today().isoformat()
+        lista = terminy_w_oknie(ref)
+        koniec = data_(ref) + dt.timedelta(days=KALENDARIUM_DNI)
+        T = Tekst(self.osoby, self.pojecia, "")
+        licz = {k: sum(1 for t in lista if t.get("kategoria") == k) for k in KATEGORIE_TERMINOW}
+        kat = [k for k in KATEGORIE_TERMINOW if licz[k]]
+        cz = [f"""<section class="winieta">
+  <p class="w-nr">Kalendarium</p>
+  <h1>Najważniejsze wydarzenia na pół roku naprzód</h1>
+  <p class="w-stan">Od {data_dluga(ref)} do {data_dluga(koniec.isoformat())}: {len(lista)} terminów – szczyty, wybory, decyzje banków centralnych i posiedzenia instytucji. Każdy termin ma źródło; aktualizujemy je przy każdym wydaniu. <span class="odznaka kluczowe">kluczowe</span> – wydarzenie, które wydanie zawsze odnotuje.</p>
+  <p class="w-stan"><a href="kalendarium.ics">Dodaj do swojego kalendarza (plik .ics)</a></p>
+</section>"""]
+        if not lista:
+            cz.append('<p class="uwaga">Kalendarium jest puste – terminy dopisujemy przy kolejnych wydaniach.</p>')
+        else:
+            cz.append('<div class="kalm-wrap">' + '<input type="radio" name="kalm-f" id="fk-all" class="filtr-r" checked>' +
+                      "".join(f'<input type="radio" name="kalm-f" id="fk-{k}" class="filtr-r">' for k in kat) +
+                      f'<p class="filtr"><label for="fk-all">Wszystkie ({len(lista)})</label>' +
+                      "".join(f'<label for="fk-{k}">{e(KATEGORIE_TERMINOW[k])} ({licz[k]})</label>' for k in kat) + '</p><div class="kalm">')
+            mies = {}
+            for t in lista:
+                d = max(data_(t["od"]), data_(ref))
+                mies.setdefault((d.year, d.month), []).append(t)
+            for (r, m), ts in sorted(mies.items()):
+                art = []
+                for t in ts:
+                    a, b = data_(t["od"]), data_(t.get("do") or t["od"])
+                    dzien = f"{a.day:02d}.{a.month:02d}" + (f"–{b.day:02d}.{b.month:02d}" if b != a else "")
+                    tydz = DNI_KROTKO[a.weekday()] + (f"–{DNI_KROTKO[b.weekday()]}" if b != a else "")
+                    odz = [f'<span class="odznaka kat">{e(KATEGORIE_TERMINOW[t["kategoria"]])}</span>']
+                    if obowiazkowy(t):
+                        odz.append('<span class="odznaka kluczowe">kluczowe</span>')
+                    art.append(f'<article class="poz k-{e(t["kategoria"])}" id="{e(t["id"])}" data-od="{e(t["od"])}" data-do="{e(t.get("do") or t["od"])}">'
+                               f'<div class="poz-data">{dzien}<span class="kalm-tydz">{tydz}</span></div><div class="poz-tresc">'
+                               f'<p class="poz-meta">{"".join(odz)}{html_tagi(t.get("tagi"), self.tagi, "")}<span class="kalm-ile"></span></p>'
+                               f'<p class="poz-tekst"><span class="kalm-zakres">{e(zakres_dat(t["od"], t.get("do")))}</span> – {T(t["tekst"])}</p>'
+                               + (f'<p class="kalm-uwaga">{T(t["uwaga"])}</p>' if t.get("uwaga") else "")
+                               + html_zrodla(t.get("zrodla"), "Źródło" if len(t.get("zrodla", [])) == 1 else "Źródła") + "</div></article>")
+                cz.append(f'<section class="kalm-m" id="m-{r}-{m:02d}"><h2 class="pasek">{MIESIACE_MIAN[m-1]} {r}</h2>' + "".join(art) + "</section>")
+            cz.append("</div></div>")
+            cz.append("<script>(function(){var d=new Date();d.setHours(0,0,0,0);"
+                      "function p(s){var x=s.split('-');return new Date(+x[0],x[1]-1,+x[2]);}"
+                      "[].forEach.call(document.querySelectorAll('.kalm .poz'),function(a){var o=p(a.dataset.od),k=p(a.dataset.do),"
+                      "n=Math.round((o-d)/864e5),s=a.querySelector('.kalm-ile');"
+                      "if(k<d){a.hidden=true;return;}"
+                      "s.textContent=n>1?'za '+n+' dni':n===1?'jutro':o<d||n===0?(k>d?'trwa':'dziś'):'';"
+                      "if(n<=7)a.classList.add('kalm-blisko');});"
+                      "[].forEach.call(document.querySelectorAll('.kalm-m'),function(m){if(!m.querySelector('.poz:not([hidden])'))m.hidden=true;});})();</script>")
+        cz.append('<p class="dalej">Terminy, które już minęły, znajdziesz w wydaniach: <a href="kalendarz.html">Kalendarz wydań</a>.</p>')
+        self.zapisz("kalendarium.html", strona("Kalendarium", "\n".join(cz), "",
+                                               "Najważniejsze wydarzenia międzynarodowe na pół roku naprzód – szczyty, wybory, banki centralne – ze źródłami.", "kalendarium"))
+        self.kalendarium_ics(lista)
+
+    def kalendarium_ics(self, lista):
+        def esc(x):
+            return x.replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace("\n", "\\n")
+        def zloz(linia):
+            b = linia.encode("utf-8")
+            if len(b) <= 74:
+                return linia
+            out, cur = [], ""
+            for ch in linia:
+                if len((cur + ch).encode("utf-8")) > 73:
+                    out.append(cur)
+                    cur = " " + ch
+                else:
+                    cur += ch
+            out.append(cur)
+            return "\r\n".join(out)
+        teraz = (self.wydania[-1]["data"].replace("-", "") if self.wydania else dt.date.today().strftime("%Y%m%d")) + "T180000Z"
+        L = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Prasowka//Kalendarium//PL", "CALSCALE:GREGORIAN",
+             "X-WR-CALNAME:Prasówka – kalendarium", "X-WR-TIMEZONE:Europe/Warsaw"]
+        for t in lista:
+            a, b = data_(t["od"]), data_(t.get("do") or t["od"]) + dt.timedelta(days=1)
+            opis = czysty(t["tekst"], self.osoby, self.pojecia)
+            zr = "; ".join(f'{z["nazwa"]}: {z["url"]}' for z in t.get("zrodla", []))
+            L += ["BEGIN:VEVENT", f"UID:{t['id']}@prasowka-kalendarium", f"DTSTAMP:{teraz}",
+                  f"DTSTART;VALUE=DATE:{a.strftime('%Y%m%d')}", f"DTEND;VALUE=DATE:{b.strftime('%Y%m%d')}",
+                  zloz("SUMMARY:" + esc(skroc(opis, 120))),
+                  zloz("DESCRIPTION:" + esc(opis + (" Źródła: " + zr if zr else ""))),
+                  zloz("URL:" + BASE_URL + "kalendarium.html#" + t["id"]),
+                  zloz("CATEGORIES:" + esc(KATEGORIE_TERMINOW[t["kategoria"]])), "END:VEVENT"]
+        L.append("END:VCALENDAR")
+        self.zapisz("kalendarium.ics", "\r\n".join(L) + "\r\n")
+
+    def najblizsze_terminy(self, ref, n=6):
+        T = Tekst(self.osoby, self.pojecia, "")
+        ts = terminy_w_oknie(ref, 60)[:n]
+        if not ts:
+            return ""
+        return ('<h2 class="pasek">Najbliższe wydarzenia</h2><table class="kal">' + "".join(
+            f'<tr><td class="kal-d">{data_krotka(t["od"])}{("–" + data_krotka(t["do"])) if t.get("do") and t["do"] != t["od"] else ""}</td>'
+            f'<td><a href="kalendarium.html#{e(t["id"])}">{T(t["tekst"])}</a></td></tr>' for t in ts)
+            + '</table><p class="dalej"><a href="kalendarium.html">Kalendarium – pół roku naprzód</a></p>')
+
     def gorace_watki(self, dni):
         if not self.wydania:
             return []
@@ -1828,6 +1962,7 @@ class Budowa:
         self.top_strony()
         self.czytelnia()
         self.kalendarz_strona()
+        self.kalendarium_strona()
         self.watki()
         self.osoby_strony()
         self.pojecia_strony()

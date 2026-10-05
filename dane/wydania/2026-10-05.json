@@ -1,0 +1,326 @@
+{
+  "nr": 17,
+  "data": "2026-10-05",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Najważniejsze wydarzenie dnia w Europie: premier Hiszpanii Pedro Sánchez ogłosił **przedterminowe wybory parlamentarne 29 listopada** po odrzuceniu przez Kongres jego dekretów mieszkaniowych; sondaże wskazują na przewagę Partii Ludowej wspieranej przez Vox.",
+    "Na Morzu Czarnym, w wyłącznej strefie ekonomicznej Rumunii, zatonął po trafieniu dronami zbożowiec **Royad Mammadov** (2 zabitych, 11 uratowanych); Zełenski obwinia Rosję, władze rumuńskie nie wskazały sprawcy.",
+    "Przewodniczący Rady Europejskiej {{o:antonio-costa|António Costa}} w Warszawie zapowiedział ambicję **otwarcia wszystkich klastrów negocjacyjnych dla Ukrainy i Mołdawii do końca roku**; spotkał się z premierem Donaldem Tuskiem.",
+    "Na świecie: w Jemenie rząd i koalicja pod wodzą Arabii Saudyjskiej rozpoczęły 4.10 **ofensywę przeciw Huti** w rejonie cieśniny Bab al-Mandab, a w Iranie ustąpił minister ropy Mohsen Paknedżad.",
+    "OSW 5.10: analiza o wizycie Merza w Kijowie (Lidia Gibadło); PISM bez nowych tekstów z 3–5.10."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-10-05",
+      "tagi": ["ukraina", "rosja", "rumunia"],
+      "etap": null,
+      "tekst": "Statek **Royad Mammadov** (właściciel turecki, bandera Saint Kitts i Nevis), płynący z ukraińskim zbożem z Izmaiłu do Włoch, został 5.10 trafiony przez drony ok. 20 mil od wybrzeża Rumunii, w pobliżu platformy Pescăruș – w **wyłącznej strefie ekonomicznej Rumunii**, poza jej wodami terytorialnymi; statek spłonął i zatonął, zginęło dwóch członków załogi (w tym kapitan), 11 osób uratowały rumuńskie jednostki i śmigłowce. Prezydent {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} powiedział, że statek trafiły dwa rosyjskie drony; władze Rumunii nie wskazały sprawcy do chwili zamknięcia wydania.",
+      "zrodla": [
+        {"nazwa": "Euronews", "url": "https://www.euronews.com/2026/10/05/drone-reportedly-hits-ship-in-black-sea-killing-two-and-injuring-11", "data": "2026-10-05"},
+        {"nazwa": "Kyiv Independent", "url": "https://kyivindependent.com/russian-drones-strike-cargo-ship-in-black-sea-kill-captain-zelensky-says/", "data": "2026-10-05"},
+        {"nazwa": "Kyiv Post (za MSW Rumunii)", "url": "https://www.kyivpost.com/post/86161", "data": "2026-10-05"}
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "polska",
+      "data": "2026-10-05",
+      "tagi": ["ue", "dyplomacja-rp", "ukraina"],
+      "etap": "ZAPOWIEDŹ",
+      "tekst": "{{o:antonio-costa|António Costa}} na inauguracji roku akademickiego Kolegium Europejskiego w Natolinie: UE powinna „zdecydowanie iść naprzód” z Ukrainą i Mołdawią, z **ambicją otwarcia wszystkich klastrów negocjacyjnych dla obu państw do końca roku** – „zgodnie z niezbędnymi warunkami”. Po wystąpieniu Costa spotkał się w KPRM z premierem Donaldem Tuskiem (komunikat KPRM za PAP; tematy rozmowy nie zostały ujawnione).",
+      "zrodla": [
+        {"nazwa": "Rada UE", "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/05/speech-by-president-antonio-costa-at-the-opening-ceremony-of-the-academic-year-of-the-college-of-europe-natolin-campus/", "data": "2026-10-05"},
+        {"nazwa": "PAP (za Portal Samorządowy)", "url": "https://www.portalsamorzadowy.pl/polityka-i-spoleczenstwo/w-kprm-spotkanie-premiera-tuska-i-szefa-rady-europejskiej-antonio-costy,678729.html", "data": "2026-10-05"}
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "instytucje",
+      "data": "2026-10-05",
+      "tagi": ["ue", "ukraina"],
+      "etap": "ZAPOWIEDŹ",
+      "tekst": "Na **10. Radzie Stowarzyszenia UE–Mołdawia** w Brukseli (przewodnicząca Kaja Kallas, Wysoka Przedstawiciel UE) premier Mołdawii Vasile Tofan zapowiedział zamknięcie negocjacji technicznych do początku 2028 r. i **członkostwo w 2030 r.**; Mołdawia otworzyła 2 z 6 klastrów. Komisarz ds. rozszerzenia Marta Kos powiedziała, że możliwe jest **otwarcie dwóch kolejnych klastrów dla Ukrainy i Mołdawii w przyszłym tygodniu** (otwieranie klastrów dla obu państw jest politycznie sprzężone) – warunkiem zniesienia węgierskiego sprzeciwu jest ukraińska ustawa o prawach mniejszości (głosowanie planowane na 12.10).",
+      "zrodla": [
+        {"nazwa": "ESDZ (zapowiedź posiedzenia)", "url": "https://www.eeas.europa.eu/delegations/moldova/10th-eu-republic-moldova-association-council-5-october-2026_en", "data": "2026-10-05"},
+        {"nazwa": "Kyiv Independent", "url": "https://kyivindependent.com/moldova-aims-to-complete-eu-technical-talks-by-2028-join-bloc-by-2030/", "data": "2026-10-05"},
+        {"nazwa": "Kyiv Independent", "url": "https://kyivindependent.com/zelensky-could-celebrate-fresh-eu-accession-breakthrough-in-brussels-next-week-source-says/", "data": "2026-10-05"}
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "instytucje",
+      "data": "2026-10-05",
+      "tagi": ["inne", "wybory"],
+      "etap": "ZAPOWIEDŹ",
+      "tekst": "Hiszpania: premier Pedro Sánchez (PSOE) ogłosił rozwiązanie Kortezów i **przedterminowe wybory parlamentarne 29 listopada**, po tym jak w piątek 2.10 Kongres odrzucił dwa rządowe dekrety mieszkaniowe (przeciw głosowały PP, Vox i Junts). Sondaże wskazują jako najbardziej prawdopodobny rząd **Partii Ludowej z poparciem Vox**.",
+      "zrodla": [
+        {"nazwa": "Euronews", "url": "https://www.euronews.com/2026/10/05/pedro-sanchez-calls-early-elections-in-spain-after-defeat-of-housing-decrees", "data": "2026-10-05"},
+        {"nazwa": "Reuters (za Al Jazeera)", "url": "https://www.aljazeera.com/news/2026/10/5/spanish-prime-minister-pedro-sanchez-announces-snap-election", "data": "2026-10-05"}
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "instytucje",
+      "data": "2026-10-05",
+      "tagi": ["slowacja"],
+      "etap": "PROPOZYCJA",
+      "tekst": "Rząd {{o:robert-fico|Roberta Fico}} przyjął projekt budżetu na 2027 r. z **deficytem sektora finansów publicznych 4,94% PKB** (7,443 mld euro; dochody 63,3 mld, wydatki 70,8 mld euro) – wyższym niż w 2026 r., przed wyborami w 2027 r. Projekt musi jeszcze uchwalić Rada Narodowa.",
+      "zrodla": [
+        {"nazwa": "TASR (za TA3)", "url": "https://www.ta3.com/clanok/1074983/vlada-bude-rokovat-o-rozpocte-na-rok-2027-deficit-verejnej-spravy-ma-dosiahnut-takmer-5-percent-hdp", "data": "2026-10-05"},
+        {"nazwa": "Reuters (za Devdiscourse)", "url": "https://www.devdiscourse.com/article/international/3985903-slovak-government-plans-wider-deficit-in-2027-election-year-budget", "data": "2026-10-02"}
+      ]
+    },
+    {
+      "id": "z6",
+      "blok": "swiat",
+      "data": "2026-10-04",
+      "tagi": ["iran"],
+      "etap": "W TOKU",
+      "tekst": "Jemen: rząd prezydenta Raszada al-Alimiego ogłosił 4.10 **ofensywę przeciw Huti** w rejonie Taizu i wybrzeża Morza Czerwonego; rzecznik koalicji pod wodzą Arabii Saudyjskiej Turki al-Maliki zapowiedział „pełne wsparcie operacyjne”. 5.10 rzecznik sił rządowych twierdził, że przejęły one kontrolę nad **Bab al-Mandab** i dystryktami Dhubab i Mocha; Huti nazywają to fikcją – zdobyczy terenowych nie zweryfikowano niezależnie.",
+      "zrodla": [
+        {"nazwa": "CNN (za KESQ)", "url": "https://kesq.com/news/national-world/cnn-world/2026/10/05/yemens-saudi-backed-government-announces-major-offensive-against-iran-backed-houthis/", "data": "2026-10-05"},
+        {"nazwa": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/10/5/yemen-war-escalates-whats-the-latest-on-the-battlefield", "data": "2026-10-05"},
+        {"nazwa": "Reuters (za Just Security)", "url": "https://www.justsecurity.org/159662/early-edition-october-5-2026/", "data": "2026-10-05"}
+      ]
+    },
+    {
+      "id": "z7",
+      "blok": "swiat",
+      "data": "2026-10-04",
+      "tagi": ["iran", "energia"],
+      "etap": "PRZYJĘTE",
+      "tekst": "Iran: minister ropy **Mohsen Paknedżad** podał się do dymisji „z przyczyn osobistych”, prezydent {{o:masud-pezeszkian|Masud Pezeszkian}} ją przyjął; obowiązki przejął prezes państwowego koncernu NIOC Hamid Bovard (Reuters). Według Bloomberga dymisja zbiega się z załamaniem irańskiego eksportu ropy pod presją **amerykańskiej blokady morskiej**.",
+      "zrodla": [
+        {"nazwa": "Reuters (za AOL)", "url": "https://www.aol.com/articles/irans-oil-minister-resigns-state-171041000.html", "data": "2026-10-04"},
+        {"nazwa": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-10-05/iran-s-oil-minister-resigns-as-exports-dry-up-under-us-pressure", "data": "2026-10-05"}
+      ]
+    },
+    {
+      "id": "z8",
+      "blok": "instytucje",
+      "data": "2026-10-05",
+      "tagi": ["niemcy", "rosja", "hybryda"],
+      "etap": null,
+      "tekst": "Na dorocznym jawnym przesłuchaniu w Bundestagu szefowie trzech niemieckich służb – Martin Jäger (wywiad zagraniczny BND), Sinan Selen (kontrwywiad BfV) i Martina Rosenberg (kontrwywiad wojskowy MAD) – zgodnie wskazali Rosję jako główne zagrożenie i poprosili o **reformy dające służbom zdolności ofensywne** wobec cyberataków i programów zbrojeniowych przeciwników. Jäger przywołał próbę ataku dronem na lotnisko w Lipsku (ocenę – w analizach).",
+      "zrodla": [
+        {"nazwa": "Reuters (za ThePrint)", "url": "https://theprint.in/world/germany-at-risk-of-violent-conflict-with-russia-intel-chief-says/3062151", "data": "2026-10-05"},
+        {"nazwa": "Kyiv Independent", "url": "https://kyivindependent.com/german-intelligence-chief-warns-of-violent-conflict-with-russia/", "data": "2026-10-05"}
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "Niemcy: Merz utrzymuje kurs wsparcia Ukrainy wbrew nastrojom",
+      "autor": "OSW (Lidia Gibadło), Analizy OSW z 5.10.2026",
+      "tagi": ["niemcy", "ukraina"],
+      "tekst": "Gibadło ocenia wizytę kanclerza w Kijowie 4.10 jako sygnał ciągłości mimo wzrostu AfD i spadku poparcia dla pomocy (według przytaczanego sondażu 42% Niemców uważa wsparcie wojskowe za zbyt duże). Berlin przedstawia pomoc jako obopólną korzyść – niemiecki przemysł zbrojeniowy czerpie z ukraińskiego doświadczenia z dronami – a jednocześnie sygnalizuje gotowość do rozmów z Rosją, które według autorki ograniczają się do prezentowania stanowisk.",
+      "dla_polski": "Utrzymanie niemieckiego wsparcia (Niemcy pozostają największym nominalnym donatorem w Europie) zmniejsza presję na Polskę jako państwo frontowe i hub logistyczny; zarazem wspólne niemiecko-ukraińskie projekty dronowe to konkurencja dla polskiego przemysłu w tym segmencie (wniosek redakcji).",
+      "zrodla": [
+        {"nazwa": "OSW", "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-05/utrzymac-kurs-merz-w-kijowie", "data": "2026-10-05"}
+      ]
+    },
+    {
+      "tytul": "Szef BND: Niemcom grozi „gwałtowny konflikt” z Rosją",
+      "autor": "Martin Jäger, prezes BND (przesłuchanie w Bundestagu 5.10.2026, za Reuters)",
+      "tagi": ["niemcy", "rosja", "hybryda"],
+      "tekst": "Jäger ocenił, że Niemcy są w niebezpieczeństwie „uwikłania w gwałtowny konflikt z Rosją”, że Rosja prowadzi przeciw nim „wojnę cieni” i że żadne inne państwo nie stanowi dla Niemiec tak bezpośredniego i konkretnego zagrożenia. Szef BfV Sinan Selen dodał, że Rosja pokazała gotowość do sabotażu i zamachów.",
+      "dla_polski": "Jeśli ocena BND przełoży się na nowe uprawnienia ofensywne niemieckich służb, Polska zyska partnera do wspólnego przeciwdziałania sabotażowi na szlakach logistycznych do Ukrainy, które biegną przez oba kraje (wniosek redakcji).",
+      "zrodla": [
+        {"nazwa": "Reuters (za ThePrint)", "url": "https://theprint.in/world/germany-at-risk-of-violent-conflict-with-russia-intel-chief-says/3062151", "data": "2026-10-05"},
+        {"nazwa": "Kyiv Independent", "url": "https://kyivindependent.com/german-intelligence-chief-warns-of-violent-conflict-with-russia/", "data": "2026-10-05"}
+      ]
+    },
+    {
+      "tytul": "Morze Czarne: wojna dociera do strefy ekonomicznej państwa NATO",
+      "autor": "Redakcja Prasówki (wniosek z pozycji z1, 5.10.2026)",
+      "tagi": ["rumunia", "ukraina", "rosja"],
+      "tekst": "Zatopienie statku ze zbożem ok. 20 mil od rumuńskiego wybrzeża, przy platformie wydobywczej, pokazuje, że ataki na ukraiński eksport morski sięgają obszarów, za których bezpieczeństwo odpowiada Rumunia, choć poza jej wodami terytorialnymi. Bez oficjalnego wskazania sprawcy przez Bukareszt sprawa nie uruchamia na razie procedur sojuszniczych.",
+      "dla_polski": "Wzrośnie znaczenie korytarzy lądowych i dunajskich dla ukraińskiego zboża – w tym przez Polskę – a także presja na sojuszniczy nadzór nad Morzem Czarnym, w którym uczestniczy polskie lotnictwo i marynarka (wniosek redakcji).",
+      "zrodla": [
+        {"nazwa": "Euronews", "url": "https://www.euronews.com/2026/10/05/drone-reportedly-hits-ship-in-black-sea-killing-two-and-injuring-11", "data": "2026-10-05"}
+      ]
+    },
+    {
+      "tytul": "Hiszpania: wybory 29.11 mogą zmienić układ w Radzie Europejskiej",
+      "autor": "Redakcja Prasówki (wniosek z pozycji z4, 5.10.2026)",
+      "tagi": ["inne", "wybory", "ue"],
+      "tekst": "Sondaże wskazują na zmianę władzy na rząd PP z poparciem Vox. Hiszpania to czwarta gospodarka strefy euro i jeden z głównych beneficjentów polityki spójności; zmiana rządu przypadłaby na decydującą fazę negocjacji WRF 2028–34.",
+      "dla_polski": "Polska i Hiszpania należą do grupy „przyjaciół spójności”; okres kampanii i tworzenia rządu w Madrycie może osłabić tę koalicję w rozmowach o budżecie UE akurat przed grudniową Radą Europejską (wniosek redakcji).",
+      "zrodla": [
+        {"nazwa": "Euronews", "url": "https://www.euronews.com/2026/10/05/pedro-sanchez-calls-early-elections-in-spain-after-defeat-of-housing-decrees", "data": "2026-10-05"}
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-10-06",
+      "tekst": "6–7.10: posiedzenie Rady Polityki Pieniężnej (stopa referencyjna 3,75%); 6.10 Litwa – planowane pierwsze z dwóch rozstrzygających głosowań w Sejmie nad zmianą art. 137 konstytucji.",
+      "tagi": ["gospodarka", "litwa"]
+    },
+    {
+      "data": "2026-10-06",
+      "tekst": "6–8.10: państwowa wizyta prezydenta {{o:karol-nawrocki|Karola Nawrockiego}} na Filipinach – pierwsza wizyta prezydenta RP w tym kraju (rozmowy z prezydentem Ferdinandem Marcosem Jr., forum biznesowe IT).",
+      "tagi": ["dyplomacja-rp"],
+      "zrodla": [
+        {"nazwa": "PAP (za Portal Samorządowy)", "url": "https://www.portalsamorzadowy.pl/polityka-i-spoleczenstwo/polska-para-prezydencka-wyruszyla-na-filipiny,678646.html", "data": "2026-10-04"}
+      ]
+    },
+    {
+      "data": "2026-10-07",
+      "tekst": "Szczyt MED9 w Splicie z udziałem Antónia Costy; protokół z wrześniowego posiedzenia {{p:fomc|FOMC}}.",
+      "tagi": ["ue", "usa"],
+      "zrodla": [
+        {"nazwa": "Rada UE", "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/02/weekly-schedule-of-president-antonio-costa/", "data": "2026-10-02"}
+      ]
+    },
+    {
+      "data": "2026-10-08",
+      "tekst": "Eurogrupa (8.10) i ECOFIN (9.10).",
+      "tagi": ["ue"],
+      "zrodla": [
+        {"nazwa": "Rada UE (kalendarz posiedzeń)", "url": "https://www.consilium.europa.eu/en/meetings/calendar/", "data": "2026-10-04"}
+      ]
+    },
+    {
+      "data": "2026-10-09",
+      "tekst": "9–10.10: Czechy – I tura wyborów do Senatu i wybory samorządowe; 9.10 Costa w Amsterdamie i Hadze.",
+      "tagi": ["czechy", "wybory"]
+    },
+    {
+      "data": "2026-10-12",
+      "tekst": "Rada do Spraw Zagranicznych UE (Ukraina); 13.10 Rada do Spraw Ogólnych – {{p:wrf|WRF}} 2028–34 i praworządność na Węgrzech; 12–18.10 doroczne zgromadzenia MFW i Banku Światowego (Bangkok).",
+      "tagi": ["ue", "wegry", "mfw"],
+      "zrodla": [
+        {"nazwa": "Rada UE (kalendarz posiedzeń)", "url": "https://www.consilium.europa.eu/en/meetings/calendar/", "data": "2026-10-04"}
+      ]
+    },
+    {
+      "data": "2026-10-12",
+      "tekst": "Ukraina: planowane głosowanie Rady Najwyższej nad ustawą o prawach mniejszości narodowych – warunek zniesienia węgierskiej blokady klastrów 3 i 4.",
+      "tagi": ["ukraina", "wegry"],
+      "zrodla": [
+        {"nazwa": "Kyiv Independent", "url": "https://kyivindependent.com/zelensky-could-celebrate-fresh-eu-accession-breakthrough-in-brussels-next-week-source-says/", "data": "2026-10-05"}
+      ]
+    },
+    {
+      "data": "2026-10-15",
+      "tekst": "15–16.10: Rada Europejska w Brukseli (m.in. WRF 2028–34, Ukraina, rozszerzenie).",
+      "tagi": ["ue"],
+      "zrodla": [
+        {"nazwa": "Rada UE", "url": "https://www.consilium.europa.eu/en/meetings/european-council/2026/10/15-16/", "data": "2026-09-14"}
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {"data": "2026-10-25", "tekst": "II tura wyborów prezydenckich w Brazylii (Flávio Bolsonaro – Lula)", "tagi": ["ameryki", "wybory"]},
+    {"data": "2026-10-25", "tekst": "wybory parlamentarne w Serbii", "tagi": ["balkany", "wybory"]},
+    {"data": "2026-10-28", "tekst": "27–28.10 FOMC (Fed), 28–29.10 posiedzenie EBC", "tagi": ["gospodarka"]},
+    {"data": "2026-11-01", "tekst": "kolejne spotkanie państw OPEC+ w sprawie limitów wydobycia (na grudzień)", "tagi": ["energia"]},
+    {"data": "2026-11-03", "tekst": "wybory połowy kadencji w USA", "tagi": ["usa", "wybory"]},
+    {"data": "2026-11-29", "tekst": "przedterminowe wybory parlamentarne w Hiszpanii", "tagi": ["inne", "wybory"]}
+  ],
+  "zrodla_analityczne": {
+    "osw": [
+      {"tytul": "Utrzymać kurs. Merz w Kijowie (Analizy OSW)", "autor": "Lidia Gibadło", "data": "2026-10-05", "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-05/utrzymac-kurs-merz-w-kijowie"}
+    ],
+    "pism": []
+  },
+  "czego_nie_ma": [
+    {
+      "prog": "kompletność",
+      "kalendarz": "2026-10-05",
+      "tekst": "Rumunia: prezydent Nicușor Dan zapowiedział ogłoszenie nowego kandydata na premiera na 21:00 czasu rumuńskiego (po zamknięciu wydania); PSD zgłosiła Sorina Grindeanu, liberałowie nie wskazali nikogo. Szwecja: misja Magdaleny Andersson trwa (raport do 12.10) – bez nowego faktu. Do wydania porannego."
+    },
+    {
+      "id": "c1",
+      "prog": "dokumentacja",
+      "tekst": "NATO opracowuje „teorię zwycięstwa” – plan obrony wschodniej flanki łączący wojska lądowe z dronami i namierzaniem wspieranym przez AI; naczelny dowódca sił NATO w Europie gen. Alexus Grynkewich ma go przedstawić w Polsce 12.10 – tylko Bloomberg (inne redakcje powtarzają jego tekst), bez komunikatu NATO.",
+      "sprawdzono": [
+        "Bloomberg 5.10 (przez Kyiv Independent; oryginał niedostępny)",
+        "Kyiv Independent 5.10 (za Bloombergiem)",
+        "Ukraińska Prawda 5.10 (za Bloombergiem)",
+        "nato.int – brak komunikatu"
+      ]
+    },
+    {
+      "id": "c2",
+      "prog": "dokumentacja",
+      "tekst": "Wspólna deklaracja przywódców Egiptu, Erytrei, Somalii i Sudanu (4.10) przeciw „jednostronnym działaniom” na Nilu i ambicjom morskim Etiopii – tylko Al Jazeera (poziom 3).",
+      "sprawdzono": [
+        "Al Jazeera 5.10",
+        "Open Chronicle 5.10 (przegląd prasy)",
+        "wyszukiwarka: Reuters, AP – brak otwartej depeszy"
+      ]
+    },
+    {
+      "prog": "następstwo",
+      "tekst": "USA wycofały bombowce z brytyjskiej bazy RAF Fairford po zatrzymaniach w sprawie podejrzewanego spisku terrorystycznego (4.10; AP za PBS, CBC za Pentagonem) – przemieszczenie sił bez zmiany zaangażowania USA w Europie."
+    },
+    {
+      "prog": "następstwo",
+      "tekst": "Austria: wicekanclerz Andreas Babler (SPÖ) zapowiedział 4.10 rezygnację z funkcji wicekanclerza i przewodniczącego partii na początku 2027 r. (Reuters) – koalicja trwa, zmiana dopiero w przyszłym roku."
+    },
+    {
+      "prog": "następstwo",
+      "tekst": "Rosja, obwód irkucki: po śmierci laborantki Instytutu Przeciwdżumowego (2.10) ok. 200 osób pod obserwacją lub w izolacji; Rospotrzebnadzor podaje „zapalenie płuc o nieznanej etiologii”, dżumy nie potwierdzono (RFE/RL, Meduza, Kyiv Independent)."
+    },
+    {
+      "prog": "następstwo",
+      "tekst": "Zełenski 5.10 po rozmowie z Macronem: ukraińscy piloci wkrótce zaczną szkolenie na samolotach Rafale we Francji – deklaracja bez terminu i liczb (Kyiv Independent, Ukrinform)."
+    },
+    {
+      "prog": "następstwo",
+      "tekst": "Sudan: atak z powietrza na konwój ciężarówek WFP w Kordofanie Południowym, zginął kierowca (ONZ, 3–4.10) – kolejny incydent bez zmiany stanu konfliktu."
+    },
+    {
+      "prog": "kompletność",
+      "tekst": "Wicepremier i szef MON Władysław Kosiniak-Kamysz w Świdniku 5.10 o wzmocnieniu wojska na Lubelszczyźnie (bateria Patriot, brygada systemów bezzałogowych w Łukowie, baza śmigłowców w Świdniku) – tylko Radio Lublin; część zapowiedzi powtarza wcześniejsze decyzje. Do sprawdzenia z komunikatem MON."
+    },
+    {
+      "prog": "następstwo",
+      "tekst": "Azja (4–5.10, Reuters za Just Security): Seul przypisał minom Korei Północnej wybuch przy granicy, w którym ranni zostali żołnierze; FBI zatrzymało w Los Angeles kobietę oskarżoną o szpiegowanie na rzecz Chin syna prezydenta Tajwanu; Zełenski twierdzi, że Rosja mogła przekazać Korei Płn. technologię dronów odrzutowych – incydenty bez zmiany stanu rzeczy."
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-10-05-rano#c1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "42 mandaty Zjednoczonej Listy potwierdza drugie źródło (bne IntelliNews), ale pełnego podziału mandatów pozostałych partii nadal nie podaje nikt poza LSM.",
+      "sprawdzono": [
+        "LSM 4.10",
+        "bne IntelliNews 5.10 (tylko wynik Zjednoczonej Listy)",
+        "wyszukiwarka: BNN, Saudi Gazette – nagłówki bez pełnego podziału"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-05-rano#c2",
+      "wynik": "ODPADA",
+      "powod": "Atak na Charków (1 zabity, 6 rannych) potwierdził Reuters (za Just Security), ale liczba odbiorców bez prądu w obwodzie połtawskim jest rozbieżna (Kyiv Independent 22 tys., NV 6 tys.); nocne uderzenia bez zmiany stanu rzeczy – nie wchodzą jako pozycja."
+    },
+    {
+      "dotyczy": "2026-10-05-rano#c3",
+      "wynik": "ODPADA",
+      "powod": "Sprawdzono 5.10: OSW opublikował 5.10 analizę o wizycie Merza w Kijowie (w sekcji OSW/PISM i w analizach); lista publikacji PISM nie wyświetliła się, wyszukiwarka nie znalazła tekstów z 3–5.10."
+    },
+    {
+      "dotyczy": "2026-10-05-rano#c4",
+      "wynik": "UZUPEŁNIONE",
+      "pozycja": "z6"
+    }
+  ],
+  "do_sprawdzenia": [
+    "Rumunia – kandydat na premiera (ogłoszenie 5.10 wieczorem)",
+    "Royad Mammadov – ustalenia władz Rumunii, reakcja NATO i Turcji",
+    "Litwa 6.10 – głosowanie nad art. 137",
+    "RPP 6–7.10 – decyzja i komunikat",
+    "Nawrocki na Filipinach 6–8.10 – podpisane dokumenty",
+    "NATO „teoria zwycięstwa” – komunikat lub drugie źródło",
+    "Hiszpania – dekret o rozwiązaniu Kortezów (BOE)",
+    "Jemen – weryfikacja zdobyczy terenowych"
+  ],
+  "nota": "Wydanie wieczorne nr 17, przygotowane 5.10.2026 między 19:50 a 21:00 CEST; obejmuje okres od wydania porannego nr 16. Otwarto: Rada UE (przemówienie Costy), ESDZ, Euronews, Kyiv Independent, Al Jazeera (z depeszami Reutera), CNN (przez KESQ), Reuters (przez ThePrint, Internazionale, AOL, Devdiscourse), TASR (przez TA3), PAP (przez Portal Samorządowy), OSW, RFE/RL, Kyiv Post, Just Security, TradingEconomics. Niedostępne lub zablokowane: lista publikacji PISM (nie wyświetliła się), AP (blokada), France 24 i Balkan Insight (robots), CNBC i U.S. News (403). Brent 5.10 ok. 101 USD/bbl (−1,5%, TradingEconomics) – bez zdarzenia nadzwyczajnego, więc bez pozycji gospodarczej. Korekt brak. Kontrola niezależna przed wysyłką: poprawiono datę ogłoszenia ofensywy w Jemenie (4.10), przypisano Bloombergowi informację o eksporcie irańskiej ropy, doprecyzowano wypowiedź Marty Kos (klastry dla Ukrainy i Mołdawii), wpis o bombowcach z RAF Fairford przeniesiono do progu „następstwo” (udokumentowany przez AP), dodano wpis o incydentach w Azji. Technicznie: build.py obsługuje odnośniki do wydań porannych w rozstrzygnięciach (etykieta „poranne”). Opublikowano na stronie z opóźnieniem (5.10 ok. 21:00 CEST) po nieudanym pierwszym wypchnięciu zmian, bez zmian w treści."
+}

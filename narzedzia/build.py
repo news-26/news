@@ -629,8 +629,9 @@ TOP_PRZEKIEROWANIA = {"2026-09-07_2026-10-02": "2026-09-01_2026-09-30"}
 
 
 def data_dluga(s):
-    d = data_(s)
-    return f"{d.day:02d}.{d.month:02d}.{d.year}"
+    rano = s.endswith("-rano")
+    d = data_(s[:-5] if rano else s)
+    return f"{d.day:02d}.{d.month:02d}.{d.year}" + (" (poranne)" if rano else "")
 
 
 class Tekst:

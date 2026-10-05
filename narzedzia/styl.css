@@ -463,3 +463,40 @@ button.kal-strz[disabled] { color: var(--linia); cursor: default; }
 #fk-banki:checked ~ .kalm .kalm-m:not(:has(.k-banki)), #fk-instytucje:checked ~ .kalm .kalm-m:not(:has(.k-instytucje)),
 #fk-inne:checked ~ .kalm .kalm-m:not(:has(.k-inne)) { display: none; }
 @media (max-width: 560px) { .kalm .poz { grid-template-columns: 64px 1fr; } .kalm .poz::before { left: 78px; } }
+
+/* kalendarium – oś czasu */
+.os { position: relative; margin: 18px 0 8px; padding: 12px 14px 10px; background: var(--karta); border: 1px solid var(--linia); border-radius: 6px; }
+.os-tyt { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; font: 600 14px/1.5 var(--sans); color: var(--atrament); margin-bottom: 8px; }
+.os-leg { font-weight: 400; color: var(--szary); font-size: 13px; display: inline-flex; align-items: center; gap: 6px; }
+.os-leg .os-wz { position: static; display: inline-flex; }
+.os-przew { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.os-wn { min-width: 672px; }
+.os-pas, .os-skala { display: grid; grid-template-columns: 112px 1fr; align-items: start; border-top: 1px solid var(--linia); }
+.os-skala { border-top: 0; }
+.os-n { font: 600 12px/1.4 var(--sans); color: var(--szary); padding: 8px 8px 0 0; }
+.os-tor { position: relative; container-type: inline-size; padding: 3px 0; min-height: 28px;
+  background-image: linear-gradient(to right, transparent 0, transparent calc(100% - 1px), transparent 100%); }
+.os-mies { height: 24px; min-height: 0; }
+.os-m { position: absolute; top: 0; bottom: 0; border-left: 1px solid var(--linia); }
+.os-m span { position: absolute; left: 4px; top: 2px; font: 12px/1.4 var(--sans); color: var(--szary); white-space: nowrap; }
+.os-dzis { position: absolute; top: 0; height: 24px; border-left: 2px solid var(--morze); }
+.os-dzis span { position: absolute; left: 4px; top: 2px; font: 600 12px/1.4 var(--sans); color: var(--morze); }
+.os-dl { position: absolute; top: 0; bottom: 0; border-left: 2px solid var(--morze); opacity: .35; pointer-events: none; }
+.os-p { position: absolute; display: inline-flex; align-items: center; gap: 6px; height: 22px; padding-top: 4px; text-decoration: none; white-space: nowrap; color: var(--tekst); }
+.os-z { display: inline-block; height: 10px; min-width: 10px; border-radius: 5px; background: var(--karta); border: 2px solid var(--atrament); box-sizing: border-box; flex: none; }
+.os-p.kl .os-z { background: var(--czerwien); border-color: var(--czerwien); }
+.os-l { font: 12px/1.3 var(--sans); }
+.os-p.kl .os-l { font-weight: 600; color: var(--atrament); }
+.os-tor .os-p:hover .os-l, .os-tor .os-p:focus-visible .os-l { text-decoration: underline; color: var(--morze); }
+.os-tor .os-p:focus-visible { outline: 2px solid var(--morze); outline-offset: 2px; border-radius: 3px; }
+.os-p.os-minelo { opacity: .45; }
+.os-p.os-lewo { flex-direction: row-reverse; transform: translateX(calc(-100% + 10px)); }
+.os-przewin { display: none; }
+.os-chmurka { position: absolute; z-index: 5; max-width: 320px; padding: 8px 10px; background: var(--atrament); color: var(--papier); border-radius: 6px;
+  font: 13px/1.45 var(--sans); box-shadow: 0 4px 14px rgba(0,0,0,.18); pointer-events: none; }
+.os-chmurka b { display: block; margin-bottom: 2px; }
+#fk-szczyt:checked ~ .os .os-pas:not(.k-szczyt), #fk-wybory:checked ~ .os .os-pas:not(.k-wybory),
+#fk-banki:checked ~ .os .os-pas:not(.k-banki), #fk-instytucje:checked ~ .os .os-pas:not(.k-instytucje),
+#fk-inne:checked ~ .os .os-pas:not(.k-inne) { display: none; }
+@media (max-width: 560px) { .os-przewin { display: inline; } .os { padding: 10px 8px; } .os-pas, .os-skala { grid-template-columns: 86px 1fr; } }
+@media print { .os-chmurka { display: none; } }

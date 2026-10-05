@@ -1583,7 +1583,8 @@ class Budowa:
             cz.append('<div class="kalm-wrap">' + '<input type="radio" name="kalm-f" id="fk-all" class="filtr-r" checked>' +
                       "".join(f'<input type="radio" name="kalm-f" id="fk-{k}" class="filtr-r">' for k in kat) +
                       f'<p class="filtr"><label for="fk-all">Wszystkie ({len(lista)})</label>' +
-                      "".join(f'<label for="fk-{k}">{e(KATEGORIE_TERMINOW[k])} ({licz[k]})</label>' for k in kat) + '</p><div class="kalm">')
+                      "".join(f'<label for="fk-{k}">{e(KATEGORIE_TERMINOW[k])} ({licz[k]})</label>' for k in kat) + '</p>'
+                      + self.os_kalendarium(lista, ref, koniec.isoformat(), kat) + '<div class="kalm">')
             mies = {}
             for t in lista:
                 d = max(data_(t["od"]), data_(ref))
@@ -1617,6 +1618,63 @@ class Budowa:
         self.zapisz("kalendarium.html", strona("Kalendarium", "\n".join(cz), "",
                                                "Najważniejsze wydarzenia międzynarodowe na pół roku naprzód – szczyty, wybory, banki centralne – ze źródłami.", "kalendarium"))
         self.kalendarium_ics(lista)
+
+    def os_kalendarium(self, lista, od, do, kat):
+        """Oś czasu kalendarium: pas na kategorię, linie miesięcy, znaczniki z podpisami (bez nakładania się)."""
+        a, b = data_(od), data_(do)
+        dni = (b - a).days or 1
+        SZER, LITERA, WIERSZ = 560, 6.7, 22  # szerokość toru w px (do rozkładu podpisów), średnia szerokość znaku, wysokość wiersza
+
+        def x(d):
+            return max(0.0, min(1.0, (data_(d) - a).days / dni))
+        miesiace, d = [], dt.date(a.year, a.month, 1)
+        while d <= b:
+            if d >= a:
+                miesiace.append(d)
+            d = dt.date(d.year + (d.month == 12), d.month % 12 + 1, 1)
+        siatka = "".join(f'<span class="os-m" style="left:{x(m.isoformat())*100:.3f}%"><span>{MIESIACE_MIAN[m.month-1][:3]}{(" " + str(m.year)) if m.month == 1 or m == miesiace[0] else ""}</span></span>'
+                         for m in miesiace if x(m.isoformat()) < 0.95)
+        pasy = []
+        for k in kat:
+            wiersze = []  # koniec zajętego obszaru (px) w każdym wierszu
+            el = []
+            for t in [t for t in lista if t.get("kategoria") == k]:
+                x0, x1 = x(t["od"]), x(t.get("do") or t["od"])
+                px0 = x0 * SZER
+                pod = t.get("krotko") or skroc(czysty(t["tekst"], self.osoby, self.pojecia), 25)
+                dl = max((x1 - x0) * SZER, 10) + 6 + len(pod) * LITERA
+                lewo = px0 + dl > SZER  # przy prawej krawędzi podpis po lewej stronie znacznika
+                odc = (px0 + 10 - dl, px0 + 10) if lewo else (px0, px0 + dl)
+                r = next((i for i, zaj in enumerate(wiersze) if all(odc[1] + 6 < z0 or odc[0] > z1 + 6 for z0, z1 in zaj)), None)
+                if r is None:
+                    wiersze.append([odc])
+                    r = len(wiersze) - 1
+                else:
+                    wiersze[r].append(odc)
+                zakres = zakres_dat(t["od"], t.get("do"))
+                opis = czysty(t["tekst"], self.osoby, self.pojecia)
+                el.append(f'<a class="os-p{" kl" if obowiazkowy(t) else ""}{" os-lewo" if lewo else ""}" href="#{e(t["id"])}" style="left:{x0*100:.3f}%;top:{r*WIERSZ}px" '
+                          f'data-do="{e(t.get("do") or t["od"])}" data-z="{e(zakres)}" data-t="{e(opis)}" aria-label="{e(zakres)}: {e(opis)}">'
+                          f'<span class="os-z" style="width:max(8px,{(x1-x0)*100:.3f}cqw)"></span><span class="os-l">{e(pod)}</span></a>')
+            pasy.append(f'<div class="os-pas k-{k}"><div class="os-n">{e(KATEGORIE_TERMINOW[k])}</div>'
+                        f'<div class="os-tor" style="height:{max(1, len(wiersze))*WIERSZ + 6}px">{"".join(el)}</div></div>')
+        return (f'<figure class="os" data-od="{od}" data-do="{do}"><figcaption class="os-tyt">Oś czasu · {data_dluga(od)} – {data_dluga(do)}'
+                '<span class="os-leg"><span class="os-p kl os-wz"><span class="os-z"></span></span> kluczowe '
+                '<span class="os-p os-wz"><span class="os-z"></span></span> pozostałe · kliknij, by przejść do opisu<span class="os-przewin"> · przewiń oś w bok</span></span></figcaption>'
+                f'<div class="os-przew"><div class="os-wn"><div class="os-skala"><div class="os-n"></div><div class="os-tor os-mies">{siatka}<span class="os-dzis" hidden><span>dziś</span></span></div></div>'
+                + "".join(pasy) + '</div></div><div class="os-chmurka" role="tooltip" hidden></div></figure>'
+                "<script>(function(){var f=document.querySelector('.os');if(!f)return;"
+                "function p(s){var x=s.split('-');return new Date(+x[0],x[1]-1,+x[2]);}"
+                "var a=p(f.dataset.od),b=p(f.dataset.do),d=new Date();d.setHours(0,0,0,0);"
+                "var q=(d-a)/(b-a),z=f.querySelector('.os-dzis');if(q>=0&&q<=1){[].forEach.call(f.querySelectorAll('.os-tor'),function(t){"
+                "var l=document.createElement('span');l.className='os-dl';l.style.left=(q*100)+'%';t.appendChild(l);});z.style.left=(q*100)+'%';z.hidden=false;}"
+                "[].forEach.call(f.querySelectorAll('.os-tor .os-p[data-do]'),function(m){if(p(m.dataset.do)<d)m.classList.add('os-minelo');});"
+                "var c=f.querySelector('.os-chmurka');function pokaz(e){var m=e.target.closest('.os-tor .os-p');if(!m){c.hidden=true;return;}"
+                "c.innerHTML='<b></b><span></span>';c.firstChild.textContent=m.dataset.z;c.lastChild.textContent=m.dataset.t;c.hidden=false;"
+                "var r=m.getBoundingClientRect(),g=f.getBoundingClientRect(),w=c.offsetWidth;"
+                "c.style.left=Math.max(0,Math.min(g.width-w,r.left-g.left-8))+'px';c.style.top=(r.bottom-g.top+6)+'px';}"
+                "f.addEventListener('mouseover',pokaz);f.addEventListener('focusin',pokaz);"
+                "f.addEventListener('mouseleave',function(){c.hidden=true;});f.addEventListener('focusout',function(){c.hidden=true;});})();</script>")
 
     def kalendarium_ics(self, lista):
         def esc(x):

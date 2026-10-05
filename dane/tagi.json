@@ -285,20 +285,15 @@
       "nazwa": "Słowacja",
       "grupa": "miejsce",
       "opis": "Polityka Słowacji: koalicja, rząd, relacje z UE.",
-      "stan": "Koalicja uzgodniła 2.10 budżet 2027 (deficyt 4,94% PKB); SNS wskazuje Filipa Kuffę na ministra środowiska po odwołanym Tomášu Tarabie; rząd zbiera się 5.10.",
+      "stan": "5.10 rząd przyjął projekt budżetu 2027 z deficytem 4,94% PKB; projekt trafia do Rady Narodowej.",
       "stan_zrodla": [
         {
-          "nazwa": "TASR",
-          "url": "https://www.teraz.sk/slovensko/vlada-je-v-pondelok-pripravena-schval/996859-clanok.html",
-          "data": "2026-10-02"
-        },
-        {
-          "nazwa": "STVR",
-          "url": "https://spravy.stvr.sk/2026/10/koalicia-sa-dohodla-na-rozpocte-transakcna-dan-sa-ma-zrusit-az-v-roku-2028",
-          "data": "2026-10-02"
+          "nazwa": "TASR (za TA3)",
+          "url": "https://www.ta3.com/clanok/1074983/vlada-bude-rokovat-o-rozpocte-na-rok-2027-deficit-verejnej-spravy-ma-dosiahnut-takmer-5-percent-hdp",
+          "data": "2026-10-05"
         }
       ],
-      "stan_data": "2026-10-02"
+      "stan_data": "2026-10-05"
     },
     {
       "id": "wegry",
@@ -416,7 +411,16 @@
       "id": "rumunia",
       "nazwa": "Rumunia",
       "grupa": "miejsce",
-      "opis": "Polityka Rumunii i Mołdawii."
+      "opis": "Polityka Rumunii i Mołdawii.",
+      "stan": "5.10 w wyłącznej strefie ekonomicznej Rumunii zatonął po trafieniu dronami zbożowiec Royad Mammadov (2 zabitych); Bukareszt nie wskazał sprawcy. Prezydent Nicușor Dan ma 5.10 wieczorem wskazać nowego kandydata na premiera.",
+      "stan_zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/05/drone-reportedly-hits-ship-in-black-sea-killing-two-and-injuring-11",
+          "data": "2026-10-05"
+        }
+      ],
+      "stan_data": "2026-10-05"
     },
     {
       "id": "balkany",

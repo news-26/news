@@ -142,7 +142,7 @@ def podstawa_ok(zrodla, ranking=None):
 TERMINY = []  # dane/terminy.json – zaplanowane wydarzenia (kalendarium); obowiązkowe przechodzą przez straże
 KALENDARIUM_DNI = 183  # zakładka Kalendarium: pół roku naprzód od najnowszego wydania
 KATEGORIE_TERMINOW = {"szczyt": "Szczyty", "wybory": "Wybory", "banki": "Banki centralne",
-                      "instytucje": "Instytucje i organizacje", "polska": "Polska", "inne": "Inne"}
+                      "instytucje": "Instytucje i organizacje", "inne": "Inne"}
 
 
 def obowiazkowy(t):
@@ -1573,7 +1573,7 @@ class Budowa:
         kat = [k for k in KATEGORIE_TERMINOW if licz[k]]
         cz = [f"""<section class="winieta">
   <p class="w-nr">Kalendarium</p>
-  <h1>Najważniejsze wydarzenia na pół roku naprzód</h1>
+  <h1>Najważniejsze wydarzenia międzynarodowe na pół roku naprzód</h1>
   <p class="w-stan">Od {data_dluga(ref)} do {data_dluga(koniec.isoformat())}: {len(lista)} terminów – szczyty, wybory, decyzje banków centralnych i posiedzenia instytucji. Każdy termin ma źródło; aktualizujemy je przy każdym wydaniu. <span class="odznaka kluczowe">kluczowe</span> – wydarzenie, które wydanie zawsze odnotuje.</p>
   <p class="w-stan"><a href="kalendarium.ics">Dodaj do swojego kalendarza (plik .ics)</a></p>
 </section>"""]

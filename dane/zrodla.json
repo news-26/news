@@ -1425,7 +1425,8 @@
         "regeringen.se",
         "gov.uk",
         "riksdagen.se",
-        "cvk.lv"
+        "cvk.lv",
+        "tse.jus.br"
       ],
       "wzorce": [
         "Prezydent Ukrainy",
@@ -1438,9 +1439,10 @@
         "Rząd Szwecji",
         "Rząd Wielkiej Brytanii",
         "Riksdag",
-        "CVK"
+        "CVK",
+        "TSE"
       ],
-      "uzasadnienie": "Strony urzędowe prezydentów i rządów: potwierdzają ich obsadę, decyzje i komunikaty; wypowiedzi to wersja strony."
+      "uzasadnienie": "Strony urzędowe prezydentów i rządów: potwierdzają ich obsadę, decyzje i komunikaty; wypowiedzi to wersja strony. Dopisano 5.10.2026: tse.jus.br – Najwyższy Sąd Wyborczy Brazylii, organ ogłaszający oficjalne wyniki wyborów."
     },
     {
       "id": "onz",

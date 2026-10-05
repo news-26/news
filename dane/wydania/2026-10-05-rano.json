@@ -1,0 +1,385 @@
+{
+  "nr": 16,
+  "data": "2026-10-05",
+  "godzina": "06:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Najważniejsze wydarzenie globalne nocy: w **I turze wyborów prezydenckich w Brazylii** (4.10) Flávio Bolsonaro uzyskał 47,03%, a urzędujący prezydent Lula 45,16% – według oficjalnych danych TSE o II turze rozstrzygną obaj.",
+    "W Etiopii siły federalne przejęły **Mekelie**, stolicę Tigraju, po wycofaniu się TPLF (3–4.10); od 1.10 Erytrea, oskarżana przez Addis Abebę o wspieranie TPLF, nie utrzymuje z Etiopią stosunków dyplomatycznych.",
+    "Prezydent {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} powiedział 4.10, że USA proponują **techniczne spotkanie trójstronne** z Rosją do końca października, a Ukraina się zgodziła (PROPOZYCJA, bez odpowiedzi Moskwy).",
+    "W Bośni i Hercegowinie według wstępnych wyników prowadzą kandydaci SDP, SNSD i HDZ BiH, w tym **Željka Cvijanović** z partii Milorada Dodika (ponad 55% w okręgu serbskim, AP).",
+    "Dziś: Costa w Warszawie, Rumunia – kandydat na premiera, Słowacja – budżet 2027; wieczorne wydanie rozliczy te terminy."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-10-04",
+      "tagi": [
+        "rozejm",
+        "ukraina",
+        "usa",
+        "rosja"
+      ],
+      "etap": "PROPOZYCJA",
+      "tekst": "Na konferencji z kanclerzem Merzem w Kijowie 4.10 prezydent {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} powiedział, że strona amerykańska proponuje **spotkanie trójstronne na szczeblu technicznym do końca października**, i że Ukraina zgodziła się na ten termin – w Zjednoczonych Emiratach Arabskich „albo w innym państwie zaproponowanym przez USA”. To wersja strony ukraińskiej: ani Biały Dom, ani Kreml nie potwierdziły terminu do chwili zamknięcia wydania; samą propozycję ZEA jako miejsca Zełenski przekazał już 25.09.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/us-proposes-trilateral-talks-with-russia-ukraine-by-end-of-october-zelensky-says/",
+          "data": "2026-10-04"
+        },
+        {
+          "nazwa": "Reuters (za Dawn)",
+          "url": "https://www.dawn.com/news/2034845/ukraine-germany-sign-15bn-arms-agreement",
+          "data": "2026-10-04"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/4/ukraine-ready-for-us-backed-talks-with-russia-zelenskyy",
+          "data": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "swiat",
+      "data": "2026-10-04",
+      "tagi": [
+        "ameryki",
+        "wybory"
+      ],
+      "tekst": "Brazylia (państwo G20): w I turze wyborów prezydenckich 4.10 senator **Flávio Bolsonaro** (PL) zdobył 47,03% ważnych głosów, a prezydent **Luiz Inácio Lula da Silva** (PT) 45,16% – po przeliczeniu 99,99% głosów, według Najwyższego Sądu Wyborczego (TSE). Żaden nie przekroczył 50%, więc obaj zmierzą się w **II turze**.",
+      "zrodla": [
+        {
+          "nazwa": "TSE",
+          "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/flavio-bolsonaro-e-lula-vao-disputar-o-2o-turno-para-a-presidencia-da-republica",
+          "data": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "swiat",
+      "data": "2026-10-03",
+      "tagi": [
+        "afryka"
+      ],
+      "tekst": "Etiopia: Ludowy Front Wyzwolenia Tigraju (TPLF) ogłosił w sobotę 3.10, że „tymczasowo” wycofał się z **Mekelie**, stolicy regionu; siły federalne wraz z sojuszniczymi oddziałami przejęły lotnisko i miasto (AP 4.10). Wcześniej, 1.10, Etiopia zamknęła ambasadę w Asmarze i uznała 10 erytrejskich dyplomatów za persona non grata, oskarżając **Erytreę** o wspieranie TPLF; Erytrea zaprzeczyła i **zerwała stosunki dyplomatyczne**.",
+      "zrodla": [
+        {
+          "nazwa": "Associated Press (za ClickOnDetroit)",
+          "url": "https://www.clickondetroit.com/news/world/2026/10/04/opposition-fighters-in-northern-ethiopias-tigray-withdraw-from-regional-capital/",
+          "data": "2026-10-04"
+        },
+        {
+          "nazwa": "Reuters i AFP (za Al Jazeera)",
+          "url": "https://www.aljazeera.com/news/2026/10/4/government-forces-seize-capital-of-ethiopias-tigray-region-from-rebels",
+          "data": "2026-10-04"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/5/ethiopias-forces-retake-mekelle-amid-renewed-tigray-fighting",
+          "data": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "instytucje",
+      "data": "2026-10-04",
+      "tagi": [
+        "balkany",
+        "wybory"
+      ],
+      "tekst": "Bośnia i Hercegowina: według wstępnych wyników po wyborach 4.10 (94% głosów, za AP) w wyścigu do trzyosobowego Prezydium prowadzą **Denis Bećirović** (SDP, miejsce boszniackie, mniej niż 3 pkt proc. przed Bakirem Izetbegoviciem), **Željka Cvijanović** (SNSD, miejsce serbskie, ponad 55%) i **Darijana Filipović** (HDZ BiH, miejsce chorwackie). Frekwencja ok. 42%, niższa niż w 2022 r.; Milorad Dodik, któremu sąd zakazał sprawowania urzędów, ogłosił zwycięstwo swojej partii.",
+      "zrodla": [
+        {
+          "nazwa": "Associated Press (za PBS)",
+          "url": "https://www.pbs.org/newshour/amp/world/bosnia-votes-as-pro-russian-politician-looms-large-and-ethnic-tensions-simmer",
+          "data": "2026-10-04"
+        },
+        {
+          "nazwa": "Reuters i AFP (za Al Jazeera)",
+          "url": "https://www.aljazeera.com/news/2026/10/4/economic-woes-ethnic-rivalries-shape-bosnias-closely-watched-elections",
+          "data": "2026-10-04"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "Brazylia: wynik II tury przesądzi o kursie największej gospodarki Ameryki Łacińskiej",
+      "autor": "Redakcja Prasówki (wniosek z pozycji z2, 5.10.2026)",
+      "tagi": [
+        "ameryki",
+        "wybory"
+      ],
+      "tekst": "Według danych TSE kandydat prawicy prowadzi po I turze o niecałe 2 pkt proc., więc II tura jest otwarta. Brazylia to członek G20 i BRICS; zmiana prezydenta zmieniłaby jej stosunek do USA, Chin i Rosji oraz do handlu z UE.",
+      "dla_polski": "Pośrednio: od wyniku zależy, czy Brazylia pozostanie neutralna wobec wojny w Ukrainie i jak będzie głosować w ONZ i G20; dla polskiego rolnictwa istotne jest, czy nowy rząd przyspieszy, czy spowolni handel UE–Mercosur (wniosek redakcji).",
+      "zrodla": [
+        {
+          "nazwa": "TSE",
+          "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/flavio-bolsonaro-e-lula-vao-disputar-o-2o-turno-para-a-presidencia-da-republica",
+          "data": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "tytul": "Róg Afryki: wojna w Tigraju łączy się ze sporem Etiopii z Erytreą",
+      "autor": "Redakcja Prasówki (wniosek z pozycji z3, 5.10.2026)",
+      "tagi": [
+        "afryka"
+      ],
+      "tekst": "Zerwanie stosunków przez Erytreę po oskarżeniach Addis Abeby oznacza, że konflikt w Tigraju przestaje być wewnętrzny. Według Al Jazeery walki objęły też region Afar, a w Addis Abebie, m.in. w pobliżu kwatery głównej armii, słychać było eksplozje. Wojna w latach 2020–2022 kosztowała setki tysięcy ofiar.",
+      "dla_polski": "Pośrednio: ryzyko nowej fali uchodźców w regionie i dalszej destabilizacji szlaków przy Morzu Czerwonym, które już są zakłócone; UE będzie musiała zwiększyć pomoc humanitarną (wniosek redakcji).",
+      "zrodla": [
+        {
+          "nazwa": "Associated Press (za ClickOnDetroit)",
+          "url": "https://www.clickondetroit.com/news/world/2026/10/04/opposition-fighters-in-northern-ethiopias-tigray-withdraw-from-regional-capital/",
+          "data": "2026-10-04"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/5/ethiopias-forces-retake-mekelle-amid-renewed-tigray-fighting",
+          "data": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "tytul": "Rozmowy trójstronne: termin bez zgody Moskwy",
+      "autor": "Redakcja Prasówki (wniosek z pozycji z1, 5.10.2026)",
+      "tagi": [
+        "rozejm",
+        "ukraina"
+      ],
+      "tekst": "Ukraina zgodziła się na amerykański termin, ale strona rosyjska go nie potwierdziła; Zełenski przedstawił jako tematy rozejm energetyczny i korytarz czarnomorski (Kyiv Independent). Jednocześnie trwają rosyjskie uderzenia w mosty i energetykę Kijowa opisane w wydaniach nr 13–15.",
+      "dla_polski": "Do końca października warto śledzić, czy w porządku rozmów znajdzie się korytarz czarnomorski – jego otwarcie zmniejszyłoby presję tranzytu ukraińskiego zboża przez Polskę (wniosek redakcji).",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/us-proposes-trilateral-talks-with-russia-ukraine-by-end-of-october-zelensky-says/",
+          "data": "2026-10-04"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-10-05",
+      "tekst": "Przewodniczący Rady Europejskiej António Costa w Warszawie: przemówienie na inauguracji roku akademickiego w Kolegium Europejskim (Natolin), spotkania z premierem Donaldem Tuskiem i prezydentem Warszawy Rafałem Trzaskowskim.",
+      "tagi": [
+        "ue",
+        "dyplomacja-rp"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/02/weekly-schedule-of-president-antonio-costa/",
+          "data": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-05",
+      "tekst": "Rada Stowarzyszenia UE–Mołdawia.",
+      "tagi": [
+        "ue"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE (Forward look)",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/02/forward-look-2026/",
+          "data": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-05",
+      "tekst": "Rumunia: prezydent Nicușor Dan ma wskazać kandydata na premiera; Słowacja: rząd ma przyjąć projekt budżetu 2027 i zmiany w resorcie środowiska; Szwecja: Magdalena Andersson rozpoczyna misję tworzenia rządu (raport do 12.10).",
+      "tagi": [
+        "rumunia",
+        "slowacja",
+        "nordyckie"
+      ]
+    },
+    {
+      "data": "2026-10-06",
+      "tekst": "6–7.10: posiedzenie Rady Polityki Pieniężnej (stopa referencyjna 3,75%); 6.10 Litwa – planowane pierwsze z dwóch rozstrzygających głosowań w Sejmie nad zmianą art. 137 konstytucji.",
+      "tagi": [
+        "gospodarka",
+        "litwa"
+      ]
+    },
+    {
+      "data": "2026-10-07",
+      "tekst": "Szczyt MED9 w Splicie z udziałem Antónia Costy; protokół z wrześniowego posiedzenia {{p:fomc|FOMC}}.",
+      "tagi": [
+        "ue",
+        "usa"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/02/weekly-schedule-of-president-antonio-costa/",
+          "data": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-08",
+      "tekst": "Eurogrupa (8.10) i ECOFIN (9.10).",
+      "tagi": [
+        "ue"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE (kalendarz posiedzeń)",
+          "url": "https://www.consilium.europa.eu/en/meetings/calendar/",
+          "data": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-09",
+      "tekst": "9–10.10: Czechy – I tura wyborów do Senatu i wybory samorządowe; 9.10 Costa w Amsterdamie i Hadze.",
+      "tagi": [
+        "czechy",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-12",
+      "tekst": "Rada do Spraw Zagranicznych UE (Ukraina); 13.10 Rada do Spraw Ogólnych – {{p:wrf|WRF}} 2028–34 i praworządność na Węgrzech; 12–18.10 doroczne zgromadzenia MFW i Banku Światowego (Bangkok).",
+      "tagi": [
+        "ue",
+        "wegry",
+        "mfw"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE (kalendarz posiedzeń)",
+          "url": "https://www.consilium.europa.eu/en/meetings/calendar/",
+          "data": "2026-10-04"
+        }
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-10-25",
+      "tekst": "II tura wyborów prezydenckich w Brazylii (Flávio Bolsonaro – Lula)",
+      "tagi": [
+        "ameryki",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-25",
+      "tekst": "wybory parlamentarne w Serbii",
+      "tagi": [
+        "balkany",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-28",
+      "tekst": "27–28.10 FOMC (Fed), 28–29.10 posiedzenie EBC",
+      "tagi": [
+        "gospodarka"
+      ]
+    },
+    {
+      "data": "2026-11-01",
+      "tekst": "kolejne spotkanie państw OPEC+ w sprawie limitów wydobycia (na grudzień)",
+      "tagi": [
+        "energia"
+      ]
+    },
+    {
+      "data": "2026-11-03",
+      "tekst": "wybory połowy kadencji w USA",
+      "tagi": [
+        "usa",
+        "wybory"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [],
+    "pism": []
+  },
+  "czego_nie_ma": [
+    {
+      "id": "c1",
+      "prog": "dokumentacja",
+      "tekst": "Łotwa – pełny podział mandatów (Zjednoczona Lista 42, Łotwa Przede Wszystkim 17, Suwerenna Władza 15, Sojusz Narodowy 10, Postępowi 9, Nowa Jedność 7 według LSM po przeliczeniu 99,9%) – tylko jedno źródło z poziomów 1–2; strona CVK i Bloomberg niedostępne w tym przebiegu.",
+      "sprawdzono": [
+        "eng.lsm.lv 4.10",
+        "cvk.lv (brak dostępu)",
+        "Bloomberg 4.10 (robots)",
+        "Al Jazeera"
+      ]
+    },
+    {
+      "id": "c2",
+      "prog": "dokumentacja",
+      "tekst": "Nocne uderzenia na 5.10: obiekt energetyczny w obwodzie połtawskim (22 tys. odbiorców bez prądu) i podwójny atak bombami Banderol na Charków (1 zabity, 6 rannych) – tylko Kyiv Independent; komunikat Sił Powietrznych Ukrainy o nocy 4/5.10 nieopublikowany do 6:30.",
+      "sprawdzono": [
+        "Kyiv Independent 5.10",
+        "Ukraińska Prawda",
+        "Interfax-Ukraina",
+        "Al Jazeera"
+      ]
+    },
+    {
+      "id": "c3",
+      "prog": "dokumentacja",
+      "tekst": "OSW i PISM: listy publikacji niedostępne w tym przebiegu (brak zgody na pobranie stron); 4.10 wieczorem nie było nowych tekstów z 2–4.10. Sprawdzenie 5.10 – w wydaniu wieczornym.",
+      "sprawdzono": [
+        "osw.waw.pl/pl/publikacje (brak dostępu)",
+        "pism.pl/publikacje (brak dostępu)",
+        "wyszukiwarka – brak nowych pozycji z 5.10"
+      ]
+    },
+    {
+      "tekst": "Ministerstwo Obrony Ukrainy 4.10: uderzenia dalekiego zasięgu wyłączyły ponad 51% rosyjskich mocy rafineryjnych – twierdzenie strony bez niezależnej weryfikacji (Kyiv Independent, Ukrinform).",
+      "prog": "następstwo"
+    },
+    {
+      "tekst": "Moskwa 4.10: zatrzymania kilkudziesięciu uczestników zgromadzenia KPRF (AP, Kyiv Independent) – bez wpływu na politykę Kremla.",
+      "prog": "następstwo"
+    },
+    {
+      "tekst": "Iran 4.10: przewodniczący parlamentu Mohammad Bagher Ghalibaf – cieśnina Ormuz pozostanie zamknięta do spełnienia irańskich warunków (Al Jazeera); deklaracja bez zmiany stanu rzeczy.",
+      "prog": "następstwo"
+    },
+    {
+      "tekst": "Jemen 4.10: rząd i koalicja pod wodzą Arabii Saudyjskiej ogłosiły ofensywę na Taiz; Huti twierdzą, że uderzyli w obiekt Aramco w Rijadzie, a rzecznik koalicji Turki al-Maliki nazwał to wprowadzaniem w błąd – relacje stron i Al Jazeery (poziom 3), bez potwierdzenia z poziomów 1–2 w tym przebiegu.",
+      "prog": "dokumentacja",
+      "id": "c4",
+      "sprawdzono": [
+        "Al Jazeera 4.10",
+        "CNN 4.10 (robots)",
+        "wyszukiwarka: Reuters, AP – brak otwartej depeszy"
+      ]
+    },
+    {
+      "tekst": "Maroko (wybory parlamentarne), naloty Pakistanu w Afganistanie, Nikaragua poza Parlamentem Środkowoamerykańskim – sygnały z przeglądów prasy, niesprawdzone w przebiegu porannym; wycofanie wojsk USA z Iraku zakończyło się 30.09 (przed oknem wydania). Do wydania wieczornego.",
+      "prog": "kompletność"
+    }
+  ],
+  "rozstrzygniecia": [],
+  "do_sprawdzenia": [
+    "BiH – wyniki CIK (izbori.ba) i RS (Minić vs Blanuša)",
+    "Łotwa – CVK i misja Kulbergsa",
+    "Brazylia – data II tury w kalendarzu TSE",
+    "Etiopia – komunikat rządu, walki w Afarze",
+    "Rozmowy trójstronne – reakcja Kremla i USA",
+    "Costa w Warszawie; Rumunia – kandydat na premiera; Słowacja – budżet 2027",
+    "OSW/PISM 3–5.10",
+    "Litwa 6.10 – art. 137; RPP 6–7.10"
+  ],
+  "nota": "Wydanie poranne – pierwsze w nowym rytmie dwóch wydań dziennie (6:00 i 20:00); przygotowane 5.10.2026 między 6:30 a 7:30 CEST, obejmuje okres od wydania wieczornego nr 15 (4.10, 20:45). Otwarto: TSE, AP (za PBS i ClickOnDetroit), Al Jazeera (z depeszami Reutera i AFP), Kyiv Independent, Dawn (depesze agencji), LSM, Ukrinform. Niedostępne w tym przebiegu (brak zgody na pobranie): osw.waw.pl, pism.pl, cvk.lv, izbori.ba, president.gov.ua; zablokowane: Bloomberg, CNN, NPR, France 24 (robots). Dopisano do rankingu: TSE (Brazylia) w grupie rządów i urzędów państw obcych; nowe hashtagi: Afryka, Ameryki. Korekt brak. Kontrola niezależna przed wysyłką: poprawiono datę zerwania stosunków Erytrei z Etiopią (1.10), usunięto błędną datę zajęcia Mekelie (23.09 dotyczy lotnisk) i ocenę z części faktów, doprecyzowano miejsce eksplozji (Addis Abeba), dodano termin II tury w Brazylii i wpis o Jemenie."
+}

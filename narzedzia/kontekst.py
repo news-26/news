@@ -25,6 +25,7 @@ REJESTR = B.REPO / "notatki" / "rejestr-faktow.md"
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("dzien", nargs="?")
+    ap.add_argument("--godzina", default="20:00", help="godzina przygotowywanego wydania (poranne: 06:00)")
     ap.add_argument("--osoby", nargs="+")
     ap.add_argument("--zrodlo")
     ap.add_argument("--szukaj")
@@ -51,7 +52,7 @@ def main():
         return
 
     dzis = dt.date.fromisoformat(a.dzien) if a.dzien else dt.date.today()
-    dzienne = [w for w in wydania if w.get("typ", "dzienne") == "dzienne" and w["data"] < dzis.isoformat()]
+    dzienne = [w for w in wydania if w.get("typ", "dzienne") == "dzienne" and (w["data"], w.get("godzina", "")) < (dzis.isoformat(), a.godzina)]
     prev = dzienne[-1] if dzienne else None
     nr = max((w.get("nr", 0) for w in wydania), default=0) + 1
     print(f"# Kontekst na {dzis.isoformat()} ({B.DNI[dzis.weekday()]}) – następne wydanie nr {nr}")

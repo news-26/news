@@ -36,7 +36,16 @@
       "id": "rozejm",
       "nazwa": "Rozejm",
       "grupa": "temat",
-      "opis": "Rozmowy i propozycje zawieszenia broni w wojnie Rosji z Ukrainą."
+      "opis": "Rozmowy i propozycje zawieszenia broni w wojnie Rosji z Ukrainą.",
+      "stan": "4.10 Zełenski: USA proponują techniczne spotkanie trójstronne USA–Ukraina–Rosja do końca października (możliwe ZEA); Ukraina zgodziła się.",
+      "stan_zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/us-proposes-trilateral-talks-with-russia-ukraine-by-end-of-october-zelensky-says/",
+          "data": "2026-10-04"
+        }
+      ],
+      "stan_data": "2026-10-05"
     },
     {
       "id": "rosja",
@@ -413,7 +422,16 @@
       "id": "balkany",
       "nazwa": "Bałkany",
       "grupa": "miejsce",
-      "opis": "Serbia, Bośnia i Hercegowina, Kosowo i inne państwa regionu."
+      "opis": "Serbia, Bośnia i Hercegowina, Kosowo i inne państwa regionu.",
+      "stan": "Wybory w BiH 4.10: wstępnie prowadzą Denis Bećirović, Željka Cvijanović i Darijana Filipović (miejsca w Prezydium); frekwencja ok. 42% (AP).",
+      "stan_zrodla": [
+        {
+          "nazwa": "Associated Press (za PBS)",
+          "url": "https://www.pbs.org/newshour/amp/world/bosnia-votes-as-pro-russian-politician-looms-large-and-ethnic-tensions-simmer",
+          "data": "2026-10-04"
+        }
+      ],
+      "stan_data": "2026-10-05"
     },
     {
       "id": "wybory",
@@ -466,6 +484,36 @@
       "nazwa": "Inne",
       "grupa": "temat",
       "opis": "Wątki rzadkie, bez osobnego hashtagu."
+    },
+    {
+      "id": "afryka",
+      "nazwa": "Afryka",
+      "grupa": "miejsce",
+      "opis": "Wojny, przewroty i kryzysy w Afryce (Róg Afryki, Sudan, Sahel, Kongo).",
+      "stan": "Siły federalne Etiopii przejęły 3–4.10 Mekelie, stolicę Tigraju, po wycofaniu się TPLF; Erytrea zerwała stosunki dyplomatyczne z Etiopią.",
+      "stan_zrodla": [
+        {
+          "nazwa": "Associated Press (za ClickOnDetroit)",
+          "url": "https://www.clickondetroit.com/news/world/2026/10/04/opposition-fighters-in-northern-ethiopias-tigray-withdraw-from-regional-capital/",
+          "data": "2026-10-04"
+        }
+      ],
+      "stan_data": "2026-10-05"
+    },
+    {
+      "id": "ameryki",
+      "nazwa": "Ameryki",
+      "grupa": "miejsce",
+      "opis": "Polityka państw obu Ameryk poza USA: wybory, kryzysy, relacje z UE i Chinami.",
+      "stan": "Brazylia: w I turze wyborów prezydenckich 4.10 Flávio Bolsonaro 47,03%, Lula 45,16% – II tura.",
+      "stan_zrodla": [
+        {
+          "nazwa": "TSE",
+          "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/flavio-bolsonaro-e-lula-vao-disputar-o-2o-turno-para-a-presidencia-da-republica",
+          "data": "2026-10-05"
+        }
+      ],
+      "stan_data": "2026-10-05"
     }
   ]
 }

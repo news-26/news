@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 """Szkielet nowego wydania dziennego – mniej przepisywania (oszczędność tokenów wyjściowych).
 
-Użycie: python3 narzedzia/nowe_wydanie.py RRRR-MM-DD [--godzina 20:00]
+Użycie: python3 narzedzia/nowe_wydanie.py RRRR-MM-DD [--godzina 20:00] [--rano]
 
-Tworzy dane/wydania/RRRR-MM-DD.json (nie nadpisuje istniejącego) z:
+Dwa wydania dziennie (od 5.10.2026): poranne ok. 6:00 (--rano → plik RRRR-MM-DD-rano.json, godzina 06:00)
+i wieczorne ok. 20:00 (plik RRRR-MM-DD.json). Poprzednie wydanie = ostatnie wcześniejsze wg (data, godzina).
+
+Tworzy dane/wydania/RRRR-MM-DD[-rano].json (nie nadpisuje istniejącego) z:
 - numerem kolejnym, datą, godziną, typem,
 - kalendarzem przeniesionym z poprzedniego wydania (terminy od dziś) i z terminami obowiązkowymi
   z dane/terminy.json, które wypadają w ciągu 7 dni, a nie ma ich w kalendarzu,
@@ -25,16 +28,18 @@ import build as B  # noqa: E402
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("dzien")
-    ap.add_argument("--godzina", default="20:00")
+    ap.add_argument("--godzina")
+    ap.add_argument("--rano", action="store_true", help="wydanie poranne: plik RRRR-MM-DD-rano.json, godzina 06:00")
     a = ap.parse_args()
+    a.godzina = a.godzina or ("06:00" if a.rano else "20:00")
     dane = B.REPO / "dane"
-    cel = dane / "wydania" / f"{a.dzien}.json"
+    cel = dane / "wydania" / (f"{a.dzien}-rano.json" if a.rano else f"{a.dzien}.json")
     if cel.exists():
         sys.exit(f"{cel} już istnieje – edytuj go (Edit), nie twórz od nowa")
     tagi, osoby, pojecia, wydania, rewizje, topy = B.wczytaj(dane)
     terminy = B.wczytaj_terminy(dane)
     dzis = dt.date.fromisoformat(a.dzien)
-    dzienne = [w for w in wydania if w.get("typ", "dzienne") == "dzienne" and w["data"] < a.dzien]
+    dzienne = [w for w in wydania if w.get("typ", "dzienne") == "dzienne" and (w["data"], w.get("godzina", "")) < (a.dzien, a.godzina)]
     prev = dzienne[-1] if dzienne else {}
     nr = max((w.get("nr", 0) for w in wydania), default=0) + 1
 

@@ -1,5 +1,5 @@
 {
-  "_opis": "Kalendarium: najważniejsze zaplanowane wydarzenia międzynarodowe (bez krajowych spraw polskich, np. posiedzeń RPP czy danych GUS) na pół roku naprzód (zakładka kalendarium.html i plik kalendarium.ics). Pola: id, od, do (opcjonalnie), kategoria (szczyt/wybory/banki/instytucje/inne), tekst, tagi, zrodla (poziom 1 albo dwa z poziomów 1–2), uwaga (opcjonalnie), obowiazkowy (domyślnie true). Terminy obowiązkowe (szczyty G7/G20/APEC/UE/NATO/ONZ, spotkania przywódców mocarstw, wybory w regionie i w państwach G20) przechodzą przez straże build.py: na 7 dni przed – w kalendarzu wydania; po zakończeniu (+2 dni) – pozycja w zarysie albo wpis w „Czego tu nie ma” z polem termin. Terminy z obowiazkowy=false trafiają tylko do kalendarium. Aktualizować przy każdym wydaniu (nowe zapowiedzi, zmiany dat, odwołania), tak by kalendarium sięgało pół roku naprzód.",
+  "_opis": "Kalendarium: najważniejsze zaplanowane wydarzenia międzynarodowe (bez krajowych spraw polskich, np. posiedzeń RPP czy danych GUS) na pół roku naprzód (zakładka kalendarium.html i plik kalendarium.ics). Pola: id, od, do (opcjonalnie), kategoria (szczyt/wybory/banki/instytucje/inne), tekst, tagi, zrodla (poziom 1 albo dwa z poziomów 1–2), uwaga (opcjonalnie), krotko (podpis na osi czasu, do ok. 25 znaków), obowiazkowy (domyślnie true). Terminy obowiązkowe (szczyty G7/G20/APEC/UE/NATO/ONZ, spotkania przywódców mocarstw, wybory w regionie i w państwach G20) przechodzą przez straże build.py: na 7 dni przed – w kalendarzu wydania; po zakończeniu (+2 dni) – pozycja w zarysie albo wpis w „Czego tu nie ma” z polem termin. Terminy z obowiazkowy=false trafiają tylko do kalendarium. Aktualizować przy każdym wydaniu (nowe zapowiedzi, zmiany dat, odwołania), tak by kalendarium sięgało pół roku naprzód.",
   "terminy": [
     {
       "id": "czechy-senat-2026-1",
@@ -17,7 +17,8 @@
           "url": "https://mzv.gov.cz/newdelhi/cz/ko/volby/volby_do_senatu_parlamentu_cr_v_roce_2.html",
           "data": "2026-10-05"
         }
-      ]
+      ],
+      "krotko": "Czechy: Senat, I tura"
     },
     {
       "id": "mfw-bs-2026",
@@ -35,7 +36,8 @@
           "url": "https://www.imf.org/en/meetings/2026/annual",
           "data": "2026-10-05"
         }
-      ]
+      ],
+      "krotko": "MFW i Bank Światowy"
     },
     {
       "id": "rada-europejska-2026-10",
@@ -52,7 +54,8 @@
           "data": "2026-09-14"
         }
       ],
-      "kategoria": "szczyt"
+      "kategoria": "szczyt",
+      "krotko": "Rada Europejska"
     },
     {
       "id": "czechy-senat-2026-2",
@@ -71,7 +74,8 @@
           "url": "https://mzv.gov.cz/newdelhi/cz/ko/volby/volby_do_senatu_parlamentu_cr_v_roce_2.html",
           "data": "2026-10-05"
         }
-      ]
+      ],
+      "krotko": "Czechy: Senat, II tura"
     },
     {
       "id": "ue-rzz-2026",
@@ -89,7 +93,8 @@
           "url": "https://www.consilium.europa.eu/en/meetings/international-summit/2026/10/24/",
           "data": "2026-10-05"
         }
-      ]
+      ],
+      "krotko": "UE–Zatoka Perska"
     },
     {
       "id": "brazylia-ii-tura-2026",
@@ -111,7 +116,8 @@
           "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/flavio-bolsonaro-e-lula-vao-disputar-o-2o-turno-para-a-presidencia-da-republica",
           "data": "2026-10-05"
         }
-      ]
+      ],
+      "krotko": "Brazylia: II tura"
     },
     {
       "id": "bulgaria-prezydent-2026",
@@ -128,7 +134,8 @@
           "url": "https://www.cik.bg/",
           "data": "2026-10-05"
         }
-      ]
+      ],
+      "krotko": "Bułgaria: prezydent"
     },
     {
       "id": "serbia-parlament-2026",
@@ -151,7 +158,8 @@
           "url": "https://www.aljazeera.com/news/2026/10/4/serbian-populist-leader-vucic-launches-campaign-for-prime-minister",
           "data": "2026-10-04"
         }
-      ]
+      ],
+      "krotko": "Serbia: parlament"
     },
     {
       "id": "fomc-2026-10",
@@ -170,7 +178,8 @@
           "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
           "data": "2026-10-05"
         }
-      ]
+      ],
+      "krotko": "Fed"
     },
     {
       "id": "izrael-kneset-2026",
@@ -192,7 +201,8 @@
           "url": "https://www.aljazeera.com/news/2026/7/17/israel-headed-for-october-election-as-parliament-dissolved",
           "data": "2026-07-17"
         }
-      ]
+      ],
+      "krotko": "Izrael: Kneset"
     },
     {
       "id": "ebc-2026-10",
@@ -210,7 +220,8 @@
           "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
           "data": "2026-10-05"
         }
-      ]
+      ],
+      "krotko": "EBC"
     },
     {
       "id": "ue-kanada-2026",
@@ -229,7 +240,8 @@
           "url": "https://www.consilium.europa.eu/en/meetings/international-summit/2026/10/29-30/",
           "data": "2026-10-05"
         }
-      ]
+      ],
+      "krotko": "UE–Kanada"
     },
     {
       "id": "opec-2026-11",
@@ -246,7 +258,8 @@
           "url": "https://www.opec.org/pr-detail/616-4-october-2026.html",
           "data": "2026-10-04"
         }
-      ]
+      ],
+      "krotko": "OPEC+"
     },
     {
       "id": "usa-midterms-2026",
@@ -268,7 +281,8 @@
           "url": "https://www.ncsbe.gov/voting/upcoming-election",
           "data": "2026-10-05"
         }
-      ]
+      ],
+      "krotko": "USA: midterms"
     },
     {
       "id": "cop31",
@@ -286,7 +300,8 @@
           "url": "https://unfccc.int/cop31/the-road-to-antalya",
           "data": "2026-10-05"
         }
-      ]
+      ],
+      "krotko": "COP31"
     },
     {
       "id": "rada-europejska-2026-11-niefor",
@@ -302,7 +317,8 @@
           "url": "https://www.consilium.europa.eu/en/meetings/european-council/2026/10/15-16/",
           "data": "2026-10-05"
         }
-      ]
+      ],
+      "krotko": "Nieformalna RE"
     },
     {
       "id": "apec-2026",
@@ -319,7 +335,8 @@
           "data": "2025-12-12"
         }
       ],
-      "kategoria": "szczyt"
+      "kategoria": "szczyt",
+      "krotko": "APEC"
     },
     {
       "id": "tajwan-lokalne-2026",
@@ -337,7 +354,8 @@
           "url": "https://www.ocac.gov.tw/OCAC/Eng/Pages/Detail.aspx?nodeid=329&pid=80997079",
           "data": "2026-10-05"
         }
-      ]
+      ],
+      "krotko": "Tajwan: lokalne"
     },
     {
       "id": "hiszpania-wybory-2026",
@@ -359,7 +377,8 @@
           "url": "https://www.aljazeera.com/news/2026/10/5/spanish-prime-minister-pedro-sanchez-announces-snap-election",
           "data": "2026-10-05"
         }
-      ]
+      ],
+      "krotko": "Hiszpania: wybory"
     },
     {
       "id": "obwe-rm-2026",
@@ -377,7 +396,8 @@
           "url": "https://www.osce.org/event/mc_2026",
           "data": "2026-10-05"
         }
-      ]
+      ],
+      "krotko": "OBWE"
     },
     {
       "id": "fomc-2026-12",
@@ -396,7 +416,8 @@
           "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
           "data": "2026-10-05"
         }
-      ]
+      ],
+      "krotko": "Fed"
     },
     {
       "id": "g20-2026",
@@ -413,7 +434,8 @@
           "data": "2026-05-18"
         }
       ],
-      "kategoria": "szczyt"
+      "kategoria": "szczyt",
+      "krotko": "G20"
     },
     {
       "id": "ebc-2026-12",
@@ -431,7 +453,8 @@
           "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
           "data": "2026-10-05"
         }
-      ]
+      ],
+      "krotko": "EBC"
     },
     {
       "id": "rada-europejska-2026-12",
@@ -453,7 +476,8 @@
           "url": "https://www.consilium.europa.eu/en/policies/the-eu-s-long-term-budget-2028-2034/timeline-eu-long-term-budget-2028-2034/",
           "data": "2026-10-05"
         }
-      ]
+      ],
+      "krotko": "Rada Europejska"
     },
     {
       "id": "litwa-prezydencja-2027",
@@ -471,7 +495,8 @@
           "url": "https://www.consilium.europa.eu/en/council-eu/presidency-council-eu/list-of-presidencies-of-the-council-of-the-european-union/",
           "data": "2026-10-05"
         }
-      ]
+      ],
+      "krotko": "Prezydencja Litwy"
     },
     {
       "id": "lng-rosja-2027",
@@ -490,7 +515,8 @@
           "url": "https://www.consilium.europa.eu/en/press/press-releases/2025/12/03/council-and-parliament-strike-a-deal-on-rules-to-phase-out-russian-gas-imports-for-an-energy-secure-and-independent-europe/",
           "data": "2025-12-03"
         }
-      ]
+      ],
+      "krotko": "Zakaz LNG z Rosji"
     },
     {
       "id": "onz-sekretarz-2027",
@@ -507,7 +533,8 @@
           "url": "https://turkiye.un.org/en/314189-who-will-lead-un-next-selection-process-gets-underway",
           "data": "2026-10-05"
         }
-      ]
+      ],
+      "krotko": "Nowy sekretarz ONZ"
     },
     {
       "id": "rozejm-usa-chiny-2027",
@@ -530,7 +557,8 @@
           "url": "https://www.wsls.com/news/politics/2026/09/24/the-latest-trump-and-xi-jinping-will-hold-talks-in-washington-on-trade-ai-and-more/",
           "data": "2026-09-24"
         }
-      ]
+      ],
+      "krotko": "Koniec rozejmu USA–Chiny"
     },
     {
       "id": "fomc-2027-01",
@@ -549,7 +577,8 @@
           "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
           "data": "2026-10-05"
         }
-      ]
+      ],
+      "krotko": "Fed"
     },
     {
       "id": "ebc-2027-02",
@@ -567,7 +596,8 @@
           "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
           "data": "2026-10-05"
         }
-      ]
+      ],
+      "krotko": "EBC"
     },
     {
       "id": "estonia-riigikogu-2027",
@@ -584,7 +614,8 @@
           "url": "https://www.valimised.ee/en/riigikogu-elections-2027",
           "data": "2026-10-05"
         }
-      ]
+      ],
+      "krotko": "Estonia: Riigikogu"
     },
     {
       "id": "fomc-2027-03",
@@ -603,7 +634,8 @@
           "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
           "data": "2026-10-05"
         }
-      ]
+      ],
+      "krotko": "Fed"
     },
     {
       "id": "ebc-2027-03",
@@ -621,7 +653,8 @@
           "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
           "data": "2026-10-05"
         }
-      ]
+      ],
+      "krotko": "EBC"
     }
   ]
 }

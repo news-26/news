@@ -47,6 +47,8 @@ def main():
         return {x: v for x, v in k.items() if not x.startswith("_")}
     kal = [czysc(k) for k in prev.get("kalendarz", []) if k["data"] >= a.dzien]
     for t in terminy:
+        if not B.obowiazkowy(t):
+            continue  # pozostałe terminy kalendarium – tylko jako podpowiedź w kontekst.py
         od = dt.date.fromisoformat(t["od"])
         if dzis <= od <= dzis + dt.timedelta(days=7) and not any(k["data"] == t["od"] and set(t["tagi"]) & set(k.get("tagi", [])) for k in kal):
             kal.append({"data": t["od"], "tekst": t["tekst"], "tagi": t["tagi"], "zrodla": t.get("zrodla", [])})

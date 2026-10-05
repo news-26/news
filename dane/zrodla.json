@@ -1426,7 +1426,13 @@
         "gov.uk",
         "riksdagen.se",
         "cvk.lv",
-        "tse.jus.br"
+        "tse.jus.br",
+        "valimised.ee",
+        "cik.bg",
+        "mzv.gov.cz",
+        "ocac.gov.tw",
+        "tre-sp.jus.br",
+        "ncsbe.gov"
       ],
       "wzorce": [
         "Prezydent Ukrainy",
@@ -1442,7 +1448,7 @@
         "CVK",
         "TSE"
       ],
-      "uzasadnienie": "Strony urzędowe prezydentów i rządów: potwierdzają ich obsadę, decyzje i komunikaty; wypowiedzi to wersja strony. Dopisano 5.10.2026: tse.jus.br – Najwyższy Sąd Wyborczy Brazylii, organ ogłaszający oficjalne wyniki wyborów."
+      "uzasadnienie": "Strony urzędowe prezydentów i rządów: potwierdzają ich obsadę, decyzje i komunikaty; wypowiedzi to wersja strony. Dopisano 5.10.2026: tse.jus.br – Najwyższy Sąd Wyborczy Brazylii, organ ogłaszający oficjalne wyniki wyborów. Dopisano 5.10.2026 (kalendarium): komisje wyborcze i urzędy ogłaszające terminy wyborów – valimised.ee (Estonia), cik.bg (Bułgaria), mzv.gov.cz (MSZ Czech), ocac.gov.tw (Tajwan), tre-sp.jus.br (sąd wyborczy Brazylii), ncsbe.gov (komisja wyborcza Karoliny Płn.)."
     },
     {
       "id": "onz",
@@ -1451,7 +1457,8 @@
       "typ": "organizacja międzynarodowa",
       "kraj": "międzynarodowa",
       "domeny": [
-        "un.org"
+        "un.org",
+        "unfccc.int"
       ],
       "wzorce": [
         "ONZ"
@@ -1471,6 +1478,35 @@
         "STVR"
       ],
       "uzasadnienie": "Słowacki nadawca publiczny (Slovenská televízia a rozhlas); serwis informacyjny z redakcją i korektami. Dodane 2.10.2026."
+    },
+    {
+      "id": "obwe",
+      "nazwa": "OBWE (komunikaty)",
+      "poziom": 1,
+      "typ": "organizacja międzynarodowa",
+      "kraj": "międzynarodowa",
+      "domeny": [
+        "osce.org"
+      ],
+      "wzorce": [
+        "OBWE",
+        "OSCE"
+      ],
+      "uzasadnienie": "Oficjalne komunikaty i kalendarz Organizacji Bezpieczeństwa i Współpracy w Europie – rozstrzygające co do terminów jej posiedzeń. Dopisano 5.10.2026."
+    },
+    {
+      "id": "opec",
+      "nazwa": "OPEC (komunikaty)",
+      "poziom": 1,
+      "typ": "organizacja międzynarodowa",
+      "kraj": "międzynarodowa",
+      "domeny": [
+        "opec.org"
+      ],
+      "wzorce": [
+        "OPEC"
+      ],
+      "uzasadnienie": "Komunikaty OPEC i OPEC+ o własnych decyzjach i terminach posiedzeń; co do ocen rynku – wersja strony. Dopisano 5.10.2026."
     }
   ]
 }

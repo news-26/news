@@ -441,3 +441,25 @@ button.kal-strz[disabled] { color: var(--linia); cursor: default; }
 .ostatnie li > a:hover { text-decoration: underline; }
 .ost-t { display: block; font-size: 15px; line-height: 1.45; color: var(--tekst); margin-top: 2px; }
 @media (max-width: 640px) { .gl-wydania { grid-template-columns: 1fr; } .kal-karuzela .kal-m { max-width: none; } }
+
+/* kalendarium – pół roku naprzód */
+.odznaka.kat { color: var(--szary); border-color: var(--linia); font-weight: 500; }
+.odznaka.kluczowe { color: var(--czerwien); border-color: var(--czerwien); }
+.kalm-tydz { display: block; font-weight: 400; color: var(--szary); font-size: 12px; }
+.kalm-zakres { font: 600 15px/1.5 var(--sans); color: var(--atrament); }
+.kalm-ile { font: 600 12px/1.5 var(--sans); color: var(--morze); }
+.kalm-blisko .poz-tresc::before { background: var(--morze); border-color: var(--morze); }
+.kalm-uwaga { margin: 0 0 6px; font: 14px/1.45 var(--sans); color: var(--szary); font-style: italic; }
+.kalm .poz { grid-template-columns: 82px 1fr; }
+.kalm .poz::before { left: 96px; }
+#fk-all:checked ~ .filtr label[for="fk-all"], #fk-szczyt:checked ~ .filtr label[for="fk-szczyt"],
+#fk-wybory:checked ~ .filtr label[for="fk-wybory"], #fk-banki:checked ~ .filtr label[for="fk-banki"],
+#fk-instytucje:checked ~ .filtr label[for="fk-instytucje"], #fk-polska:checked ~ .filtr label[for="fk-polska"],
+#fk-inne:checked ~ .filtr label[for="fk-inne"] { background: var(--atrament); color: var(--papier); border-color: var(--atrament); }
+#fk-szczyt:checked ~ .kalm .poz:not(.k-szczyt), #fk-wybory:checked ~ .kalm .poz:not(.k-wybory),
+#fk-banki:checked ~ .kalm .poz:not(.k-banki), #fk-instytucje:checked ~ .kalm .poz:not(.k-instytucje),
+#fk-polska:checked ~ .kalm .poz:not(.k-polska), #fk-inne:checked ~ .kalm .poz:not(.k-inne) { display: none; }
+#fk-szczyt:checked ~ .kalm .kalm-m:not(:has(.k-szczyt)), #fk-wybory:checked ~ .kalm .kalm-m:not(:has(.k-wybory)),
+#fk-banki:checked ~ .kalm .kalm-m:not(:has(.k-banki)), #fk-instytucje:checked ~ .kalm .kalm-m:not(:has(.k-instytucje)),
+#fk-polska:checked ~ .kalm .kalm-m:not(:has(.k-polska)), #fk-inne:checked ~ .kalm .kalm-m:not(:has(.k-inne)) { display: none; }
+@media (max-width: 560px) { .kalm .poz { grid-template-columns: 64px 1fr; } .kalm .poz::before { left: 78px; } }

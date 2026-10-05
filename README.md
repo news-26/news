@@ -14,7 +14,7 @@ dane/
   tagi.json                 słownik hashtagów + „Na czym stoimy” dla każdego wątku
   osoby.json                karty „Kto jest kim” (funkcja ze źródłem i datą weryfikacji)
   pojecia.json              słownik pojęć
-  terminy.json              zaplanowane wydarzenia, których nie wolno przegapić
+  terminy.json              kalendarium: najważniejsze wydarzenia na pół roku naprzód (zakładka kalendarium.html + kalendarium.ics)
 notatki/
   rejestr-faktow.md         notatki robocze (statusy, rozbieżności) – edycja punktowa, nie trafia na stronę
 narzedzia/
@@ -69,7 +69,7 @@ Wprowadzone po pominięciu szczytu Trump–Xi (23–25.09). `build.py` odrzuca w
 - wpis `czego_nie_ma` z progiem `dokumentacja` nie ma `id` (`n1`, `n2` …) albo listy `sprawdzono` (co najmniej 3 miejsca otwarte bez skutku: komunikat instytucji obu stron, agencje także w przedrukach) – blokada strony to nie brak dokumentacji;
 - następne wydanie dzienne nie rozlicza każdego takiego wpisu w `rozstrzygniecia`: `{"dotyczy": "RRRR-MM-DD#n1", "wynik": "UZUPEŁNIONE", "pozycja": "z3"}` albo `"NIE DO POTWIERDZENIA"` (z `sprawdzono` i `powod`) albo `"ODPADA"` (z `powod`);
 - termin z kalendarza (data D) dwa dni po D nie ma pozycji w zarysie z datą zdarzenia D…D+2 i tymi samymi hashtagami-miejscami (gdy ich brak – choć jednym wspólnym hashtagiem), ani wpisu w `czego_nie_ma` z polem `"kalendarz": "D"`; jeden wpis kalendarza = jedno wydarzenie;
-- termin z `dane/terminy.json` (szczyty G7/G20/APEC/UE/NATO/ONZ, wizyty przywódców mocarstw, wybory w regionie; `id`, `od`, `do`, `tekst`, `tagi`, `zrodla`) nie stoi w kalendarzu każdego wydania z 7 dni przed nim albo – dwa dni po zakończeniu – nie ma pozycji w zarysie ani wpisu w `czego_nie_ma` z polem `"termin": "<id>"`. Listę uzupełniaj 1. dnia miesiąca i przy każdej zapowiedzi.
+- termin obowiązkowy z `dane/terminy.json` (szczyty G7/G20/APEC/UE/NATO/ONZ, wizyty przywódców mocarstw, wybory w regionie i w państwach G20; pola `id`, `od`, `do`, `kategoria` – szczyt/wybory/banki/instytucje/polska/inne, `tekst`, `tagi`, `zrodla`, opcjonalnie `uwaga`; wpisy z `"obowiazkowy": false` trafiają tylko do kalendarium i nie przechodzą przez tę straż) nie stoi w kalendarzu każdego wydania z 7 dni przed nim albo – dwa dni po zakończeniu – nie ma pozycji w zarysie ani wpisu w `czego_nie_ma` z polem `"termin": "<id>"`. Kalendarium ma sięgać pół roku naprzód: przy każdym wydaniu dopisuj nowe zapowiedzi, poprawiaj zmienione daty i usuwaj odwołane terminy; każdy termin potrzebuje źródła z poziomu 1 albo dwóch z poziomów 1–2.
 
 `python3 narzedzia/build.py --raport-strazy` sprawdza te reguły na całym archiwum (jako ostrzeżenia).
 

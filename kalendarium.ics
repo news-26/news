@@ -1,0 +1,453 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Prasowka//Kalendarium//PL
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Prasówka – kalendarium
+X-WR-TIMEZONE:Europe/Warsaw
+BEGIN:VEVENT
+UID:czechy-senat-2026-1@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261011
+SUMMARY:Czechy: I tura wyborów do Senatu (jedna trzecia mandatów) i wyb
+ ory samorządowe.
+DESCRIPTION:Czechy: I tura wyborów do Senatu (jedna trzecia mandatów) i
+  wybory samorządowe. Źródła: MSZ Czech (ambasada w New Delhi): https
+ ://mzv.gov.cz/newdelhi/cz/ko/volby/volby_do_senatu_parlamentu_cr_v_roce_
+ 2.html
+URL:https://news-26.github.io/news/kalendarium.html#czechy-senat-2026-1
+CATEGORIES:Wybory
+END:VEVENT
+BEGIN:VEVENT
+UID:mfw-bs-2026@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261019
+SUMMARY:Doroczne zgromadzenia MFW i Grupy Banku Światowego w Bangkoku.
+DESCRIPTION:Doroczne zgromadzenia MFW i Grupy Banku Światowego w Bangkok
+ u. Źródła: MFW: https://www.imf.org/en/meetings/2026/annual
+URL:https://news-26.github.io/news/kalendarium.html#mfw-bs-2026
+CATEGORIES:Instytucje i organizacje
+END:VEVENT
+BEGIN:VEVENT
+UID:rada-europejska-2026-10@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261017
+SUMMARY:Rada Europejska w Brukseli (m.in. WRF 2028–34\, Ukraina\, rozsz
+ erzenie).
+DESCRIPTION:Rada Europejska w Brukseli (m.in. WRF 2028–34\, Ukraina\, r
+ ozszerzenie). Źródła: Rada UE: https://www.consilium.europa.eu/en/mee
+ tings/european-council/2026/10/15-16/
+URL:https://news-26.github.io/news/kalendarium.html#rada-europejska-2026-
+ 10
+CATEGORIES:Szczyty
+END:VEVENT
+BEGIN:VEVENT
+UID:czechy-senat-2026-2@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261018
+SUMMARY:Czechy: II tura wyborów do Senatu.
+DESCRIPTION:Czechy: II tura wyborów do Senatu. Źródła: MSZ Czech (amb
+ asada w New Delhi): https://mzv.gov.cz/newdelhi/cz/ko/volby/volby_do_sen
+ atu_parlamentu_cr_v_roce_2.html
+URL:https://news-26.github.io/news/kalendarium.html#czechy-senat-2026-2
+CATEGORIES:Wybory
+END:VEVENT
+BEGIN:VEVENT
+UID:ue-rzz-2026@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Drugi szczyt UE – Rada Współpracy Zatoki Perskiej (Arabia Sau
+ dyjska).
+DESCRIPTION:Drugi szczyt UE – Rada Współpracy Zatoki Perskiej (Arabia
+  Saudyjska). Źródła: Rada UE: https://www.consilium.europa.eu/en/meet
+ ings/international-summit/2026/10/24/
+URL:https://news-26.github.io/news/kalendarium.html#ue-rzz-2026
+CATEGORIES:Szczyty
+END:VEVENT
+BEGIN:VEVENT
+UID:brazylia-ii-tura-2026@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Brazylia: II tura wyborów prezydenckich – Flávio Bolsonaro (4
+ 7\,03% w I turze) kontra prezydent Lula (45\,16%).
+DESCRIPTION:Brazylia: II tura wyborów prezydenckich – Flávio Bolsonar
+ o (47\,03% w I turze) kontra prezydent Lula (45\,16%). Źródła: TRE-SP
+  (wymiar sprawiedliwości wyborczej Brazylii): https://www.tre-sp.jus.br
+ /comunicacao/noticias/2026/Maio/eleicoes-2026-outubro-tem-datas-do-1o-e-
+ do-2o-turnos-definidas-pela-constituicao\; TSE: https://www.tse.jus.br/c
+ omunicacao/noticias/2026/Outubro/flavio-bolsonaro-e-lula-vao-disputar-o-
+ 2o-turno-para-a-presidencia-da-republica
+URL:https://news-26.github.io/news/kalendarium.html#brazylia-ii-tura-2026
+CATEGORIES:Wybory
+END:VEVENT
+BEGIN:VEVENT
+UID:bulgaria-prezydent-2026@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Bułgaria: wybory prezydenta i wiceprezydenta (ewentualna II tura
+  tydzień później).
+DESCRIPTION:Bułgaria: wybory prezydenta i wiceprezydenta (ewentualna II 
+ tura tydzień później). Źródła: CIK Bułgarii: https://www.cik.bg/
+URL:https://news-26.github.io/news/kalendarium.html#bulgaria-prezydent-20
+ 26
+CATEGORIES:Wybory
+END:VEVENT
+BEGIN:VEVENT
+UID:serbia-parlament-2026@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Serbia: przedterminowe wybory parlamentarne\; Aleksandar Vučić\
+ , który 27.09 zrezygnował z urzędu prezydenta\, kandyduje…
+DESCRIPTION:Serbia: przedterminowe wybory parlamentarne\; Aleksandar Vuč
+ ić\, który 27.09 zrezygnował z urzędu prezydenta\, kandyduje na prem
+ iera. Źródła: Euronews: https://www.euronews.com/2026/09/28/serbias-p
+ resident-aleksandar-vucic-resigns-to-run-for-prime-minister-in-snap-elec
+ tions\; AP (za Al Jazeera): https://www.aljazeera.com/news/2026/10/4/ser
+ bian-populist-leader-vucic-launches-campaign-for-prime-minister
+URL:https://news-26.github.io/news/kalendarium.html#serbia-parlament-2026
+CATEGORIES:Wybory
+END:VEVENT
+BEGIN:VEVENT
+UID:izrael-kneset-2026@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:Izrael: wybory do Knesetu – głosowanie traktowane jako referen
+ dum w sprawie rządów Binjamina Netanjahu.
+DESCRIPTION:Izrael: wybory do Knesetu – głosowanie traktowane jako ref
+ erendum w sprawie rządów Binjamina Netanjahu. Źródła: Euronews: htt
+ ps://www.euronews.com/2026/07/12/israel-to-hold-elections-on-27-october-
+ in-what-is-seen-as-referendum-on-netanyahu-leadersh\; Reuters (za Al Jaz
+ eera): https://www.aljazeera.com/news/2026/7/17/israel-headed-for-octobe
+ r-election-as-parliament-dissolved
+URL:https://news-26.github.io/news/kalendarium.html#izrael-kneset-2026
+CATEGORIES:Wybory
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-2026-10@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261029
+SUMMARY:Fed: posiedzenie FOMC (decyzja o stopach 28.10).
+DESCRIPTION:Fed: posiedzenie FOMC (decyzja o stopach 28.10). Źródła: F
+ ed (kalendarz FOMC): https://www.federalreserve.gov/monetarypolicy/fomcc
+ alendars.htm
+URL:https://news-26.github.io/news/kalendarium.html#fomc-2026-10
+CATEGORIES:Banki centralne
+END:VEVENT
+BEGIN:VEVENT
+UID:ebc-2026-10@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261030
+SUMMARY:EBC: posiedzenie Rady Prezesów w sprawie polityki pieniężnej (
+ decyzja i konferencja 29.10).
+DESCRIPTION:EBC: posiedzenie Rady Prezesów w sprawie polityki pieniężn
+ ej (decyzja i konferencja 29.10). Źródła: EBC (kalendarz posiedzeń):
+  https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html
+URL:https://news-26.github.io/news/kalendarium.html#ebc-2026-10
+CATEGORIES:Banki centralne
+END:VEVENT
+BEGIN:VEVENT
+UID:ue-kanada-2026@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261031
+SUMMARY:Szczyt UE–Kanada w Montrealu.
+DESCRIPTION:Szczyt UE–Kanada w Montrealu. Źródła: Rada UE: https://w
+ ww.consilium.europa.eu/en/meetings/international-summit/2026/10/29-30/
+URL:https://news-26.github.io/news/kalendarium.html#ue-kanada-2026
+CATEGORIES:Szczyty
+END:VEVENT
+BEGIN:VEVENT
+UID:opec-2026-11@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:OPEC+: spotkanie siedmiu państw w sprawie limitów wydobycia na 
+ grudzień.
+DESCRIPTION:OPEC+: spotkanie siedmiu państw w sprawie limitów wydobycia
+  na grudzień. Źródła: OPEC: https://www.opec.org/pr-detail/616-4-oct
+ ober-2026.html
+URL:https://news-26.github.io/news/kalendarium.html#opec-2026-11
+CATEGORIES:Instytucje i organizacje
+END:VEVENT
+BEGIN:VEVENT
+UID:usa-midterms-2026@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:USA: wybory połowy kadencji – cała Izba Reprezentantów\, jed
+ na trzecia Senatu\, część gubernatorów.
+DESCRIPTION:USA: wybory połowy kadencji – cała Izba Reprezentantów\,
+  jedna trzecia Senatu\, część gubernatorów. Źródła: AP (za ABC Ne
+ ws): https://abcnews.com/Politics/wireStory/voters-favor-democrats-key-i
+ ssues-lack-faith-party-136969703\; Komisja wyborcza Karoliny Płn. (NCSB
+ E): https://www.ncsbe.gov/voting/upcoming-election
+URL:https://news-26.github.io/news/kalendarium.html#usa-midterms-2026
+CATEGORIES:Wybory
+END:VEVENT
+BEGIN:VEVENT
+UID:cop31@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261121
+SUMMARY:COP31 – konferencja klimatyczna ONZ w Antalyi (Turcja\, we wsp
+ ółpracy z Australią).
+DESCRIPTION:COP31 – konferencja klimatyczna ONZ w Antalyi (Turcja\, we 
+ współpracy z Australią). Źródła: ONZ (UNFCCC): https://unfccc.int/
+ cop31/the-road-to-antalya
+URL:https://news-26.github.io/news/kalendarium.html#cop31
+CATEGORIES:Szczyty
+END:VEVENT
+BEGIN:VEVENT
+UID:rada-europejska-2026-11-niefor@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Nieformalne spotkanie szefów państw i rządów UE.
+DESCRIPTION:Nieformalne spotkanie szefów państw i rządów UE. Źródł
+ a: Rada UE: https://www.consilium.europa.eu/en/meetings/european-council
+ /2026/10/15-16/
+URL:https://news-26.github.io/news/kalendarium.html#rada-europejska-2026-
+ 11-niefor
+CATEGORIES:Szczyty
+END:VEVENT
+BEGIN:VEVENT
+UID:apec-2026@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261120
+SUMMARY:Spotkanie przywódców APEC w Shenzhen (Chiny)
+DESCRIPTION:Spotkanie przywódców APEC w Shenzhen (Chiny) Źródła: Wł
+ adze Shenzhen: https://www.sz.gov.cn/en_szgov/news/latest/content/post_1
+ 2548726.html
+URL:https://news-26.github.io/news/kalendarium.html#apec-2026
+CATEGORIES:Szczyty
+END:VEVENT
+BEGIN:VEVENT
+UID:tajwan-lokalne-2026@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Tajwan: wybory lokalne (burmistrzowie\, radni) – pierwszy spraw
+ dzian po wyborach 2024 r.
+DESCRIPTION:Tajwan: wybory lokalne (burmistrzowie\, radni) – pierwszy s
+ prawdzian po wyborach 2024 r. Źródła: Rząd Tajwanu (OCAC): https://w
+ ww.ocac.gov.tw/OCAC/Eng/Pages/Detail.aspx?nodeid=329&pid=80997079
+URL:https://news-26.github.io/news/kalendarium.html#tajwan-lokalne-2026
+CATEGORIES:Wybory
+END:VEVENT
+BEGIN:VEVENT
+UID:hiszpania-wybory-2026@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Hiszpania: przedterminowe wybory parlamentarne ogłoszone przez p
+ remiera Pedra Sáncheza.
+DESCRIPTION:Hiszpania: przedterminowe wybory parlamentarne ogłoszone prz
+ ez premiera Pedra Sáncheza. Źródła: Euronews: https://www.euronews.c
+ om/2026/10/05/pedro-sanchez-calls-early-elections-in-spain-after-defeat-
+ of-housing-decrees\; Reuters (za Al Jazeera): https://www.aljazeera.com/
+ news/2026/10/5/spanish-prime-minister-pedro-sanchez-announces-snap-elect
+ ion
+URL:https://news-26.github.io/news/kalendarium.html#hiszpania-wybory-2026
+CATEGORIES:Wybory
+END:VEVENT
+BEGIN:VEVENT
+UID:obwe-rm-2026@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261205
+SUMMARY:33. Rada Ministerialna OBWE w Lugano (przewodnictwo Szwajcarii).
+DESCRIPTION:33. Rada Ministerialna OBWE w Lugano (przewodnictwo Szwajcari
+ i). Źródła: OBWE: https://www.osce.org/event/mc_2026
+URL:https://news-26.github.io/news/kalendarium.html#obwe-rm-2026
+CATEGORIES:Instytucje i organizacje
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-2026-12@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261210
+SUMMARY:Fed: posiedzenie FOMC z projekcjami gospodarczymi (decyzja 9.12).
+DESCRIPTION:Fed: posiedzenie FOMC z projekcjami gospodarczymi (decyzja 9.
+ 12). Źródła: Fed (kalendarz FOMC): https://www.federalreserve.gov/mon
+ etarypolicy/fomccalendars.htm
+URL:https://news-26.github.io/news/kalendarium.html#fomc-2026-12
+CATEGORIES:Banki centralne
+END:VEVENT
+BEGIN:VEVENT
+UID:g20-2026@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261216
+SUMMARY:Szczyt przywódców G20 w Miami (Doral)\, gospodarz: prezydent USA
+DESCRIPTION:Szczyt przywódców G20 w Miami (Doral)\, gospodarz: prezyden
+ t USA Źródła: Departament Stanu: https://www.state.gov/releases/offic
+ e-of-the-spokesperson/2026/05/the-united-states-to-host-g20-foreign-mini
+ sters-meeting-in-atlanta-georgia/
+URL:https://news-26.github.io/news/kalendarium.html#g20-2026
+CATEGORIES:Szczyty
+END:VEVENT
+BEGIN:VEVENT
+UID:ebc-2026-12@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261218
+SUMMARY:EBC: posiedzenie w sprawie polityki pieniężnej (decyzja i konfe
+ rencja 17.12).
+DESCRIPTION:EBC: posiedzenie w sprawie polityki pieniężnej (decyzja i k
+ onferencja 17.12). Źródła: EBC (kalendarz posiedzeń): https://www.ec
+ b.europa.eu/press/calendars/mgcgc/html/index.en.html
+URL:https://news-26.github.io/news/kalendarium.html#ebc-2026-12
+CATEGORIES:Banki centralne
+END:VEVENT
+BEGIN:VEVENT
+UID:rada-europejska-2026-12@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261219
+SUMMARY:Rada Europejska w Brukseli – przywódcy chcą do końca 2026 r.
+  porozumienia w sprawie budżetu UE (WRF) 2028–34.
+DESCRIPTION:Rada Europejska w Brukseli – przywódcy chcą do końca 202
+ 6 r. porozumienia w sprawie budżetu UE (WRF) 2028–34. Źródła: Rada
+  UE: https://www.consilium.europa.eu/en/meetings/european-council/2026/1
+ 0/15-16/\; Rada UE (harmonogram WRF 2028–34): https://www.consilium.eu
+ ropa.eu/en/policies/the-eu-s-long-term-budget-2028-2034/timeline-eu-long
+ -term-budget-2028-2034/
+URL:https://news-26.github.io/news/kalendarium.html#rada-europejska-2026-
+ 12
+CATEGORIES:Szczyty
+END:VEVENT
+BEGIN:VEVENT
+UID:litwa-prezydencja-2027@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:Litwa obejmuje prezydencję w Radzie UE (do 30.06.2027)\, po Irla
+ ndii.
+DESCRIPTION:Litwa obejmuje prezydencję w Radzie UE (do 30.06.2027)\, po 
+ Irlandii. Źródła: Rada UE: https://www.consilium.europa.eu/en/council
+ -eu/presidency-council-eu/list-of-presidencies-of-the-council-of-the-eur
+ opean-union/
+URL:https://news-26.github.io/news/kalendarium.html#litwa-prezydencja-2027
+CATEGORIES:Instytucje i organizacje
+END:VEVENT
+BEGIN:VEVENT
+UID:onz-sekretarz-2027@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:Nowy sekretarz generalny ONZ obejmuje urząd\; kadencja Antónia 
+ Guterresa kończy się 31.12.2026 (wyboru dokonują RB ONZ i…
+DESCRIPTION:Nowy sekretarz generalny ONZ obejmuje urząd\; kadencja Antó
+ nia Guterresa kończy się 31.12.2026 (wyboru dokonują RB ONZ i Zgromad
+ zenie Ogólne). Źródła: ONZ: https://turkiye.un.org/en/314189-who-wil
+ l-lead-un-next-selection-process-gets-underway
+URL:https://news-26.github.io/news/kalendarium.html#onz-sekretarz-2027
+CATEGORIES:Instytucje i organizacje
+END:VEVENT
+BEGIN:VEVENT
+UID:lng-rosja-2027@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:UE: zakaz importu rosyjskiego LNG obejmuje także kontrakty dług
+ oterminowe (gaz rurociągowy z kontraktów…
+DESCRIPTION:UE: zakaz importu rosyjskiego LNG obejmuje także kontrakty d
+ ługoterminowe (gaz rurociągowy z kontraktów długoterminowych – naj
+ później do 1.11.2027). Źródła: Rada UE: https://www.consilium.europ
+ a.eu/en/press/press-releases/2025/12/03/council-and-parliament-strike-a-
+ deal-on-rules-to-phase-out-russian-gas-imports-for-an-energy-secure-and-
+ independent-europe/
+URL:https://news-26.github.io/news/kalendarium.html#lng-rosja-2027
+CATEGORIES:Inne
+END:VEVENT
+BEGIN:VEVENT
+UID:rozejm-usa-chiny-2027@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Koniec przedłużonego rozejmu handlowego USA–Chiny (ustalonego
+  w Pusan)\, jeśli strony go nie przedłużą.
+DESCRIPTION:Koniec przedłużonego rozejmu handlowego USA–Chiny (ustalo
+ nego w Pusan)\, jeśli strony go nie przedłużą. Źródła: Reuters (z
+ a Investing.com): https://www.investing.com/news/stock-market-news/trump
+ -plans-grand-spectacle-for-potentially-tense-xi-talks-4912458\; AP (za W
+ SLS): https://www.wsls.com/news/politics/2026/09/24/the-latest-trump-and
+ -xi-jinping-will-hold-talks-in-washington-on-trade-ai-and-more/
+URL:https://news-26.github.io/news/kalendarium.html#rozejm-usa-chiny-2027
+CATEGORIES:Inne
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-2027-01@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270128
+SUMMARY:Fed: posiedzenie FOMC (decyzja 27.01).
+DESCRIPTION:Fed: posiedzenie FOMC (decyzja 27.01). Źródła: Fed (kalend
+ arz FOMC): https://www.federalreserve.gov/monetarypolicy/fomccalendars.h
+ tm
+URL:https://news-26.github.io/news/kalendarium.html#fomc-2027-01
+CATEGORIES:Banki centralne
+END:VEVENT
+BEGIN:VEVENT
+UID:ebc-2027-02@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270205
+SUMMARY:EBC: posiedzenie w sprawie polityki pieniężnej (decyzja i konfe
+ rencja 4.02).
+DESCRIPTION:EBC: posiedzenie w sprawie polityki pieniężnej (decyzja i k
+ onferencja 4.02). Źródła: EBC (kalendarz posiedzeń): https://www.ecb
+ .europa.eu/press/calendars/mgcgc/html/index.en.html
+URL:https://news-26.github.io/news/kalendarium.html#ebc-2027-02
+CATEGORIES:Banki centralne
+END:VEVENT
+BEGIN:VEVENT
+UID:estonia-riigikogu-2027@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:Estonia: wybory do Riigikogu (głosowanie wcześniejsze i interne
+ towe 1–6.03).
+DESCRIPTION:Estonia: wybory do Riigikogu (głosowanie wcześniejsze i int
+ ernetowe 1–6.03). Źródła: Państwowa Komisja Wyborcza Estonii: http
+ s://www.valimised.ee/en/riigikogu-elections-2027
+URL:https://news-26.github.io/news/kalendarium.html#estonia-riigikogu-2027
+CATEGORIES:Wybory
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-2027-03@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270318
+SUMMARY:Fed: posiedzenie FOMC z projekcjami gospodarczymi (decyzja 17.03).
+DESCRIPTION:Fed: posiedzenie FOMC z projekcjami gospodarczymi (decyzja 17
+ .03). Źródła: Fed (kalendarz FOMC): https://www.federalreserve.gov/mo
+ netarypolicy/fomccalendars.htm
+URL:https://news-26.github.io/news/kalendarium.html#fomc-2027-03
+CATEGORIES:Banki centralne
+END:VEVENT
+BEGIN:VEVENT
+UID:ebc-2027-03@prasowka-kalendarium
+DTSTAMP:20261005T180000Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270319
+SUMMARY:EBC: posiedzenie w sprawie polityki pieniężnej (decyzja i konfe
+ rencja 18.03).
+DESCRIPTION:EBC: posiedzenie w sprawie polityki pieniężnej (decyzja i k
+ onferencja 18.03). Źródła: EBC (kalendarz posiedzeń): https://www.ec
+ b.europa.eu/press/calendars/mgcgc/html/index.en.html
+URL:https://news-26.github.io/news/kalendarium.html#ebc-2027-03
+CATEGORIES:Banki centralne
+END:VEVENT
+END:VCALENDAR

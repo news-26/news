@@ -125,7 +125,8 @@
       "domeny": [
         "gov.pl",
         "wojsko-polskie.pl",
-        "polska-zbrojna.pl"
+        "polska-zbrojna.pl",
+        "prezydent.pl"
       ],
       "wzorce": [
         "KPRM",
@@ -133,9 +134,10 @@
         "MSZ",
         "DO RSZ",
         "Dowództwo Operacyjne",
-        "Polska Zbrojna"
+        "Polska Zbrojna",
+        "KPRP"
       ],
-      "uzasadnienie": "Komunikaty organów państwa o ich własnych decyzjach. Polska Zbrojna to pismo resortu obrony, publikuje jego komunikaty i wypowiedzi kierownictwa."
+      "uzasadnienie": "Komunikaty organów państwa o ich własnych decyzjach. Polska Zbrojna to pismo resortu obrony, publikuje jego komunikaty i wypowiedzi kierownictwa. Dopisano 6.10.2026: prezydent.pl (KPRP) – komunikaty Kancelarii Prezydenta RP o jego własnych działaniach."
     },
     {
       "id": "imf",
@@ -1432,7 +1434,11 @@
         "mzv.gov.cz",
         "ocac.gov.tw",
         "tre-sp.jus.br",
-        "ncsbe.gov"
+        "ncsbe.gov",
+        "presidency.eg",
+        "pco.gov.ph",
+        "boe.es",
+        "generalbundesanwalt.de"
       ],
       "wzorce": [
         "Prezydent Ukrainy",
@@ -1446,9 +1452,12 @@
         "Rząd Wielkiej Brytanii",
         "Riksdag",
         "CVK",
-        "TSE"
+        "TSE",
+        "Prezydent Egiptu",
+        "Biuro Komunikacji Prezydenta Filipin",
+        "Prokurator Generalny Niemiec"
       ],
-      "uzasadnienie": "Strony urzędowe prezydentów i rządów: potwierdzają ich obsadę, decyzje i komunikaty; wypowiedzi to wersja strony. Dopisano 5.10.2026: tse.jus.br – Najwyższy Sąd Wyborczy Brazylii, organ ogłaszający oficjalne wyniki wyborów. Dopisano 5.10.2026 (kalendarium): komisje wyborcze i urzędy ogłaszające terminy wyborów – valimised.ee (Estonia), cik.bg (Bułgaria), mzv.gov.cz (MSZ Czech), ocac.gov.tw (Tajwan), tre-sp.jus.br (sąd wyborczy Brazylii), ncsbe.gov (komisja wyborcza Karoliny Płn.)."
+      "uzasadnienie": "Strony urzędowe prezydentów i rządów: potwierdzają ich obsadę, decyzje i komunikaty; wypowiedzi to wersja strony. Dopisano 5.10.2026: tse.jus.br – Najwyższy Sąd Wyborczy Brazylii, organ ogłaszający oficjalne wyniki wyborów. Dopisano 5.10.2026 (kalendarium): komisje wyborcze i urzędy ogłaszające terminy wyborów – valimised.ee (Estonia), cik.bg (Bułgaria), mzv.gov.cz (MSZ Czech), ocac.gov.tw (Tajwan), tre-sp.jus.br (sąd wyborczy Brazylii), ncsbe.gov (komisja wyborcza Karoliny Płn.). Dopisano 6.10.2026: presidency.eg (prezydent Egiptu), pco.gov.ph (biuro komunikacji prezydenta Filipin), boe.es (dziennik urzędowy Hiszpanii) – oficjalne strony publikujące dokumenty i komunikaty własnych władz. Dopisano 6.10.2026: Prokurator Generalny Niemiec (GBA) – komunikaty o własnych czynnościach, publikowane na generalbundesanwalt.de i w serwisie Presseportal."
     },
     {
       "id": "onz",
@@ -1507,6 +1516,20 @@
         "OPEC"
       ],
       "uzasadnienie": "Komunikaty OPEC i OPEC+ o własnych decyzjach i terminach posiedzeń; co do ocen rynku – wersja strony. Dopisano 5.10.2026."
+    },
+    {
+      "id": "diplomacy-and-law",
+      "nazwa": "Diplomacy and Law",
+      "poziom": 4,
+      "typ": "analiza",
+      "kraj": "różne",
+      "domeny": [
+        "diplomacyandlaw.com"
+      ],
+      "wzorce": [
+        "Diplomacy and Law"
+      ],
+      "uzasadnienie": "Dopisano 6.10.2026: serwis komentarzy prawnomiędzynarodowych z podpisanymi autorami; bez własnych ustaleń faktów i jawnej praktyki sprostowań – tylko jako ocena w analizach, nigdy jako podstawa pozycji."
     }
   ]
 }

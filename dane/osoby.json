@@ -425,13 +425,24 @@
     {
       "id": "siegfried-muresan",
       "imie": "Siegfried Mureșan",
-      "funkcja": "Kandydat na premiera Rumunii (premier-desygnat); 30.09.2026 parlament odmówił mu wotum zaufania.",
-      "zweryfikowano": "2026-10-01",
+      "funkcja": "Były premier-desygnat Rumunii: 30.09.2026 parlament odmówił mu wotum zaufania, 5.10.2026 prezydent desygnował w jego miejsce Lucę Niculescu.",
+      "zweryfikowano": "2026-10-06",
       "zrodla": [
         {
-          "nazwa": "Reuters (za Internazionale)",
-          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/30/romanian-pm-designate-muresan-loses-confidence-vote",
-          "data": "2026-09-30"
+          "nazwa": "Reuters (za TimesLive)",
+          "url": "https://www.timeslive.co.za/news/world/2026-10-06-romanian-president-nominates-diplomat-luca-niculescu-as-pm/",
+          "data": "2026-10-06"
+        },
+        {
+          "nazwa": "AP (za Washington Times)",
+          "url": "https://www.washingtontimes.com/news/2026/oct/5/romanias-president-nominates-fourth-prime-minister-designate-bid-end/",
+          "data": "2026-10-05"
+        }
+      ],
+      "historia": [
+        {
+          "funkcja": "Kandydat na premiera Rumunii (premier-desygnat); 30.09.2026 parlament odmówił mu wotum zaufania.",
+          "do": "2026-10-05"
         }
       ]
     },

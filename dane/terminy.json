@@ -304,6 +304,24 @@
       "krotko": "COP31"
     },
     {
+      "id": "epc-2026-11",
+      "od": "2026-11-12",
+      "kategoria": "szczyt",
+      "obowiazkowy": false,
+      "tagi": [
+        "ue"
+      ],
+      "tekst": "Szczyt Europejskiej Wspólnoty Politycznej w Irlandii.",
+      "zrodla": [
+        {
+          "nazwa": "Rada UE (agenda przywódców 2026)",
+          "url": "https://www.consilium.europa.eu/media/x41pvfn5/leaders-agenda_2026.pdf",
+          "data": "2026-10-06"
+        }
+      ],
+      "krotko": "EWP w Irlandii"
+    },
+    {
       "id": "rada-europejska-2026-11-niefor",
       "od": "2026-11-13",
       "kategoria": "szczyt",
@@ -337,6 +355,26 @@
       ],
       "kategoria": "szczyt",
       "krotko": "APEC"
+    },
+    {
+      "id": "rada-europejska-2026-11-nadzw",
+      "od": "2026-11-26",
+      "do": "2026-11-27",
+      "kategoria": "szczyt",
+      "obowiazkowy": false,
+      "tagi": [
+        "ue"
+      ],
+      "tekst": "Nadzwyczajna Rada Europejska w sprawie WRF 2028–34 (termin wstępny).",
+      "zrodla": [
+        {
+          "nazwa": "Rada UE (agenda przywódców 2026)",
+          "url": "https://www.consilium.europa.eu/media/x41pvfn5/leaders-agenda_2026.pdf",
+          "data": "2026-10-06"
+        }
+      ],
+      "krotko": "RE: WRF (wstępnie)",
+      "uwaga": "Termin wstępny według agendy przywódców."
     },
     {
       "id": "tajwan-lokalne-2026",
@@ -561,6 +599,30 @@
       "krotko": "Koniec rozejmu USA–Chiny"
     },
     {
+      "id": "litwa-art137-2027",
+      "od": "2027-01-12",
+      "kategoria": "inne",
+      "obowiazkowy": false,
+      "tagi": [
+        "litwa",
+        "nato"
+      ],
+      "tekst": "Litwa: drugie głosowanie Sejmu nad usunięciem z art. 137 konstytucji zakazu broni masowego rażenia i obcych baz (potrzeba 94 ze 141 głosów).",
+      "zrodla": [
+        {
+          "nazwa": "LRT",
+          "url": "https://www.lrt.lt/en/news-in-english/19/3074149/lithuanian-parliament-backs-removing-constitutional-ban-on-nuclear-weapons",
+          "data": "2026-10-06"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/06/lithuania-takes-further-step-towards-lifting-nuclear-weapons-ban",
+          "data": "2026-10-06"
+        }
+      ],
+      "krotko": "Litwa: art. 137"
+    },
+    {
       "id": "fomc-2027-01",
       "od": "2027-01-26",
       "do": "2027-01-27",
@@ -652,6 +714,44 @@
           "nazwa": "EBC (kalendarz posiedzeń)",
           "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
           "data": "2026-10-05"
+        }
+      ],
+      "krotko": "EBC"
+    },
+    {
+      "id": "fomc-2027-04",
+      "od": "2027-04-27",
+      "do": "2027-04-28",
+      "kategoria": "banki",
+      "obowiazkowy": false,
+      "tagi": [
+        "gospodarka"
+      ],
+      "tekst": "Fed: posiedzenie FOMC (termin wstępny).",
+      "zrodla": [
+        {
+          "nazwa": "Fed (kalendarz FOMC)",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+          "data": "2026-10-06"
+        }
+      ],
+      "krotko": "Fed"
+    },
+    {
+      "id": "ebc-2027-04",
+      "od": "2027-04-28",
+      "do": "2027-04-29",
+      "kategoria": "banki",
+      "obowiazkowy": false,
+      "tagi": [
+        "gospodarka"
+      ],
+      "tekst": "EBC: posiedzenie w sprawie polityki pieniężnej.",
+      "zrodla": [
+        {
+          "nazwa": "EBC (kalendarz posiedzeń)",
+          "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+          "data": "2026-10-06"
         }
       ],
       "krotko": "EBC"

@@ -15,6 +15,4 @@ W wydaniu są tylko informacje potwierdzone. Co nie przechodzi, idzie do „Czeg
 
 Pułapki: dziedziczenie błędów z poprzednich wydań, „powszechnie znane” rzeczy niesprawdzone dziś, przesadzające nagłówki, pozycja oparta na samym tytule, źródła strony zainteresowanej bez oznaczenia, osoby o podobnych nazwiskach.
 
-Odpadły na progu następstwa, np.: dron cywilny przy Redzikowie (15.09.2026), ograniczenia FSB przy granicy z Estonią (16–26.09.2026), wyciek z systemu Medyc (przestępstwo kryminalne, nie operacja obcych służb).
-
 Kompletność, np.: „Dmitrij Pieskow, rzecznik Kremla” (nie samo „Pieskow”); „zestawy Poprad z 12. Brygady Zmechanizowanej, dwa czeskie AH-1Z Viper z 22. Bazy Śmigłowcowej” (nie „systemy przeciwlotnicze”); EPF rozwinięty jako unijny fundusz na wsparcie wojskowe.

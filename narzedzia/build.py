@@ -1699,7 +1699,7 @@ class Budowa:
             a, b = data_(t["od"]), data_(t.get("do") or t["od"]) + dt.timedelta(days=1)
             opis = czysty(t["tekst"], self.osoby, self.pojecia)
             zr = "; ".join(f'{z["nazwa"]}: {z["url"]}' for z in t.get("zrodla", []))
-            L += ["BEGIN:VEVENT", f"UID:{t['id']}@prasowka-kalendarium", f"DTSTAMP:{teraz}",
+            L += ["BEGIN:VEVENT", f"UID:{t['id']}@news-26", f"DTSTAMP:{teraz}",
                   f"DTSTART;VALUE=DATE:{a.strftime('%Y%m%d')}", f"DTEND;VALUE=DATE:{b.strftime('%Y%m%d')}",
                   zloz("SUMMARY:" + esc(skroc(opis, 120))),
                   zloz("DESCRIPTION:" + esc(opis + (" Źródła: " + zr if zr else ""))),

@@ -1,0 +1,556 @@
+{
+  "nr": 18,
+  "data": "2026-10-06",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Najważniejsze dla bezpieczeństwa regionu: w nocy 6.10 drony trafiły dwa statki tureckich armatorów w **wyłącznej strefie ekonomicznej Bułgarii** (jeden zatonął) – dzień po zatopieniu zbożowca w strefie Rumunii; ani Sofia, ani Bukareszt nie wskazały sprawcy.",
+    "Sejm Litwy w pierwszym głosowaniu (106 za) poparł usunięcie z konstytucji zakazu rozmieszczania broni jądrowej i obcych baz; Kreml mówi o eskalacji.",
+    "Komisja Europejska przedstawiła przeglądy przedakcesyjne: proponuje m.in. głosowanie większością kwalifikowaną przy otwieraniu klastrów negocjacyjnych.",
+    "W Niemczech zatrzymano byłego prezesa BND Augusta Hanninga pod zarzutem szpiegostwa i usiłowania zdrady stanu.",
+    "W Rumunii prezydent Nicușor Dan desygnował na premiera bezpartyjnego dyplomatę Lucę Niculescu – czwartego kandydata w obecnym kryzysie.",
+    "Na świecie: Egipt, Erytrea, Somalia i Sudan ogłosiły w deklaracji z El-Alamejn, że Morze Czerwone ma być domeną wyłącznie państw nadbrzeżnych – wbrew żądaniom dostępu do morza zgłaszanym przez Etiopię."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-10-06",
+      "tagi": [
+        "bulgaria",
+        "ukraina",
+        "rosja"
+      ],
+      "etap": null,
+      "tekst": "Ok. 3:00 6.10 drony zaatakowały dwa statki tureckich armatorów ok. 70 mil morskich na wschód od Białej, w **wyłącznej strefie ekonomicznej Bułgarii**: Alfa Watan (bandera Togo) zatonął, jego załogi nie odnaleziono; Able (bandera Palau, z pszenicą) zapalił się, 18 członków załogi uratował bułgarski prom. Premier Bułgarii Rumen Radew zwołał nadzwyczajne posiedzenie rządu i nazwał atak rażącym naruszeniem prawa międzynarodowego i morskiego, nie wskazując sprawcy; NATO odesłało pytania do władz bułgarskich, a przewodnicząca KE {{o:ursula-von-der-leyen|Ursula von der Leyen}} określiła sytuację jako niepokojącą. Według AP to pierwszy taki incydent w strefie Bułgarii. Dzień wcześniej w strefie Rumunii zatonął zbożowiec Royad Mammadov, którego trafienie prezydent {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} przypisał rosyjskim dronom; władze Rumunii nie wskazały sprawcy.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/06/drones-hit-two-ships-off-coast-of-bulgaria-as-government-calls-emergency-meeting",
+          "data": "2026-10-06"
+        },
+        {
+          "nazwa": "AP (za ABC News)",
+          "url": "https://abcnews.com/International/wireStory/bulgarian-pm-drone-attack-2-commercial-vessels-blatant-137025648",
+          "data": "2026-10-06"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/drones-strike-merchant-vessels-in-black-sea-off-bulgaria-and-ukraine-killing-at-least-one/",
+          "data": "2026-10-06"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-10-06",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "front"
+      ],
+      "etap": null,
+      "tekst": "W nocy 5/6.10 Rosja wystrzeliła na Ukrainę **137 dronów** typu Shahed (114 zestrzelonych lub zneutralizowanych według Sił Powietrznych Ukrainy); w ciągu doby zginęło co najmniej 13 osób, a 104 zostały ranne, w Krzywym Rogu pocisk {{p:banderol|Banderol}} uszkodził szpital (4 rannych). Tej samej nocy Ukraina przeprowadziła zmasowany atak dronowy na obwód moskiewski: mer Moskwy Siergiej Sobianin mówił o 650 dronach lecących na region, a rosyjskie Ministerstwo Obrony – o blisko 900 przechwyconych w całej Rosji – to liczby strony rosyjskiej, która podała też 2 zabitych.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-strikes-kill-13-injure-104-across-ukraine-damage-kryvyi-rih-hospital/",
+          "data": "2026-10-06"
+        },
+        {
+          "nazwa": "AP (za ABC News)",
+          "url": "https://abcnews.com/International/wireStory/russia-900-ukrainian-drones-downed-moscow-region-fuel-137027723",
+          "data": "2026-10-06"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/ukrainian-drones-reportedly-attack-moscow-oblast-in-mass-attack-near-russias-capital/",
+          "data": "2026-10-06"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "polska",
+      "data": "2026-10-06",
+      "tagi": [
+        "dyplomacja-rp"
+      ],
+      "etap": null,
+      "tekst": "Prezydent {{o:karol-nawrocki|Karol Nawrocki}} rozmawiał 6.10 w Pałacu Malacañang w Manili z prezydentem Filipin Ferdinandem Marcosem Jr. (w formacie ograniczonym i delegacji), po czym obaj wystąpili na wspólnej konferencji prasowej – to **pierwsza wizyta prezydenta RP na Filipinach**. Tematem były inwestycje i współpraca w sektorze IT (forum biznesowe 8.10); do zamknięcia wydania nie podano informacji o podpisanych umowach. Według PAP celem wizyty jest też poparcie Manili – przewodniczącej w 2026 r. ASEAN – dla stałego członkostwa Polski w G20.",
+      "zrodla": [
+        {
+          "nazwa": "PAP (za Radio Maryja)",
+          "url": "https://www.radiomaryja.pl/informacje/manila-rozmowy-prezydentow-polski-i-filipin-o-wspolpracy-gospodarczej/",
+          "data": "2026-10-06"
+        },
+        {
+          "nazwa": "Biuro Komunikacji Prezydenta Filipin (PCO)",
+          "url": "https://pco.gov.ph/presidential-speech/joint-press-conference-of-president-ferdinand-r-marcos-jr-and-polish-president-karol-nawrocki/",
+          "data": "2026-10-06"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "instytucje",
+      "data": "2026-10-06",
+      "tagi": [
+        "litwa",
+        "nato",
+        "rosja"
+      ],
+      "etap": "W TOKU",
+      "tekst": "Sejm Litwy w pierwszym głosowaniu poparł poprawkę usuwającą z **art. 137 konstytucji** zakaz rozmieszczania broni masowego rażenia i obcych baz wojskowych: **106 za, 18 przeciw, 6 wstrzymujących się**. Drugie głosowanie zaplanowano na 12.01.2027; potrzeba w nim 94 ze 141 głosów. Rzecznik Kremla {{o:dmitrij-pieskow|Dmitrij Pieskow}} ocenił krok jako ryzyko dalszej eskalacji.",
+      "zrodla": [
+        {
+          "nazwa": "LRT",
+          "url": "https://www.lrt.lt/en/news-in-english/19/3074149/lithuanian-parliament-backs-removing-constitutional-ban-on-nuclear-weapons",
+          "data": "2026-10-06"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/06/lithuania-takes-further-step-towards-lifting-nuclear-weapons-ban",
+          "data": "2026-10-06"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "instytucje",
+      "data": "2026-10-06",
+      "tagi": [
+        "ue",
+        "ukraina",
+        "wegry"
+      ],
+      "etap": "PROPOZYCJA",
+      "tekst": "Komisja Europejska przyjęła **przeglądy polityk przed rozszerzeniem**: proponuje przejście z jednomyślności na **głosowanie większością kwalifikowaną** w kluczowych obszarach, w tym przy otwieraniu klastrów negocjacyjnych, terminy w procedurze z art. 7 TUE, osobny mechanizm ochronny (z możliwością zawieszenia prawa głosu nowego członka przy poważnym naruszeniu wartości) oraz okresy przejściowe m.in. dla swobodnego przepływu pracowników i rolnictwa. Według KE budżet UE może przyjąć nowych członków bez porzucania obecnych priorytetów; dla Czarnogóry, Albanii, Mołdawii i Ukrainy Komisja przedstawi mapy drogowe negocjacji.",
+      "zrodla": [
+        {
+          "nazwa": "Komisja Europejska",
+          "url": "https://commission.europa.eu/news-and-media/news/preparing-wider-european-union-2026-10-06_en",
+          "data": "2026-10-06"
+        }
+      ]
+    },
+    {
+      "id": "z9",
+      "blok": "instytucje",
+      "data": "2026-10-06",
+      "tagi": [
+        "niemcy",
+        "hybryda"
+      ],
+      "etap": "W TOKU",
+      "tekst": "Prokurator generalny Niemiec zatrzymał 6.10 **Augusta Hanninga**, prezesa BND w latach 1998–2005 i sekretarza stanu w MSW w latach 2005–2009, oraz Manfreda D., wieloletniego kierownika biur kolejnych prezesów BND; Hanning jest podejrzany o szpiegostwo i usiłowanie zdrady stanu. Według prokuratury D. przekazał mu ok. 2000 dokumentów wewnętrznych BND (część niejawnych, m.in. briefingi dla Urzędu Kanclerskiego), a Hanning przygotowywał analizy dla pracowników obcego wywiadu – prokuratura nie podała, którego państwa. O areszcie zdecyduje sędzia śledczy Federalnego Trybunału Sprawiedliwości.",
+      "zrodla": [
+        {
+          "nazwa": "Prokurator Generalny Niemiec (GBA, przez Presseportal)",
+          "url": "https://www.presseportal.de/blaulicht/pm/14981/6365655",
+          "data": "2026-10-06"
+        },
+        {
+          "nazwa": "ABC News (Australia, za Reuters)",
+          "url": "https://www.abc.net.au/news/2026-10-07/german-spy-chief-teason-allegations/107236556",
+          "data": "2026-10-06"
+        }
+      ]
+    },
+    {
+      "id": "z6",
+      "blok": "instytucje",
+      "data": "2026-10-06",
+      "tagi": [
+        "rumunia"
+      ],
+      "etap": "PROPOZYCJA",
+      "tekst": "Prezydent Rumunii {{o:nicusor-dan|Nicușor Dan}} desygnował 5.10 na premiera **Lucę Niculescu** – bezpartyjnego dyplomatę, sekretarza stanu w MSZ odpowiedzialnego za akcesję do OECD, w latach 2016–2022 ambasadora we Francji; to czwarte wskazanie w obecnym kryzysie, po przegranym głosowaniu nad rządem {{o:siegfried-muresan|Siegfrieda Mureșana}}. Niculescu ma 10 dni na przedstawienie składu rządu i programu przed głosowaniem w parlamencie.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (za TimesLive)",
+          "url": "https://www.timeslive.co.za/news/world/2026-10-06-romanian-president-nominates-diplomat-luca-niculescu-as-pm/",
+          "data": "2026-10-06"
+        },
+        {
+          "nazwa": "AP (za Washington Times)",
+          "url": "https://www.washingtontimes.com/news/2026/oct/5/romanias-president-nominates-fourth-prime-minister-designate-bid-end/",
+          "data": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "id": "z7",
+      "blok": "swiat",
+      "data": "2026-10-04",
+      "tagi": [
+        "afryka"
+      ],
+      "etap": "PRZYJĘTE",
+      "tekst": "W Nowym El-Alamejn prezydenci Egiptu (Abd al-Fattah as-Sisi), Erytrei (Isajas Afewerki), Somalii (Hasan Szejk Mahmud) i przewodniczący Rady Suwerenności Sudanu gen. Abd al-Fattah al-Burhan przyjęli 4.10 **deklarację**, według której zarządzanie Morzem Czerwonym należy **wyłącznie do państw nadbrzeżnych**; odrzucili jednostronne działania szkodzące dostępowi państw dolnego biegu do wód Nilu oraz uznanie Somalilandu i powołali mechanizm stałych konsultacji. Deklaracja nie wymienia Etiopii, ale premier Abiy Ahmed, zaprzysiężony 5.10 na trzecią kadencję, ponownie zażądał dostępu swojego kraju do morza.",
+      "zrodla": [
+        {
+          "nazwa": "Prezydent Egiptu (komunikat)",
+          "url": "https://www.presidency.eg/en/%D9%82%D8%B3%D9%85-%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D8%B1%D8%A6%D8%A7%D8%B3%D9%8A%D8%A9/news04102026-12/",
+          "data": "2026-10-04"
+        },
+        {
+          "nazwa": "AP (za WRAL)",
+          "url": "https://www.wral.com/news/ap/bad74-ethiopia-again-demands-access-to-the-red-sea-as-tensions-with-neighbors-escalate/",
+          "data": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "id": "z8",
+      "blok": "swiat",
+      "data": "2026-10-06",
+      "tagi": [
+        "rosja"
+      ],
+      "etap": null,
+      "tekst": "Irkuck: po śmierci 28-letniej laborantki Irkuckiego Instytutu Przeciwdżumowego rosyjski Rospotriebnadzor podał, że w jej materiale nie wykryto drobnoustrojów związanych z pracą instytutu, a u osób z kontaktu stwierdzono tylko COVID-19 i rinowirusa; kwarantanna instytutu i szpitali trwa. Sekretarz stanu USA Marco Rubio powiedział 6.10, że Waszyngton śledzi sprawę „godzina po godzinie”, i wezwał Rosję do udostępnienia informacji; komunikatu WHO do zamknięcia wydania nie było.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/05/situation-under-control-russian-authorities-reassure-public-after-plague-reports-in-siberi",
+          "data": "2026-10-05"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/rubio-presses-russia-for-answers-over-suspected-plague-death-in-siberia/",
+          "data": "2026-10-06"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "Globalna Europa: pomoc rozwojowa jako narzędzie geopolityki",
+      "autor": "PISM (Patryk Kugiel), Biuletyn PISM nr 68 z 6.10.2026",
+      "tagi": [
+        "ue"
+      ],
+      "tekst": "Kugiel ocenia, że negocjacje instrumentu Globalna Europa w {{p:wrf|WRF}} 2028–34 przestawiają unijną pomoc rozwojową z działalności charytatywnej na narzędzie interesów strategicznych. Proponowany instrument przekracza 200 mld euro (10,4% budżetu UE, o 75% więcej niż obecnie), głównym beneficjentem staje się Europa z Ukrainą, a udział Afryki maleje; autor spodziewa się w negocjacjach cięć od 3,9% do 40% i sporu o elastyczność kosztem przewidywalności pomocy.",
+      "dla_polski": "Autor zaleca, by Polska popierała możliwie wysoki budżet zewnętrzny UE (stabilizacja sąsiedztwa, w tym Ukrainy) i przygotowała krajowe instytucje do certyfikacji przez KE oraz wspólnych ofert w formule „Team Poland”, by realnie korzystać z tych środków.",
+      "zrodla": [
+        {
+          "nazwa": "PISM",
+          "url": "https://pism.pl/publikacje/negocjacje-nowego-instrumentu-globalna-europa-i-przyszlosc-unijnej-wspolpracy-rozwojowej",
+          "data": "2026-10-06"
+        }
+      ]
+    },
+    {
+      "tytul": "Atak w strefie ekonomicznej to nie atak na terytorium",
+      "autor": "Edmarverson A. Santos, Diplomacy and Law, 6.10.2026",
+      "tagi": [
+        "bulgaria",
+        "nato"
+      ],
+      "tekst": "Autor podkreśla, że wyłączna strefa ekonomiczna Bułgarii nie jest jej terytorium: państwo nadbrzeżne ma tam prawa do zasobów i jurysdykcję w określonych sprawach, a działania wojskowe nie są zakazane samym położeniem. Statek handlowy nie staje się celem wojskowym tylko z powodu wojny – liczą się ładunek i związki z siłami zbrojnymi. Art. 5 Traktatu Północnoatlantyckiego nie ma zastosowania automatycznie, a odpowiedzialność państwa wymaga najpierw przypisania ataku.",
+      "dla_polski": "Takie ataki mieszczą się w „szarej strefie” poniżej progu art. 5 – dla Polski, która ma własną strefę na Bałtyku i tranzyt LNG oraz paliw przez Gdańsk i Świnoujście, to argument za wspólną natowską procedurą identyfikacji sprawcy i ochrony żeglugi (wniosek redakcji).",
+      "zrodla": [
+        {
+          "nazwa": "Diplomacy and Law",
+          "url": "https://www.diplomacyandlaw.com/post/drone-attacks-on-merchant-ships-in-bulgaria-black-sea-eez",
+          "data": "2026-10-06"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-10-07",
+      "tekst": "Szczyt MED9 w Splicie z udziałem Antónia Costy; protokół z wrześniowego posiedzenia {{p:fomc|FOMC}}; decyzja RPP po posiedzeniu 6–7.10 (stopa referencyjna 3,75%).",
+      "tagi": [
+        "ue",
+        "usa",
+        "gospodarka"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/02/weekly-schedule-of-president-antonio-costa/",
+          "data": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-08",
+      "tekst": "Eurogrupa (8.10) i ECOFIN (9.10); 8.10 polsko-filipińskie forum biznesowe IT w Manili, ostatni dzień wizyty prezydenta Nawrockiego.",
+      "tagi": [
+        "ue",
+        "dyplomacja-rp"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE (kalendarz posiedzeń)",
+          "url": "https://www.consilium.europa.eu/en/meetings/calendar/",
+          "data": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-09",
+      "tekst": "9–10.10: Czechy – I tura wyborów do Senatu i wybory samorządowe; 9.10 Costa w Amsterdamie i Hadze.",
+      "tagi": [
+        "czechy",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-12",
+      "tekst": "12–13.10: Warsaw Security Forum w Warszawie – według organizatora naczelny dowódca sił NATO w Europie gen. Alexus Grynkewich przedstawi tam publicznie strategię obrony wschodniej flanki.",
+      "tagi": [
+        "nato",
+        "obronnosc-polski"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "PAP MediaRoom (komunikat organizatora)",
+          "url": "https://pap-mediaroom.pl/polityka-i-spoleczenstwo/warsaw-security-forum-2026-w-centrum-debaty-o-przyszlosci-nato-i",
+          "data": "2026-10-06"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-12",
+      "tekst": "Rada do Spraw Zagranicznych UE (Ukraina); 13.10 Rada do Spraw Ogólnych – {{p:wrf|WRF}} 2028–34 i praworządność na Węgrzech; 12–18.10 doroczne zgromadzenia MFW i Banku Światowego (Bangkok).",
+      "tagi": [
+        "ue",
+        "wegry",
+        "mfw"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE (kalendarz posiedzeń)",
+          "url": "https://www.consilium.europa.eu/en/meetings/calendar/",
+          "data": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-12",
+      "tekst": "Ukraina: planowane głosowanie Rady Najwyższej nad ustawą o prawach mniejszości narodowych – warunek zniesienia węgierskiej blokady klastrów 3 i 4.",
+      "tagi": [
+        "ukraina",
+        "wegry"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-could-celebrate-fresh-eu-accession-breakthrough-in-brussels-next-week-source-says/",
+          "data": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-15",
+      "tekst": "15–16.10: Rada Europejska w Brukseli (m.in. WRF 2028–34, Ukraina, rozszerzenie).",
+      "tagi": [
+        "ue"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE",
+          "url": "https://www.consilium.europa.eu/en/meetings/european-council/2026/10/15-16/",
+          "data": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-16",
+      "tekst": "16–17.10: Czechy – II tura wyborów do Senatu.",
+      "tagi": [
+        "czechy",
+        "wybory"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-10-25",
+      "tekst": "II tura wyborów prezydenckich w Brazylii (Flávio Bolsonaro – Lula)",
+      "tagi": [
+        "ameryki",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-25",
+      "tekst": "wybory parlamentarne w Serbii",
+      "tagi": [
+        "balkany",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-28",
+      "tekst": "27–28.10 FOMC (Fed), 28–29.10 posiedzenie EBC",
+      "tagi": [
+        "gospodarka"
+      ]
+    },
+    {
+      "data": "2026-11-01",
+      "tekst": "kolejne spotkanie państw OPEC+ w sprawie limitów wydobycia (na grudzień)",
+      "tagi": [
+        "energia"
+      ]
+    },
+    {
+      "data": "2026-11-03",
+      "tekst": "wybory połowy kadencji w USA",
+      "tagi": [
+        "usa",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-11-12",
+      "tekst": "Europejska Wspólnota Polityczna w Irlandii (12.11), 13.11 nieformalne spotkanie przywódców UE",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [
+      {
+        "tytul": "Utrzymać kurs. Merz w Kijowie (Analizy OSW)",
+        "autor": "Lidia Gibadło",
+        "data": "2026-10-05",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-05/utrzymac-kurs-merz-w-kijowie"
+      }
+    ],
+    "pism": [
+      {
+        "tytul": "Negocjacje nowego instrumentu Globalna Europa i przyszłość unijnej współpracy rozwojowej (Biuletyn PISM nr 68)",
+        "autor": "Patryk Kugiel",
+        "data": "2026-10-06",
+        "url": "https://pism.pl/publikacje/negocjacje-nowego-instrumentu-globalna-europa-i-przyszlosc-unijnej-wspolpracy-rozwojowej"
+      }
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "id": "c1",
+      "prog": "dokumentacja",
+      "tekst": "Wojskowa prokuratura w Lublinie umorzyła śledztwo w sprawie wtargnięcia ponad 30 rosyjskich dronów w nocy 9/10.09.2025, bo nie ustalono, kto personalnie zarządził atak – podaje tylko „Rzeczpospolita” (inne redakcje ją cytują), bez komunikatu prokuratury.",
+      "sprawdzono": [
+        "rp.pl 6.10",
+        "Wirtualna Polska 6.10 (za „Rzeczpospolitą”)",
+        "wyszukiwarka: PAP, gov.pl/prokuratura – brak komunikatu"
+      ]
+    },
+    {
+      "id": "c2",
+      "prog": "dokumentacja",
+      "tekst": "Jemen: siły rządowe twierdzą, że 5.10 zdobyły Mochę, Dhubab i rejon cieśniny Bab al-Mandab, a koalicja saudyjska – że w operacji bierze udział 100 samolotów; Huti nazywają to fabrykacją. Zdobycze to deklaracje jednej strony, niezweryfikowane niezależnie.",
+      "sprawdzono": [
+        "Euronews 6.10",
+        "Al Jazeera 5–6.10",
+        "The National 5.10",
+        "CNN 4.10 (tylko początek ofensywy)"
+      ]
+    },
+    {
+      "id": "c3",
+      "prog": "dokumentacja",
+      "tekst": "Iran: po dymisji ministra ropy Mohsena Paknedżada p.o. ministra miał zostać Hamid Bowar, szef NIOC – tylko The National i przedruk depeszy w FMT, bez komunikatu władz otwartego bezpośrednio.",
+      "sprawdzono": [
+        "The National 5.10",
+        "Free Malaysia Today 5.10",
+        "wyszukiwarka: Reuters, AP – brak otwartej depeszy"
+      ]
+    },
+    {
+      "id": "c4",
+      "prog": "dokumentacja",
+      "tekst": "Niemcy: pierwszym w historii RFN przewodniczącym landtagu z AfD został 6.10 w Saksonii-Anhalt Tobias Rausch (48 głosów) – źródła spoza rankingu (ZDF, Tagesspiegel), bez depeszy z poziomów 1–2.",
+      "sprawdzono": [
+        "ZDFheute 6.10",
+        "Tagesspiegel 6.10",
+        "wyszukiwarka: DW, Reuters – brak"
+      ]
+    },
+    {
+      "id": "c5",
+      "prog": "dokumentacja",
+      "tekst": "Ukraina–UE: otwarcie dwóch kolejnych klastrów negocjacyjnych planowane na 13.10, jeśli Rada Najwyższa do 12.10 uchwali ustawę o mniejszościach – tylko Kyiv Independent.",
+      "sprawdzono": [
+        "Kyiv Independent 6.10",
+        "Komisja Europejska 6.10 (bez dat klastrów)",
+        "Jewropejśka Prawda 5.10 (strona niedostępna)"
+      ]
+    },
+    {
+      "id": "c6",
+      "prog": "dokumentacja",
+      "tekst": "Korea: Seul uznał, że wybuch min w strefie zdemilitaryzowanej spowodowały miny podłożone przez Północ; Pjongjang zaprzecza i grozi odwetem – bez otwartej depeszy z poziomów 1–2.",
+      "sprawdzono": [
+        "Japan Times (blokada)",
+        "Al Jazeera (wyszukiwarka)",
+        "Just Security 6.10 (streszczenie Reutersa)"
+      ]
+    },
+    {
+      "prog": "następstwo",
+      "tekst": "Hiszpania: 6.10 BOE opublikował dekret o rozwiązaniu Kortezów i wyborach 29.11 (kampania 13–27.11) – formalne potwierdzenie decyzji opisanej w wydaniu nr 17, bez nowego następstwa."
+    },
+    {
+      "prog": "kompletność",
+      "tekst": "Nie opracowano w tym wydaniu (do sprawdzenia w następnym): naloty Izraela w Strefie Gazy i spór Londynu z Izraelem o konsulat w Jerozolimie, wycofanie amerykańskich bombowców z RAF Fairford i incydenty w cieśninie Ormuz, atak dronów na Zaporoską Elektrownię Jądrową, walki w Tigraju, wezwanie premiera Litwy do reakcji NATO na ataki hybrydowe, wybory w Quebecu, protesty licealistów we Francji, trzeci statek trafiony 6.10 u wybrzeży obwodu odeskiego."
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-10-05#c1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Nadal brak komunikatu NATO; drugi dokument to komunikat organizatora Warsaw Security Forum (12–13.10), według którego gen. Grynkewich przedstawi tam strategię – to zapowiedź PR, nie źródło z poziomów 1–2. Rozstrzygnie samo wystąpienie 12–13.10 (w kalendarzu).",
+      "sprawdzono": [
+        "nato.int i shape.nato.int – brak komunikatu",
+        "PAP MediaRoom 6.10 (komunikat organizatora WSF)",
+        "Defence24 2.10 (informacje nieoficjalne)",
+        "defencematters.eu 6.10 (za Bloombergiem)"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-05#c2",
+      "wynik": "UZUPEŁNIONE",
+      "pozycja": "z7"
+    }
+  ],
+  "do_sprawdzenia": [
+    "Bułgaria/Rumunia – ataki na statki: wskazanie sprawcy, reakcja NATO, Turcji, UE; los załogi Alfa Watan",
+    "Rumunia – skład rządu Niculescu i termin głosowania w parlamencie",
+    "Nawrocki na Filipinach 7–8.10 – podpisane dokumenty (prezydent.pl zablokowany – sprawdzić PAP)",
+    "RPP 7.10 – decyzja (tylko kontekst gospodarczy)",
+    "Prokuratura – umorzenie śledztwa dronowego: komunikat lub PAP",
+    "Irkuck – komunikat WHO",
+    "Jemen – niezależne potwierdzenie zdobyczy (AP, Reuters)",
+    "Iran – nowy minister ropy (komunikat rządu)",
+    "Warsaw Security Forum 12–13.10 – wystąpienie gen. Grynkewicha",
+    "Hanning – decyzja o areszcie, państwo, dla którego miał pracować",
+    "Gaza, Ormuz/RAF Fairford, ZEJ, Tigraj, Quebec – sprawdzić, czy są następstwa"
+  ],
+  "nota": "Wydanie nr 18, przygotowane 6.10.2026 między 19:50 a 21:15 CEST; obejmuje okres od wydania nr 17. Otwarto: Komisja Europejska, prezydent Egiptu (deklaracja z El-Alamejn), OSW, PISM, Euronews, Kyiv Independent, AP (przez ABC News i WRAL), LRT, PAP (przez Radio Maryja), PAP MediaRoom, Al Jazeera, TradingEconomics, OPEC, Fed, EBC, Rada UE (agenda przywódców), Infobae i Público (BOE), rp.pl, Diplomacy and Law, Presseportal (prokurator generalny Niemiec), ABC News (Australia). Niedostępne lub zablokowane: prezydent.pl i pco.gov.ph (403; konferencję prasową Marcosa i Nawrockiego potwierdza tytuł strony PCO), Manila Bulletin, Manila Times, BusinessWorld, CNBC, US News (403), France 24 (robots), NBP (403). OSW nie opublikował nic nowego 4 ani 6.10 (5.10 – tekst Lidii Gibadło, omówiony w wydaniu nr 17); PISM – Biuletyn Patryka Kugiela z 6.10, 4–5.10 bez publikacji. Gospodarka bez pozycji: Brent 6.10 ok. 100 USD/bbl (trzecia sesja spadków), gaz TTF 76,2 EUR/MWh (+3,7% po przedłużeniu przez QatarEnergy siły wyższej na dostawy LNG do grudnia), EUR/PLN 4,37, USD/PLN 3,88 (TradingEconomics); OPEC+ 4.10 utrzymał na listopad poziom wydobycia (komunikat OPEC). Kalendarium: dopisano Europejską Wspólnotę Polityczną (12.11), wstępny termin nadzwyczajnej Rady Europejskiej w sprawie WRF (26–27.11), drugie głosowanie na Litwie (12.01.2027) oraz posiedzenia Fed i EBC w kwietniu 2027. Kontrola niezależna przed wysyłką: poprawiono typ uzbrojenia (Banderol to pocisk, nie bomba), przypisano stronie rosyjskiej liczbę ofiar w obwodzie moskiewskim, doprecyzowano zatopienie Royad Mammadov i dodano pozycję o zatrzymaniu Augusta Hanninga. Korekt brak."
+}

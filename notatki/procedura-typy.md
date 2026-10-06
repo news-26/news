@@ -14,5 +14,3 @@ W wydaniu są tylko informacje potwierdzone. Co nie przechodzi, idzie do „Czeg
 | H. Wypowiedź strony | Kreml, Biały Dom, Mińsk, Teheran twierdzi X | Tylko jako udokumentowany fakt, że padła (zapis, komunikat, dwa serwisy), z atrybucją; nigdy jako fakt o treści. Relacja z drugiej ręki albo sam tytuł – „Czego tu nie ma”. |
 
 Pułapki: dziedziczenie błędów z poprzednich wydań, „powszechnie znane” rzeczy niesprawdzone dziś, przesadzające nagłówki, pozycja oparta na samym tytule, źródła strony zainteresowanej bez oznaczenia, osoby o podobnych nazwiskach.
-
-Kompletność, np.: „Dmitrij Pieskow, rzecznik Kremla” (nie samo „Pieskow”); „zestawy Poprad z 12. Brygady Zmechanizowanej, dwa czeskie AH-1Z Viper z 22. Bazy Śmigłowcowej” (nie „systemy przeciwlotnicze”); EPF rozwinięty jako unijny fundusz na wsparcie wojskowe.

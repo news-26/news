@@ -210,7 +210,7 @@ def main():
     r.append(f'<tr><td style="padding:6px 20px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="font-size:14px;">{kal}</table>{poza}</td></tr>')
     nie_ma = ""
     if w.get("czego_nie_ma"):
-        nie_ma = "<b>Czego tu nie ma.</b> " + "; ".join(f'{T(c["tekst"])} (próg: {e(c["prog"])})' for c in w["czego_nie_ma"]) + "<br><br>"
+        nie_ma = "<b>W obserwacji.</b> " + "; ".join(f'{T(c["tekst"])} (próg: {e(c["prog"])})' for c in w["czego_nie_ma"]) + "<br><br>"
     if w.get("rozstrzygniecia"):
         nie_ma += "<b>Rozstrzygnięcia z poprzedniego wydania.</b> " + "; ".join(
             f'{e(r["wynik"])}: wpis z {B.data_dluga(r["dotyczy"].split("#")[0])}' + (f' – {T(r["powod"])}' if r.get("powod") else "")

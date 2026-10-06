@@ -101,7 +101,7 @@ def main():
         h.append(Paragraph(f"<b>{nz}:</b> " + ("brak nowych publikacji z ostatnich 3 dni" if not lst else
                            "; ".join(f"{B.e(p['tytul'])} ({B.e(p.get('autor', ''))}, {B.data_krotka(p['data'])})" for p in lst)), st["txt"]))
     if w.get("czego_nie_ma"):
-        h.append(Paragraph("<b>Czego tu nie ma:</b> " + "; ".join(f"{T(c['tekst'])} (próg: {c['prog']})" for c in w["czego_nie_ma"]), st["zr"]))
+        h.append(Paragraph("<b>W obserwacji:</b> " + "; ".join(f"{T(c['tekst'])} (próg: {c['prog']})" for c in w["czego_nie_ma"]), st["zr"]))
     if w.get("rozstrzygniecia"):
         h.append(Paragraph("<b>Rozstrzygnięcia z poprzedniego wydania:</b> " + "; ".join(f"{r['dotyczy']}: {r['wynik']}" for r in w["rozstrzygniecia"]), st["zr"]))
     if w.get("nota"):

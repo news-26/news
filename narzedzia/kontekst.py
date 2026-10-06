@@ -7,7 +7,7 @@ Użycie:
     python3 narzedzia/kontekst.py --zrodlo NAZWA_LUB_URL # poziom źródła w rankingu
     python3 narzedzia/kontekst.py --szukaj FRAZA         # wpisy rejestru notatki/rejestr-faktow.md z frazą
 
-Drukuje: numer następnego wydania, „Do sprawdzenia” i wpisy „Czego tu nie ma” (dokumentacja) z poprzedniego
+Drukuje: numer następnego wydania, „Do sprawdzenia” i wpisy z sekcji „W obserwacji” (dokumentacja) z poprzedniego
 wydania do rozstrzygnięcia, kalendarz poprzedniego wydania, terminy obowiązkowe w oknie 10 dni i te do rozliczenia,
 karty osób starsze niż 7 dni (z ostatnich 3 wydań), listę hashtagów i skrót rankingu źródeł.
 """

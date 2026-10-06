@@ -197,6 +197,42 @@ class Bledy(list):
         self.append(f"{gdzie}: {co}")
 
 
+# Zasady jakości publikowanych plików: strona nie zawiera adresów e-mail, ścieżek
+# lokalnych ani identyfikatorów sesji roboczych, nie pobiera zasobów z zewnątrz
+# i każda podstrona ma politykę referrer.
+EMAIL_RE = re.compile(r"[\w.+-]+@(?!users\.noreply\.github\.com\b)[\w-]+(?:\.[\w-]+)*\.[a-z]{2,}", re.I)
+SCIEZKA_LOKALNA_RE = re.compile(r"(?<![\w.])/(?:home|Users|mnt|root|tmp)/|session_0[0-9A-Za-z]{10,}|claude\.ai/code")
+ZASOB_ZEWN_RE = re.compile(
+    r"""<script[^>]+src=["']?https?:|<iframe|<img[^>]+src=["']?https?:|<link[^>]+href=["']?https?:"""
+    r"""|@import|url\(["']?https?:|<embed|<object""", re.I)
+
+
+def sprawdz_pliki(pliki, korzen, b: Bledy):
+    for p in pliki:
+        try:
+            t = p.read_text("utf-8")
+        except (UnicodeDecodeError, OSError):
+            continue
+        gdzie = str(p.relative_to(korzen))
+        for rx, co in ((EMAIL_RE, "adres e-mail"), (SCIEZKA_LOKALNA_RE, "ścieżka lokalna lub identyfikator sesji")):
+            m = rx.search(t)
+            if m:
+                b.dodaj(gdzie, f"{co}: {m.group(0)}")
+        if p.suffix in (".html", ".css"):
+            m = ZASOB_ZEWN_RE.search(t)
+            if m:
+                b.dodaj(gdzie, f"zasób z zewnątrz: {m.group(0)}")
+        if p.suffix == ".html":
+            if 'name="referrer" content="no-referrer"' not in t:
+                b.dodaj(gdzie, "brak <meta name=\"referrer\" content=\"no-referrer\">")
+
+
+def pliki_zrodlowe():
+    yield REPO / "README.md"
+    for kat in ("dane", "notatki"):
+        yield from (p for p in (REPO / kat).rglob("*") if p.is_file())
+
+
 URL_RE = re.compile(r"^https?://[^\s]+$")
 ZNACZNIK_RE = re.compile(r"\{\{([op]):([a-z0-9-]+)(?:\|([^}]*))?\}\}")
 
@@ -808,6 +844,7 @@ class Budowa:
         self.rewizje = list(rewizje)
         self.rewizje_poz = {r["dotyczy"]: r for r in self.rewizje}
         self.out = wyjscie
+        self.zapisane = []
         # korekty: klucz pozycji -> lista (wydanie korygujące, korekta)
         self.korekty_poz = {}
         for w in wydania:
@@ -918,6 +955,7 @@ class Budowa:
         p = self.out / sciezka
         p.parent.mkdir(parents=True, exist_ok=True)
         p.write_text(tresc, "utf-8")
+        self.zapisane.append(p)
 
     # ---- grafiki
 
@@ -2008,6 +2046,7 @@ class Budowa:
         src = REPO / "narzedzia" / "styl.css"
         (self.out / "assets").mkdir(parents=True, exist_ok=True)
         shutil.copy(src, self.out / "assets" / "styl.css")
+        self.zapisane.append(self.out / "assets" / "styl.css")
 
     def wszystko(self):
         for sciezka in ("wydania", "watki", "osoby", "pojecia", "top"):
@@ -2051,6 +2090,7 @@ def main():
         print("\n".join(raport) or "Brak ostrzeżeń.")
         return
     bledy = waliduj(tagi, osoby, pojecia, wydania, rewizje, topy)
+    sprawdz_pliki(pliki_zrodlowe(), REPO, bledy)
     if bledy:
         print("WALIDACJA NIE PRZESZŁA — strona nie została zbudowana:", file=sys.stderr)
         for x in bledy:
@@ -2060,7 +2100,15 @@ def main():
           f"{len(tagi)} hashtagów, {len(osoby)} osób, {len(pojecia)} pojęć, {len(topy)} zestawień Top 10.")
     if a.sprawdz:
         return
-    Budowa(tagi, osoby, pojecia, wydania, a.wyjscie, rewizje, topy).wszystko()
+    budowa = Budowa(tagi, osoby, pojecia, wydania, a.wyjscie, rewizje, topy)
+    budowa.wszystko()
+    bledy = Bledy()
+    sprawdz_pliki(budowa.zapisane, a.wyjscie, bledy)
+    if bledy:
+        print("KONTROLA STRONY NIE PRZESZŁA — nie publikuj, popraw dane i zbuduj ponownie:", file=sys.stderr)
+        for x in bledy:
+            print("  - " + x, file=sys.stderr)
+        sys.exit(1)
     print(f"Strona zbudowana w {a.wyjscie}")
 
 

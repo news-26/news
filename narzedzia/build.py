@@ -1604,7 +1604,7 @@ class Budowa:
 
     def kalendarium_strona(self):
         ref = self.wydania[-1]["data"] if self.wydania else dt.date.today().isoformat()
-        lista = terminy_w_oknie(ref)
+        lista = sorted(terminy_w_oknie(ref), key=lambda t: (t["od"], t.get("do") or t["od"]))
         koniec = data_(ref) + dt.timedelta(days=KALENDARIUM_DNI)
         T = Tekst(self.osoby, self.pojecia, "")
         licz = {k: sum(1 for t in lista if t.get("kategoria") == k) for k in KATEGORIE_TERMINOW}
@@ -1674,21 +1674,32 @@ class Budowa:
                          for m in miesiace if x(m.isoformat()) < 0.95)
         pasy = []
         for k in kat:
-            wiersze = []  # koniec zajętego obszaru (px) w każdym wierszu
+            wiersze = []  # zajęte odcinki (px) w każdym wierszu
             el = []
-            for t in [t for t in lista if t.get("kategoria") == k]:
+            # Układ schodkowy: kolejne wydarzenie wiersz niżej; nowa „kolumna” od góry dopiero,
+            # gdy wydarzenie zaczyna się za końcem wszystkich podpisów bieżącej kolumny –
+            # czytane z góry na dół i od lewej do prawej, wydarzenia idą chronologicznie.
+            poprz, kol_koniec = -1, -1e9
+            for t in sorted((t for t in lista if t.get("kategoria") == k), key=lambda t: (t["od"], t.get("do") or t["od"])):
                 x0, x1 = x(t["od"]), x(t.get("do") or t["od"])
                 px0 = x0 * SZER
                 pod = t.get("krotko") or skroc(czysty(t["tekst"], self.osoby, self.pojecia), 25)
                 dl = max((x1 - x0) * SZER, 10) + 6 + len(pod) * LITERA
                 lewo = px0 + dl > SZER  # przy prawej krawędzi podpis po lewej stronie znacznika
                 odc = (px0 + 10 - dl, px0 + 10) if lewo else (px0, px0 + dl)
-                r = next((i for i, zaj in enumerate(wiersze) if all(odc[1] + 6 < z0 or odc[0] > z1 + 6 for z0, z1 in zaj)), None)
-                if r is None:
-                    wiersze.append([odc])
-                    r = len(wiersze) - 1
+                def wolny(i):
+                    return i >= len(wiersze) or all(odc[1] + 6 < z0 or odc[0] > z1 + 6 for z0, z1 in wiersze[i])
+                if odc[0] > kol_koniec + 6 and wolny(0):
+                    r = 0  # nowa kolumna od góry
                 else:
-                    wiersze[r].append(odc)
+                    r = poprz + 1
+                    while not wolny(r):
+                        r += 1
+                kol_koniec = odc[1] if r == 0 else max(kol_koniec, odc[1])
+                while len(wiersze) <= r:
+                    wiersze.append([])
+                wiersze[r].append(odc)
+                poprz = r
                 zakres = zakres_dat(t["od"], t.get("do"))
                 opis = czysty(t["tekst"], self.osoby, self.pojecia)
                 el.append(f'<a class="os-p{" kl" if obowiazkowy(t) else ""}{" os-lewo" if lewo else ""}" href="#{e(t["id"])}" style="left:{x0*100:.3f}%;top:{r*WIERSZ}px" '

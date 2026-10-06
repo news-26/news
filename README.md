@@ -6,7 +6,7 @@ Strona: https://news-26.github.io/news/
 
 ## Jak to działa
 
-Treść każdego wydania jest zapisywana raz, jako dane, a strona i mail powstają z nich automatycznie.
+Treść każdego wydania jest zapisywana raz, jako dane, a strona powstaje z nich automatycznie. Procedura wydania: `notatki/procedura.md`.
 
 ```
 dane/
@@ -19,7 +19,6 @@ notatki/
   rejestr-faktow.md         notatki robocze (statusy, rozbieżności) – edycja punktowa, nie trafia na stronę
 narzedzia/
   build.py                  walidacja + budowa strony (pliki HTML w katalogu głównym)
-  mail.py                   mail HTML i tekstowy dla danego wydania
   styl.css                  wygląd strony
 ```
 
@@ -31,7 +30,6 @@ Pliki HTML w katalogu głównym (`index.html`, `wydania/`, `watki/`, `osoby/`, `
 python3 narzedzia/kontekst.py              # zwięzły kontekst na start (zamiast czytania plików danych)
 python3 narzedzia/nowe_wydanie.py RRRR-MM-DD   # szkielet wydania: numer, kalendarz, stuby rozstrzygnięć
 python3 narzedzia/build.py            # walidacja i budowa; przy błędzie nic nie powstaje
-python3 narzedzia/mail.py RRRR-MM-DD  # build/mail-RRRR-MM-DD.html (style w bloku), -krotki.txt (body), .txt (pełny tekst do kontroli)
 python3 narzedzia/pdf.py RRRR-MM-DD   # PDF archiwalny – tylko na żądanie
 git add -A && git commit -m "Wydanie nr N, RRRR-MM-DD" && git push
 ```
@@ -79,7 +77,7 @@ Przy każdym wydaniu aktualizuj też w `dane/tagi.json` pola `stan`, `stan_data`
 
 ### Teksty OSW i PISM
 
-- `zrodla_analityczne` to wszystkie nowe teksty OSW i PISM z ostatnich 3 dni (tytuł, autor, data, numer, URL). W wydaniu lista stoi w sekcji II, zaraz pod analizami; w mailu tak samo.
+- `zrodla_analityczne` to wszystkie nowe teksty OSW i PISM z ostatnich 3 dni (tytuł, autor, data, numer, URL). W wydaniu lista stoi w sekcji II, zaraz pod analizami.
 - Analiza oparta na tekście OSW/PISM ma ten tekst jako **pierwsze** źródło w `zrodla`, z tym samym adresem co w `zrodla_analityczne` (różnica `www.` nie ma znaczenia). Wtedy karta analizy pokazuje etykietę wydawcy i link „Przeczytaj tekst OSW/PISM” z oryginalnym tytułem, a lista i Czytelnia – odnośnik do omówienia.
 - `czytelnia.html` zbiera teksty ze wszystkich wydań (bez powtórzeń, od najnowszych) z filtrem OSW / PISM / z omówieniem; dla omówionych pokazuje wniosek „Dla Polski”, a przy tekstach z czytelni tygodniowej – pole `po_co`.
 - Kotwice w wydaniu: `#zarys`, `#mapa`, `#analizy`, `#analiza-N`, `#publikacje`, `#kalendarz`, `#czego-nie-ma`, `#nota`; spis sekcji pod „W skrócie” powstaje z nich automatycznie.
@@ -132,7 +130,7 @@ Walidacja jak w wydaniach: każdy wiersz `przebieg` musi mieć źródło z pozio
 
 ## Ranking źródeł
 
-`dane/zrodla.json` ocenia każde źródło w skali 1–5 (1 urzędowe – zielony, 2 wysoka wiarygodność, 3 z zastrzeżeniami, 4 niska, 5 strona zainteresowana – czerwony), z typem, krajem i uzasadnieniem. Źródło w wydaniu jest dopasowywane po początku nazwy (`wzorce`, np. „Reuters (za U.S. News)” → Reuters), a potem po domenie linku. Strona `zrodla.html` pokazuje ranking i rozkład cytowań; przy każdym źródle na stronie i w mailu jest kolorowa kropka.
+`dane/zrodla.json` ocenia każde źródło w skali 1–5 (1 urzędowe – zielony, 2 wysoka wiarygodność, 3 z zastrzeżeniami, 4 niska, 5 strona zainteresowana – czerwony), z typem, krajem i uzasadnieniem. Źródło w wydaniu jest dopasowywane po początku nazwy (`wzorce`, np. „Reuters (za U.S. News)” → Reuters), a potem po domenie linku. Strona `zrodla.html` pokazuje ranking i rozkład cytowań; przy każdym źródle na stronie jest kolorowa kropka.
 
 Walidacja odrzuca źródło spoza rankingu (nowe trzeba świadomie dopisać z poziomem i uzasadnieniem), a w wydaniach od 01.10.2026 także pozycję bez wystarczającej podstawy: źródło z poziomu 1 albo dwa niezależne z poziomów 1–2 (poziomy 3–5 nie liczą się do podstawy). Do `zrodla` pozycji wpisuj wszystkie źródła, którymi ją potwierdzono.
 

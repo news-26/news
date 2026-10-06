@@ -462,7 +462,7 @@ button.kal-strz[disabled] { color: var(--linia); cursor: default; }
 #fk-szczyt:checked ~ .kalm .kalm-m:not(:has(.k-szczyt)), #fk-wybory:checked ~ .kalm .kalm-m:not(:has(.k-wybory)),
 #fk-banki:checked ~ .kalm .kalm-m:not(:has(.k-banki)), #fk-instytucje:checked ~ .kalm .kalm-m:not(:has(.k-instytucje)),
 #fk-inne:checked ~ .kalm .kalm-m:not(:has(.k-inne)) { display: none; }
-@media (max-width: 560px) { .kalm .poz { grid-template-columns: 64px 1fr; } .kalm .poz::before { left: 78px; } }
+@media (max-width: 600px) { .kalm .poz::before { left: 5px; } }
 
 /* kalendarium – oś czasu */
 .os { position: relative; margin: 18px 0 8px; padding: 12px 14px 10px; background: var(--karta); border: 1px solid var(--linia); border-radius: 6px; }

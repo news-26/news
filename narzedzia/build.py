@@ -44,9 +44,9 @@ ETAPY = {None, "PROPOZYCJA", "ZAPOWIEDŹ", "PRZYJĘTE", "W TOKU"}
 PROGI = {"dokumentacja", "następstwo", "kompletność"}
 WERDYKTY = {"POTWIERDZONE", "SPROSTOWANE", "NADAL OTWARTE"}
 # Straże kompletności (od wydania z 5.10.2026, po pominięciu szczytu Trump–Xi 25.09):
-#  1. „Czego tu nie ma” z progiem dokumentacja: pole id i lista „sprawdzono” (min. 3 miejsca, w tym komunikat instytucji).
+#  1. „W obserwacji” z progiem dokumentacja: pole id i lista „sprawdzono” (min. 3 miejsca, w tym komunikat instytucji).
 #  2. Następne wydanie dzienne rozlicza każdy taki wpis w „rozstrzygniecia”.
-#  3. Termin z kalendarza po upływie 2 dni ma pozycję w zarysie albo wpis w „Czego tu nie ma” z polem „kalendarz”.
+#  3. Termin z kalendarza po upływie 2 dni ma pozycję w zarysie albo wpis w sekcji „W obserwacji” z polem „kalendarz”.
 STRAZE_OD = "2026-10-05"
 DNI_NA_ROZLICZENIE_KALENDARZA = 2
 MIN_SPRAWDZONO = 3
@@ -317,7 +317,7 @@ def waliduj_straze(wydania, tagi, b: Bledy, od=None, raport=None):
             klucz = f"{prev['_slug']}#{c['id']}"
             r = rozl.get(klucz)
             if not r:
-                zglos(g0, f"brak rozstrzygnięcia wpisu {klucz} z „Czego tu nie ma” poprzedniego wydania "
+                zglos(g0, f"brak rozstrzygnięcia wpisu {klucz} z sekcji „W obserwacji” poprzedniego wydania "
                           f"(UZUPEŁNIONE z pozycją / NIE DO POTWIERDZENIA ze sprawdzono / ODPADA z powodem)")
                 continue
             if r.get("wynik") not in WYNIKI_ROZSTRZYGNIEC:
@@ -359,7 +359,7 @@ def waliduj_straze(wydania, tagi, b: Bledy, od=None, raport=None):
             if not ok:
                 zglos(f"{w['_plik']} kalendarz {k['data']}",
                       f"termin minął, a w zarysie (zdarzenia {k['data']} – +{DNI_NA_ROZLICZENIE_KALENDARZA} dni, hashtagi {sorted(miejsca or kt)}) "
-                      f"nie ma pozycji ani wpisu w „Czego tu nie ma” z polem kalendarz: „{k['tekst'][:90]}…”")
+                      f"nie ma pozycji ani wpisu w sekcji „W obserwacji” z polem kalendarz: „{k['tekst'][:90]}…”")
 
     # 4. terminy obowiązkowe (dane/terminy.json): w kalendarzu na 7 dni przed i w zarysie po
     for i, t in enumerate(TERMINY):
@@ -402,7 +402,7 @@ def waliduj_straze(wydania, tagi, b: Bledy, od=None, raport=None):
             ok = ok or any(c.get("termin") == t.get("id") for w in wydania for c in w.get("czego_nie_ma", []))
             if not ok:
                 zglos(g, f"termin obowiązkowy minął ({t['od']}–{t_do.isoformat()}), a w zarysie nie ma pozycji z hashtagami "
-                         f"{sorted(miejsca or kt)} ani wpisu w „Czego tu nie ma” z polem termin: „{t.get('tekst', '')[:80]}”")
+                         f"{sorted(miejsca or kt)} ani wpisu w sekcji „W obserwacji” z polem termin: „{t.get('tekst', '')[:80]}”")
 
 
 def waliduj(tagi, osoby, pojecia, wydania, rewizje=(), topy=()) -> Bledy:
@@ -450,7 +450,7 @@ def waliduj(tagi, osoby, pojecia, wydania, rewizje=(), topy=()) -> Bledy:
                            "(źródła z poziomów 3–5 nie liczą się do podstawy; zob. zrodla.html)")
             if "status" in it:
                 b.dodaj(g, f"pole status ({it['status']}) — do zarysu wchodzą tylko informacje potwierdzone; "
-                           "niepotwierdzone przenieś do „Czego tu nie ma” (próg: dokumentacja)")
+                           "niepotwierdzone przenieś do „W obserwacji” (próg: dokumentacja)")
             if it.get("etap") not in ETAPY:
                 b.dodaj(g, f"etap musi być jednym z {sorted(s for s in ETAPY if s)}")
             sprawdz_tagi(it.get("tagi"), g, tagi, b)
@@ -1254,8 +1254,8 @@ class Budowa:
                 for k in sorted(w["poza_oknem"], key=lambda k: k["data"])) + "</table>"
                       f'<p class="dalej"><a href="{prefix}kalendarium.html">Kalendarium – najważniejsze wydarzenia na pół roku naprzód</a></p></div>')
         if w.get("czego_nie_ma"):
-            spis.append(("czego-nie-ma", f'Czego tu nie ma ({len(w["czego_nie_ma"])})'))
-            cz.append('<div class="nota" id="czego-nie-ma"><h3>Czego tu nie ma</h3><ul class="brak">' + "".join(
+            spis.append(("czego-nie-ma", f'W obserwacji ({len(w["czego_nie_ma"])})'))
+            cz.append('<div class="nota" id="czego-nie-ma"><h3>W obserwacji</h3><ul class="brak">' + "".join(
                 f'<li{(" id=" + chr(34) + e(c["id"]) + chr(34)) if c.get("id") else ""}><span class="prog">próg: {e(c["prog"])}</span> {T(c["tekst"])}'
                 + (f' <span class="prog">sprawdzono: {e(", ".join(c["sprawdzono"]))}</span>' if c.get("sprawdzono") else "") + '</li>'
                 for c in w["czego_nie_ma"]) + "</ul></div>")
@@ -1509,7 +1509,7 @@ class Budowa:
                 cz.append(f'<p class="uwaga">{T(z["kryteria"])}</p>')
             cz.extend(self.top_pozycja(z, n, p, T, prefix) for n, p in enumerate(z["pozycje"], 1))
             if z.get("czego_nie_ma"):
-                cz.append('<div class="nota" id="czego-nie-ma"><h3>Czego tu nie ma</h3><ul class="brak">' + "".join(
+                cz.append('<div class="nota" id="czego-nie-ma"><h3>W obserwacji</h3><ul class="brak">' + "".join(
                     f'<li><span class="prog">próg: {e(c["prog"])}</span> {T(c["tekst"])}</li>' for c in z["czego_nie_ma"]) + "</ul></div>")
             if z.get("nota"):
                 cz.append(f'<div class="nota" id="nota"><h3>Nota metodyczna</h3><p>{T(z["nota"])}</p></div>')
@@ -1939,7 +1939,7 @@ class Budowa:
 <h2 class="pasek">Trzy progi</h2>
 <section class="skrot">
 <p><strong>1. Dokumentacja.</strong> Komunikat instytucji, dane urzędowe albo dwa niezależne serwisy. Sam nagłówek z wyszukiwarki nie wystarcza: strona źródła jest otwierana i czytana.</p>
-<p><strong>2. Następstwo.</strong> Coś się zmieniło: zapadła decyzja, powstał termin, zmienił się stan rzeczy. Zdarzenie potwierdzone, ale bez skutku, nie wchodzi do zarysu; trafia do noty „Czego tu nie ma” z podaniem powodu.</p>
+<p><strong>2. Następstwo.</strong> Coś się zmieniło: zapadła decyzja, powstał termin, zmienił się stan rzeczy. Zdarzenie potwierdzone, ale bez skutku, nie wchodzi do zarysu; trafia do noty „W obserwacji” z podaniem powodu.</p>
 <p><strong>3. Kompletność.</strong> Osoba zawsze z funkcją, uzbrojenie z nazwą systemu, liczbą i jednostką, skróty rozwinięte, liczby z datą i źródłem.</p>
 </section>
 <h2 class="pasek">Co sprawdzamy szczególnie</h2>
@@ -1954,8 +1954,8 @@ class Budowa:
 </section>
 <h2 class="pasek">Oznaczenia</h2>
 <section class="skrot">
-<p><strong>Tylko informacje potwierdzone.</strong> Do zarysu nie wchodzą informacje z jednego źródła ani takie, których nie da się udokumentować; trafiają do noty „Czego tu nie ma” z podaniem powodu. Wypowiedź strony zainteresowanej podajemy tylko jako udokumentowany fakt, że padła, z atrybucją w treści („według Kremla…”).</p>
-<p><strong>Kompletność (od 5.10.2026).</strong> Po pominięciu szczytu Trump–Xi we wrześniu sprawdzamy nie tylko to, co weszło do wydania, ale i to, czego w nim brakuje. Ważne zaplanowane wydarzenia (szczyty, wizyty przywódców mocarstw, wybory w regionie) prowadzimy na liście terminów: na tydzień przed muszą stać w kalendarzu wydania, a po zakończeniu – w zarysie albo w nocie „Czego tu nie ma” z wyjaśnieniem; inaczej wydanie nie zostanie zbudowane. To samo dotyczy każdego terminu z kalendarza. Wpis „Czego tu nie ma” z braku dokumentacji wymaga listy miejsc sprawdzonych bez skutku (w tym komunikatów instytucji obu stron), a następne wydanie musi go rozstrzygnąć: uzupełnić, uznać za niemożliwy do potwierdzenia albo odrzucić z powodem. Kontrola niezależna porównuje też zarys z głównymi tematami dnia w agencjach.</p>
+<p><strong>Tylko informacje potwierdzone.</strong> Do zarysu nie wchodzą informacje z jednego źródła ani takie, których nie da się udokumentować; trafiają do noty „W obserwacji” z podaniem powodu. Wypowiedź strony zainteresowanej podajemy tylko jako udokumentowany fakt, że padła, z atrybucją w treści („według Kremla…”).</p>
+<p><strong>Kompletność (od 5.10.2026).</strong> Po pominięciu szczytu Trump–Xi we wrześniu sprawdzamy nie tylko to, co weszło do wydania, ale i to, czego w nim brakuje. Ważne zaplanowane wydarzenia (szczyty, wizyty przywódców mocarstw, wybory w regionie) prowadzimy na liście terminów: na tydzień przed muszą stać w kalendarzu wydania, a po zakończeniu – w zarysie albo w nocie „W obserwacji” z wyjaśnieniem; inaczej wydanie nie zostanie zbudowane. To samo dotyczy każdego terminu z kalendarza. Wpis „W obserwacji” z braku dokumentacji wymaga listy miejsc sprawdzonych bez skutku (w tym komunikatów instytucji obu stron), a następne wydanie musi go rozstrzygnąć: uzupełnić, uznać za niemożliwy do potwierdzenia albo odrzucić z powodem. Kontrola niezależna porównuje też zarys z głównymi tematami dnia w agencjach.</p>
 <p><strong>Rewizja archiwum.</strong> Do 30.09.2026 używaliśmy oznaczeń NIEPOTWIERDZONE i SPRZECZNE ŹRÓDŁA. 01.10.2026 wszystkie takie pozycje, a także oparte na samych tytułach, sprawdzono ponownie: zostawiono tylko część potwierdzoną, a niepotwierdzone wycofano; wersje pierwotne są w <a href="korekty.html#rewizja">rejestrze korekt</a>.</p>
 <p><span class="odznaka etap">PROPOZYCJA</span> <span class="odznaka etap">ZAPOWIEDŹ</span> <span class="odznaka etap">PRZYJĘTE</span> etap decyzji.</p>
 <p><strong>Ocena: autor</strong> przy analizach oznacza interpretację (OSW, PISM, ISW jako think tank albo redakcja), nie ustalenie.</p>

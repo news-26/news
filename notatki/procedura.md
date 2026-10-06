@@ -16,7 +16,7 @@ Wydanie dzienne ok. 20:00, publikowane na https://news-26.github.io/news/. Forma
 
 ## Dwie perspektywy
 
-(a) Co ważne dla Polski i Europy; (b) najważniejsze dla sytuacji międzynarodowej, także bez skutku dla Polski. Pozycję albo wpis w „Czego tu nie ma” zawsze mają:
+(a) Co ważne dla Polski i Europy; (b) najważniejsze dla sytuacji międzynarodowej, także bez skutku dla Polski. Pozycję albo wpis w sekcji „W obserwacji” zawsze mają:
 - wojny i konflikty na świecie (Bliski Wschód, Sudan, Kongo, Sahel, Kaszmir, Tajwan, Korea) – eskalacja, rozejm, przełom, nowa strona;
 - relacje mocarstw (USA, Chiny, Rosja, Indie, UE, Japonia) – szczyty, porozumienia, sankcje i cła dużej skali;
 - zmiany władzy w G20 i kluczowych państwach regionalnych (wybory, przewroty, kryzysy konstytucyjne);
@@ -32,7 +32,7 @@ Filtr szumu: pozycja wchodzi, gdy zmienia decyzję, termin lub stan rzeczy i da 
 - **W skrócie** – 3–5 zdań, w tym co najmniej jedno o najważniejszym wydarzeniu globalnym dnia, jeśli było.
 - **I. Zarys** – 8–14 pozycji w blokach: wojna i sankcje / Polska / instytucje i Europa / świat (zwykle 2–4) / gospodarka (tylko zdarzenia nadzwyczajne). Kolejność według wagi dla Polski. Każda pozycja: data zdarzenia, hashtagi, 1–2 zdania o zmianie, **wyróżnione słowo kluczowe**, etap decyzji, wszystkie źródła potwierdzające.
 - **II. Analizy** – 3–5, każda z autorem oceny i „Dla Polski” (przy sprawach globalnych – skutek pośredni).
-- **III.** Kalendarz 7–10 dni, poza oknem, OSW i PISM z 3 dni (jeśli nic – wprost), „Czego tu nie ma”, rozstrzygnięcia, nota.
+- **III.** Kalendarz 7–10 dni, poza oknem, OSW i PISM z 3 dni (jeśli nic – wprost), „W obserwacji”, rozstrzygnięcia, nota.
 - Bez emoji.
 
 ## Kalendarium (`dane/terminy.json`, pół roku naprzód)
@@ -45,7 +45,7 @@ Filtr szumu: pozycja wchodzi, gdy zmienia decyzję, termin lub stan rzeczy i da 
 
 ## Straże kompletności (pilnuje build.py)
 
-- „Czego tu nie ma” z progiem dokumentacja: `id` + `sprawdzono` (min. 3 miejsca). Następne wydanie rozlicza wpis w `rozstrzygniecia`: UZUPEŁNIONE (`pozycja`) / NIE DO POTWIERDZENIA (`sprawdzono`, `powod`) / ODPADA (`powod`).
+- „W obserwacji” z progiem dokumentacja: `id` + `sprawdzono` (min. 3 miejsca). Następne wydanie rozlicza wpis w `rozstrzygniecia`: UZUPEŁNIONE (`pozycja`) / NIE DO POTWIERDZENIA (`sprawdzono`, `powod`) / ODPADA (`powod`).
 - Termin z kalendarza po 2 dniach: pozycja albo wpis z polem `kalendarz`. Jeden wiersz kalendarza = jedno wydarzenie.
 - Termin z `terminy.json` po zakończeniu: pozycja albo wpis z polem `termin`.
 - Rewizja nie wycofa pozycji bez `sprawdzono` (min. 3 miejsca).
@@ -59,9 +59,9 @@ Wszystko lokalnie albo inline: bez skryptów, czcionek, analityki i osadzeń z z
 
 **0. Start.** Data i godzina Europe/Warsaw. `python3 narzedzia/kontekst.py RRRR-MM-DD` (numer, „Do sprawdzenia”, wpisy do rozstrzygnięcia, kalendarz, karty osób do odświeżenia, ranking). Nie czytaj w całości README, `dane/*.json`, poprzednich wydań ani rejestru – używaj `kontekst.py --osoby ID / --zrodlo NAZWA / --szukaj FRAZA` albo grep. Potem `python3 narzedzia/nowe_wydanie.py RRRR-MM-DD` (szkielet).
 
-**1. Materiał.** Przegląd tematów od poprzedniego wydania: Reuters, AP, Al Jazeera, PAP (świat/Europa, a w Reuters i AP także Bliski Wschód, Azja, Afryka, Ameryki) – 12–18 tematów, w tym wszystkie z „Dwóch perspektyw”; każdy kończy jako pozycja albo wpis w „Czego tu nie ma”. Potem OSW i PISM (3 dni), Kyiv Independent, AFP, ISW (ocena), GUS/NBP, MON/DO RSZ przy uzbrojeniu, punkty z kontekst.py.
+**1. Materiał.** Przegląd tematów od poprzedniego wydania: Reuters, AP, Al Jazeera, PAP (świat/Europa, a w Reuters i AP także Bliski Wschód, Azja, Afryka, Ameryki) – 12–18 tematów, w tym wszystkie z „Dwóch perspektyw”; każdy kończy jako pozycja albo wpis w sekcji „W obserwacji”. Potem OSW i PISM (3 dni), Kyiv Independent, AFP, ISW (ocena), GUS/NBP, MON/DO RSZ przy uzbrojeniu, punkty z kontekst.py.
 
-**2. Weryfikacja.** Statusy osób i etapy decyzji – dziś, chyba że karta/rejestr ma ≤ 7 dni. Co nie przechodzi – do „Czego tu nie ma” dopiero po sprawdzeniu źródeł zastępczych, z `sprawdzono`.
+**2. Weryfikacja.** Statusy osób i etapy decyzji – dziś, chyba że karta/rejestr ma ≤ 7 dni. Co nie przechodzi – do „W obserwacji” dopiero po sprawdzeniu źródeł zastępczych, z `sprawdzono`.
 
 **3. Pisanie.** Uzupełnij szkielet przez Edit. Osoby `{{o:id|forma}}`, pojęcia `{{p:id|forma}}`; nowe karty i hasła dopisuj punktowo; karty starsze niż 7 dni sprawdź, jeśli osoba występuje. Nowy hashtag – świadomie, ze `stan_data`. `tagi.json`: stan wątków z wydania. `do_sprawdzenia`: lista na jutro. Kalendarium. Rejestr `notatki/rejestr-faktow.md` – tylko zmiany punktowe. `python3 narzedzia/build.py`.
 

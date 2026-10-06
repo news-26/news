@@ -500,3 +500,20 @@ button.kal-strz[disabled] { color: var(--linia); cursor: default; }
 #fk-inne:checked ~ .os .os-pas:not(.k-inne) { display: none; }
 @media (max-width: 560px) { .os-przewin { display: inline; } .os { padding: 10px 8px; } .os-pas, .os-skala { grid-template-columns: 86px 1fr; } }
 @media print { .os-chmurka { display: none; } }
+
+/* czytelność na telefonach */
+.prog-lista { display: block; margin-top: 3px; font: 13px/1.45 var(--sans); color: var(--szary); }
+@media (max-width: 600px) {
+  .gora .menu { flex-wrap: nowrap; overflow-x: auto; gap: 0 18px; margin-right: -16px; padding: 2px 16px 6px 0; scrollbar-width: none; -webkit-overflow-scrolling: touch; -webkit-mask-image: linear-gradient(to right, #000 82%, transparent); mask-image: linear-gradient(to right, #000 82%, transparent); }
+  .gora .menu::-webkit-scrollbar { display: none; }
+  .gora .menu a { flex: none; }
+  .rk, .rk tbody, .rk tr { display: block; }
+  .rk tr:first-child { display: none; }
+  .rk tr { padding: 10px 0; border-bottom: 1px solid var(--linia); }
+  .rk td { display: inline; padding: 0; font-size: 14px; }
+  .rk td:first-child { display: block; font-size: 16px; font-weight: 600; margin-bottom: 2px; }
+  .rk td:nth-child(2) { color: var(--szary); }
+  .rk td:nth-child(3) { color: var(--szary); font-weight: 400; }
+  .rk td:nth-child(3)::before { content: " · cytowań: "; }
+  .rk td:nth-child(4) { display: block; margin-top: 4px; line-height: 1.5; }
+}

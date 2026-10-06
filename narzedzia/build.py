@@ -1257,7 +1257,7 @@ class Budowa:
             spis.append(("czego-nie-ma", f'W obserwacji ({len(w["czego_nie_ma"])})'))
             cz.append('<div class="nota" id="czego-nie-ma"><h3>W obserwacji</h3><ul class="brak">' + "".join(
                 f'<li{(" id=" + chr(34) + e(c["id"]) + chr(34)) if c.get("id") else ""}><span class="prog">próg: {e(c["prog"])}</span> {T(c["tekst"])}'
-                + (f' <span class="prog">sprawdzono: {e(", ".join(c["sprawdzono"]))}</span>' if c.get("sprawdzono") else "") + '</li>'
+                + (f' <span class="prog-lista">Sprawdzono: {e(", ".join(c["sprawdzono"]))}</span>' if c.get("sprawdzono") else "") + '</li>'
                 for c in w["czego_nie_ma"]) + "</ul></div>")
         if w.get("rozstrzygniecia"):
             li = ""

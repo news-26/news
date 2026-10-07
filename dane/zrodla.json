@@ -118,7 +118,7 @@
     },
     {
       "id": "gov-pl",
-      "nazwa": "Rząd RP (gov.pl), MON, DO RSZ",
+      "nazwa": "Rząd RP (gov.pl), MON, DO RSZ, służby państwowe",
       "poziom": 1,
       "typ": "instytucja",
       "kraj": "Polska",
@@ -126,7 +126,9 @@
         "gov.pl",
         "wojsko-polskie.pl",
         "polska-zbrojna.pl",
-        "prezydent.pl"
+        "prezydent.pl",
+        "wp.mil.pl",
+        "strazgraniczna.pl"
       ],
       "wzorce": [
         "KPRM",
@@ -135,9 +137,16 @@
         "DO RSZ",
         "Dowództwo Operacyjne",
         "Polska Zbrojna",
-        "KPRP"
+        "KPRP",
+        "Straż Graniczna",
+        "Żandarmeria Wojskowa",
+        "Prokuratura Krajowa",
+        "ABW",
+        "SKW",
+        "Agencja Bezpieczeństwa Wewnętrznego",
+        "Służba Kontrwywiadu Wojskowego"
       ],
-      "uzasadnienie": "Komunikaty organów państwa o ich własnych decyzjach. Polska Zbrojna to pismo resortu obrony, publikuje jego komunikaty i wypowiedzi kierownictwa. Dopisano 6.10.2026: prezydent.pl (KPRP) – komunikaty Kancelarii Prezydenta RP o jego własnych działaniach."
+      "uzasadnienie": "Komunikaty organów państwa o ich własnych decyzjach. Polska Zbrojna to pismo resortu obrony, publikuje jego komunikaty i wypowiedzi kierownictwa. Dopisano 6.10.2026: prezydent.pl (KPRP) – komunikaty Kancelarii Prezydenta RP o jego własnych działaniach. Dopisano 7.10.2026: wp.mil.pl (DO RSZ, Żandarmeria Wojskowa), Straż Graniczna, Prokuratura Krajowa, ABW i SKW – komunikaty o incydentach w Polsce i przy jej granicach wynikających z sytuacji międzynarodowej (drony, sabotaż, szpiegostwo, granica z Białorusią)."
     },
     {
       "id": "imf",
@@ -791,6 +800,20 @@
         "RMF FM"
       ],
       "uzasadnienie": "Własni reporterzy, ale szybkie, skrótowe relacje i przedruk PAP."
+    },
+    {
+      "id": "tvn24",
+      "nazwa": "TVN24",
+      "poziom": 3,
+      "typ": "redakcja",
+      "kraj": "Polska",
+      "domeny": [
+        "tvn24.pl"
+      ],
+      "wzorce": [
+        "TVN24"
+      ],
+      "uzasadnienie": "Własni reporterzy i szybkie relacje z incydentów w Polsce, ale skrótowe depesze i przedruk PAP; jak RMF24 i Polsat News – nie liczy się do podstawy, służy jako sygnał do szukania komunikatu instytucji. Dopisano 7.10.2026."
     },
     {
       "id": "polsat-news",

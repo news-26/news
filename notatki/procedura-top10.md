@@ -25,7 +25,7 @@ Kolejność: (1) wpływ na bezpieczeństwo i interesy Polski, (2) waga dla sytua
 
 ## Tytuły
 
-Według zasady „Tytuły” w `notatki/procedura.md`; najwyżej 90 znaków (build.py to sprawdza).
+Według zasady „Tytuły” w `notatki/procedura.md`.
 
 ## Weryfikacja
 

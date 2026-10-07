@@ -22,6 +22,7 @@ Dotyczy każdego tytułu i podpisu: pozycji Top 10, analiz, podpisów w kalendar
 - bez metafor, gier słów i ogólników;
 - dwie sprawy – dwa człony po średniku, każdy z podmiotem;
 - tylko fakty z tekstu i źródeł; czasownik oddaje etap decyzji.
+- długość podporządkowana jasności: tytuł może być dłuższy, jeśli bez tego nie mówi w pełni, co zaszło.
 
 ## Dwie perspektywy
 

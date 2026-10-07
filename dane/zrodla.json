@@ -1553,6 +1553,21 @@
         "Diplomacy and Law"
       ],
       "uzasadnienie": "Dopisano 6.10.2026: serwis komentarzy prawnomiędzynarodowych z podpisanymi autorami; bez własnych ustaleń faktów i jawnej praktyki sprostowań – tylko jako ocena w analizach, nigdy jako podstawa pozycji."
+    },
+    {
+      "id": "rzeczpospolita",
+      "nazwa": "Rzeczpospolita",
+      "poziom": 2,
+      "typ": "redakcja",
+      "kraj": "Polska",
+      "domeny": [
+        "rp.pl"
+      ],
+      "wzorce": [
+        "Rzeczpospolita",
+        "rp.pl"
+      ],
+      "uzasadnienie": "Dopisano 7.10.2026 na polecenie właściciela: ogólnopolski dziennik z własną redakcją, podpisanymi autorami i praktyką sprostowań; cytuje komunikaty instytucji (np. prokuratury, PKP Intercity) – podstawą pozycji tylko razem z drugim niezależnym źródłem z poziomów 1–2."
     }
   ]
 }

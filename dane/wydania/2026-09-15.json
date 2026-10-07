@@ -68,11 +68,62 @@
           "data": "2026-09-15"
         }
       ]
+    },
+    {
+      "id": "z3",
+      "blok": "polska",
+      "data": "2026-09-13",
+      "tagi": [
+        "hybryda",
+        "ukraina",
+        "obronnosc-polski"
+      ],
+      "tekst": "Według kolei ukraińskich (Ukrzaliznycia) rosyjski dron trafił 13.09 w **lokomotywę pociągu Kijów–Warszawa** ok. 2 km od granicy z Polską, w obwodzie wołyńskim, po stronie ukraińskiej; załoga została wcześniej ostrzeżona, nikt nie ucierpiał. PKP Intercity przejęło skład od kolei ukraińskich z ok. 370 min opóźnienia; według spółki jechało nim 206 osób, wśród nich nie było obywateli Polski. Nie odnotowano naruszenia polskiej przestrzeni powietrznej. Premier Donald Tusk powiedział 13.09, że rząd potwierdza atak na stację benzynową i skład pociągu towarowego na bocznicy 2 km od granicy, a nie potwierdza informacji o ataku na kolumnę ciężarówek ani na lokomotywę pociągu pasażerskiego Kijów–Warszawa.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/09/13/russian-drone-hits-train-two-km-from-polish-border-rail-operator-says",
+          "data": "2026-09-13"
+        },
+        {
+          "nazwa": "Rzeczpospolita",
+          "url": "https://www.rp.pl/konflikty-zbrojne/art45132541-rosyjski-dron-uderzyl-w-pociag-kijow-warszawa-tuz-przed-polska-granica",
+          "data": "2026-09-13"
+        },
+        {
+          "nazwa": "Rząd RP (KPRM)",
+          "url": "https://www.gov.pl/web/premier/eskalacja-rosyjskich-dzialan-staje-sie-faktem",
+          "data": "2026-09-13"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "polska",
+      "data": "2026-09-14",
+      "tagi": [
+        "hybryda",
+        "ukraina",
+        "obronnosc-polski"
+      ],
+      "tekst": "14.09 ok. 9:20 Centrum Operacji Morskich w Gdyni zgłosiło Żandarmerii Wojskowej w Ustce dryfujący na wysokości Jarosławca bezzałogowy statek powietrzny; ok. 11:25 morze wyrzuciło go na brzeg w **Rusinowie** (powiat sławieński, woj. zachodniopomorskie). Minister obrony narodowej {{o:wladyslaw-kosiniak-kamysz|Władysław Kosiniak-Kamysz}} powiedział, że wstępne oględziny wskazują na wojskowego drona rosyjskiego pochodzenia; według Prokuratury Okręgowej w Poznaniu (komunikat z 1.10) to dron rosyjskiej produkcji typu **Gerbera**.",
+      "zrodla": [
+        {
+          "nazwa": "Prokuratura Okręgowa w Poznaniu",
+          "url": "https://www.gov.pl/web/po-poznan/sledztwa-dot-ujawnienia-drona-na-plazy-w-rusinowie-przejete-do-dalszego-prowadzenia-przez-prokurature-okregowa-w-poznaniu",
+          "data": "2026-10-01"
+        },
+        {
+          "nazwa": "Rzeczpospolita",
+          "url": "https://www.rp.pl/wojsko/art45136921-wojsko-wylowilo-z-baltyku-rosyjskiego-drona",
+          "data": "2026-09-14"
+        }
+      ]
     }
   ],
   "czego_nie_ma": [
     {
-      "tekst": "Atak rosyjskiego drona na pociąg Kijów–Warszawa 13.09 (2 km od granicy), dron w Rusinowie, AfD w Saksonii-Anhalt, Iran i Ormuz, Pekin i szczyt Trump–Xi, CPI i decyzje RPP/EBC – nie otwarto czołowych źródeł z treścią.",
+      "tekst": "AfD w Saksonii-Anhalt, Iran i Ormuz, Pekin i szczyt Trump–Xi, CPI i decyzje RPP/EBC – nie otwarto czołowych źródeł z treścią.",
       "prog": "dokumentacja"
     }
   ],

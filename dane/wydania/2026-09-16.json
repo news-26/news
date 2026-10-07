@@ -65,6 +65,29 @@
           "data": "2026-09-16"
         }
       ]
+    },
+    {
+      "id": "z3",
+      "blok": "polska",
+      "data": "2026-09-16",
+      "tagi": [
+        "hybryda",
+        "obronnosc-polski"
+      ],
+      "etap": "W TOKU",
+      "tekst": "Dron z Rusinowa to według prokuratury rosyjska **Gerbera 2** z bojową głowicą: płk Bartosz Okoniewski, zastępca prokuratora okręgowego do spraw wojskowych w Poznaniu, powiedział 16.09 (za Rzeczpospolitą), że miała głowicę odłamkowo-burzącą z zapalnikiem; oddzielono ją od drona i zneutralizowano na plaży (wg tej relacji – we wtorek 15.09 wieczorem). Postępowanie wszczął 16.09 Dział Wojskowy Prokuratury Rejonowej w Szczecinie (sprowadzenie zdarzenia zagrażającego życiu lub zdrowiu wielu osób w postaci wybuchu materiałów wybuchowych); dron zabezpieczono do badań.",
+      "zrodla": [
+        {
+          "nazwa": "Prokuratura Okręgowa w Poznaniu",
+          "url": "https://www.gov.pl/web/po-poznan/sledztwa-dot-ujawnienia-drona-na-plazy-w-rusinowie-przejete-do-dalszego-prowadzenia-przez-prokurature-okregowa-w-poznaniu",
+          "data": "2026-10-01"
+        },
+        {
+          "nazwa": "Rzeczpospolita",
+          "url": "https://www.rp.pl/wojsko/art45148221-rosyjski-dron-w-polsce-prokuratura-ujawnia-mial-glowice-bojowa",
+          "data": "2026-09-16"
+        }
+      ]
     }
   ],
   "czego_nie_ma": [

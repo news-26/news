@@ -23,6 +23,10 @@ Wątki wielomiesięczne (wojna, Iran, Królewiec): wchodzi zmiana w okresie, nie
 
 Kolejność: (1) wpływ na bezpieczeństwo i interesy Polski, (2) waga dla sytuacji międzynarodowej i skala, (3) trwałość skutków. Zwykle 2–3 sprawy o wadze globalnej, nawet przy pośrednim skutku dla Polski. Ranking to ocena redakcji – opisz ją w polu `kryteria`. Najwyżej 10 pozycji; miejsca 11+ można wymienić w `czego_nie_ma` z progiem „następstwo”.
 
+## Tytuły
+
+Według zasady „Tytuły” w `notatki/procedura.md`; najwyżej 90 znaków (build.py to sprawdza).
+
 ## Weryfikacja
 
 Wydań dziennych nie weryfikujemy od nowa i nie czytamy ich w całości. Wiersze `przebieg` biorą tekst w skrócie i źródła z pozycji dziennych; każdy wiersz musi spełniać zasadę rankingu – jeśli pozycja dzienna jej nie spełnia (wydania sprzed 1.10.2026), dobierz drugie źródło albo pomiń wiersz. Ponownie sprawdź tylko: korekty z wydań dziennych, funkcje osób z kartami starszymi niż 7 dni, rozstrzygnięcia zapowiedzi pokazywanych jako zamknięte. Lead i omówienie – tylko fakty z wierszy przebiegu; interpretacja w `oceny` (z autorem) i w „Dla Polski”.

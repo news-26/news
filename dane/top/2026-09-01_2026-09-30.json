@@ -12,7 +12,7 @@
   "pozycje": [
     {
       "id": "krolewiec",
-      "tytul": "Rosja grozi NATO bronią jądrową w sprawie Królewca",
+      "tytul": "Rosja grozi NATO bronią jądrową w razie odizolowania Królewca",
       "tagi": [
         "krolewiec",
         "nato",
@@ -89,7 +89,7 @@
     },
     {
       "id": "granica-niebo",
-      "tytul": "Wojna tuż przy polskiej granicy i nowe zasady obrony nieba",
+      "tytul": "Rosyjskie drony i śmigłowiec przy granicy; wojsko zmienia zasady obrony nieba",
       "tagi": [
         "obronnosc-polski",
         "hybryda",
@@ -245,7 +245,7 @@
     },
     {
       "id": "mediacja-usa",
-      "tytul": "Biały Dom wznawia mediację – bez przełomu",
+      "tytul": "Wysłannicy USA Witkoff i Kushner u Putina i Zełenskiego – bez rozejmu",
       "tagi": [
         "rozejm",
         "usa",
@@ -389,7 +389,7 @@
     },
     {
       "id": "wojna-powietrzna",
-      "tytul": "Wojna powietrzna przed zimą: energetyka i internet Ukrainy kontra rafinerie i Moskwa",
+      "tytul": "Rosja uderza w energetykę Kijowa, Ukraina w rafinerię w Moskwie",
       "tagi": [
         "front",
         "ukraina",
@@ -489,7 +489,7 @@
     },
     {
       "id": "sankcje",
-      "tytul": "Sankcje: ustawa Grahama i trzy lata unijnych list",
+      "tytul": "Trump podpisuje ustawę o cłach do 100% na nabywców rosyjskiej ropy; UE przedłuża sankcje",
       "tagi": [
         "sankcje",
         "usa",
@@ -562,7 +562,7 @@
     },
     {
       "id": "rosja-duma-armia",
-      "tytul": "Rosja po wyborach do Dumy: większość konstytucyjna i większa armia",
+      "tytul": "Jedna Rosja z większością konstytucyjną w Dumie; Putin powiększa armię",
       "tagi": [
         "rosja",
         "wybory"
@@ -682,7 +682,7 @@
     },
     {
       "id": "ormuz-ropa",
-      "tytul": "Ormuz, droga ropa i powrót inflacji",
+      "tytul": "Rozmowy USA–Iran o Ormuzie utknęły; inflacja w Polsce rośnie do 4%",
       "tagi": [
         "iran",
         "usa",
@@ -805,7 +805,7 @@
     },
     {
       "id": "bialorus",
-      "tytul": "Białoruś: więźniowie za sankcje i pierwsze od dekady rozmowy z Polską",
+      "tytul": "Białoruś uwalnia 25 więźniów za sankcje i po dekadzie rozmawia z Polską",
       "tagi": [
         "bialorus",
         "dyplomacja-rp",
@@ -895,7 +895,7 @@
     },
     {
       "id": "niemcy-afd",
-      "tytul": "Niemcy: AfD wygrywa na wschodzie i rozmawia z wysłannikiem Kremla",
+      "tytul": "AfD wygrywa w dwóch landach i szykuje z wysłannikiem Putina rozmowy o gazie",
       "tagi": [
         "niemcy",
         "wybory",
@@ -978,7 +978,7 @@
     },
     {
       "id": "region-kryzysy",
-      "tytul": "Kryzysy rządowe w regionie: od Belgradu po Bratysławę",
+      "tytul": "Kryzysy polityczne w Serbii, Rumunii, na Słowacji i na Węgrzech",
       "tagi": [
         "balkany",
         "rumunia",

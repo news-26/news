@@ -97,9 +97,9 @@ Tygodniówek już nie wydajemy; zastąpiło je miesięczne zestawienie Top 10 (n
 
 Werdykt SPROSTOWANE z polem `dotyczy` oznacza oryginalną pozycję znakiem ▲ i trafia do rejestru korekt.
 
-## Zestawienia Top 10 (dane/top/OD_DO.json)
+## Zestawienia Top 10 (dane/top/)
 
-Co miesiąc, za poprzedni **miesiąc kalendarzowy** (plik `dane/top/RRRR-MM-01_RRRR-MM-OSTATNI.json`, publikacja 1. dnia następnego miesiąca). Zestawienie za pełny miesiąc strona nazywa miesiącem („Wrzesień 2026”). Dziesięć najważniejszych wydarzeń miesiąca, z szerszym omówieniem.
+Dwa rodzaje, ten sam format: **kroczące** `dane/top/biezace.json` – ostatnie 30 dni (`od` = `do` − 29 dni, `do` = ostatnie wydanie), odświeżane codziennie rano, strona `top/biezace.html` i blok na stronie głównej; **archiwum** `dane/top/RRRR-MM-01_RRRR-MM-OSTATNI.json` – zamknięte zestawienie za miesiąc kalendarzowy, tworzone 1. dnia następnego miesiąca, strona nazywa je miesiącem („Wrzesień 2026”). W zestawieniu kroczącym nie są pokazywane wiersze przebiegu starsze niż tydzień przed oknem, a każda pozycja musi mieć fakt w oknie. Materiał: `python3 narzedzia/top_kandydaci.py [--miesiac RRRR-MM] [--wszystkie]`. Procedura: `notatki/procedura-top10.md`.
 
 **Kiedy wydarzenie trafia do Top 10** – trzy warunki naraz:
 1. zmieniło stan rzeczy w tym miesiącu (decyzja przyjęta, zmiana władzy, nowa zdolność wojskowa, incydent z realnym następstwem); retoryka i zapowiedzi bez terminu nie wystarczą,
@@ -108,7 +108,7 @@ Co miesiąc, za poprzedni **miesiąc kalendarzowy** (plik `dane/top/RRRR-MM-01_R
 
 Przy wątkach trwających miesiącami liczy się zmiana w danym miesiącu, nie sam wątek. Kolejność: wpływ na bezpieczeństwo i interesy Polski → skala (ile państw lub instytucji) → trwałość skutków. Fakty bierzemy z wydań dziennych (już zweryfikowanych) i ich źródeł; nie weryfikujemy ich drugi raz, ale każdy wiersz przebiegu musi spełniać zasadę rankingu źródeł.
 
-**Historia zestawień.** Sprawa ciągnąca się z miesiąca na miesiąc zachowuje to samo `id` – strona sama oznacza ją odznaką „ponownie” i linkuje do poprzednich zestawień; nowa sprawa dostaje „nowe”, a pole `"rozstrzygniete": true` daje odznakę „rozstrzygnięte”. Stare adresy zestawień zastąpionych miesięcznymi przekierowuje `TOP_PRZEKIEROWANIA` w `build.py`. Strona `top/OD_DO.html`, lista `top/index.html`, blok na stronie głównej, odnośniki na stronach wątków, wyszukiwarka i RSS.
+**Historia zestawień.** Sprawa ciągnąca się z miesiąca na miesiąc zachowuje to samo `id` – strona sama oznacza ją odznaką „ponownie” (była już w archiwum) i linkuje do zestawień archiwalnych; nowa sprawa dostaje „nowe”, a pole `"rozstrzygniete": true` daje odznakę „rozstrzygnięte”. Stare adresy zestawień zastąpionych miesięcznymi przekierowuje `TOP_PRZEKIEROWANIA` w `build.py`. Strona `top/OD_DO.html`, lista `top/index.html` (kroczące na górze, niżej archiwum), blok na stronie głównej, odnośniki na stronach wątków, wyszukiwarka i RSS (tylko archiwum).
 
 ```json
 {

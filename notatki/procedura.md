@@ -14,6 +14,15 @@ Wydanie dzienne ok. 20:00, publikowane na https://news-26.github.io/news/. Forma
 - **Poprzednie wydania i notatki nie są źródłem.** Statusy osób, etapy decyzji i daty sprawdzaj w dniu wydania.
 - **Błędy prostuj jawnie** (`korekty`; pominięcie – pozycja + korekta).
 
+## Tytuły
+
+Dotyczy każdego tytułu i podpisu: pozycji Top 10, analiz, podpisów w kalendarium. Tytuł mówi jasno, co zaszło – zrozumiały bez czytania dalszego tekstu:
+- konkretny podmiot i czasownik w czasie teraźniejszym;
+- osoby z nazwiskiem i krótką funkcją, państwa i instytucje z nazwy;
+- bez metafor, gier słów i ogólników;
+- dwie sprawy – dwa człony po średniku, każdy z podmiotem;
+- tylko fakty z tekstu i źródeł; czasownik oddaje etap decyzji.
+
 ## Dwie perspektywy
 
 (a) Co ważne dla Polski i Europy; (b) najważniejsze dla sytuacji międzynarodowej, także bez skutku dla Polski. Pozycję albo wpis w sekcji „W obserwacji” zawsze mają:

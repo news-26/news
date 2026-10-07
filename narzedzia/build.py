@@ -597,6 +597,8 @@ def waliduj_topy(topy, tagi, osoby, pojecia, klucze, b: Bledy):
             for pole in ("tytul", "lead", "omowienie", "przebieg", "dla_polski"):
                 if not p.get(pole):
                     b.dodaj(g, f"brak pola {pole}")
+            if len(p.get("tytul", "")) > 90:
+                b.dodaj(g, "tytuł dłuższy niż 90 znaków – skróć do: kto, co zrobił (zob. notatki/procedura-top10.md)")
             if p.get("etap") not in ETAPY:
                 b.dodaj(g, f"etap musi być jednym z {sorted(x for x in ETAPY if x)}")
             if "status" in p:

@@ -1,0 +1,584 @@
+{
+  "nr": 19,
+  "data": "2026-10-07",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "W nocy 6/7.10, w 74. urodziny {{o:wladimir-putin|Władimira Putina}}, Rosja przeprowadziła jeden z najcięższych w tym roku **zmasowanych ataków** na Ukrainę: według ukraińskich sił powietrznych ok. 130 dronów i ponad 50 rakiet, co najmniej 20 zabitych, z tego co najmniej 14 w Prylukach.",
+    "Sąd w Niemczech aresztował byłego prezesa BND Augusta Hanninga, podejrzanego o **szpiegostwo na rzecz obcego wywiadu** – prokuratura nie ujawnia, którego państwa.",
+    "Parlament Kosowa wybrał tuż przed konstytucyjnym terminem prezydentkę Justinę Shiroka Pulę, co zapobiegło kolejnym przedterminowym wyborom.",
+    "Najważniejsze na świecie: wiceprezydent USA JD Vance zażądał od Iranu „znaczącego” ograniczenia wzbogacania uranu, a w Jemenie liczba przesiedlonych przekroczyła według IOM 200 tys."
+  ],
+  "korekty": [
+    {
+      "dotyczy": "2026-09-15#z3",
+      "bylo": "Pominięcie: w wydaniu z 15.09 nie było pozycji o incydencie (atak rosyjskiego drona na lokomotywę pociągu Kijów–Warszawa 13.09 ok. 2 km od granicy z Polską) – był tylko wpis „W obserwacji” bez źródeł.",
+      "jest": "Pozycję z3 dodano do wydania z 15.09 7.10.2026 na podstawie źródeł z poziomu 1–2 (blok Polska).",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/09/13/russian-drone-hits-train-two-km-from-polish-border-rail-operator-says",
+          "data": "2026-09-13"
+        },
+        {
+          "nazwa": "Rzeczpospolita",
+          "url": "https://www.rp.pl/konflikty-zbrojne/art45132541-rosyjski-dron-uderzyl-w-pociag-kijow-warszawa-tuz-przed-polska-granica",
+          "data": "2026-09-13"
+        },
+        {
+          "nazwa": "Rząd RP (KPRM)",
+          "url": "https://www.gov.pl/web/premier/eskalacja-rosyjskich-dzialan-staje-sie-faktem",
+          "data": "2026-09-13"
+        }
+      ]
+    },
+    {
+      "dotyczy": "2026-09-15#z4",
+      "bylo": "Pominięcie: w wydaniu z 15.09 nie było pozycji o incydencie (dron wyrzucony 14.09 przez morze na plażę w Rusinowie) – był tylko wpis „W obserwacji” bez źródeł.",
+      "jest": "Pozycję z4 dodano do wydania z 15.09 7.10.2026 na podstawie źródeł z poziomu 1–2 (blok Polska).",
+      "zrodla": [
+        {
+          "nazwa": "Prokuratura Okręgowa w Poznaniu",
+          "url": "https://www.gov.pl/web/po-poznan/sledztwa-dot-ujawnienia-drona-na-plazy-w-rusinowie-przejete-do-dalszego-prowadzenia-przez-prokurature-okregowa-w-poznaniu",
+          "data": "2026-10-01"
+        },
+        {
+          "nazwa": "Rzeczpospolita",
+          "url": "https://www.rp.pl/wojsko/art45136921-wojsko-wylowilo-z-baltyku-rosyjskiego-drona",
+          "data": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "dotyczy": "2026-09-16#z3",
+      "bylo": "Pominięcie: w wydaniu z 16.09 nie było pozycji o incydencie (ustalenia prokuratury z 16.09: dron z Rusinowa to Gerbera 2 z bojową głowicą) – był tylko wpis „W obserwacji” bez źródeł.",
+      "jest": "Pozycję z3 dodano do wydania z 16.09 7.10.2026 na podstawie źródeł z poziomu 1–2 (blok Polska).",
+      "zrodla": [
+        {
+          "nazwa": "Prokuratura Okręgowa w Poznaniu",
+          "url": "https://www.gov.pl/web/po-poznan/sledztwa-dot-ujawnienia-drona-na-plazy-w-rusinowie-przejete-do-dalszego-prowadzenia-przez-prokurature-okregowa-w-poznaniu",
+          "data": "2026-10-01"
+        },
+        {
+          "nazwa": "Rzeczpospolita",
+          "url": "https://www.rp.pl/wojsko/art45148221-rosyjski-dron-w-polsce-prokuratura-ujawnia-mial-glowice-bojowa",
+          "data": "2026-09-16"
+        }
+      ]
+    }
+  ],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-10-07",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "front"
+      ],
+      "etap": null,
+      "tekst": "W nocy 6/7.10 Rosja zaatakowała Kijów i co najmniej 12 obwodów: według ukraińskich sił powietrznych ok. 130 dronów i ponad 50 rakiet (AP: ok. 70), w tym 48 manewrujących i niepodana liczba balistycznych; zestrzelono lub zneutralizowano 39 rakiet manewrujących, 5 balistycznych i ponad 100 dronów. Zginęło **co najmniej 20 osób** (France 24: 21), najwięcej w Prylukach w obwodzie czernihowskim – co najmniej 14, w tym czworo dzieci, ok. 50 rannych po trafieniu w blok mieszkalny; ofiary także w Kijowie, Krzemieńczuku, Ołeksandrii i Dnieprze. Prezydent {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} wskazał energetykę jako jeden z głównych celów i poprosił o kolejne systemy obrony przed rakietami balistycznymi; rosyjskie MO podało, że uderzyło w zakłady przemysłowe i infrastrukturę portową. Przewodnicząca KE {{o:ursula-von-der-leyen|Ursula von der Leyen}} nazwała atak „świadomą strategią terroru”.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews (za ukraińskimi siłami powietrznymi)",
+          "url": "https://www.euronews.com/2026/10/07/zelensky-says-russia-missile-attack-that-killed-12-is-birthday-gift-to-putin",
+          "data": "2026-10-07"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/europe/20261007-at-least-two-killed-in-fire-caused-by-massive-strikes-on-kyiv",
+          "data": "2026-10-07"
+        },
+        {
+          "nazwa": "AP (za ABC News)",
+          "url": "https://abcnews.com/International/russia-hits-ukrainian-apartment-buildings-deadly-overnight-strike/story?id=137058213",
+          "data": "2026-10-07"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/7/at-least-two-killed-in-kyiv-as-russia-launches-massive-attack-on-ukraine",
+          "data": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "instytucje",
+      "data": "2026-10-07",
+      "tagi": [
+        "niemcy",
+        "hybryda"
+      ],
+      "etap": "W TOKU",
+      "tekst": "Sędzia federalnego sądu w Niemczech wydał 7.10 nakaz **aresztu tymczasowego** dla Augusta Hanninga (80 l.), prezesa BND w latach 1998–2005, zatrzymanego 6.10. Prokuratura federalna zarzuca mu zdradzieckie szpiegostwo, wykradanie tajemnic państwowych i usiłowanie zdrady: współpracownik Manfred D. (szef biura kolejnych prezesów BND w latach 2012–2026, również w areszcie) miał mu przekazać ok. 2 tys. dokumentów BND do czerwca 2022 r., a Hanning użyć ich do analizy dla funkcjonariusza obcego wywiadu – którego państwa, prokuratura nie ujawnia. Obrońca Hanninga zarzuty odrzuca; rzecznik rządu kanclerza {{o:friedrich-merz|Friedricha Merza}} zapowiedział pełne wsparcie dla śledczych. Po doniesieniach „Der Spiegla” o możliwym powiązaniu sprawy z Azerbejdżanem azerbejdżańska Rada ds. Mediów i Nadawania 7.10 zaprzeczyła, nazywając je „operacją dezinformacyjną”; prokuratura nie komentuje.",
+      "zrodla": [
+        {
+          "nazwa": "AP (za ABC News)",
+          "url": "https://abcnews.com/International/wireStory/espionage-allegations-germanys-former-intelligence-chief-137062477",
+          "data": "2026-10-07"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/europe/20261007-what-we-know-about-espionage-treason-allegations-against-germany-s-ex-spy-chief",
+          "data": "2026-10-07"
+        },
+        {
+          "nazwa": "Reuters (za ThePrint)",
+          "url": "https://theprint.in/world/azerbaijan-denies-report-of-link-to-german-spy-scandal/3064394/",
+          "data": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "instytucje",
+      "data": "2026-10-07",
+      "tagi": [
+        "balkany",
+        "wybory"
+      ],
+      "etap": "PRZYJĘTE",
+      "tekst": "Zgromadzenie Kosowa wybrało w głosowaniu rozpoczętym 6 minut przed północą 6.10 (wynik ogłoszony po północy) **prezydentkę Justinę Shiroka Pulę** – 81 głosów przy wymaganych 80 ze 120; bez wyboru parlament zostałby rozwiązany i doszłoby do kolejnych przedterminowych wyborów. Kandydaturę premiera Albina Kurtiego poparła opozycyjna Demokratyczna Partia Kosowa w zamian za wcześniejsze uchwalenie zmian ograniczających kompetencje Izb Specjalnych w Hadze (trybunał ds. zbrodni UÇK): jurysdykcja tylko za lipiec 1999 – grudzień 2000, kary do 15 lat, możliwość prezydenckiego ułaskawienia. Shiroka Pula, ekonomistka, była ministrem energetyki (2008–2011) i prezeską Akademii Nauk i Sztuk Kosowa.",
+      "zrodla": [
+        {
+          "nazwa": "Radio Wolna Europa",
+          "url": "https://www.rferl.org/a/kosovo-elects-president-opposition-deal-war-crimes/33871583.html",
+          "data": "2026-10-07"
+        },
+        {
+          "nazwa": "AP (za Bozeman Daily Chronicle)",
+          "url": "https://www.bozemandailychronicle.com/wire/international/kosovo-lawmakers-elect-a-new-president-in-a-late-night-vote-to-avert-snap-election/article_e0a41cf2-eeef-5e65-9324-b9e52979ad1a.html",
+          "data": "2026-10-07"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/7/justina-shiroka-pula-kosovos-new-president-elected-during-a-crisis",
+          "data": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "swiat",
+      "data": "2026-10-07",
+      "tagi": [
+        "iran",
+        "usa"
+      ],
+      "etap": null,
+      "tekst": "Wiceprezydent USA JD Vance w wywiadzie dla Reutersa uzależnił porozumienie od **„znaczącego” ograniczenia przez Iran zdolności wzbogacania uranu** („po co wam paliwo wzbogacone do 60%?”); Prezydent {{o:masud-pezeszkian|Masud Pezeszkian}} nazwał rozmowy „daremnymi”, bo USA „trzy razy zaatakowały po rozmowach”, a rzecznik armii gen. bryg. Mohammad Akrami-Nia zapowiedział w razie potrzeby „operacje wyprzedzające”. Doradca Strażników Rewolucji gen. bryg. Mohammad Reza Naqdi oświadczył (Euronews), że cieśnina {{p:ormuz|Ormuz}} jest zamknięta i pod pełną kontrolą sił zbrojnych Iranu, a według France 24 (za agencją Fars) Iran zapowiedział zamknięcie „nielegalnych tras” używanych do przemytu ropy; wojna trwa od 28.02, rozmowy stoją.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/07/iran-threatens-pre-emptive-strikes-as-us-questions-who-runs-tehran",
+          "data": "2026-10-07"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20261007-middle-east-live-houthis-target-airport-in-yemen-as-israel-marks-october-7-anniversary",
+          "data": "2026-10-07"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/7/us-sets-new-demands-for-iran-deal-what-are-they",
+          "data": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "swiat",
+      "data": "2026-10-07",
+      "tagi": [
+        "inne",
+        "onz"
+      ],
+      "etap": null,
+      "tekst": "Według Międzynarodowej Organizacji ds. Migracji (IOM) liczba **przesiedlonych w Jemenie** przekroczyła 200 tys. (201 217 osób 7.10; w połowie września – 76 tys.), z czego 57% w prowincji Taiz; plan pomocy humanitarnej jest sfinansowany w 20%. Huti zaatakowali 7.10 rakietami balistycznymi i dronami lotnisko w Adenie (lot z Kairu skierowano do Dżuddy), a koalicja saudyjska zestrzeliła rakietę balistyczną na północ od Rijadu (rzecznik gen. dyw. Turki al-Maliki); siły rządowe kontynuują kontrofensywę w prowincji Taiz w rejonie Mochy i cieśniny Bab al-Mandab.",
+      "zrodla": [
+        {
+          "nazwa": "ONZ (IOM)",
+          "url": "https://www.iom.int/news/yemen-displacement-tops-200000-needs-soar-and-funding-alarmingly-dries",
+          "data": "2026-10-07"
+        },
+        {
+          "nazwa": "France 24 (za ONZ)",
+          "url": "https://www.france24.com/en/middle-east/20261007-middle-east-live-houthis-target-airport-in-yemen-as-israel-marks-october-7-anniversary",
+          "data": "2026-10-07"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/7/yemens-houthis-attack-aden-airport-saudi-forces-down-missile-near-riyadh",
+          "data": "2026-10-07"
+        },
+        {
+          "nazwa": "Al Jazeera (za IOM)",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/7/iran-war-live-yemen-forces-claim-control-over-strategic-taiz-mountain-peak",
+          "data": "2026-10-07"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "OSW: rosyjskie groźby jądrowe wobec NATO nie przynoszą skutku",
+      "autor": "OSW (Ernest Wyciszkiewicz, współpraca Piotr Szymański), 7.10.2026",
+      "tagi": [
+        "rosja",
+        "nato",
+        "krolewiec"
+      ],
+      "tekst": "Autorzy opisują, że między 28.09 a 4.10 Rosja wielokrotnie komunikowała gotowość użycia broni jądrowej wobec NATO – m.in. przez ambasady w Brukseli, Londynie i Dublinie oraz słowa Putina o użyciu „wszystkich sił i środków” w razie ataku, ze wskazaniem na obwód królewiecki. Celem ma być powstrzymanie wzmacniania wschodniej flanki i ćwiczeń, presja na społeczeństwa Zachodu, by ograniczyły pomoc dla Ukrainy, i ochrona „floty cieni”. OSW ocenia kampanię jako w dużej mierze nieskuteczną: NATO od 2014 r. rozbudowuje obecność na flance, przyjęło Finlandię i Szwecję i zobowiązało się do wydatków 5% PKB do 2035 r.",
+      "dla_polski": "Groźby dotyczą wprost wschodniej flanki, w tym rejonu Królewca; według oceny OSW nie zmieniły decyzji Sojuszu, więc należy spodziewać się ich powtarzania przy kolejnych ćwiczeniach i działaniach wobec „floty cieni” na Bałtyku.",
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-07/rosyjska-kampania-odstraszania-i-zastraszania",
+          "data": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "tytul": "OSW: Rosja uderza w mosty Kijowa, Ukraina utrzymuje przyczółek nad Żerebcem",
+      "autor": "OSW (Krzysztof Nieczypor, Sławomir Matuszak, Jacek Tarociński), 6.10.2026",
+      "tagi": [
+        "ukraina",
+        "front"
+      ],
+      "tekst": "Według autorów między 1 a 4.10 Rosja pięć razy trafiła Most Południowy i dwa razy Most Północny w Kijowie; w tygodniu 29.09–6.10 ukraińska obrona przechwyciła co najmniej 1221 z 1434 bezzałogowców, z czego 41,4% stanowiły drony odrzutowe. Na kierunku łymańskim trwa operacja „Vivaldi” z kolejnym przyczółkiem nad Żerebcem koło Szandryholowego, ale pogoda i teren ograniczają trwałe postępy; prawie połowa ukraińskich firm odczuwa zakłócenia logistyki.",
+      "dla_polski": "Rosnący udział dronów odrzutowych i uderzeń w infrastrukturę transportową oznacza dla Polski wyższe ryzyko dla szlaków dostaw do Ukrainy i większe zapotrzebowanie Kijowa na systemy przechwytywania, w których produkcji uczestniczą europejscy partnerzy.",
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-06/kijowskie-mosty-na-celowniku-rosyjskich-dronow-1686-dzien-wojny",
+          "data": "2026-10-06"
+        }
+      ]
+    },
+    {
+      "tytul": "OSW: Volkswagen tnie miejsca pracy, niemiecki przemysł motoryzacyjny skłania się ku ochronie rynku UE",
+      "autor": "OSW (Aleksandra Kozaczyńska), 7.10.2026",
+      "tagi": [
+        "niemcy",
+        "chiny",
+        "gospodarka"
+      ],
+      "tekst": "Autorka opisuje plan Volkswagena: likwidacja 50 tys. miejsc pracy do 2030 r. (łącznie z wcześniejszymi cięciami 100 tys.), ograniczenie liczby modeli o połowę do 2035 r., cięcia w spółce CARIAD o 6,1 mld euro w latach 2027–2031. Czterej chińscy producenci (BYD, SAIC, Chery, Leapmotor) zwiększyli udział w rynku UE z 6,2% do 9,6% rok do roku. Według OSW zmiana stanowiska branży oznacza, że kanclerz Merz może liczyć na jej poparcie dla mocniejszej ochrony rynku UE, a Berlin i Paryż przygotowują wspólny dokument w tej sprawie.",
+      "dla_polski": "Skutek pośredni: cięcia w koncernie i ewentualne unijne cła na chińskie hybrydy dotkną łańcuchów dostaw, w których działają zakłady w Polsce; wspólne stanowisko Niemiec i Francji może przesądzić o kierunku polityki handlowej UE wobec Chin.",
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-07/volkswagen-w-obliczu-wymuszonej-transformacji",
+          "data": "2026-10-07"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-10-08",
+      "tekst": "Eurogrupa (8.10) i ECOFIN (9.10); 8.10 polsko-filipińskie forum biznesowe IT w Manili, ostatni dzień wizyty prezydenta Nawrockiego.",
+      "tagi": [
+        "ue",
+        "dyplomacja-rp"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE (kalendarz posiedzeń)",
+          "url": "https://www.consilium.europa.eu/en/meetings/calendar/",
+          "data": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-09",
+      "tekst": "9–10.10: Czechy – I tura wyborów do Senatu i wybory samorządowe; 9.10 Costa w Amsterdamie i Hadze.",
+      "tagi": [
+        "czechy",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-12",
+      "tekst": "12–13.10: Warsaw Security Forum w Warszawie – według organizatora naczelny dowódca sił NATO w Europie gen. Alexus Grynkewich przedstawi tam publicznie strategię obrony wschodniej flanki.",
+      "tagi": [
+        "nato",
+        "obronnosc-polski"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "PAP MediaRoom (komunikat organizatora)",
+          "url": "https://pap-mediaroom.pl/polityka-i-spoleczenstwo/warsaw-security-forum-2026-w-centrum-debaty-o-przyszlosci-nato-i",
+          "data": "2026-10-06"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-12",
+      "tekst": "Rada do Spraw Zagranicznych UE (Ukraina); 13.10 Rada do Spraw Ogólnych – {{p:wrf|WRF}} 2028–34 i praworządność na Węgrzech; 12–18.10 doroczne zgromadzenia MFW i Banku Światowego (Bangkok).",
+      "tagi": [
+        "ue",
+        "wegry",
+        "mfw"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE (kalendarz posiedzeń)",
+          "url": "https://www.consilium.europa.eu/en/meetings/calendar/",
+          "data": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-12",
+      "tekst": "Ukraina: planowane głosowanie Rady Najwyższej nad ustawą o prawach mniejszości narodowych – warunek zniesienia węgierskiej blokady klastrów 3 i 4.",
+      "tagi": [
+        "ukraina",
+        "wegry"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-could-celebrate-fresh-eu-accession-breakthrough-in-brussels-next-week-source-says/",
+          "data": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-15",
+      "tekst": "15–16.10: Rada Europejska w Brukseli (m.in. WRF 2028–34, Ukraina, rozszerzenie).",
+      "tagi": [
+        "ue"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE",
+          "url": "https://www.consilium.europa.eu/en/meetings/european-council/2026/10/15-16/",
+          "data": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-16",
+      "tekst": "16–17.10: Czechy – II tura wyborów do Senatu.",
+      "tagi": [
+        "czechy",
+        "wybory"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-10-25",
+      "tekst": "II tura wyborów prezydenckich w Brazylii (Flávio Bolsonaro – Lula)",
+      "tagi": [
+        "ameryki",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-25",
+      "tekst": "wybory parlamentarne w Serbii",
+      "tagi": [
+        "balkany",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-28",
+      "tekst": "27–28.10 FOMC (Fed), 28–29.10 posiedzenie EBC",
+      "tagi": [
+        "gospodarka"
+      ]
+    },
+    {
+      "data": "2026-11-01",
+      "tekst": "kolejne spotkanie państw OPEC+ w sprawie limitów wydobycia (na grudzień)",
+      "tagi": [
+        "energia"
+      ]
+    },
+    {
+      "data": "2026-11-03",
+      "tekst": "wybory połowy kadencji w USA",
+      "tagi": [
+        "usa",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-11-12",
+      "tekst": "Europejska Wspólnota Polityczna w Irlandii (12.11), 13.11 nieformalne spotkanie przywódców UE",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [
+      {
+        "tytul": "Rosyjska kampania odstraszania i zastraszania (Analizy OSW)",
+        "autor": "Ernest Wyciszkiewicz, współpraca Piotr Szymański",
+        "data": "2026-10-07",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-07/rosyjska-kampania-odstraszania-i-zastraszania"
+      },
+      {
+        "tytul": "Volkswagen w obliczu wymuszonej transformacji (Analizy OSW)",
+        "autor": "Aleksandra Kozaczyńska",
+        "data": "2026-10-07",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-07/volkswagen-w-obliczu-wymuszonej-transformacji"
+      },
+      {
+        "tytul": "Kijowskie mosty na celowniku rosyjskich dronów. 1686. dzień wojny (Analizy OSW)",
+        "autor": "Krzysztof Nieczypor, Sławomir Matuszak, Jacek Tarociński",
+        "data": "2026-10-06",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-06/kijowskie-mosty-na-celowniku-rosyjskich-dronow-1686-dzien-wojny"
+      },
+      {
+        "tytul": "Więcej chęci niż środków. Rumunia wobec zagrożenia dronowego (Analizy OSW)",
+        "autor": "Kamil Całus",
+        "data": "2026-10-06",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-06/wiecej-checi-niz-srodkow-rumunia-wobec-zagrozenia-dronowego"
+      }
+    ],
+    "pism": []
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n5",
+      "prog": "dokumentacja",
+      "tekst": "Bułgaria: według Euronews bułgarska Agencja Administracji Morskiej zakończyła 6.10 o 17:00 poszukiwania 10 członków załogi zatopionego statku Alfa Watan (znaleziono tylko tratwy i przewróconą szalupę); szef akcji wiceadm. Rumen Nikołow nie wskazał, czyje były drony, a prezydent Ilijana Jotowa zwołała radę bezpieczeństwa narodowego. Al Jazeera podaje to samo, powołując się na Reutersa i AFP – brak otwartego komunikatu agencji ani drugiej depeszy z poziomów 1–2. Reuters (za Global Banking and Finance) mówi o 12 zaginionych obywatelach Syrii – liczba i skład załogi do ustalenia.",
+      "sprawdzono": [
+        "Euronews 7.10 (także przedruk na Yahoo)",
+        "Al Jazeera 7.10",
+        "marad.bg – błąd 400",
+        "wyszukiwarka: BTA – brak tekstu",
+        "Reuters (za globalbankingandfinance.com) 7.10"
+      ]
+    },
+    {
+      "id": "n1",
+      "prog": "dokumentacja",
+      "tekst": "Polska: według relacji powołujących się na komunikat DO RSZ rano 7.10 w związku z rosyjskim atakiem na Ukrainę prewencyjnie operowało polskie lotnictwo wojskowe, wspierane przez myśliwce szwedzkie; po ok. 6:30 systemy wróciły do standardowej działalności, naruszenia przestrzeni powietrznej nie stwierdzono. Nie udało się otworzyć komunikatu DO RSZ ani depeszy PAP z datą 7.10.",
+      "sprawdzono": [
+        "gov.pl/web/dowodztwo-operacyjne – brak komunikatu z 7.10",
+        "pap.pl – strona pusta",
+        "Interia (bez daty na stronie)",
+        "zachod.pl 7.10 (komunikat DO RSZ, bez wskazania agencji)",
+        "portalobronny.se.pl – tekst z 9.09, nie z 7.10"
+      ]
+    },
+    {
+      "id": "n2",
+      "prog": "dokumentacja",
+      "tekst": "Rosja/Irkuck: dyrektor generalny WHO Tedros Adhanom Ghebreyesus wezwał Moskwę do wyjaśnienia doniesień o drugim podejrzanym przypadku dżumy po śmierci laborantki Irkuckiego Instytutu Przeciwdżumowego; rzecznik Kremla {{o:dmitrij-pieskow|Dmitrij Pieskow}} uznał większość doniesień za fałszywe. Tylko France 24, bez komunikatu WHO.",
+      "sprawdzono": [
+        "France 24 7.10",
+        "who.int – nie sprawdzono komunikatu (brak w wyszukiwarce)",
+        "Euronews 7.10 – brak tekstu"
+      ]
+    },
+    {
+      "id": "n3",
+      "prog": "dokumentacja",
+      "tekst": "Haiti: Tymczasowa Rada Wyborcza odłożyła bezterminowo wybory zaplanowane na 13.12.2026 (II tura 21.02.2027) z powodu przemocy gangów – France 24 (za AFP), bez drugiego źródła z poziomów 1–2.",
+      "sprawdzono": [
+        "France 24 7.10",
+        "wyszukiwarka: AP, Reuters – tylko teksty z lipca o wyznaczeniu terminu",
+        "Le Nouvelliste – bez daty decyzji"
+      ]
+    },
+    {
+      "kalendarz": "2026-10-07",
+      "prog": "dokumentacja",
+      "tekst": "Szczyt MED9 w Splicie, protokół z posiedzenia FOMC i decyzja RPP (7.10) – wyników nie udało się dziś udokumentować (strony Rady UE, Fed i NBP nie były osiągalne w czasie przygotowania wydania); do rozliczenia jutro.",
+      "id": "n4",
+      "sprawdzono": [
+        "wyszukiwarka: MED9 Split – tylko zapowiedzi",
+        "NBP – brak dostępu",
+        "Fed – brak dostępu"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-10-06#c1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Nadal brak komunikatu prokuratury; strony PAP i gov.pl nie podają informacji o umorzeniu.",
+      "sprawdzono": [
+        "gov.pl – lista aktualności",
+        "wyszukiwarka: PAP, prokuratura",
+        "Interia/RMF24 – brak nowych tekstów"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-06#c2",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "7.10 Al Jazeera opisuje kontrofensywę sił rządowych w rejonie Mochy i Bab al-Mandab jako trwającą; zdobycze nadal są deklaracjami jednej strony. Przesiedlenia i ataki Huti – pozycja z5.",
+      "sprawdzono": [
+        "Al Jazeera 7.10",
+        "France 24 7.10",
+        "Euronews 7.10"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-06#c3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Brak komunikatu rządu Iranu o p.o. ministra ropy w dostępnych źródłach.",
+      "sprawdzono": [
+        "Euronews 7.10",
+        "Al Jazeera 7.10",
+        "France 24 7.10"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-06#c4",
+      "wynik": "ODPADA",
+      "powod": "Sprawa wewnętrzna landu, bez następstwa międzynarodowego; nie wróciła w źródłach z rankingu."
+    },
+    {
+      "dotyczy": "2026-10-06#c5",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Brak komunikatu Rady UE o terminie konferencji międzyrządowej; termin 12–13.10 pozostaje w kalendarzu jako planowany.",
+      "sprawdzono": [
+        "consilium.europa.eu – nie otwarto (brak dostępu)",
+        "Kyiv Independent – brak dostępu",
+        "Euronews 7.10 – brak tekstu"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-06#c6",
+      "wynik": "ODPADA",
+      "powod": "Brak następstw (incydent nie wrócił w źródłach z 7.10); wróci jako pozycja, jeśli dojdzie do odwetu lub reakcji ONZ."
+    }
+  ],
+  "do_sprawdzenia": [
+    "Bułgaria – komunikat Agencji Administracji Morskiej lub BTA o zakończeniu poszukiwań (n5)",
+    "DO RSZ 7.10 – komunikat o operowaniu lotnictwa (n1): X DO RSZ / PAP",
+    "Irkuck – komunikat WHO (n2)",
+    "Haiti – komunikat CEP lub AP/Reuters (n3)",
+    "MED9 Split, protokół FOMC, decyzja RPP 7.10 (n4)",
+    "Bułgaria/Rumunia – wskazanie sprawcy ataków na statki; reakcja NATO i Turcji",
+    "Hanning – państwo, dla którego miał pracować",
+    "Rubio w Atenach 7.10 (dialog strategiczny Grecja–USA) – drugie źródło",
+    "Rumunia – skład rządu Niculescu i termin głosowania",
+    "Nawrocki na Filipinach 7–8.10 – podpisane dokumenty"
+  ],
+  "nota": "Wydanie nr 19, przygotowane 7.10.2026 między 19:55 a ok. 21:00 CEST; obejmuje okres od wydania nr 18. Na początku sesji wszystkie serwisy były blokowane przez proxy środowiska. Po ponowieniu otwarto: Al Jazeera, France 24, Euronews, OSW, Radio Wolna Europa, AP (przez ABC News i Bozeman Daily Chronicle), gov.pl, zachod.pl, Interia. Niedostępne: Reuters, AP (apnews.com), BBC, DW, PAP (pusta strona), Kyiv Independent, PISM (pusta strona – listy publikacji PISM z 5–7.10 nie udało się sprawdzić), NBP, Washington Post (403). Bez pozycji (jedno źródło lub brak następstwa): wizyta sekretarza stanu USA Marca Rubio w Atenach (VI runda dialogu strategicznego Grecja–USA, memorandum o wymianie informacji antyterrorystycznych; tylko Euronews), francuskie wezwanie ambasadora Iranu w sprawie dezinformacji o protestach studenckich (France 24), wizyta Min Aung Hlainga w Malezji, rocznica 7.10 w Izraelu, ukraińskie uderzenia na obiekty naftowe w obwodach permskim i samarskim (France 24, bez drugiego źródła). OSW: cztery teksty z 6–7.10 (lista w sekcji II). Gospodarka bez pozycji. Kontrola niezależna – wyniki poniżej w tej nocie, jeśli zmieniły dane. Pozycję o zakończeniu poszukiwań załogi Alfa Watan przeniesiono do sekcji „W obserwacji” (tylko jedno źródło z poziomu 2). Kontrola niezależna (agent, który nie widział pisania): usunięto nieudokumentowany cytat Trumpa o „nowym przywództwie w Iranie”, rozdzielono atrybucję wypowiedzi o Ormuzie, dodano rozbieżność liczby rakiet (AP: ok. 70), zaprzeczenie Azerbejdżanu w sprawie Hanninga (Reuters), usunięto niepotwierdzony warunek odbywania kar w Kosowie, „oskarżony” zmieniono na „podejrzany”. Wskazane przez kontrolę tematy bez pozycji (źródła poza dostępem lub jedno źródło): operacja Interpolu w Ameryce Łacińskiej (233 zatrzymanych), krytyka dostaw broni USA dla Tajwanu przez KRLD, rozmowy USA–Chiny o inspekcjach obiektów jądrowych, 200 mln dol. z Iranu dla Hezbollahu, ataki Huti na lotniska saudyjskie, eksport paliw z Korei Płd. do Rosji, Nobel z chemii (Henri Kagan, Kenso Soai). Incydentów w Polsce z 7.10 poza wpisem n1 nie znaleziono."
+}

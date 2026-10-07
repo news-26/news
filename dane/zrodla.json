@@ -1490,12 +1490,13 @@
       "kraj": "międzynarodowa",
       "domeny": [
         "un.org",
-        "unfccc.int"
+        "unfccc.int",
+        "iom.int"
       ],
       "wzorce": [
         "ONZ"
       ],
-      "uzasadnienie": "Oficjalne serwisy i dokumenty Organizacji Narodów Zjednoczonych."
+      "uzasadnienie": "Oficjalne serwisy i dokumenty Organizacji Narodów Zjednoczonych. Dotyczy też agend ONZ (IOM, iom.int)."
     },
     {
       "id": "stvr",

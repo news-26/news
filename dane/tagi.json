@@ -6,25 +6,20 @@
       "nazwa": "Ukraina",
       "grupa": "miejsce",
       "opis": "Wojna Rosji z Ukrainą: ataki, obrona powietrzna, polityka Kijowa, pomoc zachodnia.",
-      "stan": "4.10 kanclerz Merz w Kijowie zapowiedział 1 mld euro pomocy wojskowej i 350 mln euro na energetykę oraz wspólną produkcję dronów przechwytujących; Rosja czwarty dzień z rzędu uderzyła w mosty Kijowa.",
+      "stan": "7.10 Rosja zaatakowała Ukrainę ok. 130 dronami i ponad 50 rakietami; co najmniej 20 zabitych, w tym 14 w Prylukach.",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/germany-announces-1-46-billion-in-aid-for-ukraine-including-interceptor-drones/",
-          "data": "2026-10-04"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/07/zelensky-says-russia-missile-attack-that-killed-12-is-birthday-gift-to-putin",
+          "data": "2026-10-07"
         },
         {
-          "nazwa": "Reuters (za Internazionale)",
-          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/04/germany-s-merz-arrives-in-kyiv-to-finalize-drone-deal-release-aid",
-          "data": "2026-10-04"
-        },
-        {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/russia-targets-kyiv-bridges-for-fourth-consecutive-day-hits-northern-bridge/",
-          "data": "2026-10-04"
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/europe/20261007-at-least-two-killed-in-fire-caused-by-massive-strikes-on-kyiv",
+          "data": "2026-10-07"
         }
       ],
-      "stan_data": "2026-10-04"
+      "stan_data": "2026-10-07"
     },
     {
       "id": "front",
@@ -174,7 +169,21 @@
       "id": "iran",
       "nazwa": "Iran",
       "grupa": "miejsce",
-      "opis": "Iran, Cieśnina Ormuz, rozmowy z USA i mediatorami."
+      "opis": "Iran, Cieśnina Ormuz, rozmowy z USA i mediatorami.",
+      "stan": "7.10 wiceprezydent USA Vance zażądał znaczącego ograniczenia wzbogacania uranu; prezydent Pezeszkian nazwał rozmowy daremnymi, armia Iranu grozi operacjami wyprzedzającymi.",
+      "stan_zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/07/iran-threatens-pre-emptive-strikes-as-us-questions-who-runs-tehran",
+          "data": "2026-10-07"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20261007-middle-east-live-houthis-target-airport-in-yemen-as-israel-marks-october-7-anniversary",
+          "data": "2026-10-07"
+        }
+      ],
+      "stan_data": "2026-10-07"
     },
     {
       "id": "usa",
@@ -245,20 +254,20 @@
       "nazwa": "Niemcy",
       "grupa": "miejsce",
       "opis": "Polityka Niemiec: rząd, koalicja, wybory, obronność.",
-      "stan": "Kanclerz Merz 4.10 w Kijowie: 1 mld euro pomocy wojskowej, 350 mln euro na energetykę, wspólna z Ukrainą produkcja dronów przechwytujących i broni dalekiego zasięgu (zapowiedź).",
+      "stan": "7.10 sąd aresztował byłego prezesa BND Augusta Hanninga, oskarżonego o szpiegostwo na rzecz nieujawnionego obcego wywiadu.",
       "stan_zrodla": [
         {
-          "nazwa": "Reuters (za Internazionale)",
-          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/04/germany-s-merz-arrives-in-kyiv-to-finalize-drone-deal-release-aid",
-          "data": "2026-10-04"
+          "nazwa": "AP (za ABC News)",
+          "url": "https://abcnews.com/International/wireStory/espionage-allegations-germanys-former-intelligence-chief-137062477",
+          "data": "2026-10-07"
         },
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/04/merz-makes-surprise-visit-to-kyiv-germany-pledges-further-aid-to-ukraine",
-          "data": "2026-10-04"
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/europe/20261007-what-we-know-about-espionage-treason-allegations-against-germany-s-ex-spy-chief",
+          "data": "2026-10-07"
         }
       ],
-      "stan_data": "2026-10-04"
+      "stan_data": "2026-10-07"
     },
     {
       "id": "czechy",
@@ -446,15 +455,20 @@
       "nazwa": "Bałkany",
       "grupa": "miejsce",
       "opis": "Serbia, Bośnia i Hercegowina, Kosowo i inne państwa regionu.",
-      "stan": "Wybory w BiH 4.10: wstępnie prowadzą Denis Bećirović, Željka Cvijanović i Darijana Filipović (miejsca w Prezydium); frekwencja ok. 42% (AP).",
+      "stan": "Kosowo: 6/7.10 parlament wybrał prezydentkę Justinę Shiroka Pulę (81 głosów), unikając przedterminowych wyborów; wcześniej ograniczył kompetencje Izb Specjalnych w Hadze.",
       "stan_zrodla": [
         {
-          "nazwa": "Associated Press (za PBS)",
-          "url": "https://www.pbs.org/newshour/amp/world/bosnia-votes-as-pro-russian-politician-looms-large-and-ethnic-tensions-simmer",
-          "data": "2026-10-04"
+          "nazwa": "Radio Wolna Europa",
+          "url": "https://www.rferl.org/a/kosovo-elects-president-opposition-deal-war-crimes/33871583.html",
+          "data": "2026-10-07"
+        },
+        {
+          "nazwa": "AP (za Bozeman Daily Chronicle)",
+          "url": "https://www.bozemandailychronicle.com/wire/international/kosovo-lawmakers-elect-a-new-president-in-a-late-night-vote-to-avert-snap-election/article_e0a41cf2-eeef-5e65-9324-b9e52979ad1a.html",
+          "data": "2026-10-07"
         }
       ],
-      "stan_data": "2026-10-05"
+      "stan_data": "2026-10-07"
     },
     {
       "id": "wybory",

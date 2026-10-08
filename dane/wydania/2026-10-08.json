@@ -1,0 +1,358 @@
+{
+  "nr": 20,
+  "data": "2026-10-08",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "8.10 rosyjska **bomba szybująca** trafiła w dwa autobusy w Kramatorsku w obwodzie donieckim: według służb ratunkowych i prokuratury co najmniej 30–33 zabitych, 18–22 rannych; w Kijowie rosyjskie drony zabiły w nocy i w dzień kilka osób i zakłóciły dostawy prądu, wody i kursowanie metra.",
+    "Huti ostrzelali 7–8.10 lotniska w Arabii Saudyjskiej (Rijad, Abha): według Euronews i Al Jazeery zginęły co najmniej trzy osoby, kilkadziesiąt zostało rannych; koalicja pod wodzą Rijadu zapowiada odpowiedź.",
+    "Rosja zaprzecza doniesieniom o drugim przypadku dżumy w Irkucku, a WHO prosi o wyjaśnienia i ocenia ryzyko poza Rosją jako bardzo niskie.",
+    "Wydanie jest krótsze niż zwykle: Reuters, AP, PAP i komunikaty polskich instytucji były niedostępne, a pozycje na jednym źródle trafiły do sekcji „W obserwacji”."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-10-08",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "front"
+      ],
+      "etap": null,
+      "tekst": "8.10 rosyjska **bomba szybująca** uderzyła w dwa autobusy (Kyiv Independent: minibusy) w Kramatorsku w obwodzie donieckim: według Państwowej Służby Ratunkowej zginęło co najmniej 33 osoby (Kyiv Independent), według prokuratury obwodu donieckiego i France 24 – co najmniej 30; rannych 18 (France 24) lub 22 (gubernator obwodu Wadym Fiłaszkin za Kyiv Independent). Prezydent {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} ostrzegł, że liczba ofiar może wzrosnąć; władze Kramatorska i Słowiańska wstrzymały transport publiczny. W Kijowie rosyjskie drony zabiły w nocy 7/8.10 cztery osoby (21 rannych), a w ciągu dnia kolejne ofiary; mer Witalij Kliczko podał do 19:21 19 rannych (13 hospitalizowanych); według Kijowskiej Miejskiej Administracji Wojskowej spadek napięcia zatrzymał metro i możliwe są przerwy w wodzie na prawym brzegu, a DTEK ogłosił awaryjne wyłączenia prądu w obwodzie kijowskim. Bilanse są wstępne i różnią się między źródłami.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/ukraine-war-latest-russian-glide-bomb-strikes-in-kramatorsk-kill-at-least-33/",
+          "data": "2026-10-08"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/europe/20261008-russian-strike-buses-kills-at-least-12-ukraine-kramatorsk-kyiv-targets-data-centre",
+          "data": "2026-10-08"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/8/russia-attack-in-ukraines-kramatorsk-kills-12",
+          "data": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "swiat",
+      "data": "2026-10-08",
+      "tagi": [
+        "inne"
+      ],
+      "etap": null,
+      "tekst": "6.10 Huti zaatakowali lotnisko w Abha (według Euronews i Al Jazeery zginęły dwie kobiety, obywatelki Maroka i Algierii – France 24 podaje inne obywatelstwo jednej z ofiar; 28 rannych), a 7.10 lotnisko w Rijadzie (zginął obywatel Sudanu, 8 rannych). 8.10 rzecznik wojskowy Hutich Jahja Saree zapewnił o trafieniu pociskiem balistycznym w lotnisko króla Chalida w Rijadzie, a koalicja pod wodzą Arabii Saudyjskiej oświadczyła, że przechwyciła dwa pociski, i zapowiedziała, że ataki „nie pozostaną bez kary”. Siły rządowe Jemenu i koalicja prowadzą ofensywę wokół cieśniny Bab al-Mandab; ONZ szacuje liczbę przesiedlonych od lipca na ponad 200 tys. Euronews wskazuje, że **ataki na Arabię Saudyjską** zagrażają alternatywnym szlakom wobec cieśniny Ormuz. Deklaracje Hutich pozostają wersją jednej ze stron.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/08/houthis-claim-missile-strike-on-riyadh-airport-as-explosions-heard-in-saudi-capital",
+          "data": "2026-10-08"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20261008-saudi-arabia-strikes-deadly-houthi-attacks-airports",
+          "data": "2026-10-08"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/7/saudi-arabia-says-three-foreign-nationals-killed-in-attacks-on-airports",
+          "data": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "swiat",
+      "data": "2026-10-07",
+      "tagi": [
+        "rosja",
+        "onz"
+      ],
+      "etap": null,
+      "tekst": "Po śmierci pracownicy irkuckiego instytutu badań nad dżumą Rosja przekazała 6.10 WHO, że w Irkucku nie ma przypadków dżumy, a testy osób z kontaktu są ujemne (Reuters za Korea Times); według Euronews i Al Jazeery oficjalna przyczyna zgonu to „zapalenie płuc o nieustalonej etiologii”. 7.10 rzecznik Kremla Dmitrij Pieskow ocenił, że większość doniesień o sprawie to „fałszywe informacje”, a szef WHO Tedros Adhanom Ghebreyesus poprosił Moskwę o wyjaśnienie doniesień o **drugiej pracownicy** z zapaleniem płuc (Al Jazeera). WHO ocenia ryzyko poza Rosją jako bardzo niskie (Euronews). Drugi przypadek jest niepotwierdzony; Trump powiedział 8.10 (Al Jazeera), że rozmawiał z Putinem, i nie sądzi, by chodziło o broń biologiczną; Rosja nie wyjaśniła, czy wykluczono dżumę płucną.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (za Korea Times)",
+          "url": "https://www.koreatimes.co.kr/world/20261006/russia-tells-who-there-are-no-plague-cases-in-siberian-city",
+          "data": "2026-10-06"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/07/trump-to-talk-plague-with-putin-as-russia-plays-down-fears-of-outbreak",
+          "data": "2026-10-07"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/8/russia-dismisses-reports-of-second-plague-case-as-false-information",
+          "data": "2026-10-08"
+        }
+      ]
+    }
+  ],
+  "analizy": [],
+  "kalendarz": [
+    {
+      "data": "2026-10-09",
+      "tekst": "9–10.10: Czechy – I tura wyborów do Senatu i wybory samorządowe; 9.10 Costa w Amsterdamie i Hadze.",
+      "tagi": [
+        "czechy",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-12",
+      "tekst": "12–13.10: Warsaw Security Forum w Warszawie – według organizatora naczelny dowódca sił NATO w Europie gen. Alexus Grynkewich przedstawi tam publicznie strategię obrony wschodniej flanki.",
+      "tagi": [
+        "nato",
+        "obronnosc-polski"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "PAP MediaRoom (komunikat organizatora)",
+          "url": "https://pap-mediaroom.pl/polityka-i-spoleczenstwo/warsaw-security-forum-2026-w-centrum-debaty-o-przyszlosci-nato-i",
+          "data": "2026-10-06"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-12",
+      "tekst": "Rada do Spraw Zagranicznych UE (Ukraina); 13.10 Rada do Spraw Ogólnych – {{p:wrf|WRF}} 2028–34 i praworządność na Węgrzech; 12–18.10 doroczne zgromadzenia MFW i Banku Światowego (Bangkok).",
+      "tagi": [
+        "ue",
+        "wegry",
+        "mfw"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE (kalendarz posiedzeń)",
+          "url": "https://www.consilium.europa.eu/en/meetings/calendar/",
+          "data": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-12",
+      "tekst": "Ukraina: planowane głosowanie Rady Najwyższej nad ustawą o prawach mniejszości narodowych – warunek zniesienia węgierskiej blokady klastrów 3 i 4.",
+      "tagi": [
+        "ukraina",
+        "wegry"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-could-celebrate-fresh-eu-accession-breakthrough-in-brussels-next-week-source-says/",
+          "data": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-15",
+      "tekst": "15–16.10: Rada Europejska w Brukseli (m.in. WRF 2028–34, Ukraina, rozszerzenie).",
+      "tagi": [
+        "ue"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE",
+          "url": "https://www.consilium.europa.eu/en/meetings/european-council/2026/10/15-16/",
+          "data": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-16",
+      "tekst": "16–17.10: Czechy – II tura wyborów do Senatu.",
+      "tagi": [
+        "czechy",
+        "wybory"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-10-25",
+      "tekst": "II tura wyborów prezydenckich w Brazylii (Flávio Bolsonaro – Lula)",
+      "tagi": [
+        "ameryki",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-25",
+      "tekst": "wybory parlamentarne w Serbii",
+      "tagi": [
+        "balkany",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-28",
+      "tekst": "27–28.10 FOMC (Fed), 28–29.10 posiedzenie EBC",
+      "tagi": [
+        "gospodarka"
+      ]
+    },
+    {
+      "data": "2026-11-01",
+      "tekst": "kolejne spotkanie państw OPEC+ w sprawie limitów wydobycia (na grudzień)",
+      "tagi": [
+        "energia"
+      ]
+    },
+    {
+      "data": "2026-11-03",
+      "tekst": "wybory połowy kadencji w USA",
+      "tagi": [
+        "usa",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-11-12",
+      "tekst": "Europejska Wspólnota Polityczna w Irlandii (12.11), 13.11 nieformalne spotkanie przywódców UE",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [],
+    "pism": []
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "prog": "dokumentacja",
+      "tekst": "Polska: według Kyiv Independent (za RMF24 z 8.10) prokuratorzy wojskowi znaleźli polskie karty SIM w części dronów typu Gerbera zestrzelonych w nocy 9/10.09.2025, a śledztwo umorzono z powodu nieustalenia sprawcy (rzecznik Prokuratury Okręgowej w Lublinie Marcin Kozak). Brak komunikatu prokuratury i depeszy PAP; wyszukiwanie nie potwierdziło umorzenia.",
+      "sprawdzono": [
+        "Kyiv Independent 8.10",
+        "wyszukiwarka: PAP, gov.pl Prokuratura Okręgowa w Lublinie – brak komunikatu",
+        "wyszukiwarka: RMF24 – tekstu nie znaleziono",
+        "Defence24 – tylko wcześniejsze doniesienia z 2025"
+      ]
+    },
+    {
+      "id": "n2",
+      "prog": "dokumentacja",
+      "tekst": "Iran/Zatoka: 7.10 tankowiec Acers został trafiony pociskami ok. 94 km na północ od Madinat asz-Szamal w Katarze (UKMTO; ofiary bez bilansu), sprawcy nie wskazano; Euronews i Al Jazeera podają, że to pierwszy taki atak w tym rejonie od dawna, a Iran nie przyznał się do ataku. Irańscy wojskowi (rzecznik armii Mohammad Akrami-Nia) zapowiadają „operacje wyprzedzające”, a Vance potwierdził rozmowy z prezydentem Masudem Pezeszkianem i szefem MSZ Abbasem Aragczim. Brak komunikatu UKMTO i drugiej depeszy z poziomów 1–2.",
+      "sprawdzono": [
+        "Euronews 7.10 i 8.10",
+        "Al Jazeera 8.10",
+        "France 24 (dział Bliski Wschód) – brak materiału o tankowcach",
+        "wyszukiwarka: Reuters, AP – brak treści z 8.10"
+      ]
+    },
+    {
+      "id": "n3",
+      "prog": "dokumentacja",
+      "tekst": "Rosja/Ukraina: France 24 (za AFP i firmą Jandex) podaje o uszkodzeniu centrum danych Jandeksu w Sasowie w obwodzie riazańskim po ataku dronów 8.10; gubernator Pawieł Malkow mówi o zestrzeleniu dwóch dronów. Ukraina oficjalnie się nie przyznała. Brak drugiego źródła z poziomów 1–2.",
+      "sprawdzono": [
+        "France 24 8.10",
+        "wyszukiwarka: Kyiv Independent – brak tekstu",
+        "Al Jazeera – brak tekstu"
+      ]
+    },
+    {
+      "id": "n4",
+      "prog": "dokumentacja",
+      "tekst": "Ukraina: Al Jazeera i France 24 podają o rosyjskiej rakiecie w blok mieszkalny w obwodzie czernihowskim 7.10 z co najmniej 22 zabitymi (w tym pięcioro dzieci; gubernator Czaus); wydanie nr 19 podawało co najmniej 14 zabitych w Prylukach. Rozbieżność bilansu do uzgodnienia z komunikatem służb ratunkowych.",
+      "sprawdzono": [
+        "Al Jazeera 8.10",
+        "France 24 8.10",
+        "wydanie nr 19 (z1)"
+      ]
+    },
+    {
+      "id": "n5",
+      "prog": "dokumentacja",
+      "tekst": "Euronews 8.10: USA postawiły Nicolásowi Maduro nowe zarzuty tortur; Korea Południowa odwołała ambasadora z Ukrainy w sporze o jeńców północnokoreańskich. Jedno źródło z poziomów 1–2, brak komunikatu rządu.",
+      "sprawdzono": [
+        "Euronews 8.10",
+        "Al Jazeera – brak tekstu",
+        "wyszukiwarka: Reuters, AP – brak treści"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-10-07#n2",
+      "wynik": "UZUPEŁNIONE",
+      "pozycja": "z3"
+    },
+    {
+      "dotyczy": "2026-10-07#n5",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Brak nowych komunikatów o zakończeniu poszukiwań załogi Alfa Watan; dostępne relacje (6.10) nie podają liczby zaginionych ani sprawcy.",
+      "sprawdzono": [
+        "Euronews 6.10",
+        "Al Jazeera 6.10",
+        "wyszukiwarka: BTA, Agencja Administracji Morskiej – brak treści"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-07#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Komunikat DO RSZ z 7.10 nadal niedostępny; wyszukiwanie nie zwróciło tekstu z tą datą.",
+      "sprawdzono": [
+        "wyszukiwarka: DO RSZ, PAP",
+        "Defence24",
+        "Polsat News – tylko starsze komunikaty"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-07#n3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Odroczenie wyborów na Haiti potwierdzają relacje powołujące się na AFP (6.10), brak komunikatu CEP i depesz AP/Reuters.",
+      "sprawdzono": [
+        "wyszukiwarka: dhnet (AFP) 6.10",
+        "wyszukiwarka: tvn-2 6.10",
+        "wyszukiwarka: Reuters, AP – brak treści"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-07#n4",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Brak dostępnych treści protokołu FOMC, decyzji RPP z 7.10 ani wyników szczytu MED9.",
+      "sprawdzono": [
+        "wyszukiwarka: federalreserve.gov",
+        "wyszukiwarka: NBP, RPP",
+        "wyszukiwarka: Rada UE – MED9"
+      ]
+    }
+  ],
+  "do_sprawdzenia": [
+    "Kramatorsk – ostateczny bilans ofiar (Państwowa Służba Ratunkowa, prokuratura)",
+    "Huti/Arabia Saudyjska – odpowiedź koalicji; komunikat saudyjskiego urzędu lotnictwa",
+    "Irkuck – odpowiedź Rosji na pytania WHO; rozmowa Trump–Putin",
+    "Karty SIM w dronach – komunikat Prokuratury Okręgowej w Lublinie (n1)",
+    "Tankowiec Acers – komunikat UKMTO, sprawca (n2)",
+    "Jandex – drugie źródło (n3)",
+    "Bułgaria – zakończenie poszukiwań, sprawca ataku na statki",
+    "Czechy – wyniki I tury wyborów do Senatu (9–10.10)",
+    "Protokół FOMC, decyzja RPP 7.10, MED9",
+    "Przyłuki/Czernihów – ostateczny bilans 7.10 (n4); Maduro i ambasador Korei Płd. (n5)"
+  ],
+  "nota": "Wydanie nr 20, przygotowane 8.10.2026 ok. 20:00 CEST, obejmuje okres od wydania nr 19. Dostępne: Kyiv Independent, Euronews, France 24, Al Jazeera, OSW (lista publikacji bez nowych tekstów od 7.10). Niedostępne: Reuters i AP (blokada), PAP, strony DO RSZ, MON, SG i prokuratury; PISM nie sprawdzono. Wydanie jest krótsze niż zwykle (3 pozycje, bez analiz): pozostałe tematy – atak na tankowce w Zatoce, karty SIM w dronach, centrum danych Jandeksu – mają jedno źródło z poziomów 1–2 i trafiły do „W obserwacji”. Pominięto bez pozycji z powodu braku drugiego źródła: aresztowanie byłej pierwszej damy Sri Lanki (Euronews), spór wokół kandydatury Ukrainy do UE (Le Pen). Kontrola niezależna poprawiła daty i atrybucje w z1–z3. Komunikaty DO RSZ, MON, SG i prokuratury z 7–8.10 nie były dostępne, więc incydentów w Polsce z tych dni nie wykluczono."
+}

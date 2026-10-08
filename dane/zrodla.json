@@ -1569,6 +1569,21 @@
         "rp.pl"
       ],
       "uzasadnienie": "Dopisano 7.10.2026 na polecenie właściciela: ogólnopolski dziennik z własną redakcją, podpisanymi autorami i praktyką sprostowań; cytuje komunikaty instytucji (np. prokuratury, PKP Intercity) – podstawą pozycji tylko razem z drugim niezależnym źródłem z poziomów 1–2."
+    },
+    {
+      "id": "onet",
+      "nazwa": "Onet",
+      "poziom": 2,
+      "typ": "redakcja",
+      "kraj": "Polska",
+      "domeny": [
+        "onet.pl"
+      ],
+      "wzorce": [
+        "Onet",
+        "onet.pl"
+      ],
+      "uzasadnienie": "Dopisano 8.10.2026 na polecenie właściciela (dział Świat – wiadomosci.onet.pl/swiat): ogólnopolski serwis informacyjny z własną redakcją i podpisanymi autorami. Materiały Onetu oparte na depeszach agencji (PAP, Reuters, AFP) opisuj jako „AGENCJA (za Onet)” – nie liczą się wtedy jako źródło niezależne od tej agencji. Podstawą pozycji tylko razem z drugim niezależnym źródłem z poziomów 1–2."
     }
   ]
 }

@@ -1,0 +1,556 @@
+{
+ "nr": 21,
+ "data": "2026-10-09",
+ "godzina": "20:00",
+ "typ": "dzienne",
+ "w_skrocie": [
+  "8.10 rosyjska **bomba szybująca** uderzyła w dwa autobusy w Kramatorsku; według gubernatora obwodu donieckiego w ciągu dnia w obwodzie zginęło 35 osób, a 7.10 w ataku na blok w Prylukach zginęło co najmniej 20 osób, w tym pięcioro dzieci.",
+  "W Miami trwa runda rozmów USA–Ukraina z udziałem doradców E3, Komisji Europejskiej i NATO; Rosja nie uczestniczy, a Rubio mówi o „impasie dyplomatycznym”.",
+  "Ambasadorowie UE zatwierdzili 7.10 1646 nowych wpisów na liście sankcyjnej wobec Rosji; formalne przyjęcie zaplanowano na 12.10.",
+  "Na **cieśninie Ormuz** IRGC i CENTCOM sprzeczne oświadczają o kontroli nad szlakiem, a Trump zapewnia, że USA nie zaatakują Iranu przed 3.11. W Etiopii i Erytrei strony oskarżają się o agresję, a USA wniosły do sądu w Nowym Jorku zarzut spisku w celu stosowania tortur wobec Maduro.",
+  "W wydaniu brak pozycji z bloku „Polska”: nie znaleziono komunikatów instytucji o nowych incydentach z 8–9.10."
+ ],
+ "korekty": [],
+ "zarys": [
+  {
+   "id": "z1",
+   "blok": "wojna",
+   "data": "2026-10-08",
+   "tagi": [
+    "ukraina",
+    "rosja",
+    "front"
+   ],
+   "etap": null,
+   "tekst": "8.10 rosyjska **bomba szybująca** uderzyła w dwa autobusy w Kramatorsku w obwodzie donieckim; według gubernatora obwodu Wadyma Fiłaszkina (Telegram, za Euronews z 9.10) w ciągu dnia w obwodzie zginęło 35 osób – 32 w Kramatorsku i trzy w Bilenkem – a 24 zostały ranne. Rano Państwowa Służba Ratunkowa i Fiłaszkin podawali co najmniej 33 zabitych i 22 rannych (Kyiv Independent); prezydent Wołodymyr Zełenski ostrzegł, że bilans może wzrosnąć i zapowiedział, że uderzenie „nie pozostanie bez odpowiedzi”. Transport publiczny w Kramatorsku i Słowiańsku wstrzymano; w Kijowie 8.10 zginęły cztery osoby, 19 zostało rannych (mer Witalij Kliczko).",
+   "zrodla": [
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/10/09/35-killed-in-strikes-on-ukraines-donetsk-region-as-russia-reports-four-dead-across-belgoro",
+     "data": "2026-10-09"
+    },
+    {
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/ukraine-war-latest-russian-glide-bomb-strikes-in-kramatorsk-kill-at-least-33/",
+     "data": "2026-10-08"
+    }
+   ]
+  },
+  {
+   "id": "z2",
+   "blok": "wojna",
+   "data": "2026-10-07",
+   "tagi": [
+    "ukraina",
+    "rosja"
+   ],
+   "etap": null,
+   "tekst": "Rosyjski pocisk uderzył 7.10 w pięciopiętrowy blok mieszkalny w Prylukach w obwodzie czernihowskim: według Kyiv Independent zginęło co najmniej 20 osób, w tym pięcioro dzieci, a rannych jest ponad 50 (w tym siedmioro dzieci, wg Państwowej Służby Ratunkowej); bilans rósł – wcześniejsze doniesienia France 24 mówiły o 15 zabitych, Al Jazeery o 14, a późniejsze relacje Al Jazeery – o 22. Był to element zmasowanego ataku na Ukrainę w dniu urodzin Władimira Putina.",
+   "zrodla": [
+    {
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/ukraine-war-latest-russian-attack-on-pryluky-kills-at-least-20-including-5-children/",
+     "data": "2026-10-07"
+    },
+    {
+     "nazwa": "France 24",
+     "url": "https://www.france24.com/en/europe/20261007-at-least-two-killed-in-fire-caused-by-massive-strikes-on-kyiv",
+     "data": "2026-10-07"
+    },
+    {
+     "nazwa": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/7/at-least-two-killed-in-kyiv-as-russia-launches-massive-attack-on-ukraine",
+     "data": "2026-10-07"
+    }
+   ]
+  },
+  {
+   "id": "z3",
+   "blok": "wojna",
+   "data": "2026-10-08",
+   "tagi": [
+    "ukraina",
+    "rosja",
+    "uzbrojenie"
+   ],
+   "etap": null,
+   "tekst": "Sztab Generalny Ukrainy potwierdził uderzenie 8.10 w rafinerię w Omsku na Syberii (według Kyiv Independent największa w Rosji; gubernator obwodu omskiego potwierdził atak dronów); producent Fire Point podał, że użył dronów FP-1, a prezydent Zełenski – że FP-6 (zmodyfikowane FP-1). Zełenski poinformował też o trafieniu rafinerii w Uchcie dronami An-196 RS o zasięgu ok. 2500 km. Prezydent USA Donald Trump wzywa Kijów, by przestał atakować rafinerie, bo – jego zdaniem – powoduje to światowy niedobór paliw (Euronews).",
+   "zrodla": [
+    {
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/ukraine-war-latest-russian-glide-bomb-strikes-in-kramatorsk-kill-at-least-33/",
+     "data": "2026-10-08"
+    },
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/10/09/35-killed-in-strikes-on-ukraines-donetsk-region-as-russia-reports-four-dead-across-belgoro",
+     "data": "2026-10-09"
+    }
+   ]
+  },
+  {
+   "id": "z4",
+   "blok": "wojna",
+   "data": "2026-10-09",
+   "tagi": [
+    "ukraina",
+    "rosja",
+    "usa",
+    "rozejm"
+   ],
+   "etap": "W TOKU",
+   "tekst": "9–10.10 w Miami trwa runda rozmów z wysłannikami USA Stevem Witkoffem i Jaredem Kushnerem: Ukrainę reprezentują szef Biura Prezydenta Kyryło Budanow, jego zastępca Serhij Kisłycia, szef klubu partii rządzącej Dawyd Arachamija i szef Służby Wywiadu Zagranicznego Rustem Umerow; udział biorą doradcy ds. bezpieczeństwa Francji, Niemiec i Wielkiej Brytanii, Komisja Europejska i NATO. Rosja w rozmowach nie uczestniczy, a Kreml ponownie odrzucił spotkanie trójstronne przywódców; sekretarz stanu USA **Marco Rubio** powiedział 8.10, że wojna tkwi w „impasie dyplomatycznym”. Na stole są m.in. ograniczone zawieszenia broni (Morze Czarne, infrastruktura energetyczna).",
+   "zrodla": [
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/10/09/ukrainian-and-european-officials-fly-to-miami-for-us-led-peace-talks",
+     "data": "2026-10-09"
+    },
+    {
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/ukraine-war-latest-russian-glide-bomb-strikes-in-kramatorsk-kill-at-least-33/",
+     "data": "2026-10-08"
+    }
+   ]
+  },
+  {
+   "id": "z5",
+   "blok": "instytucje",
+   "data": "2026-10-07",
+   "tagi": [
+    "ue",
+    "sankcje",
+    "rosja"
+   ],
+   "etap": "PRZYJĘTE",
+   "tekst": "Ambasadorowie państw UE zatwierdzili jednomyślnie 7.10 największe jednorazowe rozszerzenie listy sankcyjnej wobec Rosji – 1646 wpisów (743 osoby i 826 podmiotów, w tym 77 deputowanych startujących w wyborach na okupowanych terytoriach Ukrainy); według Kyiv Independent dotyczy ona głównie przemysłu obronnego (stocznie, lotnictwo, elektronika, naprawy pojazdów opancerzonych). Etap: ambasadorowie UE; formalnie lista ma zostać przyjęta przez ministrów spraw zagranicznych 12.10 w Luksemburgu; UE zapowiada przejście na mniejsze listy przyjmowane na bieżąco zamiast dużych pakietów.",
+   "zrodla": [
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/10/07/eu-agrees-to-sanction-over-1600-people-and-entities-linked-to-russias-war",
+     "data": "2026-10-07"
+    },
+    {
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/eu-ambassadors-wave-through-largest-ever-list-of-russia-sanctions-2/",
+     "data": "2026-10-07"
+    }
+   ]
+  },
+  {
+   "id": "z6",
+   "blok": "swiat",
+   "data": "2026-10-09",
+   "tagi": [
+    "iran",
+    "usa",
+    "energia"
+   ],
+   "etap": null,
+   "tekst": "Korpus Strażników Rewolucji Islamskiej (IRGC) oświadczył 9.10, że uderzył w maszynownię tankowca MV Sun Shine w południowej części **cieśniny Ormuz** i zagroził ściganiem statków używających nieautoryzowanych tras „w całym regionie”; UKMTO podał, że rano pociski o nieustalonym pochodzeniu trafiły tankowiec LPG ok. 13 mil morskich na zachód od Al-Dżazira (ZEA), pożar opanowano. Dowództwo Centralne USA (CENTCOM) odrzuciło twierdzenie IRGC, że cieśnina jest zamknięta, i oświadczyło, że główne korytarze są oczyszczone z min i otwarte dla statków niełamiących amerykańskich sankcji. Prezydent Trump napisał 8.10 na Truth Social, że USA „nie zaatakują Iranu w żadnym momencie przed wyborami połówkowymi” (3.11) i że rozmowy z Teheranem są „produktywne”.",
+   "zrodla": [
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/10/09/irans-irgc-strikes-tanker-and-threatens-to-target-vessels-beyond-hormuz",
+     "data": "2026-10-09"
+    },
+    {
+     "nazwa": "Biały Dom (wpis Donalda Trumpa na Truth Social z 8.10, za Al Jazeera)",
+     "url": "https://www.aljazeera.com/news/2026/10/9/is-trump-signalling-a-return-to-war-with-iran-after-the-midterms",
+     "data": "2026-10-08"
+    }
+   ]
+  },
+  {
+   "id": "z7",
+   "blok": "swiat",
+   "data": "2026-10-08",
+   "tagi": [
+    "usa",
+    "ameryki"
+   ],
+   "etap": null,
+   "tekst": "Prokuratura USA wniosła 8.10 do federalnego sądu na Manhattanie nowy akt oskarżenia wobec byłego prezydenta Wenezueli **Nicolása Maduro** i jego żony Cilii Flores, dodający zarzut spisku w celu stosowania tortur (według prokuratorów od co najmniej 1999 do 2025 r., wśród ofiar trzech obywateli USA); obojgu wcześniej postawiono zarzuty narkotykowe i dotyczące broni, do których nie przyznali się do winy. Proces w Nowym Jorku zaplanowano na 1.06.2027; Maduro twierdzi, że jest „jeńcem wojennym”, a obrona domaga się umorzenia z powodu immunitetu.",
+   "zrodla": [
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/10/08/us-charges-former-venezuelan-president-nicolas-maduro-with-torture",
+     "data": "2026-10-08"
+    },
+    {
+     "nazwa": "France 24",
+     "url": "https://france24.com/en/americas/20261008-us-files-new-torture-charges-venezuela-nicolas-maduro-cilia-flores",
+     "data": "2026-10-09"
+    },
+    {
+     "nazwa": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/8/venezuelas-nicolas-maduro-and-his-wife-charged-over-torture-allegations",
+     "data": "2026-10-08"
+    }
+   ]
+  },
+  {
+   "id": "z8",
+   "blok": "swiat",
+   "data": "2026-10-09",
+   "tagi": [
+    "afryka"
+   ],
+   "etap": null,
+   "tekst": "Etiopia i Erytrea oskarżyły się 9.10 nawzajem o rozpoczęcie „wojny agresji”: szef MSZ Etiopii Gedion Timotewos napisał do dyplomatów, że działania Erytrei to „rażący akt agresji” uprawniający do samoobrony, a minister informacji Erytrei Jemane Gebremeskel – że kraj jest ofiarą „niesprowokowanej wojny”. Według etiopskich urzędników w Tigraju jest do 8000 żołnierzy erytrejskich (anonimowe źródło bezpieczeństwa dla AFP: 5000–8000); Etiopia prowadzi naloty dronów na siły erytrejskie, a według świadków AFP rebelianci stracili też Szire i Adigrat. Ich bilans i przebieg nie są niezależnie zweryfikowane.",
+   "zrodla": [
+    {
+     "nazwa": "France 24 (AFP)",
+     "url": "https://www.france24.com/en/africa/20261009-eritrea-ethiopia-accuse-each-other-of-provoking-war-as-tigray-rebels-retreat",
+     "data": "2026-10-09"
+    },
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/10/08/ethiopian-drones-hit-eritrean-forces-accused-of-backing-rebels-in-tigray",
+     "data": "2026-10-08"
+    },
+    {
+     "nazwa": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/9/ethiopia-and-eritrea-accuse-one-another-of-launching-war",
+     "data": "2026-10-09"
+    }
+   ]
+  },
+  {
+   "id": "z9",
+   "blok": "swiat",
+   "data": "2026-10-08",
+   "tagi": [
+    "afryka",
+    "onz"
+   ],
+   "etap": "PRZYJĘTE",
+   "tekst": "Rada Bezpieczeństwa ONZ przyjęła jednomyślnie 8.10 rezolucję 2830, która przedłuża reżim sankcji wobec Darfuru (embargo na broń, zakaz podróży, zamrożenie aktywów) do 11.12.2026, a mandat panelu ekspertów do 11.01.2027. Amerykańska propozycja rozszerzenia embarga na cały Sudan nie uzyskała konsensusu; sprzeciwiały się jej Rosja i Chiny – zastępczyni ambasadora Rosji Anna Jewstigniejewa: „nie pozwolimy nawet na cień rozszerzenia ograniczeń”, a ambasador USA Jeff Bartos nazwał reżim „przestarzałym o ponad 20 lat”.",
+   "zrodla": [
+    {
+     "nazwa": "ONZ (UN News)",
+     "url": "https://news.un.org/en/story/2026/10/1168556",
+     "data": "2026-10-08"
+    },
+    {
+     "nazwa": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/9/un-extends-darfur-arms-embargo-blocks-broader-sudan-sanctions-proposal",
+     "data": "2026-10-09"
+    }
+   ]
+  }
+ ],
+ "analizy": [
+  {
+   "tytul": "OSW: Niemcy i Francja chcą zaostrzenia unijnej polityki handlowej wobec Chin, a Berlin zmienia długo prowadzone stanowisko",
+   "autor": "OSW (Maciej Kalwasiński, Aleksandra Kozaczyńska), 9.10.2026",
+   "tagi": [
+    "chiny",
+    "ue",
+    "niemcy",
+    "francja"
+   ],
+   "tekst": "Autorzy opisują wspólny wniosek kanclerza Merza i prezydenta Macrona do Komisji Europejskiej o działania wobec nierównowag handlowych i nieuczciwych praktyk (formalnie neutralny wobec państw, ale dotyczący głównie Chin); trafi on na Radę Europejską 15–16.10. Propozycje obejmują m.in. stosowanie instrumentów ochrony handlu wobec całych sektorów, więcej dochodzeń z inicjatywy Komisji, nowy mechanizm szybkiego ograniczania dostępu do rynku UE w odpowiedzi na odwet oraz odwróconą większość kwalifikowaną. OSW ocenia, że to zasadnicza zmiana podejścia Berlina pod presją przemysłu (zwłaszcza motoryzacji), ale istniejące narzędzia są niewykorzystywane z braku woli politycznej, a Pekin odpowie odwetem i wybiórczymi ustępstwami, korzystając z zależności UE m.in. od magnesów z ziem rzadkich.",
+   "dla_polski": "Tekst OSW nie omawia skutków dla Polski; sprawa trafi na Radę Europejską 15–16.10, gdzie Polska będzie współdecydować o kierunku unijnej polityki wobec Chin.",
+   "zrodla": [
+    {
+     "nazwa": "OSW",
+     "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-09/niemiecki-zwrot-w-polityce-wobec-chin",
+     "data": "2026-10-09"
+    }
+   ]
+  },
+  {
+   "tytul": "OSW: rynek oleju napędowego w UE jest pod presją wojny w Zatoce i ograniczeń eksportu, a Europa Środkowa pozostaje podatna na zakłócenia",
+   "autor": "OSW (Agata Łoskot-Strachota, Krzysztof Dębiec), Komentarz OSW, 9.10.2026",
+   "tagi": [
+    "energia",
+    "ue",
+    "gospodarka"
+   ],
+   "tekst": "Autorzy piszą, że ceny diesla w UE były pod koniec września ok. 82% wyższe niż na początku 2026 r., a saudyjski eksport diesla do Europy spadł we wrześniu o ponad 40% wobec sierpnia; uwolnienie 100 mln baryłek przez G7 daje według nich tylko tymczasową ulgę. Ich zdaniem państwa Europy Środkowej są na razie w dużej mierze chronione przed niedoborami, ale zależą od importu, a rządy mają ograniczone pole fiskalne; UE może być zmuszona zwiększyć wydobycie, złagodzić normy jakości paliw, a ostatecznie ograniczać popyt, wzrośnie też presja na powrót do rosyjskiej ropy i diesla.",
+   "dla_polski": "Według OSW Polska i Czechy mają największe w regionie rezerwy diesla (wolumenowo), a rafinerie Orlenu w Polsce, Czechach i na Litwie przerabiają saudyjską ropę, więc zakłócenia w Zatoce dotykają je bezpośrednio.",
+   "zrodla": [
+    {
+     "nazwa": "OSW",
+     "url": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-10-09/problemy-na-europejskim-rynku-oleju-napedowego-skutki-dla",
+     "data": "2026-10-09"
+    }
+   ]
+  }
+ ],
+ "kalendarz": [
+  {
+   "data": "2026-10-09",
+   "tekst": "9–10.10: Czechy – I tura wyborów do Senatu i wybory samorządowe; 9.10 Costa w Amsterdamie i Hadze.",
+   "tagi": [
+    "czechy",
+    "wybory"
+   ]
+  },
+  {
+   "data": "2026-10-12",
+   "tekst": "12–13.10: Warsaw Security Forum w Warszawie – według organizatora naczelny dowódca sił NATO w Europie gen. Alexus Grynkewich przedstawi tam publicznie strategię obrony wschodniej flanki.",
+   "tagi": [
+    "nato",
+    "obronnosc-polski"
+   ],
+   "zrodla": [
+    {
+     "nazwa": "PAP MediaRoom (komunikat organizatora)",
+     "url": "https://pap-mediaroom.pl/polityka-i-spoleczenstwo/warsaw-security-forum-2026-w-centrum-debaty-o-przyszlosci-nato-i",
+     "data": "2026-10-06"
+    }
+   ]
+  },
+  {
+   "data": "2026-10-12",
+   "tekst": "Rada do Spraw Zagranicznych UE (Ukraina); 13.10 Rada do Spraw Ogólnych – {{p:wrf|WRF}} 2028–34 i praworządność na Węgrzech; 12–18.10 doroczne zgromadzenia MFW i Banku Światowego (Bangkok).",
+   "tagi": [
+    "ue",
+    "wegry",
+    "mfw"
+   ],
+   "zrodla": [
+    {
+     "nazwa": "Rada UE (kalendarz posiedzeń)",
+     "url": "https://www.consilium.europa.eu/en/meetings/calendar/",
+     "data": "2026-10-04"
+    }
+   ]
+  },
+  {
+   "data": "2026-10-12",
+   "tekst": "Ukraina: planowane głosowanie Rady Najwyższej nad ustawą o prawach mniejszości narodowych – warunek zniesienia węgierskiej blokady klastrów 3 i 4.",
+   "tagi": [
+    "ukraina",
+    "wegry"
+   ],
+   "zrodla": [
+    {
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/zelensky-could-celebrate-fresh-eu-accession-breakthrough-in-brussels-next-week-source-says/",
+     "data": "2026-10-05"
+    }
+   ]
+  },
+  {
+   "data": "2026-10-15",
+   "tekst": "15–16.10: Rada Europejska w Brukseli (m.in. WRF 2028–34, Ukraina, rozszerzenie).",
+   "tagi": [
+    "ue"
+   ],
+   "zrodla": [
+    {
+     "nazwa": "Rada UE",
+     "url": "https://www.consilium.europa.eu/en/meetings/european-council/2026/10/15-16/",
+     "data": "2026-09-14"
+    }
+   ]
+  },
+  {
+   "data": "2026-10-16",
+   "tekst": "16–17.10: Czechy – II tura wyborów do Senatu.",
+   "tagi": [
+    "czechy",
+    "wybory"
+   ]
+  },
+  {
+   "data": "2026-10-09",
+   "tekst": "9–10.10: Miami – rozmowy delegacji Ukrainy i doradców E3 z wysłannikami USA (Witkoff, Kushner); Rosja nie uczestniczy.",
+   "tagi": [
+    "ukraina",
+    "usa",
+    "rozejm"
+   ]
+  }
+ ],
+ "poza_oknem": [
+  {
+   "data": "2026-10-25",
+   "tekst": "II tura wyborów prezydenckich w Brazylii (Flávio Bolsonaro – Lula)",
+   "tagi": [
+    "ameryki",
+    "wybory"
+   ]
+  },
+  {
+   "data": "2026-10-25",
+   "tekst": "wybory parlamentarne w Serbii",
+   "tagi": [
+    "balkany",
+    "wybory"
+   ]
+  },
+  {
+   "data": "2026-10-28",
+   "tekst": "27–28.10 FOMC (Fed), 28–29.10 posiedzenie EBC",
+   "tagi": [
+    "gospodarka"
+   ]
+  },
+  {
+   "data": "2026-11-01",
+   "tekst": "kolejne spotkanie państw OPEC+ w sprawie limitów wydobycia (na grudzień)",
+   "tagi": [
+    "energia"
+   ]
+  },
+  {
+   "data": "2026-11-03",
+   "tekst": "wybory połowy kadencji w USA",
+   "tagi": [
+    "usa",
+    "wybory"
+   ]
+  },
+  {
+   "data": "2026-11-12",
+   "tekst": "Europejska Wspólnota Polityczna w Irlandii (12.11), 13.11 nieformalne spotkanie przywódców UE",
+   "tagi": [
+    "ue"
+   ]
+  },
+  {
+   "data": "2026-11-29",
+   "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+   "tagi": [
+    "inne",
+    "wybory"
+   ]
+  },
+  {
+   "data": "2027-01-12",
+   "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+   "tagi": [
+    "litwa"
+   ]
+  }
+ ],
+ "zrodla_analityczne": {
+  "osw": [
+   {
+    "tytul": "Niemiecki zwrot w polityce wobec Chin (Analizy OSW)",
+    "autor": "Maciej Kalwasiński, Aleksandra Kozaczyńska",
+    "data": "2026-10-09",
+    "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-09/niemiecki-zwrot-w-polityce-wobec-chin"
+   },
+   {
+    "tytul": "Problemy na europejskim rynku oleju napędowego i skutki dla Europy Środkowej (Komentarze OSW)",
+    "autor": "Agata Łoskot-Strachota, Krzysztof Dębiec",
+    "data": "2026-10-09",
+    "url": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-10-09/problemy-na-europejskim-rynku-oleju-napedowego-skutki-dla"
+   },
+   {
+    "tytul": "Rosyjska kampania odstraszania i zastraszania (Analizy OSW)",
+    "autor": "Ernest Wyciszkiewicz, współpraca Piotr Szymański",
+    "data": "2026-10-07",
+    "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-07/rosyjska-kampania-odstraszania-i-zastraszania"
+   }
+  ],
+  "pism": []
+ },
+ "czego_nie_ma": [
+  {
+   "id": "n1",
+   "prog": "dokumentacja",
+   "tekst": "USA/Iran: Axios (7.10), powołując się na urzędników USA i Izraela, podał, że Pentagon polecił CENTCOM przygotowanie do „nieuchronnych” dużych operacji bojowych; NYT i WSJ pisały o planach ataku przed wyborami połówkowymi. Trump zaprzeczył zamiarowi ataku przed 3.11 (z6). Brak komunikatu Pentagonu lub Białego Domu potwierdzającego rozkaz.",
+   "sprawdzono": [
+    "Al Jazeera 9.10 (opis doniesień, bez potwierdzenia)",
+    "Euronews 9.10 (Ormuz)",
+    "wyszukiwarka: komunikaty CENTCOM/Pentagonu – brak rozkazu",
+    "Reuters, AP – blokada"
+   ]
+  }
+ ],
+ "rozstrzygniecia": [
+  {
+   "dotyczy": "2026-10-08#n2",
+   "wynik": "NIE DO POTWIERDZENIA",
+   "sprawdzono": [
+    "Euronews 9.10",
+    "Kyiv Independent 8–9.10",
+    "Al Jazeera 9.10",
+    "France 24 9.10"
+   ],
+   "powod": "brak komunikatu UKMTO o tankowcu Acers; Euronews 9.10 wspomina jedynie o ataku „dzień wcześniej” na północ od wód Kataru z ofiarami bez bilansu"
+  },
+  {
+   "dotyczy": "2026-10-08#n4",
+   "wynik": "UZUPEŁNIONE",
+   "pozycja": "z2"
+  },
+  {
+   "dotyczy": "2026-10-08#n5",
+   "wynik": "UZUPEŁNIONE",
+   "pozycja": "z7"
+  },
+  {
+   "dotyczy": "2026-10-08#n6",
+   "wynik": "NIE DO POTWIERDZENIA",
+   "sprawdzono": [
+    "Euronews 9.10",
+    "Kyiv Independent 8–9.10",
+    "Al Jazeera 9.10",
+    "France 24 9.10"
+   ],
+   "powod": "Pentagon ani Biały Dom nie potwierdziły rozkazu dla CENTCOM; Trump zaprzeczył (patrz 2026-10-09#n1)"
+  },
+  {
+   "dotyczy": "2026-10-08#n7",
+   "wynik": "UZUPEŁNIONE",
+   "pozycja": "z5"
+  },
+  {
+   "dotyczy": "2026-10-08#n8",
+   "wynik": "NIE DO POTWIERDZENIA",
+   "sprawdzono": [
+    "Euronews 9.10",
+    "Kyiv Independent 8–9.10",
+    "Al Jazeera 9.10",
+    "France 24 9.10"
+   ],
+   "powod": "brak komunikatu RCB ani DO RSZ z 8–9.10 w dostępnych źródłach"
+  },
+  {
+   "dotyczy": "2026-10-08#n9",
+   "wynik": "NIE DO POTWIERDZENIA",
+   "sprawdzono": [
+    "Euronews 9.10",
+    "Kyiv Independent 8–9.10",
+    "Al Jazeera 9.10",
+    "France 24 9.10"
+   ],
+   "powod": "w dostępnych źródłach (Kyiv Independent, Euronews, Al Jazeera, France 24) brak materiału o rozmowach USA–Rosja w sprawie gazu z 8.10; ostatnie treści pochodzą z 2025 r."
+  },
+  {
+   "dotyczy": "2026-10-08#n10",
+   "wynik": "UZUPEŁNIONE",
+   "pozycja": "z8"
+  },
+  {
+   "dotyczy": "2026-10-08#n11",
+   "wynik": "NIE DO POTWIERDZENIA",
+   "sprawdzono": [
+    "Euronews 9.10",
+    "Kyiv Independent 8–9.10",
+    "Al Jazeera 9.10",
+    "France 24 9.10"
+   ],
+   "powod": "w dostępnych źródłach brak materiału o bezpośrednich rozmowach USA z juntą Mjanmy z 8.10"
+  }
+ ],
+ "do_sprawdzenia": [
+  "Czechy – wyniki I tury wyborów do Senatu (komunikat Czeskiego Urzędu Statystycznego; wyniki w sobotę 10.10)",
+  "Miami – komunikat po rozmowach, termin spotkania trójstronnego (z4)",
+  "Sankcje UE – formalne przyjęcie listy 12.10 w Luksemburgu (z5)",
+  "Tigraj – potwierdzenie bilansu i roli Erytrei; Szire i Adigrat (z8)",
+  "Ormuz – komunikat UKMTO/CENTCOM o Sun Shine i tankowcu LPG; ewentualne rozkazy dla CENTCOM (z6, n1)",
+  "Kramatorsk – ostateczny bilans (z1); Prylukı – bilans (z2)",
+  "Polska – komunikaty DO RSZ, SG, prokuratury z 9–10.10",
+  "Rada Europejska 15–16.10 – wniosek Merz–Macron ws. Chin (OSW)",
+  "Maduro – termin rozprawy w sprawie immunitetu (z7)"
+ ],
+ "nota": "Wydanie nr 21, przygotowane 9.10.2026 ok. 20:00 CEST. Dostępne: Euronews, Kyiv Independent, France 24, Al Jazeera, UN News, OSW. Niedostępne: Reuters, AP, BBC, DW (blokada wyszukiwarki), dział Świat Onetu (blokada) i PAP – w efekcie wydanie jest węższe niż zwykle (9 pozycji, 2 analizy, brak bloku „Polska” i PISM z ostatnich 3 dni nie sprawdzono w pełni), a tematy z Onetu nie zostały przejrzane. Czechy: I tura wyborów do Senatu trwa do 10.10, wyniki w następnym wydaniu. Pozycje oparte na dwóch niezależnych źródłach poziomów 2–3 albo na ONZ; wypowiedzi stron podano z atrybucją. Kontrola niezależna nie została przeprowadzona w tym przebiegu."
+}

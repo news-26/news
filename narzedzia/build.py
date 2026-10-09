@@ -123,16 +123,29 @@ class Ranking:
                 return z
         return None
 
+    def ocen_podstawa(self, nazwa, url):
+        """Poziom do podstawy pozycji: nazwa źródła nie podnosi poziomu tekstu, który jest artykułem innej
+        redakcji z rankingu (np. „Biały Dom (… za Al Jazeera)” z adresem Al Jazeery = poziom Al Jazeery).
+        Przedruk u pośrednika lub agregatora i adres spoza rankingu – liczy się źródło z nazwy."""
+        n = self.ocen(nazwa, "")
+        dom = self.ocen("", url)
+        if n and dom and n is not dom and dom.get("typ") not in ("pośrednik", "agregator") and dom["poziom"] > n["poziom"]:
+            return dom
+        return n or dom
+
 
 RANKING = None
 # Od tej daty walidacja wymaga przy każdej pozycji zarysu: źródła z poziomu 1 albo dwóch niezależnych
 # źródeł z poziomów 1–2 (poziomy 3–5 się nie liczą do podstawy).
 DWA_ZRODLA_OD = "2026-10-01"
+# Od tej daty poziom do podstawy liczy się metodą ocen_podstawa (nazwa nie podnosi poziomu artykułu innej redakcji).
+PODSTAWA_ADRES_OD = "2026-10-10"
 
 
-def podstawa_ok(zrodla, ranking=None):
+def podstawa_ok(zrodla, ranking=None, scisle=False):
     r = ranking or RANKING
-    oc = [r.ocen(z.get("nazwa"), z.get("url")) for z in zrodla]
+    ocen = r.ocen_podstawa if scisle else r.ocen
+    oc = [ocen(z.get("nazwa"), z.get("url")) for z in zrodla]
     oc = [o for o in oc if o]
     if any(o["poziom"] == 1 for o in oc):
         return True
@@ -446,7 +459,7 @@ def waliduj(tagi, osoby, pojecia, wydania, rewizje=(), topy=()) -> Bledy:
                 data_(it.get("data", ""))
             except ValueError:
                 b.dodaj(g, "brak daty zdarzenia RRRR-MM-DD")
-            if RANKING and w.get("data", "") >= DWA_ZRODLA_OD and it.get("zrodla") and not podstawa_ok(it["zrodla"]):
+            if RANKING and w.get("data", "") >= DWA_ZRODLA_OD and it.get("zrodla") and not podstawa_ok(it["zrodla"], scisle=w.get("data", "") >= PODSTAWA_ADRES_OD):
                 b.dodaj(g, "za słaba podstawa: potrzebne źródło urzędowe (poziom 1) albo dwa niezależne z poziomów 1–2 "
                            "(źródła z poziomów 3–5 nie liczą się do podstawy; zob. zrodla.html)")
             if "status" in it:

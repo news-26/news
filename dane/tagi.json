@@ -1,581 +1,586 @@
 {
- "_opis": "Słownik hashtagów. Nowy tag dodawaj świadomie (id: małe litery, bez polskich znaków, łączniki). grupa: miejsce | temat. Pole stan aktualizuje każde wydanie, które dotyczy wątku; stan_data = data tej aktualizacji; stan_zrodla = linki potwierdzające.",
- "tagi": [
-  {
-   "id": "ukraina",
-   "nazwa": "Ukraina",
-   "grupa": "miejsce",
-   "opis": "Wojna Rosji z Ukrainą: ataki, obrona powietrzna, polityka Kijowa, pomoc zachodnia.",
-   "stan": "7.10 Rosja zaatakowała Ukrainę ok. 130 dronami i ponad 50 rakietami; co najmniej 20 zabitych, w tym 14 w Prylukach.",
-   "stan_zrodla": [
+  "_opis": "Słownik hashtagów. Nowy tag dodawaj świadomie (id: małe litery, bez polskich znaków, łączniki). grupa: miejsce | temat. Pole stan aktualizuje każde wydanie, które dotyczy wątku; stan_data = data tej aktualizacji; stan_zrodla = linki potwierdzające.",
+  "tagi": [
     {
-     "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/10/07/zelensky-says-russia-missile-attack-that-killed-12-is-birthday-gift-to-putin",
-     "data": "2026-10-07"
+      "id": "ukraina",
+      "nazwa": "Ukraina",
+      "grupa": "miejsce",
+      "opis": "Wojna Rosji z Ukrainą: ataki, obrona powietrzna, polityka Kijowa, pomoc zachodnia.",
+      "stan": "10.10 rosyjskie bomby szybujące uderzyły w bloki w Zaporożu: co najmniej 20 zabitych, w tym troje dzieci; USA zawiesiły sankcje na rosyjski diesel, a Trump powiedział, że Ukraina powinna mieć „nowego prezydenta”.",
+      "stan_zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-attacks-kill-at-least-19-injure-39-across-ukraine-as-rescue-operations-continue-in-zaporizhzhia/",
+          "data": "2026-10-10"
+        },
+        {
+          "nazwa": "CBS News",
+          "url": "https://www.cbsnews.com/news/russia-strikes-ukraine-trump-diesel-deal/",
+          "data": "2026-10-10"
+        }
+      ],
+      "stan_data": "2026-10-10"
     },
     {
-     "nazwa": "France 24",
-     "url": "https://www.france24.com/en/europe/20261007-at-least-two-killed-in-fire-caused-by-massive-strikes-on-kyiv",
-     "data": "2026-10-07"
-    }
-   ],
-   "stan_data": "2026-10-07"
-  },
-  {
-   "id": "front",
-   "nazwa": "Front",
-   "grupa": "temat",
-   "opis": "Działania na linii frontu w Ukrainie; oceny ISW zawsze jako ocena think tanku."
-  },
-  {
-   "id": "rozejm",
-   "nazwa": "Rozejm",
-   "grupa": "temat",
-   "opis": "Rozmowy i propozycje zawieszenia broni w wojnie Rosji z Ukrainą.",
-   "stan": "9–10.10 w Miami rozmowy USA z delegacją Ukrainy i doradcami E3, Komisją Europejską i NATO; Rosja nie uczestniczy, Kreml odrzuca spotkanie trójstronne przywódców.",
-   "stan_zrodla": [
-    {
-     "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/10/09/ukrainian-and-european-officials-fly-to-miami-for-us-led-peace-talks",
-     "data": "2026-10-09"
-    }
-   ],
-   "stan_data": "2026-10-09"
-  },
-  {
-   "id": "rosja",
-   "nazwa": "Rosja",
-   "grupa": "miejsce",
-   "opis": "Polityka wewnętrzna, armia i budżet Rosji."
-  },
-  {
-   "id": "krolewiec",
-   "nazwa": "Królewiec",
-   "grupa": "miejsce",
-   "opis": "Obwód królewiecki: militaryzacja, tranzyt, napięcia z NATO.",
-   "stan": "Rosja grozi NATO bronią jądrową w razie izolowania obwodu (pismo ujawnione 30.09); Putin 1.10 na forum Wałdaj zapowiedział, że przy bezpośrednim ataku na Rosję na porządku dnia stanie użycie „wszystkich rodzajów broni”; MSZ RP mówi o „cynicznej próbie eskalacji”.",
-   "stan_zrodla": [
-    {
-     "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/10/02/putin-says-all-weapons-on-agenda-if-russias-kaliningrad-attacked",
-     "data": "2026-10-02"
+      "id": "front",
+      "nazwa": "Front",
+      "grupa": "temat",
+      "opis": "Działania na linii frontu w Ukrainie; oceny ISW zawsze jako ocena think tanku."
     },
     {
-     "nazwa": "AFP (za Arab News)",
-     "url": "https://www.arabnews.pk/world/all-types-of-weapons-on-agenda-if-russias-kaliningrad-attacked-putin-3002905",
-     "data": "2026-10-01"
+      "id": "rozejm",
+      "nazwa": "Rozejm",
+      "grupa": "temat",
+      "opis": "Rozmowy i propozycje zawieszenia broni w wojnie Rosji z Ukrainą.",
+      "stan": "9–10.10 w Miami rozmowy USA z delegacją Ukrainy i doradcami E3, Komisją Europejską i NATO; Rosja nie uczestniczy, Kreml odrzuca spotkanie trójstronne przywódców.",
+      "stan_zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/09/ukrainian-and-european-officials-fly-to-miami-for-us-led-peace-talks",
+          "data": "2026-10-09"
+        }
+      ],
+      "stan_data": "2026-10-09"
     },
     {
-     "nazwa": "PAP (za WP)",
-     "url": "https://wiadomosci.wp.pl/rzecznik-msz-o-pismie-moskwy-cyniczna-proba-eskalacji-7335530154125632a",
-     "data": "2026-10-02"
-    }
-   ],
-   "stan_data": "2026-10-02"
-  },
-  {
-   "id": "bialorus",
-   "nazwa": "Białoruś",
-   "grupa": "miejsce",
-   "opis": "Reżim w Mińsku, granica z Polską, więźniowie polityczni."
-  },
-  {
-   "id": "hybryda",
-   "nazwa": "Wojna hybrydowa",
-   "grupa": "temat",
-   "opis": "Działania hybrydowe: drony, sabotaż, dezinformacja, cyberataki, presja migracyjna.",
-   "stan": "Rosyjskie pociski i drony coraz częściej naruszają przestrzeń sąsiadów Ukrainy: 3.10 pięć eksplodowało na terytorium Mołdawii.",
-   "stan_zrodla": [
-    {
-     "nazwa": "Kyiv Independent",
-     "url": "https://kyivindependent.com/5-russian-missiles-and-drones-exploded-over-moldovas-airspace-sandu-says/",
-     "data": "2026-10-03"
+      "id": "rosja",
+      "nazwa": "Rosja",
+      "grupa": "miejsce",
+      "opis": "Polityka wewnętrzna, armia i budżet Rosji."
     },
     {
-     "nazwa": "AP (za ABC News)",
-     "url": "https://abcnews.com/International/wireStory/russia-strikes-kyivs-northern-bridge-new-tactic-disrupt-136969028",
-     "data": "2026-10-03"
-    }
-   ],
-   "stan_data": "2026-10-03"
-  },
-  {
-   "id": "uzbrojenie",
-   "nazwa": "Uzbrojenie",
-   "grupa": "temat",
-   "opis": "Systemy uzbrojenia, zakupy, produkcja i dostawy: nazwy, liczby, jednostki.",
-   "stan": "Niemcy i Ukraina finalizują porozumienie o wspólnej produkcji dronów przechwytujących i broni dalekiego zasięgu (4.10).",
-   "stan_zrodla": [
-    {
-     "nazwa": "Kyiv Independent",
-     "url": "https://kyivindependent.com/germany-announces-1-46-billion-in-aid-for-ukraine-including-interceptor-drones/",
-     "data": "2026-10-04"
+      "id": "krolewiec",
+      "nazwa": "Królewiec",
+      "grupa": "miejsce",
+      "opis": "Obwód królewiecki: militaryzacja, tranzyt, napięcia z NATO.",
+      "stan": "Rosja grozi NATO bronią jądrową w razie izolowania obwodu (pismo ujawnione 30.09); Putin 1.10 na forum Wałdaj zapowiedział, że przy bezpośrednim ataku na Rosję na porządku dnia stanie użycie „wszystkich rodzajów broni”; MSZ RP mówi o „cynicznej próbie eskalacji”.",
+      "stan_zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/02/putin-says-all-weapons-on-agenda-if-russias-kaliningrad-attacked",
+          "data": "2026-10-02"
+        },
+        {
+          "nazwa": "AFP (za Arab News)",
+          "url": "https://www.arabnews.pk/world/all-types-of-weapons-on-agenda-if-russias-kaliningrad-attacked-putin-3002905",
+          "data": "2026-10-01"
+        },
+        {
+          "nazwa": "PAP (za WP)",
+          "url": "https://wiadomosci.wp.pl/rzecznik-msz-o-pismie-moskwy-cyniczna-proba-eskalacji-7335530154125632a",
+          "data": "2026-10-02"
+        }
+      ],
+      "stan_data": "2026-10-02"
     },
     {
-     "nazwa": "Reuters (za Internazionale)",
-     "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/04/germany-s-merz-arrives-in-kyiv-to-finalize-drone-deal-release-aid",
-     "data": "2026-10-04"
-    }
-   ],
-   "stan_data": "2026-10-04"
-  },
-  {
-   "id": "obronnosc-polski",
-   "nazwa": "ObronnośćPolski",
-   "grupa": "temat",
-   "opis": "Siły zbrojne RP, procedury obrony powietrznej, budżet obronny.",
-   "stan": "Od 1.10 obowiązują nowe procedury obrony powietrznej; od października szwedzkie Gripeny wspierają obronę powietrzną nad Polską.",
-   "stan_zrodla": [
-    {
-     "nazwa": "Rząd Szwecji",
-     "url": "https://www.regeringen.se/pressmeddelanden/2026/09/sverige-bidrar-med-stridsflyg-till-natoinsats-i-polen/",
-     "data": "2026-09-30"
+      "id": "bialorus",
+      "nazwa": "Białoruś",
+      "grupa": "miejsce",
+      "opis": "Reżim w Mińsku, granica z Polską, więźniowie polityczni."
     },
     {
-     "nazwa": "SVT",
-     "url": "https://www.svt.se/nyheter/utrikes/sverige-skickar-gripen-till-polen-igen",
-     "data": "2026-09-30"
-    }
-   ],
-   "stan_data": "2026-10-01"
-  },
-  {
-   "id": "dyplomacja-rp",
-   "nazwa": "DyplomacjaRP",
-   "grupa": "temat",
-   "opis": "Polityka zagraniczna Polski, wizyty, spory kompetencyjne."
-  },
-  {
-   "id": "sankcje",
-   "nazwa": "Sankcje",
-   "grupa": "temat",
-   "opis": "Sankcje UE, USA i innych państw oraz ich omijanie.",
-   "stan": "7.10 ambasadorowie UE zatwierdzili 1646 nowych wpisów na liście sankcyjnej wobec Rosji; formalne przyjęcie 12.10 w Luksemburgu.",
-   "stan_zrodla": [
-    {
-     "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/10/07/eu-agrees-to-sanction-over-1600-people-and-entities-linked-to-russias-war",
-     "data": "2026-10-07"
+      "id": "hybryda",
+      "nazwa": "Wojna hybrydowa",
+      "grupa": "temat",
+      "opis": "Działania hybrydowe: drony, sabotaż, dezinformacja, cyberataki, presja migracyjna.",
+      "stan": "Rosyjskie pociski i drony coraz częściej naruszają przestrzeń sąsiadów Ukrainy: 3.10 pięć eksplodowało na terytorium Mołdawii.",
+      "stan_zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/5-russian-missiles-and-drones-exploded-over-moldovas-airspace-sandu-says/",
+          "data": "2026-10-03"
+        },
+        {
+          "nazwa": "AP (za ABC News)",
+          "url": "https://abcnews.com/International/wireStory/russia-strikes-kyivs-northern-bridge-new-tactic-disrupt-136969028",
+          "data": "2026-10-03"
+        }
+      ],
+      "stan_data": "2026-10-03"
     },
     {
-     "nazwa": "Kyiv Independent",
-     "url": "https://kyivindependent.com/eu-ambassadors-wave-through-largest-ever-list-of-russia-sanctions-2/",
-     "data": "2026-10-07"
-    }
-   ],
-   "stan_data": "2026-10-09"
-  },
-  {
-   "id": "iran",
-   "nazwa": "Iran",
-   "grupa": "miejsce",
-   "opis": "Iran, Cieśnina Ormuz, rozmowy z USA i mediatorami.",
-   "stan": "7.10 wiceprezydent USA Vance zażądał znaczącego ograniczenia wzbogacania uranu; prezydent Pezeszkian nazwał rozmowy daremnymi, armia Iranu grozi operacjami wyprzedzającymi.",
-   "stan_zrodla": [
-    {
-     "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/10/07/iran-threatens-pre-emptive-strikes-as-us-questions-who-runs-tehran",
-     "data": "2026-10-07"
+      "id": "uzbrojenie",
+      "nazwa": "Uzbrojenie",
+      "grupa": "temat",
+      "opis": "Systemy uzbrojenia, zakupy, produkcja i dostawy: nazwy, liczby, jednostki.",
+      "stan": "Niemcy i Ukraina finalizują porozumienie o wspólnej produkcji dronów przechwytujących i broni dalekiego zasięgu (4.10).",
+      "stan_zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/germany-announces-1-46-billion-in-aid-for-ukraine-including-interceptor-drones/",
+          "data": "2026-10-04"
+        },
+        {
+          "nazwa": "Reuters (za Internazionale)",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/04/germany-s-merz-arrives-in-kyiv-to-finalize-drone-deal-release-aid",
+          "data": "2026-10-04"
+        }
+      ],
+      "stan_data": "2026-10-04"
     },
     {
-     "nazwa": "France 24",
-     "url": "https://www.france24.com/en/middle-east/20261007-middle-east-live-houthis-target-airport-in-yemen-as-israel-marks-october-7-anniversary",
-     "data": "2026-10-07"
-    }
-   ],
-   "stan_data": "2026-10-07"
-  },
-  {
-   "id": "usa",
-   "nazwa": "USA",
-   "grupa": "miejsce",
-   "opis": "Polityka USA wobec Europy, Rosji, Ukrainy i Bliskiego Wschodu."
-  },
-  {
-   "id": "chiny",
-   "nazwa": "Chiny",
-   "grupa": "miejsce",
-   "opis": "Chiny w polityce światowej i wobec Europy.",
-   "stan": "Po wizycie państwowej Xi Jinpinga w USA (23–25.09) rozejm handlowy USA–Chiny przedłużono z 10.11.2026 do 10.01.2027; powołano też dialog USA–Chiny o superinteligencji z kolejną rundą do listopada.",
-   "stan_data": "2026-10-04",
-   "stan_zrodla": [
-    {
-     "nazwa": "Biały Dom (fact sheet o wizycie państwowej)",
-     "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-advances-a-fair-and-reciprocal-relationship-with-china-while-hosting-historic-state-visit/",
-     "data": "2026-09-25"
+      "id": "obronnosc-polski",
+      "nazwa": "ObronnośćPolski",
+      "grupa": "temat",
+      "opis": "Siły zbrojne RP, procedury obrony powietrznej, budżet obronny.",
+      "stan": "Od 1.10 obowiązują nowe procedury obrony powietrznej; od października szwedzkie Gripeny wspierają obronę powietrzną nad Polską.",
+      "stan_zrodla": [
+        {
+          "nazwa": "Rząd Szwecji",
+          "url": "https://www.regeringen.se/pressmeddelanden/2026/09/sverige-bidrar-med-stridsflyg-till-natoinsats-i-polen/",
+          "data": "2026-09-30"
+        },
+        {
+          "nazwa": "SVT",
+          "url": "https://www.svt.se/nyheter/utrikes/sverige-skickar-gripen-till-polen-igen",
+          "data": "2026-09-30"
+        }
+      ],
+      "stan_data": "2026-10-01"
     },
     {
-     "nazwa": "Reuters (za Investing.com)",
-     "url": "https://www.investing.com/news/stock-market-news/trump-plans-grand-spectacle-for-potentially-tense-xi-talks-4912458",
-     "data": "2026-09-23"
+      "id": "dyplomacja-rp",
+      "nazwa": "DyplomacjaRP",
+      "grupa": "temat",
+      "opis": "Polityka zagraniczna Polski, wizyty, spory kompetencyjne."
     },
     {
-     "nazwa": "ABC News",
-     "url": "https://abcnews.com/Politics/trump-rolls-red-carpet-chinas-xi/story?id=136692781",
-     "data": "2026-09-23"
-    }
-   ]
-  },
-  {
-   "id": "nato",
-   "nazwa": "NATO",
-   "grupa": "temat",
-   "opis": "Sojusz Północnoatlantycki: decyzje, szczyty, wschodnia flanka."
-  },
-  {
-   "id": "ue",
-   "nazwa": "UE",
-   "grupa": "temat",
-   "opis": "Unia Europejska: Rada, Komisja, obronność, budżet WRF 2028–2034.",
-   "stan": "1.10 Rada UE przyjęła rozporządzenie powrotowe z centrami powrotowymi poza UE; przed Radą Europejską 15–16.10 trwa spór o wielkość WRF 2028–34.",
-   "stan_zrodla": [
-    {
-     "nazwa": "Rada UE",
-     "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/01/council-adopts-new-rules-on-return-for-those-with-no-right-to-stay-in-the-eu/",
-     "data": "2026-10-01"
-    }
-   ],
-   "stan_data": "2026-10-01"
-  },
-  {
-   "id": "onz",
-   "nazwa": "ONZ",
-   "grupa": "temat",
-   "opis": "ONZ i jej agendy, w tym Rada Bezpieczeństwa i Zgromadzenie Ogólne."
-  },
-  {
-   "id": "mfw",
-   "nazwa": "MFW",
-   "grupa": "temat",
-   "opis": "MFW i Bank Światowy: programy, prognozy, finansowanie Ukrainy."
-  },
-  {
-   "id": "niemcy",
-   "nazwa": "Niemcy",
-   "grupa": "miejsce",
-   "opis": "Polityka Niemiec: rząd, koalicja, wybory, obronność.",
-   "stan": "7.10 sąd aresztował byłego prezesa BND Augusta Hanninga, oskarżonego o szpiegostwo na rzecz nieujawnionego obcego wywiadu.",
-   "stan_zrodla": [
-    {
-     "nazwa": "AP (za ABC News)",
-     "url": "https://abcnews.com/International/wireStory/espionage-allegations-germanys-former-intelligence-chief-137062477",
-     "data": "2026-10-07"
+      "id": "sankcje",
+      "nazwa": "Sankcje",
+      "grupa": "temat",
+      "opis": "Sankcje UE, USA i innych państw oraz ich omijanie.",
+      "stan": "9.10 Departament Skarbu USA tymczasowo zawiesił sankcje na rosyjski olej napędowy po ogłoszeniu przez Trumpa dostaw (300 tys. t od razu); UE nadal planuje formalne przyjęcie listy 1646 wpisów 12.10.",
+      "stan_zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/",
+          "data": "2026-10-09"
+        },
+        {
+          "nazwa": "CBS News",
+          "url": "https://www.cbsnews.com/news/russia-strikes-ukraine-trump-diesel-deal/",
+          "data": "2026-10-10"
+        }
+      ],
+      "stan_data": "2026-10-10"
     },
     {
-     "nazwa": "France 24",
-     "url": "https://www.france24.com/en/europe/20261007-what-we-know-about-espionage-treason-allegations-against-germany-s-ex-spy-chief",
-     "data": "2026-10-07"
-    }
-   ],
-   "stan_data": "2026-10-07"
-  },
-  {
-   "id": "czechy",
-   "nazwa": "Czechy",
-   "grupa": "miejsce",
-   "opis": "Polityka Czech: rząd, parlament, wybory.",
-   "stan": "Rząd Babiša przetrwał 1.10 wotum nieufności (83 głosy za odwołaniem, potrzeba 101). Przed nim wybory do Senatu 9–10.10.",
-   "stan_zrodla": [
-    {
-     "nazwa": "AP (za Infonews)",
-     "url": "https://infonews.ca/news/7900014/czech-prime-minister-andrej-babis-government-survives-no-confidence-vote/",
-     "data": "2026-10-01"
+      "id": "iran",
+      "nazwa": "Iran",
+      "grupa": "miejsce",
+      "opis": "Iran, Cieśnina Ormuz, rozmowy z USA i mediatorami.",
+      "stan": "7.10 wiceprezydent USA Vance zażądał znaczącego ograniczenia wzbogacania uranu; prezydent Pezeszkian nazwał rozmowy daremnymi, armia Iranu grozi operacjami wyprzedzającymi.",
+      "stan_zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/07/iran-threatens-pre-emptive-strikes-as-us-questions-who-runs-tehran",
+          "data": "2026-10-07"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20261007-middle-east-live-houthis-target-airport-in-yemen-as-israel-marks-october-7-anniversary",
+          "data": "2026-10-07"
+        }
+      ],
+      "stan_data": "2026-10-07"
     },
     {
-     "nazwa": "ČTK",
-     "url": "https://www.ceskenoviny.cz/zpravy/snemovni-opozici-se-ani-napodruhe-nepodarilo-svrhnout-babisovu-vladu/2881493",
-     "data": "2026-10-01"
-    }
-   ],
-   "stan_data": "2026-10-01"
-  },
-  {
-   "id": "slowacja",
-   "nazwa": "Słowacja",
-   "grupa": "miejsce",
-   "opis": "Polityka Słowacji: koalicja, rząd, relacje z UE.",
-   "stan": "5.10 rząd przyjął projekt budżetu 2027 z deficytem 4,94% PKB; projekt trafia do Rady Narodowej.",
-   "stan_zrodla": [
-    {
-     "nazwa": "TASR (za TA3)",
-     "url": "https://www.ta3.com/clanok/1074983/vlada-bude-rokovat-o-rozpocte-na-rok-2027-deficit-verejnej-spravy-ma-dosiahnut-takmer-5-percent-hdp",
-     "data": "2026-10-05"
-    }
-   ],
-   "stan_data": "2026-10-05"
-  },
-  {
-   "id": "wegry",
-   "nazwa": "Węgry",
-   "grupa": "miejsce",
-   "opis": "Polityka Węgier: rząd, rozliczenia, relacje z UE."
-  },
-  {
-   "id": "litwa",
-   "nazwa": "Litwa",
-   "grupa": "miejsce",
-   "opis": "Polityka Litwy i bezpieczeństwo przesmyku suwalskiego.",
-   "stan": "6.10 Sejm w pierwszym głosowaniu (106 za, 18 przeciw) poparł usunięcie z art. 137 konstytucji zakazu broni masowego rażenia i obcych baz; drugie głosowanie 12.01.2027.",
-   "stan_zrodla": [
-    {
-     "nazwa": "LRT",
-     "url": "https://www.lrt.lt/en/news-in-english/19/3074149/lithuanian-parliament-backs-removing-constitutional-ban-on-nuclear-weapons",
-     "data": "2026-10-06"
+      "id": "usa",
+      "nazwa": "USA",
+      "grupa": "miejsce",
+      "opis": "Polityka USA wobec Europy, Rosji, Ukrainy i Bliskiego Wschodu."
     },
     {
-     "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/10/06/lithuania-takes-further-step-towards-lifting-nuclear-weapons-ban",
-     "data": "2026-10-06"
-    }
-   ],
-   "stan_data": "2026-10-06"
-  },
-  {
-   "id": "lotwa",
-   "nazwa": "Łotwa",
-   "grupa": "miejsce",
-   "opis": "Polityka Łotwy, wybory.",
-   "stan": "Po przeliczeniu niemal wszystkich głosów Zjednoczona Lista premiera Kulbergsa ma 42 ze 100 mandatów; może rządzić z Sojuszem Narodowym albo Postępowymi.",
-   "stan_zrodla": [
-    {
-     "nazwa": "LSM",
-     "url": "https://eng.lsm.lv/article/politics/election/04.10.2026-new-latvian-saeima-starts-to-shape-up-with-nearly-all-votes-counted.a666021/",
-     "data": "2026-10-04"
+      "id": "chiny",
+      "nazwa": "Chiny",
+      "grupa": "miejsce",
+      "opis": "Chiny w polityce światowej i wobec Europy.",
+      "stan": "Po wizycie państwowej Xi Jinpinga w USA (23–25.09) rozejm handlowy USA–Chiny przedłużono z 10.11.2026 do 10.01.2027; powołano też dialog USA–Chiny o superinteligencji z kolejną rundą do listopada.",
+      "stan_data": "2026-10-04",
+      "stan_zrodla": [
+        {
+          "nazwa": "Biały Dom (fact sheet o wizycie państwowej)",
+          "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-advances-a-fair-and-reciprocal-relationship-with-china-while-hosting-historic-state-visit/",
+          "data": "2026-09-25"
+        },
+        {
+          "nazwa": "Reuters (za Investing.com)",
+          "url": "https://www.investing.com/news/stock-market-news/trump-plans-grand-spectacle-for-potentially-tense-xi-talks-4912458",
+          "data": "2026-09-23"
+        },
+        {
+          "nazwa": "ABC News",
+          "url": "https://abcnews.com/Politics/trump-rolls-red-carpet-chinas-xi/story?id=136692781",
+          "data": "2026-09-23"
+        }
+      ]
     },
     {
-     "nazwa": "Reuters (za Irish Times)",
-     "url": "https://www.irishtimes.com/world/europe/2026/10/04/latvian-pm-on-track-to-lead-pro-ukraine-coalition-after-election-win/",
-     "data": "2026-10-04"
+      "id": "nato",
+      "nazwa": "NATO",
+      "grupa": "temat",
+      "opis": "Sojusz Północnoatlantycki: decyzje, szczyty, wschodnia flanka."
     },
     {
-     "nazwa": "AP (za Euronews)",
-     "url": "https://www.euronews.com/2026/10/04/latvias-pro-european-ruling-party-wins-election-as-populists-gain-ground",
-     "data": "2026-10-04"
-    }
-   ],
-   "stan_data": "2026-10-04"
-  },
-  {
-   "id": "estonia",
-   "nazwa": "Estonia",
-   "grupa": "miejsce",
-   "opis": "Polityka i bezpieczeństwo Estonii.",
-   "stan": "Rząd zakazał 1.10 tranzytu zboża z Rosji i Białorusi przez terytorium Estonii.",
-   "stan_zrodla": [
-    {
-     "nazwa": "ERR",
-     "url": "https://news.err.ee/1610153278/estonia-bans-grain-transit-from-russia-and-belarus",
-     "data": "2026-10-01"
+      "id": "ue",
+      "nazwa": "UE",
+      "grupa": "temat",
+      "opis": "Unia Europejska: Rada, Komisja, obronność, budżet WRF 2028–2034.",
+      "stan": "10.10 prezydencja irlandzka zaproponowała WRF 2028–34 na 1622 mld euro (o 141 mld mniej niż wniosek Komisji); Rada Europejska 15–16.10.",
+      "stan_zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/10/eu-budget-ireland-pitches-141bn-cuts-to-appease-the-frugals",
+          "data": "2026-10-10"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/new-compromise-eu-budget-maintains-ukraine-support-but-trims-help-for-eu-integration/",
+          "data": "2026-10-10"
+        }
+      ],
+      "stan_data": "2026-10-10"
     },
     {
-     "nazwa": "Kyiv Independent",
-     "url": "https://kyivindependent.com/estonia-bans-transit-of-grain-from-russia-belarus/",
-     "data": "2026-10-01"
-    }
-   ],
-   "stan_data": "2026-10-01"
-  },
-  {
-   "id": "nordyckie",
-   "nazwa": "Nordyckie",
-   "grupa": "miejsce",
-   "opis": "Szwecja, Finlandia, Norwegia, Dania, Islandia.",
-   "stan": "W Szwecji Magdalena Andersson (S) od 5.10 ponownie bada możliwość utworzenia rządu, z raportem do 12.10; potem głosowanie w Riksdagu nad premierem.",
-   "stan_zrodla": [
-    {
-     "nazwa": "Riksdag (komunikat)",
-     "url": "https://www.riksdagen.se/sv/aktuellt/aktuelltnotiser/2026/okt/2/talmannens-sonderingsuppdrag-till-magdalena_cms77150d24-8e8b-479f-9da0-8df5bf84b9b6sv/",
-     "data": "2026-10-02"
+      "id": "onz",
+      "nazwa": "ONZ",
+      "grupa": "temat",
+      "opis": "ONZ i jej agendy, w tym Rada Bezpieczeństwa i Zgromadzenie Ogólne."
     },
     {
-     "nazwa": "SVT",
-     "url": "https://www.svt.se/nyheter/inrikes/det-har-hander-nu-i-sonderingsprocessen",
-     "data": "2026-10-02"
-    }
-   ],
-   "stan_data": "2026-10-03"
-  },
-  {
-   "id": "francja",
-   "nazwa": "Francja",
-   "grupa": "miejsce",
-   "opis": "Polityka Francji: rząd, budżet, stanowisko w UE.",
-   "stan": "Rząd przedstawił 1.10 projekt budżetu na 2027 r. z deficytem 5,0% PKB (2026: 5,4%); o jego losie zdecyduje rozdrobnione Zgromadzenie Narodowe.",
-   "stan_zrodla": [
-    {
-     "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/10/02/french-government-forecasts-1-growth-in-2027-what-do-experts-think",
-     "data": "2026-10-02"
+      "id": "mfw",
+      "nazwa": "MFW",
+      "grupa": "temat",
+      "opis": "MFW i Bank Światowy: programy, prognozy, finansowanie Ukrainy."
     },
     {
-     "nazwa": "Agence Europe",
-     "url": "https://agenceurope.eu/en/bulletin/article/13950/23/paris-sets-new-public-deficit-target-of-50-of-gdp-in-2027",
-     "data": "2026-10-01"
-    }
-   ],
-   "stan_data": "2026-10-02"
-  },
-  {
-   "id": "wielka-brytania",
-   "nazwa": "WielkaBrytania",
-   "grupa": "miejsce",
-   "opis": "Polityka Wielkiej Brytanii i jej bezpieczeństwo.",
-   "stan": "1.10 rząd wpisał na listę sankcji wobec Rosji 31 nowych celów, m.in. gazowce z rosyjskim LNG.",
-   "stan_zrodla": [
-    {
-     "nazwa": "Rząd Wielkiej Brytanii (Sanctions Notice, Russia)",
-     "url": "https://assets.publishing.service.gov.uk/media/6abe173e9c196f81005e5d7c/Sanctions_Notice__Russia__01_October_2026.pdf",
-     "data": "2026-10-01"
-    }
-   ],
-   "stan_data": "2026-10-01"
-  },
-  {
-   "id": "rumunia",
-   "nazwa": "Rumunia",
-   "grupa": "miejsce",
-   "opis": "Polityka Rumunii i Mołdawii.",
-   "stan": "5.10 prezydent Nicușor Dan desygnował na premiera bezpartyjnego dyplomatę Lucę Niculescu (czwarte wskazanie); ma 10 dni na skład rządu i program. Bukareszt nie wskazał sprawcy zatopienia zbożowca Royad Mammadov w swojej strefie ekonomicznej (5.10).",
-   "stan_zrodla": [
-    {
-     "nazwa": "Reuters (za TimesLive)",
-     "url": "https://www.timeslive.co.za/news/world/2026-10-06-romanian-president-nominates-diplomat-luca-niculescu-as-pm/",
-     "data": "2026-10-06"
+      "id": "niemcy",
+      "nazwa": "Niemcy",
+      "grupa": "miejsce",
+      "opis": "Polityka Niemiec: rząd, koalicja, wybory, obronność.",
+      "stan": "7.10 sąd aresztował byłego prezesa BND Augusta Hanninga, oskarżonego o szpiegostwo na rzecz nieujawnionego obcego wywiadu.",
+      "stan_zrodla": [
+        {
+          "nazwa": "AP (za ABC News)",
+          "url": "https://abcnews.com/International/wireStory/espionage-allegations-germanys-former-intelligence-chief-137062477",
+          "data": "2026-10-07"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/europe/20261007-what-we-know-about-espionage-treason-allegations-against-germany-s-ex-spy-chief",
+          "data": "2026-10-07"
+        }
+      ],
+      "stan_data": "2026-10-07"
     },
     {
-     "nazwa": "AP (za Washington Times)",
-     "url": "https://www.washingtontimes.com/news/2026/oct/5/romanias-president-nominates-fourth-prime-minister-designate-bid-end/",
-     "data": "2026-10-05"
-    }
-   ],
-   "stan_data": "2026-10-06"
-  },
-  {
-   "id": "balkany",
-   "nazwa": "Bałkany",
-   "grupa": "miejsce",
-   "opis": "Serbia, Bośnia i Hercegowina, Kosowo i inne państwa regionu.",
-   "stan": "Kosowo: 6/7.10 parlament wybrał prezydentkę Justinę Shiroka Pulę (81 głosów), unikając przedterminowych wyborów; wcześniej ograniczył kompetencje Izb Specjalnych w Hadze.",
-   "stan_zrodla": [
-    {
-     "nazwa": "Radio Wolna Europa",
-     "url": "https://www.rferl.org/a/kosovo-elects-president-opposition-deal-war-crimes/33871583.html",
-     "data": "2026-10-07"
+      "id": "czechy",
+      "nazwa": "Czechy",
+      "grupa": "miejsce",
+      "opis": "Polityka Czech: rząd, parlament, wybory.",
+      "stan": "Rząd Babiša przetrwał 1.10 wotum nieufności (83 głosy za odwołaniem, potrzeba 101). Przed nim wybory do Senatu 9–10.10.",
+      "stan_zrodla": [
+        {
+          "nazwa": "AP (za Infonews)",
+          "url": "https://infonews.ca/news/7900014/czech-prime-minister-andrej-babis-government-survives-no-confidence-vote/",
+          "data": "2026-10-01"
+        },
+        {
+          "nazwa": "ČTK",
+          "url": "https://www.ceskenoviny.cz/zpravy/snemovni-opozici-se-ani-napodruhe-nepodarilo-svrhnout-babisovu-vladu/2881493",
+          "data": "2026-10-01"
+        }
+      ],
+      "stan_data": "2026-10-01"
     },
     {
-     "nazwa": "AP (za Bozeman Daily Chronicle)",
-     "url": "https://www.bozemandailychronicle.com/wire/international/kosovo-lawmakers-elect-a-new-president-in-a-late-night-vote-to-avert-snap-election/article_e0a41cf2-eeef-5e65-9324-b9e52979ad1a.html",
-     "data": "2026-10-07"
-    }
-   ],
-   "stan_data": "2026-10-07"
-  },
-  {
-   "id": "wybory",
-   "nazwa": "Wybory",
-   "grupa": "temat",
-   "opis": "Wybory w Europie i na świecie; wyniki wstępne odróżniane od oficjalnych."
-  },
-  {
-   "id": "energia",
-   "nazwa": "Energia",
-   "grupa": "temat",
-   "opis": "Ropa, gaz, infrastruktura energetyczna, ceny paliw.",
-   "stan": "G7 uzgodniła 2.10 uwolnienie przez MAE 100 mln baryłek rezerw w ciągu 4 miesięcy (z olejem napędowym na początku) i rezygnację z ograniczeń eksportu energii między państwami G7; cieśnina Ormuz pozostaje zablokowana.",
-   "stan_zrodla": [
-    {
-     "nazwa": "Rada UE (oświadczenie przywódców G7)",
-     "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/02/g7-leaders-statement-on-global-energy-security-and-market-stability/",
-     "data": "2026-10-02"
+      "id": "slowacja",
+      "nazwa": "Słowacja",
+      "grupa": "miejsce",
+      "opis": "Polityka Słowacji: koalicja, rząd, relacje z UE.",
+      "stan": "5.10 rząd przyjął projekt budżetu 2027 z deficytem 4,94% PKB; projekt trafia do Rady Narodowej.",
+      "stan_zrodla": [
+        {
+          "nazwa": "TASR (za TA3)",
+          "url": "https://www.ta3.com/clanok/1074983/vlada-bude-rokovat-o-rozpocte-na-rok-2027-deficit-verejnej-spravy-ma-dosiahnut-takmer-5-percent-hdp",
+          "data": "2026-10-05"
+        }
+      ],
+      "stan_data": "2026-10-05"
     },
     {
-     "nazwa": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/10/2/trump-says-europe-agrees-to-release-massive-amount-diesel-stockpile",
-     "data": "2026-10-02"
-    }
-   ],
-   "stan_data": "2026-10-02"
-  },
-  {
-   "id": "gospodarka",
-   "nazwa": "Gospodarka",
-   "grupa": "temat",
-   "opis": "Tylko zdarzenia nadzwyczajne: inflacja, kurs złotego, decyzje banków centralnych, cła.",
-   "stan": "Inflacja w strefie euro we wrześniu 3,8% (energia +18,8%); w Polsce szybki szacunek GUS 4,0%; RPP obraduje 6–7.10, EBC 28–29.10.",
-   "stan_zrodla": [
-    {
-     "nazwa": "Komisja Europejska (Eurostat, szybki szacunek HICP)",
-     "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-02102026-ap",
-     "data": "2026-10-02"
+      "id": "wegry",
+      "nazwa": "Węgry",
+      "grupa": "miejsce",
+      "opis": "Polityka Węgier: rząd, rozliczenia, relacje z UE."
     },
     {
-     "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/10/02/eurozone-inflation-spikes-to-38-is-your-country-on-the-worst-list",
-     "data": "2026-10-02"
-    }
-   ],
-   "stan_data": "2026-10-02"
-  },
-  {
-   "id": "inne",
-   "nazwa": "Inne",
-   "grupa": "temat",
-   "opis": "Wątki rzadkie, bez osobnego hashtagu."
-  },
-  {
-   "id": "afryka",
-   "nazwa": "Afryka",
-   "grupa": "miejsce",
-   "opis": "Wojny, przewroty i kryzysy w Afryce (Róg Afryki, Sudan, Sahel, Kongo).",
-   "stan": "9.10 Etiopia i Erytrea oskarżają się o agresję; według etiopskich urzędników w Tigraju jest do 8000 żołnierzy erytrejskich; RB ONZ przedłużyła 8.10 sankcje wobec Darfuru do 11.12 (rez. 2830), bez rozszerzenia na cały Sudan.",
-   "stan_zrodla": [
-    {
-     "nazwa": "France 24 (AFP)",
-     "url": "https://www.france24.com/en/africa/20261009-eritrea-ethiopia-accuse-each-other-of-provoking-war-as-tigray-rebels-retreat",
-     "data": "2026-10-09"
+      "id": "litwa",
+      "nazwa": "Litwa",
+      "grupa": "miejsce",
+      "opis": "Polityka Litwy i bezpieczeństwo przesmyku suwalskiego.",
+      "stan": "6.10 Sejm w pierwszym głosowaniu (106 za, 18 przeciw) poparł usunięcie z art. 137 konstytucji zakazu broni masowego rażenia i obcych baz; drugie głosowanie 12.01.2027.",
+      "stan_zrodla": [
+        {
+          "nazwa": "LRT",
+          "url": "https://www.lrt.lt/en/news-in-english/19/3074149/lithuanian-parliament-backs-removing-constitutional-ban-on-nuclear-weapons",
+          "data": "2026-10-06"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/06/lithuania-takes-further-step-towards-lifting-nuclear-weapons-ban",
+          "data": "2026-10-06"
+        }
+      ],
+      "stan_data": "2026-10-06"
     },
     {
-     "nazwa": "ONZ (UN News)",
-     "url": "https://news.un.org/en/story/2026/10/1168556",
-     "data": "2026-10-08"
-    }
-   ],
-   "stan_data": "2026-10-09"
-  },
-  {
-   "id": "ameryki",
-   "nazwa": "Ameryki",
-   "grupa": "miejsce",
-   "opis": "Polityka państw obu Ameryk poza USA: wybory, kryzysy, relacje z UE i Chinami.",
-   "stan": "Brazylia: w I turze wyborów prezydenckich 4.10 Flávio Bolsonaro 47,03%, Lula 45,16% – II tura.",
-   "stan_zrodla": [
-    {
-     "nazwa": "TSE",
-     "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/flavio-bolsonaro-e-lula-vao-disputar-o-2o-turno-para-a-presidencia-da-republica",
-     "data": "2026-10-05"
-    }
-   ],
-   "stan_data": "2026-10-05"
-  },
-  {
-   "id": "bulgaria",
-   "nazwa": "Bułgaria",
-   "grupa": "miejsce",
-   "opis": "Polityka Bułgarii i bezpieczeństwo jej strefy na Morzu Czarnym.",
-   "stan": "6.10 drony trafiły dwa statki tureckich armatorów w wyłącznej strefie ekonomicznej Bułgarii (Alfa Watan zatonął); premier Rumen Radew zwołał nadzwyczajne posiedzenie rządu, sprawcy nie wskazano.",
-   "stan_zrodla": [
-    {
-     "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/10/06/drones-hit-two-ships-off-coast-of-bulgaria-as-government-calls-emergency-meeting",
-     "data": "2026-10-06"
+      "id": "lotwa",
+      "nazwa": "Łotwa",
+      "grupa": "miejsce",
+      "opis": "Polityka Łotwy, wybory.",
+      "stan": "Po przeliczeniu niemal wszystkich głosów Zjednoczona Lista premiera Kulbergsa ma 42 ze 100 mandatów; może rządzić z Sojuszem Narodowym albo Postępowymi.",
+      "stan_zrodla": [
+        {
+          "nazwa": "LSM",
+          "url": "https://eng.lsm.lv/article/politics/election/04.10.2026-new-latvian-saeima-starts-to-shape-up-with-nearly-all-votes-counted.a666021/",
+          "data": "2026-10-04"
+        },
+        {
+          "nazwa": "Reuters (za Irish Times)",
+          "url": "https://www.irishtimes.com/world/europe/2026/10/04/latvian-pm-on-track-to-lead-pro-ukraine-coalition-after-election-win/",
+          "data": "2026-10-04"
+        },
+        {
+          "nazwa": "AP (za Euronews)",
+          "url": "https://www.euronews.com/2026/10/04/latvias-pro-european-ruling-party-wins-election-as-populists-gain-ground",
+          "data": "2026-10-04"
+        }
+      ],
+      "stan_data": "2026-10-04"
     },
     {
-     "nazwa": "AP (za ABC News)",
-     "url": "https://abcnews.com/International/wireStory/bulgarian-pm-drone-attack-2-commercial-vessels-blatant-137025648",
-     "data": "2026-10-06"
+      "id": "estonia",
+      "nazwa": "Estonia",
+      "grupa": "miejsce",
+      "opis": "Polityka i bezpieczeństwo Estonii.",
+      "stan": "Rząd zakazał 1.10 tranzytu zboża z Rosji i Białorusi przez terytorium Estonii.",
+      "stan_zrodla": [
+        {
+          "nazwa": "ERR",
+          "url": "https://news.err.ee/1610153278/estonia-bans-grain-transit-from-russia-and-belarus",
+          "data": "2026-10-01"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/estonia-bans-transit-of-grain-from-russia-belarus/",
+          "data": "2026-10-01"
+        }
+      ],
+      "stan_data": "2026-10-01"
+    },
+    {
+      "id": "nordyckie",
+      "nazwa": "Nordyckie",
+      "grupa": "miejsce",
+      "opis": "Szwecja, Finlandia, Norwegia, Dania, Islandia.",
+      "stan": "W Szwecji Magdalena Andersson (S) od 5.10 ponownie bada możliwość utworzenia rządu, z raportem do 12.10; potem głosowanie w Riksdagu nad premierem.",
+      "stan_zrodla": [
+        {
+          "nazwa": "Riksdag (komunikat)",
+          "url": "https://www.riksdagen.se/sv/aktuellt/aktuelltnotiser/2026/okt/2/talmannens-sonderingsuppdrag-till-magdalena_cms77150d24-8e8b-479f-9da0-8df5bf84b9b6sv/",
+          "data": "2026-10-02"
+        },
+        {
+          "nazwa": "SVT",
+          "url": "https://www.svt.se/nyheter/inrikes/det-har-hander-nu-i-sonderingsprocessen",
+          "data": "2026-10-02"
+        }
+      ],
+      "stan_data": "2026-10-03"
+    },
+    {
+      "id": "francja",
+      "nazwa": "Francja",
+      "grupa": "miejsce",
+      "opis": "Polityka Francji: rząd, budżet, stanowisko w UE.",
+      "stan": "Rząd przedstawił 1.10 projekt budżetu na 2027 r. z deficytem 5,0% PKB (2026: 5,4%); o jego losie zdecyduje rozdrobnione Zgromadzenie Narodowe.",
+      "stan_zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/02/french-government-forecasts-1-growth-in-2027-what-do-experts-think",
+          "data": "2026-10-02"
+        },
+        {
+          "nazwa": "Agence Europe",
+          "url": "https://agenceurope.eu/en/bulletin/article/13950/23/paris-sets-new-public-deficit-target-of-50-of-gdp-in-2027",
+          "data": "2026-10-01"
+        }
+      ],
+      "stan_data": "2026-10-02"
+    },
+    {
+      "id": "wielka-brytania",
+      "nazwa": "WielkaBrytania",
+      "grupa": "miejsce",
+      "opis": "Polityka Wielkiej Brytanii i jej bezpieczeństwo.",
+      "stan": "1.10 rząd wpisał na listę sankcji wobec Rosji 31 nowych celów, m.in. gazowce z rosyjskim LNG.",
+      "stan_zrodla": [
+        {
+          "nazwa": "Rząd Wielkiej Brytanii (Sanctions Notice, Russia)",
+          "url": "https://assets.publishing.service.gov.uk/media/6abe173e9c196f81005e5d7c/Sanctions_Notice__Russia__01_October_2026.pdf",
+          "data": "2026-10-01"
+        }
+      ],
+      "stan_data": "2026-10-01"
+    },
+    {
+      "id": "rumunia",
+      "nazwa": "Rumunia",
+      "grupa": "miejsce",
+      "opis": "Polityka Rumunii i Mołdawii.",
+      "stan": "5.10 prezydent Nicușor Dan desygnował na premiera bezpartyjnego dyplomatę Lucę Niculescu (czwarte wskazanie); ma 10 dni na skład rządu i program. Bukareszt nie wskazał sprawcy zatopienia zbożowca Royad Mammadov w swojej strefie ekonomicznej (5.10).",
+      "stan_zrodla": [
+        {
+          "nazwa": "Reuters (za TimesLive)",
+          "url": "https://www.timeslive.co.za/news/world/2026-10-06-romanian-president-nominates-diplomat-luca-niculescu-as-pm/",
+          "data": "2026-10-06"
+        },
+        {
+          "nazwa": "AP (za Washington Times)",
+          "url": "https://www.washingtontimes.com/news/2026/oct/5/romanias-president-nominates-fourth-prime-minister-designate-bid-end/",
+          "data": "2026-10-05"
+        }
+      ],
+      "stan_data": "2026-10-06"
+    },
+    {
+      "id": "balkany",
+      "nazwa": "Bałkany",
+      "grupa": "miejsce",
+      "opis": "Serbia, Bośnia i Hercegowina, Kosowo i inne państwa regionu.",
+      "stan": "Kosowo: 6/7.10 parlament wybrał prezydentkę Justinę Shiroka Pulę (81 głosów), unikając przedterminowych wyborów; wcześniej ograniczył kompetencje Izb Specjalnych w Hadze.",
+      "stan_zrodla": [
+        {
+          "nazwa": "Radio Wolna Europa",
+          "url": "https://www.rferl.org/a/kosovo-elects-president-opposition-deal-war-crimes/33871583.html",
+          "data": "2026-10-07"
+        },
+        {
+          "nazwa": "AP (za Bozeman Daily Chronicle)",
+          "url": "https://www.bozemandailychronicle.com/wire/international/kosovo-lawmakers-elect-a-new-president-in-a-late-night-vote-to-avert-snap-election/article_e0a41cf2-eeef-5e65-9324-b9e52979ad1a.html",
+          "data": "2026-10-07"
+        }
+      ],
+      "stan_data": "2026-10-07"
+    },
+    {
+      "id": "wybory",
+      "nazwa": "Wybory",
+      "grupa": "temat",
+      "opis": "Wybory w Europie i na świecie; wyniki wstępne odróżniane od oficjalnych."
+    },
+    {
+      "id": "energia",
+      "nazwa": "Energia",
+      "grupa": "temat",
+      "opis": "Ropa, gaz, infrastruktura energetyczna, ceny paliw.",
+      "stan": "G7 uzgodniła 2.10 uwolnienie przez MAE 100 mln baryłek rezerw w ciągu 4 miesięcy (z olejem napędowym na początku) i rezygnację z ograniczeń eksportu energii między państwami G7; cieśnina Ormuz pozostaje zablokowana.",
+      "stan_zrodla": [
+        {
+          "nazwa": "Rada UE (oświadczenie przywódców G7)",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/02/g7-leaders-statement-on-global-energy-security-and-market-stability/",
+          "data": "2026-10-02"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/2/trump-says-europe-agrees-to-release-massive-amount-diesel-stockpile",
+          "data": "2026-10-02"
+        }
+      ],
+      "stan_data": "2026-10-02"
+    },
+    {
+      "id": "gospodarka",
+      "nazwa": "Gospodarka",
+      "grupa": "temat",
+      "opis": "Tylko zdarzenia nadzwyczajne: inflacja, kurs złotego, decyzje banków centralnych, cła.",
+      "stan": "Inflacja w strefie euro we wrześniu 3,8% (energia +18,8%); w Polsce szybki szacunek GUS 4,0%; RPP obraduje 6–7.10, EBC 28–29.10.",
+      "stan_zrodla": [
+        {
+          "nazwa": "Komisja Europejska (Eurostat, szybki szacunek HICP)",
+          "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-02102026-ap",
+          "data": "2026-10-02"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/02/eurozone-inflation-spikes-to-38-is-your-country-on-the-worst-list",
+          "data": "2026-10-02"
+        }
+      ],
+      "stan_data": "2026-10-02"
+    },
+    {
+      "id": "inne",
+      "nazwa": "Inne",
+      "grupa": "temat",
+      "opis": "Wątki rzadkie, bez osobnego hashtagu."
+    },
+    {
+      "id": "afryka",
+      "nazwa": "Afryka",
+      "grupa": "miejsce",
+      "opis": "Wojny, przewroty i kryzysy w Afryce (Róg Afryki, Sudan, Sahel, Kongo).",
+      "stan": "9.10 Etiopia i Erytrea oskarżają się o agresję; według etiopskich urzędników w Tigraju jest do 8000 żołnierzy erytrejskich; RB ONZ przedłużyła 8.10 sankcje wobec Darfuru do 11.12 (rez. 2830), bez rozszerzenia na cały Sudan.",
+      "stan_zrodla": [
+        {
+          "nazwa": "France 24 (AFP)",
+          "url": "https://www.france24.com/en/africa/20261009-eritrea-ethiopia-accuse-each-other-of-provoking-war-as-tigray-rebels-retreat",
+          "data": "2026-10-09"
+        },
+        {
+          "nazwa": "ONZ (UN News)",
+          "url": "https://news.un.org/en/story/2026/10/1168556",
+          "data": "2026-10-08"
+        }
+      ],
+      "stan_data": "2026-10-09"
+    },
+    {
+      "id": "ameryki",
+      "nazwa": "Ameryki",
+      "grupa": "miejsce",
+      "opis": "Polityka państw obu Ameryk poza USA: wybory, kryzysy, relacje z UE i Chinami.",
+      "stan": "Brazylia: w I turze wyborów prezydenckich 4.10 Flávio Bolsonaro 47,03%, Lula 45,16% – II tura.",
+      "stan_zrodla": [
+        {
+          "nazwa": "TSE",
+          "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/flavio-bolsonaro-e-lula-vao-disputar-o-2o-turno-para-a-presidencia-da-republica",
+          "data": "2026-10-05"
+        }
+      ],
+      "stan_data": "2026-10-05"
+    },
+    {
+      "id": "bulgaria",
+      "nazwa": "Bułgaria",
+      "grupa": "miejsce",
+      "opis": "Polityka Bułgarii i bezpieczeństwo jej strefy na Morzu Czarnym.",
+      "stan": "6.10 drony trafiły dwa statki tureckich armatorów w wyłącznej strefie ekonomicznej Bułgarii (Alfa Watan zatonął); premier Rumen Radew zwołał nadzwyczajne posiedzenie rządu, sprawcy nie wskazano.",
+      "stan_zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/06/drones-hit-two-ships-off-coast-of-bulgaria-as-government-calls-emergency-meeting",
+          "data": "2026-10-06"
+        },
+        {
+          "nazwa": "AP (za ABC News)",
+          "url": "https://abcnews.com/International/wireStory/bulgarian-pm-drone-attack-2-commercial-vessels-blatant-137025648",
+          "data": "2026-10-06"
+        }
+      ],
+      "stan_data": "2026-10-06"
     }
-   ],
-   "stan_data": "2026-10-06"
-  }
- ]
+  ]
 }

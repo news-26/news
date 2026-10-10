@@ -1,0 +1,620 @@
+{
+  "nr": 22,
+  "data": "2026-10-10",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "10.10 rosyjskie **bomby szybujące** uderzyły w bloki mieszkalne w Zaporożu; według Państwowej Służby ds. Sytuacji Nadzwyczajnych zginęło co najmniej 20 osób, w tym troje dzieci. Atak nastąpił dzień po decyzji Departamentu Skarbu USA o tymczasowym zawieszeniu sankcji na rosyjski olej napędowy, ogłoszonej przez {{o:donald-trump|Donalda Trumpa}} po rozmowie z {{o:wladimir-putin|Władimirem Putinem}}.",
+    "{{o:donald-trump|Trump}} oświadczył 10.10, że Ukraina powinna mieć „nowego prezydenta”, i zażądał od {{o:wolodymyr-zelenski|Wołodymyra Zełenskiego}} zaprzestania uderzeń w rosyjskie rafinerie; zakończyła się dwudniowa runda rozmów USA–Ukraina–E3 w Miami (według {{o:steve-witkoff|Steve'a Witkoffa}} „konstruktywna”, bez ogłoszonych ustaleń).",
+    "Prezydencja irlandzka przedstawiła kompromisowy projekt **wieloletnich ram finansowych** UE na lata 2028–34 (1622 mld euro, o 141 mld mniej niż wniosek Komisji); sprawa trafi na Radę Europejską 15–16.10.",
+    "Na Bliskim Wschodzie jemeńscy Huti kolejny raz mieli uderzyć w lotnisko w Rijadzie (po ataku z 8.10, w którym według Arabii Saudyjskiej zginęły trzy osoby); prezydent Palestyny Mahmud Abbas przesunął wybory parlamentarne z 28.11.2026 na 11.09.2027. W Indiach policja zamknęła Nowe Delhi i zatrzymała liderów ruchu protestującego przeciw rewizji list wyborców.",
+    "W Polsce nie znaleziono komunikatów instytucji o nowych incydentach z 9–10.10; w Czechach trwa druga część I tury wyborów do Senatu, wyniki są oczekiwane 11.10."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-10-10",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "front"
+      ],
+      "tekst": "Rosyjskie lotnictwo zrzuciło wczesnym rankiem 10.10 pięć bomb szybujących na Zaporoże; dwie trafiły w bloki mieszkalne, a według Państwowej Służby ds. Sytuacji Nadzwyczajnych zginęło co najmniej 20 osób, w tym troje dzieci, a co najmniej 18 zostało rannych (Euronews podał 16 rannych). W nocy Rosja wystrzeliła 160 dronów, z czego według Euronews (za siłami powietrznymi Ukrainy) do godz. 9:00 zestrzelono lub zneutralizowano 117; w ciągu dnia Rosja zaatakowała też rakietami Kijów, gdzie według mera {{o:witalij-kliczko|Witalija Kliczki}} są ranni. **Bilans** ataków w całym kraju wynosi według Kyiv Independent co najmniej 24 zabitych i 47 rannych.",
+      "etap": "W TOKU",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-attacks-kill-at-least-19-injure-39-across-ukraine-as-rescue-operations-continue-in-zaporizhzhia/",
+          "data": "2026-10-10"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/10/russian-strikes-on-southeastern-ukraine-kill-eight-including-three-children-authorities-sa",
+          "data": "2026-10-10"
+        },
+        {
+          "nazwa": "CBS News",
+          "url": "https://www.cbsnews.com/news/russia-strikes-ukraine-trump-diesel-deal/",
+          "data": "2026-10-10"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-10-09",
+      "tagi": [
+        "usa",
+        "rosja",
+        "sankcje",
+        "energia",
+        "ukraina"
+      ],
+      "etap": "PRZYJĘTE",
+      "tekst": "9.10 {{o:donald-trump|Trump}} ogłosił po rozmowie z {{o:wladimir-putin|Putinem}}, że Rosja dostarczy na rynek USA i światowy ponad 300 tys. ton **oleju napędowego** od razu, 500 tys. ton w listopadzie i 1 mln ton w kolejnym okresie; Departament Skarbu USA potwierdził tego dnia tymczasowe zawieszenie sankcji na rosyjski sektor energii na potrzeby tych dostaw (według senatorów Demokratów – sześciomiesięczna licencja OFAC). Zełenski ocenił, że decyzja daje Rosji dochody na wojnę, a szefowa dyplomacji UE Kaja Kallas zapowiedziała największe dotąd listy sankcyjne UE; Kreml potwierdził gotowość dostaw. Skutek: nowy wyłom w sankcjach USA w trakcie rozmów pokojowych, sprzeczny według CBS News z ustawą sankcyjną podpisaną przez Trumpa we wrześniu.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/",
+          "data": "2026-10-09"
+        },
+        {
+          "nazwa": "CBS News",
+          "url": "https://www.cbsnews.com/news/russia-strikes-ukraine-trump-diesel-deal/",
+          "data": "2026-10-10"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "wojna",
+      "data": "2026-10-10",
+      "tagi": [
+        "usa",
+        "ukraina",
+        "rosja"
+      ],
+      "tekst": "{{o:donald-trump|Trump}} powiedział 10.10, że Ukraina powinna dostać „nowego prezydenta”, który „zawrze porozumienie”, i oświadczył, że kazał {{o:wolodymyr-zelenski|Zełenskiemu}} nie uderzać w rafinerie, które według niego podnoszą ceny paliw przed wyborami połówkowymi w USA; Kyiv Independent zauważa, że głównym źródłem niedoboru oleju napędowego jest wojna USA z Iranem i zablokowanie cieśniny Ormuz. Zełenski zadeklarował wcześniej, że Ukraina wstrzyma uderzenia w rosyjskie rafinerie, jeśli Rosja przestanie atakować ukraińską infrastrukturę energetyczną. Wypowiedź prezydenta USA nie jest decyzją; jest **sygnałem** presji na Kijów w chwili, gdy Waszyngton łagodzi sankcje wobec Moskwy.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/he-better-damn-well-stop-trump-slams-zelensky-for-attacking-russian-refineries-says-ukraine-should-get-new-president/",
+          "data": "2026-10-10"
+        },
+        {
+          "nazwa": "CBS News",
+          "url": "https://www.cbsnews.com/news/russia-strikes-ukraine-trump-diesel-deal/",
+          "data": "2026-10-10"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "wojna",
+      "data": "2026-10-09",
+      "tagi": [
+        "ukraina",
+        "usa",
+        "rozejm",
+        "ue",
+        "nato"
+      ],
+      "etap": "W TOKU",
+      "tekst": "9–10.10 w Miami odbyła się runda rozmów z udziałem wysłannika USA {{o:steve-witkoff|Steve'a Witkoffa}}, delegacji Ukrainy (szef Biura Prezydenta Kyryło Budanow, szef Służby Wywiadu Zagranicznego Rustem Umerow, doradca Serhij Kisłycia, deputowany Dawyd Arachamija) oraz przedstawicieli Francji, Niemiec, Wielkiej Brytanii (E3), Komisji Europejskiej i NATO; Rosja nie uczestniczyła. Według Witkoffa rozmowy były „konstruktywne”, dotyczyły m.in. odporności energetycznej zimą, eksportu zboża, gwarancji bezpieczeństwa, odbudowy i członkostwa Ukrainy w UE, ale **nie ogłoszono żadnych ustaleń** ani terminu kolejnego spotkania; Waszyngton planuje kolejny kontakt z Rosją bez daty. Zełenski zapowiedział relację delegacji w Kijowie 12.10.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/us-ukrainian-european-officials-discuss-ending-russias-war-at-miami-meeting/",
+          "data": "2026-10-10"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/10/us-hosts-productive-trilateral-talks-to-end-russia-ukraine-war",
+          "data": "2026-10-10"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/live-news/20261010-zelensky-blasts-diesel-deal-after-russian-strikes-kill-15",
+          "data": "2026-10-10"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "instytucje",
+      "data": "2026-10-10",
+      "tagi": [
+        "ue",
+        "ukraina"
+      ],
+      "etap": "PROPOZYCJA",
+      "tekst": "Prezydencja irlandzka w Radzie UE przedstawiła 10.10 kompromisowy projekt **wieloletnich ram finansowych** 2028–34: 1622 mld euro (ceny z 2025 r.), czyli o 141 mld (8%) mniej niż wniosek Komisji; wsparcie dla Ukrainy pozostaje na poziomie 88,87 mld euro (Komisja proponowała 100 mld), fundusz Global Europe spada według Kyiv Independent z 169,5 do 149 mld euro (Euronews podaje 157 mld, −17%), a pomoc dla krajów kandydujących o ok. 4 mld euro. Projekt wymaga jednomyślności 27 państw; ambasadorowie UE omawiają go 11.10, Rada do Spraw Ogólnych 13.10, a przywódcy na Radzie Europejskiej 15–16.10, przy celu porozumienia do końca 2026.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/10/eu-budget-ireland-pitches-141bn-cuts-to-appease-the-frugals",
+          "data": "2026-10-10"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/new-compromise-eu-budget-maintains-ukraine-support-but-trims-help-for-eu-integration/",
+          "data": "2026-10-10"
+        }
+      ]
+    },
+    {
+      "id": "z6",
+      "blok": "swiat",
+      "data": "2026-10-10",
+      "tagi": [
+        "inne"
+      ],
+      "tekst": "Lotnisko King Khalid w Rijadzie zostało według źródła dyplomatycznego i świadków (Euronews, France 24) ponownie trafione rakietą Huti 10.10 (France 24: około godz. 15:00 czasu lokalnego); źródło szpitalne podało o dziesiątkach rannych (co najmniej pięć osób na intensywnej terapii), a Arabia Saudyjska nie potwierdziła ataku; loty do Rijadu odwołano lub przekierowano, a ambasady USA, Kanady, Niemiec i Hiszpanii ostrzegły obywateli. Wcześniej, 8.10, saudyjski urząd lotnictwa cywilnego podał, że w atakach Huti na lotnisko w Rijadzie zginęły trzy osoby, w tym pilot (France 24, 9.10). Równolegle rząd Jemenu prowadzi **kontrofensywę** wokół cieśniny Bab al-Mandab; według France 24 (AFP) źródła wojskowe obu stron podają co najmniej 63 zabitych w ciągu doby, a koalicja twierdzi, że zniszczyła ponad 130 celów Huti; dane stron nie są niezależnie potwierdzone.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/10/evacuations-and-injuries-reported-at-riyadh-airport-after-another-alleged-houthi-attack",
+          "data": "2026-10-10"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20261010-yemen-says-forces-made-advances-against-houthis-around-key-waterway",
+          "data": "2026-10-10"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/live-news/20261009-saudi-arabia-says-three-killed-at-airport-as-yemen-war-expands",
+          "data": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "z7",
+      "blok": "swiat",
+      "data": "2026-10-10",
+      "tagi": [
+        "inne"
+      ],
+      "etap": "ZAPOWIEDŹ",
+      "tekst": "Prezydent Palestyny Mahmud Abbas wydał dekret (podała agencja Wafa), który wyznacza wybory prezydenckie i parlamentarne na 11.09.2027; wybory parlamentarne były zaplanowane na 28.11.2026. Prezydencja uzasadniła **przesunięcie** „przeszkodami bezpieczeństwa, logistyki i sytuacji na miejscu”, a Komitet Wykonawczy OWP je zatwierdził; szef MSZ Izraela Gideon Sa’ar zarzucił Abbasowi „oszukiwanie społeczności międzynarodowej”. Ostatnie wybory parlamentarne odbyły się w 2006 r.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/10/palestinian-president-abbas-postpones-legislative-elections-until-september-2027",
+          "data": "2026-10-10"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20261010-palestinian-president-abbas-postpones-legislative-elections-to-september-2027",
+          "data": "2026-10-10"
+        },
+        {
+          "nazwa": "CBS News",
+          "url": "https://www.cbsnews.com/news/mahmoud-abbas-postpones-palestinian-legislative-elections/",
+          "data": "2026-10-10"
+        }
+      ]
+    },
+    {
+      "id": "z8",
+      "blok": "swiat",
+      "data": "2026-10-09",
+      "tagi": [
+        "onz",
+        "inne"
+      ],
+      "tekst": "Norweski Komitet Noblowski ogłosił 9.10 **Pokojową Nagrodę Nobla 2026** dla południowoafrykańskiej prawniczki Navanethem „Navi” Pillay, byłej Wysokiej Komisarz ONZ ds. praw człowieka (2008–14) i sędzi Międzynarodowego Trybunału Karnego, za „wysiłki na rzecz pokoju i prawa międzynarodowego”. {{o:donald-trump|Donald Trump}} nazwał decyzję „haniebną i żenującą” (wiec w Syracuse) i „niezmywalną plamą na Norwegii” (Truth Social), a Euronews przypomina, że w 2025 r. Pillay przewodniczyła komisji śledczej ONZ, która oskarżyła Izrael o ludobójstwo w Gazie.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/10/no-one-ever-heard-of-her-trump-goes-off-on-petty-rant-after-nobel-peace-prize-snub",
+          "data": "2026-10-10"
+        },
+        {
+          "nazwa": "CBS News",
+          "url": "https://www.cbsnews.com/news/nobel-peace-prize-2026-navanethem-navi-pillay-south-africa/",
+          "data": "2026-10-09"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/europe/20261009-south-africa-s-navanethem-navi-pillay-wins-2026-nobel-peace-prize",
+          "data": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "z9",
+      "blok": "swiat",
+      "data": "2026-10-09",
+      "tagi": [
+        "ameryki"
+      ],
+      "tekst": "Trzęsienie ziemi o magnitudzie 7,7 nawiedziło 9.10 południową Panamę; uszkodzone zostały m.in. katedra (częściowo zawalona) i hotel w Penonomé, a dla kilku państw regionu wydano alerty tsunami, odwołane później przez Pacyficzne Centrum Ostrzegania przed Tsunami. Prezydent Panamy poinformował, że **nie udokumentowano zgonów**; według France 24 rannych zostało co najmniej 27 osób (lekko), a wstrząs wtórny o magnitudzie 6,6 odnotował Euronews. Kanał Panamski działa bez zakłóceń.",
+      "zrodla": [
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/live-news/20261009-major-earthquake-rocks-panama-triggers-tsunami-warning",
+          "data": "2026-10-09"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/video/2026/10/10/panic-in-panama-as-77-quake-hits-cathedral-collapses-and-tsunami-warnings-spread",
+          "data": "2026-10-10"
+        },
+        {
+          "nazwa": "CBS News",
+          "url": "https://www.cbsnews.com/news/panama-earthquake-tsunami-threat/",
+          "data": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "z10",
+      "blok": "swiat",
+      "data": "2026-10-10",
+      "tagi": [
+        "inne"
+      ],
+      "tekst": "Policja w Nowym Delhi zatrzymała 10.10 założyciela ruchu **Cockroach Janta Party** Abhijeeta Dipke i dwóch jego współpracowników w samolocie po przylocie do stolicy, a w mieście, według relacji prasowych, wprowadzono zamknięcie: rozmieszczono tysiące policjantów i oddziałów paramilitarnych, odwołano pociągi, wyłączono mobilny internet w okolicy miejsca protestu i zamknięto stacje metra. Protest, przeciw prowadzonej od 2025 r. rewizji list wyborców przez Komisję Wyborczą Indii (według opozycji grozi odebraniem praw wyborczych milionom osób; Komisja odrzuca zarzuty, twierdząc, że usuwa duplikaty i osoby nieuprawnione), dotyczy rządu premiera Narendry Modiego; liczba zatrzymanych jest w relacjach rozbieżna (od setek do kilku tysięcy; dane ruchu i prasy nie są niezależnie potwierdzone), a Amnesty International potępiła restrykcje.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/10/thousands-detained-in-new-delhi-as-police-crack-down-on-cockroach-movement",
+          "data": "2026-10-10"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/live-news/20261010-india-detains-cockroach-leaders-ahead-of-election-protest",
+          "data": "2026-10-10"
+        },
+        {
+          "nazwa": "NPR",
+          "url": "https://www.npr.org/2026/10/10/g-s1-147603/india-cracks-down-on-youth-protests-as-anger-grows-against-modi-and-election-chief",
+          "data": "2026-10-10"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "OSW: ceny oleju napędowego w UE są o 82% wyższe niż na początku roku, a Europa Środkowa, w tym Polska, zależy od importu z Zatoki",
+      "autor": "OSW (Agata Łoskot-Strachota, Krzysztof Dębiec), 9.10.2026",
+      "tagi": [
+        "energia",
+        "ue"
+      ],
+      "tekst": "Autorzy wiążą problemy rynku oleju napędowego z wojną w Zatoce Perskiej, która ograniczyła eksport paliw z Bliskiego Wschodu o 40–50%, oraz ze zniszczeniami rosyjskich rafinerii, rosyjskim zakazem eksportu diesla z sierpnia 2026 r., ograniczeniami w Chinach i zamknięciem ok. 30 ze 100 unijnych rafinerii od 2009 r. Pod koniec września ceny diesla w UE były o 82% wyższe niż na początku roku. Autorzy oceniają, że uwolnienie 100 mln baryłek rezerw uzgodnione przez G7 złagodzi sytuację tylko przejściowo, a państwa UE mogą w ciągu kilku tygodni lub miesięcy zostać zmuszone do ograniczania popytu; działania Komisji Europejskiej uznają za niewystarczające wobec bieżącego kryzysu.",
+      "dla_polski": "Według OSW Słowenia, Węgry i Polska sprowadzają olej napędowy także z rejonu Zatoki, co zwiększa ryzyko niedoborów; tekst powstał przed ogłoszeniem 9.10 przez USA zgody na zakup rosyjskiego diesla, której OSW nie ocenia.",
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-10-09/problemy-na-europejskim-rynku-oleju-napedowego-skutki-dla",
+          "data": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "tytul": "OSW: wybory w Bośni i Hercegowinie przy frekwencji niewiele ponad 40% utrwaliły podziały etniczne i zmniejszają szanse na reformy wymagane przez UE",
+      "autor": "OSW (Michał Kucharski), 9.10.2026",
+      "tagi": [
+        "balkany",
+        "ue",
+        "wybory"
+      ],
+      "tekst": "Autor opisuje wybory z 4.10: zwyciężyły partie reprezentujące interesy poszczególnych narodów, do Prezydium weszli Denis Bećirović, Željka Cvijanović i Darijana Filipović, a dotychczasowa koalicja rządząca nie utworzy rządu. Frekwencja spadła o 10 punktów procentowych do nieco ponad 40%, a ponad 8% głosów było nieważnych. Zdaniem autora największą porażkę poniósł multietniczny Front Demokratyczny, HDZ BiH zachowuje kluczowe wpływy, a Milorad Dodik utrzymuje dominację w Republice Serbskiej, co razem z trudnym procesem tworzenia koalicji zmniejsza szanse na reformy wymagane przez UE (m.in. wybór negocjatora akcesyjnego i dostęp do funduszy Planu wzrostu dla Bałkanów Zachodnich).",
+      "dla_polski": "Tekst OSW nie odnosi się bezpośrednio do Polski; skutek pośredni to dalsze opóźnienie przybliżania Bośni do UE na Bałkanach Zachodnich.",
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-09/wybory-w-bosni-i-hercegowinie-apatia-elektoratu-i-utrwalenie",
+          "data": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "tytul": "OSW: Rosja w ciągu tygodnia kilkakrotnie zasygnalizowała gotowość użycia broni jądrowej wobec NATO, by ograniczyć wzmacnianie wschodniej flanki",
+      "autor": "OSW (Ernest Wyciszkiewicz, współpraca Piotr Szymański), 7.10.2026",
+      "tagi": [
+        "rosja",
+        "nato",
+        "krolewiec"
+      ],
+      "tekst": "Autor opisuje, że w dniach 28.09–4.10 groźby użycia broni jądrowej wobec NATO przekazywały placówki rosyjskie w Belgii, Londynie i Dublinie oraz Władimir Putin, a pretekstem były defensywne działania Sojuszu wokół obwodu królewieckiego i na Bałtyku. Według autora celem jest ograniczenie wzmacniania wschodniej flanki, osłabienie poparcia społeczeństw zachodnich dla Ukrainy i powstrzymanie działań wobec tzw. floty cieni; niespójne przekazy pozwalają Kremlowi podnosić ryzyko z możliwością wycofania się. Autor ocenia, że groźby w większości pozostają nieskuteczne, bo NATO rozwija obecność na flance, a Europa zwiększa pomoc dla Ukrainy.",
+      "dla_polski": "Według OSW należy konsekwentnie wzmacniać wschodnią flankę i jasno sygnalizować koszty agresji, nie ulegając presji wywoływanej strachem przed eskalacją.",
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-07/rosyjska-kampania-odstraszania-i-zastraszania",
+          "data": "2026-10-07"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-10-11",
+      "tekst": "Czechy: wyniki I tury wyborów do Senatu i wyborów samorządowych (według Euronews pełne wyniki w niedzielę rano); 11.10 ambasadorowie UE omawiają irlandzki projekt WRF 2028–34.",
+      "tagi": [
+        "czechy",
+        "wybory",
+        "ue"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/10/czechs-head-to-polls-in-local-and-senate-elections",
+          "data": "2026-10-10"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/10/eu-budget-ireland-pitches-141bn-cuts-to-appease-the-frugals",
+          "data": "2026-10-10"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-12",
+      "tekst": "12–13.10: Warsaw Security Forum w Warszawie – według organizatora naczelny dowódca sił NATO w Europie gen. Alexus Grynkewich przedstawi tam publicznie strategię obrony wschodniej flanki.",
+      "tagi": [
+        "nato",
+        "obronnosc-polski"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "PAP MediaRoom (komunikat organizatora)",
+          "url": "https://pap-mediaroom.pl/polityka-i-spoleczenstwo/warsaw-security-forum-2026-w-centrum-debaty-o-przyszlosci-nato-i",
+          "data": "2026-10-06"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-12",
+      "tekst": "Rada do Spraw Zagranicznych UE (Ukraina); 13.10 Rada do Spraw Ogólnych – {{p:wrf|WRF}} 2028–34 i praworządność na Węgrzech; 12–18.10 doroczne zgromadzenia MFW i Banku Światowego (Bangkok).",
+      "tagi": [
+        "ue",
+        "wegry",
+        "mfw"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE (kalendarz posiedzeń)",
+          "url": "https://www.consilium.europa.eu/en/meetings/calendar/",
+          "data": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-12",
+      "tekst": "Ukraina: planowane głosowanie Rady Najwyższej nad ustawą o prawach mniejszości narodowych – warunek zniesienia węgierskiej blokady klastrów 3 i 4.",
+      "tagi": [
+        "ukraina",
+        "wegry"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-could-celebrate-fresh-eu-accession-breakthrough-in-brussels-next-week-source-says/",
+          "data": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-12",
+      "tekst": "Rada do Spraw Zagranicznych UE w Luksemburgu: według wcześniejszych ustaleń formalne przyjęcie listy 1646 wpisów sankcyjnych wobec Rosji (zatwierdzonej 7.10 przez ambasadorów); ukraińska delegacja z Miami relacjonuje wyniki rozmów Zełenskiemu w Kijowie.",
+      "tagi": [
+        "ue",
+        "sankcje",
+        "ukraina"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/07/eu-agrees-to-sanction-over-1600-people-and-entities-linked-to-russias-war",
+          "data": "2026-10-07"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/us-ukrainian-european-officials-discuss-ending-russias-war-at-miami-meeting/",
+          "data": "2026-10-10"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-15",
+      "tekst": "15–16.10: Rada Europejska w Brukseli (m.in. WRF 2028–34, Ukraina, rozszerzenie).",
+      "tagi": [
+        "ue"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE",
+          "url": "https://www.consilium.europa.eu/en/meetings/european-council/2026/10/15-16/",
+          "data": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-16",
+      "tekst": "16–17.10: Czechy – II tura wyborów do Senatu.",
+      "tagi": [
+        "czechy",
+        "wybory"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-10-25",
+      "tekst": "II tura wyborów prezydenckich w Brazylii (Flávio Bolsonaro – Lula)",
+      "tagi": [
+        "ameryki",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-25",
+      "tekst": "wybory parlamentarne w Serbii",
+      "tagi": [
+        "balkany",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-28",
+      "tekst": "27–28.10 FOMC (Fed), 28–29.10 posiedzenie EBC",
+      "tagi": [
+        "gospodarka"
+      ]
+    },
+    {
+      "data": "2026-11-01",
+      "tekst": "kolejne spotkanie państw OPEC+ w sprawie limitów wydobycia (na grudzień)",
+      "tagi": [
+        "energia"
+      ]
+    },
+    {
+      "data": "2026-11-03",
+      "tekst": "wybory połowy kadencji w USA",
+      "tagi": [
+        "usa",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-11-12",
+      "tekst": "Europejska Wspólnota Polityczna w Irlandii (12.11), 13.11 nieformalne spotkanie przywódców UE",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [
+      {
+        "tytul": "Wybory w Bośni i Hercegowinie: apatia elektoratu i utrwalenie podziałów etnopolitycznych (Analizy OSW)",
+        "autor": "Michał Kucharski",
+        "data": "2026-10-09",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-09/wybory-w-bosni-i-hercegowinie-apatia-elektoratu-i-utrwalenie"
+      },
+      {
+        "tytul": "Niemiecki zwrot w polityce wobec Chin (Analizy OSW)",
+        "autor": "Maciej Kalwasiński, Aleksandra Kozaczyńska",
+        "data": "2026-10-09",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-09/niemiecki-zwrot-w-polityce-wobec-chin"
+      },
+      {
+        "tytul": "Problemy na europejskim rynku oleju napędowego – skutki dla Europy Środkowej (Komentarze OSW)",
+        "autor": "Agata Łoskot-Strachota, Krzysztof Dębiec",
+        "data": "2026-10-09",
+        "url": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-10-09/problemy-na-europejskim-rynku-oleju-napedowego-skutki-dla"
+      },
+      {
+        "tytul": "Volkswagen w obliczu wymuszonej transformacji (Analizy OSW)",
+        "autor": "Aleksandra Kozaczyńska",
+        "data": "2026-10-07",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-07/volkswagen-w-obliczu-wymuszonej-transformacji"
+      },
+      {
+        "tytul": "Rosyjska kampania odstraszania i zastraszania (Analizy OSW)",
+        "autor": "Ernest Wyciszkiewicz, współpraca Piotr Szymański",
+        "data": "2026-10-07",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-07/rosyjska-kampania-odstraszania-i-zastraszania"
+      }
+    ],
+    "pism": []
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "prog": "dokumentacja",
+      "tekst": "Iran/Ormuz: według Euronews (9.10) IRGC oświadczył, że uderzył w tankowiec MV Sun Shine, i zagroził atakami na statki poza cieśniną, a CENTCOM ogłosił główne korytarze za oczyszczone z min i otwarte dla statków niełamiących sankcji USA; UKMTO miał odnotować trafienie kolejnego tankowca LPG 13 mil morskich od ZEA. Brak drugiego niezależnego źródła z poziomów 1–2 i komunikatu CENTCOM/UKMTO, który udało się otworzyć. Kontrola niezależna nie znalazła tych wypowiedzi w innych źródłach, a komunikat CENTCOM o oczyszczeniu korytarzy z min datuje na 28.08, nie na 9.10.",
+      "sprawdzono": [
+        "Euronews 9.10 (jedyny tekst otwarty)",
+        "CNBC 9.10 (błąd 403)",
+        "Reuters, AP – blokada wyszukiwarki",
+        "wyszukiwarka: komunikat CENTCOM o Sun Shine – brak"
+      ]
+    },
+    {
+      "id": "n2",
+      "prog": "dokumentacja",
+      "tekst": "Kaługa: według Kyiv Independent (powołującego się na komunikat Jandeksu za Wiedomostiami) dron wyłączył 9.10 kilka modułów centrum danych Jandeksu w obwodzie kałuskim; Ukraina nie przyznała się do ataku. Źródło jedyne z poziomów 1–2; Wiedomosti to poziom 4. Atak dronów na centrum danych Jandeksu w Sasowie (obwód riazański, 8.10) opisują Reuters (za The Star) i Euronews, z zastrzeżeniem, że Ukraina go nie potwierdziła.",
+      "sprawdzono": [
+        "Kyiv Independent 9.10",
+        "Wiedomosti (za KI) – poziom 4",
+        "wyszukiwarka: Euronews, France 24 – brak tekstu"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-10-09#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Rozkaz Pentagonu dla CENTCOM nie został potwierdzony komunikatem Pentagonu ani Białego Domu; w otwartych tekstach (Euronews 9.10) go nie ma, a streszczenie agregatora Ground News (8.10, poziom 4) odsyła do Reutersa, którego nie udało się otworzyć.",
+      "sprawdzono": [
+        "Euronews 9.10",
+        "Ground News 8.10 (agregator, powołuje się na Reuters)",
+        "wyszukiwarka: komunikaty Pentagonu/CENTCOM z października",
+        "Reuters – blokada"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-09#n2",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Wypowiedzi IRGC i CENTCOM nadal opisuje tylko Euronews (9.10); komunikat CENTCOM ani drugi tekst z poziomów 1–2 nie były dostępne (CNBC – 403); wpis przeniesiono do n1.",
+      "sprawdzono": [
+        "Euronews 9.10",
+        "CNBC 9.10 (403)",
+        "Reuters – blokada",
+        "wyszukiwarka: komunikat CENTCOM – brak"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-09#n3",
+      "wynik": "UZUPEŁNIONE",
+      "pozycja": "z8"
+    },
+    {
+      "dotyczy": "2026-10-09#n4",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Atak na centrum danych Jandeksu w Kałudze opisuje tylko Kyiv Independent (za Wiedomostiami), wpis przeniesiono do n2; doniesienie o drugim pilocie flydubai (Times of Israel, poziom 3) nie ma w otwartych źródłach z poziomów 1–2 żadnego potwierdzenia.",
+      "sprawdzono": [
+        "Kyiv Independent 9.10",
+        "Times of Israel (poziom 3)",
+        "wyszukiwarka: Euronews, France 24, CBS – brak tekstu o flydubai"
+      ]
+    }
+  ],
+  "do_sprawdzenia": [
+    "Czechy – wyniki I tury wyborów do Senatu i samorządowych (Czeski Urząd Statystyczny, 11.10)",
+    "Sankcje UE – formalne przyjęcie listy 12.10 w Luksemburgu (z2, kalendarz)",
+    "Miami – relacja delegacji ukraińskiej 12.10, termin kolejnego kontaktu USA–Rosja (z4)",
+    "Zaporoże – ostateczny bilans (z1)",
+    "Zawieszenie sankcji na rosyjski diesel – tekst licencji OFAC, czas trwania, reakcja UE i Kongresu (z2)",
+    "Rijad – komunikat saudyjskiego urzędu lotnictwa o ataku z 10.10; Bab al-Mandab (z6)",
+    "Ormuz – komunikaty CENTCOM/UKMTO (n1)",
+    "Indie – liczba zatrzymanych, reakcja Komisji Wyborczej (z10)",
+    "Polska – komunikaty DO RSZ, SG, prokuratury z 10–11.10",
+    "PISM – publikacje z 7–10.10 (nie sprawdzono)",
+    "Rada Europejska 15–16.10 – wniosek Merz–Macron ws. Chin; WRF"
+  ],
+  "nota": "Wydanie nr 22, przygotowane 10.10.2026 ok. 20:00 CEST. Dostępne: Euronews, Kyiv Independent, France 24, CBS News, NPR, Al Jazeera, OSW. Niedostępne: Reuters, AP, BBC, DW (blokada wyszukiwarki), PAP i CNBC (403). Dział Świat Onetu nie został otwarty (blokada); przegląd nagłówków wyszukiwarką (dwa zapytania z datą dnia) nie zwrócił tematów Onetu, więc z działu do wydania nie trafił żaden temat. Kanały RSS Kyiv Independent i Euronews przejrzano (najnowsze pozycje z 10.10, bez opóźnienia); Meduzy nie sprawdzono. Incydenty w Polsce: wyszukiwanie komunikatów DO RSZ i Straży Granicznej nie wykazało nowych zdarzeń z 9–10.10 (SG podała 7.10 zatrzymanie trzech cudzoziemców za organizowanie nielegalnego przekraczania granicy z Białorusią – poza oknem wydania), dlatego brak bloku „Polska”. PISM: publikacji z ostatnich 3 dni nie udało się sprawdzić. Czechy: wyniki I tury dopiero 11.10. Wypowiedzi Trumpa, Witkoffa, IRGC i Kremla podano z atrybucją jako fakt, że padły. Rozstrzygnięto wpisy z wydania nr 21: Nobel (z8); pozostałe nie do potwierdzenia. Kontrola niezależna (osobny agent) przeprowadzona; na jej podstawie poprawiono z1, z3, z5, z6, z8, z9, z10 (liczby, atrybucje, usunięto niepotwierdzone szczegóły) i wpisy n1–n2. Kontrola nie mogła potwierdzić braku incydentów w Polsce ani przejrzeć Reutersa, AP, PAP; kalendarza i analiz OSW nie weryfikowała."
+}

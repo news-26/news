@@ -1,0 +1,471 @@
+{
+  "nr": 23,
+  "data": "2026-10-11",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "11.10 prezydent {{o:donald-trump|Donald Trump}} ogłosił w serwisie Truth Social „rozejm energetyczny” między Rosją a Ukrainą, obowiązujący według niego „natychmiast”; Kijów nie miał o nim informacji, a {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} oświadczył, że Ukraina się przyłączy, jeśli zgodzi się Rosja. Wkrótce po ogłoszeniu Rosja uderzyła w elektrociepłownię CHP-5 w Charkowie. Wcześniej Zełenski zaproponował, by Trump poprosił Putina o 60-dniowe całkowite zawieszenie broni, w którym Ukraina zorganizuje wybory.",
+    "Lotnisko King Khalid w Rijadzie pozostaje zamknięte po atakach przypisywanych Huti z 10–11.10 (po ataku z 10.10 według Euronews zginęło 12 osób, według saudyjskiego urzędu lotnictwa 309 zostało rannych); Trump powiedział, że USA „przyjrzą się” przyłączeniu do saudyjskich uderzeń na Huti, i dodał, że Arabia Saudyjska może się sama obronić.",
+    "W Polsce minister spraw wewnętrznych Marcin Kierwiński poinformował o zatrzymaniu mężczyzny, który według służb planował atak na premiera Donalda Tuska; rzecznik ministra koordynatora służb Jacek Dobrzyński ocenił prawdopodobieństwo realizacji gróźb jako wysokie, a o powiązaniu z obcymi służbami nie poinformowano.",
+    "Ukraińskie drony uderzyły według Jandeksu w jego centra danych w obwodach riazańskim (8.10) i kałuskim (9.10), a według Euronews także we Włodzimierzu (11.10); w Czechach po I turze wyborów do Senatu pięć mandatów obsadzono od razu, bez kandydatów ANO."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-10-11",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "usa",
+        "rozejm",
+        "energia"
+      ],
+      "etap": "ZAPOWIEDŹ",
+      "tekst": "{{o:donald-trump|Donald Trump}} napisał 11.10 w serwisie Truth Social, że Rosja i Ukraina zgodziły się na **rozejm energetyczny** obowiązujący „natychmiast” („Both parties have agreed. Do not break it!”), nie podając szczegółów. Według Euronews {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} powiedział Axios, że nie został poinformowany, a Ukraina się zgodzi, jeśli zgodzi się Rosja, i czeka na szczegóły od strony amerykańskiej; wysoki urzędnik ukraiński powiedział Kyiv Independent, że Kijów nie ma informacji o rozejmie. Ani Euronews, ani Kyiv Independent nie przytaczają reakcji Kremla. Około godz. 20:00 czasu ukraińskiego Rosja uderzyła w elektrociepłownię CHP-5 w Charkowie (potwierdził Zełenski i Biuro Prezydenta), a rakieta trafiła w sklep spożywczy na przedmieściach, zabijając według gubernatora obwodu charkowskiego Ołeha Syniehubowa trzy osoby i raniąc dziewięć, w tym dwoje dzieci.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/11/energy-ceasefire-agreed-between-russia-and-ukraine-trump-says",
+          "data": "2026-10-11"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russia-struck-kharkivs-power-plant-shortly-after-trump-announced-energy-ceasefire/",
+          "data": "2026-10-11"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/trump-claims-ukraine-russia-agreed-to-energy-ceasefire-kyiv-has-no-information-about-it/",
+          "data": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-10-11",
+      "tagi": [
+        "ukraina",
+        "usa",
+        "rosja",
+        "rozejm"
+      ],
+      "etap": "PROPOZYCJA",
+      "tekst": "W wywiadzie dla ABC News 11.10 {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} odpowiedział na wypowiedź {{o:donald-trump|Trumpa}}, że „nadszedł czas, by Ukraina miała nowego prezydenta”: powiedział, że przeprowadzi wybory, jeśli Ukraińcy będą chcieli jego odejścia, pod warunkiem **zawieszenia broni**, i poprosił zespół Trumpa o zwrócenie się do {{o:wladimir-putin|Władimira Putina}} o 60 dni całkowitego rozejmu na zorganizowanie wyborów. Wybory w czasie stanu wojennego zakazuje ukraińskie prawo. Zełenski odrzucił też zarzut Trumpa, że za wzrost cen paliw w USA odpowiada Ukraina, wskazując na wojnę na Bliskim Wschodzie i zakłócenia w cieśninie Ormuz. Reakcji Kremla na propozycję źródła nie podają.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-says-if-trump-putin-want-elections-in-ukraine-a-two-month-ceasefire-is-needed/",
+          "data": "2026-10-11"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/11/up-to-our-people-to-pick-leader-zelenskyy-responds-to-trumps-pledge-for-new-elections-in-u",
+          "data": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "wojna",
+      "data": "2026-10-11",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "front"
+      ],
+      "etap": "W TOKU",
+      "tekst": "Według Kyiv Independent rosyjskie ataki w ciągu doby do rana 11.10 zabiły co najmniej dwie osoby i raniły 25 w całej Ukrainie, a w obwodzie kijowskim uderzono w infrastrukturę cywilną, mieszkaniową i energetyczną. W Słowiańsku rosyjskie lotnictwo trafiło w dwa bloki mieszkalne; mer Wadym Laj poinformował o czterech rannych, a według {{o:wolodymyr-zelenski|Zełenskiego}} pod gruzami mogą być ludzie (Euronews). Ukrenergo wprowadziło awaryjne wyłączenia prądu w kilku obwodach. Zełenski podał, że w ostatnim tygodniu Rosja przeprowadziła ponad 200 uderzeń w obiekty wytwarzania i przesyłu energii elektrycznej oraz 17 w obiekty gazowe i naftowe, a według niego zginęło ponad 150 osób, a ponad 700 zostało rannych (dane strony ukraińskiej, niezależnie niepotwierdzone).",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-attacks-kill-at-least-2-injure-25-across-ukraine-as-moscow-targets-energy-infrastructure-around-kyiv/",
+          "data": "2026-10-11"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/11/russian-army-strikes-sloviansk-and-kyiv-as-ukrainian-drones-hit-third-yandex-data-centre",
+          "data": "2026-10-11"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russia-struck-kharkivs-power-plant-shortly-after-trump-announced-energy-ceasefire/",
+          "data": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "wojna",
+      "data": "2026-10-09",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "front"
+      ],
+      "etap": "W TOKU",
+      "tekst": "Według Reutersa (za The Star) Jandeks poinformował 9.10, że dron wyłączył kilka modułów jego centrum danych w obwodzie kałuskim, bez poszkodowanych, a dzień wcześniej dron uderzył w jego centrum danych w Sasowie w obwodzie riazańskim, które według Reutersa mieści dwa z trzech superkomputerów do rozwijania modelu AI firmy; Jandeks nie wie, czy sprzęt da się odtworzyć. Euronews (8.10) opisał pożar w Sasowie i ostrzeżenie Jandeksu o niedostępności części usług. Zełenski powiedział 8.10, że Ukraina „zawsze odpowiada lustrzanie”, nie przyznając się wprost do ataków; Ukraina nie potwierdziła ataków.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (za The Star)",
+          "url": "https://www.thestar.com.my/tech/tech-news/2026/10/09/russia039s-yandex-says-second-data-centre-hit-by-drone-attack",
+          "data": "2026-10-09"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/08/fire-rages-at-yandex-data-centre-after-ukraine-drone-attack",
+          "data": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "swiat",
+      "data": "2026-10-11",
+      "tagi": [
+        "inne"
+      ],
+      "etap": "W TOKU",
+      "tekst": "Lotnisko King Khalid w Rijadzie, atakowane w pierwszych dniach października (daty pierwszych ataków w źródłach się różnią), zostało zaatakowane ponownie 10.10 i 11.10: po ataku z soboty 10.10 według Euronews zginęło 12 osób (czterech Saudyjczyków i ośmiu cudzoziemców, w tym Amerykanin), a według saudyjskiego urzędu lotnictwa 309 zostało rannych, a w niedzielę zmarł kolejny ranny, obywatel Indii (ambasada Indii); 11.10 pocisk uderzył w terminal 4, wywołując pożar, a obrona przeciwlotnicza zniszczyła pocisk manewrujący w pobliżu lotniska (Euronews, za koalicją pod wodzą Arabii Saudyjskiej). Koalicja obwinia Huti i zapowiada zdecydowaną odpowiedź; Huti oświadczyli, że przeprowadzili cztery fale ataków, i ostrzegli linie lotnicze przed lotami do saudyjskich portów. {{o:donald-trump|Trump}} powiedział, że USA mogą dołączyć do saudyjskich uderzeń na Huti („We're going to look at it”), po czym dodał, że Arabia Saudyjska może się sama obronić; decyzji nie ogłosił. Według Flightradar24 lotnisko pozostaje zamknięte co najmniej do północy z 11 na 12.10 (władze saudyjskie terminu nie podały); Etihad i Emirates odwołały loty do Rijadu, Lufthansa zawiesiła je do 16.10, a SriLankan do 18.10.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/11/riyadh-airport-stays-shut-after-deadly-attack-as-trump-says-us-may-join-saudi-strikes-on-h",
+          "data": "2026-10-11"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/10/evacuations-and-injuries-reported-at-riyadh-airport-after-another-alleged-houthi-attack",
+          "data": "2026-10-10"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/live-news/20261009-saudi-arabia-says-three-killed-at-airport-as-yemen-war-expands",
+          "data": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "z6",
+      "blok": "polska",
+      "data": "2026-10-11",
+      "tagi": [
+        "inne"
+      ],
+      "etap": "W TOKU",
+      "tekst": "Minister spraw wewnętrznych Marcin Kierwiński poinformował 11.10, że zatrzymano mężczyznę, który według służb planował atak na premiera Donalda Tuska; wcześniej policja dostała informację o możliwym zamachu na Tuska i ministra obrony Władysława Kosiniaka-Kamysza. Rzecznik ministra koordynatora służb Jacek Dobrzyński powiedział, że służby oceniają prawdopodobieństwo realizacji gróźb jako **wysokie**; groźba trafiła najpierw do Służby Ochrony Państwa, która przekazała ją policji, a odbyło się nadzwyczajne spotkanie służb. Rzecznik rządu Adam Szłapka ocenił ją jako „wyjątkowo niepokojącą”. Nie podano tożsamości zatrzymanego, motywu ani powiązania z obcymi służbami; AP wskazuje, że w Polsce trwa podwyższona czujność po trzech atakach nożowników na szkoły w województwie mazowieckim.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/11/polish-police-alerted-over-possible-attack-on-pm-donald-tusk",
+          "data": "2026-10-11"
+        },
+        {
+          "nazwa": "Associated Press (za KNOE)",
+          "url": "https://www.knoe.com/2026/10/11/polands-police-warn-possible-plot-attack-prime-minister-donald-tusk/",
+          "data": "2026-10-11"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "OSW: Merz i Macron wzywają Komisję Europejską do ostrzejszych środków wobec chińskich nierównowag handlowych, a skutek zależy od poparcia państw członkowskich",
+      "autor": "OSW (Maciej Kalwasiński, Aleksandra Kozaczyńska), 9.10.2026",
+      "tagi": [
+        "ue",
+        "chiny",
+        "niemcy",
+        "francja"
+      ],
+      "tekst": "Autorzy oceniają, że wezwanie kanclerza Friedricha Merza i prezydenta Emmanuela Macrona z 5.10 jest istotnym zwrotem Berlina, który wcześniej blokował podobne rozwiązania, a przyczyną jest pogarszający się bilans handlu z Chinami. Proponowane jest rozszerzenie istniejących instrumentów ochrony rynku i dwa nowe narzędzia. Według OSW skutek zależy od poparcia państw członkowskich, a Pekin będzie próbował je osłabić retorsjami i selektywnymi ustępstwami.",
+      "dla_polski": "Analiza nie rozstrzyga stanowiska Polski; wskazuje, że o kształcie rozwiązań zadecyduje układ głosów w Radzie UE, a UE, w tym Polska, pozostaje zależna od chińskich dostaw m.in. magnesów z metali ziem rzadkich.",
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-09/niemiecki-zwrot-w-polityce-wobec-chin",
+          "data": "2026-10-09"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-10-12",
+      "tekst": "12–13.10: Warsaw Security Forum w Warszawie – według organizatora naczelny dowódca sił NATO w Europie gen. Alexus Grynkewich przedstawi tam publicznie strategię obrony wschodniej flanki.",
+      "tagi": [
+        "nato",
+        "obronnosc-polski"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "PAP MediaRoom (komunikat organizatora)",
+          "url": "https://pap-mediaroom.pl/polityka-i-spoleczenstwo/warsaw-security-forum-2026-w-centrum-debaty-o-przyszlosci-nato-i",
+          "data": "2026-10-06"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-12",
+      "tekst": "Rada do Spraw Zagranicznych UE (Ukraina); 13.10 Rada do Spraw Ogólnych – {{p:wrf|WRF}} 2028–34 i praworządność na Węgrzech; 12–18.10 doroczne zgromadzenia MFW i Banku Światowego (Bangkok).",
+      "tagi": [
+        "ue",
+        "wegry",
+        "mfw"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE (kalendarz posiedzeń)",
+          "url": "https://www.consilium.europa.eu/en/meetings/calendar/",
+          "data": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-12",
+      "tekst": "Ukraina: planowane głosowanie Rady Najwyższej nad ustawą o prawach mniejszości narodowych – warunek zniesienia węgierskiej blokady klastrów 3 i 4.",
+      "tagi": [
+        "ukraina",
+        "wegry"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-could-celebrate-fresh-eu-accession-breakthrough-in-brussels-next-week-source-says/",
+          "data": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-12",
+      "tekst": "Rada do Spraw Zagranicznych UE w Luksemburgu: według wcześniejszych ustaleń formalne przyjęcie listy 1646 wpisów sankcyjnych wobec Rosji (zatwierdzonej 7.10 przez ambasadorów); ukraińska delegacja z Miami relacjonuje wyniki rozmów Zełenskiemu w Kijowie.",
+      "tagi": [
+        "ue",
+        "sankcje",
+        "ukraina"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/07/eu-agrees-to-sanction-over-1600-people-and-entities-linked-to-russias-war",
+          "data": "2026-10-07"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/us-ukrainian-european-officials-discuss-ending-russias-war-at-miami-meeting/",
+          "data": "2026-10-10"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-15",
+      "tekst": "15–16.10: Rada Europejska w Brukseli (m.in. WRF 2028–34, Ukraina, rozszerzenie).",
+      "tagi": [
+        "ue"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE",
+          "url": "https://www.consilium.europa.eu/en/meetings/european-council/2026/10/15-16/",
+          "data": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-16",
+      "tekst": "16–17.10: Czechy – II tura wyborów do Senatu.",
+      "tagi": [
+        "czechy",
+        "wybory"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-10-25",
+      "tekst": "II tura wyborów prezydenckich w Brazylii (Flávio Bolsonaro – Lula)",
+      "tagi": [
+        "ameryki",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-25",
+      "tekst": "wybory parlamentarne w Serbii",
+      "tagi": [
+        "balkany",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-28",
+      "tekst": "27–28.10 FOMC (Fed), 28–29.10 posiedzenie EBC",
+      "tagi": [
+        "gospodarka"
+      ]
+    },
+    {
+      "data": "2026-11-01",
+      "tekst": "kolejne spotkanie państw OPEC+ w sprawie limitów wydobycia (na grudzień)",
+      "tagi": [
+        "energia"
+      ]
+    },
+    {
+      "data": "2026-11-03",
+      "tekst": "wybory połowy kadencji w USA",
+      "tagi": [
+        "usa",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-11-12",
+      "tekst": "Europejska Wspólnota Polityczna w Irlandii (12.11), 13.11 nieformalne spotkanie przywódców UE",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [],
+    "pism": []
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "prog": "dokumentacja",
+      "termin": "czechy-senat-2026-1",
+      "tekst": "Czechy: według Euronews (11.10, cytującego Czeski Urząd Statystyczny) w I turze wyborów do Senatu obsadzono od razu pięć z 27 mandatów, a żaden zwycięzca nie jest z ANO; do II tury (16–17.10) przechodzą 22 okręgi, w tym 13 kandydatów ANO naprzeciw 26 kandydatów opozycji prozachodniej; w wyborach samorządowych ANO wygrało w sześciu miastach wojewódzkich. Brak drugiego źródła z poziomów 1–2 i komunikatu ČSÚ, którego nie udało się otworzyć (wyszukiwarka zwraca wyniki z 2022 r.); nie ma też nazwisk zwycięzców ani frekwencji.",
+      "sprawdzono": [
+        "Euronews 11.10 (jedyny otwarty tekst)",
+        "Czeski Urząd Statystyczny / Radio Prague – wyszukiwarka zwraca tylko wybory z 2022 r.",
+        "Reuters, AP, PAP – niedostępne",
+        "Wikipedia (nie jest źródłem) – tylko terminy tur"
+      ],
+      "kalendarz": "2026-10-09"
+    },
+    {
+      "id": "n2",
+      "prog": "dokumentacja",
+      "tekst": "Jandeks, Włodzimierz: według Euronews (11.10, za Jandeksem i gubernatorem obwodu włodzimierskiego Aleksandrem Awdiejewem) w nocy na 11.10 ukraińskie drony uderzyły w trzecie centrum danych Jandeksu; operacje całkowicie wstrzymano, a usługi taksówkowe i nawigacji miały zakłócenia. Jedyne źródło z poziomów 1–2; Ministerstwo Obrony Rosji podało zestrzelenie 479 dronów nad 17 regionami i Krymem, bez wzmianki o centrach danych.",
+      "sprawdzono": [
+        "Euronews 11.10 (jedyny tekst)",
+        "Reuters/The Star 9.10 – opisuje tylko Sasowo i Kaługę",
+        "Kyiv Independent RSS 11.10 – brak tekstu o Włodzimierzu",
+        "wyszukiwarka: Awdiejew, Włodzimierz – brak wyników"
+      ]
+    },
+    {
+      "id": "n3",
+      "prog": "dokumentacja",
+      "tekst": "Wielka Brytania: według Kyiv Independent (za The Observer) premier Andy Burnham powiedział w podcaście The Rest Is Politics, że uzyskał „jasną odpowiedź”, iż Rosja była zaangażowana w referendum brexitowe z 2016 r.; odcinek ma być wyemitowany 12.10. Brak tekstu The Observer i drugiego źródła z poziomów 1–2.",
+      "sprawdzono": [
+        "Kyiv Independent 11.10 (powołuje się na The Observer)",
+        "The Observer – tekstu nie otwarto/nie znaleziono",
+        "Euronews, France 24 – wyszukiwarka bez wyników",
+        "Downing Street – brak komunikatu w wyszukiwarce"
+      ]
+    },
+    {
+      "id": "n4",
+      "prog": "następstwo",
+      "tekst": "Francja: według Euronews (11.10) {{o:emmanuel-macron|Emmanuel Macron}} otwiera 12.10 salon samochodowy w Paryżu i zapowiada wniosek o „europejską preferencję” w przemyśle motoryzacyjnym wobec Chin; Handelsblatt pisze o porozumieniu Francji i Niemiec ws. celu CO2 na 2035 r., a Pałac Elizejski temu zaprzecza. Wniosek jest powiązany z wezwaniem Merza i Macrona z 5.10 (OSW). Pozycja po decyzji, nie zapowiedzi.",
+      "sprawdzono": [
+        "Euronews 11.10 (jedyny tekst)",
+        "Pałac Elizejski – brak komunikatu w wyszukiwarce",
+        "Handelsblatt – nie otwarto"
+      ]
+    },
+    {
+      "id": "n5",
+      "prog": "dokumentacja",
+      "tekst": "Dżibuti: według Euronews (11.10, za Międzynarodową Organizacją ds. Migracji) po zatonięciu łodzi w nocy z 8 na 9.10 koło Obocku zginęło co najmniej 139 migrantów, a 84 uznano za zaginionych; łódź płynęła do Jemenu z 305 osobami, ocalało ponad 80 Etiopczyków. Brak drugiego źródła z poziomów 1–2 i komunikatu IOM.",
+      "sprawdzono": [
+        "Euronews 11.10 (jedyny otwarty tekst)",
+        "IOM – komunikatu nie udało się znaleźć wyszukiwarką",
+        "Reuters, AP, Al Jazeera – niedostępne w wyszukiwarce",
+        "UNHCR/ONZ – brak wyników"
+      ]
+    },
+    {
+      "id": "n6",
+      "prog": "dokumentacja",
+      "tekst": "Iran/Ormuz (wpis z 10.10, n1): w dostępnych źródłach nie znaleziono nowych komunikatów CENTCOM/UKMTO z 11.10 potwierdzających wypowiedzi IRGC z 9.10.",
+      "sprawdzono": [
+        "wyszukiwarka: CENTCOM Hormuz 11.10 – brak dat z 2026-10",
+        "UKMTO – brak wyników",
+        "Euronews RSS 11.10 – brak tekstu o Ormuzie"
+      ]
+    },
+    {
+      "id": "n7",
+      "prog": "dokumentacja",
+      "tekst": "Pakistan: według Al Jazeera (11.10) rząd federalny wprowadził stan wyjątkowy w prowincji Chajber Pasztunchwa, co zawiesza rząd PTI; gubernator ma przejąć władzę na sześć miesięcy, a premier Shehbaz Sharif uzasadnił to „celowym wycofaniem z walki z terroryzmem”. Źródło jedyne i poziomu 3; brak komunikatu rządu Pakistanu i drugiego źródła z poziomów 1–2.",
+      "sprawdzono": [
+        "Al Jazeera 11.10 (poziom 3, jedyny tekst)",
+        "Reuters, AP – niedostępne w wyszukiwarce",
+        "komunikat rządu Pakistanu – brak wyników",
+        "Euronews RSS 11.10 – brak tekstu"
+      ]
+    },
+    {
+      "id": "n8",
+      "prog": "dokumentacja",
+      "tekst": "Polska: po trzech atakach nożowników na szkoły w województwie mazowieckim (AP, za KNOE; Notes from Poland podaje ponad 100 zatrzymanych, głównie nastolatków) brak komunikatów policji, prokuratury ani MSWiA, które udało się otworzyć; sprawa krajowa, bez ustalonego związku z sytuacją międzynarodową, więc bez pozycji.",
+      "sprawdzono": [
+        "AP (za KNOE) 11.10",
+        "Notes from Poland 11.10 (poziom 3)",
+        "komunikaty policji/MSWiA – wyszukiwarka bez wyników z 11.10",
+        "PAP – niedostępny"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-10-10#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Wypowiedzi IRGC o ataku na MV Sun Shine i komunikat CENTCOM nadal opisuje tylko Euronews z 9.10; wyszukiwarka nie zwróciła komunikatów CENTCOM/UKMTO z 9–11.10.",
+      "sprawdzono": [
+        "Euronews 9.10",
+        "wyszukiwarka: CENTCOM Hormuz 11.10 – brak dat z 2026-10",
+        "Reuters, AP, CNBC – niedostępne"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-10#n2",
+      "wynik": "UZUPEŁNIONE",
+      "pozycja": "z4"
+    }
+  ],
+  "do_sprawdzenia": [
+    "Sankcje UE – formalne przyjęcie listy 12.10 w Luksemburgu (RZ UE)",
+    "Rozejm energetyczny – reakcja Kremla, termin wejścia w życie, komunikat Białego Domu (z1); odpowiedź Putina na propozycję 60 dni (z2)",
+    "Rijad – komunikat saudyjskiego urzędu lotnictwa o bilansie, decyzja USA o udziale w uderzeniach, ponowne otwarcie lotniska (z5)",
+    "Polska – tożsamość i zarzuty zatrzymanego, komunikat prokuratury/ABW, ewentualne powiązania z obcymi służbami (z6)",
+    "Czechy – komunikat ČSÚ z wynikami I tury, lista okręgów II tury 16–17.10 (n1)",
+    "Jandeks – Włodzimierz, drugi niezależny tekst (n2)",
+    "Warsaw Security Forum 12–13.10 – wystąpienie gen. Grynkewicha",
+    "Rada Europejska 15–16.10 – wniosek Merz–Macron ws. Chin; WRF; MFW/BŚ w Bangkoku od 12.10",
+    "Zaporoże – ostateczny bilans (Euronews wideo 11.10: 17 zabitych); zawieszenie sankcji na rosyjski diesel – licencja OFAC",
+    "PISM – publikacje z 8–11.10 (strony nie udało się odczytać)"
+  ],
+  "nota": "Wydanie nr 23, przygotowane 11.10.2026 ok. 20:00 CEST. Dostępne: Euronews (kanał RSS bez opóźnienia, najnowsze pozycje z 19:37), Kyiv Independent (RSS, najnowsze z 17:21 UTC), The Star (Reuters), Associated Press (za KNOE), OSW. Niedostępne lub bez wyników: Reuters, AP, PAP, BBC (blokada wyszukiwarki), CNBC, PISM (pusta strona). Dział Świat Onetu nie został otwarty (blokada), a wyszukiwarka nie zwróciła nagłówków z działu, więc z Onetu nie trafił do wydania żaden temat. Incydenty w Polsce: komunikatów DO RSZ i Straży Granicznej z 10–11.10 nie znaleziono; do wydania trafiło zatrzymanie w sprawie gróźb wobec premiera (z6, Euronews i AP; bez powiązania z obcymi służbami). Wypowiedzi Trumpa, Zełenskiego, Dobrzyńskiego i Jandeksu podano z atrybucją jako fakt, że padły. Rozstrzygnięto wpisy z wydania nr 22: Jandeks w Kałudze (z4); wpis o Ormuzie nadal nie do potwierdzenia. Poza zarysem, w sekcji „W obserwacji”, zostały Czechy (brak komunikatu ČSÚ), Jandeks we Włodzimierzu, Burnham i Brexit, Macron i salon samochodowy, Dżibuti, Pakistan. Liczba pozycji (6) jest mniejsza niż zwykle z powodu niedostępności Reutersa, AP i PAP. Kontrola niezależna (osobny agent) przeprowadzona; na jej podstawie poprawiono z5 (daty ataków, bilans, loty, wypowiedź Trumpa) i skrót, dopisano wpisy n7 (Pakistan) i n8 (szkoły w Polsce). Kontrola nie sprawdzała z4, analizy OSW i kalendarza; nie znalazła komunikatów DO RSZ ani SG z 10–11.10."
+}

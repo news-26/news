@@ -6,15 +6,20 @@
     python3 narzedzia/mapa_dane.py package/countries-50m.json
 
 Rzutowanie: Lambert azymutalny równopolowy, środek 15°E 52°N; kontury przycięte do kadru.
-Wynik: {"szer": W, "wys": H, "kraje": {"PL": "M…Z", …}} – ścieżki SVG gotowe do wstawienia.
+Wynik: {"szer": W, "wys": H, "rzut": {…}, "kraje": {"PL": "M…Z", …}} – ścieżki SVG gotowe do wstawienia,
+parametry rzutu pozwalają build.py nanosić punkty (narzedzia/rzuty.py).
+
+Drugi plik, narzedzia/swiat.json – świat w rzucie Equal Earth (countries-110m z tego samego pakietu,
+bez Antarktydy) z ramką kadru Europy; mapa miejsc rysuje na nim punkty spoza kadru Europy.
 """
 import json
 import math
 import sys
 from pathlib import Path
 
+from rzuty import equal_earth, lambert as rzut, lambert_odwr
+
 SZER, WYS = 600, 520
-LON0, LAT0 = math.radians(15), math.radians(52)
 # kadr w stopniach (przybliżony): od Islandii i Portugalii po Moskwę i Krym
 KADR_LON = (-11.0, 42.0)
 KADR_LAT = (37.0, 70.5)
@@ -39,14 +44,6 @@ ETYKIETY = {
     "RO": (24.9, 45.9), "RS": (20.8, 43.9),
 }
 NAZWY = {"Kosovo": "XK", "N. Cyprus": "CY"}
-
-
-def rzut(lon, lat):
-    l, p = math.radians(lon), math.radians(lat)
-    k = math.sqrt(2 / (1 + math.sin(LAT0) * math.sin(p) + math.cos(LAT0) * math.cos(p) * math.cos(l - LON0)))
-    x = k * math.cos(p) * math.sin(l - LON0)
-    y = k * (math.cos(LAT0) * math.sin(p) - math.sin(LAT0) * math.cos(p) * math.cos(l - LON0))
-    return x, y
 
 
 def granice():
@@ -169,9 +166,85 @@ def main(src):
         kraje["UA"] += kraje.pop("UA_KRYM")
     etykiety = {k: [round(c) for c in px(lo, la)] for k, (lo, la) in ETYKIETY.items()}
     wyj = Path(__file__).resolve().parent / "europa.json"
+    prm = {"skala": skala, "cx": cx, "cy": cy}
     wyj.write_text(json.dumps({"szer": SZER, "wys": WYS, "zrodlo": "Natural Earth 1:50m via world-atlas 2.0.2",
-                               "kraje": kraje, "etykiety": etykiety}, ensure_ascii=False, separators=(",", ":")))
+                               "rzut": prm, "kraje": kraje, "etykiety": etykiety}, ensure_ascii=False, separators=(",", ":")))
     print(f"{len(kraje)} konturów, {wyj.stat().st_size // 1024} KB -> {wyj}")
+    swiat(Path(src).with_name("countries-110m.json"), prm)
+
+
+def poligony(topo):
+    """Wszystkie pierścienie zewnętrzne i wewnętrzne krajów z TopoJSON jako listy (lon, lat)."""
+    sx, sy = topo["transform"]["scale"]
+    tx, ty = topo["transform"]["translate"]
+    arcs = []
+    for a in topo["arcs"]:
+        x = y = 0
+        pts = []
+        for dx, dy in a:
+            x += dx
+            y += dy
+            pts.append((x * sx + tx, y * sy + ty))
+        arcs.append(pts)
+
+    def pierscien(idx):
+        pts = []
+        for i in idx:
+            a = arcs[i] if i >= 0 else list(reversed(arcs[~i]))
+            pts.extend(a if not pts else a[1:])
+        return pts
+
+    for g in topo["objects"]["countries"]["geometries"]:
+        if g["type"] not in ("Polygon", "MultiPolygon"):
+            continue
+        for poly in ([g["arcs"]] if g["type"] == "Polygon" else g["arcs"]):
+            yield [pierscien(r) for r in poly]
+
+
+def swiat(src, prm_eu):
+    """Kontury świata (Equal Earth) i ramka kadru Europy -> narzedzia/swiat.json."""
+    topo = json.loads(Path(src).read_text())
+    szer, lat_min, lat_max = 600, -57.0, 84.0
+    xs = [equal_earth(lo, 0)[0] for lo in (-180, 180)]
+    ys = [equal_earth(0, la)[1] for la in (lat_min, lat_max)]
+    skala = szer / (xs[1] - xs[0])
+    wys = round((ys[1] - ys[0]) * skala)
+    prm = {"skala": skala, "cx": 0.0, "cy": (ys[0] + ys[1]) / 2}
+
+    def px(lon, lat):
+        x, y = equal_earth(lon, lat)
+        return (szer / 2 + (x - prm["cx"]) * skala, wys / 2 - (y - prm["cy"]) * skala)
+
+    d = []
+    for poly in poligony(topo):
+        if max(la for _, la in poly[0]) < -60:
+            continue  # Antarktyda
+        for ring in poly:
+            if any(abs(a[0] - b[0]) > 180 for a, b in zip(ring, ring[1:])):
+                # pierścień przecina 180°: zachodnią część przesuwamy za południk, kadr ją przytnie
+                ring = [(lo + 360 if lo < 0 else lo, la) for lo, la in ring]
+            prost, last = [], None
+            for lo, la in ring:
+                p = (round(px(lo, la)[0]), round(px(lo, la)[1]))
+                if last and abs(p[0] - last[0]) < 1.5 and abs(p[1] - last[1]) < 1.5:
+                    continue
+                prost.append(p)
+                last = p
+            if len(prost) >= 3:
+                d.append("M" + "L".join(f"{x:g},{y:g}" for x, y in prost) + "Z")
+    # ramka: obwód kadru Europy (piksele -> lon/lat -> Equal Earth)
+    ramka = []
+    obwod = [(t * SZER, 0) for t in (i / 20 for i in range(21))] + [(SZER, t * WYS) for t in (i / 20 for i in range(1, 21))]
+    obwod += [(SZER - t * SZER, WYS) for t in (i / 20 for i in range(1, 21))] + [(0, WYS - t * WYS) for t in (i / 20 for i in range(1, 20))]
+    for x, y in obwod:
+        lon, lat = lambert_odwr((x - SZER / 2) / prm_eu["skala"] + prm_eu["cx"], -(y - WYS / 2) / prm_eu["skala"] + prm_eu["cy"])
+        ramka.append(px(lon, lat))
+    wyj = Path(__file__).resolve().parent / "swiat.json"
+    wyj.write_text(json.dumps({"szer": szer, "wys": wys, "zrodlo": "Natural Earth 1:110m via world-atlas 2.0.2",
+                               "rzut": prm, "lad": "".join(d),
+                               "ramka": "M" + "L".join(f"{x:.1f},{y:.1f}" for x, y in ramka) + "Z"},
+                              ensure_ascii=False, separators=(",", ":")))
+    print(f"świat: {len(d)} konturów, {wyj.stat().st_size // 1024} KB -> {wyj}")
 
 
 if __name__ == "__main__":

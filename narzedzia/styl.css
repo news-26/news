@@ -517,3 +517,26 @@ button.kal-strz[disabled] { color: var(--linia); cursor: default; }
   .rk td:nth-child(3)::before { content: " · cytowań: "; }
   .rk td:nth-child(4) { display: block; margin-top: 4px; line-height: 1.5; }
 }
+
+/* mapa miejsc zdarzeń */
+.mapa-miejsc { margin: 10px 0 4px; }
+.mapa-svg { display: block; width: 100%; height: auto; background: var(--m-morze); border: 1px solid var(--linia); }
+.mapa-svg .morze { fill: var(--m-morze); }
+.mapa-svg .lad path, .mapa-svg path.lad { fill: var(--m-lad); stroke: var(--m-granica); stroke-width: 0.6; stroke-linejoin: round; }
+.mapa-svg .pl path { fill: var(--m-pl); stroke: var(--m-pl-linia); stroke-width: 1.2; }
+.mapa-svg .ramka { fill: none; stroke: var(--atrament); stroke-width: 1; stroke-dasharray: 4 3; opacity: 0.6; }
+.mapa-svg .pkt circle { fill: var(--m3); stroke: var(--karta); stroke-width: 1.5; }
+.mapa-svg .pkt text { font: 700 12px/1 var(--sans); fill: var(--karta); text-anchor: middle; pointer-events: none; }
+.mapa-svg.swiat .pkt text { font-size: 10px; }
+.mapa-svg a:hover .pkt circle, .mapa-svg a:focus .pkt circle { stroke: var(--atrament); stroke-width: 2; }
+.m-podpis { font: 13px/1.3 var(--sans); color: var(--szary); margin: 10px 0 4px; }
+.miejsca-lista { list-style: none; padding: 0; margin: 8px 0 0; columns: 2 320px; column-gap: 28px; }
+.miejsca-lista > li { display: flex; gap: 8px; break-inside: avoid; margin: 0 0 10px; scroll-margin-top: 70px; }
+.miejsca-lista > li:target strong { background: var(--m-pl); }
+.miejsca-lista .m-nr { flex: none; width: 22px; height: 22px; border-radius: 50%; background: var(--m3); color: var(--karta);
+  font: 700 12px/22px var(--sans); text-align: center; }
+.miejsca-lista strong { font: 600 14px/1.3 var(--sans); }
+.miejsca-lista ul { list-style: none; padding: 0; margin: 2px 0 0; font-size: 14px; line-height: 1.35; }
+.miejsca-lista ul li { margin: 2px 0; }
+.miejsca-lista .m-data { font: 12px var(--sans); color: var(--szary); margin-right: 2px; }
+.miejsca-zwin summary { cursor: pointer; font: 600 14px var(--sans); margin: 6px 0; }

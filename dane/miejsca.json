@@ -1,0 +1,232 @@
+{
+  "miejsca": [
+    {
+      "id": "abha",
+      "nazwa": "Abha",
+      "lon": 42.5,
+      "lat": 18.22
+    },
+    {
+      "id": "biala-wse",
+      "nazwa": "Morze Czarne (WSE Bułgarii)",
+      "lon": 29.4,
+      "lat": 42.9
+    },
+    {
+      "id": "bruksela",
+      "nazwa": "Bruksela",
+      "lon": 4.35,
+      "lat": 50.85
+    },
+    {
+      "id": "bukareszt",
+      "nazwa": "Bukareszt",
+      "lon": 26.1,
+      "lat": 44.43
+    },
+    {
+      "id": "ciesnina-ormuz",
+      "nazwa": "Cieśnina Ormuz",
+      "lon": 56.4,
+      "lat": 26.6
+    },
+    {
+      "id": "granica-lt-krolewiec",
+      "nazwa": "Granica Litwy z obwodem królewieckim",
+      "lon": 22.75,
+      "lat": 54.65
+    },
+    {
+      "id": "granica-lv-by",
+      "nazwa": "Granica łotewsko-białoruska",
+      "lon": 27.6,
+      "lat": 55.85
+    },
+    {
+      "id": "irkuck",
+      "nazwa": "Irkuck",
+      "lon": 104.28,
+      "lat": 52.29
+    },
+    {
+      "id": "jemen",
+      "nazwa": "Jemen",
+      "lon": 47.5,
+      "lat": 15.6
+    },
+    {
+      "id": "kaluga",
+      "nazwa": "Obwód kałuski",
+      "lon": 36.26,
+      "lat": 54.51
+    },
+    {
+      "id": "karlsruhe",
+      "nazwa": "Karlsruhe",
+      "lon": 8.4,
+      "lat": 49.01
+    },
+    {
+      "id": "kijow",
+      "nazwa": "Kijów",
+      "lon": 30.52,
+      "lat": 50.45
+    },
+    {
+      "id": "kramatorsk",
+      "nazwa": "Kramatorsk",
+      "lon": 37.58,
+      "lat": 48.72
+    },
+    {
+      "id": "krzywy-rog",
+      "nazwa": "Krzywy Róg",
+      "lon": 33.39,
+      "lat": 47.91
+    },
+    {
+      "id": "liban",
+      "nazwa": "Liban",
+      "lon": 35.86,
+      "lat": 33.85
+    },
+    {
+      "id": "lublin",
+      "nazwa": "Lublin",
+      "lon": 22.57,
+      "lat": 51.25
+    },
+    {
+      "id": "luksemburg",
+      "nazwa": "Luksemburg",
+      "lon": 6.13,
+      "lat": 49.61
+    },
+    {
+      "id": "manila",
+      "nazwa": "Manila",
+      "lon": 120.98,
+      "lat": 14.6
+    },
+    {
+      "id": "miami",
+      "nazwa": "Miami",
+      "lon": -80.19,
+      "lat": 25.76
+    },
+    {
+      "id": "moskwa",
+      "nazwa": "Moskwa",
+      "lon": 37.62,
+      "lat": 55.75
+    },
+    {
+      "id": "nowe-delhi",
+      "nazwa": "Nowe Delhi",
+      "lon": 77.21,
+      "lat": 28.61
+    },
+    {
+      "id": "nowy-jork",
+      "nazwa": "Nowy Jork",
+      "lon": -74.0,
+      "lat": 40.71
+    },
+    {
+      "id": "omsk",
+      "nazwa": "Omsk",
+      "lon": 73.37,
+      "lat": 54.99
+    },
+    {
+      "id": "oslo",
+      "nazwa": "Oslo",
+      "lon": 10.75,
+      "lat": 59.91
+    },
+    {
+      "id": "penonome",
+      "nazwa": "Penonomé (Panama)",
+      "lon": -80.36,
+      "lat": 8.52
+    },
+    {
+      "id": "prisztina",
+      "nazwa": "Prisztina",
+      "lon": 21.17,
+      "lat": 42.66
+    },
+    {
+      "id": "pryluki",
+      "nazwa": "Pryluki",
+      "lon": 32.39,
+      "lat": 50.59
+    },
+    {
+      "id": "ramallah",
+      "nazwa": "Ramallah",
+      "lon": 35.2,
+      "lat": 31.9
+    },
+    {
+      "id": "rijad",
+      "nazwa": "Rijad",
+      "lon": 46.72,
+      "lat": 24.71
+    },
+    {
+      "id": "sasowo",
+      "nazwa": "Sasowo",
+      "lon": 41.92,
+      "lat": 54.35
+    },
+    {
+      "id": "seul",
+      "nazwa": "Seul",
+      "lon": 126.98,
+      "lat": 37.57
+    },
+    {
+      "id": "slowiansk",
+      "nazwa": "Słowiańsk",
+      "lon": 37.62,
+      "lat": 48.85
+    },
+    {
+      "id": "tigraj",
+      "nazwa": "Tigraj",
+      "lon": 39.47,
+      "lat": 14.0
+    },
+    {
+      "id": "warszawa",
+      "nazwa": "Warszawa",
+      "lon": 21.01,
+      "lat": 52.23
+    },
+    {
+      "id": "wilno",
+      "nazwa": "Wilno",
+      "lon": 25.28,
+      "lat": 54.69
+    },
+    {
+      "id": "wola-krobowska",
+      "nazwa": "Wola Krobowska",
+      "lon": 20.73,
+      "lat": 51.72
+    },
+    {
+      "id": "zaporoze",
+      "nazwa": "Zaporoże",
+      "lon": 35.14,
+      "lat": 47.84
+    },
+    {
+      "id": "zatoka-zea",
+      "nazwa": "Zatoka Perska u wybrzeży ZEA",
+      "lon": 55.55,
+      "lat": 25.75
+    }
+  ]
+}

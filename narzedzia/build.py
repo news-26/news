@@ -25,6 +25,8 @@ import sys
 from pathlib import Path
 from xml.sax.saxutils import escape as xml_escape
 
+from rzuty import piksele
+
 REPO = Path(__file__).resolve().parent.parent
 BASE_URL = "https://news-26.github.io/news/"
 SCIEZKA = "/" + BASE_URL.split("/", 3)[3]  # ścieżka strony w serwisie, np. /news/
@@ -66,6 +68,7 @@ MAPA_TAGI = {
     "wielka-brytania": ["GB"], "rumunia": ["RO"], "balkany": ["RS", "BA", "ME", "MK", "AL", "XK", "HR"],
 }
 EUROPA = json.loads((Path(__file__).resolve().parent / "europa.json").read_text("utf-8"))
+SWIAT = json.loads((Path(__file__).resolve().parent / "swiat.json").read_text("utf-8"))
 GENEROWANE = ["index.html", "wydania", "watki", "osoby", "pojecia", "top", "czytelnia.html", "kalendarz.html", "kalendarium.html", "kalendarium.ics", "korekty.html", "zrodla.html",
               "jak-weryfikujemy.html", "szukaj.html", "szukaj.json", "feed.xml",
               "robots.txt", ".nojekyll", "assets", "404.html"]
@@ -167,6 +170,43 @@ def obowiazkowy(t):
 def wczytaj_terminy(katalog: Path):
     p = katalog / "terminy.json"
     return json.loads(p.read_text("utf-8"))["terminy"] if p.exists() else []
+
+
+MIEJSCA = {}  # dane/miejsca.json – słownik miejsc zdarzeń (id -> nazwa, lon, lat) dla mapy miejsc
+MIEJSCE_ID_RE = re.compile(r"^[a-z0-9-]+$")
+
+
+def wczytaj_miejsca(katalog: Path):
+    p = katalog / "miejsca.json"
+    return {m["id"]: m for m in json.loads(p.read_text("utf-8"))["miejsca"]} if p.exists() else {}
+
+
+def sprawdz_slownik_miejsc(b):
+    p = REPO / "dane" / "miejsca.json"
+    if not p.exists():
+        return
+    ids = set()
+    for m in json.loads(p.read_text("utf-8"))["miejsca"]:
+        g = f"miejsca.json {m.get('id')}"
+        if not MIEJSCE_ID_RE.match(m.get("id") or "") or m["id"] in ids:
+            b.dodaj(g, "id miejsca: małe litery, cyfry i łączniki, bez powtórzeń")
+        ids.add(m.get("id"))
+        if not m.get("nazwa"):
+            b.dodaj(g, "brak nazwy")
+        if not (isinstance(m.get("lon"), (int, float)) and -180 <= m["lon"] <= 180
+                and isinstance(m.get("lat"), (int, float)) and -90 <= m["lat"] <= 90):
+            b.dodaj(g, "lon (−180…180) i lat (−90…90) muszą być liczbami w stopniach")
+
+
+def sprawdz_miejsca(miejsca, gdzie, b):
+    if miejsca is None:
+        return
+    if not isinstance(miejsca, list) or not 1 <= len(miejsca) <= 2 or len(set(miejsca)) != len(miejsca):
+        b.dodaj(gdzie, "miejsca: lista 1–2 różnych identyfikatorów z dane/miejsca.json (albo brak pola)")
+        return
+    for m in miejsca:
+        if m not in MIEJSCA:
+            b.dodaj(gdzie, f"nieznane miejsce {m} — dopisz je do dane/miejsca.json (id, nazwa, lon, lat)")
 
 
 def wczytaj_ranking(katalog: Path):
@@ -468,6 +508,7 @@ def waliduj(tagi, osoby, pojecia, wydania, rewizje=(), topy=()) -> Bledy:
             if it.get("etap") not in ETAPY:
                 b.dodaj(g, f"etap musi być jednym z {sorted(s for s in ETAPY if s)}")
             sprawdz_tagi(it.get("tagi"), g, tagi, b)
+            sprawdz_miejsca(it.get("miejsca"), g, b)
             sprawdz_tekst(it.get("tekst"), g, osoby, pojecia, b)
             sprawdz_zrodla(it.get("zrodla"), g, b)
         for i, a in enumerate(w.get("analizy", [])):
@@ -1049,6 +1090,91 @@ class Budowa:
                 f'<p class="uwaga">{e(opis)} Kliknij kraj, żeby zobaczyć historię wątku.</p>'
                 f'<div class="chmura">{lista}</div>{poza_txt}')
 
+    @staticmethod
+    def skrot(tekst, osoby, pojecia, dl=100):
+        """Początek tekstu pozycji – podpis na liście miejsc, gdy pozycja nie ma pola "krotko"."""
+        t = czysty(tekst, osoby, pojecia)
+        if len(t) <= dl:
+            return t
+        return t[:dl].rsplit(" ", 1)[0].rstrip(",–(") + "…"
+
+    def mapa_miejsc(self, pozycje, prefix, naglowek, opis, kotwica="", zwin=False, wydanie=None):
+        """Mapa miejsc zdarzeń: punkt = miejsce z pola "miejsca" pozycji (dane/miejsca.json).
+        pozycje: lista (wydanie, pozycja); pozycje z `wydanie` linkują w obrębie strony. Kadr Europy i mała mapa świata dla miejsc poza nim;
+        numer punktu prowadzi do listy pod mapą, a stamtąd do pozycji."""
+        grupy, bez = {}, 0
+        for w, it in pozycje:
+            ms = [m for m in it.get("miejsca") or [] if m in MIEJSCA]
+            if not ms:
+                bez += 1
+            for m in ms:
+                grupy.setdefault(m, []).append((w, it))
+        if not grupy:
+            return ""
+        szer_eu, wys_eu = EUROPA["szer"], EUROPA["wys"]
+        panele = {"eu": [], "sw": []}
+        for m in sorted(grupy, key=lambda m: (-len(grupy[m]), MIEJSCA[m]["nazwa"])):
+            x, y = piksele("lambert", {**EUROPA["rzut"], "szer": szer_eu, "wys": wys_eu}, MIEJSCA[m]["lon"], MIEJSCA[m]["lat"])
+            panel = "eu" if 10 <= x <= szer_eu - 10 and 10 <= y <= wys_eu - 10 else "sw"
+            if panel == "sw":
+                x, y = piksele("equal_earth", {**SWIAT["rzut"], "szer": SWIAT["szer"], "wys": SWIAT["wys"]},
+                               MIEJSCA[m]["lon"], MIEJSCA[m]["lat"])
+            prog = 18 if panel == "eu" else 14  # bliskie miejsca łączą się w jeden punkt
+            for sk in panele[panel]:
+                if math.hypot(sk["x"] - x, sk["y"] - y) < prog:
+                    sk["miejsca"].append(m)
+                    break
+            else:
+                panele[panel].append({"x": x, "y": y, "miejsca": [m]})
+        skupiska = []
+        for panel in ("eu", "sw"):
+            for sk in panele[panel]:
+                poz, byly = [], set()
+                for m in sk["miejsca"]:
+                    for w, it in grupy[m]:
+                        k = (w["_slug"], it["id"])
+                        if k not in byly:
+                            byly.add(k)
+                            poz.append((w, it))
+                sk["pozycje"] = sorted(poz, key=lambda p: (p[1]["data"], p[0]["_slug"], p[1]["id"]))
+                sk["panel"] = panel
+            panele[panel].sort(key=lambda sk: (-len(sk["pozycje"]), MIEJSCA[sk["miejsca"][0]]["nazwa"]))
+            skupiska += panele[panel]
+        punkty = {"eu": "", "sw": ""}
+        lista = ""
+        for n, sk in enumerate(skupiska, 1):
+            nazwa = ", ".join(MIEJSCA[m]["nazwa"] for m in sk["miejsca"])
+            ile = len(sk["pozycje"])
+            r = (10 if ile == 1 else 12 if ile <= 3 else 14) - (2 if sk["panel"] == "sw" else 0)
+            opis_ = f"{nazwa}: {ile} poz."
+            punkty[sk["panel"]] += (f'<a href="#{kotwica or "mapa"}-{n}" aria-label="{e(opis_)}"><title>{e(opis_)}</title>'
+                                    f'<g class="pkt"><circle cx="{sk["x"]:.0f}" cy="{sk["y"]:.0f}" r="{r}"/>'
+                                    f'<text x="{sk["x"]:.0f}" y="{sk["y"] + 4:.0f}">{n}</text></g></a>')
+            li = ""
+            for w, it in sk["pozycje"]:
+                cel = f"#{it['id']}" if w is wydanie else f"{prefix}wydania/{w['_slug']}.html#{it['id']}"
+                li += (f'<li><a href="{cel}"><span class="m-data">{data_krotka(it["data"])}</span> '
+                       f'{e(it.get("krotko") or self.skrot(it["tekst"], self.osoby, self.pojecia))}</a></li>')
+            lista += (f'<li id="{kotwica or "mapa"}-{n}"><span class="m-nr">{n}</span><div><strong>{e(nazwa)}</strong>'
+                      f'<ul>{li}</ul></div></li>')
+        tlo_eu = "".join(f'<path d="{d}"/>' for k, d in EUROPA["kraje"].items() if k != "PL")
+        svg_eu = (f'<svg class="mapa-svg" viewBox="0 0 {szer_eu} {wys_eu}" role="img" aria-label="{e(naglowek)} – Europa">'
+                  f'<rect class="morze" width="100%" height="100%"/><g class="lad">{tlo_eu}</g>'
+                  f'<g class="pl"><path d="{EUROPA["kraje"]["PL"]}"/></g>{punkty["eu"]}</svg>')
+        svg_sw = (f'<svg class="mapa-svg swiat" viewBox="0 0 {SWIAT["szer"]} {SWIAT["wys"]}" role="img" aria-label="{e(naglowek)} – świat">'
+                  f'<rect class="morze" width="100%" height="100%"/><path class="lad" d="{SWIAT["lad"]}"/>'
+                  f'<path class="ramka" d="{SWIAT["ramka"]}"><title>Kadr mapy Europy</title></path>{punkty["sw"]}</svg>')
+        idk = f' id="{kotwica}"' if kotwica else ""
+        bez_txt = (f" {bez} {'pozycja nie ma' if bez == 1 else 'pozycje nie mają' if 2 <= bez % 10 <= 4 and not 12 <= bez % 100 <= 14 else 'pozycji nie ma'} "
+                   "miejsca zdarzenia (wypowiedzi, wpisy, decyzje bez wskazanego miejsca) i nie ma ich na mapie.") if bez else ""
+        lista_html = f'<ol class="miejsca-lista">{lista}</ol>'
+        if zwin:
+            lista_html = f'<details class="miejsca-zwin"><summary>Lista miejsc ({len(skupiska)})</summary>{lista_html}</details>'
+        return (f'<h2 class="pasek"{idk}>{e(naglowek)}</h2><figure class="mapa-miejsc">{svg_eu}'
+                f'<figcaption class="m-podpis">Poza kadrem Europy (przerywana ramka)</figcaption>{svg_sw}</figure>'
+                f'<p class="uwaga">{e(opis)} Numer punktu prowadzi do listy pod mapą; większy punkt – więcej pozycji.{bez_txt}</p>'
+                f'{lista_html}')
+
     def os_czasu(self, wystapienia, przyszle, dzis, prefix):
         """Oś czasu wątku: kropka = pozycja z wydania (stos w dniu zdarzenia), romb = termin z kalendarza."""
         if not wystapienia:
@@ -1235,6 +1361,10 @@ class Budowa:
                                 "Liczba przy kraju to liczba pozycji zarysu z hashtagiem tego miejsca.", "mapa")
         if mapa:
             cz.append(mapa)
+        mapa = self.mapa_miejsc([(w, it) for it in w["zarys"]], prefix, "Mapa miejsc (prototyp)",
+                                "Punkty to miejsca zdarzeń z zarysu.", "miejsca", wydanie=w)
+        if mapa:
+            cz.append(mapa)
         za = w.get("zrodla_analityczne") or {}
         n_pub = len(za.get("osw") or []) + len(za.get("pism") or [])
         if w.get("analizy"):
@@ -1355,6 +1485,10 @@ class Budowa:
             ostatnie = [it for x in self.wydania for it in x["zarys"] if 0 <= (koniec - data_(it["data"])).days < 7]
             cz.append(self.mapa_europy(ostatnie, "", "Mapa wątków z ostatnich 7 dni",
                                        f"Pozycje z wydań z datą zdarzenia od {data_dluga((koniec - dt.timedelta(days=6)).isoformat())} do {data_dluga(w['data'])}."))
+            cz.append(self.mapa_miejsc([(x, it) for x in self.wydania for it in x["zarys"] if 0 <= (koniec - data_(it["data"])).days < 7],
+                                       "", "Mapa miejsc z ostatnich 7 dni (prototyp)",
+                                       f"Pozycje z wydań z datą zdarzenia od {data_dluga((koniec - dt.timedelta(days=6)).isoformat())} do {data_dluga(w['data'])}.",
+                                       "miejsca", zwin=True))
             gorace = self.gorace_watki(7)
             if gorace:
                 cz.append('<h2 class="pasek">Gorące wątki z ostatnich 7 dni</h2><div class="chmura">' + "".join(
@@ -2142,6 +2276,8 @@ def main():
     RANKING = wczytaj_ranking(a.dane)
     global TERMINY
     TERMINY = wczytaj_terminy(a.dane)
+    global MIEJSCA
+    MIEJSCA = wczytaj_miejsca(a.dane)
     tagi, osoby, pojecia, wydania, rewizje, topy = wczytaj(a.dane)
     if a.raport_strazy:
         raport = []
@@ -2149,6 +2285,7 @@ def main():
         print("\n".join(raport) or "Brak ostrzeżeń.")
         return
     bledy = waliduj(tagi, osoby, pojecia, wydania, rewizje, topy)
+    sprawdz_slownik_miejsc(bledy)
     sprawdz_pliki(pliki_zrodlowe(), REPO, bledy)
     if bledy:
         print("WALIDACJA NIE PRZESZŁA — strona nie została zbudowana:", file=sys.stderr)

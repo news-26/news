@@ -76,6 +76,10 @@
         "rosja",
         "front"
       ],
+      "miejsca": [
+        "slowiansk",
+        "kijow"
+      ],
       "etap": "W TOKU",
       "tekst": "Według Kyiv Independent rosyjskie ataki w ciągu doby do rana 11.10 zabiły co najmniej dwie osoby i raniły 25 w całej Ukrainie, a w obwodzie kijowskim uderzono w infrastrukturę cywilną, mieszkaniową i energetyczną. W Słowiańsku rosyjskie lotnictwo trafiło w dwa bloki mieszkalne; mer Wadym Laj poinformował o czterech rannych, a według {{o:wolodymyr-zelenski|Zełenskiego}} pod gruzami mogą być ludzie (Euronews). Ukrenergo wprowadziło awaryjne wyłączenia prądu w kilku obwodach. Zełenski podał, że w ostatnim tygodniu Rosja przeprowadziła ponad 200 uderzeń w obiekty wytwarzania i przesyłu energii elektrycznej oraz 17 w obiekty gazowe i naftowe, a według niego zginęło ponad 150 osób, a ponad 700 zostało rannych (dane strony ukraińskiej, niezależnie niepotwierdzone).",
       "zrodla": [
@@ -105,6 +109,9 @@
         "rosja",
         "front"
       ],
+      "miejsca": [
+        "kaluga"
+      ],
       "etap": "W TOKU",
       "tekst": "Według Reutersa (za The Star) Jandeks poinformował 9.10, że dron wyłączył kilka modułów jego centrum danych w obwodzie kałuskim, bez poszkodowanych, a dzień wcześniej dron uderzył w jego centrum danych w Sasowie w obwodzie riazańskim, które według Reutersa mieści dwa z trzech superkomputerów do rozwijania modelu AI firmy; Jandeks nie wie, czy sprzęt da się odtworzyć. Euronews (8.10) opisał pożar w Sasowie i ostrzeżenie Jandeksu o niedostępności części usług. Zełenski powiedział 8.10, że Ukraina „zawsze odpowiada lustrzanie”, nie przyznając się wprost do ataków; Ukraina nie potwierdziła ataków.",
       "zrodla": [
@@ -126,6 +133,9 @@
       "data": "2026-10-11",
       "tagi": [
         "inne"
+      ],
+      "miejsca": [
+        "rijad"
       ],
       "etap": "W TOKU",
       "tekst": "Lotnisko King Khalid w Rijadzie, atakowane w pierwszych dniach października (daty pierwszych ataków w źródłach się różnią), zostało zaatakowane ponownie 10.10 i 11.10: po ataku z soboty 10.10 według Euronews zginęło 12 osób (czterech Saudyjczyków i ośmiu cudzoziemców, w tym Amerykanin), a według saudyjskiego urzędu lotnictwa 309 zostało rannych, a w niedzielę zmarł kolejny ranny, obywatel Indii (ambasada Indii); 11.10 pocisk uderzył w terminal 4, wywołując pożar, a obrona przeciwlotnicza zniszczyła pocisk manewrujący w pobliżu lotniska (Euronews, za koalicją pod wodzą Arabii Saudyjskiej). Koalicja obwinia Huti i zapowiada zdecydowaną odpowiedź; Huti oświadczyli, że przeprowadzili cztery fale ataków, i ostrzegli linie lotnicze przed lotami do saudyjskich portów. {{o:donald-trump|Trump}} powiedział, że USA mogą dołączyć do saudyjskich uderzeń na Huti („We're going to look at it”), po czym dodał, że Arabia Saudyjska może się sama obronić; decyzji nie ogłosił. Według Flightradar24 lotnisko pozostaje zamknięte co najmniej do północy z 11 na 12.10 (władze saudyjskie terminu nie podały); Etihad i Emirates odwołały loty do Rijadu, Lufthansa zawiesiła je do 16.10, a SriLankan do 18.10.",

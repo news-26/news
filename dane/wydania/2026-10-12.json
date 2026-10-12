@@ -1,0 +1,357 @@
+{
+  "nr": 24,
+  "data": "2026-10-12",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Rzecznik Kremla Dmitrij Pieskow odrzucił 12.10 według Kyiv Independent propozycję 60-dniowego zawieszenia broni na czas wyborów w Ukrainie (wpis w „W obserwacji”, jedno źródło poziomu 2).",
+    "Rada Najwyższa uchwaliła ustawę wzmacniającą prawa mniejszości narodowych (266 głosów), co ma odblokować kolejne klastry w negocjacjach Ukrainy z UE; Węgry mają zdecydować 13.10.",
+    "UE i Chiny zawarły 9.10 wstępne porozumienie handlowe, które przywódcy omówią na Radzie Europejskiej 15–16.10; strategia NATO gen. Grynkewicza i inne tematy dnia pozostały w „W obserwacji”."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "instytucje",
+      "data": "2026-10-12",
+      "tagi": [
+        "ukraina",
+        "ue",
+        "wegry"
+      ],
+      "etap": "W TOKU",
+      "tekst": "Rada Najwyższa Ukrainy uchwaliła 12.10 ustawę wzmacniającą prawa mniejszości narodowych (Euronews: „minority rights law”; Kyiv Independent: ustawa o szkołach mniejszości), za głosowało 266 z 450 deputowanych; Kyiv Independent podaje w tytule, że {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} ją podpisał, choć w tekście zostaje zdanie o wymaganym podpisie prezydenta (podpis do potwierdzenia). Według Euronews dyplomaci oczekują, że Węgry zatwierdzą 13.10 na konferencji międzyrządowej otwarcie dwóch kolejnych **klastrów negocjacyjnych** (rynek wewnętrzny i konkurencyjność), a premier Péter Magyar może spotkać Zełenskiego na Radzie Europejskiej 15–16.10. Węgry nie opublikowały jeszcze komunikatu po głosowaniu. Następstwo: decyzja Budapesztu 13.10 rozstrzygnie, czy rozmowy akcesyjne ruszą dalej.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/12/ukraine-passes-minority-rights-law-paving-way-for-breakthrough-in-eu-accession-talks",
+          "data": "2026-10-12"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/ukraines-parliament-passes-minority-schools-bill-to-appease-hungary-advance-eu-talks/",
+          "data": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "swiat",
+      "data": "2026-10-09",
+      "tagi": [
+        "ue",
+        "chiny",
+        "gospodarka"
+      ],
+      "etap": "W TOKU",
+      "tekst": "UE i Chiny zawarły 9.10 po czterech miesiącach rozmów wstępne porozumienie handlowe: Chiny mają ograniczyć eksport **hybrydowych samochodów** do UE (według Euronews o ponad połowę względem szacowanych 800 tys. sztuk w 2026) i złagodzić licencjonowanie metali ziem rzadkich, a UE obniży cła m.in. na części samochodowe, obuwie i oliwę (według Komisji oszczędność co najmniej 225 mln euro). Komisja zobowiązała się przedstawić przed grudniowym szczytem UE propozycje narzędzia obrony handlowej, o które wzywali Merz i Macron. Następstwo: wynik przywódcy UE omówią na Radzie Europejskiej 15–16.10.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/12/eu-china-trade-deal-raises-fears-brussels-will-go-soft-on-beijing",
+          "data": "2026-10-12"
+        },
+        {
+          "nazwa": "Associated Press (za KSAT)",
+          "url": "https://www.ksat.com/business/2026/10/09/china-and-eu-trade-envoys-seek-ways-to-ease-tensions-over-growing-imbalances/",
+          "data": "2026-10-09"
+        }
+      ]
+    }
+  ],
+  "analizy": [],
+  "kalendarz": [
+    {
+      "data": "2026-10-13",
+      "tekst": "13.10: Rada do Spraw Ogólnych UE (WRF 2028–34, praworządność na Węgrzech); według Euronews dyplomaci oczekują, że Węgry zatwierdzą tego dnia otwarcie dwóch kolejnych klastrów negocjacyjnych z Ukrainą (konferencja międzyrządowa); 12–18.10 doroczne zgromadzenia MFW i Banku Światowego (Bangkok).",
+      "tagi": [
+        "ue",
+        "ukraina",
+        "wegry",
+        "mfw"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/12/ukraine-passes-minority-rights-law-paving-way-for-breakthrough-in-eu-accession-talks",
+          "data": "2026-10-12"
+        },
+        {
+          "nazwa": "Rada UE (kalendarz posiedzeń)",
+          "url": "https://www.consilium.europa.eu/en/meetings/calendar/",
+          "data": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-15",
+      "tekst": "15–16.10: Rada Europejska w Brukseli (m.in. WRF 2028–34, Ukraina, rozszerzenie).",
+      "tagi": [
+        "ue"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE",
+          "url": "https://www.consilium.europa.eu/en/meetings/european-council/2026/10/15-16/",
+          "data": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-16",
+      "tekst": "16–17.10: Czechy – II tura wyborów do Senatu.",
+      "tagi": [
+        "czechy",
+        "wybory"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-10-25",
+      "tekst": "II tura wyborów prezydenckich w Brazylii (Flávio Bolsonaro – Lula)",
+      "tagi": [
+        "ameryki",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-25",
+      "tekst": "wybory parlamentarne w Serbii",
+      "tagi": [
+        "balkany",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-28",
+      "tekst": "27–28.10 FOMC (Fed), 28–29.10 posiedzenie EBC",
+      "tagi": [
+        "gospodarka"
+      ]
+    },
+    {
+      "data": "2026-11-01",
+      "tekst": "kolejne spotkanie państw OPEC+ w sprawie limitów wydobycia (na grudzień)",
+      "tagi": [
+        "energia"
+      ]
+    },
+    {
+      "data": "2026-11-03",
+      "tekst": "wybory połowy kadencji w USA",
+      "tagi": [
+        "usa",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-11-20",
+      "tekst": "szczyt UE–Wielka Brytania (według Euronews, zapowiedź premiera Andy’ego Burnhama)",
+      "tagi": [
+        "ue",
+        "wielka-brytania"
+      ]
+    },
+    {
+      "data": "2026-11-12",
+      "tekst": "Europejska Wspólnota Polityczna w Irlandii (12.11), 13.11 nieformalne spotkanie przywódców UE",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [],
+    "pism": []
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n0",
+      "prog": "dokumentacja",
+      "tekst": "Rzecznik Kremla Dmitrij Pieskow powiedział 12.10, że Rosja odrzuca propozycję Wołodymyra Zełenskiego 60-dniowego zawieszenia broni na czas wyborów w Ukrainie, bo Kreml chce „trwałego pokoju”, a nie zawieszenia broni; ocenił, że 60 dni służyłoby przegrupowaniu, a Putin mógłby nakazać wstrzymanie ataków tylko w dniu wyborów. O rozejmie energetycznym ogłoszonym 11.10 przez Donalda Trumpa Pieskow powiedział, że „kontakty trwają” i Kreml da znać, gdy będzie miał coś do przekazania. Zełenski domaga się, by rozejm obejmował całą sieć energetyczną, nie tylko rafinerie. Według Kyiv Independent, powołującego się na dwóch ukraińskich urzędników, USA groziły Kijowowi wstrzymaniem wymiany wywiadowczej i dostaw broni w ramach {{p:purl|PURL; Biały Dom nie skomentował, a doradca prezydenta Pawło Palisa zaprzeczył publicznie, że potwierdzał te informacje (szczegół z jednego źródła). Następstwo: rozejm energetyczny pozostaje bez potwierdzenia Moskwy. Brak drugiego źródła z poziomów 1–2 (Kyiv Independent 12.10 jedyne); Polsat News (poziom 3) potwierdza tytuł.",
+      "sprawdzono": [
+        "Kyiv Independent 12.10 (dwa teksty)",
+        "Polsat News RSS 12.10 (poziom 3)",
+        "wyszukiwarka: Peskov 60-day ceasefire – brak tekstów z 12.10",
+        "Reuters, AP, PAP – niedostępne"
+      ]
+    },
+    {
+      "id": "n1",
+      "prog": "dokumentacja",
+      "tekst": "Rijad: według Al Jazeera (12.10, poziom 3) rakieta Huti uderzyła 10.10 w lotnisko King Khalid (12, po śmierci obywatela Indii 13 zabitych, ponad 300 rannych; lotnisko zamknięte), 8.10 zginęły co najmniej 3 osoby, a 11.10 jedna osoba i 11 rannych (GACA); Euronews podaje podobny bilans. Brak komunikatu saudyjskiego urzędu lotnictwa z bilansem łącznym i drugiego źródła poziomów 1–2 o całości; Trump rozważa udział USA w uderzeniach.",
+      "sprawdzono": [
+        "Euronews 12.10",
+        "Al Jazeera 12.10 (poziom 3)",
+        "AP (za KSAT) 9.10",
+        "Reuters (za The Star) 8.10"
+      ]
+    },
+    {
+      "id": "n2",
+      "prog": "dokumentacja",
+      "kalendarz": "2026-10-12",
+      "tekst": "Sankcje UE: według Euronews (12.10) ministrowie spraw zagranicznych w Luksemburgu mają za sobą zatwierdzenie rekordowych 1600 wpisów (połowa związana z produkcją rakiet balistycznych), ale nie potwierdza tego komunikat Rady UE ani drugie źródło z poziomów 1–2.",
+      "sprawdzono": [
+        "Euronews 7.10 i 12.10",
+        "komunikat Rady UE – nie znaleziono",
+        "Reuters, AP – niedostępne"
+      ]
+    },
+    {
+      "id": "n3",
+      "prog": "dokumentacja",
+      "tekst": "Liban: według Euronews (12.10) Rada do Spraw Zagranicznych UE zgodziła się na cywilno-wojskową misję szkoleniową dla libańskich sił (ok. 150 osób, mandat do 3 lat; Kaja Kallas: „We will establish a new mission in Lebanon”). Wyszukiwarka nie zwróciła relacji z samego posiedzenia ani komunikatu Rady.",
+      "sprawdzono": [
+        "Euronews 12.10",
+        "The National 8.10 (zapowiedź)",
+        "komunikat Rady UE – nie znaleziono"
+      ]
+    },
+    {
+      "id": "n4",
+      "prog": "dokumentacja",
+      "tekst": "Niemcy: według Polsat News szef Bundesamt für Verfassungsschutz Sinan Selen ostrzegł 12.10, że należy spodziewać się kolejnych incydentów jak dron z ładunkiem wybuchowym z Lipska (Rosja przypisana przez rząd 1.09) i zamachów; brak tekstu z poziomów 1–2 z 12.10.",
+      "sprawdzono": [
+        "Polsat News 12.10 (poziom 3)",
+        "wyszukiwarka PL/DE/EN – brak tekstów z 12.10",
+        "BfV – komunikatu nie znaleziono"
+      ]
+    },
+    {
+      "id": "n5",
+      "prog": "dokumentacja",
+      "tekst": "Polska: Kyiv Independent (12.10) powtarza informacje o zatrzymaniu mężczyzny, który groził zamachem na premiera Donalda Tuska i ministra obrony Władysława Kosiniaka-Kamysza; nadal brak komunikatu prokuratury (zarzuty, tożsamość) i powiązania z obcymi służbami; relacja o kontaktach z „radykalną organizacją” pochodzi z TVN24.",
+      "sprawdzono": [
+        "Kyiv Independent 12.10",
+        "TVN24 (za KI)",
+        "komunikat prokuratury/ABW – nie znaleziono"
+      ]
+    },
+    {
+      "id": "n6",
+      "prog": "dokumentacja",
+      "tekst": "Wielka Brytania: według Euronews (12.10) premier Andy Burnham zapowiedział na 20.11 szczyt UE–Wielka Brytania (handel żywnością, energia, handel emisjami, wymiana młodzieży) i ocenił status quo jako niewystarczający; Euronews nie potwierdza wypowiedzi o rosyjskim udziale w referendum z 2016 r. Al Jazeera (12.10, poziom 3) potwierdza wywiad z twierdzeniem Burnhama o rosyjskiej ingerencji w referendum 2016 (bez dowodów) i szczyt w przyszłym miesiącu.",
+      "sprawdzono": [
+        "Euronews 12.10",
+        "The Observer – nie znaleziono",
+        "Downing Street – brak komunikatu"
+      ]
+    },
+    {
+      "id": "n7",
+      "prog": "dokumentacja",
+      "tekst": "NATO: gen. Alexus Grynkewich przedstawił 12.10 na Warsaw Security Forum strategię obrony w trzech etapach (Block, Blunt, Break); według Euronews plan poparło 32 członków NATO, a zagrożenie bezpośrednim atakiem ocenił jako niskie. Drugiego tekstu z 12.10 z poziomów 1–2 nie znaleziono (zapowiedź PAP MediaRoom z 6.10 nie zawiera treści wystąpienia).",
+      "sprawdzono": [
+        "Euronews 12.10",
+        "PAP MediaRoom 6.10 (zapowiedź)",
+        "wyszukiwarka: Grynkewich Warsaw Security Forum"
+      ]
+    },
+    {
+      "id": "n8",
+      "prog": "dokumentacja",
+      "tekst": "Polska, sabotaż: według miejskireporter.pl (poziom 3) niemiecki BKA zatrzymał 12.10 dwóch obywateli Turcji podejrzanych o podpalenie stacji Starlink w Woli Krobowskiej (pow. grójecki, 23.09); sprawę prowadzi Prokuratura Krajowa (działanie na rzecz obcego wywiadu, sabotaż), podejrzewane jest zlecenie przez rosyjskie służby. Brak komunikatu Prokuratury Krajowej, KGP lub MSWiA z poziomu 1.",
+      "sprawdzono": [
+        "miejskireporter.pl (za kontrolą niezależną)",
+        "Prokuratura Krajowa – komunikatu nie znaleziono",
+        "PAP – niedostępny"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-10-11#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Brak komunikatu ČSÚ z wynikami I tury; wyszukiwarka zwraca tylko terminy (II tura 16–17.10).",
+      "sprawdzono": [
+        "Euronews 11.10",
+        "wyszukiwarka: wyniki Senatu 2026",
+        "e15.cz i ČSÚ – wyników nie otwarto"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-11#n2",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Drugi niezależny tekst o Włodzimierzu nie ukazał się; Euronews 12.10 wspomina tylko ataki na centra danych Jandeksu ogólnie.",
+      "sprawdzono": [
+        "Euronews 12.10",
+        "Kyiv Independent 12.10 (Fire Point/Yandex)",
+        "wyszukiwarka"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-11#n3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Euronews 12.10 o Burnhamie nie zawiera podcastu ani wypowiedzi o Rosji i referendum; The Observer nieotwarty.",
+      "sprawdzono": [
+        "Euronews 12.10",
+        "The Observer",
+        "Downing Street"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-11#n5",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Nie znaleziono komunikatu IOM ani drugiego tekstu o Dżibuti.",
+      "sprawdzono": [
+        "wyszukiwarka: Djibouti Obock IOM (wyniki z 2019 i 2024)",
+        "Euronews RSS 12.10",
+        "Polsat News RSS"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-11#n6",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Nadal brak komunikatów CENTCOM/UKMTO potwierdzających wypowiedzi IRGC.",
+      "sprawdzono": [
+        "Euronews RSS 12.10",
+        "Kyiv Independent RSS 12.10",
+        "Polsat News RSS 12.10"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-11#n7",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Wyszukiwarka (ARY, Arab News, do 7.10) opisuje tylko rozważanie stanu wyjątkowego lub rządów gubernatora; nie znaleziono potwierdzenia jego wprowadzenia.",
+      "sprawdzono": [
+        "wyszukiwarka: Khyber Pakhtunkhwa emergency (ARY News, Arab News)",
+        "Euronews RSS 12.10",
+        "Polsat News RSS 12.10"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-11#n8",
+      "wynik": "ODPADA",
+      "powod": "Sprawa krajowa, bez ustalonego związku z sytuacją międzynarodową; brak nowych komunikatów w materiale z 12.10."
+    }
+  ],
+  "do_sprawdzenia": [
+    "Konferencja międzyrządowa 13.10 – decyzja Węgier ws. klastrów Ukrainy i Mołdawii",
+    "Rada Europejska 15–16.10 – porozumienie UE–Chiny, WRF, spotkanie Magyar–Zełenski",
+    "Rozejm energetyczny – reakcja Kremla, komunikat Białego Domu; potwierdzenie gróźb USA wobec Kijowa (drugie źródło)",
+    "Rijad – komunikat saudyjskiego urzędu lotnictwa, jednolity bilans i daty ataków, ponowne otwarcie lotniska",
+    "Sankcje UE i misja w Libanie – komunikat Rady UE z 12.10",
+    "Polska – zarzuty i tożsamość zatrzymanego w sprawie gróźb wobec premiera (prokuratura)",
+    "Niemcy – wypowiedź szefa BfV Sinana Selena z 12.10 (tekst z poziomów 1–2)",
+    "Czechy – wyniki I tury ČSÚ; II tura 16–17.10",
+    "OSW i PISM – publikacje z 9–12.10 (strony nie udało się odczytać)"
+  ],
+  "nota": "Wydanie nr 24, przygotowane 12.10.2026 ok. 20:00 CEST. Dział Świat Onetu nie został otwarty (blokada, zgodnie z procedurą) ani przejrzany osobnym zapytaniem wyszukiwarki, więc z Onetu nie trafił do wydania żaden temat. Kanał Polsat News Świat otwarto (najnowszy wpis 12.10, 18:05); wskazał m.in. Kreml–Zełenski, Grynkewicza, szefa BfV Selena i Rijad – wszystkie cztery trafiły do „W obserwacji”; do zarysu nie trafił żaden temat z kanału. Kanał TVN24: błąd 403. Reuters i PAP niedostępne; wykorzystano 1 przedruk Reutersa (The Star, 8.10, w n1). Użyto Euronews, Kyiv Independent (RSS), AP (za KSAT), Al Jazeera. OSW (404) i PISM (pusta strona) nie zostały odczytane, więc bez analiz i bez sekcji OSW/PISM. Wydanie ma 2 pozycje, bo większość tematów dnia ma tylko jedno źródło poziomu 2; wpisy n0–n8 czekają na rozliczenie. Kontrola niezależna (osobny agent) przeprowadzona; na jej podstawie poprawiono opis ustawy ukraińskiej i status podpisu (z1), przeniesiono strategię NATO do „W obserwacji” (n7), dopisano sabotaż Starlink w Polsce (n8) i uzupełniono n1 i n6. Kontrola nie znalazła komunikatów DO RSZ, SG ani ŻW z 12.10."
+}

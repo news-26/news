@@ -527,6 +527,20 @@
       "uzasadnienie": "Publiczna czeska agencja prasowa (odpowiednik TASR); rzetelna co do przebiegu głosowań w parlamencie i decyzji rządu. Dodana 01.10.2026."
     },
     {
+      "id": "keystone-sda",
+      "nazwa": "Keystone-SDA",
+      "poziom": 2,
+      "typ": "agencja",
+      "kraj": "Szwajcaria",
+      "domeny": [
+        "keystone-sda.ch"
+      ],
+      "wzorce": [
+        "Keystone-SDA"
+      ],
+      "uzasadnienie": "Dopisano 12.10.2026: krajowa agencja prasowa Szwajcarii (odpowiednik ANSA, ČTK), z własnymi korespondentami przy instytucjach UE; depesze czytamy w przedrukach (np. Bluewin)."
+    },
+    {
       "id": "svt",
       "nazwa": "SVT",
       "poziom": 2,
@@ -1461,7 +1475,8 @@
         "presidency.eg",
         "pco.gov.ph",
         "boe.es",
-        "generalbundesanwalt.de"
+        "generalbundesanwalt.de",
+        "rada.gov.ua"
       ],
       "wzorce": [
         "Prezydent Ukrainy",
@@ -1478,9 +1493,10 @@
         "TSE",
         "Prezydent Egiptu",
         "Biuro Komunikacji Prezydenta Filipin",
-        "Prokurator Generalny Niemiec"
+        "Prokurator Generalny Niemiec",
+        "Rada Najwyższa Ukrainy"
       ],
-      "uzasadnienie": "Strony urzędowe prezydentów i rządów: potwierdzają ich obsadę, decyzje i komunikaty; wypowiedzi to wersja strony. Dopisano 5.10.2026: tse.jus.br – Najwyższy Sąd Wyborczy Brazylii, organ ogłaszający oficjalne wyniki wyborów. Dopisano 5.10.2026 (kalendarium): komisje wyborcze i urzędy ogłaszające terminy wyborów – valimised.ee (Estonia), cik.bg (Bułgaria), mzv.gov.cz (MSZ Czech), ocac.gov.tw (Tajwan), tre-sp.jus.br (sąd wyborczy Brazylii), ncsbe.gov (komisja wyborcza Karoliny Płn.). Dopisano 6.10.2026: presidency.eg (prezydent Egiptu), pco.gov.ph (biuro komunikacji prezydenta Filipin), boe.es (dziennik urzędowy Hiszpanii) – oficjalne strony publikujące dokumenty i komunikaty własnych władz. Dopisano 6.10.2026: Prokurator Generalny Niemiec (GBA) – komunikaty o własnych czynnościach, publikowane na generalbundesanwalt.de i w serwisie Presseportal."
+      "uzasadnienie": "Strony urzędowe prezydentów i rządów: potwierdzają ich obsadę, decyzje i komunikaty; wypowiedzi to wersja strony. Dopisano 5.10.2026: tse.jus.br – Najwyższy Sąd Wyborczy Brazylii, organ ogłaszający oficjalne wyniki wyborów. Dopisano 5.10.2026 (kalendarium): komisje wyborcze i urzędy ogłaszające terminy wyborów – valimised.ee (Estonia), cik.bg (Bułgaria), mzv.gov.cz (MSZ Czech), ocac.gov.tw (Tajwan), tre-sp.jus.br (sąd wyborczy Brazylii), ncsbe.gov (komisja wyborcza Karoliny Płn.). Dopisano 6.10.2026: presidency.eg (prezydent Egiptu), pco.gov.ph (biuro komunikacji prezydenta Filipin), boe.es (dziennik urzędowy Hiszpanii) – oficjalne strony publikujące dokumenty i komunikaty własnych władz. Dopisano 6.10.2026: Prokurator Generalny Niemiec (GBA) – komunikaty o własnych czynnościach, publikowane na generalbundesanwalt.de i w serwisie Presseportal. Dopisano 12.10.2026: rada.gov.ua – karty projektów ustaw Rady Najwyższej Ukrainy (etapy, podpis prezydenta)."
     },
     {
       "id": "onz",

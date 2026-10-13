@@ -419,6 +419,18 @@
       "nazwa": "Zatoka Perska u wybrzeży ZEA",
       "lon": 55.55,
       "lat": 25.75
+    },
+    {
+      "id": "rowne",
+      "nazwa": "Równe",
+      "lon": 26.25,
+      "lat": 50.62
+    },
+    {
+      "id": "morze-czarne-bulgaria",
+      "nazwa": "Morze Czarne (wody Bułgarii)",
+      "lon": 28.6,
+      "lat": 43.4
     }
   ]
 }

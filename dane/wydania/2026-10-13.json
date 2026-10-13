@@ -1,0 +1,379 @@
+{
+  "nr": 25,
+  "data": "2026-10-13",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "UE otworzyła 13.10 w Luksemburgu dwa kolejne **klastry negocjacyjne** z Ukrainą (rynek wewnętrzny i konkurencyjność), po zniesieniu weta przez Węgry; otwartych jest już 4 z 6 klastrów, a spotkanie {{o:wolodymyr-zelenski|Wołodymyra Zełenskiego}} z {{o:peter-magyar|Péterem Magyarem}} w Brukseli jest dopiero przygotowywane.",
+    "Rosja uderzyła w nocy z 12 na 13.10 pięcioma rakietami balistycznymi w Kijów bez wcześniejszego alarmu, a Zełenski oświadczył, że nie dostał ostrzeżenia od partnerów; {{o:donald-trump|Donald Trump}} zapewnił 13.10, że USA nadal dzielą się z Ukrainą danymi wywiadowczymi.",
+    "Premier Bułgarii Rumen Radew poinformował 13.10, że drony trafiły dwa statki handlowe na Morzu Czarnym; jeden zatonął, 11 marynarzy jest poszukiwanych, a sprawcy nie wskazano."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "instytucje",
+      "data": "2026-10-13",
+      "tagi": [
+        "ukraina",
+        "ue",
+        "wegry"
+      ],
+      "miejsce": "luksemburg",
+      "krotko": "UE otwiera klastry 2 i 3 z Ukrainą",
+      "etap": "PRZYJĘTE",
+      "tekst": "UE otworzyła 13.10 w Luksemburgu na konferencji akcesyjnej dwa kolejne **klastry negocjacyjne** z Ukrainą – rynek wewnętrzny i konkurencyjność; według Euronews Rada UE zgodziła się na to po umowie z Węgrami o prawach mniejszości węgierskiej w Ukrainie (w tle ustawa Rady Najwyższej o szkołach mniejszości z 12.10), a węgierska minister spraw zagranicznych Anita Orbán spotkała się 12.10 w Luksemburgu z ukraińskim ministrem Andrijem Sybihą. Otwartych jest już 4 z 6 klastrów (według Kyiv Independent pozostałe dwa Komisja Europejska i prezydencja irlandzka chcą otworzyć do końca 2026; nazwy klastrów 2 i 3 podaje Kyiv Independent); według Euronews spotkanie Zełenskiego z premierem Węgier {{o:peter-magyar|Péterem Magyarem}} w Brukseli jest przygotowywane, ale bez potwierdzonej daty. Następstwo: rozmowy akcesyjne Ukrainy wchodzą w fazę przeglądu zgodności z prawem UE; zamknięcie każdego klastra wymaga jednomyślności.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/13/eu-advances-ukraine-accession-as-hungary-lifts-veto-paving-way-for-zelenskyy-magyar-meetin",
+          "data": "2026-10-13"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/ukraine-advances-eu-membership-bid-with-4-of-6-integration-to-do-lists-unlocked/",
+          "data": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-10-13",
+      "tagi": [
+        "ukraina",
+        "front",
+        "usa"
+      ],
+      "miejsce": "kijow",
+      "krotko": "Rakiety balistyczne na Kijów bez alarmu",
+      "etap": "W TOKU",
+      "tekst": "Rosja uderzyła w Kijów po godz. 22 w nocy z 12 na 13.10; według Zełenskiego pięć rakiet balistycznych trafiło w infrastrukturę cywilną (Kyiv Independent opisuje je jako pięć rakiet S-400), a alarm przeciwlotniczy włączył się według tej redakcji dopiero po uderzeniu. Zełenski oświadczył, że Ukraina „nie otrzymała ostrzeżenia od partnerów”, i że od poniedziałkowego wieczora Rosja użyła ponad 100 środków napadu. Według Euronews (AP) i władz lokalnych uderzenie w uczelnię w Równem zraniło co najmniej 25 osób, a w Charkowie uderzenie w budynek mieszkalny zabiło 4 osoby (według Zełenskiego 41 rannych w mieście wieczorem). Szef MSZ Ukrainy Andrij Sybiha powiedział 13.10, że współpraca wywiadowcza z USA trwa; według Kyiv Independent nie ma dowodu na decyzję o odcięciu danych, choć anonimowi ukraińscy urzędnicy mówili tej redakcji o groźbie wstrzymania wymiany wywiadowczej, jeśli Kijów nie przestanie uderzać w rosyjską energetykę (Biały Dom tego nie potwierdził). Następstwo: brak ostrzeżenia przed rakietami zwiększa straty cywilne i podnosi znaczenie wywiadu partnerów.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews (AP)",
+          "url": "https://www.euronews.com/2026/10/13/russian-strike-injures-dozens-at-rivne-university-as-ballistic-missiles-hit-kyiv",
+          "data": "2026-10-13"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/as-russian-missiles-slip-through-kyivs-air-defenses-without-warning-officials-say-us-intelligence-remains-intact-for-now/",
+          "data": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "wojna",
+      "data": "2026-10-13",
+      "tagi": [
+        "bulgaria",
+        "nato",
+        "ue",
+        "rosja",
+        "ukraina"
+      ],
+      "miejsce": "morze-czarne-bulgaria",
+      "krotko": "Drony trafiają statki u wybrzeży Bułgarii",
+      "etap": "W TOKU",
+      "tekst": "Premier Bułgarii Rumen Radew poinformował 13.10, że drony trafiły dwa statki handlowe u wybrzeża Bułgarii: „Chelsea 3” (bandera maltańska, ukraiński armator; wszystkich 15 członków załogi ewakuowano do Warny) i drugą jednostkę, która zatonęła – jej nazwa jest rozbieżna (według Euronews „HS Dignity”, według Kyiv Independent za bułgarskimi mediami „Azov Concord”). Według wstępnych danych uratowano 5 osób, a **11 marynarzy jest poszukiwanych**. Radew nazwał ataki „absolutnie niedopuszczalnymi”, powiadomił NATO i UE i zapowiedział wezwanie rosyjskiego ambasadora; przyznał, że brak rozstrzygających dowodów, kto zaatakował, ale „logika wskazuje”, że wynik jest korzystny dla Rosji. Przewodnicząca Komisji Europejskiej Ursula von der Leyen nazwała Morze Czarne „kolejnym frontem eskalacji rosyjskiej wojny”. Według Euronews to kolejny atak na statki u wybrzeży Bułgarii po wcześniejszym w październiku. Następstwo: Bułgaria zwróciła się o wsparcie NATO i UE; sprawców nie ustalono.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/13/two-ships-hit-by-drones-in-black-sea-one-sank-bulgarias-pm-says",
+          "data": "2026-10-13"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/absolutely-unacceptable-commercial-vessel-hit-by-drones-near-bulgarias-black-sea-coast-says-prime-minister-radev/",
+          "data": "2026-10-13"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "OSW: Rosja kontynuuje uderzenia w energetykę Ukrainy mimo ogłoszonego przez Trumpa rozejmu energetycznego; Ukraina powstrzymała się od ataków na rafinerie tylko dwa dni",
+      "autor": "OSW (K. Nieczypor, M. Goliszewski, J. Tarociński), 13.10.2026",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "energia"
+      ],
+      "tekst": "Autorzy podają, że od wieczora 6.10 do rana 13.10 ukraińska obrona przeciwlotnicza zneutralizowała 745 z 913 dronów (81,6%), ale tylko 66,6% dronów odrzutowych. Według nich Rosja uderzała w energetykę (m.in. TEC-5 w Charkowie 12.10), a Ukraina po dwóch dniach wstrzymania wznowiła uderzenia dalekiego zasięgu w rosyjskie rafinerie i obiekty przemysłowe. Zwracają uwagę na ataki na statki u wybrzeży Bułgarii (7 i 13.10) bez ustalonej atrybucji i na wypłaconych dotąd 16,9 mld euro z unijnej pożyczki 90 mld euro.",
+      "dla_polski": "Pośrednio: według autorów rozejm energetyczny bez weryfikacji nie zmniejsza ryzyka dla żeglugi na Morzu Czarnym ani presji na Ukrainę; OSW nie omawia wprost skutków dla Polski.",
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-13/jednostronny-rozejm-energetyczny-1693-dzien-wojny",
+          "data": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "tytul": "OSW (Filip Rudnik): licencja OFAC na rosyjski olej napędowy do 7.04.2027 jest zbyt mała, by zmienić rynek, ale może osłabić presję na rosyjskie rafinerie",
+      "autor": "OSW (Filip Rudnik), 12.10.2026",
+      "tagi": [
+        "usa",
+        "rosja",
+        "energia",
+        "sankcje"
+      ],
+      "tekst": "Autor opisuje licencję Departamentu Skarbu USA (OFAC) z 9.10 na transakcje z rosyjskim olejem napędowym, także importem do USA, po rozmowie Trump–Putin; Rosja częściowo zniosła lipcowy zakaz eksportu (300 tys. ton w październiku, 500 tys. w listopadzie), co przy globalnym niedoborze ponad 1 mln baryłek dziennie jest ilością niewielką. Ocenia, że Moskwa liczy, iż nacisk USA w sprawie ukraińskich uderzeń w rafinerie osłabi amerykańskie wsparcie wojskowe dla Ukrainy, a długa licencja może zwiększyć wpływy Rosji z eksportu.",
+      "dla_polski": "Pośrednio: skutek dla cen paliw w Europie i dla spójności polityki sankcyjnej; OSW nie analizuje wprost Polski.",
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-12/porozumienie-trump-putin-w-sprawie-dostaw-oleju-napedowego",
+          "data": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "tytul": "OSW (Konrad Popławski): budżet UE 2028–34 jest negocjowany w stronę większej centralizacji, a Polska pozostaje największym beneficjentem przy mniejszej autonomii wydatków",
+      "autor": "OSW (Konrad Popławski), 12.10.2026",
+      "tagi": [
+        "ue",
+        "gospodarka"
+      ],
+      "tekst": "Autor przypomina, że Komisja zaproponowała 1985 mld euro (1,26% DNB UE), a fundusze spójności i rolnictwa trafiłyby do planów partnerstwa wartych 771 mld euro, co obniża ich udział z 65% do 44%, przy wzroście filaru konkurencyjności i bezpieczeństwa z 15% do 30%. Dla Polski przewidziano ok. 123,3 mld euro (ok. 112,5 mld euro na spójność i rolnictwo wobec 105,5 mld obecnie), co przy skumulowanej inflacji ok. 23% oznacza realny spadek; kompromis prezydencji tnie budżet o ok. 2%, a Niemcy żądają 20%.",
+      "dla_polski": "Według autora Polska pozostanie największym beneficjentem w wartościach bezwzględnych, ale z mniejszą autonomią, warunkami praworządności i skutkami dochodów z ETS dla gospodarki opartej na węglu; temat na Radzie Europejskiej 15–16.10.",
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-10-12/negocjacje-wieloletnich-ram-finansowych-ue-w-kierunku-wiekszej",
+          "data": "2026-10-12"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-10-15",
+      "tekst": "15–16.10: Rada Europejska w Brukseli (m.in. WRF 2028–34, Ukraina, rozszerzenie); według Euronews możliwe spotkanie Zełenski–Magyar na marginesie.",
+      "tagi": [
+        "ue",
+        "ukraina",
+        "wegry"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE",
+          "url": "https://www.consilium.europa.eu/en/meetings/european-council/2026/10/15-16/",
+          "data": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-16",
+      "tekst": "16–17.10: Czechy – II tura wyborów do Senatu.",
+      "tagi": [
+        "czechy",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-14",
+      "tekst": "12–18.10: doroczne zgromadzenia MFW i Banku Światowego (Bangkok).",
+      "tagi": [
+        "mfw",
+        "gospodarka"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-10-25",
+      "tekst": "II tura wyborów prezydenckich w Brazylii (Flávio Bolsonaro – Lula)",
+      "tagi": [
+        "ameryki",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-25",
+      "tekst": "wybory parlamentarne w Serbii",
+      "tagi": [
+        "balkany",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-28",
+      "tekst": "27–28.10 FOMC (Fed), 28–29.10 posiedzenie EBC",
+      "tagi": [
+        "gospodarka"
+      ]
+    },
+    {
+      "data": "2026-11-01",
+      "tekst": "kolejne spotkanie państw OPEC+ w sprawie limitów wydobycia (na grudzień)",
+      "tagi": [
+        "energia"
+      ]
+    },
+    {
+      "data": "2026-11-03",
+      "tekst": "wybory połowy kadencji w USA",
+      "tagi": [
+        "usa",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-11-12",
+      "tekst": "Europejska Wspólnota Polityczna w Irlandii (12.11), 13.11 nieformalne spotkanie przywódców UE",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [
+      {
+        "tytul": "Jednostronny rozejm energetyczny. 1693 dzień wojny (Analizy OSW)",
+        "autor": "Krzysztof Nieczypor, Mateusz Goliszewski, Jacek Tarociński",
+        "data": "2026-10-13",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-13/jednostronny-rozejm-energetyczny-1693-dzien-wojny"
+      },
+      {
+        "tytul": "Własną drogą. Jak hartuje się tożsamość postkolonialnego Kazachstanu (Komentarze OSW)",
+        "autor": "Wojciech Górecki, Zuzanna Krzyżanowska",
+        "data": "2026-10-13",
+        "url": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-10-13/wlasna-droga-jak-hartuje-sie-tozsamosc-postkolonialnego"
+      },
+      {
+        "tytul": "Negocjacje wieloletnich ram finansowych UE – w kierunku większej centralizacji (Komentarze OSW)",
+        "autor": "Konrad Popławski",
+        "data": "2026-10-12",
+        "url": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-10-12/negocjacje-wieloletnich-ram-finansowych-ue-w-kierunku-wiekszej"
+      },
+      {
+        "tytul": "Porozumienie Trump–Putin w sprawie dostaw oleju napędowego (Analizy OSW)",
+        "autor": "Filip Rudnik",
+        "data": "2026-10-12",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-12/porozumienie-trump-putin-w-sprawie-dostaw-oleju-napedowego"
+      }
+    ],
+    "pism": []
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "prog": "dokumentacja",
+      "tekst": "Wielka Brytania: według Euronews dyrektor generalny MI5 Ken McCallum powiedział 13.10 w corocznym wystąpieniu, że Rosja pozostaje zagrożeniem państwowym numer jeden, a MI5 przeznacza na zagrożenia państwowe więcej środków niż w zimnej wojnie; premier Andy Burnham miał powiedzieć w Izbie Gmin 12.10, że incydent przy bazie RAF Fairford był „niemal na pewno” kierowany przez Korpus Strażników Rewolucji Iranu (policja antyterrorystyczna: siedmiu mężczyzn na zwolnieniu za kaucją). Tekst wystąpienia i wypowiedź Burnhama nie zostały otwarte.",
+      "sprawdzono": [
+        "Euronews 13.10",
+        "mi5.gov.uk (403)",
+        "wyszukiwarka: wystąpienie McCalluma 2026 (znaleziono tylko 2025)"
+      ]
+    },
+    {
+      "id": "n2",
+      "prog": "dokumentacja",
+      "tekst": "Francja: według Polsat News (za Politico) siły powietrzne przeprowadzają cztery razy w roku ćwiczenie „Poker” z ok. 50 samolotami symulującymi uderzenie jądrowe, co ma być sygnałem odstraszania wobec Rosji; brak komunikatu sił zbrojnych Francji i daty ćwiczenia.",
+      "sprawdzono": [
+        "Polsat News 13.10",
+        "Defence24 (opis ćwiczeń, bez daty i bez Politico)",
+        "wyszukiwarka: Politico/Virem – nie znaleziono"
+      ]
+    },
+    {
+      "id": "n3",
+      "prog": "dokumentacja",
+      "tekst": "USA–Ukraina: według anonimowych ukraińskich urzędników (Kyiv Independent za Polsat News) administracja USA groziła Kijowowi wstrzymaniem wymiany wywiadowczej i pomocy, jeśli Ukraina uderzy w rosyjską energetykę podczas rozejmu energetycznego ogłoszonego 11.10; Trump powiedział 13.10 tylko, że USA „pomagają i dzielą się danymi wywiadowczymi”, a Biały Dom nie wydał komunikatu.",
+      "sprawdzono": [
+        "Polsat News 13.10 (Reuters)",
+        "Kyiv Independent 13.10",
+        "komunikat Białego Domu – nie znaleziono"
+      ]
+    },
+    {
+      "id": "n4",
+      "prog": "dokumentacja",
+      "kalendarz": "2026-10-11",
+      "tekst": "Czechy: według AP (za ABC News, 11.10) po I turze wyborów do Senatu (9–10.10) 22 z 27 mandatów rozstrzygną II tury; ANO ma 13 kandydatów w II turze, a opozycyjne koalicje łącznie 26; żaden z pięciu zwycięzców w I turze nie jest z ANO. Wynik opiera się na jednym źródle (AP, powołujące się na Czeski Urząd Statystyczny); komunikatu ČSÚ nie otwarto.",
+      "sprawdzono": [
+        "AP (za ABC News) 11.10",
+        "ITV 11.10 (ten sam tekst AP)",
+        "ČSÚ – komunikatu nie znaleziono wyszukiwarką"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-10-12#n0",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Nie znaleziono drugiego niezależnego źródła z poziomów 1–2 dla odrzucenia przez Pieskowa 60-dniowego rozejmu; dostępne teksty dotyczą tylko oferty Zełenskiego z 11.10 (ABC, Reuters).",
+      "sprawdzono": [
+        "wyszukiwarka: Pieskow 60-day ceasefire",
+        "Moscow Times (wcześniejsze odrzucenia, nie z 12.10)",
+        "Polsat News 12.10 (nagłówek, poziom 3)"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-12#n4",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Wypowiedź szefa BfV Sinana Selena z 12.10 nie znaleziona w tekstach z poziomów 1–2.",
+      "sprawdzono": [
+        "wyszukiwarka (po niemiecku): Selen Verfassungsschutz 12.10",
+        "Polsat News 12.10 (nagłówek)",
+        "komunikat BfV – nie znaleziono"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-12#n5",
+      "wynik": "ODPADA",
+      "powod": "Zatrzymanie mężczyzny grożącego premierowi potwierdzają AP i ITV (11.10) oraz minister spraw wewnętrznych Marcin Kierwiński, ale bez zarzutów, tożsamości i związku z obcymi służbami nie spełnia kryteriów incydentu wynikającego z sytuacji międzynarodowej."
+    },
+    {
+      "dotyczy": "2026-10-12#n6",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Brak oficjalnego potwierdzenia daty 20.11 szczytu UE–Wielka Brytania; źródła wskazują tylko na szczyt „w listopadzie”. Wpis usunięto z kalendarza.",
+      "sprawdzono": [
+        "wyszukiwarka: UK-EU summit 20 November",
+        "Euronews 12.10",
+        "gov.uk/Rada Europejska – brak ogłoszenia"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-12#n9",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Nie znaleziono wywiadu Radosława Sikorskiego dla Financial Times o progu odpowiedzi NATO na ataki hybrydowe.",
+      "sprawdzono": [
+        "wyszukiwarka: Sikorski Financial Times wywiad",
+        "Interia 12.10 (relacja, poziom 3)",
+        "Financial Times – strona niedostępna dla narzędzi"
+      ]
+    }
+  ],
+  "do_sprawdzenia": [
+    "Rada Europejska 15–16.10 – WRF, Ukraina, spotkanie Magyar–Zełenski (data)",
+    "Konferencja akcesyjna Mołdawii 13.10 – potwierdzenie otwarcia klastrów (instytucje UE)",
+    "Bułgaria – tożsamość zatopionego statku (HS Dignity vs Azov Concord), sprawca, reakcja NATO",
+    "Rijad – zamknięte lotnisko King Khalid, 14 zabitych w weekend; udział USA (drugie źródło)",
+    "Starlink Wola Krobowska – zarzuty i przekazanie Muslum T. i Umita E. do Polski (Prokuratura Krajowa, MSWiA)",
+    "Czechy – II tura Senatu 16–17.10, wyniki I tury ČSÚ",
+    "Papież Leon XIV – przebieg operacji w klinice Gemelli (komunikat Biura Prasowego Stolicy Apostolskiej)",
+    "Norymberga – alarm dronowy 13.10 (policja); Rzym/Francja – ćwiczenie „Poker”",
+    "Czechy – komunikat ČSÚ z wynikami I tury (n4)",
+    "Jemen/Arabia Saudyjska – Trump rozważa przyłączenie USA do uderzeń (drugie źródło)",
+    "Komunikaty DO RSZ i SG z 13.10 – brak potwierdzenia, że incydentów nie było"
+  ],
+  "nota": "Wydanie nr 25, przygotowane 13.10.2026 ok. 20:00 CEST. Dział Świat Onetu jest zablokowany dla narzędzi; wyszukiwarka nie zwróciła nagłówków działu, więc kompletność względem Onetu nie jest potwierdzona. Kanał Polsat News Świat otwarto (najnowszy wpis 13.10, 19:26); kanału TVN24 nie próbowano; z kanałów do wydania trafiły 4 tematy, a z przedruków Reutersa 1 (przez Polsat News). Otwarto też kanały Euronews i Kyiv Independent oraz listę publikacji OSW (PISM: strona nie dała listy, brak tekstów z 3 dni). Wydanie jest krótsze niż norma (3 pozycje), bo wiele tematów ma jedno źródło i trafiło do „W obserwacji”. Nie weryfikowano: operacja papieża Leona XIV, alarm w Norymberdze, Huti–Rijad, nowe szczegóły sprawy Starlink. Kontrola niezależna (agent) wykryła błędy w z1–z3 (nazwa zatopionego statku, typ rakiet, szczegóły Równego i Charkowa, nazwisko ambasador) – poprawiono; agent nie miał dostępu do Reutersa, AP, Al Jazeery i PAP, więc kompletność względem nich i komunikatów DO RSZ/SG z 13.10 nie została potwierdzona (agent nie znalazł tam incydentów). Do sprawdzenia jutro: Jemen–Arabia Saudyjska (możliwy udział USA), Indie."
+}

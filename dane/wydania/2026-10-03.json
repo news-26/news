@@ -21,6 +21,8 @@
         "rosja",
         "hybryda"
       ],
+      "miejsce": "kijow",
+      "krotko": "Atak na Most Północny w Kijowie",
       "tekst": "Rosyjski atak rano 3.10 uszkodził w Kijowie **Most Północny** – według mera {{o:witalij-kliczko|Witalija Kliczki}} nawierzchnię i trakcję trolejbusową – i wstrzymał ruch; to trzeci dzień z rzędu uderzeń w mosty na Dnieprze po wielokrotnych trafieniach Mostu Południowego 1–2.10. Tego samego dnia MSZ Rosji ponowiło ostrzeżenie dla cudzoziemców, „w tym personelu misji dyplomatycznych”, przed pobytem w Ukrainie i zapowiedziało dalsze „zmasowane uderzenia odwetowe”.",
       "zrodla": [
         {
@@ -54,6 +56,8 @@
         "rosja",
         "ukraina"
       ],
+      "miejsce": "anenii-noi",
+      "krotko": "Rosyjskie drony i pociski spadają w Mołdawii",
       "tekst": "W nocy na 3.10 pięć rosyjskich środków napadu powietrznego – pociski {{p:banderol|Banderol}} i drony – **naruszyło przestrzeń powietrzną Mołdawii** i eksplodowało na jej terytorium, m.in. w rejonach Anenii Noi, Ștefan Vodă i Căușeni; ofiar nie zgłoszono. Prezydent {{o:maia-sandu|Maia Sandu}}: „Moskwa naraża życie ludzi w całej Europie i musi zostać powstrzymana”.",
       "zrodla": [
         {
@@ -76,6 +80,8 @@
         "lotwa",
         "wybory"
       ],
+      "miejsce": "ryga",
+      "krotko": "Exit poll: wygrywa Zjednoczona Lista",
       "tekst": "Według sondażu powyborczego SKDS (z RSU i agencją LETA) wybory do {{p:saeima|Saeimy}} Łotwy wygrywa **{{p:zjednoczona-lista|Zjednoczona Lista}}** premiera {{o:andris-kulbergs|Andrisa Kulbergsa}} z ok. 35% głosów, przed Łotwa Przede Wszystkim (11,3%), Postępowymi (ok. 11%) i Suwerenną Władzą (10,8%). Zjednoczona Lista nie ma samodzielnej większości i będzie potrzebowała koalicjanta.",
       "zrodla": [
         {
@@ -97,6 +103,8 @@
       "tagi": [
         "nordyckie"
       ],
+      "miejsce": "sztokholm",
+      "krotko": "Andersson znów próbuje stworzyć rząd",
       "etap": "W TOKU",
       "tekst": "Przewodniczący Riksdagu {{o:andreas-norlen|Andreas Norlén}} powierzył liderce socjaldemokratów {{o:magdalena-andersson|Magdalenie Andersson}} **wznowienie misji zbadania możliwości utworzenia rządu** od 5.10, z raportem do 12.10; potem Riksdag zagłosuje nad kandydatem na premiera (według SVT najwcześniej 14.10). Norlén ocenił, że „warunki parlamentarne nie zmieniły się od wyborów”, w których blok lewicowy zdobył więcej mandatów niż partie z Tidö.",
       "zrodla": [

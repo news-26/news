@@ -42,7 +42,7 @@ Filtr szumu: pozycja wchodzi, gdy zmienia decyzję, termin lub stan rzeczy i da 
 ## Układ
 
 - **W skrócie** – 3–5 zdań, w tym co najmniej jedno o najważniejszym wydarzeniu globalnym dnia, jeśli było.
-- **I. Zarys** – 8–14 pozycji w blokach: wojna i sankcje / Polska / instytucje i Europa / świat (zwykle 2–4) / gospodarka (tylko zdarzenia nadzwyczajne). Kolejność według wagi dla Polski. Każda pozycja: data zdarzenia, hashtagi, 1–2 zdania o zmianie, **wyróżnione słowo kluczowe**, etap decyzji, wszystkie źródła potwierdzające.
+- **I. Zarys** – 8–14 pozycji w blokach: wojna i sankcje / Polska / instytucje i Europa / świat (zwykle 2–4) / gospodarka (tylko zdarzenia nadzwyczajne). Kolejność według wagi dla Polski. Każda pozycja: data zdarzenia, hashtagi, miejsce zdarzenia z podpisem na mapę (`miejsce` + `krotko`, zasady w README – „Miejsce zdarzenia”; pomijamy przy wypowiedziach i analizach), 1–2 zdania o zmianie, **wyróżnione słowo kluczowe**, etap decyzji, wszystkie źródła potwierdzające.
 - **II. Analizy** – 3–5, każda z autorem oceny i „Dla Polski” (przy sprawach globalnych – skutek pośredni).
 - **III.** Kalendarz 7–10 dni, poza oknem, OSW i PISM z 3 dni (jeśli nic – wprost), „W obserwacji”, rozstrzygnięcia, nota.
 - Bez emoji.

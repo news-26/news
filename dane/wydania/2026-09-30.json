@@ -19,6 +19,8 @@
         "ukraina",
         "energia"
       ],
+      "miejsce": "kijow",
+      "krotko": "Zmasowany atak na energetykę Kijowa",
       "tekst": "Noc 29/30.09: według Sił Powietrznych Ukrainy Rosja użyła **188 dronów** (w tym 86 odrzutowych) oraz pocisków przeciwokrętowych 3M22 Cyrkon i P-800 Oniks i balistycznych Iskander-M i S-400; strącono lub zneutralizowano 160 celów, trafienia w 18 miejscach. Prezydent {{o:wolodymyr-zelenski|Wołodymyr Zełenski}}: głównym celem była **energetyka Kijowa** i obwodu. Zginęły co najmniej 4 osoby, w tym dziecko w Wyszhorodzie. Rosyjskie MO podało, że celem były węzły łączności i energetyka „wspierająca produkcję wojskową”.",
       "zrodla": [
         {
@@ -47,6 +49,8 @@
         "nato",
         "rosja"
       ],
+      "miejsce": "krolewiec",
+      "krotko": "Rosja grozi bronią jądrową w sprawie Królewca",
       "tekst": "Rosja przekazała NATO pisemne ostrzeżenie: jeśli Sojusz spróbuje odizolować **obwód królewiecki**, Moskwa użyje „całego arsenału, w tym broni jądrowej”, i zastrzega możliwość uderzeń na „ośrodki decyzyjne” państw członkowskich. Dmitrij Pieskow, rzecznik Kremla, potwierdził: dyplomaci „przypominają gorącym głowom w Europie” o rosyjskich dokumentach doktrynalnych. Rzeczniczka NATO Allison Hart potwierdziła otrzymanie wiadomości i odpowiedź Sojuszu: „stanowczo potępiamy groźbę użycia siły, w tym nieodpowiedzialną retorykę jądrową”. Podobne ostrzeżenie wydała ambasada Rosji w Irlandii.",
       "zrodla": [
         {
@@ -100,6 +104,8 @@
       "tagi": [
         "obronnosc-polski"
       ],
+      "miejsce": "warszawa",
+      "krotko": "Od 1.10 identyfikacja pozytywna w OPL",
       "tekst": "Wicepremier, minister obrony narodowej {{o:wladyslaw-kosiniak-kamysz|Władysław Kosiniak-Kamysz}}: procedury są gotowe, od 1.10 piloci i {{p:opl|obrona powietrzna}} stosują **identyfikację pozytywną** (radary, systemy elektroniczne, informacje m.in. z Ukrainy) zamiast identyfikacji wizualnej. Zmiana rozkazami wojskowymi, bez nowelizacji ustawy. Zamyka to zapowiedź wiceministra Cezarego Tomczyka z 24 i 28.09.",
       "zrodla": [
         {
@@ -121,6 +127,8 @@
       "tagi": [
         "rumunia"
       ],
+      "miejsce": "bukareszt",
+      "krotko": "Parlament Rumunii odrzuca rząd Mureșana",
       "tekst": "Rumunia: parlament **nie udzielił {{p:wotum-nieufnosci|wotum zaufania}} rządowi {{o:siegfried-muresan|Siegfrieda Mureșana}}** – 182 głosy za przy wymaganych 233 (15 przeciw); AUR zbojkotowała głosowanie, posłowie PSD byli obecni, ale nie głosowali. To trzecia nieudana próba od upadku rządu Ilie Bolojana w maju; według Agerpres art. 89 konstytucji pozwala teraz prezydentowi rozwiązać parlament. USR (Dominic Fritz) żąda przedterminowych wyborów, PSD (Sorin Grindeanu) domaga się rządu „z pełnią władzy” i stanowiska premiera dla siebie; prezydent Nicușor Dan ostrzegał, że przedterminowe wybory nie rozwiążą kryzysu.",
       "zrodla": [
         {
@@ -148,6 +156,8 @@
         "estonia",
         "hybryda"
       ],
+      "miejsce": "tallinn",
+      "krotko": "Estonia: Rosja podpaliła zakład Milrem",
       "tekst": "Estonia: premier {{o:kristen-michal|Kristen Michal}} i dyrektor generalny Policji Bezpieczeństwa (KAPO) Margo Palloson **przypisali rosyjskim służbom podpalenie zakładu Milrem Robotics** (producent bezzałogowych pojazdów lądowych) z 15.08; wezwano rosyjskiego chargé d’affaires.",
       "zrodla": [
         {
@@ -170,6 +180,8 @@
         "gospodarka",
         "energia"
       ],
+      "miejsce": "warszawa",
+      "krotko": "Inflacja w Polsce rośnie do 4,0%",
       "tekst": "GUS, szybki szacunek: **{{p:cpi|CPI}} we wrześniu 4,0% r/r** (0,7% m/m; sierpień 3,4%) – nieco poniżej konsensusu PAP Biznes (4,1%), ale wyraźnie powyżej celu NBP (2,5% ±1 pkt proc.). Paliwa +36,1% r/r, energia +4,9%, żywność −0,5%. Ropa Brent 30.09 ok. 98,5 USD (TradingEconomics), +8,8% w miesiącu.",
       "zrodla": [
         {

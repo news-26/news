@@ -216,22 +216,6 @@ a.osoba, a.pojecie { color: inherit; text-decoration: underline dotted var(--mor
     --k-ok: #DCE6F0; --k-niep: #E0AA62; --k-spr: #F08A80; --k-kal: #C9A227;
   }
 }
-.mapa-eu { margin: 10px 0 4px; }
-.europa { display: block; width: 100%; height: auto; background: var(--m-morze); border: 1px solid var(--linia); }
-.europa .morze { fill: var(--m-morze); }
-.europa path { stroke: var(--m-granica); stroke-width: 0.6; stroke-linejoin: round; }
-.europa .lad path, .europa .m0 path { fill: var(--m-lad); }
-.europa .m1 path { fill: var(--m1); }
-.europa .m2 path { fill: var(--m2); }
-.europa .m3 path { fill: var(--m3); }
-.europa .pl path { fill: var(--m-pl); stroke: var(--m-pl-linia); stroke-width: 1.4; }
-.europa a:hover path, .europa a:focus path { stroke: var(--atrament); stroke-width: 1.6; }
-.europa .lic circle { fill: var(--karta); stroke: var(--atrament); stroke-width: 1.2; }
-.europa .lic-pl circle { stroke: var(--m-pl-linia); }
-.europa .lic text { font: 700 14px/1 var(--sans); fill: var(--atrament); text-anchor: middle; pointer-events: none; }
-.europa .lic { pointer-events: none; }
-.m-leg i.m1 { background: var(--m1); } .m-leg i.m2 { background: var(--m2); } .m-leg i.m3 { background: var(--m3); }
-.m-leg i.pl { background: var(--m-pl); border-color: var(--m-pl-linia); }
 
 /* oś czasu wątku */
 .os-wrap { overflow-x: auto; margin: 8px 0 2px; background: var(--karta); border: 1px solid var(--linia); -webkit-overflow-scrolling: touch; }

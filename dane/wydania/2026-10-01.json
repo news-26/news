@@ -33,6 +33,8 @@
         "wielka-brytania",
         "rosja"
       ],
+      "miejsce": "londyn",
+      "krotko": "Nowe brytyjskie sankcje wobec Rosji",
       "etap": "PRZYJĘTE",
       "tekst": "Wielka Brytania wpisała na listę sankcji wobec Rosji **31 nowych celów**: 22 osoby, 1 podmiot i 8 statków. Wśród statków są gazowce przewożące rosyjski {{p:lng|LNG}} do państw trzecich, podmiotem jest spółka Novatek Gas and Power Asia (sektor energetyczny), a wśród osób – odpowiedzialni za przetrzymywanie i tortury Ukraińców oraz deportacje dzieci.",
       "zrodla": [
@@ -58,6 +60,8 @@
         "rosja",
         "bialorus"
       ],
+      "miejsce": "tallinn",
+      "krotko": "Estonia zakazuje tranzytu rosyjskiego zboża",
       "etap": "PRZYJĘTE",
       "tekst": "Rząd Estonii wprowadził **zakaz tranzytu zboża z Rosji i Białorusi**; obowiązuje od dnia po publikacji w dzienniku urzędowym Riigi Teataja. Minister spraw zagranicznych {{o:margus-tsahkna|Margus Tsahkna}}: Rosja atakuje porty Ukrainy, więc „cyniczne” byłoby pozwolić jej eksportować własne zboże przez porty estońskie.",
       "zrodla": [
@@ -82,6 +86,8 @@
         "nato",
         "nordyckie"
       ],
+      "miejsce": "rzeszow",
+      "krotko": "Szwedzkie Gripeny strzegą nieba nad Polską",
       "etap": "PRZYJĘTE",
       "tekst": "Rząd Szwecji zdecydował, że **myśliwce {{p:gripen|JAS 39 Gripen}}** od października wesprą natowską obronę powietrzną nad Polską i ochronę węzła logistycznego pomocy wojskowej dla Ukrainy; mają działać głównie ze Szwecji, z małą bazą wysuniętą w Polsce. Według SVT misja potrwa około dwóch miesięcy, a samoloty pochodzą ze skrzydła F 17 (Blekinge); liczby maszyn nie podano. Minister obrony {{o:pal-jonson|Pål Jonson}}: szwedzkie samoloty „przyczyniają się do obrony powietrznej nad Polską i do ochrony ważnych przepływów logistycznych z pomocą wojskową dla Ukrainy”.",
       "zrodla": [
@@ -104,6 +110,8 @@
       "tagi": [
         "ue"
       ],
+      "miejsce": "bruksela",
+      "krotko": "UE przyjmuje rozporządzenie o powrotach",
       "etap": "PRZYJĘTE",
       "tekst": "Rada UE ostatecznie przyjęła **rozporządzenie w sprawie powrotów** osób bez prawa pobytu w Unii. Wprowadza europejski nakaz powrotu (jego wzajemne uznawanie na razie dobrowolne), pozwala tworzyć {{p:huby-powrotowe|centra powrotowe}} w państwach trzecich (bez małoletnich bez opieki) i dłużej niż 24 miesiące zatrzymywać osoby stanowiące zagrożenie dla bezpieczeństwa. Przepisy o centrach obowiązują od wejścia w życie (dzień po publikacji w Dzienniku Urzędowym UE), pozostałe po roku.",
       "zrodla": [
@@ -121,6 +129,8 @@
       "tagi": [
         "czechy"
       ],
+      "miejsce": "praga",
+      "krotko": "Rząd Babiša przetrwał wotum nieufności",
       "tekst": "Czechy: rząd {{o:andrej-babis|Andreja Babiša}} (ANO, SPD, Motoristé) **przetrwał głosowanie nad {{p:wotum-nieufnosci|wotum nieufności}}** – za odwołaniem głosowało 83 posłów opozycji przy wymaganych 101 w 200-osobowej Izbie Poselskiej. Opozycja zarzucała rządowi m.in. deficyt 386 mld koron w projekcie budżetu na 2027 i konflikt interesów premiera.",
       "zrodla": [
         {

@@ -23,6 +23,8 @@
         "gospodarka",
         "usa"
       ],
+      "miejsce": "waszyngton",
+      "krotko": "Fed podnosi stopy do 3,75–4,00%",
       "tekst": "Fed podniósł 16.09 jednogłośnie stopy o 25 {{p:pb|pb}} do 3,75–4,00% – pierwsza podwyżka od 2023 r. Mediana prognoz {{p:fomc|FOMC}} wskazuje na jeszcze jedną podwyżkę w 2026 r. (średnia stopa 4,125%). Przewodniczący Kevin Warsh: inflacja jest „za wysoka od zbyt dawna”.",
       "zrodla": [
         {
@@ -47,6 +49,8 @@
         "sankcje",
         "litwa"
       ],
+      "miejsce": "minsk",
+      "krotko": "Mińsk uwalnia 25 więźniów, USA znoszą sankcje",
       "tekst": "Wysłannik USA John Coale ogłosił po wizycie w Mińsku uwolnienie 25 więźniów politycznych, w tym czterech dziennikarzy natychmiast deportowanych na Litwę; w zamian USA zniosły sankcje na dwie firmy: Lakokraska i Biełlesbumprom. Coale spodziewa się „setek” kolejnych uwolnień w ciągu ok. miesiąca. Al Jazeera nie wspomina o polskich obywatelach wśród uwolnionych.",
       "zrodla": [
         {
@@ -74,6 +78,8 @@
         "hybryda",
         "obronnosc-polski"
       ],
+      "miejsce": "rusinowo",
+      "krotko": "Dron z Rusinowa miał głowicę bojową",
       "etap": "W TOKU",
       "tekst": "Dron z Rusinowa to według prokuratury rosyjska **Gerbera 2** z bojową głowicą: płk Bartosz Okoniewski, zastępca prokuratora okręgowego do spraw wojskowych w Poznaniu, powiedział 16.09 (za Rzeczpospolitą), że miała głowicę odłamkowo-burzącą z zapalnikiem; oddzielono ją od drona i zneutralizowano na plaży (wg tej relacji – we wtorek 15.09 wieczorem). Postępowanie wszczął 16.09 Dział Wojskowy Prokuratury Rejonowej w Szczecinie (sprowadzenie zdarzenia zagrażającego życiu lub zdrowiu wielu osób w postaci wybuchu materiałów wybuchowych); dron zabezpieczono do badań.",
       "zrodla": [

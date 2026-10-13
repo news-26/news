@@ -227,20 +227,20 @@
       "nazwa": "UE",
       "grupa": "temat",
       "opis": "Unia Europejska: Rada, Komisja, obronność, budżet WRF 2028–2034.",
-      "stan": "10.10 prezydencja irlandzka zaproponowała WRF 2028–34 na 1622 mld euro (o 141 mld mniej niż wniosek Komisji); Rada Europejska 15–16.10.",
+      "stan": "13.10 UE otworzyła klastry 2 i 3 negocjacji z Ukrainą (4 z 6); Rada Europejska 15–16.10.",
       "stan_zrodla": [
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/10/eu-budget-ireland-pitches-141bn-cuts-to-appease-the-frugals",
-          "data": "2026-10-10"
+          "url": "https://www.euronews.com/2026/10/13/eu-advances-ukraine-accession-as-hungary-lifts-veto-paving-way-for-zelenskyy-magyar-meetin",
+          "data": "2026-10-13"
         },
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/new-compromise-eu-budget-maintains-ukraine-support-but-trims-help-for-eu-integration/",
-          "data": "2026-10-10"
+          "url": "https://kyivindependent.com/ukraine-advances-eu-membership-bid-with-4-of-6-integration-to-do-lists-unlocked/",
+          "data": "2026-10-13"
         }
       ],
-      "stan_data": "2026-10-10"
+      "stan_data": "2026-10-13"
     },
     {
       "id": "onz",
@@ -567,20 +567,15 @@
       "nazwa": "Bułgaria",
       "grupa": "miejsce",
       "opis": "Polityka Bułgarii i bezpieczeństwo jej strefy na Morzu Czarnym.",
-      "stan": "6.10 drony trafiły dwa statki tureckich armatorów w wyłącznej strefie ekonomicznej Bułgarii (Alfa Watan zatonął); premier Rumen Radew zwołał nadzwyczajne posiedzenie rządu, sprawcy nie wskazano.",
+      "stan": "13.10 drony trafiły kolejne dwa statki handlowe u wybrzeży Bułgarii (jeden zatonął, 11 marynarzy poszukiwanych); sprawców nie wskazano.",
       "stan_zrodla": [
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/06/drones-hit-two-ships-off-coast-of-bulgaria-as-government-calls-emergency-meeting",
-          "data": "2026-10-06"
-        },
-        {
-          "nazwa": "AP (za ABC News)",
-          "url": "https://abcnews.com/International/wireStory/bulgarian-pm-drone-attack-2-commercial-vessels-blatant-137025648",
-          "data": "2026-10-06"
+          "url": "https://www.euronews.com/2026/10/13/two-ships-hit-by-drones-in-black-sea-one-sank-bulgarias-pm-says",
+          "data": "2026-10-13"
         }
       ],
-      "stan_data": "2026-10-06"
+      "stan_data": "2026-10-13"
     }
   ]
 }

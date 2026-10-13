@@ -7,16 +7,64 @@
       "lat": 18.22
     },
     {
+      "id": "anenii-noi",
+      "nazwa": "Anenii Noi (Mołdawia)",
+      "lon": 29.22,
+      "lat": 46.88
+    },
+    {
+      "id": "bab-al-mandab",
+      "nazwa": "Bab al-Mandab",
+      "lon": 43.4,
+      "lat": 12.6
+    },
+    {
+      "id": "belgrad",
+      "nazwa": "Belgrad",
+      "lon": 20.46,
+      "lat": 44.82
+    },
+    {
+      "id": "berlin",
+      "nazwa": "Berlin",
+      "lon": 13.4,
+      "lat": 52.52
+    },
+    {
       "id": "biala-wse",
       "nazwa": "Morze Czarne (WSE Bułgarii)",
       "lon": 29.4,
       "lat": 42.9
     },
     {
+      "id": "braniewo",
+      "nazwa": "Braniewo",
+      "lon": 19.82,
+      "lat": 54.38
+    },
+    {
+      "id": "brasilia",
+      "nazwa": "Brasília",
+      "lon": -47.88,
+      "lat": -15.79
+    },
+    {
+      "id": "bratyslawa",
+      "nazwa": "Bratysława",
+      "lon": 17.11,
+      "lat": 48.15
+    },
+    {
       "id": "bruksela",
       "nazwa": "Bruksela",
       "lon": 4.35,
       "lat": 50.85
+    },
+    {
+      "id": "budapeszt",
+      "nazwa": "Budapeszt",
+      "lon": 19.04,
+      "lat": 47.5
     },
     {
       "id": "bukareszt",
@@ -31,22 +79,52 @@
       "lat": 26.6
     },
     {
+      "id": "darfur",
+      "nazwa": "Darfur",
+      "lon": 24.9,
+      "lat": 13.5
+    },
+    {
+      "id": "el-alamejn",
+      "nazwa": "Nowe El-Alamejn",
+      "lon": 28.95,
+      "lat": 30.83
+    },
+    {
+      "id": "fairford",
+      "nazwa": "RAF Fairford",
+      "lon": -1.79,
+      "lat": 51.68
+    },
+    {
       "id": "granica-lt-krolewiec",
       "nazwa": "Granica Litwy z obwodem królewieckim",
       "lon": 22.75,
       "lat": 54.65
     },
     {
-      "id": "granica-lv-by",
-      "nazwa": "Granica łotewsko-białoruska",
-      "lon": 27.6,
-      "lat": 55.85
+      "id": "grenlandia",
+      "nazwa": "Grenlandia",
+      "lon": -45.0,
+      "lat": 66.0
     },
     {
       "id": "irkuck",
       "nazwa": "Irkuck",
       "lon": 104.28,
       "lat": 52.29
+    },
+    {
+      "id": "jagodzin",
+      "nazwa": "Jagodzin (obwód wołyński)",
+      "lon": 23.8,
+      "lat": 51.18
+    },
+    {
+      "id": "jaroslaw",
+      "nazwa": "Jarosław",
+      "lon": 22.68,
+      "lat": 50.02
     },
     {
       "id": "jemen",
@@ -73,10 +151,28 @@
       "lat": 50.45
     },
     {
+      "id": "kopenhaga",
+      "nazwa": "Kopenhaga",
+      "lon": 12.57,
+      "lat": 55.68
+    },
+    {
+      "id": "kowno",
+      "nazwa": "Kowno",
+      "lon": 23.9,
+      "lat": 54.9
+    },
+    {
       "id": "kramatorsk",
       "nazwa": "Kramatorsk",
       "lon": 37.58,
       "lat": 48.72
+    },
+    {
+      "id": "krolewiec",
+      "nazwa": "Królewiec",
+      "lon": 20.51,
+      "lat": 54.71
     },
     {
       "id": "krzywy-rog",
@@ -91,6 +187,12 @@
       "lat": 33.85
     },
     {
+      "id": "londyn",
+      "nazwa": "Londyn",
+      "lon": -0.13,
+      "lat": 51.51
+    },
+    {
       "id": "lublin",
       "nazwa": "Lublin",
       "lon": 22.57,
@@ -103,16 +205,40 @@
       "lat": 49.61
     },
     {
+      "id": "madryt",
+      "nazwa": "Madryt",
+      "lon": -3.7,
+      "lat": 40.42
+    },
+    {
       "id": "manila",
       "nazwa": "Manila",
       "lon": 120.98,
       "lat": 14.6
     },
     {
+      "id": "mekele",
+      "nazwa": "Mekele",
+      "lon": 39.47,
+      "lat": 13.5
+    },
+    {
+      "id": "meklemburgia",
+      "nazwa": "Meklemburgia-Pomorze Przednie",
+      "lon": 12.4,
+      "lat": 53.7
+    },
+    {
       "id": "miami",
       "nazwa": "Miami",
       "lon": -80.19,
       "lat": 25.76
+    },
+    {
+      "id": "minsk",
+      "nazwa": "Mińsk",
+      "lon": 27.56,
+      "lat": 53.9
     },
     {
       "id": "moskwa",
@@ -145,10 +271,22 @@
       "lat": 59.91
     },
     {
+      "id": "paryz",
+      "nazwa": "Paryż",
+      "lon": 2.35,
+      "lat": 48.86
+    },
+    {
       "id": "penonome",
       "nazwa": "Penonomé (Panama)",
       "lon": -80.36,
       "lat": 8.52
+    },
+    {
+      "id": "praga",
+      "nazwa": "Praga",
+      "lon": 14.42,
+      "lat": 50.08
     },
     {
       "id": "prisztina",
@@ -175,6 +313,30 @@
       "lat": 24.71
     },
     {
+      "id": "rusinowo",
+      "nazwa": "Rusinowo",
+      "lon": 16.47,
+      "lat": 54.53
+    },
+    {
+      "id": "ryga",
+      "nazwa": "Ryga",
+      "lon": 24.11,
+      "lat": 56.95
+    },
+    {
+      "id": "rzeszow",
+      "nazwa": "Rzeszów",
+      "lon": 22.0,
+      "lat": 50.04
+    },
+    {
+      "id": "sarajewo",
+      "nazwa": "Sarajewo",
+      "lon": 18.41,
+      "lat": 43.86
+    },
+    {
       "id": "sasowo",
       "nazwa": "Sasowo",
       "lon": 41.92,
@@ -193,6 +355,24 @@
       "lat": 48.85
     },
     {
+      "id": "sztokholm",
+      "nazwa": "Sztokholm",
+      "lon": 18.07,
+      "lat": 59.33
+    },
+    {
+      "id": "tallinn",
+      "nazwa": "Tallinn",
+      "lon": 24.75,
+      "lat": 59.44
+    },
+    {
+      "id": "teheran",
+      "nazwa": "Teheran",
+      "lon": 51.39,
+      "lat": 35.69
+    },
+    {
       "id": "tigraj",
       "nazwa": "Tigraj",
       "lon": 39.47,
@@ -205,6 +385,12 @@
       "lat": 52.23
     },
     {
+      "id": "waszyngton",
+      "nazwa": "Waszyngton",
+      "lon": -77.04,
+      "lat": 38.9
+    },
+    {
       "id": "wilno",
       "nazwa": "Wilno",
       "lon": 25.28,
@@ -215,6 +401,12 @@
       "nazwa": "Wola Krobowska",
       "lon": 20.73,
       "lat": 51.72
+    },
+    {
+      "id": "wse-rumunii",
+      "nazwa": "Morze Czarne (WSE Rumunii)",
+      "lon": 29.4,
+      "lat": 44.4
     },
     {
       "id": "zaporoze",

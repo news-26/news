@@ -14,6 +14,7 @@ dane/
   tagi.json                 słownik hashtagów + „Na czym stoimy” dla każdego wątku
   osoby.json                karty „Kto jest kim” (funkcja ze źródłem i datą weryfikacji)
   pojecia.json              słownik pojęć
+  miejsca.json              słownik miejsc zdarzeń (id, nazwa, lon, lat) dla mapy
   terminy.json              kalendarium: najważniejsze wydarzenia międzynarodowe na pół roku naprzód (zakładka kalendarium.html + kalendarium.ics)
 notatki/
   rejestr-faktow.md         notatki robocze (statusy, rozbieżności) – edycja punktowa, nie trafia na stronę
@@ -48,6 +49,7 @@ Walidacja odrzuca wydanie, jeśli którakolwiek pozycja nie ma źródła z linki
   "zarys": [{
     "id": "z1", "blok": "wojna|polska|instytucje|swiat|gospodarka", "data": "2026-10-01",
     "tagi": ["krolewiec", "nato"], "etap": "PROPOZYCJA|ZAPOWIEDŹ|PRZYJĘTE|W TOKU (opcjonalnie)",
+    "miejsce": "kijow (opcjonalnie, id z dane/miejsca.json)", "krotko": "podpis na mapie do 60 znaków (wymagany przy miejscu)",
     "tekst": "1–2 zdania: co się stało i co się zmieniło.",
     "zrodla": [{"nazwa": "Reuters", "url": "https://…", "data": "2026-10-01"}]
   }],
@@ -140,7 +142,9 @@ Walidacja odrzuca źródło spoza rankingu (nowe trzeba świadomie dopisać z po
 
 `build.py` rysuje dwie grafiki SVG z tych samych danych (bez JavaScriptu poza przewinięciem osi do końca):
 
-- **Mapa Europy** — na stronie głównej (pozycje z 7 dni) i w każdym wydaniu. Kraj z hashtagiem-miejscem jest zabarwiony liczbą pozycji (1 / 2–3 / 4+) i prowadzi do strony wątku; Polska liczy pozycje z bloku „Polska”. Przypisanie hashtagów do krajów: `MAPA_TAGI` w `build.py`; miejsca poza kadrem (USA, Iran, Chiny) są wymienione pod mapą.
+- **Mapa wydarzeń** — w każdym wydaniu (`#mapa`) i na stronie głównej (pozycje z 7 dni, lista miejsc zwinięta). Punkt = miejsce zdarzenia z pola `miejsce` pozycji; większy punkt – więcej pozycji (1 / 2–3 / 4+), bliskie miejsca łączą się w jeden punkt. Kadr Europy, a pod nim mała mapa świata dla miejsc poza nim (przerywana ramka = kadr Europy). Numer punktu prowadzi do listy pod mapą: miejsce, a pod nim pozycje z datą i podpisem `krotko`, z odnośnikami. Pozycje bez miejsca nie trafiają na mapę (pod mapą jest ich liczba).
 - **Oś czasu wątku** — na każdej stronie `watki/<tag>.html`: kropka = pozycja w dniu zdarzenia (pełna – pozycja, czerwona – sprostowana), romb = termin z kalendarza; kliknięcie przenosi do pozycji na liście.
 
-Kontury (`narzedzia/europa.json`, Natural Earth 1:50m, Krym w granicach Ukrainy) generuje jednorazowo `narzedzia/mapa_dane.py`; nowy hashtag-miejsce w Europie wymaga dopisania do `MAPA_TAGI` (i ewentualnie etykiety w `mapa_dane.py`).
+**Miejsce zdarzenia** (pole `miejsce`, jedno na pozycję): tam, gdzie sprawa się dzieje – atak, posiedzenie, rozmowy, wybory (stolica), zatrzymanie; decyzja tworząca coś w terenie – to miejsce (misja UE w Libanie → Liban), inna decyzja instytucji – miejsce obrad lub siedziba. Wypowiedzi, wywiady, wpisy w sieci i analizy bez miejsca zdarzenia – bez pola. Nowe miejsce dopisz do `dane/miejsca.json` (`id` małymi literami z łącznikami, polska `nazwa`, `lon`/`lat` w stopniach); walidacja odrzuca nieznane miejsce i miejsce bez `krotko`.
+
+Kontury (`narzedzia/europa.json` – Natural Earth 1:50m, Krym w granicach Ukrainy; `narzedzia/swiat.json` – 1:110m, rzut Equal Earth) generuje jednorazowo `narzedzia/mapa_dane.py`; rzutowania punktów są w `narzedzia/rzuty.py`.

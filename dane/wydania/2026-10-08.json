@@ -21,9 +21,8 @@
         "rosja",
         "front"
       ],
-      "miejsca": [
-        "kramatorsk"
-      ],
+      "miejsce": "kramatorsk",
+      "krotko": "Bomba szybująca trafia autobusy w Kramatorsku",
       "etap": null,
       "tekst": "8.10 rosyjska **bomba szybująca** uderzyła w dwa autobusy (Kyiv Independent: minibusy) w Kramatorsku w obwodzie donieckim: według Państwowej Służby Ratunkowej zginęło co najmniej 33 osoby (Kyiv Independent), według prokuratury obwodu donieckiego i France 24 – co najmniej 30; rannych 18 (France 24) lub 22 (gubernator obwodu Wadym Fiłaszkin za Kyiv Independent). Prezydent {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} ostrzegł, że liczba ofiar może wzrosnąć; władze Kramatorska i Słowiańska wstrzymały transport publiczny. W Kijowie rosyjskie drony zabiły w nocy 7/8.10 cztery osoby (21 rannych), a w ciągu dnia kolejne ofiary; mer Witalij Kliczko podał do 19:21 19 rannych (13 hospitalizowanych); według Kijowskiej Miejskiej Administracji Wojskowej spadek napięcia zatrzymał metro i możliwe są przerwy w wodzie na prawym brzegu, a DTEK ogłosił awaryjne wyłączenia prądu w obwodzie kijowskim. Bilanse są wstępne i różnią się między źródłami.",
       "zrodla": [
@@ -51,9 +50,8 @@
       "tagi": [
         "inne"
       ],
-      "miejsca": [
-        "abha"
-      ],
+      "miejsce": "abha",
+      "krotko": "Huti atakują lotnisko w Abha",
       "etap": null,
       "tekst": "6.10 Huti zaatakowali lotnisko w Abha (według Euronews i Al Jazeery zginęły dwie kobiety, obywatelki Maroka i Algierii – France 24 podaje inne obywatelstwo jednej z ofiar; 28 rannych), a 7.10 lotnisko w Rijadzie (zginął obywatel Sudanu, 8 rannych). 8.10 rzecznik wojskowy Hutich Jahja Saree zapewnił o trafieniu pociskiem balistycznym w lotnisko króla Chalida w Rijadzie, a koalicja pod wodzą Arabii Saudyjskiej oświadczyła, że przechwyciła dwa pociski, i zapowiedziała, że ataki „nie pozostaną bez kary”. Siły rządowe Jemenu i koalicja prowadzą ofensywę wokół cieśniny Bab al-Mandab; ONZ szacuje liczbę przesiedlonych od lipca na ponad 200 tys. Euronews wskazuje, że **ataki na Arabię Saudyjską** zagrażają alternatywnym szlakom wobec cieśniny Ormuz. Deklaracje Hutich pozostają wersją jednej ze stron.",
       "zrodla": [
@@ -82,9 +80,8 @@
         "rosja",
         "onz"
       ],
-      "miejsca": [
-        "irkuck"
-      ],
+      "miejsce": "irkuck",
+      "krotko": "Rosja: w Irkucku nie ma dżumy",
       "etap": null,
       "tekst": "Po śmierci pracownicy irkuckiego instytutu badań nad dżumą Rosja przekazała 6.10 WHO, że w Irkucku nie ma przypadków dżumy, a testy osób z kontaktu są ujemne (Reuters za Korea Times); według Euronews i Al Jazeery oficjalna przyczyna zgonu to „zapalenie płuc o nieustalonej etiologii”. 7.10 rzecznik Kremla Dmitrij Pieskow ocenił, że większość doniesień o sprawie to „fałszywe informacje”, a szef WHO Tedros Adhanom Ghebreyesus poprosił Moskwę o wyjaśnienie doniesień o **drugiej pracownicy** z zapaleniem płuc (Al Jazeera). WHO ocenia ryzyko poza Rosją jako bardzo niskie (Euronews). Drugi przypadek jest niepotwierdzony; Trump powiedział 8.10 (Al Jazeera), że rozmawiał z Putinem, i nie sądzi, by chodziło o broń biologiczną; Rosja nie wyjaśniła, czy wykluczono dżumę płucną.",
       "zrodla": [
@@ -113,9 +110,8 @@
         "obronnosc-polski",
         "rosja"
       ],
-      "miejsca": [
-        "lublin"
-      ],
+      "miejsce": "lublin",
+      "krotko": "Umorzone śledztwo ws. dronów z 2025",
       "etap": null,
       "tekst": "Prokuratura Okręgowa w Lublinie **umorzyła śledztwo** w sprawie wlotu ponad 30 rosyjskich dronów typu Gerbera w nocy 9/10.09.2025 (spadły w 27 miejscowościach) z powodu niewykrycia sprawcy – potwierdził to „Rzeczpospolitej” rzecznik prokuratury Marcin Kozak (informacja z 8.10, daty decyzji nie podano). W części dronów były **karty SIM polskich operatorów**; to, czy je skradziono, czy kupiono nielegalnie, objęto klauzulą tajności, podobnie jak większość akt i uzasadnienie. Osobny wątek reakcji wojska umorzono, bo według prokuratury działało ono zgodnie z prawem.",
       "zrodla": [
@@ -170,9 +166,8 @@
         "ukraina",
         "front"
       ],
-      "miejsca": [
-        "sasowo"
-      ],
+      "miejsce": "sasowo",
+      "krotko": "Drony nad Sasowem, awaria Jandeksa",
       "etap": null,
       "tekst": "W nocy 7/8.10, po doniesieniach o ataku dronów na Sasowo w obwodzie riazańskim, **Jandeks** potwierdził „incydent” i problemy z zasilaniem w jednej ze stref swojej chmury (od ok. 1:31 czasu lokalnego) i zalecił klientom przeniesienie części usług; France 24 (za AFP) podaje o uszkodzeniu centrum danych. Ukraina oficjalnie się do ataku nie przyznała; nie wiadomo, czy celem było centrum danych, czy sąsiedni zakład obrabiarek Sasta, produkujący także dla przemysłu zbrojeniowego (Kyiv Independent).",
       "zrodla": [
@@ -198,10 +193,8 @@
         "lotwa",
         "bialorus"
       ],
-      "miejsca": [
-        "granica-lt-krolewiec",
-        "granica-lv-by"
-      ],
+      "miejsce": "granica-lt-krolewiec",
+      "krotko": "Litwa wysyła wojsko na granicę",
       "etap": "ZAPOWIEDŹ",
       "tekst": "Minister spraw wewnętrznych Litwy Martynas Katelynas poinformował 7.10, że zwrócił się do ministra obrony Robertasa Kaunasa o **skierowanie wojska do wsparcia straży granicznej na granicy z obwodem królewieckim**. Uzasadnił to oceną sytuacji bezpieczeństwa w regionie i doniesieniami o możliwej mobilizacji w Rosji; sytuację na granicy nazwał spokojną, a krok – prewencyjnym. W tym samym tygodniu na granicy łotewsko-białoruskiej zamaskowani, uzbrojeni ludzie eskortowali grupę co najmniej 20 migrantów i grozili żołnierzom, a później weszli na Łotwę, uszkodzili panel elektryczny i ukradli kamery. Resort obrony nie ogłosił jeszcze szczegółów (liczby żołnierzy, terminu).",
       "zrodla": [
@@ -225,9 +218,8 @@
         "ukraina",
         "inne"
       ],
-      "miejsca": [
-        "seul"
-      ],
+      "miejsce": "seul",
+      "krotko": "Korea odwołuje ambasadora w Ukrainie",
       "etap": null,
       "tekst": "Ministerstwo Spraw Zagranicznych Korei Południowej ogłosiło 8.10 **odwołanie ambasadora w Ukrainie** Parka Hee-changa, bez terminu powrotu. Seul zarzuca Kijowowi złamanie porozumienia o poufności: prezydent {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} ujawnił 23.09 na forum ONZ przekazanie Korei Płd. dwóch północnokoreańskich jeńców wojennych. Biuro prezydenta Ukrainy twierdzi, że takiego porozumienia nie było; szef MSZ Ukrainy Andrij Sybiha przeprosił, ale szef MSZ Korei Płd. Cho Hyun uznał 6.10 przeprosiny za niewystarczające i zapowiedział „stanowcze środki”.",
       "zrodla": [

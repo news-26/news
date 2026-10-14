@@ -1,0 +1,288 @@
+{
+  "nr": 26,
+  "data": "2026-10-14",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Rosja uderzyła wieczorem 13.10 pociskami balistycznymi w Kijów, w tym w elektrociepłownię CHP-4; zginęły co najmniej dwie osoby, a {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} oświadczył, że Ukraina znów nie dostała ostrzeżenia od partnerów, podczas gdy {{o:donald-trump|Donald Trump}} twierdzi, że USA nadal dzielą się danymi wywiadowczymi.",
+    "Zełenski był 14.10 w Londynie: przyjął go król Karol III, a premier Andy Burnham ogłosił przyspieszenie dostaw rakiet LMM, pakiet obrony powietrznej za 45 mln funtów i przygotowanie kolejnych sankcji wobec Rosji.",
+    "Biuro Prasowe Stolicy Apostolskiej potwierdziło, że u papieża Leona XIV rozpoznano gruczolakoraka płuca; operacja usunięcia dolnego płata prawego płuca przebiegła bez powikłań, a pobyt w szpitalu ma trwać ok. tygodnia."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-10-13",
+      "tagi": [
+        "ukraina",
+        "front",
+        "rosja",
+        "energia",
+        "usa"
+      ],
+      "miejsce": "kijow",
+      "krotko": "Rosja uderza rakietami balistycznymi w Kijów, trafiona CHP-4",
+      "etap": "W TOKU",
+      "tekst": "Rosja uderzyła wieczorem 13.10 pociskami balistycznymi w Kijów; według Euronews głównym celem była elektrociepłownia CHP-4, którą Zełenski potwierdził jako trafioną, a burmistrz Witalij Kliczko podał, że zginęły co najmniej dwie osoby, a ok. 20 zostało rannych. Zełenski napisał, że Ukraina **znów nie dostała ostrzeżenia od partnerów**, a jej systemy wykryły pociski dopiero w pobliżu miasta; według AP wysoki urzędnik ukraiński określił brak danych jako „awarię”, być może związaną z pogodą, a nie decyzję polityczną. Trump oświadczył, że USA nie przestały dzielić się danymi wywiadowczymi z Ukrainą. Następstwo: uderzenie nastąpiło po ogłoszonym przez Trumpa w weekend „rozejmie energetycznym”, którego Rosja nie potwierdziła; Zełenski stwierdził, że Rosjanie nie uważają się za związanych jego słowami.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/14/russian-missile-hits-kyiv-power-plant-with-no-early-warning-from-allies-zelensky-says",
+          "data": "2026-10-14"
+        },
+        {
+          "nazwa": "AP (za ABC News)",
+          "url": "https://abcnews.com/International/wireStory/zelenskyy-ukraine-received-intelligence-partners-incoming-missile-strike-137219773",
+          "data": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-10-14",
+      "tagi": [
+        "ukraina",
+        "wielka-brytania",
+        "uzbrojenie",
+        "sankcje",
+        "usa"
+      ],
+      "miejsce": "londyn",
+      "krotko": "Zełenski w Londynie: rakiety LMM i sankcje",
+      "etap": "W TOKU",
+      "tekst": "Zełenski spotkał się 14.10 w Londynie z królem Karolem III w Pałacu Buckingham, a następnie z premierem Andym Burnhamem na Downing Street, gdzie otrzymał wojskową asystę honorową – według Kyiv Independent pierwszą dla zagranicznego przywódcy. Burnham ogłosił pakiet rakiet obrony powietrznej wartości 45 mln funtów i przyspieszenie dostaw lekkich wielozadaniowych pocisków **LMM** używanych przez Ukrainę przeciw dronom odrzutowym (10 mln funtów na pilne potrzeby zimowe) oraz polecił rządowi przygotować dalszą pomoc wojskową i finansową i nowe sankcje wobec Rosji. Według AFP Burnham zapowiedział, że będzie chciał „naprawić mosty” między Kijowem a Waszyngtonem po krytyce Zełenskiego przez Trumpa. Następstwo: pakiet rakiet jest ogłoszony, a nowych sankcji brytyjskich jeszcze nie ogłoszono – rząd ma je dopiero przygotować.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-arrives-in-uk-as-london-vows-to-speed-up-anti-drone-missile-deliveries/",
+          "data": "2026-10-14"
+        },
+        {
+          "nazwa": "AFP (za Arab News)",
+          "url": "https://www.arabnews.com/world/uk-pm-burnham-looks-to-repair-bridges-between-trump-zelensky-3006309",
+          "data": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "instytucje",
+      "data": "2026-10-13",
+      "tagi": [
+        "inne"
+      ],
+      "etap": "W TOKU",
+      "tekst": "Biuro Prasowe Stolicy Apostolskiej poinformowało 13.10, że w trakcie operacji w klinice Gemelli w Rzymie badanie śródoperacyjne **potwierdziło rozpoznanie gruczolakoraka płuca** u papieża Leona XIV; chirurdzy pod kierunkiem prof. Stefano Margaritory usunęli dolny płat prawego płuca techniką wideotorakoskopową, bez powikłań. W komunikacie z 14.10 Biuro podało, że noc po operacji minęła spokojnie, a papież wrócił do pokoju na dziesiątym piętrze; planowany pobyt w szpitalu – ok. tygodnia – nie zmienił się, a wyniki badań usuniętej tkanki mają być znane w ciągu kilku dni. Następstwo: dalsze leczenie zależy od tych wyników i nie zostało ogłoszone.",
+      "zrodla": [
+        {
+          "nazwa": "Biuro Prasowe Stolicy Apostolskiej",
+          "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-gemelli-hospital-holy-see-press-office-update-14-0ctobe.html",
+          "data": "2026-10-14"
+        },
+        {
+          "nazwa": "ABC News",
+          "url": "https://abcnews.com/International/pope-leo-departs-vatican-ahead-operation-remove-nodule/story?id=137216472",
+          "data": "2026-10-13"
+        }
+      ]
+    }
+  ],
+  "analizy": [],
+  "kalendarz": [
+    {
+      "data": "2026-10-14",
+      "tekst": "12–18.10: doroczne zgromadzenia MFW i Banku Światowego (Bangkok).",
+      "tagi": [
+        "mfw",
+        "gospodarka"
+      ]
+    },
+    {
+      "data": "2026-10-15",
+      "tekst": "15–16.10: Rada Europejska w Brukseli (m.in. WRF 2028–34, Ukraina, rozszerzenie); według Euronews możliwe spotkanie Zełenski–Magyar na marginesie.",
+      "tagi": [
+        "ue",
+        "ukraina",
+        "wegry"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE",
+          "url": "https://www.consilium.europa.eu/en/meetings/european-council/2026/10/15-16/",
+          "data": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-16",
+      "tekst": "16–17.10: Czechy – II tura wyborów do Senatu.",
+      "tagi": [
+        "czechy",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-24",
+      "tekst": "24.10: drugi szczyt UE – Rada Współpracy Zatoki Perskiej (Arabia Saudyjska).",
+      "tagi": [
+        "ue"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-10-25",
+      "tekst": "II tura wyborów prezydenckich w Brazylii (Flávio Bolsonaro – Lula)",
+      "tagi": [
+        "ameryki",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-25",
+      "tekst": "wybory parlamentarne w Serbii",
+      "tagi": [
+        "balkany",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-28",
+      "tekst": "27–28.10 FOMC (Fed), 28–29.10 posiedzenie EBC",
+      "tagi": [
+        "gospodarka"
+      ]
+    },
+    {
+      "data": "2026-11-01",
+      "tekst": "kolejne spotkanie państw OPEC+ w sprawie limitów wydobycia (na grudzień)",
+      "tagi": [
+        "energia"
+      ]
+    },
+    {
+      "data": "2026-11-03",
+      "tekst": "wybory połowy kadencji w USA",
+      "tagi": [
+        "usa",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-11-12",
+      "tekst": "Europejska Wspólnota Polityczna w Irlandii (12.11), 13.11 nieformalne spotkanie przywódców UE",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [],
+    "pism": []
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "prog": "dokumentacja",
+      "tekst": "Jemen–Arabia Saudyjska: według Reutersa (za Times of Israel, 10.10) Huti uderzyli 8.10 dwoma pociskami manewrującymi w lotnisko King Khalid w Rijadzie (władze saudyjskie: trzech zabitych, uszkodzony samolot Saudii); koalicja pod wodzą Arabii Saudyjskiej zniszczyła trzy wyrzutnie. Kolejne uderzenie w weekend, a liczby ofiar różnią się w doniesieniach. Poziom 1 lub drugie źródło z poziomu 2 niepotwierdzone.",
+      "sprawdzono": [
+        "Reuters (za Times of Israel) 10.10",
+        "Ahram/AFP – 403",
+        "wyszukiwarka: Riyadh airport Houthi (The National, Al-Monitor – poziom 3)"
+      ]
+    },
+    {
+      "id": "n2",
+      "prog": "dokumentacja",
+      "tekst": "Polska: według Reutersa (za Internazionale, 12.10) minister spraw wewnętrznych Marcin Kierwiński i minister koordynator służb Tomasz Siemoniak poinformowali, że w Niemczech zatrzymano dwóch obywateli Turcji podejrzanych o podpalenie stacji Starlink w Woli Krobowskiej; mają usłyszeć w Polsce zarzuty sabotażu na zlecenie obcego wywiadu. Zarzutów i przekazania nie potwierdza komunikat Prokuratury Krajowej ani MSWiA.",
+      "sprawdzono": [
+        "Reuters (za Internazionale) 12.10",
+        "wyszukiwarka: Prokuratura Krajowa zarzuty Starlink (brak komunikatu z października)",
+        "Cyprus Mail (ten sam tekst Reutersa)"
+      ]
+    },
+    {
+      "id": "n3",
+      "prog": "dokumentacja",
+      "tekst": "USA–Rosja: według doniesień (m.in. tmj4/Scripps) Trump ogłosił po rozmowie z Putinem stopniowe uwolnienie prawie 5 mln ton rosyjskiego diesla, a siedmioro senatorów obu partii (m.in. Shaheen, Collins, Murkowski) uznało to za sprzeczne z ustawą z 2022 r. i żąda cofnięcia decyzji. Nie otwarto komunikatu Białego Domu ani tekstu agencji z poziomu 2.",
+      "sprawdzono": [
+        "tmj4.com (Scripps)",
+        "wyszukiwarka: Senate Russian oil Trump (dtnext, Siasat – poziom 4)",
+        "Polsat News 14.10 (nagłówek)"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-10-13#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Nie znaleziono tekstu ani relacji z wystąpienia szefa MI5 z 13.10.2026; wyszukiwarka zwraca tylko wystąpienie z października 2025.",
+      "sprawdzono": [
+        "wyszukiwarka: McCallum speech October 2026",
+        "Polsat News 14.10 (nagłówek o MI5, poziom 3)",
+        "mi5.gov.uk – zablokowane już 13.10"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-13#n2",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Nie znaleziono tekstu Politico ani komunikatu sił powietrznych o ćwiczeniu z 13.10; wyszukiwarka potwierdza tylko wcześniejsze edycje „Poker” (m.in. marzec 2026) i ich cykliczność.",
+      "sprawdzono": [
+        "wyszukiwarka: Poker exercise Politico October 2026",
+        "Polsat News 13.10 (nagłówek)",
+        "defence24.com (wcześniejsze ćwiczenie)"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-13#n3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Groźba wstrzymania wymiany wywiadowczej opiera się na anonimowych urzędnikach; AFP i AP z 14.10 podają tylko oskarżenia Kijowa o brak ostrzeżeń, odpowiedź urzędnika USA, że polityka „się nie zmieniła”, i słowa Trumpa o dalszym dzieleniu się danymi.",
+      "sprawdzono": [
+        "AFP (za Arab News) 14.10",
+        "AP (za ABC News) 14.10",
+        "Euronews 14.10"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-13#n4",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Komunikatu Czeskiego Urzędu Statystycznego z wynikami I tury nie znaleziono; wyszukiwarka zwraca tylko tekst AP z 11.10.",
+      "sprawdzono": [
+        "wyszukiwarka: ČSÚ Senate first round 2026",
+        "AP (za ABC News) 11.10",
+        "ITV 11.10 (ten sam tekst AP)"
+      ]
+    }
+  ],
+  "do_sprawdzenia": [
+    "Rada Europejska 15–16.10 – WRF, Ukraina, spotkanie Magyar–Zełenski",
+    "Kijów – CHP-4: skutki uderzenia, liczba rakiet, wyjaśnienie braku ostrzeżeń (USA/Ukraina)",
+    "USA – diesel z Rosji: odpowiedź Białego Domu, projekt Fitzpatricka",
+    "Jemen/Rijad – komunikaty Arabii Saudyjskiej, udział USA lub Izraela",
+    "Starlink Wola Krobowska – zarzuty i przekazanie dwóch Turków (Prokuratura Krajowa, MSWiA)",
+    "Bułgaria – tożsamość zatopionego statku, sprawca, reakcja NATO",
+    "Czechy – II tura Senatu 16–17.10, komunikat ČSÚ",
+    "Papież Leon XIV – wyniki badań usuniętej tkanki",
+    "Cyberatak na chłodnie francuskich supermarketów (11–12.10) – komunikat prokuratury w Paryżu i ANSSI",
+    "Mołdawia – które klastry otwarto w UE (13.10 niepotwierdzone)",
+    "Komunikaty DO RSZ, SG, MON z 13–14.10 – brak potwierdzenia, że incydentów nie było"
+  ],
+  "nota": "Wydanie nr 26, przygotowane 14.10.2026 ok. 20:00 CEST, krótkie (3 pozycje): wiele tematów ma jedno źródło i trafiło do „W obserwacji”. Dział Świat Onetu jest zablokowany dla narzędzi, a wyszukiwarka nie zwróciła jego nagłówków, więc kompletność względem Onetu nie jest potwierdzona. Kanał Polsat News Świat otwarto (najnowszy wpis 14.10, 19:46); TVN24 i pozostałych kanałów RSS nie próbowano. Z kanału Polsat News do wydania trafiły 3 tematy (Kijów, Londyn, papież), a 3 do „W obserwacji”; przedruków Reutersa wykorzystano 2 (przez Times of Israel i Internazionale). Nie sprawdzono komunikatów DO RSZ, SG i MON (wyszukiwarka nie zwróciła komunikatów z 14.10). OSW i PISM: nie znaleziono publikacji z ostatnich 3 dni, sekcja analiz jest pusta. Nie weryfikowano: cyberatak na francuskie supermarkety (Reuters, AFP, BleepingComputer – jeden temat, brak komunikatu prokuratury), Bułgaria (bez nowych ustaleń), Netanjahu 13.10, Łukaszenka–Łotwa, Starlink na Ukrainie (CNN 451). Kontrola niezależna (agent) potwierdziła liczby i nazwy w trzech pozycjach; poprawiono podpis z1 i etap z2. Agent nie znalazł w wyszukiwarce nagłówków Reutersa, AP, Al Jazeery i PAP ani komunikatów DO RSZ, MON, SG, ŻW i prokuratury z 13–14.10, więc kompletność względem nich nie jest potwierdzona."
+}

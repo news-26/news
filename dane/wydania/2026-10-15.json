@@ -4,8 +4,9 @@
   "godzina": "20:00",
   "typ": "dzienne",
   "w_skrocie": [
-    "W Brukseli trwa **Rada Europejska** (15–16.10): według Euronews przywódcy dzielą się na „frugalnych” i „Przyjaciół Spójności” w sporze o {{p:wrf}} 2028–34, a Wołodymyr Zełenski dołącza do obrad w piątek. U ujścia Dunaju przy wybrzeżu Rumunii zapaliły się dwa tankowce; **siedmiu marynarzy z Wine Trader zaginęło**, prezydent Nicușor Dan mówi o uderzeniu dwóch dronów i nie wskazuje sprawcy.",
-    "Wydanie jest krótkie: pozostałe tematy dnia mają jedno źródło albo źródła poniżej progu i trafiły do „W obserwacji”."
+    "W Brukseli trwa **Rada Europejska** (15–16.10): według Euronews przywódcy dzielą się na „frugalnych” i „Przyjaciół Spójności” w sporze o {{p:wrf}} 2028–34, a Wołodymyr Zełenski dołącza do obrad w piątek. U ujścia Dunaju przy wybrzeżu Rumunii zapaliły się dwa tankowce; **siedmiu (według późniejszej depeszy Reutersa ośmiu) marynarzy z Wine Trader zaginęło**, prezydent Nicușor Dan mówi o uderzeniu dwóch dronów i nie wskazuje sprawcy.",
+    "SpaceX ograniczył ukraińskim dronom dostęp do **Starshield**; Elon Musk twierdzi, że o limitach decydują władze USA, a Radosław Sikorski zapytał go, czy „gra polityką” (Polska opłaca Ukrainie abonamenty Starlinka). Ukraina wznowiła uderzenia w rosyjskie rafinerie (Riazań).",
+    "USA już 9.10 dopuściły licencją OFAC handel **rosyjskim olejem napędowym** do kwietnia 2027 r., a Rosja częściowo zniosła zakaz jego eksportu."
   ],
   "korekty": [],
   "zarys": [
@@ -49,7 +50,7 @@
       "miejsce": "wse-rumunii",
       "krotko": "Dwa tankowce w ogniu przy ujściu Dunaju, zaginieni marynarze",
       "etap": "W TOKU",
-      "tekst": "Tankowiec Wine Trader (bandera San Marino) zgłosił 15.10 ok. 7:00 pożar ok. 13 mil morskich na południowy wschód od Sulina – według rumuńskiej Administracji Morskiej zaginęło siedmiu marynarzy, pięciu uratowano (Reuters podaje, że statek był ok. mili poza wodami terytorialnymi); dzień wcześniej zapalił się Yara J (Komory), którego załoga ugasiła pożar. Prezydent Nicușor Dan powiedział na szczycie UE, że uderzyły dwa drony i że Rumunia odpowie, nie wskazał jednak sprawcy; minister obrony Radu Miruță zapowiedział śledztwo. Następstwo: **bezpieczeństwo żeglugi na Morzu Czarnym** to temat szczytu UE (Rumunia i Bułgaria mogą zaproponować wspólne wnioski), a premier Bułgarii Rumen Radev przekazał parlamentowi, że według Sofii za atakami na cztery statki w tygodniu najpewniej stoi Rosja, której nie może udowodnić.",
+      "tekst": "Tankowiec Wine Trader (bandera San Marino) zgłosił 15.10 ok. 7:00 pożar ok. 13 mil morskich na południowy wschód od Sulina – według rumuńskiej Administracji Morskiej zaginęło siedmiu marynarzy, pięciu uratowano (późniejsza depesza Reutersa: ośmiu zaginionych z 12-osobowej załogi, oba statki na kotwicy w rumuńskich wodach terytorialnych przy kanale Sulina); dzień wcześniej zapalił się Yara J (Komory), którego załoga ugasiła pożar. Według Reutersa rumuńscy urzędnicy mówią, że rosyjskie drony wleciały w przestrzeń powietrzną Rumunii, ale nie łączą z nimi wprost pożarów; prezydent {{o:nicusor-dan|Nicușor Dan}} powiedział na szczycie UE, że uderzyły dwa drony i że Rumunia odpowie, nie wskazał jednak sprawcy; minister obrony Radu Miruță zapowiedział śledztwo. Następstwo: **bezpieczeństwo żeglugi na Morzu Czarnym** to temat szczytu UE (według Euronews Rumunia i Bułgaria mogą zaproponować wspólne wnioski), a premier Bułgarii Rumen Radev przekazał 14.10 parlamentowi (według Euronews), że według Sofii za atakami na cztery statki w tygodniu najpewniej stoi Rosja, której nie może udowodnić. Według Reutersa w atakach dronów na co najmniej pięć innych statków przy wybrzeżach Rumunii i Bułgarii w ciągu 10 dni zginęło lub zaginęło co najmniej 23 marynarzy – tamte ataki miały miejsce tuż poza wodami terytorialnymi NATO.",
       "zrodla": [
         {
           "nazwa": "Euronews",
@@ -60,11 +61,133 @@
           "nazwa": "Reuters (za Global News)",
           "url": "https://globalnews.ca/news/12103450/ships-ablaze-romania-black-sea",
           "data": "2026-10-15"
+        },
+        {
+          "nazwa": "Reuters (za Internazionale)",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/15/two-ships-ablaze-in-romanian-black-sea-waters-8-sailors-missing",
+          "data": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "wojna",
+      "data": "2026-10-14",
+      "tagi": [
+        "ukraina",
+        "usa",
+        "dyplomacja-rp",
+        "front",
+        "energia"
+      ],
+      "etap": "W TOKU",
+      "tekst": "SpaceX ograniczył w nocy 13/14.10 działanie **Starshield** (wojskowej wersji Starlinka) na Ukrainie: według doradcy prezydenta Serhija Beskrestnowa terminale przestają działać powyżej ok. 160 km/h, co według ukraińskich jednostek zakłóciło misje dronów uderzeniowych i przechwytujących (OSW, Reuters). {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} nazwał decyzję wielkim błędem; według Reutersa szef SpaceX Elon Musk napisał na X, że o limitach prędkości i użycia decyduje armia USA, a ostatecznie prezydent, a wicepremier i szef MSZ {{o:radoslaw-sikorski|Radosław Sikorski}} zapytał go, czy „gra polityką” – Polska opłaca Ukrainie abonamenty Starlinka. Według źródeł Reutersa USA zagroziły wstrzymaniem ostrzeżeń wywiadowczych przed rosyjskimi rakietami, jeśli Kijów nie przestanie uderzać w rafinerie; {{o:donald-trump|Donald Trump}} mówił 13.10, że wymiana danych trwa. Następstwo: 15.10 drony zaatakowały rafinerię Rosniefti w Riazaniu (ok. 5% rosyjskiego przerobu ropy; pożar potwierdził gubernator Paweł Małkow) – według Reutersa pierwsze ukraińskie uderzenie w rosyjską energetykę od ogłoszonego przez Trumpa i niepotwierdzonego przez strony „rozejmu energetycznego”.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (za Internazionale)",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/15/ukraine-accuses-spacex-of-crippling-drone-missions-as-ties-with-us-worsen",
+          "data": "2026-10-15"
+        },
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-14/ukrainskie-problemy-z-danymi-wywiadowczymi-usa-i-systemem-starshield",
+          "data": "2026-10-14"
+        },
+        {
+          "nazwa": "Reuters (za Internazionale)",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/15/drone-attack-causes-fire-at-russia-s-ryazan-refinery-regional-governor-says",
+          "data": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "wojna",
+      "data": "2026-10-09",
+      "tagi": [
+        "usa",
+        "rosja",
+        "sankcje",
+        "energia"
+      ],
+      "miejsce": "waszyngton",
+      "krotko": "USA zezwalają na handel rosyjskim olejem napędowym",
+      "etap": "PRZYJĘTE",
+      "tekst": "Biuro Kontroli Aktywów Zagranicznych (OFAC) Departamentu Skarbu USA wydało 9.10 **licencję generalną** zezwalającą na sprzedaż, dostawy i import – także do USA – **rosyjskiego oleju napędowego**, objętego dotąd sankcjami; licencja obowiązuje do 7.04.2027 i nie obejmuje rozliczeń z kont Banku Rosji, Funduszu Dobrobytu Narodowego ani rosyjskiego Ministerstwa Finansów. Następnego dnia rosyjski rząd częściowo zniósł zakaz eksportu diesla, dopuszczając sprzedaż za granicę 500 tys. ton (Kyiv Independent za komunikatem rządu). Następstwo: według Reutersa Trump jednocześnie wezwał Kijów do zaprzestania uderzeń w rosyjskie rafinerie; UE utrzymuje embargo na rosyjskie produkty naftowe.",
+      "zrodla": [
+        {
+          "nazwa": "Administracja USA (OFAC)",
+          "url": "https://ofac.treasury.gov/media/937216/download",
+          "data": "2026-10-09"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russia-partially-lifts-ban-on-diesel-exports-after-trump-putin-deal/",
+          "data": "2026-10-10"
+        },
+        {
+          "nazwa": "Reuters (za Internazionale)",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/15/ukraine-accuses-spacex-of-crippling-drone-missions-as-ties-with-us-worsen",
+          "data": "2026-10-15"
         }
       ]
     }
   ],
-  "analizy": [],
+  "analizy": [
+    {
+      "tytul": "OSW: USA raczej nie wstrzymały danych wywiadowczych, ale limit Starshield osłabia ukraińskie uderzenia",
+      "autor": "OSW (Andrzej Wilk), 14.10.2026",
+      "tagi": [
+        "ukraina",
+        "usa",
+        "front"
+      ],
+      "tekst": "Według OSW nie ma potwierdzenia, że USA przestały przekazywać Ukrainie dane o startach rakiet – przypadki braku ostrzeżeń zdarzały się wcześniej (pogoda, brak pokrycia satelitarnego), a szef MSZ Andrij Sybiha zaprzeczył wstrzymaniu. Rzeczywistym problemem jest ograniczenie Starshield: OSW uważa, że Ukraina mogła przekroczyć uzgodniony zakres użycia (uderzenia w głąb Rosji), a nagłe odcięcie zmniejsza jej zdolność do ataków średniego zasięgu i utrudnia logistykę. Tezę, że limit osłabił obronę przed Shahedami, OSW uznaje za przesadzoną – większość dronów przechwytujących korzysta ze zwykłego Starlinka.",
+      "dla_polski": "Polska finansuje ukraińskie abonamenty Starlinka, ale nie ma wpływu na wojskową wersję systemu kontrolowaną przez USA – spór pokazuje, jak zależność od jednego amerykańskiego dostawcy łączności może zostać użyta jako dźwignia polityczna, także wobec sojuszników.",
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-14/ukrainskie-problemy-z-danymi-wywiadowczymi-usa-i-systemem-starshield",
+          "data": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "tytul": "OSW: Komisja Europejska nie złagodzi warunków reformatorskich wobec Ukrainy mimo luki budżetowej",
+      "autor": "OSW (Kacper Sienicki), 14.10.2026",
+      "tagi": [
+        "ukraina",
+        "ue"
+      ],
+      "tekst": "Ukraina potrzebuje w 2026 r. dodatkowo ok. 27 mld dolarów na obronę (według Zełenskiego) i 29,5 mld dolarów od partnerów na wydatki cywilne (według premiera Serhija Koreckiego). Z ok. 35 mld euro możliwych do końca roku ok. 19 mld zależy od przyjęcia ok. 40 ustaw, m.in. o wzmocnieniu NABU i Państwowego Biura Śledczego oraz przejrzystym naborze prokuratorów; 16 niespełnionych wskaźników blokuje ok. 5 mld euro, a KE odrzuciła prośbę o wcześniejszą wypłatę środków z 2027 r. OSW ocenia, że przeszkoda jest polityczna – otoczenie Zełenskiego widzi w reformach ryzyko utraty kontroli nad państwem – a Bruksela nie zrezygnuje z warunkowości, jednego z niewielu skutecznych narzędzi nacisku. Skutki: zamrożone ok. 900 mln euro na przygotowanie do sezonu grzewczego i opóźniona odbudowa energetyki.",
+      "dla_polski": "Słabsze przygotowanie Ukrainy do zimy przy rosyjskich uderzeniach w energetykę zwiększa ryzyko kolejnej fali przesiedleń i presji na dostawy energii z Polski; spór o reformy wpływa też na tempo negocjacji akcesyjnych, które Polska popiera.",
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-14/wojna-nerwow-ukraina-potrzebuje-pieniedzy-ue-zada-reform",
+          "data": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "tytul": "OSW: porozumienie KE z Chinami o limitach dla aut hybrydowych może osłabić wspólny front UE",
+      "autor": "OSW (Maciej Kalwasiński), 14.10.2026",
+      "tagi": [
+        "ue",
+        "chiny",
+        "gospodarka"
+      ],
+      "tekst": "Komisarz Maroš Šefčovič i chiński minister handlu Wang Wentao uzgodnili 9.10 w Pekinie ograniczenie importu chińskich aut hybrydowych do UE; szczegółów nie ujawniono – według mediów przywoływanych przez OSW limit ma wynosić 350 tys. aut w pierwszym roku (przy ok. 800 tys. oczekiwanych w 2026 r.) rosnąć o 6% rocznie i obowiązywać cztery lata. OSW ocenia, że ustępstwo jest zbyt małe wobec deficytu UE w handlu z Chinami (ponad 400 mld euro w 2026 r.), a dla Pekinu może być strategiczną wygraną, jeśli osłabi gotowość stolic do nowych narzędzi ochrony rynku – m.in. popieranego przez Berlin i Paryż mechanizmu szybkiego odcięcia dostępu do rynku UE, omawianego przed Radą Europejską 15–16.10.",
+      "dla_polski": "Presja chińskiego eksportu dotyczy także branż ważnych dla Polski (części samochodowe, maszyny, chemia, metale); odłożenie wspólnych instrumentów ochrony rynku pozostawiłoby je bez osłony.",
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-14/porozumienie-ke-i-chrl-ws-ograniczenia-importu-aut-hybrydowych-do-ue",
+          "data": "2026-10-14"
+        }
+      ]
+    }
+  ],
   "kalendarz": [
     {
       "data": "2026-10-16",
@@ -154,38 +277,72 @@
     }
   ],
   "zrodla_analityczne": {
-    "osw": [],
+    "osw": [
+      {
+        "tytul": "Wojna nerwów: Ukraina potrzebuje pieniędzy, UE żąda reform",
+        "autor": "Kacper Sienicki",
+        "data": "2026-10-14",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-14/wojna-nerwow-ukraina-potrzebuje-pieniedzy-ue-zada-reform"
+      },
+      {
+        "tytul": "Porozumienie KE i ChRL ws. ograniczenia importu aut hybrydowych do UE",
+        "autor": "Maciej Kalwasiński",
+        "data": "2026-10-14",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-14/porozumienie-ke-i-chrl-ws-ograniczenia-importu-aut-hybrydowych-do-ue"
+      },
+      {
+        "tytul": "Ukraińskie problemy z danymi wywiadowczymi USA i systemem Starshield",
+        "autor": "Andrzej Wilk",
+        "data": "2026-10-14",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-14/ukrainskie-problemy-z-danymi-wywiadowczymi-usa-i-systemem-starshield"
+      },
+      {
+        "tytul": "Jednostronny rozejm energetyczny. 1693. dzień wojny",
+        "autor": "Krzysztof Nieczypor, Mateusz Goliszewski, Jacek Tarociński",
+        "data": "2026-10-13",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-13/jednostronny-rozejm-energetyczny-1693-dzien-wojny"
+      },
+      {
+        "tytul": "Własną drogą. Jak hartuje się tożsamość postkolonialnego Kazachstanu",
+        "autor": "Wojciech Górecki, Zuzanna Krzyżanowska",
+        "data": "2026-10-13",
+        "url": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-10-13/wlasna-droga-jak-hartuje-sie-tozsamosc-postkolonialnego"
+      }
+    ],
     "pism": []
   },
   "czego_nie_ma": [
     {
-      "id": "n2",
-      "prog": "dokumentacja",
-      "tekst": "USA–Rosja: według AP (za KSAT, 12.10) wicepremier Aleksandr Nowak ogłosił zniesienie obowiązującego od lipca zakazu eksportu rosyjskiego diesla, a Trump ogłosił porozumienie z Putinem i w niedzielę 11.10 „rozejm energetyczny”; rzecznik Kremla Dmitrij Pieskow powiedział 12.10, że „kontakty trwają”, a Rosja nie potwierdziła rozejmu. Polsat News (15.10) podaje, że Kreml potwierdza eksport. Wolumeny (300 tys. t, potem 500 tys. t i 1 mln t) i licencja Departamentu Skarbu USA pochodzą z doniesień niższego poziomu; komunikatu Skarbu ani Białego Domu nie otwarto.",
-      "sprawdzono": [
-        "AP (za KSAT) 12.10",
-        "Ukraińska Prawda (za TASS) – 403",
-        "wyszukiwarka: komunikat Departamentu Skarbu o licencji generalnej (brak wyników)"
-      ]
-    },
-    {
       "id": "n3",
       "prog": "dokumentacja",
-      "tekst": "Ukraina–Rosja: według Polsat News (15.10) Ukraina uderzyła w rosyjską bazę lotniczą i trafiła sześć bombowców oraz rafinerię; Zełenski mówił, że Rosja wystrzeliła od środy ok. 1000 dronów. Brak komunikatu Sztabu Generalnego Ukrainy i drugiego źródła z poziomu 1–2.",
+      "tekst": "Ukraina–Rosja: według Kyiv Independent (15.10) Zełenski poinformował, że w nocy 14/15.10 ukraińskie pociski Neptun zniszczyły na lotnisku Borisoglebsk (obwód woroneski) cztery bombowce Su-34M, a dwa uszkodziły; ukraińska marynarka wojenna podała sześć zniszczonych Su-34M, a Sztab Generalny podał tylko, że na lotnisku były wybuchy i pożar. Według The Moscow Times Rosja nie przyznała się do trafienia lotniska, a gubernator Aleksandr Gusiew mówił o 33 dronach. Drugiego źródła z poziomu 1–2 z treścią nie otwarto (depesza Reutersa dostępna tylko jako tytuł).",
       "sprawdzono": [
-        "Polsat News Świat 15.10 (poziom 3)",
-        "wyszukiwarka: Reuters/Kyiv Independent 15.10 (brak wyników z tą datą)",
-        "Euronews live 15.10 (wzmianka o 1000 dronów, bez bazy lotniczej)"
+        "Kyiv Independent 15.10 (poziom 2)",
+        "The Moscow Times 15.10 (poziom 3, tytuł)",
+        "US News – przedruk Reutersa (błąd pobierania)",
+        "Polsat News Świat 15.10 (poziom 3)"
       ]
     },
     {
       "id": "n4",
       "prog": "dokumentacja",
-      "tekst": "Mauritius: według Polsat News (15.10) w największych od lat zamieszkach na wyspie padły strzały, a goście hoteli otrzymali pismo; relacja Polaka. Brak komunikatu MSZ RP ani agencji o zamieszkach i sytuacji Polaków.",
+      "tekst": "Mauritius: według Reutersa (za Internazionale, 13.10) po postrzeleniu przez policjanta 27-letniej kobiety demonstranci palili opony i blokowali drogi, a ministerstwo edukacji zamknęło szkoły w części kraju; kancelaria premiera podała, że sytuacja wróciła do normy. Polsat News (15.10) pisze o największych od lat zamieszkach i relacji Polaka; brak komunikatu MSZ RP o sytuacji Polaków.",
       "sprawdzono": [
+        "Reuters (za Internazionale) 13.10 (poziom 2)",
         "Polsat News 15.10 (poziom 3)",
-        "wyszukiwarka: Mauritius riots Poles October 2026 (brak wyników)",
         "wyszukiwarka: komunikat MSZ (brak wyników)"
+      ]
+    },
+    {
+      "id": "n5",
+      "prog": "dokumentacja",
+      "tekst": "Jemen–Arabia Saudyjska: według Reutersa (za Internazionale, 15.10) pociski Huti uderzyły 15.10 w kompleks pałacu prezydenckiego al-Maaszik w Adenie, zabijając dwóch strażników (premier i rząd bezpieczni według ministra informacji Moammara al-Irjaniego); rzecznik koalicji pod wodzą Arabii Saudyjskiej Turki al-Maliki podał, że 20 ataków Huti na lotnisko King Khalid w Rijadzie w październiku zabiło 17 osób i raniło 333. Komunikatu koalicji ani drugiej agencji nie otwarto.",
+      "sprawdzono": [
+        "Reuters (za Internazionale) 15.10 (poziom 2)",
+        "wyszukiwarka: Aden presidential palace Houthi 15.10 (wyniki z lat ubiegłych)",
+        "Just Security, przegląd 15.10 (brak wzmianki)",
+        "Al-Monitor – przedruk Reutersa (ta sama depesza)",
+        "France 24/AFP i CNN – tylko tytuły (strony niedostępne)"
       ]
     }
   ],
@@ -193,11 +350,12 @@
     {
       "dotyczy": "2026-10-14#n1",
       "wynik": "NIE DO POTWIERDZENIA",
-      "powod": "Brak komunikatu Arabii Saudyjskiej o trafieniu lotniska King Khalid; koalicja podaje tylko przechwycenia (8.10), a liczby ofiar w Al Jazeerze (poziom 3) to deklaracje Huti sprzeczne z danymi saudyjskiego urzędu lotnictwa.",
+      "powod": "Brak komunikatu Arabii Saudyjskiej o trafieniu lotniska King Khalid; koalicja podaje tylko przechwycenia (8.10), a liczby ofiar w Al Jazeerze (poziom 3) to deklaracje Huti sprzeczne z danymi saudyjskiego urzędu lotnictwa. Uzupełnienie 15.10: według Reutersa rzecznik koalicji podał 15.10, że 20 ataków Huti na lotnisko King Khalid w październiku zabiło 17 osób – bez wskazania dat i rodzaju pocisków; sprawa w n5.",
       "sprawdzono": [
         "Al Jazeera 8.10 i 12.10 (poziom 3)",
         "Ahram/AFP – 403",
-        "wyszukiwarka: komunikat koalicji z października (tylko przechwycenia)"
+        "wyszukiwarka: komunikat koalicji z października (tylko przechwycenia)",
+        "Reuters (za Internazionale) 15.10"
       ]
     },
     {
@@ -213,11 +371,12 @@
     {
       "dotyczy": "2026-10-14#n3",
       "wynik": "NIE DO POTWIERDZENIA",
-      "powod": "AP (12.10) potwierdza zniesienie przez Rosję zakazu eksportu diesla i deklaracje Trumpa, ale bez wolumenów i licencji Skarbu; komunikatu Białego Domu i Skarbu nie znaleziono – sprawa wraca jako n2.",
+      "powod": "AP (12.10) potwierdza zniesienie przez Rosję zakazu eksportu diesla i deklaracje Trumpa; licencję OFAC i częściowe zniesienie zakazu (500 tys. t) podaje uzupełniona pozycja z4, natomiast wolumen ok. 5 mln t i wystąpienie senatorów nadal bez potwierdzenia w źródle poziomu 1–2.",
       "sprawdzono": [
         "AP (za KSAT) 12.10",
         "Ukraińska Prawda – 403",
-        "wyszukiwarka: Departament Skarbu licencja generalna"
+        "wyszukiwarka: Departament Skarbu licencja generalna",
+        "OFAC – licencja generalna z 9.10"
       ]
     }
   ],
@@ -230,7 +389,11 @@
     "Starlink Wola Krobowska – zarzuty",
     "Komunikaty DO RSZ, SG, MON z 14–15.10",
     "Mauritius – MSZ RP",
-    "Papież Leon XIV – wyniki badań"
+    "Papież Leon XIV – wyniki badań",
+    "Starshield – decyzja USA/SpaceX o limitach, reakcja MSZ RP",
+    "Lotnisko Borisoglebsk – drugie źródło (Reuters, komunikat marynarki Ukrainy)",
+    "Jemen – komunikat koalicji, atak na pałac w Adenie (AP, AFP)",
+    "PISM – publikacje z 13–15.10 (daty)"
   ],
-  "nota": "Wydanie nr 27, przygotowane 15.10.2026 ok. 20:00 CEST, krótkie (2 pozycje): większość tematów ma jedno źródło albo źródła poniżej progu i trafiła do „W obserwacji”. Dział Świat Onetu jest zablokowany, a wyszukiwarka nie zwróciła jego nagłówków; kompletność względem Onetu nie jest potwierdzona. Kanał Polsat News Świat otwarto (najnowszy wpis 15.10, 17:12); TVN24 i pozostałych kanałów RSS nie próbowano. Z kanału do zarysu trafiły 2 tematy (szczyt UE, Morze Czarne), do „W obserwacji” 3 (bombowce, Mauritius, diesel). Przedruk Reutersa wykorzystano 1 (za Global News). Nie sprawdzono komunikatów DO RSZ, SG, MON (wyszukiwarka nie zwróciła komunikatów z 15.10). OSW i PISM nie przeszukiwano. Nie otwarto: strony Rady UE (403; dane o porządku z wyszukiwarki), Politico, AP o Morzu Czarnym (403). Nie weryfikowano: wirus w Belgii, Chiny–Korea Północna (most), spór Trump–laureatka Nobla, stan zdrowia papieża. Kontrola niezależna (agent) poprawiła z1 (141 mld to cięcie względem poprzedniego planu prezydencji, skład obozów) i wskazała Morze Czarne jako możliwe do udokumentowania – przeniesiono do zarysu (Euronews, Reuters); rozbieżność: Reuters podaje ok. 8 zaginionych i położenie poza wodami terytorialnymi, Euronews i Al Jazeera 7 zaginionych. Kontrola nie potwierdziła rozmowy Rutte–Dan–Radev w drugim źródle, więc jej nie podano; n2–n4 nie udało się udokumentować, a kompletność względem komunikatów DO RSZ, MON, SG, ŻW i prokuratury nie jest potwierdzona."
+  "nota": "Wydanie nr 27, przygotowane 15.10.2026 ok. 20:00 CEST, krótkie (2 pozycje): większość tematów ma jedno źródło albo źródła poniżej progu i trafiła do „W obserwacji”. Dział Świat Onetu jest zablokowany, a wyszukiwarka nie zwróciła jego nagłówków; kompletność względem Onetu nie jest potwierdzona. Kanał Polsat News Świat otwarto (najnowszy wpis 15.10, 17:12); TVN24 i pozostałych kanałów RSS nie próbowano. Z kanału do zarysu trafiły 2 tematy (szczyt UE, Morze Czarne), do „W obserwacji” 3 (bombowce, Mauritius, diesel). Przedruk Reutersa wykorzystano 1 (za Global News). Nie sprawdzono komunikatów DO RSZ, SG, MON (wyszukiwarka nie zwróciła komunikatów z 15.10). OSW i PISM nie przeszukiwano. Nie otwarto: strony Rady UE (403; dane o porządku z wyszukiwarki), Politico, AP o Morzu Czarnym (403). Nie weryfikowano: wirus w Belgii, Chiny–Korea Północna (most), spór Trump–laureatka Nobla, stan zdrowia papieża. Kontrola niezależna (agent) poprawiła z1 (141 mld to cięcie względem poprzedniego planu prezydencji, skład obozów) i wskazała Morze Czarne jako możliwe do udokumentowania – przeniesiono do zarysu (Euronews, Reuters); rozbieżność: Reuters podaje ok. 8 zaginionych i położenie poza wodami terytorialnymi, Euronews i Al Jazeera 7 zaginionych. Kontrola nie potwierdziła rozmowy Rutte–Dan–Radev w drugim źródle, więc jej nie podano; n2–n4 nie udało się udokumentować, a kompletność względem komunikatów DO RSZ, MON, SG, ŻW i prokuratury nie jest potwierdzona. UZUPEŁNIENIE (15.10, ok. 21:30 CEST): przejrzano OSW (5 publikacji z 13–14.10, 3 wykorzystane w analizach) i stronę główną PISM – publikacje bez widocznych dat, a ich strony nie otworzyły się, więc PISM nie podano. Przedruki Reutersa (Internazionale) – 4; z nich i z OSW, Kyiv Independent oraz licencji OFAC dodano pozycje z3 (Starshield, Riazań) i z4 (diesel, dotąd w „W obserwacji” jako n2) oraz zaktualizowano z2. Nowy wpis n5 (Jemen); n3 i n4 uzupełnione. Kanały TVN24, Euronews, Kyiv Independent i strona działu OSW – brak dostępu narzędzia w tym przebiegu. Komunikatów DO RSZ, SG, MON z 15.10 wyszukiwarka nie zwróciła; kompletność incydentów w Polsce nie jest potwierdzona. Kontrola niezależna (agent) uzupełnienia: poprawiono liczbę ofiar w z2 („zginęło lub zaginęło”), dodano atrybucje, usunięto ocenę z z4, poprawiono n3 (marynarka: sześć zniszczonych); n3 i n5 bez drugiego źródła poziomu 1–2 z treścią; przegląd globalnych tematów Reutersa i AP przez kontrolę nie był pełny."
 }

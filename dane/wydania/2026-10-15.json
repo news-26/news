@@ -1,0 +1,236 @@
+{
+  "nr": 27,
+  "data": "2026-10-15",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "W Brukseli trwa **Rada Europejska** (15–16.10): według Euronews przywódcy dzielą się na „frugalnych” i „Przyjaciół Spójności” w sporze o {{p:wrf}} 2028–34, a Wołodymyr Zełenski dołącza do obrad w piątek. U ujścia Dunaju przy wybrzeżu Rumunii zapaliły się dwa tankowce; **siedmiu marynarzy z Wine Trader zaginęło**, prezydent Nicușor Dan mówi o uderzeniu dwóch dronów i nie wskazuje sprawcy.",
+    "Wydanie jest krótkie: pozostałe tematy dnia mają jedno źródło albo źródła poniżej progu i trafiły do „W obserwacji”."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "instytucje",
+      "data": "2026-10-15",
+      "tagi": [
+        "ue",
+        "ukraina",
+        "wegry"
+      ],
+      "miejsce": "bruksela",
+      "krotko": "Rada Europejska: spór o budżet UE 2028–34",
+      "etap": "W TOKU",
+      "tekst": "Rada Europejska rozpoczęła 15.10 obrady w Brukseli; w porządku są m.in. WRF 2028–34, energia i konkurencyjność, Ukraina, rozszerzenie i Bliski Wschód. Według Euronews prezydencja irlandzka proponuje budżet **1 622 mld euro** (o 141 mld mniej niż poprzedni plan prezydencji; 16% poniżej budżetu Parlamentu Europejskiego), a państwa dzielą się na sześciu „frugalnych” (Austria, Dania, Niemcy, Finlandia, Holandia, Szwecja), które chcą głębszych cięć, i „Przyjaciół Spójności” (według Euronews 17 państw, m.in. Polska, Czechy, Hiszpania, Włochy, Węgry), które odrzucają obecną propozycję; według Euronews Péter Magyar uznał propozycję za nie do przyjęcia w obecnej formie. Następstwo: porozumienie wymaga jednomyślności, a przewodniczący Rady Europejskiej António Costa dąży do niego do grudnia; według Euronews Zełenski ma dołączyć do obrad 16.10 i rano spotkać się z Magyarem.",
+      "zrodla": [
+        {
+          "nazwa": "Rada UE",
+          "url": "https://www.consilium.europa.eu/en/meetings/european-council/2026/10/15-16/",
+          "data": "2026-09-14"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/15/eu-summit-leaders-seek-fast-solutions-to-spiralling-energy-prices",
+          "data": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-10-15",
+      "tagi": [
+        "rumunia",
+        "bulgaria",
+        "nato",
+        "hybryda",
+        "ukraina"
+      ],
+      "miejsce": "wse-rumunii",
+      "krotko": "Dwa tankowce w ogniu przy ujściu Dunaju, zaginieni marynarze",
+      "etap": "W TOKU",
+      "tekst": "Tankowiec Wine Trader (bandera San Marino) zgłosił 15.10 ok. 7:00 pożar ok. 13 mil morskich na południowy wschód od Sulina – według rumuńskiej Administracji Morskiej zaginęło siedmiu marynarzy, pięciu uratowano (Reuters podaje, że statek był ok. mili poza wodami terytorialnymi); dzień wcześniej zapalił się Yara J (Komory), którego załoga ugasiła pożar. Prezydent Nicușor Dan powiedział na szczycie UE, że uderzyły dwa drony i że Rumunia odpowie, nie wskazał jednak sprawcy; minister obrony Radu Miruță zapowiedział śledztwo. Następstwo: **bezpieczeństwo żeglugi na Morzu Czarnym** to temat szczytu UE (Rumunia i Bułgaria mogą zaproponować wspólne wnioski), a premier Bułgarii Rumen Radev przekazał parlamentowi, że według Sofii za atakami na cztery statki w tygodniu najpewniej stoi Rosja, której nie może udowodnić.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/15/romania-probes-possible-drone-attack-on-tanker-in-its-black-sea-territorial-waters",
+          "data": "2026-10-15"
+        },
+        {
+          "nazwa": "Reuters (za Global News)",
+          "url": "https://globalnews.ca/news/12103450/ships-ablaze-romania-black-sea",
+          "data": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "analizy": [],
+  "kalendarz": [
+    {
+      "data": "2026-10-16",
+      "tekst": "16.10: drugi dzień Rady Europejskiej w Brukseli – Ukraina (Zełenski), rozszerzenie; według Euronews pierwsze spotkanie Zełenski–Magyar.",
+      "tagi": [
+        "ue",
+        "ukraina",
+        "wegry"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rada UE",
+          "url": "https://www.consilium.europa.eu/en/meetings/european-council/2026/10/15-16/",
+          "data": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-16",
+      "tekst": "16–17.10: Czechy – II tura wyborów do Senatu.",
+      "tagi": [
+        "czechy",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-24",
+      "tekst": "24.10: drugi szczyt UE – Rada Współpracy Zatoki Perskiej (Arabia Saudyjska).",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-10-25",
+      "tekst": "25.10: Brazylia – II tura wyborów prezydenckich (Flávio Bolsonaro kontra Lula); Bułgaria – wybory prezydenta; Serbia – przedterminowe wybory parlamentarne.",
+      "tagi": [
+        "ameryki",
+        "balkany",
+        "wybory"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-10-28",
+      "tekst": "27–28.10 FOMC (Fed), 28–29.10 posiedzenie EBC",
+      "tagi": [
+        "gospodarka"
+      ]
+    },
+    {
+      "data": "2026-11-01",
+      "tekst": "kolejne spotkanie państw OPEC+ w sprawie limitów wydobycia (na grudzień)",
+      "tagi": [
+        "energia"
+      ]
+    },
+    {
+      "data": "2026-11-03",
+      "tekst": "wybory połowy kadencji w USA",
+      "tagi": [
+        "usa",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-11-12",
+      "tekst": "Europejska Wspólnota Polityczna w Irlandii (12.11), 13.11 nieformalne spotkanie przywódców UE",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [],
+    "pism": []
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n2",
+      "prog": "dokumentacja",
+      "tekst": "USA–Rosja: według AP (za KSAT, 12.10) wicepremier Aleksandr Nowak ogłosił zniesienie obowiązującego od lipca zakazu eksportu rosyjskiego diesla, a Trump ogłosił porozumienie z Putinem i w niedzielę 11.10 „rozejm energetyczny”; rzecznik Kremla Dmitrij Pieskow powiedział 12.10, że „kontakty trwają”, a Rosja nie potwierdziła rozejmu. Polsat News (15.10) podaje, że Kreml potwierdza eksport. Wolumeny (300 tys. t, potem 500 tys. t i 1 mln t) i licencja Departamentu Skarbu USA pochodzą z doniesień niższego poziomu; komunikatu Skarbu ani Białego Domu nie otwarto.",
+      "sprawdzono": [
+        "AP (za KSAT) 12.10",
+        "Ukraińska Prawda (za TASS) – 403",
+        "wyszukiwarka: komunikat Departamentu Skarbu o licencji generalnej (brak wyników)"
+      ]
+    },
+    {
+      "id": "n3",
+      "prog": "dokumentacja",
+      "tekst": "Ukraina–Rosja: według Polsat News (15.10) Ukraina uderzyła w rosyjską bazę lotniczą i trafiła sześć bombowców oraz rafinerię; Zełenski mówił, że Rosja wystrzeliła od środy ok. 1000 dronów. Brak komunikatu Sztabu Generalnego Ukrainy i drugiego źródła z poziomu 1–2.",
+      "sprawdzono": [
+        "Polsat News Świat 15.10 (poziom 3)",
+        "wyszukiwarka: Reuters/Kyiv Independent 15.10 (brak wyników z tą datą)",
+        "Euronews live 15.10 (wzmianka o 1000 dronów, bez bazy lotniczej)"
+      ]
+    },
+    {
+      "id": "n4",
+      "prog": "dokumentacja",
+      "tekst": "Mauritius: według Polsat News (15.10) w największych od lat zamieszkach na wyspie padły strzały, a goście hoteli otrzymali pismo; relacja Polaka. Brak komunikatu MSZ RP ani agencji o zamieszkach i sytuacji Polaków.",
+      "sprawdzono": [
+        "Polsat News 15.10 (poziom 3)",
+        "wyszukiwarka: Mauritius riots Poles October 2026 (brak wyników)",
+        "wyszukiwarka: komunikat MSZ (brak wyników)"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-10-14#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Brak komunikatu Arabii Saudyjskiej o trafieniu lotniska King Khalid; koalicja podaje tylko przechwycenia (8.10), a liczby ofiar w Al Jazeerze (poziom 3) to deklaracje Huti sprzeczne z danymi saudyjskiego urzędu lotnictwa.",
+      "sprawdzono": [
+        "Al Jazeera 8.10 i 12.10 (poziom 3)",
+        "Ahram/AFP – 403",
+        "wyszukiwarka: komunikat koalicji z października (tylko przechwycenia)"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-14#n2",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Nie znaleziono komunikatu Prokuratury Krajowej ani MSWiA o zarzutach i przekazaniu dwóch obywateli Turcji; wyniki wyszukiwania mówią o zamiarze postawienia zarzutów.",
+      "sprawdzono": [
+        "wyszukiwarka: Prokuratura Krajowa Starlink zarzuty",
+        "Europejska Prawda 25.09 (postępowanie wszczęte, bez zarzutów)",
+        "TVP Info (zatrzymanie trzeciej osoby – jedno źródło)"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-14#n3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "AP (12.10) potwierdza zniesienie przez Rosję zakazu eksportu diesla i deklaracje Trumpa, ale bez wolumenów i licencji Skarbu; komunikatu Białego Domu i Skarbu nie znaleziono – sprawa wraca jako n2.",
+      "sprawdzono": [
+        "AP (za KSAT) 12.10",
+        "Ukraińska Prawda – 403",
+        "wyszukiwarka: Departament Skarbu licencja generalna"
+      ]
+    }
+  ],
+  "do_sprawdzenia": [
+    "Rada Europejska 16.10 – konkluzje (WRF, Ukraina, Morze Czarne, Chiny), spotkanie Zełenski–Magyar",
+    "Morze Czarne – atrybucja dronów, komunikaty rumuńskiego MON/MSW, Artykuł 4 NATO, zaginieni z Wine Trader",
+    "Czechy – II tura Senatu 16–17.10 (komunikat ČSÚ)",
+    "USA–Rosja – komunikat Skarbu/Białego Domu ws. diesla",
+    "Ukraina – uderzenie w bazę lotniczą (Sztab Generalny), Patrioty",
+    "Starlink Wola Krobowska – zarzuty",
+    "Komunikaty DO RSZ, SG, MON z 14–15.10",
+    "Mauritius – MSZ RP",
+    "Papież Leon XIV – wyniki badań"
+  ],
+  "nota": "Wydanie nr 27, przygotowane 15.10.2026 ok. 20:00 CEST, krótkie (2 pozycje): większość tematów ma jedno źródło albo źródła poniżej progu i trafiła do „W obserwacji”. Dział Świat Onetu jest zablokowany, a wyszukiwarka nie zwróciła jego nagłówków; kompletność względem Onetu nie jest potwierdzona. Kanał Polsat News Świat otwarto (najnowszy wpis 15.10, 17:12); TVN24 i pozostałych kanałów RSS nie próbowano. Z kanału do zarysu trafiły 2 tematy (szczyt UE, Morze Czarne), do „W obserwacji” 3 (bombowce, Mauritius, diesel). Przedruk Reutersa wykorzystano 1 (za Global News). Nie sprawdzono komunikatów DO RSZ, SG, MON (wyszukiwarka nie zwróciła komunikatów z 15.10). OSW i PISM nie przeszukiwano. Nie otwarto: strony Rady UE (403; dane o porządku z wyszukiwarki), Politico, AP o Morzu Czarnym (403). Nie weryfikowano: wirus w Belgii, Chiny–Korea Północna (most), spór Trump–laureatka Nobla, stan zdrowia papieża. Kontrola niezależna (agent) poprawiła z1 (141 mld to cięcie względem poprzedniego planu prezydencji, skład obozów) i wskazała Morze Czarne jako możliwe do udokumentowania – przeniesiono do zarysu (Euronews, Reuters); rozbieżność: Reuters podaje ok. 8 zaginionych i położenie poza wodami terytorialnymi, Euronews i Al Jazeera 7 zaginionych. Kontrola nie potwierdziła rozmowy Rutte–Dan–Radev w drugim źródle, więc jej nie podano; n2–n4 nie udało się udokumentować, a kompletność względem komunikatów DO RSZ, MON, SG, ŻW i prokuratury nie jest potwierdzona."
+}

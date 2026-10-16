@@ -1,0 +1,275 @@
+{
+  "nr": 28,
+  "data": "2026-10-16",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "W Brukseli zakończył się drugi dzień **Rady Europejskiej**: według Euronews nie ma porozumienia w sprawie {{p:wrf}} 2028–34 (przewodniczący Costa ma przedstawić nowy kompromis przed specjalnym szczytem w przyszłym miesiącu), a Ursula von der Leyen zapowiedziała 22. pakiet sankcji na Rosję. {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} i premier Węgier {{o:peter-magyar|Péter Magyar}} odbyli pierwsze rozmowy dwustronne; według Kyiv Independent zgodzili się na wymianę wizyt i dalsze rozmowy ministerów o mniejszościach."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "instytucje",
+      "data": "2026-10-16",
+      "tagi": [
+        "ue",
+        "ukraina",
+        "chiny"
+      ],
+      "miejsce": "bruksela",
+      "krotko": "Rada Europejska: brak porozumienia w sprawie budżetu UE",
+      "etap": "W TOKU",
+      "tekst": "Drugiego dnia obrad (16.10) przywódcy UE nie uzgodnili {{p:wrf}} 2028–34: według Euronews przewodniczący Rady Europejskiej António Costa ma przedstawić nowy kompromis z poprawionymi liczbami przed specjalnym szczytem w przyszłym miesiącu, a premier Szwecji Ulf Kristersson odrzucił wzrost szwedzkiej składki o ok. 60%. Zełenski poprosił o **70 mld euro** dodatkowego wsparcia na 2027 r. (bez decyzji); przewodnicząca Komisji Ursula von der Leyen zapowiedziała 22. pakiet sankcji na Rosję, a Costa – że dwa ostatnie klastry negocjacji akcesyjnych Ukrainy mają zostać otwarte do końca roku. Komisja dostała według Euronews mandat do przygotowania nowych narzędzi obrony handlowej wobec Chin. Następstwo: budżet zostaje nierozstrzygnięty, a dla Polski jako państwa „Przyjaciół Spójności” kluczowa będzie wersja kompromisu Costy; nieformalne spotkanie przywódców w Alden Biesen – 4.02.2027.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/16/eu-summit-leaders-to-rally-behind-zelenskyy-amid-bitter-row-with-trump",
+          "data": "2026-10-16"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-magyar-meet-at-eu-summit/",
+          "data": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "instytucje",
+      "data": "2026-10-16",
+      "tagi": [
+        "ue",
+        "ukraina",
+        "wegry"
+      ],
+      "miejsce": "bruksela",
+      "krotko": "Pierwsza rozmowa Zełenski–Magyar",
+      "etap": "PRZYJĘTE",
+      "tekst": "{{o:wolodymyr-zelenski|Wołodymyr Zełenski}} i premier Węgier {{o:peter-magyar|Péter Magyar}} odbyli 16.10 w Brukseli pierwsze rozmowy dwustronne, na osobności. Według Kyiv Independent zgodzili się na **wymianę wizyt** i dalsze konsultacje ministerialne o mniejszościach narodowych; Magyar wskazał ukraińską ustawę o edukacji mniejszości jako „pierwszy krok w odbudowie wzajemnego zaufania”, a Zełenski nie wykluczył wyjazdu do Budapesztu (spotkanie w Berehowie – bez terminu). Następstwo: po zniesieniu przez Budapeszt weta (13.10) Ukraina ma otwierać kolejne klastry negocjacji z UE; Magyar według OSW (16.10) sprzeciwia się przyspieszaniu rozmów i zapowiada referendum o członkostwie.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-magyar-meet-at-eu-summit/",
+          "data": "2026-10-16"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/16/hungarys-magyar-meets-zelenskyy-in-bid-to-reset-strained-ties",
+          "data": "2026-10-16"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "OSW: Węgry odblokowały otwarcie dwóch klastrów negocjacyjnych Ukrainy, ale to raczej złagodzenie napięć niż zmiana polityki",
+      "autor": "OSW, 16.10.2026",
+      "tagi": [
+        "ue",
+        "ukraina",
+        "wegry"
+      ],
+      "tekst": "Według OSW zgoda Budapesztu na otwarcie dwóch klastrów łączy się z czerwcowym porozumieniem w sprawie praw mniejszości; autorzy widzą w niej oznakę spadku napięć, nie trwałą zmianę kursu – premier sprzeciwia się przyspieszaniu negocjacji i zapowiedział referendum o członkostwie Ukrainy.",
+      "dla_polski": "Referendum na Węgrzech może stać się nowym wetem wobec rozszerzenia; Polska, popierająca członkostwo Ukrainy, powinna liczyć się z długą ścieżką.",
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-16/ocieplenie-wegry-odblokowuja-otwarcie-dwoch-klastrow-negocjacyjnych",
+          "data": "2026-10-16"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-10-16",
+      "tekst": "16–17.10: Czechy – II tura wyborów do Senatu.",
+      "tagi": [
+        "czechy",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-24",
+      "tekst": "24.10: szczyt UE – Rada Współpracy Zatoki Perskiej w Rijadzie – według Euronews (16.10) przełożony; nowa data nieznana.",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-10-25",
+      "tekst": "25.10: Brazylia – II tura wyborów prezydenckich (Flávio Bolsonaro kontra Lula); Bułgaria – wybory prezydenta; Serbia – przedterminowe wybory parlamentarne.",
+      "tagi": [
+        "ameryki",
+        "balkany",
+        "wybory"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-10-28",
+      "tekst": "27–28.10 FOMC (Fed), 28–29.10 posiedzenie EBC",
+      "tagi": [
+        "gospodarka"
+      ]
+    },
+    {
+      "data": "2026-11-01",
+      "tekst": "kolejne spotkanie państw OPEC+ w sprawie limitów wydobycia (na grudzień)",
+      "tagi": [
+        "energia"
+      ]
+    },
+    {
+      "data": "2026-11-03",
+      "tekst": "wybory połowy kadencji w USA",
+      "tagi": [
+        "usa",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-11-12",
+      "tekst": "Europejska Wspólnota Polityczna w Irlandii (12.11), 13.11 nieformalne spotkanie przywódców UE",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [
+      {
+        "tytul": "Ocieplenie? Węgry odblokowują otwarcie dwóch klastrów negocjacyjnych Ukrainy z UE",
+        "autor": "OSW",
+        "data": "2026-10-16",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-16/ocieplenie-wegry-odblokowuja-otwarcie-dwoch-klastrow-negocjacyjnych"
+      }
+    ],
+    "pism": []
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "prog": "dokumentacja",
+      "tekst": "Ukraina–USA: Polsat News Świat (16.10) pisze, że Zełenski może wstrzymać ataki na rafinerie na 100 dni w zamian za dane/dostęp Starlink; Trump (Polsat News, 16.10) nazwał Zełenskiego „trudniejszym partnerem niż Putin” i ponownie wzywa do wyborów. Brak depeszy agencji z treścią.",
+      "sprawdzono": [
+        "Polsat News Świat 16.10 (poziom 3, tytuł)",
+        "wyszukiwarka: Zelensky refineries pause 100 days Starlink (brak potwierdzenia „100 dni”)",
+        "wyszukiwarka: Trump Zelensky harder than Putin 16.10 (tylko wyniki z marca)"
+      ]
+    },
+    {
+      "id": "n2",
+      "prog": "dokumentacja",
+      "tekst": "Watykan–Rosja: Polsat News (16.10) podaje rozmowę papieża Leona XIV z Putinem; brak komunikatu Watykanu lub Kremla.",
+      "sprawdzono": [
+        "Polsat News Świat 16.10 (poziom 3, tytuł)",
+        "wyszukiwarka: Pope Leo Putin call 16.10 (tylko rozmowa z 2025)",
+        "komunikat Watykanu/Kremla – nie znaleziono"
+      ]
+    },
+    {
+      "id": "n3",
+      "prog": "dokumentacja",
+      "tekst": "Ukraina: Polsat News (16.10) pisze, że drony trafiły w zakład z polskim kapitałem na Wołyniu (jedna ofiara); Kyiv Independent opisuje atak z 14.10 na Łuck i Równe. Brak komunikatu MSZ RP ani źródła o właścicielu zakładu.",
+      "sprawdzono": [
+        "Polsat News Świat 16.10 (poziom 3)",
+        "Kyiv Independent – atak 14.10 (inny dzień)",
+        "wyszukiwarka: Wołyń polski zakład 16.10 (brak wyniku)"
+      ]
+    },
+    {
+      "id": "n4",
+      "prog": "dokumentacja",
+      "tekst": "Rumunia/Morze Czarne: brak nowych komunikatów rumuńskiego MON/MSW i NATO o Wine Trader i zaginionych po 15.10; Euronews (16.10) w relacji ze szczytu nie podaje decyzji o Morzu Czarnym.",
+      "sprawdzono": [
+        "Euronews live 16.10",
+        "wyszukiwarka: Wine Trader Rutte Dan Article 4 (brak wyników)",
+        "komunikaty DO RSZ – nie znaleziono dla 16.10"
+      ]
+    },
+    {
+      "id": "n5",
+      "prog": "dokumentacja",
+      "tekst": "Czechy: II tura wyborów do Senatu trwa 16–17.10; wyniki znane po zamknięciu lokali 17.10 (komunikat ČSÚ).",
+      "sprawdzono": [
+        "wyszukiwarka: Czech Senate runoff results (tylko I tura, AP 11.10)",
+        "ČSÚ – nie sprawdzono wyników",
+        "AP 11.10 (I tura)"
+      ],
+      "kalendarz": "2026-10-16"
+    },
+    {
+      "id": "n6",
+      "prog": "dokumentacja",
+      "kalendarz": "2026-10-14",
+      "tekst": "MFW/Bank Światowy: zgromadzenia doroczne w Bangkoku trwają 12–18.10; nie znaleziono komunikatu IMFC ani oświadczenia przewodniczącej MFW Kristaliny Georgijewej z decyzjami.",
+      "sprawdzono": [
+        "wyszukiwarka: IMF World Bank Annual Meetings Bangkok communique (tylko zapowiedzi)",
+        "imf.org – strona IMFC nie otwarta",
+        "thailand.go.th – zapowiedź"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-10-15#n3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Nie znaleziono drugiego źródła z poziomów 1–2 z treścią o zniszczeniu Su-34M w Borisoglebsku; Polsat News (15.10) to poziom 3.",
+      "sprawdzono": [
+        "Polsat News Świat 15.10",
+        "wyszukiwarka: Borisoglebsk Su-34 Neptun",
+        "komunikat Sztabu Generalnego – tylko wybuchy i pożar"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-15#n4",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Brak komunikatu MSZ RP i nowych depesz o Mauritiusie.",
+      "sprawdzono": [
+        "Polsat News Świat",
+        "wyszukiwarka: Mauritius MSZ komunikat",
+        "Reuters (za Internazionale) 13.10"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-15#n5",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Brak drugiego źródła poziomu 1–2 o uderzeniu w pałac w Adenie.",
+      "sprawdzono": [
+        "Reuters (za Internazionale) 15.10",
+        "wyszukiwarka: Aden al-Maaszik Houthi",
+        "AP/AFP – nie znaleziono"
+      ]
+    }
+  ],
+  "do_sprawdzenia": [
+    "Rada Europejska – oficjalne konkluzje (Rada UE), WRF, 22. pakiet sankcji",
+    "Czechy – wyniki II tury Senatu 17.10 (ČSÚ)",
+    "Morze Czarne – Wine Trader, zaginieni, komunikaty rumuńskiego MON, NATO",
+    "Ukraina–USA – rafinerie/Starlink (Polsat News 16.10), wywiad Trumpa",
+    "Papież Leon XIV – rozmowa z Putinem (Watykan, Kreml)",
+    "Wołyń – polski zakład po ataku dronów, MSZ RP",
+    "Szczyt UE–RWZ (Rijad) – nowa data",
+    "Komunikaty DO RSZ, SG, MON, ŻW z 16–17.10",
+    "PISM – publikacje z 14–16.10"
+  ],
+  "nota": "Wydanie nr 28, przygotowane 16.10.2026 ok. 20:00 CEST, krótkie (2 pozycje): reszta tematów miała jedno źródło lub źródła poniżej progu. Dział Świat Onetu zablokowany, wyszukiwarka nie zwróciła jego nagłówków – kompletność względem Onetu niepotwierdzona. Kanał Polsat News Świat otwarto (najnowszy wpis 16.10, 18:14); TVN24 i RSS Meduzy, Euronews, Kyiv Independent nie były próbowane. Z kanału do zarysu trafił 1 temat (szczyt UE), do „W obserwacji” 4 (plus zgromadzenia MFW). Przedruków Reutersa nie wykorzystano. Z OSW wykorzystano 1 analizę (16.10); PISM nie przeszukiwano (brak dostępu). Konkluzji Rady UE nie otwarto – dane o szczycie pochodzą z relacji na żywo Euronews (stan 19:55) i Kyiv Independent. Nie sprawdzono komunikatów DO RSZ, SG, MON, ŻW z 16.10 (wyszukiwarka nic nie zwróciła); kompletność incydentów w Polsce niepotwierdzona. Kontroli niezależnej (agent) nie przeprowadzono – pominięto ją w tym przebiegu ze względu na ograniczony czas."
+}

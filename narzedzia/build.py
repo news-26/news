@@ -1392,7 +1392,7 @@ class Budowa:
                 z = self.biezace or self.archiwum[-1]
                 tyt = f"ostatnie {TOP_OKNO_DNI} dni" if z["_kroczace"] else okres_topu(z)
                 cz.append(f'<h2 class="pasek">Top 10 · {e(tyt)}</h2><ol class="top-lista">' + "".join(
-                    f'<li><a href="top/{z["_slug"]}.html#t{n}">{e(p["tytul"])}</a></li>' for n, p in enumerate(z["pozycje"], 1))
+                    f'<li><a href="top/{z["_slug"]}.html#t{n}">{e(p["tytul"])}</a> <span class="top-okres">{self.top_okres(z, p)}</span></li>' for n, p in enumerate(z["pozycje"], 1))
                     + f'</ol><p class="dalej"><a href="top/{z["_slug"]}.html">Całe zestawienie z omówieniami</a></p>')
             nowe = self.publikacje_posortowane()[:5]
             if nowe:
@@ -1609,14 +1609,14 @@ class Budowa:
             z = self.biezace
             lista += (f'<article class="top-karta"><h2><a href="{z["_slug"]}.html">Ostatnie {TOP_OKNO_DNI} dni</a></h2>'
                       f'<p class="uwaga">{data_dluga(z["od"])} – {data_dluga(z["do"])} · odświeżane codziennie</p><ol class="top-lista">' + "".join(
-                          f'<li><a href="{z["_slug"]}.html#t{n}">{e(p["tytul"])}</a> {self.top_odznaka(z, p)}</li>' for n, p in enumerate(z["pozycje"], 1))
+                          f'<li><a href="{z["_slug"]}.html#t{n}">{e(p["tytul"])}</a> <span class="top-okres">{self.top_okres(z, p)}</span> {self.top_odznaka(z, p)}</li>' for n, p in enumerate(z["pozycje"], 1))
                       + "</ol></article>")
             if self.archiwum:
                 lista += '<h2 class="pasek">Archiwum miesięczne</h2>'
         for z in reversed(self.archiwum):
             lista += (f'<article class="top-karta"><h2><a href="{z["_slug"]}.html">{e(okres_topu(z))}</a></h2>'
                       f'<p class="uwaga">Stan na {data_dluga(z["opublikowano"])}</p><ol class="top-lista">' + "".join(
-                          f'<li><a href="{z["_slug"]}.html#t{n}">{e(p["tytul"])}</a> {self.top_odznaka(z, p)}</li>' for n, p in enumerate(z["pozycje"], 1))
+                          f'<li><a href="{z["_slug"]}.html#t{n}">{e(p["tytul"])}</a> <span class="top-okres">{self.top_okres(z, p)}</span> {self.top_odznaka(z, p)}</li>' for n, p in enumerate(z["pozycje"], 1))
                       + "</ol></article>")
         tresc = ('<section class="winieta"><h1>Top 10</h1><p class="w-stan">Dziesięć najważniejszych wydarzeń ostatnich 30 dni, odświeżane codziennie, oraz archiwum zamkniętych zestawień za miesiące kalendarzowe – '
                  'z przebiegiem, ocenami ekspertów i wnioskiem „Dla Polski”. Kolejność to ocena redakcji; fakty mają źródła.</p>'

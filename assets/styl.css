@@ -325,7 +325,7 @@ a.pub-tytul:hover { color: var(--morze); text-decoration: underline; }
 .top-spis li::marker, .top-lista li::marker { font: 700 15px var(--sans); color: var(--ochra); }
 .top-spis a, .top-lista a { color: var(--atrament); font-weight: 600; text-decoration: none; }
 .top-spis a:hover, .top-lista a:hover { color: var(--morze); text-decoration: underline; }
-.top-spis .top-okres { margin-left: 4px; font-weight: 400; }
+.top-spis .top-okres, .top-lista .top-okres { margin-left: 4px; font-weight: 400; }
 .top { background: var(--karta); padding: 18px 22px 14px; margin: 26px 0; border-top: 3px solid var(--atrament); }
 .top-glowa { display: flex; gap: 16px; align-items: flex-start; }
 .top-nr { font: 700 46px/0.95 var(--serif); color: var(--ochra); min-width: 1.15em; text-align: right; font-variant-numeric: tabular-nums; }

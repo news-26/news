@@ -6,20 +6,20 @@
       "nazwa": "Ukraina",
       "grupa": "miejsce",
       "opis": "Wojna Rosji z Ukrainą: ataki, obrona powietrzna, polityka Kijowa, pomoc zachodnia.",
-      "stan": "10.10 rosyjskie bomby szybujące uderzyły w bloki w Zaporożu: co najmniej 20 zabitych, w tym troje dzieci; USA zawiesiły sankcje na rosyjski diesel, a Trump powiedział, że Ukraina powinna mieć „nowego prezydenta”.",
+      "stan": "17.10 Rosja uderzyła w ponad 15 obiektów ukraińskiej energetyki (332 drony i rakiety, 7 zabitych); Trump uchylił nowy pakiet sankcji i ceł na Rosję.",
       "stan_zrodla": [
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/russian-attacks-kill-at-least-19-injure-39-across-ukraine-as-rescue-operations-continue-in-zaporizhzhia/",
-          "data": "2026-10-10"
+          "url": "https://kyivindependent.com/russian-attacks-kill-7-injure-dozens-across-ukraine-amid-continued-strikes-on-energy-infrastructure/",
+          "data": "2026-10-17"
         },
         {
-          "nazwa": "CBS News",
-          "url": "https://www.cbsnews.com/news/russia-strikes-ukraine-trump-diesel-deal/",
-          "data": "2026-10-10"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/17/trump-signs-executive-order-waiving-new-russia-sanctions-package",
+          "data": "2026-10-17"
         }
       ],
-      "stan_data": "2026-10-10"
+      "stan_data": "2026-10-17"
     },
     {
       "id": "front",
@@ -150,20 +150,20 @@
       "nazwa": "Sankcje",
       "grupa": "temat",
       "opis": "Sankcje UE, USA i innych państw oraz ich omijanie.",
-      "stan": "9.10 Departament Skarbu USA tymczasowo zawiesił sankcje na rosyjski olej napędowy po ogłoszeniu przez Trumpa dostaw (300 tys. t od razu); UE nadal planuje formalne przyjęcie listy 1646 wpisów 12.10.",
+      "stan": "16.10 Trump podpisał rozporządzenie uchylające w dużej mierze nowy pakiet sankcji i ceł na Rosję z ustawy Grahama.",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/",
-          "data": "2026-10-09"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/17/trump-signs-executive-order-waiving-new-russia-sanctions-package",
+          "data": "2026-10-17"
         },
         {
-          "nazwa": "CBS News",
-          "url": "https://www.cbsnews.com/news/russia-strikes-ukraine-trump-diesel-deal/",
-          "data": "2026-10-10"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/trump-waives-latest-russia-sanctions-amid-growing-ukraine-us-tensions/",
+          "data": "2026-10-17"
         }
       ],
-      "stan_data": "2026-10-10"
+      "stan_data": "2026-10-17"
     },
     {
       "id": "iran",
@@ -440,20 +440,15 @@
       "nazwa": "Rumunia",
       "grupa": "miejsce",
       "opis": "Polityka Rumunii i Mołdawii.",
-      "stan": "5.10 prezydent Nicușor Dan desygnował na premiera bezpartyjnego dyplomatę Lucę Niculescu (czwarte wskazanie); ma 10 dni na skład rządu i program. Bukareszt nie wskazał sprawcy zatopienia zbożowca Royad Mammadov w swojej strefie ekonomicznej (5.10).",
+      "stan": "17.10 rumuńskie F-16 zestrzeliły dwa drony nad wodami terytorialnymi koło Sulina (komunikat MApN nr 213).",
       "stan_zrodla": [
         {
-          "nazwa": "Reuters (za TimesLive)",
-          "url": "https://www.timeslive.co.za/news/world/2026-10-06-romanian-president-nominates-diplomat-luca-niculescu-as-pm/",
-          "data": "2026-10-06"
-        },
-        {
-          "nazwa": "AP (za Washington Times)",
-          "url": "https://www.washingtontimes.com/news/2026/oct/5/romanias-president-nominates-fourth-prime-minister-designate-bid-end/",
-          "data": "2026-10-05"
+          "nazwa": "Ministerstwo Obrony Narodowej Rumunii (MApN)",
+          "url": "https://english.mapn.ro/cpresa/6888_Press-Release",
+          "data": "2026-10-17"
         }
       ],
-      "stan_data": "2026-10-06"
+      "stan_data": "2026-10-17"
     },
     {
       "id": "balkany",

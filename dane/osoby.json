@@ -5,12 +5,12 @@
       "id": "donald-trump",
       "imie": "Donald Trump",
       "funkcja": "Prezydent Stanów Zjednoczonych.",
-      "zweryfikowano": "2026-10-01",
+      "zweryfikowano": "2026-10-17",
       "zrodla": [
         {
-          "nazwa": "Biały Dom (wystąpienie na Zgromadzeniu Ogólnym ONZ)",
-          "url": "https://www.whitehouse.gov/releases/2026/09/president-trump-at-the-united-nations-while-others-have-talked-i-have-acted/",
-          "data": "2026-09-22"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/17/trump-signs-executive-order-waiving-new-russia-sanctions-package",
+          "data": "2026-10-17"
         }
       ]
     },
@@ -18,17 +18,12 @@
       "id": "wolodymyr-zelenski",
       "imie": "Wołodymyr Zełenski",
       "funkcja": "Prezydent Ukrainy.",
-      "zweryfikowano": "2026-10-04",
+      "zweryfikowano": "2026-10-17",
       "zrodla": [
         {
-          "nazwa": "Reuters (za Internazionale)",
-          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/04/germany-s-merz-arrives-in-kyiv-to-finalize-drone-deal-release-aid",
-          "data": "2026-10-04"
-        },
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/04/merz-makes-surprise-visit-to-kyiv-germany-pledges-further-aid-to-ukraine",
-          "data": "2026-10-04"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/putin-feels-joy-zelensky-calls-trumps-waiving-of-key-russia-sanctions-wrong/",
+          "data": "2026-10-17"
         }
       ]
     },

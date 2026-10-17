@@ -1,0 +1,470 @@
+{
+  "nr": 29,
+  "data": "2026-10-17",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Prezydent {{o:donald-trump|Donald Trump}} podpisał 16.10 rozporządzenie wykonawcze, które według Euronews i Kyiv Independent w dużej mierze **uchyla nowy pakiet sankcji i ceł na Rosję** z ustawy Grahama; rosyjski wysłannik Kirył Dmitriew nazwał to „historyczną chwilą”, a {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} według Kyiv Independent ocenił to jako „złe”.",
+    "W nocy na 17.10 Rosja przeprowadziła jeden z największych ataków na ukraińską energetykę: według Sił Powietrznych Ukrainy użyła 332 dronów i rakiet, a Zełenski mówi o uderzeniach w ponad 15 obiektów wytwarzania i przesyłu energii.",
+    "Rumunia zestrzeliła 17.10 dwa drony nad swoimi wodami terytorialnymi – komunikat rumuńskiego MON podaje, że poderwano dwa F-16, a drony wykryto ok. 120 km na wschód od Wyspy Wężowej.",
+    "Papież Leon XIV rozmawiał 16.10 z Putinem o oblężonych Oleszkach; Stolica Apostolska podała, że prosił o zawieszenie broni i korytarze humanitarne. Polscy dyplomaci byli wśród grupy zaatakowanej 17.10 przez zamaskowanych osadników na Zachodnim Brzegu – według Polsat News rzecznik MSZ RP przekazał, że Polacy nie ucierpieli."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-10-17",
+      "tagi": [
+        "rumunia",
+        "nato",
+        "ukraina"
+      ],
+      "miejsce": "wse-rumunii",
+      "krotko": "Dwa drony zestrzelone nad wodami Rumunii",
+      "etap": "PRZYJĘTE",
+      "tekst": "Dwa rumuńskie F-16 zestrzeliły 17.10 dwa drony wykryte przez radar ok. 120 km na wschód od Wyspy Wężowej, lecące na południowy zachód; oba spadły na **rumuńskie wody terytorialne** (wejście w przestrzeń powietrzną o 17:59 i 18:01, zestrzelenia o 18:01 i 18:05 czasu rumuńskiego). Według komunikatu MApN nr 213 myśliwce poderwano z bazy Borcea o 17:43; komunikat nie podaje pochodzenia dronów. Następstwo: kolejne naruszenie flanki wschodniej NATO nad Morzem Czarnym.",
+      "zrodla": [
+        {
+          "nazwa": "Ministerstwo Obrony Narodowej Rumunii (MApN)",
+          "url": "https://english.mapn.ro/cpresa/6888_Press-Release",
+          "data": "2026-10-17"
+        },
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-10-17/drony-zestrzelone-nad-morzem-czarnym-kraj-nato-potwierdza/",
+          "data": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-10-16",
+      "tagi": [
+        "usa",
+        "rosja",
+        "sankcje",
+        "ukraina"
+      ],
+      "miejsce": "waszyngton",
+      "krotko": "Trump uchyla pakiet sankcji na Rosję",
+      "etap": "PRZYJĘTE",
+      "tekst": "{{o:donald-trump|Donald Trump}} podpisał 16.10 rozporządzenie wykonawcze, które na mocy ustawy Lindsey’a Grahama o sankcjach wobec Rosji i Iranu **uchyla w dużej mierze nowy pakiet sankcji i ceł** tuż przed jego wejściem w życie; uzasadnił to interesem narodowym USA. Według Kyiv Independent pakiet obejmował cło 500% na towary z Rosji i 100% na towary z pięciu największych importerów rosyjskiej ropy i gazu. Rosyjski wysłannik Kirył Dmitriew nazwał decyzję „historyczną chwilą”; {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} według Kyiv Independent ocenił ją jako „złą”, a według Euronews powiedział, że Ukraina „nie może przyjąć umów o dieslu, bo potem przyjdą umowy gazowe”. Następstwo: zniknęła główna dźwignia nacisku ekonomicznego USA na Rosję, co zmniejsza presję na Moskwę w sprawie wojny i sankcji energetycznych, istotnych dla Europy i Polski. Treść rozporządzenia znana z doniesień, nie z tekstu Białego Domu.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/17/trump-signs-executive-order-waiving-new-russia-sanctions-package",
+          "data": "2026-10-17"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/trump-waives-latest-russia-sanctions-amid-growing-ukraine-us-tensions/",
+          "data": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "wojna",
+      "data": "2026-10-17",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "front",
+        "energia"
+      ],
+      "miejsce": "rowne",
+      "krotko": "Atak na ukraińską energetykę",
+      "etap": "W TOKU",
+      "tekst": "W nocy na 17.10 Rosja użyła według Sił Powietrznych Ukrainy (za Kyiv Independent i Radiem Wolna Europa) 332 dronów (w tym 31 odrzutowych) oraz rakiet Kalibr, Iskander-M/KN-23 i Ch-22/32; Ukraina strąciła według tych źródeł 289 dronów i łącznie 293 cele, uderzenia odnotowano w 22 miejscach. {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} mówi o uderzeniach w **ponad 15 obiektów energetycznych**, najciężej w Łucku, Równem, Żytomierzu, Winnicy, Szepetówce, Sławucie i Netyszynie; Winnica została bez prądu, a Ukrenergo wprowadziło awaryjne wyłączenia. Według Kyiv Independent rosyjskie ataki w ciągu doby zabiły w całym kraju 7 osób i zraniły ok. 90. Następstwo: kolejne uderzenia w sieć tuż przed zimą, gdy USA osłabiły sankcje na Rosję.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-attacks-kill-7-injure-dozens-across-ukraine-amid-continued-strikes-on-energy-infrastructure/",
+          "data": "2026-10-17"
+        },
+        {
+          "nazwa": "Radio Wolna Europa",
+          "url": "https://www.rferl.org/a/russia-ukraine-civilians-killed-attack/33878396.html",
+          "data": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "swiat",
+      "data": "2026-10-17",
+      "tagi": [
+        "inne",
+        "dyplomacja-rp",
+        "ue"
+      ],
+      "miejsce": "ramallah",
+      "krotko": "Atak osadników na dyplomatów w Tajjibie",
+      "etap": "PRZYJĘTE",
+      "tekst": "Zamaskowani izraelscy osadnicy zaatakowali 17.10 w Tajjibie (Taybeh) koło Ramallah na Zachodnim Brzegu grupę dyplomatów, wśród których według belgijskiego szefa MSZ Maximea Prévota byli konsul generalny Belgii oraz dyplomaci **francuscy i polscy**; ranny został francuski burmistrz, uszkodzono belgijski samochód. Armia izraelska nazwała atak „poważnym aktem przemocy” i podała, że wizyta nie była z nią uzgodniona, policja wszczęła śledztwo, a szef MSZ Izraela Gideon Sa’ar potępił atak. Według Polsat News rzecznik MSZ RP Maciej Wewiór przekazał, że Polacy nie ucierpieli, a Polska żąda od Izraela wyjaśnień i rozliczenia sprawców. Następstwo: Prévot zapowiedział naciski na sankcje UE wobec osadników, na kilkanaście dni przed wyborami w Izraelu (27.10).",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/17/european-diplomats-attacked-by-israeli-settlers-amid-rising-violence-in-occupied-west-bank",
+          "data": "2026-10-17"
+        },
+        {
+          "nazwa": "Associated Press (za Anchorage Daily News)",
+          "url": "https://www.adn.com/nation-world/2026/10/17/masked-settlers-attack-european-diplomats-in-the-occupied-west-bank/",
+          "data": "2026-10-17"
+        },
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-10-17/konwoj-zaatakowany-na-zachodnim-brzegu-znajdowali-sie-w-nim-polacy/",
+          "data": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "swiat",
+      "data": "2026-10-16",
+      "tagi": [
+        "rosja",
+        "ukraina"
+      ],
+      "etap": "PRZYJĘTE",
+      "tekst": "Papież Leon XIV zadzwonił 16.10 do Władimira Putina i według komunikatu Biura Prasowego Stolicy Apostolskiej wyraził głębokie zaniepokojenie sytuacją humanitarną w oblężonych Oleszkach (obwód chersoński), prosząc o **zawieszenie broni**, dostawy żywności i leków oraz dobrowolną, bezpieczną ewakuację cywilów. Kardynał Pietro Parolin powiedział, że o korytarze dla ok. 2 tys. cywilów prosi papież; według rosyjskich agencji (za Euronews) Putin podziękował za gotowość pomocy – zgody na rozejm nikt nie ogłosił. Papież został 17.10 wypisany ze szpitala Gemelli po operacji płuca.",
+      "zrodla": [
+        {
+          "nazwa": "Biuro Prasowe Stolicy Apostolskiej (Vatican News)",
+          "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-xiv-update.html",
+          "data": "2026-10-16"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/16/pope-leo-xiv-urges-putin-to-agree-to-truce-in-besieged-ukrainian-city-of-oleshky",
+          "data": "2026-10-16"
+        },
+        {
+          "nazwa": "Biuro Prasowe Stolicy Apostolskiej (Vatican News)",
+          "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-xiv-discharged-from-hospital-lung-surgery.html",
+          "data": "2026-10-17"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "OSW: ograniczenia dla Starshield uderzyły w ukraińskie ataki średniego zasięgu, ale nie świadczą o wstrzymaniu przez USA danych wywiadowczych",
+      "autor": "OSW (A. Wilk), 14.10.2026",
+      "tagi": [
+        "ukraina",
+        "usa",
+        "uzbrojenie"
+      ],
+      "tekst": "Według OSW nic nie wskazuje, by USA wstrzymały przekazywanie danych wywiadowczych Ukrainie – minister Andrij Sybiha temu zaprzeczył, a nieostrzeżenia o rosyjskich rakietach 12–13.10 pasują do błędów wykrywania. Noc 13/14.10 objęła ograniczenia w systemie Starshield (wojskowa wersja Starlinka), co miało zakłócić dwa drony nad Rosją i część misji w obwodzie zaporoskim; dłuższe ograniczenie osłabiłoby ataki średniego zasięgu na rosyjską logistykę, a wpływ na drony przechwytujące autor uznaje za przesadzony.",
+      "dla_polski": "Uzależnienie ukraińskiej obrony od amerykańskich systemów łączności pokazuje ryzyko także dla państw wschodniej flanki NATO, które opierają się na tych samych usługach.",
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-14/ukrainskie-problemy-z-danymi-wywiadowczymi-usa-i-systemem-starshield",
+          "data": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "tytul": "OSW: UE trzyma się warunkowości wobec Ukrainy, choć brakuje jej budżetu – Kijów nie spełnił 16 wskaźników reform",
+      "autor": "OSW (K. Sienicki), 14.10.2026",
+      "tagi": [
+        "ue",
+        "ukraina"
+      ],
+      "tekst": "Według OSW Ukraina ma lukę budżetową: Zełenski szacuje dodatkowe potrzeby obronne do końca roku na 27 mld USD, a rząd potrzebuje 29,5 mld USD na wydatki cywilne w 2026. Komisja Europejska podaje, że Ukraina może jeszcze otrzymać w 2026 roku 32,5 mld euro (17,1 mld powiązane z reformami); Bruksela odrzuciła wcześniejsze uruchomienie środków na 2027 i trzyma się warunkowości, bo niespełnionych jest 16 wskaźników planu reform, co blokuje ok. 5 mld euro.",
+      "dla_polski": "Spór o pieniądze i reformy wzmacnia ryzyko luki w finansowaniu Ukrainy w 2027 roku, co przełoży się na obciążenia także dla Polski jako państwa frontowego.",
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-14/wojna-nerwow-ukraina-potrzebuje-pieniedzy-ue-zada-reform",
+          "data": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "tytul": "OSW: parlament Saksonii-Anhalt przyjął uchwałę AfD i BSW o zakończeniu pomocy dla Ukrainy",
+      "autor": "OSW (K. Frymark), 15.10.2026",
+      "tagi": [
+        "niemcy",
+        "ukraina"
+      ],
+      "tekst": "Według OSW 14.10 landtag Saksonii-Anhalt przyjął wspólną uchwałę AfD (39 z 83 mandatów) i BSW (5), która wzywa do natychmiastowego rozejmu, rozmów z Moskwą, zniesienia sankcji i zakończenia pomocy niehumanitarnej dla Ukrainy. Rząd CDU premiera Svena Schulzego ma dwa miesiące na odpowiedź i według autora nie skieruje inicjatywy do Bundesratu; wrześniowy sondaż ARD pokazuje poparcie 57% mieszkańców dla zakończenia dostaw broni.",
+      "dla_polski": "Nastroje we wschodnich landach Niemiec utrudniają Berlinowi stabilne poparcie dla Ukrainy; zwycięstwo AfD w Saksonii-Anhalt oznaczałoby presję na politykę wschodnią.",
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-15/saksonia-anhalt-afd-i-bsw-zadaja-zakonczenia-udzielania-pomocy",
+          "data": "2026-10-15"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-10-24",
+      "tekst": "24.10: szczyt UE – Rada Współpracy Zatoki Perskiej w Rijadzie – według Euronews (16.10) przełożony; nowa data nieznana.",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-10-25",
+      "tekst": "25.10: Brazylia – II tura wyborów prezydenckich (Flávio Bolsonaro kontra Lula); Bułgaria – wybory prezydenta; Serbia – przedterminowe wybory parlamentarne.",
+      "tagi": [
+        "ameryki",
+        "balkany",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-27",
+      "tekst": "27.10: Izrael – wybory do Knesetu; 27–28.10 posiedzenie FOMC (decyzja 28.10).",
+      "tagi": [
+        "inne",
+        "wybory",
+        "usa"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-10-28",
+      "tekst": "27–28.10 FOMC (Fed), 28–29.10 posiedzenie EBC",
+      "tagi": [
+        "gospodarka"
+      ]
+    },
+    {
+      "data": "2026-11-01",
+      "tekst": "kolejne spotkanie państw OPEC+ w sprawie limitów wydobycia (na grudzień)",
+      "tagi": [
+        "energia"
+      ]
+    },
+    {
+      "data": "2026-11-03",
+      "tekst": "wybory połowy kadencji w USA",
+      "tagi": [
+        "usa",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-11-12",
+      "tekst": "Europejska Wspólnota Polityczna w Irlandii (12.11), 13.11 nieformalne spotkanie przywódców UE",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [
+      {
+        "tytul": "Ocieplenie? Węgry odblokowują otwarcie dwóch klastrów negocjacyjnych Ukrainy z UE",
+        "autor": "K. Sienicki, I. Gizińska, M. Jędrysiak",
+        "data": "2026-10-16",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-16/ocieplenie-wegry-odblokowuja-otwarcie-dwoch-klastrow-negocjacyjnych"
+      },
+      {
+        "tytul": "Saksonia-Anhalt: AfD i BSW żądają zakończenia udzielania pomocy Ukrainie",
+        "autor": "K. Frymark",
+        "data": "2026-10-15",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-15/saksonia-anhalt-afd-i-bsw-zadaja-zakonczenia-udzielania-pomocy"
+      },
+      {
+        "tytul": "Ukraińskie problemy z danymi wywiadowczymi USA i systemem Starshield",
+        "autor": "A. Wilk",
+        "data": "2026-10-14",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-14/ukrainskie-problemy-z-danymi-wywiadowczymi-usa-i-systemem-starshield"
+      },
+      {
+        "tytul": "Wojna nerwów: Ukraina potrzebuje pieniędzy, UE żąda reform",
+        "autor": "K. Sienicki",
+        "data": "2026-10-14",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-14/wojna-nerwow-ukraina-potrzebuje-pieniedzy-ue-zada-reform"
+      },
+      {
+        "tytul": "Porozumienie KE i ChRL ws. ograniczenia importu aut hybrydowych do UE",
+        "autor": "M. Kalwasiński",
+        "data": "2026-10-14",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-14/porozumienie-ke-i-chrl-ws-ograniczenia-importu-aut-hybrydowych-do-ue"
+      }
+    ],
+    "pism": []
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "prog": "dokumentacja",
+      "tekst": "Czechy: według e15 i Deník II tura wyborów do Senatu (16–17.10) zakończyła się porażką ANO (0 z 13–14 mandatów w II turze; STAN z SLK 10 mandatów, ODS 7 w nowym Senacie), ale oficjalnych wyników ČSÚ nie otwarto.",
+      "sprawdzono": [
+        "e15.cz – wyniki II tury (media czeskie, spoza rankingu)",
+        "Deník / aktualne.cz – relacje (spoza rankingu)",
+        "volby.gov.cz – strona wyników zwróciła błąd 404",
+        "wyszukiwarka: AP/Euronews II tura – tylko I tura z 11.10",
+        "ČTK/ceskenoviny.cz – wynik w wyszukiwarce, strony nie otwarto"
+      ]
+    },
+    {
+      "id": "n2",
+      "prog": "dokumentacja",
+      "tekst": "Ukraina–Słowacja–Węgry: Kyiv Independent (16.10) cytuje premiera Roberta Fico, że Słowacja i – jego zdaniem – Węgry nie przystąpią do pakietu 70 mld euro dla Ukrainy na 2027; stanowiska Budapesztu nie potwierdzono.",
+      "sprawdzono": [
+        "Kyiv Independent 16.10 (jedno źródło, wypowiedź Fico)",
+        "Euronews 17.10 – wywiad Magyara dla 444.hu nie dotyczy pakietu",
+        "Rada UE – konkluzje szczytu nie otwarte"
+      ]
+    },
+    {
+      "id": "n3",
+      "prog": "dokumentacja",
+      "tekst": "Wielka Brytania, Francja i Niemcy: według The Times (za Polsat News/PAP, 17.10) co najmniej 1500 żołnierzy ma ćwiczyć w Polsce w listopadzie logistykę przed ewentualną misją w Ukrainie po zawieszeniu broni; brak komunikatu MON ani brytyjskiego MoD.",
+      "sprawdzono": [
+        "Polsat News 17.10 (poziom 3, za The Times)",
+        "wyszukiwarka: komunikat MON/UK MoD – nie znaleziono",
+        "The Times – paywall, nie otwarto"
+      ]
+    },
+    {
+      "id": "n4",
+      "prog": "dokumentacja",
+      "tekst": "Cieśnina Ormuz: Euronews (17.10) podaje za dowództwem marynarki IRGC, że tankowiec z ponad 2 mln baryłek ropy uderzył w minę i płonie; CENTCOM (adm. Brad Cooper) twierdzi, że cieśnina jest otwarta. Nazwy statku, bandery i skutków nie podano; wcześniejsze podobne twierdzenia IRGC CENTCOM odrzucał.",
+      "sprawdzono": [
+        "Euronews 17.10 (jedyne źródło)",
+        "wyszukiwarka: tanker mine Hormuz – tylko wcześniejsze incydenty (lipiec, wrzesień)",
+        "CENTCOM – komunikatu nie otwarto"
+      ]
+    },
+    {
+      "id": "n5",
+      "prog": "dokumentacja",
+      "tekst": "Francja: Euronews i Polsat News (17.10) opisują starcia protestujących z policją w Paryżu, Marsylii, Lyonie i Brukseli (protesty przeciw kosztom życia); brak komunikatu MSW ani danych o zatrzymanych z agencji.",
+      "sprawdzono": [
+        "Euronews 17.10",
+        "Polsat News 17.10",
+        "wyszukiwarka: brak depesz AP/PAP o bilansie"
+      ]
+    },
+    {
+      "id": "n6",
+      "prog": "dokumentacja",
+      "tekst": "Rumunia/Morze Czarne: statek Wine Trader – po komunikatach z 15.10 (siedmiu zaginionych marynarzy z 12) brak nowych danych o poszukiwaniach i o przyczynie pożaru; rumuńskie władze nie wiążą jej oficjalnie z rosyjskimi dronami.",
+      "sprawdzono": [
+        "Maritime Executive 15.10 (poziom spoza rankingu)",
+        "wyszukiwarka: Wine Trader update – brak nowych wyników",
+        "komunikat MApN nr 213 (17.10) dotyczy tylko dronów"
+      ]
+    },
+    {
+      "id": "n7",
+      "prog": "dokumentacja",
+      "tekst": "Rosja–USA: Polsat News (16–17.10) pisze o zapowiedzi Putina utworzenia „strefy bezpieczeństwa” przy granicy z Ukrainą i o zapowiedzi „kolejnych umów” z USA (Dmitriew); brak depeszy agencji lub komunikatu Kremla z treścią.",
+      "sprawdzono": [
+        "Polsat News 16.10 (poziom 3, tytuły)",
+        "Kyiv Independent 17.10 – tylko wzmianka o roszczeniach Moskwy do 1800 km²",
+        "wyszukiwarka: brak transkrypcji Kremla"
+      ]
+    },
+    {
+      "id": "n8",
+      "prog": "dokumentacja",
+      "tekst": "Ukraina–USA: Zełenski potwierdził (Kyiv Independent, 17.10), że dostęp Ukrainy do Starlinka nie został w pełni przywrócony i nazwał to „planowaną operacją”; treść i zakres ograniczeń nie zostały potwierdzone przez SpaceX ani Pentagon.",
+      "sprawdzono": [
+        "Kyiv Independent 17.10 (jedno źródło)",
+        "OSW (A. Wilk, 14.10) – analiza o Starshield",
+        "SpaceX/Pentagon – komunikatu nie znaleziono"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-10-16#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Polsat News 17.10",
+        "Kyiv Independent 17.10 (Starlink nie w pełni przywrócony)",
+        "wyszukiwarka: Zelensky refineries 100 days – brak"
+      ],
+      "powod": "Brak depeszy agencji lub komunikatu o warunku „100 dni”; Kyiv Independent potwierdza tylko częściowe przywrócenie Starlinka (wpis n8)."
+    },
+    {
+      "dotyczy": "2026-10-16#n2",
+      "wynik": "UZUPEŁNIONE",
+      "pozycja": "z5"
+    },
+    {
+      "dotyczy": "2026-10-16#n3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Polsat News 16.10",
+        "Euronews wideo 16.10 (pożary fabryk w Odessie i Zaporożu)",
+        "wyszukiwarka: Wołyń polski zakład – brak komunikatu MSZ RP"
+      ],
+      "powod": "Brak komunikatu MSZ RP i źródła o właścicielu zakładu; MSZ RP komunikaty z 16–17.10 nie dotyczą Wołynia."
+    },
+    {
+      "dotyczy": "2026-10-16#n4",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "wyszukiwarka: Wine Trader – brak danych po 15.10",
+        "komunikat MApN nr 213 (17.10) – dotyczy dronów, nie statku",
+        "Euronews 16.10 – wywiad prezydenta Nicușora Dana o Morzu Czarnym"
+      ],
+      "powod": "Brak nowych komunikatów o zaginionych i przyczynie; NATO nie ogłosiło decyzji o Morzu Czarnym (wpis n6)."
+    },
+    {
+      "dotyczy": "2026-10-16#n5",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "e15.cz II tura",
+        "Deník – relacje",
+        "volby.gov.cz – 404"
+      ],
+      "powod": "Wyniki znane z mediów czeskich, ale oficjalnej strony ČSÚ nie otwarto; media czeskie spoza rankingu (wpis n1)."
+    },
+    {
+      "dotyczy": "2026-10-16#n6",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "imf.org – lista dokumentów IMFC (54. posiedzenie 16–17.10) bez komunikatu",
+        "wyszukiwarka: IMFC communique Bangkok – tylko zapowiedzi",
+        "thailand.go.th – zapowiedź"
+      ],
+      "powod": "Komunikat końcowy IMFC nie został jeszcze opublikowany; posiedzenie trwa do 17.10."
+    }
+  ],
+  "do_sprawdzenia": [
+    "MFW/Bank Światowy – komunikat IMFC z Bangkoku (po 17.10)",
+    "Czechy – oficjalne wyniki II tury Senatu (ČSÚ)",
+    "Ormuz – komunikat CENTCOM o tankowcu",
+    "Rada Europejska – oficjalne konkluzje, WRF, 22. pakiet sankcji",
+    "Rumunia – MApN: dalsze szczegóły o dronach z 17.10, Wine Trader",
+    "Izrael/Zachodni Brzeg – wyjaśnienia dla MSZ RP, sankcje UE wobec osadników",
+    "Brazylia, Bułgaria, Serbia – wybory 25.10",
+    "Komunikaty DO RSZ, SG, MON, ŻW z 17–18.10",
+    "PISM – publikacje z 15–17.10",
+    "Wołyń – polski zakład, MSZ RP"
+  ],
+  "nota": "Wydanie nr 29, przygotowane 17.10.2026 ok. 20:00 CEST, krótkie (5 pozycji): reszta tematów miała jedno źródło lub źródła poniżej progu i trafiła do „W obserwacji”. Dział Świat Onetu zablokowany; wyszukiwarka nie zwróciła jego nagłówków (dwa zapytania) – kompletność względem Onetu niepotwierdzona. Kanał Polsat News Świat otwarto (najnowszy wpis 17.10, 18:52); TVN24 i Meduzy nie próbowano; Euronews i Kyiv Independent otwarto. Z kanałów do zarysu trafiły 4 tematy (Rumunia, sankcje, Zachodni Brzeg, papież), do „W obserwacji” 6; część tematów Polsat News (m.in. Grenlandia, rzeczniczka Białego Domu, protesty w Kijowie) nie została rozliczona. Przedruków Reutersa nie wykorzystano; AP – 1 przedruk. OSW – 5 tekstów z 14–16.10 (3 omówione); PISM – brak dostępu do listy. Komunikatów DO RSZ, SG, MON, ŻW z 16–17.10 nie znaleziono wyszukiwarką – kompletność incydentów w Polsce niepotwierdzona. Konkluzji Rady UE nie otwarto. Karty osób Trumpa i Zełenskiego odświeżono. Kontrolę niezależną przeprowadził agent: poprawiono z1–z4 (lokalizacja dronów, atrybucja cytatów i bilansu ataków, termin wyborów w Izraelu); komunikatów DO RSZ/SG/MON/ŻW z 16–17.10 nie znalazł także on, a OSW z 16.10 o Węgrzech jest tylko w wykazie tekstów."
+}

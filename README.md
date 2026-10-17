@@ -117,7 +117,7 @@ Przy wątkach trwających miesiącami liczy się zmiana w danym miesiącu, nie s
   "od": "2026-09-07", "do": "2026-10-02", "opublikowano": "2026-10-02", "godzina": "09:00",
   "tytul": "…", "wstep": ["2–3 zdania"], "kryteria": "jak ustalono kolejność (ocena redakcji)",
   "pozycje": [{
-    "id": "krolewiec", "tytul": "…", "tagi": ["krolewiec", "nato"], "etap": "PRZYJĘTE (opcjonalnie)",
+    "id": "krolewiec", "tytul": "…", "data": "2026-09-30 (data wydarzenia z tytułu; kilka faktów: [od, do])", "tagi": ["krolewiec", "nato"], "etap": "PRZYJĘTE (opcjonalnie)",
     "lead": "1–2 zdania z **wyróżnieniem**", "omowienie": ["akapit: kontekst", "akapit: co się zmieniło"],
     "przebieg": [{"data": "2026-09-30", "tekst": "fakt", "etap": "opcjonalnie", "zrodla": [ZRODLO]}],
     "oceny": [{"autor": "OSW (J. Kowalski), Analiza z 1.10.2026", "tekst": "…", "zrodla": [ZRODLO]}],

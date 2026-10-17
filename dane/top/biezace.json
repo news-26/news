@@ -13,6 +13,7 @@
   {
    "id": "krolewiec",
    "tytul": "Rosja grozi NATO bronią jądrową w razie odizolowania Królewca",
+   "data": "2026-09-30",
    "tagi": [
     "krolewiec",
     "nato",
@@ -113,6 +114,7 @@
   {
    "id": "granica-niebo",
    "tytul": "Rosyjskie drony i śmigłowiec przy granicy; wojsko zmienia zasady obrony nieba",
+   "data": ["2026-09-13", "2026-09-30"],
    "tagi": [
     "obronnosc-polski",
     "hybryda",
@@ -269,6 +271,7 @@
   {
    "id": "mediacja-usa",
    "tytul": "Wysłannicy USA Witkoff i Kushner u Putina i Zełenskiego – bez rozejmu",
+   "data": ["2026-09-05", "2026-09-06"],
    "tagi": [
     "rozejm",
     "usa",
@@ -521,6 +524,7 @@
   {
    "id": "wojna-powietrzna",
    "tytul": "Rosja uderza w energetykę i mosty Kijowa, Ukraina w rafinerię w Moskwie",
+   "data": ["2026-09-20", "2026-10-13"],
    "tagi": [
     "front",
     "ukraina",
@@ -825,6 +829,7 @@
   {
    "id": "sankcje",
    "tytul": "USA zawieszają sankcje na rosyjski olej napędowy mimo ustawy o cłach do 100%; UE przyjmuje największe w historii rozszerzenie sankcji",
+   "data": ["2026-10-09", "2026-10-12"],
    "tagi": [
     "sankcje",
     "usa",
@@ -954,6 +959,7 @@
   {
    "id": "rosja-duma-armia",
    "tytul": "Jedna Rosja z większością konstytucyjną w Dumie; Putin powiększa armię",
+   "data": ["2026-09-25", "2026-09-28"],
    "tagi": [
     "rosja",
     "wybory"
@@ -1074,6 +1080,7 @@
   {
    "id": "ormuz-ropa",
    "tytul": "Rozmowy USA–Iran o Ormuzie utknęły, G7 uwalnia 100 mln baryłek rezerw; inflacja w Polsce rośnie do 4,0%, w strefie euro do 3,8%",
+   "data": ["2026-09-26", "2026-10-02"],
    "tagi": [
     "iran",
     "usa",
@@ -1255,6 +1262,7 @@
   {
    "id": "bialorus",
    "tytul": "Białoruś uwalnia 25 więźniów politycznych w zamian za zdjęcie sankcji USA z dwóch firm; szefowie MSZ Polski i Białorusi spotykają się pierwszy raz od dekady",
+   "data": ["2026-09-16", "2026-09-23"],
    "tagi": [
     "bialorus",
     "dyplomacja-rp",
@@ -1345,6 +1353,7 @@
   {
    "id": "niemcy-afd",
    "tytul": "AfD wygrywa w dwóch landach i szykuje z wysłannikiem Putina rozmowy o gazie",
+   "data": ["2026-09-06", "2026-09-20"],
    "tagi": [
     "niemcy",
     "wybory",
@@ -1428,6 +1437,7 @@
   {
    "id": "morze-czarne-statki",
    "tytul": "Drony uderzają w statki przy wybrzeżach Rumunii i Bułgarii; zaginieni marynarze, Bukareszt i Sofia nie wskazują sprawcy",
+   "data": ["2026-10-13", "2026-10-15"],
    "tagi": [
     "rumunia",
     "bulgaria",

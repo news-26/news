@@ -8,7 +8,7 @@ Dwa rodzaje zestawień, ten sam format (README, „Zestawienia Top 10”):
 ## Przebieg porannej aktualizacji
 
 1. `python3 narzedzia/top_kandydaci.py` – okno, obecne pozycje (z oznaczeniem tych, które wypadły z okna) i pozycje z wydań od ostatniej aktualizacji. Pierwszy raz albo przy wątpliwości: `--wszystkie`.
-2. Zaktualizuj `biezace.json`: przesuń `od`/`do`, ustaw `opublikowano` i `godzina`. Pozycja bez faktu w oknie wypada (walidacja jej nie przepuści). Nowy fakt w sprawie już obecnej – dopisz wiersz `przebieg` i odnośnik `w_wydaniach`, popraw lead. Nowa sprawa – wchodzi, jeśli spełnia kryteria i jest ważniejsza od ostatniej na liście. Zmień kolejność, jeśli waga się zmieniła. Popraw `wstep` tak, by opisywał obecne okno.
+2. Zaktualizuj `biezace.json`: przesuń `od`/`do`, ustaw `opublikowano` i `godzina`. Pozycja bez faktu w oknie wypada (walidacja jej nie przepuści). Nowy fakt w sprawie już obecnej – dopisz wiersz `przebieg` i odnośnik `w_wydaniach`, popraw lead; jeśli zmieniasz tytuł, zmień `data` (sekcja „Data wydarzenia”). Nowa sprawa – wchodzi, jeśli spełnia kryteria i jest ważniejsza od ostatniej na liście. Zmień kolejność, jeśli waga się zmieniła. Popraw `wstep` tak, by opisywał obecne okno.
 3. Jeśli nic istotnego się nie zmieniło, ogranicz się do przesunięcia okna i usunięcia pozycji, które z niego wypadły.
 4. **1. dnia miesiąca dodatkowo:** utwórz archiwum za miniony miesiąc (`top_kandydaci.py --miesiac RRRR-MM --wszystkie`), wychodząc od listy kroczącej i przycinając ją do miesiąca kalendarzowego: daty przebiegu w miesiącu (dopuszczalny tydzień kontekstu przed), kryteria liczone dla tego miesiąca. Archiwum nazywa się miesiącem („Październik 2026”).
 5. `python3 narzedzia/build.py`, commit „Top 10 – RRRR-MM-DD” (1. dnia: „Top 10 – <miesiąc RRRR>”), push na main jak w `notatki/procedura.md`, krok 5.
@@ -26,6 +26,15 @@ Kolejność: (1) wpływ na bezpieczeństwo i interesy Polski, (2) waga dla sytua
 ## Tytuły
 
 Według zasady „Tytuły” w `notatki/procedura.md`.
+
+## Data wydarzenia
+
+Każda pozycja ma pole `data` – datę wydarzenia opisanego w tytule, nie zakres całego przebiegu. Strona pokazuje ją przy tytule na wszystkich listach Top 10.
+
+- Jedno wydarzenie – jedna data: `"data": "2026-09-30"`.
+- Tytuł łączy kilka faktów („…; UE przedłuża sankcje”) – zakres od pierwszego do ostatniego z nich: `"data": ["2026-09-18", "2026-09-22"]`.
+- Każda data musi być datą wiersza `przebieg` z tym faktem (build.py to sprawdza).
+- Przy każdej zmianie tytułu (nowy fakt w sprawie) zmień też `data`. Data sprzed okna w zestawieniu kroczącym oznacza, że tytuł nie opisuje już najnowszego faktu – rozważ nowy tytuł.
 
 ## Weryfikacja
 

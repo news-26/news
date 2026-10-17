@@ -650,6 +650,12 @@ def waliduj_topy(topy, tagi, osoby, pojecia, klucze, b: Bledy):
                     b.dodaj(g, f"brak pola {pole}")
             if p.get("etap") not in ETAPY:
                 b.dodaj(g, f"etap musi być jednym z {sorted(x for x in ETAPY if x)}")
+            d = p.get("data")
+            d = d if isinstance(d, list) else [d]
+            if not (1 <= len(d) <= 2 and all(isinstance(x, str) and re.fullmatch(r"\d{4}-\d{2}-\d{2}", x) for x in d)) or d != sorted(d):
+                b.dodaj(g, "pole data: data wydarzenia z tytułu RRRR-MM-DD albo [od, do] (rosnąco)")
+            elif not set(d) <= {r.get("data") for r in p.get("przebieg", [])}:
+                b.dodaj(g, "pole data: każda data musi być datą wiersza przebiegu (fakt z tytułu ma źródło)")
             if "status" in p:
                 b.dodaj(g, "pole status – w zestawieniu są tylko informacje potwierdzone")
             if "rozstrzygniete" in p and not isinstance(p["rozstrzygniete"], bool):
@@ -1392,7 +1398,7 @@ class Budowa:
                 z = self.biezace or self.archiwum[-1]
                 tyt = f"ostatnie {TOP_OKNO_DNI} dni" if z["_kroczace"] else okres_topu(z)
                 cz.append(f'<h2 class="pasek">Top 10 · {e(tyt)}</h2><ol class="top-lista">' + "".join(
-                    f'<li><a href="top/{z["_slug"]}.html#t{n}">{e(p["tytul"])}</a> <span class="top-okres">{self.top_okres(z, p)}</span></li>' for n, p in enumerate(z["pozycje"], 1))
+                    f'<li><a href="top/{z["_slug"]}.html#t{n}">{e(p["tytul"])}</a> <span class="top-okres">{self.top_data(p)}</span></li>' for n, p in enumerate(z["pozycje"], 1))
                     + f'</ol><p class="dalej"><a href="top/{z["_slug"]}.html">Całe zestawienie z omówieniami</a></p>')
             nowe = self.publikacje_posortowane()[:5]
             if nowe:
@@ -1514,8 +1520,10 @@ class Budowa:
         od = (data_(z["od"]) - dt.timedelta(days=7)).isoformat() if z.get("_kroczace") else ""
         return sorted((r for r in p["przebieg"] if r["data"] >= od), key=lambda r: r["data"])
 
-    def top_okres(self, z, p):
-        d = [r["data"] for r in self.top_wiersze(z, p)]
+    @staticmethod
+    def top_data(p):
+        """Data wydarzenia z tytułu: jedna data albo [od, do], gdy tytuł łączy kilka faktów."""
+        d = p["data"] if isinstance(p["data"], list) else [p["data"]]
         a, b = data_krotka(d[0]), data_krotka(d[-1])
         return a if a == b else f"{a}–{b}"
 
@@ -1542,7 +1550,7 @@ class Budowa:
         cz = [f'<article class="top" id="t{n}">',
               f'<header class="top-glowa"><span class="top-nr" aria-hidden="true">{n}</span><div>'
               f'<h2 class="top-tytul"><span class="sr">{n}. </span>{e(p["tytul"])}</h2>'
-              f'<p class="top-meta"><span class="top-okres">{self.top_okres(z, p)}</span>{html_tagi(p.get("tagi"), self.tagi, prefix)}{etap}</p></div></header>',
+              f'<p class="top-meta"><span class="top-okres">{self.top_data(p)}</span>{html_tagi(p.get("tagi"), self.tagi, prefix)}{etap}</p></div></header>',
               f'<p class="top-lead">{T(p["lead"])}</p>']
         cz.extend(f"<p>{T(x)}</p>" for x in p.get("omowienie", []))
         cz.append('<h3 class="top-h">Przebieg</h3><ol class="przebieg">' + "".join(
@@ -1592,7 +1600,7 @@ class Budowa:
 </section>"""]
             cz.append('<section class="skrot"><h2>W skrócie</h2>' + "".join(f"<p>{T(x)}</p>" for x in z["wstep"]) + "</section>")
             cz.append('<nav class="top-spis" id="lista" aria-label="Dziesięć wydarzeń"><ol>' + "".join(
-                f'<li><a href="#t{n}">{e(p["tytul"])}</a> <span class="top-okres">{self.top_okres(z, p)}</span></li>'
+                f'<li><a href="#t{n}">{e(p["tytul"])}</a> <span class="top-okres">{self.top_data(p)}</span></li>'
                 for n, p in enumerate(z["pozycje"], 1)) + "</ol></nav>")
             if z.get("kryteria"):
                 cz.append(f'<p class="uwaga">{T(z["kryteria"])}</p>')
@@ -1609,14 +1617,14 @@ class Budowa:
             z = self.biezace
             lista += (f'<article class="top-karta"><h2><a href="{z["_slug"]}.html">Ostatnie {TOP_OKNO_DNI} dni</a></h2>'
                       f'<p class="uwaga">{data_dluga(z["od"])} – {data_dluga(z["do"])} · odświeżane codziennie</p><ol class="top-lista">' + "".join(
-                          f'<li><a href="{z["_slug"]}.html#t{n}">{e(p["tytul"])}</a> <span class="top-okres">{self.top_okres(z, p)}</span> {self.top_odznaka(z, p)}</li>' for n, p in enumerate(z["pozycje"], 1))
+                          f'<li><a href="{z["_slug"]}.html#t{n}">{e(p["tytul"])}</a> <span class="top-okres">{self.top_data(p)}</span> {self.top_odznaka(z, p)}</li>' for n, p in enumerate(z["pozycje"], 1))
                       + "</ol></article>")
             if self.archiwum:
                 lista += '<h2 class="pasek">Archiwum miesięczne</h2>'
         for z in reversed(self.archiwum):
             lista += (f'<article class="top-karta"><h2><a href="{z["_slug"]}.html">{e(okres_topu(z))}</a></h2>'
                       f'<p class="uwaga">Stan na {data_dluga(z["opublikowano"])}</p><ol class="top-lista">' + "".join(
-                          f'<li><a href="{z["_slug"]}.html#t{n}">{e(p["tytul"])}</a> <span class="top-okres">{self.top_okres(z, p)}</span> {self.top_odznaka(z, p)}</li>' for n, p in enumerate(z["pozycje"], 1))
+                          f'<li><a href="{z["_slug"]}.html#t{n}">{e(p["tytul"])}</a> <span class="top-okres">{self.top_data(p)}</span> {self.top_odznaka(z, p)}</li>' for n, p in enumerate(z["pozycje"], 1))
                       + "</ol></article>")
         tresc = ('<section class="winieta"><h1>Top 10</h1><p class="w-stan">Dziesięć najważniejszych wydarzeń ostatnich 30 dni, odświeżane codziennie, oraz archiwum zamkniętych zestawień za miesiące kalendarzowe – '
                  'z przebiegiem, ocenami ekspertów i wnioskiem „Dla Polski”. Kolejność to ocena redakcji; fakty mają źródła.</p>'

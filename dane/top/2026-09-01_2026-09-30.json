@@ -13,6 +13,7 @@
     {
       "id": "krolewiec",
       "tytul": "Rosja grozi NATO bronią jądrową w razie odizolowania Królewca",
+      "data": "2026-09-30",
       "tagi": [
         "krolewiec",
         "nato",
@@ -90,6 +91,7 @@
     {
       "id": "granica-niebo",
       "tytul": "Rosyjskie drony i śmigłowiec przy granicy; wojsko zmienia zasady obrony nieba",
+      "data": ["2026-09-13", "2026-09-30"],
       "tagi": [
         "obronnosc-polski",
         "hybryda",
@@ -246,6 +248,7 @@
     {
       "id": "mediacja-usa",
       "tytul": "Wysłannicy USA Witkoff i Kushner u Putina i Zełenskiego – bez rozejmu",
+      "data": ["2026-09-05", "2026-09-06"],
       "tagi": [
         "rozejm",
         "usa",
@@ -390,6 +393,7 @@
     {
       "id": "wojna-powietrzna",
       "tytul": "Rosja uderza w energetykę Kijowa, Ukraina w rafinerię w Moskwie",
+      "data": ["2026-09-20", "2026-09-30"],
       "tagi": [
         "front",
         "ukraina",
@@ -490,6 +494,7 @@
     {
       "id": "sankcje",
       "tytul": "Trump podpisuje ustawę o cłach do 100% na nabywców rosyjskiej ropy; UE przedłuża sankcje",
+      "data": ["2026-09-18", "2026-09-22"],
       "tagi": [
         "sankcje",
         "usa",
@@ -563,6 +568,7 @@
     {
       "id": "rosja-duma-armia",
       "tytul": "Jedna Rosja z większością konstytucyjną w Dumie; Putin powiększa armię",
+      "data": ["2026-09-25", "2026-09-28"],
       "tagi": [
         "rosja",
         "wybory"
@@ -683,6 +689,7 @@
     {
       "id": "ormuz-ropa",
       "tytul": "Rozmowy USA–Iran o Ormuzie utknęły; inflacja w Polsce rośnie do 4%",
+      "data": ["2026-09-26", "2026-09-30"],
       "tagi": [
         "iran",
         "usa",
@@ -806,6 +813,7 @@
     {
       "id": "bialorus",
       "tytul": "Białoruś uwalnia 25 więźniów politycznych w zamian za zdjęcie sankcji USA z dwóch firm; szefowie MSZ Polski i Białorusi spotykają się pierwszy raz od dekady",
+      "data": ["2026-09-16", "2026-09-23"],
       "tagi": [
         "bialorus",
         "dyplomacja-rp",
@@ -896,6 +904,7 @@
     {
       "id": "niemcy-afd",
       "tytul": "AfD wygrywa w dwóch landach i szykuje z wysłannikiem Putina rozmowy o gazie",
+      "data": ["2026-09-06", "2026-09-20"],
       "tagi": [
         "niemcy",
         "wybory",
@@ -979,6 +988,7 @@
     {
       "id": "region-kryzysy",
       "tytul": "Kryzysy polityczne w Serbii, Rumunii, na Słowacji i na Węgrzech",
+      "data": ["2026-09-27", "2026-09-30"],
       "tagi": [
         "balkany",
         "rumunia",

@@ -1,0 +1,371 @@
+{
+  "nr": 30,
+  "data": "2026-10-18",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Rano 18.10 ukraiński dron (według litewskiego krajowego centrum kryzysowego – wstępnie) spadł na północy **Litwy**, a według ministra obrony Robertasa Kaunasa wleciał z terytorium Polski; w nocy Litwa udaremniła też próbę podpalenia firmy ze sprzętem Starlink, którą premier Mindaugas Sinkevičius wiąże z Rosją.",
+    "Ukraina przeprowadziła w nocy na 18.10 masowy atak dronów na **Petersburg i obwód leningradzki** – według gubernatora Biegłowa pożary wybuchły w terminalu naftowym i na magazynach, a firmy VK i Ozon potwierdziły trafienia swoich obiektów.",
+    "We **Francji** protesty przeciw kosztom życia z 17.10 (550–800 tys. uczestników) przerodziły się w zamieszki: według rządu zatrzymano ok. 1200 osób, a spłonął ratusz w Limoges.",
+    "W obserwacji pozostają m.in. wypowiedzi sekretarza stanu Marco Rubio o „60-dniowej pauzie” w sankcjach na Rosję i o Starlinku oraz pożar w kanadyjskiej bazie Wainwright z ofiarami śmiertelnymi."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "polska",
+      "data": "2026-10-18",
+      "tagi": [
+        "litwa",
+        "nato",
+        "ukraina",
+        "obronnosc-polski"
+      ],
+      "miejsce": "polnocna-litwa",
+      "krotko": "Dron spada na północy Litwy",
+      "tekst": "Rano 18.10 obiekt uznany za drona wleciał w litewską przestrzeń powietrzną i eksplodował nad północą kraju w rejonie Birż; szczątki uszkodziły jadący samochód (między Birżami a Poswolem), nikt nie został ranny. Poderwane myśliwce NATO nie zestrzeliły obiektu – według ministra obrony Robertasa Kaunasa piloci nie mogli go zidentyfikować wzrokowo z powodu pogody; alarm ogłoszono w północnej Litwie. Kaunas poinformował, że obiekt **wstępnie wleciał z terytorium Polski**, i poprosił polskiego ministra obrony o wspólne zbadanie sprawy; szef litewskiego Narodowego Centrum Zarządzania Kryzysowego Vilmantas Vitkauskas ocenił, że to najprawdopodobniej ukraiński dron (informacja wstępna). Według Polsat News rzecznik ukraińskiego MSZ Heorhij Tychyj napisał, że Ukraina żałuje incydentu, który mógł wynikać z rosyjskiej wojny elektronicznej, a nieoficjalnie źródła w polskim MON twierdzą, że dron wystartował z Litwy i nie wleciał w polską przestrzeń; komunikatu polskiego MON ani DO RSZ nie znaleziono. Następstwo: trasa lotu pozostaje do wyjaśnienia we wspólnym śledztwie Litwy i Polski.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/18/possible-drone-explosion-in-northern-lithuania-near-latvian-border",
+          "data": "2026-10-18"
+        },
+        {
+          "nazwa": "LRT",
+          "url": "https://www.lrt.lt/en/news-in-english/19/3086051/drone-enters-lithuania-from-poland-debris-hits-a-car-on-rural-road",
+          "data": "2026-10-18"
+        },
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-10-18/ukraina-przeprasza-litwe-za-incydent-z-dronem-zalujemy/",
+          "data": "2026-10-18"
+        },
+        {
+          "nazwa": "Polsat News (alerty na Litwie i Łotwie)",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-10-18/alert-na-litwie-i-lotwie-czerwone-ostrzezenia-nakaz-udania-sie-do-schronu/",
+          "data": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-10-18",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "front",
+        "energia"
+      ],
+      "miejsce": "petersburg",
+      "krotko": "Ukraińskie drony uderzają w Petersburg",
+      "tekst": "W nocy na 18.10 ukraińskie drony zaatakowały **Petersburg i obwód leningradzki**: według gubernatora Petersburga Aleksandra Biegłowa pożary wybuchły w terminalu naftowym, w składzie Ruczji i na magazynach w dzielnicy Kołpino, a firmy VK (centrum danych w obwodzie leningradzkim) i Ozon (centrum logistyczne) potwierdziły trafienia. Gubernator obwodu Aleksandr Drozdenko podał, że zestrzelono nad obwodem ponad 100 dronów (Kyiv Independent: 127, Euronews: 144). Kyiv Independent cytuje Biegłowa: 1 zabity i 5 rannych; Euronews podaje, że według lokalnych władz zginęła 1 osoba, a 15 zostało rannych, i że Biegłow wstępnie mówił o braku rannych w Petersburgu. Następstwo: uderzenie w jeden z największych terminali paliwowych na Bałtyku, który jest ważny dla eksportu rosyjskich paliw; Euronews pisze o zamknięciu lotniska Pułkowo na ponad 7 godzin; doniesień o trafieniu w most (Kyiv Independent) nie potwierdzono.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/ukraine-war-latest-st-petersburg-slammed-by-drones-in-mass-ukrainian-attack/",
+          "data": "2026-10-18"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/18/ukrainian-forces-strike-st-petersburg-and-leningrad-region",
+          "data": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "swiat",
+      "data": "2026-10-18",
+      "tagi": [
+        "litwa",
+        "hybryda",
+        "rosja"
+      ],
+      "etap": "W TOKU",
+      "tekst": "W nocy na 18.10 (ok. 2:00) udaremniono próbę podpalenia litewskiej firmy przechowującej sprzęt Starlink: według premiera Mindaugasa Sinkevičiusa na miejscu znaleziono pojemniki z łatwopalnymi płynami, a podpalić miano anteny satelitarne i jednostkę sterującą; Sinkevičius nazwał to **próbą sabotażu** i elementem rosyjskiej wojny hybrydowej, dodając, że zleceniodawcą jest „najprawdopodobniej strona rosyjska” oraz że podobne zdarzenia były w Polsce i Bułgarii. Departament Straży Pożarnej i Ratownictwa potwierdził wszczęcie postępowania przygotowawczego; nie podano nazwy firmy ani zatrzymanych, a wskazanie Rosji to na razie ocena premiera. Następstwo: premier zwołał na 19.10 Komisję Bezpieczeństwa Narodowego, która zajmie się też dronem z 18.10.",
+      "zrodla": [
+        {
+          "nazwa": "LRT",
+          "url": "https://www.lrt.lt/en/news-in-english/19/3086054/attempted-arson-at-lithuanian-firm-storing-starlink-equipment-pm-blames-russia",
+          "data": "2026-10-18"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/lithuania-foils-arson-attack-on-starlink-equipment-suspects-russian-involvement/",
+          "data": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "instytucje",
+      "data": "2026-10-17",
+      "tagi": [
+        "francja",
+        "ue"
+      ],
+      "miejsce": "paryz",
+      "krotko": "Zamieszki po protestach we Francji",
+      "tekst": "Podczas protestów przeciw kosztom życia 17.10 we Francji (550–800 tys. uczestników według AFP, cytowanej przez Euronews; MSW szacuje 550 tys., związek CGT 800 tys.) część demonstracji przerodziła się w **zamieszki i grabieże**: spłonął zabytkowy ratusz w Limoges, podpalono biuro turystyczne w Lyonie, wdarto się do ratuszy m.in. w Marsylii, Lille i Angers; według rządu zatrzymano ok. 1200 osób, a obrażenia odniosło ok. 150 policjantów i żandarmów. Minister spraw wewnętrznych Laurent Nuñez obwinił grupy „kilkuset, a nawet kilku tysięcy” osób, które według niego inspirowała skrajna lewica; prezydent Emmanuel Macron napisał, że nie ma miejsca na przemoc, i zapowiedział ściganie sprawców. Następstwo: polityczny spór o koszty życia i usługi publiczne przeniósł się na ulice; liczba zatrzymanych rosła w niedzielę i jest wstępna.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/18/france-reels-after-cost-of-living-protests-see-widespread-violence",
+          "data": "2026-10-18"
+        },
+        {
+          "nazwa": "CNN",
+          "url": "https://www.cnn.com/2026/10/17/europe/half-million-protesters-sweep-france-in-youth-unrest-latam-intl",
+          "data": "2026-10-17"
+        }
+      ]
+    }
+  ],
+  "analizy": [],
+  "kalendarz": [
+    {
+      "data": "2026-10-19",
+      "tekst": "19.10: sekretarz stanu USA Marco Rubio w Samarkandzie – spotkanie ministrów spraw zagranicznych w formacie C5+1 (Uzbekistan, Kazachstan, Kirgistan, Tadżykistan, Turkmenistan) według Euronews (18.10).",
+      "tagi": [
+        "usa",
+        "inne"
+      ]
+    },
+    {
+      "data": "2026-10-24",
+      "tekst": "24.10: szczyt UE – Rada Współpracy Zatoki Perskiej w Rijadzie – według Euronews (16.10) przełożony; nowa data nieznana.",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-10-25",
+      "tekst": "25.10: Brazylia – II tura wyborów prezydenckich (Flávio Bolsonaro kontra Lula); Bułgaria – wybory prezydenta; Serbia – przedterminowe wybory parlamentarne.",
+      "tagi": [
+        "ameryki",
+        "balkany",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-27",
+      "tekst": "27.10: Izrael – wybory do Knesetu; 27–28.10 posiedzenie FOMC (decyzja 28.10).",
+      "tagi": [
+        "inne",
+        "wybory",
+        "usa"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-11-01",
+      "tekst": "kolejne spotkanie państw OPEC+ w sprawie limitów wydobycia (na grudzień)",
+      "tagi": [
+        "energia"
+      ]
+    },
+    {
+      "data": "2026-11-03",
+      "tekst": "wybory połowy kadencji w USA",
+      "tagi": [
+        "usa",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-11-12",
+      "tekst": "Europejska Wspólnota Polityczna w Irlandii (12.11), 13.11 nieformalne spotkanie przywódców UE",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [],
+    "pism": []
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "prog": "dokumentacja",
+      "tekst": "USA–Rosja–Ukraina: według Kyiv Independent (18.10) sekretarz stanu Marco Rubio nazwał rozporządzenie Trumpa o sankcjach na Rosję „60-dniową pauzą” (czas na analizę skutków przy wysokich cenach energii), zaprzeczył, że Biały Dom ograniczał Starlink, i dodał, że „nie jest pewien, czy Zełenski wie, o czym mówi”; Zełenski w NBC (18.10) powiedział, że USA wznowiły przekazywanie danych o rosyjskich startach rakiet balistycznych po ok. trzech dniach przerwy, a limit prędkości Starshield nadal obowiązuje; rozmawiał też z wysłannikami Trumpa Stevem Witkoffem i Jaredem Kushnerem. Brak tekstu Białego Domu/Departamentu Stanu i drugiego źródła z poziomów 1–2 dla słów Rubio.",
+      "sprawdzono": [
+        "Kyiv Independent 18.10 (trzy teksty)",
+        "Euronews 18.10 – tekst o Rubio w Samarkandzie nie dotyczy sankcji ani Starlinka",
+        "Polsat News 18.10 (poziom 3, tytuł)",
+        "wyszukiwarka: Rubio 60-day – wyniki tylko z wcześniejszych zwolnień z kwietnia–sierpnia"
+      ]
+    },
+    {
+      "id": "n3",
+      "prog": "dokumentacja",
+      "tekst": "Kanada: według Euronews (18.10) minister obrony David McGuinty i premier Mark Carney potwierdzili ofiary śmiertelne i rannych w pożarze w bazie CFB Wainwright w Albercie (ok. 210 km na wschód od Edmonton); nie podano liczby ofiar ani przyczyny, a doniesienia o ostrzale odwiertu gazowego są niepotwierdzone.",
+      "sprawdzono": [
+        "Euronews 18.10",
+        "Polsat News 18.10 (poziom 3)",
+        "wyszukiwarka: komunikat DND/CAF – wyniki tylko z 2020 r."
+      ]
+    },
+    {
+      "id": "n4",
+      "prog": "dokumentacja",
+      "tekst": "Węgry–Ukraina–Polska: według Kyiv Independent i Polsat News (17–18.10) premier Péter Magyar powiedział telewizji RTL, że Węgry nie widzą przeszkód w tranzycie ukraińskiego zboża do Europy Zachodniej, o co prosił go Zełenski na szczycie UE; Zełenski miał prosić o to także Polskę, Rumunię i Słowację – stanowiska polskiego rządu nie znaleziono.",
+      "sprawdzono": [
+        "Kyiv Independent 18.10",
+        "Polsat News 17.10 (poziom 3)",
+        "wyszukiwarka – brak komunikatu rządu RP"
+      ]
+    },
+    {
+      "id": "n5",
+      "prog": "dokumentacja",
+      "tekst": "Ukraina: Siły Powietrzne Ukrainy (cytowane przez Kyiv Independent, 18.10) podają, że w ostatniej dobie Rosja użyła m.in. pocisku Iskander-M i 180 dronów Shahed (w tym 26 odrzutowych); przechwycono 152 drony; według władz regionalnych zginęło co najmniej 10 cywilów, a 73 osoby zostały ranne (najwięcej w obwodzie donieckim). Brak drugiego źródła.",
+      "sprawdzono": [
+        "Kyiv Independent 18.10 (jedyne źródło z poziomów 1–2)",
+        "Polsat News RSS 18.10 – brak liczb Sił Powietrznych",
+        "Euronews RSS 18.10 – brak tekstu o nocnym ataku",
+        "wyszukiwarka: komunikat Sił Powietrznych Ukrainy – nie znaleziono"
+      ]
+    },
+    {
+      "id": "n6",
+      "prog": "dokumentacja",
+      "termin": "rada-europejska-2026-10",
+      "tekst": "Rada Europejska (15–16.10): nie otwarto oficjalnych konkluzji ani komunikatu Rady UE; znane są tylko wypowiedzi uczestników (m.in. Magyar o rozmowie z Zełenskim w Brukseli) i brak potwierdzonych decyzji ws. WRF 2028–34 i 22. pakietu sankcji.",
+      "sprawdzono": [
+        "Kyiv Independent 18.10 (wzmianka o szczycie)",
+        "Euronews 17–18.10 (wypowiedzi Magyara)",
+        "wyszukiwarka – konkluzji nie znaleziono"
+      ]
+    },
+    {
+      "id": "n7",
+      "prog": "dokumentacja",
+      "tekst": "Albania: według Euronews (17.10) piąty dzień protestów antyrządowych, policja użyła gumowych kul i zatrzymała setki osób; brak drugiego źródła z poziomów 1–2 i komunikatu rządu w Tiranie. Włochy: Euronews (18.10) – ok. 50 zatrzymanych w Mediolanie i starcia w Turynie i Bolonii podczas protestów kosztowych.",
+      "sprawdzono": [
+        "Euronews 17–18.10 (jedyne źródło)",
+        "Polsat News RSS – brak",
+        "wyszukiwarka – brak depeszy agencji"
+      ]
+    },
+    {
+      "id": "n8",
+      "prog": "dokumentacja",
+      "tekst": "Korea Północna: według Euronews (17.10) Pjongjang twierdzi, że przetestował nowy system torpedowy z użyciem sztucznej inteligencji; to wypowiedź strony zainteresowanej, bez niezależnego potwierdzenia (JCS Korei Płd., agencje).",
+      "sprawdzono": [
+        "Euronews 17.10 (przytacza KCNA)",
+        "Polsat News RSS – brak",
+        "wyszukiwarka – brak komunikatu sztabu Korei Południowej"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-10-17#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "wyszukiwarka: Czech Senate runoff 2026 – tylko wybory 2022 i 2024",
+        "Euronews RSS 17–18.10 – brak tekstu o wynikach",
+        "Polsat News RSS – brak"
+      ],
+      "powod": "Nie znaleziono oficjalnych wyników ČSÚ ani relacji z poziomów 1–2."
+    },
+    {
+      "dotyczy": "2026-10-17#n2",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kyiv Independent 18.10 – tekst o Magyarze dotyczy tranzytu zboża",
+        "Euronews 17.10 – Magyar o wizycie Zełenskiego w Budapeszcie",
+        "konkluzji Rady UE nie otwarto"
+      ],
+      "powod": "Brak stanowiska Budapesztu ani konkluzji w sprawie pakietu 70 mld euro."
+    },
+    {
+      "dotyczy": "2026-10-17#n3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Polsat News RSS 17.10 (Żołnierze NATO mają przyjechać do Polski)",
+        "wyszukiwarka – komunikatu MON/UK MoD nie znaleziono",
+        "The Times – paywall"
+      ],
+      "powod": "Nadal brak komunikatu MON ani brytyjskiego MoD."
+    },
+    {
+      "dotyczy": "2026-10-17#n4",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "wyszukiwarka: Hormuz tanker mine – w październiku tylko twierdzenia IRGC z 10–12.10",
+        "komunikatu CENTCOM nie znaleziono",
+        "Euronews 17–18.10 – tekst o Ormuzie niedostępny w przeglądzie"
+      ],
+      "powod": "Poza twierdzeniem IRGC brak niezależnego potwierdzenia; CENTCOM wcześniej odrzucał takie doniesienia."
+    },
+    {
+      "dotyczy": "2026-10-17#n5",
+      "wynik": "UZUPEŁNIONE",
+      "pozycja": "z3"
+    },
+    {
+      "dotyczy": "2026-10-17#n6",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kyiv Independent 17–18.10 – tylko Rumunia i drony",
+        "Polsat News RSS 17–18.10 – brak",
+        "Euronews RSS – brak"
+      ],
+      "powod": "Brak nowych danych o poszukiwaniach i przyczynie pożaru Wine Trader."
+    },
+    {
+      "dotyczy": "2026-10-17#n7",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Polsat News 16–17.10 (poziom 3)",
+        "wyszukiwarka – brak depeszy agencji z poziomu 2",
+        "Kyiv Independent 18.10 – rozmowa z wysłannikami USA, bez strefy"
+      ],
+      "powod": "Zapowiedź „strefy bezpieczeństwa” znana tylko z Polsat News."
+    },
+    {
+      "dotyczy": "2026-10-17#n8",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kyiv Independent 18.10 (Zełenski w NBC: limit Starshield nadal obowiązuje)",
+        "Polsat News 18.10 (Rubio zaprzecza)",
+        "wyszukiwarka – brak komunikatu Białego Domu/SpaceX"
+      ],
+      "powod": "Jedno źródło z poziomów 1–2; zob. wpis n1 w „W obserwacji”."
+    }
+  ],
+  "do_sprawdzenia": [
+    "Litwa/Polska – komunikat MON/DO RSZ o trasie ukraińskiego drona z 18.10; wyniki śledztwa litewskiego",
+    "Francja – bilans zatrzymanych i ofiar (MSW), decyzje rządu po zamieszkach",
+    "Petersburg – komunikat MON Rosji i Sztabu Generalnego Ukrainy; most",
+    "Kanada – DND: liczba ofiar i przyczyna pożaru w Wainwright",
+    "USA – tekst rozporządzenia Trumpa, wypowiedzi Rubio (Departament Stanu); rozmowy USA–Ukraina 20–21.10",
+    "Rubio w Samarkandzie (19.10) – C5+1",
+    "Czechy – wyniki II tury Senatu (ČSÚ)",
+    "Rada Europejska – konkluzje, WRF, 22. pakiet",
+    "Ormuz – CENTCOM",
+    "Brazylia, Bułgaria, Serbia – wybory 25.10",
+    "Komunikaty DO RSZ, SG, MON, ŻW z 17–18.10",
+    "OSW i PISM – publikacje z 15–18.10"
+  ],
+  "nota": "Wydanie nr 30, przygotowane 18.10.2026 ok. 20:00 CEST, krótkie (4 pozycje): reszta tematów ma jedno źródło z poziomów 1–2 i trafiła do „W obserwacji”. Dział Świat Onetu nie był próbowany (domena zablokowana), wyszukiwarka nie zwraca jego nagłówków – kompletność względem Onetu niepotwierdzona. Kanał Polsat News Świat otwarto (najnowszy wpis 18.10, 17:20); TVN24 i Meduzy nie próbowano; Kyiv Independent i Euronews otwarto. Z kanałów do zarysu trafiły 4 tematy (Litwa – dron i sabotaż, Petersburg, Francja), do „W obserwacji” 7; nie rozliczono m.in. wypowiedzi włoskiego ministra o Ukrainie, Grenlandii, protestów w Kijowie, zdrowia papieża Leona XIV ani wypowiedzi Magyara o Francji. Przedruków Reutersa nie wykorzystano. OSW i PISM: nie udało się otworzyć list publikacji (OSW 404, PISM pusta strona) – brak omówienia analiz. Komunikatów DO RSZ, SG, MON, ŻW z 17–18.10 nie znaleziono wyszukiwarką – kompletność incydentów w Polsce niepotwierdzona. Brak odświeżonych kart osób; nowe miejsca na mapie: Petersburg, północna Litwa. Rozporządzenie Trumpa o sankcjach, atak na konwój na Zachodnim Brzegu i zestrzelenie dronów nad Rumunią zostały opisane w wydaniu nr 29 (bez nowych faktów 18.10). Kontrola niezależna wykazała błędy w atrybucji (z1, z2, z4) – poprawiono; drugiego źródła dla z4 poza CNN i Euronews nie udało się otworzyć."
+}

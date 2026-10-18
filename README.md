@@ -101,14 +101,14 @@ Werdykt SPROSTOWANE z polem `dotyczy` oznacza oryginalną pozycję znakiem ▲ i
 
 ## Zestawienia Top 10 (dane/top/)
 
-Dwa rodzaje, ten sam format: **kroczące** `dane/top/biezace.json` – ostatnie 30 dni (`od` = `do` − 29 dni, `do` = ostatnie wydanie), odświeżane codziennie rano, strona `top/biezace.html` i blok na stronie głównej; **archiwum** `dane/top/RRRR-MM-01_RRRR-MM-OSTATNI.json` – zamknięte zestawienie za miesiąc kalendarzowy, tworzone 1. dnia następnego miesiąca, strona nazywa je miesiącem („Wrzesień 2026”). W zestawieniu kroczącym nie są pokazywane wiersze przebiegu starsze niż tydzień przed oknem, a każda pozycja musi mieć fakt w oknie. Materiał: `python3 narzedzia/top_kandydaci.py [--miesiac RRRR-MM] [--wszystkie]`. Procedura: `notatki/procedura-top10.md`.
+Dwa rodzaje, ten sam format: **kroczące** `dane/top/biezace.json` – ostatnie 7 dni (`od` = `do` − 6 dni, `do` = ostatnie wydanie), odświeżane codziennie rano, strona `top/biezace.html` i blok na stronie głównej; **archiwum** `dane/top/RRRR-MM-01_RRRR-MM-OSTATNI.json` – zamknięte zestawienie za miesiąc kalendarzowy, tworzone 1. dnia następnego miesiąca, strona nazywa je miesiącem („Wrzesień 2026”). W zestawieniu kroczącym nie są pokazywane wiersze przebiegu starsze niż tydzień przed oknem, a każda pozycja musi mieć fakt w oknie. Materiał: `python3 narzedzia/top_kandydaci.py [--miesiac RRRR-MM] [--wszystkie]`. Procedura: `notatki/procedura-top10.md`.
 
 **Kiedy wydarzenie trafia do Top 10** – trzy warunki naraz:
-1. zmieniło stan rzeczy w tym miesiącu (decyzja przyjęta, zmiana władzy, nowa zdolność wojskowa, incydent z realnym następstwem); retoryka i zapowiedzi bez terminu nie wystarczą,
+1. zmieniło stan rzeczy w danym okresie (tydzień w zestawieniu kroczącym, miesiąc w archiwum) (decyzja przyjęta, zmiana władzy, nowa zdolność wojskowa, incydent z realnym następstwem); retoryka i zapowiedzi bez terminu nie wystarczą,
 2. ma konkretny skutek dla Polski lub Europy albo zmienia ogólną sytuację międzynarodową (układ sił, wojny i rozejmy, relacje mocarstw, globalna gospodarka), co da się nazwać w jednym zdaniu,
-3. jest udokumentowane w co najmniej dwóch pozycjach wydań dziennych z tego miesiąca.
+3. jest udokumentowane w co najmniej dwóch pozycjach wydań dziennych z tego okresu.
 
-Przy wątkach trwających miesiącami liczy się zmiana w danym miesiącu, nie sam wątek. Kolejność: wpływ na bezpieczeństwo i interesy Polski → skala (ile państw lub instytucji) → trwałość skutków. Fakty bierzemy z wydań dziennych (już zweryfikowanych) i ich źródeł; nie weryfikujemy ich drugi raz, ale każdy wiersz przebiegu musi spełniać zasadę rankingu źródeł.
+Przy wątkach trwających miesiącami liczy się zmiana w danym okresie, nie sam wątek. Kolejność: wpływ na bezpieczeństwo i interesy Polski → skala (ile państw lub instytucji) → trwałość skutków. Fakty bierzemy z wydań dziennych (już zweryfikowanych) i ich źródeł; nie weryfikujemy ich drugi raz, ale każdy wiersz przebiegu musi spełniać zasadę rankingu źródeł.
 
 **Historia zestawień.** Sprawa ciągnąca się z miesiąca na miesiąc zachowuje to samo `id` – strona sama oznacza ją odznaką „ponownie” (była już w archiwum) i linkuje do zestawień archiwalnych; nowa sprawa dostaje „nowe”, a pole `"rozstrzygniete": true` daje odznakę „rozstrzygnięte”. Stare adresy zestawień zastąpionych miesięcznymi przekierowuje `TOP_PRZEKIEROWANIA` w `build.py`. Strona `top/OD_DO.html`, lista `top/index.html` (kroczące na górze, niżej archiwum), blok na stronie głównej, odnośniki na stronach wątków, wyszukiwarka i RSS (tylko archiwum).
 

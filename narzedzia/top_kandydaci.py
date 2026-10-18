@@ -2,7 +2,7 @@
 """Zwięzły materiał do Top 10 – zamiast czytania całych wydań (oszczędność tokenów).
 
 Użycie:
-    python3 narzedzia/top_kandydaci.py                 # zestawienie kroczące: okno 30 dni do ostatniego wydania
+    python3 narzedzia/top_kandydaci.py                 # zestawienie kroczące: okno 7 dni do ostatniego wydania
     python3 narzedzia/top_kandydaci.py --miesiac 2026-10   # archiwum: pełny miesiąc kalendarzowy
     --wszystkie   pokaż wszystkie niecytowane pozycje z okresu (domyślnie, gdy zestawienie już istnieje,
                   tylko z wydań po jego ostatniej aktualizacji – reszta była już rozważona)

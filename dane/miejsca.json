@@ -431,6 +431,18 @@
       "nazwa": "Morze Czarne (wody Bułgarii)",
       "lon": 28.6,
       "lat": 43.4
+    },
+    {
+      "id": "petersburg",
+      "nazwa": "Petersburg",
+      "lon": 30.34,
+      "lat": 59.94
+    },
+    {
+      "id": "polnocna-litwa",
+      "nazwa": "Północna Litwa",
+      "lon": 24.6,
+      "lat": 56.1
     }
   ]
 }

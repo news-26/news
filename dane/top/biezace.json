@@ -1,796 +1,124 @@
 {
- "od": "2026-09-18",
- "do": "2026-10-17",
+ "od": "2026-10-12",
+ "do": "2026-10-18",
  "opublikowano": "2026-10-18",
- "godzina": "06:30",
- "tytul": "Top 10: ostatnie 30 dni (18.09–17.10.2026)",
+ "godzina": "21:30",
+ "tytul": "Top 10: ostatnie 7 dni (12–18.10.2026)",
  "wstep": [
-  "Dziesięć spraw z ostatnich 30 dni (18.09–17.10.2026), które najbardziej zmieniły sytuację z perspektywy Polski. Każda ma przebieg z datami i źródłami, oceny ekspertów z podpisem oraz wniosek „Dla Polski”.",
-  "Oś okresu to eskalacja Rosji wobec NATO: **groźba jądrowa w sprawie Królewca**, powtórzona przez Putina 1.10, uderzenia tuż przy polskiej granicy i pierwsze od początku inwazji ataki dronów na mosty Kijowa oraz jeden z najcięższych tegorocznych zmasowanych ataków na Ukrainę w nocy 6/7.10. Amerykańska mediacja nie przyniosła rozejmu; USA proponują rozmowy techniczne do końca października, ale 8.10 sekretarz stanu Rubio mówi, że nie widać perspektyw wynegocjowanego porozumienia, a w dniach 9–10.10 w Miami odbyła się runda rozmów USA z Ukrainą i europejskimi doradcami, bez udziału Rosji i bez ogłoszonych ustaleń. Trump ogłosił 11.10 rozejm energetyczny, ale Zełenski i urzędnik ukraiński mówili, że Kijów nie ma szczegółów, a Rosja uderzyła w elektrociepłownię w Charkowie wkrótce po jego wpisie. Równocześnie 9.10 Waszyngton zawiesił sankcje na rosyjski olej napędowy, a 16.10 Trump rozporządzeniem w dużej mierze uchylił nowy pakiet sankcji i ceł z ustawy Grahama. W połowie października drony uderzają też w statki przy wybrzeżach Rumunii i Bułgarii: według Reutersa zginęło lub zaginęło co najmniej 23 marynarzy, a 15.10 pożar objął tankowiec w rumuńskich wodach terytorialnych, a 17.10 rumuńskie F-16 zestrzeliły dwa drony nad tymi wodami."
+  "Najważniejsze sprawy z ostatnich 7 dni (12–18.10.2026) – w tym tygodniu sześć spełnia kryteria. Każda ma przebieg z datami i źródłami oraz wniosek „Dla Polski”; starsze sprawy są w archiwum miesięcznym.",
+  "Oś tygodnia to **zależność Ukrainy od USA**: SpaceX ograniczył Starshield, a według Zełenskiego przez trzy dni nie docierały ostrzeżenia przed rosyjskimi rakietami; Trump w dużej mierze uchylił nowy amerykański pakiet sankcji, podczas gdy UE przyjęła największe rozszerzenie swoich. Na Morzu Czarnym rumuńskie F-16 zestrzeliły drony, a w Polsce i na Litwie celem sabotażu jest infrastruktura Starlinka."
  ],
- "kryteria": "Do zestawienia trafia wydarzenie, które spełnia trzy warunki: zmieniło stan rzeczy w ostatnich 30 dniach (zapadła decyzja, zmieniła się władza, powstała nowa zdolność wojskowa albo incydent miał realne następstwo – retoryka i zapowiedzi bez terminu nie wystarczą), ma konkretny skutek dla Polski lub Europy i jest udokumentowane w co najmniej dwóch pozycjach wydań dziennych. Przy wątkach trwających miesiącami liczy się zmiana w ostatnich 30 dniach, a nie sam wątek. Kolejność ustala redakcja według wpływu na bezpieczeństwo i interesy Polski, potem skali (ile państw lub instytucji dotyczy), potem trwałości skutków. Ranking jest więc oceną, a nie faktem; fakty mają źródła, oceny – autora.",
+ "kryteria": "Do zestawienia trafia wydarzenie, które spełnia trzy warunki: zmieniło stan rzeczy w ostatnich 7 dniach (zapadła decyzja, zmieniła się władza, powstała nowa zdolność wojskowa albo incydent miał realne następstwo – retoryka i zapowiedzi bez terminu nie wystarczą), ma konkretny skutek dla Polski lub Europy albo dla sytuacji międzynarodowej i jest udokumentowane w co najmniej dwóch pozycjach wydań dziennych. Przy wątkach trwających miesiącami liczy się zmiana w tygodniu, a nie sam wątek; tytuł opisuje najnowszy fakt. Gdy kryteria spełnia mniej niż dziesięć spraw, lista jest krótsza. Kolejność ustala redakcja według wpływu na bezpieczeństwo i interesy Polski, potem skali, potem trwałości skutków. Ranking jest więc oceną, a nie faktem; fakty mają źródła, oceny – autora.",
  "pozycje": [
   {
-   "id": "krolewiec",
-   "tytul": "Rosja grozi NATO bronią jądrową w razie odizolowania Królewca",
-   "data": "2026-09-30",
-   "tagi": [
-    "krolewiec",
-    "nato",
-    "rosja"
-   ],
-   "lead": "Rosja przekazała NATO pisemne ostrzeżenie: na próbę **odizolowania obwodu królewieckiego** odpowie „całym arsenałem, w tym bronią jądrową”. NATO potwierdziło otrzymanie dokumentu i potępiło „nieodpowiedzialną retorykę jądrową”. Putin powiedział 1.10, że przy „bezpośrednim ataku na Federację Rosyjską” kwestia użycia **„wszystkich rodzajów broni”** stanie na porządku dnia.",
-   "omowienie": [
-    "W dokumencie, który widział Reuters, Moskwa oskarża Sojusz o „niebezpieczny i lekkomyślny kurs” grożący bezpośrednim konfliktem i zastrzega możliwość uderzeń na „ośrodki decyzyjne” państw członkowskich od samego początku takiego konfliktu. Ostrzeżenie powtórzyły rosyjskie ambasady w kilku stolicach, a rzecznik Kremla {{o:dmitrij-pieskow|Dmitrij Pieskow}} wiązał je z wypowiedziami o obwodzie płynącymi z Europy.",
-    "NATO potwierdziło otrzymanie dokumentu. Rzeczniczka Sojuszu {{o:allison-hart|Allison Hart}} oświadczyła, że NATO „stanowczo potępia groźbę użycia siły, w tym nieodpowiedzialną retorykę jądrową”, a jego ćwiczenia nie zagrażają terytorium Rosji.",
-    "1.10 prezydent {{o:wladimir-putin|Władimir Putin}} na forum klubu Wałdaj powiedział, że przy „bezpośrednim ataku na Federację Rosyjską” kwestia użycia „wszystkich rodzajów broni” stanie „nieuchronnie i natychmiast” na porządku dnia. Rzecznik MSZ RP {{o:maciej-wewior|Maciej Wewiór}} nazwał 2.10 rosyjskie groźby „cyniczną i lekkomyślną próbą eskalacji”."
-   ],
-   "przebieg": [
-    {
-     "data": "2026-09-30",
-     "tekst": "Rosja przekazała NATO pisemny dokument: w razie próby odizolowania obwodu królewieckiego użyje całego arsenału, w tym broni jądrowej, i zastrzega możliwość uderzeń na „ośrodki decyzyjne” państw NATO.",
-     "zrodla": [
-      {
-       "nazwa": "Reuters (za The Moscow Times)",
-       "url": "https://www.themoscowtimes.com/2026/09/30/moscow-sends-nuclear-warning-to-nato-as-tensions-rise-in-the-baltic-a93828",
-       "data": "2026-09-30"
-      },
-      {
-       "nazwa": "AP (za CP24)",
-       "url": "https://www.cp24.com/news/world/2026/09/30/russia-warns-nato-of-a-possible-nuclear-response-if-kaliningrad-is-cut-off/",
-       "data": "2026-09-30"
-      }
-     ]
-    },
-    {
-     "data": "2026-09-30",
-     "tekst": "NATO potwierdziło otrzymanie dokumentu; rzeczniczka Allison Hart potępiła groźbę użycia siły i „nieodpowiedzialną retorykę jądrową”.",
-     "zrodla": [
-      {
-       "nazwa": "AP (za CP24)",
-       "url": "https://www.cp24.com/news/world/2026/09/30/russia-warns-nato-of-a-possible-nuclear-response-if-kaliningrad-is-cut-off/",
-       "data": "2026-09-30"
-      },
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/russia-issues-new-nuclear-threat-over-kaliningrad-as-tensions-with-nato-rise/",
-       "data": "2026-09-30"
-      }
-     ]
-    },
-    {
-     "data": "2026-10-01",
-     "tekst": "Putin na forum klubu Wałdaj: przy „bezpośrednim ataku na Federację Rosyjską” kwestia użycia „wszystkich rodzajów broni” stanie „nieuchronnie i natychmiast” na porządku dnia; rzecznik MSZ RP Maciej Wewiór (2.10) nazwał rosyjskie groźby „cyniczną i lekkomyślną próbą eskalacji”.",
-     "zrodla": [
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/10/02/putin-says-all-weapons-on-agenda-if-russias-kaliningrad-attacked",
-       "data": "2026-10-02"
-      },
-      {
-       "nazwa": "AFP (za Arab News)",
-       "url": "https://www.arabnews.pk/world/all-types-of-weapons-on-agenda-if-russias-kaliningrad-attacked-putin-3002905",
-       "data": "2026-10-01"
-      },
-      {
-       "nazwa": "PAP (za WP)",
-       "url": "https://wiadomosci.wp.pl/rzecznik-msz-o-pismie-moskwy-cyniczna-proba-eskalacji-7335530154125632a",
-       "data": "2026-10-02"
-      }
-     ]
-    }
-   ],
-   "oceny": [
-    {
-     "autor": "PISM (Anna Maria Dyner), Biuletyn nr 65 (3199), 28.09.2026",
-     "tekst": "Według Dyner wynik wyborów do Dumy pokazuje, że Moskwa nie jest zainteresowana deeskalacją. Autorka spodziewa się nasilenia uderzeń na Ukrainę i skoordynowanych działań hybrydowych wobec Polski, państw bałtyckich, Wielkiej Brytanii i Francji – wymierzonych w infrastrukturę krytyczną i w wybory w 2027 r.",
-     "zrodla": [
-      {
-       "nazwa": "PISM",
-       "url": "https://pism.pl/publikacje/rosyjski-potencjal-eskalacyjny",
-       "data": "2026-09-28"
-      }
-     ]
-    },
-    {
-     "autor": "PISM (Marcin Andrzej Piotrowski), Komentarz z 29.09.2026, za oceną duńskiego wywiadu wojskowego z 24.09",
-     "tekst": "Piotrowski referuje ocenę Duńczyków: Rosja może przeprowadzić ograniczone uderzenia rakietowe lub dronowe na wschodnią flankę NATO, także pod fałszywą flagą, a przygotowania do takich operacji trwałyby od kilku do sześciu miesięcy i byłyby wykrywalne. Autor uznaje te wnioski za zbieżne z ocenami Francji, Polski, Niemiec i Litwy.",
-     "zrodla": [
-      {
-       "nazwa": "PISM",
-       "url": "https://www.pism.pl/publikacje/wywiad-danii-aktualizuje-ocene-zagrozen-z-rosji",
-       "data": "2026-09-29"
-      }
-     ]
-    }
-   ],
-   "dla_polski": "Obwód królewiecki graniczy z Polską, a groźba dotyczy właśnie scenariusza jego izolacji – każda polska decyzja o ćwiczeniach, kontroli żeglugi na Bałtyku czy obronie przesmyku suwalskiego będzie w Moskwie czytana w tym kluczu. Wniosek redakcji: takie kroki warto uzgadniać w NATO i jawnie komunikować ich obronny charakter, nie rezygnując z nich pod presją groźby.",
-   "w_wydaniach": [
-    "2026-09-30#z2",
-    "2026-09-24#z4",
-    "2026-10-02#z1"
-   ]
-  },
-  {
-   "id": "granica-niebo",
-   "tytul": "Rosyjskie drony i śmigłowiec przy granicy; wojsko zmienia zasady obrony nieba",
+   "id": "morze-czarne-statki",
+   "tytul": "Rumuńskie F-16 zestrzeliwują dwa drony nad Morzem Czarnym; drony trafiają statki przy wybrzeżach Rumunii i Bułgarii, Bukareszt i Sofia nie wskazują sprawcy",
    "data": [
-    "2026-09-13",
-    "2026-09-30"
-   ],
-   "tagi": [
-    "obronnosc-polski",
-    "hybryda",
-    "rosja",
-    "nordyckie"
-   ],
-   "etap": "PRZYJĘTE",
-   "lead": "Rosyjskie drony dwa razy uderzyły tuż przy przejściu Dorohusk–Jagodzin, a śmigłowiec Mi-8 na krótko naruszył polską przestrzeń powietrzną. Od 1.10 wojsko stosuje **{{p:identyfikacja-pozytywna|identyfikację pozytywną}}** zamiast wzrokowej, a szwedzkie {{p:gripen|Gripeny}} wspierają obronę nieba nad Polską.",
-   "omowienie": [
-    "We wrześniu rosyjskie uderzenia na zachodnią Ukrainę kilka razy padły tuż przy Polsce. 13.09 drony uszkodziły lokomotywę pociągu Kijów–Warszawa na stacji Jagodzin, ok. 2 km od granicy, i stację paliw przy przejściu; 28.09 dron odrzutowy uderzył – według ministra obrony – ok. 2 km od przejścia w Dorohusku, po stronie ukraińskiej. 23.09 rosyjski Mi-8 z obwodu królewieckiego przez 42 sekundy leciał nad Polską na północ od Braniewa. W nocy z 23 na 24.09 spłonęła stacja naziemna Starlink pod Grójcem; prokuratura bada to jako sabotaż na rzecz obcego wywiadu.",
-    "Odpowiedzią jest zmiana zasad. Wicepremier, minister obrony {{o:wladyslaw-kosiniak-kamysz|Władysław Kosiniak-Kamysz}} ogłosił, że od 1.10 decyzja o zestrzeleniu może zapaść na podstawie danych z radarów i systemów elektronicznych, także informacji z Ukrainy, bez zbliżania się pilota do obiektu. Zmianę wprowadzają rozkazy dowództwa, bez ustawy. 30.09 Szwecja zdecydowała, że jej myśliwce od października wesprą natowską obronę powietrzną nad Polską i ochronę węzła logistycznego pomocy dla Ukrainy."
-   ],
-   "przebieg": [
-    {
-     "data": "2026-09-13",
-     "tekst": "Rosyjskie drony uderzyły przy przejściu Dorohusk–Jagodzin: uszkodzona lokomotywa pociągu Kijów–Warszawa na stacji Jagodzin, ok. 2 km od granicy, i stacja paliw.",
-     "zrodla": [
-      {
-       "nazwa": "PAP (za portalsamorzadowy.pl)",
-       "url": "https://www.portalsamorzadowy.pl/wydarzenia-lokalne/pilna-narada-na-najwyzszym-szczeblu-panstwowym-chodzi-o-bezpieczenstwo-polski,676731.html",
-       "data": "2026-09-18"
-      },
-      {
-       "nazwa": "OSW",
-       "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-09-15/rosjanie-uderzaja-przy-granicy-z-polska-1665-dzien-wojny",
-       "data": "2026-09-15"
-      },
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/russias-strike-near-poland-put-ukraines-railway-lifeline-in-focus-but-the-bigger-threat-lies-elsewhere/",
-       "data": "2026-09-27"
-      }
-     ]
-    },
-    {
-     "data": "2026-09-23",
-     "tekst": "Rosyjski śmigłowiec Mi-8 z obwodu królewieckiego naruszył polską przestrzeń powietrzną na północ od Braniewa (ok. 300 m w głąb, 42 sekundy); Dowództwo Operacyjne RSZ poderwało myśliwce.",
-     "zrodla": [
-      {
-       "nazwa": "PAP (za portalsamorzadowy.pl)",
-       "url": "https://www.portalsamorzadowy.pl/wydarzenia-lokalne/rosja-naruszyla-polska-przestrzen-powietrzna-mysliwce-ruszyly-za-smiglowcem-mi-8,677294.html",
-       "data": "2026-09-23"
-      },
-      {
-       "nazwa": "RFE/RL",
-       "url": "https://www.rferl.org/a/ukraie-russia-attacks-civilians-killed-drone-threats/33864157.html",
-       "data": "2026-09-25"
-      },
-      {
-       "nazwa": "Defence24",
-       "url": "https://defence24.pl/polityka-obronna/rosyjski-smiglowiec-naruszyl-polska-przestrzen-powietrzna",
-       "data": "2026-09-23"
-      }
-     ]
-    },
-    {
-     "data": "2026-09-24",
-     "tekst": "W nocy z 23 na 24.09 spłonęła stacja naziemna Starlink w Woli Krobowskiej (pow. grójecki); prokuratura prowadzi śledztwo w sprawie sabotażu i przestępstwa o charakterze terrorystycznym na rzecz obcego wywiadu.",
-     "zrodla": [
-      {
-       "nazwa": "Prokuratura Krajowa (gov.pl)",
-       "url": "https://www.gov.pl/web/prokuratura-krajowa/wszczecie-sledztwa-w-sprawie-pozaru-stacji-starlink-w-woli-krobowskiej",
-       "data": "2026-09-24"
-      },
-      {
-       "nazwa": "RMF24",
-       "url": "https://www.rmf24.pl/regiony/warszawa/news-sabotaz-przestepstwo-terrorystyczne-rosyjskie-sluzby-jest-sl,nIdn,1019237",
-       "data": "2026-09-25"
-      }
-     ]
-    },
-    {
-     "data": "2026-09-28",
-     "tekst": "Według ministra obrony rosyjski dron odrzutowy uderzył po stronie ukraińskiej ok. 2 km od przejścia w Dorohusku; nie doszło do naruszenia polskiej przestrzeni powietrznej.",
-     "zrodla": [
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/russian-drone-strikes-near-ukraine-poland-border-crossing-in-volyn-oblast/",
-       "data": "2026-09-28"
-      },
-      {
-       "nazwa": "PAP (za portalsamorzadowy.pl)",
-       "url": "https://www.portalsamorzadowy.pl/polityka-i-spoleczenstwo/szef-mon-dron-uderzyl-ok-2-km-od-polskiej-granicy,677836.html",
-       "data": "2026-09-28"
-      },
-      {
-       "nazwa": "RMF24",
-       "url": "https://www.rmf24.pl/fakty/swiat/news-rosyjski-dron-uderzyl-tuz-przy-polskiej-granicy-incydent-w-p,nIdn,1019550",
-       "data": "2026-09-28"
-      }
-     ]
-    },
-    {
-     "data": "2026-09-30",
-     "tekst": "Od 1.10 piloci i obrona powietrzna stosują identyfikację pozytywną (radary, systemy elektroniczne, informacje m.in. z Ukrainy) zamiast wzrokowej; zmiana na poziomie rozkazów dowództwa, bez ustawy (zapowiedź MON z 28.09).",
-     "zrodla": [
-      {
-       "nazwa": "PAP (za portalsamorzadowy.pl)",
-       "url": "https://www.portalsamorzadowy.pl/wydarzenia-lokalne/koniec-samego-odstraszania-wrogich-samolotow-od-1-pazdziernika-mysliwce-moga-strzelac,678097.html",
-       "data": "2026-09-30"
-      },
-      {
-       "nazwa": "AFP (za Insider Paper)",
-       "url": "https://insiderpaper.com/poland-to-allow-fighter-pilots-to-shoot-down-foreign-aircraft-defense-minister-says",
-       "data": "2026-09-28"
-      },
-      {
-       "nazwa": "Dziennik.pl / Gazeta Prawna",
-       "url": "https://wiadomosci.dziennik.pl/polityka/artykuly/11322248,zmiany-w-obronie-polskiego-nieba-wojsko-wprowadza-nowe-zasady.html",
-       "data": "2026-09-30"
-      }
-     ]
-    },
-    {
-     "data": "2026-09-30",
-     "tekst": "Rząd Szwecji: myśliwce JAS 39 Gripen ze skrzydła F 17 od października wspierają natowską obronę powietrzną nad Polską i ochronę węzła logistycznego w południowo-wschodniej Polsce; działają głównie ze Szwecji, misja ma trwać ok. dwóch miesięcy (SVT).",
-     "zrodla": [
-      {
-       "nazwa": "Rząd Szwecji",
-       "url": "https://www.regeringen.se/pressmeddelanden/2026/09/sverige-bidrar-med-stridsflyg-till-natoinsats-i-polen/",
-       "data": "2026-09-30"
-      },
-      {
-       "nazwa": "SVT",
-       "url": "https://www.svt.se/nyheter/utrikes/sverige-skickar-gripen-till-polen-igen",
-       "data": "2026-09-30"
-      }
-     ]
-    }
-   ],
-   "oceny": [
-    {
-     "autor": "OSW (Marek Menkiszak), Analiza z 18.09.2026",
-     "tekst": "Menkiszak ocenia, że Rosja, która utknęła militarnie, prowadzi trójtorową strategię: nasilać uderzenia na Ukrainę, destabilizować Europę działaniami hybrydowymi – dezinformacją, sabotażem, cyberatakami i wlotami dronów – oraz zjednywać administrację USA perspektywą interesów. Sygnały słabości Zachodu Moskwa odczytuje według niego jako potwierdzenie, że eskalacja się opłaca.",
-     "zrodla": [
-      {
-       "nazwa": "OSW",
-       "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-09-18/rosyjski-plan-wojny-podporzadkowac-ukraine-zastraszyc-europe",
-       "data": "2026-09-18"
-      }
-     ]
-    }
-   ],
-   "dla_polski": "Nowe procedury skracają czas reakcji, ale przenoszą ciężar decyzji na dowódców i dane z czujników – pomyłka w identyfikacji przy granicy miałaby poważne skutki polityczne. Wniosek redakcji: równie ważne jak szybkie strzelanie jest szybkie i jawne informowanie o każdym incydencie (co, gdzie, kiedy) oraz stała wymiana danych radarowych z Ukrainą, na którą MON już się powołuje.",
-   "w_wydaniach": [
-    "2026-09-24#z5",
-    "2026-09-26#z3",
-    "2026-09-29#z4",
-    "2026-09-29#z5",
-    "2026-09-30#z5",
-    "2026-10-01#z3"
-   ]
-  },
-  {
-   "id": "mediacja-usa",
-   "tytul": "Wysłannicy USA Witkoff i Kushner u Putina i Zełenskiego – bez rozejmu",
-   "data": [
-    "2026-09-05",
-    "2026-09-06"
-   ],
-   "tagi": [
-    "rozejm",
-    "usa",
-    "rosja",
-    "ukraina"
-   ],
-   "lead": "Wysłannicy prezydenta USA {{o:steve-witkoff|Steve Witkoff}} i {{o:jared-kushner|Jared Kushner}} rozmawiali 5.09 z Putinem w Moskwie, a 6.09 z {{o:wolodymyr-zelenski|Wołodymyrem Zełenskim}} w Kijowie. Do 9.10 nie ogłoszono **ani rozejmu, ani potwierdzonej daty rozmów trójstronnych**; Zełenski mówi o propozycji USA spotkania technicznego do końca października. Sekretarz stanu Marco Rubio ocenił 8.10, że nie widać perspektyw wynegocjowanego porozumienia. Dwudniowa runda w Miami (9–10.10) zakończyła się **bez ogłoszonych ustaleń**.",
-   "omowienie": [
-    "Na czas wizyty Kreml ogłosił trzydniową przerwę w atakach na Kijów, od północy 6.09. Rozmowy w Kijowie, z udziałem doradców ds. bezpieczeństwa Wielkiej Brytanii, Francji i Niemiec, nie przyniosły przełomu: Zełenski mówił, że Ukraina spodziewa się dalszej wojny i liczy na zimowy pakiet pomocy. W nocy na 8.09, po wyjeździe wysłanników, Rosja zaatakowała Kijów pociskami i dronami; zginęli cywile.",
-    "8.09 {{o:donald-trump|Donald Trump}} rozmawiał z Putinem przez około godzinę. Doradca Kremla {{o:jurij-uszakow|Jurij Uszakow}} zapewniał po niej, że Rosja nie ma „agresywnych planów” wobec Europy. 14.09 Trump ogłosił, że Ukraina i Rosja zgodziły się nie atakować swoich obiektów energetycznych – żadna ze stron tego nie potwierdziła, a pod koniec września Rosja zaatakowała ukraińską energetykę na dużą skalę. Równolegle Departament Stanu zatwierdził 19.09 możliwą sprzedaż Ukrainie sprzętu obrony powietrznej za 2,68 mld USD, finansowaną z wpłat europejskich i programu {{p:fmf|FMF}}.",
-    "4.10 Zełenski powiedział w Kijowie, że strona amerykańska proponuje spotkanie trójstronne na szczeblu technicznym do końca października, a Ukraina zgodziła się na ten termin. To wersja strony ukraińskiej: ani Biały Dom, ani Kreml nie potwierdziły terminu.",
-    "9.10 w Miami rozpoczęła się runda rozmów wysłanników USA z delegacją Ukrainy i doradcami Francji, Niemiec i Wielkiej Brytanii; Rosja w nich nie uczestniczy. Według Euronews Ukraina zabiega o ograniczone zawieszenia broni (Morze Czarne, infrastruktura energetyczna), a według Radia Wolna Europa USA mają przedstawić nową wspólną propozycję.",
-    "10.10 runda w Miami zakończyła się bez ogłoszonych ustaleń i bez terminu kolejnego spotkania; według Witkoffa była „konstruktywna”. Tego dnia Trump powiedział, że Ukraina powinna dostać „nowego prezydenta”, i że kazał Zełenskiemu nie uderzać w rosyjskie rafinerie – to wypowiedź, nie decyzja. Zełenski zapowiedział relację delegacji w Kijowie 12.10."
-   ],
-   "przebieg": [
-    {
-     "data": "2026-09-05",
-     "tekst": "Witkoff i Kushner u Putina w Moskwie; Kreml ogłosił trzydniową przerwę w atakach na Kijów od północy 6.09.",
-     "zrodla": [
-      {
-       "nazwa": "OSW",
-       "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-09-07/witkoff-i-kushner-w-moskwie-oraz-kijowie-bialy-dom-wznawia",
-       "data": "2026-09-07"
-      },
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/russia-pounds-kyiv-in-overnight-attack-as-brief-truce-ends-in-missile-fire/",
-       "data": "2026-09-08"
-      }
-     ]
-    },
-    {
-     "data": "2026-09-06",
-     "tekst": "Rozmowy wysłanników w Kijowie z Zełenskim i doradcami Wielkiej Brytanii, Francji i Niemiec – bez przełomu; strony chcą rozmów trójstronnych, bez terminu.",
-     "zrodla": [
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/us-envoys-witkoff-kushner-arrive-in-ukraine/",
-       "data": "2026-09-06"
-      },
-      {
-       "nazwa": "OSW",
-       "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-09-07/witkoff-i-kushner-w-moskwie-oraz-kijowie-bialy-dom-wznawia",
-       "data": "2026-09-07"
-      }
-     ]
-    },
-    {
-     "data": "2026-09-08",
-     "tekst": "Po zakończeniu przerwy zmasowany atak pociskami i dronami na Kijów, z ofiarami śmiertelnymi wśród cywilów.",
-     "zrodla": [
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/russia-pounds-kyiv-in-overnight-attack-as-brief-truce-ends-in-missile-fire/",
-       "data": "2026-09-08"
-      },
-      {
-       "nazwa": "OSW",
-       "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-09-08/trzy-dni-spokoju-w-kijowie-1658-dzien-wojny",
-       "data": "2026-09-08"
-      }
-     ]
-    },
-    {
-     "data": "2026-09-08",
-     "tekst": "Godzinna rozmowa telefoniczna Trump–Putin; doradca Kremla Uszakow: Rosja nie ma „agresywnych planów” wobec Europy.",
-     "zrodla": [
-      {
-       "nazwa": "AFP (za Citizen Digital)",
-       "url": "https://citizen.digital/article/russia-says-putin-trump-had-frank-call-after-us-envoys-visit-n389806",
-       "data": "2026-09-09"
-      },
-      {
-       "nazwa": "RFE/RL",
-       "url": "https://www.rferl.org/a/ukraie-russia-attacks-civilians-killed-drone-threats/33864157.html",
-       "data": "2026-09-25"
-      },
-      {
-       "nazwa": "Al Jazeera",
-       "url": "https://www.aljazeera.com/news/2026/9/8/trump-putin-hold-frank-phone-call-as-us-restarts-ukraine-deal-efforts",
-       "data": "2026-09-08"
-      }
-     ]
-    },
-    {
-     "data": "2026-09-14",
-     "tekst": "Trump: Ukraina i Rosja zgodziły się nie atakować celów energetycznych; ani Kijów, ani Moskwa tego nie potwierdziły.",
-     "zrodla": [
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/breaking-trump-claims-ukraine-russia-agree-to-halt-strikes-on-energy-targets/",
-       "data": "2026-09-14"
-      },
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/09/14/trump-says-ukraine-and-russia-agree-to-halt-strikes-on-energy-targets",
-       "data": "2026-09-14"
-      }
-     ]
-    },
-    {
-     "data": "2026-09-19",
-     "tekst": "Departament Stanu zatwierdził możliwą sprzedaż Ukrainie sprzętu obrony powietrznej za 2,68 mld USD (m.in. pociski do systemów typu S-300, radary przeciwdronowe RPS-202), finansowaną z wpłat europejskich i FMF; sprzedaż podlega jeszcze przeglądowi w Kongresie.",
-     "etap": "ZAPOWIEDŹ",
-     "zrodla": [
-      {
-       "nazwa": "CBS",
-       "url": "https://www.cbsnews.com/news/us-ukraine-russia-war-air-defense-state-department/",
-       "data": "2026-09-19"
-      },
-      {
-       "nazwa": "Meduza",
-       "url": "https://meduza.io/en/news/2026/09/20/u-s-approves-potential-2-7-billion-air-defense-sale-to-ukraine-funded-by-european-contributions-and-biden-era-military-aid",
-       "data": "2026-09-19"
-      }
-     ]
-    },
-    {
-     "data": "2026-10-04",
-     "tekst": "Zełenski: USA proponują spotkanie trójstronne na szczeblu technicznym do końca października (ZEA lub inne państwo wskazane przez USA), Ukraina zgodziła się; ani Biały Dom, ani Kreml nie potwierdziły terminu.",
-     "etap": "PROPOZYCJA",
-     "zrodla": [
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/us-proposes-trilateral-talks-with-russia-ukraine-by-end-of-october-zelensky-says/",
-       "data": "2026-10-04"
-      },
-      {
-       "nazwa": "Reuters (za Dawn)",
-       "url": "https://www.dawn.com/news/2034845/ukraine-germany-sign-15bn-arms-agreement",
-       "data": "2026-10-04"
-      },
-      {
-       "nazwa": "Al Jazeera",
-       "url": "https://www.aljazeera.com/news/2026/10/4/ukraine-ready-for-us-backed-talks-with-russia-zelenskyy",
-       "data": "2026-10-04"
-      }
-     ]
-    },
-    {
-     "data": "2026-10-08",
-     "tekst": "Rubio: obecnie nie widać perspektyw wynegocjowanego porozumienia, wojna jest w „strategicznym impasie”; trójstronne spotkanie nadal bez terminu, a Kreml odrzuca zawieszenie broni na obecnej linii frontu.",
-     "zrodla": [
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/us-russia-confirm-trumps-latest-ukraine-peace-push-is-falling-apart/",
-       "data": "2026-10-08"
-      },
-      {
-       "nazwa": "Meduza",
-       "url": "https://meduza.io/en/feature/2026/10/08/zelensky-has-a-message-for-washington-don-t-call-peace-impossible-while-refusing-to-put-more-pressure-on-putin",
-       "data": "2026-10-08"
-      }
-     ]
-    },
-    {
-     "data": "2026-10-09",
-     "tekst": "W Miami ruszyła runda rozmów wysłanników USA Witkoffa i Kushnera z delegacją Ukrainy (Budanow, Kisłycia, Arachamija, Umerow) i doradcami Francji, Niemiec i Wielkiej Brytanii oraz przedstawicielami UE i NATO; Rosja w rozmowach nie uczestniczy. Ukraina zabiega o ograniczone zawieszenia broni (Morze Czarne, energetyka).",
-     "etap": "W TOKU",
-     "zrodla": [
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/10/09/ukrainian-and-european-officials-fly-to-miami-for-us-led-peace-talks",
-       "data": "2026-10-09"
-      },
-      {
-       "nazwa": "Radio Wolna Europa",
-       "url": "https://www.rferl.org/a/us-ukraine-talks-miami-russian-air-strikes/33873365.html",
-       "data": "2026-10-09"
-      }
-     ]
-    },
-    {
-     "data": "2026-10-10",
-     "tekst": "Zakończyła się dwudniowa runda w Miami (USA, Ukraina, E3, Komisja Europejska, NATO; bez Rosji): według Witkoffa „konstruktywna”, ale bez ogłoszonych ustaleń i terminu kolejnego spotkania; Waszyngton planuje kolejny kontakt z Rosją bez daty. Trump powiedział, że Ukraina powinna dostać „nowego prezydenta” i że kazał Zełenskiemu nie uderzać w rosyjskie rafinerie.",
-     "etap": "W TOKU",
-     "zrodla": [
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/us-ukrainian-european-officials-discuss-ending-russias-war-at-miami-meeting/",
-       "data": "2026-10-10"
-      },
-      {
-       "nazwa": "France 24",
-       "url": "https://www.france24.com/en/live-news/20261010-zelensky-blasts-diesel-deal-after-russian-strikes-kill-15",
-       "data": "2026-10-10"
-      },
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/he-better-damn-well-stop-trump-slams-zelensky-for-attacking-russian-refineries-says-ukraine-should-get-new-president/",
-       "data": "2026-10-10"
-      }
-     ]
-    },
-    {
-     "data": "2026-10-11",
-     "tekst": "Trump napisał na Truth Social, że Rosja i Ukraina zgodziły się na rozejm energetyczny „natychmiast”, bez szczegółów; według Euronews Zełenski powiedział Axios, że nie został poinformowany, a Kijów czeka na szczegóły. Reakcji Kremla źródła nie podają; Rosja uderzyła w elektrociepłownię w Charkowie. Zełenski prosi o 60 dni rozejmu na wybory.",
-     "etap": "ZAPOWIEDŹ",
-     "zrodla": [
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/10/11/energy-ceasefire-agreed-between-russia-and-ukraine-trump-says",
-       "data": "2026-10-11"
-      },
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/trump-claims-ukraine-russia-agreed-to-energy-ceasefire-kyiv-has-no-information-about-it/",
-       "data": "2026-10-11"
-      }
-     ]
-    }
-   ],
-   "oceny": [
-    {
-     "autor": "OSW (Witold Rodkiewicz, Marek Menkiszak, Krzysztof Nieczypor, Andrzej Kohut), Analiza z 7.09.2026",
-     "tekst": "Autorzy oceniają, że wizyty wysłanników nie przybliżą szybko porozumienia: Moskwa przedstawia się jako strona wygrywająca, nie rezygnuje z maksymalistycznych celów i dalej prowadzi działania hybrydowe wobec Europy, wykorzystując zarazem to, że Waszyngton zabiega o sukces dyplomatyczny przed wyborami połowy kadencji.",
-     "zrodla": [
-      {
-       "nazwa": "OSW",
-       "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-09-07/witkoff-i-kushner-w-moskwie-oraz-kijowie-bialy-dom-wznawia",
-       "data": "2026-09-07"
-      }
-     ]
-    }
-   ],
-   "dla_polski": "Rozmowy o końcu wojny toczą się bez Polski, a ich wynik przesądzi o bezpieczeństwie wschodniej granicy i o przyszłości sankcji. Wniosek redakcji: Polska powinna zabiegać o stały udział europejskich doradców w każdym formacie rozmów – tak jak 6.09 w Kijowie – i łączyć poparcie dla mediacji z naciskiem na dostawy obrony powietrznej dla Ukrainy przed zimą.",
-   "co_dalej": [
-    {
-     "data": "2026-10-31",
-     "tekst": "do końca października: proponowane spotkanie trójstronne (wg Zełenskiego, niepotwierdzone przez USA i Rosję)"
-    },
-    {
-     "data": "2026-11-03",
-     "tekst": "wybory połowy kadencji w USA"
-    }
-   ],
-   "w_wydaniach": [
-    "2026-10-09#z4",
-    "2026-09-15#z1",
-    "2026-09-20#z3",
-    "2026-09-26#z2",
-    "2026-10-05-rano#z1",
-    "2026-10-08#z6",
-    "2026-10-10#z4",
-    "2026-10-10#z3",
-    "2026-10-11#z1",
-    "2026-10-11#z2"
-   ]
-  },
-  {
-   "id": "wojna-powietrzna",
-   "tytul": "Rosja uderza w energetykę i mosty Kijowa, Ukraina w rafinerię w Moskwie",
-   "data": [
-    "2026-09-20",
+    "2026-10-13",
     "2026-10-17"
    ],
    "tagi": [
-    "front",
-    "ukraina",
-    "rosja",
-    "energia"
+    "rumunia",
+    "bulgaria",
+    "nato",
+    "hybryda"
    ],
-   "lead": "Rosja zaatakowała **mosty Kijowa**: od 1.10 cztery dni z rzędu drony uderzały w mosty na Dnieprze – pierwsze takie ataki od początku pełnoskalowej inwazji. W nocy 6/7.10 Rosja przeprowadziła jeden z najcięższych w tym roku zmasowanych ataków na Ukrainę (co najmniej 20 zabitych). Wieczorem 13.10 pociski balistyczne trafiły w elektrociepłownię CHP-4 w Kijowie. Wcześniej Rosja zmasowanie uderzyła w energetykę Kijowa, a Ukraina w rafinerię w Moskwie.",
+   "etap": "W TOKU",
+   "lead": "17.10 dwa **rumuńskie F-16 zestrzeliły dwa drony**, które spadły na rumuńskie wody terytorialne. W tygodniu wcześniej drony trafiły statki handlowe przy wybrzeżu Bułgarii (13.10, jeden zatonął, 11 marynarzy poszukiwanych) i tankowiec **Wine Trader** w rumuńskich wodach terytorialnych (15.10, według Reutersa ośmiu zaginionych). Ani Bukareszt, ani Sofia nie wskazały formalnie sprawcy.",
    "omowienie": [
-    "20.09 Ukraina przeprowadziła największy dotąd atak dronów na Moskwę. Uszkodzona została rafineria w Kapotni, która zaopatruje stołeczny rynek paliw, i wstrzymano tam przerób ropy. Mer Moskwy twierdził, że w całej Rosji zestrzelono ponad 1600 dronów – tej liczby nie da się sprawdzić. Od 23.09 rosyjskie drony i rakiety uderzały w kijowskie centra danych, co przerwało dostęp do internetu w części miasta i pracę kilku mediów.",
-    "25.09 dron trafił w blok mieszkalny w Kijowie: zginęło co najmniej siedem osób, w tym 14-latek. W nocy na 30.09 Rosja użyła według Sił Powietrznych Ukrainy 188 dronów i pocisków balistycznych; głównym celem była energetyka Kijowa i obwodu kijowskiego, zginęły co najmniej cztery osoby, w tym dziecko.",
-    "1.10 drony uderzyły w Most Południowy (drogowy i metra), uderzenie powtórzono 2.10; 3.10 uszkodzony został Most Północny, 4.10 – ponownie, podczas wizyty kanclerza Merza. Tego samego dnia MSZ Rosji ponowiło ostrzeżenie dla cudzoziemców, w tym personelu misji dyplomatycznych, i zapowiedziało dalsze „zmasowane uderzenia odwetowe”.",
-    "W nocy 6/7.10 Rosja zaatakowała Kijów i co najmniej 12 obwodów: według ukraińskich sił powietrznych ok. 130 dronów i ponad 50 rakiet (AP: ok. 70). Zginęło co najmniej 20 osób, najwięcej w Prylukach (co najmniej 14, w tym czworo dzieci). Zełenski wskazał energetykę jako jeden z głównych celów i poprosił o kolejne systemy obrony przed rakietami balistycznymi.",
-    "8.10 Ukraina uderzyła w rafinerię w Omsku na Syberii, ok. 2500 km od terytorium kontrolowanego przez Ukrainę; Sztab Generalny uzasadnił atak prawem do samoobrony, a gubernator obwodu potwierdził atak dronów.",
-    "10.10 rosyjskie lotnictwo zrzuciło pięć bomb szybujących na Zaporoże; dwie trafiły w bloki mieszkalne. Według Państwowej Służby ds. Sytuacji Nadzwyczajnych zginęło co najmniej 20 osób, w tym troje dzieci. W nocy Rosja wystrzeliła 160 dronów, a w ciągu dnia zaatakowała rakietami Kijów.",
-    "15.10 Ukraina zaatakowała dronami rafinerię w Riazaniu, a po ograniczeniu przez SpaceX działania Starshield i groźbie USA wstrzymania ostrzeżeń wywiadowczych Kijów ma mniej narzędzi obrony przed rosyjskimi uderzeniami.",
-    "W nocy na 17.10 Rosja według Sił Powietrznych Ukrainy użyła 332 dronów oraz rakiet; Zełenski mówi o uderzeniach w ponad 15 obiektów energetycznych, a Ukrenergo wprowadziło awaryjne wyłączenia."
+    "13.10 premier Bułgarii Rumen Radew poinformował o uderzeniach dronów w dwa statki handlowe (jeden zatonął, 11 marynarzy poszukiwanych), powiadomił NATO i UE oraz zapowiedział wezwanie rosyjskiego ambasadora; przyznał, że brakuje rozstrzygających dowodów na sprawcę.",
+    "15.10 według rumuńskiej Administracji Morskiej na tankowcu Wine Trader przy kanale Sulina zaginęło siedmiu marynarzy (Reuters: ośmiu); dzień wcześniej zapalił się Yara J. Prezydent Nicușor Dan powiedział, że uderzyły dwa drony i Rumunia odpowie, nie wskazał jednak sprawcy; minister obrony zapowiedział śledztwo.",
+    "17.10 dwa rumuńskie F-16 zestrzeliły dwa drony, które spadły na rumuńskie wody terytorialne; MApN nie podaje ich pochodzenia."
    ],
    "przebieg": [
     {
-     "data": "2026-09-20",
-     "tekst": "Największy dotąd ukraiński atak dronów na Moskwę: uszkodzona rafineria w Kapotni wstrzymała przerób; mer Moskwy podał – bez możliwości weryfikacji – ponad 1600 zestrzelonych dronów w całej Rosji.",
-     "zrodla": [
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/russia-says-dozens-of-ukrainian-drones-targeted-moscow-as-broader-attack-hit-multiple-regions/",
-       "data": "2026-09-20"
-      },
-      {
-       "nazwa": "OSW",
-       "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-09-22/ukraincy-przeciazaja-obrone-powietrzna-moskwy-1672-dzien-wojny",
-       "data": "2026-09-22"
-      }
-     ]
-    },
-    {
-     "data": "2026-09-23",
-     "tekst": "Seria rosyjskich uderzeń w centra danych w Kijowie (od 23.09): uszkodzone obiekty kilku operatorów, przerwy w internecie i w nadawaniu części mediów.",
-     "zrodla": [
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/russian-strikes-on-kyiv-data-centers-disrupt-operations-at-several-ukrainian-media-outlets/",
-       "data": "2026-09-26"
-      },
-      {
-       "nazwa": "OSW",
-       "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-09-29/rosjanie-atakuja-centra-danych-w-kijowie-1679-dzien-wojny",
-       "data": "2026-09-29"
-      }
-     ]
-    },
-    {
-     "data": "2026-09-25",
-     "tekst": "Atak dronów na Kijów: trafiony 16-piętrowy blok w dzielnicy Peczerskiej; co najmniej siedem ofiar śmiertelnych, w tym 14-latek.",
-     "zrodla": [
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/russian-overnight-attack-on-kyiv-sets-fires-damages-buildings/",
-       "data": "2026-09-25"
-      },
-      {
-       "nazwa": "RFE/RL",
-       "url": "https://www.rferl.org/a/ukraie-russia-attacks-civilians-killed-drone-threats/33864157.html",
-       "data": "2026-09-25"
-      }
-     ]
-    },
-    {
-     "data": "2026-09-30",
-     "tekst": "Noc 29/30.09: według Sił Powietrznych Ukrainy 188 dronów i pociski balistyczne; uderzenia głównie w energetykę Kijowa i obwodu kijowskiego; co najmniej cztery ofiary śmiertelne, w tym dziecko.",
-     "zrodla": [
-      {
-       "nazwa": "RFE/RL",
-       "url": "https://www.rferl.org/a/russia-drone-missile-stirke-ukraine-kyiv/33866974.html",
-       "data": "2026-09-30"
-      },
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/russian-attacks-kill-at-least-6-injure-34-across-ukraine-as-kyiv-faces-another-overnight-missile-drone-attack/",
-       "data": "2026-09-30"
-      }
-     ]
-    },
-    {
-     "data": "2026-10-01",
-     "tekst": "Rosyjskie drony uderzyły w kijowski Most Południowy – pierwszy atak dronów na most w Kijowie od początku pełnoskalowej inwazji; uderzenie powtórzono w nocy na 2.10, zamknięto mosty Południowy i Patona.",
-     "zrodla": [
-      {
-       "nazwa": "Meduza",
-       "url": "https://meduza.io/en/feature/2026/10/01/russian-drones-strike-kyiv-s-southern-bridge-in-first-drone-attack-on-a-kyiv-bridge-since-the-full-scale-invasion-a-subway-train-was-crossing-it-at-the-time",
-       "data": "2026-10-01"
-      },
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/russian-strike-kills-1-injures-2-in-kyiv-as-southern-bridge-hit-again-overnight/",
-       "data": "2026-10-02"
-      }
-     ]
-    },
-    {
-     "data": "2026-10-03",
-     "tekst": "Atak uszkodził Most Północny (trzeci dzień z rzędu uderzeń w mosty na Dnieprze); MSZ Rosji ponowiło ostrzeżenie dla cudzoziemców i zapowiedziało dalsze „zmasowane uderzenia odwetowe”.",
-     "zrodla": [
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/russia-strikes-key-kyiv-bridge-for-3rd-straight-day-as-attacks-intensify/",
-       "data": "2026-10-03"
-      },
-      {
-       "nazwa": "AP (za ABC News)",
-       "url": "https://abcnews.com/International/wireStory/russia-strikes-kyivs-northern-bridge-new-tactic-disrupt-136969028",
-       "data": "2026-10-03"
-      },
-      {
-       "nazwa": "Reuters (za Internazionale)",
-       "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/03/russia-pledges-to-continue-massive-strikes-on-kyiv-urges-foreign-diplomats-to-leave-city",
-       "data": "2026-10-03"
-      },
-      {
-       "nazwa": "AFP (za Al Arabiya)",
-       "url": "https://english.alarabiya.net/News/world/2026/10/03/russia-issues-fresh-warning-for-diplomats-foreigners-to-leave-kyiv-ministry",
-       "data": "2026-10-03"
-      }
-     ]
-    },
-    {
-     "data": "2026-10-04",
-     "tekst": "Dron ponownie trafił Most Północny w czasie wizyty Merza – czwarty dzień z rzędu uderzeń w mosty na Dnieprze.",
-     "zrodla": [
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/russia-targets-kyiv-bridges-for-fourth-consecutive-day-hits-northern-bridge/",
-       "data": "2026-10-04"
-      },
-      {
-       "nazwa": "CNN (za KWWL)",
-       "url": "https://www.kwwl.com/news/social/russian-drone-slams-into-bridge-in-kyiv-as-germany-s-chancellor-visits/article_261e2244-facd-5c9d-b89f-80c6988bc755.html",
-       "data": "2026-10-04"
-      },
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/10/04/merz-makes-surprise-visit-to-kyiv-germany-pledges-further-aid-to-ukraine",
-       "data": "2026-10-04"
-      }
-     ]
-    },
-    {
-     "data": "2026-10-07",
-     "tekst": "Noc 6/7.10: ok. 130 dronów i ponad 50 rakiet na Kijów i co najmniej 12 obwodów (według ukraińskich sił powietrznych; AP: ok. 70 rakiet); co najmniej 20 zabitych, w tym co najmniej 14 w Prylukach.",
-     "zrodla": [
-      {
-       "nazwa": "Euronews (za ukraińskimi siłami powietrznymi)",
-       "url": "https://www.euronews.com/2026/10/07/zelensky-says-russia-missile-attack-that-killed-12-is-birthday-gift-to-putin",
-       "data": "2026-10-07"
-      },
-      {
-       "nazwa": "AP (za ABC News)",
-       "url": "https://abcnews.com/International/russia-hits-ukrainian-apartment-buildings-deadly-overnight-strike/story?id=137058213",
-       "data": "2026-10-07"
-      },
-      {
-       "nazwa": "France 24",
-       "url": "https://www.france24.com/en/europe/20261007-at-least-two-killed-in-fire-caused-by-massive-strikes-on-kyiv",
-       "data": "2026-10-07"
-      }
-     ]
-    },
-    {
-     "data": "2026-10-08",
-     "tekst": "Sztab Generalny Ukrainy potwierdził uderzenie w rafinerię w Omsku na Syberii, ok. 2500 km od terytorium kontrolowanego przez Ukrainę; gubernator obwodu potwierdził atak dronów.",
-     "zrodla": [
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/drones-reportedly-strike-russias-omsk-oil-refinery-in-siberia/",
-       "data": "2026-10-08"
-      },
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/10/09/35-killed-in-strikes-on-ukraines-donetsk-region-as-russia-reports-four-dead-across-belgoro",
-       "data": "2026-10-09"
-      }
-     ]
-    },
-    {
-     "data": "2026-10-10",
-     "tekst": "Rosyjskie bomby szybujące uderzyły w bloki mieszkalne w Zaporożu: według Państwowej Służby ds. Sytuacji Nadzwyczajnych zginęło co najmniej 20 osób, w tym troje dzieci; bilans ataków w całym kraju to według Kyiv Independent co najmniej 24 zabitych i 47 rannych.",
-     "zrodla": [
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/russian-attacks-kill-at-least-19-injure-39-across-ukraine-as-rescue-operations-continue-in-zaporizhzhia/",
-       "data": "2026-10-10"
-      },
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/10/10/russian-strikes-on-southeastern-ukraine-kill-eight-including-three-children-authorities-sa",
-       "data": "2026-10-10"
-      },
-      {
-       "nazwa": "CBS News",
-       "url": "https://www.cbsnews.com/news/russia-strikes-ukraine-trump-diesel-deal/",
-       "data": "2026-10-10"
-      }
-     ]
-    },
-    {
-     "data": "2026-10-11",
-     "tekst": "Rosyjskie ataki w ciągu doby do rana 11.10 zabiły co najmniej dwie osoby i raniły 25, uderzono m.in. w infrastrukturę energetyczną w obwodzie kijowskim; Ukrenergo wprowadziło awaryjne wyłączenia prądu w kilku obwodach. Rosyjskie lotnictwo trafiło w dwa bloki w Słowiańsku.",
-     "etap": "W TOKU",
-     "zrodla": [
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/russian-attacks-kill-at-least-2-injure-25-across-ukraine-as-moscow-targets-energy-infrastructure-around-kyiv/",
-       "data": "2026-10-11"
-      },
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/10/11/russian-army-strikes-sloviansk-and-kyiv-as-ukrainian-drones-hit-third-yandex-data-centre",
-       "data": "2026-10-11"
-      }
-     ]
-    },
-    {
      "data": "2026-10-13",
-     "tekst": "Rosja uderzyła w Kijów w nocy z 12 na 13.10: według Zełenskiego pięć rakiet balistycznych trafiło w infrastrukturę cywilną, a Ukraina „nie otrzymała ostrzeżenia od partnerów”; uderzenia w uczelnię w Równem (co najmniej 25 rannych) i w budynek mieszkalny w Charkowie (4 zabitych). Szef MSZ Ukrainy Sybiha: współpraca wywiadowcza z USA trwa.",
+     "tekst": "Premier Bułgarii Rumen Radew poinformował 13.10, że drony trafiły dwa statki handlowe u wybrzeża Bułgarii: „Chelsea 3” (bandera maltańska, ukraiński armator; wszystkich 15 członków załogi ewakuowano do Warny) i drugą jednostkę, która zatonęła – jej nazwa jest rozbieżna (według Euronews „HS Dignity”, według Kyiv Independent za bułgarskimi mediami „Azov Concord”). Według wstępnych danych uratowano 5 osób, a **11 marynarzy jest poszukiwanych**. Radew nazwał ataki „absolutnie niedopuszczalnymi”, powiadomił NATO i UE i zapowiedział wezwanie rosyjskiego ambasadora; przyznał, że brak rozstrzygających dowodów, kto zaatakował, ale „logika wskazuje”, że wynik jest korzystny dla Rosji. Przewodnicząca Komisji Europejskiej Ursula von der Leyen nazwała Morze Czarne „kolejnym frontem eskalacji rosyjskiej wojny”. Według Euronews to kolejny atak na statki u wybrzeży Bułgarii po wcześniejszym w październiku.",
      "etap": "W TOKU",
      "zrodla": [
       {
-       "nazwa": "Euronews (AP)",
-       "url": "https://www.euronews.com/2026/10/13/russian-strike-injures-dozens-at-rivne-university-as-ballistic-missiles-hit-kyiv",
+       "nazwa": "Euronews",
+       "url": "https://www.euronews.com/2026/10/13/two-ships-hit-by-drones-in-black-sea-one-sank-bulgarias-pm-says",
        "data": "2026-10-13"
       },
       {
        "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/as-russian-missiles-slip-through-kyivs-air-defenses-without-warning-officials-say-us-intelligence-remains-intact-for-now/",
+       "url": "https://kyivindependent.com/absolutely-unacceptable-commercial-vessel-hit-by-drones-near-bulgarias-black-sea-coast-says-prime-minister-radev/",
        "data": "2026-10-13"
-      }
-     ]
-    },
-    {
-     "data": "2026-10-13",
-     "tekst": "Wieczorem 13.10 pociski balistyczne uderzyły w Kijów, w tym w elektrociepłownię CHP-4 (co najmniej dwie osoby zabite, ok. 20 rannych); Zełenski: Ukraina znów nie dostała ostrzeżenia od partnerów, Trump: USA nadal dzielą się danymi wywiadowczymi. Uderzenie nastąpiło po ogłoszonym przez Trumpa „rozejmie energetycznym”, którego Rosja nie potwierdziła.",
-     "etap": "W TOKU",
-     "zrodla": [
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/10/14/russian-missile-hits-kyiv-power-plant-with-no-early-warning-from-allies-zelensky-says",
-       "data": "2026-10-14"
-      },
-      {
-       "nazwa": "AP (za ABC News)",
-       "url": "https://abcnews.com/International/wireStory/zelenskyy-ukraine-received-intelligence-partners-incoming-missile-strike-137219773",
-       "data": "2026-10-14"
       }
      ]
     },
     {
      "data": "2026-10-15",
-     "tekst": "SpaceX ograniczył w nocy 13/14.10 działanie Starshield na Ukrainie (terminale przestają działać powyżej ok. 160 km/h, co według ukraińskich jednostek zakłóciło misje dronów); według źródeł Reutersa USA zagroziły wstrzymaniem ostrzeżeń wywiadowczych przed rosyjskimi rakietami, jeśli Kijów nie przestanie uderzać w rafinerie. 15.10 ukraińskie drony zaatakowały rafinerię Rosniefti w Riazaniu (pożar potwierdził gubernator) – według Reutersa pierwsze uderzenie w rosyjską energetykę od ogłoszonego przez Trumpa i niepotwierdzonego „rozejmu energetycznego”.",
+     "tekst": "Tankowiec Wine Trader zgłosił pożar ok. 13 mil morskich od Sulina, w rumuńskich wodach terytorialnych; według Reutersa zaginęło ośmiu z 12-osobowej załogi. Rumuńscy urzędnicy mówią, że rosyjskie drony wleciały w przestrzeń powietrzną Rumunii, ale nie łączą ich wprost z pożarami; prezydent Dan: uderzyły dwa drony, Rumunia odpowie.",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "Euronews",
+       "url": "https://www.euronews.com/2026/10/15/romania-probes-possible-drone-attack-on-tanker-in-its-black-sea-territorial-waters",
+       "data": "2026-10-15"
+      },
+      {
+       "nazwa": "Reuters (za Global News)",
+       "url": "https://globalnews.ca/news/12103450/ships-ablaze-romania-black-sea",
+       "data": "2026-10-15"
+      },
+      {
+       "nazwa": "Reuters (za Internazionale)",
+       "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/15/two-ships-ablaze-in-romanian-black-sea-waters-8-sailors-missing",
+       "data": "2026-10-15"
+      }
+     ]
+    },
+    {
+     "data": "2026-10-17",
+     "tekst": "Dwa rumuńskie F-16 zestrzeliły 17.10 dwa drony wykryte ok. 120 km na wschód od Wyspy Wężowej; oba spadły na rumuńskie wody terytorialne. Komunikat MApN nie podaje pochodzenia dronów.",
+     "zrodla": [
+      {
+       "nazwa": "Ministerstwo Obrony Narodowej Rumunii (MApN)",
+       "url": "https://english.mapn.ro/cpresa/6888_Press-Release",
+       "data": "2026-10-17"
+      },
+      {
+       "nazwa": "Polsat News",
+       "url": "https://www.polsatnews.pl/wiadomosc/2026-10-17/drony-zestrzelone-nad-morzem-czarnym-kraj-nato-potwierdza/",
+       "data": "2026-10-17"
+      }
+     ]
+    }
+   ],
+   "oceny": [],
+   "dla_polski": "Ataki dotyczą wód Rumunii, państwa wschodniej flanki NATO, i szlaków, którymi płyną ukraińskie towary i paliwa; ich skutek dla Polski jest pośredni (bezpieczeństwo żeglugi czarnomorskiej, presja na ustalenia NATO i UE o reakcji). Wniosek redakcji: o dalszych krokach zdecyduje, czy sprawca zostanie wskazany i czy Rumunia wystąpi do sojuszników.",
+   "w_wydaniach": [
+    "2026-10-13#z3",
+    "2026-10-15#z2",
+    "2026-10-17#z1"
+   ]
+  },
+  {
+   "id": "starshield-wywiad",
+   "tytul": "SpaceX ogranicza ukraińskim dronom Starshield; Zełenski: USA po trzech dniach przerwy wznawiają ostrzeżenia o rosyjskich rakietach balistycznych",
+   "data": [
+    "2026-10-14",
+    "2026-10-18"
+   ],
+   "tagi": [
+    "ukraina",
+    "usa",
+    "rosja",
+    "front"
+   ],
+   "etap": "W TOKU",
+   "lead": "W nocy 13/14.10 SpaceX ograniczył działanie **Starshield** (wojskowej wersji Starlinka) na Ukrainie – terminale przestają działać powyżej ok. 160 km/h, co według ukraińskich jednostek zakłóciło misje dronów. 18.10 {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} powiedział w NBC, że przez trzy dni Ukraina nie dostawała od USA **danych o startach rosyjskich rakiet balistycznych**, a teraz znów je dostaje; limit Starshield nadal obowiązuje. Strona amerykańska zaprzecza, że wstrzymała dane.",
+   "omowienie": [
+    "Według doradcy prezydenta Serhija Beskrestnowa limit prędkości uderza w drony uderzeniowe i przechwytujące. Szef SpaceX Elon Musk napisał według Reutersa, że o limitach decyduje armia USA, a ostatecznie prezydent; wicepremier i szef MSZ {{o:radoslaw-sikorski|Radosław Sikorski}} zapytał go, czy „gra polityką” – Polska opłaca Ukrainie abonamenty Starlinka.",
+    "Według źródeł Reutersa USA zagroziły wstrzymaniem ostrzeżeń przed rosyjskimi rakietami, jeśli Kijów nie przestanie uderzać w rafinerie; {{o:donald-trump|Donald Trump}} mówił 13.10, że wymiana danych trwa. 12/13.10 i 13.10 rosyjskie pociski balistyczne trafiły w Kijów bez ostrzeżenia od partnerów, a 15.10 Ukraina zaatakowała rafinerię w Riazaniu.",
+    "18.10 Zełenski w „Meet the Press” podziękował za przywrócenie danych. Według Kyiv Independent ukraiński urzędnik przekazał, że Amerykanie zaprzeczają odcięciu danych i tłumaczą brak ostrzeżenia przed atakiem z 12.10 tym, że nie zauważyli startu."
+   ],
+   "przebieg": [
+    {
+     "data": "2026-10-14",
+     "tekst": "SpaceX ograniczył w nocy 13/14.10 działanie Starshield na Ukrainie (terminale przestają działać powyżej ok. 160 km/h); według źródeł Reutersa USA zagroziły wstrzymaniem ostrzeżeń wywiadowczych przed rosyjskimi rakietami, jeśli Kijów nie przestanie uderzać w rafinerie. Musk: o limitach decyduje armia USA i prezydent; Sikorski pytał, czy „gra polityką”.",
      "etap": "W TOKU",
      "zrodla": [
       {
@@ -806,56 +134,45 @@
      ]
     },
     {
-     "data": "2026-10-17",
-     "tekst": "Noc na 17.10: według Sił Powietrznych Ukrainy 332 drony i rakiety; uderzenia w ponad 15 obiektów energetycznych (Łuck, Równe, Żytomierz, Winnica i in.), Winnica bez prądu, Ukrenergo wprowadziło awaryjne wyłączenia; w ciągu doby 7 zabitych i ok. 90 rannych.",
+     "data": "2026-10-18",
+     "tekst": "Zełenski w NBC: USA wznowiły przekazywanie danych o startach rosyjskich rakiet balistycznych – przez trzy dni Ukraina ich nie dostawała; limit prędkości Starshield nadal obowiązuje. Według ukraińskiego urzędnika (Kyiv Independent) Amerykanie zaprzeczają odcięciu danych.",
+     "etap": "W TOKU",
      "zrodla": [
       {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/russian-attacks-kill-7-injure-dozens-across-ukraine-amid-continued-strikes-on-energy-infrastructure/",
-       "data": "2026-10-17"
+       "nazwa": "Reuters (za The Business Standard)",
+       "url": "https://www.tbsnews.net/worldbiz/usa/us-resumes-intelligence-sharing-ukraine-after-pause-zelenskiy-says-1576861",
+       "data": "2026-10-18"
       },
       {
-       "nazwa": "Radio Wolna Europa",
-       "url": "https://www.rferl.org/a/russia-ukraine-civilians-killed-attack/33878396.html",
-       "data": "2026-10-17"
+       "nazwa": "Kyiv Independent",
+       "url": "https://kyivindependent.com/us-resumes-intel-sharing-on-russian-missile-launches-with-ukraine-zelensky-says/",
+       "data": "2026-10-18"
       }
      ]
     }
    ],
    "oceny": [
     {
-     "autor": "OSW (Andrzej Wilk, Krzysztof Nieczypor, Jacek Tarociński), Analiza z 22.09.2026",
-     "tekst": "Według autorów Ukraina po raz pierwszy od miesięcy przeciążyła obronę powietrzną Moskwy. Zarazem ukraińska obrona słabo radzi sobie z pociskami manewrującymi poza Kijowem – w tygodniu 15–22.09 z około 52 pocisków przechwycono najwyżej dwa.",
+     "autor": "OSW, Analiza z 14.10.2026",
+     "tekst": "Według OSW nie ma potwierdzenia, że USA przestały przekazywać dane o startach rakiet – przypadki braku ostrzeżeń zdarzały się wcześniej (pogoda, brak pokrycia satelitarnego) – ale limit Starshield wyraźnie osłabia ukraińskie uderzenia dronami.",
      "zrodla": [
       {
        "nazwa": "OSW",
-       "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-09-22/ukraincy-przeciazaja-obrone-powietrzna-moskwy-1672-dzien-wojny",
-       "data": "2026-09-22"
+       "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-14/ukrainskie-problemy-z-danymi-wywiadowczymi-usa-i-systemem-starshield",
+       "data": "2026-10-14"
       }
      ]
     }
    ],
-   "dla_polski": "Zima z przerwami w dostawach prądu i internetu w Ukrainie to większa presja na polskie przejścia graniczne, więcej transportów pomocy przez Polskę i – jak pokazał wrzesień – więcej rosyjskich uderzeń w szlaki tuż przy granicy. Wniosek redakcji: warto już teraz przygotować zimowe scenariusze dla przejść i węzła logistycznego na Podkarpaciu oraz rozważyć polski wkład w ochronę ukraińskiej energetyki (generatory, transformatory, obrona powietrzna).",
+   "dla_polski": "Polska płaci za ukraińskie abonamenty Starlinka, ale nie ma wpływu na wojskową wersję systemu, którą kontrolują USA i SpaceX – a ten tydzień pokazał, że łączność i ostrzeżenia przed rakietami mogą zostać ograniczone z dnia na dzień. Wniosek redakcji: argument za europejskimi zdolnościami satelitarnymi i rozpoznawczymi, z których korzystałaby też Polska.",
    "w_wydaniach": [
-    "2026-10-09#z3",
-    "2026-09-22#z3",
-    "2026-09-25#z4",
-    "2026-09-30#z1",
-    "2026-10-02#z2",
-    "2026-10-03#z1",
-    "2026-10-04#z2",
-    "2026-10-07#z1",
-    "2026-10-10#z1",
-    "2026-10-11#z3",
-    "2026-10-13#z2",
-    "2026-10-14#z1",
     "2026-10-15#z3",
-    "2026-10-17#z3"
+    "2026-10-18#z5"
    ]
   },
   {
    "id": "sankcje",
-   "tytul": "Trump uchyla w dużej mierze nowy pakiet sankcji i ceł na Rosję; UE przyjmuje największe w historii rozszerzenie sankcji",
+   "tytul": "UE przyjmuje największe w historii rozszerzenie sankcji na Rosję; Trump uchyla w dużej mierze amerykański pakiet sankcji i ceł",
    "data": [
     "2026-10-12",
     "2026-10-16"
@@ -866,7 +183,7 @@
     "ue"
    ],
    "etap": "PRZYJĘTE",
-   "lead": "{{o:donald-trump|Donald Trump}} podpisał 18.09 ustawę Lindseya Grahama, która pozwala nałożyć **{{p:cla-wtorne|cła wtórne}} do 100%** na największych nabywców rosyjskiej ropy i gazu. UE przedłużyła sankcje indywidualne wobec Rosji od razu na trzy lata, a 12.10 jej ministrowie zatwierdzili blisko **1600 nowych wpisów** – największe rozszerzenie listy od początku wojny. Jednocześnie 9.10 USA tymczasowo **zawiesiły sankcje** na rosyjski olej napędowy, a 16.10 Trump rozporządzeniem wykonawczym **uchylił w dużej mierze nowy pakiet sankcji i ceł** z tej ustawy tuż przed jego wejściem w życie.",
+   "lead": "12.10 ministrowie spraw zagranicznych UE zatwierdzili blisko **1600 nowych wpisów sankcyjnych** wobec Rosji – największe rozszerzenie listy od początku wojny, głównie w przemysł zbrojeniowy. Cztery dni później, 16.10, {{o:donald-trump|Donald Trump}} rozporządzeniem wykonawczym **uchylił w dużej mierze nowy pakiet sankcji i ceł** z ustawy Lindseya Grahama tuż przed jego wejściem w życie.",
    "omowienie": [
     "Ustawę przyjął Senat w sierpniu, a Izba Reprezentantów 16.09. Upoważnia prezydenta do ceł do 100% na towary z państw należących do pięciu największych importerów rosyjskiej ropy lub gazu (głównie Chiny i Indie) i do 500% na import z Rosji, rozszerza sankcje na urzędników, banki i statki pomagające obchodzić restrykcje, a irańską ustawę sankcyjną przedłuża o pięć lat. Prezydent może z ceł i sankcji zwolnić, przedstawiając Kongresowi certyfikat interesu narodowego.",
     "22.09 państwa UE uzgodniły przedłużenie sankcji indywidualnych wobec Rosji na 36 miesięcy zamiast dotychczasowych sześciu. Zapłaciły za to skreśleniem z listy dwóch oligarchów – jednego na wniosek Francji, drugiego po wecie Słowacji.",
@@ -1005,646 +322,304 @@
    ]
   },
   {
-   "id": "rosja-duma-armia",
-   "tytul": "Jedna Rosja z większością konstytucyjną w Dumie; Putin powiększa armię",
+   "id": "wojna-powietrzna",
+   "tytul": "Rosja uderza 332 dronami i rakietami w ukraińską energetykę; ukraińskie drony atakują terminal naftowy w Petersburgu",
    "data": [
-    "2026-09-25",
-    "2026-09-28"
+    "2026-10-17",
+    "2026-10-18"
    ],
    "tagi": [
-    "rosja",
-    "wybory"
-   ],
-   "lead": "W wyborach do Dumy (18–20.09) Jedna Rosja zdobyła według ostatecznych wyników **349 z 450 mandatów**. Tydzień później Putin czwarty raz w tym roku zwiększył etatową liczebność armii, a projekt budżetu na 2027 r. przewiduje wyraźnie wyższe wydatki na obronę.",
-   "omowienie": [
-    "Centralna Komisja Wyborcza ogłosiła 25.09, że partia władzy ma rekordową większość konstytucyjną; komuniści mają 37 mandatów, LDPR 23, Nowi Ludzie 19, Sprawiedliwa Rosja 17. Wstępnie Jednej Rosji przypisywano 355 mandatów. Oficjalna frekwencja wyniosła 59,8%, a do Dumy weszło 46 uczestników wojny.",
-    "Dekretem z 28.09 Putin ustalił liczebność sił zbrojnych na 2 441 630 etatów, w tym 1 550 500 wojskowych – o około 15,5 tys. więcej niż od lipca. Projekt budżetu na 2027 r. przewiduje według Reutersa i CNN 17,1 bln rubli na obronę, o 27% więcej, niż wcześniej planowano. Prezydent Francji {{o:emmanuel-macron|Emmanuel Macron}} mówił 24.09, że raporty wywiadów wskazują na możliwą mobilizację ok. 300 tys. ludzi po wyborach."
-   ],
-   "przebieg": [
-    {
-     "data": "2026-09-24",
-     "tekst": "Macron: raporty wywiadów europejskich, amerykańskich i dane ukraińskie wskazują, że Rosja po wyborach może zmobilizować ok. 300 tys. ludzi – jawnie albo po cichu.",
-     "zrodla": [
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/macron-cites-several-signs-russia-is-preparing-to-mobilize-300-000-people/",
-       "data": "2026-09-25"
-      },
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/09/24/french-president-emmanuel-macron-denies-claims-the-cia-informed-france-of-a-possible-russi",
-       "data": "2026-09-24"
-      }
-     ]
-    },
-    {
-     "data": "2026-09-25",
-     "tekst": "CKW ogłosiła ostateczne wyniki wyborów do Dumy: Jedna Rosja 349 z 450 mandatów (wstępnie 355), KPRF 37, LDPR 23, Nowi Ludzie 19, Sprawiedliwa Rosja 17; frekwencja 59,8%; 46 uczestników wojny w Dumie.",
-     "zrodla": [
-      {
-       "nazwa": "Meduza",
-       "url": "https://meduza.io/en/news/2026/09/25/united-russia-won-349-of-450-seats-in-russia-s-new-state-duma-parliament-will-include-46-war-participants",
-       "data": "2026-09-25"
-      },
-      {
-       "nazwa": "Meduza (wyniki wstępne)",
-       "url": "https://meduza.io/en/news/2026/09/21/united-russia-secures-constitutional-majority-in-state-duma-with-355-seats-as-election-officials-report-record-59-turnout",
-       "data": "2026-09-21"
-      },
-      {
-       "nazwa": "OSW",
-       "url": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-09-25/specjalna-operacja-wyborcza-kreml-wybral-nowych-deputowanych",
-       "data": "2026-09-25"
-      },
-      {
-       "nazwa": "The Moscow Times",
-       "url": "https://www.themoscowtimes.com/2026/09/25/united-russia-wins-record-state-duma-majority-in-elections-dubbed-as-the-most-uncompetitive-in-modern-history-a93791",
-       "data": "2026-09-25"
-      }
-     ]
-    },
-    {
-     "data": "2026-09-28",
-     "tekst": "Dekret Putina: 2 441 630 etatów w siłach zbrojnych, w tym 1 550 500 wojskowych (ok. 15,5 tys. więcej niż od lipca) – czwarte zwiększenie w 2026 r.",
-     "zrodla": [
-      {
-       "nazwa": "Meduza",
-       "url": "https://meduza.io/en/news/2026/09/28/putin-orders-fourth-expansion-of-russia-s-armed-forces-this-year",
-       "data": "2026-09-28"
-      },
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/putin-signs-latest-decree-increasing-russian-military-staff-in-wake-of-monster-military-budget-looming-mobilization/",
-       "data": "2026-09-29"
-      }
-     ]
-    },
-    {
-     "data": "2026-09-29",
-     "tekst": "Projekt budżetu Rosji na 2027 r. przewiduje 17,1 bln rubli na obronę, o 27% więcej niż wcześniej planowano.",
-     "zrodla": [
-      {
-       "nazwa": "Reuters (za Kyiv Independent)",
-       "url": "https://kyivindependent.com/putin-signs-latest-decree-increasing-russian-military-staff-in-wake-of-monster-military-budget-looming-mobilization/",
-       "data": "2026-09-29"
-      },
-      {
-       "nazwa": "CNN (za KVIA)",
-       "url": "https://kvia.com/news/us-world/cnn-world/2026/10/01/putin-warns-west-that-russia-is-prepared-to-use-all-weapons-to-protect-baltic-exclave/",
-       "data": "2026-10-01"
-      }
-     ]
-    }
-   ],
-   "oceny": [
-    {
-     "autor": "OSW (Maria Domańska), Komentarz z 25.09.2026",
-     "tekst": "Domańska ocenia wybory jako zmanipulowany „plebiscyt wojenny”; według przytaczanych przez nią niezależnych analityków wynik Jednej Rosji zawyżono 1,5–1,7 raza. Kreml wykorzysta go jej zdaniem do uzasadnienia niepopularnych decyzji: kolejnych fal mobilizacji, podwyżek podatków i dalszej militaryzacji gospodarki.",
-     "zrodla": [
-      {
-       "nazwa": "OSW",
-       "url": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-09-25/specjalna-operacja-wyborcza-kreml-wybral-nowych-deputowanych",
-       "data": "2026-09-25"
-      }
-     ]
-    },
-    {
-     "autor": "PISM (Jakub Benedyczak), Spotlight nr 48/2026, 21.09.2026",
-     "tekst": "Benedyczak przewiduje, że weterani i przedstawiciele resortów siłowych zdominują komisje obrony i spraw zagranicznych Dumy, co oznacza jeszcze ostrzejszą retorykę wobec Polski, Niemiec i Wielkiej Brytanii – łącznie z wezwaniami do rozmieszczenia broni jądrowej i ataków rakietowych na państwa UE.",
-     "zrodla": [
-      {
-       "nazwa": "PISM",
-       "url": "https://pism.pl/publications/russian-state-duma-elections-the-militarisation-of-politics-continues",
-       "data": "2026-09-21"
-      }
-     ]
-    }
-   ],
-   "dla_polski": "Większość konstytucyjna, rosnąca armia i wyższy budżet obronny dają Kremlowi narzędzia do dłuższej wojny i kolejnej mobilizacji bez kosztów w parlamencie. Wniosek redakcji: polskie planowanie obronne i wsparcie dla Ukrainy warto opierać na scenariuszu wojny trwającej co najmniej przez cały 2027 r., a nie na rychłym rozejmie.",
-   "w_wydaniach": [
-    "2026-09-21#z2",
-    "2026-09-25#z3",
-    "2026-09-25#z2",
-    "2026-09-29#z2"
-   ]
-  },
-  {
-   "id": "ormuz-ropa",
-   "tytul": "Rozmowy USA–Iran o Ormuzie utknęły, G7 uwalnia 100 mln baryłek rezerw; inflacja w Polsce rośnie do 4,0%, w strefie euro do 3,8%",
-   "data": [
-    "2026-09-26",
-    "2026-10-02"
-   ],
-   "tagi": [
-    "iran",
-    "usa",
-    "energia",
-    "gospodarka"
-   ],
-   "lead": "Rozmowy USA–Iran o otwarciu **Cieśniny Ormuz** utknęły na kolejności kroków. Wysokie ceny paliw widać w decyzjach banków centralnych i w inflacji – w Polsce wzrosła we wrześniu do 4,0%, a w strefie euro do 3,8%. 2.10 przywódcy G7 uzgodnili uwolnienie **100 mln baryłek** rezerw ropy.",
-   "omowienie": [
-    "Iran zaproponował plan: otwarcie {{p:ormuz|Cieśniny Ormuz}} w ciągu siedmiu dni w zamian za zniesienie amerykańskiej blokady irańskich portów i sankcji na ropę oraz odmrożenie aktywów. 26.09 Trump go odrzucił, mówiąc, że Iran chce układu, bo „tak bardzo przegrywa”. Mediatorzy przekazali jednak Teheranowi oficjalną odpowiedź USA; według Reutersa strony zgadzają się co do kroków, ale nie co do ich kolejności. 7.10 wiceprezydent USA JD Vance uzależnił porozumienie od „znaczącego” ograniczenia przez Iran wzbogacania uranu, a prezydent Pezeszkian nazwał rozmowy „daremnymi”.",
-    "16.09 Fed jednogłośnie podniósł stopy o 25 pkt bazowych, do 3,75–4,00%, wskazując na podwyższoną inflację. 30.09 GUS podał w szybkim szacunku, że ceny w Polsce wzrosły we wrześniu o 4,0% rok do roku i o 0,7% w ciągu miesiąca – wyraźnie powyżej celu NBP (2,5% ±1 pkt proc.).",
-    "2.10 przywódcy G7 uzgodnili skoordynowane przez Międzynarodową Agencję Energetyczną uwolnienie 100 mln baryłek rezerw w ciągu czterech miesięcy i wezwali do pełnego przywrócenia żeglugi przez Cieśninę Ormuz. Według szybkiego szacunku Eurostatu inflacja HICP w strefie euro wzrosła we wrześniu do 3,8% r/r, a ceny energii – o 18,8% r/r."
-   ],
-   "przebieg": [
-    {
-     "data": "2026-09-16",
-     "tekst": "Fed (FOMC) jednogłośnie podniósł przedział stóp o 25 pkt bazowych, do 3,75–4,00%.",
-     "zrodla": [
-      {
-       "nazwa": "Fed (FOMC)",
-       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-       "data": "2026-09-16"
-      }
-     ]
-    },
-    {
-     "data": "2026-09-26",
-     "tekst": "Trump odrzucił irański plan 7-dniowy (otwarcie Cieśniny Ormuz w zamian za zniesienie blokady portów, sankcji naftowych i odmrożenie aktywów): „Odrzucam ich układ”.",
-     "zrodla": [
-      {
-       "nazwa": "CBS",
-       "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-7-day-proposal/",
-       "data": "2026-09-27"
-      },
-      {
-       "nazwa": "CNN (za ABC17 News)",
-       "url": "https://abc17news.com/news/national-world/cnn-world/2026/09/26/trump-rejects-irans-latest-proposal-to-reopen-the-strait-of-hormuz/",
-       "data": "2026-09-26"
-      }
-     ]
-    },
-    {
-     "data": "2026-09-30",
-     "tekst": "USA przekazały przez mediatorów oficjalną odpowiedź na irański plan; minister spraw zagranicznych {{o:abbas-araghczi|Abbas Araghczi}} przedstawił ją rządowi. Spór dotyczy kolejności kroków.",
-     "zrodla": [
-      {
-       "nazwa": "AP (za Boston Globe)",
-       "url": "https://www.bostonglobe.com/2026/09/30/world/iran-us-response-end-war/",
-       "data": "2026-09-30"
-      },
-      {
-       "nazwa": "Reuters (za Investing.com)",
-       "url": "https://www.investing.com/news/commodities-news/iran-receives-us-feedback-on-sevenday-trustbuilding-plan-4924251",
-       "data": "2026-09-30"
-      }
-     ]
-    },
-    {
-     "data": "2026-09-30",
-     "tekst": "GUS, szybki szacunek: inflacja CPI we wrześniu 4,0% r/r i 0,7% m/m.",
-     "zrodla": [
-      {
-       "nazwa": "GUS",
-       "url": "https://stat.gov.pl/obszary-tematyczne/ceny-handel/wskazniki-cen/szybki-szacunek-wskaznika-cen-towarow-i-uslug-konsumpcyjnych-we-wrzesniu-2026-r-,21,45.html",
-       "data": "2026-09-30"
-      },
-      {
-       "nazwa": "RMF24",
-       "url": "https://www.rmf24.pl/fakty/ekonomia/news-zle-wiesci-o-inflacji-w-polsce-gus-podal-nowe-dane,nIdn,1019786",
-       "data": "2026-09-30"
-      }
-     ]
-    },
-    {
-     "data": "2026-10-02",
-     "tekst": "Przywódcy G7 uzgodnili skoordynowane przez MAE uwolnienie 100 mln baryłek rezerw w ciągu czterech miesięcy i wezwali do pełnego przywrócenia żeglugi przez Cieśninę Ormuz.",
-     "etap": "PRZYJĘTE",
-     "zrodla": [
-      {
-       "nazwa": "Rada UE (oświadczenie przywódców G7)",
-       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/02/g7-leaders-statement-on-global-energy-security-and-market-stability/",
-       "data": "2026-10-02"
-      },
-      {
-       "nazwa": "Al Jazeera",
-       "url": "https://www.aljazeera.com/news/2026/10/2/trump-says-europe-agrees-to-release-massive-amount-diesel-stockpile",
-       "data": "2026-10-02"
-      }
-     ]
-    },
-    {
-     "data": "2026-10-07",
-     "tekst": "Vance w wywiadzie dla Reutersa: porozumienie z Iranem wymaga „znaczącego” ograniczenia wzbogacania uranu; prezydent Pezeszkian nazwał rozmowy „daremnymi”, a rzecznik armii zapowiedział w razie potrzeby „operacje wyprzedzające”.",
-     "zrodla": [
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/10/07/iran-threatens-pre-emptive-strikes-as-us-questions-who-runs-tehran",
-       "data": "2026-10-07"
-      },
-      {
-       "nazwa": "Al Jazeera",
-       "url": "https://www.aljazeera.com/news/2026/10/7/us-sets-new-demands-for-iran-deal-what-are-they",
-       "data": "2026-10-07"
-      },
-      {
-       "nazwa": "France 24",
-       "url": "https://www.france24.com/en/middle-east/20261007-middle-east-live-houthis-target-airport-in-yemen-as-israel-marks-october-7-anniversary",
-       "data": "2026-10-07"
-      }
-     ]
-    },
-    {
-     "data": "2026-10-02",
-     "tekst": "Eurostat, szybki szacunek: inflacja HICP w strefie euro we wrześniu 3,8% r/r (sierpień 3,2%); ceny energii +18,8% r/r.",
-     "zrodla": [
-      {
-       "nazwa": "Komisja Europejska (Eurostat, szybki szacunek HICP)",
-       "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-02102026-ap",
-       "data": "2026-10-02"
-      },
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/10/02/eurozone-inflation-spikes-to-38-is-your-country-on-the-worst-list",
-       "data": "2026-10-02"
-      }
-     ]
-    }
-   ],
-   "oceny": [
-    {
-     "autor": "OSW (Krzysztof Strachota), Komentarz z 1.10.2026",
-     "tekst": "Strachota ocenia, że działania militarne i presja na destabilizację Iranu okazały się niewystarczające, a konflikt przeszedł w fazę wyczerpywania na wielu frontach, w której głównym polem nacisku jest Ormuz – z blokadą irańską i amerykańską jednocześnie. Polityczne rozwiązanie uznaje za mało prawdopodobne.",
-     "zrodla": [
-      {
-       "nazwa": "OSW",
-       "url": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-10-01/kryzys-wokol-iranu-wojna-na-wielu-frontach",
-       "data": "2026-10-01"
-      }
-     ]
-    },
-    {
-     "autor": "OSW (Agata Łoskot-Strachota), Analiza z 17.09.2026",
-     "tekst": "Autorka zwraca uwagę, że po wyłączeniu 10.09 saudyjskiego rurociągu Wschód–Zachód, głównej drogi omijającej Ormuz, notowania ropy Brent przekroczyły 109 USD za baryłkę. Szczególnie uderza to w rafinerie korzystające z ropy saudyjskiej, w tym w Orlen.",
-     "zrodla": [
-      {
-       "nazwa": "OSW",
-       "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-09-17/jeszcze-mniej-ropy-z-bliskiego-wschodu",
-       "data": "2026-09-17"
-      }
-     ]
-    }
-   ],
-   "dla_polski": "Droga ropa bezpośrednio podbija inflację w Polsce i komplikuje decyzje RPP. Wniosek redakcji: podczas posiedzenia 6–7.10 RPP trzeba liczyć się z dłuższym utrzymaniem stóp, a w polityce energetycznej – z wieloma miesiącami wysokich cen; dywersyfikacja dostaw ropy dla polskich rafinerii przestaje być kwestią ceny, a staje się kwestią bezpieczeństwa.",
-   "co_dalej": [
-    {
-     "data": "2026-10-07",
-     "tekst": "6–7.10: posiedzenie Rady Polityki Pieniężnej"
-    },
-    {
-     "data": "2026-10-14",
-     "tekst": "GUS: pełne dane o inflacji za wrzesień"
-    },
-    {
-     "data": "2026-10-27",
-     "tekst": "27–28.10: posiedzenie FOMC (Fed)"
-    }
-   ],
-   "w_wydaniach": [
-    "2026-09-16#z1",
-    "2026-09-26#z6",
-    "2026-09-27#z1",
-    "2026-09-29#z1",
-    "2026-09-30#z4",
-    "2026-09-30#z13",
-    "2026-10-02#z4",
-    "2026-10-02#z5",
-    "2026-10-07#z4"
-   ]
-  },
-  {
-   "id": "bialorus",
-   "tytul": "Białoruś uwalnia 25 więźniów politycznych w zamian za zdjęcie sankcji USA z dwóch firm; szefowie MSZ Polski i Białorusi spotykają się pierwszy raz od dekady",
-   "data": [
-    "2026-09-16",
-    "2026-09-23"
-   ],
-   "tagi": [
-    "bialorus",
-    "dyplomacja-rp",
-    "usa",
-    "litwa"
-   ],
-   "lead": "Białoruś uwolniła 25 więźniów politycznych w zamian za zdjęcie amerykańskich sankcji z dwóch firm, a szefowie dyplomacji Polski i Białorusi spotkali się **po raz pierwszy od około dekady**. W tym samym czasie dron, który wleciał z Białorusi, został zestrzelony nad Litwą.",
-   "omowienie": [
-    "16.09 specjalny wysłannik USA {{o:john-coale|John Coale}} ogłosił uwolnienie 25 osób, które trafiły na Litwę; w zamian USA zdjęły sankcje z producenta farb Lakokraska i grupy leśnej Biełlesbumprom. Coale zapowiada kolejne zwolnienia, a według organizacji praw człowieka w białoruskich więzieniach pozostaje ponad 900 więźniów politycznych.",
-    "23.09 w siedzibie ONZ {{o:radoslaw-sikorski|Radosław Sikorski}} rozmawiał z {{o:maksim-ryzenkow|Maksimem Ryżenkowem}} o sytuacji na granicy i bezpieczeństwie regionu. Sikorski podkreślał, że Polska uznaje państwo białoruskie, a nie reżim w Mińsku, i zapowiedział otwarcie nowego budynku ambasady. Tydzień wcześniej, 15.09, rosyjski dron Gerbera, który wleciał z Białorusi, zestrzeliły nad Litwą włoskie myśliwce z bazy w Szawlach; prezydent {{o:gitanas-nauseda|Gitanas Nausėda}} uznał, że zboczył z kursu na Ukrainę."
-   ],
-   "przebieg": [
-    {
-     "data": "2026-09-15",
-     "tekst": "Rosyjski dron Gerbera, który wleciał z Białorusi, zestrzelony nad Litwą przez włoskie myśliwce z Szawli; według prezydenta Nausėdy dron zboczył z kursu na Ukrainę.",
-     "zrodla": [
-      {
-       "nazwa": "LRT",
-       "url": "https://www.lrt.lt/en/news-in-english/19/3054232/nauseda-drone-shot-down-over-lithuania-was-russian-gerbera-headed-for-ukraine",
-       "data": "2026-09-16"
-      },
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/nato-shoots-down-drone-over-lithuanian-airspace-that-flew-in-from-belarus/",
-       "data": "2026-09-15"
-      }
-     ]
-    },
-    {
-     "data": "2026-09-16",
-     "tekst": "Białoruś uwolniła 25 więźniów politycznych (przewiezionych na Litwę); USA zdjęły sankcje z firm Lakokraska i Biełlesbumprom.",
-     "zrodla": [
-      {
-       "nazwa": "RFE/RL",
-       "url": "https://www.rferl.org/a/belarus-us-prisoners-release-sanctions/33857455.html",
-       "data": "2026-09-16"
-      },
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/my-europe/2026/09/16/belarus-releases-25-political-prisoners-in-exchange-for-lifting-of-us-sanctions-on-two-com",
-       "data": "2026-09-16"
-      }
-     ]
-    },
-    {
-     "data": "2026-09-23",
-     "tekst": "Spotkanie Sikorski–Ryżenkow w ONZ – pierwsze spotkanie szefów MSZ obu państw od około dekady; rozmowa o granicy i bezpieczeństwie regionu.",
-     "zrodla": [
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/polish-foreign-minister-meets-belarusian-counterpart-at-un-discusses-regional-security-2/",
-       "data": "2026-09-23"
-      },
-      {
-       "nazwa": "RFE/RL",
-       "url": "https://rferl.org/a/wider-europe-briefing-will-the-eu-soon-lift-potash-sanctions-on-belarus/33866407.html",
-       "data": "2026-09-29"
-      }
-     ]
-    }
-   ],
-   "oceny": [
-    {
-     "autor": "RFE/RL (Rikard Jozwiak), Wider Europe Briefing, 29.09.2026",
-     "tekst": "Jozwiak opisuje zabiegi USA o umowę na zakup białoruskiego potasu, w tym prośbę Departamentu Stanu do Polski, Litwy i Ukrainy o zgodę na jego tranzyt. Przed przedłużeniem unijnych sankcji (do końca lutego 2027 r.) dyplomaci mówią mu, że zniesiony mógłby zostać najwyżej zakaz tranzytu; rozstrzygnąć mają stanowisko Litwy i przepustowość portów.",
-     "zrodla": [
-      {
-       "nazwa": "RFE/RL",
-       "url": "https://rferl.org/a/wider-europe-briefing-will-the-eu-soon-lift-potash-sanctions-on-belarus/33866407.html",
-       "data": "2026-09-29"
-      }
-     ]
-    }
-   ],
-   "dla_polski": "Odwilż USA–Białoruś i rozmowy Sikorski–Ryżenkow dają szansę na postęp w sprawach granicznych i humanitarnych, ale amerykańska prośba o tranzyt potasu czyni z Polski stronę targu, którego warunki ustala Waszyngton. Wniosek redakcji: ewentualną zgodę na tranzyt warto uzależnić od konkretów – uwolnienia kolejnych więźniów politycznych, w tym działaczy mniejszości polskiej, i zaprzestania wykorzystywania migrantów na granicy.",
-   "co_dalej": [
-    {
-     "data": "2027-02-28",
-     "tekst": "do końca lutego 2027 r.: decyzja UE o przedłużeniu sankcji wobec Białorusi, w tym na potas (według RFE/RL)"
-    }
-   ],
-   "w_wydaniach": [
-    "2026-09-15#z2",
-    "2026-09-16#z2",
-    "2026-09-23#z3"
-   ]
-  },
-  {
-   "id": "niemcy-afd",
-   "tytul": "AfD wygrywa w dwóch landach i szykuje z wysłannikiem Putina rozmowy o gazie",
-   "data": [
-    "2026-09-06",
-    "2026-09-20"
-   ],
-   "tagi": [
-    "niemcy",
-    "wybory",
+    "front",
+    "ukraina",
     "rosja",
     "energia"
    ],
-   "lead": "AfD wygrała wybory w Saksonii-Anhalt (6.09) i w Meklemburgii-Pomorzu Przednim (20.09), gdzie CDU kanclerza {{o:friedrich-merz|Friedricha Merza}} wypadła z parlamentu krajowego. Równolegle liderzy AfD przygotowują z wysłannikiem Putina rozmowy o **wznowieniu dostaw rosyjskiego gazu**.",
+   "lead": "W nocy na 17.10 Rosja użyła według Sił Powietrznych Ukrainy **332 dronów oraz rakiet** i trafiła ponad 15 obiektów energetycznych – Ukrenergo wprowadziło awaryjne wyłączenia. W nocy na 18.10 ukraińskie drony zaatakowały **Petersburg i obwód leningradzki**, w tym terminal naftowy. Wcześniej w tygodniu rosyjskie pociski balistyczne dwukrotnie trafiły Kijów, w tym elektrociepłownię CHP-4 (13.10).",
    "omowienie": [
-    "W Saksonii-Anhalt AfD dostała 43,8% i 39 z 83 mandatów, trzy za mało do większości. W Meklemburgii-Pomorzu Przednim zdobyła 38,2% przed SPD (35,5%), a CDU z wynikiem 4,9% po raz pierwszy w historii nie weszła do parlamentu krajowego; Merz nazwał to „katastrofą”. W Berlinie tego samego dnia wygrała Lewica (25,7%) przed CDU (18,8%) i AfD (16,3%). AfD nie ma partnerów koalicyjnych, więc w Meklemburgii może dalej rządzić SPD premier {{o:manuela-schwesig|Manueli Schwesig}}.",
-    "18.09 Reuters ujawnił, że współprzewodniczący AfD przygotowują z {{o:kiryl-dmitrijew|Kiryłem Dmitrijewem}}, specjalnym wysłannikiem Putina, rozmowy o wznowieniu dostaw gazu, w tym przez Nord Stream – możliwe w marcu 2027 r., jeśli wcześniej dojdzie do porozumienia pokojowego. Pod koniec września wiceprzewodniczący klubu AfD w Bundestagu {{o:markus-frohnmaier|Markus Frohnmaier}} potwierdził – według ANSA – kontakt z Dmitrijewem i plan forum Rosja–USA–AfD w 2027 r."
+    "W nocy z 12 na 13.10 pięć rakiet balistycznych trafiło Kijów bez ostrzeżenia od partnerów; wieczorem 13.10 kolejne pociski uderzyły w elektrociepłownię CHP-4 (co najmniej dwóch zabitych), mimo ogłoszonego przez Trumpa i niepotwierdzonego przez Rosję „rozejmu energetycznego”.",
+    "Noc na 17.10: 332 drony i rakiety, uderzenia w ponad 15 obiektów energetycznych (Łuck, Równe, Żytomierz, Winnica i in.); w ciągu doby 7 zabitych i ok. 90 rannych.",
+    "Noc na 18.10: ukraiński atak na Petersburg – pożary w terminalu naftowym i na magazynach w Kołpinie; według Euronews lotnisko Pułkowo zamknięto na ponad 7 godzin."
    ],
    "przebieg": [
     {
-     "data": "2026-09-06",
-     "tekst": "Wybory w Saksonii-Anhalt: AfD 43,8% i 39 z 83 mandatów (trzy za mało do większości), CDU 17,2%.",
+     "data": "2026-10-10",
+     "tekst": "Rosyjskie bomby szybujące uderzyły w bloki mieszkalne w Zaporożu: według Państwowej Służby ds. Sytuacji Nadzwyczajnych zginęło co najmniej 20 osób, w tym troje dzieci; bilans ataków w całym kraju to według Kyiv Independent co najmniej 24 zabitych i 47 rannych.",
      "zrodla": [
       {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/09/06/german-far-right-afd-wins-by-a-landslide-in-saxony-anhalt-exit-polls",
-       "data": "2026-09-06"
+       "nazwa": "Kyiv Independent",
+       "url": "https://kyivindependent.com/russian-attacks-kill-at-least-19-injure-39-across-ukraine-as-rescue-operations-continue-in-zaporizhzhia/",
+       "data": "2026-10-10"
       },
       {
-       "nazwa": "OSW",
-       "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-09-07/niemcy-spektakularne-zwyciestwo-afd-w-saksonii-anhalt",
-       "data": "2026-09-07"
+       "nazwa": "Euronews",
+       "url": "https://www.euronews.com/2026/10/10/russian-strikes-on-southeastern-ukraine-kill-eight-including-three-children-authorities-sa",
+       "data": "2026-10-10"
+      },
+      {
+       "nazwa": "CBS News",
+       "url": "https://www.cbsnews.com/news/russia-strikes-ukraine-trump-diesel-deal/",
+       "data": "2026-10-10"
       }
      ]
     },
     {
-     "data": "2026-09-18",
-     "tekst": "Reuters: współprzewodniczący AfD i Kirył Dmitrijew przygotowują rozmowy o wznowieniu dostaw rosyjskiego gazu i Nord Stream; według ANSA (29.09) Markus Frohnmaier potwierdził kontakt z Dmitrijewem i plan forum Rosja–USA–AfD w 2027 r.",
-     "zrodla": [
-      {
-       "nazwa": "Reuters (za Meduzą)",
-       "url": "https://meduza.io/en/news/2026/09/18/reuters-germany-s-afd-party-and-kremlin-envoy-prepare-for-talks-on-restarting-russian-gas-supplies",
-       "data": "2026-09-18"
-      },
-      {
-       "nazwa": "ANSA",
-       "url": "https://www.ansa.it/sito/notizie/mondo/2026/09/29/afd-vuole-riaprire-dossier-nord-stream-previsto-forum-con-usa_a09e35a1-572f-4de7-9a04-799037eeca9e.html",
-       "data": "2026-09-29"
-      }
-     ]
-    },
-    {
-     "data": "2026-09-20",
-     "tekst": "Meklemburgia-Pomorze Przednie: AfD 38,2%, SPD 35,5%, CDU 4,9% (poza parlamentem); Berlin: Lewica 25,7%, CDU 18,8%, AfD 16,3%.",
-     "zrodla": [
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/09/21/germany-the-left-triumphs-in-berlin-as-afd-surges-in-mecklenburg-western-pomerania",
-       "data": "2026-09-21"
-      },
-      {
-       "nazwa": "OSW",
-       "url": "https://www.osw.waw.pl/en/publikacje/analyses/2026-09-21/germany-victory-die-linke-berlin-and-afd-mecklenburg-western",
-       "data": "2026-09-21"
-      }
-     ]
-    }
-   ],
-   "oceny": [
-    {
-     "autor": "OSW (Kamil Frymark), Analiza z 21.09.2026",
-     "tekst": "Frymark ocenia, że fatalny wynik CDU zwiększa presję na Merza, choć w partii nie ma oczywistego następcy, a różne wyniki SPD w obu landach pogłębią spory w koalicji federalnej. AfD mimo podwojenia poparcia nie może rządzić, ale zyskuje mniejszość blokującą i pozycję jedynej prawicowej opozycji.",
-     "zrodla": [
-      {
-       "nazwa": "OSW",
-       "url": "https://www.osw.waw.pl/en/publikacje/analyses/2026-09-21/germany-victory-die-linke-berlin-and-afd-mecklenburg-western",
-       "data": "2026-09-21"
-      }
-     ]
-    }
-   ],
-   "dla_polski": "Słabnący Merz i rosnąca AfD, która otwarcie mówi o powrocie rosyjskiego gazu i Nord Stream, to ryzyko dla polsko-niemieckiej współpracy obronnej i dla jedności UE w sprawie sankcji. Wniosek redakcji: Polska powinna wiązać Berlin trwałymi zobowiązaniami – wspólnymi projektami zbrojeniowymi i finansowaniem obronności w WRF 2028–2034 – zanim zmieni się układ sił w Bundestagu.",
-   "w_wydaniach": [
-    "2026-09-21#z1",
-    "2026-09-20#z4"
-   ]
-  },
-  {
-   "id": "morze-czarne-statki",
-   "tytul": "Drony uderzają w statki przy wybrzeżach Rumunii i Bułgarii; zaginieni marynarze, Bukareszt i Sofia nie wskazują sprawcy",
-   "data": [
-    "2026-10-13",
-    "2026-10-17"
-   ],
-   "tagi": [
-    "rumunia",
-    "bulgaria",
-    "nato",
-    "hybryda"
-   ],
-   "etap": "W TOKU",
-   "lead": "Według Reutersa w atakach dronów na co najmniej pięć statków przy wybrzeżach Rumunii i Bułgarii w ciągu 10 dni zginęło lub zaginęło co najmniej 23 marynarzy. 15.10 pożar objął tankowiec **Wine Trader** w rumuńskich wodach terytorialnych; Rumunia zapowiada odpowiedź, a bezpieczeństwo żeglugi na Morzu Czarnym jest tematem szczytu UE.",
-   "omowienie": [
-    "13.10 premier Bułgarii Rumen Radew poinformował o uderzeniach dronów w dwa statki handlowe (jeden zatonął, 11 marynarzy poszukiwanych), powiadomił NATO i UE oraz zapowiedział wezwanie rosyjskiego ambasadora; przyznał, że brakuje rozstrzygających dowodów na sprawcę.",
-    "15.10 według rumuńskiej Administracji Morskiej na tankowcu Wine Trader przy kanale Sulina zaginęło siedmiu marynarzy (Reuters: ośmiu); dzień wcześniej zapalił się Yara J. Prezydent Nicușor Dan powiedział, że uderzyły dwa drony i Rumunia odpowie, nie wskazał jednak sprawcy; minister obrony zapowiedział śledztwo.",
-    "17.10 dwa rumuńskie F-16 zestrzeliły dwa drony, które spadły na rumuńskie wody terytorialne; MApN nie podaje ich pochodzenia."
-   ],
-   "przebieg": [
-    {
-     "data": "2026-10-13",
-     "tekst": "Premier Bułgarii Rumen Radew poinformował 13.10, że drony trafiły dwa statki handlowe u wybrzeża Bułgarii: „Chelsea 3” (bandera maltańska, ukraiński armator; wszystkich 15 członków załogi ewakuowano do Warny) i drugą jednostkę, która zatonęła – jej nazwa jest rozbieżna (według Euronews „HS Dignity”, według Kyiv Independent za bułgarskimi mediami „Azov Concord”). Według wstępnych danych uratowano 5 osób, a **11 marynarzy jest poszukiwanych**. Radew nazwał ataki „absolutnie niedopuszczalnymi”, powiadomił NATO i UE i zapowiedział wezwanie rosyjskiego ambasadora; przyznał, że brak rozstrzygających dowodów, kto zaatakował, ale „logika wskazuje”, że wynik jest korzystny dla Rosji. Przewodnicząca Komisji Europejskiej Ursula von der Leyen nazwała Morze Czarne „kolejnym frontem eskalacji rosyjskiej wojny”. Według Euronews to kolejny atak na statki u wybrzeży Bułgarii po wcześniejszym w październiku.",
+     "data": "2026-10-11",
+     "tekst": "Rosyjskie ataki w ciągu doby do rana 11.10 zabiły co najmniej dwie osoby i raniły 25, uderzono m.in. w infrastrukturę energetyczną w obwodzie kijowskim; Ukrenergo wprowadziło awaryjne wyłączenia prądu w kilku obwodach. Rosyjskie lotnictwo trafiło w dwa bloki w Słowiańsku.",
      "etap": "W TOKU",
      "zrodla": [
       {
+       "nazwa": "Kyiv Independent",
+       "url": "https://kyivindependent.com/russian-attacks-kill-at-least-2-injure-25-across-ukraine-as-moscow-targets-energy-infrastructure-around-kyiv/",
+       "data": "2026-10-11"
+      },
+      {
        "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/10/13/two-ships-hit-by-drones-in-black-sea-one-sank-bulgarias-pm-says",
+       "url": "https://www.euronews.com/2026/10/11/russian-army-strikes-sloviansk-and-kyiv-as-ukrainian-drones-hit-third-yandex-data-centre",
+       "data": "2026-10-11"
+      }
+     ]
+    },
+    {
+     "data": "2026-10-13",
+     "tekst": "Rosja uderzyła w Kijów w nocy z 12 na 13.10: według Zełenskiego pięć rakiet balistycznych trafiło w infrastrukturę cywilną, a Ukraina „nie otrzymała ostrzeżenia od partnerów”; uderzenia w uczelnię w Równem (co najmniej 25 rannych) i w budynek mieszkalny w Charkowie (4 zabitych). Szef MSZ Ukrainy Sybiha: współpraca wywiadowcza z USA trwa.",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "Euronews (AP)",
+       "url": "https://www.euronews.com/2026/10/13/russian-strike-injures-dozens-at-rivne-university-as-ballistic-missiles-hit-kyiv",
        "data": "2026-10-13"
       },
       {
        "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/absolutely-unacceptable-commercial-vessel-hit-by-drones-near-bulgarias-black-sea-coast-says-prime-minister-radev/",
+       "url": "https://kyivindependent.com/as-russian-missiles-slip-through-kyivs-air-defenses-without-warning-officials-say-us-intelligence-remains-intact-for-now/",
        "data": "2026-10-13"
       }
      ]
     },
     {
-     "data": "2026-10-15",
-     "tekst": "Tankowiec Wine Trader zgłosił pożar ok. 13 mil morskich od Sulina, w rumuńskich wodach terytorialnych; według Reutersa zaginęło ośmiu z 12-osobowej załogi. Rumuńscy urzędnicy mówią, że rosyjskie drony wleciały w przestrzeń powietrzną Rumunii, ale nie łączą ich wprost z pożarami; prezydent Dan: uderzyły dwa drony, Rumunia odpowie.",
+     "data": "2026-10-13",
+     "tekst": "Wieczorem 13.10 pociski balistyczne uderzyły w Kijów, w tym w elektrociepłownię CHP-4 (co najmniej dwie osoby zabite, ok. 20 rannych); Zełenski: Ukraina znów nie dostała ostrzeżenia od partnerów, Trump: USA nadal dzielą się danymi wywiadowczymi. Uderzenie nastąpiło po ogłoszonym przez Trumpa „rozejmie energetycznym”, którego Rosja nie potwierdziła.",
      "etap": "W TOKU",
      "zrodla": [
       {
        "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/10/15/romania-probes-possible-drone-attack-on-tanker-in-its-black-sea-territorial-waters",
-       "data": "2026-10-15"
+       "url": "https://www.euronews.com/2026/10/14/russian-missile-hits-kyiv-power-plant-with-no-early-warning-from-allies-zelensky-says",
+       "data": "2026-10-14"
       },
       {
-       "nazwa": "Reuters (za Global News)",
-       "url": "https://globalnews.ca/news/12103450/ships-ablaze-romania-black-sea",
-       "data": "2026-10-15"
-      },
-      {
-       "nazwa": "Reuters (za Internazionale)",
-       "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/15/two-ships-ablaze-in-romanian-black-sea-waters-8-sailors-missing",
-       "data": "2026-10-15"
+       "nazwa": "AP (za ABC News)",
+       "url": "https://abcnews.com/International/wireStory/zelenskyy-ukraine-received-intelligence-partners-incoming-missile-strike-137219773",
+       "data": "2026-10-14"
       }
      ]
     },
     {
      "data": "2026-10-17",
-     "tekst": "Dwa rumuńskie F-16 zestrzeliły 17.10 dwa drony wykryte ok. 120 km na wschód od Wyspy Wężowej; oba spadły na rumuńskie wody terytorialne. Komunikat MApN nie podaje pochodzenia dronów.",
+     "tekst": "Noc na 17.10: według Sił Powietrznych Ukrainy 332 drony i rakiety; uderzenia w ponad 15 obiektów energetycznych (Łuck, Równe, Żytomierz, Winnica i in.), Winnica bez prądu, Ukrenergo wprowadziło awaryjne wyłączenia; w ciągu doby 7 zabitych i ok. 90 rannych.",
      "zrodla": [
       {
-       "nazwa": "Ministerstwo Obrony Narodowej Rumunii (MApN)",
-       "url": "https://english.mapn.ro/cpresa/6888_Press-Release",
+       "nazwa": "Kyiv Independent",
+       "url": "https://kyivindependent.com/russian-attacks-kill-7-injure-dozens-across-ukraine-amid-continued-strikes-on-energy-infrastructure/",
        "data": "2026-10-17"
       },
       {
-       "nazwa": "Polsat News",
-       "url": "https://www.polsatnews.pl/wiadomosc/2026-10-17/drony-zestrzelone-nad-morzem-czarnym-kraj-nato-potwierdza/",
+       "nazwa": "Radio Wolna Europa",
+       "url": "https://www.rferl.org/a/russia-ukraine-civilians-killed-attack/33878396.html",
        "data": "2026-10-17"
+      }
+     ]
+    },
+    {
+     "data": "2026-10-18",
+     "tekst": "Ukraińskie drony zaatakowały w nocy na 18.10 Petersburg i obwód leningradzki: według gubernatora Aleksandra Biegłowa pożary w terminalu naftowym i na magazynach, trafienia potwierdziły VK i Ozon; według władz obwodu zestrzelono ponad 100 dronów.",
+     "zrodla": [
+      {
+       "nazwa": "Kyiv Independent",
+       "url": "https://kyivindependent.com/ukraine-war-latest-st-petersburg-slammed-by-drones-in-mass-ukrainian-attack/",
+       "data": "2026-10-18"
+      },
+      {
+       "nazwa": "Euronews",
+       "url": "https://www.euronews.com/2026/10/18/ukrainian-forces-strike-st-petersburg-and-leningrad-region",
+       "data": "2026-10-18"
       }
      ]
     }
    ],
    "oceny": [],
-   "dla_polski": "Ataki dotyczą wód Rumunii, państwa wschodniej flanki NATO, i szlaków, którymi płyną ukraińskie towary i paliwa; ich skutek dla Polski jest pośredni (bezpieczeństwo żeglugi czarnomorskiej, presja na ustalenia NATO i UE o reakcji). Wniosek redakcji: o dalszych krokach zdecyduje, czy sprawca zostanie wskazany i czy Rumunia wystąpi do sojuszników.",
+   "dla_polski": "Zima z przerwami w dostawach prądu i internetu w Ukrainie to większa presja na polskie przejścia graniczne, więcej transportów pomocy przez Polskę i – jak pokazał wrzesień – więcej rosyjskich uderzeń w szlaki tuż przy granicy. Wniosek redakcji: warto już teraz przygotować zimowe scenariusze dla przejść i węzła logistycznego na Podkarpaciu oraz rozważyć polski wkład w ochronę ukraińskiej energetyki (generatory, transformatory, obrona powietrzna).",
    "w_wydaniach": [
-    "2026-10-13#z3",
-    "2026-10-15#z2",
-    "2026-10-17#z1"
+    "2026-10-10#z1",
+    "2026-10-11#z3",
+    "2026-10-13#z2",
+    "2026-10-14#z1",
+    "2026-10-17#z3",
+    "2026-10-18#z2"
+   ]
+  },
+  {
+   "id": "sabotaz-starlink",
+   "tytul": "Niemcy zatrzymują dwóch Turków podejrzanych o podpalenie stacji Starlink pod Grójcem; Litwa udaremnia podpalenie firmy ze sprzętem Starlink",
+   "data": [
+    "2026-10-12",
+    "2026-10-18"
+   ],
+   "tagi": [
+    "hybryda",
+    "rosja",
+    "litwa",
+    "obronnosc-polski"
+   ],
+   "etap": "W TOKU",
+   "lead": "12.10 minister spraw wewnętrznych Marcin Kierwiński poinformował, że w Niemczech zatrzymano **dwóch obywateli Turcji** podejrzanych o wrześniowe podpalenie **stacji naziemnej Starlink** w Woli Krobowskiej, obsługującej m.in. internet dla ukraińskiego wojska; rząd przypisuje atak rosyjskim służbom. W nocy na 18.10 na Litwie udaremniono **próbę podpalenia firmy przechowującej sprzęt Starlink** – premier Mindaugas Sinkevičius mówi o rosyjskim sabotażu.",
+   "omowienie": [
+    "Według Rzeczpospolitej zatrzymania dokonał niemiecki BKA na podstawie materiału polskiej policji, ABW i prokuratury; po przekazaniu do Polski podejrzani mają usłyszeć zarzuty sabotażu i dywersji na zlecenie obcego wywiadu. Minister-koordynator służb specjalnych Tomasz Siemoniak powiedział, że „nie ma wątpliwości”, iż stoją za tym rosyjskie służby.",
+    "Na Litwie znaleziono pojemniki z łatwopalnymi płynami; podpalić miano anteny satelitarne i jednostkę sterującą. Straż pożarna wszczęła postępowanie; nazwy firmy ani zatrzymanych nie podano, a wskazanie Rosji to na razie ocena premiera. Sinkevičius zwołał na 19.10 Komisję Bezpieczeństwa Narodowego."
+   ],
+   "przebieg": [
+    {
+     "data": "2026-10-12",
+     "tekst": "Kierwiński: w Niemczech zatrzymano dwóch obywateli Turcji podejrzanych o podpalenie we wrześniu stacji naziemnej Starlink w Woli Krobowskiej; Siemoniak: za atakiem stoją rosyjskie służby.",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "Reuters (za Internazionale)",
+       "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/12/poland-says-two-turkish-nationals-detained-in-germany-over-starlink-station-fire",
+       "data": "2026-10-12"
+      },
+      {
+       "nazwa": "Rzeczpospolita",
+       "url": "https://www.rp.pl/polityka/art45322951-atak-na-starlink-w-polsce-dwie-osoby-zatrzymane-w-tle-obcy-wywiad",
+       "data": "2026-10-12"
+      }
+     ]
+    },
+    {
+     "data": "2026-10-18",
+     "tekst": "Na Litwie udaremniono w nocy próbę podpalenia firmy przechowującej sprzęt Starlink; premier Sinkevičius nazwał to próbą sabotażu, zleceniodawcą jest według niego „najprawdopodobniej strona rosyjska”.",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "LRT",
+       "url": "https://www.lrt.lt/en/news-in-english/19/3086054/attempted-arson-at-lithuanian-firm-storing-starlink-equipment-pm-blames-russia",
+       "data": "2026-10-18"
+      },
+      {
+       "nazwa": "Kyiv Independent",
+       "url": "https://kyivindependent.com/lithuania-foils-arson-attack-on-starlink-equipment-suspects-russian-involvement/",
+       "data": "2026-10-18"
+      }
+     ]
+    }
+   ],
+   "oceny": [],
+   "dla_polski": "Infrastruktura łączności wykorzystywana przez Ukrainę staje się celem sabotażu w Polsce i na Litwie, a sprawców werbuje się poza Rosją. Wniosek redakcji: ochrona takich obiektów i współpraca służb z Niemcami i Litwą (zatrzymanie przez BKA) są dziś elementem obrony Polski.",
+   "w_wydaniach": [
+    "2026-10-12#z4",
+    "2026-10-18#z3"
+   ]
+  },
+  {
+   "id": "ue-ukraina-akcesja",
+   "tytul": "Ukraina uchwala ustawę o szkołach mniejszości, a UE otwiera z nią dwa kolejne klastry negocjacyjne; Zełenski i premier Węgier Magyar po raz pierwszy rozmawiają w cztery oczy",
+   "data": [
+    "2026-10-12",
+    "2026-10-16"
+   ],
+   "tagi": [
+    "ue",
+    "ukraina",
+    "wegry"
+   ],
+   "etap": "PRZYJĘTE",
+   "lead": "12.10 Rada Najwyższa Ukrainy uchwaliła ustawę rozszerzającą **naukę w językach mniejszości** – warunek Węgier. 13.10 UE otworzyła z Ukrainą **dwa kolejne klastry negocjacyjne** (rynek wewnętrzny, konkurencyjność); otwartych jest 4 z 6. 16.10 {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} i premier Węgier {{o:peter-magyar|Péter Magyar}} odbyli pierwsze rozmowy dwustronne. Rada Europejska nie uzgodniła natomiast budżetu UE na lata 2028–34.",
+   "omowienie": [
+    "Ustawę poparło 266 deputowanych, Zełenski podpisał ją tego samego dnia. Rada UE zgodziła się na otwarcie klastrów po umowie z Węgrami o prawach mniejszości węgierskiej.",
+    "Zełenski i Magyar uzgodnili wymianę wizyt i konsultacje ministerialne o mniejszościach. Na Radzie Europejskiej 15–16.10 António Costa zapowiedział otwarcie dwóch ostatnich klastrów do końca roku; spór o {{p:wrf}} 2028–34 przeniesiono na specjalny szczyt."
+   ],
+   "przebieg": [
+    {
+     "data": "2026-10-12",
+     "tekst": "Rada Najwyższa uchwaliła (266 głosów) ustawę rozszerzającą prawo do nauki w językach mniejszości będących językami urzędowymi UE; Zełenski podpisał ją tego samego dnia.",
+     "etap": "PRZYJĘTE",
+     "zrodla": [
+      {
+       "nazwa": "Rada Najwyższa Ukrainy (karta projektu 16119)",
+       "url": "https://itd.rada.gov.ua/billInfo/Bills/Card/70878",
+       "data": "2026-10-12"
+      },
+      {
+       "nazwa": "Euronews",
+       "url": "https://www.euronews.com/2026/10/12/ukraine-passes-minority-rights-law-paving-way-for-breakthrough-in-eu-accession-talks",
+       "data": "2026-10-12"
+      }
+     ]
+    },
+    {
+     "data": "2026-10-13",
+     "tekst": "UE otworzyła w Luksemburgu dwa kolejne klastry negocjacyjne z Ukrainą (rynek wewnętrzny, konkurencyjność) po umowie z Węgrami; otwartych jest 4 z 6.",
+     "etap": "PRZYJĘTE",
+     "zrodla": [
+      {
+       "nazwa": "Euronews",
+       "url": "https://www.euronews.com/2026/10/13/eu-advances-ukraine-accession-as-hungary-lifts-veto-paving-way-for-zelenskyy-magyar-meetin",
+       "data": "2026-10-13"
+      },
+      {
+       "nazwa": "Kyiv Independent",
+       "url": "https://kyivindependent.com/ukraine-advances-eu-membership-bid-with-4-of-6-integration-to-do-lists-unlocked/",
+       "data": "2026-10-13"
+      }
+     ]
+    },
+    {
+     "data": "2026-10-16",
+     "tekst": "Zełenski i Magyar odbyli w Brukseli pierwsze rozmowy dwustronne i uzgodnili wymianę wizyt; Rada Europejska nie uzgodniła WRF 2028–34, Costa ma przedstawić nowy kompromis przed specjalnym szczytem.",
+     "zrodla": [
+      {
+       "nazwa": "Kyiv Independent",
+       "url": "https://kyivindependent.com/zelensky-magyar-meet-at-eu-summit/",
+       "data": "2026-10-16"
+      },
+      {
+       "nazwa": "Euronews",
+       "url": "https://www.euronews.com/2026/10/16/hungarys-magyar-meets-zelenskyy-in-bid-to-reset-strained-ties",
+       "data": "2026-10-16"
+      }
+     ]
+    }
+   ],
+   "oceny": [],
+   "dla_polski": "Odblokowanie rozmów akcesyjnych przez Węgry przybliża Ukrainę do UE, co dla Polski oznacza zarówno stabilizację sąsiada, jak i przyszłe spory o rolnictwo i fundusze. Brak porozumienia w sprawie budżetu 2028–34 utrzymuje niepewność co do funduszy spójności, z których Polska jest największym beneficjentem.",
+   "w_wydaniach": [
+    "2026-10-12#z1",
+    "2026-10-13#z1",
+    "2026-10-16#z1",
+    "2026-10-16#z2"
    ]
   }
  ],
  "czego_nie_ma": [
   {
-   "tekst": "Kryzysy polityczne w Serbii, Rumunii, na Słowacji i na Węgrzech (27.09–5.10) – ostatni fakt z 5.10, skutki dla Polski pośrednie; ustąpiły miejsca atakom na statki przy wybrzeżach NATO.",
+   "tekst": "Dron, który 18.10 eksplodował nad północną Litwą (według ministra obrony Litwy wstępnie wleciał z terytorium Polski) – jedna pozycja w wydaniach, trasa lotu do wyjaśnienia we wspólnym śledztwie Litwy i Polski.",
    "prog": "następstwo"
   },
   {
-   "tekst": "Wizyta Zełenskiego w Londynie (14.10): pakiet rakiet obrony powietrznej za 45 mln funtów i przyspieszenie dostaw LMM; nowych sankcji brytyjskich jeszcze nie ogłoszono – po jednej pozycji w wydaniach dziennych. Choroba papieża Leona XIV (rozpoznanie 13–14.10) – bez wpływu na sytuację międzynarodową w okresie.",
+   "tekst": "Wizyta Zełenskiego w Londynie (14.10, pakiet rakiet obrony powietrznej za 45 mln funtów), atak izraelskich osadników na dyplomatów w Tajjibie (17.10), zamieszki po protestach we Francji (17.10), misja UE w Libanie (12.10), ataki Huti na lotnisko w Rijadzie – po jednej pozycji w wydaniach z tygodnia.",
    "prog": "następstwo"
   },
   {
-   "tekst": "Umowa bezpieczeństwa USA–Dania–Grenlandia (22.09) – ważna dla Arktyki i NATO, ale jej skutki dla Polski są pośrednie.",
+   "tekst": "Wystąpienie SACEUR gen. Alexusa Grynkewicha na Warsaw Security Forum (12.10) i rozmowa papieża Leona XIV z Putinem (16.10) – wypowiedzi bez decyzji.",
    "prog": "następstwo"
   },
   {
-   "tekst": "Szczyt Trump–Xi w Waszyngtonie (23–25.09): przedłużenie rozejmu handlowego USA–Chiny tylko o dwa miesiące (do 10.01.2027), uzgodnienia handlowe i dialog o AI bez decyzji dotyczących Ukrainy, Rosji ani Europy – skutki dla Polski pośrednie, jak przy umowie w sprawie Grenlandii. We wrześniowych wydaniach jest jedna pozycja o szczycie (25.09, przywrócona 4.10 po błędnym wycofaniu w rewizji archiwum), a zestawienie wymaga dwóch.",
-   "prog": "następstwo"
-  },
-  {
-   "tekst": "Spór o wieloletni budżet UE 2028–2034 – Rada Europejska 15–16.10 nie uzgodniła budżetu; Costa ma przedstawić nowy kompromis przed specjalnym szczytem w listopadzie.",
-   "prog": "następstwo"
-  },
-  {
-   "tekst": "Decyzje UE w sprawach obronnych (pierwsze projekty EDIP, 28.09) – istotne, ale mniej ważące dla bezpieczeństwa Polski niż wybrane pozycje.",
-   "prog": "następstwo"
-  },
-  {
-   "tekst": "Narady bezpieczeństwa po ataku przy Jagodzinie (14.09 u premiera, 18.09 u prezydenta) i słowa premiera z 29.09 o „permanentnych” atakach przy granicy – po jednym źródle z poziomów 1–2.",
+   "tekst": "Słowa sekretarza stanu Marco Rubio o „60-dniowej pauzie” w sankcjach (18.10) – jedno źródło z poziomów 1–2.",
    "prog": "dokumentacja"
   },
   {
-   "tekst": "Zapowiedź rozmów trójstronnych Ukraina–USA–Rosja w październiku (Biuro Prezydenta Ukrainy, 12.09) i słowa rzecznika Kremla z 25.09 o możliwym spotkaniu – po jednym niezależnym źródle.",
-   "prog": "dokumentacja"
-  },
-  {
-   "tekst": "Łączna liczba etatów dodanych w Rosji czterema tegorocznymi dekretami, liczba osób objętych przedłużonymi sankcjami UE i liczba ofiar ataku na Kijów 8.09 – źródła podają różne wartości.",
-   "prog": "dokumentacja"
-  },
-  {
-   "tekst": "Dron na terenie Instytutu Badań Jądrowych w Kijowie (30.09) – z poziomów 1–2 tylko Kyiv Independent, brak komunikatu MAEA.",
-   "prog": "dokumentacja"
-  },
-  {
-   "tekst": "Atak w opactwie w Jarosławiu (24.09) – sprawa kryminalna, mimo politycznego wymiaru w relacjach polsko-ukraińskich.",
+   "tekst": "Sprawy z poprzednich tygodni bez nowych faktów w oknie (groźba jądrowa w sprawie Królewca, drony przy polskiej granicy, mediacja USA, Duma i armia Rosji, Ormuz, Białoruś, AfD) – trafią do archiwum za październik 2026.",
    "prog": "następstwo"
-  },
-  {
-   "tekst": "Ocena ISW z 30.09 o rozpoczęciu przez Rosję zimowej kampanii uderzeń – nie znaleziono jej w przytaczanym wcześniej źródle; do zestawienia po dotarciu do tekstu ISW.",
-   "prog": "dokumentacja"
-  },
-  {
-   "tekst": "Ataki dronów na statki z ukraińskim zbożem i tureckich armatorów u wybrzeży Rumunii (5.10) i Bułgarii (6.10) oraz na dwa statki handlowe u wybrzeża Bułgarii (13.10, jeden zatonął, 11 marynarzy poszukiwanych) – Bułgaria powiadomiła NATO i UE, ale sprawców nie ustalono; decyzji państw ani zmiany szlaków żeglugi jeszcze nie ma.",
-   "prog": "następstwo"
-  },
-  {
-   "tekst": "Areszt tymczasowy byłego szefa BND Augusta Hanninga (zatrzymanie 6.10, nakaz 7.10) – sprawa w toku, prokuratura nie ujawnia, którego państwa dotyczy zarzut szpiegostwa; następstw jeszcze nie ma.",
-   "prog": "następstwo"
-  },
-  {
-   "tekst": "Wybory: Łotwa (3–4.10), Brazylia (I tura 4.10), Bośnia i Hercegowina (4.10), zapowiedź przedterminowych wyborów w Hiszpanii (5.10) – wyniki ostateczne lub drugie tury po końcu okresu; skutek dla Polski pośredni.",
-   "prog": "następstwo"
-  },
-  {
-   "tekst": "Otwarcie 13.10 dwóch kolejnych klastrów negocjacyjnych UE z Ukrainą po porozumieniu z Węgrami (4 z 6 klastrów otwartych) – w wydaniach z okresu jedna pozycja, a zestawienie wymaga dwóch.",
-   "prog": "dokumentacja"
   }
  ],
- "nota": "Zestawienie kroczące za 18.09–17.10.2026, odświeżane codziennie rano. Poranna aktualizacja 18.10: przesunięcie okna na 18.09–17.10; żadna pozycja nie wypadła z okna ani nie weszła nowa. Nowe fakty z wydania z 17.10 dopisano do trzech pozycji: Trump uchylił w dużej mierze nowy pakiet sankcji i ceł (16.10), Rosja uderzyła w ponad 15 obiektów energetycznych Ukrainy (noc na 17.10), rumuńskie F-16 zestrzeliły dwa drony nad rumuńskimi wodami (17.10). Fakty pochodzą z wydań dziennych i ich źródeł (nie weryfikowano ich ponownie); kolejność to ocena redakcji, pozostałe pozycje bez zmian."
+ "nota": "Zestawienie kroczące za 12–18.10.2026. Od 18.10 okno ma 7 dni zamiast 30 (decyzja redakcji: przy 30 dniach lista zatrzymywała sprawy sprzed kilku tygodni); archiwum za miesiące kalendarzowe bez zmian. Weszły trzy nowe sprawy: Starshield i dane wywiadowcze USA (po korekcie wydania z 18.10), sabotaż wymierzony w Starlink, akcesja Ukrainy do UE; trzy pozostałe dostały tytuły opisujące najnowszy fakt. Fakty pochodzą z wydań dziennych i ich źródeł; kolejność to ocena redakcji."
 }

@@ -763,10 +763,10 @@ def okres_topu(z):
     return okres_slownie(z["od"], z["do"])
 
 
-# Kroczące Top 10 (ostatnie 30 dni, odświeżane codziennie): dane/top/biezace.json -> top/biezace.html.
+# Kroczące Top 10 (ostatnie 7 dni, odświeżane codziennie): dane/top/biezace.json -> top/biezace.html.
 # Pozostałe pliki w dane/top/ to zamknięte zestawienia za miesiące kalendarzowe (archiwum).
 TOP_KROCZACE = "biezace"
-TOP_OKNO_DNI = 30
+TOP_OKNO_DNI = 7
 
 # Stare adresy zestawień Top 10 zastąpionych przez zestawienia miesięczne: slug -> nowy slug
 TOP_PRZEKIEROWANIA = {"2026-09-07_2026-10-02": "2026-09-01_2026-09-30"}
@@ -1626,7 +1626,7 @@ class Budowa:
                       f'<p class="uwaga">Stan na {data_dluga(z["opublikowano"])}</p><ol class="top-lista">' + "".join(
                           f'<li><a href="{z["_slug"]}.html#t{n}">{e(p["tytul"])}</a> <span class="top-okres">{self.top_data(p)}</span> {self.top_odznaka(z, p)}</li>' for n, p in enumerate(z["pozycje"], 1))
                       + "</ol></article>")
-        tresc = ('<section class="winieta"><h1>Top 10</h1><p class="w-stan">Dziesięć najważniejszych wydarzeń ostatnich 30 dni, odświeżane codziennie, oraz archiwum zamkniętych zestawień za miesiące kalendarzowe – '
+        tresc = ('<section class="winieta"><h1>Top 10</h1><p class="w-stan">Dziesięć najważniejszych wydarzeń ostatnich 7 dni, odświeżane codziennie, oraz archiwum zamkniętych zestawień za miesiące kalendarzowe – '
                  'z przebiegiem, ocenami ekspertów i wnioskiem „Dla Polski”. Kolejność to ocena redakcji; fakty mają źródła.</p>'
                  '<p class="w-stan">Odznaki: <span class="odznaka hist nowe">nowe</span> pierwszy raz w zestawieniu · '
                  '<span class="odznaka hist ponownie">ponownie</span> sprawa była już w zestawieniu, wraca z nowym faktem · '

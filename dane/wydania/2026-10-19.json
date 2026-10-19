@@ -10,7 +10,19 @@
   "Izraelska policja zatrzymała 8 osób po ataku na konwój dyplomatów, w tym polskich, na Zachodnim Brzegu; polskie MSZ podało, że Polacy nie ucierpieli.",
   "Nie przejrzano OSW i PISM z ostatnich 3 dni (OSW nie opublikował nic od 15.10); kontrola niezależna – patrz nota."
  ],
- "korekty": [],
+ "korekty": [
+  {
+   "bylo": "Wydanie nr 31 podało, że OSW nie ma publikacji z 16–19.10, a jedyną analizą była ocena OSW z 14.10 (Starshield), omówiona już w wydaniu nr 29. Wydanie nr 30 (18.10) nie omówiło OSW z powodu błędu otwarcia listy publikacji.",
+   "jest": "Lista publikacji OSW zawiera analizy z 16.10 (Węgry odblokowują dwa klastry negocjacyjne Ukrainy) i z 19.10 (centra danych w Rosji a ataki ukraińskich dronów). Obie dopisano do analiz i do listy OSW z ostatnich dni.",
+   "zrodla": [
+    {
+     "nazwa": "OSW",
+     "url": "https://www.osw.waw.pl/pl/publikacje",
+     "data": "2026-10-19"
+    }
+   ]
+  }
+ ],
  "zarys": [
   {
    "id": "z1",
@@ -179,6 +191,43 @@
  ],
  "analizy": [
   {
+   "tytul": "OSW: ataki ukraińskich dronów na rosyjskie centra danych – mały skutek gospodarczy, duży polityczny; suwerenizacja rosyjskiego internetu zwiększa podatność",
+   "autor": "OSW (Iwona Wiśniewska), analiza z 19.10.2026",
+   "tekst": "Według OSW od 7 do 11.10 ukraińskie drony trafiły w trzy z sześciu centrów danych Yandeksu (Sasowo, Włodzimierz – zatrzymane, w Kałudze uszkodzono część infrastruktury), 14.10 w centrum Sbierbanku w Bałakowie, a 18.10 w serwerownię obsługującą VK w obwodzie leningradzkim; Yandex i Sbierbank potwierdziły ataki, choć Yandex od 8.10 działa w trybie awaryjnym, z zakłóceniami wyszukiwarki, nawigacji, transportu i płatności. Autorka ocenia, że gospodarczo to cios ograniczony (impuls inflacyjny, niższe wpływy budżetu), ale politycznie uderza w interesy elity kontrolującej Yandex i VK. Podatność zwiększa polityka suwerenizacji rosyjskiego internetu: wymóg przechowywania danych w kraju nie pozwala przenieść kopii poza zasięg dronów, a sprzęt IT, w tym superkomputery zbudowane na sprzęcie NVIDIA, Rosja musi importować z obejściem sankcji. Według szacunków przywołanych przez OSW przywrócenie pełnej funkcjonalności systemu Yandeksu potrwa co najmniej pół roku.",
+   "dla_polski": "Wniosek redakcji (nie teza OSW): centra danych stały się celem wojskowym po obu stronach (OSW przypomina rosyjskie ataki z 27.09 na centra danych w Kijowie i Dnieprze) – kontrast z Ukrainą, która utrzymała usługi dzięki chmurze i serwerom w UE, to argument za rozproszeniem i zapasowymi lokalizacjami danych państwa i operatorów w Polsce.",
+   "tagi": [
+    "rosja",
+    "ukraina",
+    "gospodarka",
+    "sankcje"
+   ],
+   "zrodla": [
+    {
+     "nazwa": "OSW",
+     "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-19/centra-danych-w-rosji-skutki-atakow-ukrainskich-dronow",
+     "data": "2026-10-19"
+    }
+   ]
+  },
+  {
+   "tytul": "OSW: Węgry odblokowały dwa klastry negocjacyjne Ukrainy z UE – „ocieplenie” warunkowe, nie zwrot w polityce Magyara",
+   "autor": "OSW (Kacper Sienicki, Ilona Gizińska, Marcin Jędrysiak), analiza z 16.10.2026",
+   "tekst": "Według OSW 13.10 w Luksemburgu państwa UE zgodziły się na otwarcie z Ukrainą klastra 2 (rynek wewnętrzny) i 3 (konkurencyjność i wzrost sprzyjający włączeniu społecznemu), łącznie 17 rozdziałów; Rada Europejska potwierdziła to 16.10, otwarte są już cztery z sześciu klastrów. Węgry zdjęły weto po nowelizacji ukraińskiej ustawy oświatowej z 12.10 (szkoły mniejszościowe, języki i symbole mniejszości). Autorzy oceniają zgodę jako warunkową: zobowiązania oświatowe mają być wykonane do końca 2026 r., pozostałe w 2027 r., a ich niewykonanie może przywrócić blokadę. Rząd Pétera Magyara wybrał dialog zamiast konfrontacji, lecz nie przyspiesza negocjacji, zapowiada przyszłe referendum w sprawie członkostwa Ukrainy, nie udziela pomocy wojskowej i nie zgadza się na tranzyt broni.",
+   "dla_polski": "Otwarcie klastra rynku wewnętrznego przybliża integrację gospodarki ukraińskiej z jednolitym rynkiem przed akcesją; według OSW Kijów i Bruksela chcą jeszcze w tym roku otworzyć klastry 4 i 5, obejmujące m.in. rolnictwo i transport. Wniosek redakcji (nie teza OSW): to obszary najbardziej sporne dla polskich rolników i przewoźników.",
+   "tagi": [
+    "wegry",
+    "ukraina",
+    "ue"
+   ],
+   "zrodla": [
+    {
+     "nazwa": "OSW",
+     "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-16/ocieplenie-wegry-odblokowuja-otwarcie-dwoch-klastrow-negocjacyjnych",
+     "data": "2026-10-16"
+    }
+   ]
+  },
+  {
    "tytul": "OSW: problemy Ukrainy z amerykańskimi danymi wywiadowczymi i systemem Starshield – brak potwierdzenia wstrzymania, zależność od USA realna",
    "autor": "OSW (Andrzej Wilk), analiza z 14.10.2026",
    "tekst": "Według autora Zełenski mówił, że partnerzy nie ostrzegli Ukrainy przed rosyjskimi atakami balistycznymi na Kijów 12 i 13.10 oraz że administracja USA groziła wstrzymaniem danych wywiadowczych, jeśli Kijów nie zaprzestanie uderzeń w rosyjskie rafinerie. OSW nie widzi potwierdzenia zawieszenia przekazywania danych i zwraca uwagę, że starty rakiet bywały niewykrywane wcześniej, m.in. przez pogodę i luki w pokryciu satelitarnym; zakłócenia dronów wynikały z ograniczeń SpaceX dla Starshield, wojskowej wersji Starlinka. Ocena OSW wyprzedza dzisiejsze wypowiedzi Rubio (z4), który zaprzecza „pauzie”, i atak z 19.10 (z3).",
@@ -291,7 +340,26 @@
   }
  ],
  "zrodla_analityczne": {
-  "osw": [],
+  "osw": [
+   {
+    "tytul": "Centra danych w Rosji – skutki ataków ukraińskich dronów",
+    "autor": "I. Wiśniewska",
+    "data": "2026-10-19",
+    "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-19/centra-danych-w-rosji-skutki-atakow-ukrainskich-dronow"
+   },
+   {
+    "tytul": "Ocieplenie? Węgry odblokowują otwarcie dwóch klastrów negocjacyjnych Ukrainy z UE",
+    "autor": "K. Sienicki, I. Gizińska, M. Jędrysiak",
+    "data": "2026-10-16",
+    "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-16/ocieplenie-wegry-odblokowuja-otwarcie-dwoch-klastrow-negocjacyjnych"
+   },
+   {
+    "tytul": "Saksonia-Anhalt: AfD i BSW żądają zakończenia udzielania pomocy Ukrainie",
+    "autor": "K. Frymark",
+    "data": "2026-10-15",
+    "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-15/saksonia-anhalt-afd-i-bsw-zadaja-zakonczenia-udzielania-pomocy"
+   }
+  ],
   "pism": []
  },
  "czego_nie_ma": [
@@ -371,7 +439,7 @@
    "prog": "następstwo"
   },
   {
-   "tekst": "Nie przejrzano w tym wydaniu: PAP Kraj oraz komunikatów DO RSZ, MON, SG, ŻW, prokuratury i ABW/SKW poza sprawą drona na Litwie; OSW i PISM (OSW nie ma publikacji z 16–19.10, strony PISM nie udało się odczytać); działu Świat Onetu (zablokowany); ISW i punktów „Do sprawdzenia” (Czechy – II tura Senatu, Rubio w Samarkandzie – wynik C5+1, Wainwright).",
+   "tekst": "Nie przejrzano w tym wydaniu: PAP Kraj oraz komunikatów DO RSZ, MON, SG, ŻW, prokuratury i ABW/SKW poza sprawą drona na Litwie; PISM (strony nie udało się odczytać); działu Świat Onetu (zablokowany); ISW i punktów „Do sprawdzenia” (Czechy – II tura Senatu, Rubio w Samarkandzie – wynik C5+1, Wainwright).",
    "prog": "kompletność"
   }
  ],
@@ -450,5 +518,5 @@
   "OSW i PISM – publikacje z 16–20.10",
   "PAP Kraj, DO RSZ, SG, ŻW – incydenty z 17–19.10"
  ],
- "nota": "Kontroli niezależnej nie przeprowadzono: sesja zautomatyzowana, bez agenta weryfikującego – pozycje opierają się na własnej weryfikacji autora wydania. Wydanie z 19.10, przygotowane ok. 20:00 (Europe/Warsaw). Dział Świat Onetu nie był otwierany (zablokowany) i nie przeglądano go wyszukiwarką; kanał Polsat News Świat otwarto (najnowszy wpis 19.10, 19:09 – godziny policyjne we Francji), kanał TVN24 nie był próbowany, przedruków Reutersa nie wykorzystano; z kanału Polsat News do wydania trafiło 6 tematów (dron na Litwie, konwój dyplomatów, atak na Kijów, Trump–Zełenski, Francja, Castro/Rosja/Putin – część jako wpisy „W obserwacji”). Kanały Kyiv Independent, Euronews i Meduza otwarto. Wyszukiwarka słabo indeksuje bieżące wydarzenia, dlatego zarys liczy 5 pozycji zamiast 8–14, a pozostałe tematy dnia (Jemen, Rosja, Albania, Pakistan–Iran i in.) są wpisami z progiem dokumentacji. Nie sprawdzono PAP Kraj ani komunikatów DO RSZ, MON, SG, ŻW, prokuratury; OSW – brak publikacji z 16–19.10, strona PISM nieodczytana. Kalendarz zaktualizowano według punktów z kontekst.py; kalendarium (terminy.json) bez zmian."
+ "nota": "Kontroli niezależnej nie przeprowadzono: sesja zautomatyzowana, bez agenta weryfikującego – pozycje opierają się na własnej weryfikacji autora wydania. Wydanie z 19.10, przygotowane ok. 20:00 (Europe/Warsaw). Dział Świat Onetu nie był otwierany (zablokowany) i nie przeglądano go wyszukiwarką; kanał Polsat News Świat otwarto (najnowszy wpis 19.10, 19:09 – godziny policyjne we Francji), kanał TVN24 nie był próbowany, przedruków Reutersa nie wykorzystano; z kanału Polsat News do wydania trafiło 6 tematów (dron na Litwie, konwój dyplomatów, atak na Kijów, Trump–Zełenski, Francja, Castro/Rosja/Putin – część jako wpisy „W obserwacji”). Kanały Kyiv Independent, Euronews i Meduza otwarto. Wyszukiwarka słabo indeksuje bieżące wydarzenia, dlatego zarys liczy 5 pozycji zamiast 8–14, a pozostałe tematy dnia (Jemen, Rosja, Albania, Pakistan–Iran i in.) są wpisami z progiem dokumentacji. Nie sprawdzono PAP Kraj ani komunikatów DO RSZ, MON, SG, ŻW, prokuratury; OSW – po uzupełnieniu omówiono analizy z 16.10 i 19.10 (zob. korekta), kontrolę niezależną tych uzupełnień przeprowadził agent i poprawiono atrybucje; strona PISM nieodczytana. Kalendarz zaktualizowano według punktów z kontekst.py; kalendarium (terminy.json) bez zmian."
 }

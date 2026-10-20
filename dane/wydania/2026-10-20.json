@@ -1,0 +1,568 @@
+{
+  "nr": 32,
+  "data": "2026-10-20",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Premier Donald Tusk zapowiedział 20.10, że Polska zażąda od Ukrainy pełnych wyjaśnień ws. drona, który 18.10 wybuchł na Litwie; Wilno twierdzi, że wleciał z Polski, a Polska nie potwierdza przelotu.",
+    "W Oslo Zełenski rozmawiał z wysłannikiem USA Steve'em Witkoffem i wezwał do rozmów trójstronnych z Trumpem i Putinem; Witkoff ma jechać do Rosji. Sekretarz stanu Rubio zaprzeczył, by opóźnianie dostaw Patriotów było celowe.",
+    "IRGC twierdzi, że 19.10 dwa tankowce najechały na irańskie miny koło Ormuzu; ropa Brent krótko przekroczyła 110 USD za baryłkę, a po sygnałach o dalszych rozmowach Iran–USA spadła do ok. 108 USD.",
+    "Francja zapowiada kolejne lokalne godziny policyjne i „masową” operację na sobotnie protesty, z udziałem wojska (operacja Sentinelle) przy ochronie obiektów; według ministra sprawiedliwości ok. 2500 osób zatrzymano do przesłuchania.",
+    "OSW: nowe analizy o rosyjskich atakach na energetykę Ukrainy (20.10), wyborach w Czechach (20.10) i sukcesji na Białorusi (20.10); lista PISM nie otworzyła się mimo ponowień."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "polska",
+      "data": "2026-10-20",
+      "tagi": [
+        "litwa",
+        "ukraina",
+        "obronnosc-polski",
+        "nato"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "warszawa",
+      "krotko": "Tusk żąda wyjaśnień ws. drona",
+      "tekst": "Premier Donald Tusk powiedział 20.10 przed posiedzeniem rządu, że Polska będzie współpracować z Litwą i wyjaśni incydent z dronem, który 18.10 wybuchł na północy Litwy, oraz że oczekuje od Ukrainy **pełnych wyjaśnień**; zaznaczył, że Polska nie zezwala na operacje na swoim terytorium ani nad nim bez zgody państwa polskiego, a polski dowódca operacyjny ma formalnie zwrócić się do strony ukraińskiej (według RMF24/PAP). według Litwy ukraiński dron typu FPV z ładunkiem wybuchowym wleciał z Polski; według szefa litewskiej armii Giedriusa Premeneckasa radary zauważyły obiekt o 5:47 ok. 30–40 km w głębi Polski, a o 6:02 przekroczył granicę litewską. Ukraina przeprosiła, a jej MSZ tłumaczy, że drony mogła odchylić rosyjska walka radioelektroniczna; według Kyiv Independent polskie władze nie potwierdziły przelotu nad Polską. Następstwo: Polska żąda wyjaśnień od Kijowa, Tusk rozmawia z prezydentem Litwy Gitanasem Nausėdą.",
+      "zrodla": [
+        {
+          "nazwa": "PAP (za RMF24)",
+          "url": "https://www.rmf24.pl/fakty/polska/news-dron-eksplodowal-na-litwie-mial-przyleciec-z-polski-tusk-nie,nIdn,1022662",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/poland-to-demand-explanation-from-ukraine-over-drone-incident-in-lithuania/",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "LRT",
+          "url": "https://www.lrt.lt/en/news-in-english/19/3087132/lithuania-has-evidence-sunday-s-drone-crossed-from-poland-presidential-adviser-says",
+          "data": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-10-20",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "usa",
+        "rozejm"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "oslo",
+      "krotko": "Rozmowy Zełenski–Witkoff w Oslo",
+      "tekst": "W Oslo odbyły się 20.10 rozmowy prezydenta Ukrainy Wołodymyra Zełenskiego z wysłannikiem USA Steve'em Witkoffem (Jared Kushner dołączył zdalnie); gospodarzami byli premier Norwegii Jonas Gahr Støre i prezydent Finlandii Alexander Stubb, a według Euronews w rozmowach mieli uczestniczyć także przedstawiciele UE, NATO oraz Wielkiej Brytanii, Francji, Niemiec i Polski (bez potwierdzenia składu). Zełenski wezwał do **rozmów trójstronnych** z Trumpem i Putinem; powiedział też Bloombergowi, że zaoferował wstrzymanie ukraińskich uderzeń w rosyjskie obiekty naftowe w zamian za więcej pocisków Patriot. Według premiera Støre'a (Kyiv Independent) Witkoff ma 21.10 spotkać się w Petersburgu z przedstawicielami Rosji; według Reutera i Axiosa (za Meduzą) ma przedstawić Putinowi pomysły wypracowane z Ukrainą i Europejczykami, a rozmowy mogą dotyczyć uwolnienia Amerykanina Stephena Hubbarda. Następstwo: decyzji o spotkaniu przywódców nie ma, Rosja nie potwierdziła terminu rozmów.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-meets-trump-envoy-witkoff-in-norway-as-us-ukraine-ties-sour/",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/20/trump-envoy-witkoff-to-meet-zelenskyy-in-oslo-before-planned-putin-talks-in-moscow",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "Meduza (za Reuters)",
+          "url": "https://meduza.io/en/news/2026/10/20/reuters-trump-envoy-steve-witkoff-plans-to-attend-ukraine-peace-talks-with-zelensky-in-norway-and-meet-putin-in-russia",
+          "data": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "wojna",
+      "data": "2026-10-20",
+      "tagi": [
+        "usa",
+        "ukraina",
+        "nato",
+        "uzbrojenie"
+      ],
+      "etap": "W TOKU",
+      "tekst": "Sekretarz stanu USA Marco Rubio powiedział 20.10 dziennikarzom, że dostawa pocisków przechwytujących dla Ukrainy mogła zostać opóźniona, ale **nie było celowej decyzji politycznej**, by szkodzić Ukrainie; odbył też 45-minutową rozmowę z Zełenskim (według Kyiv Independent). Zełenski zarzucił USA celowe opóźnianie dostaw Patriotów opłaconych przez europejskich sojuszników w ramach inicjatywy NATO; według Kyiv Independent (19.10) anonimowy ukraiński urzędnik mówił, że kontrakty czekają na podpis sekretarza obrony Pete'a Hegsetha. NATO twierdzi, że dostawy trwają, a urzędnik USA zaprzecza zarzutom (według Euronews). Następstwo: spór USA–Ukraina o Patrioty trwa; dostawy nie zostały potwierdzone.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/rubio-says-delays-in-us-air-defense-shipments-to-ukraine-not-deliberate/",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/20/trump-envoy-witkoff-to-meet-zelenskyy-in-oslo-before-planned-putin-talks-in-moscow",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/10/20/zelensky-accuses-us-of-deliberately-delaying-patriot-missile-deliveries",
+          "data": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "wojna",
+      "data": "2026-10-20",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "front"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "kijow",
+      "krotko": "Rosyjskie ataki na Kijów i obwód",
+      "tekst": "Rosja zaatakowała 19–20.10 Kijów i okolice: według Państwowej Służby ds. Sytuacji Nadzwyczajnych w Obuchowie (obwód kijowski) rosyjskie uderzenie w budynek produkcyjno-magazynowy zabiło 3 osoby i raniło 6, a w obwodzie chmielnickim zginęły 2 osoby i 2 zostały ranne; w ciągu dnia rosyjskie drony uszkodziły w Kijowie salę operacyjną Instytutu Strażeski i placówkę medyczną, a według Wojskowej Administracji Miasta rannych w stolicy jest pięć osób. Rozmiar uszkodzeń energetyki nie został podany; dzień wcześniej Rosja uderzyła w energetykę w 11 obwodach.",
+      "zrodla": [
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/10/20/three-people-killed-in-russian-attack-on-kyiv-region-as-rescuers-search-debris-at-industrial-building",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-drones-strike-kyiv-hospital-injure-5-across-the-city/",
+          "data": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "swiat",
+      "data": "2026-10-19",
+      "tagi": [
+        "iran",
+        "energia",
+        "gospodarka",
+        "usa"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "ciesnina-ormuz",
+      "krotko": "IRGC: tankowce na minach koło Ormuzu",
+      "tekst": "Korpus Strażników Rewolucji Islamskiej (IRGC) oświadczył, że 19.10 dwa tankowce najechały na miny jego marynarki w południowej części Cieśniny Ormuz i stanęły w ogniu; brytyjskie UKMTO podało tylko o jednym incydencie z udziałem tankowca (ok. 121 mil morskich na wschód od Duqm, Oman), bez szkód i ofiar, amerykański urzędnik zaprzeczył irańskiemu twierdzeniu o zestrzeleniu drona MQ-9, a według Al Jazeera CENTCOM zaprzecza twierdzeniom o minach. Rzecznik IRGC Hossein Mojabi zagroził podmorskim kablom w Zatoce. Ropa Brent krótko przekroczyła 20.10 poziom **110 USD** za baryłkę, a po sygnałach o dalszych rozmowach Iran–USA spadła do ok. 107,91 USD (WTI 103,03 USD). Następstwo: żeglugę przez Ormuz nadal zakłócają ataki, a mediowane rozmowy nie przyniosły końca wojny.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/20/irgc-mines-set-tankers-ablaze-as-tehran-threatens-expanded-attacks",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "France 24 (AFP)",
+          "url": "https://www.france24.com/en/live-news/20261020-tech-firms-bear-brunt-of-selling-as-asian-stocks-drop",
+          "data": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "z6",
+      "blok": "instytucje",
+      "data": "2026-10-20",
+      "tagi": [
+        "francja",
+        "ue"
+      ],
+      "etap": "ZAPOWIEDŹ",
+      "miejsce": "paryz",
+      "krotko": "Francja zaostrza reakcję na zamieszki",
+      "tekst": "Premier Sébastien Lecornu zapowiedział 20.10, że prefekci wspólnie z merami będą wprowadzać **kolejne lokalne godziny policyjne** tam, gdzie wymaga tego sytuacja, oraz „masową” operację bezpieczeństwa na zapowiedziane na sobotę protesty; policja paryska utrzymała godziny policyjne 23:00–6:00 w rejonie Place de la République i Les Halles, Lyon odnowił je w centrum (21:00–6:00), a Marsylia wprowadziła je dla niepełnoletnich bez opieki. Minister spraw wewnętrznych Laurent Nuñez powiedział, że w sobotę żołnierze operacji Sentinelle wesprą policję i żandarmerię przy ochronie statycznej, i że policja „straciła kontrolę” nad protestami w kilku miastach; rozważa też zakaz niezgłoszonych demonstracji. Według ministra sprawiedliwości Géralda Darmanina ok. 2500 osób w areszcie do przesłuchania, a 149 trafiło do aresztu przed procesem. Następstwo: decyzje o godzinach policyjnych i zakazach zapadną lokalnie przed sobotą; Lecornu spotka się ze związkowcami w środę i z partiami w czwartek.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/20/france-vows-massive-security-operation-involving-military-forces-for-expected-weekend-prot",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/europe/20261020-live-curfews-come-into-effect-around-france-to-combat-looting",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/20/france-to-impose-new-curfews-where-required-after-calm-night",
+          "data": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "z7",
+      "blok": "swiat",
+      "data": "2026-10-20",
+      "tagi": [
+        "ukraina",
+        "inne"
+      ],
+      "etap": "PRZYJĘTE",
+      "miejsce": "seul",
+      "krotko": "Seul wycofuje dyplomatów z Kijowa",
+      "tekst": "Ministerstwo spraw zagranicznych Korei Południowej poinformowało 20.10 (przez rzecznika Park Doo-soona, za Yonhap), że wycofa część personelu dyplomatycznego z Ukrainy; w Kijowie zostanie chargé d'affaires. Seul odwołał już 8.10 ambasadora po tym, jak Zełenski 23.09 ujawnił na forum ONZ przekazanie Korei Południowej dwóch północnokoreańskich jeńców; Seul uznał to za naruszenie poufności, a przeprosiny ministra Andrija Sybihy za niewystarczające. Powody podane przez Seul: brak „pozytywnych kroków” Kijowa oraz zagrożenie rosyjskimi atakami lotniczymi. Następstwo: kolejny stopień obniżenia stosunków dyplomatycznych Korei Południowej z Ukrainą.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/south-korea-to-withdraw-some-diplomatic-staff-from-ukraine-amid-pow-dispute/",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "Meduza (za Yonhap)",
+          "url": "https://meduza.io/en/news/2026/10/20/south-korea-to-cut-embassy-staff-in-kyiv-after-recalling-ambassador-amid-dispute-over-north-korean-pows",
+          "data": "2026-10-20"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "OSW: Rosja zwiększa ataki na ukraińską energetykę – w tydzień 2256 dronów uderzeniowych; spór o dostawy Patriotów",
+      "autor": "OSW (Krzysztof Nieczypor, Mateusz Goliszewski, Jacek Tarociński), analiza z 20.10.2026",
+      "tekst": "Według OSW od 13 do 20.10 Rosja użyła 2256 dronów uderzeniowych, głównie typu Shahed; ukraińska obrona deklaruje zniszczenie 86% z nich, w tym 73% dronów odrzutowych. Najmocniej uderzono w Kijów: 13.10 ok. 600 tys. odbiorców straciło prąd i wodę, a uszkodzono łącznie 28 podstacji; premier Ukrainy stwierdził, że od 16.07 nie było dnia bez ataków na energetykę. Autorzy przytaczają zarzut Zełenskiego, że USA opóźniają dostawy Patriotów, których Ukraina otrzymuje obecnie 12 miesięcznie, oraz ukraińskie uderzenia w rosyjskie rafinerie, porty naftowe i lotniska.",
+      "dla_polski": "Wniosek redakcji (nie teza OSW): spór o dostawy Patriotów i ataki na energetykę przed zimą zwiększają ryzyko nowej fali uchodźców i presji na polską sieć energetyczną i przepustowość przejść granicznych; sama analiza nie formułuje wniosków dla Polski.",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "energia",
+        "uzbrojenie"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-20/wyniszczajace-rosyjskie-ataki-na-infrastrukture-energetyczna-1700",
+          "data": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "tytul": "OSW: wybory w Czechach to ostrzeżenie dla rządu Babiša – STAN wygrywa w Senacie, ANO traci w samorządach",
+      "autor": "OSW (Krzysztof Dębiec), analiza z 20.10.2026",
+      "tekst": "Według OSW w wyborach do Senatu (zakończonych 17.10) STAN zdobył 10 z 27 mandatów, przed ODS z 7; partie koalicji rządowej nie zdobyły żadnego mandatu, a ODS zachowuje największy klub i przewodnictwo w Senacie. W wyborach samorządowych 9–10.10 ANO było najsilniejsze, ale z 14,3% głosów wobec 16,6% w 2022 r. i 1650 radnymi (wobec 1748); wygrało w 6 z 13 miast wojewódzkich, tracąc poparcie w 12. SPD straciło 76% mandatów radnych. Autor ocenia wynik jako negatywną ocenę pierwszego roku rządów, a SPD może zacząć działać bardziej autonomicznie, co zmniejszy stabilność rządu.",
+      "dla_polski": "Wniosek redakcji (nie teza OSW): osłabienie koalicji Andreja Babiša może zmniejszyć jej skłonność do kursu zbliżonego do Węgier i Słowacji w sprawie pomocy Ukrainie; sama analiza nie omawia skutków dla Polski.",
+      "tagi": [
+        "czechy",
+        "wybory",
+        "ue"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-20/wybory-samorzadowe-i-senackie-w-czechach-ostrzezenie-dla-obozu-wladzy",
+          "data": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "tytul": "OSW: sukcesja na Białorusi pozostaje otwarta – Łukaszenka celowo nie wskazuje następcy, ważna będzie rola Moskwy",
+      "autor": "OSW (Kamil Kłysiński), komentarz z 20.10.2026",
+      "tekst": "Według autora Alaksandr Łukaszenka (72 lata) składa niejasne deklaracje o następcy, by utrzymać kontrolę nad elitami. Konstytucja z referendum z 2022 r. przewiduje przejęcie obowiązków głowy państwa przez przewodniczącą Rady Republiki Natallę Kaczanawą, lecz autor uznaje ten mechanizm za iluzoryczny. Synowie Wiktar, Dzmitryj i Mikałaj korzystają z przywilejów i dostępu do biznesu, nie mając realnej władzy. Prawdziwa rywalizacja ma ruszyć po śmierci lub chorobie Łukaszenki, a decydującą rolę może odegrać Moskwa.",
+      "dla_polski": "Wniosek redakcji (nie teza OSW): niepewna sukcesja w państwie graniczącym z Polską oznacza ryzyko nagłej zmiany sytuacji na granicy i silniejszego wpływu Rosji; komentarz nie omawia skutków dla Polski.",
+      "tagi": [
+        "bialorus",
+        "rosja"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-10-20/panstwo-jako-biznes-rodzinny-warianty-sukcesji-na-bialorusi",
+          "data": "2026-10-20"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-10-21",
+      "tekst": "21.10: według premiera Norwegii Jonasa Gahra Støre'a wysłannik USA Steve Witkoff ma spotkać się w Petersburgu z przedstawicielami Rosji; termin nie został potwierdzony przez Kreml.",
+      "tagi": [
+        "usa",
+        "rosja",
+        "ukraina"
+      ]
+    },
+    {
+      "data": "2026-10-24",
+      "tekst": "24.10: szczyt UE – Rada Współpracy Zatoki Perskiej w Rijadzie przełożony (komunikat Rady UE z 15.10); nowa data nieznana. W tym dniu we Francji zapowiedziane protesty z udziałem wojska w ochronie obiektów.",
+      "tagi": [
+        "ue",
+        "francja"
+      ]
+    },
+    {
+      "data": "2026-10-25",
+      "tekst": "25.10: Brazylia – II tura wyborów prezydenckich (Flávio Bolsonaro kontra Lula).",
+      "tagi": [
+        "ameryki",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-25",
+      "tekst": "25.10: Bułgaria – wybory prezydenta i wiceprezydenta.",
+      "tagi": [
+        "bulgaria",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-25",
+      "tekst": "25.10: Serbia – przedterminowe wybory parlamentarne.",
+      "tagi": [
+        "balkany",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-27",
+      "tekst": "27.10: Izrael – wybory do Knesetu.",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-28",
+      "tekst": "28.10: Fed – decyzja FOMC (posiedzenie 27–28.10).",
+      "tagi": [
+        "usa"
+      ]
+    },
+    {
+      "data": "2026-10-29",
+      "tekst": "29.10: EBC – decyzja Rady Prezesów (posiedzenie 28–29.10); 29–30.10 szczyt UE–Kanada w Montrealu.",
+      "tagi": [
+        "ue"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-11-01",
+      "tekst": "kolejne spotkanie państw OPEC+ w sprawie limitów wydobycia (na grudzień)",
+      "tagi": [
+        "energia"
+      ]
+    },
+    {
+      "data": "2026-11-03",
+      "tekst": "wybory połowy kadencji w USA",
+      "tagi": [
+        "usa",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-11-12",
+      "tekst": "Europejska Wspólnota Polityczna w Irlandii (12.11), 13.11 nieformalne spotkanie przywódców UE",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [
+      {
+        "tytul": "Nowa ustawa o Fundacji Ucieczka Wypędzenie Pojednanie – Niemcy na pierwszym miejscu",
+        "autor": "K. Frymark",
+        "data": "2026-10-20",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-20/nowa-ustawa-o-fundacji-ucieczka-wypedzenie-pojednanie-niemcy-na"
+      },
+      {
+        "tytul": "Wybory samorządowe i senackie w Czechach – ostrzeżenie dla obozu władzy",
+        "autor": "K. Dębiec",
+        "data": "2026-10-20",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-20/wybory-samorzadowe-i-senackie-w-czechach-ostrzezenie-dla-obozu-wladzy"
+      },
+      {
+        "tytul": "Wyniszczające rosyjskie ataki na infrastrukturę energetyczną – 1700. dzień wojny",
+        "autor": "K. Nieczypor, M. Goliszewski, J. Tarociński",
+        "data": "2026-10-20",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-20/wyniszczajace-rosyjskie-ataki-na-infrastrukture-energetyczna-1700"
+      },
+      {
+        "tytul": "Derusyfikacja Mołdawii – przyspieszony odwrót od Rosji po 2022 roku",
+        "autor": "OSW",
+        "data": "2026-10-20",
+        "url": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-10-20/derusyfikacja-moldawii-przyspieszony-odwrot-od-rosji-po-2022"
+      },
+      {
+        "tytul": "Państwo jako biznes rodzinny – warianty sukcesji na Białorusi",
+        "autor": "K. Kłysiński",
+        "data": "2026-10-20",
+        "url": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-10-20/panstwo-jako-biznes-rodzinny-warianty-sukcesji-na-bialorusi"
+      }
+    ],
+    "pism": [],
+    "nieodczytane": [
+      "pism"
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "tekst": "Włochy: według Euronews (20.10) po zamieszkach w Mediolanie, Turynie i Bolonii (protesty przeciw kosztom życia) w Mediolanie aresztowano ponad 200 osób; minister spraw zagranicznych Antonio Tajani zapowiedział „stanowczą” reakcję, do miasta ma trafić 500 żołnierzy z uprawnieniami policji sądowej, a rząd rozważa zaostrzenie przepisów o zatrzymaniach i karach za przemoc na demonstracjach. Jedno źródło z poziomów 1–2; szczegóły projektu nie są potwierdzone.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Euronews (artykuł, 20.10)",
+        "Polsat News (nagłówek o wojsku w Mediolanie, poziom 3)",
+        "kanały Kyiv Independent i Meduza (brak wpisu)"
+      ]
+    },
+    {
+      "id": "n2",
+      "tekst": "Albania: według Euronews (20.10) premier Edi Rama nazwał protesty „wojną hybrydową”, obwiniając obce podmioty (wcześniej Rosję i Iran); władze podają ok. 300 rannych, w tym ponad połowę policjantów. Brak niezależnego źródła z poziomów 1–2 i brak danych o zatrzymanych.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Euronews (artykuł, 20.10)",
+        "Euronews (wideo o starciach, 20.10 – nagłówek)",
+        "kanały Kyiv Independent i Meduza (brak wpisu)"
+      ]
+    },
+    {
+      "id": "n3",
+      "tekst": "Niemcy: według AFD, cytowanej przez AFP w Euronews (20.10), wykradziono ponad 421 tys. e-maili z kont partii AfD u dostawcy poczty (atak z września); sprawcy nie wskazano, a BSI i prokuratura nie komentowały w artykule. Jedno źródło z poziomów 1–2, brak przypisania obcym służbom.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Euronews (artykuł, 20.10)",
+        "Polsat News (nagłówek, 20.10, poziom 3)",
+        "kanały Kyiv Independent i Meduza (brak wpisu)"
+      ]
+    },
+    {
+      "id": "n4",
+      "tekst": "Rosja–Ukraina: według Meduzy (20.10) ukraińskie drony uderzyły w obwód tambowski, uszkadzając podobno infrastrukturę rurociągu Przyjaźń. Jedno źródło (nagłówek, artykuł nieotwarty); brak komunikatu stron i drugiego źródła.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Meduza (nagłówek w kanale, 20.10)",
+        "kanały Euronews i Kyiv Independent (brak wpisu)",
+        "Polsat News (brak wpisu)"
+      ]
+    },
+    {
+      "id": "n5",
+      "tekst": "Rosja–Europa: według Financial Times (przez Meduzę, 20.10) Europa przygotowuje się do bezpośrednich rozmów z Putinem; jedna z propozycji to oddanie Rosji Donbasu w zamian za członkostwo Ukrainy w NATO. Jedno źródło pośrednie (nagłówek), brak komunikatu rządów.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Meduza (nagłówek w kanale, 20.10)",
+        "Euronews (brak wpisu poza komentarzem Kallas)",
+        "Kyiv Independent (brak wpisu)"
+      ]
+    },
+    {
+      "id": "n6",
+      "tekst": "Polska: według komunikatu Dowództwa Operacyjnego (RMF24, 18.10) sygnały radiolokacyjne przy trójstyku granic i poszukiwania obiektu w rejonie Lublina nie zostały potwierdzone; WOT nie znaleziono szczątków, DORSZ ostrzega przed próbą manipulacji informacyjnej. Nie wykazano naruszenia przestrzeni powietrznej.",
+      "prog": "następstwo",
+      "sprawdzono": [
+        "RMF24 (artykuł, 18.10)",
+        "wyszukiwarka (komunikaty DORSZ, ŻW, SG z 20.10 – brak)",
+        "kanał TVN24 (403)"
+      ]
+    },
+    {
+      "id": "n7",
+      "tekst": "Bliski Wschód: według Al Jazeera (20.10) Huti nasilają ataki na Arabię Saudyjską (Rijad przełożył konferencję FII, a Wielka Brytania ma wysyłać myśliwce Typhoon), szef armii Pakistanu jest w Teheranie z misją mediacyjną, a Katar mówi, że rozmowy USA–Iran trwają. Jedno źródło poziomu 3, doniesienia nieotwarte przez redakcję (relacja kontrolera); brak komunikatów rządów.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Al Jazeera (przegląd 20.10, poziom 3)",
+        "Euronews (komunikat Rady UE o przełożeniu szczytu UE–RWZ z powodu ataków Huti, 15.10)",
+        "France 24 (AFP, ceny ropy 20.10 – sygnały rozmów Iran–USA)"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-10-19#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "kanał Kyiv Independent 20.10 (brak wpisu)",
+        "kanał Euronews 20.10 (brak wpisu)",
+        "kanał Meduza 20.10 (brak wpisu)"
+      ],
+      "powod": "Żadne ze źródeł nie podaje drugiej relacji o ataku na Nową Wodołazę."
+    },
+    {
+      "dotyczy": "2026-10-19#n2",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Meduza (feature, 20.10)",
+        "kanał Euronews 20.10",
+        "kanał Kyiv Independent 20.10"
+      ],
+      "powod": "Meduza (20.10) pisze, że komisje Dumy poparły kandydatów, ale pełne zatwierdzenie przez Dumę i dekrety jeszcze nie zapadły; brak drugiego źródła z poziomów 1–2."
+    },
+    {
+      "dotyczy": "2026-10-19#n3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Euronews (Oslo, 20.10)",
+        "Meduza (Reuters, 20.10)",
+        "Polsat News (nagłówek 19.10, poziom 3)"
+      ],
+      "powod": "Zełenski wzywa do rozmów trójstronnych, ale ani Biały Dom, ani Kreml nie potwierdziły propozycji szczytu Trump–Xi–Putin."
+    },
+    {
+      "dotyczy": "2026-10-19#n4",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "kanał Euronews 20.10 (brak wpisu)",
+        "kanał Kyiv Independent 20.10 (brak wpisu)",
+        "kanał Polsat News 20.10 (brak wpisu)"
+      ],
+      "powod": "Brak potwierdzenia bilansu ataku na Szabwę w otwartych źródłach; Al Jazeera (20.10) pisze o rosnącej liczbie ofiar, ale artykułu nie otwarto – sprawę kontynuuje wpis n7."
+    },
+    {
+      "dotyczy": "2026-10-19#n5",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "kanał Meduza 20.10 (brak wpisu)",
+        "kanał Euronews 20.10 (brak wpisu)",
+        "Kyiv Independent (Oslo, 20.10)"
+      ],
+      "powod": "Brak potwierdzenia propozycji Witkoffa i Kushnera ws. rosyjskiego gazu."
+    },
+    {
+      "dotyczy": "2026-10-19#n6",
+      "wynik": "ODPADA",
+      "powod": "Zastąpione wpisem n2 (Albania, 20.10) z nowszymi danymi i wypowiedzią Ramy."
+    },
+    {
+      "dotyczy": "2026-10-19#n7",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "kanał Euronews 20.10 (brak wpisu)",
+        "kanał Kyiv Independent 20.10 (brak wpisu)",
+        "kanał Meduza 20.10 (brak wpisu)"
+      ],
+      "powod": "Brak nowych relacji o wstrzymaniu handlu Pakistan–Iran."
+    }
+  ],
+  "do_sprawdzenia": [
+    "Litwa/Polska/Ukraina – wynik rozmowy Tuska z Nausėdą, odpowiedź Kijowa, dane radarowe (MON, DO RSZ, litewskie MON)",
+    "Witkoff w Petersburgu 21.10 – komunikat Kremla, uwolnienie Hubbarda; ewentualne spotkanie Trump–Putin",
+    "Patrioty – dostawy dla Ukrainy (Pentagon, NATO), sprawa kontraktów Hegsetha",
+    "Ormuz – komunikaty UKMTO i CENTCOM, rozmowy Iran–USA, cena ropy",
+    "Francja – godziny policyjne, zakazy demonstracji i bilans MSW przed sobotą 24.10; spotkania Lecornu ze związkami (21.10) i partiami (22.10)",
+    "Włochy (Mediolan), Albania – komunikaty rządów i UE",
+    "Rosja – Duma i dekrety ws. wicepremierów",
+    "PISM – publikacje z 17–21.10 (lista nie otworzyła się 20.10)",
+    "Wybory 25.10 (Brazylia, Bułgaria, Serbia), Izrael 27.10",
+    "PAP Kraj, DO RSZ, SG, ŻW – incydenty z 19–21.10"
+  ],
+  "nota": "Kontrolę niezależną przeprowadził agent (sprawdził z1–z3 i z5–z7; z4 nie); poprawiono atrybucje w z1–z3, z5, z6 i n1 oraz dodano wpis n7, nie zweryfikowano AP i PAP Kraj. Wydanie z 20.10, przygotowane ok. 20:00 (Europe/Warsaw). Dział Świat Onetu nie był otwierany (zablokowany) i nie przeglądano go wyszukiwarką; kanał Polsat News Świat otwarto (najnowszy wpis 20.10, 17:39 – atak na Kijów), kanał TVN24 – jedna próba, odmowa 403; do wydania z kanału Polsat News trafiło 5 tematów (dron na Litwie, Kijów, Rubio/Patrioty, Francja, Mediolan – ten jako wpis „W obserwacji”). Przedruków Reutersa wykorzystano 1 (przez Meduzę). Kanały Euronews, Kyiv Independent i Meduza otwarto (Meduza częściowo – 100 tys. z 180 tys. znaków). OSW – lista otwarta, 5 publikacji z 20.10 (3 omówione w analizach); PISM – lista (pism.pl/publikacje, wersja angielska) dwukrotnie pusta, wyszukiwarka bez publikacji z 17–20.10, dlatego oznaczono jako nieodczytaną. Zarys liczy 7 pozycji zamiast 8–14, bo wyszukiwarka słabo indeksuje bieżące wydarzenia; pozostałe tematy dnia są wpisami „W obserwacji”. Komunikatów DO RSZ, MON, SG, ŻW i prokuratury z 20.10 nie znaleziono; ostatnie dostępne to komunikat DORSZ z 18.10 (Lublin) i zatrzymanie rezerwisty przez ŻW z 16.10 (nieodczytany pełny tekst – strona 403). Kalendarz: szczyt UE–RWZ 24.10 przełożony według Rady UE (15.10), usunięty z kalendarium obowiązkowego."
+}

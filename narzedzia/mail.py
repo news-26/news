@@ -101,6 +101,18 @@ def main():
              f'<div style="font-weight:bold;color:{GRANAT};margin-bottom:4px;">W skrócie</div>' +
              "".join(f'<p style="margin:0 0 6px;">{T(z)}</p>' for z in w["w_skrocie"]) +
              f'<p style="margin:8px 0 0;"><a href="{url}" style="color:{MORZE};font-weight:bold;">Czytaj na stronie, z osią wątków i wyszukiwarką</a></p></div></td></tr>')
+    za = w.get("zrodla_analityczne") or {}
+    def pub_lista(nazwa, lst):
+        if not lst:
+            return f'<div style="margin:8px 0 2px;font-weight:bold;color:{GRANAT};">{nazwa}</div><div style="color:{SZARY};font-style:italic;">brak nowych publikacji w ostatnich 3 dniach</div>'
+        return (f'<div style="margin:8px 0 2px;font-weight:bold;color:{GRANAT};">{nazwa}</div>' + "".join(
+            f'<div style="padding:4px 0 4px 10px;border-left:2px solid #D3DCE1;margin:2px 0;"><a href="{e(p["url"])}" style="color:{MORZE};font-weight:bold;">{e(p["tytul"])}</a>'
+            f'<br><span style="font-size:13px;color:{SZARY};">{" · ".join(e(v) for v in (p.get("autor"), B.data_krotka(p["data"]), p.get("numer")) if v)}</span></div>'
+            for p in lst))
+    r.append(f'<tr><td style="padding:12px 20px 4px;"><div style="font-size:15px;font-weight:bold;color:{GRANAT};border-bottom:2px solid {GRANAT};padding-bottom:3px;">'
+             f'Nowe teksty OSW i PISM z ostatnich 3 dni</div>'
+             f'<div style="font-size:14px;">{pub_lista("OSW – Ośrodek Studiów Wschodnich", za.get("osw"))}{pub_lista("PISM – Polski Instytut Spraw Międzynarodowych", za.get("pism"))}</div>'
+             f'<div style="font-size:13px;margin-top:8px;"><a href="{B.BASE_URL}czytelnia.html" style="color:{MORZE};">Wszystkie teksty z poprzednich wydań – Czytelnia</a></div></td></tr>')
     m = w.get("mapa_ciepla")
     if m:
         r.append(pasek("Mapa ciepła tygodnia"))
@@ -149,7 +161,6 @@ def main():
                      f'<td valign="top"><div>{tagi_html(it["tagi"])}{odz}</div><div style="margin-top:2px;">{T(it["tekst"])}</div>'
                      + (f'<div style="margin:4px 0 0;padding:5px 8px;background:#E1EEF5;border-left:3px solid {MORZE};font-size:14px;"><b>Dla Polski:</b> {T(it["dla_polski"])}</div>' if it.get("dla_polski") else "")
                      + f'{zrodla(it["zrodla"])}</td></tr></table></td></tr>')
-    za = w.get("zrodla_analityczne") or {}
     pub_wszystkie = (za.get("osw") or []) + (za.get("pism") or [])
     if w.get("analizy"):
         r.append(pasek("II. Analizy"))
@@ -172,17 +183,6 @@ def main():
                      f'<div style="font-family:Georgia,serif;font-size:17px;font-weight:bold;color:{GRANAT};">{e(x["tytul"])}</div>{czytaj}'
                      f'<div style="margin-top:4px;">{T(x["tekst"])}</div>'
                      f'<div style="margin:6px 0 0 10px;padding:6px 10px;background:#E1EEF5;border-left:3px solid {MORZE};"><b>Dla Polski:</b> {T(x["dla_polski"])}</div>{zrodla(x.get("zrodla"))}</td></tr>')
-    def pub_lista(nazwa, lst):
-        if not lst:
-            return f'<div style="margin:8px 0 2px;font-weight:bold;color:{GRANAT};">{nazwa}</div><div style="color:{SZARY};font-style:italic;">brak nowych publikacji w ostatnich 3 dniach</div>'
-        return (f'<div style="margin:8px 0 2px;font-weight:bold;color:{GRANAT};">{nazwa}</div>' + "".join(
-            f'<div style="padding:4px 0 4px 10px;border-left:2px solid #D3DCE1;margin:2px 0;"><a href="{e(p["url"])}" style="color:{MORZE};font-weight:bold;">{e(p["tytul"])}</a>'
-            f'<br><span style="font-size:13px;color:{SZARY};">{" · ".join(e(v) for v in (p.get("autor"), B.data_krotka(p["data"]), p.get("numer")) if v)}</span></div>'
-            for p in lst))
-    r.append(f'<tr><td style="padding:12px 20px 4px;"><div style="font-size:15px;font-weight:bold;color:{GRANAT};border-bottom:2px solid {GRANAT};padding-bottom:3px;">'
-             f'Nowe teksty OSW i PISM z ostatnich 3 dni</div>'
-             f'<div style="font-size:14px;">{pub_lista("OSW – Ośrodek Studiów Wschodnich", za.get("osw"))}{pub_lista("PISM – Polski Instytut Spraw Międzynarodowych", za.get("pism"))}</div>'
-             f'<div style="font-size:13px;margin-top:8px;"><a href="{B.BASE_URL}czytelnia.html" style="color:{MORZE};">Wszystkie teksty z poprzednich wydań – Czytelnia</a></div></td></tr>')
     if w.get("tracker"):
         r.append(pasek("Tracker wątków"))
         r.append(f'<tr><td style="padding:6px 20px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="font-size:13px;">'
@@ -230,6 +230,11 @@ def main():
         return B.czysty(s, osoby, pojecia)
     t = [f"Prasówka – {rodzaj.lower()} nr {w['nr']}, {B.data_pelna(w['data'])}, stan na {w['godzina']} CEST", "", "W SKRÓCIE"]
     t += [C(z) for z in w["w_skrocie"]]
+    t += ["", "NOWE TEKSTY OSW I PISM (ostatnie 3 dni)"]
+    for kl, nz in (("osw", "OSW"), ("pism", "PISM")):
+        lst = za.get(kl) or []
+        t += [f"{nz}: brak nowych publikacji"] if not lst else [f"{nz}: {p['tytul']} ({', '.join(v for v in (p.get('autor'), B.data_krotka(p['data']), p.get('numer')) if v)}) {p['url']}" for p in lst]
+    t += [f"Czytelnia: {B.BASE_URL}czytelnia.html"]
     t += ["", f"Całe wydanie na stronie: {url}", "", "ZARYS WYDARZEŃ"]
     for it in sorted(w["zarys"], key=lambda x: (dict((k, i) for i, (k, _) in enumerate(B.BLOKI))[x["blok"]], x["data"])):
         ozn = it.get("etap") or ""
@@ -241,11 +246,6 @@ def main():
             t += [f"{x['tytul']} (ocena: {x['autor']}): {C(x['tekst'])}", f"   Dla Polski: {C(x['dla_polski'])}"]
             if x.get("zrodla"):
                 t.append(f"   Tekst źródłowy: {x['zrodla'][0]['url']}")
-    t += ["", "NOWE TEKSTY OSW I PISM (ostatnie 3 dni)"]
-    for kl, nz in (("osw", "OSW"), ("pism", "PISM")):
-        lst = za.get(kl) or []
-        t += [f"{nz}: brak nowych publikacji"] if not lst else [f"{nz}: {p['tytul']} ({', '.join(v for v in (p.get('autor'), B.data_krotka(p['data']), p.get('numer')) if v)}) {p['url']}" for p in lst]
-    t += [f"Czytelnia: {B.BASE_URL}czytelnia.html"]
     t += ["", "KALENDARZ"] + [f"{B.data_krotka(k['data'])} {C(k['tekst'])}" for k in sorted(w.get("kalendarz", []), key=lambda k: k["data"])]
     tekst = "\n".join(t) + "\n"
 

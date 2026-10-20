@@ -79,7 +79,7 @@ Przy każdym wydaniu aktualizuj też w `dane/tagi.json` pola `stan`, `stan_data`
 
 ### Teksty OSW i PISM
 
-- `zrodla_analityczne` to wszystkie nowe teksty OSW i PISM z ostatnich 3 dni (tytuł, autor, data, numer, URL). W wydaniu lista stoi w sekcji II, zaraz pod analizami.
+- `zrodla_analityczne` to wszystkie nowe teksty OSW i PISM z ostatnich 3 dni (tytuł, autor, data, numer, URL). W wydaniu, mailu i PDF lista stoi zaraz pod „W skrócie”, przed zarysem.
 - Analiza oparta na tekście OSW/PISM ma ten tekst jako **pierwsze** źródło w `zrodla`, z tym samym adresem co w `zrodla_analityczne` (różnica `www.` nie ma znaczenia). Wtedy karta analizy pokazuje etykietę wydawcy i link „Przeczytaj tekst OSW/PISM” z oryginalnym tytułem, a lista i Czytelnia – odnośnik do omówienia.
 - `czytelnia.html` zbiera teksty ze wszystkich wydań (bez powtórzeń, od najnowszych) z filtrem OSW / PISM / z omówieniem; dla omówionych pokazuje wniosek „Dla Polski”, a przy tekstach z czytelni tygodniowej – pole `po_co`.
 - Kotwice w wydaniu: `#zarys`, `#mapa`, `#analizy`, `#analiza-N`, `#publikacje`, `#kalendarz`, `#czego-nie-ma`, `#nota`; spis sekcji pod „W skrócie” powstaje z nich automatycznie.

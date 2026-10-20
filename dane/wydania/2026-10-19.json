@@ -10,19 +10,7 @@
   "Izraelska policja zatrzymała 8 osób po ataku na konwój dyplomatów, w tym polskich, na Zachodnim Brzegu; polskie MSZ podało, że Polacy nie ucierpieli.",
   "Nie przejrzano OSW i PISM z ostatnich 3 dni (OSW nie opublikował nic od 15.10); kontrola niezależna – patrz nota."
  ],
- "korekty": [
-  {
-   "bylo": "Wydanie nr 31 podało, że OSW nie ma publikacji z 16–19.10, a jedyną analizą była ocena OSW z 14.10 (Starshield), omówiona już w wydaniu nr 29. Wydanie nr 30 (18.10) nie omówiło OSW z powodu błędu otwarcia listy publikacji.",
-   "jest": "Lista publikacji OSW zawiera analizy z 16.10 (Węgry odblokowują dwa klastry negocjacyjne Ukrainy) i z 19.10 (centra danych w Rosji a ataki ukraińskich dronów). Obie dopisano do analiz i do listy OSW z ostatnich dni.",
-   "zrodla": [
-    {
-     "nazwa": "OSW",
-     "url": "https://www.osw.waw.pl/pl/publikacje",
-     "data": "2026-10-19"
-    }
-   ]
-  }
- ],
+ "korekty": [],
  "zarys": [
   {
    "id": "z1",
@@ -518,5 +506,5 @@
   "OSW i PISM – publikacje z 16–20.10",
   "PAP Kraj, DO RSZ, SG, ŻW – incydenty z 17–19.10"
  ],
- "nota": "Kontroli niezależnej nie przeprowadzono: sesja zautomatyzowana, bez agenta weryfikującego – pozycje opierają się na własnej weryfikacji autora wydania. Wydanie z 19.10, przygotowane ok. 20:00 (Europe/Warsaw). Dział Świat Onetu nie był otwierany (zablokowany) i nie przeglądano go wyszukiwarką; kanał Polsat News Świat otwarto (najnowszy wpis 19.10, 19:09 – godziny policyjne we Francji), kanał TVN24 nie był próbowany, przedruków Reutersa nie wykorzystano; z kanału Polsat News do wydania trafiło 6 tematów (dron na Litwie, konwój dyplomatów, atak na Kijów, Trump–Zełenski, Francja, Castro/Rosja/Putin – część jako wpisy „W obserwacji”). Kanały Kyiv Independent, Euronews i Meduza otwarto. Wyszukiwarka słabo indeksuje bieżące wydarzenia, dlatego zarys liczy 5 pozycji zamiast 8–14, a pozostałe tematy dnia (Jemen, Rosja, Albania, Pakistan–Iran i in.) są wpisami z progiem dokumentacji. Nie sprawdzono PAP Kraj ani komunikatów DO RSZ, MON, SG, ŻW, prokuratury; OSW – po uzupełnieniu omówiono analizy z 16.10 i 19.10 (zob. korekta), kontrolę niezależną tych uzupełnień przeprowadził agent i poprawiono atrybucje; strona PISM nieodczytana. Kalendarz zaktualizowano według punktów z kontekst.py; kalendarium (terminy.json) bez zmian."
+ "nota": "Kontroli niezależnej nie przeprowadzono: sesja zautomatyzowana, bez agenta weryfikującego – pozycje opierają się na własnej weryfikacji autora wydania. Wydanie z 19.10, przygotowane ok. 20:00 (Europe/Warsaw). Dział Świat Onetu nie był otwierany (zablokowany) i nie przeglądano go wyszukiwarką; kanał Polsat News Świat otwarto (najnowszy wpis 19.10, 19:09 – godziny policyjne we Francji), kanał TVN24 nie był próbowany, przedruków Reutersa nie wykorzystano; z kanału Polsat News do wydania trafiło 6 tematów (dron na Litwie, konwój dyplomatów, atak na Kijów, Trump–Zełenski, Francja, Castro/Rosja/Putin – część jako wpisy „W obserwacji”). Kanały Kyiv Independent, Euronews i Meduza otwarto. Wyszukiwarka słabo indeksuje bieżące wydarzenia, dlatego zarys liczy 5 pozycji zamiast 8–14, a pozostałe tematy dnia (Jemen, Rosja, Albania, Pakistan–Iran i in.) są wpisami z progiem dokumentacji. Nie sprawdzono PAP Kraj ani komunikatów DO RSZ, MON, SG, ŻW, prokuratury; OSW – omówiono analizy z 16.10 i 19.10 (kontrolę niezależną tych analiz przeprowadził agent); strona PISM nieodczytana. Kalendarz zaktualizowano według punktów z kontekst.py; kalendarium (terminy.json) bez zmian."
 }

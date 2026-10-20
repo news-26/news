@@ -13,7 +13,7 @@ Wydanie dzienne ok. 20:00, publikowane na https://news-26.github.io/news/. Forma
   3. *kompletność* – osoby z funkcją; uzbrojenie z nazwą systemu, liczbą, jednostką, pochodzeniem; liczby z datą i źródłem.
 - **Fakty oddzielone od ocen.** Oceny (OSW, PISM, ISW, analitycy) tylko w analizach, z autorem i datą.
 - **Poprzednie wydania i notatki nie są źródłem.** Statusy osób, etapy decyzji i daty sprawdzaj w dniu wydania.
-- **Błędy prostuj jawnie** (`korekty`; pominięcie – pozycja + korekta).
+- **Błędy prostuj jawnie** (`korekty`; pominięcie tematu – pozycja + korekta). Braki w liście i analizach OSW/PISM uzupełniaj bez korekty (zasada „OSW i PISM” w kroku 1).
 
 ## Tytuły
 

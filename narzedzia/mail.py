@@ -104,7 +104,9 @@ def main():
     za = w.get("zrodla_analityczne") or {}
     def pub_lista(nazwa, lst):
         if not lst:
-            return f'<div style="margin:8px 0 2px;font-weight:bold;color:{GRANAT};">{nazwa}</div><div style="color:{SZARY};font-style:italic;">brak nowych publikacji w ostatnich 3 dniach</div>'
+            stan = ("nie udało się odczytać listy publikacji – stan nieznany" if any(nazwa.startswith(k.upper()) for k in (za.get("nieodczytane") or []))
+                    else "brak nowych publikacji w ostatnich 3 dniach")
+            return f'<div style="margin:8px 0 2px;font-weight:bold;color:{GRANAT};">{nazwa}</div><div style="color:{SZARY};font-style:italic;">{stan}</div>'
         return (f'<div style="margin:8px 0 2px;font-weight:bold;color:{GRANAT};">{nazwa}</div>' + "".join(
             f'<div style="padding:4px 0 4px 10px;border-left:2px solid #D3DCE1;margin:2px 0;"><a href="{e(p["url"])}" style="color:{MORZE};font-weight:bold;">{e(p["tytul"])}</a>'
             f'<br><span style="font-size:13px;color:{SZARY};">{" · ".join(e(v) for v in (p.get("autor"), B.data_krotka(p["data"]), p.get("numer")) if v)}</span></div>'
@@ -233,7 +235,7 @@ def main():
     t += ["", "NOWE TEKSTY OSW I PISM (ostatnie 3 dni)"]
     for kl, nz in (("osw", "OSW"), ("pism", "PISM")):
         lst = za.get(kl) or []
-        t += [f"{nz}: brak nowych publikacji"] if not lst else [f"{nz}: {p['tytul']} ({', '.join(v for v in (p.get('autor'), B.data_krotka(p['data']), p.get('numer')) if v)}) {p['url']}" for p in lst]
+        t += [f"{nz}: " + ("nie udało się odczytać listy publikacji" if kl in (za.get("nieodczytane") or []) else "brak nowych publikacji")] if not lst else [f"{nz}: {p['tytul']} ({', '.join(v for v in (p.get('autor'), B.data_krotka(p['data']), p.get('numer')) if v)}) {p['url']}" for p in lst]
     t += [f"Czytelnia: {B.BASE_URL}czytelnia.html"]
     t += ["", f"Całe wydanie na stronie: {url}", "", "ZARYS WYDARZEŃ"]
     for it in sorted(w["zarys"], key=lambda x: (dict((k, i) for i, (k, _) in enumerate(B.BLOKI))[x["blok"]], x["data"])):

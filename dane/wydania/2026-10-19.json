@@ -8,7 +8,7 @@
   "W nocy na 19.10 Rosja uderzyła w Kijów i energetykę Ukrainy: według Zełenskiego ok. 550 tys. rodzin bez prądu, Kijów ostrzelano 16 pociskami balistycznymi; USA bronią zawieszenia sankcji na Rosję, a Rubio zaprzecza wstrzymaniu przekazywania danych wywiadowczych Ukrainie.",
   "We Francji po weekendzie zamieszek premier Lecornu zarządził częściowe godziny policyjne (m.in. Lille i część Paryża) i nie wyklucza **stanu wyjątkowego**; według MSW zatrzymano ponad 2300 osób.",
   "Izraelska policja zatrzymała 8 osób po ataku na konwój dyplomatów, w tym polskich, na Zachodnim Brzegu; polskie MSZ podało, że Polacy nie ucierpieli.",
-  "OSW: nowe analizy o skutkach ukraińskich ataków na rosyjskie centra danych (19.10) i o odblokowaniu przez Węgry dwóch klastrów negocjacyjnych Ukrainy z UE (16.10); strony PISM nie udało się odczytać."
+  "OSW: nowe analizy o skutkach ukraińskich ataków na rosyjskie centra danych (19.10) i o odblokowaniu przez Węgry dwóch klastrów negocjacyjnych Ukrainy z UE (16.10); PISM: komentarz o zaostrzeniu kursu Rady Europejskiej wobec Chin oraz biuletyny o współpracy kosmicznej z Indiami i odbudowie Syrii."
  ],
  "korekty": [],
  "zarys": [
@@ -348,7 +348,29 @@
     "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-15/saksonia-anhalt-afd-i-bsw-zadaja-zakonczenia-udzielania-pomocy"
    }
   ],
-  "pism": []
+  "pism": [
+   {
+    "tytul": "Rada Europejska zaostrza kurs wobec Chin",
+    "autor": "J. Szczudlik",
+    "data": "2026-10-19",
+    "numer": "Komentarz nr 52/2026",
+    "url": "https://pism.pl/publikacje/rada-europejska-zaostrza-kurs-wobec-chin"
+   },
+   {
+    "tytul": "Indie jako perspektywiczny partner Polski w sektorze kosmicznym",
+    "autor": "P. Kugiel",
+    "data": "2026-10-19",
+    "numer": "Biuletyn nr 73 (3207)",
+    "url": "https://pism.pl/publikacje/indie-jako-perspektywiczny-partner-polski-w-sektorze-kosmicznym"
+   },
+   {
+    "tytul": "Wyzwania odbudowy gospodarczej Syrii",
+    "autor": "J. Sochacka",
+    "data": "2026-10-16",
+    "numer": "Biuletyn nr 72 (3206)",
+    "url": "https://pism.pl/publikacje/wyzwania-odbudowy-gospodarczej-syrii"
+   }
+  ]
  },
  "czego_nie_ma": [
   {
@@ -427,7 +449,7 @@
    "prog": "następstwo"
   },
   {
-   "tekst": "Nie przejrzano w tym wydaniu: PAP Kraj oraz komunikatów DO RSZ, MON, SG, ŻW, prokuratury i ABW/SKW poza sprawą drona na Litwie; PISM (strony nie udało się odczytać); działu Świat Onetu (zablokowany); ISW i punktów „Do sprawdzenia” (Czechy – II tura Senatu, Rubio w Samarkandzie – wynik C5+1, Wainwright).",
+   "tekst": "Nie przejrzano w tym wydaniu: PAP Kraj oraz komunikatów DO RSZ, MON, SG, ŻW, prokuratury i ABW/SKW poza sprawą drona na Litwie; działu Świat Onetu (zablokowany); ISW i punktów „Do sprawdzenia” (Czechy – II tura Senatu, Rubio w Samarkandzie – wynik C5+1, Wainwright).",
    "prog": "kompletność"
   }
  ],
@@ -506,5 +528,5 @@
   "OSW i PISM – publikacje z 16–20.10",
   "PAP Kraj, DO RSZ, SG, ŻW – incydenty z 17–19.10"
  ],
- "nota": "Kontroli niezależnej nie przeprowadzono: sesja zautomatyzowana, bez agenta weryfikującego – pozycje opierają się na własnej weryfikacji autora wydania. Wydanie z 19.10, przygotowane ok. 20:00 (Europe/Warsaw). Dział Świat Onetu nie był otwierany (zablokowany) i nie przeglądano go wyszukiwarką; kanał Polsat News Świat otwarto (najnowszy wpis 19.10, 19:09 – godziny policyjne we Francji), kanał TVN24 nie był próbowany, przedruków Reutersa nie wykorzystano; z kanału Polsat News do wydania trafiło 6 tematów (dron na Litwie, konwój dyplomatów, atak na Kijów, Trump–Zełenski, Francja, Castro/Rosja/Putin – część jako wpisy „W obserwacji”). Kanały Kyiv Independent, Euronews i Meduza otwarto. Wyszukiwarka słabo indeksuje bieżące wydarzenia, dlatego zarys liczy 5 pozycji zamiast 8–14, a pozostałe tematy dnia (Jemen, Rosja, Albania, Pakistan–Iran i in.) są wpisami z progiem dokumentacji. Nie sprawdzono PAP Kraj ani komunikatów DO RSZ, MON, SG, ŻW, prokuratury; OSW – omówiono analizy z 16.10 i 19.10 (kontrolę niezależną tych analiz przeprowadził agent); strona PISM nieodczytana. Kalendarz zaktualizowano według punktów z kontekst.py; kalendarium (terminy.json) bez zmian."
+ "nota": "Kontroli niezależnej nie przeprowadzono: sesja zautomatyzowana, bez agenta weryfikującego – pozycje opierają się na własnej weryfikacji autora wydania. Wydanie z 19.10, przygotowane ok. 20:00 (Europe/Warsaw). Dział Świat Onetu nie był otwierany (zablokowany) i nie przeglądano go wyszukiwarką; kanał Polsat News Świat otwarto (najnowszy wpis 19.10, 19:09 – godziny policyjne we Francji), kanał TVN24 nie był próbowany, przedruków Reutersa nie wykorzystano; z kanału Polsat News do wydania trafiło 6 tematów (dron na Litwie, konwój dyplomatów, atak na Kijów, Trump–Zełenski, Francja, Castro/Rosja/Putin – część jako wpisy „W obserwacji”). Kanały Kyiv Independent, Euronews i Meduza otwarto. Wyszukiwarka słabo indeksuje bieżące wydarzenia, dlatego zarys liczy 5 pozycji zamiast 8–14, a pozostałe tematy dnia (Jemen, Rosja, Albania, Pakistan–Iran i in.) są wpisami z progiem dokumentacji. Nie sprawdzono PAP Kraj ani komunikatów DO RSZ, MON, SG, ŻW, prokuratury; OSW – omówiono analizy z 16.10 i 19.10 (kontrolę niezależną tych analiz przeprowadził agent); PISM – lista publikacji z 16–19.10 w wydaniu. Kalendarz zaktualizowano według punktów z kontekst.py; kalendarium (terminy.json) bez zmian."
 }

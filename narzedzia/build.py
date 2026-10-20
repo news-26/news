@@ -524,6 +524,9 @@ def waliduj(tagi, osoby, pojecia, wydania, rewizje=(), topy=()) -> Bledy:
                 b.dodaj(g, "brak daty RRRR-MM-DD")
             sprawdz_tagi(k.get("tagi"), g, tagi, b, wymagane=False)
             sprawdz_zrodla(k.get("zrodla"), g, b, wymagane=False)
+        for strona in (w.get("zrodla_analityczne") or {}).get("nieodczytane") or []:
+            if strona not in ("osw", "pism") or (w.get("zrodla_analityczne") or {}).get(strona):
+                b.dodaj(g0, "zrodla_analityczne.nieodczytane: tylko 'osw'/'pism' i tylko przy pustej liście")
         for strona in ("osw", "pism"):
             for i, p in enumerate((w.get("zrodla_analityczne") or {}).get(strona, [])):
                 sprawdz_zrodla([{"nazwa": strona.upper(), "url": p.get("url", ""), "data": p.get("data", "")}],
@@ -1245,8 +1248,10 @@ class Budowa:
         cz.append('<section class="publikacje-skrot" id="publikacje"><h2 class="pod-pasek">Nowe teksty OSW i PISM z ostatnich 3 dni</h2>')
         spis.append(("publikacje", f"Teksty OSW i PISM ({n_pub})" if n_pub else "Teksty OSW i PISM (brak nowych)"))
 
-        def lista_pub(lst):
+        def lista_pub(lst, klucz=""):
             if not lst:
+                if klucz in (za.get("nieodczytane") or []):
+                    return '<p class="pub-brak">Nie udało się odczytać listy publikacji – stan nieznany.</p>'
                 return '<p class="pub-brak">Brak nowych publikacji w ostatnich 3 dniach.</p>'
             li = ""
             for p in lst:
@@ -1261,8 +1266,8 @@ class Budowa:
                 li += (f'<li><a href="{e(p["url"])}" target="_blank" rel="noopener noreferrer">{e(p["tytul"])}</a>'
                        f'<span class="pub-meta">{meta}{(" · " + " · ".join(om)) if om else ""}</span></li>')
             return f'<ul class="pub">{li}</ul>'
-        cz.append(f'<div class="publikacje"><h4 class="pub-wyd">{html_wydawca("OSW")}Ośrodek Studiów Wschodnich</h4>{lista_pub(za.get("osw"))}'
-                  f'<h4 class="pub-wyd">{html_wydawca("PISM")}Polski Instytut Spraw Międzynarodowych</h4>{lista_pub(za.get("pism"))}'
+        cz.append(f'<div class="publikacje"><h4 class="pub-wyd">{html_wydawca("OSW")}Ośrodek Studiów Wschodnich</h4>{lista_pub(za.get("osw"), "osw")}'
+                  f'<h4 class="pub-wyd">{html_wydawca("PISM")}Polski Instytut Spraw Międzynarodowych</h4>{lista_pub(za.get("pism"), "pism")}'
                   f'<p class="dalej"><a href="{prefix}czytelnia.html">Wszystkie teksty OSW i PISM z poprzednich wydań – Czytelnia</a></p></div></section>')
         poz_spisu = len(cz)
         cz.append("")  # spis sekcji – uzupełniany na końcu, gdy wiadomo, co jest w wydaniu

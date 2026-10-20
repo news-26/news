@@ -75,7 +75,7 @@ def main():
     h += pasek("Nowe teksty OSW i PISM z ostatnich 3 dni")
     for kl, nz in (("osw", "OSW"), ("pism", "PISM")):
         lst = za.get(kl) or []
-        h.append(Paragraph(f"<b>{nz}:</b> " + ("brak nowych publikacji z ostatnich 3 dni" if not lst else
+        h.append(Paragraph(f"<b>{nz}:</b> " + (("nie udało się odczytać listy publikacji" if kl in (za.get("nieodczytane") or []) else "brak nowych publikacji z ostatnich 3 dni") if not lst else
                            "; ".join(f"{B.e(p['tytul'])} ({B.e(p.get('autor', ''))}, {B.data_krotka(p['data'])})" for p in lst)), st["txt"]))
     if w.get("korekty"):
         h += pasek("Korekta")

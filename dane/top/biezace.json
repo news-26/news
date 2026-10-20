@@ -1,12 +1,12 @@
 {
- "od": "2026-10-12",
- "do": "2026-10-18",
- "opublikowano": "2026-10-18",
- "godzina": "21:30",
- "tytul": "Top 10: ostatnie 7 dni (12–18.10.2026)",
+ "od": "2026-10-13",
+ "do": "2026-10-19",
+ "opublikowano": "2026-10-20",
+ "godzina": "07:00",
+ "tytul": "Top 10: ostatnie 7 dni (13–19.10.2026)",
  "wstep": [
-  "Najważniejsze sprawy z ostatnich 7 dni (12–18.10.2026) – w tym tygodniu sześć spełnia kryteria. Każda ma przebieg z datami i źródłami oraz wniosek „Dla Polski”; starsze sprawy są w archiwum miesięcznym.",
-  "Oś tygodnia to **zależność Ukrainy od USA**: SpaceX ograniczył Starshield, a według Zełenskiego przez trzy dni nie docierały ostrzeżenia przed rosyjskimi rakietami; Trump w dużej mierze uchylił nowy amerykański pakiet sankcji, podczas gdy UE przyjęła największe rozszerzenie swoich. Na Morzu Czarnym rumuńskie F-16 zestrzeliły drony, a w Polsce i na Litwie celem sabotażu jest infrastruktura Starlinka."
+  "Najważniejsze sprawy z ostatnich 7 dni (13–19.10.2026) – w tym tygodniu osiem spełnia kryteria. Każda ma przebieg z datami i źródłami oraz wniosek „Dla Polski”; starsze sprawy są w archiwum miesięcznym.",
+  "Oś tygodnia to **zależność Ukrainy od USA**: SpaceX ograniczył Starshield, Trump w dużej mierze uchylił nowy amerykański pakiet sankcji i oświadczył, że wstrzymał kolejne, podczas gdy UE przyjęła największe rozszerzenie swoich sankcji. Na Morzu Czarnym rumuńskie F-16 zestrzeliły drony, a dron, który wybuchł na Litwie, według Wilna wleciał z Polski – Warszawa tego nie potwierdza."
  ],
  "kryteria": "Do zestawienia trafia wydarzenie, które spełnia trzy warunki: zmieniło stan rzeczy w ostatnich 7 dniach (zapadła decyzja, zmieniła się władza, powstała nowa zdolność wojskowa albo incydent miał realne następstwo – retoryka i zapowiedzi bez terminu nie wystarczą), ma konkretny skutek dla Polski lub Europy albo dla sytuacji międzynarodowej i jest udokumentowane w co najmniej dwóch pozycjach wydań dziennych. Przy wątkach trwających miesiącami liczy się zmiana w tygodniu, a nie sam wątek; tytuł opisuje najnowszy fakt. Gdy kryteria spełnia mniej niż dziesięć spraw, lista jest krótsza. Kolejność ustala redakcja według wpływu na bezpieczeństwo i interesy Polski, potem skali, potem trwałości skutków. Ranking jest więc oceną, a nie faktem; fakty mają źródła, oceny – autora.",
  "pozycje": [
@@ -171,11 +171,73 @@
    ]
   },
   {
+   "id": "dron-litwa",
+   "tytul": "Dron wybucha na północy Litwy; Wilno twierdzi, że wleciał z Polski, polskie MON i Dowództwo Operacyjne tego nie potwierdzają",
+   "data": [
+    "2026-10-18",
+    "2026-10-19"
+   ],
+   "tagi": [
+    "litwa",
+    "nato",
+    "ukraina",
+    "obronnosc-polski"
+   ],
+   "etap": "W TOKU",
+   "lead": "18.10 obiekt uznany za drona wybuchł w północnej Litwie; według Wilna **wstępnie wleciał z terytorium Polski**, a 19.10 doradca prezydenta Litwy powiedział, że Wilno ma „wiarygodne dane” o przekroczeniu granicy. Polskie MON i Dowództwo Operacyjne tego nie potwierdzają. Litwa proponuje wspólne śledztwo.",
+   "omowienie": [
+    "18.10 szczątki drona uszkodziły jadący samochód koło Birż, nikt nie został ranny; poderwane myśliwce NATO nie zestrzeliły obiektu, bo – według ministra obrony Robertasa Kaunasa – pogoda uniemożliwiła identyfikację wzrokową. Kaunas poprosił Polskę o wspólne zbadanie sprawy; litewskie służby oceniły wstępnie, że to ukraiński dron. Według Polsat News Ukraina wyraziła żal i wskazała na możliwy wpływ rosyjskiej wojny elektronicznej.",
+    "19.10 Kaunas ocenił, że dron brał udział w ukraińskim ataku na obwód petersburski i został zepchnięty z kursu przez rosyjską walkę radioelektroniczną, oraz zaproponował Polsce przekazanie danych bezpiecznym łączem. Rzecznik polskiego MON przekazał PAP, że radary nie potwierdzają przekroczenia granicy, a Dowództwo Operacyjne nie odnotowało przelotu; Wilno nie ujawniło danych, trasa pozostaje sporna."
+   ],
+   "przebieg": [
+    {
+     "data": "2026-10-18",
+     "tekst": "Rano 18.10 obiekt uznany za drona wybuchł nad północą Litwy w rejonie Birż; szczątki uszkodziły samochód, nikt nie został ranny. Minister obrony Kaunas: obiekt wstępnie wleciał z terytorium Polski; prosi polskiego ministra obrony o wspólne zbadanie sprawy. Litewskie służby: najprawdopodobniej ukraiński dron (informacja wstępna).",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "Euronews",
+       "url": "https://www.euronews.com/2026/10/18/possible-drone-explosion-in-northern-lithuania-near-latvian-border",
+       "data": "2026-10-18"
+      },
+      {
+       "nazwa": "LRT",
+       "url": "https://www.lrt.lt/en/news-in-english/19/3086051/drone-enters-lithuania-from-poland-debris-hits-a-car-on-rural-road",
+       "data": "2026-10-18"
+      }
+     ]
+    },
+    {
+     "data": "2026-10-19",
+     "tekst": "Doradca prezydenta Litwy Deividas Matulionis: Wilno ma „wiarygodne dane”, że dron przekroczył granicę z Polską; minister Kaunas zaproponował wspólne śledztwo i przekazanie danych. Rzecznik MON Janusz Sejmej (PAP): polskie radary nie potwierdzają przekroczenia granicy, a według Dowództwa Operacyjnego systemy nie odnotowały przelotu.",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "LRT",
+       "url": "https://www.lrt.lt/en/news-in-english/19/3087132/lithuania-has-evidence-sunday-s-drone-crossed-from-poland-presidential-adviser-says",
+       "data": "2026-10-19"
+      },
+      {
+       "nazwa": "PAP (za portalsamorzadowy.pl)",
+       "url": "https://www.portalsamorzadowy.pl/polityka-i-spoleczenstwo/mon-ws-obiektu-na-litwie-nasze-systemy-radarowe-nie-potwierdzaja-przekroczenia-granicy-z-polski,680571.html",
+       "data": "2026-10-18"
+      }
+     ]
+    }
+   ],
+   "oceny": [],
+   "dla_polski": "Jeśli dane Wilna się potwierdzą, dron przeleciał nad polskim terytorium niewykryty przez polską obronę powietrzną; jeśli nie – spór o trasę obciąża relacje z państwem bałtyckim, które polega na Polsce w kwestiach bezpieczeństwa. Wniosek redakcji: wspólne porównanie danych radarowych powinno być jawnie rozstrzygnięte, bo od niego zależy ocena szczelności polskiej przestrzeni powietrznej i koordynacji z sojusznikami.",
+   "w_wydaniach": [
+    "2026-10-18#z1",
+    "2026-10-19#z1"
+   ]
+  },
+  {
    "id": "sankcje",
-   "tytul": "UE przyjmuje największe w historii rozszerzenie sankcji na Rosję; Trump uchyla w dużej mierze amerykański pakiet sankcji i ceł",
+   "tytul": "UE przyjmuje największe w historii rozszerzenie sankcji na Rosję; Trump uchyla w dużej mierze amerykański pakiet sankcji i ceł, a potem oświadcza, że wstrzymał kolejne sankcje",
    "data": [
     "2026-10-12",
-    "2026-10-16"
+    "2026-10-18"
    ],
    "tagi": [
     "sankcje",
@@ -189,7 +251,8 @@
     "22.09 państwa UE uzgodniły przedłużenie sankcji indywidualnych wobec Rosji na 36 miesięcy zamiast dotychczasowych sześciu. Zapłaciły za to skreśleniem z listy dwóch oligarchów – jednego na wniosek Francji, drugiego po wecie Słowacji.",
     "7.10 ambasadorowie państw UE jednomyślnie zatwierdzili największe jednorazowe rozszerzenie listy sankcyjnej wobec Rosji – 1646 wpisów, głównie z przemysłu obronnego. Formalnie lista ma zostać przyjęta przez ministrów spraw zagranicznych 12.10.",
     "9.10 Trump ogłosił po rozmowie z Putinem, że Rosja dostarczy ponad 300 tys. ton oleju napędowego od razu i 500 tys. ton w listopadzie; Departament Skarbu potwierdził tymczasowe zawieszenie sankcji na rosyjski sektor energii na potrzeby tych dostaw. Według CBS News decyzja jest sprzeczna z ustawą sankcyjną podpisaną we wrześniu. Szefowa dyplomacji UE Kaja Kallas zapowiedziała największe dotąd listy sankcyjne UE.",
-    "16.10 Trump podpisał rozporządzenie wykonawcze, które według Euronews i Kyiv Independent w dużej mierze uchyla nowy pakiet sankcji i ceł z ustawy Grahama, uzasadnione interesem narodowym USA. Rosyjski wysłannik Kirył Dmitriew nazwał decyzję „historyczną chwilą”, a Zełenski ocenił ją jako „złą”. Treść rozporządzenia znamy z doniesień, nie z tekstu Białego Domu."
+    "16.10 Trump podpisał rozporządzenie wykonawcze, które według Euronews i Kyiv Independent w dużej mierze uchyla nowy pakiet sankcji i ceł z ustawy Grahama, uzasadnione interesem narodowym USA. Rosyjski wysłannik Kirył Dmitriew nazwał decyzję „historyczną chwilą”, a Zełenski ocenił ją jako „złą”. Treść rozporządzenia znamy z doniesień, nie z tekstu Białego Domu.",
+    "18.10 Trump napisał na Truth Social, że wstrzymał wprowadzenie sankcji wobec Rosji, bo nie chce „głupio odpychać” jej od stołu negocjacyjnego, i oskarżył Zełenskiego, że ten „nie chce zakończyć tej wojny”; Zełenski w NBC ocenił, że zawieszenie sankcji wzmacnia Putina."
    ],
    "przebieg": [
     {
@@ -290,6 +353,23 @@
        "data": "2026-10-17"
       }
      ]
+    },
+    {
+     "data": "2026-10-18",
+     "tekst": "Trump napisał na Truth Social, że wstrzymał wprowadzenie sankcji wobec Rosji, bo nie chce „głupio odpychać” jej od stołu negocjacyjnego, i wiązał to z ukraińskimi uderzeniami w rosyjskie rafinerie; Zełenski w NBC ocenił, że zawieszenie sankcji wzmacnia Putina.",
+     "etap": "PRZYJĘTE",
+     "zrodla": [
+      {
+       "nazwa": "Meduza",
+       "url": "https://meduza.io/en/news/2026/10/19/trump-says-he-doesn-t-want-to-drive-russia-away-from-peace-talks-again-criticizes-zelensky-over-refinery-strikes",
+       "data": "2026-10-19"
+      },
+      {
+       "nazwa": "CBS News",
+       "url": "https://www.cbsnews.com/news/ukraine-russia-drone-st-petersburg-oil-facilites/",
+       "data": "2026-10-18"
+      }
+     ]
     }
    ],
    "oceny": [
@@ -318,7 +398,8 @@
     "2026-09-23#z6",
     "2026-09-22#z4",
     "2026-10-10#z2",
-    "2026-10-17#z2"
+    "2026-10-17#z2",
+    "2026-10-19#z4"
    ]
   },
   {
@@ -597,17 +678,74 @@
     "2026-10-16#z1",
     "2026-10-16#z2"
    ]
+  },
+  {
+   "id": "francja-zamieszki",
+   "tytul": "Po zamieszkach po protestach przeciw kosztom życia premier Francji zarządza częściowe godziny policyjne i nie wyklucza stanu wyjątkowego",
+   "data": [
+    "2026-10-17",
+    "2026-10-19"
+   ],
+   "tagi": [
+    "francja",
+    "ue"
+   ],
+   "etap": "W TOKU",
+   "lead": "Po protestach przeciw kosztom życia 17.10 doszło we Francji do **zamieszek i grabieży**; według rządu zatrzymano ok. 1200 osób, a po kolejnym weekendzie – ponad 2300. 19.10 premier Sébastien Lecornu wezwał władze regionalne do wprowadzenia częściowych **godzin policyjnych** (Lille, część Paryża) i powiedział, że jest gotów ogłosić stan wyjątkowy, „jeśli będzie trzeba”.",
+   "omowienie": [
+    "17.10 część demonstracji (550–800 tys. uczestników według różnych szacunków) przerodziła się w zamieszki: spłonął zabytkowy ratusz w Limoges, podpalono biuro turystyczne w Lyonie, wdarto się do ratuszy m.in. w Marsylii, Lille i Angers; rannych zostało ok. 150 policjantów i żandarmów.",
+    "19.10 minister spraw wewnętrznych Laurent Nuñez przyznał, że policja „straciła kontrolę”, i zaoferował dymisję, której prezydent Macron nie przyjął; według ministra sprawiedliwości Darmanina niemal tysiąc funkcjonariuszy odniosło obrażenia."
+   ],
+   "przebieg": [
+    {
+     "data": "2026-10-17",
+     "tekst": "Podczas protestów przeciw kosztom życia we Francji (550–800 tys. uczestników według różnych szacunków) doszło do zamieszek i grabieży: spłonął ratusz w Limoges, podpalono biuro turystyczne w Lyonie; według rządu zatrzymano ok. 1200 osób, a ok. 150 funkcjonariuszy zostało rannych. Macron zapowiedział ściganie sprawców.",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "Euronews",
+       "url": "https://www.euronews.com/2026/10/18/france-reels-after-cost-of-living-protests-see-widespread-violence",
+       "data": "2026-10-18"
+      },
+      {
+       "nazwa": "CNN",
+       "url": "https://www.cnn.com/2026/10/17/europe/half-million-protesters-sweep-france-in-youth-unrest-latam-intl",
+       "data": "2026-10-17"
+      }
+     ]
+    },
+    {
+     "data": "2026-10-19",
+     "tekst": "Premier Lecornu wezwał władze regionalne do wprowadzenia „lokalnych i częściowych” godzin policyjnych: w Lille i trzech sąsiednich gminach 20:00–6:00, a według prefektury policji w części Paryża 23:00–6:00 z zakazem demonstracji; jest gotów ogłosić stan wyjątkowy. Minister Nuñez zaoferował dymisję (Macron jej nie przyjął); zatrzymano ponad 2300 osób.",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "Euronews",
+       "url": "https://www.euronews.com/2026/10/19/french-pm-lecornu-calls-for-regional-authorities-to-impose-partial-curfews",
+       "data": "2026-10-19"
+      },
+      {
+       "nazwa": "France 24",
+       "url": "https://www.france24.com/en/france/20261019-french-pm-says-could-declare-state-of-emergency-over-unrest-if-needed",
+       "data": "2026-10-19"
+      },
+      {
+       "nazwa": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/10/19/frances-macron-declines-ministers-resignation-after-violent-protests",
+       "data": "2026-10-19"
+      }
+     ]
+    }
+   ],
+   "oceny": [],
+   "dla_polski": "Niestabilność wewnętrzna drugiej co do wielkości gospodarki strefy euro i jednego z kluczowych państw NATO ogranicza jej zdolność do działania w sprawach wspólnych: wsparcia dla Ukrainy, sankcji i wspólnych zakupów obronnych. Wniosek redakcji: Polska powinna zakładać, że Paryż będzie w najbliższych tygodniach zajęty wewnętrznie, i nie opierać na nim inicjatyw wymagających szybkich decyzji.",
+   "w_wydaniach": [
+    "2026-10-18#z4",
+    "2026-10-19#z5"
+   ]
   }
  ],
  "czego_nie_ma": [
-  {
-   "tekst": "Dron, który 18.10 eksplodował nad północną Litwą (według ministra obrony Litwy wstępnie wleciał z terytorium Polski) – jedna pozycja w wydaniach, trasa lotu do wyjaśnienia we wspólnym śledztwie Litwy i Polski.",
-   "prog": "następstwo"
-  },
-  {
-   "tekst": "Wizyta Zełenskiego w Londynie (14.10, pakiet rakiet obrony powietrznej za 45 mln funtów), atak izraelskich osadników na dyplomatów w Tajjibie (17.10), zamieszki po protestach we Francji (17.10), misja UE w Libanie (12.10), ataki Huti na lotnisko w Rijadzie – po jednej pozycji w wydaniach z tygodnia.",
-   "prog": "następstwo"
-  },
   {
    "tekst": "Wystąpienie SACEUR gen. Alexusa Grynkewicha na Warsaw Security Forum (12.10) i rozmowa papieża Leona XIV z Putinem (16.10) – wypowiedzi bez decyzji.",
    "prog": "następstwo"
@@ -619,7 +757,11 @@
   {
    "tekst": "Sprawy z poprzednich tygodni bez nowych faktów w oknie (groźba jądrowa w sprawie Królewca, drony przy polskiej granicy, mediacja USA, Duma i armia Rosji, Ormuz, Białoruś, AfD) – trafią do archiwum za październik 2026.",
    "prog": "następstwo"
+  },
+  {
+   "tekst": "Atak na konwój dyplomatów (w tym polskich) na Zachodnim Brzegu (17.10, zatrzymanie 8 osób 19.10) – Polacy nie ucierpieli, brak decyzji o następstwach.",
+   "prog": "następstwo"
   }
  ],
- "nota": "Zestawienie kroczące za 12–18.10.2026. Od 18.10 okno ma 7 dni zamiast 30 (decyzja redakcji: przy 30 dniach lista zatrzymywała sprawy sprzed kilku tygodni); archiwum za miesiące kalendarzowe bez zmian. Weszły trzy nowe sprawy: Starshield i dane wywiadowcze USA (po korekcie wydania z 18.10), sabotaż wymierzony w Starlink, akcesja Ukrainy do UE; trzy pozostałe dostały tytuły opisujące najnowszy fakt. Fakty pochodzą z wydań dziennych i ich źródeł; kolejność to ocena redakcji."
+ "nota": "Zestawienie kroczące za 13–19.10.2026. Weszły dwie nowe sprawy: dron na Litwie (spór o trasę przelotu z Polski) i zamieszki we Francji z godzinami policyjnymi; w sprawie sankcji doszło oświadczenie Trumpa o wstrzymaniu kolejnych; nocny atak na Kijów z 19.10 i zaprzeczenie Rubio w sprawie danych wywiadowczych mają na razie jedno źródło z poziomów 1–2 i nie weszły do przebiegów. Fakty pochodzą z wydań dziennych i ich źródeł; kolejność to ocena redakcji."
 }

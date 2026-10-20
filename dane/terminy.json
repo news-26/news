@@ -92,10 +92,15 @@
           "nazwa": "Rada UE",
           "url": "https://www.consilium.europa.eu/en/meetings/international-summit/2026/10/24/",
           "data": "2026-10-05"
+        },
+        {
+          "nazwa": "Rada UE",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/15/postponement-of-the-second-eu-gcc-summit/",
+          "data": "2026-10-15"
         }
       ],
       "krotko": "UE–Zatoka Perska",
-      "uwaga": "Według Euronews (16.10.2026) szczyt został przełożony; nowa data nieznana."
+      "uwaga": "Przełożony – komunikat Rady UE z 15.10.2026; nowa data zostanie ogłoszona."
     },
     {
       "id": "brazylia-ii-tura-2026",

@@ -1239,9 +1239,33 @@ class Budowa:
                     "document.addEventListener('keydown',function(e){if(e.key==='Escape'&&d.open){d.open=false;d.querySelector('summary').focus();}});})();</script>")
         cz.append('<section class="skrot"><h2>W skrócie</h2>' +
                   "".join(f"<p>{T(z)}</p>" for z in w["w_skrocie"]) + "</section>")
+        spis = []
+        za = w.get("zrodla_analityczne") or {}
+        n_pub = len(za.get("osw") or []) + len(za.get("pism") or [])
+        cz.append('<section class="publikacje-skrot" id="publikacje"><h2 class="pod-pasek">Nowe teksty OSW i PISM z ostatnich 3 dni</h2>')
+        spis.append(("publikacje", f"Teksty OSW i PISM ({n_pub})" if n_pub else "Teksty OSW i PISM (brak nowych)"))
+
+        def lista_pub(lst):
+            if not lst:
+                return '<p class="pub-brak">Brak nowych publikacji w ostatnich 3 dniach.</p>'
+            li = ""
+            for p in lst:
+                r = self.publikacje.get(klucz_url(p["url"])) or {"omowienia": []}
+                om = []
+                for w2, j2 in r["omowienia"]:
+                    if w2 is w:
+                        om.append(f'<a class="pub-om" href="#analiza-{j2+1}">omówienie niżej</a>')
+                    else:
+                        om.append(f'<a class="pub-om" href="{w2["_slug"]}.html#analiza-{j2+1}">omówienie w wyd. nr {w2["nr"]}</a>')
+                meta = " · ".join(x for x in (e(p.get("autor") or ""), data_krotka(p["data"]), e(p.get("numer") or "")) if x)
+                li += (f'<li><a href="{e(p["url"])}" target="_blank" rel="noopener noreferrer">{e(p["tytul"])}</a>'
+                       f'<span class="pub-meta">{meta}{(" · " + " · ".join(om)) if om else ""}</span></li>')
+            return f'<ul class="pub">{li}</ul>'
+        cz.append(f'<div class="publikacje"><h4 class="pub-wyd">{html_wydawca("OSW")}Ośrodek Studiów Wschodnich</h4>{lista_pub(za.get("osw"))}'
+                  f'<h4 class="pub-wyd">{html_wydawca("PISM")}Polski Instytut Spraw Międzynarodowych</h4>{lista_pub(za.get("pism"))}'
+                  f'<p class="dalej"><a href="{prefix}czytelnia.html">Wszystkie teksty OSW i PISM z poprzednich wydań – Czytelnia</a></p></div></section>')
         poz_spisu = len(cz)
         cz.append("")  # spis sekcji – uzupełniany na końcu, gdy wiadomo, co jest w wydaniu
-        spis = []
         cieplo = self.mapa_html(w, prefix)
         if cieplo:
             cz.append(cieplo.replace('<h2 class="pasek">', '<h2 class="pasek" id="mapa-ciepla">', 1))
@@ -1289,37 +1313,11 @@ class Budowa:
                                 "Punkty to miejsca zdarzeń z zarysu.", "mapa", wydanie=w)
         if mapa:
             cz.append(mapa)
-        za = w.get("zrodla_analityczne") or {}
-        n_pub = len(za.get("osw") or []) + len(za.get("pism") or [])
         if w.get("analizy"):
             cz.append('<h2 class="pasek" id="analizy">II. Analizy</h2><p class="uwaga">Poniżej interpretacje, nie ustalenia. '
                       'Każda ma autora oceny i link do tekstu, na którym się opiera.</p>')
             cz.extend(self.analiza(w, a, T, prefix, j=j) for j, a in enumerate(w["analizy"]))
             spis.append(("analizy", f'II. Analizy ({len(w["analizy"])})'))
-            cz.append('<h3 class="pod-pasek" id="publikacje">Nowe teksty OSW i PISM z ostatnich 3 dni</h3>')
-        else:
-            cz.append('<h2 class="pasek" id="publikacje">Nowe teksty OSW i PISM z ostatnich 3 dni</h2>')
-        spis.append(("publikacje", f"Teksty OSW i PISM ({n_pub})" if n_pub else "Teksty OSW i PISM (brak nowych)"))
-
-        def lista_pub(lst):
-            if not lst:
-                return '<p class="pub-brak">Brak nowych publikacji w ostatnich 3 dniach.</p>'
-            li = ""
-            for p in lst:
-                r = self.publikacje.get(klucz_url(p["url"])) or {"omowienia": []}
-                om = []
-                for w2, j2 in r["omowienia"]:
-                    if w2 is w:
-                        om.append(f'<a class="pub-om" href="#analiza-{j2+1}">omówienie wyżej</a>')
-                    else:
-                        om.append(f'<a class="pub-om" href="{w2["_slug"]}.html#analiza-{j2+1}">omówienie w wyd. nr {w2["nr"]}</a>')
-                meta = " · ".join(x for x in (e(p.get("autor") or ""), data_krotka(p["data"]), e(p.get("numer") or "")) if x)
-                li += (f'<li><a href="{e(p["url"])}" target="_blank" rel="noopener noreferrer">{e(p["tytul"])}</a>'
-                       f'<span class="pub-meta">{meta}{(" · " + " · ".join(om)) if om else ""}</span></li>')
-            return f'<ul class="pub">{li}</ul>'
-        cz.append(f'<div class="publikacje"><h4 class="pub-wyd">{html_wydawca("OSW")}Ośrodek Studiów Wschodnich</h4>{lista_pub(za.get("osw"))}'
-                  f'<h4 class="pub-wyd">{html_wydawca("PISM")}Polski Instytut Spraw Międzynarodowych</h4>{lista_pub(za.get("pism"))}'
-                  f'<p class="dalej"><a href="{prefix}czytelnia.html">Wszystkie teksty OSW i PISM z poprzednich wydań – Czytelnia</a></p></div>')
         tyg_html = self.tygodniowe_html(w, T, prefix)
         cz.append(tyg_html)
         if w.get("tracker"):

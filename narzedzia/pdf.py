@@ -71,6 +71,12 @@ def main():
     h = [Paragraph("Prasówka – przegląd sytuacji międzynarodowej", st["tyt"]),
          Paragraph(f"{rodzaj} nr {w['nr']}, {B.data_pelna(w['data'])}, stan na {w['godzina']} CEST · {B.BASE_URL}wydania/{w['_slug']}.html", st["pod"])]
     h += pasek("W skrócie") + [Paragraph(T(s), st["txt"]) for s in w["w_skrocie"]]
+    za = w.get("zrodla_analityczne") or {}
+    h += pasek("Nowe teksty OSW i PISM z ostatnich 3 dni")
+    for kl, nz in (("osw", "OSW"), ("pism", "PISM")):
+        lst = za.get(kl) or []
+        h.append(Paragraph(f"<b>{nz}:</b> " + ("brak nowych publikacji z ostatnich 3 dni" if not lst else
+                           "; ".join(f"{B.e(p['tytul'])} ({B.e(p.get('autor', ''))}, {B.data_krotka(p['data'])})" for p in lst)), st["txt"]))
     if w.get("korekty"):
         h += pasek("Korekta")
         for k in w["korekty"]:
@@ -90,16 +96,11 @@ def main():
             h.append(KeepTogether([Paragraph(f"<b>{B.e(x['tytul'])}</b> – ocena: {B.e(x['autor'])}", st["txt"]),
                                    Paragraph(T(x["tekst"]), st["txt"]), Paragraph("<b>Dla Polski:</b> " + T(x["dla_polski"]), st["dp"]),
                                    zrodla(x.get("zrodla"))]))
-    za = w.get("zrodla_analityczne") or {}
     h += pasek("III. Kalendarz i zastrzeżenia")
     for k in sorted(w.get("kalendarz", []), key=lambda k: k["data"]):
         h.append(Paragraph(f"<b>{B.data_krotka(k['data'])}</b> {T(k['tekst'])}", st["txt"]))
     if w.get("poza_oknem"):
         h.append(Paragraph("<b>Poza oknem, ale przesądzające:</b> " + "; ".join(f"{B.data_krotka(k['data'])} {T(k['tekst'])}" for k in w["poza_oknem"]), st["txt"]))
-    for kl, nz in (("osw", "OSW"), ("pism", "PISM")):
-        lst = za.get(kl) or []
-        h.append(Paragraph(f"<b>{nz}:</b> " + ("brak nowych publikacji z ostatnich 3 dni" if not lst else
-                           "; ".join(f"{B.e(p['tytul'])} ({B.e(p.get('autor', ''))}, {B.data_krotka(p['data'])})" for p in lst)), st["txt"]))
     if w.get("czego_nie_ma"):
         h.append(Paragraph("<b>W obserwacji:</b> " + "; ".join(f"{T(c['tekst'])} (próg: {c['prog']})" for c in w["czego_nie_ma"]), st["zr"]))
     if w.get("rozstrzygniecia"):

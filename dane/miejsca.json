@@ -443,6 +443,18 @@
       "nazwa": "Północna Litwa",
       "lon": 24.6,
       "lat": 56.1
+    },
+    {
+      "id": "mediolan",
+      "nazwa": "Mediolan",
+      "lon": 9.19,
+      "lat": 45.46
+    },
+    {
+      "id": "abudza",
+      "nazwa": "Abudża",
+      "lon": 7.49,
+      "lat": 9.06
     }
   ]
 }

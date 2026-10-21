@@ -1,0 +1,536 @@
+{
+  "nr": 33,
+  "data": "2026-10-21",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "**Rosja uwolniła 21.10 Amerykanina Stephena Hubbarda** podczas spotkania {{o:wladimir-putin|Putina}} z wysłannikiem USA {{o:steve-witkoff|Witkoffem}} w Petersburgu; Kreml oświadczył, że jest gotów wznowić rozmowy trójstronne z USA i Ukrainą (według rosyjskich mediów państwowych – w połowie listopada), a Ukraina nie uczestniczyła w spotkaniu.",
+    "{{o:wolodymyr-zelenski|Zełenski}} powiedział 21.10 stacji Fox News, że zamrożenie frontu na obecnej linii to „realny sposób” zakończenia wojny, pod warunkiem udziału Kijowa w rozmowach i gwarancji bezpieczeństwa.",
+    "We Francji rentowność 10-letnich obligacji przekroczyła 5% po raz pierwszy od 2002 roku, a Włochy po zamieszkach w Mediolanie przyjęły dekret bezpieczeństwa i wysyłają tam 500 żołnierzy.",
+    "Nigeria potwierdziła pierwszy przypadek eboli (wirus Bundibugyo; wcześniej Kongo, Uganda, Kenia), Ugandzie i Kenii; Arabia Saudyjska przełożyła konferencję FII na 2027 po atakach Huti, a Wielka Brytania wysyła myśliwce Typhoon do obrony kraju.",
+    "Incydentów w Polsce i przy jej granicach, które spełniałyby kryteria pozycji, w dostępnych komunikatach nie znaleziono (szczegóły w nocie)."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-10-21",
+      "tagi": [
+        "usa",
+        "rosja",
+        "ukraina",
+        "rozejm"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "petersburg",
+      "krotko": "Putin–Witkoff, uwolnienie Hubbarda",
+      "tekst": "Prezydent Rosji {{o:wladimir-putin|Władimir Putin}} spotkał się 21.10 w Petersburgu z wysłannikiem USA {{o:steve-witkoff|Steve'em Witkoffem}} (rozmowa trwała ponad trzy godziny) i ogłosił uwolnienie 74-letniego Amerykanina Stephena Hubbarda, skazanego w Rosji za rzekomą walkę jako najemnik dla Ukrainy; {{o:donald-trump|Trump}} napisał, że USA nie musiały nic dać w zamian. Kreml oświadczył, że jest gotów wznowić **rozmowy trójstronne** USA–Rosja–Ukraina (według rosyjskich mediów państwowych, cytowanych przez Kyiv Independent, w połowie listopada), a według Euronews (za AP) Kreml poinformował o przygotowaniach do szczytu Putin–Trump–Xi w Szenzen w przyszłym miesiącu (bez potwierdzenia ze strony USA w cytowanych relacjach). Następstwo: terminu rozmów trójstronnych nie ustalono, Ukraina nie uczestniczyła w spotkaniu.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews (za AP)",
+          "url": "https://www.euronews.com/2026/10/21/russia-frees-detained-american-stephen-hubbard-during-us-envoys-visit",
+          "data": "2026-10-21"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russia-releases-us-prisoner-stephen-hubbard-during-witkoff-visit/",
+          "data": "2026-10-21"
+        },
+        {
+          "nazwa": "CBS News",
+          "url": "https://www.cbsnews.com/news/russia-stephen-hubbard-freed-american-ukraine-war-witkoff-putin/",
+          "data": "2026-10-21"
+        },
+        {
+          "nazwa": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/21/witkoff-russia-putin-ukraine-zelenskyy.html",
+          "data": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-10-21",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "usa",
+        "rozejm"
+      ],
+      "etap": "PROPOZYCJA",
+      "tekst": "Prezydent Ukrainy {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} powiedział 21.10 w wywiadzie dla Fox News, że **zamrożenie frontu** na obecnej linii jest „realnym sposobem” zakończenia wojny i pierwszym krokiem do rozmów o zawieszeniu broni; zastrzegł, że Kijów musi uczestniczyć w rozmowach („nie mówcie o nas bez nas”) i że porozumienie wymaga gwarancji bezpieczeństwa od USA i europejskich sojuszników. Kreml nie odniósł się w opisanych relacjach do tej propozycji.",
+      "zrodla": [
+        {
+          "nazwa": "France 24 (za AFP)",
+          "url": "https://www.france24.com/en/europe/20261021-zelensky-proposes-freezing-front-with-russia-first-step-peace-talks",
+          "data": "2026-10-21"
+        },
+        {
+          "nazwa": "Euronews (za AFP)",
+          "url": "https://www.euronews.com/2026/10/21/zelenskyy-backs-freezing-front-line-as-first-step-towards-ukraine-ceasefire",
+          "data": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "instytucje",
+      "data": "2026-10-21",
+      "tagi": [
+        "francja",
+        "gospodarka",
+        "ue"
+      ],
+      "miejsce": "paryz",
+      "krotko": "Rentowność obligacji Francji powyżej 5%",
+      "tekst": "Rentowność francuskich 10-letnich obligacji skarbowych przekroczyła 21.10 **5%** – po raz pierwszy od 2002 roku, a różnica wobec obligacji niemieckich wzrosła do ok. 1,6 pkt proc. (AFP); dług Francji to prawie 120% PKB, a rząd premiera Sébastiena Lecornu próbuje bez większości w parlamencie przeforsować budżet na 2027 rok z cięciami wydatków. Następstwo: według AFP inwestorzy czekają na decyzję agencji Moody's ws. ratingu Francji (w piątek 23.10); obniżka automatycznie podniosłaby koszt zadłużenia.",
+      "zrodla": [
+        {
+          "nazwa": "France 24 (za AFP)",
+          "url": "https://www.france24.com/en/live-news/20261021-five-things-to-know-as-french-bond-yield-tops-5",
+          "data": "2026-10-21"
+        },
+        {
+          "nazwa": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/21/france-protests-bonds-debt.html",
+          "data": "2026-10-21"
+        },
+        {
+          "nazwa": "Euronews (za AFP)",
+          "url": "https://www.euronews.com/2026/10/21/french-government-10-year-bond-yield-tops-5-for-first-time-since-2002",
+          "data": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "instytucje",
+      "data": "2026-10-20",
+      "tagi": [
+        "ue",
+        "inne"
+      ],
+      "etap": "PRZYJĘTE",
+      "miejsce": "mediolan",
+      "krotko": "Dekret bezpieczeństwa i 500 żołnierzy",
+      "tekst": "Rząd Włoch przyjął 20.10 dekret bezpieczeństwa po zamieszkach w Mediolanie, Turynie i Bolonii podczas protestów przeciw kosztom życia: do Mediolanu trafi dodatkowo **500 żołnierzy** do końca roku, powstaje przestępstwo „brutalnego udziału w demonstracji”, a osoby od 14. roku życia domniemywa się za odpowiedzialne karnie. Liczby są rozbieżne: według premier Giorgii Meloni (Euronews) rannych zostało blisko 200 policjantów, a zatrzymano 330 osób, ANSA podaje ponad 270 zatrzymanych, a France 24 – ponad 100 rannych policjantów; doniesienia o uprawnieniach policyjnych żołnierzy też są sprzeczne. Następstwo: dekret musi zostać zamieniony na ustawę w ciągu 60 dni.",
+      "zrodla": [
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/europe/20261020-italy-announces-new-security-measures-after-milan-riots-deploying-500-soldiers",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/21/italy-deploys-500-troops-to-milan-under-new-security-decree-following-violent-clashes",
+          "data": "2026-10-21"
+        },
+        {
+          "nazwa": "ANSA",
+          "url": "https://ansa.it/sito/notizie/politica/2026/10/20/via-libera-al-decreto-sicurezza-nasce-il-reato-di-partecipazione-violenta-a-una-manifestazione._b5702cd2-a73e-4734-8495-07184704c255.html",
+          "data": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "swiat",
+      "data": "2026-10-20",
+      "tagi": [
+        "afryka"
+      ],
+      "miejsce": "abudza",
+      "krotko": "Pierwszy przypadek eboli w Nigerii",
+      "tekst": "Nigeria potwierdziła 20.10 pierwszy przypadek eboli (wirus **Bundibugyo**): chora, kobieta w Abudży, przyjechała z Ugandy; ministerstwo zdrowia ma 44 zidentyfikowane osoby z kontaktu. Chora przyleciała 5.10, a Uganda zaprzecza, że do zakażenia doszło u niej; epidemia dotarła wcześniej do Konga, Ugandy i Kenii. W Kongo zmarło 4381 osób przy ponad 9 tys. potwierdzonych zakażeń. Następstwo: Africa CDC (dyrektor Jean Kaseya) wzywa do pilnej pomocy międzynarodowej, a ECDC ocenia ryzyko zawleczenia do Europy jako bardzo niskie (według Euronews).",
+      "zrodla": [
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/africa/20261020-nigeria-records-first-ebola-case-as-outbreak-spreads-across-africa",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "NPR",
+          "url": "https://www.npr.org/2026/10/20/g-s1-148975/nigeria-confirms-ebola-case",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/21/african-health-ministers-to-hold-ebola-crisis-talks-as-nigeria-confirms-first-case",
+          "data": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "id": "z6",
+      "blok": "swiat",
+      "data": "2026-10-20",
+      "tagi": [
+        "iran",
+        "energia"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "rijad",
+      "krotko": "Przełożona konferencja FII, Typhoony",
+      "tekst": "Arabia Saudyjska przełożyła 19.10 na 2027 rok coroczną konferencję inwestorską FII (planowaną na 26–29.10 w Rijadzie) po eskalacji ataków jemeńskich Huti; ataki na lotnisko w Rijadzie z 10.10 zabiły co najmniej 12 osób. Wielka Brytania ogłosiła 20.10 „defensywne misje przeciwlotnicze” myśliwców **Typhoon** RAF nad saudyjskimi miastami i infrastrukturą krytyczną. Następstwo: Wielka Brytania, która już wspierała Arabię Saudyjską tankowaniem w powietrzu i sprzętem obrony powietrznej, dołącza do jej obrony lotniczej.",
+      "zrodla": [
+        {
+          "nazwa": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html",
+          "data": "2026-10-19"
+        },
+        {
+          "nazwa": "CNN",
+          "url": "https://edition.cnn.com/2026/10/20/middleeast/uk-military-saudi-arabia-yemen-houthis-intl",
+          "data": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "z7",
+      "blok": "swiat",
+      "data": "2026-10-20",
+      "tagi": [
+        "balkany",
+        "hybryda"
+      ],
+      "tekst": "Premier Albanii Edi Rama powiedział 20.10, że protesty antyrządowe w Tiranie podsyca **wojna hybrydowa** obcych podmiotów (wcześniej wskazywał Rosję i Iran). Według władz ok. 300 osób jest rannych, ponad połowa to policjanci; protestujący żądają dymisji Ramy. Następstwo: dowodów na zagraniczne sterowanie protestami w cytowanych relacjach nie podano.",
+      "zrodla": [
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/live-news/20261020-albania-pm-blames-hybrid-war-for-week-of-unrest",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/20/albanias-pm-edi-rama-blames-hybrid-war-for-fuelling-unrest-across-the-country",
+          "data": "2026-10-20"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "OSW: rosyjskie zmiany w rządzie osłabiają premiera Miszustina i wzmacniają resort finansów, który ma finansować długą wojnę",
+      "autor": "OSW (Maria Domańska, Iwona Wiśniewska), analiza z 21.10.2026",
+      "tekst": "Według OSW Duma zatwierdziła 21.10 największą od maja 2024 roku rekonstrukcję rządu Michaiła Miszustina; liczba wicepremierów rośnie z ośmiu do dziewięciu, Irina Okładnikowa (dotąd pierwsza wiceminister finansów) zastępuje Dmitrija Grigorienkę na czele aparatu rządu, a Oleg Kożemiako, gubernator Kraju Nadmorskiego, zostaje wicepremierem i pełnomocnikiem prezydenta na Dalekim Wschodzie. Autorki oceniają, że zmiany osłabiają premiera, wzmacniają rolę ministerstwa finansów w finansowaniu wojny i mogą zapowiadać jego wymianę (wymieniają Andrieja Biełousowa jako możliwego następcę), a model zarządzania nastawiony na mobilizację pozwoli Rosji prowadzić wojnę jeszcze przez kilka lat.",
+      "dla_polski": "Wniosek redakcji (nie teza OSW): ocena OSW o gotowości Rosji do wieloletniej wojny wzmacnia argument za utrzymaniem polskich wydatków obronnych i wsparcia dla Ukrainy; analiza nie formułuje wniosków dla Polski.",
+      "tagi": [
+        "rosja",
+        "ukraina"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-21/zmiany-w-rosyjskim-rzadzie-dalsza-mobilizacja-zasobow-na-dluga-wojne",
+          "data": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "tytul": "OSW: przed wyborami w Serbii 25.10 Lista Studencka rywalizuje z partią Aleksandara Vučicia, a wynik może być sporny",
+      "autor": "OSW (Jan Nowinowski), komentarz z 21.10.2026",
+      "tekst": "Według OSW przedterminowe wybory parlamentarne w Serbii 25.10 są trzecimi w ciągu sześciu lat i następują po miesiącach protestów studenckich, które zaczęły się po zawaleniu zadaszenia dworca w Nowym Sadzie w listopadzie 2024 roku. Autor wskazuje, że niezależne sondaże dają Liście Studenckiej niewielką przewagę, a sondaże prorządowe – wyraźną przewagę bloku Vučicia; jego zdaniem faworytem pozostaje rządząca SNS (kontroluje większość mediów), a wynik zbliżony do remisu może wywołać spory o wyniki i niepokoje, w których o rządzie może zdecydować partia mniejszości węgierskiej SVM.",
+      "dla_polski": "Wniosek redakcji (nie teza OSW): niestabilność polityczna w Serbii, kandydatce do UE, dotyczy polityki rozszerzenia i bezpieczeństwa Bałkanów; komentarz nie formułuje wniosków dla Polski.",
+      "tagi": [
+        "balkany",
+        "wybory"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-10-21/vucic-czy-studenci-serbia-przed-wyborami-parlamentarnymi",
+          "data": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "tytul": "OSW: po wyborach samorządowych i senackich w Czechach koalicja Andreja Babiša dostaje ostrzeżenie, a STAN staje się główną siłą opozycji",
+      "autor": "OSW (Krzysztof Dębiec), analiza z 20.10.2026",
+      "tekst": "Według OSW w wyborach samorządowych 9–10.10 ANO premiera Babiša zdobyło najwięcej głosów, lecz tylko 14,3% (w 2022: 16,6%) i 1650 radnych (wcześniej 1748); w wyborach do Senatu (do 17.10) liberalna STAN wygrała 10 z 27 okręgów, ODS 7, a koalicja rządząca żadnego, zaś SPD straciła 76% mandatów radnych. Autor ocenia, że wyniki są ostrzeżeniem dla obozu władzy po pierwszym roku rządów, choć ANO nadal prowadzi w sondażach krajowych (28,8–31,3%).",
+      "dla_polski": "Wniosek redakcji (nie teza OSW): osłabienie czeskiej koalicji z udziałem SPD może wpłynąć na stanowisko Pragi wobec Ukrainy i UE, ważne dla Grupy Wyszehradzkiej; analiza nie formułuje wniosków dla Polski.",
+      "tagi": [
+        "czechy",
+        "wybory"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-20/wybory-samorzadowe-i-senackie-w-czechach-ostrzezenie-dla-obozu-wladzy",
+          "data": "2026-10-20"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-10-23",
+      "tekst": "23.10: według AFP decyzja agencji Moody's ws. ratingu Francji (CNBC podaje „piątek”); oczekiwana obniżka wzmocniłaby presję na rentowności francuskich obligacji.",
+      "tagi": [
+        "francja",
+        "gospodarka"
+      ]
+    },
+    {
+      "data": "2026-10-24",
+      "tekst": "24.10: szczyt UE – Rada Współpracy Zatoki Perskiej w Rijadzie przełożony (komunikat Rady UE z 15.10); nowa data nieznana. W tym dniu we Francji zapowiedziane protesty z udziałem wojska w ochronie obiektów.",
+      "tagi": [
+        "ue",
+        "francja"
+      ]
+    },
+    {
+      "data": "2026-10-25",
+      "tekst": "25.10: Brazylia – II tura wyborów prezydenckich (Flávio Bolsonaro kontra Lula).",
+      "tagi": [
+        "ameryki",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-25",
+      "tekst": "25.10: Bułgaria – wybory prezydenta i wiceprezydenta.",
+      "tagi": [
+        "bulgaria",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-25",
+      "tekst": "25.10: Serbia – przedterminowe wybory parlamentarne.",
+      "tagi": [
+        "balkany",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-27",
+      "tekst": "27.10: Izrael – wybory do Knesetu.",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-28",
+      "tekst": "28.10: Fed – decyzja FOMC (posiedzenie 27–28.10).",
+      "tagi": [
+        "usa"
+      ]
+    },
+    {
+      "data": "2026-10-29",
+      "tekst": "29.10: EBC – decyzja Rady Prezesów (posiedzenie 28–29.10); 29–30.10 szczyt UE–Kanada w Montrealu.",
+      "tagi": [
+        "ue"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-11-01",
+      "tekst": "kolejne spotkanie państw OPEC+ w sprawie limitów wydobycia (na grudzień)",
+      "tagi": [
+        "energia"
+      ]
+    },
+    {
+      "data": "2026-11-03",
+      "tekst": "wybory połowy kadencji w USA",
+      "tagi": [
+        "usa",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-11-12",
+      "tekst": "Europejska Wspólnota Polityczna w Irlandii (12.11), 13.11 nieformalne spotkanie przywódców UE",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [
+      {
+        "tytul": "Zmiany w rosyjskim rządzie – dalsza mobilizacja zasobów na długą wojnę",
+        "autor": "M. Domańska, I. Wiśniewska",
+        "data": "2026-10-21",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-21/zmiany-w-rosyjskim-rzadzie-dalsza-mobilizacja-zasobow-na-dluga-wojne"
+      },
+      {
+        "tytul": "Vučić czy studenci? Serbia przed wyborami parlamentarnymi",
+        "autor": "J. Nowinowski",
+        "data": "2026-10-21",
+        "url": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-10-21/vucic-czy-studenci-serbia-przed-wyborami-parlamentarnymi"
+      },
+      {
+        "tytul": "Nowa ustawa o Fundacji Ucieczka, Wypędzenie, Pojednanie – Niemcy na pierwszym miejscu",
+        "autor": "K. Frymark",
+        "data": "2026-10-20",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-20/nowa-ustawa-o-fundacji-ucieczka-wypedzenie-pojednanie-niemcy-na"
+      },
+      {
+        "tytul": "Wyniszczające rosyjskie ataki na infrastrukturę energetyczną – 1700. dzień wojny",
+        "autor": "K. Nieczypor, M. Goliszewski, J. Tarociński",
+        "data": "2026-10-20",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-20/wyniszczajace-rosyjskie-ataki-na-infrastrukture-energetyczna-1700"
+      },
+      {
+        "tytul": "Derusyfikacja Mołdawii – przyspieszony odwrót od Rosji po 2022 roku",
+        "autor": "K. Całus",
+        "data": "2026-10-20",
+        "url": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-10-20/derusyfikacja-moldawii-przyspieszony-odwrot-od-rosji-po-2022"
+      },
+      {
+        "tytul": "Państwo jako biznes rodzinny – warianty sukcesji na Białorusi",
+        "autor": "K. Kłysiński",
+        "data": "2026-10-20",
+        "url": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-10-20/panstwo-jako-biznes-rodzinny-warianty-sukcesji-na-bialorusi"
+      },
+      {
+        "tytul": "Wybory samorządowe i senackie w Czechach – ostrzeżenie dla obozu władzy",
+        "autor": "K. Dębiec",
+        "data": "2026-10-20",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-20/wybory-samorzadowe-i-senackie-w-czechach-ostrzezenie-dla-obozu-wladzy"
+      },
+      {
+        "tytul": "Centra danych w Rosji – skutki ataków ukraińskich dronów",
+        "autor": "I. Wiśniewska",
+        "data": "2026-10-19",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-19/centra-danych-w-rosji-skutki-atakow-ukrainskich-dronow"
+      }
+    ],
+    "pism": [],
+    "nieodczytane": [
+      "pism"
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "tekst": "Ukraina: według Kyiv Independent (21.10) minister obrony Jewhen Chmara i naczelny dowódca Mychajło Drapatyj spotkali się w Kijowie z delegacją Lockheed Martin (PAC-3) wobec poważnego niedoboru pocisków Patriot; według ukraińskich urzędników sekretarz obrony Pete Hegseth nie zatwierdził jeszcze przekazania większej partii. Jedno źródło z poziomów 1–2; brak liczb i komunikatu strony amerykańskiej.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Kyiv Independent (artykuł, 21.10)",
+        "OSW (20.10, wspomina opóźnienia dostaw Patriotów)",
+        "wyszukiwarka: brak komunikatu Pentagonu ani Lockheed Martin"
+      ]
+    },
+    {
+      "id": "n2",
+      "tekst": "Rosja/Kaliningrad: według Kyiv Independent (21.10) rosyjski Su-30 rozbił się w obwodzie królewieckim podczas lotu szkoleniowego; rosyjskie MON podaje, że załoga katapultowała się i została ewakuowana, a według kanału Mash (poziom 5) obaj piloci są ranni, lokalizacja koło Czerniachowska. Wersja strony rosyjskiej, bez niezależnego potwierdzenia.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Kyiv Independent (artykuł, 21.10)",
+        "Polsat News (kanał, 21.10 15:01, poziom 3)",
+        "wyszukiwarka: brak komunikatu DO RSZ ani innej agencji"
+      ]
+    },
+    {
+      "id": "n3",
+      "tekst": "Węgry: według Euronews i kanału Polsat News (21.10) zatrzymano byłego prezesa banku centralnego Györgya Matolcsy'ego w sprawie fundacji banku (kwoty w relacjach: ponad 500 mln euro i ponad 1 mld euro). Brak komunikatu prokuratury ani policji i drugiego źródła z poziomów 1–2.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Euronews (artykuł, 21.10)",
+        "Polsat News (kanał, 21.10 14:18, poziom 3)",
+        "wyszukiwarka: brak komunikatu węgierskiej policji lub prokuratury"
+      ]
+    },
+    {
+      "id": "n4",
+      "tekst": "UE: według Euronews (21.10) ministrowie energii UE spotkają się 29.10 w sprawie ewentualnego ograniczania zużycia energii przy zamkniętej cieśninie Ormuz (zapasy gazu 74% – najniżej od 2011; Brent ok. 110 USD); dokument Rady nie wskazuje konkretnych cięć.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Euronews (artykuł, 21.10)",
+        "CNBC (ceny ropy, 21.10 – bez informacji o spotkaniu)",
+        "wyszukiwarka: brak komunikatu Rady UE/prezydencji irlandzkiej"
+      ]
+    },
+    {
+      "id": "n5",
+      "tekst": "Ukraina/Polska: według kanału Polsat News (20–21.10) Lwów rozważa ogłoszenie 2027 roku rokiem UPA i Szuchewycza, a ukraińskie MSZ miało ocenić to jako szkodliwe dla relacji polsko-ukraińskich; wicepremier Iryna Wereszczuk apeluje do radnych. Poza kanałem tylko Interia (poziom 3); brak uchwały i komunikatu MSZ Ukrainy.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Polsat News (kanał, 20–21.10, poziom 3)",
+        "Interia (artykuł, poziom 3)",
+        "wyszukiwarka: brak komunikatu MSZ Ukrainy ani uchwały rady obwodowej"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-10-20#n1",
+      "wynik": "UZUPEŁNIONE",
+      "pozycja": "z4"
+    },
+    {
+      "dotyczy": "2026-10-20#n2",
+      "wynik": "UZUPEŁNIONE",
+      "pozycja": "z7"
+    },
+    {
+      "dotyczy": "2026-10-20#n3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Euronews (artykuł, 20.10, za AFP i Bild)",
+        "wyszukiwarka z domenami France 24, CNN, CBS, NPR, CNBC (brak relacji)",
+        "kanały Kyiv Independent i Euronews 21.10 (bez nowych informacji)"
+      ],
+      "powod": "Włamanie na konta e-mail AfD (ponad 421 tys. wiadomości) opisuje tylko Euronews na podstawie Bilda i oświadczenia AfD dla AFP; sprawców nie ustalono i brak drugiej relacji z poziomów 1–2."
+    },
+    {
+      "dotyczy": "2026-10-20#n4",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kyiv Independent (pożar tłoczni Nikolskoje w obwodzie tambowskim, 20.10)",
+        "wyszukiwarka z domenami France 24, CNN, CBS, CNBC, Euronews (brak relacji)",
+        "kanał Euronews 21.10 (brak wpisu)"
+      ],
+      "powod": "Kyiv Independent pisze o pożarze na stacji tłoczni po ataku dronów (gubernator: 4 drony zestrzelone, bez ofiar); strona ukraińska nie potwierdziła ataku, drugiego źródła brak, a uszkodzenia rurociągu Przyjaźń nie potwierdzono."
+    },
+    {
+      "dotyczy": "2026-10-20#n5",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "wyszukiwarka (Financial Times, rozmowy Europy z Putinem, Donbas) – brak artykułu",
+        "Kyiv Independent i Euronews (kanały 21.10) – brak wpisu",
+        "France 24 / CNN (wyszukiwarka) – brak relacji"
+      ],
+      "powod": "Nie znaleziono tekstu Financial Times ani drugiego źródła; Kreml oświadczył 21.10 (CNN, Kyiv Independent), że ukraińskie i europejskie propozycje są bez treści."
+    },
+    {
+      "dotyczy": "2026-10-20#n7",
+      "wynik": "UZUPEŁNIONE",
+      "pozycja": "z6"
+    }
+  ],
+  "do_sprawdzenia": [
+    "Rozmowy trójstronne USA–Rosja–Ukraina w połowie listopada, szczyt Trump–Putin (Szenzen, według Euronews/AP Kreml zapowiada) – komunikaty Kremla i Białego Domu",
+    "Moody's – decyzja ws. ratingu Francji (23.10) i budżet 2027; Francja – protesty 24.10",
+    "Włochy – dekret bezpieczeństwa w parlamencie; Albania – protesty i spór z Iranem",
+    "Ebola – Nigeria (kontakty), spotkanie ministrów zdrowia Africa CDC, Kenia",
+    "Arabia Saudyjska/Huti – nowe ataki, Typhoon RAF; Ormuz – komunikaty UKMTO/CENTCOM, cena ropy",
+    "UE – spotkanie ministrów energii 29.10; Patrioty – decyzja Hegsetha; Su-30 w obwodzie królewieckim – DO RSZ/MON",
+    "Wybory 25.10 (Brazylia, Bułgaria, Serbia), Izrael 27.10",
+    "PISM – publikacje z 18–21.10 (lista nie otworzyła się); PAP Kraj, DO RSZ, SG, ŻW – incydenty z 20–21.10",
+    "Lwów – uchwała ws. roku UPA 2027 i stanowisko MSZ Ukrainy; Matolcsy – komunikat prokuratury"
+  ],
+  "nota": "Wydanie z 21.10, przygotowane ok. 20:00 (Europe/Warsaw). pozycje z1–z7 oparto na dwóch–czterech źródłach z poziomów 1–2 (wywiad Zełenskiego i wypowiedzi Kremla podano jako fakt, że padły). Dział Świat Onetu nie był otwierany (zablokowany); przegląd wyszukiwarką dał jedno zapytanie bez nagłówków działu – brak tematów z Onetu. Kanał Polsat News Świat otwarto (najnowszy wpis 21.10, 19:37), TVN24 nie próbowano; z kanałów do wydania trafiło 6 tematów (z1, z2 oraz wpisy n2, n3, n5 w „W obserwacji”; reszta – m.in. Starshield, Korea Płn., reakcja NATO na Morzu Czarnym – nie została udokumentowana). Przedruków Reutersa nie wykorzystano (źródła: CNN, CBS, CNBC, NPR, France 24, Euronews, Kyiv Independent, ANSA). Nie przejrzano ani nie udokumentowano komunikatów DO RSZ, MON, SG, ŻW i PAP Kraj z 20–21.10 (wyszukiwarka nie zwróciła komunikatów), więc brak pozycji o incydentach w Polsce nie oznacza ich braku. Nie sprawdzono m.in. rozmowy Tusk–Nausėda, Francji (godziny policyjne), Ormuzu poza ceną ropy, komunikatów Kremla. OSW: lista otwarta, 8 tekstów z 19–21.10 (3 omówione). PISM: lista nie otworzyła się mimo ponowień (pism.pl/publikacje, wersja angielska, wyszukiwarka) – oznaczono jako nieodczytaną. Z kalendarza usunięto spotkanie Witkoff–Putin (odbyło się), dodano decyzję Moody's. Kontrola niezależna (agent) wykryła niezgodności w z1, z3–z7 (m.in. liczby zatrzymanych w Albanii, liczbę krajów z ebolą, atrybucję diesla) – usunięto lub zmieniono; WebFetch dla CNBC, CNN, NPR, CBS i ANSA był dla niej zablokowany, więc te źródła zweryfikowano tylko przeze mnie. Wskazane przez agenta tematy (NATO – patrole nad Morzem Czarnym, Hegseth w Izraelu, rozmowy USA–Iran w Katarze, Hiszpania – sztorm, wyrok WSG w sprawie żołnierza, przedłużenie wsparcia wojska dla SG) nie zostały opisane w wydaniu."
+}

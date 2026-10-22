@@ -538,7 +538,7 @@
       "id": "rumunia",
       "nazwa": "Rumunia",
       "grupa": "miejsce",
-      "opis": "Polityka Rumunii i Mołdawii.",
+      "opis": "Polityka Rumunii.",
       "stan": "17.10 rumuńskie F-16 zestrzeliły dwa drony nad wodami terytorialnymi koło Sulina (komunikat MApN nr 213).",
       "stan_zrodla": [
         {
@@ -680,6 +680,30 @@
         }
       ],
       "stan_data": "2026-10-15"
+    },
+    {
+      "id": "watykan",
+      "nazwa": "Watykan",
+      "grupa": "miejsce",
+      "opis": "Stolica Apostolska i papież w polityce międzynarodowej."
+    },
+    {
+      "id": "wlochy",
+      "nazwa": "Włochy",
+      "grupa": "miejsce",
+      "opis": "Polityka Włoch i ich rola w UE."
+    },
+    {
+      "id": "moldawia",
+      "nazwa": "Mołdawia",
+      "grupa": "miejsce",
+      "opis": "Polityka Mołdawii, droga do UE i presja Rosji."
+    },
+    {
+      "id": "azerbejdzan",
+      "nazwa": "Azerbejdżan",
+      "grupa": "miejsce",
+      "opis": "Polityka Azerbejdżanu, Kaukaz Południowy i surowce."
     }
   ]
 }

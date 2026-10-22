@@ -483,7 +483,7 @@
       "id": "ilham-alijew",
       "imie": "Ilham Alijew",
       "funkcja": "Prezydent Republiki Azerbejdżanu.",
-      "kraj": ["inne"],
+      "kraj": ["azerbejdzan"],
       "zweryfikowano": "2026-10-01",
       "zrodla": [
         {
@@ -770,7 +770,7 @@
       "id": "maia-sandu",
       "imie": "Maia Sandu",
       "funkcja": "Prezydent Mołdawii.",
-      "kraj": ["inne"],
+      "kraj": ["moldawia"],
       "zweryfikowano": "2026-10-03",
       "zrodla": [
         {
@@ -1053,7 +1053,7 @@
       "id": "leon-xiv",
       "imie": "Leon XIV",
       "funkcja": "Papież, zwierzchnik Kościoła katolickiego i głowa Państwa Watykańskiego.",
-      "kraj": ["inne"],
+      "kraj": ["watykan"],
       "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
@@ -1131,7 +1131,7 @@
       "id": "giorgia-meloni",
       "imie": "Giorgia Meloni",
       "funkcja": "Premier Włoch.",
-      "kraj": ["inne"],
+      "kraj": ["wlochy"],
       "zweryfikowano": "2026-10-22",
       "zrodla": [
         {

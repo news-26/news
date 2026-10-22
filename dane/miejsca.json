@@ -455,6 +455,12 @@
       "nazwa": "Abudża",
       "lon": 7.49,
       "lat": 9.06
+    },
+    {
+      "id": "brandenburgia",
+      "nazwa": "Brandenburgia",
+      "lon": 13.06,
+      "lat": 52.4
     }
   ]
 }

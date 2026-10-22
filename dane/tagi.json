@@ -6,43 +6,38 @@
       "nazwa": "Ukraina",
       "grupa": "miejsce",
       "opis": "Wojna Rosji z Ukrainą: ataki, obrona powietrzna, polityka Kijowa, pomoc zachodnia.",
-      "stan": "21.10 Putin przyjął w Petersburgu Witkoffa i uwolnił Amerykanina Hubbarda; Kreml deklaruje gotowość do rozmów trójstronnych, Zełenski proponuje zamrożenie frontu.",
+      "stan": "22.10 Rosja uderzyła na Kijów rakietami (w tym trzy balistyczne z głowicami kasetowymi) i dronami, kilka godzin po spotkaniu Putina z Witkoffem; Zełenski podał dwóch zabitych i 34 rannych w Kijowie i obwodzie.",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/21/russia-frees-detained-american-stephen-hubbard-during-us-envoys-visit",
-          "data": "2026-10-21"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-ballistic-missiles-rock-kyiv-in-late-night-attack-injuring-6/",
+          "data": "2026-10-22"
         },
         {
-          "nazwa": "France 24",
-          "url": "https://www.france24.com/en/europe/20261021-zelensky-proposes-freezing-front-with-russia-first-step-peace-talks",
-          "data": "2026-10-21"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/22/overnight-attacks-resume-between-russia-and-ukraine-following-us-envoy-visit",
+          "data": "2026-10-22"
         }
       ],
-      "stan_data": "2026-10-21"
+      "stan_data": "2026-10-22"
     },
     {
       "id": "front",
       "nazwa": "Front",
       "grupa": "temat",
       "opis": "Działania na linii frontu w Ukrainie; oceny ISW zawsze jako ocena think tanku.",
-      "stan": "19–20.10 rosyjskie uderzenia na Kijów i okolice: w Obuchowie 3 zabitych, drony uszkodziły w Kijowie szpital. W nocy na 19.10 Rosja uderzyła w energetykę Ukrainy – według Zełenskiego ok. 550 tys. rodzin bez prądu.",
-      "stan_data": "2026-10-20",
+      "stan": "22.10 w nocy rosyjskie uderzenie rakietowo-dronowe na Kijów i inne miasta (Zełenski: 21 rakiet, 210 dronów; zestrzelono 181 dronów), ukraińskie drony nad Moskwą i obwodem lipieckim.",
+      "stan_data": "2026-10-22",
       "stan_zrodla": [
         {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/10/20/three-people-killed-in-russian-attack-on-kyiv-region-as-rescuers-search-debris-at-industrial-building",
-          "data": "2026-10-20"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-ballistic-missiles-rock-kyiv-in-late-night-attack-injuring-6/",
+          "data": "2026-10-22"
         },
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/russian-drones-strike-kyiv-hospital-injure-5-across-the-city/",
-          "data": "2026-10-20"
-        },
-        {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/3-killed-53-injured-in-russian-attacks-across-ukraine-over-past-day-as-550-000-households-lose-power/",
-          "data": "2026-10-19"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/22/overnight-attacks-resume-between-russia-and-ukraine-following-us-envoy-visit",
+          "data": "2026-10-22"
         }
       ]
     },
@@ -51,38 +46,38 @@
       "nazwa": "Rozejm",
       "grupa": "temat",
       "opis": "Rozmowy i propozycje zawieszenia broni w wojnie Rosji z Ukrainą.",
-      "stan": "21.10 Putin przyjął Witkoffa w Petersburgu i uwolnił Amerykanina Stephena Hubbarda; Kreml deklaruje gotowość do rozmów trójstronnych z USA i Ukrainą, a Zełenski nazwał zamrożenie frontu na obecnej linii „realnym sposobem” zakończenia wojny.",
+      "stan": "22.10 Kreml mówi o rozmowach trójstronnych USA–Rosja–Ukraina w połowie listopada (możliwe Abu Zabi), Zełenski chce spotkania najpóźniej na początku listopada; terminu nie uzgodniono.",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews (za AP)",
-          "url": "https://www.euronews.com/2026/10/21/russia-frees-detained-american-stephen-hubbard-during-us-envoys-visit",
-          "data": "2026-10-21"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/10/22/u-s-russia-and-ukraine-discuss-resuming-trilateral-peace-talks-in-november-as-missile-and-drone-strikes-continue",
+          "data": "2026-10-22"
         },
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/russia-releases-us-prisoner-stephen-hubbard-during-witkoff-visit/",
-          "data": "2026-10-21"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/22/overnight-attacks-resume-between-russia-and-ukraine-following-us-envoy-visit",
+          "data": "2026-10-22"
         }
       ],
-      "stan_data": "2026-10-21"
+      "stan_data": "2026-10-22"
     },
     {
       "id": "rosja",
       "nazwa": "Rosja",
       "grupa": "miejsce",
       "opis": "Polityka wewnętrzna, armia i budżet Rosji.",
-      "stan": "21.10 Putin spotkał się w Petersburgu z wysłannikiem USA Witkoffem i uwolnił Amerykanina Stephena Hubbarda; Kreml mówi o gotowości do rozmów trójstronnych z USA i Ukrainą.",
-      "stan_data": "2026-10-21",
+      "stan": "22.10 Kreml zapowiada gotowość do rozmów trójstronnych w połowie listopada, a Rosja kontynuuje ataki na Kijów po spotkaniu Putina z Witkoffem.",
+      "stan_data": "2026-10-22",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews (za AP)",
-          "url": "https://www.euronews.com/2026/10/21/russia-frees-detained-american-stephen-hubbard-during-us-envoys-visit",
-          "data": "2026-10-21"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/10/22/u-s-russia-and-ukraine-discuss-resuming-trilateral-peace-talks-in-november-as-missile-and-drone-strikes-continue",
+          "data": "2026-10-22"
         },
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/russia-releases-us-prisoner-stephen-hubbard-during-witkoff-visit/",
-          "data": "2026-10-21"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/22/overnight-attacks-resume-between-russia-and-ukraine-following-us-envoy-visit",
+          "data": "2026-10-22"
         }
       ]
     },
@@ -122,25 +117,20 @@
       "nazwa": "Wojna hybrydowa",
       "grupa": "temat",
       "opis": "Działania hybrydowe: drony, sabotaż, dezinformacja, cyberataki, presja migracyjna.",
-      "stan": "18.10 udaremniono podpalenie sprzętu Starlink na Litwie (premier Sinkevičius wskazuje Rosję); 20.10 premier Albanii Rama przypisał protesty w Tiranie „wojnie hybrydowej” obcych podmiotów, bez przedstawienia dowodów.",
+      "stan": "22.10 Niemcy zatrzymały w Brandenburgii Ukraińca podejrzanego o szpiegostwo na rzecz Rosji (dane o przemyśle zbrojeniowym i wschodniej flance NATO).",
       "stan_zrodla": [
         {
-          "nazwa": "France 24",
-          "url": "https://www.france24.com/en/live-news/20261020-albania-pm-blames-hybrid-war-for-week-of-unrest",
-          "data": "2026-10-20"
-        },
-        {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/20/albanias-pm-edi-rama-blames-hybrid-war-for-fuelling-unrest-across-the-country",
-          "data": "2026-10-20"
+          "url": "https://www.euronews.com/2026/10/22/germany-arrests-ukrainian-national-on-suspicion-of-spying-for-russia",
+          "data": "2026-10-22"
         },
         {
-          "nazwa": "LRT",
-          "url": "https://www.lrt.lt/en/news-in-english/19/3086054/attempted-arson-at-lithuanian-firm-storing-starlink-equipment-pm-blames-russia",
-          "data": "2026-10-18"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/germany-arrests-ukrainian-national-suspected-of-spying-for-russia/",
+          "data": "2026-10-22"
         }
       ],
-      "stan_data": "2026-10-21"
+      "stan_data": "2026-10-22"
     },
     {
       "id": "uzbrojenie",
@@ -252,23 +242,18 @@
       "nazwa": "USA",
       "grupa": "miejsce",
       "opis": "Polityka USA wobec Europy, Rosji, Ukrainy i Bliskiego Wschodu.",
-      "stan": "21.10 wysłannik Witkoff rozmawiał z Putinem w Petersburgu, a Rosja uwolniła Amerykanina Stephena Hubbarda; Trump napisał, że USA nic nie dały w zamian. 20.10 Rubio zaprzeczył celowemu opóźnianiu dostaw obrony powietrznej dla Ukrainy.",
-      "stan_data": "2026-10-21",
+      "stan": "22.10 po spotkaniu z Putinem Witkoff wskazał gotowość Moskwy do wznowienia rozmów trójstronnych; według Kremla mogłyby ruszyć w połowie listopada, po wyborach połówkowych w USA.",
+      "stan_data": "2026-10-22",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews (za AP)",
-          "url": "https://www.euronews.com/2026/10/21/russia-frees-detained-american-stephen-hubbard-during-us-envoys-visit",
-          "data": "2026-10-21"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/10/22/u-s-russia-and-ukraine-discuss-resuming-trilateral-peace-talks-in-november-as-missile-and-drone-strikes-continue",
+          "data": "2026-10-22"
         },
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/russia-releases-us-prisoner-stephen-hubbard-during-witkoff-visit/",
-          "data": "2026-10-21"
-        },
-        {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/rubio-says-delays-in-us-air-defense-shipments-to-ukraine-not-deliberate/",
-          "data": "2026-10-20"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/22/overnight-attacks-resume-between-russia-and-ukraine-following-us-envoy-visit",
+          "data": "2026-10-22"
         }
       ]
     },
@@ -302,23 +287,18 @@
       "nazwa": "NATO",
       "grupa": "temat",
       "opis": "Sojusz Północnoatlantycki: decyzje, szczyty, wschodnia flanka.",
-      "stan": "20.10 Rubio przyznał możliwe opóźnienia dostaw pocisków przechwytujących dla Ukrainy w ramach inicjatywy NATO, zaprzeczając celowej decyzji; trwa wyjaśnianie przelotu ukraińskiego drona nad Polską i Litwą (18.10).",
-      "stan_data": "2026-10-20",
+      "stan": "22.10 według Federalnej Prokuratury Generalnej w Niemczech zatrzymany w Brandenburgii Ukrainiec zbierał dla rosyjskiego wywiadu informacje o obiektach i personelu zabezpieczających wschodnią flankę NATO.",
+      "stan_data": "2026-10-22",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/rubio-says-delays-in-us-air-defense-shipments-to-ukraine-not-deliberate/",
-          "data": "2026-10-20"
-        },
-        {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/20/trump-envoy-witkoff-to-meet-zelenskyy-in-oslo-before-planned-putin-talks-in-moscow",
-          "data": "2026-10-20"
+          "url": "https://www.euronews.com/2026/10/22/germany-arrests-ukrainian-national-on-suspicion-of-spying-for-russia",
+          "data": "2026-10-22"
         },
         {
-          "nazwa": "PAP (za RMF24)",
-          "url": "https://www.rmf24.pl/fakty/polska/news-dron-eksplodowal-na-litwie-mial-przyleciec-z-polski-tusk-nie,nIdn,1022662",
-          "data": "2026-10-20"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/germany-arrests-ukrainian-national-suspected-of-spying-for-russia/",
+          "data": "2026-10-22"
         }
       ]
     },
@@ -327,30 +307,20 @@
       "nazwa": "UE",
       "grupa": "temat",
       "opis": "Unia Europejska: Rada, Komisja, obronność, budżet WRF 2028–2034.",
-      "stan": "Kryzys kosztów życia w UE: we Francji rentowność 10-letnich obligacji przekroczyła 21.10 5%, Włochy po zamieszkach w Mediolanie przyjęły 20.10 dekret bezpieczeństwa i wysyłają 500 żołnierzy. WRF 2028–34 bez porozumienia po Radzie Europejskiej 15–16.10.",
+      "stan": "22.10 we Francji rada obrony i zakazy protestów przed manifestacjami 24.10; kryzys kosztów życia w UE (Francja, Włochy) trwa; WRF 2028–34 bez porozumienia po Radzie Europejskiej 15–16.10.",
       "stan_zrodla": [
         {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/22/macron-holds-emergency-security-meeting-as-france-braces-for-fresh-wave-of-protests",
+          "data": "2026-10-22"
+        },
+        {
           "nazwa": "France 24",
-          "url": "https://www.france24.com/en/europe/20261020-italy-announces-new-security-measures-after-milan-riots-deploying-500-soldiers",
-          "data": "2026-10-20"
-        },
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/21/italy-deploys-500-troops-to-milan-under-new-security-decree-following-violent-clashes",
-          "data": "2026-10-21"
-        },
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/16/eu-summit-leaders-to-rally-behind-zelenskyy-amid-bitter-row-with-trump",
-          "data": "2026-10-16"
-        },
-        {
-          "nazwa": "France 24 (za AFP)",
-          "url": "https://www.france24.com/en/live-news/20261021-five-things-to-know-as-french-bond-yield-tops-5",
-          "data": "2026-10-21"
+          "url": "https://www.france24.com/en/europe/20261022-live-paris-bans-protests-after-violent-unrest-as-macron-takes-swipe-at-trump",
+          "data": "2026-10-22"
         }
       ],
-      "stan_data": "2026-10-21"
+      "stan_data": "2026-10-22"
     },
     {
       "id": "onz",
@@ -369,20 +339,20 @@
       "nazwa": "Niemcy",
       "grupa": "miejsce",
       "opis": "Polityka Niemiec: rząd, koalicja, wybory, obronność.",
-      "stan": "7.10 sąd aresztował byłego prezesa BND Augusta Hanninga, oskarżonego o szpiegostwo na rzecz nieujawnionego obcego wywiadu.",
+      "stan": "22.10 Federalna Prokuratura Generalna zatrzymała w Brandenburgii Ukraińca podejrzanego o szpiegostwo na rzecz Rosji.",
       "stan_zrodla": [
         {
-          "nazwa": "AP (za ABC News)",
-          "url": "https://abcnews.com/International/wireStory/espionage-allegations-germanys-former-intelligence-chief-137062477",
-          "data": "2026-10-07"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/22/germany-arrests-ukrainian-national-on-suspicion-of-spying-for-russia",
+          "data": "2026-10-22"
         },
         {
-          "nazwa": "France 24",
-          "url": "https://www.france24.com/en/europe/20261007-what-we-know-about-espionage-treason-allegations-against-germany-s-ex-spy-chief",
-          "data": "2026-10-07"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/germany-arrests-ukrainian-national-suspected-of-spying-for-russia/",
+          "data": "2026-10-22"
         }
       ],
-      "stan_data": "2026-10-07"
+      "stan_data": "2026-10-22"
     },
     {
       "id": "czechy",
@@ -534,20 +504,20 @@
       "nazwa": "Francja",
       "grupa": "miejsce",
       "opis": "Polityka Francji: rząd, budżet, stanowisko w UE.",
-      "stan": "21.10 rentowność francuskich 10-latek przekroczyła 5% (najwyżej od 2002); oczekiwana decyzja Moody's ws. ratingu.",
+      "stan": "22.10 Macron zwołuje na 23.10 radę obrony, zapowiada zakaz „nielegalnych” demonstracji; prefekci zakazali protestów w Marsylii i Lyonie na 24.10; decyzja Moody's ws. ratingu oczekiwana 23.10.",
       "stan_zrodla": [
         {
-          "nazwa": "France 24",
-          "url": "https://www.france24.com/en/live-news/20261021-five-things-to-know-as-french-bond-yield-tops-5",
-          "data": "2026-10-21"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/22/macron-holds-emergency-security-meeting-as-france-braces-for-fresh-wave-of-protests",
+          "data": "2026-10-22"
         },
         {
-          "nazwa": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/21/france-protests-bonds-debt.html",
-          "data": "2026-10-21"
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/europe/20261022-live-paris-bans-protests-after-violent-unrest-as-macron-takes-swipe-at-trump",
+          "data": "2026-10-22"
         }
       ],
-      "stan_data": "2026-10-21"
+      "stan_data": "2026-10-22"
     },
     {
       "id": "wielka-brytania",

@@ -1,0 +1,465 @@
+{
+  "nr": 34,
+  "data": "2026-10-22",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "**Rosja uderzyła w nocy z 21 na 22.10 na Kijów** (21 rakiet, w tym trzy balistyczne z głowicami kasetowymi, i 210 dronów), kilka godzin po spotkaniu {{o:wladimir-putin|Putina}} z wysłannikiem USA {{o:steve-witkoff|Witkoffem}}; według {{o:wolodymyr-zelenski|Zełenskiego}} zginęły dwie osoby, a 34 zostały ranne.",
+    "Kreml deklaruje gotowość do wznowienia **rozmów trójstronnych** USA–Rosja–Ukraina w połowie listopada, po amerykańskich wyborach połówkowych; terminu i miejsca nie uzgodniono.",
+    "Niemcy zatrzymały w Brandenburgii Ukraińca podejrzanego o szpiegostwo na rzecz Rosji, który zbierał dane o przemyśle zbrojeniowym i obiektach wojskowych na wschodniej flance NATO.",
+    "We Francji {{o:emmanuel-macron|Macron}} zwołuje na 23.10 radę obrony i zapowiada zakaz „nielegalnych” demonstracji przed protestami zapowiedzianymi na 24.10; w Marsylii i Lyonie zakazano wszystkich manifestacji.",
+    "Incydentów w Polsce i przy jej granicach, które spełniałyby kryteria pozycji, w dostępnych komunikatach nie znaleziono (szczegóły w nocie); kilka tematów z Polską w tle jest w sekcji „W obserwacji”."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-10-22",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "front"
+      ],
+      "miejsce": "kijow",
+      "krotko": "Atak rakietowy na Kijów po rozmowie Putin–Witkoff",
+      "etap": "W TOKU",
+      "tekst": "Rosja uderzyła w nocy z 21 na 22.10 na Kijów i inne miasta, kilka godzin po spotkaniu {{o:wladimir-putin|Putina}} z {{o:steve-witkoff|Witkoffem}}: według {{o:wolodymyr-zelenski|Zełenskiego}} wystrzelono 21 rakiet, w tym trzy balistyczne **z głowicami kasetowymi** (według doradcy prezydenta Serhija Beskrestnowa – Iskandery z głowicami K5), oraz 210 dronów (liczby podał Zełenski, relacja Kyiv Independent), z których ukraińskie lotnictwo zestrzeliło 181; Zełenski podał, że w Kijowie i obwodzie kijowskim zginęły dwie osoby, a 34 zostały ranne, w tym pięcioro dzieci. Euronews, powołując się na ukraińskie władze, pisze o siedmiu zabitych w całym kraju w ciągu nocy; według władz rosyjskich po ukraińskim ataku dronów ranne zostały dwie osoby w Moskwie i jedna w obwodzie lipieckim (władze Moskwy podał, że w stronę regionu leciało 630 dronów). Następstwo: Meduza podaje wcześniejszy bilans jednego zabitego i ponad 20 rannych; bilans ofiar zmieniał się w ciągu dnia.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-ballistic-missiles-rock-kyiv-in-late-night-attack-injuring-6/",
+          "data": "2026-10-22"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/22/overnight-attacks-resume-between-russia-and-ukraine-following-us-envoy-visit",
+          "data": "2026-10-22"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/10/22/russia-strikes-kyiv-hours-after-putin-meets-with-trump-envoy-witkoff-killing-one-and-injuring-more-than-20",
+          "data": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-10-22",
+      "tagi": [
+        "usa",
+        "rosja",
+        "ukraina",
+        "rozejm"
+      ],
+      "etap": "ZAPOWIEDŹ",
+      "tekst": "Kreml zapowiedział gotowość do wznowienia **rozmów trójstronnych** USA–Rosja–Ukraina: doradca {{o:jurij-uszakow|Jurij Uszakow}} powiedział po spotkaniu {{o:wladimir-putin|Putina}} z {{o:steve-witkoff|Witkoffem}}, że rozmowy mogłyby ruszyć w połowie listopada, po amerykańskich wyborach połówkowych, a rzecznik {{o:dmitrij-pieskow|Dmitrij Pieskow}} wskazał Abu Zabi jako możliwe miejsce i odparł, że nie należy wybiegać naprzód przed spotkaniem (według Meduzy nie spodziewa się podpisania dokumentów); {{o:wolodymyr-zelenski|Zełenski}} potwierdził 21.10, że Kijów chce spotkania „najpóźniej na początku listopada” i poprze pełne lub częściowe zawieszenie broni (według Meduzy). Następstwo: terminu ani miejsca nie uzgodniono, a według Euronews Kreml mówi o gotowości „w zasadzie”.",
+      "zrodla": [
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/10/22/u-s-russia-and-ukraine-discuss-resuming-trilateral-peace-talks-in-november-as-missile-and-drone-strikes-continue",
+          "data": "2026-10-22"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/22/overnight-attacks-resume-between-russia-and-ukraine-following-us-envoy-visit",
+          "data": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "instytucje",
+      "data": "2026-10-22",
+      "tagi": [
+        "hybryda",
+        "niemcy",
+        "rosja",
+        "nato"
+      ],
+      "miejsce": "brandenburgia",
+      "krotko": "Zatrzymanie podejrzanego o szpiegostwo dla Rosji",
+      "tekst": "Niemcy zatrzymały w Brandenburgii Ukraińca Vadyma Y., podejrzanego o szpiegostwo na rzecz Rosji: według Federalnej Prokuratury Generalnej w Karlsruhe od co najmniej lipca 2025 roku miał kontakt z rosyjskim wywiadem i zbierał informacje o produkcji pojazdów opancerzonych, amunicji i materiałów wybuchowych oraz o osobach i obiektach wojskowych zabezpieczających **wschodnią flankę NATO**. Następstwo: śledztwo trwa, obowiązuje domniemanie niewinności; według Euronews podejrzany podchodził do osób z europejskiego przemysłu obronnego.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/22/germany-arrests-ukrainian-national-on-suspicion-of-spying-for-russia",
+          "data": "2026-10-22"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/germany-arrests-ukrainian-national-suspected-of-spying-for-russia/",
+          "data": "2026-10-22"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/10/22/germany-detains-ukrainian-national-suspected-of-spying-for-russia",
+          "data": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "instytucje",
+      "data": "2026-10-22",
+      "tagi": [
+        "francja",
+        "ue"
+      ],
+      "miejsce": "paryz",
+      "krotko": "Zakaz protestów i rada obrony po zamieszkach",
+      "etap": "ZAPOWIEDŹ",
+      "tekst": "{{o:emmanuel-macron|Macron}} zapowiedział 22.10, że „nielegalne” demonstracje zostaną zakazane, i zwołał na 23.10 radę obrony po brutalnych protestach z 17.10 (grabieże, starcia z policją); według France 24 prefekci zakazali wszelkich manifestacji w Marsylii i Lyonie na sobotę 24.10, a w kraju dozwolone mają być tylko pochody związków zawodowych (według Euronews), przy czym do ochrony obiektów wysłano żołnierzy Sentinelle i dodatkowe siły policji i żandarmerii (o 20% więcej niż 17.10). Według France 24 od soboty zatrzymano ok. 2,7 tys. osób, a sądy w trybie przyspieszonym skazały na areszt 217; w wielu miastach obowiązują godziny policyjne. Premier {{o:sebastien-lecornu|Sébastien Lecornu}} spotkał się z partiami i merami, a Macron – z szefami wywiadu. Następstwo: decyzje rady obrony zapadną 23.10, a protesty zapowiedziano na 24.10.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/22/macron-holds-emergency-security-meeting-as-france-braces-for-fresh-wave-of-protests",
+          "data": "2026-10-22"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/europe/20261022-live-paris-bans-protests-after-violent-unrest-as-macron-takes-swipe-at-trump",
+          "data": "2026-10-22"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "OSW: dialog Rosji z USA po spotkaniu Putin–Witkoff nie przybliża zawieszenia broni, a służy utrzymaniu u Trumpa złudzenia kompromisu",
+      "autor": "OSW (Witold Rodkiewicz), analiza z 22.10.2026",
+      "tekst": "Według OSW {{o:wladimir-putin|Putin}} zgodził się wznowić rozmowy trójstronne dopiero w drugiej dekadzie listopada i ograniczył ich zakres do „budowy systemu bezpieczeństwa dla Rosji i Ukrainy po zakończeniu konfliktu”. Autor ocenia, że Rosja nie porzuciła celów maksymalnych (pełnej kontroli politycznej nad Ukrainą), a dialog ma utrzymać w {{o:donald-trump|Trumpie}} iluzję kompromisu, odwieść USA od pomocy dla Kijowa i skłonić Ukrainę do rezygnacji z ataków na rosyjskie rafinerie; porozumienie w sprawie diesla uznaje za gest wobec Trumpa bez wpływu na ceny światowe.",
+      "dla_polski": "Wniosek redakcji (nie teza OSW): analiza nie omawia wprost skutków dla Polski; z jej tezy, że bez udziału europejskich członków NATO rozmowy nie mogą dać wiążących ustaleń, wynika argument za zabieganiem Polski o miejsce w rozmowach i za presją na Rosję niezależną od Waszyngtonu.",
+      "tagi": [
+        "rosja",
+        "ukraina",
+        "usa",
+        "rozejm"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-22/rosyjski-dialog-z-usa-bez-przelomu-i-ustepstw",
+          "data": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "tytul": "OSW: protesty w Albanii przechodzą w przemoc po dołączeniu studentów i licealistów, a premier Rama dyskredytuje ruch zamiast odpowiadać na jego postulaty",
+      "autor": "OSW (Michał Kucharski), analiza z 22.10.2026",
+      "tekst": "Według OSW antyrządowe protesty w Albanii trwają od maja i domagają się dymisji premiera {{o:edi-rama|Ediego Ramy}}; od połowy października przemoc gwałtownie wzrosła (podpalenia budynków publicznych, koktajle Mołotowa, gaz łzawiący i gumowe kule), zatrzymano lub aresztowano ok. tysiąca osób, a ok. 300 trafiło do szpitali. Autor ocenia, że pokojowe protesty nie przyniosły skutku, a polityka Ramy hamuje integrację Albanii z UE; zauważa, że UE i USA wezwały obie strony do zaprzestania przemocy.",
+      "dla_polski": "Wniosek redakcji (nie teza OSW): analiza nie formułuje wniosków dla Polski; dotyczy stabilności kandydata do UE na Bałkanach Zachodnich.",
+      "tagi": [
+        "balkany",
+        "ue"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-22/albania-eskalacja-protestow",
+          "data": "2026-10-22"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-10-23",
+      "tekst": "23.10: według AFP decyzja agencji Moody's ws. ratingu Francji (CNBC podaje „piątek”); oczekiwana obniżka wzmocniłaby presję na rentowności francuskich obligacji.",
+      "tagi": [
+        "francja",
+        "gospodarka"
+      ]
+    },
+    {
+      "data": "2026-10-24",
+      "tekst": "24.10: szczyt UE – Rada Współpracy Zatoki Perskiej w Rijadzie przełożony (komunikat Rady UE z 15.10); nowa data nieznana. We Francji zapowiedziane protesty: prefekci zakazali wszystkich manifestacji w Marsylii i Lyonie, w kraju dozwolone tylko pochody związków zawodowych; 23.10 rada obrony pod przewodnictwem Macrona (Euronews, France 24).",
+      "tagi": [
+        "ue",
+        "francja"
+      ]
+    },
+    {
+      "data": "2026-10-25",
+      "tekst": "25.10: Brazylia – II tura wyborów prezydenckich (Flávio Bolsonaro kontra Lula).",
+      "tagi": [
+        "ameryki",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-25",
+      "tekst": "25.10: Bułgaria – wybory prezydenta i wiceprezydenta.",
+      "tagi": [
+        "bulgaria",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-25",
+      "tekst": "25.10: Serbia – przedterminowe wybory parlamentarne.",
+      "tagi": [
+        "balkany",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-27",
+      "tekst": "27.10: Izrael – wybory do Knesetu.",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-28",
+      "tekst": "28.10: Fed – decyzja FOMC (posiedzenie 27–28.10).",
+      "tagi": [
+        "usa"
+      ]
+    },
+    {
+      "data": "2026-10-29",
+      "tekst": "29.10: EBC – decyzja Rady Prezesów (posiedzenie 28–29.10); 29–30.10 szczyt UE–Kanada w Montrealu.",
+      "tagi": [
+        "ue"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-11-03",
+      "tekst": "wybory połowy kadencji w USA",
+      "tagi": [
+        "usa",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-11-12",
+      "tekst": "Europejska Wspólnota Polityczna w Irlandii (12.11), 13.11 nieformalne spotkanie przywódców UE",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [
+      {
+        "tytul": "Nowy rząd w Rumunii – koniec kryzysu, początek niepewności",
+        "autor": "K. Całus",
+        "data": "2026-10-22",
+        "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-22/nowy-rzad-w-rumunii-koniec-kryzysu-poczatek-niepewnosci"
+      },
+      {
+        "tytul": "Albania – eskalacja protestów",
+        "autor": "M. Kucharski",
+        "data": "2026-10-22",
+        "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-22/albania-eskalacja-protestow"
+      },
+      {
+        "tytul": "Niemcy – zamrożenie ceny CO2 w krajowym ETS2 na 2027 rok",
+        "autor": "M. Kędzierski",
+        "data": "2026-10-22",
+        "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-22/niemcy-zamrozenie-ceny-co2-w-krajowym-ets2-na-2027-rok"
+      },
+      {
+        "tytul": "Rosyjski dialog z USA – bez przełomu i ustępstw",
+        "autor": "W. Rodkiewicz",
+        "data": "2026-10-22",
+        "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-22/rosyjski-dialog-z-usa-bez-przelomu-i-ustepstw"
+      },
+      {
+        "tytul": "Zmiany w rosyjskim rządzie – dalsza mobilizacja zasobów na długą wojnę",
+        "autor": "M. Domańska, I. Wiśniewska",
+        "data": "2026-10-21",
+        "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-21/zmiany-w-rosyjskim-rzadzie-dalsza-mobilizacja-zasobow-na-dluga-wojne"
+      },
+      {
+        "tytul": "Vučić czy studenci? Serbia przed wyborami parlamentarnymi",
+        "autor": "J. Nowinowski",
+        "data": "2026-10-21",
+        "url": "https://osw.waw.pl/pl/publikacje/komentarze-osw/2026-10-21/vucic-czy-studenci-serbia-przed-wyborami-parlamentarnymi"
+      },
+      {
+        "tytul": "Nowa ustawa o Fundacji Ucieczka, Wypędzenie, Pojednanie – Niemcy na pierwszym miejscu",
+        "autor": "K. Frymark",
+        "data": "2026-10-20",
+        "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-20/nowa-ustawa-o-fundacji-ucieczka-wypedzenie-pojednanie-niemcy-na"
+      },
+      {
+        "tytul": "Derusyfikacja Mołdawii – przyspieszony odwrót od Rosji po 2022 roku",
+        "autor": "K. Całus",
+        "data": "2026-10-20",
+        "url": "https://osw.waw.pl/pl/publikacje/komentarze-osw/2026-10-20/derusyfikacja-moldawii-przyspieszony-odwrot-od-rosji-po-2022"
+      },
+      {
+        "tytul": "Państwo jako biznes rodzinny – warianty sukcesji na Białorusi",
+        "autor": "K. Kłysiński",
+        "data": "2026-10-20",
+        "url": "https://osw.waw.pl/pl/publikacje/komentarze-osw/2026-10-20/panstwo-jako-biznes-rodzinny-warianty-sukcesji-na-bialorusi"
+      },
+      {
+        "tytul": "Wybory samorządowe i senackie w Czechach – ostrzeżenie dla obozu władzy",
+        "autor": "K. Dębiec",
+        "data": "2026-10-20",
+        "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-20/wybory-samorzadowe-i-senackie-w-czechach-ostrzezenie-dla-obozu-wladzy"
+      }
+    ],
+    "pism": [],
+    "nieodczytane": [
+      "pism"
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "tekst": "UE: według Kyiv Independent (22.10) Europejska Służba Działań Zewnętrznych zaproponowała 117 nowych wpisów na listę sankcyjną (12 osób, 105 podmiotów, w tym 31 w sektorze naftowym i 52 banki; projekt przedstawiono ambasadorom UE 21.10), a Kaja Kallas przedstawia to jako odpowiedź na porozumienie Trumpa w sprawie diesla. Jedno źródło z poziomów 1–2; brak komunikatu Rady UE.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Kyiv Independent (artykuł, 22.10)",
+        "kanał Euronews (22.10): brak pozycji o sankcjach",
+        "wyszukiwarka: brak komunikatu Rady UE ani ESDZ o tych wpisach"
+      ]
+    },
+    {
+      "id": "n2",
+      "tekst": "Polska/UE: według kanału Polsat News (22.10, korespondent Andrzej Wyrwiński, anonimowe źródło) Komisja Europejska ma zaproponować Radzie UE wyłączenie Polski z obowiązkowego mechanizmu solidarności paktu migracyjnego do końca bieżącego roku; raport migracyjny KE zapowiedziano na 4.11. Brak komunikatu KE, rządu i drugiego źródła z poziomów 1–2.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Polsat News (artykuł, 22.10, poziom 3)",
+        "kanał Euronews (22.10): brak pozycji",
+        "wyszukiwarka PL: wyniki z poprzednich miesięcy, brak komunikatu KE ani Rady UE z 22.10"
+      ]
+    },
+    {
+      "id": "n3",
+      "tekst": "UE: według Euronews (22.10) Nagrodę Sacharowa 2026 przyznano Międzynarodowemu Trybunałowi Karnemu (decyzja przewodniczących grup w Parlamencie Europejskim); nominację zgłosiła grupa S&D, a wybór ma być odpowiedzią na sankcje USA nałożone na MTK 9.10. Jedno źródło z poziomów 1–2; brak komunikatu Parlamentu Europejskiego.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Euronews (artykuł, 22.10)",
+        "europarl.europa.eu/news/en/press-room (strona pusta w pobraniu)",
+        "wyszukiwarka EN/FR: brak komunikatu o laureacie"
+      ]
+    },
+    {
+      "id": "n4",
+      "tekst": "Polska/Ukraina: według Meduzy (22.10) Polska miała wstrzymać dużą dostawę uzbrojenia dla Ukrainy w reakcji na uchwałę lwowskich władz regionalnych ws. UPA (roku 2027 poświęconego Szuchewyczowi). Jedno źródło z poziomów 1–2 (artykuł nie został otwarty – przekroczono limit czasu); brak komunikatu MON, rządu ani drugiego źródła.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Meduza (tytuł w kanale 22.10; artykuł niepobrany – limit czasu)",
+        "kanał Polsat News (22.10): artykuły o UPA bez informacji o wstrzymaniu dostaw",
+        "wyszukiwarka PL i EN: brak komunikatu MON o wstrzymaniu dostaw"
+      ]
+    },
+    {
+      "id": "n5",
+      "tekst": "Polska: według Meduzy (22.10), powołującej się na RMF24 i na koordynatora służb specjalnych Tomasza Siemoniaka, zatrzymano drugiego podejrzanego o pomoc w zabójstwie rosyjskiego artysty Siemiona Skriepieckiego w Białej Podlaskiej (15.06): 22-letniego obywatela Gruzji Machmuda A. (zarzuty: pomocnictwo w zabójstwie i nielegalne posiadanie broni). Jedno źródło z poziomów 1–2; brak komunikatu prokuratury lub ABW i brak ustalenia, czy służby obce zleciły zabójstwo.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Meduza (artykuł, 22.10)",
+        "kanał Euronews (22.10): brak pozycji",
+        "wyszukiwarka: relacje z czerwca, brak komunikatu prokuratury o drugim zatrzymanym"
+      ]
+    },
+    {
+      "id": "n6",
+      "tekst": "Zatoka Perska: według Euronews (22.10) Teheran twierdzi, że w Cieśninie Ormuz zapaliło się lub uległo uszkodzeniu siedem tankowców (od irańskich uderzeń albo min), Departament Stanu nakazał pracownikom niepodstawowym i ich rodzinom opuszczenie Arabii Saudyjskiej z powodu ataków Huti, a Trump oświadczył, że decyzja o nowym ataku na Iran zapadnie po wyborach połówkowych. Jedno źródło z poziomów 1–2; doniesienia France 24 o planowanych amerykańsko-izraelskich uderzeniach nie wskazują źródeł.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Euronews (artykuł, 22.10)",
+        "France 24 (wideo, 22.10; bez wskazania źródeł doniesień)",
+        "wyszukiwarka: brak komunikatu Departamentu Stanu z 22.10"
+      ]
+    },
+    {
+      "id": "n7",
+      "tekst": "Włochy/Hiszpania: według Euronews (22.10) po rozmowie ministrów spraw wewnętrznych Matteo Piantedosiego i Fernanda Grande-Marlaski Włochy i Hiszpania zakończą wzajemne kontrole graniczne wprowadzone po lipcowym przekroczeniu granicy Ceuty przez ponad 70 tys. osób. Jedno źródło z poziomów 1–2; brak komunikatu Viminale ani hiszpańskiego MSW.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Euronews (artykuł, 22.10)",
+        "kanał France 24 (22.10): brak pozycji",
+        "wyszukiwarka IT: tylko relacje z sierpnia–września, brak komunikatu o zakończeniu kontroli"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-10-21#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "wyszukiwarka (22.10): CNN (15.10) o braku pocisków Patriot, bez wzmianki o spotkaniu z Lockheed Martin",
+        "wyszukiwarka: brak komunikatu Pentagonu",
+        "wyszukiwarka: brak komunikatu Lockheed Martin"
+      ],
+      "powod": "Pozostaje jedno źródło (Kyiv Independent); brak komunikatu strony amerykańskiej i decyzji sekretarza obrony."
+    },
+    {
+      "dotyczy": "2026-10-21#n2",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "wyszukiwarka (22.10): wyniki dotyczą katastrofy z sierpnia 2023",
+        "kanał Polsat News (22.10): brak nowych wpisów o Su-30",
+        "wyszukiwarka: brak komunikatu DO RSZ"
+      ],
+      "powod": "Brak drugiego źródła z poziomów 1–2; relacje wersji rosyjskiej bez niezależnego potwierdzenia."
+    },
+    {
+      "dotyczy": "2026-10-21#n3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "wyszukiwarka (22.10): wyniki z kwietnia i września, bez zatrzymania",
+        "kanał Euronews (22.10): brak pozycji",
+        "wyszukiwarka: brak komunikatu prokuratury ani policji"
+      ],
+      "powod": "Nie znaleziono drugiego źródła ani komunikatu węgierskiej prokuratury o zatrzymaniu."
+    },
+    {
+      "dotyczy": "2026-10-21#n4",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "wyszukiwarka (22.10): brak komunikatu o spotkaniu ministrów 29.10",
+        "wyszukiwarka: wcześniejsze posiedzenia ministrów energii (wrzesień 2026)",
+        "kanał Euronews (22.10): brak pozycji"
+      ],
+      "powod": "Brak drugiego źródła i komunikatu Rady UE o spotkaniu 29.10 (w kalendarium: szczyt UE–Kanada tego dnia)."
+    },
+    {
+      "dotyczy": "2026-10-21#n5",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "wyszukiwarka (22.10): uchwała dotyczy komisji kultury Lwowskiej Rady Obwodowej; nie potwierdzono jej przyjęcia",
+        "kanał Polsat News (21–22.10): stanowisko MSZ Ukrainy i apel wicepremiera ws. Polaków",
+        "wyszukiwarka: brak komunikatu Sybihy ani Tuska"
+      ],
+      "powod": "Źródła poziomu 3 i brak potwierdzenia przyjęcia uchwały; nowy wątek (domniemane wstrzymanie dostaw) w n4."
+    }
+  ],
+  "do_sprawdzenia": [
+    "Rada obrony we Francji (23.10), protesty 24.10 i związkowe 5.11 (nieudokumentowane), decyzja Moody's ws. Francji (23.10)",
+    "Rozmowy trójstronne USA–Rosja–Ukraina (połowa listopada, Abu Zabi?) – komunikaty Kremla i Białego Domu",
+    "Polska wstrzymała dostawy broni dla Ukrainy? – MON, Meduza; uchwała lwowska ws. UPA",
+    "Wyłączenie Polski z mechanizmu solidarności paktu migracyjnego – KE, Rada UE; raport KE 4.11",
+    "Sankcje UE: 117 wpisów (ESDZ) – Rada UE; nagroda Sacharowa dla MTK – Parlament Europejski",
+    "Iran: Ormuz, polecenie wyjazdu z Arabii Saudyjskiej, doniesienia o planowanych uderzeniach – Departament Stanu, CENTCOM, UKMTO",
+    "Zatrzymanie Ukraińca w Brandenburgii – Prokuratura Federalna; Skriepiecki – prokuratura i ABW",
+    "Wybory 25.10 (Brazylia, Bułgaria, Serbia), Izrael 27.10; PISM – publikacje z 19–22.10 (lista nie otworzyła się); PAP Kraj, DO RSZ, SG, ŻW – incydenty z 21–22.10; włoskie protesty przewoźników i kontrole Włochy–Hiszpania"
+  ],
+  "nota": "Wydanie z 22.10, przygotowane ok. 20:00 (Europe/Warsaw), mniejsze niż zwykle: cztery pozycje zamiast 8–14, bo większość tematów dnia miała tylko jedno otwarte źródło z poziomów 1–2 i trafiła do „W obserwacji” (n1–n7). Pozycje z1–z4 mają po 2–3 źródła poziomu 2 (Euronews, Kyiv Independent, Meduza, France 24); część artykułów France 24 była dla narzędzia zablokowana (403), a artykuł Meduzy o dostawach broni nie pobrał się (limit czasu). Dział Świat Onetu nie był otwierany (zablokowany); jedno zapytanie wyszukiwarką nie zwróciło nagłówków działu – brak tematów z Onetu. Kanał Polsat News Świat otwarto (najnowszy wpis 22.10, 17:19), TVN24 nie próbowano; z kanału do wydania trafiły z1, z2 i wpisy n2, n4, n6; pominięto m.in. Zacharową, wirusa Shamonda we Francji, Watykan, demonstracje w Niemczech. Przedruków Reutersa nie wykorzystano. OSW: lista otwarta, 10 tekstów z 20–22.10 (pierwsza strona; 2 omówione). PISM: pism.pl/publikacje, pism.pl/en/publications i wyszukiwarka nie zwróciły listy z datami – oznaczone jako nieodczytane. Nie przejrzano komunikatów DO RSZ, MON, SG, ŻW i PAP Kraj z 21–22.10 (wyszukiwarka ich nie zwróciła), więc brak pozycji o incydentach w Polsce nie oznacza ich braku. Rozstrzygnięcia z 21.10: wszystkie pięć wpisów NIE DO POTWIERDZENIA. Kontrola niezależna (agent) zakwestionowała nieudokumentowane zdania w z1, z3, z4 (usunięto lub dodano atrybucję) i wskazała tematy bez pozycji: uwolnienie Hubbarda i odroczenie sankcji przez Trumpa (opisane w wydaniu z 21.10, dziś tylko wzmianka w Euronews), nowy rząd Rumunii, zmiany w rosyjskim rządzie (wydanie z 21.10), protesty w Albanii (tylko w analizie OSW) – nie opisano ich w zarysie. Kontrola nie sprawdziła Al Jazeery, AP ani PAP."
+}

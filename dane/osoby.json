@@ -5,12 +5,12 @@
       "id": "donald-trump",
       "imie": "Donald Trump",
       "funkcja": "Prezydent Stanów Zjednoczonych.",
-      "zweryfikowano": "2026-10-17",
+      "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/17/trump-signs-executive-order-waiving-new-russia-sanctions-package",
-          "data": "2026-10-17"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/10/22/u-s-russia-and-ukraine-discuss-resuming-trilateral-peace-talks-in-november-as-missile-and-drone-strikes-continue",
+          "data": "2026-10-22"
         }
       ]
     },
@@ -18,12 +18,12 @@
       "id": "wolodymyr-zelenski",
       "imie": "Wołodymyr Zełenski",
       "funkcja": "Prezydent Ukrainy.",
-      "zweryfikowano": "2026-10-17",
+      "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/putin-feels-joy-zelensky-calls-trumps-waiving-of-key-russia-sanctions-wrong/",
-          "data": "2026-10-17"
+          "url": "https://kyivindependent.com/russian-ballistic-missiles-rock-kyiv-in-late-night-attack-injuring-6/",
+          "data": "2026-10-22"
         }
       ]
     },
@@ -31,12 +31,12 @@
       "id": "wladimir-putin",
       "imie": "Władimir Putin",
       "funkcja": "Prezydent Federacji Rosyjskiej.",
-      "zweryfikowano": "2026-10-01",
+      "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/09/28/putin-orders-fourth-expansion-of-russia-s-armed-forces-this-year",
-          "data": "2026-09-28"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-ballistic-missiles-rock-kyiv-in-late-night-attack-injuring-6/",
+          "data": "2026-10-22"
         }
       ]
     },
@@ -44,12 +44,12 @@
       "id": "emmanuel-macron",
       "imie": "Emmanuel Macron",
       "funkcja": "Prezydent Republiki Francuskiej.",
-      "zweryfikowano": "2026-10-01",
+      "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
-          "nazwa": "Pałac Elizejski (wywiad dla TF1 i France 2)",
-          "url": "https://www.elysee.fr/emmanuel-macron/2026/09/24/interview-du-president-de-la-republique-sur-tf1-et-france-2",
-          "data": "2026-09-24"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/22/macron-holds-emergency-security-meeting-as-france-braces-for-fresh-wave-of-protests",
+          "data": "2026-10-22"
         }
       ]
     },
@@ -318,12 +318,12 @@
       "id": "steve-witkoff",
       "imie": "Steve Witkoff",
       "funkcja": "Specjalny wysłannik prezydenta USA.",
-      "zweryfikowano": "2026-10-01",
+      "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/exclusive-ukraine-russia-are-done-with-steve-witkoff-trump-sees-no-problem/",
-          "data": "2026-09-18"
+          "url": "https://kyivindependent.com/russian-ballistic-missiles-rock-kyiv-in-late-night-attack-injuring-6/",
+          "data": "2026-10-22"
         }
       ]
     },
@@ -542,12 +542,12 @@
       "id": "jurij-uszakow",
       "imie": "Jurij Uszakow",
       "funkcja": "Doradca prezydenta Rosji ds. polityki zagranicznej.",
-      "zweryfikowano": "2026-10-02",
+      "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
-          "nazwa": "AFP (za Citizen Digital)",
-          "url": "https://citizen.digital/article/russia-says-putin-trump-had-frank-call-after-us-envoys-visit-n389806",
-          "data": "2026-09-09"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/10/22/u-s-russia-and-ukraine-discuss-resuming-trilateral-peace-talks-in-november-as-missile-and-drone-strikes-continue",
+          "data": "2026-10-22"
         }
       ]
     },
@@ -555,12 +555,12 @@
       "id": "dmitrij-pieskow",
       "imie": "Dmitrij Pieskow",
       "funkcja": "Rzecznik prasowy prezydenta Rosji (rzecznik Kremla).",
-      "zweryfikowano": "2026-10-02",
+      "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
-          "nazwa": "AP (za CP24)",
-          "url": "https://www.cp24.com/news/world/2026/09/30/russia-warns-nato-of-a-possible-nuclear-response-if-kaliningrad-is-cut-off/",
-          "data": "2026-09-30"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/10/22/u-s-russia-and-ukraine-discuss-resuming-trilateral-peace-talks-in-november-as-missile-and-drone-strikes-continue",
+          "data": "2026-10-22"
         }
       ]
     },
@@ -1098,6 +1098,19 @@
         "Kaunasa",
         "Kaunasem",
         "Kaunasowi"
+      ]
+    },
+    {
+      "id": "edi-rama",
+      "imie": "Edi Rama",
+      "funkcja": "Premier Albanii.",
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-22/albania-eskalacja-protestow",
+          "data": "2026-10-22"
+        }
       ]
     }
   ]

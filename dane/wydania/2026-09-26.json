@@ -4,7 +4,7 @@
   "godzina": "10:34",
   "typ": "dzienne",
   "w_skrocie": [
-    "Rzecznik Kremla Pieskow potwierdził rozmowę telefoniczną Putina z Trumpem z 8.09 o możliwym spotkaniu Rosja–USA–Ukraina; Zełenski twierdzi, że Trump przekazał mu „ostateczną decyzję” o licencjach na **Patriota** dla Ukrainy (relacja Zełenskiego).",
+    "Rzecznik Kremla {{o:dmitrij-pieskow|Pieskow}} potwierdził rozmowę telefoniczną {{o:wladimir-putin|Putina}} z {{o:donald-trump|Trumpem}} z 8.09 o możliwym spotkaniu Rosja–USA–Ukraina; Zełenski twierdzi, że Trump przekazał mu „ostateczną decyzję” o licencjach na **Patriota** dla Ukrainy (relacja Zełenskiego).",
     "Prokuratura bada jako sabotaż na rzecz obcego wywiadu pożar stacji **Starlink** w Woli Krobowskiej (noc 23–24.09); nikomu nie przedstawiono zarzutów.",
     "Iran złożył USA 7-dniowy plan otwarcia **{{p:ormuz|Cieśniny Ormuz}}**; Trump odrzucił go tego samego dnia."
   ],
@@ -78,7 +78,7 @@
         "iran",
         "usa"
       ],
-      "tekst": "Iran zaproponował USA plan: zniesienie blokady, sankcji na ropę i odmrożenie środków w 4–5 dni, otwarcie {{p:ormuz|Cieśniny Ormuz}} i rozmowy (m.in. nuklearne) od siódmego dnia. Trump odrzucił go 26.09 jako „nie do przyjęcia”. Szef MSZ Araghczi czeka na odpowiedź mediatorów.",
+      "tekst": "Iran zaproponował USA plan: zniesienie blokady, sankcji na ropę i odmrożenie środków w 4–5 dni, otwarcie {{p:ormuz|Cieśniny Ormuz}} i rozmowy (m.in. nuklearne) od siódmego dnia. Trump odrzucił go 26.09 jako „nie do przyjęcia”. Szef MSZ {{o:abbas-araghczi|Araghczi}} czeka na odpowiedź mediatorów.",
       "zrodla": [
         {
           "nazwa": "Al Jazeera",

@@ -4,11 +4,11 @@
  "godzina": "20:00",
  "typ": "dzienne",
  "w_skrocie": [
-  "Rano 18.10 ukraiński dron (według litewskiego krajowego centrum kryzysowego – wstępnie) spadł na północy **Litwy**, a według ministra obrony Robertasa Kaunasa wleciał z terytorium Polski; w nocy Litwa udaremniła też próbę podpalenia firmy ze sprzętem Starlink, którą premier Mindaugas Sinkevičius wiąże z Rosją.",
+  "Rano 18.10 ukraiński dron (według litewskiego krajowego centrum kryzysowego – wstępnie) spadł na północy **Litwy**, a według ministra obrony {{o:robertas-kaunas|Robertasa Kaunasa}} wleciał z terytorium Polski; w nocy Litwa udaremniła też próbę podpalenia firmy ze sprzętem Starlink, którą premier {{o:mindaugas-sinkevicius|Mindaugas Sinkevičius}} wiąże z Rosją.",
   "Ukraina przeprowadziła w nocy na 18.10 masowy atak dronów na **Petersburg i obwód leningradzki** – według gubernatora Biegłowa pożary wybuchły w terminalu naftowym i na magazynach, a firmy VK i Ozon potwierdziły trafienia swoich obiektów.",
-  "**Zełenski** powiedział 18.10 w NBC, że USA wznowiły przekazywanie danych o startach rosyjskich rakiet balistycznych po trzech dniach przerwy; limit prędkości Starshield nadal obowiązuje.",
+  "**Zełenski** powiedział 18.10 w NBC, że USA wznowiły przekazywanie danych o startach rosyjskich rakiet balistycznych po trzech dniach przerwy; limit prędkości {{p:starshield|Starshield}} nadal obowiązuje.",
   "We **Francji** protesty przeciw kosztom życia z 17.10 (550–800 tys. uczestników) przerodziły się w zamieszki: według rządu zatrzymano ok. 1200 osób, a spłonął ratusz w Limoges.",
-  "W obserwacji pozostają m.in. wypowiedzi sekretarza stanu Marco Rubio o „60-dniowej pauzie” w sankcjach na Rosję i o Starlinku oraz pożar w kanadyjskiej bazie Wainwright z ofiarami śmiertelnymi."
+  "W obserwacji pozostają m.in. wypowiedzi sekretarza stanu {{o:marco-rubio|Marco Rubio}} o „60-dniowej pauzie” w sankcjach na Rosję i o Starlinku oraz pożar w kanadyjskiej bazie Wainwright z ofiarami śmiertelnymi."
  ],
  "korekty": [
   {
@@ -126,7 +126,7 @@
    ],
    "miejsce": "paryz",
    "krotko": "Zamieszki po protestach we Francji",
-   "tekst": "Podczas protestów przeciw kosztom życia 17.10 we Francji (550–800 tys. uczestników według AFP, cytowanej przez Euronews; MSW szacuje 550 tys., związek CGT 800 tys.) część demonstracji przerodziła się w **zamieszki i grabieże**: spłonął zabytkowy ratusz w Limoges, podpalono biuro turystyczne w Lyonie, wdarto się do ratuszy m.in. w Marsylii, Lille i Angers; według rządu zatrzymano ok. 1200 osób, a obrażenia odniosło ok. 150 policjantów i żandarmów. Minister spraw wewnętrznych Laurent Nuñez obwinił grupy „kilkuset, a nawet kilku tysięcy” osób, które według niego inspirowała skrajna lewica; prezydent Emmanuel Macron napisał, że nie ma miejsca na przemoc, i zapowiedział ściganie sprawców. Następstwo: polityczny spór o koszty życia i usługi publiczne przeniósł się na ulice; liczba zatrzymanych rosła w niedzielę i jest wstępna.",
+   "tekst": "Podczas protestów przeciw kosztom życia 17.10 we Francji (550–800 tys. uczestników według AFP, cytowanej przez Euronews; MSW szacuje 550 tys., związek CGT 800 tys.) część demonstracji przerodziła się w **zamieszki i grabieże**: spłonął zabytkowy ratusz w Limoges, podpalono biuro turystyczne w Lyonie, wdarto się do ratuszy m.in. w Marsylii, Lille i Angers; według rządu zatrzymano ok. 1200 osób, a obrażenia odniosło ok. 150 policjantów i żandarmów. Minister spraw wewnętrznych Laurent Nuñez obwinił grupy „kilkuset, a nawet kilku tysięcy” osób, które według niego inspirowała skrajna lewica; prezydent {{o:emmanuel-macron|Emmanuel Macron}} napisał, że nie ma miejsca na przemoc, i zapowiedział ściganie sprawców. Następstwo: polityczny spór o koszty życia i usługi publiczne przeniósł się na ulice; liczba zatrzymanych rosła w niedzielę i jest wstępna.",
    "zrodla": [
     {
      "nazwa": "Euronews",

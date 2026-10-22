@@ -1,5 +1,5 @@
 {
-  "_opis": "Karty osób. W tekście wydania: {{o:id}} (albo {{o:id|tekst}}). Funkcja to twierdzenie typu A: zawsze ze źródłem i datą weryfikacji; przy zmianie funkcji dopisz poprzednią do historia.",
+  "_opis": "Karty osób. W tekście wydania: {{o:id}} (albo {{o:id|tekst}}). Funkcja to twierdzenie typu A: zawsze ze źródłem i datą weryfikacji; przy zmianie funkcji dopisz poprzednią do historia. Opcjonalne pole formy: odmiany imienia i nazwiska, po których walidacja rozpoznaje osobę w tekście bez odnośnika (domyślnie pełne imię i nazwisko oraz nazwisko z końcówkami).",
   "osoby": [
     {
       "id": "donald-trump",
@@ -212,6 +212,12 @@
           "url": "https://commission.europa.eu/strategy-and-policy/state-union_en",
           "data": "2026-09-16"
         }
+      ],
+      "formy": [
+        "Ursula von der Leyen",
+        "Ursuli von der Leyen",
+        "Ursulą von der Leyen",
+        "von der Leyen"
       ]
     },
     {
@@ -613,6 +619,14 @@
           "url": "https://www.ansa.it/sito/notizie/mondo/2026/09/29/afd-vuole-riaprire-dossier-nord-stream-previsto-forum-con-usa_a09e35a1-572f-4de7-9a04-799037eeca9e.html",
           "data": "2026-09-29"
         }
+      ],
+      "formy": [
+        "Kirył Dmitrijew",
+        "Kirył Dmitriew",
+        "Dmitrijew",
+        "Dmitriew",
+        "Dmitrijewa",
+        "Dmitriewa"
       ]
     },
     {
@@ -771,6 +785,319 @@
           "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/04/germany-s-merz-arrives-in-kyiv-to-finalize-drone-deal-release-aid",
           "data": "2026-10-04"
         }
+      ]
+    },
+    {
+      "id": "marco-rubio",
+      "imie": "Marco Rubio",
+      "funkcja": "Sekretarz stanu USA.",
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/rubio-says-delays-in-us-air-defense-shipments-to-ukraine-not-deliberate/",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/20/trump-envoy-witkoff-to-meet-zelenskyy-in-oslo-before-planned-putin-talks-in-moscow",
+          "data": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "kaja-kallas",
+      "imie": "Kaja Kallas",
+      "funkcja": "Wysoka przedstawiciel UE do spraw zagranicznych i polityki bezpieczeństwa, wiceprzewodnicząca Komisji Europejskiej; wcześniej premier Estonii.",
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/08/17/eu-to-propose-tougher-sanctions-on-russia-this-autumn-kaja-kallas-says",
+          "data": "2026-08-17"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/eu-votes-through-largest-ever-russia-sanctions-list/",
+          "data": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "id": "andrij-sybiha",
+      "imie": "Andrij Sybiha",
+      "funkcja": "Minister spraw zagranicznych Ukrainy (ponownie powołany 19.08.2026).",
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Rząd Ukrainy (kmu.gov.ua)",
+          "url": "https://www.kmu.gov.ua/en/profile/andrii-sybiha",
+          "data": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "alexus-grynkewich",
+      "imie": "Alexus Grynkewich",
+      "funkcja": "Generał Sił Powietrznych USA, naczelny dowódca sił sojuszniczych NATO w Europie (SACEUR) i dowódca Europejskiego Dowództwa USA (EUCOM).",
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/12/nato-commander-unveils-strategy-to-make-any-attack-on-alliance-utterly-futile",
+          "data": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "id": "sebastien-lecornu",
+      "imie": "Sébastien Lecornu",
+      "funkcja": "Premier Francji.",
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/19/french-pm-lecornu-calls-for-regional-authorities-to-impose-partial-curfews",
+          "data": "2026-10-19"
+        },
+        {
+          "nazwa": "France 24 (za AFP)",
+          "url": "https://www.france24.com/en/live-news/20261021-five-things-to-know-as-french-bond-yield-tops-5",
+          "data": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "id": "gerald-darmanin",
+      "imie": "Gérald Darmanin",
+      "funkcja": "Minister sprawiedliwości Francji.",
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/20/france-vows-massive-security-operation-involving-military-forces-for-expected-weekend-prot",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/europe/20261020-live-curfews-come-into-effect-around-france-to-combat-looting",
+          "data": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "michail-miszustin",
+      "imie": "Michaił Miszustin",
+      "funkcja": "Premier Rosji.",
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/10/19/russian-government-reshuffle-sees-finance-minister-and-three-other-officials-tapped-for-deputy-prime-minister-posts",
+          "data": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": "andy-burnham",
+      "imie": "Andy Burnham",
+      "funkcja": "Premier Wielkiej Brytanii, lider Partii Pracy.",
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-arrives-in-uk-as-london-vows-to-speed-up-anti-drone-missile-deliveries/",
+          "data": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": "rumen-radew",
+      "imie": "Rumen Radew",
+      "funkcja": "Premier Bułgarii (od 8.05.2026); wcześniej prezydent Bułgarii.",
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Rząd Bułgarii (gov.bg)",
+          "url": "https://gov.bg/en/Cabinet/Prime-Minister/Rumen-Radev",
+          "data": "2026-10-22"
+        }
+      ],
+      "historia": [
+        "Prezydent Bułgarii (2017–2026)."
+      ],
+      "formy": [
+        "Rumen Radew",
+        "Rumen Radev",
+        "Radew",
+        "Radewa",
+        "Radev",
+        "Radeva"
+      ]
+    },
+    {
+      "id": "donald-tusk",
+      "imie": "Donald Tusk",
+      "funkcja": "Premier Polski.",
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/poland-to-demand-explanation-from-ukraine-over-drone-incident-in-lithuania/",
+          "data": "2026-10-20"
+        }
+      ],
+      "formy": [
+        "Donald Tusk",
+        "Donalda Tuska",
+        "Tusk",
+        "Tuska",
+        "Tuskiem",
+        "Tuskowi"
+      ]
+    },
+    {
+      "id": "marcin-kierwinski",
+      "imie": "Marcin Kierwiński",
+      "funkcja": "Minister spraw wewnętrznych i administracji RP.",
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Rzeczpospolita",
+          "url": "https://www.rp.pl/polityka/art45322951-atak-na-starlink-w-polsce-dwie-osoby-zatrzymane-w-tle-obcy-wywiad",
+          "data": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "id": "tomasz-siemoniak",
+      "imie": "Tomasz Siemoniak",
+      "funkcja": "Minister-koordynator służb specjalnych RP.",
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Rzeczpospolita",
+          "url": "https://www.rp.pl/polityka/art45322951-atak-na-starlink-w-polsce-dwie-osoby-zatrzymane-w-tle-obcy-wywiad",
+          "data": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "id": "leon-xiv",
+      "imie": "Leon XIV",
+      "funkcja": "Papież, zwierzchnik Kościoła katolickiego i głowa Państwa Watykańskiego.",
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Biuro Prasowe Stolicy Apostolskiej (Vatican News)",
+          "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-xiv-update.html",
+          "data": "2026-10-16"
+        }
+      ],
+      "formy": [
+        "Leon XIV",
+        "Leona XIV",
+        "Leonem XIV",
+        "Leonowi XIV"
+      ]
+    },
+    {
+      "id": "maros-sefcovic",
+      "imie": "Maroš Šefčovič",
+      "funkcja": "Komisarz UE ds. handlu.",
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-14/porozumienie-ke-i-chrl-ws-ograniczenia-importu-aut-hybrydowych-do-ue",
+          "data": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": "alexander-stubb",
+      "imie": "Alexander Stubb",
+      "funkcja": "Prezydent Finlandii.",
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-meets-trump-envoy-witkoff-in-norway-as-us-ukraine-ties-sour/",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/20/trump-envoy-witkoff-to-meet-zelenskyy-in-oslo-before-planned-putin-talks-in-moscow",
+          "data": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "jonas-gahr-store",
+      "imie": "Jonas Gahr Støre",
+      "funkcja": "Premier Norwegii.",
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-meets-trump-envoy-witkoff-in-norway-as-us-ukraine-ties-sour/",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/20/trump-envoy-witkoff-to-meet-zelenskyy-in-oslo-before-planned-putin-talks-in-moscow",
+          "data": "2026-10-20"
+        }
+      ],
+      "formy": [
+        "Jonas Gahr Støre",
+        "Jonasa Gahra Støre",
+        "Gahr Støre",
+        "Støre"
+      ]
+    },
+    {
+      "id": "giorgia-meloni",
+      "imie": "Giorgia Meloni",
+      "funkcja": "Premier Włoch.",
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/europe/20261020-italy-announces-new-security-measures-after-milan-riots-deploying-500-soldiers",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/21/italy-deploys-500-troops-to-milan-under-new-security-decree-following-violent-clashes",
+          "data": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "id": "robertas-kaunas",
+      "imie": "Robertas Kaunas",
+      "funkcja": "Minister obrony Litwy.",
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "LRT",
+          "url": "https://www.lrt.lt/en/news-in-english/19/3087132/lithuania-has-evidence-sunday-s-drone-crossed-from-poland-presidential-adviser-says",
+          "data": "2026-10-19"
+        },
+        {
+          "nazwa": "Rzeczpospolita",
+          "url": "https://www.rp.pl/konflikty-zbrojne/art45355981-dron-wojskowy-eksplodowal-na-litwie-wilno-mamy-dane-ze-przylecial-z-polski",
+          "data": "2026-10-18"
+        }
+      ],
+      "formy": [
+        "Robertas Kaunas",
+        "Robertasa Kaunasa",
+        "Robertasem Kaunasem",
+        "Kaunasa",
+        "Kaunasem",
+        "Kaunasowi"
       ]
     }
   ]

@@ -11,6 +11,7 @@ Drukuje: numer następnego wydania, „Do sprawdzenia” i wpisy z sekcji „W o
 wydania do rozstrzygnięcia, kalendarz poprzedniego wydania, terminy obowiązkowe w oknie 10 dni i te do rozliczenia,
 karty osób starsze niż 7 dni (z ostatnich 3 wydań), listę hashtagów i skrót rankingu źródeł.
 """
+import re
 import argparse
 import datetime as dt
 import sys
@@ -91,6 +92,21 @@ def main():
             uzyte |= {m.group(2) for m in B.ZNACZNIK_RE.finditer(z.get("tekst", "")) if m.group(1) == "o"}
     stare = [o for i, o in osoby.items() if i in uzyte and o["zweryfikowano"] < (dzis - dt.timedelta(days=7)).isoformat()]
     print("; ".join(f"{o['id']} ({o['zweryfikowano']})" for o in stare) or "brak")
+    print("\n## Kandydaci na nowe karty osób (ostatnie 3 wydania: funkcja + imię i nazwisko bez karty) – dopisz kartę albo pomiń świadomie")
+    funkcje = r"(?:prezydent|premier|minister|ministra|ministrem|szef|szefowa|szefa|sekretarz|rzecznik|rzeczniczka|gen\.|generał|komisarz|wysłannik|ambasador|gubernator|mer|doradca|przewodniczący|przewodnicząca|kanclerz|wicepremier|dyrektor)"
+    kand = {}
+    duza = r"[A-ZŁŚŻŹĆÉŠČ][\w’'-]+"
+    for w in dzienne[-3:]:
+        for _, t in B.teksty_wydania(w):
+            for m in re.finditer(r"\b" + funkcje + r"\b[^.;:,(){}]{0,40}?\b(" + duza + r"(?: " + duza + r"){1,3})(?=(.{0,6}))", t):
+                if m.group(2).lstrip().startswith("{{o:"):
+                    continue
+                n = " ".join(m.group(1).split()[-2:])
+                if not B.wzmianki_osob(m.group(1), osoby):
+                    kand.setdefault(n, (w["data"], m.group(0)[:90]))
+    print("\n".join(f"- {n} ({d}): …{c}" for n, (d, c) in sorted(kand.items())) or "brak")
+    print("\n## Hashtagi – stan wątku (straż build.py: każdy hashtag z zarysu wydania musi mieć stan_data = data wydania)")
+    print("; ".join(f"{i} ({t.get('stan_data') or 'brak stanu'})" for i, t in sorted(tagi.items()) if i != "inne"))
     print(f"\n## Hashtagi: {', '.join(sorted(tagi))}")
     print(f"## Osoby z kartą: {len(osoby)} (szczegóły: --osoby ID); pojęcia: {', '.join(sorted(pojecia))}")
     pozi = {}

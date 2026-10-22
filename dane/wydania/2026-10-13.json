@@ -4,9 +4,9 @@
   "godzina": "20:00",
   "typ": "dzienne",
   "w_skrocie": [
-    "UE otworzyła 13.10 w Luksemburgu dwa kolejne **klastry negocjacyjne** z Ukrainą (rynek wewnętrzny i konkurencyjność), po zniesieniu weta przez Węgry; otwartych jest już 4 z 6 klastrów, a spotkanie {{o:wolodymyr-zelenski|Wołodymyra Zełenskiego}} z {{o:peter-magyar|Péterem Magyarem}} w Brukseli jest dopiero przygotowywane.",
+    "UE otworzyła 13.10 w Luksemburgu dwa kolejne **{{p:klaster-negocjacyjny|klastry}} negocjacyjne** z Ukrainą (rynek wewnętrzny i konkurencyjność), po zniesieniu weta przez Węgry; otwartych jest już 4 z 6 klastrów, a spotkanie {{o:wolodymyr-zelenski|Wołodymyra Zełenskiego}} z {{o:peter-magyar|Péterem Magyarem}} w Brukseli jest dopiero przygotowywane.",
     "Rosja uderzyła w nocy z 12 na 13.10 pięcioma rakietami balistycznymi w Kijów bez wcześniejszego alarmu, a Zełenski oświadczył, że nie dostał ostrzeżenia od partnerów; {{o:donald-trump|Donald Trump}} zapewnił 13.10, że USA nadal dzielą się z Ukrainą danymi wywiadowczymi.",
-    "Premier Bułgarii Rumen Radew poinformował 13.10, że drony trafiły dwa statki handlowe na Morzu Czarnym; jeden zatonął, 11 marynarzy jest poszukiwanych, a sprawcy nie wskazano."
+    "Premier Bułgarii {{o:rumen-radew|Rumen Radew}} poinformował 13.10, że drony trafiły dwa statki handlowe na Morzu Czarnym; jeden zatonął, 11 marynarzy jest poszukiwanych, a sprawcy nie wskazano."
   ],
   "korekty": [],
   "zarys": [
@@ -22,7 +22,7 @@
       "miejsce": "luksemburg",
       "krotko": "UE otwiera klastry 2 i 3 z Ukrainą",
       "etap": "PRZYJĘTE",
-      "tekst": "UE otworzyła 13.10 w Luksemburgu na konferencji akcesyjnej dwa kolejne **klastry negocjacyjne** z Ukrainą – rynek wewnętrzny i konkurencyjność; według Euronews Rada UE zgodziła się na to po umowie z Węgrami o prawach mniejszości węgierskiej w Ukrainie (w tle ustawa Rady Najwyższej o szkołach mniejszości z 12.10), a węgierska minister spraw zagranicznych Anita Orbán spotkała się 12.10 w Luksemburgu z ukraińskim ministrem Andrijem Sybihą. Otwartych jest już 4 z 6 klastrów (według Kyiv Independent pozostałe dwa Komisja Europejska i prezydencja irlandzka chcą otworzyć do końca 2026; nazwy klastrów 2 i 3 podaje Kyiv Independent); według Euronews spotkanie Zełenskiego z premierem Węgier {{o:peter-magyar|Péterem Magyarem}} w Brukseli jest przygotowywane, ale bez potwierdzonej daty. Następstwo: rozmowy akcesyjne Ukrainy wchodzą w fazę przeglądu zgodności z prawem UE; zamknięcie każdego klastra wymaga jednomyślności.",
+      "tekst": "UE otworzyła 13.10 w Luksemburgu na konferencji akcesyjnej dwa kolejne **klastry negocjacyjne** z Ukrainą – rynek wewnętrzny i konkurencyjność; według Euronews Rada UE zgodziła się na to po umowie z Węgrami o prawach mniejszości węgierskiej w Ukrainie (w tle ustawa Rady Najwyższej o szkołach mniejszości z 12.10), a węgierska minister spraw zagranicznych Anita Orbán spotkała się 12.10 w Luksemburgu z ukraińskim ministrem Andrijem {{o:andrij-sybiha|Sybihą}}. Otwartych jest już 4 z 6 klastrów (według Kyiv Independent pozostałe dwa Komisja Europejska i prezydencja irlandzka chcą otworzyć do końca 2026; nazwy klastrów 2 i 3 podaje Kyiv Independent); według Euronews spotkanie Zełenskiego z premierem Węgier {{o:peter-magyar|Péterem Magyarem}} w Brukseli jest przygotowywane, ale bez potwierdzonej daty. Następstwo: rozmowy akcesyjne Ukrainy wchodzą w fazę przeglądu zgodności z prawem UE; zamknięcie każdego klastra wymaga jednomyślności.",
       "zrodla": [
         {
           "nazwa": "Euronews",
@@ -76,7 +76,7 @@
       "miejsce": "morze-czarne-bulgaria",
       "krotko": "Drony trafiają statki u wybrzeży Bułgarii",
       "etap": "W TOKU",
-      "tekst": "Premier Bułgarii Rumen Radew poinformował 13.10, że drony trafiły dwa statki handlowe u wybrzeża Bułgarii: „Chelsea 3” (bandera maltańska, ukraiński armator; wszystkich 15 członków załogi ewakuowano do Warny) i drugą jednostkę, która zatonęła – jej nazwa jest rozbieżna (według Euronews „HS Dignity”, według Kyiv Independent za bułgarskimi mediami „Azov Concord”). Według wstępnych danych uratowano 5 osób, a **11 marynarzy jest poszukiwanych**. Radew nazwał ataki „absolutnie niedopuszczalnymi”, powiadomił NATO i UE i zapowiedział wezwanie rosyjskiego ambasadora; przyznał, że brak rozstrzygających dowodów, kto zaatakował, ale „logika wskazuje”, że wynik jest korzystny dla Rosji. Przewodnicząca Komisji Europejskiej Ursula von der Leyen nazwała Morze Czarne „kolejnym frontem eskalacji rosyjskiej wojny”. Według Euronews to kolejny atak na statki u wybrzeży Bułgarii po wcześniejszym w październiku. Następstwo: Bułgaria zwróciła się o wsparcie NATO i UE; sprawców nie ustalono.",
+      "tekst": "Premier Bułgarii Rumen Radew poinformował 13.10, że drony trafiły dwa statki handlowe u wybrzeża Bułgarii: „Chelsea 3” (bandera maltańska, ukraiński armator; wszystkich 15 członków załogi ewakuowano do Warny) i drugą jednostkę, która zatonęła – jej nazwa jest rozbieżna (według Euronews „HS Dignity”, według Kyiv Independent za bułgarskimi mediami „Azov Concord”). Według wstępnych danych uratowano 5 osób, a **11 marynarzy jest poszukiwanych**. Radew nazwał ataki „absolutnie niedopuszczalnymi”, powiadomił NATO i UE i zapowiedział wezwanie rosyjskiego ambasadora; przyznał, że brak rozstrzygających dowodów, kto zaatakował, ale „logika wskazuje”, że wynik jest korzystny dla Rosji. Przewodnicząca Komisji Europejskiej {{o:ursula-von-der-leyen|Ursula von der Leyen}} nazwała Morze Czarne „kolejnym frontem eskalacji rosyjskiej wojny”. Według Euronews to kolejny atak na statki u wybrzeży Bułgarii po wcześniejszym w październiku. Następstwo: Bułgaria zwróciła się o wsparcie NATO i UE; sprawców nie ustalono.",
       "zrodla": [
         {
           "nazwa": "Euronews",
@@ -119,7 +119,7 @@
         "energia",
         "sankcje"
       ],
-      "tekst": "Autor opisuje licencję Departamentu Skarbu USA (OFAC) z 9.10 na transakcje z rosyjskim olejem napędowym, także importem do USA, po rozmowie Trump–Putin; Rosja częściowo zniosła lipcowy zakaz eksportu (300 tys. ton w październiku, 500 tys. w listopadzie), co przy globalnym niedoborze ponad 1 mln baryłek dziennie jest ilością niewielką. Ocenia, że Moskwa liczy, iż nacisk USA w sprawie ukraińskich uderzeń w rafinerie osłabi amerykańskie wsparcie wojskowe dla Ukrainy, a długa licencja może zwiększyć wpływy Rosji z eksportu.",
+      "tekst": "Autor opisuje licencję Departamentu Skarbu USA ({{p:ofac|OFAC}}) z 9.10 na transakcje z rosyjskim olejem napędowym, także importem do USA, po rozmowie Trump–{{o:wladimir-putin|Putin}}; Rosja częściowo zniosła lipcowy zakaz eksportu (300 tys. ton w październiku, 500 tys. w listopadzie), co przy globalnym niedoborze ponad 1 mln baryłek dziennie jest ilością niewielką. Ocenia, że Moskwa liczy, iż nacisk USA w sprawie ukraińskich uderzeń w rafinerie osłabi amerykańskie wsparcie wojskowe dla Ukrainy, a długa licencja może zwiększyć wpływy Rosji z eksportu.",
       "dla_polski": "Pośrednio: skutek dla cen paliw w Europie i dla spójności polityki sankcyjnej; OSW nie analizuje wprost Polski.",
       "zrodla": [
         {

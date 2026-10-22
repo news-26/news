@@ -4,9 +4,9 @@
   "godzina": "20:30",
   "typ": "dzienne",
   "w_skrocie": [
-    "Trump odrzucił 26.09 irański plan otwarcia **{{p:ormuz|Cieśniny Ormuz}}**; Iran czeka na odpowiedź przez mediatorów, a prezydent Pezeszkian mówi, że nie ufa rozmowom z Waszyngtonem.",
+    "{{o:donald-trump|Trump}} odrzucił 26.09 irański plan otwarcia **{{p:ormuz|Cieśniny Ormuz}}**; Iran czeka na odpowiedź przez mediatorów, a prezydent Pezeszkian mówi, że nie ufa rozmowom z Waszyngtonem.",
     "Prezydent Serbii **Vučić zrezygnował** 27.09, by startować na premiera w wyborach 25.10; obowiązki przejęła {{o:ana-brnabic|Ana Brnabić}}.",
-    "Premier Słowacji **Fico** zapowiedział gotowość do wyborów w styczniu, jeśli Danko i Taraba nie dadzą gwarancji większości.",
+    "Premier Słowacji **Fico** zapowiedział gotowość do wyborów w styczniu, jeśli Danko i {{o:tomas-taraba|Taraba}} nie dadzą gwarancji większości.",
     "Pięciu mężczyzn zatrzymano 27.09 przy bazie **RAF Fairford** (materiały wybuchowe, terroryzm)."
   ],
   "korekty": [],
@@ -131,7 +131,7 @@
         "dyplomacja-rp",
         "usa"
       ],
-      "tekst": "Szef Biura Polityki Międzynarodowej Prezydenta {{o:marcin-przydacz|Marcin Przydacz}} (Polsat News, 25.09): Pałacowi nie podoba się zaproszenie Putina na szczyt G20 w Miami, ale prezydent {{o:karol-nawrocki|Karol Nawrocki}} pojedzie, bo zaprosili go gospodarze; udział Putina jest niepewny. Przydacz mówił też o politycznej zgodzie Białego Domu na stałą bazę USA w Polsce (jego relacja, bez potwierdzenia w tym źródle).",
+      "tekst": "Szef Biura Polityki Międzynarodowej Prezydenta {{o:marcin-przydacz|Marcin Przydacz}} (Polsat News, 25.09): Pałacowi nie podoba się zaproszenie {{o:wladimir-putin|Putina}} na szczyt G20 w Miami, ale prezydent {{o:karol-nawrocki|Karol Nawrocki}} pojedzie, bo zaprosili go gospodarze; udział Putina jest niepewny. Przydacz mówił też o politycznej zgodzie Białego Domu na stałą bazę USA w Polsce (jego relacja, bez potwierdzenia w tym źródle).",
       "zrodla": [
         {
           "nazwa": "Polsat News",

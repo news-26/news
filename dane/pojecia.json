@@ -258,6 +258,66 @@
       "nazwa": "dron przechwytujący",
       "pelna": "dron przechwytujący (interceptor)",
       "definicja": "Bezzałogowy statek powietrzny przeznaczony do niszczenia w locie innych dronów lub pocisków – tańsza alternatywa dla rakiet przeciwlotniczych w obronie przed masowymi atakami dronów."
+    },
+    {
+      "id": "starshield",
+      "nazwa": "Starshield",
+      "pelna": "Starshield (SpaceX)",
+      "definicja": "Wojskowa wersja usług satelitarnych Starlink, dostarczana przez SpaceX rządowi USA; korzysta z niej m.in. ukraińskie wojsko, a dostęp i ograniczenia ustala strona amerykańska."
+    },
+    {
+      "id": "fii",
+      "nazwa": "FII",
+      "pelna": "Future Investment Initiative",
+      "definicja": "Coroczna konferencja inwestorska w Rijadzie organizowana przez saudyjski fundusz państwowy PIF, nazywana „Davos na pustyni”."
+    },
+    {
+      "id": "klaster-negocjacyjny",
+      "nazwa": "klaster",
+      "pelna": "klaster negocjacyjny UE",
+      "definicja": "Grupa rozdziałów negocjacji akcesyjnych z UE (łącznie sześć klastrów, 33 rozdziały w metodologii z 2020 r.). Otwarcie klastra wymaga jednomyślnej zgody państw członkowskich."
+    },
+    {
+      "id": "c5-plus-1",
+      "nazwa": "C5+1",
+      "pelna": "format C5+1",
+      "definicja": "Format współpracy USA z pięcioma państwami Azji Środkowej: Kazachstanem, Kirgistanem, Tadżykistanem, Turkmenistanem i Uzbekistanem."
+    },
+    {
+      "id": "africa-cdc",
+      "nazwa": "Africa CDC",
+      "pelna": "Afrykańskie Centra Kontroli i Zapobiegania Chorobom",
+      "definicja": "Agenda zdrowia publicznego Unii Afrykańskiej z siedzibą w Addis Abebie; koordynuje reakcję państw afrykańskich na epidemie."
+    },
+    {
+      "id": "ecdc",
+      "nazwa": "ECDC",
+      "pelna": "Europejskie Centrum ds. Zapobiegania i Kontroli Chorób",
+      "definicja": "Agencja UE w Sztokholmie, która ocenia ryzyko chorób zakaźnych dla Europy i doradza państwom członkowskim."
+    },
+    {
+      "id": "saceur",
+      "nazwa": "SACEUR",
+      "pelna": "Naczelny Dowódca Sił Sojuszniczych NATO w Europie",
+      "definicja": "Najwyższy dowódca wojskowy NATO, kierujący operacjami Sojuszu z dowództwa SHAPE w Mons (Belgia); tradycyjnie generał amerykański, jednocześnie dowódca EUCOM."
+    },
+    {
+      "id": "huti",
+      "nazwa": "Huti",
+      "pelna": "ruch Ansar Allah (Huti)",
+      "definicja": "Zbrojny ruch szyicki kontrolujący północ Jemenu ze stolicą Sanaą, wspierany przez Iran; atakuje Arabię Saudyjską, Izrael i żeglugę na Morzu Czerwonym."
+    },
+    {
+      "id": "nabu",
+      "nazwa": "NABU",
+      "pelna": "Narodowe Biuro Antykorupcyjne Ukrainy",
+      "definicja": "Niezależny organ śledczy zajmujący się korupcją wysokich urzędników; jego niezależność jest jednym z warunków UE wobec Ukrainy."
+    },
+    {
+      "id": "ofac",
+      "nazwa": "OFAC",
+      "pelna": "Biuro Kontroli Aktywów Zagranicznych",
+      "definicja": "Urząd w Departamencie Skarbu USA, który administruje sankcjami gospodarczymi i wydaje licencje na transakcje z podmiotami objętymi sankcjami."
     }
   ]
 }

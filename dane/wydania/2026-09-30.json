@@ -51,7 +51,7 @@
       ],
       "miejsce": "krolewiec",
       "krotko": "Rosja grozi bronią jądrową w sprawie Królewca",
-      "tekst": "Rosja przekazała NATO pisemne ostrzeżenie: jeśli Sojusz spróbuje odizolować **obwód królewiecki**, Moskwa użyje „całego arsenału, w tym broni jądrowej”, i zastrzega możliwość uderzeń na „ośrodki decyzyjne” państw członkowskich. Dmitrij Pieskow, rzecznik Kremla, potwierdził: dyplomaci „przypominają gorącym głowom w Europie” o rosyjskich dokumentach doktrynalnych. Rzeczniczka NATO Allison Hart potwierdziła otrzymanie wiadomości i odpowiedź Sojuszu: „stanowczo potępiamy groźbę użycia siły, w tym nieodpowiedzialną retorykę jądrową”. Podobne ostrzeżenie wydała ambasada Rosji w Irlandii.",
+      "tekst": "Rosja przekazała NATO pisemne ostrzeżenie: jeśli Sojusz spróbuje odizolować **obwód królewiecki**, Moskwa użyje „całego arsenału, w tym broni jądrowej”, i zastrzega możliwość uderzeń na „ośrodki decyzyjne” państw członkowskich. {{o:dmitrij-pieskow|Dmitrij Pieskow}}, rzecznik Kremla, potwierdził: dyplomaci „przypominają gorącym głowom w Europie” o rosyjskich dokumentach doktrynalnych. Rzeczniczka NATO {{o:allison-hart|Allison Hart}} potwierdziła otrzymanie wiadomości i odpowiedź Sojuszu: „stanowczo potępiamy groźbę użycia siły, w tym nieodpowiedzialną retorykę jądrową”. Podobne ostrzeżenie wydała ambasada Rosji w Irlandii.",
       "zrodla": [
         {
           "nazwa": "Reuters za Moscow Times",
@@ -78,7 +78,7 @@
         "iran",
         "usa"
       ],
-      "tekst": "Iran: USA przekazały przez mediatorów z Kataru oficjalną **odpowiedź na irański plan 7-dniowy**; Araghczi przedstawił ją prezydentowi Masudowi Pezeszkianowi na posiedzeniu rządu (AP). Według Reutersa strony zgadzają się co do kroków, ale nie co do kolejności, a Iran żąda powrotu do czerwcowego memorandum; Axios ocenia, że mediacja dała „niewiele”.",
+      "tekst": "Iran: USA przekazały przez mediatorów z Kataru oficjalną **odpowiedź na irański plan 7-dniowy**; {{o:abbas-araghczi|Araghczi}} przedstawił ją prezydentowi Masudowi {{o:masud-pezeszkian|Pezeszkianowi}} na posiedzeniu rządu (AP). Według Reutersa strony zgadzają się co do kroków, ale nie co do kolejności, a Iran żąda powrotu do czerwcowego memorandum; Axios ocenia, że mediacja dała „niewiele”.",
       "zrodla": [
         {
           "nazwa": "Axios",
@@ -106,7 +106,7 @@
       ],
       "miejsce": "warszawa",
       "krotko": "Od 1.10 identyfikacja pozytywna w OPL",
-      "tekst": "Wicepremier, minister obrony narodowej {{o:wladyslaw-kosiniak-kamysz|Władysław Kosiniak-Kamysz}}: procedury są gotowe, od 1.10 piloci i {{p:opl|obrona powietrzna}} stosują **identyfikację pozytywną** (radary, systemy elektroniczne, informacje m.in. z Ukrainy) zamiast identyfikacji wizualnej. Zmiana rozkazami wojskowymi, bez nowelizacji ustawy. Zamyka to zapowiedź wiceministra Cezarego Tomczyka z 24 i 28.09.",
+      "tekst": "Wicepremier, minister obrony narodowej {{o:wladyslaw-kosiniak-kamysz|Władysław Kosiniak-Kamysz}}: procedury są gotowe, od 1.10 piloci i {{p:opl|obrona powietrzna}} stosują **identyfikację pozytywną** (radary, systemy elektroniczne, informacje m.in. z Ukrainy) zamiast identyfikacji wizualnej. Zmiana rozkazami wojskowymi, bez nowelizacji ustawy. Zamyka to zapowiedź wiceministra Cezarego {{o:cezary-tomczyk|Tomczyka}} z 24 i 28.09.",
       "zrodla": [
         {
           "nazwa": "Dziennik.pl / Gazeta Prawna",
@@ -129,7 +129,7 @@
       ],
       "miejsce": "bukareszt",
       "krotko": "Parlament Rumunii odrzuca rząd Mureșana",
-      "tekst": "Rumunia: parlament **nie udzielił {{p:wotum-nieufnosci|wotum zaufania}} rządowi {{o:siegfried-muresan|Siegfrieda Mureșana}}** – 182 głosy za przy wymaganych 233 (15 przeciw); AUR zbojkotowała głosowanie, posłowie PSD byli obecni, ale nie głosowali. To trzecia nieudana próba od upadku rządu Ilie Bolojana w maju; według Agerpres art. 89 konstytucji pozwala teraz prezydentowi rozwiązać parlament. USR (Dominic Fritz) żąda przedterminowych wyborów, PSD (Sorin Grindeanu) domaga się rządu „z pełnią władzy” i stanowiska premiera dla siebie; prezydent Nicușor Dan ostrzegał, że przedterminowe wybory nie rozwiążą kryzysu.",
+      "tekst": "Rumunia: parlament **nie udzielił {{p:wotum-nieufnosci|wotum zaufania}} rządowi {{o:siegfried-muresan|Siegfrieda Mureșana}}** – 182 głosy za przy wymaganych 233 (15 przeciw); AUR zbojkotowała głosowanie, posłowie PSD byli obecni, ale nie głosowali. To trzecia nieudana próba od upadku rządu Ilie Bolojana w maju; według Agerpres art. 89 konstytucji pozwala teraz prezydentowi rozwiązać parlament. USR (Dominic Fritz) żąda przedterminowych wyborów, PSD (Sorin Grindeanu) domaga się rządu „z pełnią władzy” i stanowiska premiera dla siebie; prezydent {{o:nicusor-dan|Nicușor Dan}} ostrzegał, że przedterminowe wybory nie rozwiążą kryzysu.",
       "zrodla": [
         {
           "nazwa": "Agerpres (agencja państwowa)",

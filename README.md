@@ -37,7 +37,7 @@ git add -A && git commit -m "Wydanie nr N, RRRR-MM-DD" && git push
 
 Do zarysu wchodzą **wyłącznie informacje potwierdzone** (komunikat instytucji, dane urzędowe albo dwa niezależne serwisy). Niepotwierdzone i sporne idą do `czego_nie_ma` z progiem `dokumentacja`; pola `status` nie ma (walidacja je odrzuca). Pozycje oznaczone tak przed 01.10.2026 oraz oparte na samych tytułach przeszły rewizję: `dane/rewizje.json` (`wynik`: POTWIERDZONE PO REWIZJI z wersją pierwotną i potwierdzoną albo WYCOFANE z powodem), widoczną w rejestrze korekt i w wydaniach.
 
-Walidacja odrzuca wydanie, jeśli którakolwiek pozycja nie ma źródła z linkiem i datą, ma źródło opisane jako sam tytuł, ma hashtag spoza słownika, osobę bez karty albo analizę bez autora.
+Walidacja odrzuca wydanie, jeśli którakolwiek pozycja nie ma źródła z linkiem i datą, ma źródło opisane jako sam tytuł, ma hashtag spoza słownika, osobę bez karty albo analizę bez autora. Od 22.10.2026 odrzuca też wydanie, w którym osoba mająca kartę występuje bez odnośnika `{{o:…}}` albo hashtag z zarysu nie ma stanu wątku na dzień wydania (`stan_data` w `dane/tagi.json`). Pole `formy` w karcie osoby podaje odmiany nazwiska, po których walidacja ją rozpoznaje.
 
 ## Format wydania (dane/wydania/RRRR-MM-DD.json)
 

@@ -25,28 +25,61 @@
       "id": "front",
       "nazwa": "Front",
       "grupa": "temat",
-      "opis": "Działania na linii frontu w Ukrainie; oceny ISW zawsze jako ocena think tanku."
+      "opis": "Działania na linii frontu w Ukrainie; oceny ISW zawsze jako ocena think tanku.",
+      "stan": "19–20.10 rosyjskie uderzenia na Kijów i obwód kijowski: w Obuchowie 3 zabitych, w obwodzie chmielnickim 2; drony uszkodziły w Kijowie szpital. Noc na 19.10: 269 dronów Shahed i pociski balistyczne, ok. 550 tys. rodzin bez prądu.",
+      "stan_data": "2026-10-20",
+      "stan_zrodla": [
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/10/20/three-people-killed-in-russian-attack-on-kyiv-region-as-rescuers-search-debris-at-industrial-building",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-drones-strike-kyiv-hospital-injure-5-across-the-city/",
+          "data": "2026-10-20"
+        }
+      ]
     },
     {
       "id": "rozejm",
       "nazwa": "Rozejm",
       "grupa": "temat",
       "opis": "Rozmowy i propozycje zawieszenia broni w wojnie Rosji z Ukrainą.",
-      "stan": "9–10.10 w Miami rozmowy USA z delegacją Ukrainy i doradcami E3, Komisją Europejską i NATO; Rosja nie uczestniczy, Kreml odrzuca spotkanie trójstronne przywódców.",
+      "stan": "21.10 Putin przyjął Witkoffa w Petersburgu i uwolnił Amerykanina Stephena Hubbarda; Kreml deklaruje gotowość do rozmów trójstronnych z USA i Ukrainą, a Zełenski nazwał zamrożenie frontu na obecnej linii „realnym sposobem” zakończenia wojny.",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/09/ukrainian-and-european-officials-fly-to-miami-for-us-led-peace-talks",
-          "data": "2026-10-09"
+          "nazwa": "Euronews (za AP)",
+          "url": "https://www.euronews.com/2026/10/21/russia-frees-detained-american-stephen-hubbard-during-us-envoys-visit",
+          "data": "2026-10-21"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russia-releases-us-prisoner-stephen-hubbard-during-witkoff-visit/",
+          "data": "2026-10-21"
         }
       ],
-      "stan_data": "2026-10-09"
+      "stan_data": "2026-10-21"
     },
     {
       "id": "rosja",
       "nazwa": "Rosja",
       "grupa": "miejsce",
-      "opis": "Polityka wewnętrzna, armia i budżet Rosji."
+      "opis": "Polityka wewnętrzna, armia i budżet Rosji.",
+      "stan": "21.10 Putin spotkał się w Petersburgu z wysłannikiem USA Witkoffem i uwolnił Amerykanina Stephena Hubbarda; Kreml mówi o gotowości do rozmów trójstronnych z USA i Ukrainą.",
+      "stan_data": "2026-10-21",
+      "stan_zrodla": [
+        {
+          "nazwa": "Euronews (za AP)",
+          "url": "https://www.euronews.com/2026/10/21/russia-frees-detained-american-stephen-hubbard-during-us-envoys-visit",
+          "data": "2026-10-21"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russia-releases-us-prisoner-stephen-hubbard-during-witkoff-visit/",
+          "data": "2026-10-21"
+        }
+      ]
     },
     {
       "id": "krolewiec",
@@ -84,112 +117,155 @@
       "nazwa": "Wojna hybrydowa",
       "grupa": "temat",
       "opis": "Działania hybrydowe: drony, sabotaż, dezinformacja, cyberataki, presja migracyjna.",
-      "stan": "Rosyjskie pociski i drony coraz częściej naruszają przestrzeń sąsiadów Ukrainy: 3.10 pięć eksplodowało na terytorium Mołdawii.",
+      "stan": "18.10 udaremniono podpalenie sprzętu Starlink na Litwie (premier Sinkevičius wskazuje Rosję); 20.10 premier Albanii Rama przypisał protesty w Tiranie „wojnie hybrydowej” obcych podmiotów, bez przedstawienia dowodów.",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/5-russian-missiles-and-drones-exploded-over-moldovas-airspace-sandu-says/",
-          "data": "2026-10-03"
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/live-news/20261020-albania-pm-blames-hybrid-war-for-week-of-unrest",
+          "data": "2026-10-20"
         },
         {
-          "nazwa": "AP (za ABC News)",
-          "url": "https://abcnews.com/International/wireStory/russia-strikes-kyivs-northern-bridge-new-tactic-disrupt-136969028",
-          "data": "2026-10-03"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/20/albanias-pm-edi-rama-blames-hybrid-war-for-fuelling-unrest-across-the-country",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "LRT",
+          "url": "https://www.lrt.lt/en/news-in-english/19/3086054/attempted-arson-at-lithuanian-firm-storing-starlink-equipment-pm-blames-russia",
+          "data": "2026-10-18"
         }
       ],
-      "stan_data": "2026-10-03"
+      "stan_data": "2026-10-21"
     },
     {
       "id": "uzbrojenie",
       "nazwa": "Uzbrojenie",
       "grupa": "temat",
       "opis": "Systemy uzbrojenia, zakupy, produkcja i dostawy: nazwy, liczby, jednostki.",
-      "stan": "Niemcy i Ukraina finalizują porozumienie o wspólnej produkcji dronów przechwytujących i broni dalekiego zasięgu (4.10).",
+      "stan": "20.10 Rubio przyznał, że dostawy pocisków przechwytujących dla Ukrainy mogły się opóźnić, ale zaprzeczył celowej decyzji; Zełenski zarzuca USA opóźnianie Patriotów opłaconych przez europejskich sojuszników.",
       "stan_zrodla": [
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/germany-announces-1-46-billion-in-aid-for-ukraine-including-interceptor-drones/",
-          "data": "2026-10-04"
+          "url": "https://kyivindependent.com/rubio-says-delays-in-us-air-defense-shipments-to-ukraine-not-deliberate/",
+          "data": "2026-10-20"
         },
         {
-          "nazwa": "Reuters (za Internazionale)",
-          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/04/germany-s-merz-arrives-in-kyiv-to-finalize-drone-deal-release-aid",
-          "data": "2026-10-04"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/20/trump-envoy-witkoff-to-meet-zelenskyy-in-oslo-before-planned-putin-talks-in-moscow",
+          "data": "2026-10-20"
         }
       ],
-      "stan_data": "2026-10-04"
+      "stan_data": "2026-10-20"
     },
     {
       "id": "obronnosc-polski",
       "nazwa": "ObronnośćPolski",
       "grupa": "temat",
       "opis": "Siły zbrojne RP, procedury obrony powietrznej, budżet obronny.",
-      "stan": "Od 1.10 obowiązują nowe procedury obrony powietrznej; od października szwedzkie Gripeny wspierają obronę powietrzną nad Polską.",
+      "stan": "Litwa twierdzi, że ukraiński dron, który 18.10 wybuchł w Juodžionys, wleciał z Polski; MON i DO RSZ nie potwierdzają przelotu, a Tusk 20.10 zapowiedział współpracę z Litwą i zażądał wyjaśnień od Ukrainy.",
       "stan_zrodla": [
         {
-          "nazwa": "Rząd Szwecji",
-          "url": "https://www.regeringen.se/pressmeddelanden/2026/09/sverige-bidrar-med-stridsflyg-till-natoinsats-i-polen/",
-          "data": "2026-09-30"
+          "nazwa": "PAP (za RMF24)",
+          "url": "https://www.rmf24.pl/fakty/polska/news-dron-eksplodowal-na-litwie-mial-przyleciec-z-polski-tusk-nie,nIdn,1022662",
+          "data": "2026-10-20"
         },
         {
-          "nazwa": "SVT",
-          "url": "https://www.svt.se/nyheter/utrikes/sverige-skickar-gripen-till-polen-igen",
-          "data": "2026-09-30"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/poland-to-demand-explanation-from-ukraine-over-drone-incident-in-lithuania/",
+          "data": "2026-10-20"
         }
       ],
-      "stan_data": "2026-10-01"
+      "stan_data": "2026-10-20"
     },
     {
       "id": "dyplomacja-rp",
       "nazwa": "DyplomacjaRP",
       "grupa": "temat",
-      "opis": "Polityka zagraniczna Polski, wizyty, spory kompetencyjne."
+      "opis": "Polityka zagraniczna Polski, wizyty, spory kompetencyjne.",
+      "stan": "20.10 Tusk zapowiedział wyjaśnienie z Litwą incydentu z dronem i zażądał wyjaśnień od Ukrainy. Po ataku osadników na konwój dyplomatów (17.10, Zachodni Brzeg) MSZ podało, że Polacy nie ucierpieli; izraelska policja zatrzymała 8 osób.",
+      "stan_data": "2026-10-20",
+      "stan_zrodla": [
+        {
+          "nazwa": "PAP (za RMF24)",
+          "url": "https://www.rmf24.pl/fakty/polska/news-dron-eksplodowal-na-litwie-mial-przyleciec-z-polski-tusk-nie,nIdn,1022662",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/poland-to-demand-explanation-from-ukraine-over-drone-incident-in-lithuania/",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "PAP",
+          "url": "https://www.pap.pl/en/news/israeli-settlers-attack-diplomats-including-poles-western-bank",
+          "data": "2026-10-18"
+        }
+      ]
     },
     {
       "id": "sankcje",
       "nazwa": "Sankcje",
       "grupa": "temat",
       "opis": "Sankcje UE, USA i innych państw oraz ich omijanie.",
-      "stan": "16.10 Trump podpisał rozporządzenie uchylające w dużej mierze nowy pakiet sankcji i ceł na Rosję z ustawy Grahama.",
+      "stan": "Trump 16.10 uchylił w dużej mierze nowy pakiet sankcji i ceł na Rosję, a 18.10 napisał, że nie chce „odpychać” Rosji od negocjacji; Zełenski ocenia, że zawieszenie sankcji wzmacnia Putina.",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/17/trump-signs-executive-order-waiving-new-russia-sanctions-package",
-          "data": "2026-10-17"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/10/19/trump-says-he-doesn-t-want-to-drive-russia-away-from-peace-talks-again-criticizes-zelensky-over-refinery-strikes",
+          "data": "2026-10-19"
         },
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/trump-waives-latest-russia-sanctions-amid-growing-ukraine-us-tensions/",
-          "data": "2026-10-17"
+          "nazwa": "CBS News",
+          "url": "https://www.cbsnews.com/news/ukraine-russia-drone-st-petersburg-oil-facilites/",
+          "data": "2026-10-18"
         }
       ],
-      "stan_data": "2026-10-17"
+      "stan_data": "2026-10-19"
     },
     {
       "id": "iran",
       "nazwa": "Iran",
       "grupa": "miejsce",
       "opis": "Iran, Cieśnina Ormuz, rozmowy z USA i mediatorami.",
-      "stan": "7.10 wiceprezydent USA Vance zażądał znaczącego ograniczenia wzbogacania uranu; prezydent Pezeszkian nazwał rozmowy daremnymi, armia Iranu grozi operacjami wyprzedzającymi.",
+      "stan": "IRGC twierdzi, że 19.10 dwa tankowce weszły na jego miny w Cieśninie Ormuz; brytyjskie UKMTO potwierdza jeden incydent bez szkód, a USA zaprzeczają zestrzeleniu drona MQ-9.",
       "stan_zrodla": [
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/07/iran-threatens-pre-emptive-strikes-as-us-questions-who-runs-tehran",
-          "data": "2026-10-07"
+          "url": "https://www.euronews.com/2026/10/20/irgc-mines-set-tankers-ablaze-as-tehran-threatens-expanded-attacks",
+          "data": "2026-10-20"
         },
         {
-          "nazwa": "France 24",
-          "url": "https://www.france24.com/en/middle-east/20261007-middle-east-live-houthis-target-airport-in-yemen-as-israel-marks-october-7-anniversary",
-          "data": "2026-10-07"
+          "nazwa": "France 24 (AFP)",
+          "url": "https://www.france24.com/en/live-news/20261020-tech-firms-bear-brunt-of-selling-as-asian-stocks-drop",
+          "data": "2026-10-20"
         }
       ],
-      "stan_data": "2026-10-07"
+      "stan_data": "2026-10-20"
     },
     {
       "id": "usa",
       "nazwa": "USA",
       "grupa": "miejsce",
-      "opis": "Polityka USA wobec Europy, Rosji, Ukrainy i Bliskiego Wschodu."
+      "opis": "Polityka USA wobec Europy, Rosji, Ukrainy i Bliskiego Wschodu.",
+      "stan": "21.10 wysłannik Witkoff rozmawiał z Putinem w Petersburgu, a Rosja uwolniła Amerykanina Stephena Hubbarda; Trump napisał, że USA nic nie dały w zamian. 20.10 Rubio zaprzeczył celowemu opóźnianiu dostaw obrony powietrznej dla Ukrainy.",
+      "stan_data": "2026-10-21",
+      "stan_zrodla": [
+        {
+          "nazwa": "Euronews (za AP)",
+          "url": "https://www.euronews.com/2026/10/21/russia-frees-detained-american-stephen-hubbard-during-us-envoys-visit",
+          "data": "2026-10-21"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russia-releases-us-prisoner-stephen-hubbard-during-witkoff-visit/",
+          "data": "2026-10-21"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/rubio-says-delays-in-us-air-defense-shipments-to-ukraine-not-deliberate/",
+          "data": "2026-10-20"
+        }
+      ]
     },
     {
       "id": "chiny",
@@ -220,27 +296,56 @@
       "id": "nato",
       "nazwa": "NATO",
       "grupa": "temat",
-      "opis": "Sojusz Północnoatlantycki: decyzje, szczyty, wschodnia flanka."
+      "opis": "Sojusz Północnoatlantycki: decyzje, szczyty, wschodnia flanka.",
+      "stan": "20.10 Rubio przyznał możliwe opóźnienia dostaw pocisków przechwytujących dla Ukrainy w ramach inicjatywy NATO, zaprzeczając celowej decyzji; trwa wyjaśnianie przelotu ukraińskiego drona nad Polską i Litwą (18.10).",
+      "stan_data": "2026-10-20",
+      "stan_zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/rubio-says-delays-in-us-air-defense-shipments-to-ukraine-not-deliberate/",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/20/trump-envoy-witkoff-to-meet-zelenskyy-in-oslo-before-planned-putin-talks-in-moscow",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "PAP (za RMF24)",
+          "url": "https://www.rmf24.pl/fakty/polska/news-dron-eksplodowal-na-litwie-mial-przyleciec-z-polski-tusk-nie,nIdn,1022662",
+          "data": "2026-10-20"
+        }
+      ]
     },
     {
       "id": "ue",
       "nazwa": "UE",
       "grupa": "temat",
       "opis": "Unia Europejska: Rada, Komisja, obronność, budżet WRF 2028–2034.",
-      "stan": "13.10 UE otworzyła klastry 2 i 3 negocjacji z Ukrainą (4 z 6); Rada Europejska 15–16.10.",
+      "stan": "Kryzys kosztów życia w UE: we Francji rentowność 10-letnich obligacji przekroczyła 21.10 5%, Włochy po zamieszkach w Mediolanie przyjęły 20.10 dekret bezpieczeństwa i wysyłają 500 żołnierzy. WRF 2028–34 bez porozumienia po Radzie Europejskiej 15–16.10.",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/13/eu-advances-ukraine-accession-as-hungary-lifts-veto-paving-way-for-zelenskyy-magyar-meetin",
-          "data": "2026-10-13"
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/europe/20261020-italy-announces-new-security-measures-after-milan-riots-deploying-500-soldiers",
+          "data": "2026-10-20"
         },
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/ukraine-advances-eu-membership-bid-with-4-of-6-integration-to-do-lists-unlocked/",
-          "data": "2026-10-13"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/21/italy-deploys-500-troops-to-milan-under-new-security-decree-following-violent-clashes",
+          "data": "2026-10-21"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/16/eu-summit-leaders-to-rally-behind-zelenskyy-amid-bitter-row-with-trump",
+          "data": "2026-10-16"
+        },
+        {
+          "nazwa": "France 24 (za AFP)",
+          "url": "https://www.france24.com/en/live-news/20261021-five-things-to-know-as-french-bond-yield-tops-5",
+          "data": "2026-10-21"
         }
       ],
-      "stan_data": "2026-10-13"
+      "stan_data": "2026-10-21"
     },
     {
       "id": "onz",
@@ -313,27 +418,46 @@
       "id": "wegry",
       "nazwa": "Węgry",
       "grupa": "miejsce",
-      "opis": "Polityka Węgier: rząd, rozliczenia, relacje z UE."
+      "opis": "Polityka Węgier: rząd, rozliczenia, relacje z UE.",
+      "stan": "16.10 Zełenski i premier Magyar odbyli w Brukseli pierwsze rozmowy dwustronne: uzgodnili wymianę wizyt i dalsze konsultacje ministerialne o mniejszościach.",
+      "stan_data": "2026-10-16",
+      "stan_zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-magyar-meet-at-eu-summit/",
+          "data": "2026-10-16"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/16/hungarys-magyar-meets-zelenskyy-in-bid-to-reset-strained-ties",
+          "data": "2026-10-16"
+        }
+      ]
     },
     {
       "id": "litwa",
       "nazwa": "Litwa",
       "grupa": "miejsce",
       "opis": "Polityka Litwy i bezpieczeństwo przesmyku suwalskiego.",
-      "stan": "6.10 Sejm w pierwszym głosowaniu (106 za, 18 przeciw) poparł usunięcie z art. 137 konstytucji zakazu broni masowego rażenia i obcych baz; drugie głosowanie 12.01.2027.",
+      "stan": "Wilno ma według doradcy prezydenta „wiarygodne dane”, że dron, który 18.10 wybuchł na północy Litwy, wleciał z Polski, i proponuje wspólne śledztwo; Polska nie potwierdza przelotu. 18.10 udaremniono podpalenie sprzętu Starlink.",
       "stan_zrodla": [
         {
-          "nazwa": "LRT",
-          "url": "https://www.lrt.lt/en/news-in-english/19/3074149/lithuanian-parliament-backs-removing-constitutional-ban-on-nuclear-weapons",
-          "data": "2026-10-06"
+          "nazwa": "PAP (za RMF24)",
+          "url": "https://www.rmf24.pl/fakty/polska/news-dron-eksplodowal-na-litwie-mial-przyleciec-z-polski-tusk-nie,nIdn,1022662",
+          "data": "2026-10-20"
         },
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/06/lithuania-takes-further-step-towards-lifting-nuclear-weapons-ban",
-          "data": "2026-10-06"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/poland-to-demand-explanation-from-ukraine-over-drone-incident-in-lithuania/",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "LRT",
+          "url": "https://www.lrt.lt/en/news-in-english/19/3086054/attempted-arson-at-lithuanian-firm-storing-starlink-equipment-pm-blames-russia",
+          "data": "2026-10-18"
         }
       ],
-      "stan_data": "2026-10-06"
+      "stan_data": "2026-10-20"
     },
     {
       "id": "lotwa",
@@ -455,20 +579,20 @@
       "nazwa": "Bałkany",
       "grupa": "miejsce",
       "opis": "Serbia, Bośnia i Hercegowina, Kosowo i inne państwa regionu.",
-      "stan": "Kosowo: 6/7.10 parlament wybrał prezydentkę Justinę Shiroka Pulę (81 głosów), unikając przedterminowych wyborów; wcześniej ograniczył kompetencje Izb Specjalnych w Hadze.",
+      "stan": "Albania: od ponad tygodnia protesty antyrządowe, według władz ok. 300 rannych; premier Rama przypisuje je „wojnie hybrydowej” obcych podmiotów, nie przedstawiając dowodów.",
       "stan_zrodla": [
         {
-          "nazwa": "Radio Wolna Europa",
-          "url": "https://www.rferl.org/a/kosovo-elects-president-opposition-deal-war-crimes/33871583.html",
-          "data": "2026-10-07"
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/live-news/20261020-albania-pm-blames-hybrid-war-for-week-of-unrest",
+          "data": "2026-10-20"
         },
         {
-          "nazwa": "AP (za Bozeman Daily Chronicle)",
-          "url": "https://www.bozemandailychronicle.com/wire/international/kosovo-lawmakers-elect-a-new-president-in-a-late-night-vote-to-avert-snap-election/article_e0a41cf2-eeef-5e65-9324-b9e52979ad1a.html",
-          "data": "2026-10-07"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/20/albanias-pm-edi-rama-blames-hybrid-war-for-fuelling-unrest-across-the-country",
+          "data": "2026-10-20"
         }
       ],
-      "stan_data": "2026-10-07"
+      "stan_data": "2026-10-21"
     },
     {
       "id": "wybory",
@@ -481,40 +605,45 @@
       "nazwa": "Energia",
       "grupa": "temat",
       "opis": "Ropa, gaz, infrastruktura energetyczna, ceny paliw.",
-      "stan": "G7 uzgodniła 2.10 uwolnienie przez MAE 100 mln baryłek rezerw w ciągu 4 miesięcy (z olejem napędowym na początku) i rezygnację z ograniczeń eksportu energii między państwami G7; cieśnina Ormuz pozostaje zablokowana.",
+      "stan": "Napięcia w Zatoce: IRGC twierdzi, że 19.10 tankowce weszły na miny w Ormuzie (UKMTO potwierdza jeden incydent); Arabia Saudyjska po atakach Huti przełożyła konferencję FII na 2027, a Wielka Brytania wysyła Typhoony do obrony saudyjskiej infrastruktury.",
       "stan_zrodla": [
         {
-          "nazwa": "Rada UE (oświadczenie przywódców G7)",
-          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/02/g7-leaders-statement-on-global-energy-security-and-market-stability/",
-          "data": "2026-10-02"
+          "nazwa": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html",
+          "data": "2026-10-19"
         },
         {
-          "nazwa": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/2/trump-says-europe-agrees-to-release-massive-amount-diesel-stockpile",
-          "data": "2026-10-02"
+          "nazwa": "CNN",
+          "url": "https://edition.cnn.com/2026/10/20/middleeast/uk-military-saudi-arabia-yemen-houthis-intl",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/20/irgc-mines-set-tankers-ablaze-as-tehran-threatens-expanded-attacks",
+          "data": "2026-10-20"
         }
       ],
-      "stan_data": "2026-10-02"
+      "stan_data": "2026-10-21"
     },
     {
       "id": "gospodarka",
       "nazwa": "Gospodarka",
       "grupa": "temat",
       "opis": "Tylko zdarzenia nadzwyczajne: inflacja, kurs złotego, decyzje banków centralnych, cła.",
-      "stan": "Inflacja w strefie euro we wrześniu 3,8% (energia +18,8%); w Polsce szybki szacunek GUS 4,0%; RPP obraduje 6–7.10, EBC 28–29.10.",
+      "stan": "21.10 rentowność francuskich 10-letnich obligacji przekroczyła 5% po raz pierwszy od 2002 r. (spread do Niemiec ok. 1,6 pkt proc.); inwestorzy czekają na decyzję Moody's.",
       "stan_zrodla": [
         {
-          "nazwa": "Komisja Europejska (Eurostat, szybki szacunek HICP)",
-          "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-02102026-ap",
-          "data": "2026-10-02"
+          "nazwa": "France 24 (za AFP)",
+          "url": "https://www.france24.com/en/live-news/20261021-five-things-to-know-as-french-bond-yield-tops-5",
+          "data": "2026-10-21"
         },
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/02/eurozone-inflation-spikes-to-38-is-your-country-on-the-worst-list",
-          "data": "2026-10-02"
+          "nazwa": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/21/france-protests-bonds-debt.html",
+          "data": "2026-10-21"
         }
       ],
-      "stan_data": "2026-10-02"
+      "stan_data": "2026-10-21"
     },
     {
       "id": "inne",
@@ -562,15 +691,20 @@
       "nazwa": "Bułgaria",
       "grupa": "miejsce",
       "opis": "Polityka Bułgarii i bezpieczeństwo jej strefy na Morzu Czarnym.",
-      "stan": "13.10 drony trafiły kolejne dwa statki handlowe u wybrzeży Bułgarii (jeden zatonął, 11 marynarzy poszukiwanych); sprawców nie wskazano.",
+      "stan": "Na Morzu Czarnym u wybrzeży Rumunii i Bułgarii płoną kolejne statki: 15.10 tankowiec Wine Trader przy kanale Sulina (według Reutersa 8 zaginionych z 12-osobowej załogi).",
       "stan_zrodla": [
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/13/two-ships-hit-by-drones-in-black-sea-one-sank-bulgarias-pm-says",
-          "data": "2026-10-13"
+          "url": "https://www.euronews.com/2026/10/15/romania-probes-possible-drone-attack-on-tanker-in-its-black-sea-territorial-waters",
+          "data": "2026-10-15"
+        },
+        {
+          "nazwa": "Reuters (za Global News)",
+          "url": "https://globalnews.ca/news/12103450/ships-ablaze-romania-black-sea",
+          "data": "2026-10-15"
         }
       ],
-      "stan_data": "2026-10-13"
+      "stan_data": "2026-10-15"
     }
   ]
 }

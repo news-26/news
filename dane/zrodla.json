@@ -1478,7 +1478,9 @@
         "generalbundesanwalt.de",
         "rada.gov.ua",
         "vaticannews.va",
-        "mapn.ro"
+        "mapn.ro",
+        "kmu.gov.ua",
+        "gov.bg"
       ],
       "wzorce": [
         "Prezydent Ukrainy",
@@ -1498,7 +1500,9 @@
         "Prokurator Generalny Niemiec",
         "Rada Najwyższa Ukrainy",
         "Biuro Prasowe Stolicy Apostolskiej",
-        "Ministerstwo Obrony Narodowej Rumunii"
+        "Ministerstwo Obrony Narodowej Rumunii",
+        "Rząd Ukrainy",
+        "Rząd Bułgarii"
       ],
       "uzasadnienie": "Strony urzędowe prezydentów i rządów: potwierdzają ich obsadę, decyzje i komunikaty; wypowiedzi to wersja strony. Dopisano 5.10.2026: tse.jus.br – Najwyższy Sąd Wyborczy Brazylii, organ ogłaszający oficjalne wyniki wyborów. Dopisano 5.10.2026 (kalendarium): komisje wyborcze i urzędy ogłaszające terminy wyborów – valimised.ee (Estonia), cik.bg (Bułgaria), mzv.gov.cz (MSZ Czech), ocac.gov.tw (Tajwan), tre-sp.jus.br (sąd wyborczy Brazylii), ncsbe.gov (komisja wyborcza Karoliny Płn.). Dopisano 6.10.2026: presidency.eg (prezydent Egiptu), pco.gov.ph (biuro komunikacji prezydenta Filipin), boe.es (dziennik urzędowy Hiszpanii) – oficjalne strony publikujące dokumenty i komunikaty własnych władz. Dopisano 6.10.2026: Prokurator Generalny Niemiec (GBA) – komunikaty o własnych czynnościach, publikowane na generalbundesanwalt.de i w serwisie Presseportal. Dopisano 12.10.2026: rada.gov.ua – karty projektów ustaw Rady Najwyższej Ukrainy (etapy, podpis prezydenta). Dopisano 14.10.2026: Biuro Prasowe Stolicy Apostolskiej (vaticannews.va) – komunikaty Stolicy Apostolskiej o stanie zdrowia papieża; własne dane instytucji, ocena lekarzy w wersji Watykanu. Dopisano 17.10.2026: mapn.ro – komunikaty rumuńskiego MON o zestrzeleniu dronów (własne dane instytucji)."
     },

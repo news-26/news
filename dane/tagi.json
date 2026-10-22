@@ -26,7 +26,7 @@
       "nazwa": "Front",
       "grupa": "temat",
       "opis": "Działania na linii frontu w Ukrainie; oceny ISW zawsze jako ocena think tanku.",
-      "stan": "19–20.10 rosyjskie uderzenia na Kijów i obwód kijowski: w Obuchowie 3 zabitych, w obwodzie chmielnickim 2; drony uszkodziły w Kijowie szpital. Noc na 19.10: 269 dronów Shahed i pociski balistyczne, ok. 550 tys. rodzin bez prądu.",
+      "stan": "19–20.10 rosyjskie uderzenia na Kijów i okolice: w Obuchowie 3 zabitych, drony uszkodziły w Kijowie szpital. W nocy na 19.10 Rosja uderzyła w energetykę Ukrainy – według Zełenskiego ok. 550 tys. rodzin bez prądu.",
       "stan_data": "2026-10-20",
       "stan_zrodla": [
         {
@@ -38,6 +38,11 @@
           "nazwa": "Kyiv Independent",
           "url": "https://kyivindependent.com/russian-drones-strike-kyiv-hospital-injure-5-across-the-city/",
           "data": "2026-10-20"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/3-killed-53-injured-in-russian-attacks-across-ukraine-over-past-day-as-550-000-households-lose-power/",
+          "data": "2026-10-19"
         }
       ]
     },
@@ -691,7 +696,7 @@
       "nazwa": "Bułgaria",
       "grupa": "miejsce",
       "opis": "Polityka Bułgarii i bezpieczeństwo jej strefy na Morzu Czarnym.",
-      "stan": "Na Morzu Czarnym u wybrzeży Rumunii i Bułgarii płoną kolejne statki: 15.10 tankowiec Wine Trader przy kanale Sulina (według Reutersa 8 zaginionych z 12-osobowej załogi).",
+      "stan": "Na Morzu Czarnym w rumuńskich wodach przy kanale Sulina płoną kolejne statki: 15.10 pożar tankowca Wine Trader, część załogi zaginęła (liczby w relacjach rozbieżne).",
       "stan_zrodla": [
         {
           "nazwa": "Euronews",

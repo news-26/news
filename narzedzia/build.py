@@ -50,6 +50,7 @@ WERDYKTY = {"POTWIERDZONE", "SPROSTOWANE", "NADAL OTWARTE"}
 #  2. Następne wydanie dzienne rozlicza każdy taki wpis w „rozstrzygniecia”.
 #  3. Termin z kalendarza po upływie 2 dni ma pozycję w zarysie albo wpis w sekcji „W obserwacji” z polem „kalendarz”.
 STRAZE_OD = "2026-10-05"
+SLOWNIK_OD = "2026-10-22"  # od tej daty: osoby z kartą muszą mieć odnośnik, a hashtagi z zarysu – aktualny stan
 DNI_NA_ROZLICZENIE_KALENDARZA = 2
 MIN_SPRAWDZONO = 3
 WYNIKI_ROZSTRZYGNIEC = {"UZUPEŁNIONE", "NIE DO POTWIERDZENIA", "ODPADA"}
@@ -326,6 +327,65 @@ def sprawdz_tagi(lista, gdzie, tagi, b: Bledy, wymagane=True):
             b.dodaj(gdzie, f"hashtag „{t}” spoza słownika dane/tagi.json")
 
 
+
+def _wzorzec_osoby(o):
+    """Regex rozpoznający osobę w tekście: pole formy albo pełne imię i nazwisko + nazwisko z końcówkami."""
+    if o.get("formy"):
+        alt = [re.escape(f) for f in o["formy"]]
+    else:
+        alt = [re.escape(o["imie"])]
+        nazw = o["imie"].split()[-1]
+        if len(nazw) >= 5:
+            rdzen = nazw[:-1] if nazw[-1].lower() in "aeiouyąęó" else nazw
+            alt.append(re.escape(rdzen) + r"\w{0,4}")
+    return re.compile(r"(?<![\w{|:-])(?:" + "|".join(sorted(alt, key=len, reverse=True)) + r")(?![\w}])")
+
+
+_WZORCE_OSOB = {}
+
+
+def wzmianki_osob(tekst, osoby):
+    """Id osób z kartą, które występują w tekście poza znacznikami {{o:…}} / {{p:…}}."""
+    if not tekst:
+        return set()
+    czysty_ = ZNACZNIK_RE.sub(" ", tekst)
+    out = set()
+    for oid, o in osoby.items():
+        w = _WZORCE_OSOB.get(oid)
+        if w is None or w[0] is not o:
+            w = _WZORCE_OSOB[oid] = (o, _wzorzec_osoby(o))
+        if w[1].search(czysty_):
+            out.add(oid)
+    return out
+
+
+def teksty_wydania(w):
+    for z in w.get("w_skrocie", []):
+        yield "w_skrocie", z
+    for it in w.get("zarys", []) + w.get("analizy", []):
+        for pole in ("tekst", "dla_polski"):
+            if it.get(pole):
+                yield f"{it.get('id') or it.get('tytul', '')[:30]} {pole}", it[pole]
+
+
+def waliduj_slownik(w, tagi, osoby, b):
+    """Straż słowniczka (od SLOWNIK_OD): osoby z kartą z odnośnikiem, hashtagi zarysu z aktualnym stanem."""
+    if w.get("data", "") < SLOWNIK_OD:
+        return
+    g0 = w["_plik"]
+    polaczone = set()
+    wzmianki = {}
+    for gdzie, t in teksty_wydania(w):
+        polaczone |= {m.group(2) for m in ZNACZNIK_RE.finditer(t) if m.group(1) == "o"}
+        for oid in wzmianki_osob(t, osoby):
+            wzmianki.setdefault(oid, gdzie)
+    for oid, gdzie in sorted(wzmianki.items()):
+        if oid not in polaczone:
+            b.dodaj(f"{g0} {gdzie}", f"osoba „{osoby[oid]['imie']}” ma kartę, ale w wydaniu nie ma odnośnika – przy pierwszym użyciu wpisz {{{{o:{oid}|…}}}}")
+    for t in sorted({t for it in w.get("zarys", []) for t in it.get("tagi", [])} - {"inne"}):
+        if t in tagi and (tagi[t].get("stan_data") or "") < w["data"]:
+            b.dodaj(f"{g0} hashtag {t}", f"stan wątku „{t}” nieaktualny (stan_data {tagi[t].get('stan_data') or 'brak'}) – zaktualizuj stan, stan_data i stan_zrodla w dane/tagi.json")
+
 def waliduj_straze(wydania, tagi, b: Bledy, od=None, raport=None):
     """Straże kompletności. `od` – od której daty wydań reguły obowiązują (domyślnie STRAZE_OD).
     `raport` – lista, do której zamiast błędów trafiają ostrzeżenia (przegląd archiwum)."""
@@ -483,6 +543,7 @@ def waliduj(tagi, osoby, pojecia, wydania, rewizje=(), topy=()) -> Bledy:
             b.dodaj(g0, "zła data wydania")
         if w.get("typ", "dzienne") not in ("dzienne", "tygodniowe"):
             b.dodaj(g0, "typ musi być dzienne albo tygodniowe")
+        waliduj_slownik(w, tagi, osoby, b)
         ids = set()
         for it in w.get("zarys", []):
             g = f"{g0} zarys {it.get('id')}"

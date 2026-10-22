@@ -93,7 +93,7 @@
       ],
       "miejsce": "moskwa",
       "krotko": "Jedna Rosja z większością konstytucyjną",
-      "tekst": "W wyborach do {{p:duma|Dumy}} (18–20.09) Jedna Rosja zdobyła rekordowe 355 z 450 mandatów, czyli większość konstytucyjną (frekwencja ponad 59%); Komuniści mają 40, LDPR 25, Nowi Ludzie 20. Euronews zaznacza, że pierwsze wybory po inwazji z 2022 r. odbyły się bez partii krytycznych wobec Putina, a krytyka wojny jest zakazana.",
+      "tekst": "W wyborach do {{p:duma|Dumy}} (18–20.09) Jedna Rosja zdobyła rekordowe 355 z 450 mandatów, czyli większość konstytucyjną (frekwencja ponad 59%); Komuniści mają 40, LDPR 25, Nowi Ludzie 20. Euronews zaznacza, że pierwsze wybory po inwazji z 2022 r. odbyły się bez partii krytycznych wobec {{o:wladimir-putin|Putina}}, a krytyka wojny jest zakazana.",
       "zrodla": [
         {
           "nazwa": "Euronews",
@@ -140,7 +140,7 @@
       ],
       "miejsce": "bratyslawa",
       "krotko": "Rząd Fica traci pewną większość",
-      "tekst": "Premier {{o:robert-fico|Robert Fico}} powiedział 25.09, że decyzja SNS o odwołaniu ministra środowiska Tomáša Taraby „prowadzi do utraty większości” parlamentarnej: Taraba zagroził utworzeniem nowego klubu z innymi posłami koalicji, co odebrałoby rządowi trzymandatową większość w 150-osobowej Radzie Narodowej. Fico zażądał od przewodniczącego SNS Andreja Danka i od Taraby gwarancji utrzymania większości i dopuścił wycofanie wniosku o odwołanie.",
+      "tekst": "Premier {{o:robert-fico|Robert Fico}} powiedział 25.09, że decyzja SNS o odwołaniu ministra środowiska Tomáša {{o:tomas-taraba|Taraby}} „prowadzi do utraty większości” parlamentarnej: Taraba zagroził utworzeniem nowego klubu z innymi posłami koalicji, co odebrałoby rządowi trzymandatową większość w 150-osobowej Radzie Narodowej. Fico zażądał od przewodniczącego SNS Andreja Danka i od Taraby gwarancji utrzymania większości i dopuścił wycofanie wniosku o odwołanie.",
       "zrodla": [
         {
           "nazwa": "Reuters (za ThePrint)",

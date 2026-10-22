@@ -4,10 +4,10 @@
   "godzina": "20:00",
   "typ": "dzienne",
   "w_skrocie": [
-    "Prezydent {{o:donald-trump|Donald Trump}} podpisał 16.10 rozporządzenie wykonawcze, które według Euronews i Kyiv Independent w dużej mierze **uchyla nowy pakiet sankcji i ceł na Rosję** z ustawy Grahama; rosyjski wysłannik Kirył Dmitriew nazwał to „historyczną chwilą”, a {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} według Kyiv Independent ocenił to jako „złe”.",
+    "Prezydent {{o:donald-trump|Donald Trump}} podpisał 16.10 rozporządzenie wykonawcze, które według Euronews i Kyiv Independent w dużej mierze **uchyla nowy pakiet sankcji i ceł na Rosję** z ustawy Grahama; rosyjski wysłannik {{o:kiryl-dmitrijew|Kirył Dmitriew}} nazwał to „historyczną chwilą”, a {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} według Kyiv Independent ocenił to jako „złe”.",
     "W nocy na 17.10 Rosja przeprowadziła jeden z największych ataków na ukraińską energetykę: według Sił Powietrznych Ukrainy użyła 332 dronów i rakiet, a Zełenski mówi o uderzeniach w ponad 15 obiektów wytwarzania i przesyłu energii.",
     "Rumunia zestrzeliła 17.10 dwa drony nad swoimi wodami terytorialnymi – komunikat rumuńskiego MON podaje, że poderwano dwa F-16, a drony wykryto ok. 120 km na wschód od Wyspy Wężowej.",
-    "Papież Leon XIV rozmawiał 16.10 z Putinem o oblężonych Oleszkach; Stolica Apostolska podała, że prosił o zawieszenie broni i korytarze humanitarne. Polscy dyplomaci byli wśród grupy zaatakowanej 17.10 przez zamaskowanych osadników na Zachodnim Brzegu – według Polsat News rzecznik MSZ RP przekazał, że Polacy nie ucierpieli."
+    "Papież {{o:leon-xiv|Leon XIV}} rozmawiał 16.10 z {{o:wladimir-putin|Putinem}} o oblężonych Oleszkach; Stolica Apostolska podała, że prosił o zawieszenie broni i korytarze humanitarne. Polscy dyplomaci byli wśród grupy zaatakowanej 17.10 przez zamaskowanych osadników na Zachodnim Brzegu – według Polsat News rzecznik MSZ RP przekazał, że Polacy nie ucierpieli."
   ],
   "korekty": [],
   "zarys": [
@@ -103,7 +103,7 @@
       "miejsce": "ramallah",
       "krotko": "Atak osadników na dyplomatów w Tajjibie",
       "etap": "PRZYJĘTE",
-      "tekst": "Zamaskowani izraelscy osadnicy zaatakowali 17.10 w Tajjibie (Taybeh) koło Ramallah na Zachodnim Brzegu grupę dyplomatów, wśród których według belgijskiego szefa MSZ Maximea Prévota byli konsul generalny Belgii oraz dyplomaci **francuscy i polscy**; ranny został francuski burmistrz, uszkodzono belgijski samochód. Armia izraelska nazwała atak „poważnym aktem przemocy” i podała, że wizyta nie była z nią uzgodniona, policja wszczęła śledztwo, a szef MSZ Izraela Gideon Sa’ar potępił atak. Według Polsat News rzecznik MSZ RP Maciej Wewiór przekazał, że Polacy nie ucierpieli, a Polska żąda od Izraela wyjaśnień i rozliczenia sprawców. Następstwo: Prévot zapowiedział naciski na sankcje UE wobec osadników, na kilkanaście dni przed wyborami w Izraelu (27.10).",
+      "tekst": "Zamaskowani izraelscy osadnicy zaatakowali 17.10 w Tajjibie (Taybeh) koło Ramallah na Zachodnim Brzegu grupę dyplomatów, wśród których według belgijskiego szefa MSZ Maximea Prévota byli konsul generalny Belgii oraz dyplomaci **francuscy i polscy**; ranny został francuski burmistrz, uszkodzono belgijski samochód. Armia izraelska nazwała atak „poważnym aktem przemocy” i podała, że wizyta nie była z nią uzgodniona, policja wszczęła śledztwo, a szef MSZ Izraela Gideon Sa’ar potępił atak. Według Polsat News rzecznik MSZ RP {{o:maciej-wewior|Maciej Wewiór}} przekazał, że Polacy nie ucierpieli, a Polska żąda od Izraela wyjaśnień i rozliczenia sprawców. Następstwo: Prévot zapowiedział naciski na sankcje UE wobec osadników, na kilkanaście dni przed wyborami w Izraelu (27.10).",
       "zrodla": [
         {
           "nazwa": "Euronews",
@@ -160,7 +160,7 @@
         "usa",
         "uzbrojenie"
       ],
-      "tekst": "Według OSW nic nie wskazuje, by USA wstrzymały przekazywanie danych wywiadowczych Ukrainie – minister Andrij Sybiha temu zaprzeczył, a nieostrzeżenia o rosyjskich rakietach 12–13.10 pasują do błędów wykrywania. Noc 13/14.10 objęła ograniczenia w systemie Starshield (wojskowa wersja Starlinka), co miało zakłócić dwa drony nad Rosją i część misji w obwodzie zaporoskim; dłuższe ograniczenie osłabiłoby ataki średniego zasięgu na rosyjską logistykę, a wpływ na drony przechwytujące autor uznaje za przesadzony.",
+      "tekst": "Według OSW nic nie wskazuje, by USA wstrzymały przekazywanie danych wywiadowczych Ukrainie – minister {{o:andrij-sybiha|Andrij Sybiha}} temu zaprzeczył, a nieostrzeżenia o rosyjskich rakietach 12–13.10 pasują do błędów wykrywania. Noc 13/14.10 objęła ograniczenia w systemie {{p:starshield|Starshield}} (wojskowa wersja Starlinka), co miało zakłócić dwa drony nad Rosją i część misji w obwodzie zaporoskim; dłuższe ograniczenie osłabiłoby ataki średniego zasięgu na rosyjską logistykę, a wpływ na drony przechwytujące autor uznaje za przesadzony.",
       "dla_polski": "Uzależnienie ukraińskiej obrony od amerykańskich systemów łączności pokazuje ryzyko także dla państw wschodniej flanki NATO, które opierają się na tych samych usługach.",
       "zrodla": [
         {

@@ -4,7 +4,7 @@
   "godzina": "22:15",
   "typ": "dzienne",
   "w_skrocie": [
-    "USA zatwierdziły potencjalną sprzedaż Ukrainie sprzętu obrony powietrznej za 2,68 mld USD; Reuters: wysłannik Kremla Dmitrijew szykuje rozmowy z AfD o wznowieniu dostaw gazu."
+    "USA zatwierdziły potencjalną sprzedaż Ukrainie sprzętu obrony powietrznej za 2,68 mld USD; Reuters: wysłannik Kremla {{o:kiryl-dmitrijew|Dmitrijew}} szykuje rozmowy z AfD o wznowieniu dostaw gazu."
   ],
   "korekty": [],
   "analizy": [],
@@ -61,7 +61,7 @@
         "rosja",
         "energia"
       ],
-      "tekst": "Reuters (18.09) podał, że AfD i **Kirył Dmitrijew**, specjalny wysłannik Putina i szef Rosyjskiego Funduszu Inwestycji Bezpośrednich, przygotowują rozmowy o wznowieniu dostaw rosyjskiego gazu, w tym o Nord Stream. 28.09 wiceprzewodniczący klubu AfD w Bundestagu Markus Frohnmaier potwierdził kontakt partii z Dmitrijewem i plan forum z udziałem Rosji i USA w 2027 r. Plan krytykują Zieloni i CDU; AfD nie współrządzi na szczeblu federalnym.",
+      "tekst": "Reuters (18.09) podał, że AfD i **Kirył Dmitrijew**, specjalny wysłannik {{o:wladimir-putin|Putina}} i szef Rosyjskiego Funduszu Inwestycji Bezpośrednich, przygotowują rozmowy o wznowieniu dostaw rosyjskiego gazu, w tym o Nord Stream. 28.09 wiceprzewodniczący klubu AfD w Bundestagu {{o:markus-frohnmaier|Markus Frohnmaier}} potwierdził kontakt partii z Dmitrijewem i plan forum z udziałem Rosji i USA w 2027 r. Plan krytykują Zieloni i CDU; AfD nie współrządzi na szczeblu federalnym.",
       "zrodla": [
         {
           "nazwa": "Reuters (za Meduzą)",

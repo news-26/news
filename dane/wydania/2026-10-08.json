@@ -5,8 +5,8 @@
   "typ": "dzienne",
   "w_skrocie": [
     "8.10 rosyjska **bomba szybująca** trafiła w dwa autobusy w Kramatorsku w obwodzie donieckim: według służb ratunkowych i prokuratury co najmniej 30–33 zabitych, 18–22 rannych; w Kijowie rosyjskie drony zabiły w nocy i w dzień kilka osób i zakłóciły dostawy prądu, wody i kursowanie metra.",
-    "Huti ostrzelali 7–8.10 lotniska w Arabii Saudyjskiej (Rijad, Abha): według Euronews i Al Jazeery zginęły co najmniej trzy osoby, kilkadziesiąt zostało rannych; koalicja pod wodzą Rijadu zapowiada odpowiedź.",
-    "Sekretarz stanu USA Marco Rubio stwierdził, że obecnie nie widać perspektyw wynegocjowanego pokoju w Ukrainie; trójstronne spotkanie USA–Ukraina–Rosja nadal nie ma terminu.",
+    "{{p:huti|Huti}} ostrzelali 7–8.10 lotniska w Arabii Saudyjskiej (Rijad, Abha): według Euronews i Al Jazeery zginęły co najmniej trzy osoby, kilkadziesiąt zostało rannych; koalicja pod wodzą Rijadu zapowiada odpowiedź.",
+    "Sekretarz stanu USA {{o:marco-rubio|Marco Rubio}} stwierdził, że obecnie nie widać perspektyw wynegocjowanego pokoju w Ukrainie; trójstronne spotkanie USA–Ukraina–Rosja nadal nie ma terminu.",
     "W Polsce prokuratura umorzyła śledztwo w sprawie wlotu ponad 30 rosyjskich dronów z września 2025 (w części były polskie karty SIM); Litwa chce skierować wojsko na granicę z obwodem królewieckim.",
     "Korea Południowa odwołuje ambasadora z Kijowa w sporze o północnokoreańskich jeńców."
   ],
@@ -24,7 +24,7 @@
       "miejsce": "kramatorsk",
       "krotko": "Bomba szybująca trafia autobusy w Kramatorsku",
       "etap": null,
-      "tekst": "8.10 rosyjska **bomba szybująca** uderzyła w dwa autobusy (Kyiv Independent: minibusy) w Kramatorsku w obwodzie donieckim: według Państwowej Służby Ratunkowej zginęło co najmniej 33 osoby (Kyiv Independent), według prokuratury obwodu donieckiego i France 24 – co najmniej 30; rannych 18 (France 24) lub 22 (gubernator obwodu Wadym Fiłaszkin za Kyiv Independent). Prezydent {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} ostrzegł, że liczba ofiar może wzrosnąć; władze Kramatorska i Słowiańska wstrzymały transport publiczny. W Kijowie rosyjskie drony zabiły w nocy 7/8.10 cztery osoby (21 rannych), a w ciągu dnia kolejne ofiary; mer Witalij Kliczko podał do 19:21 19 rannych (13 hospitalizowanych); według Kijowskiej Miejskiej Administracji Wojskowej spadek napięcia zatrzymał metro i możliwe są przerwy w wodzie na prawym brzegu, a DTEK ogłosił awaryjne wyłączenia prądu w obwodzie kijowskim. Bilanse są wstępne i różnią się między źródłami.",
+      "tekst": "8.10 rosyjska **bomba szybująca** uderzyła w dwa autobusy (Kyiv Independent: minibusy) w Kramatorsku w obwodzie donieckim: według Państwowej Służby Ratunkowej zginęło co najmniej 33 osoby (Kyiv Independent), według prokuratury obwodu donieckiego i France 24 – co najmniej 30; rannych 18 (France 24) lub 22 (gubernator obwodu Wadym Fiłaszkin za Kyiv Independent). Prezydent {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} ostrzegł, że liczba ofiar może wzrosnąć; władze Kramatorska i Słowiańska wstrzymały transport publiczny. W Kijowie rosyjskie drony zabiły w nocy 7/8.10 cztery osoby (21 rannych), a w ciągu dnia kolejne ofiary; mer {{o:witalij-kliczko|Witalij Kliczko}} podał do 19:21 19 rannych (13 hospitalizowanych); według Kijowskiej Miejskiej Administracji Wojskowej spadek napięcia zatrzymał metro i możliwe są przerwy w wodzie na prawym brzegu, a DTEK ogłosił awaryjne wyłączenia prądu w obwodzie kijowskim. Bilanse są wstępne i różnią się między źródłami.",
       "zrodla": [
         {
           "nazwa": "Kyiv Independent",
@@ -83,7 +83,7 @@
       "miejsce": "irkuck",
       "krotko": "Rosja: w Irkucku nie ma dżumy",
       "etap": null,
-      "tekst": "Po śmierci pracownicy irkuckiego instytutu badań nad dżumą Rosja przekazała 6.10 WHO, że w Irkucku nie ma przypadków dżumy, a testy osób z kontaktu są ujemne (Reuters za Korea Times); według Euronews i Al Jazeery oficjalna przyczyna zgonu to „zapalenie płuc o nieustalonej etiologii”. 7.10 rzecznik Kremla Dmitrij Pieskow ocenił, że większość doniesień o sprawie to „fałszywe informacje”, a szef WHO Tedros Adhanom Ghebreyesus poprosił Moskwę o wyjaśnienie doniesień o **drugiej pracownicy** z zapaleniem płuc (Al Jazeera). WHO ocenia ryzyko poza Rosją jako bardzo niskie (Euronews). Drugi przypadek jest niepotwierdzony; Trump powiedział 8.10 (Al Jazeera), że rozmawiał z Putinem, i nie sądzi, by chodziło o broń biologiczną; Rosja nie wyjaśniła, czy wykluczono dżumę płucną.",
+      "tekst": "Po śmierci pracownicy irkuckiego instytutu badań nad dżumą Rosja przekazała 6.10 WHO, że w Irkucku nie ma przypadków dżumy, a testy osób z kontaktu są ujemne (Reuters za Korea Times); według Euronews i Al Jazeery oficjalna przyczyna zgonu to „zapalenie płuc o nieustalonej etiologii”. 7.10 rzecznik Kremla {{o:dmitrij-pieskow|Dmitrij Pieskow}} ocenił, że większość doniesień o sprawie to „fałszywe informacje”, a szef WHO Tedros Adhanom Ghebreyesus poprosił Moskwę o wyjaśnienie doniesień o **drugiej pracownicy** z zapaleniem płuc (Al Jazeera). WHO ocenia ryzyko poza Rosją jako bardzo niskie (Euronews). Drugi przypadek jest niepotwierdzony; {{o:donald-trump|Trump}} powiedział 8.10 (Al Jazeera), że rozmawiał z {{o:wladimir-putin|Putinem}}, i nie sądzi, by chodziło o broń biologiczną; Rosja nie wyjaśniła, czy wykluczono dżumę płucną.",
       "zrodla": [
         {
           "nazwa": "Reuters (za Korea Times)",
@@ -196,7 +196,7 @@
       "miejsce": "granica-lt-krolewiec",
       "krotko": "Litwa wysyła wojsko na granicę",
       "etap": "ZAPOWIEDŹ",
-      "tekst": "Minister spraw wewnętrznych Litwy Martynas Katelynas poinformował 7.10, że zwrócił się do ministra obrony Robertasa Kaunasa o **skierowanie wojska do wsparcia straży granicznej na granicy z obwodem królewieckim**. Uzasadnił to oceną sytuacji bezpieczeństwa w regionie i doniesieniami o możliwej mobilizacji w Rosji; sytuację na granicy nazwał spokojną, a krok – prewencyjnym. W tym samym tygodniu na granicy łotewsko-białoruskiej zamaskowani, uzbrojeni ludzie eskortowali grupę co najmniej 20 migrantów i grozili żołnierzom, a później weszli na Łotwę, uszkodzili panel elektryczny i ukradli kamery. Resort obrony nie ogłosił jeszcze szczegółów (liczby żołnierzy, terminu).",
+      "tekst": "Minister spraw wewnętrznych Litwy Martynas Katelynas poinformował 7.10, że zwrócił się do ministra obrony {{o:robertas-kaunas|Robertasa Kaunasa}} o **skierowanie wojska do wsparcia straży granicznej na granicy z obwodem królewieckim**. Uzasadnił to oceną sytuacji bezpieczeństwa w regionie i doniesieniami o możliwej mobilizacji w Rosji; sytuację na granicy nazwał spokojną, a krok – prewencyjnym. W tym samym tygodniu na granicy łotewsko-białoruskiej zamaskowani, uzbrojeni ludzie eskortowali grupę co najmniej 20 migrantów i grozili żołnierzom, a później weszli na Łotwę, uszkodzili panel elektryczny i ukradli kamery. Resort obrony nie ogłosił jeszcze szczegółów (liczby żołnierzy, terminu).",
       "zrodla": [
         {
           "nazwa": "LRT",
@@ -221,7 +221,7 @@
       "miejsce": "seul",
       "krotko": "Korea odwołuje ambasadora w Ukrainie",
       "etap": null,
-      "tekst": "Ministerstwo Spraw Zagranicznych Korei Południowej ogłosiło 8.10 **odwołanie ambasadora w Ukrainie** Parka Hee-changa, bez terminu powrotu. Seul zarzuca Kijowowi złamanie porozumienia o poufności: prezydent {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} ujawnił 23.09 na forum ONZ przekazanie Korei Płd. dwóch północnokoreańskich jeńców wojennych. Biuro prezydenta Ukrainy twierdzi, że takiego porozumienia nie było; szef MSZ Ukrainy Andrij Sybiha przeprosił, ale szef MSZ Korei Płd. Cho Hyun uznał 6.10 przeprosiny za niewystarczające i zapowiedział „stanowcze środki”.",
+      "tekst": "Ministerstwo Spraw Zagranicznych Korei Południowej ogłosiło 8.10 **odwołanie ambasadora w Ukrainie** Parka Hee-changa, bez terminu powrotu. Seul zarzuca Kijowowi złamanie porozumienia o poufności: prezydent {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} ujawnił 23.09 na forum ONZ przekazanie Korei Płd. dwóch północnokoreańskich jeńców wojennych. Biuro prezydenta Ukrainy twierdzi, że takiego porozumienia nie było; szef MSZ Ukrainy {{o:andrij-sybiha|Andrij Sybiha}} przeprosił, ale szef MSZ Korei Płd. Cho Hyun uznał 6.10 przeprosiny za niewystarczające i zapowiedział „stanowcze środki”.",
       "zrodla": [
         {
           "nazwa": "Associated Press (za NPR Illinois)",
@@ -248,7 +248,7 @@
         "czechy",
         "rumunia"
       ],
-      "tekst": "Autorzy opisują format zainicjowany przez Zełenskiego (pierwotnie „Karpacka Ósemka”), który ma włączyć Ukrainę we współpracę regionalną z państwami UE i ułatwić jej integrację. Pierwszy szczyt odbył się 18.09.2026 w Hucie w obwodzie iwanofrankiwskim; założycielami mieli być Austria, Czechy, Polska, Rumunia, Serbia, Słowacja i Ukraina, a Węgry szczyt zbojkotowały. Premier Donald Tusk był osobiście, Słowację reprezentował wiceminister. PISM ocenia, że format jest „w fazie kształtowania”, bez ustalonego szczebla udziału i mechanizmów wdrażania, a nieobecność Węgier i niejednoznaczne stanowisko Czech i Słowacji osłabiają go – może stać się głównie platformą dialogu samorządów i biznesu.",
+      "tekst": "Autorzy opisują format zainicjowany przez Zełenskiego (pierwotnie „Karpacka Ósemka”), który ma włączyć Ukrainę we współpracę regionalną z państwami UE i ułatwić jej integrację. Pierwszy szczyt odbył się 18.09.2026 w Hucie w obwodzie iwanofrankiwskim; założycielami mieli być Austria, Czechy, Polska, Rumunia, Serbia, Słowacja i Ukraina, a Węgry szczyt zbojkotowały. Premier {{o:donald-tusk|Donald Tusk}} był osobiście, Słowację reprezentował wiceminister. PISM ocenia, że format jest „w fazie kształtowania”, bez ustalonego szczebla udziału i mechanizmów wdrażania, a nieobecność Węgier i niejednoznaczne stanowisko Czech i Słowacji osłabiają go – może stać się głównie platformą dialogu samorządów i biznesu.",
       "dla_polski": "Według PISM inicjatywa daje Polsce dodatkową płaszczyznę współpracy z Ukrainą, ale korzystniejsza byłaby unijna strategia makroregionalna dla Karpat – bez nowych funduszy, za to z lepszą koordynacją istniejących środków i projektów transgranicznych.",
       "zrodla": [
         {

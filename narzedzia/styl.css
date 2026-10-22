@@ -524,3 +524,48 @@ button.kal-strz[disabled] { color: var(--linia); cursor: default; }
 .miejsca-lista ul li { margin: 2px 0; }
 .miejsca-lista .m-data { font: 12px var(--sans); color: var(--szary); margin-right: 2px; }
 .miejsca-zwin summary { cursor: pointer; font: 600 14px var(--sans); margin: 6px 0; }
+
+/* powiązania: graf osób, krajów, tematów i pojęć */
+:root { --pw-o: var(--atrament); --pw-kr: var(--morze); --pw-t: var(--ochra); --pw-p: #5E6B7A; }
+@media (prefers-color-scheme: dark) { :root { --pw-p: #A7B3C1; } }
+.pw-pasek { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; margin: 4px 0 8px; }
+.pw-pasek .szukaj { flex: 1 1 220px; margin: 0; }
+.pw-okres { display: inline-flex; border: 1px solid var(--linia); border-radius: 6px; overflow: hidden; }
+.pw-okres button { font: 14px/1 var(--sans); padding: 9px 12px; border: 0; background: var(--karta); color: var(--tekst); cursor: pointer; }
+.pw-okres button + button { border-left: 1px solid var(--linia); }
+.pw-okres button[aria-pressed="true"] { background: var(--atrament); color: var(--papier); }
+.pw-leg { font: 13px/1.4 var(--sans); color: var(--szary); margin: 6px 0 10px; }
+.pw-k { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin: 0 4px 0 10px; vertical-align: -1px; background: currentColor; }
+.pw-k:first-child { margin-left: 0; }
+.pw-k.pw-o { color: var(--pw-o); } .pw-k.pw-kr { color: var(--pw-kr); } .pw-k.pw-t { color: var(--pw-t); border-radius: 1px; } .pw-k.pw-p { color: var(--pw-p); }
+.pw-tyt { font: 600 14px/1.4 var(--sans); margin: 8px 0 4px; }
+.pw-grupa { margin: 6px 0 10px; line-height: 2.1; }
+.pw-gt { display: block; font: 12px/1.4 var(--sans); text-transform: uppercase; letter-spacing: .05em; color: var(--szary); }
+.pw-chip { display: inline-block; font: 14px/1.4 var(--sans); text-decoration: none; padding: 3px 9px; margin: 0 6px 6px 0; border-radius: 14px;
+  border: 1px solid currentColor; background: var(--karta); }
+.pw-chip span { color: var(--szary); font-variant-numeric: tabular-nums; }
+.pw-chip.maly { font-size: 12px; padding: 1px 7px; margin: 0 4px 4px 0; }
+.pw-chip.pw-o { color: var(--pw-o); } .pw-chip.pw-kr { color: var(--pw-kr); } .pw-chip.pw-t { color: var(--pw-t); border-radius: 3px; } .pw-chip.pw-p { color: var(--pw-p); border-style: dashed; }
+.pw-chip:hover { text-decoration: underline; }
+.pw-karta { background: var(--karta); border: 1px solid var(--linia); border-left: 4px solid currentColor; padding: 10px 14px; margin: 14px 0 6px; scroll-margin-top: 10px; }
+.pw-karta.pw-o { color: var(--pw-o); } .pw-karta.pw-kr { color: var(--pw-kr); } .pw-karta.pw-t { color: var(--pw-t); } .pw-karta.pw-p { color: var(--pw-p); }
+.pw-karta h2 { margin: 0 0 4px; color: var(--atrament); }
+.pw-karta p { color: var(--tekst); margin: 4px 0; }
+.pw-karta .w-nr { color: var(--szary); }
+.pw-akcje { font: 14px/1.6 var(--sans); }
+.pw-akcje a { margin-right: 14px; }
+#pw-wybor { scroll-margin-top: 10px; }
+.pw-svg { display: block; width: 100%; max-width: 560px; height: auto; margin: 8px auto 0; }
+.pw-svg line.pw-kr { stroke: var(--szary); stroke-opacity: .45; }
+.pw-svg line.pw-kr.akt { stroke: var(--czerwien); stroke-opacity: .9; }
+.pw-svg line.pw-mid { stroke: var(--linia); }
+.pw-svg .pw-w { cursor: pointer; outline: none; }
+.pw-svg .pw-w circle, .pw-svg .pw-w rect { stroke: var(--papier); stroke-width: 2; }
+.pw-svg .pw-o circle { fill: var(--pw-o); } .pw-svg .pw-kr circle { fill: var(--pw-kr); } .pw-svg .pw-t rect { fill: var(--pw-t); } .pw-svg .pw-p circle { fill: var(--pw-p); }
+.pw-svg .pw-w.akt circle, .pw-svg .pw-w.akt rect, .pw-svg .pw-w:focus-visible circle, .pw-svg .pw-w:focus-visible rect { stroke: var(--czerwien); stroke-width: 3; }
+.pw-svg text { font: 11px var(--sans); fill: var(--tekst); text-anchor: middle; paint-order: stroke; stroke: var(--papier); stroke-width: 3px; stroke-linejoin: round; pointer-events: none; }
+.pw-svg .srodek text { font-weight: 700; font-size: 13px; }
+.pw-uw { font: 12px/1.4 var(--sans); color: var(--szary); text-align: center; margin: 2px 0 10px; }
+.pw-k-t { margin: 2px 0; font-weight: 600; }
+.pw-x { margin: 2px 0; font-size: 16px; }
+.pw-inne { margin: 6px 0 0; }

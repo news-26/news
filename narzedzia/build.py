@@ -930,7 +930,7 @@ def html_odznaki(it):
 
 
 def strona(tytul, tresc, prefix="", opis="", aktywne=""):
-    nav = [("index.html", "Wydania", "wydania"), ("kalendarium.html", "Kalendarium", "kalendarium"), ("kalendarz.html", "Kalendarz wydań", "kalendarz"), ("top/index.html", "Top 10", "top"), ("czytelnia.html", "Czytelnia", "czytelnia"), ("watki/index.html", "Wątki", "watki"),
+    nav = [("index.html", "Wydania", "wydania"), ("kalendarium.html", "Kalendarium", "kalendarium"), ("kalendarz.html", "Kalendarz wydań", "kalendarz"), ("top/index.html", "Top 10", "top"), ("czytelnia.html", "Czytelnia", "czytelnia"), ("watki/index.html", "Wątki", "watki"), ("powiazania.html", "Powiązania", "powiazania"),
            ("osoby/index.html", "Kto jest kim", "osoby"), ("pojecia/index.html", "Pojęcia", "pojecia"),
            ("korekty.html", "Korekty", "korekty"), ("zrodla.html", "Źródła", "zrodla"), ("jak-weryfikujemy.html", "Jak weryfikujemy", "jak"),
            ("szukaj.html", "Szukaj", "szukaj")]
@@ -2148,6 +2148,176 @@ class Budowa:
 </section>"""
         self.zapisz("jak-weryfikujemy.html", strona("Jak weryfikujemy", tresc, "", "", "jak"))
 
+    def powiazania(self):
+        """Graf powiązań: osoby, kraje i regiony, tematy, pojęcia połączone przez pozycje i analizy wydań."""
+        wezly, indeks = [], {}
+
+        def wezel(klucz, typ, nazwa, opis, url):
+            if klucz not in indeks:
+                indeks[klucz] = len(wezly)
+                wezly.append({"t": typ, "l": nazwa, "s": opis, "u": url})
+            return indeks[klucz]
+
+        for t, tag in self.tagi.items():
+            if t == "inne":
+                continue
+            wezel(f"t:{t}", "k" if tag["grupa"] == "miejsce" else "t", tag["nazwa"], tag["opis"], f"watki/{t}.html")
+        for oid, o in self.osoby.items():
+            wezel(f"o:{oid}", "o", o["imie"], o["funkcja"], f"osoby/{oid}.html")
+        for pid, p in self.pojecia.items():
+            wezel(f"p:{pid}", "p", p["nazwa"], p.get("pelna") or p["definicja"], f"pojecia/{pid}.html")
+
+        def encje(teksty, tagi):
+            n = {indeks[f"t:{t}"] for t in tagi if f"t:{t}" in indeks}
+            for s in teksty:
+                if not s:
+                    continue
+                for m in ZNACZNIK_RE.finditer(s):
+                    k = f"{m.group(1)}:{m.group(2)}"
+                    if k in indeks:
+                        n.add(indeks[k])
+                n |= {indeks[f"o:{x}"] for x in wzmianki_osob(s, self.osoby)}
+            return sorted(n)
+
+        zdarzenia = []
+        for w in self.wydania:
+            for it in w["zarys"]:
+                n = encje([it["tekst"], it.get("dla_polski")], it["tagi"])
+                if len(n) < 1:
+                    continue
+                tekst = czysty(it["tekst"], self.osoby, self.pojecia)
+                zdarzenia.append({"d": it["data"], "k": it.get("krotko") or "", "x": skroc(tekst, 260),
+                                  "u": f"wydania/{w['_slug']}.html#{it['id']}", "w": w["nr"], "n": n})
+            for j, a in enumerate(w.get("analizy") or []):
+                n = encje([a["tekst"], a.get("dla_polski")], a.get("tagi", []))
+                if not n:
+                    continue
+                zdarzenia.append({"d": w["data"], "k": a["tytul"], "x": "Ocena: " + a["autor"], "a": 1,
+                                  "u": f"wydania/{w['_slug']}.html#analiza-{j+1}", "w": w["nr"], "n": n})
+        zdarzenia.sort(key=lambda z: z["d"], reverse=True)
+        uzyte = sorted({i for z in zdarzenia for i in z["n"]})
+        nowy = {s: i for i, s in enumerate(uzyte)}
+        for z in zdarzenia:
+            z["n"] = [nowy[i] for i in z["n"]]
+        dzis = self.wydania[-1]["data"] if self.wydania else dt.date.today().isoformat()
+        self.zapisz("powiazania.json", json.dumps({"dzis": dzis, "n": [wezly[i] for i in uzyte], "z": zdarzenia},
+                                                  ensure_ascii=False, separators=(",", ":")))
+        tresc = r"""<section class="winieta"><h1>Powiązania</h1><p class="w-stan">Kto, gdzie i w jakiej sprawie pojawia się razem w wydaniach.
+Wybierz osobę, kraj, temat albo pojęcie, a potem drugą pozycję z grafu, żeby zobaczyć, co je łączy. Połączenie oznacza wspólne pozycje lub analizy w wydaniach, nie ocenę redakcji.</p></section>
+<div class="pw-pasek">
+  <input id="pw-q" class="szukaj" type="search" placeholder="Szukaj: osoba, kraj, temat…" autocomplete="off">
+  <div class="pw-okres" role="group" aria-label="Okres">
+    <button type="button" data-o="7">7 dni</button><button type="button" data-o="30">30 dni</button><button type="button" data-o="0">Wszystko</button>
+  </div>
+</div>
+<div id="pw-podp" class="pw-chipy"></div>
+<p class="pw-leg"><span class="pw-k pw-o"></span>osoby <span class="pw-k pw-kr"></span>kraje i regiony <span class="pw-k pw-t"></span>tematy <span class="pw-k pw-p"></span>pojęcia</p>
+<section id="pw-wybor"></section>
+<script>
+(function(){
+  var D=null, st={w:null,z:null,o:'30'}, q=document.getElementById('pw-q'), podp=document.getElementById('pw-podp'), box=document.getElementById('pw-wybor');
+  var TYP={o:'Osoba',k:'Kraj lub region',t:'Temat',p:'Pojęcie'}, KL={o:'pw-o',k:'pw-kr',t:'pw-t',p:'pw-p'};
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  function norm(s){return s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/ł/g,'l');}
+  function dk(d){var p=d.split('-');return p[2]+'.'+p[1];}
+  function zakres(){
+    if(st.o==='0')return D.z;
+    var g=new Date(D.dzis+'T12:00:00'); g.setDate(g.getDate()-(+st.o)+1);
+    var od=g.toISOString().slice(0,10); return D.z.filter(function(z){return z.d>=od;});
+  }
+  function licz(zd){
+    var ile={}, sas={};
+    zd.forEach(function(z){z.n.forEach(function(a){ile[a]=(ile[a]||0)+1; if(a===st.w){z.n.forEach(function(b){if(b!==a)sas[b]=(sas[b]||0)+1;});}});});
+    return {ile:ile,sas:sas};
+  }
+  function chip(i,n,dod){var w=D.n[i];return '<a href="#" class="pw-chip '+KL[w.t]+(dod||'')+'" data-i="'+i+'">'+esc(w.l)+(n?' <span>'+n+'</span>':'')+'</a>';}
+  function zapisz(){var h='w='+(st.w===null?'':st.w)+(st.z!==null?'&z='+st.z:'')+'&o='+st.o; try{history.replaceState(null,'','#'+h);}catch(e){location.hash=h;}}
+  function czytaj(){var p=new URLSearchParams(location.hash.slice(1)); if(p.get('o')!==null)st.o=p.get('o'); var w=p.get('w'), z=p.get('z');
+    st.w=(w!==null&&w!==''&&D.n[+w])?+w:null; st.z=(z!==null&&D.n[+z])?+z:null;}
+  function podpowiedzi(){
+    var s=norm(q.value.trim()), zd=zakres(), L=licz(zd), lista;
+    if(s.length>=2){
+      lista=D.n.map(function(w,i){return i;}).filter(function(i){return norm(D.n[i].l+' '+D.n[i].s).indexOf(s)>=0;});
+      lista.sort(function(a,b){return (L.ile[b]||0)-(L.ile[a]||0);});
+      podp.innerHTML=lista.length?lista.slice(0,30).map(function(i){return chip(i,L.ile[i]||0);}).join(''):'<p class="uwaga">Brak takiej pozycji w wydaniach.</p>';
+      return;
+    }
+    if(st.w!==null){podp.innerHTML='';return;}
+    var html='<p class="pw-tyt">Najczęściej w wybranym okresie</p>';
+    ['o','k','t','p'].forEach(function(t){
+      var l=Object.keys(L.ile).map(Number).filter(function(i){return D.n[i].t===t;}).sort(function(a,b){return L.ile[b]-L.ile[a];}).slice(0,t==='p'?6:10);
+      if(l.length)html+='<div class="pw-grupa"><span class="pw-gt">'+TYP[t].replace('Kraj lub region','Kraje i regiony').replace('Osoba','Osoby').replace('Temat','Tematy').replace('Pojęcie','Pojęcia')+'</span>'+l.map(function(i){return chip(i,L.ile[i]);}).join('')+'</div>';
+    });
+    podp.innerHTML=html;
+  }
+  function graf(sas,ile,zd){
+    var l=Object.keys(sas).map(Number).sort(function(a,b){return sas[b]-sas[a]||(ile[b]||0)-(ile[a]||0);}).slice(0,14);
+    if(!l.length)return '';
+    var W=360,H=330,cx=W/2,cy=H/2,R=118,max=sas[l[0]],poz={};
+    poz[st.w]=[cx,cy];
+    l.forEach(function(i,k){var a=-Math.PI/2+2*Math.PI*k/l.length;poz[i]=[cx+R*Math.cos(a)*1.12,cy+R*Math.sin(a)];});
+    var zb={}; l.forEach(function(i){zb[i]=1;});
+    var kr='', mid={};
+    zd.forEach(function(z){if(z.n.indexOf(st.w)<0)return; var w=z.n.filter(function(i){return zb[i];});
+      for(var a=0;a<w.length;a++)for(var b=a+1;b<w.length;b++){var k=Math.min(w[a],w[b])+'-'+Math.max(w[a],w[b]);mid[k]=(mid[k]||0)+1;}});
+    Object.keys(mid).forEach(function(k){if(mid[k]<2)return;var p=k.split('-'),A=poz[p[0]],B=poz[p[1]];kr+='<line class="pw-mid" x1="'+A[0].toFixed(1)+'" y1="'+A[1].toFixed(1)+'" x2="'+B[0].toFixed(1)+'" y2="'+B[1].toFixed(1)+'" stroke-width="'+(0.5+Math.min(mid[k],8)*0.25).toFixed(2)+'"/>';});
+    l.forEach(function(i){var P=poz[i];kr+='<line class="pw-kr'+(i===st.z?' akt':'')+'" x1="'+cx+'" y1="'+cy+'" x2="'+P[0].toFixed(1)+'" y2="'+P[1].toFixed(1)+'" stroke-width="'+(1+4*sas[i]/max).toFixed(2)+'"/>';});
+    function wz(i,c){var w=D.n[i],P=poz[i],r=c?15:(6+8*Math.sqrt(sas[i]/max)),lab=w.l.length>18?w.l.slice(0,17)+'…':w.l;
+      var ksz=w.t==='t'?'<rect x="'+(P[0]-r).toFixed(1)+'" y="'+(P[1]-r).toFixed(1)+'" width="'+(2*r).toFixed(1)+'" height="'+(2*r).toFixed(1)+'" rx="2"/>':'<circle cx="'+P[0].toFixed(1)+'" cy="'+P[1].toFixed(1)+'" r="'+r.toFixed(1)+'"/>';
+      var dy=P[1]>cy+4&&!c?r+13:-(r+5);
+      return '<g class="pw-w '+KL[w.t]+(c?' srodek':'')+(i===st.z?' akt':'')+'" data-i="'+i+'" tabindex="0" role="button" aria-label="'+esc(w.l)+'">'+ksz+'<text x="'+P[0].toFixed(1)+'" y="'+(P[1]+dy).toFixed(1)+'">'+esc(lab)+(c?'':' ('+sas[i]+')')+'</text></g>';}
+    var g='';l.forEach(function(i){g+=wz(i,false);}); g+=wz(st.w,true);
+    return '<svg class="pw-svg" viewBox="0 0 '+W+' '+H+'" role="img" aria-label="Graf powiązań: '+esc(D.n[st.w].l)+'">'+kr+g+'</svg><p class="pw-uw">Grubość linii = liczba wspólnych pozycji. Graf pokazuje 14 najsilniejszych powiązań; pełna lista poniżej.</p>';
+  }
+  function pozycje(lista){
+    if(!lista.length)return '<p class="uwaga">Brak pozycji w tym okresie — wybierz dłuższy okres.</p>';
+    return '<div class="os">'+lista.slice(0,150).map(function(z){
+      var inne=z.n.filter(function(i){return i!==st.w&&i!==st.z;}).map(function(i){return chip(i,0,' maly');}).join('');
+      return '<article class="poz"><div class="poz-data">'+dk(z.d)+'</div><div class="poz-tresc"><p class="poz-meta">'+(z.a?'<span class="odznaka">analiza</span>':'')+'<a class="z-wydania" href="'+z.u+'">wyd. nr '+z.w+'</a></p>'
+        +(z.k?'<p class="pw-k-t"><a href="'+z.u+'">'+esc(z.k)+'</a></p>':'')+'<p class="pw-x">'+(z.k?esc(z.x):'<a href="'+z.u+'">'+esc(z.x)+'</a>')+'</p>'+(inne?'<p class="pw-inne">'+inne+'</p>':'')+'</div></article>';}).join('')+'</div>'
+      +(lista.length>150?'<p class="uwaga">Pokazano 150 najnowszych z '+lista.length+'.</p>':'');
+  }
+  function rysuj(){
+    document.querySelectorAll('.pw-okres button').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.o===st.o?'true':'false');});
+    podpowiedzi();
+    if(st.w===null){box.innerHTML='';return;}
+    var zd=zakres(), L=licz(zd), w=D.n[st.w], moje=zd.filter(function(z){return z.n.indexOf(st.w)>=0;});
+    var h='<div class="pw-karta '+KL[w.t]+'"><p class="w-nr">'+TYP[w.t]+' · '+moje.length+' poz. w okresie</p><h2>'+esc(w.l)+'</h2><p>'+esc(w.s)+'</p><p class="pw-akcje"><a href="'+w.u+'">'+(w.t==='o'?'Karta osoby':w.t==='p'?'Definicja':'Strona wątku')+' →</a> <a href="#" id="pw-wyczysc">Zmień wybór</a></p></div>';
+    h+=graf(L.sas,L.ile,zd);
+    if(st.z!==null){
+      var z=D.n[st.z], wsp=moje.filter(function(x){return x.n.indexOf(st.z)>=0;});
+      h+='<h2 class="pasek">Co łączy: '+esc(w.l)+' + '+esc(z.l)+' · '+wsp.length+'</h2><p class="pw-akcje"><a href="#" data-przejdz="'+st.z+'">Pokaż wszystkie powiązania: '+esc(z.l)+' →</a> <a href="#" id="pw-bezpary">Wróć do pełnej listy</a></p>'+pozycje(wsp);
+    } else {
+      var s=Object.keys(L.sas).map(Number).sort(function(a,b){return L.sas[b]-L.sas[a];});
+      if(s.length){h+='<h2 class="pasek">Powiązane · '+s.length+'</h2>';
+        ['o','k','t','p'].forEach(function(t){var l=s.filter(function(i){return D.n[i].t===t;});if(l.length)h+='<div class="pw-grupa"><span class="pw-gt">'+({o:'Osoby',k:'Kraje i regiony',t:'Tematy',p:'Pojęcia'})[t]+'</span>'+l.map(function(i){return chip(i,L.sas[i],' para');}).join('')+'</div>';});}
+      h+='<h2 class="pasek">Pozycje · '+moje.length+'</h2>'+pozycje(moje);
+    }
+    box.innerHTML=h; zapisz();
+  }
+  function wybierz(i,para){
+    if(para&&st.w!==null&&i!==st.w){st.z=(st.z===i?null:i);}
+    else{st.w=i;st.z=null;q.value='';}
+    rysuj(); if(!para||st.z===null)box.scrollIntoView({behavior:'smooth',block:'start'});
+  }
+  document.addEventListener('click',function(ev){
+    var t=ev.target.closest('[data-i],[data-przejdz],#pw-wyczysc,#pw-bezpary,.pw-okres button'); if(!t)return;
+    if(t.matches('.pw-okres button')){st.o=t.dataset.o;rysuj();zapisz();return;}
+    ev.preventDefault();
+    if(t.id==='pw-wyczysc'){st.w=null;st.z=null;rysuj();zapisz();q.focus();return;}
+    if(t.id==='pw-bezpary'){st.z=null;rysuj();return;}
+    if(t.dataset.przejdz){wybierz(+t.dataset.przejdz,false);return;}
+    var i=+t.dataset.i, wGrafie=!!t.closest('.pw-svg'), para=wGrafie||t.classList.contains('para');
+    if(wGrafie&&i===st.w)return;
+    wybierz(i,para);
+  });
+  document.addEventListener('keydown',function(ev){if((ev.key==='Enter'||ev.key===' ')&&ev.target.matches('.pw-w')){ev.preventDefault();ev.target.dispatchEvent(new MouseEvent('click',{bubbles:true}));}});
+  q.addEventListener('input',podpowiedzi);
+  fetch('powiazania.json').then(function(r){return r.json();}).then(function(j){D=j;czytaj();rysuj();});
+})();
+</script>"""
+        self.zapisz("powiazania.html", strona("Powiązania", tresc, "", "Graf powiązań osób, krajów, tematów i pojęć z wydań", "powiazania"))
+
     def szukaj(self):
         idx = []
         for w in self.wydania:
@@ -2246,6 +2416,7 @@ class Budowa:
         self.korekty()
         self.ranking_strona()
         self.jak_weryfikujemy()
+        self.powiazania()
         self.szukaj()
         self.rss()
         self.statyczne()

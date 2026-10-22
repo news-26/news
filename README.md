@@ -12,7 +12,7 @@ Treść każdego wydania jest zapisywana raz, jako dane, a strona powstaje z nic
 dane/
   wydania/RRRR-MM-DD.json   jedno wydanie (zarys, analizy, kalendarz, korekty)
   tagi.json                 słownik hashtagów + „Na czym stoimy” dla każdego wątku
-  osoby.json                karty „Kto jest kim” (funkcja ze źródłem i datą weryfikacji)
+  osoby.json                karty „Kto jest kim” (funkcja ze źródłem i datą weryfikacji, kraj)
   pojecia.json              słownik pojęć
   miejsca.json              słownik miejsc zdarzeń (id, nazwa, lon, lat) dla mapy
   terminy.json              kalendarium: najważniejsze wydarzenia międzynarodowe na pół roku naprzód (zakładka kalendarium.html + kalendarium.ics)

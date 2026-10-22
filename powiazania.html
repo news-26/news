@@ -35,7 +35,7 @@ Na grafie widać wszystkich naraz; dotknij węzła, żeby podświetlić jego pow
   <div class="pw-czas"><button type="button" id="pw-play" aria-pressed="false">▶ Odtwórz</button><input id="pw-czas" type="range" min="0" max="0" value="0" aria-label="Data końcowa okresu"><span id="pw-czas-l"></span></div>
   <div id="pw-info" class="pw-info"></div>
 </section>
-<p class="pw-leg"><span class="pw-k pw-o"></span>osoby <span class="pw-k pw-kr"></span>kraje i regiony <span class="pw-k pw-t"></span>tematy <span class="pw-k pw-p"></span>pojęcia <span class="pw-k pw-z"></span>wydarzenia</p>
+<p class="pw-leg"><span class="pw-k pw-o"></span>osoby <span class="pw-k pw-kr"></span>kraje i regiony <span class="pw-k pw-t"></span>tematy <span class="pw-k pw-p"></span>pojęcia <span class="pw-k pw-z"></span>wydarzenia · linia przerywana: kraj lub organizacja z karty osoby</p>
 <div id="pw-podp" class="pw-chipy"></div>
 <section id="pw-wybor"></section>
 <script>
@@ -54,6 +54,7 @@ Na grafie widać wszystkich naraz; dotknij węzła, żeby podświetlić jego pow
   function licz(zd){
     var ile={}, sas={};
     zd.forEach(function(z){z.n.forEach(function(a){ile[a]=(ile[a]||0)+1; if(a===st.w){z.n.forEach(function(b){if(b!==a)sas[b]=(sas[b]||0)+1;});}});});
+    (D.s||[]).forEach(function(p){if(p[0]===st.w&&!(p[1] in sas))sas[p[1]]=0;if(p[1]===st.w&&!(p[0] in sas))sas[p[0]]=0;});
     return {ile:ile,sas:sas};
   }
   function chip(i,n,dod){var w=D.n[i];return '<a href="#" class="pw-chip '+KL[w.t]+(dod||'')+'" data-i="'+i+'">'+esc(w.l)+(n?' <span>'+n+'</span>':'')+'</a>';}
@@ -79,7 +80,7 @@ Na grafie widać wszystkich naraz; dotknij węzła, żeby podświetlić jego pow
   function graf(sas,ile,zd){
     var l=Object.keys(sas).map(Number).sort(function(a,b){return sas[b]-sas[a]||(ile[b]||0)-(ile[a]||0);}).slice(0,14);
     if(!l.length)return '';
-    var W=360,H=330,cx=W/2,cy=H/2,R=118,max=sas[l[0]],poz={};
+    var W=360,H=330,cx=W/2,cy=H/2,R=118,max=Math.max(1,sas[l[0]]),poz={};
     poz[st.w]=[cx,cy];
     l.forEach(function(i,k){var a=-Math.PI/2+2*Math.PI*k/l.length;poz[i]=[cx+R*Math.cos(a)*1.12,cy+R*Math.sin(a)];});
     var zb={}; l.forEach(function(i){zb[i]=1;});
@@ -87,13 +88,13 @@ Na grafie widać wszystkich naraz; dotknij węzła, żeby podświetlić jego pow
     zd.forEach(function(z){if(z.n.indexOf(st.w)<0)return; var w=z.n.filter(function(i){return zb[i];});
       for(var a=0;a<w.length;a++)for(var b=a+1;b<w.length;b++){var k=Math.min(w[a],w[b])+'-'+Math.max(w[a],w[b]);mid[k]=(mid[k]||0)+1;}});
     Object.keys(mid).forEach(function(k){if(mid[k]<2)return;var p=k.split('-'),A=poz[p[0]],B=poz[p[1]];kr+='<line class="pw-mid" x1="'+A[0].toFixed(1)+'" y1="'+A[1].toFixed(1)+'" x2="'+B[0].toFixed(1)+'" y2="'+B[1].toFixed(1)+'" stroke-width="'+(0.5+Math.min(mid[k],8)*0.25).toFixed(2)+'"/>';});
-    l.forEach(function(i){var P=poz[i];kr+='<line class="pw-kr'+(i===st.z?' akt':'')+'" x1="'+cx+'" y1="'+cy+'" x2="'+P[0].toFixed(1)+'" y2="'+P[1].toFixed(1)+'" stroke-width="'+(1+4*sas[i]/max).toFixed(2)+'"/>';});
-    function wz(i,c){var w=D.n[i],P=poz[i],r=c?15:(6+8*Math.sqrt(sas[i]/max)),lab=w.l.length>18?w.l.slice(0,17)+'…':w.l;
+    l.forEach(function(i){var P=poz[i];kr+='<line class="pw-kr'+(i===st.z?' akt':'')+'" x1="'+cx+'" y1="'+cy+'" x2="'+P[0].toFixed(1)+'" y2="'+P[1].toFixed(1)+'" stroke-width="'+(1+4*sas[i]/max).toFixed(2)+'"'+(sas[i]?'':' stroke-dasharray="4 4"')+'/>';});
+    function wz(i,c){var w=D.n[i],P=poz[i],r=c?15:(6+8*Math.sqrt(Math.max(sas[i],0.3)/max)),lab=w.l.length>18?w.l.slice(0,17)+'…':w.l;
       var ksz=w.t==='t'?'<rect x="'+(P[0]-r).toFixed(1)+'" y="'+(P[1]-r).toFixed(1)+'" width="'+(2*r).toFixed(1)+'" height="'+(2*r).toFixed(1)+'" rx="2"/>':'<circle cx="'+P[0].toFixed(1)+'" cy="'+P[1].toFixed(1)+'" r="'+r.toFixed(1)+'"/>';
       var dy=P[1]>cy+4&&!c?r+13:-(r+5);
-      return '<g class="pw-w '+KL[w.t]+(c?' srodek':'')+(i===st.z?' akt':'')+'" data-i="'+i+'" tabindex="0" role="button" aria-label="'+esc(w.l)+'">'+ksz+'<text x="'+P[0].toFixed(1)+'" y="'+(P[1]+dy).toFixed(1)+'">'+esc(lab)+(c?'':' ('+sas[i]+')')+'</text></g>';}
+      return '<g class="pw-w '+KL[w.t]+(c?' srodek':'')+(i===st.z?' akt':'')+'" data-i="'+i+'" tabindex="0" role="button" aria-label="'+esc(w.l)+'">'+ksz+'<text x="'+P[0].toFixed(1)+'" y="'+(P[1]+dy).toFixed(1)+'">'+esc(lab)+(c||!sas[i]?'':' ('+sas[i]+')')+'</text></g>';}
     var g='';l.forEach(function(i){g+=wz(i,false);}); g+=wz(st.w,true);
-    return '<svg class="pw-svg" viewBox="0 0 '+W+' '+H+'" role="img" aria-label="Graf powiązań: '+esc(D.n[st.w].l)+'">'+kr+g+'</svg><p class="pw-uw">Grubość linii = liczba wspólnych pozycji. Graf pokazuje 14 najsilniejszych powiązań; pełna lista poniżej.</p>';
+    return '<svg class="pw-svg" viewBox="0 0 '+W+' '+H+'" role="img" aria-label="Graf powiązań: '+esc(D.n[st.w].l)+'">'+kr+g+'</svg><p class="pw-uw">Grubość linii = liczba wspólnych pozycji; linia przerywana = kraj lub organizacja z karty osoby. Graf pokazuje 14 najsilniejszych powiązań; pełna lista poniżej.</p>';
   }
   function pozycje(lista){
     if(!lista.length)return '<p class="uwaga">Brak pozycji w tym okresie — wybierz dłuższy okres.</p>';
@@ -162,6 +163,8 @@ Na grafie widać wszystkich naraz; dotknij węzła, żeby podświetlić jego pow
     zd.forEach(function(z){z.n.forEach(function(a){ile[a]=(ile[a]||0)+1;});});
     function dodaj(key,typ,ref,c){var p=G.poz[key];idx[key]=n.length;n.push({key:key,typ:typ,ref:ref,c:c,x:p?p.x:NaN,y:p?p.y:NaN,vx:0,vy:0});}
     Object.keys(ile).forEach(function(a){a=+a;if(G.typy[D.n[a].t])dodaj('e'+a,D.n[a].t,a,ile[a]);});
+    var stale=(D.s||[]).filter(function(p){return idx['e'+p[0]]!==undefined&&G.typy[D.n[p[1]].t];});
+    stale.forEach(function(p){if(idx['e'+p[1]]===undefined)dodaj('e'+p[1],D.n[p[1]].t,p[1],ile[p[1]]||0);});
     if(G.zd){
       zd.forEach(function(z){var ent=z.n.filter(function(a){return idx['e'+a]!==undefined;});if(!ent.length)return;
         var key='z'+z.u;dodaj(key,'z',z,1);ent.forEach(function(a){l.push({s:idx[key],t:idx['e'+a],w:1});});});
@@ -172,8 +175,9 @@ Na grafie widać wszystkich naraz; dotknij węzła, żeby podświetlić jego pow
       var ks=Object.keys(pw);
       ks.forEach(function(k){var p=k.split('-');l.push({s:idx['e'+p[0]],t:idx['e'+p[1]],w:pw[k]});});
     }
+    stale.forEach(function(p){var a=p[0],c=p[1],k=a<c?a+'-'+c:c+'-'+a;if(!G.zd&&pw[k])return;l.push({s:idx['e'+a],t:idx['e'+c],w:1,st:1});});
     var adj=n.map(function(){return {};});
-    l.forEach(function(e){adj[e.s][e.t]=e.w;adj[e.t][e.s]=e.w;});
+    l.forEach(function(e){var v=e.st?0:e.w;if(adj[e.s][e.t]===undefined||v>adj[e.s][e.t]){adj[e.s][e.t]=v;adj[e.t][e.s]=v;}});
     var nowe=0;
     n.forEach(function(w,i){if(!isNaN(w.x))return;nowe++;
       var s=Object.keys(adj[i]).map(Number).filter(function(j){return !isNaN(n[j].x);})[0];
@@ -215,14 +219,14 @@ Na grafie widać wszystkich naraz; dotknij węzła, żeby podświetlić jego pow
     G.l.forEach(function(e){var s=n[e.s],t=n[e.t],on=hi>=0&&(e.s===hi||e.t===hi);
       X.globalAlpha=hi>=0?(on?0.85:0.04):Math.min(0.55,e.w<2?0.08:0.12+0.08*e.w);
       X.strokeStyle=on?K.hl:K.li;X.lineWidth=(on?1.2:0.5)*(0.6+0.45*Math.min(e.w,8))/k;
-      X.beginPath();X.moveTo(s.x,s.y);X.lineTo(t.x,t.y);X.stroke();});
-    n.forEach(function(w,i){var r=promien(w);X.globalAlpha=(hi<0||i===hi||sas[i])?1:0.15;X.fillStyle=K[w.typ]||K.z;
+      X.setLineDash(e.st?[4/k,4/k]:[]);X.beginPath();X.moveTo(s.x,s.y);X.lineTo(t.x,t.y);X.stroke();});X.setLineDash([]);
+    n.forEach(function(w,i){var r=promien(w);X.globalAlpha=(hi<0||i===hi||(i in sas))?1:0.15;X.fillStyle=K[w.typ]||K.z;
       X.beginPath();if(w.typ==='t')X.rect(w.x-r*.9,w.y-r*.9,r*1.8,r*1.8);else X.arc(w.x,w.y,r,0,6.2832);X.fill();
       X.lineWidth=(i===hi?3:1.5)/k;X.strokeStyle=i===hi?K.hl:K.bg;X.stroke();});
     X.restore();X.globalAlpha=1;
     // etykiety w układzie ekranu, bez nakładania się
     var kand=[];n.forEach(function(w,i){if(w.typ==='z'&&i!==hi)return;var r=promien(w)*k,pr;
-      if(i===hi)pr=1e6;else if(sas&&sas[i])pr=1e5+w.c;else if(hi>=0)return;else if(r>=8||k>=1.8)pr=w.c;else return;kand.push([pr,i]);});
+      if(i===hi)pr=1e6;else if(sas&&(i in sas))pr=1e5+w.c;else if(hi>=0)return;else if(r>=8||k>=1.8)pr=w.c;else return;kand.push([pr,i]);});
     kand.sort(function(a,b){return b[0]-a[0];});
     var zaj=[];X.font='600 12px system-ui,-apple-system,sans-serif';X.textAlign='center';X.textBaseline='top';X.lineJoin='round';
     kand.forEach(function(c){var w=n[c[1]],lab=w.typ==='z'?(w.ref.k||w.ref.x):D.n[w.ref].l;if(lab.length>26)lab=lab.slice(0,25)+'…';
@@ -242,7 +246,7 @@ Na grafie widać wszystkich naraz; dotknij węzła, żeby podświetlić jego pow
         +'<p class="pw-inne">'+s.map(function(j){return '<a href="#" class="pw-chip maly '+KL[G.n[j].typ]+'" data-g="'+G.n[j].key+'">'+esc(D.n[G.n[j].ref].l)+'</a>';}).join('')+'</p>';
     } else {var d=D.n[w.ref];
       h='<p class="w-nr">'+TYP[d.t]+' · '+w.c+' poz. w okresie</p><h3>'+esc(d.l)+'</h3><p class="pw-s">'+esc(d.s)+'</p>'
-        +(G.zd?'':'<p class="pw-inne">'+s.slice(0,12).map(function(j){var v=G.n[j];return '<a href="#" class="pw-chip maly '+KL[v.typ]+'" data-g="'+v.key+'">'+esc(D.n[v.ref].l)+' <span>'+G.adj[i][j]+'</span></a>';}).join('')+'</p>')
+        +(G.zd?'':'<p class="pw-inne">'+s.slice(0,12).map(function(j){var v=G.n[j];return '<a href="#" class="pw-chip maly '+KL[v.typ]+'" data-g="'+v.key+'">'+esc(D.n[v.ref].l)+(G.adj[i][j]?' <span>'+G.adj[i][j]+'</span>':'')+'</a>';}).join('')+'</p>')
         +'<p class="pw-akcje"><a href="#" data-szcz="'+w.ref+'">Szczegóły i wszystkie pozycje ↓</a><a href="'+d.u+'">'+(d.t==='o'?'Karta osoby':d.t==='p'?'Definicja':'Strona wątku')+' →</a></p>';}
     INFO.innerHTML=h;
   }

@@ -8,7 +8,8 @@
     "Kreml deklaruje gotowość do wznowienia **rozmów trójstronnych** USA–Rosja–Ukraina w połowie listopada, po amerykańskich wyborach połówkowych; terminu i miejsca nie uzgodniono.",
     "Niemcy zatrzymały w Brandenburgii Ukraińca podejrzanego o szpiegostwo na rzecz Rosji, który zbierał dane o przemyśle zbrojeniowym i obiektach wojskowych na wschodniej flance NATO.",
     "We Francji {{o:emmanuel-macron|Macron}} zwołuje na 23.10 radę obrony i zapowiada zakaz „nielegalnych” demonstracji przed protestami zapowiedzianymi na 24.10; w Marsylii i Lyonie zakazano wszystkich manifestacji.",
-    "Incydentów w Polsce i przy jej granicach, które spełniałyby kryteria pozycji, w dostępnych komunikatach nie znaleziono (szczegóły w nocie); kilka tematów z Polską w tle jest w sekcji „W obserwacji”."
+    "Incydentów w Polsce i przy jej granicach, które spełniałyby kryteria pozycji, w dostępnych komunikatach nie znaleziono (szczegóły w nocie); kilka tematów z Polską w tle jest w sekcji „W obserwacji”.",
+    "Premier Tusk z wizytą w Indiach (21–23.10): wspólne oświadczenie z premierem Modim zakłada podwojenie wymiany handlowej do 2030 r., dialog przemysłów obronnych i szybkie podpisanie umowy o wolnym handlu UE–Indie."
   ],
   "korekty": [],
   "zarys": [
@@ -120,6 +121,25 @@
         {
           "nazwa": "France 24",
           "url": "https://www.france24.com/en/europe/20261022-live-paris-bans-protests-after-violent-unrest-as-macron-takes-swipe-at-trump",
+          "data": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "polska",
+      "data": "2026-10-22",
+      "tagi": [
+        "dyplomacja-rp",
+        "ue"
+      ],
+      "miejsce": "nowe-delhi",
+      "krotko": "Tusk w Indiach: wspólne oświadczenie z Modim",
+      "tekst": "Premier {{o:donald-tusk|Donald Tusk}} przebywa 21–23.10 z oficjalną wizytą w Indiach, z delegacją ok. 100 prezesów i przedstawicieli firm. Po rozmowach z premierem Narendrą Modim 22.10 oba rządy przyjęły wspólne oświadczenie: cel **podwojenia wymiany handlowej do 2030 r.**, propozycja dialogu przemysłów obronnych, zapowiedź podpisania „wkrótce” umowy o wzajemnej ochronie informacji niejawnych, wezwanie do szybkiego podpisania i ratyfikacji umowy o wolnym handlu UE–Indie oraz do „kompleksowego, sprawiedliwego i trwałego pokoju” w Ukrainie zgodnie z prawem międzynarodowym (Rosja nie jest w tekście wymieniona). Następstwo: Polska przystąpi do Koalicji na rzecz Infrastruktury Odpornej na Katastrofy (CDRI); umowy o archiwach państwowych oraz o kulturze, nauce i szkolnictwie wyższym mają być podpisane później, a memorandum o geologii i surowcach krytycznych jest w negocjacjach.",
+      "zrodla": [
+        {
+          "nazwa": "Rząd Indii (pmindia.gov.in) – wspólne oświadczenie Indie–Polska",
+          "url": "https://www.pmindia.gov.in/en/news_updates/india-poland-joint-statement/",
           "data": "2026-10-22"
         }
       ]

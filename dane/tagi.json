@@ -177,9 +177,14 @@
       "nazwa": "DyplomacjaRP",
       "grupa": "temat",
       "opis": "Polityka zagraniczna Polski, wizyty, spory kompetencyjne.",
-      "stan": "20.10 Tusk zapowiedział wyjaśnienie z Litwą incydentu z dronem i zażądał wyjaśnień od Ukrainy. Po ataku osadników na konwój dyplomatów (17.10, Zachodni Brzeg) MSZ podało, że Polacy nie ucierpieli; izraelska policja zatrzymała 8 osób.",
-      "stan_data": "2026-10-20",
+      "stan": "22.10 Tusk z oficjalną wizytą w Indiach (21–23.10); wspólne oświadczenie z Modim: podwojenie wymiany handlowej do 2030 r., dialog przemysłów obronnych, szybkie podpisanie umowy o wolnym handlu UE–Indie. 20.10 Tusk zapowiedział wyjaśnienie z Litwą incydentu z dronem i zażądał wyjaśnień od Ukrainy.",
+      "stan_data": "2026-10-22",
       "stan_zrodla": [
+        {
+          "nazwa": "Rząd Indii (pmindia.gov.in) – wspólne oświadczenie Indie–Polska",
+          "url": "https://www.pmindia.gov.in/en/news_updates/india-poland-joint-statement/",
+          "data": "2026-10-22"
+        },
         {
           "nazwa": "PAP (za RMF24)",
           "url": "https://www.rmf24.pl/fakty/polska/news-dron-eksplodowal-na-litwie-mial-przyleciec-z-polski-tusk-nie,nIdn,1022662",
@@ -189,11 +194,6 @@
           "nazwa": "Kyiv Independent",
           "url": "https://kyivindependent.com/poland-to-demand-explanation-from-ukraine-over-drone-incident-in-lithuania/",
           "data": "2026-10-20"
-        },
-        {
-          "nazwa": "PAP",
-          "url": "https://www.pap.pl/en/news/israeli-settlers-attack-diplomats-including-poles-western-bank",
-          "data": "2026-10-18"
         }
       ]
     },

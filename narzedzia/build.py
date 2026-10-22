@@ -2203,7 +2203,8 @@ class Budowa:
         zdarzenia.sort(key=lambda z: z["d"], reverse=True)
         stale = [[indeks[f"o:{oid}"], indeks[f"t:{t}"]] for oid, o in self.osoby.items()
                  for t in o.get("kraj", []) if f"t:{t}" in indeks]
-        uzyte = sorted({i for z in zdarzenia for i in z["n"]})
+        uzyte = {i for z in zdarzenia for i in z["n"]}
+        uzyte = sorted(uzyte | {k for o_, k in stale if o_ in uzyte})
         nowy = {s: i for i, s in enumerate(uzyte)}
         for z in zdarzenia:
             z["n"] = [nowy[i] for i in z["n"]]

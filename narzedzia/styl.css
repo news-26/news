@@ -569,3 +569,23 @@ button.kal-strz[disabled] { color: var(--linia); cursor: default; }
 .pw-k-t { margin: 2px 0; font-weight: 600; }
 .pw-x { margin: 2px 0; font-size: 16px; }
 .pw-inne { margin: 6px 0 0; }
+/* pełny graf powiązań */
+.pw-graf { background: var(--karta); border: 1px solid var(--linia); border-radius: 6px; margin: 8px 0 10px; overflow: hidden; }
+.pw-nar { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; padding: 8px; border-bottom: 1px solid var(--linia); }
+.pw-nar-r { margin-left: auto; display: inline-flex; gap: 6px; }
+.pw-nar button, .pw-czas button { font: 13px/1 var(--sans); padding: 7px 10px; border: 1px solid var(--linia); border-radius: 14px; background: var(--karta); color: var(--tekst); cursor: pointer; }
+.pw-nar button[aria-pressed="true"] { background: var(--atrament); color: var(--papier); border-color: var(--atrament); }
+.pw-nar button[aria-pressed="false"] { color: var(--szary); text-decoration: line-through; }
+.pw-nar #pw-zd[aria-pressed="false"] { text-decoration: none; }
+#pw-cv { display: block; width: 100%; height: min(68vh, 560px); touch-action: none; cursor: grab; background: var(--papier); }
+.pw-czas { display: flex; align-items: center; gap: 10px; padding: 8px; border-top: 1px solid var(--linia); font: 13px/1.3 var(--sans); color: var(--szary); }
+.pw-czas input { flex: 1; accent-color: var(--czerwien); min-width: 0; }
+#pw-czas-l { flex: none; min-width: 112px; text-align: right; font-variant-numeric: tabular-nums; }
+.pw-info { padding: 4px 12px 8px; border-top: 1px solid var(--linia); min-height: 40px; }
+.pw-info h3 { margin: 2px 0; }
+.pw-info .pw-s { margin: 2px 0 6px; font-size: 16px; }
+.pw-info .pw-akcje a { display: inline-block; margin: 2px 14px 2px 0; }
+.pw-k.pw-z { color: var(--szary); width: 7px; height: 7px; }
+.pw-graf.pelny { position: fixed; inset: 0; z-index: 50; margin: 0; border: 0; border-radius: 0; display: flex; flex-direction: column; }
+.pw-graf.pelny #pw-cv { flex: 1; height: auto; min-height: 0; }
+.pw-graf.pelny .pw-info { max-height: 34vh; overflow-y: auto; }

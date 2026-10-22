@@ -2353,8 +2353,8 @@ Na grafie widać wszystkich naraz; dotknij węzła, żeby podświetlić jego pow
       var pw={};
       zd.forEach(function(z){var ent=z.n.filter(function(a){return idx['e'+a]!==undefined;});
         for(var i=0;i<ent.length;i++)for(var j=i+1;j<ent.length;j++){var k=ent[i]<ent[j]?ent[i]+'-'+ent[j]:ent[j]+'-'+ent[i];pw[k]=(pw[k]||0)+1;}});
-      var ks=Object.keys(pw), min=ks.length>900?2:1;
-      ks.forEach(function(k){if(pw[k]<min)return;var p=k.split('-');l.push({s:idx['e'+p[0]],t:idx['e'+p[1]],w:pw[k]});});
+      var ks=Object.keys(pw);
+      ks.forEach(function(k){var p=k.split('-');l.push({s:idx['e'+p[0]],t:idx['e'+p[1]],w:pw[k]});});
     }
     var adj=n.map(function(){return {};});
     l.forEach(function(e){adj[e.s][e.t]=e.w;adj[e.t][e.s]=e.w;});
@@ -2397,7 +2397,7 @@ Na grafie widać wszystkich naraz; dotknij węzła, żeby podświetlić jego pow
     if(!n.length){X.fillStyle=K.z;X.font='14px system-ui,sans-serif';X.textAlign='center';X.fillText('Brak pozycji w tym okresie',G.W/2,G.H/2);return;}
     X.save();X.translate(G.tx,G.ty);X.scale(k,k);X.lineCap='round';
     G.l.forEach(function(e){var s=n[e.s],t=n[e.t],on=hi>=0&&(e.s===hi||e.t===hi);
-      X.globalAlpha=hi>=0?(on?0.85:0.05):Math.min(0.55,0.12+0.08*e.w);
+      X.globalAlpha=hi>=0?(on?0.85:0.04):Math.min(0.55,e.w<2?0.08:0.12+0.08*e.w);
       X.strokeStyle=on?K.hl:K.li;X.lineWidth=(on?1.2:0.5)*(0.6+0.45*Math.min(e.w,8))/k;
       X.beginPath();X.moveTo(s.x,s.y);X.lineTo(t.x,t.y);X.stroke();});
     n.forEach(function(w,i){var r=promien(w);X.globalAlpha=(hi<0||i===hi||sas[i])?1:0.15;X.fillStyle=K[w.typ]||K.z;

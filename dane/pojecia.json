@@ -263,13 +263,13 @@
       "id": "starshield",
       "nazwa": "Starshield",
       "pelna": "Starshield (SpaceX)",
-      "definicja": "Wojskowa wersja usług satelitarnych Starlink, dostarczana przez SpaceX rządowi USA; korzysta z niej m.in. ukraińskie wojsko, a dostęp i ograniczenia ustala strona amerykańska."
+      "definicja": "Wojskowo-rządowa odmiana systemu satelitarnego Starlink, którą SpaceX buduje i obsługuje dla instytucji USA (m.in. Pentagonu i agencji wywiadu satelitarnego NRO); dostęp i ograniczenia ustala strona amerykańska."
     },
     {
       "id": "fii",
       "nazwa": "FII",
       "pelna": "Future Investment Initiative",
-      "definicja": "Coroczna konferencja inwestorska w Rijadzie organizowana przez saudyjski fundusz państwowy PIF, nazywana „Davos na pustyni”."
+      "definicja": "Coroczna konferencja inwestorska w Rijadzie, organizowana przez fundację FII Institute wspieraną przez saudyjski fundusz państwowy PIF; nazywana „Davos na pustyni”."
     },
     {
       "id": "klaster-negocjacyjny",
@@ -287,7 +287,7 @@
       "id": "africa-cdc",
       "nazwa": "Africa CDC",
       "pelna": "Afrykańskie Centra Kontroli i Zapobiegania Chorobom",
-      "definicja": "Agenda zdrowia publicznego Unii Afrykańskiej z siedzibą w Addis Abebie; koordynuje reakcję państw afrykańskich na epidemie."
+      "definicja": "Wyspecjalizowana agencja techniczna Unii Afrykańskiej ds. zdrowia publicznego z siedzibą w Addis Abebie; koordynuje reakcję państw afrykańskich na epidemie."
     },
     {
       "id": "ecdc",
@@ -299,7 +299,7 @@
       "id": "saceur",
       "nazwa": "SACEUR",
       "pelna": "Naczelny Dowódca Sił Sojuszniczych NATO w Europie",
-      "definicja": "Najwyższy dowódca wojskowy NATO, kierujący operacjami Sojuszu z dowództwa SHAPE w Mons (Belgia); tradycyjnie generał amerykański, jednocześnie dowódca EUCOM."
+      "definicja": "Jeden z dwóch dowódców strategicznych NATO – odpowiada za operacje Sojuszu i kieruje dowództwem SHAPE w Mons (Belgia); tradycyjnie generał amerykański, jednocześnie dowódca EUCOM."
     },
     {
       "id": "huti",

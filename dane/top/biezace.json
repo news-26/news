@@ -1,12 +1,12 @@
 {
- "od": "2026-10-14",
- "do": "2026-10-20",
- "opublikowano": "2026-10-21",
- "godzina": "06:48",
- "tytul": "Top 10: ostatnie 7 dni (14–20.10.2026)",
+ "od": "2026-10-15",
+ "do": "2026-10-21",
+ "opublikowano": "2026-10-22",
+ "godzina": "06:30",
+ "tytul": "Top 10: ostatnie 7 dni (15–21.10.2026)",
  "wstep": [
-  "Najważniejsze sprawy z ostatnich 7 dni (14–20.10.2026) – w tym tygodniu osiem spełnia kryteria. Każda ma przebieg z datami i źródłami oraz wniosek „Dla Polski”; starsze sprawy są w archiwum miesięcznym.",
-  "Oś tygodnia to **zależność Ukrainy od USA**: SpaceX ograniczył Starshield, a Trump w dużej mierze uchylił nowy amerykański pakiet sankcji i oświadczył, że wstrzymał kolejne. Na Morzu Czarnym rumuńskie F-16 zestrzeliły drony, a dron, który wybuchł na Litwie, według Wilna wleciał z Polski – Warszawa tego nie potwierdza, a premier Tusk zapowiedział żądanie wyjaśnień od Kijowa."
+  "Najważniejsze sprawy z ostatnich 7 dni (15–21.10.2026) – w tym tygodniu osiem spełnia kryteria. Każda ma przebieg z datami i źródłami oraz wniosek „Dla Polski”; starsze sprawy są w archiwum miesięcznym.",
+  "Oś tygodnia to **zależność Ukrainy od USA**: SpaceX ograniczył Starshield, a Trump w dużej mierze uchylił nowy amerykański pakiet sankcji i oświadczył, że wstrzymał kolejne. Na Morzu Czarnym rumuńskie F-16 zestrzeliły drony, a dron, który wybuchł na Litwie, według Wilna wleciał z Polski – Warszawa tego nie potwierdza, a premier Tusk zapowiedział żądanie wyjaśnień od Kijowa. Do tego we Francji po zamieszkach rentowność obligacji przekroczyła 5% po raz pierwszy od 2002 roku."
  ],
  "kryteria": "Do zestawienia trafia wydarzenie, które spełnia trzy warunki: zmieniło stan rzeczy w ostatnich 7 dniach (zapadła decyzja, zmieniła się władza, powstała nowa zdolność wojskowa albo incydent miał realne następstwo – retoryka i zapowiedzi bez terminu nie wystarczą), ma konkretny skutek dla Polski lub Europy albo dla sytuacji międzynarodowej i jest udokumentowane w co najmniej dwóch pozycjach wydań dziennych. Przy wątkach trwających miesiącami liczy się zmiana w tygodniu, a nie sam wątek; tytuł opisuje najnowszy fakt. Gdy kryteria spełnia mniej niż dziesięć spraw, lista jest krótsza. Kolejność ustala redakcja według wpływu na bezpieczeństwo i interesy Polski, potem skali, potem trwałości skutków. Ranking jest więc oceną, a nie faktem; fakty mają źródła, oceny – autora.",
  "pozycje": [
@@ -718,20 +718,21 @@
   },
   {
    "id": "francja-zamieszki",
-   "tytul": "Po zamieszkach po protestach przeciw kosztom życia premier Francji zarządza częściowe godziny policyjne, zapowiada kolejne i operację z udziałem wojska na sobotnie protesty",
+   "tytul": "Rentowność francuskich obligacji przekracza 5% po raz pierwszy od 2002 roku; po zamieszkach premier zarządza częściowe godziny policyjne i operację z udziałem wojska na sobotnie protesty",
    "data": [
     "2026-10-19",
-    "2026-10-20"
+    "2026-10-21"
    ],
    "tagi": [
     "francja",
     "ue"
    ],
    "etap": "W TOKU",
-   "lead": "Po protestach przeciw kosztom życia 17.10 doszło we Francji do **zamieszek i grabieży**; według rządu zatrzymano ok. 1200 osób, a po kolejnym weekendzie – ponad 2300. 19.10 premier Sébastien Lecornu wezwał władze regionalne do wprowadzenia częściowych **godzin policyjnych** (Lille, część Paryża) i powiedział, że jest gotów ogłosić stan wyjątkowy, „jeśli będzie trzeba”. 20.10 Lecornu zapowiedział **kolejne lokalne godziny policyjne** i „masową” operację bezpieczeństwa na sobotnie protesty, w której żołnierze operacji Sentinelle wesprą policję.",
+   "lead": "Po protestach przeciw kosztom życia 17.10 doszło we Francji do **zamieszek i grabieży**; według rządu zatrzymano ok. 1200 osób, a po kolejnym weekendzie – ponad 2300. 19.10 premier Sébastien Lecornu wezwał władze regionalne do wprowadzenia częściowych **godzin policyjnych** (Lille, część Paryża) i powiedział, że jest gotów ogłosić stan wyjątkowy, „jeśli będzie trzeba”. 20.10 Lecornu zapowiedział **kolejne lokalne godziny policyjne** i „masową” operację bezpieczeństwa na sobotnie protesty, w której żołnierze operacji Sentinelle wesprą policję. 21.10 rentowność francuskich 10-letnich obligacji skarbowych przekroczyła **5%** – po raz pierwszy od 2002 roku.",
    "omowienie": [
     "17.10 część demonstracji (550–800 tys. uczestników według różnych szacunków) przerodziła się w zamieszki: spłonął zabytkowy ratusz w Limoges, podpalono biuro turystyczne w Lyonie, wdarto się do ratuszy m.in. w Marsylii, Lille i Angers; rannych zostało ok. 150 policjantów i żandarmów.",
-    "19.10 minister spraw wewnętrznych Laurent Nuñez przyznał, że policja „straciła kontrolę”, i zaoferował dymisję, której prezydent Macron nie przyjął; według ministra sprawiedliwości Darmanina niemal tysiąc funkcjonariuszy odniosło obrażenia."
+    "19.10 minister spraw wewnętrznych Laurent Nuñez przyznał, że policja „straciła kontrolę”, i zaoferował dymisję, której prezydent Macron nie przyjął; według ministra sprawiedliwości Darmanina niemal tysiąc funkcjonariuszy odniosło obrażenia.",
+    "21.10 różnica rentowności wobec obligacji niemieckich wzrosła do ok. 1,6 pkt proc. (AFP); dług Francji to prawie 120% PKB, a rząd Lecornu bez większości w parlamencie próbuje przeforsować budżet na 2027 rok z cięciami. Inwestorzy czekają na decyzję Moody's ws. ratingu Francji (23.10)."
    ],
    "przebieg": [
     {
@@ -794,6 +795,22 @@
        "data": "2026-10-20"
       }
      ]
+    },
+    {
+     "data": "2026-10-21",
+     "tekst": "Rentowność francuskich 10-letnich obligacji skarbowych przekroczyła 5% – po raz pierwszy od 2002 roku; różnica wobec obligacji niemieckich wzrosła do ok. 1,6 pkt proc. Inwestorzy czekają na decyzję agencji Moody's ws. ratingu Francji w piątek 23.10.",
+     "zrodla": [
+      {
+       "nazwa": "France 24 (za AFP)",
+       "url": "https://www.france24.com/en/live-news/20261021-five-things-to-know-as-french-bond-yield-tops-5",
+       "data": "2026-10-21"
+      },
+      {
+       "nazwa": "Euronews (za AFP)",
+       "url": "https://www.euronews.com/2026/10/21/french-government-10-year-bond-yield-tops-5-for-first-time-since-2002",
+       "data": "2026-10-21"
+      }
+     ]
     }
    ],
    "oceny": [],
@@ -801,7 +818,8 @@
    "w_wydaniach": [
     "2026-10-18#z4",
     "2026-10-19#z5",
-    "2026-10-20#z6"
+    "2026-10-20#z6",
+    "2026-10-21#z3"
    ]
   }
  ],
@@ -811,17 +829,21 @@
    "prog": "następstwo"
   },
   {
-   "tekst": "Słowa sekretarza stanu Marco Rubio o „60-dniowej pauzie” w sankcjach (18.10) – jedno źródło z poziomów 1–2.",
-   "prog": "dokumentacja"
-  },
-  {
    "tekst": "Sprawy z poprzednich tygodni bez nowych faktów w oknie (groźba jądrowa w sprawie Królewca, drony przy polskiej granicy, mediacja USA, Duma i armia Rosji, Ormuz, Białoruś, AfD) – trafią do archiwum za październik 2026.",
    "prog": "następstwo"
   },
   {
    "tekst": "Atak na konwój dyplomatów (w tym polskich) na Zachodnim Brzegu (17.10, zatrzymanie 8 osób 19.10) – Polacy nie ucierpieli, brak decyzji o następstwach.",
    "prog": "następstwo"
+  },
+  {
+   "tekst": "Spotkanie Putina z Witkoffem i uwolnienie Amerykanina Stephena Hubbarda (21.10) oraz propozycja Zełenskiego zamrożenia frontu (21.10) – Kreml deklaruje gotowość do rozmów trójstronnych bez terminu, Kijów nie odniósł się do spotkania; zapowiedzi bez decyzji.",
+   "prog": "następstwo"
+  },
+  {
+   "tekst": "Dekret bezpieczeństwa we Włoszech i 500 żołnierzy w Mediolanie (20.10) – środek krajowy, bez skutku dla Polski poza tłem zamieszek w Europie.",
+   "prog": "następstwo"
   }
  ],
- "nota": "Zestawienie kroczące za 13–19.10.2026. Weszły dwie nowe sprawy: dron na Litwie (spór o trasę przelotu z Polski) i zamieszki we Francji z godzinami policyjnymi; w sprawie sankcji doszło oświadczenie Trumpa o wstrzymaniu kolejnych; nocny atak na Kijów z 19.10 i zaprzeczenie Rubio w sprawie danych wywiadowczych mają na razie jedno źródło z poziomów 1–2 i nie weszły do przebiegów. Fakty pochodzą z wydań dziennych i ich źródeł; kolejność to ocena redakcji."
+ "nota": "Zestawienie kroczące za 15–21.10.2026. Nowych spraw nie przybyło; w sprawie Francji doszła rentowność obligacji powyżej 5% (21.10), a tytuł i data zostały zaktualizowane. Spotkanie Putin–Witkoff i propozycja Zełenskiego dotyczące zamrożenia frontu to na razie zapowiedzi bez terminu. Fakty pochodzą z wydań dziennych i ich źródeł; kolejność to ocena redakcji."
 }

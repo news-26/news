@@ -589,3 +589,27 @@ button.kal-strz[disabled] { color: var(--linia); cursor: default; }
 .pw-graf.pelny { position: fixed; inset: 0; z-index: 50; margin: 0; border: 0; border-radius: 0; display: flex; flex-direction: column; }
 .pw-graf.pelny #pw-cv { flex: 1; height: auto; min-height: 0; }
 .pw-graf.pelny .pw-info { max-height: 34vh; overflow-y: auto; }
+
+/* rzeka wątków (wykres strumieniowy); kolory kategorii zwalidowane dla tła karty jasnego i ciemnego */
+:root { --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100; --s5: #e87ba4; --s6: #008300; --s7: #6250d6; --s8: #e34948; --rz-reszta: #C3CCD3; }
+@media (prefers-color-scheme: dark) { :root { --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #008300; --s7: #9085e9; --s8: #e66767; --rz-reszta: #3A4656; } }
+.rz-pasek { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 10px; }
+.rz-leg { display: flex; flex-wrap: wrap; gap: 4px 14px; font: 13px/1.5 var(--sans); color: var(--tekst); margin: 0 0 6px; }
+.rz-li { display: inline-flex; align-items: center; gap: 6px; }
+.rz-kw { display: inline-block; width: 11px; height: 11px; border-radius: 3px; flex: none; }
+.rz-fig { margin: 0 0 8px; background: var(--karta); border: 1px solid var(--linia); border-radius: 6px; padding: 8px 6px 4px; }
+.rz-svg { display: block; width: 100%; height: auto; touch-action: manipulation; }
+.rz-pasmo { stroke: var(--karta); stroke-width: 1.5; stroke-linejoin: round; }
+.rz-s1 { fill: var(--s1); background: var(--s1); } .rz-s2 { fill: var(--s2); background: var(--s2); } .rz-s3 { fill: var(--s3); background: var(--s3); }
+.rz-s4 { fill: var(--s4); background: var(--s4); } .rz-s5 { fill: var(--s5); background: var(--s5); } .rz-s6 { fill: var(--s6); background: var(--s6); }
+.rz-s7 { fill: var(--s7); background: var(--s7); } .rz-sf { fill: var(--atrament); background: var(--atrament); } .rz-reszta { fill: var(--rz-reszta); background: var(--rz-reszta); }
+.rz-et { font: 600 12px var(--sans); fill: var(--tekst); text-anchor: middle; paint-order: stroke; stroke: var(--karta); stroke-width: 3px; stroke-linejoin: round; pointer-events: none; }
+.rz-siatka { stroke: var(--linia); stroke-width: 1; stroke-dasharray: 2 3; }
+.rz-os { font: 11px var(--sans); fill: var(--szary); text-anchor: middle; }
+.rz-kursor { stroke: var(--atrament); stroke-width: 1.5; pointer-events: none; }
+.rz-traf { fill: transparent; cursor: crosshair; }
+.rz-chip { display: inline-flex; align-items: center; gap: 6px; color: var(--tekst); border-color: var(--linia); }
+.rz-chip.akt { border-color: var(--atrament); border-width: 2px; font-weight: 600; }
+.rz-tab { margin: 14px 0; font: 14px/1.5 var(--sans); }
+.rz-tab summary { cursor: pointer; font-weight: 600; }
+.rz-t td, .rz-t th { padding: 4px 8px 4px 0; text-align: left; font-variant-numeric: tabular-nums; }

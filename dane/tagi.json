@@ -6,38 +6,38 @@
       "nazwa": "Ukraina",
       "grupa": "miejsce",
       "opis": "Wojna Rosji z Ukrainą: ataki, obrona powietrzna, polityka Kijowa, pomoc zachodnia.",
-      "stan": "22.10 Rosja uderzyła na Kijów rakietami (w tym trzy balistyczne z głowicami kasetowymi) i dronami, kilka godzin po spotkaniu Putina z Witkoffem; Zełenski podał dwóch zabitych i 34 rannych w Kijowie i obwodzie.",
+      "stan": "Rosja i Ukraina uzgodniły lokalny rozejm w okupowanych Oleszkach (27.10 według Sztabu Generalnego Rosji, 29.10 według Białego Domu); Ukraina zaatakowała dronami Moskwę i rakietami Orzeł, a rosyjski dron zatopił statek Khoryv na Morzu Czarnym.",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/russian-ballistic-missiles-rock-kyiv-in-late-night-attack-injuring-6/",
-          "data": "2026-10-22"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/23/melania-trump-secures-ceasefire-in-russian-occupied-ukrainian-city-of-oleshky-white-house-",
+          "data": "2026-10-23"
         },
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/22/overnight-attacks-resume-between-russia-and-ukraine-following-us-envoy-visit",
-          "data": "2026-10-22"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/breaking-russia-ukraine-agree-to-oleshky-ceasefire-mediated-by-melania-trump-white-house-says/",
+          "data": "2026-10-23"
         }
       ],
-      "stan_data": "2026-10-22"
+      "stan_data": "2026-10-23"
     },
     {
       "id": "front",
       "nazwa": "Front",
       "grupa": "temat",
       "opis": "Działania na linii frontu w Ukrainie; oceny ISW zawsze jako ocena think tanku.",
-      "stan": "22.10 w nocy rosyjskie uderzenie rakietowo-dronowe na Kijów i inne miasta (Zełenski: 21 rakiet, 210 dronów; zestrzelono 181 dronów), ukraińskie drony nad Moskwą i obwodem lipieckim.",
-      "stan_data": "2026-10-22",
+      "stan": "Ukraina uderzyła dronami na Moskwę (zamknięte cztery lotniska, według Sobianina zestrzelono 17 dronów) i rakietami na Orzeł; lokalny rozejm w Oleszkach ma zacząć się 27.10 lub 29.10.",
+      "stan_data": "2026-10-23",
       "stan_zrodla": [
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/russian-ballistic-missiles-rock-kyiv-in-late-night-attack-injuring-6/",
-          "data": "2026-10-22"
+          "url": "https://kyivindependent.com/ukrainian-drone-attack-triggers-shut-down-of-moscow-airports-drone-debris-reported-on-tarmac/",
+          "data": "2026-10-23"
         },
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/22/overnight-attacks-resume-between-russia-and-ukraine-following-us-envoy-visit",
-          "data": "2026-10-22"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/10/23/all-four-moscow-airports-shut-down-one-declares-air-raid-alert-and-begins-evacuating-passengers",
+          "data": "2026-10-23"
         }
       ]
     },
@@ -46,38 +46,38 @@
       "nazwa": "Rozejm",
       "grupa": "temat",
       "opis": "Rozmowy i propozycje zawieszenia broni w wojnie Rosji z Ukrainą.",
-      "stan": "22.10 Kreml mówi o rozmowach trójstronnych USA–Rosja–Ukraina w połowie listopada (możliwe Abu Zabi), Zełenski chce spotkania najpóźniej na początku listopada; terminu nie uzgodniono.",
+      "stan": "Uzgodniony lokalny rozejm w Oleszkach (obwód chersoński) dla ewakuacji cywilów i dowozu pomocy; daty rozbieżne (27.10 – Sztab Generalny Rosji, 29.10 – Biały Dom); rozmowy trójstronne USA–Rosja–Ukraina zapowiedziane na połowę listopada.",
       "stan_zrodla": [
         {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/feature/2026/10/22/u-s-russia-and-ukraine-discuss-resuming-trilateral-peace-talks-in-november-as-missile-and-drone-strikes-continue",
-          "data": "2026-10-22"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/breaking-russia-ukraine-agree-to-oleshky-ceasefire-mediated-by-melania-trump-white-house-says/",
+          "data": "2026-10-23"
         },
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/22/overnight-attacks-resume-between-russia-and-ukraine-following-us-envoy-visit",
-          "data": "2026-10-22"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/10/23/russia-announces-october-27-ceasefire-on-southern-ukraine-s-kherson-front-to-evacuate-residents-of-occupied-oleshky",
+          "data": "2026-10-23"
         }
       ],
-      "stan_data": "2026-10-22"
+      "stan_data": "2026-10-23"
     },
     {
       "id": "rosja",
       "nazwa": "Rosja",
       "grupa": "miejsce",
       "opis": "Polityka wewnętrzna, armia i budżet Rosji.",
-      "stan": "22.10 Kreml zapowiada gotowość do rozmów trójstronnych w połowie listopada, a Rosja kontynuuje ataki na Kijów po spotkaniu Putina z Witkoffem.",
-      "stan_data": "2026-10-22",
+      "stan": "Rosja ogłosiła przez Sztab Generalny wstrzymanie ognia w Oleszkach od 27.10; Rumunia przypisuje Rosji uderzenie drona w statek Khoryv; Moskwa zamknęła cztery lotniska po ukraińskim nalocie dronów.",
+      "stan_data": "2026-10-23",
       "stan_zrodla": [
         {
           "nazwa": "Meduza",
-          "url": "https://meduza.io/en/feature/2026/10/22/u-s-russia-and-ukraine-discuss-resuming-trilateral-peace-talks-in-november-as-missile-and-drone-strikes-continue",
-          "data": "2026-10-22"
+          "url": "https://meduza.io/en/news/2026/10/23/russia-announces-october-27-ceasefire-on-southern-ukraine-s-kherson-front-to-evacuate-residents-of-occupied-oleshky",
+          "data": "2026-10-23"
         },
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/22/overnight-attacks-resume-between-russia-and-ukraine-following-us-envoy-visit",
-          "data": "2026-10-22"
+          "url": "https://www.euronews.com/2026/10/23/rescue-operation-in-the-black-sea-following-a-distress-signal-from-a-ship",
+          "data": "2026-10-23"
         }
       ]
     },
@@ -202,20 +202,20 @@
       "nazwa": "Sankcje",
       "grupa": "temat",
       "opis": "Sankcje UE, USA i innych państw oraz ich omijanie.",
-      "stan": "Trump 16.10 uchylił w dużej mierze nowy pakiet sankcji i ceł na Rosję, a 18.10 napisał, że nie chce „odpychać” Rosji od negocjacji; Zełenski ocenia, że zawieszenie sankcji wzmacnia Putina.",
+      "stan": "USA złagodziły sankcje na rosyjski diesel (licencja OFAC GL 135 do kwietnia 2027) i zawiesiły większość środków ustawy Grahama; zakaz importu rosyjskiej energii do USA pozostaje w mocy.",
       "stan_zrodla": [
         {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/10/19/trump-says-he-doesn-t-want-to-drive-russia-away-from-peace-talks-again-criticizes-zelensky-over-refinery-strikes",
-          "data": "2026-10-19"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/inside-the-legal-design-of-americas-russia-sanctions-u-turn-2/",
+          "data": "2026-10-23"
         },
         {
-          "nazwa": "CBS News",
-          "url": "https://www.cbsnews.com/news/ukraine-russia-drone-st-petersburg-oil-facilites/",
-          "data": "2026-10-18"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/23/first-russian-diesel-shipment-is-heading-to-us-under-trump-putin-deal",
+          "data": "2026-10-23"
         }
       ],
-      "stan_data": "2026-10-19"
+      "stan_data": "2026-10-23"
     },
     {
       "id": "iran",
@@ -242,18 +242,18 @@
       "nazwa": "USA",
       "grupa": "miejsce",
       "opis": "Polityka USA wobec Europy, Rosji, Ukrainy i Bliskiego Wschodu.",
-      "stan": "22.10 po spotkaniu z Putinem Witkoff wskazał gotowość Moskwy do wznowienia rozmów trójstronnych; według Kremla mogłyby ruszyć w połowie listopada, po wyborach połówkowych w USA.",
-      "stan_data": "2026-10-22",
+      "stan": "Biały Dom ogłosił rozejm w Oleszkach z pośrednictwem Melanii Trump; pierwszy tankowiec z rosyjskim dieslem płynie do USA na podstawie licencji OFAC nr 135, a 16.10 Trump zawiesił większość środków ustawy Grahama (według Kyiv Independent).",
+      "stan_data": "2026-10-23",
       "stan_zrodla": [
         {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/feature/2026/10/22/u-s-russia-and-ukraine-discuss-resuming-trilateral-peace-talks-in-november-as-missile-and-drone-strikes-continue",
-          "data": "2026-10-22"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/inside-the-legal-design-of-americas-russia-sanctions-u-turn-2/",
+          "data": "2026-10-23"
         },
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/22/overnight-attacks-resume-between-russia-and-ukraine-following-us-envoy-visit",
-          "data": "2026-10-22"
+          "url": "https://www.euronews.com/2026/10/23/first-russian-diesel-shipment-is-heading-to-us-under-trump-putin-deal",
+          "data": "2026-10-23"
         }
       ]
     },
@@ -287,18 +287,18 @@
       "nazwa": "NATO",
       "grupa": "temat",
       "opis": "Sojusz Północnoatlantycki: decyzje, szczyty, wschodnia flanka.",
-      "stan": "22.10 według Federalnej Prokuratury Generalnej w Niemczech zatrzymany w Brandenburgii Ukrainiec zbierał dla rosyjskiego wywiadu informacje o obiektach i personelu zabezpieczających wschodnią flankę NATO.",
-      "stan_data": "2026-10-22",
+      "stan": "Rumunia i Bułgaria poprosiły NATO o wsparcie nadzoru i obrony przed dronami na Morzu Czarnym po zatopieniu statku Khoryv; premier Rumunii zapowiedział dodatkowy sprzęt w ramach działań sojuszniczych.",
+      "stan_data": "2026-10-23",
       "stan_zrodla": [
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/22/germany-arrests-ukrainian-national-on-suspicion-of-spying-for-russia",
-          "data": "2026-10-22"
+          "url": "https://www.euronews.com/2026/10/23/rescue-operation-in-the-black-sea-following-a-distress-signal-from-a-ship",
+          "data": "2026-10-23"
         },
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/germany-arrests-ukrainian-national-suspected-of-spying-for-russia/",
-          "data": "2026-10-22"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/10/23/romania-blames-russia-for-drone-strike-that-sinks-cargo-ship-in-black-sea-killing-one-sailor-and-leaving-three-missing",
+          "data": "2026-10-23"
         }
       ]
     },
@@ -307,20 +307,20 @@
       "nazwa": "UE",
       "grupa": "temat",
       "opis": "Unia Europejska: Rada, Komisja, obronność, budżet WRF 2028–2034.",
-      "stan": "22.10 we Francji rada obrony i zakazy protestów przed manifestacjami 24.10; kryzys kosztów życia w UE (Francja, Włochy) trwa; WRF 2028–34 bez porozumienia po Radzie Europejskiej 15–16.10.",
+      "stan": "Przewodnicząca KE von der Leyen i przewodniczący Rady Europejskiej Costa potępili atak na statek Khoryv; szefowa dyplomacji UE Kallas mówiła o sześciu atakach na statki w 10 dni.",
       "stan_zrodla": [
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/22/macron-holds-emergency-security-meeting-as-france-braces-for-fresh-wave-of-protests",
-          "data": "2026-10-22"
+          "url": "https://www.euronews.com/2026/10/23/rescue-operation-in-the-black-sea-following-a-distress-signal-from-a-ship",
+          "data": "2026-10-23"
         },
         {
-          "nazwa": "France 24",
-          "url": "https://www.france24.com/en/europe/20261022-live-paris-bans-protests-after-violent-unrest-as-macron-takes-swipe-at-trump",
-          "data": "2026-10-22"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/civilian-cargo-ship-sinks-off-coast-of-romania-after-russian-drone-strike-authorities-say/",
+          "data": "2026-10-23"
         }
       ],
-      "stan_data": "2026-10-22"
+      "stan_data": "2026-10-23"
     },
     {
       "id": "onz",
@@ -504,20 +504,20 @@
       "nazwa": "Francja",
       "grupa": "miejsce",
       "opis": "Polityka Francji: rząd, budżet, stanowisko w UE.",
-      "stan": "22.10 Macron zwołuje na 23.10 radę obrony, zapowiada zakaz „nielegalnych” demonstracji; prefekci zakazali protestów w Marsylii i Lyonie na 24.10; decyzja Moody's ws. ratingu oczekiwana 23.10.",
+      "stan": "Strzelanina w Trappes (jedna ofiara śmiertelna) badana jako zamach terrorystyczny; 24.10 zapowiedziane protesty w kraju, do których minister Nuñez zapowiedział ok. 70 tys. funkcjonariuszy.",
       "stan_zrodla": [
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/22/macron-holds-emergency-security-meeting-as-france-braces-for-fresh-wave-of-protests",
-          "data": "2026-10-22"
+          "url": "https://www.euronews.com/2026/10/23/suspect-arrested-after-1-killed-and-several-injured-in-a-shooting-in-paris-suburb",
+          "data": "2026-10-23"
         },
         {
           "nazwa": "France 24",
-          "url": "https://www.france24.com/en/europe/20261022-live-paris-bans-protests-after-violent-unrest-as-macron-takes-swipe-at-trump",
-          "data": "2026-10-22"
+          "url": "https://www.france24.com/en/france/20261023-french-prosecutors-investigate-paris-shooting-as-suspected-terror-attack",
+          "data": "2026-10-23"
         }
       ],
-      "stan_data": "2026-10-22"
+      "stan_data": "2026-10-23"
     },
     {
       "id": "wielka-brytania",
@@ -539,15 +539,20 @@
       "nazwa": "Rumunia",
       "grupa": "miejsce",
       "opis": "Polityka Rumunii.",
-      "stan": "17.10 rumuńskie F-16 zestrzeliły dwa drony nad wodami terytorialnymi koło Sulina (komunikat MApN nr 213).",
+      "stan": "Rząd Luca-Alexandru Niculescu ma wotum zaufania z 20.10 (280 głosów); 23.10 rumuńskie władze przypisały Rosji uderzenie drona w statek Khoryv u wybrzeża Konstancy (jeden zabity, trzech zaginionych).",
       "stan_zrodla": [
         {
-          "nazwa": "Ministerstwo Obrony Narodowej Rumunii (MApN)",
-          "url": "https://english.mapn.ro/cpresa/6888_Press-Release",
-          "data": "2026-10-17"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/23/rescue-operation-in-the-black-sea-following-a-distress-signal-from-a-ship",
+          "data": "2026-10-23"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/10/23/romania-blames-russia-for-drone-strike-that-sinks-cargo-ship-in-black-sea-killing-one-sailor-and-leaving-three-missing",
+          "data": "2026-10-23"
         }
       ],
-      "stan_data": "2026-10-17"
+      "stan_data": "2026-10-23"
     },
     {
       "id": "balkany",
@@ -580,25 +585,20 @@
       "nazwa": "Energia",
       "grupa": "temat",
       "opis": "Ropa, gaz, infrastruktura energetyczna, ceny paliw.",
-      "stan": "Napięcia w Zatoce: IRGC twierdzi, że 19.10 tankowce weszły na miny w Ormuzie (UKMTO potwierdza jeden incydent); Arabia Saudyjska po atakach Huti przełożyła konferencję FII na 2027, a Wielka Brytania wysyła Typhoony do obrony saudyjskiej infrastruktury.",
+      "stan": "Pierwszy ładunek rosyjskiego diesla (ok. 40 tys. ton, tankowiec Agioi Fanendes z Primorska) płynie do Nowego Jorku, dotarcie ok. 7.11 według Kpler.",
       "stan_zrodla": [
         {
-          "nazwa": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html",
-          "data": "2026-10-19"
-        },
-        {
-          "nazwa": "CNN",
-          "url": "https://edition.cnn.com/2026/10/20/middleeast/uk-military-saudi-arabia-yemen-houthis-intl",
-          "data": "2026-10-20"
-        },
-        {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/20/irgc-mines-set-tankers-ablaze-as-tehran-threatens-expanded-attacks",
-          "data": "2026-10-20"
+          "url": "https://www.euronews.com/2026/10/23/first-russian-diesel-shipment-is-heading-to-us-under-trump-putin-deal",
+          "data": "2026-10-23"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/inside-the-legal-design-of-americas-russia-sanctions-u-turn-2/",
+          "data": "2026-10-23"
         }
       ],
-      "stan_data": "2026-10-21"
+      "stan_data": "2026-10-23"
     },
     {
       "id": "gospodarka",

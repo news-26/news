@@ -2150,7 +2150,7 @@ class Budowa:
 </section>
 <h2 class="pasek">Źródła stałe</h2>
 <section class="skrot">
-<p>OSW i PISM (publikacje z ostatnich 3 dni), agencje: Reuters, AP, AFP, PAP, Al Jazeera, Kyiv Independent; przy uzbrojeniu komunikaty MON i Dowództwa Operacyjnego RSZ; gospodarka: GUS, NBP; front: ISW, zawsze jako ocena think tanku.</p>
+<p>OSW i PISM (publikacje z ostatnich 3 dni), agencje: Reuters, AP, AFP, PAP, Al Jazeera, Kyiv Independent; przy uzbrojeniu i przemyśle zbrojeniowym komunikaty MON, Dowództwa Operacyjnego RSZ, Agencji Uzbrojenia i PGZ; gospodarka: GUS, NBP; front: ISW, zawsze jako ocena think tanku.</p>
 </section>"""
         self.zapisz("jak-weryfikujemy.html", strona("Jak weryfikujemy", tresc, "", "", "jak"))
 

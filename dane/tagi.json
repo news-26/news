@@ -153,6 +153,15 @@
       "stan_data": "2026-10-20"
     },
     {
+      "id": "przemysl-zbrojeniowy",
+      "nazwa": "PrzemysłZbrojeniowy",
+      "grupa": "temat",
+      "opis": "Polski przemysł zbrojeniowy: kontrakty, targi, prezentacje nowego sprzętu, dostawy, eksport i współprodukcja.",
+      "stan": "",
+      "stan_data": "",
+      "stan_zrodla": []
+    },
+    {
       "id": "obronnosc-polski",
       "nazwa": "ObronnośćPolski",
       "grupa": "temat",

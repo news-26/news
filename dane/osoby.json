@@ -5,7 +5,9 @@
       "id": "donald-trump",
       "imie": "Donald Trump",
       "funkcja": "Prezydent Stanów Zjednoczonych.",
-      "kraj": ["usa"],
+      "kraj": [
+        "usa"
+      ],
       "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
@@ -19,7 +21,9 @@
       "id": "wolodymyr-zelenski",
       "imie": "Wołodymyr Zełenski",
       "funkcja": "Prezydent Ukrainy.",
-      "kraj": ["ukraina"],
+      "kraj": [
+        "ukraina"
+      ],
       "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
@@ -33,7 +37,9 @@
       "id": "wladimir-putin",
       "imie": "Władimir Putin",
       "funkcja": "Prezydent Federacji Rosyjskiej.",
-      "kraj": ["rosja"],
+      "kraj": [
+        "rosja"
+      ],
       "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
@@ -47,7 +53,9 @@
       "id": "emmanuel-macron",
       "imie": "Emmanuel Macron",
       "funkcja": "Prezydent Republiki Francuskiej.",
-      "kraj": ["francja"],
+      "kraj": [
+        "francja"
+      ],
       "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
@@ -61,7 +69,9 @@
       "id": "friedrich-merz",
       "imie": "Friedrich Merz",
       "funkcja": "Kanclerz Republiki Federalnej Niemiec (CDU).",
-      "kraj": ["niemcy"],
+      "kraj": [
+        "niemcy"
+      ],
       "zweryfikowano": "2026-10-04",
       "zrodla": [
         {
@@ -80,7 +90,9 @@
       "id": "robert-fico",
       "imie": "Robert Fico",
       "funkcja": "Premier Słowacji (Smer-SD).",
-      "kraj": ["slowacja"],
+      "kraj": [
+        "slowacja"
+      ],
       "zweryfikowano": "2026-10-01",
       "zrodla": [
         {
@@ -94,7 +106,9 @@
       "id": "andrej-babis",
       "imie": "Andrej Babiš",
       "funkcja": "Premier Republiki Czeskiej.",
-      "kraj": ["czechy"],
+      "kraj": [
+        "czechy"
+      ],
       "zweryfikowano": "2026-10-01",
       "zrodla": [
         {
@@ -108,7 +122,9 @@
       "id": "peter-magyar",
       "imie": "Péter Magyar",
       "funkcja": "Premier Węgier (lider partii Tisza).",
-      "kraj": ["wegry"],
+      "kraj": [
+        "wegry"
+      ],
       "zweryfikowano": "2026-10-01",
       "zrodla": [
         {
@@ -122,7 +138,9 @@
       "id": "radoslaw-sikorski",
       "imie": "Radosław Sikorski",
       "funkcja": "Wicepremier i minister spraw zagranicznych RP.",
-      "kraj": ["dyplomacja-rp"],
+      "kraj": [
+        "dyplomacja-rp"
+      ],
       "zweryfikowano": "2026-10-01",
       "zrodla": [
         {
@@ -136,7 +154,9 @@
       "id": "wladyslaw-kosiniak-kamysz",
       "imie": "Władysław Kosiniak-Kamysz",
       "funkcja": "Wicepremier i minister obrony narodowej RP.",
-      "kraj": ["obronnosc-polski"],
+      "kraj": [
+        "obronnosc-polski"
+      ],
       "zweryfikowano": "2026-10-01",
       "zrodla": [
         {
@@ -150,7 +170,9 @@
       "id": "cezary-tomczyk",
       "imie": "Cezary Tomczyk",
       "funkcja": "Wiceminister obrony narodowej RP.",
-      "kraj": ["obronnosc-polski"],
+      "kraj": [
+        "obronnosc-polski"
+      ],
       "zweryfikowano": "2026-10-01",
       "zrodla": [
         {
@@ -164,7 +186,9 @@
       "id": "magdalena-sobkowiak-czarnecka",
       "imie": "Magdalena Sobkowiak-Czarnecka",
       "funkcja": "Sekretarz stanu w Ministerstwie Obrony Narodowej (wiceministra obrony).",
-      "kraj": ["obronnosc-polski"],
+      "kraj": [
+        "obronnosc-polski"
+      ],
       "zweryfikowano": "2026-10-01",
       "zrodla": [
         {
@@ -178,7 +202,9 @@
       "id": "karol-nawrocki",
       "imie": "Karol Nawrocki",
       "funkcja": "Prezydent Rzeczypospolitej Polskiej.",
-      "kraj": ["dyplomacja-rp"],
+      "kraj": [
+        "dyplomacja-rp"
+      ],
       "zweryfikowano": "2026-10-01",
       "zrodla": [
         {
@@ -192,7 +218,9 @@
       "id": "marcin-przydacz",
       "imie": "Marcin Przydacz",
       "funkcja": "Szef Biura Polityki Międzynarodowej Kancelarii Prezydenta RP.",
-      "kraj": ["dyplomacja-rp"],
+      "kraj": [
+        "dyplomacja-rp"
+      ],
       "zweryfikowano": "2026-10-01",
       "zrodla": [
         {
@@ -206,7 +234,9 @@
       "id": "mark-rutte",
       "imie": "Mark Rutte",
       "funkcja": "Sekretarz Generalny NATO.",
-      "kraj": ["nato"],
+      "kraj": [
+        "nato"
+      ],
       "zweryfikowano": "2026-10-01",
       "zrodla": [
         {
@@ -220,7 +250,9 @@
       "id": "ursula-von-der-leyen",
       "imie": "Ursula von der Leyen",
       "funkcja": "Przewodnicząca Komisji Europejskiej.",
-      "kraj": ["ue"],
+      "kraj": [
+        "ue"
+      ],
       "zweryfikowano": "2026-10-01",
       "zrodla": [
         {
@@ -240,7 +272,9 @@
       "id": "antonio-costa",
       "imie": "António Costa",
       "funkcja": "Przewodniczący Rady Europejskiej.",
-      "kraj": ["ue"],
+      "kraj": [
+        "ue"
+      ],
       "zweryfikowano": "2026-10-01",
       "zrodla": [
         {
@@ -254,7 +288,9 @@
       "id": "aleksandar-vucic",
       "imie": "Aleksandar Vučić",
       "funkcja": "Były prezydent Serbii (ustąpił 27.09.2026); według OSW chce kierować rządem po przedterminowych wyborach parlamentarnych 25.10.2026.",
-      "kraj": ["balkany"],
+      "kraj": [
+        "balkany"
+      ],
       "zweryfikowano": "2026-10-01",
       "zrodla": [
         {
@@ -271,7 +307,9 @@
       "id": "ana-brnabic",
       "imie": "Ana Brnabić",
       "funkcja": "Przewodnicząca Zgromadzenia Narodowego Serbii, od 27–28.09.2026 pełniąca obowiązki prezydenta Republiki.",
-      "kraj": ["balkany"],
+      "kraj": [
+        "balkany"
+      ],
       "zweryfikowano": "2026-10-01",
       "zrodla": [
         {
@@ -285,7 +323,9 @@
       "id": "mette-frederiksen",
       "imie": "Mette Frederiksen",
       "funkcja": "Premier Danii.",
-      "kraj": ["nordyckie"],
+      "kraj": [
+        "nordyckie"
+      ],
       "zweryfikowano": "2026-10-01",
       "zrodla": [
         {
@@ -299,7 +339,9 @@
       "id": "jens-frederik-nielsen",
       "imie": "Jens-Frederik Nielsen",
       "funkcja": "Premier Grenlandii.",
-      "kraj": ["nordyckie"],
+      "kraj": [
+        "nordyckie"
+      ],
       "zweryfikowano": "2026-10-01",
       "zrodla": [
         {
@@ -313,7 +355,9 @@
       "id": "abbas-araghczi",
       "imie": "Abbas Araghczi",
       "funkcja": "Minister spraw zagranicznych Islamskiej Republiki Iranu.",
-      "kraj": ["iran"],
+      "kraj": [
+        "iran"
+      ],
       "zweryfikowano": "2026-10-01",
       "zrodla": [
         {
@@ -327,7 +371,9 @@
       "id": "masud-pezeszkian",
       "imie": "Masud Pezeszkian",
       "funkcja": "Prezydent Islamskiej Republiki Iranu.",
-      "kraj": ["iran"],
+      "kraj": [
+        "iran"
+      ],
       "zweryfikowano": "2026-10-01",
       "zrodla": [
         {
@@ -341,7 +387,9 @@
       "id": "steve-witkoff",
       "imie": "Steve Witkoff",
       "funkcja": "Specjalny wysłannik prezydenta USA.",
-      "kraj": ["usa"],
+      "kraj": [
+        "usa"
+      ],
       "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
@@ -355,7 +403,9 @@
       "id": "siergiej-lawrow",
       "imie": "Siergiej Ławrow",
       "funkcja": "Minister spraw zagranicznych Federacji Rosyjskiej.",
-      "kraj": ["rosja"],
+      "kraj": [
+        "rosja"
+      ],
       "zweryfikowano": "2026-10-01",
       "zrodla": [
         {
@@ -369,7 +419,9 @@
       "id": "scott-bessent",
       "imie": "Scott Bessent",
       "funkcja": "Sekretarz skarbu Stanów Zjednoczonych.",
-      "kraj": ["usa"],
+      "kraj": [
+        "usa"
+      ],
       "zweryfikowano": "2026-10-01",
       "zrodla": [
         {
@@ -383,7 +435,9 @@
       "id": "andris-kulbergs",
       "imie": "Andris Kulbergs",
       "funkcja": "Premier Łotwy, lider Zjednoczonej Listy (AS).",
-      "kraj": ["lotwa"],
+      "kraj": [
+        "lotwa"
+      ],
       "zweryfikowano": "2026-10-04",
       "zrodla": [
         {
@@ -402,7 +456,9 @@
       "id": "gitanas-nauseda",
       "imie": "Gitanas Nausėda",
       "funkcja": "Prezydent Republiki Litewskiej.",
-      "kraj": ["litwa"],
+      "kraj": [
+        "litwa"
+      ],
       "zweryfikowano": "2026-10-01",
       "zrodla": [
         {
@@ -416,7 +472,9 @@
       "id": "mindaugas-sinkevicius",
       "imie": "Mindaugas Sinkevičius",
       "funkcja": "Premier Litwy.",
-      "kraj": ["litwa"],
+      "kraj": [
+        "litwa"
+      ],
       "zweryfikowano": "2026-10-01",
       "zrodla": [
         {
@@ -430,7 +488,9 @@
       "id": "kristen-michal",
       "imie": "Kristen Michal",
       "funkcja": "Premier Estonii.",
-      "kraj": ["estonia"],
+      "kraj": [
+        "estonia"
+      ],
       "zweryfikowano": "2026-10-01",
       "zrodla": [
         {
@@ -444,7 +504,9 @@
       "id": "peter-pellegrini",
       "imie": "Peter Pellegrini",
       "funkcja": "Prezydent Republiki Słowackiej.",
-      "kraj": ["slowacja"],
+      "kraj": [
+        "slowacja"
+      ],
       "zweryfikowano": "2026-10-01",
       "zrodla": [
         {
@@ -458,7 +520,9 @@
       "id": "siegfried-muresan",
       "imie": "Siegfried Mureșan",
       "funkcja": "Były premier-desygnat Rumunii: 30.09.2026 parlament odmówił mu wotum zaufania, 5.10.2026 prezydent desygnował w jego miejsce Lucę Niculescu.",
-      "kraj": ["rumunia"],
+      "kraj": [
+        "rumunia"
+      ],
       "zweryfikowano": "2026-10-06",
       "zrodla": [
         {
@@ -483,7 +547,9 @@
       "id": "ilham-alijew",
       "imie": "Ilham Alijew",
       "funkcja": "Prezydent Republiki Azerbejdżanu.",
-      "kraj": ["azerbejdzan"],
+      "kraj": [
+        "azerbejdzan"
+      ],
       "zweryfikowano": "2026-10-01",
       "zrodla": [
         {
@@ -497,7 +563,9 @@
       "id": "xi-jinping",
       "imie": "Xi Jinping",
       "funkcja": "Prezydent Chińskiej Republiki Ludowej.",
-      "kraj": ["chiny"],
+      "kraj": [
+        "chiny"
+      ],
       "zweryfikowano": "2026-10-01",
       "zrodla": [
         {
@@ -511,7 +579,9 @@
       "id": "jamieson-greer",
       "imie": "Jamieson Greer",
       "funkcja": "Przedstawiciel Handlowy Stanów Zjednoczonych (USTR).",
-      "kraj": ["usa"],
+      "kraj": [
+        "usa"
+      ],
       "zweryfikowano": "2026-10-01",
       "zrodla": [
         {
@@ -525,7 +595,9 @@
       "id": "manuela-schwesig",
       "imie": "Manuela Schwesig",
       "funkcja": "Premierka Meklemburgii-Pomorza Przedniego (SPD).",
-      "kraj": ["niemcy"],
+      "kraj": [
+        "niemcy"
+      ],
       "zweryfikowano": "2026-10-01",
       "zrodla": [
         {
@@ -539,7 +611,9 @@
       "id": "margus-tsahkna",
       "imie": "Margus Tsahkna",
       "funkcja": "Minister spraw zagranicznych Estonii.",
-      "kraj": ["estonia"],
+      "kraj": [
+        "estonia"
+      ],
       "zweryfikowano": "2026-10-01",
       "zrodla": [
         {
@@ -553,7 +627,9 @@
       "id": "pal-jonson",
       "imie": "Pål Jonson",
       "funkcja": "Minister obrony Szwecji.",
-      "kraj": ["nordyckie"],
+      "kraj": [
+        "nordyckie"
+      ],
       "zweryfikowano": "2026-10-01",
       "zrodla": [
         {
@@ -567,7 +643,9 @@
       "id": "jared-kushner",
       "imie": "Jared Kushner",
       "funkcja": "Wysłannik prezydenta USA w rozmowach o zakończeniu wojny w Ukrainie (wraz ze Steve'em Witkoffem).",
-      "kraj": ["usa"],
+      "kraj": [
+        "usa"
+      ],
       "zweryfikowano": "2026-10-02",
       "zrodla": [
         {
@@ -581,7 +659,9 @@
       "id": "jurij-uszakow",
       "imie": "Jurij Uszakow",
       "funkcja": "Doradca prezydenta Rosji ds. polityki zagranicznej.",
-      "kraj": ["rosja"],
+      "kraj": [
+        "rosja"
+      ],
       "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
@@ -595,7 +675,9 @@
       "id": "dmitrij-pieskow",
       "imie": "Dmitrij Pieskow",
       "funkcja": "Rzecznik prasowy prezydenta Rosji (rzecznik Kremla).",
-      "kraj": ["rosja"],
+      "kraj": [
+        "rosja"
+      ],
       "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
@@ -609,7 +691,9 @@
       "id": "john-coale",
       "imie": "John Coale",
       "funkcja": "Specjalny wysłannik prezydenta USA ds. Białorusi.",
-      "kraj": ["usa"],
+      "kraj": [
+        "usa"
+      ],
       "zweryfikowano": "2026-10-02",
       "zrodla": [
         {
@@ -623,7 +707,9 @@
       "id": "maksim-ryzenkow",
       "imie": "Maksim Ryżenkow",
       "funkcja": "Minister spraw zagranicznych Białorusi.",
-      "kraj": ["bialorus"],
+      "kraj": [
+        "bialorus"
+      ],
       "zweryfikowano": "2026-10-02",
       "zrodla": [
         {
@@ -637,7 +723,9 @@
       "id": "allison-hart",
       "imie": "Allison Hart",
       "funkcja": "Rzeczniczka NATO.",
-      "kraj": ["nato"],
+      "kraj": [
+        "nato"
+      ],
       "zweryfikowano": "2026-10-02",
       "zrodla": [
         {
@@ -651,7 +739,9 @@
       "id": "kiryl-dmitrijew",
       "imie": "Kirył Dmitrijew",
       "funkcja": "Specjalny wysłannik prezydenta Rosji, szef Rosyjskiego Funduszu Inwestycji Bezpośrednich.",
-      "kraj": ["rosja"],
+      "kraj": [
+        "rosja"
+      ],
       "zweryfikowano": "2026-10-02",
       "zrodla": [
         {
@@ -678,7 +768,9 @@
       "id": "markus-frohnmaier",
       "imie": "Markus Frohnmaier",
       "funkcja": "Wiceprzewodniczący klubu AfD w Bundestagu.",
-      "kraj": ["niemcy"],
+      "kraj": [
+        "niemcy"
+      ],
       "zweryfikowano": "2026-10-02",
       "zrodla": [
         {
@@ -692,7 +784,9 @@
       "id": "tomas-taraba",
       "imie": "Tomáš Taraba",
       "funkcja": "Słowacki polityk; do 30.09.2026 wicepremier i minister środowiska (odwołany przez parlament 29.09 i prezydenta 30.09).",
-      "kraj": ["slowacja"],
+      "kraj": [
+        "slowacja"
+      ],
       "zweryfikowano": "2026-10-02",
       "zrodla": [
         {
@@ -709,7 +803,9 @@
       "id": "maciej-wewior",
       "imie": "Maciej Wewiór",
       "funkcja": "Rzecznik prasowy Ministerstwa Spraw Zagranicznych RP.",
-      "kraj": ["dyplomacja-rp"],
+      "kraj": [
+        "dyplomacja-rp"
+      ],
       "zweryfikowano": "2026-10-02",
       "zrodla": [
         {
@@ -723,7 +819,9 @@
       "id": "filip-kuffa",
       "imie": "Filip Kuffa",
       "funkcja": "Sekretarz stanu w Ministerstwie Środowiska Słowacji; jedyny kandydat SNS na ministra środowiska (stan na 2.10.2026, bez nominacji).",
-      "kraj": ["slowacja"],
+      "kraj": [
+        "slowacja"
+      ],
       "zweryfikowano": "2026-10-02",
       "zrodla": [
         {
@@ -737,7 +835,9 @@
       "id": "nicusor-dan",
       "imie": "Nicușor Dan",
       "funkcja": "Prezydent Rumunii.",
-      "kraj": ["rumunia"],
+      "kraj": [
+        "rumunia"
+      ],
       "zweryfikowano": "2026-10-02",
       "zrodla": [
         {
@@ -751,7 +851,9 @@
       "id": "witalij-kliczko",
       "imie": "Witalij Kliczko",
       "funkcja": "Mer Kijowa.",
-      "kraj": ["ukraina"],
+      "kraj": [
+        "ukraina"
+      ],
       "zweryfikowano": "2026-10-04",
       "zrodla": [
         {
@@ -770,7 +872,9 @@
       "id": "maia-sandu",
       "imie": "Maia Sandu",
       "funkcja": "Prezydent Mołdawii.",
-      "kraj": ["moldawia"],
+      "kraj": [
+        "moldawia"
+      ],
       "zweryfikowano": "2026-10-03",
       "zrodla": [
         {
@@ -789,7 +893,9 @@
       "id": "magdalena-andersson",
       "imie": "Magdalena Andersson",
       "funkcja": "Przewodnicząca Socjaldemokratów (S) w Szwecji; od 5.10.2026 ponownie z misją zbadania możliwości utworzenia rządu.",
-      "kraj": ["nordyckie"],
+      "kraj": [
+        "nordyckie"
+      ],
       "zweryfikowano": "2026-10-03",
       "zrodla": [
         {
@@ -808,7 +914,9 @@
       "id": "andreas-norlen",
       "imie": "Andreas Norlén",
       "funkcja": "Przewodniczący (talman) Riksdagu Szwecji.",
-      "kraj": ["nordyckie"],
+      "kraj": [
+        "nordyckie"
+      ],
       "zweryfikowano": "2026-10-03",
       "zrodla": [
         {
@@ -827,7 +935,9 @@
       "id": "katherina-reiche",
       "imie": "Katherina Reiche",
       "funkcja": "Federalna minister gospodarki i energii Niemiec (CDU).",
-      "kraj": ["niemcy"],
+      "kraj": [
+        "niemcy"
+      ],
       "zweryfikowano": "2026-10-04",
       "zrodla": [
         {
@@ -846,7 +956,9 @@
       "id": "marco-rubio",
       "imie": "Marco Rubio",
       "funkcja": "Sekretarz stanu USA.",
-      "kraj": ["usa"],
+      "kraj": [
+        "usa"
+      ],
       "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
@@ -865,7 +977,9 @@
       "id": "kaja-kallas",
       "imie": "Kaja Kallas",
       "funkcja": "Wysoka przedstawiciel UE do spraw zagranicznych i polityki bezpieczeństwa, wiceprzewodnicząca Komisji Europejskiej; wcześniej premier Estonii.",
-      "kraj": ["ue"],
+      "kraj": [
+        "ue"
+      ],
       "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
@@ -884,7 +998,9 @@
       "id": "andrij-sybiha",
       "imie": "Andrij Sybiha",
       "funkcja": "Minister spraw zagranicznych Ukrainy (ponownie powołany 19.08.2026).",
-      "kraj": ["ukraina"],
+      "kraj": [
+        "ukraina"
+      ],
       "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
@@ -898,7 +1014,10 @@
       "id": "alexus-grynkewich",
       "imie": "Alexus Grynkewich",
       "funkcja": "Generał Sił Powietrznych USA, naczelny dowódca sił sojuszniczych NATO w Europie (SACEUR) i dowódca Europejskiego Dowództwa USA (EUCOM).",
-      "kraj": ["usa", "nato"],
+      "kraj": [
+        "usa",
+        "nato"
+      ],
       "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
@@ -912,7 +1031,9 @@
       "id": "sebastien-lecornu",
       "imie": "Sébastien Lecornu",
       "funkcja": "Premier Francji.",
-      "kraj": ["francja"],
+      "kraj": [
+        "francja"
+      ],
       "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
@@ -931,7 +1052,9 @@
       "id": "gerald-darmanin",
       "imie": "Gérald Darmanin",
       "funkcja": "Minister sprawiedliwości Francji.",
-      "kraj": ["francja"],
+      "kraj": [
+        "francja"
+      ],
       "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
@@ -950,7 +1073,9 @@
       "id": "michail-miszustin",
       "imie": "Michaił Miszustin",
       "funkcja": "Premier Rosji.",
-      "kraj": ["rosja"],
+      "kraj": [
+        "rosja"
+      ],
       "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
@@ -964,7 +1089,9 @@
       "id": "andy-burnham",
       "imie": "Andy Burnham",
       "funkcja": "Premier Wielkiej Brytanii, lider Partii Pracy.",
-      "kraj": ["wielka-brytania"],
+      "kraj": [
+        "wielka-brytania"
+      ],
       "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
@@ -978,7 +1105,9 @@
       "id": "rumen-radew",
       "imie": "Rumen Radew",
       "funkcja": "Premier Bułgarii (od 8.05.2026); wcześniej prezydent Bułgarii.",
-      "kraj": ["bulgaria"],
+      "kraj": [
+        "bulgaria"
+      ],
       "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
@@ -1003,7 +1132,9 @@
       "id": "donald-tusk",
       "imie": "Donald Tusk",
       "funkcja": "Premier Polski.",
-      "kraj": ["dyplomacja-rp"],
+      "kraj": [
+        "dyplomacja-rp"
+      ],
       "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
@@ -1025,7 +1156,9 @@
       "id": "marcin-kierwinski",
       "imie": "Marcin Kierwiński",
       "funkcja": "Minister spraw wewnętrznych i administracji RP.",
-      "kraj": ["obronnosc-polski"],
+      "kraj": [
+        "obronnosc-polski"
+      ],
       "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
@@ -1039,7 +1172,9 @@
       "id": "tomasz-siemoniak",
       "imie": "Tomasz Siemoniak",
       "funkcja": "Minister-koordynator służb specjalnych RP.",
-      "kraj": ["obronnosc-polski"],
+      "kraj": [
+        "obronnosc-polski"
+      ],
       "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
@@ -1053,7 +1188,9 @@
       "id": "leon-xiv",
       "imie": "Leon XIV",
       "funkcja": "Papież, zwierzchnik Kościoła katolickiego i głowa Państwa Watykańskiego.",
-      "kraj": ["watykan"],
+      "kraj": [
+        "watykan"
+      ],
       "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
@@ -1073,7 +1210,9 @@
       "id": "maros-sefcovic",
       "imie": "Maroš Šefčovič",
       "funkcja": "Komisarz UE ds. handlu.",
-      "kraj": ["ue"],
+      "kraj": [
+        "ue"
+      ],
       "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
@@ -1087,7 +1226,9 @@
       "id": "alexander-stubb",
       "imie": "Alexander Stubb",
       "funkcja": "Prezydent Finlandii.",
-      "kraj": ["nordyckie"],
+      "kraj": [
+        "nordyckie"
+      ],
       "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
@@ -1106,7 +1247,9 @@
       "id": "jonas-gahr-store",
       "imie": "Jonas Gahr Støre",
       "funkcja": "Premier Norwegii.",
-      "kraj": ["nordyckie"],
+      "kraj": [
+        "nordyckie"
+      ],
       "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
@@ -1131,7 +1274,9 @@
       "id": "giorgia-meloni",
       "imie": "Giorgia Meloni",
       "funkcja": "Premier Włoch.",
-      "kraj": ["wlochy"],
+      "kraj": [
+        "wlochy"
+      ],
       "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
@@ -1150,7 +1295,9 @@
       "id": "robertas-kaunas",
       "imie": "Robertas Kaunas",
       "funkcja": "Minister obrony Litwy.",
-      "kraj": ["litwa"],
+      "kraj": [
+        "litwa"
+      ],
       "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
@@ -1177,7 +1324,9 @@
       "id": "edi-rama",
       "imie": "Edi Rama",
       "funkcja": "Premier Albanii.",
-      "kraj": ["balkany"],
+      "kraj": [
+        "balkany"
+      ],
       "zweryfikowano": "2026-10-22",
       "zrodla": [
         {
@@ -1185,6 +1334,102 @@
           "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-22/albania-eskalacja-protestow",
           "data": "2026-10-22"
         }
+      ]
+    },
+    {
+      "id": "walery-gerasimow",
+      "imie": "Walery Gierasimow",
+      "funkcja": "Szef Sztabu Generalnego Sił Zbrojnych Rosji.",
+      "kraj": [
+        "rosja"
+      ],
+      "zweryfikowano": "2026-10-23",
+      "zrodla": [
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/10/23/russia-announces-october-27-ceasefire-on-southern-ukraine-s-kherson-front-to-evacuate-residents-of-occupied-oleshky",
+          "data": "2026-10-23"
+        }
+      ],
+      "formy": [
+        "Gierasimowa"
+      ]
+    },
+    {
+      "id": "dmytro-lubinec",
+      "imie": "Dmytro Lubinec",
+      "funkcja": "Rzecznik praw obywatelskich Ukrainy (Rada Najwyższa).",
+      "kraj": [
+        "ukraina"
+      ],
+      "zweryfikowano": "2026-10-23",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/breaking-russia-ukraine-agree-to-oleshky-ceasefire-mediated-by-melania-trump-white-house-says/",
+          "data": "2026-10-23"
+        }
+      ],
+      "formy": [
+        "Lubinca"
+      ]
+    },
+    {
+      "id": "melania-trump",
+      "imie": "Melania Trump",
+      "funkcja": "Pierwsza dama Stanów Zjednoczonych.",
+      "kraj": [
+        "usa"
+      ],
+      "zweryfikowano": "2026-10-23",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/23/melania-trump-secures-ceasefire-in-russian-occupied-ukrainian-city-of-oleshky-white-house-",
+          "data": "2026-10-23"
+        }
+      ],
+      "formy": [
+        "Melanii Trump"
+      ]
+    },
+    {
+      "id": "laurent-nunez",
+      "imie": "Laurent Nuñez",
+      "funkcja": "Minister spraw wewnętrznych Francji.",
+      "kraj": [
+        "francja"
+      ],
+      "zweryfikowano": "2026-10-23",
+      "zrodla": [
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/france/20261023-french-prosecutors-investigate-paris-shooting-as-suspected-terror-attack",
+          "data": "2026-10-23"
+        }
+      ],
+      "formy": [
+        "Nuñeza",
+        "Nuñez"
+      ]
+    },
+    {
+      "id": "luca-niculescu",
+      "imie": "Luca-Alexandru Niculescu",
+      "funkcja": "Premier Rumunii (rząd uzyskał wotum zaufania 20.10.2026).",
+      "kraj": [
+        "rumunia"
+      ],
+      "zweryfikowano": "2026-10-23",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/23/rescue-operation-in-the-black-sea-following-a-distress-signal-from-a-ship",
+          "data": "2026-10-23"
+        }
+      ],
+      "formy": [
+        "Niculescu"
       ]
     }
   ]

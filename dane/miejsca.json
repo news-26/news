@@ -461,6 +461,30 @@
       "nazwa": "Brandenburgia",
       "lon": 13.06,
       "lat": 52.4
+    },
+    {
+      "id": "oleszki",
+      "nazwa": "Oleszki",
+      "lon": 32.72,
+      "lat": 46.62
+    },
+    {
+      "id": "morze-czarne-konstanca",
+      "nazwa": "Morze Czarne, 13 mil morskich na wschód od Konstancy",
+      "lon": 28.9,
+      "lat": 44.2
+    },
+    {
+      "id": "trappes",
+      "nazwa": "Trappes",
+      "lon": 2.0,
+      "lat": 48.78
+    },
+    {
+      "id": "orzel",
+      "nazwa": "Orzeł",
+      "lon": 36.08,
+      "lat": 52.97
     }
   ]
 }

@@ -1,0 +1,567 @@
+{
+  "nr": 35,
+  "data": "2026-10-23",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "**Rosja i Ukraina uzgodniły lokalny rozejm w okupowanych Oleszkach** (obwód chersoński): według Białego Domu zacznie się 29.10, według rosyjskiego Sztabu Generalnego 27.10; Biały Dom wskazał jako pośredniczkę {{o:melania-trump|Melanię Trump}}.",
+    "**Komorski statek Khoryv zatonął na Morzu Czarnym** ok. 13 mil morskich od Konstancy po uderzeniu drona, który według Rumunii pochodził z Rosji; zginął jeden marynarz, trzech jest poszukiwanych, a Rumunia i Bułgaria proszą NATO o wsparcie.",
+    "Ukraina przeprowadziła nalot dronów na Moskwę (zamknięte cztery lotniska) i atak rakietowy na Orzeł, a pierwszy tankowiec z rosyjskim dieslem płynie do USA na podstawie licencji OFAC, wydanej po porozumieniu {{o:donald-trump|Trumpa}} z {{o:wladimir-putin|Putinem}}.",
+    "We Francji strzelanina w Trappes jest badana jako zamach terrorystyczny; w sobotę 24.10 kraj czeka fala protestów, do których według Euronews minister spraw wewnętrznych skieruje ok. 70 tys. policjantów i żandarmów.",
+    "Incydentów w Polsce i przy jej granicach spełniających kryteria pozycji nie znaleziono w dostępnych źródłach (szczegóły w nocie)."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-10-23",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "usa",
+        "front",
+        "rozejm"
+      ],
+      "miejsce": "oleszki",
+      "krotko": "Lokalny rozejm w okupowanym mieście",
+      "etap": "ZAPOWIEDŹ",
+      "tekst": "Rosja i Ukraina uzgodniły lokalny rozejm w okupowanych Oleszkach w obwodzie chersońskim, by umożliwić dowóz pomocy i wyjazd cywilów: według Białego Domu, który jako pośredniczkę wskazał {{o:melania-trump|Melanię Trump}}, rozejm zacznie się **29.10**, a według komunikatu rosyjskiego Sztabu Generalnego, ogłoszonego przez {{o:walery-gerasimow|Walerego Gierasimowa}}, wstrzymanie ognia na froncie chersońskim obowiązuje od godz. 4:00 **27.10**. Według Kyiv Independent porozumienie potwierdził rzecznik praw obywatelskich {{o:dmytro-lubinec|Dmytro Lubinec}}, który kierował rozmowami ze strony Ukrainy, i dodał, że operacja będzie przebiegać stopniowo i jest „niezwykle trudna do przeprowadzenia”. Następstwo: rozbieżność dat (27.10 i 29.10) nie została wyjaśniona; czas trwania rozejmu i gwarancje bezpieczeństwa nie zostały podane.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/23/melania-trump-secures-ceasefire-in-russian-occupied-ukrainian-city-of-oleshky-white-house-",
+          "data": "2026-10-23"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/breaking-russia-ukraine-agree-to-oleshky-ceasefire-mediated-by-melania-trump-white-house-says/",
+          "data": "2026-10-23"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/10/23/russia-announces-october-27-ceasefire-on-southern-ukraine-s-kherson-front-to-evacuate-residents-of-occupied-oleshky",
+          "data": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-10-23",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "rumunia",
+        "nato",
+        "ue"
+      ],
+      "miejsce": "morze-czarne-konstanca",
+      "krotko": "Statek Khoryv zatonął po uderzeniu drona",
+      "etap": "W TOKU",
+      "tekst": "Komorski statek towarowy **Khoryv** zatonął 23.10 na Morzu Czarnym ok. 13 mil morskich na wschód od Konstancy po uderzeniu drona; prezydent Rumunii {{o:nicusor-dan|Nicușor Dan}} nazwał atak elementem „eskalacji” rosyjskiej wojny, a rumuńskie władze uznały, że dron pochodził z Rosji. Według Euronews (Kyiv Independent podaje 14 członków załogi) z 13 członków załogi (10 Ukraińców, 3 Azerów) jeden zginął, dziewięciu uratowano, trzech nie odnaleziono; premier {{o:luca-niculescu|Luca-Alexandru Niculescu}} zapowiedział koordynację z Bułgarią i Turcją, a Rumunia i Bułgaria poprosiły NATO o wsparcie nadzoru i obrony przed dronami. Następstwo: {{o:kaja-kallas|Kaja Kallas}} mówiła w Parlamencie Europejskim o sześciu atakach na statki w 10 dni; Rosja nie odniosła się do zarzutu w źródłach.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/civilian-cargo-ship-sinks-off-coast-of-romania-after-russian-drone-strike-authorities-say/",
+          "data": "2026-10-23"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/23/rescue-operation-in-the-black-sea-following-a-distress-signal-from-a-ship",
+          "data": "2026-10-23"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/10/23/romania-blames-russia-for-drone-strike-that-sinks-cargo-ship-in-black-sea-killing-one-sailor-and-leaving-three-missing",
+          "data": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "wojna",
+      "data": "2026-10-23",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "front"
+      ],
+      "miejsce": "moskwa",
+      "krotko": "Zamknięte lotniska Moskwy po nalocie dronów",
+      "etap": "W TOKU",
+      "tekst": "Rosyjski urząd lotnictwa Rosaviatsia zamknął 23.10 po południu wszystkie cztery lotniska Moskwy (Szeremietiewo, Domodiedowo, Wnukowo, Żukowski) w trakcie ukraińskiego nalotu dronów; mer Moskwy Siergiej Sobianin podał według Kyiv Independent, że zestrzelono 17 dronów lecących na stolicę. Według Kyiv Independent Szeremietiewo odnotowało 85 odwołanych i 229 opóźnionych lotów, a według Meduzy gubernator obwodu orłowskiego Andriej Klyczkow przypisał ukraińskim siłom rakietowy atak na „obiekt cywilny” w Orle (Kyiv Independent pisze, że potwierdził uderzenie w zakład, a użycie rakiet podaje jako doniesienie); ukraińskie kanały monitorujące i serwis ASTRA wskazują jako cel zakłady Proton produkujące elektronikę dla wojska (nie potwierdzono). Następstwo: Ukraina nie skomentowała ataków w chwili publikacji.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/ukrainian-drone-attack-triggers-shut-down-of-moscow-airports-drone-debris-reported-on-tarmac/",
+          "data": "2026-10-23"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/10/23/all-four-moscow-airports-shut-down-one-declares-air-raid-alert-and-begins-evacuating-passengers",
+          "data": "2026-10-23"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/10/23/missile-attack-on-russia-s-oryol-region-may-have-targeted-proton-a-factory-producing-military-electronics-ukrainian-monitors-say",
+          "data": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "wojna",
+      "data": "2026-10-23",
+      "tagi": [
+        "usa",
+        "rosja",
+        "sankcje",
+        "energia"
+      ],
+      "etap": "PRZYJĘTE",
+      "tekst": "Pierwszy ładunek rosyjskiego oleju napędowego płynie do USA na podstawie porozumienia {{o:donald-trump|Trumpa}} z {{o:wladimir-putin|Putinem}}: tankowiec Agioi Fanendes z ok. 40 tys. ton diesla wypłynął z Primorska i według danych Kpler dotrze do Nowego Jorku ok. 7.11. Według komentarza w Kyiv Independent (głos autorski) podstawą jest ogólna licencja {{p:ofac|OFAC}} nr 135 z 9.10, obowiązująca do kwietnia 2027 i obejmująca rosyjski diesel sprzedawany na całym świecie, a 16.10 Trump zawiesił w drodze zwolnienia większość środków ustawy Grahama o sankcjach wobec Rosji, w tym cła wtórne do 100%. Następstwo: ustawowy zakaz importu rosyjskiej energii do USA pozostaje w mocy; według Kyiv Independent decyzję krytykują ustawodawcy obu partii.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/inside-the-legal-design-of-americas-russia-sanctions-u-turn-2/",
+          "data": "2026-10-23"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/23/first-russian-diesel-shipment-is-heading-to-us-under-trump-putin-deal",
+          "data": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "instytucje",
+      "data": "2026-10-23",
+      "tagi": [
+        "francja"
+      ],
+      "miejsce": "trappes",
+      "krotko": "Strzelanina w Trappes badana jako zamach",
+      "etap": "W TOKU",
+      "tekst": "We francuskim Trappes pod Paryżem mężczyzna strzelał 23.10 z samochodu do przypadkowych osób: zginęła jedna osoba, według Euronews pięć zostało rannych, w tym 12-letnia dziewczynka postrzelona ośmiokrotnie (France 24 podaje co najmniej czworo rannych); strzały padały także w sąsiednim La Verrière; 39-letni podejrzany został zatrzymany w Coignières. Minister spraw wewnętrznych {{o:laurent-nunez|Laurent Nuñez}} nazwał to „wyraźnie zbrodnią terrorystyczną”, a prokuratura antyterrorystyczna wszczęła śledztwo; według France 24 biuro {{o:emmanuel-macron|Macrona}} nazwało go „rasistowskim zamachem terrorystycznym”. Następstwo: śledztwo trwa, motyw nie jest ostatecznie ustalony (według burmistrza Alego Rabeha – wątek rasistowski, prawdopodobnie islamofobiczny); obowiązuje domniemanie niewinności.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/23/suspect-arrested-after-1-killed-and-several-injured-in-a-shooting-in-paris-suburb",
+          "data": "2026-10-23"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/france/20261023-french-prosecutors-investigate-paris-shooting-as-suspected-terror-attack",
+          "data": "2026-10-23"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "OSW: Waszyngton składa Moskwie taktyczne ustępstwa (diesel, wstrzymanie sankcji z ustawy Grahama), a cel zakończenia wojny pozostaje bez zmian",
+      "autor": "OSW (Andrzej Kohut, Kacper Sienicki), analiza z 23.10.2026",
+      "tekst": "Według autorów zawieszenie sankcji na rosyjski diesel i odłożenie nowych sankcji z ustawy Grahama to ustępstwa taktyczne, motywowane głównie polityką wewnętrzną: wysokie ceny paliw, związane z konfliktem z Iranem, szkodzą {{o:donald-trump|Trumpowi}} przed wyborami połówkowymi 3.11. Relacje Trumpa z {{o:wolodymyr-zelenski|Zełenskim}} pogorszyły się z powodu ukraińskich ataków na rosyjskie rafinerie i krytyki ustępstw przez Kijów; Zełenski unika ataków na Trumpa, bo Ukraina zależy od amerykańskiej broni, wywiadu i łączności Starshield.",
+      "dla_polski": "Wniosek redakcji (nie teza OSW): analiza nie omawia wprost skutków dla Polski; z niej wynika, że nieprzewidywalna polityka USA zwiększa znaczenie europejskiego wsparcia dla Ukrainy, w którym Polska jest kluczowym państwem frontowym.",
+      "tagi": [
+        "usa",
+        "rosja",
+        "ukraina",
+        "sankcje"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-23/nowa-stara-strategia-trumpa-wobec-rosji-i-ukrainy",
+          "data": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "tytul": "OSW: ukraińska gospodarka jest w najgorszej sytuacji od wiosny 2022 r. z powodu blokady portów czarnomorskich i rosyjskich ataków na przemysł i energetykę",
+      "autor": "OSW (Sławomir Matuszak), komentarz z 23.10.2026",
+      "tekst": "Według autora blokada portów czarnomorskich, trwająca od 22.07.2026, zmniejszyła eksport zbóż z 3,6 mln ton w czerwcu do poniżej 1 mln ton w sierpniu i 1,5 mln ton we wrześniu, a ceny pszenicy i kukurydzy spadły od czerwca do października o ok. 40%. Rosyjskie ataki zatrzymały we wrześniu trzy największe działające huty (produkcja stali w sierpniu niższa o 57% rok do roku), a planowe wyłączenia prądu w Kijowie rozpoczęły się 6.10; autor spodziewa się dalszych ataków przez zimę 2026/27.",
+      "dla_polski": "Wniosek redakcji (nie teza OSW): komentarz nie omawia Polski; blokada portów czarnomorskich zwiększa znaczenie lądowych szlaków przez Polskę dla ukraińskiego eksportu, a atak na statek Khoryv z 23.10 pokazuje, że ryzyko dotyczy też wód państw NATO.",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "gospodarka"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://osw.waw.pl/pl/publikacje/komentarze-osw/2026-10-23/rosyjska-wojna-na-wyniszczenie-i-narastajace-problemy",
+          "data": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "tytul": "OSW: rumuński rząd {{o:luca-niculescu|Niculescu}} przetrwał głosowanie, ale nie ma stabilnej większości, a kryzys wzmocnił skrajnie prawicowy AUR",
+      "autor": "OSW (Kamil Całus), analiza z 22.10.2026",
+      "tekst": "Według autora rząd bezpartyjnego dyplomaty Luca-Alexandru Niculescu uzyskał 20.10 wotum zaufania 280 głosami przy wymaganych 233; w gabinecie PSD ma 11 z 16 ministerstw, a PNL i UDMR nie weszły do rządu, lecz popierają go w wybranych sprawach na podstawie pisemnych porozumień. Autor ocenia, że kryzys trwał ok. sześciu miesięcy, najdłużej w historii demokratycznej Rumunii, a największe korzyści odniosły PSD i {{p:aur|AUR}}, podczas gdy zaufanie do prezydenta {{o:nicusor-dan|Nicușora Dana}} mocno spadło.",
+      "dla_polski": "Wniosek redakcji (nie teza OSW): analiza nie omawia skutków dla Polski; Rumunia jest sojusznikiem na wschodniej flance NATO, a niestabilny rząd w Bukareszcie może utrudniać decyzje o obronie Morza Czarnego, które dziś są pilne.",
+      "tagi": [
+        "rumunia",
+        "nato"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-22/nowy-rzad-w-rumunii-koniec-kryzysu-poczatek-niepewnosci",
+          "data": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "tytul": "OSW: przed wyborami w Serbii 25.10 sondaże prorządowe i niezależne wskazują różnych faworytów, a wąski wynik grozi sporem i protestami",
+      "autor": "OSW (Jan Nowinowski), komentarz z 21.10.2026",
+      "tekst": "Według autora w przedterminowych wyborach parlamentarnych (trzecich w ciągu sześciu lat) Lista Studencka konkuruje z SNS Aleksandara Vučicia; sondaże prorządowe dają przewagę SNS, a niezależne i niepublikowane badania – niewielką przewagę Listy Studenckiej. Obóz rządzący ma przewagę medialną (według CRTA 69% czasu antenowego w pięciu telewizjach w pierwszych trzech tygodniach kampanii), a przy wąskim wyniku obie strony mogą ogłosić zwycięstwo, co zwiększa ryzyko protestów.",
+      "dla_polski": "Wniosek redakcji (nie teza OSW): komentarz nie omawia Polski; autor wskazuje, że UE mogłaby pośredniczyć w sporze o wynik, a weryfikacja członkostwa SNS w Europejskiej Partii Ludowej pozwoliłaby ostrzej reagować na nieprawidłowości.",
+      "tagi": [
+        "balkany",
+        "wybory",
+        "ue"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://osw.waw.pl/pl/publikacje/komentarze-osw/2026-10-21/vucic-czy-studenci-serbia-przed-wyborami-parlamentarnymi",
+          "data": "2026-10-21"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-10-24",
+      "tekst": "24.10: Francja – zapowiedziane protesty; według Euronews minister Laurent Nuñez zapowiedział skierowanie ok. 70 tys. policjantów i żandarmów, część manifestacji zakazano (Lyon, Nice, Montpellier), zamknięte będą m.in. Luwr i Musée d'Orsay. Szczyt UE – Rada Współpracy Zatoki Perskiej w Rijadzie przełożony (komunikat Rady UE z 15.10), nowa data nieznana.",
+      "tagi": [
+        "francja",
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-10-25",
+      "tekst": "25.10: Brazylia – II tura wyborów prezydenckich (Flávio Bolsonaro kontra Lula).",
+      "tagi": [
+        "ameryki",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-25",
+      "tekst": "25.10: Bułgaria – wybory prezydenta i wiceprezydenta.",
+      "tagi": [
+        "bulgaria",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-25",
+      "tekst": "25.10: Serbia – przedterminowe wybory parlamentarne (Lista Studencka kontra SNS; wynik oceniany jako wyrównany).",
+      "tagi": [
+        "balkany",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-27",
+      "tekst": "27.10: Izrael – wybory do Knesetu. Od godz. 4:00 według rosyjskiego Sztabu Generalnego rozejm w Oleszkach (według Białego Domu od 29.10).",
+      "tagi": [
+        "inne",
+        "wybory",
+        "ukraina",
+        "rozejm"
+      ]
+    },
+    {
+      "data": "2026-10-28",
+      "tekst": "28.10: Fed – decyzja FOMC (posiedzenie 27–28.10).",
+      "tagi": [
+        "usa"
+      ]
+    },
+    {
+      "data": "2026-10-29",
+      "tekst": "29.10: EBC – decyzja Rady Prezesów (posiedzenie 28–29.10); 29–30.10 szczyt UE–Kanada w Montrealu.",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-01",
+      "tekst": "1.11: OPEC+ – spotkanie siedmiu państw w sprawie limitów wydobycia na grudzień.",
+      "tagi": [
+        "energia"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-11-03",
+      "tekst": "wybory połowy kadencji w USA",
+      "tagi": [
+        "usa",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-11-12",
+      "tekst": "Europejska Wspólnota Polityczna w Irlandii (12.11), 13.11 nieformalne spotkanie przywódców UE",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [
+      {
+        "tytul": "Rosyjska wojna na wyniszczenie i narastające problemy gospodarki ukraińskiej",
+        "autor": "S. Matuszak",
+        "data": "2026-10-23",
+        "url": "https://osw.waw.pl/pl/publikacje/komentarze-osw/2026-10-23/rosyjska-wojna-na-wyniszczenie-i-narastajace-problemy"
+      },
+      {
+        "tytul": "Nowa-stara strategia Trumpa wobec Rosji i Ukrainy",
+        "autor": "A. Kohut, K. Sienicki",
+        "data": "2026-10-23",
+        "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-23/nowa-stara-strategia-trumpa-wobec-rosji-i-ukrainy"
+      },
+      {
+        "tytul": "Nowy rząd w Rumunii: koniec kryzysu, początek niepewności",
+        "autor": "K. Całus",
+        "data": "2026-10-22",
+        "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-22/nowy-rzad-w-rumunii-koniec-kryzysu-poczatek-niepewnosci"
+      },
+      {
+        "tytul": "Niemcy: zamrożenie ceny CO2 w krajowym ETS2 na 2027 rok",
+        "autor": "M. Kędzierski",
+        "data": "2026-10-22",
+        "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-22/niemcy-zamrozenie-ceny-co2-w-krajowym-ets2-na-2027-rok"
+      },
+      {
+        "tytul": "Albania: eskalacja protestów",
+        "autor": "M. Kucharski",
+        "data": "2026-10-22",
+        "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-22/albania-eskalacja-protestow"
+      },
+      {
+        "tytul": "Rosyjski dialog z USA bez przełomu i ustępstw",
+        "autor": "W. Rodkiewicz",
+        "data": "2026-10-22",
+        "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-22/rosyjski-dialog-z-usa-bez-przelomu-i-ustepstw"
+      },
+      {
+        "tytul": "Zmiany w rosyjskim rządzie: dalsza mobilizacja zasobów na długą wojnę",
+        "autor": "M. Domańska, I. Wiśniewska",
+        "data": "2026-10-21",
+        "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-21/zmiany-w-rosyjskim-rzadzie-dalsza-mobilizacja-zasobow-na-dluga-wojne"
+      },
+      {
+        "tytul": "Vučić czy studenci? Serbia przed wyborami parlamentarnymi",
+        "autor": "J. Nowinowski",
+        "data": "2026-10-21",
+        "url": "https://osw.waw.pl/pl/publikacje/komentarze-osw/2026-10-21/vucic-czy-studenci-serbia-przed-wyborami-parlamentarnymi"
+      },
+      {
+        "tytul": "Nowa ustawa o Fundacji Ucieczka, Wypędzenie, Pojednanie: Niemcy na pierwszym miejscu",
+        "autor": "K. Frymark",
+        "data": "2026-10-20",
+        "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-20/nowa-ustawa-o-fundacji-ucieczka-wypedzenie-pojednanie-niemcy-na"
+      },
+      {
+        "tytul": "Derusyfikacja Mołdawii: przyspieszony odwrót od Rosji po 2022 roku",
+        "autor": "K. Całus",
+        "data": "2026-10-20",
+        "url": "https://osw.waw.pl/pl/publikacje/komentarze-osw/2026-10-20/derusyfikacja-moldawii-przyspieszony-odwrot-od-rosji-po-2022"
+      }
+    ],
+    "pism": [],
+    "nieodczytane": [
+      "pism"
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "tekst": "Jordania: według kanału Polsat News (23.10) napastnicy otworzyli ogień podczas pogrzebu w kościele w miejscowości Hammoud – siedmiu zabitych, 27 rannych; król ma zapowiadać odwet. Jedno źródło poziomu 3; brak komunikatu władz Jordanii i drugiego źródła z poziomów 1–2.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Polsat News (kanał RSS, 23.10, poziom 3)",
+        "kanały Euronews, Kyiv Independent, Meduza (23.10): brak pozycji",
+        "wyszukiwarka (EN): brak wyników o takim zdarzeniu"
+      ]
+    },
+    {
+      "id": "n2",
+      "tekst": "Mołdawia: według Kyiv Independent (23.10) prezydent Maia Sandu ogłosiła wydalenie pracownika rosyjskiej ambasady po upadku drona Geran w pobliżu domów we wsi Chiștelnița (rejon Telenești); wyszukiwarka wskazuje przedruk Kyiv Independent (Yahoo) i UNN (poziom 3). Brak niezależnego źródła z poziomów 1–2 i komunikatu MSZ Mołdawii.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Kyiv Independent (artykuł, 23.10)",
+        "wyszukiwarka: Yahoo (przedruk KI), UNN (poziom 3), Kyiv Post (sierpień, inna sprawa)",
+        "kanał Euronews (23.10): brak pozycji"
+      ]
+    },
+    {
+      "id": "n3",
+      "tekst": "Austria: według Meduzy (23.10), powołującej się na magazyn Profil, MSZ Austrii wydala czterech rosyjskich dyplomatów podejrzanych o szpiegostwo (trzech z ambasady w Wiedniu, jeden z misji przy OBWE). Brak komunikatu MSZ Austrii i drugiego źródła.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Meduza (artykuł, 23.10)",
+        "wyszukiwarka: wyniki wyłącznie z 2022 i 2023 r.",
+        "kanały Euronews i Kyiv Independent (23.10): brak pozycji"
+      ]
+    },
+    {
+      "id": "n4",
+      "tekst": "Zatoka Perska: według Euronews (23.10) w Cieśninie Ormuz ataki na tankowce się mnożą, a wyciek ropy zamknął plaże w Umm al-Kajwajn (komunikat ministerstwa ZEA); według Polsat News Trump mówi, że USA mogłyby przejąć ropę Iranu. Brak komunikatu UKMTO/CENTCOM z 23.10 i drugiego źródła o liczbie i dacie ataków.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Euronews (artykuł, 23.10: odwołanie do UKMTO z 9.10)",
+        "Polsat News (kanał, 23.10, poziom 3)",
+        "wyszukiwarka: brak wypowiedzi Trumpa z 23.10, tylko wcześniejsze (marzec–lipiec)"
+      ]
+    },
+    {
+      "id": "n5",
+      "tekst": "Francja/Wielka Brytania: według Polsat News (23.10) lotnictwa obu państw przeprowadziły pierwsze wspólne ćwiczenie symulowanego ataku nuklearnego. Jedno źródło poziomu 3; brak komunikatu ministerstw obrony.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Polsat News (kanał, 23.10, poziom 3)",
+        "kanały Euronews, Kyiv Independent, Meduza (23.10): brak pozycji",
+        "wyszukiwarka: brak wyników"
+      ]
+    },
+    {
+      "id": "n6",
+      "tekst": "Korea: według Polsat News (23.10) Seul oficjalnie zaproponował Korei Północnej rozmowy wojskowe o linii granicznej po wybuchu miny, która raniła żołnierzy. Jedno źródło poziomu 3; brak komunikatu ministerstwa w Seulu.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Polsat News (kanał, 23.10, poziom 3)",
+        "kanały Euronews, Kyiv Independent, Meduza (23.10): brak pozycji",
+        "wyszukiwarka: brak wyników"
+      ]
+    },
+    {
+      "id": "n7",
+      "tekst": "Francja: według AFP decyzja agencji Moody's ws. ratingu Francji miała zapaść 23.10; w otwartych źródłach nie znaleziono komunikatu Moody's ani relacji z decyzją.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "wyszukiwarka (23.10): wyniki wyłącznie z lat 2012–2025, ostatnia zmiana perspektywy na negatywną w październiku 2025",
+        "kanał Euronews (23.10): artykuły o rentownościach francuskich obligacji przed decyzją EBC, bez komunikatu Moody's",
+        "kanał Polsat News (23.10): brak pozycji"
+      ],
+      "kalendarz": "2026-10-23"
+    },
+    {
+      "id": "n8",
+      "tekst": "Albania: według Euronews (23.10, wideo) i Polsat News w parlamencie doszło do szarpaniny posłów rządu i opozycji w trakcie protestów; OSW (22.10) opisuje eskalację protestów. Nie otwarto komunikatu albańskiej policji ani parlamentu.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Euronews (kanał, 23.10, wideo)",
+        "Polsat News (kanał, 23.10)",
+        "OSW (analiza z 22.10, tylko tytuł)"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-10-22#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "wyszukiwarka (23.10): wyniki o pakietach z czerwca i lipca 2026, 117 wpisów dotyczy pakietu z 2025 r.",
+        "kanał Euronews (23.10): brak pozycji o sankcjach",
+        "kanał Kyiv Independent (23.10): brak kolejnych relacji o tych wpisach"
+      ],
+      "powod": "Pozostaje jedno źródło (Kyiv Independent); brak komunikatu Rady UE ani ESDZ."
+    },
+    {
+      "dotyczy": "2026-10-22#n2",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "wyszukiwarka PL (23.10): Eska, Wprost, OKO.press – relacje o możliwości wniosku Polski do Rady UE, bez komunikatu KE z 22–23.10",
+        "kanał Polsat News (23.10): brak nowych wpisów w sprawie",
+        "kanał Euronews (23.10): brak pozycji"
+      ],
+      "powod": "Brak komunikatu KE i drugiego źródła z poziomów 1–2; relacje medialne nie są zgodne co do daty i treści decyzji."
+    },
+    {
+      "dotyczy": "2026-10-22#n3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "wyszukiwarka (23.10): Times of Israel, EUobserver – finaliści (MTK, Tundu Lissu, siostry Rahimi) ogłoszeni 19.10, bez laureata",
+        "kanał Euronews (23.10): brak pozycji o nagrodzie",
+        "kanał Polsat News (23.10): brak pozycji"
+      ],
+      "powod": "Nie znaleziono komunikatu Parlamentu Europejskiego o laureacie; w źródłach MTK figuruje jako finalista."
+    },
+    {
+      "dotyczy": "2026-10-22#n4",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "wyszukiwarka (23.10): brak komunikatu MON o wstrzymaniu dostaw; kurs.com.ua podaje sprostowanie Polski",
+        "Eska/OKO.press: szef MON Władysław Kosiniak-Kamysz nazwał uchwałę lwowską „nieakceptowalną”, bez wzmianki o wstrzymaniu dostaw",
+        "kanał Polsat News (23.10): brak wpisów o dostawach"
+      ],
+      "powod": "Brak komunikatu MON i drugiego źródła; według przytoczonych relacji Polska sprostowała doniesienia o wstrzymaniu pomocy."
+    },
+    {
+      "dotyczy": "2026-10-22#n5",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "wyszukiwarka (23.10): relacje (Forsal, Gazeta Prawna, Wprost) dotyczą jednego podejrzanego zatrzymanego w czerwcu 2026",
+        "kanał Polsat News (23.10): brak wpisów",
+        "kanały Euronews i Meduza (23.10): brak pozycji"
+      ],
+      "powod": "Nie znaleziono komunikatu prokuratury ani MSWiA o drugim zatrzymanym."
+    },
+    {
+      "dotyczy": "2026-10-22#n6",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Euronews (23.10): ataki na tankowce przy Ormuzie i wyciek ropy w ZEA, bez liczby siedmiu tankowców",
+        "kanał Polsat News (22–23.10): cztery tankowce zaatakowane i trzy na minach według przekazu o IRGC",
+        "wyszukiwarka: brak komunikatu UKMTO/CENTCOM z 22–23.10"
+      ],
+      "powod": "Liczba i przyczyna uszkodzeń siedmiu tankowców nie są potwierdzone przez UKMTO ani CENTCOM; liczby pochodzą od strony irańskiej."
+    },
+    {
+      "dotyczy": "2026-10-22#n7",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "wyszukiwarka (23.10): Il Post, AGI, Open (16.10) – przedłużenie kontroli do 22.10 i zapowiedź wspólnego ich zniesienia",
+        "kanał Euronews (23.10): brak pozycji",
+        "kanał Polsat News (23.10): brak pozycji"
+      ],
+      "powod": "Nie znaleziono komunikatu Viminale ani MSW Hiszpanii o zakończeniu kontroli."
+    }
+  ],
+  "do_sprawdzenia": [
+    "Rozejm w Oleszkach: data (27.10 według Sztabu Generalnego Rosji, 29.10 według Białego Domu), przebieg ewakuacji – komunikaty Białego Domu, Kremla, Sztabu Generalnego Ukrainy",
+    "Statek Khoryv: NATO (wzmocnienie nadzoru Morza Czarnego), komunikaty MON Rumunii, reakcja Rosji",
+    "Wybory 25.10 (Brazylia, Bułgaria, Serbia), Izrael 27.10; protesty we Francji 24.10 (MSW Francji), rating Francji (Moody's)",
+    "Strzelanina w Trappes: prokuratura antyterrorystyczna (PNAT), zarzuty dla zatrzymanego",
+    "Licencja OFAC GL 135 i zwolnienie z ustawy Grahama – tekst licencji, komunikat Departamentu Skarbu; dostawy diesla do USA (Kpler)",
+    "PISM – publikacje z 20–23.10 (lista nie otworzyła się; znaleziono Biuletyn nr 75); PAP Kraj, DO RSZ, MON, SG, ŻW – incydenty z 22–23.10",
+    "Wpisy n1–n8 z sekcji „W obserwacji” (Jordania, Mołdawia, Austria, Ormuz, ćwiczenia FR/UK, Korea, Moody's, Albania)",
+    "Netanjahu: zamknięcie Zachodniego Brzegu po starciu w Hebronie (2 izraelskich żołnierzy zabitych), trzęsienie ziemi M7 w Tybecie, Gaza – Al Jazeera 23.10; komunikaty strony izraelskiej i agencji"
+  ],
+  "nota": "Wydanie z 23.10, przygotowane ok. 20:00 (Europe/Warsaw), mniejsze niż zwykle: pięć pozycji, bo wiele tematów dnia miało tylko jedno otwarte źródło z poziomów 1–2 i trafiło do „W obserwacji” (n1–n8). Dział Świat Onetu nie był otwierany (zablokowany); dwa zapytania wyszukiwarką z datą dnia nie zwróciły nagłówków działu – z Onetu nie trafił do wydania żaden temat. Kanał Polsat News Świat otwarto (najnowszy wpis 23.10, 19:12); z kanału do wydania trafiły z1 i z4 oraz wpisy n1, n4, n5, n6, n8; TVN24 nie próbowano; pominięto m.in. stan zdrowia papieża, Starlink w Ukrainie, Albanię (poza n8), demonstracje w Niemczech 31.10. Kanały Euronews, Kyiv Independent i Meduza otwarto (najnowsze wpisy 23.10, wieczór). Przedruków Reutersa nie wykorzystano; Reuters, AP, Al Jazeera i PAP nie były przeglądane, więc brak tematu w wydaniu nie oznacza braku wydarzenia. OSW: lista otwarta, 10 tekstów z 20–23.10, cztery omówione. PISM: pism.pl/publikacje, pism.pl/publications, pism.pl/en/publications zwróciły pustą stronę; wyszukiwarka pokazała jedynie Biuletyn nr 75 z 23.10 (sytuacja izraelskiej opozycji) – lista z datami za okno 3 dni nieodczytana, więc lista PISM w wydaniu jest pusta i oznaczona jako nieodczytana. Incydenty w Polsce: komunikatów DO RSZ, MON, SG, ŻW, prokuratury ani PAP Kraj z 22–23.10 nie otwarto (wyszukiwarka ich nie zwróciła; adres polsatnews.pl/wiadomosc/2026-10-23/ dał 404), więc brak pozycji o incydentach w Polsce nie oznacza ich braku. Rozstrzygnięcia z 22.10: wszystkie siedem wpisów NIE DO POTWIERDZENIA. Dane do z1 (rozbieżność 27.10 i 29.10) podano z atrybucją obu stron; w z5 różnice w liczbie rannych podano z atrybucją. Kontrola niezależna: patrz poniżej. Kontrola niezależna (agent, bez wglądu w pisanie) zakwestionowała w z1–z5 nieścisłe atrybucje (Lubinec, liczba dronów, wypowiedź gubernatora Orła, źródło krytyki decyzji ws. diesla, ośmiokrotne postrzelenie, wizyta Macrona w Trappes) – poprawiono; niepotwierdzone zdania usunięto. Wskazała tematy bez pozycji, nieopisane w zarysie: zamknięcie Zachodniego Brzegu zapowiedziane przez Netanjahu po starciu w Hebronie, trzęsienie ziemi w Tybecie, Gaza (Al Jazeera, 23.10) – do uzupełnienia w następnym wydaniu. Wpisów n1–n8 nie udało się udokumentować dwoma źródłami poziomów 1–2. Kontrola nie sprawdziła PAP, DO RSZ, MON, SG ani Reutersa."
+}

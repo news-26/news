@@ -144,9 +144,25 @@
         "ABW",
         "SKW",
         "Agencja Bezpieczeństwa Wewnętrznego",
-        "Służba Kontrwywiadu Wojskowego"
+        "Służba Kontrwywiadu Wojskowego",
+        "Agencja Uzbrojenia"
       ],
-      "uzasadnienie": "Komunikaty organów państwa o ich własnych decyzjach. Polska Zbrojna to pismo resortu obrony, publikuje jego komunikaty i wypowiedzi kierownictwa. Dopisano 6.10.2026: prezydent.pl (KPRP) – komunikaty Kancelarii Prezydenta RP o jego własnych działaniach. Dopisano 7.10.2026: wp.mil.pl (DO RSZ, Żandarmeria Wojskowa), Straż Graniczna, Prokuratura Krajowa, ABW i SKW – komunikaty o incydentach w Polsce i przy jej granicach wynikających z sytuacji międzynarodowej (drony, sabotaż, szpiegostwo, granica z Białorusią)."
+      "uzasadnienie": "Komunikaty organów państwa o ich własnych decyzjach. Polska Zbrojna to pismo resortu obrony, publikuje jego komunikaty i wypowiedzi kierownictwa. Dopisano 6.10.2026: prezydent.pl (KPRP) – komunikaty Kancelarii Prezydenta RP o jego własnych działaniach. Dopisano 7.10.2026: wp.mil.pl (DO RSZ, Żandarmeria Wojskowa), Straż Graniczna, Prokuratura Krajowa, ABW i SKW – komunikaty o incydentach w Polsce i przy jej granicach wynikających z sytuacji międzynarodowej (drony, sabotaż, szpiegostwo, granica z Białorusią). Dopisano 23.10.2026: Agencja Uzbrojenia – komunikaty o zawartych umowach na sprzęt dla wojska."
+    },
+    {
+      "id": "pgz",
+      "nazwa": "PGZ (Polska Grupa Zbrojeniowa)",
+      "poziom": 1,
+      "typ": "spółka państwowa",
+      "kraj": "Polska",
+      "domeny": [
+        "pgzsa.pl"
+      ],
+      "wzorce": [
+        "PGZ",
+        "Polska Grupa Zbrojeniowa"
+      ],
+      "uzasadnienie": "Komunikaty grupy o jej własnych umowach, dostawach i prezentacjach sprzętu. Rozstrzygające tylko co do tego, co spółka podpisała lub pokazała; deklaracje o możliwościach sprzętu i przyszłych zamówieniach potwierdzać w Agencji Uzbrojenia lub MON."
     },
     {
       "id": "imf",

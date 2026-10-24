@@ -6,20 +6,20 @@
       "nazwa": "Ukraina",
       "grupa": "miejsce",
       "opis": "Wojna Rosji z Ukrainą: ataki, obrona powietrzna, polityka Kijowa, pomoc zachodnia.",
-      "stan": "Rosja i Ukraina uzgodniły lokalny rozejm w okupowanych Oleszkach (27.10 według Sztabu Generalnego Rosji, 29.10 według Białego Domu); Ukraina zaatakowała dronami Moskwę i rakietami Orzeł, a rosyjski dron zatopił statek Khoryv na Morzu Czarnym.",
+      "stan": "Łączność Starlink/Starshield znów stabilna (24.10); rozejm w Oleszkach zapowiedziany na 27.10 (Sztab Generalny Rosji) lub 29.10 (Biały Dom).",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/23/melania-trump-secures-ceasefire-in-russian-occupied-ukrainian-city-of-oleshky-white-house-",
-          "data": "2026-10-23"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/starshield-operations-restored-above-400-km-h-ukraines-defense-ministry-says/",
+          "data": "2026-10-24"
         },
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/breaking-russia-ukraine-agree-to-oleshky-ceasefire-mediated-by-melania-trump-white-house-says/",
-          "data": "2026-10-23"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/24/ukraine-restores-stable-connection-to-musks-starlink-kyiv-says",
+          "data": "2026-10-24"
         }
       ],
-      "stan_data": "2026-10-23"
+      "stan_data": "2026-10-24"
     },
     {
       "id": "front",
@@ -251,18 +251,18 @@
       "nazwa": "USA",
       "grupa": "miejsce",
       "opis": "Polityka USA wobec Europy, Rosji, Ukrainy i Bliskiego Wschodu.",
-      "stan": "Biały Dom ogłosił rozejm w Oleszkach z pośrednictwem Melanii Trump; pierwszy tankowiec z rosyjskim dieslem płynie do USA na podstawie licencji OFAC nr 135, a 16.10 Trump zawiesił większość środków ustawy Grahama (według Kyiv Independent).",
-      "stan_data": "2026-10-23",
+      "stan": "Starlink/Starshield przywrócone po ograniczeniach prędkości od połowy października (Kyiv Independent); rozejm w Oleszkach ogłoszony przez Biały Dom (od 29.10).",
+      "stan_data": "2026-10-24",
       "stan_zrodla": [
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/inside-the-legal-design-of-americas-russia-sanctions-u-turn-2/",
-          "data": "2026-10-23"
+          "url": "https://kyivindependent.com/starshield-operations-restored-above-400-km-h-ukraines-defense-ministry-says/",
+          "data": "2026-10-24"
         },
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/23/first-russian-diesel-shipment-is-heading-to-us-under-trump-putin-deal",
-          "data": "2026-10-23"
+          "url": "https://www.euronews.com/2026/10/24/ukraine-restores-stable-connection-to-musks-starlink-kyiv-says",
+          "data": "2026-10-24"
         }
       ]
     },
@@ -513,20 +513,20 @@
       "nazwa": "Francja",
       "grupa": "miejsce",
       "opis": "Polityka Francji: rząd, budżet, stanowisko w UE.",
-      "stan": "Strzelanina w Trappes (jedna ofiara śmiertelna) badana jako zamach terrorystyczny; 24.10 zapowiedziane protesty w kraju, do których minister Nuñez zapowiedział ok. 70 tys. funkcjonariuszy.",
+      "stan": "Protesty z 24.10 przeciw kosztom życia: według MSW co najmniej 410 tys. uczestników, 135 zatrzymanych (Euronews); rating Francji utrzymany (Aa3, perspektywa negatywna) według Euronews.",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/23/suspect-arrested-after-1-killed-and-several-injured-in-a-shooting-in-paris-suburb",
-          "data": "2026-10-23"
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/france/20261024-live-hundreds-of-protests-expected-in-france-amid-high-tensions-and-heavy-police-presence",
+          "data": "2026-10-24"
         },
         {
-          "nazwa": "France 24",
-          "url": "https://www.france24.com/en/france/20261023-french-prosecutors-investigate-paris-shooting-as-suspected-terror-attack",
-          "data": "2026-10-23"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/24/new-round-of-protests-underway-in-france-as-police-fire-tear-gas-at-demonstrators",
+          "data": "2026-10-24"
         }
       ],
-      "stan_data": "2026-10-23"
+      "stan_data": "2026-10-24"
     },
     {
       "id": "wielka-brytania",
@@ -568,20 +568,20 @@
       "nazwa": "Bałkany",
       "grupa": "miejsce",
       "opis": "Serbia, Bośnia i Hercegowina, Kosowo i inne państwa regionu.",
-      "stan": "Albania: od ponad tygodnia protesty antyrządowe, według władz ok. 300 rannych; premier Rama przypisuje je „wojnie hybrydowej” obcych podmiotów, nie przedstawiając dowodów.",
+      "stan": "Albania: 24.10 protesty w Tiranie, policja użyła gazu łzawiącego i armatek wodnych; władze podają ponad 300 rannych od początku fali; 25.10 wybory w Serbii i Bułgarii.",
       "stan_zrodla": [
         {
-          "nazwa": "France 24",
-          "url": "https://www.france24.com/en/live-news/20261020-albania-pm-blames-hybrid-war-for-week-of-unrest",
-          "data": "2026-10-20"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/24/tensions-rise-in-albania-as-protesters-burn-symbolic-pillows-outside-prime-ministers-offic",
+          "data": "2026-10-24"
         },
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/20/albanias-pm-edi-rama-blames-hybrid-war-for-fuelling-unrest-across-the-country",
-          "data": "2026-10-20"
+          "nazwa": "OSW",
+          "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-22/albania-eskalacja-protestow",
+          "data": "2026-10-22"
         }
       ],
-      "stan_data": "2026-10-21"
+      "stan_data": "2026-10-24"
     },
     {
       "id": "wybory",
@@ -633,7 +633,21 @@
       "id": "inne",
       "nazwa": "Inne",
       "grupa": "temat",
-      "opis": "Wątki rzadkie, bez osobnego hashtagu."
+      "opis": "Wątki rzadkie, bez osobnego hashtagu.",
+      "stan": "Hebron: izraelska armia wysiedla mieszkańców po ataku z 23.10 na posterunku; operacja trwa, wybory do Knesetu 27.10.",
+      "stan_zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/24/israel-removes-around-250-palestinian-families-from-west-bank-city-of-hebron-after-soldier",
+          "data": "2026-10-24"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20261024-israeli-forces-displace-1-200-palestinians-in-hebron-after-deadly-attack-on-soldiers",
+          "data": "2026-10-24"
+        }
+      ],
+      "stan_data": "2026-10-24"
     },
     {
       "id": "afryka",
@@ -700,7 +714,21 @@
       "id": "wlochy",
       "nazwa": "Włochy",
       "grupa": "miejsce",
-      "opis": "Polityka Włoch i ich rola w UE."
+      "opis": "Polityka Włoch i ich rola w UE.",
+      "stan": "Protesty z 24.10 przeciw drożyźnie w kilku miastach pod ochroną wojska; rząd Meloni przyjął dekret o przestępstwie „brutalnego udziału w demonstracji”.",
+      "stan_zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/24/italy-deploys-hundreds-of-soldiers-as-nationwide-protests-raise-fears-of-fresh-violence",
+          "data": "2026-10-24"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/europe/20261024-protests-against-cost-of-living-expected-in-italy-under-heavy-security",
+          "data": "2026-10-24"
+        }
+      ],
+      "stan_data": "2026-10-24"
     },
     {
       "id": "moldawia",

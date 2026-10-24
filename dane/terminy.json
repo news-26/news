@@ -78,31 +78,6 @@
       "krotko": "Czechy: Senat, II tura"
     },
     {
-      "id": "ue-rzz-2026",
-      "od": "2026-10-24",
-      "kategoria": "szczyt",
-      "obowiazkowy": false,
-      "tagi": [
-        "ue",
-        "iran"
-      ],
-      "tekst": "Drugi szczyt UE – Rada Współpracy Zatoki Perskiej (Arabia Saudyjska).",
-      "zrodla": [
-        {
-          "nazwa": "Rada UE",
-          "url": "https://www.consilium.europa.eu/en/meetings/international-summit/2026/10/24/",
-          "data": "2026-10-05"
-        },
-        {
-          "nazwa": "Rada UE",
-          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/15/postponement-of-the-second-eu-gcc-summit/",
-          "data": "2026-10-15"
-        }
-      ],
-      "krotko": "UE–Zatoka Perska",
-      "uwaga": "Przełożony – komunikat Rady UE z 15.10.2026; nowa data zostanie ogłoszona."
-    },
-    {
       "id": "brazylia-ii-tura-2026",
       "od": "2026-10-25",
       "kategoria": "wybory",

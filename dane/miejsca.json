@@ -7,6 +7,12 @@
       "lat": 18.22
     },
     {
+      "id": "abudza",
+      "nazwa": "Abudża",
+      "lon": 7.49,
+      "lat": 9.06
+    },
+    {
       "id": "anenii-noi",
       "nazwa": "Anenii Noi (Mołdawia)",
       "lon": 29.22,
@@ -35,6 +41,12 @@
       "nazwa": "Morze Czarne (WSE Bułgarii)",
       "lon": 29.4,
       "lat": 42.9
+    },
+    {
+      "id": "brandenburgia",
+      "nazwa": "Brandenburgia",
+      "lon": 13.06,
+      "lat": 52.4
     },
     {
       "id": "braniewo",
@@ -107,6 +119,12 @@
       "nazwa": "Grenlandia",
       "lon": -45.0,
       "lat": 66.0
+    },
+    {
+      "id": "hebron",
+      "nazwa": "Hebron",
+      "lon": 35.1,
+      "lat": 31.53
     },
     {
       "id": "irkuck",
@@ -217,6 +235,12 @@
       "lat": 14.6
     },
     {
+      "id": "mediolan",
+      "nazwa": "Mediolan",
+      "lon": 9.19,
+      "lat": 45.46
+    },
+    {
       "id": "mekele",
       "nazwa": "Mekele",
       "lon": 39.47,
@@ -241,6 +265,18 @@
       "lat": 53.9
     },
     {
+      "id": "morze-czarne-bulgaria",
+      "nazwa": "Morze Czarne (wody Bułgarii)",
+      "lon": 28.6,
+      "lat": 43.4
+    },
+    {
+      "id": "morze-czarne-konstanca",
+      "nazwa": "Morze Czarne, 13 mil morskich na wschód od Konstancy",
+      "lon": 28.9,
+      "lat": 44.2
+    },
+    {
       "id": "moskwa",
       "nazwa": "Moskwa",
       "lon": 37.62,
@@ -259,10 +295,22 @@
       "lat": 40.71
     },
     {
+      "id": "oleszki",
+      "nazwa": "Oleszki",
+      "lon": 32.72,
+      "lat": 46.62
+    },
+    {
       "id": "omsk",
       "nazwa": "Omsk",
       "lon": 73.37,
       "lat": 54.99
+    },
+    {
+      "id": "orzel",
+      "nazwa": "Orzeł",
+      "lon": 36.08,
+      "lat": 52.97
     },
     {
       "id": "oslo",
@@ -281,6 +329,18 @@
       "nazwa": "Penonomé (Panama)",
       "lon": -80.36,
       "lat": 8.52
+    },
+    {
+      "id": "petersburg",
+      "nazwa": "Petersburg",
+      "lon": 30.34,
+      "lat": 59.94
+    },
+    {
+      "id": "polnocna-litwa",
+      "nazwa": "Północna Litwa",
+      "lon": 24.6,
+      "lat": 56.1
     },
     {
       "id": "praga",
@@ -311,6 +371,12 @@
       "nazwa": "Rijad",
       "lon": 46.72,
       "lat": 24.71
+    },
+    {
+      "id": "rowne",
+      "nazwa": "Równe",
+      "lon": 26.25,
+      "lat": 50.62
     },
     {
       "id": "rusinowo",
@@ -379,6 +445,18 @@
       "lat": 14.0
     },
     {
+      "id": "tirana",
+      "nazwa": "Tirana",
+      "lon": 19.82,
+      "lat": 41.33
+    },
+    {
+      "id": "trappes",
+      "nazwa": "Trappes",
+      "lon": 2.0,
+      "lat": 48.78
+    },
+    {
       "id": "warszawa",
       "nazwa": "Warszawa",
       "lon": 21.01,
@@ -419,72 +497,6 @@
       "nazwa": "Zatoka Perska u wybrzeży ZEA",
       "lon": 55.55,
       "lat": 25.75
-    },
-    {
-      "id": "rowne",
-      "nazwa": "Równe",
-      "lon": 26.25,
-      "lat": 50.62
-    },
-    {
-      "id": "morze-czarne-bulgaria",
-      "nazwa": "Morze Czarne (wody Bułgarii)",
-      "lon": 28.6,
-      "lat": 43.4
-    },
-    {
-      "id": "petersburg",
-      "nazwa": "Petersburg",
-      "lon": 30.34,
-      "lat": 59.94
-    },
-    {
-      "id": "polnocna-litwa",
-      "nazwa": "Północna Litwa",
-      "lon": 24.6,
-      "lat": 56.1
-    },
-    {
-      "id": "mediolan",
-      "nazwa": "Mediolan",
-      "lon": 9.19,
-      "lat": 45.46
-    },
-    {
-      "id": "abudza",
-      "nazwa": "Abudża",
-      "lon": 7.49,
-      "lat": 9.06
-    },
-    {
-      "id": "brandenburgia",
-      "nazwa": "Brandenburgia",
-      "lon": 13.06,
-      "lat": 52.4
-    },
-    {
-      "id": "oleszki",
-      "nazwa": "Oleszki",
-      "lon": 32.72,
-      "lat": 46.62
-    },
-    {
-      "id": "morze-czarne-konstanca",
-      "nazwa": "Morze Czarne, 13 mil morskich na wschód od Konstancy",
-      "lon": 28.9,
-      "lat": 44.2
-    },
-    {
-      "id": "trappes",
-      "nazwa": "Trappes",
-      "lon": 2.0,
-      "lat": 48.78
-    },
-    {
-      "id": "orzel",
-      "nazwa": "Orzeł",
-      "lon": 36.08,
-      "lat": 52.97
     }
   ]
 }

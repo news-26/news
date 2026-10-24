@@ -1,0 +1,498 @@
+{
+  "nr": 36,
+  "data": "2026-10-24",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "We Francji odbyły się 24.10 protesty przeciw wysokim kosztom życia. Według władz wzięło w nich udział 410 tys. osób, a policja użyła w Paryżu armatek wodnych i gazu łzawiącego.",
+    "Izraelska armia wysiedla mieszkańców dzielnic Hebronu na Zachodnim Brzegu po piątkowym ataku, w którym zginęło dwóch izraelskich żołnierzy. Według urzędnika palestyńskiego wysiedlono ok. 1200 osób, a według władz Hebronu 150–250 rodzin.",
+    "Ministerstwo Obrony Ukrainy poinformowało, że łączność Starlink i {{p:starshield|Starshield}} działa znów stabilnie po ograniczeniu prędkości trwającym od połowy października.",
+    "W Tiranie tysiące osób protestowało 24.10 przeciw rządowi premiera {{o:edi-rama|Ediego Ramy}}. Władze Albanii podają, że rannych zostało ponad 300 osób, protestujących i policjantów."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "instytucje",
+      "data": "2026-10-24",
+      "tagi": [
+        "francja"
+      ],
+      "miejsce": "paryz",
+      "krotko": "Protesty we Francji, setki tysięcy uczestników",
+      "etap": null,
+      "tekst": "We Francji odbyły się 24.10 protesty przeciw wysokim kosztom życia; według władz wzięło w nich udział **410 tys.** osób, a według organizatorów prawie 800 tys. Według Euronews policja użyła w Paryżu armatek wodnych i gazu łzawiącego; liczba zatrzymanych rosła w ciągu dnia (135 według Euronews, blisko tysiąc według France 24). Minister spraw wewnętrznych {{o:laurent-nunez|Laurent Nuñez}} zapowiedział brak tolerancji dla przemocy.",
+      "zrodla": [
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/france/20261024-live-hundreds-of-protests-expected-in-france-amid-high-tensions-and-heavy-police-presence",
+          "data": "2026-10-24"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/24/new-round-of-protests-underway-in-france-as-police-fire-tear-gas-at-demonstrators",
+          "data": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "swiat",
+      "data": "2026-10-24",
+      "tagi": [
+        "inne"
+      ],
+      "miejsce": "hebron",
+      "krotko": "Wysiedlenia w Hebronie po ataku na żołnierzy",
+      "etap": "W TOKU",
+      "tekst": "Izraelska armia wysiedla mieszkańców dzielnic w **Hebronie** na Zachodnim Brzegu po ataku z 23.10, w którym według armii dwóch palestyńskich napastników zabiło na posterunku dwóch izraelskich żołnierzy i zginęło w wymianie ognia. Premier Izraela Binjamin Netanjahu zapowiedział szeroko zakrojoną operację; według armii obejmuje ona przeszukania, a według France 24 także wyburzenia. Wysiedlono ok. 1200 osób według urzędnika palestyńskiego (France 24) albo 150–250 rodzin według władz Hebronu (Euronews). Operacja trwa trzy dni przed wyborami do Knesetu (27.10).",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/24/israel-removes-around-250-palestinian-families-from-west-bank-city-of-hebron-after-soldier",
+          "data": "2026-10-24"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20261024-israeli-forces-displace-1-200-palestinians-in-hebron-after-deadly-attack-on-soldiers",
+          "data": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "wojna",
+      "data": "2026-10-24",
+      "tagi": [
+        "ukraina",
+        "usa"
+      ],
+      "miejsce": "kijow",
+      "krotko": "Starlink i Starshield znów działają stabilnie",
+      "etap": null,
+      "tekst": "Ukraina poinformowała 24.10, że łączność **Starlink** i {{p:starshield|Starshield}} jest znów stabilna. Według ukraińskiego Ministerstwa Obrony prędkość przekracza 400 km/h (jednostka tak podana w źródłach); {{o:wolodymyr-zelenski|Zełenski}} powiedział, że jest ona na potrzebnym poziomie. Według Kyiv Independent od połowy października prędkość była ograniczona do ok. 160 km/h, a nikt publicznie nie przyznał się do nałożenia ani zdjęcia ograniczeń.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/starshield-operations-restored-above-400-km-h-ukraines-defense-ministry-says/",
+          "data": "2026-10-24"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/24/ukraine-restores-stable-connection-to-musks-starlink-kyiv-says",
+          "data": "2026-10-24"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/europe/20261024-ukraine-says-starlink-and-starshield-connection-stable-again",
+          "data": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "swiat",
+      "data": "2026-10-24",
+      "tagi": [
+        "balkany"
+      ],
+      "miejsce": "tirana",
+      "krotko": "Protesty antyrządowe w Tiranie",
+      "etap": null,
+      "tekst": "W Tiranie protestowały 24.10 tysiące osób, w tym studenci, wykładowcy i zwolennicy opozycji, przeciw rządowi premiera {{o:edi-rama|Ediego Ramy}}; policja użyła gazu łzawiącego i armatek wodnych. Według Euronews władze podają ponad 300 rannych protestujących i policjantów, a Rama obwinił za przemoc „zagranicznych aktorów”. Protesty trwają od maja; według OSW od połowy października nasiliły się, a żadna ze stron nie szuka kompromisu.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/24/tensions-rise-in-albania-as-protesters-burn-symbolic-pillows-outside-prime-ministers-offic",
+          "data": "2026-10-24"
+        },
+        {
+          "nazwa": "OSW",
+          "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-22/albania-eskalacja-protestow",
+          "data": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "instytucje",
+      "data": "2026-10-24",
+      "tagi": [
+        "wlochy"
+      ],
+      "miejsce": "mediolan",
+      "krotko": "Protesty we Włoszech, żołnierze w Mediolanie",
+      "etap": null,
+      "tekst": "We Włoszech zapowiedziano na 24.10 protesty przeciw drożyźnie i cięciom budżetowym w ośmiu miastach, w tym w Rzymie i Mediolanie; do patrolowania centrum Mediolanu skierowano dodatkowych żołnierzy (500 według Euronews). Według Euronews doszło do starć z policją w Rzymie, Turynie, Bolonii i Florencji, a policja użyła armatek wodnych i gazu łzawiącego. Rząd {{o:giorgia-meloni|Giorgii Meloni}} przyjął w tym tygodniu dekret, który wprowadza przestępstwo „udziału w demonstracji z użyciem przemocy”, łagodzi zasady zatrzymywania nieletnich i przewiduje grzywny dla rodziców za szkody wyrządzone przez dzieci (France 24).",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/24/italy-deploys-hundreds-of-soldiers-as-nationwide-protests-raise-fears-of-fresh-violence",
+          "data": "2026-10-24"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/europe/20261024-protests-against-cost-of-living-expected-in-italy-under-heavy-security",
+          "data": "2026-10-24"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "OSW: protesty w Albanii nasilają się, a brak kompromisu rządu i protestujących opóźnia drogę kraju do UE",
+      "autor": "OSW (Michał Kucharski), analiza z 22.10.2026",
+      "tekst": "Według autora od połowy października protesty stają się coraz bardziej gwałtowne, bo dołączyli do nich uczniowie i studenci. Policja użyła pałek, gazu łzawiącego i gumowych kul; zatrzymano lub aresztowano ok. tysiąca osób, co najmniej 388 oskarżono, a rannych jest ok. 300. Autor ocenia, że żadna ze stron nie jest gotowa na kompromis, a kryzys opóźnia i tak powolny proces akcesyjny Albanii do UE.",
+      "dla_polski": "Wniosek redakcji (nie teza OSW): analiza nie omawia Polski; Polska popiera rozszerzenie UE, więc niestabilność w państwie kandydującym jest dla niej istotna.",
+      "tagi": [
+        "balkany",
+        "ue"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-22/albania-eskalacja-protestow",
+          "data": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "tytul": "OSW: rozmowy Putina z wysłannikiem USA Stevem Witkoffem 21.10 nie przybliżają zawieszenia broni; według OSW Moskwa pozoruje elastyczność",
+      "autor": "OSW (Witold Rodkiewicz), analiza z 22.10.2026",
+      "tekst": "Według autora Rosja wykorzystuje dialog z USA, by stworzyć wrażenie elastyczności, nie rezygnując z maksymalistycznych celów wobec Ukrainy i europejskiego bezpieczeństwa. {{o:wladimir-putin|Putin}} zgodził się wznowić rozmowy trójstronne Rosja–Ukraina–USA dopiero w drugiej połowie listopada i tylko o porządku po zakończeniu wojny. Porozumienie z USA w sprawie dostaw rosyjskiego oleju napędowego Moskwa pokazuje jako gest dobrej woli.",
+      "dla_polski": "Wniosek redakcji (nie teza OSW): z analizy wynika, że wiążące porozumienie wymagałoby udziału europejskich państw NATO, a oferty gospodarcze Moskwy mogą osłabiać presję Zachodu na Rosję.",
+      "tagi": [
+        "rosja",
+        "ukraina",
+        "usa"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-22/rosyjski-dialog-z-usa-bez-przelomu-i-ustepstw",
+          "data": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "tytul": "OSW: Niemcy zamrażają cenę CO2 w krajowym systemie dla paliw i budynków na 2027 r. w czasie kryzysu paliwowego",
+      "autor": "OSW (Michał Kędzierski), analiza z 22.10.2026",
+      "tekst": "Według autora Bundestag przyjął 15.10 nowelizację, która utrzymuje w 2027 r. cenę uprawnień do emisji CO2 dla paliw transportowych i budynków w przedziale 55–65 euro za tonę. Zamrożenie ma zapobiec wzrostowi do ok. 85 euro za tonę w czasie kryzysu paliwowego. Autor ocenia, że niemieckie elity nie doceniają społecznego ryzyka systemu ETS2 (unijnego systemu handlu uprawnieniami do emisji dla paliw i budynków).",
+      "dla_polski": "Wniosek redakcji (nie teza OSW): analiza nie omawia Polski; z niej wynika, że skutki społeczne ETS2 mogą stać się problemem politycznym także w Europie Środkowej.",
+      "tagi": [
+        "niemcy",
+        "ue",
+        "energia"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-22/niemcy-zamrozenie-ceny-co2-w-krajowym-ets2-na-2027-rok",
+          "data": "2026-10-22"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-10-25",
+      "tekst": "25.10: Brazylia – II tura wyborów prezydenckich (Flávio Bolsonaro kontra Lula).",
+      "tagi": [
+        "ameryki",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-25",
+      "tekst": "25.10: Bułgaria – wybory prezydenta i wiceprezydenta.",
+      "tagi": [
+        "bulgaria",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-25",
+      "tekst": "25.10: Serbia – przedterminowe wybory parlamentarne (Lista Studencka kontra SNS; wynik oceniany jako wyrównany).",
+      "tagi": [
+        "balkany",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-27",
+      "tekst": "27.10: Izrael – wybory do Knesetu. Od godz. 4:00 według rosyjskiego Sztabu Generalnego rozejm w Oleszkach (według Białego Domu od 29.10).",
+      "tagi": [
+        "inne",
+        "wybory",
+        "ukraina",
+        "rozejm"
+      ]
+    },
+    {
+      "data": "2026-10-28",
+      "tekst": "28.10: Fed – decyzja FOMC (posiedzenie 27–28.10).",
+      "tagi": [
+        "usa"
+      ]
+    },
+    {
+      "data": "2026-10-29",
+      "tekst": "29.10: EBC – decyzja Rady Prezesów (posiedzenie 28–29.10); 29–30.10 szczyt UE–Kanada w Montrealu.",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-01",
+      "tekst": "1.11: OPEC+ – spotkanie siedmiu państw w sprawie limitów wydobycia na grudzień.",
+      "tagi": [
+        "energia"
+      ]
+    },
+    {
+      "data": "2026-11-03",
+      "tekst": "3.11: USA – wybory połowy kadencji (cała Izba Reprezentantów, jedna trzecia Senatu, część gubernatorów).",
+      "tagi": [
+        "usa",
+        "wybory"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-11-12",
+      "tekst": "Europejska Wspólnota Polityczna w Irlandii (12.11), 13.11 nieformalne spotkanie przywódców UE",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [
+      {
+        "tytul": "Rosyjska wojna na wyniszczenie i narastające problemy gospodarki ukraińskiej",
+        "autor": "S. Matuszak",
+        "data": "2026-10-23",
+        "url": "https://osw.waw.pl/pl/publikacje/komentarze-osw/2026-10-23/rosyjska-wojna-na-wyniszczenie-i-narastajace-problemy"
+      },
+      {
+        "tytul": "Nowa-stara strategia Trumpa wobec Rosji i Ukrainy",
+        "autor": "A. Kohut, K. Sienicki",
+        "data": "2026-10-23",
+        "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-23/nowa-stara-strategia-trumpa-wobec-rosji-i-ukrainy"
+      },
+      {
+        "tytul": "Nowy rząd w Rumunii: koniec kryzysu, początek niepewności",
+        "autor": "K. Całus",
+        "data": "2026-10-22",
+        "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-22/nowy-rzad-w-rumunii-koniec-kryzysu-poczatek-niepewnosci"
+      },
+      {
+        "tytul": "Niemcy: zamrożenie ceny CO2 w krajowym ETS2 na 2027 rok",
+        "autor": "M. Kędzierski",
+        "data": "2026-10-22",
+        "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-22/niemcy-zamrozenie-ceny-co2-w-krajowym-ets2-na-2027-rok"
+      },
+      {
+        "tytul": "Albania: eskalacja protestów",
+        "autor": "M. Kucharski",
+        "data": "2026-10-22",
+        "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-22/albania-eskalacja-protestow"
+      },
+      {
+        "tytul": "Rosyjski dialog z USA bez przełomu i ustępstw",
+        "autor": "W. Rodkiewicz",
+        "data": "2026-10-22",
+        "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-22/rosyjski-dialog-z-usa-bez-przelomu-i-ustepstw"
+      }
+    ],
+    "pism": [],
+    "nieodczytane": [
+      "pism"
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "tekst": "Jordania: według Polsat News (23.10), powołującego się na komunikat MSZ i AFP, napastnicy otworzyli ogień podczas pogrzebu w kościele w miejscowości Hammoud w prowincji Karak; według jordańskiej Dyrekcji Bezpieczeństwa Publicznego siedem osób zginęło, 27 jest leczonych. MSZ podało, że poszkodowana została polsko-jordańska rodzina, i nazwało atak terroryzmem. Nie otwarto komunikatu MSZ ani drugiego źródła z poziomów 1–2.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Polsat News (artykuł, 23.10, poziom 3)",
+        "gov.pl – komunikaty MSZ (strona bez tego komunikatu)",
+        "wyszukiwarka PL i EN (24.10): brak wyników o zdarzeniu",
+        "strony główne France 24 i Al Jazeera (24.10): brak pozycji"
+      ]
+    },
+    {
+      "id": "n2",
+      "tekst": "Francja: według Euronews (24.10) agencja Moody's utrzymała rating Francji Aa3 z perspektywą negatywną (decyzja z 23.10); minister gospodarki Roland Lescure i premier Sébastien Lecornu przyjęli decyzję z zadowoleniem. Nie otwarto komunikatu Moody's ani drugiego źródła z poziomów 1–2.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Euronews (artykuł, 24.10)",
+        "wyszukiwarka (24.10): zapowiedzi przed decyzją, bez relacji z decyzji",
+        "strona główna France 24 (24.10): brak pozycji"
+      ]
+    },
+    {
+      "id": "n3",
+      "tekst": "Rozmowy pokojowe: według Euronews (23.10) UE chce rozszerzyć swoją rolę w rozmowach USA–Ukraina–Rosja; rzecznik Kremla Dmitrij Pieskow ma mówić, że rozmowy odbędą się w pierwszej połowie listopada w Abu Zabi i pozostaną trójstronne. Nie otwarto komunikatu Komisji Europejskiej ani Kremla, brak drugiego źródła z poziomów 1–2.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Euronews (artykuł, 23.10)",
+        "Polsat News (kanał, 23.10: Zełenski zapowiada termin spotkania trójstronnego)",
+        "Kyiv Independent (kanał, 24.10): brak relacji o terminie"
+      ]
+    },
+    {
+      "id": "n4",
+      "tekst": "Ukraina–Rosja: według Sztabu Generalnego Ukrainy (za Kyiv Independent, 24.10) ukraińskie drony uderzyły w zakłady Tolyattikauczuk w Togliatti; według Euronews (24.10) atak na zakład w Orle zabił trzy osoby, a Kyiv Independent (23.10) nie podaje ofiar. Polsat News podaje atak na zakłady petrochemiczne w Omsku. Brak komunikatu strony rosyjskiej i niezależnego potwierdzenia skutków.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Kyiv Independent (artykuły z 23 i 24.10, poziom 2, relacja strony ukraińskiej)",
+        "Euronews (wideo, 24.10)",
+        "Polsat News (kanał, 24.10, poziom 3)"
+      ]
+    },
+    {
+      "id": "n5",
+      "tekst": "Kuba: według Euronews (24.10) sekretarz stanu Marco Rubio wezwał Kubańczyków do „dyskretnego partnerstwa” z CIA; według Polsat News (23.10) Trump zapowiedział zajęcie się Kubą po Iranie. Brak drugiego źródła z poziomów 1–2 i oryginalnego wpisu Rubia.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Euronews (artykuł, 24.10)",
+        "Polsat News (kanał, 23.10)",
+        "Kyiv Independent i Meduza (kanały, 24.10): brak pozycji"
+      ]
+    },
+    {
+      "id": "n6",
+      "tekst": "Oleszki: według Kyiv Independent (24.10) wiceprzewodnicząca Parlamentu Europejskiego Pina Picierno zakończyła głodówkę po ogłoszeniu rozejmu; według Polsat News (24.10) rzecznik Kremla pochwalił pracę rosyjskiej i ukraińskiej rzeczniczki praw obywatelskich. Brak drugiego źródła z poziomów 1–2 i komunikatów Kremla.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Kyiv Independent (artykuł, 24.10)",
+        "Polsat News (kanał, 24.10)",
+        "Euronews (kanał, 24.10): brak pozycji"
+      ]
+    },
+    {
+      "id": "n7",
+      "tekst": "Iran: według Reutersa (za Khaleej Times, 23.10) wysłannik USA mówi, że USA mogą uderzyć w weekend; według tego samego przedruku doszło do ataku na tankowiec koło Omanu (UKMTO), a ropa Brent jest najwyżej od ponad pięciu miesięcy. Nie otwarto komunikatu Białego Domu, UKMTO ani drugiego źródła.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Reuters (za Khaleej Times, wyniki wyszukiwarki, 23.10)",
+        "kanały Euronews i Kyiv Independent (24.10): brak pozycji",
+        "Polsat News (kanał, 23.10): wypowiedzi Trumpa o Iranie, bez decyzji"
+      ]
+    },
+    {
+      "id": "n8",
+      "tekst": "Polska: według TVP World (22.10) planowano podpalenie zakładu Flytronic (WB Group) w Gliwicach na zlecenie z Rosji przez Telegram za 30 tys. USD. Nie otwarto komunikatu prokuratury, ABW ani Żandarmerii, brak drugiego źródła z poziomów 1–2.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "TVP World (wynik wyszukiwarki, 22.10)",
+        "wyszukiwarka: brak komunikatu prokuratury lub ABW",
+        "PAP Kraj: nie otwarto"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-10-23#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Polsat News (24.10: relacja z komunikatem MSZ)",
+        "gov.pl – komunikaty MSZ (24.10): brak komunikatu",
+        "wyszukiwarka PL i EN (24.10): brak wyników"
+      ],
+      "powod": "Pozostaje jedno źródło poziomu 3; komunikatu MSZ ani drugiego źródła z poziomów 1–2 nie otwarto. Wpis odnowiony jako n1."
+    },
+    {
+      "dotyczy": "2026-10-23#n2",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "wyszukiwarka (24.10): wyniki z sierpnia 2026 (Krokmaz), bez wydalenia",
+        "kanał Kyiv Independent (24.10): brak pozycji",
+        "kanał Meduza (24.10): brak pozycji"
+      ],
+      "powod": "Nie znaleziono drugiego źródła ani komunikatu mołdawskiego MSZ."
+    },
+    {
+      "dotyczy": "2026-10-23#n3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "wyszukiwarka (24.10): wydalenia z maja i sierpnia 2026, nie z października",
+        "kanał Meduza (24.10): brak pozycji",
+        "kanał Euronews (24.10): brak pozycji"
+      ],
+      "powod": "Nie znaleziono komunikatu austriackiego MSZ ani drugiego źródła."
+    },
+    {
+      "dotyczy": "2026-10-23#n4",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "kanał Euronews (24.10): brak pozycji o Ormuzie",
+        "kanał Polsat News (24.10): brak nowych wpisów o atakach na tankowce",
+        "kanał Kyiv Independent (24.10): brak pozycji"
+      ],
+      "powod": "Brak komunikatu UKMTO/CENTCOM i drugiego źródła o liczbie i dacie ataków."
+    },
+    {
+      "dotyczy": "2026-10-23#n5",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "wyszukiwarka (24.10): brak relacji o ćwiczeniu",
+        "kanał Euronews (24.10): brak pozycji",
+        "kanał Polsat News (24.10): brak nowych wpisów"
+      ],
+      "powod": "Brak komunikatu ministerstw obrony Francji i Wielkiej Brytanii."
+    },
+    {
+      "dotyczy": "2026-10-23#n6",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "wyszukiwarka (24.10): wyniki z listopada 2025 i bez daty",
+        "kanał Polsat News (24.10): brak nowych wpisów",
+        "kanał Euronews (24.10): brak pozycji"
+      ],
+      "powod": "Nie znaleziono komunikatu ministerstwa zjednoczenia Korei Południowej ani drugiego źródła."
+    },
+    {
+      "dotyczy": "2026-10-23#n7",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Euronews (24.10): artykuł o decyzji Moody's",
+        "wyszukiwarka (24.10): tylko zapowiedzi decyzji",
+        "strona główna France 24 (24.10): brak pozycji"
+      ],
+      "powod": "Decyzję (Aa3, perspektywa negatywna) podaje jedno źródło poziomu 2; komunikatu Moody's nie otwarto. Wpis odnowiony jako n2."
+    },
+    {
+      "dotyczy": "2026-10-23#n8",
+      "wynik": "UZUPEŁNIONE",
+      "pozycja": "z4"
+    }
+  ],
+  "do_sprawdzenia": [
+    "Wybory 25.10 (Brazylia, Bułgaria, Serbia) i Izrael 27.10; wysiedlenia w Hebronie – komunikaty armii izraelskiej, ONZ; protesty we Francji i Włoszech – MSW, Viminale",
+    "Starlink/Starshield – komunikaty Pentagonu i SpaceX, kto nałożył ograniczenia; rozejm w Oleszkach (27.10 lub 29.10); termin rozmów trójstronnych w Abu Zabi",
+    "Jordania – komunikat MSZ i władz Jordanii o zamachu w Karaku (poszkodowani Polacy); rating Francji – komunikat Moody's",
+    "PISM – publikacje z 22–24.10 (lista nie otworzyła się); PAP Kraj, DO RSZ, MON, SG, ŻW, Agencja Uzbrojenia – incydenty i kontrakty z 23–24.10",
+    "Albania – komunikat policji i rządu; Tolyatti, Orzeł, Omsk – skutki ataków; wpisy n1–n6 z sekcji „W obserwacji”",
+    "Iran – komunikaty Białego Domu, UKMTO; Gliwice (Flytronic) – komunikat prokuratury i ABW; wpisy n7–n8"
+  ],
+  "nota": "Wydanie z 24.10, przygotowane ok. 20:00 (Europe/Warsaw), mniejsze niż zwykle: pięć pozycji, bo większość tematów dnia miała tylko jedno źródło z poziomów 1–2 i trafiła do „W obserwacji” (n1–n8). Dział Świat Onetu nie był otwierany (zablokowany); przegląd wyszukiwarką nie zwrócił nagłówków działu – z Onetu nie trafił do wydania żaden temat. Kanał Polsat News Świat otwarto (najnowszy wpis 24.10, 19:51); z kanału do wydania trafiły wpisy n1, n4, n5, n6 oraz tematy z1, z3, z4 (jako sygnał, z dokumentacją z innych źródeł); TVN24 (kanał zapasowy) nie próbowano w tym przebiegu. Kanały Euronews i Kyiv Independent otwarto (najnowsze wpisy 24.10, wieczór), kanał Meduzy zawierał tylko trzy wpisy z 23–24.10 (bez tematów do wydania). Przedruków Reutersa nie wykorzystano; Reuters, AP, Al Jazeera i PAP nie były przeglądane (z Al Jazeera i France 24 przejrzano tylko strony główne), więc brak tematu w wydaniu nie oznacza braku wydarzenia. OSW: lista otwarta, 6 tekstów z 22–23.10, trzy omówione w analizach. PISM: pism.pl/publikacje, pism.pl/publikacje (bez www) i pism.pl/en/publications zwróciły pustą stronę, wyszukiwarka nie wskazała tekstów z 22–24.10 – lista PISM jest pusta i oznaczona jako nieodczytana. Incydenty w Polsce i polski przemysł zbrojeniowy: wyszukiwarka (po jednym zapytaniu) nie zwróciła komunikatów DO RSZ, MON, SG, ŻW, prokuratury, Agencji Uzbrojenia ani PAP z 23–24.10, których nie otwarto, więc brak pozycji o tych sprawach nie oznacza ich braku. W z4 doliczono OSW jako drugie źródło poziomu 2; liczby wysiedlonych w z2 i uczestników w z1 podano z atrybucją. Rozstrzygnięcia z 23.10: n8 uzupełniony (z4), pozostałe NIE DO POTWIERDZENIA. Z kalendarium usunięto przełożony szczyt UE – RWZ. Kontrola niezależna: patrz niżej. Po kontroli niezależnej (agent, bez wglądu w pisanie) poprawiono: liczby zatrzymanych i uczestników w z1, atrybucje w z2, z3, z5, tytuły analiz oraz sformułowania w „W skrócie”; dopisano wpisy n7 (Iran) i n8 (Gliwice). Kontrola nie sprawdziła PAP, DO RSZ, MON, SG, ŻW ani Agencji Uzbrojenia."
+}

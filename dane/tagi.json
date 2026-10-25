@@ -1,746 +1,746 @@
 {
-  "_opis": "Słownik hashtagów. Nowy tag dodawaj świadomie (id: małe litery, bez polskich znaków, łączniki). grupa: miejsce | temat. Pole stan aktualizuje każde wydanie, które dotyczy wątku; stan_data = data tej aktualizacji; stan_zrodla = linki potwierdzające.",
-  "tagi": [
+ "_opis": "Słownik hashtagów. Nowy tag dodawaj świadomie (id: małe litery, bez polskich znaków, łączniki). grupa: miejsce | temat. Pole stan aktualizuje każde wydanie, które dotyczy wątku; stan_data = data tej aktualizacji; stan_zrodla = linki potwierdzające.",
+ "tagi": [
+  {
+   "id": "ukraina",
+   "nazwa": "Ukraina",
+   "grupa": "miejsce",
+   "opis": "Wojna Rosji z Ukrainą: ataki, obrona powietrzna, polityka Kijowa, pomoc zachodnia.",
+   "stan": "Rosyjskie ataki z 24–25.10: osiem zabitych i 51 rannych; łączność Starlink/Starshield stabilna od 24.10; rozejm w Oleszkach zapowiedziany na 27.10 (Sztab Generalny Rosji) lub 29.10 (Biały Dom).",
+   "stan_zrodla": [
     {
-      "id": "ukraina",
-      "nazwa": "Ukraina",
-      "grupa": "miejsce",
-      "opis": "Wojna Rosji z Ukrainą: ataki, obrona powietrzna, polityka Kijowa, pomoc zachodnia.",
-      "stan": "Łączność Starlink/Starshield znów stabilna (24.10); rozejm w Oleszkach zapowiedziany na 27.10 (Sztab Generalny Rosji) lub 29.10 (Biały Dom).",
-      "stan_zrodla": [
-        {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/starshield-operations-restored-above-400-km-h-ukraines-defense-ministry-says/",
-          "data": "2026-10-24"
-        },
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/24/ukraine-restores-stable-connection-to-musks-starlink-kyiv-says",
-          "data": "2026-10-24"
-        }
-      ],
-      "stan_data": "2026-10-24"
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/russian-attacks-kill-8-injure-51-across-ukraine-over-past-day-as-drone-strikes-residential-building-in-vinnytsia/",
+     "data": "2026-10-25"
     },
     {
-      "id": "front",
-      "nazwa": "Front",
-      "grupa": "temat",
-      "opis": "Działania na linii frontu w Ukrainie; oceny ISW zawsze jako ocena think tanku.",
-      "stan": "Ukraina uderzyła dronami na Moskwę (zamknięte cztery lotniska, według Sobianina zestrzelono 17 dronów) i rakietami na Orzeł; lokalny rozejm w Oleszkach ma zacząć się 27.10 lub 29.10.",
-      "stan_data": "2026-10-23",
-      "stan_zrodla": [
-        {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/ukrainian-drone-attack-triggers-shut-down-of-moscow-airports-drone-debris-reported-on-tarmac/",
-          "data": "2026-10-23"
-        },
-        {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/10/23/all-four-moscow-airports-shut-down-one-declares-air-raid-alert-and-begins-evacuating-passengers",
-          "data": "2026-10-23"
-        }
-      ]
-    },
-    {
-      "id": "rozejm",
-      "nazwa": "Rozejm",
-      "grupa": "temat",
-      "opis": "Rozmowy i propozycje zawieszenia broni w wojnie Rosji z Ukrainą.",
-      "stan": "Uzgodniony lokalny rozejm w Oleszkach (obwód chersoński) dla ewakuacji cywilów i dowozu pomocy; daty rozbieżne (27.10 – Sztab Generalny Rosji, 29.10 – Biały Dom); rozmowy trójstronne USA–Rosja–Ukraina zapowiedziane na połowę listopada.",
-      "stan_zrodla": [
-        {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/breaking-russia-ukraine-agree-to-oleshky-ceasefire-mediated-by-melania-trump-white-house-says/",
-          "data": "2026-10-23"
-        },
-        {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/10/23/russia-announces-october-27-ceasefire-on-southern-ukraine-s-kherson-front-to-evacuate-residents-of-occupied-oleshky",
-          "data": "2026-10-23"
-        }
-      ],
-      "stan_data": "2026-10-23"
-    },
-    {
-      "id": "rosja",
-      "nazwa": "Rosja",
-      "grupa": "miejsce",
-      "opis": "Polityka wewnętrzna, armia i budżet Rosji.",
-      "stan": "Rosja ogłosiła przez Sztab Generalny wstrzymanie ognia w Oleszkach od 27.10; Rumunia przypisuje Rosji uderzenie drona w statek Khoryv; Moskwa zamknęła cztery lotniska po ukraińskim nalocie dronów.",
-      "stan_data": "2026-10-23",
-      "stan_zrodla": [
-        {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/10/23/russia-announces-october-27-ceasefire-on-southern-ukraine-s-kherson-front-to-evacuate-residents-of-occupied-oleshky",
-          "data": "2026-10-23"
-        },
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/23/rescue-operation-in-the-black-sea-following-a-distress-signal-from-a-ship",
-          "data": "2026-10-23"
-        }
-      ]
-    },
-    {
-      "id": "krolewiec",
-      "nazwa": "Królewiec",
-      "grupa": "miejsce",
-      "opis": "Obwód królewiecki: militaryzacja, tranzyt, napięcia z NATO.",
-      "stan": "Rosja grozi NATO bronią jądrową w razie izolowania obwodu (pismo ujawnione 30.09); Putin 1.10 na forum Wałdaj zapowiedział, że przy bezpośrednim ataku na Rosję na porządku dnia stanie użycie „wszystkich rodzajów broni”; MSZ RP mówi o „cynicznej próbie eskalacji”.",
-      "stan_zrodla": [
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/02/putin-says-all-weapons-on-agenda-if-russias-kaliningrad-attacked",
-          "data": "2026-10-02"
-        },
-        {
-          "nazwa": "AFP (za Arab News)",
-          "url": "https://www.arabnews.pk/world/all-types-of-weapons-on-agenda-if-russias-kaliningrad-attacked-putin-3002905",
-          "data": "2026-10-01"
-        },
-        {
-          "nazwa": "PAP (za WP)",
-          "url": "https://wiadomosci.wp.pl/rzecznik-msz-o-pismie-moskwy-cyniczna-proba-eskalacji-7335530154125632a",
-          "data": "2026-10-02"
-        }
-      ],
-      "stan_data": "2026-10-02"
-    },
-    {
-      "id": "bialorus",
-      "nazwa": "Białoruś",
-      "grupa": "miejsce",
-      "opis": "Reżim w Mińsku, granica z Polską, więźniowie polityczni."
-    },
-    {
-      "id": "hybryda",
-      "nazwa": "Wojna hybrydowa",
-      "grupa": "temat",
-      "opis": "Działania hybrydowe: drony, sabotaż, dezinformacja, cyberataki, presja migracyjna.",
-      "stan": "22.10 Niemcy zatrzymały w Brandenburgii Ukraińca podejrzanego o szpiegostwo na rzecz Rosji (dane o przemyśle zbrojeniowym i wschodniej flance NATO).",
-      "stan_zrodla": [
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/22/germany-arrests-ukrainian-national-on-suspicion-of-spying-for-russia",
-          "data": "2026-10-22"
-        },
-        {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/germany-arrests-ukrainian-national-suspected-of-spying-for-russia/",
-          "data": "2026-10-22"
-        }
-      ],
-      "stan_data": "2026-10-22"
-    },
-    {
-      "id": "uzbrojenie",
-      "nazwa": "Uzbrojenie",
-      "grupa": "temat",
-      "opis": "Systemy uzbrojenia, zakupy, produkcja i dostawy: nazwy, liczby, jednostki.",
-      "stan": "20.10 Rubio przyznał, że dostawy pocisków przechwytujących dla Ukrainy mogły się opóźnić, ale zaprzeczył celowej decyzji; Zełenski zarzuca USA opóźnianie Patriotów opłaconych przez europejskich sojuszników.",
-      "stan_zrodla": [
-        {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/rubio-says-delays-in-us-air-defense-shipments-to-ukraine-not-deliberate/",
-          "data": "2026-10-20"
-        },
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/20/trump-envoy-witkoff-to-meet-zelenskyy-in-oslo-before-planned-putin-talks-in-moscow",
-          "data": "2026-10-20"
-        }
-      ],
-      "stan_data": "2026-10-20"
-    },
-    {
-      "id": "przemysl-zbrojeniowy",
-      "nazwa": "PrzemysłZbrojeniowy",
-      "grupa": "temat",
-      "opis": "Polski przemysł zbrojeniowy: kontrakty, targi, prezentacje nowego sprzętu, dostawy, eksport i współprodukcja.",
-      "stan": "",
-      "stan_data": "",
-      "stan_zrodla": []
-    },
-    {
-      "id": "obronnosc-polski",
-      "nazwa": "ObronnośćPolski",
-      "grupa": "temat",
-      "opis": "Siły zbrojne RP, procedury obrony powietrznej, budżet obronny.",
-      "stan": "Litwa twierdzi, że ukraiński dron, który 18.10 wybuchł w Juodžionys, wleciał z Polski; MON i DO RSZ nie potwierdzają przelotu, a Tusk 20.10 zapowiedział współpracę z Litwą i zażądał wyjaśnień od Ukrainy.",
-      "stan_zrodla": [
-        {
-          "nazwa": "PAP (za RMF24)",
-          "url": "https://www.rmf24.pl/fakty/polska/news-dron-eksplodowal-na-litwie-mial-przyleciec-z-polski-tusk-nie,nIdn,1022662",
-          "data": "2026-10-20"
-        },
-        {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/poland-to-demand-explanation-from-ukraine-over-drone-incident-in-lithuania/",
-          "data": "2026-10-20"
-        }
-      ],
-      "stan_data": "2026-10-20"
-    },
-    {
-      "id": "dyplomacja-rp",
-      "nazwa": "DyplomacjaRP",
-      "grupa": "temat",
-      "opis": "Polityka zagraniczna Polski, wizyty, spory kompetencyjne.",
-      "stan": "22.10 Tusk z oficjalną wizytą w Indiach (21–23.10); wspólne oświadczenie z Modim: podwojenie wymiany handlowej do 2030 r., dialog przemysłów obronnych, szybkie podpisanie umowy o wolnym handlu UE–Indie. 20.10 Tusk zapowiedział wyjaśnienie z Litwą incydentu z dronem i zażądał wyjaśnień od Ukrainy.",
-      "stan_data": "2026-10-22",
-      "stan_zrodla": [
-        {
-          "nazwa": "Rząd Indii (pmindia.gov.in) – wspólne oświadczenie Indie–Polska",
-          "url": "https://www.pmindia.gov.in/en/news_updates/india-poland-joint-statement/",
-          "data": "2026-10-22"
-        },
-        {
-          "nazwa": "PAP (za RMF24)",
-          "url": "https://www.rmf24.pl/fakty/polska/news-dron-eksplodowal-na-litwie-mial-przyleciec-z-polski-tusk-nie,nIdn,1022662",
-          "data": "2026-10-20"
-        },
-        {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/poland-to-demand-explanation-from-ukraine-over-drone-incident-in-lithuania/",
-          "data": "2026-10-20"
-        }
-      ]
-    },
-    {
-      "id": "sankcje",
-      "nazwa": "Sankcje",
-      "grupa": "temat",
-      "opis": "Sankcje UE, USA i innych państw oraz ich omijanie.",
-      "stan": "USA złagodziły sankcje na rosyjski diesel (licencja OFAC GL 135 do kwietnia 2027) i zawiesiły większość środków ustawy Grahama; zakaz importu rosyjskiej energii do USA pozostaje w mocy.",
-      "stan_zrodla": [
-        {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/inside-the-legal-design-of-americas-russia-sanctions-u-turn-2/",
-          "data": "2026-10-23"
-        },
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/23/first-russian-diesel-shipment-is-heading-to-us-under-trump-putin-deal",
-          "data": "2026-10-23"
-        }
-      ],
-      "stan_data": "2026-10-23"
-    },
-    {
-      "id": "iran",
-      "nazwa": "Iran",
-      "grupa": "miejsce",
-      "opis": "Iran, Cieśnina Ormuz, rozmowy z USA i mediatorami.",
-      "stan": "IRGC twierdzi, że 19.10 dwa tankowce weszły na jego miny w Cieśninie Ormuz; brytyjskie UKMTO potwierdza jeden incydent bez szkód, a USA zaprzeczają zestrzeleniu drona MQ-9.",
-      "stan_zrodla": [
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/20/irgc-mines-set-tankers-ablaze-as-tehran-threatens-expanded-attacks",
-          "data": "2026-10-20"
-        },
-        {
-          "nazwa": "France 24 (AFP)",
-          "url": "https://www.france24.com/en/live-news/20261020-tech-firms-bear-brunt-of-selling-as-asian-stocks-drop",
-          "data": "2026-10-20"
-        }
-      ],
-      "stan_data": "2026-10-20"
-    },
-    {
-      "id": "usa",
-      "nazwa": "USA",
-      "grupa": "miejsce",
-      "opis": "Polityka USA wobec Europy, Rosji, Ukrainy i Bliskiego Wschodu.",
-      "stan": "Starlink/Starshield przywrócone po ograniczeniach prędkości od połowy października (Kyiv Independent); rozejm w Oleszkach ogłoszony przez Biały Dom (od 29.10).",
-      "stan_data": "2026-10-24",
-      "stan_zrodla": [
-        {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/starshield-operations-restored-above-400-km-h-ukraines-defense-ministry-says/",
-          "data": "2026-10-24"
-        },
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/24/ukraine-restores-stable-connection-to-musks-starlink-kyiv-says",
-          "data": "2026-10-24"
-        }
-      ]
-    },
-    {
-      "id": "chiny",
-      "nazwa": "Chiny",
-      "grupa": "miejsce",
-      "opis": "Chiny w polityce światowej i wobec Europy.",
-      "stan": "Po wizycie państwowej Xi Jinpinga w USA (23–25.09) rozejm handlowy USA–Chiny przedłużono z 10.11.2026 do 10.01.2027; powołano też dialog USA–Chiny o superinteligencji z kolejną rundą do listopada.",
-      "stan_data": "2026-10-04",
-      "stan_zrodla": [
-        {
-          "nazwa": "Biały Dom (fact sheet o wizycie państwowej)",
-          "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-advances-a-fair-and-reciprocal-relationship-with-china-while-hosting-historic-state-visit/",
-          "data": "2026-09-25"
-        },
-        {
-          "nazwa": "Reuters (za Investing.com)",
-          "url": "https://www.investing.com/news/stock-market-news/trump-plans-grand-spectacle-for-potentially-tense-xi-talks-4912458",
-          "data": "2026-09-23"
-        },
-        {
-          "nazwa": "ABC News",
-          "url": "https://abcnews.com/Politics/trump-rolls-red-carpet-chinas-xi/story?id=136692781",
-          "data": "2026-09-23"
-        }
-      ]
-    },
-    {
-      "id": "nato",
-      "nazwa": "NATO",
-      "grupa": "temat",
-      "opis": "Sojusz Północnoatlantycki: decyzje, szczyty, wschodnia flanka.",
-      "stan": "Rumunia i Bułgaria poprosiły NATO o wsparcie nadzoru i obrony przed dronami na Morzu Czarnym po zatopieniu statku Khoryv; premier Rumunii zapowiedział dodatkowy sprzęt w ramach działań sojuszniczych.",
-      "stan_data": "2026-10-23",
-      "stan_zrodla": [
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/23/rescue-operation-in-the-black-sea-following-a-distress-signal-from-a-ship",
-          "data": "2026-10-23"
-        },
-        {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/10/23/romania-blames-russia-for-drone-strike-that-sinks-cargo-ship-in-black-sea-killing-one-sailor-and-leaving-three-missing",
-          "data": "2026-10-23"
-        }
-      ]
-    },
-    {
-      "id": "ue",
-      "nazwa": "UE",
-      "grupa": "temat",
-      "opis": "Unia Europejska: Rada, Komisja, obronność, budżet WRF 2028–2034.",
-      "stan": "Przewodnicząca KE von der Leyen i przewodniczący Rady Europejskiej Costa potępili atak na statek Khoryv; szefowa dyplomacji UE Kallas mówiła o sześciu atakach na statki w 10 dni.",
-      "stan_zrodla": [
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/23/rescue-operation-in-the-black-sea-following-a-distress-signal-from-a-ship",
-          "data": "2026-10-23"
-        },
-        {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/civilian-cargo-ship-sinks-off-coast-of-romania-after-russian-drone-strike-authorities-say/",
-          "data": "2026-10-23"
-        }
-      ],
-      "stan_data": "2026-10-23"
-    },
-    {
-      "id": "onz",
-      "nazwa": "ONZ",
-      "grupa": "temat",
-      "opis": "ONZ i jej agendy, w tym Rada Bezpieczeństwa i Zgromadzenie Ogólne."
-    },
-    {
-      "id": "mfw",
-      "nazwa": "MFW",
-      "grupa": "temat",
-      "opis": "MFW i Bank Światowy: programy, prognozy, finansowanie Ukrainy."
-    },
-    {
-      "id": "niemcy",
-      "nazwa": "Niemcy",
-      "grupa": "miejsce",
-      "opis": "Polityka Niemiec: rząd, koalicja, wybory, obronność.",
-      "stan": "22.10 Federalna Prokuratura Generalna zatrzymała w Brandenburgii Ukraińca podejrzanego o szpiegostwo na rzecz Rosji.",
-      "stan_zrodla": [
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/22/germany-arrests-ukrainian-national-on-suspicion-of-spying-for-russia",
-          "data": "2026-10-22"
-        },
-        {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/germany-arrests-ukrainian-national-suspected-of-spying-for-russia/",
-          "data": "2026-10-22"
-        }
-      ],
-      "stan_data": "2026-10-22"
-    },
-    {
-      "id": "czechy",
-      "nazwa": "Czechy",
-      "grupa": "miejsce",
-      "opis": "Polityka Czech: rząd, parlament, wybory.",
-      "stan": "Rząd Babiša przetrwał 1.10 wotum nieufności (83 głosy za odwołaniem, potrzeba 101). Przed nim wybory do Senatu 9–10.10.",
-      "stan_zrodla": [
-        {
-          "nazwa": "AP (za Infonews)",
-          "url": "https://infonews.ca/news/7900014/czech-prime-minister-andrej-babis-government-survives-no-confidence-vote/",
-          "data": "2026-10-01"
-        },
-        {
-          "nazwa": "ČTK",
-          "url": "https://www.ceskenoviny.cz/zpravy/snemovni-opozici-se-ani-napodruhe-nepodarilo-svrhnout-babisovu-vladu/2881493",
-          "data": "2026-10-01"
-        }
-      ],
-      "stan_data": "2026-10-01"
-    },
-    {
-      "id": "slowacja",
-      "nazwa": "Słowacja",
-      "grupa": "miejsce",
-      "opis": "Polityka Słowacji: koalicja, rząd, relacje z UE.",
-      "stan": "5.10 rząd przyjął projekt budżetu 2027 z deficytem 4,94% PKB; projekt trafia do Rady Narodowej.",
-      "stan_zrodla": [
-        {
-          "nazwa": "TASR (za TA3)",
-          "url": "https://www.ta3.com/clanok/1074983/vlada-bude-rokovat-o-rozpocte-na-rok-2027-deficit-verejnej-spravy-ma-dosiahnut-takmer-5-percent-hdp",
-          "data": "2026-10-05"
-        }
-      ],
-      "stan_data": "2026-10-05"
-    },
-    {
-      "id": "wegry",
-      "nazwa": "Węgry",
-      "grupa": "miejsce",
-      "opis": "Polityka Węgier: rząd, rozliczenia, relacje z UE.",
-      "stan": "16.10 Zełenski i premier Magyar odbyli w Brukseli pierwsze rozmowy dwustronne: uzgodnili wymianę wizyt i dalsze konsultacje ministerialne o mniejszościach.",
-      "stan_data": "2026-10-16",
-      "stan_zrodla": [
-        {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/zelensky-magyar-meet-at-eu-summit/",
-          "data": "2026-10-16"
-        },
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/16/hungarys-magyar-meets-zelenskyy-in-bid-to-reset-strained-ties",
-          "data": "2026-10-16"
-        }
-      ]
-    },
-    {
-      "id": "litwa",
-      "nazwa": "Litwa",
-      "grupa": "miejsce",
-      "opis": "Polityka Litwy i bezpieczeństwo przesmyku suwalskiego.",
-      "stan": "Wilno ma według doradcy prezydenta „wiarygodne dane”, że dron, który 18.10 wybuchł na północy Litwy, wleciał z Polski, i proponuje wspólne śledztwo; Polska nie potwierdza przelotu. 18.10 udaremniono podpalenie sprzętu Starlink.",
-      "stan_zrodla": [
-        {
-          "nazwa": "PAP (za RMF24)",
-          "url": "https://www.rmf24.pl/fakty/polska/news-dron-eksplodowal-na-litwie-mial-przyleciec-z-polski-tusk-nie,nIdn,1022662",
-          "data": "2026-10-20"
-        },
-        {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/poland-to-demand-explanation-from-ukraine-over-drone-incident-in-lithuania/",
-          "data": "2026-10-20"
-        },
-        {
-          "nazwa": "LRT",
-          "url": "https://www.lrt.lt/en/news-in-english/19/3086054/attempted-arson-at-lithuanian-firm-storing-starlink-equipment-pm-blames-russia",
-          "data": "2026-10-18"
-        }
-      ],
-      "stan_data": "2026-10-20"
-    },
-    {
-      "id": "lotwa",
-      "nazwa": "Łotwa",
-      "grupa": "miejsce",
-      "opis": "Polityka Łotwy, wybory.",
-      "stan": "Po przeliczeniu niemal wszystkich głosów Zjednoczona Lista premiera Kulbergsa ma 42 ze 100 mandatów; może rządzić z Sojuszem Narodowym albo Postępowymi.",
-      "stan_zrodla": [
-        {
-          "nazwa": "LSM",
-          "url": "https://eng.lsm.lv/article/politics/election/04.10.2026-new-latvian-saeima-starts-to-shape-up-with-nearly-all-votes-counted.a666021/",
-          "data": "2026-10-04"
-        },
-        {
-          "nazwa": "Reuters (za Irish Times)",
-          "url": "https://www.irishtimes.com/world/europe/2026/10/04/latvian-pm-on-track-to-lead-pro-ukraine-coalition-after-election-win/",
-          "data": "2026-10-04"
-        },
-        {
-          "nazwa": "AP (za Euronews)",
-          "url": "https://www.euronews.com/2026/10/04/latvias-pro-european-ruling-party-wins-election-as-populists-gain-ground",
-          "data": "2026-10-04"
-        }
-      ],
-      "stan_data": "2026-10-04"
-    },
-    {
-      "id": "estonia",
-      "nazwa": "Estonia",
-      "grupa": "miejsce",
-      "opis": "Polityka i bezpieczeństwo Estonii.",
-      "stan": "Rząd zakazał 1.10 tranzytu zboża z Rosji i Białorusi przez terytorium Estonii.",
-      "stan_zrodla": [
-        {
-          "nazwa": "ERR",
-          "url": "https://news.err.ee/1610153278/estonia-bans-grain-transit-from-russia-and-belarus",
-          "data": "2026-10-01"
-        },
-        {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/estonia-bans-transit-of-grain-from-russia-belarus/",
-          "data": "2026-10-01"
-        }
-      ],
-      "stan_data": "2026-10-01"
-    },
-    {
-      "id": "nordyckie",
-      "nazwa": "Nordyckie",
-      "grupa": "miejsce",
-      "opis": "Szwecja, Finlandia, Norwegia, Dania, Islandia.",
-      "stan": "W Szwecji Magdalena Andersson (S) od 5.10 ponownie bada możliwość utworzenia rządu, z raportem do 12.10; potem głosowanie w Riksdagu nad premierem.",
-      "stan_zrodla": [
-        {
-          "nazwa": "Riksdag (komunikat)",
-          "url": "https://www.riksdagen.se/sv/aktuellt/aktuelltnotiser/2026/okt/2/talmannens-sonderingsuppdrag-till-magdalena_cms77150d24-8e8b-479f-9da0-8df5bf84b9b6sv/",
-          "data": "2026-10-02"
-        },
-        {
-          "nazwa": "SVT",
-          "url": "https://www.svt.se/nyheter/inrikes/det-har-hander-nu-i-sonderingsprocessen",
-          "data": "2026-10-02"
-        }
-      ],
-      "stan_data": "2026-10-03"
-    },
-    {
-      "id": "francja",
-      "nazwa": "Francja",
-      "grupa": "miejsce",
-      "opis": "Polityka Francji: rząd, budżet, stanowisko w UE.",
-      "stan": "Protesty z 24.10 przeciw kosztom życia: według MSW co najmniej 410 tys. uczestników, 135 zatrzymanych (Euronews); rating Francji utrzymany (Aa3, perspektywa negatywna) według Euronews.",
-      "stan_zrodla": [
-        {
-          "nazwa": "France 24",
-          "url": "https://www.france24.com/en/france/20261024-live-hundreds-of-protests-expected-in-france-amid-high-tensions-and-heavy-police-presence",
-          "data": "2026-10-24"
-        },
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/24/new-round-of-protests-underway-in-france-as-police-fire-tear-gas-at-demonstrators",
-          "data": "2026-10-24"
-        }
-      ],
-      "stan_data": "2026-10-24"
-    },
-    {
-      "id": "wielka-brytania",
-      "nazwa": "WielkaBrytania",
-      "grupa": "miejsce",
-      "opis": "Polityka Wielkiej Brytanii i jej bezpieczeństwo.",
-      "stan": "1.10 rząd wpisał na listę sankcji wobec Rosji 31 nowych celów, m.in. gazowce z rosyjskim LNG.",
-      "stan_zrodla": [
-        {
-          "nazwa": "Rząd Wielkiej Brytanii (Sanctions Notice, Russia)",
-          "url": "https://assets.publishing.service.gov.uk/media/6abe173e9c196f81005e5d7c/Sanctions_Notice__Russia__01_October_2026.pdf",
-          "data": "2026-10-01"
-        }
-      ],
-      "stan_data": "2026-10-01"
-    },
-    {
-      "id": "rumunia",
-      "nazwa": "Rumunia",
-      "grupa": "miejsce",
-      "opis": "Polityka Rumunii.",
-      "stan": "Rząd Luca-Alexandru Niculescu ma wotum zaufania z 20.10 (280 głosów); 23.10 rumuńskie władze przypisały Rosji uderzenie drona w statek Khoryv u wybrzeża Konstancy (jeden zabity, trzech zaginionych).",
-      "stan_zrodla": [
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/23/rescue-operation-in-the-black-sea-following-a-distress-signal-from-a-ship",
-          "data": "2026-10-23"
-        },
-        {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/10/23/romania-blames-russia-for-drone-strike-that-sinks-cargo-ship-in-black-sea-killing-one-sailor-and-leaving-three-missing",
-          "data": "2026-10-23"
-        }
-      ],
-      "stan_data": "2026-10-23"
-    },
-    {
-      "id": "balkany",
-      "nazwa": "Bałkany",
-      "grupa": "miejsce",
-      "opis": "Serbia, Bośnia i Hercegowina, Kosowo i inne państwa regionu.",
-      "stan": "Albania: 24.10 protesty w Tiranie, policja użyła gazu łzawiącego i armatek wodnych; władze podają ponad 300 rannych od początku fali; 25.10 wybory w Serbii i Bułgarii.",
-      "stan_zrodla": [
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/24/tensions-rise-in-albania-as-protesters-burn-symbolic-pillows-outside-prime-ministers-offic",
-          "data": "2026-10-24"
-        },
-        {
-          "nazwa": "OSW",
-          "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-22/albania-eskalacja-protestow",
-          "data": "2026-10-22"
-        }
-      ],
-      "stan_data": "2026-10-24"
-    },
-    {
-      "id": "wybory",
-      "nazwa": "Wybory",
-      "grupa": "temat",
-      "opis": "Wybory w Europie i na świecie; wyniki wstępne odróżniane od oficjalnych."
-    },
-    {
-      "id": "energia",
-      "nazwa": "Energia",
-      "grupa": "temat",
-      "opis": "Ropa, gaz, infrastruktura energetyczna, ceny paliw.",
-      "stan": "Pierwszy ładunek rosyjskiego diesla (ok. 40 tys. ton, tankowiec Agioi Fanendes z Primorska) płynie do Nowego Jorku, dotarcie ok. 7.11 według Kpler.",
-      "stan_zrodla": [
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/23/first-russian-diesel-shipment-is-heading-to-us-under-trump-putin-deal",
-          "data": "2026-10-23"
-        },
-        {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/inside-the-legal-design-of-americas-russia-sanctions-u-turn-2/",
-          "data": "2026-10-23"
-        }
-      ],
-      "stan_data": "2026-10-23"
-    },
-    {
-      "id": "gospodarka",
-      "nazwa": "Gospodarka",
-      "grupa": "temat",
-      "opis": "Tylko zdarzenia nadzwyczajne: inflacja, kurs złotego, decyzje banków centralnych, cła.",
-      "stan": "21.10 rentowność francuskich 10-letnich obligacji przekroczyła 5% po raz pierwszy od 2002 r. (spread do Niemiec ok. 1,6 pkt proc.); inwestorzy czekają na decyzję Moody's.",
-      "stan_zrodla": [
-        {
-          "nazwa": "France 24 (za AFP)",
-          "url": "https://www.france24.com/en/live-news/20261021-five-things-to-know-as-french-bond-yield-tops-5",
-          "data": "2026-10-21"
-        },
-        {
-          "nazwa": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/21/france-protests-bonds-debt.html",
-          "data": "2026-10-21"
-        }
-      ],
-      "stan_data": "2026-10-21"
-    },
-    {
-      "id": "inne",
-      "nazwa": "Inne",
-      "grupa": "temat",
-      "opis": "Wątki rzadkie, bez osobnego hashtagu.",
-      "stan": "Hebron: izraelska armia wysiedla mieszkańców po ataku z 23.10 na posterunku; operacja trwa, wybory do Knesetu 27.10.",
-      "stan_zrodla": [
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/24/israel-removes-around-250-palestinian-families-from-west-bank-city-of-hebron-after-soldier",
-          "data": "2026-10-24"
-        },
-        {
-          "nazwa": "France 24",
-          "url": "https://www.france24.com/en/middle-east/20261024-israeli-forces-displace-1-200-palestinians-in-hebron-after-deadly-attack-on-soldiers",
-          "data": "2026-10-24"
-        }
-      ],
-      "stan_data": "2026-10-24"
-    },
-    {
-      "id": "afryka",
-      "nazwa": "Afryka",
-      "grupa": "miejsce",
-      "opis": "Wojny, przewroty i kryzysy w Afryce (Róg Afryki, Sudan, Sahel, Kongo).",
-      "stan": "20.10 Nigeria potwierdziła pierwszy przypadek eboli (Bundibugyo), piąty kraj z wykrytym wirusem.",
-      "stan_zrodla": [
-        {
-          "nazwa": "France 24",
-          "url": "https://www.france24.com/en/africa/20261020-nigeria-records-first-ebola-case-as-outbreak-spreads-across-africa",
-          "data": "2026-10-21"
-        },
-        {
-          "nazwa": "NPR",
-          "url": "https://www.npr.org/2026/10/20/g-s1-148975/nigeria-confirms-ebola-case",
-          "data": "2026-10-21"
-        }
-      ],
-      "stan_data": "2026-10-21"
-    },
-    {
-      "id": "ameryki",
-      "nazwa": "Ameryki",
-      "grupa": "miejsce",
-      "opis": "Polityka państw obu Ameryk poza USA: wybory, kryzysy, relacje z UE i Chinami.",
-      "stan": "Brazylia: w I turze wyborów prezydenckich 4.10 Flávio Bolsonaro 47,03%, Lula 45,16% – II tura.",
-      "stan_zrodla": [
-        {
-          "nazwa": "TSE",
-          "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/flavio-bolsonaro-e-lula-vao-disputar-o-2o-turno-para-a-presidencia-da-republica",
-          "data": "2026-10-05"
-        }
-      ],
-      "stan_data": "2026-10-05"
-    },
-    {
-      "id": "bulgaria",
-      "nazwa": "Bułgaria",
-      "grupa": "miejsce",
-      "opis": "Polityka Bułgarii i bezpieczeństwo jej strefy na Morzu Czarnym.",
-      "stan": "Na Morzu Czarnym w rumuńskich wodach przy kanale Sulina płoną kolejne statki: 15.10 pożar tankowca Wine Trader, część załogi zaginęła (liczby w relacjach rozbieżne).",
-      "stan_zrodla": [
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/15/romania-probes-possible-drone-attack-on-tanker-in-its-black-sea-territorial-waters",
-          "data": "2026-10-15"
-        },
-        {
-          "nazwa": "Reuters (za Global News)",
-          "url": "https://globalnews.ca/news/12103450/ships-ablaze-romania-black-sea",
-          "data": "2026-10-15"
-        }
-      ],
-      "stan_data": "2026-10-15"
-    },
-    {
-      "id": "watykan",
-      "nazwa": "Watykan",
-      "grupa": "miejsce",
-      "opis": "Stolica Apostolska i papież w polityce międzynarodowej."
-    },
-    {
-      "id": "wlochy",
-      "nazwa": "Włochy",
-      "grupa": "miejsce",
-      "opis": "Polityka Włoch i ich rola w UE.",
-      "stan": "Protesty z 24.10 przeciw drożyźnie w kilku miastach pod ochroną wojska; rząd Meloni przyjął dekret o przestępstwie „brutalnego udziału w demonstracji”.",
-      "stan_zrodla": [
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/24/italy-deploys-hundreds-of-soldiers-as-nationwide-protests-raise-fears-of-fresh-violence",
-          "data": "2026-10-24"
-        },
-        {
-          "nazwa": "France 24",
-          "url": "https://www.france24.com/en/europe/20261024-protests-against-cost-of-living-expected-in-italy-under-heavy-security",
-          "data": "2026-10-24"
-        }
-      ],
-      "stan_data": "2026-10-24"
-    },
-    {
-      "id": "moldawia",
-      "nazwa": "Mołdawia",
-      "grupa": "miejsce",
-      "opis": "Polityka Mołdawii, droga do UE i presja Rosji."
-    },
-    {
-      "id": "azerbejdzan",
-      "nazwa": "Azerbejdżan",
-      "grupa": "miejsce",
-      "opis": "Polityka Azerbejdżanu, Kaukaz Południowy i surowce."
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/10/25/russian-strikes-on-ukraine-kill-four-and-injure-28-authorities-say",
+     "data": "2026-10-25"
     }
-  ]
+   ],
+   "stan_data": "2026-10-25"
+  },
+  {
+   "id": "front",
+   "nazwa": "Front",
+   "grupa": "temat",
+   "opis": "Działania na linii frontu w Ukrainie; oceny ISW zawsze jako ocena think tanku.",
+   "stan": "Rosyjskie ataki z 24–25.10: osiem zabitych i 51 rannych w ciągu doby, 153 drony Shahed i rakiety Banderol w nocy (Kyiv Independent, Euronews).",
+   "stan_data": "2026-10-25",
+   "stan_zrodla": [
+    {
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/russian-attacks-kill-8-injure-51-across-ukraine-over-past-day-as-drone-strikes-residential-building-in-vinnytsia/",
+     "data": "2026-10-25"
+    },
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/10/25/russian-strikes-on-ukraine-kill-four-and-injure-28-authorities-say",
+     "data": "2026-10-25"
+    }
+   ]
+  },
+  {
+   "id": "rozejm",
+   "nazwa": "Rozejm",
+   "grupa": "temat",
+   "opis": "Rozmowy i propozycje zawieszenia broni w wojnie Rosji z Ukrainą.",
+   "stan": "Uzgodniony lokalny rozejm w Oleszkach (obwód chersoński) dla ewakuacji cywilów i dowozu pomocy; daty rozbieżne (27.10 – Sztab Generalny Rosji, 29.10 – Biały Dom); rozmowy trójstronne USA–Rosja–Ukraina zapowiedziane na połowę listopada.",
+   "stan_zrodla": [
+    {
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/breaking-russia-ukraine-agree-to-oleshky-ceasefire-mediated-by-melania-trump-white-house-says/",
+     "data": "2026-10-23"
+    },
+    {
+     "nazwa": "Meduza",
+     "url": "https://meduza.io/en/news/2026/10/23/russia-announces-october-27-ceasefire-on-southern-ukraine-s-kherson-front-to-evacuate-residents-of-occupied-oleshky",
+     "data": "2026-10-23"
+    }
+   ],
+   "stan_data": "2026-10-23"
+  },
+  {
+   "id": "rosja",
+   "nazwa": "Rosja",
+   "grupa": "miejsce",
+   "opis": "Polityka wewnętrzna, armia i budżet Rosji.",
+   "stan": "Rosja ogłosiła przez Sztab Generalny wstrzymanie ognia w Oleszkach od 27.10; Rumunia przypisuje Rosji uderzenie drona w statek Khoryv; Moskwa zamknęła cztery lotniska po ukraińskim nalocie dronów.",
+   "stan_data": "2026-10-23",
+   "stan_zrodla": [
+    {
+     "nazwa": "Meduza",
+     "url": "https://meduza.io/en/news/2026/10/23/russia-announces-october-27-ceasefire-on-southern-ukraine-s-kherson-front-to-evacuate-residents-of-occupied-oleshky",
+     "data": "2026-10-23"
+    },
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/10/23/rescue-operation-in-the-black-sea-following-a-distress-signal-from-a-ship",
+     "data": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "krolewiec",
+   "nazwa": "Królewiec",
+   "grupa": "miejsce",
+   "opis": "Obwód królewiecki: militaryzacja, tranzyt, napięcia z NATO.",
+   "stan": "Rosja grozi NATO bronią jądrową w razie izolowania obwodu (pismo ujawnione 30.09); Putin 1.10 na forum Wałdaj zapowiedział, że przy bezpośrednim ataku na Rosję na porządku dnia stanie użycie „wszystkich rodzajów broni”; MSZ RP mówi o „cynicznej próbie eskalacji”.",
+   "stan_zrodla": [
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/10/02/putin-says-all-weapons-on-agenda-if-russias-kaliningrad-attacked",
+     "data": "2026-10-02"
+    },
+    {
+     "nazwa": "AFP (za Arab News)",
+     "url": "https://www.arabnews.pk/world/all-types-of-weapons-on-agenda-if-russias-kaliningrad-attacked-putin-3002905",
+     "data": "2026-10-01"
+    },
+    {
+     "nazwa": "PAP (za WP)",
+     "url": "https://wiadomosci.wp.pl/rzecznik-msz-o-pismie-moskwy-cyniczna-proba-eskalacji-7335530154125632a",
+     "data": "2026-10-02"
+    }
+   ],
+   "stan_data": "2026-10-02"
+  },
+  {
+   "id": "bialorus",
+   "nazwa": "Białoruś",
+   "grupa": "miejsce",
+   "opis": "Reżim w Mińsku, granica z Polską, więźniowie polityczni."
+  },
+  {
+   "id": "hybryda",
+   "nazwa": "Wojna hybrydowa",
+   "grupa": "temat",
+   "opis": "Działania hybrydowe: drony, sabotaż, dezinformacja, cyberataki, presja migracyjna.",
+   "stan": "22.10 Niemcy zatrzymały w Brandenburgii Ukraińca podejrzanego o szpiegostwo na rzecz Rosji (dane o przemyśle zbrojeniowym i wschodniej flance NATO).",
+   "stan_zrodla": [
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/10/22/germany-arrests-ukrainian-national-on-suspicion-of-spying-for-russia",
+     "data": "2026-10-22"
+    },
+    {
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/germany-arrests-ukrainian-national-suspected-of-spying-for-russia/",
+     "data": "2026-10-22"
+    }
+   ],
+   "stan_data": "2026-10-22"
+  },
+  {
+   "id": "uzbrojenie",
+   "nazwa": "Uzbrojenie",
+   "grupa": "temat",
+   "opis": "Systemy uzbrojenia, zakupy, produkcja i dostawy: nazwy, liczby, jednostki.",
+   "stan": "20.10 Rubio przyznał, że dostawy pocisków przechwytujących dla Ukrainy mogły się opóźnić, ale zaprzeczył celowej decyzji; Zełenski zarzuca USA opóźnianie Patriotów opłaconych przez europejskich sojuszników.",
+   "stan_zrodla": [
+    {
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/rubio-says-delays-in-us-air-defense-shipments-to-ukraine-not-deliberate/",
+     "data": "2026-10-20"
+    },
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/10/20/trump-envoy-witkoff-to-meet-zelenskyy-in-oslo-before-planned-putin-talks-in-moscow",
+     "data": "2026-10-20"
+    }
+   ],
+   "stan_data": "2026-10-20"
+  },
+  {
+   "id": "przemysl-zbrojeniowy",
+   "nazwa": "PrzemysłZbrojeniowy",
+   "grupa": "temat",
+   "opis": "Polski przemysł zbrojeniowy: kontrakty, targi, prezentacje nowego sprzętu, dostawy, eksport i współprodukcja.",
+   "stan": "",
+   "stan_data": "",
+   "stan_zrodla": []
+  },
+  {
+   "id": "obronnosc-polski",
+   "nazwa": "ObronnośćPolski",
+   "grupa": "temat",
+   "opis": "Siły zbrojne RP, procedury obrony powietrznej, budżet obronny.",
+   "stan": "Litwa twierdzi, że ukraiński dron, który 18.10 wybuchł w Juodžionys, wleciał z Polski; MON i DO RSZ nie potwierdzają przelotu, a Tusk 20.10 zapowiedział współpracę z Litwą i zażądał wyjaśnień od Ukrainy.",
+   "stan_zrodla": [
+    {
+     "nazwa": "PAP (za RMF24)",
+     "url": "https://www.rmf24.pl/fakty/polska/news-dron-eksplodowal-na-litwie-mial-przyleciec-z-polski-tusk-nie,nIdn,1022662",
+     "data": "2026-10-20"
+    },
+    {
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/poland-to-demand-explanation-from-ukraine-over-drone-incident-in-lithuania/",
+     "data": "2026-10-20"
+    }
+   ],
+   "stan_data": "2026-10-20"
+  },
+  {
+   "id": "dyplomacja-rp",
+   "nazwa": "DyplomacjaRP",
+   "grupa": "temat",
+   "opis": "Polityka zagraniczna Polski, wizyty, spory kompetencyjne.",
+   "stan": "22.10 Tusk z oficjalną wizytą w Indiach (21–23.10); wspólne oświadczenie z Modim: podwojenie wymiany handlowej do 2030 r., dialog przemysłów obronnych, szybkie podpisanie umowy o wolnym handlu UE–Indie. 20.10 Tusk zapowiedział wyjaśnienie z Litwą incydentu z dronem i zażądał wyjaśnień od Ukrainy.",
+   "stan_data": "2026-10-22",
+   "stan_zrodla": [
+    {
+     "nazwa": "Rząd Indii (pmindia.gov.in) – wspólne oświadczenie Indie–Polska",
+     "url": "https://www.pmindia.gov.in/en/news_updates/india-poland-joint-statement/",
+     "data": "2026-10-22"
+    },
+    {
+     "nazwa": "PAP (za RMF24)",
+     "url": "https://www.rmf24.pl/fakty/polska/news-dron-eksplodowal-na-litwie-mial-przyleciec-z-polski-tusk-nie,nIdn,1022662",
+     "data": "2026-10-20"
+    },
+    {
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/poland-to-demand-explanation-from-ukraine-over-drone-incident-in-lithuania/",
+     "data": "2026-10-20"
+    }
+   ]
+  },
+  {
+   "id": "sankcje",
+   "nazwa": "Sankcje",
+   "grupa": "temat",
+   "opis": "Sankcje UE, USA i innych państw oraz ich omijanie.",
+   "stan": "USA złagodziły sankcje na rosyjski diesel (licencja OFAC GL 135 do kwietnia 2027) i zawiesiły większość środków ustawy Grahama; zakaz importu rosyjskiej energii do USA pozostaje w mocy.",
+   "stan_zrodla": [
+    {
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/inside-the-legal-design-of-americas-russia-sanctions-u-turn-2/",
+     "data": "2026-10-23"
+    },
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/10/23/first-russian-diesel-shipment-is-heading-to-us-under-trump-putin-deal",
+     "data": "2026-10-23"
+    }
+   ],
+   "stan_data": "2026-10-23"
+  },
+  {
+   "id": "iran",
+   "nazwa": "Iran",
+   "grupa": "miejsce",
+   "opis": "Iran, Cieśnina Ormuz, rozmowy z USA i mediatorami.",
+   "stan": "IRGC twierdzi, że 19.10 dwa tankowce weszły na jego miny w Cieśninie Ormuz; brytyjskie UKMTO potwierdza jeden incydent bez szkód, a USA zaprzeczają zestrzeleniu drona MQ-9.",
+   "stan_zrodla": [
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/10/20/irgc-mines-set-tankers-ablaze-as-tehran-threatens-expanded-attacks",
+     "data": "2026-10-20"
+    },
+    {
+     "nazwa": "France 24 (AFP)",
+     "url": "https://www.france24.com/en/live-news/20261020-tech-firms-bear-brunt-of-selling-as-asian-stocks-drop",
+     "data": "2026-10-20"
+    }
+   ],
+   "stan_data": "2026-10-20"
+  },
+  {
+   "id": "usa",
+   "nazwa": "USA",
+   "grupa": "miejsce",
+   "opis": "Polityka USA wobec Europy, Rosji, Ukrainy i Bliskiego Wschodu.",
+   "stan": "Starlink/Starshield przywrócone po ograniczeniach prędkości od połowy października (Kyiv Independent); rozejm w Oleszkach ogłoszony przez Biały Dom (od 29.10).",
+   "stan_data": "2026-10-24",
+   "stan_zrodla": [
+    {
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/starshield-operations-restored-above-400-km-h-ukraines-defense-ministry-says/",
+     "data": "2026-10-24"
+    },
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/10/24/ukraine-restores-stable-connection-to-musks-starlink-kyiv-says",
+     "data": "2026-10-24"
+    }
+   ]
+  },
+  {
+   "id": "chiny",
+   "nazwa": "Chiny",
+   "grupa": "miejsce",
+   "opis": "Chiny w polityce światowej i wobec Europy.",
+   "stan": "Po wizycie państwowej Xi Jinpinga w USA (23–25.09) rozejm handlowy USA–Chiny przedłużono z 10.11.2026 do 10.01.2027; powołano też dialog USA–Chiny o superinteligencji z kolejną rundą do listopada.",
+   "stan_data": "2026-10-04",
+   "stan_zrodla": [
+    {
+     "nazwa": "Biały Dom (fact sheet o wizycie państwowej)",
+     "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-advances-a-fair-and-reciprocal-relationship-with-china-while-hosting-historic-state-visit/",
+     "data": "2026-09-25"
+    },
+    {
+     "nazwa": "Reuters (za Investing.com)",
+     "url": "https://www.investing.com/news/stock-market-news/trump-plans-grand-spectacle-for-potentially-tense-xi-talks-4912458",
+     "data": "2026-09-23"
+    },
+    {
+     "nazwa": "ABC News",
+     "url": "https://abcnews.com/Politics/trump-rolls-red-carpet-chinas-xi/story?id=136692781",
+     "data": "2026-09-23"
+    }
+   ]
+  },
+  {
+   "id": "nato",
+   "nazwa": "NATO",
+   "grupa": "temat",
+   "opis": "Sojusz Północnoatlantycki: decyzje, szczyty, wschodnia flanka.",
+   "stan": "Rumunia i Bułgaria poprosiły NATO o wsparcie nadzoru i obrony przed dronami na Morzu Czarnym po zatopieniu statku Khoryv; premier Rumunii zapowiedział dodatkowy sprzęt w ramach działań sojuszniczych.",
+   "stan_data": "2026-10-23",
+   "stan_zrodla": [
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/10/23/rescue-operation-in-the-black-sea-following-a-distress-signal-from-a-ship",
+     "data": "2026-10-23"
+    },
+    {
+     "nazwa": "Meduza",
+     "url": "https://meduza.io/en/news/2026/10/23/romania-blames-russia-for-drone-strike-that-sinks-cargo-ship-in-black-sea-killing-one-sailor-and-leaving-three-missing",
+     "data": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ue",
+   "nazwa": "UE",
+   "grupa": "temat",
+   "opis": "Unia Europejska: Rada, Komisja, obronność, budżet WRF 2028–2034.",
+   "stan": "Przewodnicząca KE von der Leyen i przewodniczący Rady Europejskiej Costa potępili atak na statek Khoryv; szefowa dyplomacji UE Kallas mówiła o sześciu atakach na statki w 10 dni.",
+   "stan_zrodla": [
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/10/23/rescue-operation-in-the-black-sea-following-a-distress-signal-from-a-ship",
+     "data": "2026-10-23"
+    },
+    {
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/civilian-cargo-ship-sinks-off-coast-of-romania-after-russian-drone-strike-authorities-say/",
+     "data": "2026-10-23"
+    }
+   ],
+   "stan_data": "2026-10-23"
+  },
+  {
+   "id": "onz",
+   "nazwa": "ONZ",
+   "grupa": "temat",
+   "opis": "ONZ i jej agendy, w tym Rada Bezpieczeństwa i Zgromadzenie Ogólne."
+  },
+  {
+   "id": "mfw",
+   "nazwa": "MFW",
+   "grupa": "temat",
+   "opis": "MFW i Bank Światowy: programy, prognozy, finansowanie Ukrainy."
+  },
+  {
+   "id": "niemcy",
+   "nazwa": "Niemcy",
+   "grupa": "miejsce",
+   "opis": "Polityka Niemiec: rząd, koalicja, wybory, obronność.",
+   "stan": "22.10 Federalna Prokuratura Generalna zatrzymała w Brandenburgii Ukraińca podejrzanego o szpiegostwo na rzecz Rosji.",
+   "stan_zrodla": [
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/10/22/germany-arrests-ukrainian-national-on-suspicion-of-spying-for-russia",
+     "data": "2026-10-22"
+    },
+    {
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/germany-arrests-ukrainian-national-suspected-of-spying-for-russia/",
+     "data": "2026-10-22"
+    }
+   ],
+   "stan_data": "2026-10-22"
+  },
+  {
+   "id": "czechy",
+   "nazwa": "Czechy",
+   "grupa": "miejsce",
+   "opis": "Polityka Czech: rząd, parlament, wybory.",
+   "stan": "Rząd Babiša przetrwał 1.10 wotum nieufności (83 głosy za odwołaniem, potrzeba 101). Przed nim wybory do Senatu 9–10.10.",
+   "stan_zrodla": [
+    {
+     "nazwa": "AP (za Infonews)",
+     "url": "https://infonews.ca/news/7900014/czech-prime-minister-andrej-babis-government-survives-no-confidence-vote/",
+     "data": "2026-10-01"
+    },
+    {
+     "nazwa": "ČTK",
+     "url": "https://www.ceskenoviny.cz/zpravy/snemovni-opozici-se-ani-napodruhe-nepodarilo-svrhnout-babisovu-vladu/2881493",
+     "data": "2026-10-01"
+    }
+   ],
+   "stan_data": "2026-10-01"
+  },
+  {
+   "id": "slowacja",
+   "nazwa": "Słowacja",
+   "grupa": "miejsce",
+   "opis": "Polityka Słowacji: koalicja, rząd, relacje z UE.",
+   "stan": "5.10 rząd przyjął projekt budżetu 2027 z deficytem 4,94% PKB; projekt trafia do Rady Narodowej.",
+   "stan_zrodla": [
+    {
+     "nazwa": "TASR (za TA3)",
+     "url": "https://www.ta3.com/clanok/1074983/vlada-bude-rokovat-o-rozpocte-na-rok-2027-deficit-verejnej-spravy-ma-dosiahnut-takmer-5-percent-hdp",
+     "data": "2026-10-05"
+    }
+   ],
+   "stan_data": "2026-10-05"
+  },
+  {
+   "id": "wegry",
+   "nazwa": "Węgry",
+   "grupa": "miejsce",
+   "opis": "Polityka Węgier: rząd, rozliczenia, relacje z UE.",
+   "stan": "16.10 Zełenski i premier Magyar odbyli w Brukseli pierwsze rozmowy dwustronne: uzgodnili wymianę wizyt i dalsze konsultacje ministerialne o mniejszościach.",
+   "stan_data": "2026-10-16",
+   "stan_zrodla": [
+    {
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/zelensky-magyar-meet-at-eu-summit/",
+     "data": "2026-10-16"
+    },
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/10/16/hungarys-magyar-meets-zelenskyy-in-bid-to-reset-strained-ties",
+     "data": "2026-10-16"
+    }
+   ]
+  },
+  {
+   "id": "litwa",
+   "nazwa": "Litwa",
+   "grupa": "miejsce",
+   "opis": "Polityka Litwy i bezpieczeństwo przesmyku suwalskiego.",
+   "stan": "Wilno ma według doradcy prezydenta „wiarygodne dane”, że dron, który 18.10 wybuchł na północy Litwy, wleciał z Polski, i proponuje wspólne śledztwo; Polska nie potwierdza przelotu. 18.10 udaremniono podpalenie sprzętu Starlink.",
+   "stan_zrodla": [
+    {
+     "nazwa": "PAP (za RMF24)",
+     "url": "https://www.rmf24.pl/fakty/polska/news-dron-eksplodowal-na-litwie-mial-przyleciec-z-polski-tusk-nie,nIdn,1022662",
+     "data": "2026-10-20"
+    },
+    {
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/poland-to-demand-explanation-from-ukraine-over-drone-incident-in-lithuania/",
+     "data": "2026-10-20"
+    },
+    {
+     "nazwa": "LRT",
+     "url": "https://www.lrt.lt/en/news-in-english/19/3086054/attempted-arson-at-lithuanian-firm-storing-starlink-equipment-pm-blames-russia",
+     "data": "2026-10-18"
+    }
+   ],
+   "stan_data": "2026-10-20"
+  },
+  {
+   "id": "lotwa",
+   "nazwa": "Łotwa",
+   "grupa": "miejsce",
+   "opis": "Polityka Łotwy, wybory.",
+   "stan": "Po przeliczeniu niemal wszystkich głosów Zjednoczona Lista premiera Kulbergsa ma 42 ze 100 mandatów; może rządzić z Sojuszem Narodowym albo Postępowymi.",
+   "stan_zrodla": [
+    {
+     "nazwa": "LSM",
+     "url": "https://eng.lsm.lv/article/politics/election/04.10.2026-new-latvian-saeima-starts-to-shape-up-with-nearly-all-votes-counted.a666021/",
+     "data": "2026-10-04"
+    },
+    {
+     "nazwa": "Reuters (za Irish Times)",
+     "url": "https://www.irishtimes.com/world/europe/2026/10/04/latvian-pm-on-track-to-lead-pro-ukraine-coalition-after-election-win/",
+     "data": "2026-10-04"
+    },
+    {
+     "nazwa": "AP (za Euronews)",
+     "url": "https://www.euronews.com/2026/10/04/latvias-pro-european-ruling-party-wins-election-as-populists-gain-ground",
+     "data": "2026-10-04"
+    }
+   ],
+   "stan_data": "2026-10-04"
+  },
+  {
+   "id": "estonia",
+   "nazwa": "Estonia",
+   "grupa": "miejsce",
+   "opis": "Polityka i bezpieczeństwo Estonii.",
+   "stan": "Rząd zakazał 1.10 tranzytu zboża z Rosji i Białorusi przez terytorium Estonii.",
+   "stan_zrodla": [
+    {
+     "nazwa": "ERR",
+     "url": "https://news.err.ee/1610153278/estonia-bans-grain-transit-from-russia-and-belarus",
+     "data": "2026-10-01"
+    },
+    {
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/estonia-bans-transit-of-grain-from-russia-belarus/",
+     "data": "2026-10-01"
+    }
+   ],
+   "stan_data": "2026-10-01"
+  },
+  {
+   "id": "nordyckie",
+   "nazwa": "Nordyckie",
+   "grupa": "miejsce",
+   "opis": "Szwecja, Finlandia, Norwegia, Dania, Islandia.",
+   "stan": "W Szwecji Magdalena Andersson (S) od 5.10 ponownie bada możliwość utworzenia rządu, z raportem do 12.10; potem głosowanie w Riksdagu nad premierem.",
+   "stan_zrodla": [
+    {
+     "nazwa": "Riksdag (komunikat)",
+     "url": "https://www.riksdagen.se/sv/aktuellt/aktuelltnotiser/2026/okt/2/talmannens-sonderingsuppdrag-till-magdalena_cms77150d24-8e8b-479f-9da0-8df5bf84b9b6sv/",
+     "data": "2026-10-02"
+    },
+    {
+     "nazwa": "SVT",
+     "url": "https://www.svt.se/nyheter/inrikes/det-har-hander-nu-i-sonderingsprocessen",
+     "data": "2026-10-02"
+    }
+   ],
+   "stan_data": "2026-10-03"
+  },
+  {
+   "id": "francja",
+   "nazwa": "Francja",
+   "grupa": "miejsce",
+   "opis": "Polityka Francji: rząd, budżet, stanowisko w UE.",
+   "stan": "Protesty z 24.10 przeciw kosztom życia: według MSW 1314 zatrzymanych, co najmniej 50 rannych policjantów, ok. 410 tys. uczestników (France 24, Euronews).",
+   "stan_zrodla": [
+    {
+     "nazwa": "France 24",
+     "url": "https://www.france24.com/en/france/20261025-at-least-1-300-people-arrested-in-mass-weekend-protests-across-france",
+     "data": "2026-10-25"
+    },
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/10/25/almost-1000-arrests-across-france-as-protesters-clashed-with-police",
+     "data": "2026-10-25"
+    }
+   ],
+   "stan_data": "2026-10-25"
+  },
+  {
+   "id": "wielka-brytania",
+   "nazwa": "WielkaBrytania",
+   "grupa": "miejsce",
+   "opis": "Polityka Wielkiej Brytanii i jej bezpieczeństwo.",
+   "stan": "1.10 rząd wpisał na listę sankcji wobec Rosji 31 nowych celów, m.in. gazowce z rosyjskim LNG.",
+   "stan_zrodla": [
+    {
+     "nazwa": "Rząd Wielkiej Brytanii (Sanctions Notice, Russia)",
+     "url": "https://assets.publishing.service.gov.uk/media/6abe173e9c196f81005e5d7c/Sanctions_Notice__Russia__01_October_2026.pdf",
+     "data": "2026-10-01"
+    }
+   ],
+   "stan_data": "2026-10-01"
+  },
+  {
+   "id": "rumunia",
+   "nazwa": "Rumunia",
+   "grupa": "miejsce",
+   "opis": "Polityka Rumunii.",
+   "stan": "Rząd Luca-Alexandru Niculescu ma wotum zaufania z 20.10 (280 głosów); 23.10 rumuńskie władze przypisały Rosji uderzenie drona w statek Khoryv u wybrzeża Konstancy (jeden zabity, trzech zaginionych).",
+   "stan_zrodla": [
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/10/23/rescue-operation-in-the-black-sea-following-a-distress-signal-from-a-ship",
+     "data": "2026-10-23"
+    },
+    {
+     "nazwa": "Meduza",
+     "url": "https://meduza.io/en/news/2026/10/23/romania-blames-russia-for-drone-strike-that-sinks-cargo-ship-in-black-sea-killing-one-sailor-and-leaving-three-missing",
+     "data": "2026-10-23"
+    }
+   ],
+   "stan_data": "2026-10-23"
+  },
+  {
+   "id": "balkany",
+   "nazwa": "Bałkany",
+   "grupa": "miejsce",
+   "opis": "Serbia, Bośnia i Hercegowina, Kosowo i inne państwa regionu.",
+   "stan": "Albania: 24.10 protesty w Tiranie, policja użyła gazu łzawiącego i armatek wodnych; władze podają ponad 300 rannych od początku fali; 25.10 wybory w Serbii i Bułgarii.",
+   "stan_zrodla": [
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/10/24/tensions-rise-in-albania-as-protesters-burn-symbolic-pillows-outside-prime-ministers-offic",
+     "data": "2026-10-24"
+    },
+    {
+     "nazwa": "OSW",
+     "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-22/albania-eskalacja-protestow",
+     "data": "2026-10-22"
+    }
+   ],
+   "stan_data": "2026-10-24"
+  },
+  {
+   "id": "wybory",
+   "nazwa": "Wybory",
+   "grupa": "temat",
+   "opis": "Wybory w Europie i na świecie; wyniki wstępne odróżniane od oficjalnych."
+  },
+  {
+   "id": "energia",
+   "nazwa": "Energia",
+   "grupa": "temat",
+   "opis": "Ropa, gaz, infrastruktura energetyczna, ceny paliw.",
+   "stan": "Pierwszy ładunek rosyjskiego diesla (ok. 40 tys. ton, tankowiec Agioi Fanendes z Primorska) płynie do Nowego Jorku, dotarcie ok. 7.11 według Kpler.",
+   "stan_zrodla": [
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/10/23/first-russian-diesel-shipment-is-heading-to-us-under-trump-putin-deal",
+     "data": "2026-10-23"
+    },
+    {
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/inside-the-legal-design-of-americas-russia-sanctions-u-turn-2/",
+     "data": "2026-10-23"
+    }
+   ],
+   "stan_data": "2026-10-23"
+  },
+  {
+   "id": "gospodarka",
+   "nazwa": "Gospodarka",
+   "grupa": "temat",
+   "opis": "Tylko zdarzenia nadzwyczajne: inflacja, kurs złotego, decyzje banków centralnych, cła.",
+   "stan": "21.10 rentowność francuskich 10-letnich obligacji przekroczyła 5% po raz pierwszy od 2002 r. (spread do Niemiec ok. 1,6 pkt proc.); inwestorzy czekają na decyzję Moody's.",
+   "stan_zrodla": [
+    {
+     "nazwa": "France 24 (za AFP)",
+     "url": "https://www.france24.com/en/live-news/20261021-five-things-to-know-as-french-bond-yield-tops-5",
+     "data": "2026-10-21"
+    },
+    {
+     "nazwa": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/21/france-protests-bonds-debt.html",
+     "data": "2026-10-21"
+    }
+   ],
+   "stan_data": "2026-10-21"
+  },
+  {
+   "id": "inne",
+   "nazwa": "Inne",
+   "grupa": "temat",
+   "opis": "Wątki rzadkie, bez osobnego hashtagu.",
+   "stan": "Hebron: według ministra obrony Izraela wysiedlono ok. 2 tys. osób; wojsko zamknie 27.10 przejścia lądowe z Zachodnim Brzegiem (dzień wyborów do Knesetu).",
+   "stan_zrodla": [
+    {
+     "nazwa": "France 24",
+     "url": "https://www.france24.com/en/middle-east/20261024-israeli-forces-displace-1-200-palestinians-in-hebron-after-deadly-attack-on-soldiers",
+     "data": "2026-10-24"
+    },
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/10/25/israel-orders-west-bank-crossings-to-close-on-election-day-following-hebron-shooting",
+     "data": "2026-10-25"
+    }
+   ],
+   "stan_data": "2026-10-25"
+  },
+  {
+   "id": "afryka",
+   "nazwa": "Afryka",
+   "grupa": "miejsce",
+   "opis": "Wojny, przewroty i kryzysy w Afryce (Róg Afryki, Sudan, Sahel, Kongo).",
+   "stan": "20.10 Nigeria potwierdziła pierwszy przypadek eboli (Bundibugyo), piąty kraj z wykrytym wirusem.",
+   "stan_zrodla": [
+    {
+     "nazwa": "France 24",
+     "url": "https://www.france24.com/en/africa/20261020-nigeria-records-first-ebola-case-as-outbreak-spreads-across-africa",
+     "data": "2026-10-21"
+    },
+    {
+     "nazwa": "NPR",
+     "url": "https://www.npr.org/2026/10/20/g-s1-148975/nigeria-confirms-ebola-case",
+     "data": "2026-10-21"
+    }
+   ],
+   "stan_data": "2026-10-21"
+  },
+  {
+   "id": "ameryki",
+   "nazwa": "Ameryki",
+   "grupa": "miejsce",
+   "opis": "Polityka państw obu Ameryk poza USA: wybory, kryzysy, relacje z UE i Chinami.",
+   "stan": "Brazylia: w I turze wyborów prezydenckich 4.10 Flávio Bolsonaro 47,03%, Lula 45,16% – II tura.",
+   "stan_zrodla": [
+    {
+     "nazwa": "TSE",
+     "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/flavio-bolsonaro-e-lula-vao-disputar-o-2o-turno-para-a-presidencia-da-republica",
+     "data": "2026-10-05"
+    }
+   ],
+   "stan_data": "2026-10-05"
+  },
+  {
+   "id": "bulgaria",
+   "nazwa": "Bułgaria",
+   "grupa": "miejsce",
+   "opis": "Polityka Bułgarii i bezpieczeństwo jej strefy na Morzu Czarnym.",
+   "stan": "Na Morzu Czarnym w rumuńskich wodach przy kanale Sulina płoną kolejne statki: 15.10 pożar tankowca Wine Trader, część załogi zaginęła (liczby w relacjach rozbieżne).",
+   "stan_zrodla": [
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/10/15/romania-probes-possible-drone-attack-on-tanker-in-its-black-sea-territorial-waters",
+     "data": "2026-10-15"
+    },
+    {
+     "nazwa": "Reuters (za Global News)",
+     "url": "https://globalnews.ca/news/12103450/ships-ablaze-romania-black-sea",
+     "data": "2026-10-15"
+    }
+   ],
+   "stan_data": "2026-10-15"
+  },
+  {
+   "id": "watykan",
+   "nazwa": "Watykan",
+   "grupa": "miejsce",
+   "opis": "Stolica Apostolska i papież w polityce międzynarodowej."
+  },
+  {
+   "id": "wlochy",
+   "nazwa": "Włochy",
+   "grupa": "miejsce",
+   "opis": "Polityka Włoch i ich rola w UE.",
+   "stan": "Protesty z 24.10 przeciw drożyźnie w kilku miastach pod ochroną wojska; rząd Meloni przyjął dekret o przestępstwie „brutalnego udziału w demonstracji”.",
+   "stan_zrodla": [
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/10/24/italy-deploys-hundreds-of-soldiers-as-nationwide-protests-raise-fears-of-fresh-violence",
+     "data": "2026-10-24"
+    },
+    {
+     "nazwa": "France 24",
+     "url": "https://www.france24.com/en/europe/20261024-protests-against-cost-of-living-expected-in-italy-under-heavy-security",
+     "data": "2026-10-24"
+    }
+   ],
+   "stan_data": "2026-10-24"
+  },
+  {
+   "id": "moldawia",
+   "nazwa": "Mołdawia",
+   "grupa": "miejsce",
+   "opis": "Polityka Mołdawii, droga do UE i presja Rosji."
+  },
+  {
+   "id": "azerbejdzan",
+   "nazwa": "Azerbejdżan",
+   "grupa": "miejsce",
+   "opis": "Polityka Azerbejdżanu, Kaukaz Południowy i surowce."
+  }
+ ]
 }

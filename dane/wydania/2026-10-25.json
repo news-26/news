@@ -1,0 +1,408 @@
+{
+ "nr": 37,
+ "data": "2026-10-25",
+ "godzina": "20:00",
+ "typ": "dzienne",
+ "w_skrocie": [
+  "Podczas protestów we Francji przeciw wysokim kosztom życia 24.10 policja zatrzymała według Ministerstwa Spraw Wewnętrznych 1314 osób, a 53 funkcjonariuszy zostało rannych. Według Euronews minister spraw wewnętrznych {{o:laurent-nunez|Laurent Nuñez}} obciążył za przemoc skrajną lewicę.",
+  "Izraelska armia wysiedla mieszkańców dzielnic Hebronu po ataku z 23.10, w którym zginęło dwóch izraelskich żołnierzy. Według ministra obrony Israela Kaca wysiedlono ok. 2 tys. osób, a według Euronews armia zamknie we wtorek, w dniu wyborów do parlamentu Izraela (Knesetu), wszystkie przejścia lądowe z Zachodnim Brzegiem.",
+  "Rosyjskie ataki zabiły w Ukrainie w ciągu doby 24–25.10 osiem osób, a 51 raniły, według Kyiv Independent, powołującego się na lokalne władze. W nocy Rosja użyła według sił powietrznych Ukrainy 153 dronów typu Shahed i rakiet {{p:banderol|Banderol}}."
+ ],
+ "korekty": [],
+ "zarys": [
+  {
+   "id": "z1",
+   "blok": "instytucje",
+   "data": "2026-10-24",
+   "tagi": [
+    "francja"
+   ],
+   "miejsce": "paryz",
+   "krotko": "Francja: policja zatrzymuje 1314 osób po protestach",
+   "etap": null,
+   "tekst": "Podczas sobotnich protestów we Francji przeciw wysokim kosztom życia policja zatrzymała według Ministerstwa Spraw Wewnętrznych **1314 osób**, a 53 funkcjonariuszy zostało rannych. Według ministerstwa w demonstracjach wzięło udział ok. 410 tys. osób, a według organizatorów prawie 800 tys. Według Euronews minister spraw wewnętrznych {{o:laurent-nunez|Laurent Nuñez}} obciążył za przemoc „skrajną lewicę”.",
+   "zrodla": [
+    {
+     "nazwa": "France 24",
+     "url": "https://www.france24.com/en/france/20261025-at-least-1-300-people-arrested-in-mass-weekend-protests-across-france",
+     "data": "2026-10-25"
+    },
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/10/25/almost-1000-arrests-across-france-as-protesters-clashed-with-police",
+     "data": "2026-10-25"
+    }
+   ]
+  },
+  {
+   "id": "z2",
+   "blok": "swiat",
+   "data": "2026-10-24",
+   "tagi": [
+    "inne"
+   ],
+   "miejsce": "hebron",
+   "krotko": "Izrael wysiedla mieszkańców Hebronu i zamyka przejścia",
+   "etap": null,
+   "tekst": "Izraelska armia wysiedla mieszkańców dzielnic Hebronu na Zachodnim Brzegu po ataku z 23.10, w którym zginęło dwóch izraelskich żołnierzy. Minister obrony {{o:israel-katz|Israel Kac}} powiedział izraelskiej telewizji Kan, że wysiedlono ok. 2 tys. osób i że nie wrócą, dopóki nie zostaną rozwiązane problemy z Hamasem w Hebronie. Według Euronews armia zamknie we wtorek **27.10**, w dniu wyborów do parlamentu Izraela (Knesetu), wszystkie przejścia lądowe z Zachodnim Brzegiem.",
+   "zrodla": [
+    {
+     "nazwa": "France 24",
+     "url": "https://www.france24.com/en/middle-east/20261024-israeli-forces-displace-1-200-palestinians-in-hebron-after-deadly-attack-on-soldiers",
+     "data": "2026-10-24"
+    },
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/10/25/israel-orders-west-bank-crossings-to-close-on-election-day-following-hebron-shooting",
+     "data": "2026-10-25"
+    }
+   ]
+  },
+  {
+   "id": "z3",
+   "blok": "wojna",
+   "data": "2026-10-25",
+   "tagi": [
+    "ukraina",
+    "front"
+   ],
+   "miejsce": "winnica",
+   "krotko": "Rosyjskie ataki zabijają 8 osób w Ukrainie",
+   "etap": null,
+   "tekst": "W ciągu doby 24–25.10 rosyjskie ataki zabiły w Ukrainie osiem osób, a 51 raniły, według Kyiv Independent, powołującego się na lokalne władze; Euronews podaje niższe liczby z części kraju (cztery osoby zabite, 28 rannych). W nocy Rosja użyła według sił powietrznych Ukrainy 153 dronów typu Shahed i rakiet {{p:banderol|Banderol}}, a obrona zestrzeliła 119 dronów. W Winnicy dron uderzył w budynek mieszkalny i ranił sześć osób; według sieci Epicentr w mniej niż dobę zaatakowano cztery jej hipermarkety.",
+   "zrodla": [
+    {
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/russian-attacks-kill-8-injure-51-across-ukraine-over-past-day-as-drone-strikes-residential-building-in-vinnytsia/",
+     "data": "2026-10-25"
+    },
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/10/25/russian-strikes-on-ukraine-kill-four-and-injure-28-authorities-say",
+     "data": "2026-10-25"
+    },
+    {
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/in-less-than-24-hours-russia-hits-4-hypermarkets-belonging-to-one-of-ukraines-largest-retail-chains/",
+     "data": "2026-10-25"
+    }
+   ]
+  }
+ ],
+ "analizy": [],
+ "kalendarz": [
+  {
+   "data": "2026-10-25",
+   "tekst": "25.10: Brazylia – II tura wyborów prezydenckich (Flávio Bolsonaro kontra Lula); wyniki po zamknięciu lokali.",
+   "tagi": [
+    "ameryki",
+    "wybory"
+   ]
+  },
+  {
+   "data": "2026-10-25",
+   "tekst": "25.10: Bułgaria – wybory prezydenta i wiceprezydenta; lokale zamknięto o 20:00, ewentualna II tura 1.11.",
+   "tagi": [
+    "bulgaria",
+    "wybory"
+   ]
+  },
+  {
+   "data": "2026-10-25",
+   "tekst": "25.10: Serbia – przedterminowe wybory parlamentarne (Lista Studencka kontra SNS).",
+   "tagi": [
+    "balkany",
+    "wybory"
+   ]
+  },
+  {
+   "data": "2026-10-27",
+   "tekst": "27.10: Izrael – wybory do Knesetu; wojsko zamyka w tym dniu przejścia lądowe z Zachodnim Brzegiem.",
+   "tagi": [
+    "inne",
+    "wybory"
+   ]
+  },
+  {
+   "data": "2026-10-27",
+   "tekst": "27.10: Ukraina – według rosyjskiego Sztabu Generalnego rozejm w Oleszkach od godz. 4:00 (według Białego Domu od 29.10).",
+   "tagi": [
+    "ukraina",
+    "rozejm"
+   ]
+  },
+  {
+   "data": "2026-10-28",
+   "tekst": "28.10: Fed – decyzja FOMC (posiedzenie 27–28.10).",
+   "tagi": [
+    "usa"
+   ]
+  },
+  {
+   "data": "2026-10-29",
+   "tekst": "29.10: EBC – decyzja Rady Prezesów (posiedzenie 28–29.10).",
+   "tagi": [
+    "ue"
+   ]
+  },
+  {
+   "data": "2026-10-29",
+   "tekst": "29–30.10: szczyt UE–Kanada w Montrealu.",
+   "tagi": [
+    "ue"
+   ]
+  },
+  {
+   "data": "2026-11-01",
+   "tekst": "1.11: OPEC+ – spotkanie siedmiu państw w sprawie limitów wydobycia na grudzień.",
+   "tagi": [
+    "energia"
+   ]
+  },
+  {
+   "data": "2026-11-03",
+   "tekst": "3.11: USA – wybory połowy kadencji (cała Izba Reprezentantów, jedna trzecia Senatu, część gubernatorów).",
+   "tagi": [
+    "usa",
+    "wybory"
+   ]
+  }
+ ],
+ "poza_oknem": [
+  {
+   "data": "2026-11-12",
+   "tekst": "Europejska Wspólnota Polityczna w Irlandii (12.11), 13.11 nieformalne spotkanie przywódców UE",
+   "tagi": [
+    "ue"
+   ]
+  },
+  {
+   "data": "2026-11-29",
+   "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+   "tagi": [
+    "inne",
+    "wybory"
+   ]
+  },
+  {
+   "data": "2027-01-12",
+   "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+   "tagi": [
+    "litwa"
+   ]
+  }
+ ],
+ "zrodla_analityczne": {
+  "osw": [],
+  "pism": [],
+  "nieodczytane": [
+   "osw",
+   "pism"
+  ]
+ },
+ "czego_nie_ma": [
+  {
+   "id": "n1",
+   "tekst": "Rozmowy trójstronne: według Kyiv Independent (25.10) doradca Kremla Jurij Uszakow powiedział rosyjskiej telewizji Wiesti, że Moskwa wznowi rozmowy z Ukrainą i USA po 4.11, a pierwsze spotkanie będzie „próbą generalną”; Zełenski mówił 23.10 o pierwszej połowie listopada i Abu Zabi. Wyszukiwarka zwraca doniesienia z 21.10 o terminie po 10.11. Nie otwarto komunikatu Kremla, brak drugiego źródła z poziomów 1–2.",
+   "prog": "dokumentacja",
+   "sprawdzono": [
+    "Kyiv Independent (artykuł, 25.10)",
+    "wyszukiwarka EN (25.10): doniesienia z 21.10 o terminie po 10.11",
+    "kanał Polsat News (25.10): wpis o warunkach Zacharowej wobec europejskich uczestników"
+   ]
+  },
+  {
+   "id": "n2",
+   "tekst": "Starlink/Starshield: według Kyiv Independent (24.10) Elon Musk twierdzi, że ukraińskie wojsko naruszyło regulamin Starlinka, używając go do ofensywnych uderzeń dronów; senator Richard Blumenthal zapytał 23.10 Pentagon, kto zlecił ograniczenia; nikt publicznie nie przyznał się do ich nałożenia. Nie otwarto komunikatu Pentagonu, SpaceX ani Białego Domu.",
+   "prog": "dokumentacja",
+   "sprawdzono": [
+    "Kyiv Independent (artykuł, 24.10)",
+    "France 24 (strona główna, 24.10: łączność stabilna)",
+    "wyszukiwarka (25.10): doniesienia z 15–21.10, bez komunikatu urzędowego"
+   ]
+  },
+  {
+   "id": "n3",
+   "tekst": "Jemen/Arabia Saudyjska: według France 24 (za Reuters, 24.10) Huti twierdzą, że zaatakowali lotniska w Rijadzie, Dammamie i Nadżranie oraz instalacje naftowe; koalicja pod wodzą Arabii Saudyjskiej poinformowała o zestrzeleniu pocisków balistycznych. Według Al Jazeera (25.10, poziom 3) szczątki pocisków ranią dwie osoby w Chamis Muszajt. Nie otwarto komunikatu koalicji ani drugiego źródła z poziomów 1–2.",
+   "prog": "dokumentacja",
+   "sprawdzono": [
+    "France 24 (artykuł, 24.10)",
+    "Al Jazeera (artykuł, 25.10, poziom 3)",
+    "kanał Euronews (25.10): brak pozycji"
+   ]
+  },
+  {
+   "id": "n4",
+   "tekst": "Wenezuela: według Euronews (25.10) opozycjonistka i laureatka Pokojowej Nagrody Nobla María Corina Machado wróciła do kraju po niemal dziesięciu miesiącach na emigracji; rząd tymczasowej prezydent Delcy Rodríguez nie zareagował. Brak drugiego źródła z poziomów 1–2 (wyszukiwarka zwraca doniesienia o nieudanych próbach powrotu z września).",
+   "prog": "dokumentacja",
+   "sprawdzono": [
+    "Euronews (artykuł, 25.10)",
+    "wyszukiwarka EN (25.10): brak potwierdzenia powrotu",
+    "kanał Kyiv Independent i Meduza (25.10): brak pozycji"
+   ]
+  },
+  {
+   "id": "n5",
+   "tekst": "Protesty w Europie: według Euronews (24–25.10) we Włoszech według Departamentu Bezpieczeństwa Publicznego aresztowano dziewięć osób, w Barcelonie 128 osób zatrzymano po zamieszkach, a w Lizbonie i Porto policja rozbiła obozy protestacyjne (31 zatrzymanych według policji). Brak drugiego źródła z poziomów 1–2 i komunikatów resortów.",
+   "prog": "dokumentacja",
+   "sprawdzono": [
+    "Euronews (trzy artykuły, 24–25.10)",
+    "Al Jazeera (25.10, poziom 3: Lizbona, 25 zatrzymanych)",
+    "wyszukiwarka (25.10): brak komunikatów Viminale i MSW Hiszpanii"
+   ]
+  },
+  {
+   "id": "n6",
+   "tekst": "Brazylia: II tura wyborów prezydenckich trwa 25.10; wynik po zamknięciu lokali wieczorem, w chwili przygotowania wydania nieznany.",
+   "prog": "dokumentacja",
+   "sprawdzono": [
+    "Euronews (kanał, 25.10: głosowanie trwa)",
+    "France 24 (strona główna, 25.10: głosowanie trwa)",
+    "wyszukiwarka EN (25.10): tylko wyniki I tury z 4.10"
+   ],
+   "termin": "brazylia-ii-tura-2026"
+  },
+  {
+   "id": "n7",
+   "tekst": "Bułgaria: wybory prezydenta trwają 25.10, lokale zamknięto o 20:00; według Euronews wymagana jest frekwencja ponad 50 proc. i bezwzględna większość, a II tura 1.11 jest prawdopodobna. Wyników ani sondaży exit poll nie ma.",
+   "prog": "dokumentacja",
+   "sprawdzono": [
+    "Euronews (artykuł, 25.10)",
+    "wyszukiwarka EN (25.10): brak wyników",
+    "BTA – nie otwarto komunikatu komisji wyborczej"
+   ],
+   "termin": "bulgaria-prezydent-2026"
+  },
+  {
+   "id": "n8",
+   "tekst": "Serbia: przedterminowe wybory parlamentarne trwają 25.10; wynik nieznany w chwili przygotowania wydania.",
+   "prog": "dokumentacja",
+   "sprawdzono": [
+    "Euronews (kanał, 25.10: głosowanie)",
+    "France 24 (strona główna, 25.10: głosowanie)",
+    "wyszukiwarka EN (25.10): tylko zapowiedzi"
+   ],
+   "termin": "serbia-parlament-2026"
+  },
+  {
+   "id": "n9",
+   "tekst": "Iran: według Al Jazeera (25.10, poziom 3) Donald Trump powiedział, że w niedzielę nie będzie uderzenia, a w Teheranie są katarscy mediatorzy. Nie otwarto komunikatu Białego Domu ani drugiego źródła z poziomów 1–2.",
+   "prog": "dokumentacja",
+   "sprawdzono": [
+    "Al Jazeera (strona główna, 25.10, poziom 3)",
+    "kanał Polsat News (25.10): groźby wobec Iranu i Kuby",
+    "kanał Euronews (25.10): brak pozycji"
+   ]
+  },
+  {
+   "id": "n10",
+   "tekst": "Niemcy: według Polsat News (25.10, poziom 3) Niemcy potwierdziły udział w pierwszych wspólnych ćwiczeniach koalicji chętnych w Polsce w listopadzie; wyszukiwarka zwraca sprzeczne doniesienia (lipiec: brak udziału; później: rząd analizuje formę udziału). Nie otwarto komunikatu rządu Niemiec ani MON.",
+   "prog": "dokumentacja",
+   "sprawdzono": [
+    "Polsat News (kanał, 25.10)",
+    "wyszukiwarka PL (25.10): Wprost, Defence24, Interia",
+    "gov.pl – MON: nie sprawdzono komunikatu"
+   ]
+  },
+  {
+   "id": "n11",
+   "tekst": "Wielka Brytania: według Euronews (25.10) premier Andy Burnham chce „uczciwej dyskusji” o powrocie do swobodnego przepływu osób z UE. Brak drugiego źródła z poziomów 1–2 (Al Jazeera, 25.10, poziom 3).",
+   "prog": "dokumentacja",
+   "sprawdzono": [
+    "Euronews (kanał, 25.10)",
+    "Al Jazeera (strona główna, 25.10, poziom 3)",
+    "wyszukiwarka – nie sprawdzono"
+   ]
+  }
+ ],
+ "rozstrzygniecia": [
+  {
+   "dotyczy": "2026-10-24#n1",
+   "wynik": "NIE DO POTWIERDZENIA",
+   "sprawdzono": [
+    "Al Jazeera (25.10: żałobnicy po ataku w kościele, poziom 3)",
+    "Polsat News (kanał, 23.10)",
+    "wyszukiwarka EN (25.10): tylko atak z 2016 r."
+   ],
+   "powod": "Brak komunikatu MSZ lub jordańskich władz i drugiego źródła z poziomów 1–2."
+  },
+  {
+   "dotyczy": "2026-10-24#n2",
+   "wynik": "NIE DO POTWIERDZENIA",
+   "sprawdzono": [
+    "wyszukiwarka (25.10): zapowiedź przeglądu Moody's na 23.10, bez relacji z decyzji",
+    "Euronews (24.10)",
+    "France 24 (strona główna, 25.10): brak pozycji"
+   ],
+   "powod": "Nie znaleziono komunikatu Moody's ani drugiego źródła decyzji."
+  },
+  {
+   "dotyczy": "2026-10-24#n3",
+   "wynik": "NIE DO POTWIERDZENIA",
+   "sprawdzono": [
+    "Kyiv Independent (25.10: Uszakow, termin po 4.11)",
+    "wyszukiwarka (25.10): doniesienia z 21.10 o terminie po 10.11",
+    "kanał Euronews (25.10): brak pozycji"
+   ],
+   "powod": "Termin rozmów pozostaje niepotwierdzony komunikatem; wątek odnowiony jako n1."
+  },
+  {
+   "dotyczy": "2026-10-24#n4",
+   "wynik": "NIE DO POTWIERDZENIA",
+   "sprawdzono": [
+    "wyszukiwarka (25.10): brak relacji o ataku 24.10",
+    "kanał Kyiv Independent (25.10): brak pozycji",
+    "kanał Polsat News (25.10): Omsk, atak z 24.10"
+   ],
+   "powod": "Brak komunikatu Sztabu Generalnego Ukrainy i drugiego źródła z poziomów 1–2."
+  },
+  {
+   "dotyczy": "2026-10-24#n5",
+   "wynik": "NIE DO POTWIERDZENIA",
+   "sprawdzono": [
+    "wyszukiwarka (25.10): wyniki o wcześniejszych kontaktach Rubio z Kubą (Axios, 2026), bez słów o CIA",
+    "kanał Polsat News (25.10): groźby Trumpa wobec Kuby",
+    "kanał Euronews (25.10): brak pozycji"
+   ],
+   "powod": "Nie znaleziono komunikatu Departamentu Stanu ani drugiego źródła."
+  },
+  {
+   "dotyczy": "2026-10-24#n6",
+   "wynik": "NIE DO POTWIERDZENIA",
+   "sprawdzono": [
+    "Kyiv Independent (24.10: Picierno zakończyła głodówkę)",
+    "kanał Polsat News (25.10): Pieskow chwali rzeczników praw człowieka",
+    "Euronews (25.10)"
+   ],
+   "powod": "Rozejm w Oleszkach pozostaje zapowiedzią (27.10 lub 29.10); brak komunikatu strony ukraińskiej ani Białego Domu."
+  },
+  {
+   "dotyczy": "2026-10-24#n7",
+   "wynik": "NIE DO POTWIERDZENIA",
+   "sprawdzono": [
+    "Al Jazeera (25.10: Trump – brak uderzenia w niedzielę)",
+    "wyszukiwarka (25.10): brak komunikatu UKMTO",
+    "kanał Euronews (25.10): brak pozycji"
+   ],
+   "powod": "Brak komunikatu Białego Domu i UKMTO oraz drugiego źródła o ataku na tankowiec."
+  },
+  {
+   "dotyczy": "2026-10-24#n8",
+   "wynik": "NIE DO POTWIERDZENIA",
+   "sprawdzono": [
+    "wyszukiwarka PL i EN (25.10): OKO.press i Money.pl (poziom 3)",
+    "wyszukiwarka (25.10): brak komunikatu prokuratury i ABW w sprawie Flytronic",
+    "Notes from Poland – bez tekstu o tej sprawie"
+   ],
+   "powod": "Pozostają relacje dziennikarskie poziomu 3; komunikatu prokuratury ani ABW nie znaleziono."
+  }
+ ],
+ "do_sprawdzenia": [
+  "Wyniki wyborów 25.10 (Brazylia – TSE, Bułgaria – komisja wyborcza, Serbia – RIK); II tura w Bułgarii 1.11; Izrael 27.10 – komunikat armii o przejściach",
+  "Hebron – komunikaty armii izraelskiej, OCHA/ONZ; protesty we Francji, Włoszech, Hiszpanii, Portugalii – MSW, Viminale",
+  "Starlink/Starshield – komunikaty Pentagonu i SpaceX; termin rozmów trójstronnych – Kreml, Zełenski; rozejm w Oleszkach (27.10 lub 29.10)",
+  "OSW i PISM – publikacje z 23–25.10 (strony niedostępne); PAP Kraj, DO RSZ, MON, SG, ŻW, Agencja Uzbrojenia – incydenty i kontrakty",
+  "Iran – komunikaty Białego Domu; Jordania – komunikat MSZ; Niemcy w ćwiczeniach w Polsce – komunikaty rządu Niemiec i MON; Moody's – decyzja o Francji"
+ ],
+ "nota": "Wydanie z 25.10, przygotowane ok. 19:00–20:00 (Europe/Warsaw), mniejsze niż zwykle: trzy pozycje i brak analiz. Po kontroli niezależnej (agent, bez wglądu w pisanie) poprawiono atrybucje liczb w z1–z3 i rozwinięcia skrótów; agent zasygnalizował też niepokryte tematy (Gaza, Algieria–Niger, Iran), których nie udokumentowano drugim źródłem poziomów 1–2. Dział Świat Onetu nie był otwierany (zablokowany); przegląd wyszukiwarką nie zwrócił nagłówków działu – z Onetu nie trafił do wydania żaden temat. Kanał Polsat News Świat otwarto (najnowszy wpis 25.10, 18:23); z kanału do wydania trafiły sygnały tematów z1, z2 i wpisy n1, n9, n10. TVN24 (kanał zapasowy): błąd 403. Kanały Euronews (najnowszy wpis 25.10, 18:49) i Kyiv Independent (25.10, 16:13) otwarto; kanał Meduzy zawierał tylko wpisy do 25.10 rano (bez tematów do wydania). Przejrzano strony główne France 24 i Al Jazeera (25.10); Reuters, AP i PAP nie były przeglądane, przedruków Reutersa wykorzystano jeden (France 24 za Reuters, w n3). OSW: strona publikacji wymaga weryfikacji przeglądarki (captcha) – lista nieodczytana, wyszukiwarka nie wskazała tekstów z 23–25.10. PISM: pism.pl/publikacje zwróciło pustą stronę, wyszukiwarka nie wskazała tekstów z 23–25.10. Obie listy oznaczono jako nieodczytane, więc brak analiz w wydaniu nie oznacza braku publikacji. ISW: strona zwróciła 403. Incydenty w Polsce i polski przemysł zbrojeniowy: wyszukiwarka (jedno zapytanie) nie zwróciła komunikatów DO RSZ, MON, SG, ŻW, prokuratury, Agencji Uzbrojenia ani PAP z 24–25.10, więc brak pozycji o tych sprawach nie oznacza ich braku. Wyniki wyborów w Brazylii, Bułgarii i Serbii nie były znane w chwili przygotowania wydania (n6–n8). W z2 liczbę wysiedlonych (ok. 2 tys.) podano za ministrem obrony Izraela, wcześniejsze szacunki to 1200 (urzędnik palestyński) i ok. 2500 (agencja Wafa); w z1 liczbę zatrzymanych podano za France 24 (1314), Euronews pisze o ponad 1300. Rozstrzygnięcia z 24.10: wszystkie osiem wpisów NIE DO POTWIERDZENIA."
+}

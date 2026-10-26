@@ -1,1452 +1,1573 @@
 {
- "_opis": "Karty osób. W tekście wydania: {{o:id}} (albo {{o:id|tekst}}). Funkcja to twierdzenie typu A: zawsze ze źródłem i datą weryfikacji; przy zmianie funkcji dopisz poprzednią do historia. Opcjonalne pole formy: odmiany imienia i nazwiska, po których walidacja rozpoznaje osobę w tekście bez odnośnika (domyślnie pełne imię i nazwisko oraz nazwisko z końcówkami). Pole kraj: lista id hashtagów państwa, regionu lub organizacji, które wynikają z funkcji (polscy politycy: dyplomacja-rp albo obronnosc-polski; państwo bez własnego hashtagu: inne) – graf powiązań zawsze łączy osobę z tymi węzłami.",
- "osoby": [
-  {
-   "id": "donald-trump",
-   "imie": "Donald Trump",
-   "funkcja": "Prezydent Stanów Zjednoczonych.",
-   "kraj": [
-    "usa"
-   ],
-   "zweryfikowano": "2026-10-22",
-   "zrodla": [
+  "_opis": "Karty osób. W tekście wydania: {{o:id}} (albo {{o:id|tekst}}). Funkcja to twierdzenie typu A: zawsze ze źródłem i datą weryfikacji; przy zmianie funkcji dopisz poprzednią do historia. Opcjonalne pole formy: odmiany imienia i nazwiska, po których walidacja rozpoznaje osobę w tekście bez odnośnika (domyślnie pełne imię i nazwisko oraz nazwisko z końcówkami). Pole kraj: lista id hashtagów państwa, regionu lub organizacji, które wynikają z funkcji (polscy politycy: dyplomacja-rp albo obronnosc-polski; państwo bez własnego hashtagu: inne) – graf powiązań zawsze łączy osobę z tymi węzłami.",
+  "osoby": [
     {
-     "nazwa": "Meduza",
-     "url": "https://meduza.io/en/feature/2026/10/22/u-s-russia-and-ukraine-discuss-resuming-trilateral-peace-talks-in-november-as-missile-and-drone-strikes-continue",
-     "data": "2026-10-22"
-    }
-   ]
-  },
-  {
-   "id": "wolodymyr-zelenski",
-   "imie": "Wołodymyr Zełenski",
-   "funkcja": "Prezydent Ukrainy.",
-   "kraj": [
-    "ukraina"
-   ],
-   "zweryfikowano": "2026-10-22",
-   "zrodla": [
-    {
-     "nazwa": "Kyiv Independent",
-     "url": "https://kyivindependent.com/russian-ballistic-missiles-rock-kyiv-in-late-night-attack-injuring-6/",
-     "data": "2026-10-22"
-    }
-   ]
-  },
-  {
-   "id": "wladimir-putin",
-   "imie": "Władimir Putin",
-   "funkcja": "Prezydent Federacji Rosyjskiej.",
-   "kraj": [
-    "rosja"
-   ],
-   "zweryfikowano": "2026-10-22",
-   "zrodla": [
-    {
-     "nazwa": "Kyiv Independent",
-     "url": "https://kyivindependent.com/russian-ballistic-missiles-rock-kyiv-in-late-night-attack-injuring-6/",
-     "data": "2026-10-22"
-    }
-   ]
-  },
-  {
-   "id": "emmanuel-macron",
-   "imie": "Emmanuel Macron",
-   "funkcja": "Prezydent Republiki Francuskiej.",
-   "kraj": [
-    "francja"
-   ],
-   "zweryfikowano": "2026-10-22",
-   "zrodla": [
-    {
-     "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/10/22/macron-holds-emergency-security-meeting-as-france-braces-for-fresh-wave-of-protests",
-     "data": "2026-10-22"
-    }
-   ]
-  },
-  {
-   "id": "friedrich-merz",
-   "imie": "Friedrich Merz",
-   "funkcja": "Kanclerz Republiki Federalnej Niemiec (CDU).",
-   "kraj": [
-    "niemcy"
-   ],
-   "zweryfikowano": "2026-10-04",
-   "zrodla": [
-    {
-     "nazwa": "Reuters (za Internazionale)",
-     "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/04/germany-s-merz-arrives-in-kyiv-to-finalize-drone-deal-release-aid",
-     "data": "2026-10-04"
+      "id": "donald-trump",
+      "imie": "Donald Trump",
+      "funkcja": "Prezydent Stanów Zjednoczonych.",
+      "kraj": [
+        "usa"
+      ],
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/10/22/u-s-russia-and-ukraine-discuss-resuming-trilateral-peace-talks-in-november-as-missile-and-drone-strikes-continue",
+          "data": "2026-10-22"
+        }
+      ]
     },
     {
-     "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/10/04/merz-makes-surprise-visit-to-kyiv-germany-pledges-further-aid-to-ukraine",
-     "data": "2026-10-04"
-    }
-   ]
-  },
-  {
-   "id": "robert-fico",
-   "imie": "Robert Fico",
-   "funkcja": "Premier Słowacji (Smer-SD).",
-   "kraj": [
-    "slowacja"
-   ],
-   "zweryfikowano": "2026-10-01",
-   "zrodla": [
-    {
-     "nazwa": "TASR (za Teraz.sk)",
-     "url": "https://www.teraz.sk/slovensko/v-piatok-by-mala-rokovat-koalicna-rad/996439-clanok.html",
-     "data": "2026-10-01"
-    }
-   ]
-  },
-  {
-   "id": "andrej-babis",
-   "imie": "Andrej Babiš",
-   "funkcja": "Premier Republiki Czeskiej.",
-   "kraj": [
-    "czechy"
-   ],
-   "zweryfikowano": "2026-10-01",
-   "zrodla": [
-    {
-     "nazwa": "Rząd Republiki Czeskiej (vlada.gov.cz)",
-     "url": "https://vlada.gov.cz/",
-     "data": "2026-09-30"
-    }
-   ]
-  },
-  {
-   "id": "peter-magyar",
-   "imie": "Péter Magyar",
-   "funkcja": "Premier Węgier (lider partii Tisza).",
-   "kraj": [
-    "wegry"
-   ],
-   "zweryfikowano": "2026-10-01",
-   "zrodla": [
-    {
-     "nazwa": "AP (za WRAL)",
-     "url": "https://www.wral.com/news/ap/5e424-hungarys-parliament-suspends-immunity-for-prime-minister-magyar-and-two-orb-n-era-ministers/",
-     "data": "2026-09-28"
-    }
-   ]
-  },
-  {
-   "id": "radoslaw-sikorski",
-   "imie": "Radosław Sikorski",
-   "funkcja": "Wicepremier i minister spraw zagranicznych RP.",
-   "kraj": [
-    "dyplomacja-rp"
-   ],
-   "zweryfikowano": "2026-10-01",
-   "zrodla": [
-    {
-     "nazwa": "Ministerstwo Spraw Zagranicznych (gov.pl)",
-     "url": "https://www.gov.pl/web/dyplomacja",
-     "data": "2026-10-01"
-    }
-   ]
-  },
-  {
-   "id": "wladyslaw-kosiniak-kamysz",
-   "imie": "Władysław Kosiniak-Kamysz",
-   "funkcja": "Wicepremier i minister obrony narodowej RP.",
-   "kraj": [
-    "obronnosc-polski"
-   ],
-   "zweryfikowano": "2026-10-01",
-   "zrodla": [
-    {
-     "nazwa": "Polska Zbrojna (MON)",
-     "url": "https://polska-zbrojna.pl/home/articleshow/47316?title=Obrona-powietrzna-bedzie-strzelac-szybciej",
-     "data": "2026-09-30"
-    }
-   ]
-  },
-  {
-   "id": "cezary-tomczyk",
-   "imie": "Cezary Tomczyk",
-   "funkcja": "Wiceminister obrony narodowej RP.",
-   "kraj": [
-    "obronnosc-polski"
-   ],
-   "zweryfikowano": "2026-10-01",
-   "zrodla": [
-    {
-     "nazwa": "PAP (za Gość Niedzielny)",
-     "url": "https://www.gosc.pl/doc/9906121.MON-Zmieniamy-procedury-dotyczace-uzywania-sil-powietrznych",
-     "data": "2026-09-28"
-    }
-   ]
-  },
-  {
-   "id": "magdalena-sobkowiak-czarnecka",
-   "imie": "Magdalena Sobkowiak-Czarnecka",
-   "funkcja": "Sekretarz stanu w Ministerstwie Obrony Narodowej (wiceministra obrony).",
-   "kraj": [
-    "obronnosc-polski"
-   ],
-   "zweryfikowano": "2026-10-01",
-   "zrodla": [
-    {
-     "nazwa": "Ministerstwo Obrony Narodowej (gov.pl)",
-     "url": "https://www.gov.pl/web/national-defence/magdalena-sobkowiak-czarnecka-secretary-of-state",
-     "data": "2026-07-09"
-    }
-   ]
-  },
-  {
-   "id": "karol-nawrocki",
-   "imie": "Karol Nawrocki",
-   "funkcja": "Prezydent Rzeczypospolitej Polskiej.",
-   "kraj": [
-    "dyplomacja-rp"
-   ],
-   "zweryfikowano": "2026-10-01",
-   "zrodla": [
-    {
-     "nazwa": "PAP (za Rzeczpospolitą)",
-     "url": "https://www.rp.pl/polityka/art45194991-putin-zaproszony-na-szczyt-g20-palac-prezydencki-nam-sie-to-nie-podoba",
-     "data": "2026-09-26"
-    }
-   ]
-  },
-  {
-   "id": "marcin-przydacz",
-   "imie": "Marcin Przydacz",
-   "funkcja": "Szef Biura Polityki Międzynarodowej Kancelarii Prezydenta RP.",
-   "kraj": [
-    "dyplomacja-rp"
-   ],
-   "zweryfikowano": "2026-10-01",
-   "zrodla": [
-    {
-     "nazwa": "PAP (za Rzeczpospolitą)",
-     "url": "https://www.rp.pl/polityka/art45194991-putin-zaproszony-na-szczyt-g20-palac-prezydencki-nam-sie-to-nie-podoba",
-     "data": "2026-09-26"
-    }
-   ]
-  },
-  {
-   "id": "mark-rutte",
-   "imie": "Mark Rutte",
-   "funkcja": "Sekretarz Generalny NATO.",
-   "kraj": [
-    "nato"
-   ],
-   "zweryfikowano": "2026-10-01",
-   "zrodla": [
-    {
-     "nazwa": "NATO (nato.int)",
-     "url": "https://www.nato.int/en/news-and-events/articles/news/2026/09/29/secretary-general-and-lithuanian-prime-minister-discuss-eastern-flank-defence-drones-and-support-for-ukraine",
-     "data": "2026-09-29"
-    }
-   ]
-  },
-  {
-   "id": "ursula-von-der-leyen",
-   "imie": "Ursula von der Leyen",
-   "funkcja": "Przewodnicząca Komisji Europejskiej.",
-   "kraj": [
-    "ue"
-   ],
-   "zweryfikowano": "2026-10-01",
-   "zrodla": [
-    {
-     "nazwa": "Komisja Europejska (State of the Union 2026)",
-     "url": "https://commission.europa.eu/strategy-and-policy/state-union_en",
-     "data": "2026-09-16"
-    }
-   ],
-   "formy": [
-    "Ursula von der Leyen",
-    "Ursuli von der Leyen",
-    "Ursulą von der Leyen",
-    "von der Leyen"
-   ]
-  },
-  {
-   "id": "antonio-costa",
-   "imie": "António Costa",
-   "funkcja": "Przewodniczący Rady Europejskiej.",
-   "kraj": [
-    "ue"
-   ],
-   "zweryfikowano": "2026-10-01",
-   "zrodla": [
-    {
-     "nazwa": "Rada UE (oświadczenie prasowe)",
-     "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/09/17/press-statement-by-president-costa-following-the-meeting-with-ireland-s-taoiseach-micheal-martin/",
-     "data": "2026-09-17"
-    }
-   ]
-  },
-  {
-   "id": "aleksandar-vucic",
-   "imie": "Aleksandar Vučić",
-   "funkcja": "Były prezydent Serbii (ustąpił 27.09.2026); według OSW chce kierować rządem po przedterminowych wyborach parlamentarnych 25.10.2026.",
-   "kraj": [
-    "balkany"
-   ],
-   "zweryfikowano": "2026-10-01",
-   "zrodla": [
-    {
-     "nazwa": "OSW (J. Nowinowski), Serbia's President Vučić resigns: a one-man show",
-     "url": "https://www.osw.waw.pl/en/publikacje/analyses/2026-09-28/serbias-president-vucic-resigns-a-one-man-show",
-     "data": "2026-09-28"
-    }
-   ],
-   "historia": [
-    "Prezydent Republiki Serbii do rezygnacji 27.09.2026."
-   ]
-  },
-  {
-   "id": "ana-brnabic",
-   "imie": "Ana Brnabić",
-   "funkcja": "Przewodnicząca Zgromadzenia Narodowego Serbii, od 27–28.09.2026 pełniąca obowiązki prezydenta Republiki.",
-   "kraj": [
-    "balkany"
-   ],
-   "zweryfikowano": "2026-10-01",
-   "zrodla": [
-    {
-     "nazwa": "Rząd Serbii (srbija.gov.rs)",
-     "url": "https://www.srbija.gov.rs/vest/en/288494/vucic-hands-over-duty-of-president-of-republic-to-national-assembly-speaker.php",
-     "data": "2026-09-28"
-    }
-   ]
-  },
-  {
-   "id": "mette-frederiksen",
-   "imie": "Mette Frederiksen",
-   "funkcja": "Premier Danii.",
-   "kraj": [
-    "nordyckie"
-   ],
-   "zweryfikowano": "2026-10-01",
-   "zrodla": [
-    {
-     "nazwa": "Biały Dom (komunikat o umowie)",
-     "url": "https://www.whitehouse.gov/releases/2026/09/president-trump-inks-historic-arctic-security-agreement/",
-     "data": "2026-09-22"
-    }
-   ]
-  },
-  {
-   "id": "jens-frederik-nielsen",
-   "imie": "Jens-Frederik Nielsen",
-   "funkcja": "Premier Grenlandii.",
-   "kraj": [
-    "nordyckie"
-   ],
-   "zweryfikowano": "2026-10-01",
-   "zrodla": [
-    {
-     "nazwa": "Biały Dom (komunikat o umowie)",
-     "url": "https://www.whitehouse.gov/releases/2026/09/president-trump-inks-historic-arctic-security-agreement/",
-     "data": "2026-09-22"
-    }
-   ]
-  },
-  {
-   "id": "abbas-araghczi",
-   "imie": "Abbas Araghczi",
-   "funkcja": "Minister spraw zagranicznych Islamskiej Republiki Iranu.",
-   "kraj": [
-    "iran"
-   ],
-   "zweryfikowano": "2026-10-01",
-   "zrodla": [
-    {
-     "nazwa": "AP (za PBS NewsHour)",
-     "url": "https://www.pbs.org/newshour/world/mediators-still-working-on-u-s-iran-deal-after-trump-rejected-latest-tehran-proposal",
-     "data": "2026-09-28"
-    }
-   ]
-  },
-  {
-   "id": "masud-pezeszkian",
-   "imie": "Masud Pezeszkian",
-   "funkcja": "Prezydent Islamskiej Republiki Iranu.",
-   "kraj": [
-    "iran"
-   ],
-   "zweryfikowano": "2026-10-01",
-   "zrodla": [
-    {
-     "nazwa": "CBS News (Face the Nation, transkrypt)",
-     "url": "https://www.cbsnews.com/news/transcript-iranian-president-masoud-pezeshkian-face-the-nation-transcript-09-27-2026/",
-     "data": "2026-09-27"
-    }
-   ]
-  },
-  {
-   "id": "steve-witkoff",
-   "imie": "Steve Witkoff",
-   "funkcja": "Specjalny wysłannik prezydenta USA.",
-   "kraj": [
-    "usa"
-   ],
-   "zweryfikowano": "2026-10-22",
-   "zrodla": [
-    {
-     "nazwa": "Kyiv Independent",
-     "url": "https://kyivindependent.com/russian-ballistic-missiles-rock-kyiv-in-late-night-attack-injuring-6/",
-     "data": "2026-10-22"
-    }
-   ]
-  },
-  {
-   "id": "siergiej-lawrow",
-   "imie": "Siergiej Ławrow",
-   "funkcja": "Minister spraw zagranicznych Federacji Rosyjskiej.",
-   "kraj": [
-    "rosja"
-   ],
-   "zweryfikowano": "2026-10-01",
-   "zrodla": [
-    {
-     "nazwa": "ONZ (UN News)",
-     "url": "https://news.un.org/en/story/2026/09/1168457",
-     "data": "2026-09-26"
-    }
-   ]
-  },
-  {
-   "id": "scott-bessent",
-   "imie": "Scott Bessent",
-   "funkcja": "Sekretarz skarbu Stanów Zjednoczonych.",
-   "kraj": [
-    "usa"
-   ],
-   "zweryfikowano": "2026-10-01",
-   "zrodla": [
-    {
-     "nazwa": "Departament Skarbu USA (komunikat)",
-     "url": "https://home.treasury.gov/news/press-releases/sb0638/",
-     "data": "2026-09-29"
-    }
-   ]
-  },
-  {
-   "id": "andris-kulbergs",
-   "imie": "Andris Kulbergs",
-   "funkcja": "Premier Łotwy, lider Zjednoczonej Listy (AS).",
-   "kraj": [
-    "lotwa"
-   ],
-   "zweryfikowano": "2026-10-04",
-   "zrodla": [
-    {
-     "nazwa": "Reuters (za Irish Times)",
-     "url": "https://www.irishtimes.com/world/europe/2026/10/04/latvian-pm-on-track-to-lead-pro-ukraine-coalition-after-election-win/",
-     "data": "2026-10-04"
+      "id": "wolodymyr-zelenski",
+      "imie": "Wołodymyr Zełenski",
+      "funkcja": "Prezydent Ukrainy.",
+      "kraj": [
+        "ukraina"
+      ],
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-ballistic-missiles-rock-kyiv-in-late-night-attack-injuring-6/",
+          "data": "2026-10-22"
+        }
+      ]
     },
     {
-     "nazwa": "AP (za Euronews)",
-     "url": "https://www.euronews.com/2026/10/04/latvias-pro-european-ruling-party-wins-election-as-populists-gain-ground",
-     "data": "2026-10-04"
-    }
-   ]
-  },
-  {
-   "id": "gitanas-nauseda",
-   "imie": "Gitanas Nausėda",
-   "funkcja": "Prezydent Republiki Litewskiej.",
-   "kraj": [
-    "litwa"
-   ],
-   "zweryfikowano": "2026-10-01",
-   "zrodla": [
-    {
-     "nazwa": "LRT",
-     "url": "https://www.lrt.lt/en/news-in-english/19/3068362/lithuanian-president-says-anti-muslim-incidents-may-be-orchestrated",
-     "data": "2026-09-30"
-    }
-   ]
-  },
-  {
-   "id": "mindaugas-sinkevicius",
-   "imie": "Mindaugas Sinkevičius",
-   "funkcja": "Premier Litwy.",
-   "kraj": [
-    "litwa"
-   ],
-   "zweryfikowano": "2026-10-01",
-   "zrodla": [
-    {
-     "nazwa": "NATO (konferencja prasowa z Markiem Rutte)",
-     "url": "https://www.nato.int/en/news-and-events/events/transcripts/2026/09/29/joint-press-conference-by-nato-secretary-general-mark-rutte-and-the-prime-minister-of-lithuania",
-     "data": "2026-09-29"
-    }
-   ]
-  },
-  {
-   "id": "kristen-michal",
-   "imie": "Kristen Michal",
-   "funkcja": "Premier Estonii.",
-   "kraj": [
-    "estonia"
-   ],
-   "zweryfikowano": "2026-10-01",
-   "zrodla": [
-    {
-     "nazwa": "Rząd Estonii (valitsus.ee)",
-     "url": "https://valitsus.ee/en",
-     "data": "2026-09-29"
-    }
-   ]
-  },
-  {
-   "id": "peter-pellegrini",
-   "imie": "Peter Pellegrini",
-   "funkcja": "Prezydent Republiki Słowackiej.",
-   "kraj": [
-    "slowacja"
-   ],
-   "zweryfikowano": "2026-10-01",
-   "zrodla": [
-    {
-     "nazwa": "TASR (za Teraz.sk)",
-     "url": "https://www.teraz.sk/slovensko/pellegrini-svet-je-v-ovela-horsej-sit/994234-clanok.html",
-     "data": "2026-09-22"
-    }
-   ]
-  },
-  {
-   "id": "siegfried-muresan",
-   "imie": "Siegfried Mureșan",
-   "funkcja": "Były premier-desygnat Rumunii: 30.09.2026 parlament odmówił mu wotum zaufania, 5.10.2026 prezydent desygnował w jego miejsce Lucę Niculescu.",
-   "kraj": [
-    "rumunia"
-   ],
-   "zweryfikowano": "2026-10-06",
-   "zrodla": [
-    {
-     "nazwa": "Reuters (za TimesLive)",
-     "url": "https://www.timeslive.co.za/news/world/2026-10-06-romanian-president-nominates-diplomat-luca-niculescu-as-pm/",
-     "data": "2026-10-06"
+      "id": "wladimir-putin",
+      "imie": "Władimir Putin",
+      "funkcja": "Prezydent Federacji Rosyjskiej.",
+      "kraj": [
+        "rosja"
+      ],
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-ballistic-missiles-rock-kyiv-in-late-night-attack-injuring-6/",
+          "data": "2026-10-22"
+        }
+      ]
     },
     {
-     "nazwa": "AP (za Washington Times)",
-     "url": "https://www.washingtontimes.com/news/2026/oct/5/romanias-president-nominates-fourth-prime-minister-designate-bid-end/",
-     "data": "2026-10-05"
-    }
-   ],
-   "historia": [
-    {
-     "funkcja": "Kandydat na premiera Rumunii (premier-desygnat); 30.09.2026 parlament odmówił mu wotum zaufania.",
-     "do": "2026-10-05"
-    }
-   ]
-  },
-  {
-   "id": "ilham-alijew",
-   "imie": "Ilham Alijew",
-   "funkcja": "Prezydent Republiki Azerbejdżanu.",
-   "kraj": [
-    "azerbejdzan"
-   ],
-   "zweryfikowano": "2026-10-01",
-   "zrodla": [
-    {
-     "nazwa": "Prezydent Azerbejdżanu (president.az)",
-     "url": "https://president.az/en/",
-     "data": "2026-09-30"
-    }
-   ]
-  },
-  {
-   "id": "xi-jinping",
-   "imie": "Xi Jinping",
-   "funkcja": "Prezydent Chińskiej Republiki Ludowej.",
-   "kraj": [
-    "chiny"
-   ],
-   "zweryfikowano": "2026-10-01",
-   "zrodla": [
-    {
-     "nazwa": "Biały Dom (fact sheet o wizycie państwowej)",
-     "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-advances-a-fair-and-reciprocal-relationship-with-china-while-hosting-historic-state-visit/",
-     "data": "2026-09-25"
-    }
-   ]
-  },
-  {
-   "id": "jamieson-greer",
-   "imie": "Jamieson Greer",
-   "funkcja": "Przedstawiciel Handlowy Stanów Zjednoczonych (USTR).",
-   "kraj": [
-    "usa"
-   ],
-   "zweryfikowano": "2026-10-01",
-   "zrodla": [
-    {
-     "nazwa": "USTR (komunikat)",
-     "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/september/ambassador-greer-delivers-opening-remarks-2026-g20-trade-ministerial",
-     "data": "2026-09-30"
-    }
-   ]
-  },
-  {
-   "id": "manuela-schwesig",
-   "imie": "Manuela Schwesig",
-   "funkcja": "Premierka Meklemburgii-Pomorza Przedniego (SPD).",
-   "kraj": [
-    "niemcy"
-   ],
-   "zweryfikowano": "2026-10-01",
-   "zrodla": [
-    {
-     "nazwa": "OSW (Germany: victory for Die Linke in Berlin and AfD in Mecklenburg-Western Pomerania)",
-     "url": "https://www.osw.waw.pl/en/publikacje/analyses/2026-09-21/germany-victory-die-linke-berlin-and-afd-mecklenburg-western",
-     "data": "2026-09-21"
-    }
-   ]
-  },
-  {
-   "id": "margus-tsahkna",
-   "imie": "Margus Tsahkna",
-   "funkcja": "Minister spraw zagranicznych Estonii.",
-   "kraj": [
-    "estonia"
-   ],
-   "zweryfikowano": "2026-10-01",
-   "zrodla": [
-    {
-     "nazwa": "ERR",
-     "url": "https://news.err.ee/1610153278/estonia-bans-grain-transit-from-russia-and-belarus",
-     "data": "2026-10-01"
-    }
-   ]
-  },
-  {
-   "id": "pal-jonson",
-   "imie": "Pål Jonson",
-   "funkcja": "Minister obrony Szwecji.",
-   "kraj": [
-    "nordyckie"
-   ],
-   "zweryfikowano": "2026-10-01",
-   "zrodla": [
-    {
-     "nazwa": "Rząd Szwecji",
-     "url": "https://www.regeringen.se/pressmeddelanden/2026/09/sverige-bidrar-med-stridsflyg-till-natoinsats-i-polen/",
-     "data": "2026-09-30"
-    }
-   ]
-  },
-  {
-   "id": "jared-kushner",
-   "imie": "Jared Kushner",
-   "funkcja": "Wysłannik prezydenta USA w rozmowach o zakończeniu wojny w Ukrainie (wraz ze Steve'em Witkoffem).",
-   "kraj": [
-    "usa"
-   ],
-   "zweryfikowano": "2026-10-02",
-   "zrodla": [
-    {
-     "nazwa": "Kyiv Independent",
-     "url": "https://kyivindependent.com/us-envoys-witkoff-kushner-arrive-in-ukraine/",
-     "data": "2026-09-06"
-    }
-   ]
-  },
-  {
-   "id": "jurij-uszakow",
-   "imie": "Jurij Uszakow",
-   "funkcja": "Doradca prezydenta Rosji ds. polityki zagranicznej.",
-   "kraj": [
-    "rosja"
-   ],
-   "zweryfikowano": "2026-10-22",
-   "zrodla": [
-    {
-     "nazwa": "Meduza",
-     "url": "https://meduza.io/en/feature/2026/10/22/u-s-russia-and-ukraine-discuss-resuming-trilateral-peace-talks-in-november-as-missile-and-drone-strikes-continue",
-     "data": "2026-10-22"
-    }
-   ]
-  },
-  {
-   "id": "dmitrij-pieskow",
-   "imie": "Dmitrij Pieskow",
-   "funkcja": "Rzecznik prasowy prezydenta Rosji (rzecznik Kremla).",
-   "kraj": [
-    "rosja"
-   ],
-   "zweryfikowano": "2026-10-22",
-   "zrodla": [
-    {
-     "nazwa": "Meduza",
-     "url": "https://meduza.io/en/feature/2026/10/22/u-s-russia-and-ukraine-discuss-resuming-trilateral-peace-talks-in-november-as-missile-and-drone-strikes-continue",
-     "data": "2026-10-22"
-    }
-   ]
-  },
-  {
-   "id": "john-coale",
-   "imie": "John Coale",
-   "funkcja": "Specjalny wysłannik prezydenta USA ds. Białorusi.",
-   "kraj": [
-    "usa"
-   ],
-   "zweryfikowano": "2026-10-02",
-   "zrodla": [
-    {
-     "nazwa": "RFE/RL",
-     "url": "https://www.rferl.org/a/belarus-us-prisoners-release-sanctions/33857455.html",
-     "data": "2026-09-16"
-    }
-   ]
-  },
-  {
-   "id": "maksim-ryzenkow",
-   "imie": "Maksim Ryżenkow",
-   "funkcja": "Minister spraw zagranicznych Białorusi.",
-   "kraj": [
-    "bialorus"
-   ],
-   "zweryfikowano": "2026-10-02",
-   "zrodla": [
-    {
-     "nazwa": "Kyiv Independent",
-     "url": "https://kyivindependent.com/polish-foreign-minister-meets-belarusian-counterpart-at-un-discusses-regional-security-2/",
-     "data": "2026-09-23"
-    }
-   ]
-  },
-  {
-   "id": "allison-hart",
-   "imie": "Allison Hart",
-   "funkcja": "Rzeczniczka NATO.",
-   "kraj": [
-    "nato"
-   ],
-   "zweryfikowano": "2026-10-02",
-   "zrodla": [
-    {
-     "nazwa": "AP (za CP24)",
-     "url": "https://www.cp24.com/news/world/2026/09/30/russia-warns-nato-of-a-possible-nuclear-response-if-kaliningrad-is-cut-off/",
-     "data": "2026-09-30"
-    }
-   ]
-  },
-  {
-   "id": "kiryl-dmitrijew",
-   "imie": "Kirył Dmitrijew",
-   "funkcja": "Specjalny wysłannik prezydenta Rosji, szef Rosyjskiego Funduszu Inwestycji Bezpośrednich.",
-   "kraj": [
-    "rosja"
-   ],
-   "zweryfikowano": "2026-10-02",
-   "zrodla": [
-    {
-     "nazwa": "Reuters (za Meduzą)",
-     "url": "https://meduza.io/en/news/2026/09/18/reuters-germany-s-afd-party-and-kremlin-envoy-prepare-for-talks-on-restarting-russian-gas-supplies",
-     "data": "2026-09-18"
+      "id": "emmanuel-macron",
+      "imie": "Emmanuel Macron",
+      "funkcja": "Prezydent Republiki Francuskiej.",
+      "kraj": [
+        "francja"
+      ],
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/22/macron-holds-emergency-security-meeting-as-france-braces-for-fresh-wave-of-protests",
+          "data": "2026-10-22"
+        }
+      ]
     },
     {
-     "nazwa": "ANSA",
-     "url": "https://www.ansa.it/sito/notizie/mondo/2026/09/29/afd-vuole-riaprire-dossier-nord-stream-previsto-forum-con-usa_a09e35a1-572f-4de7-9a04-799037eeca9e.html",
-     "data": "2026-09-29"
-    }
-   ],
-   "formy": [
-    "Kirył Dmitrijew",
-    "Kirył Dmitriew",
-    "Dmitrijew",
-    "Dmitriew",
-    "Dmitrijewa",
-    "Dmitriewa"
-   ]
-  },
-  {
-   "id": "markus-frohnmaier",
-   "imie": "Markus Frohnmaier",
-   "funkcja": "Wiceprzewodniczący klubu AfD w Bundestagu.",
-   "kraj": [
-    "niemcy"
-   ],
-   "zweryfikowano": "2026-10-02",
-   "zrodla": [
-    {
-     "nazwa": "ANSA",
-     "url": "https://www.ansa.it/sito/notizie/mondo/2026/09/29/afd-vuole-riaprire-dossier-nord-stream-previsto-forum-con-usa_a09e35a1-572f-4de7-9a04-799037eeca9e.html",
-     "data": "2026-09-29"
-    }
-   ]
-  },
-  {
-   "id": "tomas-taraba",
-   "imie": "Tomáš Taraba",
-   "funkcja": "Słowacki polityk; do 30.09.2026 wicepremier i minister środowiska (odwołany przez parlament 29.09 i prezydenta 30.09).",
-   "kraj": [
-    "slowacja"
-   ],
-   "zweryfikowano": "2026-10-02",
-   "zrodla": [
-    {
-     "nazwa": "TASR",
-     "url": "https://www.teraz.sk/slovensko/prezident-odvolal-z-funkcie-ministra-zi/996247-clanok.html",
-     "data": "2026-09-30"
-    }
-   ],
-   "historia": [
-    "Wicepremier i minister środowiska Słowacji do 30.09.2026."
-   ]
-  },
-  {
-   "id": "maciej-wewior",
-   "imie": "Maciej Wewiór",
-   "funkcja": "Rzecznik prasowy Ministerstwa Spraw Zagranicznych RP.",
-   "kraj": [
-    "dyplomacja-rp"
-   ],
-   "zweryfikowano": "2026-10-02",
-   "zrodla": [
-    {
-     "nazwa": "PAP (za WP)",
-     "url": "https://wiadomosci.wp.pl/rzecznik-msz-o-pismie-moskwy-cyniczna-proba-eskalacji-7335530154125632a",
-     "data": "2026-10-02"
-    }
-   ]
-  },
-  {
-   "id": "filip-kuffa",
-   "imie": "Filip Kuffa",
-   "funkcja": "Sekretarz stanu w Ministerstwie Środowiska Słowacji; jedyny kandydat SNS na ministra środowiska (stan na 2.10.2026, bez nominacji).",
-   "kraj": [
-    "slowacja"
-   ],
-   "zweryfikowano": "2026-10-02",
-   "zrodla": [
-    {
-     "nazwa": "TASR",
-     "url": "https://www.teraz.sk/slovensko/vlada-je-v-pondelok-pripravena-schval/996859-clanok.html",
-     "data": "2026-10-02"
-    }
-   ]
-  },
-  {
-   "id": "nicusor-dan",
-   "imie": "Nicușor Dan",
-   "funkcja": "Prezydent Rumunii.",
-   "kraj": [
-    "rumunia"
-   ],
-   "zweryfikowano": "2026-10-02",
-   "zrodla": [
-    {
-     "nazwa": "PISM",
-     "url": "https://www.pism.pl/publikacje/kolejna-odslona-kryzysu-politycznego-w-rumunii",
-     "data": "2026-10-01"
-    }
-   ]
-  },
-  {
-   "id": "witalij-kliczko",
-   "imie": "Witalij Kliczko",
-   "funkcja": "Mer Kijowa.",
-   "kraj": [
-    "ukraina"
-   ],
-   "zweryfikowano": "2026-10-04",
-   "zrodla": [
-    {
-     "nazwa": "Kyiv Independent",
-     "url": "https://kyivindependent.com/russia-targets-kyiv-bridges-for-fourth-consecutive-day-hits-northern-bridge/",
-     "data": "2026-10-04"
+      "id": "friedrich-merz",
+      "imie": "Friedrich Merz",
+      "funkcja": "Kanclerz Republiki Federalnej Niemiec (CDU).",
+      "kraj": [
+        "niemcy"
+      ],
+      "zweryfikowano": "2026-10-04",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (za Internazionale)",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/04/germany-s-merz-arrives-in-kyiv-to-finalize-drone-deal-release-aid",
+          "data": "2026-10-04"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/04/merz-makes-surprise-visit-to-kyiv-germany-pledges-further-aid-to-ukraine",
+          "data": "2026-10-04"
+        }
+      ]
     },
     {
-     "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/10/04/merz-makes-surprise-visit-to-kyiv-germany-pledges-further-aid-to-ukraine",
-     "data": "2026-10-04"
-    }
-   ]
-  },
-  {
-   "id": "maia-sandu",
-   "imie": "Maia Sandu",
-   "funkcja": "Prezydent Mołdawii.",
-   "kraj": [
-    "moldawia"
-   ],
-   "zweryfikowano": "2026-10-03",
-   "zrodla": [
-    {
-     "nazwa": "Kyiv Independent",
-     "url": "https://kyivindependent.com/5-russian-missiles-and-drones-exploded-over-moldovas-airspace-sandu-says/",
-     "data": "2026-10-03"
+      "id": "robert-fico",
+      "imie": "Robert Fico",
+      "funkcja": "Premier Słowacji (Smer-SD).",
+      "kraj": [
+        "slowacja"
+      ],
+      "zweryfikowano": "2026-10-01",
+      "zrodla": [
+        {
+          "nazwa": "TASR (za Teraz.sk)",
+          "url": "https://www.teraz.sk/slovensko/v-piatok-by-mala-rokovat-koalicna-rad/996439-clanok.html",
+          "data": "2026-10-01"
+        }
+      ]
     },
     {
-     "nazwa": "AP (za ABC News)",
-     "url": "https://abcnews.com/International/wireStory/russia-strikes-kyivs-northern-bridge-new-tactic-disrupt-136969028",
-     "data": "2026-10-03"
-    }
-   ]
-  },
-  {
-   "id": "magdalena-andersson",
-   "imie": "Magdalena Andersson",
-   "funkcja": "Przewodnicząca Socjaldemokratów (S) w Szwecji; od 5.10.2026 ponownie z misją zbadania możliwości utworzenia rządu.",
-   "kraj": [
-    "nordyckie"
-   ],
-   "zweryfikowano": "2026-10-03",
-   "zrodla": [
-    {
-     "nazwa": "Riksdag (komunikat)",
-     "url": "https://www.riksdagen.se/sv/aktuellt/aktuelltnotiser/2026/okt/2/talmannens-sonderingsuppdrag-till-magdalena_cms77150d24-8e8b-479f-9da0-8df5bf84b9b6sv/",
-     "data": "2026-10-02"
+      "id": "andrej-babis",
+      "imie": "Andrej Babiš",
+      "funkcja": "Premier Republiki Czeskiej.",
+      "kraj": [
+        "czechy"
+      ],
+      "zweryfikowano": "2026-10-01",
+      "zrodla": [
+        {
+          "nazwa": "Rząd Republiki Czeskiej (vlada.gov.cz)",
+          "url": "https://vlada.gov.cz/",
+          "data": "2026-09-30"
+        }
+      ]
     },
     {
-     "nazwa": "SVT",
-     "url": "https://www.svt.se/nyheter/inrikes/det-har-hander-nu-i-sonderingsprocessen",
-     "data": "2026-10-02"
-    }
-   ]
-  },
-  {
-   "id": "andreas-norlen",
-   "imie": "Andreas Norlén",
-   "funkcja": "Przewodniczący (talman) Riksdagu Szwecji.",
-   "kraj": [
-    "nordyckie"
-   ],
-   "zweryfikowano": "2026-10-03",
-   "zrodla": [
-    {
-     "nazwa": "Riksdag (komunikat)",
-     "url": "https://www.riksdagen.se/sv/aktuellt/aktuelltnotiser/2026/okt/2/talmannens-sonderingsuppdrag-till-magdalena_cms77150d24-8e8b-479f-9da0-8df5bf84b9b6sv/",
-     "data": "2026-10-02"
+      "id": "peter-magyar",
+      "imie": "Péter Magyar",
+      "funkcja": "Premier Węgier (lider partii Tisza).",
+      "kraj": [
+        "wegry"
+      ],
+      "zweryfikowano": "2026-10-01",
+      "zrodla": [
+        {
+          "nazwa": "AP (za WRAL)",
+          "url": "https://www.wral.com/news/ap/5e424-hungarys-parliament-suspends-immunity-for-prime-minister-magyar-and-two-orb-n-era-ministers/",
+          "data": "2026-09-28"
+        }
+      ]
     },
     {
-     "nazwa": "SVT",
-     "url": "https://www.svt.se/nyheter/inrikes/det-har-hander-nu-i-sonderingsprocessen",
-     "data": "2026-10-02"
-    }
-   ]
-  },
-  {
-   "id": "katherina-reiche",
-   "imie": "Katherina Reiche",
-   "funkcja": "Federalna minister gospodarki i energii Niemiec (CDU).",
-   "kraj": [
-    "niemcy"
-   ],
-   "zweryfikowano": "2026-10-04",
-   "zrodla": [
-    {
-     "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/10/04/merz-makes-surprise-visit-to-kyiv-germany-pledges-further-aid-to-ukraine",
-     "data": "2026-10-04"
+      "id": "radoslaw-sikorski",
+      "imie": "Radosław Sikorski",
+      "funkcja": "Wicepremier i minister spraw zagranicznych RP.",
+      "kraj": [
+        "dyplomacja-rp"
+      ],
+      "zweryfikowano": "2026-10-01",
+      "zrodla": [
+        {
+          "nazwa": "Ministerstwo Spraw Zagranicznych (gov.pl)",
+          "url": "https://www.gov.pl/web/dyplomacja",
+          "data": "2026-10-01"
+        }
+      ]
     },
     {
-     "nazwa": "Reuters (za Internazionale)",
-     "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/04/germany-s-merz-arrives-in-kyiv-to-finalize-drone-deal-release-aid",
-     "data": "2026-10-04"
-    }
-   ]
-  },
-  {
-   "id": "marco-rubio",
-   "imie": "Marco Rubio",
-   "funkcja": "Sekretarz stanu USA.",
-   "kraj": [
-    "usa"
-   ],
-   "zweryfikowano": "2026-10-22",
-   "zrodla": [
-    {
-     "nazwa": "Kyiv Independent",
-     "url": "https://kyivindependent.com/rubio-says-delays-in-us-air-defense-shipments-to-ukraine-not-deliberate/",
-     "data": "2026-10-20"
+      "id": "wladyslaw-kosiniak-kamysz",
+      "imie": "Władysław Kosiniak-Kamysz",
+      "funkcja": "Wicepremier i minister obrony narodowej RP.",
+      "kraj": [
+        "obronnosc-polski"
+      ],
+      "zweryfikowano": "2026-10-01",
+      "zrodla": [
+        {
+          "nazwa": "Polska Zbrojna (MON)",
+          "url": "https://polska-zbrojna.pl/home/articleshow/47316?title=Obrona-powietrzna-bedzie-strzelac-szybciej",
+          "data": "2026-09-30"
+        }
+      ]
     },
     {
-     "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/10/20/trump-envoy-witkoff-to-meet-zelenskyy-in-oslo-before-planned-putin-talks-in-moscow",
-     "data": "2026-10-20"
-    }
-   ]
-  },
-  {
-   "id": "kaja-kallas",
-   "imie": "Kaja Kallas",
-   "funkcja": "Wysoka przedstawiciel UE do spraw zagranicznych i polityki bezpieczeństwa, wiceprzewodnicząca Komisji Europejskiej; wcześniej premier Estonii.",
-   "kraj": [
-    "ue"
-   ],
-   "zweryfikowano": "2026-10-22",
-   "zrodla": [
-    {
-     "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/08/17/eu-to-propose-tougher-sanctions-on-russia-this-autumn-kaja-kallas-says",
-     "data": "2026-08-17"
+      "id": "cezary-tomczyk",
+      "imie": "Cezary Tomczyk",
+      "funkcja": "Wiceminister obrony narodowej RP.",
+      "kraj": [
+        "obronnosc-polski"
+      ],
+      "zweryfikowano": "2026-10-01",
+      "zrodla": [
+        {
+          "nazwa": "PAP (za Gość Niedzielny)",
+          "url": "https://www.gosc.pl/doc/9906121.MON-Zmieniamy-procedury-dotyczace-uzywania-sil-powietrznych",
+          "data": "2026-09-28"
+        }
+      ]
     },
     {
-     "nazwa": "Kyiv Independent",
-     "url": "https://kyivindependent.com/eu-votes-through-largest-ever-russia-sanctions-list/",
-     "data": "2026-10-12"
-    }
-   ]
-  },
-  {
-   "id": "andrij-sybiha",
-   "imie": "Andrij Sybiha",
-   "funkcja": "Minister spraw zagranicznych Ukrainy (ponownie powołany 19.08.2026).",
-   "kraj": [
-    "ukraina"
-   ],
-   "zweryfikowano": "2026-10-22",
-   "zrodla": [
-    {
-     "nazwa": "Rząd Ukrainy (kmu.gov.ua)",
-     "url": "https://www.kmu.gov.ua/en/profile/andrii-sybiha",
-     "data": "2026-10-22"
-    }
-   ]
-  },
-  {
-   "id": "alexus-grynkewich",
-   "imie": "Alexus Grynkewich",
-   "funkcja": "Generał Sił Powietrznych USA, naczelny dowódca sił sojuszniczych NATO w Europie (SACEUR) i dowódca Europejskiego Dowództwa USA (EUCOM).",
-   "kraj": [
-    "usa",
-    "nato"
-   ],
-   "zweryfikowano": "2026-10-22",
-   "zrodla": [
-    {
-     "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/10/12/nato-commander-unveils-strategy-to-make-any-attack-on-alliance-utterly-futile",
-     "data": "2026-10-12"
-    }
-   ]
-  },
-  {
-   "id": "sebastien-lecornu",
-   "imie": "Sébastien Lecornu",
-   "funkcja": "Premier Francji.",
-   "kraj": [
-    "francja"
-   ],
-   "zweryfikowano": "2026-10-22",
-   "zrodla": [
-    {
-     "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/10/19/french-pm-lecornu-calls-for-regional-authorities-to-impose-partial-curfews",
-     "data": "2026-10-19"
+      "id": "magdalena-sobkowiak-czarnecka",
+      "imie": "Magdalena Sobkowiak-Czarnecka",
+      "funkcja": "Sekretarz stanu w Ministerstwie Obrony Narodowej (wiceministra obrony).",
+      "kraj": [
+        "obronnosc-polski"
+      ],
+      "zweryfikowano": "2026-10-01",
+      "zrodla": [
+        {
+          "nazwa": "Ministerstwo Obrony Narodowej (gov.pl)",
+          "url": "https://www.gov.pl/web/national-defence/magdalena-sobkowiak-czarnecka-secretary-of-state",
+          "data": "2026-07-09"
+        }
+      ]
     },
     {
-     "nazwa": "France 24 (za AFP)",
-     "url": "https://www.france24.com/en/live-news/20261021-five-things-to-know-as-french-bond-yield-tops-5",
-     "data": "2026-10-21"
-    }
-   ]
-  },
-  {
-   "id": "gerald-darmanin",
-   "imie": "Gérald Darmanin",
-   "funkcja": "Minister sprawiedliwości Francji.",
-   "kraj": [
-    "francja"
-   ],
-   "zweryfikowano": "2026-10-22",
-   "zrodla": [
-    {
-     "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/10/20/france-vows-massive-security-operation-involving-military-forces-for-expected-weekend-prot",
-     "data": "2026-10-20"
+      "id": "karol-nawrocki",
+      "imie": "Karol Nawrocki",
+      "funkcja": "Prezydent Rzeczypospolitej Polskiej.",
+      "kraj": [
+        "dyplomacja-rp"
+      ],
+      "zweryfikowano": "2026-10-01",
+      "zrodla": [
+        {
+          "nazwa": "PAP (za Rzeczpospolitą)",
+          "url": "https://www.rp.pl/polityka/art45194991-putin-zaproszony-na-szczyt-g20-palac-prezydencki-nam-sie-to-nie-podoba",
+          "data": "2026-09-26"
+        }
+      ]
     },
     {
-     "nazwa": "France 24",
-     "url": "https://www.france24.com/en/europe/20261020-live-curfews-come-into-effect-around-france-to-combat-looting",
-     "data": "2026-10-20"
-    }
-   ]
-  },
-  {
-   "id": "michail-miszustin",
-   "imie": "Michaił Miszustin",
-   "funkcja": "Premier Rosji.",
-   "kraj": [
-    "rosja"
-   ],
-   "zweryfikowano": "2026-10-22",
-   "zrodla": [
-    {
-     "nazwa": "Meduza",
-     "url": "https://meduza.io/en/news/2026/10/19/russian-government-reshuffle-sees-finance-minister-and-three-other-officials-tapped-for-deputy-prime-minister-posts",
-     "data": "2026-10-19"
-    }
-   ]
-  },
-  {
-   "id": "andy-burnham",
-   "imie": "Andy Burnham",
-   "funkcja": "Premier Wielkiej Brytanii, lider Partii Pracy.",
-   "kraj": [
-    "wielka-brytania"
-   ],
-   "zweryfikowano": "2026-10-22",
-   "zrodla": [
-    {
-     "nazwa": "Kyiv Independent",
-     "url": "https://kyivindependent.com/zelensky-arrives-in-uk-as-london-vows-to-speed-up-anti-drone-missile-deliveries/",
-     "data": "2026-10-14"
-    }
-   ]
-  },
-  {
-   "id": "rumen-radew",
-   "imie": "Rumen Radew",
-   "funkcja": "Premier Bułgarii (od 8.05.2026); wcześniej prezydent Bułgarii.",
-   "kraj": [
-    "bulgaria"
-   ],
-   "zweryfikowano": "2026-10-22",
-   "zrodla": [
-    {
-     "nazwa": "Rząd Bułgarii (gov.bg)",
-     "url": "https://gov.bg/en/Cabinet/Prime-Minister/Rumen-Radev",
-     "data": "2026-10-22"
-    }
-   ],
-   "historia": [
-    "Prezydent Bułgarii (2017–2026)."
-   ],
-   "formy": [
-    "Rumen Radew",
-    "Rumen Radev",
-    "Radew",
-    "Radewa",
-    "Radev",
-    "Radeva"
-   ]
-  },
-  {
-   "id": "donald-tusk",
-   "imie": "Donald Tusk",
-   "funkcja": "Premier Polski.",
-   "kraj": [
-    "dyplomacja-rp"
-   ],
-   "zweryfikowano": "2026-10-22",
-   "zrodla": [
-    {
-     "nazwa": "Kyiv Independent",
-     "url": "https://kyivindependent.com/poland-to-demand-explanation-from-ukraine-over-drone-incident-in-lithuania/",
-     "data": "2026-10-20"
-    }
-   ],
-   "formy": [
-    "Donald Tusk",
-    "Donalda Tuska",
-    "Tusk",
-    "Tuska",
-    "Tuskiem",
-    "Tuskowi"
-   ]
-  },
-  {
-   "id": "marcin-kierwinski",
-   "imie": "Marcin Kierwiński",
-   "funkcja": "Minister spraw wewnętrznych i administracji RP.",
-   "kraj": [
-    "obronnosc-polski"
-   ],
-   "zweryfikowano": "2026-10-22",
-   "zrodla": [
-    {
-     "nazwa": "Rzeczpospolita",
-     "url": "https://www.rp.pl/polityka/art45322951-atak-na-starlink-w-polsce-dwie-osoby-zatrzymane-w-tle-obcy-wywiad",
-     "data": "2026-10-12"
-    }
-   ]
-  },
-  {
-   "id": "tomasz-siemoniak",
-   "imie": "Tomasz Siemoniak",
-   "funkcja": "Minister-koordynator służb specjalnych RP.",
-   "kraj": [
-    "obronnosc-polski"
-   ],
-   "zweryfikowano": "2026-10-22",
-   "zrodla": [
-    {
-     "nazwa": "Rzeczpospolita",
-     "url": "https://www.rp.pl/polityka/art45322951-atak-na-starlink-w-polsce-dwie-osoby-zatrzymane-w-tle-obcy-wywiad",
-     "data": "2026-10-12"
-    }
-   ]
-  },
-  {
-   "id": "leon-xiv",
-   "imie": "Leon XIV",
-   "funkcja": "Papież, zwierzchnik Kościoła katolickiego i głowa Państwa Watykańskiego.",
-   "kraj": [
-    "watykan"
-   ],
-   "zweryfikowano": "2026-10-22",
-   "zrodla": [
-    {
-     "nazwa": "Biuro Prasowe Stolicy Apostolskiej (Vatican News)",
-     "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-xiv-update.html",
-     "data": "2026-10-16"
-    }
-   ],
-   "formy": [
-    "Leon XIV",
-    "Leona XIV",
-    "Leonem XIV",
-    "Leonowi XIV"
-   ]
-  },
-  {
-   "id": "maros-sefcovic",
-   "imie": "Maroš Šefčovič",
-   "funkcja": "Komisarz UE ds. handlu.",
-   "kraj": [
-    "ue"
-   ],
-   "zweryfikowano": "2026-10-22",
-   "zrodla": [
-    {
-     "nazwa": "OSW",
-     "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-14/porozumienie-ke-i-chrl-ws-ograniczenia-importu-aut-hybrydowych-do-ue",
-     "data": "2026-10-14"
-    }
-   ]
-  },
-  {
-   "id": "alexander-stubb",
-   "imie": "Alexander Stubb",
-   "funkcja": "Prezydent Finlandii.",
-   "kraj": [
-    "nordyckie"
-   ],
-   "zweryfikowano": "2026-10-22",
-   "zrodla": [
-    {
-     "nazwa": "Kyiv Independent",
-     "url": "https://kyivindependent.com/zelensky-meets-trump-envoy-witkoff-in-norway-as-us-ukraine-ties-sour/",
-     "data": "2026-10-20"
+      "id": "marcin-przydacz",
+      "imie": "Marcin Przydacz",
+      "funkcja": "Szef Biura Polityki Międzynarodowej Kancelarii Prezydenta RP.",
+      "kraj": [
+        "dyplomacja-rp"
+      ],
+      "zweryfikowano": "2026-10-01",
+      "zrodla": [
+        {
+          "nazwa": "PAP (za Rzeczpospolitą)",
+          "url": "https://www.rp.pl/polityka/art45194991-putin-zaproszony-na-szczyt-g20-palac-prezydencki-nam-sie-to-nie-podoba",
+          "data": "2026-09-26"
+        }
+      ]
     },
     {
-     "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/10/20/trump-envoy-witkoff-to-meet-zelenskyy-in-oslo-before-planned-putin-talks-in-moscow",
-     "data": "2026-10-20"
-    }
-   ]
-  },
-  {
-   "id": "jonas-gahr-store",
-   "imie": "Jonas Gahr Støre",
-   "funkcja": "Premier Norwegii.",
-   "kraj": [
-    "nordyckie"
-   ],
-   "zweryfikowano": "2026-10-22",
-   "zrodla": [
-    {
-     "nazwa": "Kyiv Independent",
-     "url": "https://kyivindependent.com/zelensky-meets-trump-envoy-witkoff-in-norway-as-us-ukraine-ties-sour/",
-     "data": "2026-10-20"
+      "id": "mark-rutte",
+      "imie": "Mark Rutte",
+      "funkcja": "Sekretarz Generalny NATO.",
+      "kraj": [
+        "nato"
+      ],
+      "zweryfikowano": "2026-10-01",
+      "zrodla": [
+        {
+          "nazwa": "NATO (nato.int)",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/09/29/secretary-general-and-lithuanian-prime-minister-discuss-eastern-flank-defence-drones-and-support-for-ukraine",
+          "data": "2026-09-29"
+        }
+      ]
     },
     {
-     "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/10/20/trump-envoy-witkoff-to-meet-zelenskyy-in-oslo-before-planned-putin-talks-in-moscow",
-     "data": "2026-10-20"
-    }
-   ],
-   "formy": [
-    "Jonas Gahr Støre",
-    "Jonasa Gahra Støre",
-    "Gahr Støre",
-    "Støre"
-   ]
-  },
-  {
-   "id": "giorgia-meloni",
-   "imie": "Giorgia Meloni",
-   "funkcja": "Premier Włoch.",
-   "kraj": [
-    "wlochy"
-   ],
-   "zweryfikowano": "2026-10-22",
-   "zrodla": [
-    {
-     "nazwa": "France 24",
-     "url": "https://www.france24.com/en/europe/20261020-italy-announces-new-security-measures-after-milan-riots-deploying-500-soldiers",
-     "data": "2026-10-20"
+      "id": "ursula-von-der-leyen",
+      "imie": "Ursula von der Leyen",
+      "funkcja": "Przewodnicząca Komisji Europejskiej.",
+      "kraj": [
+        "ue"
+      ],
+      "zweryfikowano": "2026-10-01",
+      "zrodla": [
+        {
+          "nazwa": "Komisja Europejska (State of the Union 2026)",
+          "url": "https://commission.europa.eu/strategy-and-policy/state-union_en",
+          "data": "2026-09-16"
+        }
+      ],
+      "formy": [
+        "Ursula von der Leyen",
+        "Ursuli von der Leyen",
+        "Ursulą von der Leyen",
+        "von der Leyen"
+      ]
     },
     {
-     "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/10/21/italy-deploys-500-troops-to-milan-under-new-security-decree-following-violent-clashes",
-     "data": "2026-10-21"
-    }
-   ]
-  },
-  {
-   "id": "robertas-kaunas",
-   "imie": "Robertas Kaunas",
-   "funkcja": "Minister obrony Litwy.",
-   "kraj": [
-    "litwa"
-   ],
-   "zweryfikowano": "2026-10-22",
-   "zrodla": [
-    {
-     "nazwa": "LRT",
-     "url": "https://www.lrt.lt/en/news-in-english/19/3087132/lithuania-has-evidence-sunday-s-drone-crossed-from-poland-presidential-adviser-says",
-     "data": "2026-10-19"
+      "id": "antonio-costa",
+      "imie": "António Costa",
+      "funkcja": "Przewodniczący Rady Europejskiej.",
+      "kraj": [
+        "ue"
+      ],
+      "zweryfikowano": "2026-10-01",
+      "zrodla": [
+        {
+          "nazwa": "Rada UE (oświadczenie prasowe)",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/09/17/press-statement-by-president-costa-following-the-meeting-with-ireland-s-taoiseach-micheal-martin/",
+          "data": "2026-09-17"
+        }
+      ]
     },
     {
-     "nazwa": "Rzeczpospolita",
-     "url": "https://www.rp.pl/konflikty-zbrojne/art45355981-dron-wojskowy-eksplodowal-na-litwie-wilno-mamy-dane-ze-przylecial-z-polski",
-     "data": "2026-10-18"
-    }
-   ],
-   "formy": [
-    "Robertas Kaunas",
-    "Robertasa Kaunasa",
-    "Robertasem Kaunasem",
-    "Kaunasa",
-    "Kaunasem",
-    "Kaunasowi"
-   ]
-  },
-  {
-   "id": "edi-rama",
-   "imie": "Edi Rama",
-   "funkcja": "Premier Albanii.",
-   "kraj": [
-    "balkany"
-   ],
-   "zweryfikowano": "2026-10-22",
-   "zrodla": [
+      "id": "aleksandar-vucic",
+      "imie": "Aleksandar Vučić",
+      "funkcja": "Były prezydent Serbii (ustąpił 27.09.2026); lider Serbskiej Partii Postępowej (SNS), której lista przegrała przedterminowe wybory parlamentarne 25.10.2026; przyznał porażkę.",
+      "kraj": [
+        "balkany"
+      ],
+      "zweryfikowano": "2026-10-26",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won",
+          "data": "2026-10-25"
+        }
+      ],
+      "historia": [
+        "Prezydent Republiki Serbii do rezygnacji 27.09.2026."
+      ]
+    },
     {
-     "nazwa": "OSW",
-     "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-22/albania-eskalacja-protestow",
-     "data": "2026-10-22"
-    }
-   ]
-  },
-  {
-   "id": "walery-gerasimow",
-   "imie": "Walery Gierasimow",
-   "funkcja": "Szef Sztabu Generalnego Sił Zbrojnych Rosji.",
-   "kraj": [
-    "rosja"
-   ],
-   "zweryfikowano": "2026-10-23",
-   "zrodla": [
+      "id": "ana-brnabic",
+      "imie": "Ana Brnabić",
+      "funkcja": "Przewodnicząca Zgromadzenia Narodowego Serbii, od 27–28.09.2026 pełniąca obowiązki prezydenta Republiki.",
+      "kraj": [
+        "balkany"
+      ],
+      "zweryfikowano": "2026-10-01",
+      "zrodla": [
+        {
+          "nazwa": "Rząd Serbii (srbija.gov.rs)",
+          "url": "https://www.srbija.gov.rs/vest/en/288494/vucic-hands-over-duty-of-president-of-republic-to-national-assembly-speaker.php",
+          "data": "2026-09-28"
+        }
+      ]
+    },
     {
-     "nazwa": "Meduza",
-     "url": "https://meduza.io/en/news/2026/10/23/russia-announces-october-27-ceasefire-on-southern-ukraine-s-kherson-front-to-evacuate-residents-of-occupied-oleshky",
-     "data": "2026-10-23"
-    }
-   ],
-   "formy": [
-    "Gierasimowa"
-   ]
-  },
-  {
-   "id": "dmytro-lubinec",
-   "imie": "Dmytro Lubinec",
-   "funkcja": "Rzecznik praw obywatelskich Ukrainy (Rada Najwyższa).",
-   "kraj": [
-    "ukraina"
-   ],
-   "zweryfikowano": "2026-10-23",
-   "zrodla": [
+      "id": "mette-frederiksen",
+      "imie": "Mette Frederiksen",
+      "funkcja": "Premier Danii.",
+      "kraj": [
+        "nordyckie"
+      ],
+      "zweryfikowano": "2026-10-01",
+      "zrodla": [
+        {
+          "nazwa": "Biały Dom (komunikat o umowie)",
+          "url": "https://www.whitehouse.gov/releases/2026/09/president-trump-inks-historic-arctic-security-agreement/",
+          "data": "2026-09-22"
+        }
+      ]
+    },
     {
-     "nazwa": "Kyiv Independent",
-     "url": "https://kyivindependent.com/breaking-russia-ukraine-agree-to-oleshky-ceasefire-mediated-by-melania-trump-white-house-says/",
-     "data": "2026-10-23"
-    }
-   ],
-   "formy": [
-    "Lubinca"
-   ]
-  },
-  {
-   "id": "melania-trump",
-   "imie": "Melania Trump",
-   "funkcja": "Pierwsza dama Stanów Zjednoczonych.",
-   "kraj": [
-    "usa"
-   ],
-   "zweryfikowano": "2026-10-23",
-   "zrodla": [
+      "id": "jens-frederik-nielsen",
+      "imie": "Jens-Frederik Nielsen",
+      "funkcja": "Premier Grenlandii.",
+      "kraj": [
+        "nordyckie"
+      ],
+      "zweryfikowano": "2026-10-01",
+      "zrodla": [
+        {
+          "nazwa": "Biały Dom (komunikat o umowie)",
+          "url": "https://www.whitehouse.gov/releases/2026/09/president-trump-inks-historic-arctic-security-agreement/",
+          "data": "2026-09-22"
+        }
+      ]
+    },
     {
-     "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/10/23/melania-trump-secures-ceasefire-in-russian-occupied-ukrainian-city-of-oleshky-white-house-",
-     "data": "2026-10-23"
-    }
-   ],
-   "formy": [
-    "Melanii Trump"
-   ]
-  },
-  {
-   "id": "laurent-nunez",
-   "imie": "Laurent Nuñez",
-   "funkcja": "Minister spraw wewnętrznych Francji.",
-   "kraj": [
-    "francja"
-   ],
-   "zweryfikowano": "2026-10-25",
-   "zrodla": [
+      "id": "abbas-araghczi",
+      "imie": "Abbas Araghczi",
+      "funkcja": "Minister spraw zagranicznych Islamskiej Republiki Iranu.",
+      "kraj": [
+        "iran"
+      ],
+      "zweryfikowano": "2026-10-01",
+      "zrodla": [
+        {
+          "nazwa": "AP (za PBS NewsHour)",
+          "url": "https://www.pbs.org/newshour/world/mediators-still-working-on-u-s-iran-deal-after-trump-rejected-latest-tehran-proposal",
+          "data": "2026-09-28"
+        }
+      ]
+    },
     {
-     "nazwa": "France 24",
-     "url": "https://www.france24.com/en/france/20261025-at-least-1-300-people-arrested-in-mass-weekend-protests-across-france",
-     "data": "2026-10-25"
-    }
-   ],
-   "formy": [
-    "Nuñeza",
-    "Nuñez"
-   ]
-  },
-  {
-   "id": "luca-niculescu",
-   "imie": "Luca-Alexandru Niculescu",
-   "funkcja": "Premier Rumunii (rząd uzyskał wotum zaufania 20.10.2026).",
-   "kraj": [
-    "rumunia"
-   ],
-   "zweryfikowano": "2026-10-23",
-   "zrodla": [
+      "id": "masud-pezeszkian",
+      "imie": "Masud Pezeszkian",
+      "funkcja": "Prezydent Islamskiej Republiki Iranu.",
+      "kraj": [
+        "iran"
+      ],
+      "zweryfikowano": "2026-10-01",
+      "zrodla": [
+        {
+          "nazwa": "CBS News (Face the Nation, transkrypt)",
+          "url": "https://www.cbsnews.com/news/transcript-iranian-president-masoud-pezeshkian-face-the-nation-transcript-09-27-2026/",
+          "data": "2026-09-27"
+        }
+      ]
+    },
     {
-     "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/10/23/rescue-operation-in-the-black-sea-following-a-distress-signal-from-a-ship",
-     "data": "2026-10-23"
-    }
-   ],
-   "formy": [
-    "Niculescu"
-   ]
-  },
-  {
-   "id": "israel-katz",
-   "imie": "Israel Kac",
-   "funkcja": "Minister obrony Izraela.",
-   "kraj": [
-    "inne"
-   ],
-   "zweryfikowano": "2026-10-25",
-   "zrodla": [
+      "id": "steve-witkoff",
+      "imie": "Steve Witkoff",
+      "funkcja": "Specjalny wysłannik prezydenta USA.",
+      "kraj": [
+        "usa"
+      ],
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-ballistic-missiles-rock-kyiv-in-late-night-attack-injuring-6/",
+          "data": "2026-10-22"
+        }
+      ]
+    },
     {
-     "nazwa": "France 24",
-     "url": "https://www.france24.com/en/middle-east/20261024-israeli-forces-displace-1-200-palestinians-in-hebron-after-deadly-attack-on-soldiers",
-     "data": "2026-10-24"
+      "id": "siergiej-lawrow",
+      "imie": "Siergiej Ławrow",
+      "funkcja": "Minister spraw zagranicznych Federacji Rosyjskiej.",
+      "kraj": [
+        "rosja"
+      ],
+      "zweryfikowano": "2026-10-01",
+      "zrodla": [
+        {
+          "nazwa": "ONZ (UN News)",
+          "url": "https://news.un.org/en/story/2026/09/1168457",
+          "data": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "scott-bessent",
+      "imie": "Scott Bessent",
+      "funkcja": "Sekretarz skarbu Stanów Zjednoczonych.",
+      "kraj": [
+        "usa"
+      ],
+      "zweryfikowano": "2026-10-01",
+      "zrodla": [
+        {
+          "nazwa": "Departament Skarbu USA (komunikat)",
+          "url": "https://home.treasury.gov/news/press-releases/sb0638/",
+          "data": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "id": "andris-kulbergs",
+      "imie": "Andris Kulbergs",
+      "funkcja": "Premier Łotwy, lider Zjednoczonej Listy (AS).",
+      "kraj": [
+        "lotwa"
+      ],
+      "zweryfikowano": "2026-10-04",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (za Irish Times)",
+          "url": "https://www.irishtimes.com/world/europe/2026/10/04/latvian-pm-on-track-to-lead-pro-ukraine-coalition-after-election-win/",
+          "data": "2026-10-04"
+        },
+        {
+          "nazwa": "AP (za Euronews)",
+          "url": "https://www.euronews.com/2026/10/04/latvias-pro-european-ruling-party-wins-election-as-populists-gain-ground",
+          "data": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "id": "gitanas-nauseda",
+      "imie": "Gitanas Nausėda",
+      "funkcja": "Prezydent Republiki Litewskiej.",
+      "kraj": [
+        "litwa"
+      ],
+      "zweryfikowano": "2026-10-01",
+      "zrodla": [
+        {
+          "nazwa": "LRT",
+          "url": "https://www.lrt.lt/en/news-in-english/19/3068362/lithuanian-president-says-anti-muslim-incidents-may-be-orchestrated",
+          "data": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "id": "mindaugas-sinkevicius",
+      "imie": "Mindaugas Sinkevičius",
+      "funkcja": "Premier Litwy.",
+      "kraj": [
+        "litwa"
+      ],
+      "zweryfikowano": "2026-10-01",
+      "zrodla": [
+        {
+          "nazwa": "NATO (konferencja prasowa z Markiem Rutte)",
+          "url": "https://www.nato.int/en/news-and-events/events/transcripts/2026/09/29/joint-press-conference-by-nato-secretary-general-mark-rutte-and-the-prime-minister-of-lithuania",
+          "data": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "id": "kristen-michal",
+      "imie": "Kristen Michal",
+      "funkcja": "Premier Estonii.",
+      "kraj": [
+        "estonia"
+      ],
+      "zweryfikowano": "2026-10-01",
+      "zrodla": [
+        {
+          "nazwa": "Rząd Estonii (valitsus.ee)",
+          "url": "https://valitsus.ee/en",
+          "data": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "id": "peter-pellegrini",
+      "imie": "Peter Pellegrini",
+      "funkcja": "Prezydent Republiki Słowackiej.",
+      "kraj": [
+        "slowacja"
+      ],
+      "zweryfikowano": "2026-10-01",
+      "zrodla": [
+        {
+          "nazwa": "TASR (za Teraz.sk)",
+          "url": "https://www.teraz.sk/slovensko/pellegrini-svet-je-v-ovela-horsej-sit/994234-clanok.html",
+          "data": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "siegfried-muresan",
+      "imie": "Siegfried Mureșan",
+      "funkcja": "Były premier-desygnat Rumunii: 30.09.2026 parlament odmówił mu wotum zaufania, 5.10.2026 prezydent desygnował w jego miejsce Lucę Niculescu.",
+      "kraj": [
+        "rumunia"
+      ],
+      "zweryfikowano": "2026-10-06",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (za TimesLive)",
+          "url": "https://www.timeslive.co.za/news/world/2026-10-06-romanian-president-nominates-diplomat-luca-niculescu-as-pm/",
+          "data": "2026-10-06"
+        },
+        {
+          "nazwa": "AP (za Washington Times)",
+          "url": "https://www.washingtontimes.com/news/2026/oct/5/romanias-president-nominates-fourth-prime-minister-designate-bid-end/",
+          "data": "2026-10-05"
+        }
+      ],
+      "historia": [
+        {
+          "funkcja": "Kandydat na premiera Rumunii (premier-desygnat); 30.09.2026 parlament odmówił mu wotum zaufania.",
+          "do": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "id": "ilham-alijew",
+      "imie": "Ilham Alijew",
+      "funkcja": "Prezydent Republiki Azerbejdżanu.",
+      "kraj": [
+        "azerbejdzan"
+      ],
+      "zweryfikowano": "2026-10-01",
+      "zrodla": [
+        {
+          "nazwa": "Prezydent Azerbejdżanu (president.az)",
+          "url": "https://president.az/en/",
+          "data": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "id": "xi-jinping",
+      "imie": "Xi Jinping",
+      "funkcja": "Prezydent Chińskiej Republiki Ludowej.",
+      "kraj": [
+        "chiny"
+      ],
+      "zweryfikowano": "2026-10-01",
+      "zrodla": [
+        {
+          "nazwa": "Biały Dom (fact sheet o wizycie państwowej)",
+          "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-advances-a-fair-and-reciprocal-relationship-with-china-while-hosting-historic-state-visit/",
+          "data": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "jamieson-greer",
+      "imie": "Jamieson Greer",
+      "funkcja": "Przedstawiciel Handlowy Stanów Zjednoczonych (USTR).",
+      "kraj": [
+        "usa"
+      ],
+      "zweryfikowano": "2026-10-01",
+      "zrodla": [
+        {
+          "nazwa": "USTR (komunikat)",
+          "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/september/ambassador-greer-delivers-opening-remarks-2026-g20-trade-ministerial",
+          "data": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "id": "manuela-schwesig",
+      "imie": "Manuela Schwesig",
+      "funkcja": "Premierka Meklemburgii-Pomorza Przedniego (SPD).",
+      "kraj": [
+        "niemcy"
+      ],
+      "zweryfikowano": "2026-10-01",
+      "zrodla": [
+        {
+          "nazwa": "OSW (Germany: victory for Die Linke in Berlin and AfD in Mecklenburg-Western Pomerania)",
+          "url": "https://www.osw.waw.pl/en/publikacje/analyses/2026-09-21/germany-victory-die-linke-berlin-and-afd-mecklenburg-western",
+          "data": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "margus-tsahkna",
+      "imie": "Margus Tsahkna",
+      "funkcja": "Minister spraw zagranicznych Estonii.",
+      "kraj": [
+        "estonia"
+      ],
+      "zweryfikowano": "2026-10-01",
+      "zrodla": [
+        {
+          "nazwa": "ERR",
+          "url": "https://news.err.ee/1610153278/estonia-bans-grain-transit-from-russia-and-belarus",
+          "data": "2026-10-01"
+        }
+      ]
+    },
+    {
+      "id": "pal-jonson",
+      "imie": "Pål Jonson",
+      "funkcja": "Minister obrony Szwecji.",
+      "kraj": [
+        "nordyckie"
+      ],
+      "zweryfikowano": "2026-10-01",
+      "zrodla": [
+        {
+          "nazwa": "Rząd Szwecji",
+          "url": "https://www.regeringen.se/pressmeddelanden/2026/09/sverige-bidrar-med-stridsflyg-till-natoinsats-i-polen/",
+          "data": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "id": "jared-kushner",
+      "imie": "Jared Kushner",
+      "funkcja": "Wysłannik prezydenta USA w rozmowach o zakończeniu wojny w Ukrainie (wraz ze Steve'em Witkoffem).",
+      "kraj": [
+        "usa"
+      ],
+      "zweryfikowano": "2026-10-02",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/us-envoys-witkoff-kushner-arrive-in-ukraine/",
+          "data": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "jurij-uszakow",
+      "imie": "Jurij Uszakow",
+      "funkcja": "Doradca prezydenta Rosji ds. polityki zagranicznej.",
+      "kraj": [
+        "rosja"
+      ],
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/10/22/u-s-russia-and-ukraine-discuss-resuming-trilateral-peace-talks-in-november-as-missile-and-drone-strikes-continue",
+          "data": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "dmitrij-pieskow",
+      "imie": "Dmitrij Pieskow",
+      "funkcja": "Rzecznik prasowy prezydenta Rosji (rzecznik Kremla).",
+      "kraj": [
+        "rosja"
+      ],
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/10/22/u-s-russia-and-ukraine-discuss-resuming-trilateral-peace-talks-in-november-as-missile-and-drone-strikes-continue",
+          "data": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "john-coale",
+      "imie": "John Coale",
+      "funkcja": "Specjalny wysłannik prezydenta USA ds. Białorusi.",
+      "kraj": [
+        "usa"
+      ],
+      "zweryfikowano": "2026-10-02",
+      "zrodla": [
+        {
+          "nazwa": "RFE/RL",
+          "url": "https://www.rferl.org/a/belarus-us-prisoners-release-sanctions/33857455.html",
+          "data": "2026-09-16"
+        }
+      ]
+    },
+    {
+      "id": "maksim-ryzenkow",
+      "imie": "Maksim Ryżenkow",
+      "funkcja": "Minister spraw zagranicznych Białorusi.",
+      "kraj": [
+        "bialorus"
+      ],
+      "zweryfikowano": "2026-10-02",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/polish-foreign-minister-meets-belarusian-counterpart-at-un-discusses-regional-security-2/",
+          "data": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": "allison-hart",
+      "imie": "Allison Hart",
+      "funkcja": "Rzeczniczka NATO.",
+      "kraj": [
+        "nato"
+      ],
+      "zweryfikowano": "2026-10-02",
+      "zrodla": [
+        {
+          "nazwa": "AP (za CP24)",
+          "url": "https://www.cp24.com/news/world/2026/09/30/russia-warns-nato-of-a-possible-nuclear-response-if-kaliningrad-is-cut-off/",
+          "data": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "id": "kiryl-dmitrijew",
+      "imie": "Kirył Dmitrijew",
+      "funkcja": "Specjalny wysłannik prezydenta Rosji, szef Rosyjskiego Funduszu Inwestycji Bezpośrednich.",
+      "kraj": [
+        "rosja"
+      ],
+      "zweryfikowano": "2026-10-02",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (za Meduzą)",
+          "url": "https://meduza.io/en/news/2026/09/18/reuters-germany-s-afd-party-and-kremlin-envoy-prepare-for-talks-on-restarting-russian-gas-supplies",
+          "data": "2026-09-18"
+        },
+        {
+          "nazwa": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/09/29/afd-vuole-riaprire-dossier-nord-stream-previsto-forum-con-usa_a09e35a1-572f-4de7-9a04-799037eeca9e.html",
+          "data": "2026-09-29"
+        }
+      ],
+      "formy": [
+        "Kirył Dmitrijew",
+        "Kirył Dmitriew",
+        "Dmitrijew",
+        "Dmitriew",
+        "Dmitrijewa",
+        "Dmitriewa"
+      ]
+    },
+    {
+      "id": "markus-frohnmaier",
+      "imie": "Markus Frohnmaier",
+      "funkcja": "Wiceprzewodniczący klubu AfD w Bundestagu.",
+      "kraj": [
+        "niemcy"
+      ],
+      "zweryfikowano": "2026-10-02",
+      "zrodla": [
+        {
+          "nazwa": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/09/29/afd-vuole-riaprire-dossier-nord-stream-previsto-forum-con-usa_a09e35a1-572f-4de7-9a04-799037eeca9e.html",
+          "data": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "id": "tomas-taraba",
+      "imie": "Tomáš Taraba",
+      "funkcja": "Słowacki polityk; do 30.09.2026 wicepremier i minister środowiska (odwołany przez parlament 29.09 i prezydenta 30.09).",
+      "kraj": [
+        "slowacja"
+      ],
+      "zweryfikowano": "2026-10-02",
+      "zrodla": [
+        {
+          "nazwa": "TASR",
+          "url": "https://www.teraz.sk/slovensko/prezident-odvolal-z-funkcie-ministra-zi/996247-clanok.html",
+          "data": "2026-09-30"
+        }
+      ],
+      "historia": [
+        "Wicepremier i minister środowiska Słowacji do 30.09.2026."
+      ]
+    },
+    {
+      "id": "maciej-wewior",
+      "imie": "Maciej Wewiór",
+      "funkcja": "Rzecznik prasowy Ministerstwa Spraw Zagranicznych RP.",
+      "kraj": [
+        "dyplomacja-rp"
+      ],
+      "zweryfikowano": "2026-10-02",
+      "zrodla": [
+        {
+          "nazwa": "PAP (za WP)",
+          "url": "https://wiadomosci.wp.pl/rzecznik-msz-o-pismie-moskwy-cyniczna-proba-eskalacji-7335530154125632a",
+          "data": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "id": "filip-kuffa",
+      "imie": "Filip Kuffa",
+      "funkcja": "Sekretarz stanu w Ministerstwie Środowiska Słowacji; jedyny kandydat SNS na ministra środowiska (stan na 2.10.2026, bez nominacji).",
+      "kraj": [
+        "slowacja"
+      ],
+      "zweryfikowano": "2026-10-02",
+      "zrodla": [
+        {
+          "nazwa": "TASR",
+          "url": "https://www.teraz.sk/slovensko/vlada-je-v-pondelok-pripravena-schval/996859-clanok.html",
+          "data": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "id": "nicusor-dan",
+      "imie": "Nicușor Dan",
+      "funkcja": "Prezydent Rumunii.",
+      "kraj": [
+        "rumunia"
+      ],
+      "zweryfikowano": "2026-10-02",
+      "zrodla": [
+        {
+          "nazwa": "PISM",
+          "url": "https://www.pism.pl/publikacje/kolejna-odslona-kryzysu-politycznego-w-rumunii",
+          "data": "2026-10-01"
+        }
+      ]
+    },
+    {
+      "id": "witalij-kliczko",
+      "imie": "Witalij Kliczko",
+      "funkcja": "Mer Kijowa.",
+      "kraj": [
+        "ukraina"
+      ],
+      "zweryfikowano": "2026-10-04",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russia-targets-kyiv-bridges-for-fourth-consecutive-day-hits-northern-bridge/",
+          "data": "2026-10-04"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/04/merz-makes-surprise-visit-to-kyiv-germany-pledges-further-aid-to-ukraine",
+          "data": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "id": "maia-sandu",
+      "imie": "Maia Sandu",
+      "funkcja": "Prezydent Mołdawii.",
+      "kraj": [
+        "moldawia"
+      ],
+      "zweryfikowano": "2026-10-03",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/5-russian-missiles-and-drones-exploded-over-moldovas-airspace-sandu-says/",
+          "data": "2026-10-03"
+        },
+        {
+          "nazwa": "AP (za ABC News)",
+          "url": "https://abcnews.com/International/wireStory/russia-strikes-kyivs-northern-bridge-new-tactic-disrupt-136969028",
+          "data": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "id": "magdalena-andersson",
+      "imie": "Magdalena Andersson",
+      "funkcja": "Przewodnicząca Socjaldemokratów (S) w Szwecji; od 5.10.2026 ponownie z misją zbadania możliwości utworzenia rządu.",
+      "kraj": [
+        "nordyckie"
+      ],
+      "zweryfikowano": "2026-10-03",
+      "zrodla": [
+        {
+          "nazwa": "Riksdag (komunikat)",
+          "url": "https://www.riksdagen.se/sv/aktuellt/aktuelltnotiser/2026/okt/2/talmannens-sonderingsuppdrag-till-magdalena_cms77150d24-8e8b-479f-9da0-8df5bf84b9b6sv/",
+          "data": "2026-10-02"
+        },
+        {
+          "nazwa": "SVT",
+          "url": "https://www.svt.se/nyheter/inrikes/det-har-hander-nu-i-sonderingsprocessen",
+          "data": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "id": "andreas-norlen",
+      "imie": "Andreas Norlén",
+      "funkcja": "Przewodniczący (talman) Riksdagu Szwecji.",
+      "kraj": [
+        "nordyckie"
+      ],
+      "zweryfikowano": "2026-10-03",
+      "zrodla": [
+        {
+          "nazwa": "Riksdag (komunikat)",
+          "url": "https://www.riksdagen.se/sv/aktuellt/aktuelltnotiser/2026/okt/2/talmannens-sonderingsuppdrag-till-magdalena_cms77150d24-8e8b-479f-9da0-8df5bf84b9b6sv/",
+          "data": "2026-10-02"
+        },
+        {
+          "nazwa": "SVT",
+          "url": "https://www.svt.se/nyheter/inrikes/det-har-hander-nu-i-sonderingsprocessen",
+          "data": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "id": "katherina-reiche",
+      "imie": "Katherina Reiche",
+      "funkcja": "Federalna minister gospodarki i energii Niemiec (CDU).",
+      "kraj": [
+        "niemcy"
+      ],
+      "zweryfikowano": "2026-10-04",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/04/merz-makes-surprise-visit-to-kyiv-germany-pledges-further-aid-to-ukraine",
+          "data": "2026-10-04"
+        },
+        {
+          "nazwa": "Reuters (za Internazionale)",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/04/germany-s-merz-arrives-in-kyiv-to-finalize-drone-deal-release-aid",
+          "data": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "id": "marco-rubio",
+      "imie": "Marco Rubio",
+      "funkcja": "Sekretarz stanu USA.",
+      "kraj": [
+        "usa"
+      ],
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/rubio-says-delays-in-us-air-defense-shipments-to-ukraine-not-deliberate/",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/20/trump-envoy-witkoff-to-meet-zelenskyy-in-oslo-before-planned-putin-talks-in-moscow",
+          "data": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "kaja-kallas",
+      "imie": "Kaja Kallas",
+      "funkcja": "Wysoka przedstawiciel UE do spraw zagranicznych i polityki bezpieczeństwa, wiceprzewodnicząca Komisji Europejskiej; wcześniej premier Estonii.",
+      "kraj": [
+        "ue"
+      ],
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/08/17/eu-to-propose-tougher-sanctions-on-russia-this-autumn-kaja-kallas-says",
+          "data": "2026-08-17"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/eu-votes-through-largest-ever-russia-sanctions-list/",
+          "data": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "id": "andrij-sybiha",
+      "imie": "Andrij Sybiha",
+      "funkcja": "Minister spraw zagranicznych Ukrainy (ponownie powołany 19.08.2026).",
+      "kraj": [
+        "ukraina"
+      ],
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Rząd Ukrainy (kmu.gov.ua)",
+          "url": "https://www.kmu.gov.ua/en/profile/andrii-sybiha",
+          "data": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "alexus-grynkewich",
+      "imie": "Alexus Grynkewich",
+      "funkcja": "Generał Sił Powietrznych USA, naczelny dowódca sił sojuszniczych NATO w Europie (SACEUR) i dowódca Europejskiego Dowództwa USA (EUCOM).",
+      "kraj": [
+        "usa",
+        "nato"
+      ],
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/12/nato-commander-unveils-strategy-to-make-any-attack-on-alliance-utterly-futile",
+          "data": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "id": "sebastien-lecornu",
+      "imie": "Sébastien Lecornu",
+      "funkcja": "Premier Francji.",
+      "kraj": [
+        "francja"
+      ],
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/19/french-pm-lecornu-calls-for-regional-authorities-to-impose-partial-curfews",
+          "data": "2026-10-19"
+        },
+        {
+          "nazwa": "France 24 (za AFP)",
+          "url": "https://www.france24.com/en/live-news/20261021-five-things-to-know-as-french-bond-yield-tops-5",
+          "data": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "id": "gerald-darmanin",
+      "imie": "Gérald Darmanin",
+      "funkcja": "Minister sprawiedliwości Francji.",
+      "kraj": [
+        "francja"
+      ],
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/20/france-vows-massive-security-operation-involving-military-forces-for-expected-weekend-prot",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/europe/20261020-live-curfews-come-into-effect-around-france-to-combat-looting",
+          "data": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "michail-miszustin",
+      "imie": "Michaił Miszustin",
+      "funkcja": "Premier Rosji.",
+      "kraj": [
+        "rosja"
+      ],
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/10/19/russian-government-reshuffle-sees-finance-minister-and-three-other-officials-tapped-for-deputy-prime-minister-posts",
+          "data": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": "andy-burnham",
+      "imie": "Andy Burnham",
+      "funkcja": "Premier Wielkiej Brytanii, lider Partii Pracy.",
+      "kraj": [
+        "wielka-brytania"
+      ],
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-arrives-in-uk-as-london-vows-to-speed-up-anti-drone-missile-deliveries/",
+          "data": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": "rumen-radew",
+      "imie": "Rumen Radew",
+      "funkcja": "Premier Bułgarii (od 8.05.2026); wcześniej prezydent Bułgarii.",
+      "kraj": [
+        "bulgaria"
+      ],
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Rząd Bułgarii (gov.bg)",
+          "url": "https://gov.bg/en/Cabinet/Prime-Minister/Rumen-Radev",
+          "data": "2026-10-22"
+        }
+      ],
+      "historia": [
+        "Prezydent Bułgarii (2017–2026)."
+      ],
+      "formy": [
+        "Rumen Radew",
+        "Rumen Radev",
+        "Radew",
+        "Radewa",
+        "Radev",
+        "Radeva"
+      ]
+    },
+    {
+      "id": "donald-tusk",
+      "imie": "Donald Tusk",
+      "funkcja": "Premier Polski.",
+      "kraj": [
+        "dyplomacja-rp"
+      ],
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/poland-to-demand-explanation-from-ukraine-over-drone-incident-in-lithuania/",
+          "data": "2026-10-20"
+        }
+      ],
+      "formy": [
+        "Donald Tusk",
+        "Donalda Tuska",
+        "Tusk",
+        "Tuska",
+        "Tuskiem",
+        "Tuskowi"
+      ]
+    },
+    {
+      "id": "marcin-kierwinski",
+      "imie": "Marcin Kierwiński",
+      "funkcja": "Minister spraw wewnętrznych i administracji RP.",
+      "kraj": [
+        "obronnosc-polski"
+      ],
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Rzeczpospolita",
+          "url": "https://www.rp.pl/polityka/art45322951-atak-na-starlink-w-polsce-dwie-osoby-zatrzymane-w-tle-obcy-wywiad",
+          "data": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "id": "tomasz-siemoniak",
+      "imie": "Tomasz Siemoniak",
+      "funkcja": "Minister-koordynator służb specjalnych RP.",
+      "kraj": [
+        "obronnosc-polski"
+      ],
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Rzeczpospolita",
+          "url": "https://www.rp.pl/polityka/art45322951-atak-na-starlink-w-polsce-dwie-osoby-zatrzymane-w-tle-obcy-wywiad",
+          "data": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "id": "leon-xiv",
+      "imie": "Leon XIV",
+      "funkcja": "Papież, zwierzchnik Kościoła katolickiego i głowa Państwa Watykańskiego.",
+      "kraj": [
+        "watykan"
+      ],
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Biuro Prasowe Stolicy Apostolskiej (Vatican News)",
+          "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-xiv-update.html",
+          "data": "2026-10-16"
+        }
+      ],
+      "formy": [
+        "Leon XIV",
+        "Leona XIV",
+        "Leonem XIV",
+        "Leonowi XIV"
+      ]
+    },
+    {
+      "id": "maros-sefcovic",
+      "imie": "Maroš Šefčovič",
+      "funkcja": "Komisarz UE ds. handlu.",
+      "kraj": [
+        "ue"
+      ],
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-10-14/porozumienie-ke-i-chrl-ws-ograniczenia-importu-aut-hybrydowych-do-ue",
+          "data": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": "alexander-stubb",
+      "imie": "Alexander Stubb",
+      "funkcja": "Prezydent Finlandii.",
+      "kraj": [
+        "nordyckie"
+      ],
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-meets-trump-envoy-witkoff-in-norway-as-us-ukraine-ties-sour/",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/20/trump-envoy-witkoff-to-meet-zelenskyy-in-oslo-before-planned-putin-talks-in-moscow",
+          "data": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "jonas-gahr-store",
+      "imie": "Jonas Gahr Støre",
+      "funkcja": "Premier Norwegii.",
+      "kraj": [
+        "nordyckie"
+      ],
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-meets-trump-envoy-witkoff-in-norway-as-us-ukraine-ties-sour/",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/20/trump-envoy-witkoff-to-meet-zelenskyy-in-oslo-before-planned-putin-talks-in-moscow",
+          "data": "2026-10-20"
+        }
+      ],
+      "formy": [
+        "Jonas Gahr Støre",
+        "Jonasa Gahra Støre",
+        "Gahr Støre",
+        "Støre"
+      ]
+    },
+    {
+      "id": "giorgia-meloni",
+      "imie": "Giorgia Meloni",
+      "funkcja": "Premier Włoch.",
+      "kraj": [
+        "wlochy"
+      ],
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/europe/20261020-italy-announces-new-security-measures-after-milan-riots-deploying-500-soldiers",
+          "data": "2026-10-20"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/21/italy-deploys-500-troops-to-milan-under-new-security-decree-following-violent-clashes",
+          "data": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "id": "robertas-kaunas",
+      "imie": "Robertas Kaunas",
+      "funkcja": "Minister obrony Litwy.",
+      "kraj": [
+        "litwa"
+      ],
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "LRT",
+          "url": "https://www.lrt.lt/en/news-in-english/19/3087132/lithuania-has-evidence-sunday-s-drone-crossed-from-poland-presidential-adviser-says",
+          "data": "2026-10-19"
+        },
+        {
+          "nazwa": "Rzeczpospolita",
+          "url": "https://www.rp.pl/konflikty-zbrojne/art45355981-dron-wojskowy-eksplodowal-na-litwie-wilno-mamy-dane-ze-przylecial-z-polski",
+          "data": "2026-10-18"
+        }
+      ],
+      "formy": [
+        "Robertas Kaunas",
+        "Robertasa Kaunasa",
+        "Robertasem Kaunasem",
+        "Kaunasa",
+        "Kaunasem",
+        "Kaunasowi"
+      ]
+    },
+    {
+      "id": "edi-rama",
+      "imie": "Edi Rama",
+      "funkcja": "Premier Albanii.",
+      "kraj": [
+        "balkany"
+      ],
+      "zweryfikowano": "2026-10-22",
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-22/albania-eskalacja-protestow",
+          "data": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "walery-gerasimow",
+      "imie": "Walery Gierasimow",
+      "funkcja": "Szef Sztabu Generalnego Sił Zbrojnych Rosji.",
+      "kraj": [
+        "rosja"
+      ],
+      "zweryfikowano": "2026-10-23",
+      "zrodla": [
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/10/23/russia-announces-october-27-ceasefire-on-southern-ukraine-s-kherson-front-to-evacuate-residents-of-occupied-oleshky",
+          "data": "2026-10-23"
+        }
+      ],
+      "formy": [
+        "Gierasimowa"
+      ]
+    },
+    {
+      "id": "dmytro-lubinec",
+      "imie": "Dmytro Lubinec",
+      "funkcja": "Rzecznik praw obywatelskich Ukrainy (Rada Najwyższa).",
+      "kraj": [
+        "ukraina"
+      ],
+      "zweryfikowano": "2026-10-23",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/breaking-russia-ukraine-agree-to-oleshky-ceasefire-mediated-by-melania-trump-white-house-says/",
+          "data": "2026-10-23"
+        }
+      ],
+      "formy": [
+        "Lubinca"
+      ]
+    },
+    {
+      "id": "melania-trump",
+      "imie": "Melania Trump",
+      "funkcja": "Pierwsza dama Stanów Zjednoczonych.",
+      "kraj": [
+        "usa"
+      ],
+      "zweryfikowano": "2026-10-23",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/23/melania-trump-secures-ceasefire-in-russian-occupied-ukrainian-city-of-oleshky-white-house-",
+          "data": "2026-10-23"
+        }
+      ],
+      "formy": [
+        "Melanii Trump"
+      ]
+    },
+    {
+      "id": "laurent-nunez",
+      "imie": "Laurent Nuñez",
+      "funkcja": "Minister spraw wewnętrznych Francji.",
+      "kraj": [
+        "francja"
+      ],
+      "zweryfikowano": "2026-10-25",
+      "zrodla": [
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/france/20261025-at-least-1-300-people-arrested-in-mass-weekend-protests-across-france",
+          "data": "2026-10-25"
+        }
+      ],
+      "formy": [
+        "Nuñeza",
+        "Nuñez"
+      ]
+    },
+    {
+      "id": "luca-niculescu",
+      "imie": "Luca-Alexandru Niculescu",
+      "funkcja": "Premier Rumunii (rząd uzyskał wotum zaufania 20.10.2026).",
+      "kraj": [
+        "rumunia"
+      ],
+      "zweryfikowano": "2026-10-23",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/23/rescue-operation-in-the-black-sea-following-a-distress-signal-from-a-ship",
+          "data": "2026-10-23"
+        }
+      ],
+      "formy": [
+        "Niculescu"
+      ]
+    },
+    {
+      "id": "israel-katz",
+      "imie": "Israel Kac",
+      "funkcja": "Minister obrony Izraela.",
+      "kraj": [
+        "inne"
+      ],
+      "zweryfikowano": "2026-10-25",
+      "zrodla": [
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20261024-israeli-forces-displace-1-200-palestinians-in-hebron-after-deadly-attack-on-soldiers",
+          "data": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "lula",
+      "imie": "Luiz Inácio Lula da Silva",
+      "funkcja": "Prezydent-elekt Brazylii (zwycięzca II tury 25.10.2026); prezydent Brazylii w latach 2003–2010.",
+      "kraj": [
+        "ameryki"
+      ],
+      "zweryfikowano": "2026-10-26",
+      "zrodla": [
+        {
+          "nazwa": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
+          "data": "2026-10-26"
+        }
+      ],
+      "formy": [
+        "Lula",
+        "Luli",
+        "Lulę",
+        "Lulą",
+        "Lula da Silva",
+        "Lula da Silvy"
+      ]
+    },
+    {
+      "id": "flavio-bolsonaro",
+      "imie": "Flávio Bolsonaro",
+      "funkcja": "Senator, kandydat na prezydenta Brazylii; przegrał II turę 25.10.2026 i nie uznaje wyniku.",
+      "kraj": [
+        "ameryki"
+      ],
+      "zweryfikowano": "2026-10-26",
+      "zrodla": [
+        {
+          "nazwa": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
+          "data": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "iliana-jotowa",
+      "imie": "Iliana Jotowa",
+      "funkcja": "Prezydent Bułgarii (od 2026; wcześniej wiceprezydent); kandyduje w II turze wyborów prezydenckich 1.11.2026.",
+      "kraj": [
+        "bulgaria"
+      ],
+      "zweryfikowano": "2026-10-26",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/25/bulgaria-votes-for-president-in-election-dominated-by-ukraine-war-and-the-economy",
+          "data": "2026-10-25"
+        }
+      ],
+      "formy": [
+        "Iliana Jotowa",
+        "Iliana Yotova",
+        "Jotowa",
+        "Jotowej",
+        "Jotową",
+        "Yotova"
+      ]
+    },
+    {
+      "id": "andrej-giurow",
+      "imie": "Andrej Giurow",
+      "funkcja": "Ekonomista i bankier, były wiceprezes banku centralnego Bułgarii i premier rządu tymczasowego na początku 2026 r.; kandyduje w II turze wyborów prezydenckich 1.11.2026.",
+      "kraj": [
+        "bulgaria"
+      ],
+      "zweryfikowano": "2026-10-26",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/25/bulgaria-votes-for-president-in-election-dominated-by-ukraine-war-and-the-economy",
+          "data": "2026-10-25"
+        }
+      ],
+      "formy": [
+        "Andrej Giurow",
+        "Andrey Gyurov",
+        "Giurow",
+        "Giurowa",
+        "Giurowem",
+        "Gyurov"
+      ]
+    },
+    {
+      "id": "marta-kos",
+      "imie": "Marta Kos",
+      "funkcja": "Komisarz UE ds. rozszerzenia.",
+      "kraj": [
+        "ue",
+        "balkany"
+      ],
+      "zweryfikowano": "2026-10-26",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/26/eu-hails-serbias-political-upheaval-after-student-group-ends-vucics-rule",
+          "data": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "pete-hegseth",
+      "imie": "Pete Hegseth",
+      "funkcja": "Sekretarz obrony Stanów Zjednoczonych.",
+      "kraj": [
+        "usa"
+      ],
+      "zweryfikowano": "2026-10-26",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/us-holding-up-air-defense-missiles-for-ukraine-for-nearly-a-month-zelensky-says/",
+          "data": "2026-10-26"
+        }
+      ]
     }
-   ]
-  }
- ]
+  ]
 }

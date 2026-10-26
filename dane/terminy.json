@@ -736,6 +736,30 @@
         }
       ],
       "krotko": "EBC"
+    },
+    {
+      "id": "bulgaria-prezydent-ii-tura-2026",
+      "od": "2026-11-01",
+      "kategoria": "wybory",
+      "tagi": [
+        "bulgaria",
+        "wybory"
+      ],
+      "tekst": "Bułgaria: II tura wyborów prezydenckich – Iliana Jotowa kontra Andrej Giurow.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/25/bulgaria-votes-for-president-in-election-dominated-by-ukraine-war-and-the-economy",
+          "data": "2026-10-25"
+        },
+        {
+          "nazwa": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-25/bulgarian-president-set-to-win-first-round-of-election-poll",
+          "data": "2026-10-25"
+        }
+      ],
+      "krotko": "Bułgaria: II tura",
+      "obowiazkowy": false
     }
   ]
 }

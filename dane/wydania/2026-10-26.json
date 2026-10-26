@@ -1,0 +1,394 @@
+{
+  "nr": 38,
+  "data": "2026-10-26",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Lista Studencka wygrała 25.10 przedterminowe wybory parlamentarne w Serbii, a {{o:aleksandar-vucic|Aleksandar Vučić}} przyznał porażkę. Według jego danych z próby sondażowej Lista Studencka zdobędzie 135–140 ze 250 miejsc.",
+    "{{o:lula|Luiz Inácio Lula da Silva}} wygrał 25.10 drugą turę wyborów prezydenckich w Brazylii z wynikiem ok. 51,8 proc. głosów. {{o:flavio-bolsonaro|Flávio Bolsonaro}} nie uznaje wyniku i zapowiada skargę do sądu.",
+    "W Bułgarii do drugiej tury wyborów prezydenckich 1.11 mają przejść prezydent {{o:iliana-jotowa|Iliana Jotowa}} i {{o:andrej-giurow|Andrej Giurow}}. Według sondażu exit poll Jotowa miała 35–36,5 proc. głosów, a Giurow ok. 32 proc.",
+    "{{o:wolodymyr-zelenski|Wołodymyr Zełenski}} oświadczył 26.10, że Ukraina czeka prawie miesiąc na zgodę sekretarza obrony USA na pociski do systemów Patriot i NASAMS."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-10-26",
+      "tagi": [
+        "ukraina",
+        "usa",
+        "nato",
+        "uzbrojenie"
+      ],
+      "krotko": "Zełenski: Ukraina czeka na zgodę USA na pociski do Patriotów",
+      "etap": null,
+      "tekst": "Prezydent Ukrainy {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} oświadczył 26.10, że Ukraina czeka prawie miesiąc, aż sekretarz obrony USA {{o:pete-hegseth|Pete Hegseth}} zatwierdzi **pociski do systemów Patriot i NASAMS**. Według Euronews dostawy pocisków do Patriotów zatwierdziły już państwa europejskie; część trafia do Ukrainy przez inicjatywę NATO {{p:purl|PURL}}, w której sojusznicy kupują amerykańską broń dla Ukrainy. Zełenski polecił zespołowi ponownie poruszyć sprawę wobec strony amerykańskiej.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/us-holding-up-air-defense-missiles-for-ukraine-for-nearly-a-month-zelensky-says/",
+          "data": "2026-10-26"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/26/zelenskyy-calls-out-monthlong-wait-for-hegseth-to-sign-off-on-patriot-missiles",
+          "data": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "instytucje",
+      "data": "2026-10-25",
+      "tagi": [
+        "balkany",
+        "wybory",
+        "ue"
+      ],
+      "miejsce": "belgrad",
+      "krotko": "Serbia: Lista Studencka wygrywa, Vučić przyznaje porażkę",
+      "etap": null,
+      "tekst": "W przedterminowych wyborach parlamentarnych w Serbii 25.10 wygrała Lista Studencka, wyrosła z protestów studenckich. {{o:aleksandar-vucic|Aleksandar Vučić}} przyznał porażkę swojej listy; według niego, na podstawie próby sondażowej, Lista Studencka zdobędzie 135–140 ze 250 miejsc w parlamencie, a jego lista ok. 105 (dane wstępne). {{o:antonio-costa|António Costa}}, przewodniczący Rady Europejskiej, i {{o:ursula-von-der-leyen|Ursula von der Leyen}}, przewodnicząca Komisji Europejskiej, zapowiedzieli wsparcie dla reform, a komisarz UE ds. rozszerzenia {{o:marta-kos|Marta Kos}} napisała, że „drzwi do UE są otwarte”.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won",
+          "data": "2026-10-25"
+        },
+        {
+          "nazwa": "CNN",
+          "url": "https://www.cnn.com/2026/10/25/europe/serbian-strongman-vucic-concedes-defeat-to-student-led-movement-intl-latam",
+          "data": "2026-10-25"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/26/eu-hails-serbias-political-upheaval-after-student-group-ends-vucics-rule",
+          "data": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "swiat",
+      "data": "2026-10-25",
+      "tagi": [
+        "ameryki",
+        "wybory"
+      ],
+      "miejsce": "brasilia",
+      "krotko": "Brazylia: Lula wygrywa II turę wyborów",
+      "etap": null,
+      "tekst": "{{o:lula|Luiz Inácio Lula da Silva}} wygrał 25.10 drugą turę wyborów prezydenckich w Brazylii, zdobywając ok. **51,8 proc. głosów** wobec ok. 48,2 proc. dla {{o:flavio-bolsonaro|Flávia Bolsonaro}}; to czwarta kadencja Luli. Flávio Bolsonaro nie uznaje wyniku i zapowiada skargę do sądu, powołując się na orzeczenie Sądu Najwyższego, które przedłużyło głosowanie o dwie godziny.",
+      "zrodla": [
+        {
+          "nazwa": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
+          "data": "2026-10-26"
+        },
+        {
+          "nazwa": "NPR",
+          "url": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election",
+          "data": "2026-10-25"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/26/lula-wins-brazil-election-after-cutting-amazon-deforestation-to-record-low",
+          "data": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "instytucje",
+      "data": "2026-10-25",
+      "tagi": [
+        "bulgaria",
+        "wybory"
+      ],
+      "miejsce": "sofia",
+      "krotko": "Bułgaria: Jotowa i Giurow w II turze wyborów prezydenckich",
+      "etap": null,
+      "tekst": "W pierwszej turze wyborów prezydenckich w Bułgarii 25.10 według sondażu exit poll, cytowanego przez Euronews, prowadziła urzędująca prezydent {{o:iliana-jotowa|Iliana Jotowa}} (35–36,5 proc.), a drugi był {{o:andrej-giurow|Andrej Giurow}}, były premier rządu tymczasowego (ok. 32 proc.). Mają się zmierzyć w drugiej turze 1.11. Jotowę popiera partia Postępowa Bułgaria premiera {{o:rumen-radew|Rumena Radewa}}, a Giurowa prozachodnie partie opozycyjne.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/25/bulgaria-votes-for-president-in-election-dominated-by-ukraine-war-and-the-economy",
+          "data": "2026-10-25"
+        },
+        {
+          "nazwa": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-25/bulgarian-president-set-to-win-first-round-of-election-poll",
+          "data": "2026-10-25"
+        }
+      ]
+    }
+  ],
+  "analizy": [],
+  "kalendarz": [
+    {
+      "data": "2026-10-27",
+      "tekst": "27.10: Izrael – wybory do Knesetu.",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-27",
+      "tekst": "27.10: Ukraina – według rosyjskiego Sztabu Generalnego rozejm w Oleszkach od godz. 4:00 (według Białego Domu od 29.10).",
+      "tagi": [
+        "ukraina",
+        "rozejm"
+      ]
+    },
+    {
+      "data": "2026-10-28",
+      "tekst": "28.10: Fed – decyzja FOMC (posiedzenie 27–28.10).",
+      "tagi": [
+        "usa"
+      ]
+    },
+    {
+      "data": "2026-10-29",
+      "tekst": "29.10: EBC – decyzja Rady Prezesów (posiedzenie 28–29.10).",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-10-29",
+      "tekst": "29–30.10: szczyt UE–Kanada w Montrealu.",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-01",
+      "tekst": "1.11: OPEC+ – spotkanie siedmiu państw w sprawie limitów wydobycia na grudzień.",
+      "tagi": [
+        "energia"
+      ]
+    },
+    {
+      "data": "2026-11-01",
+      "tekst": "1.11: Bułgaria – II tura wyborów prezydenckich (Iliana Jotowa kontra Andrej Giurow).",
+      "tagi": [
+        "bulgaria",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-11-03",
+      "tekst": "3.11: USA – wybory połowy kadencji (cała Izba Reprezentantów, jedna trzecia Senatu, część gubernatorów).",
+      "tagi": [
+        "usa",
+        "wybory"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-11-12",
+      "tekst": "Europejska Wspólnota Polityczna w Irlandii (12.11), 13.11 nieformalne spotkanie przywódców UE",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [],
+    "pism": [],
+    "nieodczytane": [
+      "osw",
+      "pism"
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "tekst": "Wizyta Zełenskiego w Brukseli: według Euronews (26.10) doradca prezydenta Ukrainy Dmytro Łytwyn powiedział, że Kijów nie może potwierdzić wizyty z powodu zmiany planów strony amerykańskiej; Zełenski mówił 25.10 o spotkaniu z udziałem USA, UE i NATO 27 lub 28.10. Komisja Europejska podała, że nie ma więcej informacji. Brak komunikatu Komisji, NATO i Białego Domu.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Euronews (artykuł, 26.10)",
+        "Kyiv Independent (kanał, 26.10: analiza o wizycie, nieotwarta)",
+        "Komisja Europejska – wypowiedź rzecznika cytowana przez Euronews, bez własnego komunikatu"
+      ]
+    },
+    {
+      "id": "n2",
+      "tekst": "Ropa i Iran: według Euronews (26.10) ropa Brent spadła o ponad 6 proc., do ok. 110 USD, po doniesieniach o rozmowach dyplomatycznych w sprawie Iranu; mediatorzy z Kataru mieli przybyć do Teheranu, a w poniedziałek mieli tam przyjechać szef MON Arabii Saudyjskiej, dowódca armii Pakistanu i szef wywiadu Turcji. Brak komunikatów Białego Domu, MSZ Iranu i rządów mediatorów.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Euronews (artykuł, 26.10)",
+        "wyszukiwarka EN (26.10): brak doniesień o wizytach w Teheranie",
+        "kanał Polsat News (26.10): brak pozycji o rozmowach"
+      ]
+    },
+    {
+      "id": "n3",
+      "tekst": "Orbán i ONZ: według Euronews (26.10, za Wall Street Journal) urzędnicy administracji USA popierają kandydaturę Viktora Orbána na sekretarza generalnego ONZ. Nie otwarto tekstu Wall Street Journal ani komunikatu administracji USA.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Euronews (nagłówek, 26.10)",
+        "Polsat News (nagłówek, 26.10)",
+        "wyszukiwarka EN (26.10): brak tekstu WSJ; wcześniejsze doniesienia z czerwca (Vsquare), które rzecznik Fideszu nazwał fałszywymi"
+      ]
+    },
+    {
+      "id": "n4",
+      "tekst": "Albania: według Polsat News (25.10, poziom 3) w Tiranie doszło do zamieszek, a premier Edi Rama zagroził protestującym. Wyszukiwarka zwraca relacje do 18.10 (Al Jazeera: 167 aresztowanych, 132 rannych policjantów; Komisja Europejska potępiła przemoc). Brak relacji z 25.10 ze źródeł z poziomów 1–2.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Polsat News (nagłówek, 25.10)",
+        "Al Jazeera (17–18.10, poziom 3)",
+        "wyszukiwarka EN (26.10): brak doniesień z 25.10"
+      ]
+    },
+    {
+      "id": "n5",
+      "tekst": "Czechy: według Polsat News (25.10, poziom 3) w manifestacji w Czechach wzięły udział dziesiątki tysięcy osób. Wyszukiwarka zwraca relacje o demonstracjach przeciw rządowi Andreja Babiša z marca i kwietnia; brak relacji o manifestacji z 25.10 ze źródeł z poziomów 1–2.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Polsat News (nagłówek, 25.10)",
+        "wyszukiwarka EN (26.10): AP z 21.03 o wcześniejszej manifestacji",
+        "kanał Euronews (26.10): brak pozycji"
+      ]
+    },
+    {
+      "id": "n6",
+      "tekst": "Algieria i Niger: według Euronews (26.10) Algieria zatwierdziła rozmieszczenie wojsk w Nigrze. Wyszukiwarka zwraca komunikat ministerstwa obrony Algierii z 30.08 o wysłaniu dwóch patroli myśliwców na prośbę Nigru, bez wzmianki o głosowaniu. Nie otwarto artykułu ani komunikatu o decyzji.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Euronews (nagłówek, 26.10)",
+        "APS (komunikat o myśliwcach, 30.08, w wynikach wyszukiwarki)",
+        "wyszukiwarka EN (26.10): brak doniesień o głosowaniu"
+      ]
+    },
+    {
+      "id": "n7",
+      "tekst": "Izrael: wojsko miało zamknąć 27.10 przejścia z Zachodnim Brzegiem (Euronews, 25.10). Wyszukiwarka nie zwróciła komunikatu armii ani nowych komunikatów w sprawie Hebronu.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Euronews (nagłówki, 26.10)",
+        "wyszukiwarka EN (26.10): tylko komunikaty z 2022 r.",
+        "kanał Polsat News (26.10): brak pozycji o Hebronie"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-10-25#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Euronews (26.10): Zełenski mówi o pierwszej połowie listopada, Abu Zabi niepotwierdzone",
+        "Kyiv Independent (kanał, 26.10)",
+        "wyszukiwarka PL (26.10): brak komunikatu Kremla"
+      ],
+      "powod": "Termin i miejsce rozmów trójstronnych nie są potwierdzone przez Kreml ani drugie źródło z poziomów 1–2."
+    },
+    {
+      "dotyczy": "2026-10-25#n2",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kyiv Independent (kanał, 26.10: analizy o Starlinku)",
+        "Euronews (kanał, 26.10): brak pozycji",
+        "wyszukiwarka (26.10): brak komunikatu Pentagonu i SpaceX"
+      ],
+      "powod": "Brak komunikatu Pentagonu, SpaceX lub Białego Domu."
+    },
+    {
+      "dotyczy": "2026-10-25#n3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Euronews (26.10): ropa rośnie po atakach Huti na saudyjskie lotniska i obiekty energetyczne – bez komunikatu koalicji",
+        "kanał Kyiv Independent i Polsat News (26.10): brak pozycji",
+        "wyszukiwarka EN (26.10): brak komunikatu koalicji"
+      ],
+      "powod": "Brak komunikatu koalicji pod wodzą Arabii Saudyjskiej i drugiego źródła z poziomów 1–2 o skutkach ataków."
+    },
+    {
+      "dotyczy": "2026-10-25#n4",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Polsat News (25.10, poziom 3): powrót Machado, reakcja Trumpa",
+        "kanał Euronews (26.10): brak pozycji",
+        "kanał Kyiv Independent (26.10): brak pozycji"
+      ],
+      "powod": "Nie znaleziono drugiego źródła z poziomów 1–2 ani komunikatu rządu Wenezueli."
+    },
+    {
+      "dotyczy": "2026-10-25#n5",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Polsat News (26.10, poziom 3): ostrzeżenie Macrona przed kolejnymi protestami",
+        "kanał Euronews (26.10): brak pozycji",
+        "wyszukiwarka (26.10): brak komunikatów MSW Francji, Włoch, Hiszpanii i Portugalii"
+      ],
+      "powod": "Brak komunikatów resortów i drugiego źródła z poziomów 1–2."
+    },
+    {
+      "dotyczy": "2026-10-25#n6",
+      "wynik": "UZUPEŁNIONE",
+      "pozycja": "z3"
+    },
+    {
+      "dotyczy": "2026-10-25#n7",
+      "wynik": "UZUPEŁNIONE",
+      "pozycja": "z4"
+    },
+    {
+      "dotyczy": "2026-10-25#n8",
+      "wynik": "UZUPEŁNIONE",
+      "pozycja": "z2"
+    },
+    {
+      "dotyczy": "2026-10-25#n9",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Euronews (26.10): Trump w Fox News – „układ albo dobicie”, bez zapowiedzi uderzenia",
+        "wyszukiwarka EN (26.10): brak komunikatu Białego Domu",
+        "kanał Polsat News (26.10): brak pozycji"
+      ],
+      "powod": "Nie znaleziono komunikatu Białego Domu ani drugiego źródła z poziomów 1–2 o wypowiedzi Donalda Trumpa o braku uderzenia."
+    },
+    {
+      "dotyczy": "2026-10-25#n10",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "wyszukiwarka EN (26.10): rzecznik rządu Niemiec Stefan Kornelius o udziale w jesiennych ćwiczeniach (doniesienie bez daty komunikatu)",
+        "wyszukiwarka EN (26.10): MON – głównymi uczestnikami Francja i Wielka Brytania",
+        "kanał Polsat News (25.10)"
+      ],
+      "powod": "Forma i termin udziału Niemiec nie są potwierdzone komunikatem rządu Niemiec ani MON z ostatnich dni."
+    },
+    {
+      "dotyczy": "2026-10-25#n11",
+      "wynik": "ODPADA",
+      "powod": "Wypowiedź premiera Andy'ego Burnhama o powrocie do UE „za mojego życia” padła już 1.10 i nie niesie decyzji ani nowego etapu; powtórzona 26.10 w przekazie Polsat News."
+    }
+  ],
+  "do_sprawdzenia": [
+    "Serbia – oficjalne wyniki wyborów (RIK) i skład parlamentu; Brazylia – skarga Flávia Bolsonaro, TSE; Bułgaria – oficjalne wyniki I tury (CIK), II tura 1.11",
+    "Izrael 27.10 – wybory do Knesetu, komunikat armii o przejściach; Hebron i protesty w Europie – komunikaty MSW",
+    "Patrioty i NASAMS – komunikat Pentagonu; wizyta Zełenskiego w Brukseli i termin rozmów trójstronnych – Komisja Europejska, Kreml, Biały Dom",
+    "OSW i PISM – publikacje z 24–26.10 (strony niedostępne); PAP Kraj, DO RSZ, MON, SG, ŻW, Agencja Uzbrojenia – incydenty i kontrakty",
+    "Iran i ropa – komunikaty Białego Domu i mediatorów; Fed 28.10, EBC 29.10; Orbán i ONZ – WSJ, komunikat administracji USA"
+  ],
+  "nota": "Wydanie z 26.10, przygotowane ok. 19:00–20:00 (Europe/Warsaw), mniejsze niż zwykle: cztery pozycje i brak analiz. Dział Świat Onetu nie był otwierany (zablokowany); przegląd wyszukiwarką nie zwrócił nagłówków działu – z Onetu nie trafił do wydania żaden temat. Kanał Polsat News Świat otwarto (najnowszy wpis 26.10, 18:48); z kanału do wydania lub do wpisów w obserwacji trafiły tematy z3, z4 oraz n3–n5, n7; część tematów kanału (m.in. autokar w Hiszpanii, program „Forteca” w bazach USA, Norwegia, ostrzeżenie Macrona) nie została udokumentowana. TVN24 (kanał zapasowy) nie był próbowany. Kanały Euronews (najnowszy wpis 26.10, 18:19) i Kyiv Independent (26.10, 16:24) otwarto; kanału Meduzy nie otwierano. Reuters, AP i PAP nie były przeglądane bezpośrednio; przedruków Reutersa nie wykorzystano. OSW: strona publikacji wymaga weryfikacji przeglądarki (captcha), wersja angielska tak samo; PISM: pism.pl/publikacje zwróciło pustą stronę, a pism.pl/en/publications błąd 404; wyszukiwarka nie wskazała tekstów z 24–26.10. Obie listy oznaczono jako nieodczytane, więc brak analiz w wydaniu nie oznacza braku publikacji. Incydenty w Polsce i polski przemysł zbrojeniowy: dwa zapytania wyszukiwarki nie zwróciły komunikatów DO RSZ, MON, SG, ŻW, prokuratury ani Agencji Uzbrojenia z 25–26.10. W z2 liczby miejsc podano za Vučiciem (dane z próby sondażowej, wstępne); w z3 wynik podano za CNBC i Euronews (ok. 51,8 proc.; NPR zwrócił błąd 503 przy kontroli); w z4 wyniki są z sondażu exit poll, oficjalnych danych komisji wyborczej nie otwarto. Rozstrzygnięcia z 25.10: trzy UZUPEŁNIONE (Brazylia, Bułgaria, Serbia), siedem NIE DO POTWIERDZENIA, jedno ODPADA."
+}

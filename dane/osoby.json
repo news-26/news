@@ -40,12 +40,12 @@
       "kraj": [
         "rosja"
       ],
-      "zweryfikowano": "2026-10-22",
+      "zweryfikowano": "2026-10-27",
       "zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/russian-ballistic-missiles-rock-kyiv-in-late-night-attack-injuring-6/",
-          "data": "2026-10-22"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/27/putin-call-pits-finland-and-norway-against-denmark-and-sweden",
+          "data": "2026-10-27"
         }
       ]
     },
@@ -157,12 +157,12 @@
       "kraj": [
         "obronnosc-polski"
       ],
-      "zweryfikowano": "2026-10-01",
+      "zweryfikowano": "2026-10-27",
       "zrodla": [
         {
-          "nazwa": "Polska Zbrojna (MON)",
-          "url": "https://polska-zbrojna.pl/home/articleshow/47316?title=Obrona-powietrzna-bedzie-strzelac-szybciej",
-          "data": "2026-09-30"
+          "nazwa": "MON (gov.pl)",
+          "url": "https://www.gov.pl/web/obrona-narodowa/strategiczne-partnerstwo-polski-i-wielkiej-brytanii-podpisano-trzyletni-plan-wspolpracy-obronnej",
+          "data": "2026-10-27"
         }
       ]
     },
@@ -326,12 +326,12 @@
       "kraj": [
         "nordyckie"
       ],
-      "zweryfikowano": "2026-10-01",
+      "zweryfikowano": "2026-10-27",
       "zrodla": [
         {
-          "nazwa": "Biały Dom (komunikat o umowie)",
-          "url": "https://www.whitehouse.gov/releases/2026/09/president-trump-inks-historic-arctic-security-agreement/",
-          "data": "2026-09-22"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/27/putin-call-pits-finland-and-norway-against-denmark-and-sweden",
+          "data": "2026-10-27"
         }
       ]
     },
@@ -358,12 +358,12 @@
       "kraj": [
         "iran"
       ],
-      "zweryfikowano": "2026-10-01",
+      "zweryfikowano": "2026-10-26",
       "zrodla": [
         {
-          "nazwa": "AP (za PBS NewsHour)",
-          "url": "https://www.pbs.org/newshour/world/mediators-still-working-on-u-s-iran-deal-after-trump-rejected-latest-tehran-proposal",
-          "data": "2026-09-28"
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20261026-iran-talks-mecca-pact-nations-war",
+          "data": "2026-10-26"
         }
       ]
     },
@@ -374,12 +374,12 @@
       "kraj": [
         "iran"
       ],
-      "zweryfikowano": "2026-10-01",
+      "zweryfikowano": "2026-10-26",
       "zrodla": [
         {
-          "nazwa": "CBS News (Face the Nation, transkrypt)",
-          "url": "https://www.cbsnews.com/news/transcript-iranian-president-masoud-pezeshkian-face-the-nation-transcript-09-27-2026/",
-          "data": "2026-09-27"
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20261026-iran-talks-mecca-pact-nations-war",
+          "data": "2026-10-26"
         }
       ]
     },
@@ -1566,6 +1566,27 @@
           "nazwa": "Kyiv Independent",
           "url": "https://kyivindependent.com/us-holding-up-air-defense-missiles-for-ukraine-for-nearly-a-month-zelensky-says/",
           "data": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "wes-streeting",
+      "imie": "Wes Streeting",
+      "funkcja": "Minister obrony Wielkiej Brytanii.",
+      "kraj": [
+        "wielka-brytania"
+      ],
+      "zweryfikowano": "2026-10-27",
+      "zrodla": [
+        {
+          "nazwa": "MON (gov.pl)",
+          "url": "https://www.gov.pl/web/obrona-narodowa/strategiczne-partnerstwo-polski-i-wielkiej-brytanii-podpisano-trzyletni-plan-wspolpracy-obronnej",
+          "data": "2026-10-27"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/27/poland-signs-three-year-defence-cooperation-plan-with-uk",
+          "data": "2026-10-27"
         }
       ]
     }

@@ -1,0 +1,431 @@
+{
+  "nr": 39,
+  "data": "2026-10-27",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "{{o:wladyslaw-kosiniak-kamysz|Władysław Kosiniak-Kamysz}}, wicepremier i minister obrony narodowej, oraz brytyjski sekretarz obrony {{o:wes-streeting|Wes Streeting}} podpisali 27.10 w Warszawie trzyletni plan współpracy obronnej. Obejmuje on m.in. drony, systemy przeciwdronowe i wspólne ćwiczenia.",
+    "Rosja i Ukraina wstrzymały 27.10 walki w Oleszkach w obwodzie chersońskim, aby umożliwić ewakuację cywilów i dowóz pomocy. Rozejm trwa do 1.11 do godz. 22:59 czasu kijowskiego; według biura rzecznika praw obywatelskich Ukrainy ewakuacja ma ruszyć 30.10.",
+    "Prezydent Finlandii {{o:alexander-stubb|Alexander Stubb}} i premier Norwegii {{o:jonas-gahr-store|Jonas Gahr Støre}} rozmawiali 27.10 telefonicznie z {{o:wladimir-putin|Władimirem Putinem}}. Premier Danii {{o:mette-frederiksen|Mette Frederiksen}} jest bardzo sceptyczna wobec tej inicjatywy, bo nie skoordynowano jej z innymi państwami.",
+    "Delegacje Arabii Saudyjskiej, Pakistanu i Turcji spotkały się 26.10 w Teheranie z władzami Iranu. Według irańskich mediów państwowych strony uzgodniły dalsze rozmowy."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "polska",
+      "data": "2026-10-27",
+      "tagi": [
+        "przemysl-zbrojeniowy",
+        "uzbrojenie",
+        "wielka-brytania"
+      ],
+      "etap": "PRZYJĘTE",
+      "miejsce": "warszawa",
+      "krotko": "Warszawa: plan współpracy obronnej z Wielką Brytanią",
+      "tekst": "{{o:wladyslaw-kosiniak-kamysz|Władysław Kosiniak-Kamysz}}, wicepremier i minister obrony narodowej, oraz brytyjski sekretarz obrony {{o:wes-streeting|Wes Streeting}} podpisali 27.10 w Warszawie trzyletni **plan współpracy obronnej**. Plan wykonuje polsko-brytyjski traktat i obejmuje nowe technologie, sztuczną inteligencję, drony, systemy przeciwdronowe oraz wspólne ćwiczenia. Kosiniak-Kamysz wskazał też programy: fregaty Miecznik, obronę powietrzną Narew i Pilica oraz niezależną linię produkcji amunicji 155 mm.",
+      "zrodla": [
+        {
+          "nazwa": "MON (gov.pl)",
+          "url": "https://www.gov.pl/web/obrona-narodowa/strategiczne-partnerstwo-polski-i-wielkiej-brytanii-podpisano-trzyletni-plan-wspolpracy-obronnej",
+          "data": "2026-10-27"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/27/poland-signs-three-year-defence-cooperation-plan-with-uk",
+          "data": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-10-27",
+      "tagi": [
+        "ukraina",
+        "rozejm",
+        "front"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "oleszki",
+      "krotko": "Oleszki: lokalny rozejm dla ewakuacji cywilów i pomocy",
+      "tekst": "Rosja i Ukraina wstrzymały 27.10 walki w Oleszkach w obwodzie chersońskim, aby umożliwić ewakuację cywilów i dowóz pomocy. **Lokalny rozejm** zaczął się o godz. 3:00 czasu kijowskiego i trwa do 1.11, do godz. 22:59. Według biura rzecznika praw obywatelskich {{o:dmytro-lubinec|Dmytra Lubińca}} rozejm obejmuje cały obwód chersoński, a ewakuacja ma ruszyć 30.10; {{o:melania-trump|Melania Trump}}, pierwsza dama USA, napisała, że rozejm został rozszerzony.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/27/us-brokered-ceasefire-begins-in-russian-occupied-oleshky-as-strikes-hit-kyiv",
+          "data": "2026-10-27"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/live-news/20261027-us-brokered-truce-begins-in-ukraine-city-occupied-by-russia",
+          "data": "2026-10-27"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/local-ceasefire-in-besieged-oleshky-begins-ukrainian-russian-officials-say/",
+          "data": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "wojna",
+      "data": "2026-10-27",
+      "tagi": [
+        "rosja",
+        "ukraina",
+        "nordyckie"
+      ],
+      "etap": null,
+      "tekst": "Prezydent Finlandii {{o:alexander-stubb|Alexander Stubb}} i premier Norwegii {{o:jonas-gahr-store|Jonas Gahr Støre}} rozmawiali 27.10 telefonicznie z {{o:wladimir-putin|Władimirem Putinem}}, a następnie z {{o:wolodymyr-zelenski|Wołodymyrem Zełenskim}}. W oświadczeniu napisali, że zakończenie wojny wymaga bezpośrednich rozmów, i zaznaczyli, że nie występują w imieniu całej Europy. Premier Danii {{o:mette-frederiksen|Mette Frederiksen}} powiedziała, że jest **bardzo sceptyczna** wobec tej inicjatywy, bo nie skoordynowano jej z innymi państwami.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/27/putin-call-pits-finland-and-norway-against-denmark-and-sweden",
+          "data": "2026-10-27"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/norway-finland-call-putin-ahead-of-potential-abu-dhabi-peace-talks-2/",
+          "data": "2026-10-27"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/live-news/20261027-us-brokered-truce-begins-in-ukraine-city-occupied-by-russia",
+          "data": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "swiat",
+      "data": "2026-10-26",
+      "tagi": [
+        "iran"
+      ],
+      "etap": null,
+      "miejsce": "teheran",
+      "krotko": "Teheran: Arabia Saudyjska, Pakistan, Turcja i Iran",
+      "tekst": "Minister obrony Arabii Saudyjskiej książę Khalid bin Salman, dowódca armii Pakistanu Asim Munir i szef wywiadu Turcji Ibrahim Kalin spotkali się 26.10 w Teheranie z prezydentem Iranu {{o:masud-pezeszkian|Masudem Pezeszkianem}} i ministrem spraw zagranicznych {{o:abbas-araghczi|Abbasem Araghczim}}. Według irańskich mediów państwowych strony uzgodniły dalsze rozmowy. Według Euronews Teheran żąda zniesienia amerykańskiej blokady portów i sankcji na ropę, a Waszyngton – ograniczenia wzbogacania uranu.",
+      "zrodla": [
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20261026-iran-talks-mecca-pact-nations-war",
+          "data": "2026-10-26"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/27/qatar-urges-iran-to-show-goodwill-by-ending-threats-to-the-region-and-reopening-the-strait",
+          "data": "2026-10-27"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "Izrael: szanse opozycji na zmianę rządu maleją, bo blok antynetanjahowski wyklucza partie arabskie",
+      "autor": "PISM (M. Wojnarowicz), Biuletyn nr 75 (3209), 23.10.2026",
+      "tekst": "Według autora szanse na zmianę rządu w Izraelu po wyborach 27.10 maleją, ponieważ większość bloku opozycyjnego wyklucza partie arabskie, potrzebne do stabilnej większości w Knesecie. Autor spodziewa się impasu i kolejnego kryzysu politycznego. Ocenia też, że polityka zagraniczna Izraela, zwłaszcza wobec Palestyńczyków, nie zmieniłaby się radykalnie nawet po zwycięstwie opozycji.",
+      "dla_polski": "Autor zaznacza, że nowy rząd mógłby poprawić dialog UE z Izraelem. Łagodzenie stanowiska UE powinno według niego zależeć od konkretnych kroków: ograniczenia destabilizacji regionu, poszanowania prawa międzynarodowego i praw Palestyńczyków oraz realizacji planu dla Gazy, w tym odbudowy.",
+      "tagi": [
+        "wybory"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "PISM",
+          "url": "https://www.pism.pl/publikacje/sytuacja-izraelskiej-opozycji-przed-wyborami-do-knesetu",
+          "data": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "tytul": "USA łagodzą ograniczenia na rosyjski diesel i naciskają na Kijów, co osłabia pozycję negocjacyjną Ukrainy",
+      "autor": "PISM (M. Doliński), Komentarz nr 51/2026, 14.10.2026",
+      "tekst": "Autor ocenia, że złagodzenie przez USA ograniczeń na rosyjski diesel oraz presja na Kijów osłabiają pozycję negocjacyjną Ukrainy i nagradzają Moskwę bez wiarygodnego zobowiązania Rosji do kompromisu. Zauważa, że ulga ledwie obniży ceny paliw w USA i jest sprzeczna z ustawą sankcyjną senatora Grahama.",
+      "dla_polski": "Tekst nie omawia skutków dla Polski wprost. Wniosek redakcji: słabsza pozycja Ukrainy i mniejsza zgodność sojuszników wobec Rosji dotyczą Polski jako członka NATO i sąsiada Ukrainy.",
+      "tagi": [
+        "usa",
+        "ukraina"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "PISM",
+          "url": "https://www.pism.pl/publikacje/kolejny-kryzys-w-relacjach-usa-i-ukrainy",
+          "data": "2026-10-14"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-10-27",
+      "tekst": "27.10: Izrael – wybory do Knesetu.",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-10-27",
+      "tekst": "27.10: Ukraina – lokalny rozejm w Oleszkach rozpoczął się 27.10 o godz. 3:00 (czasu kijowskiego) i trwa do 1.11, do godz. 22:59.",
+      "tagi": [
+        "ukraina",
+        "rozejm"
+      ]
+    },
+    {
+      "data": "2026-10-28",
+      "tekst": "28.10: Fed – decyzja FOMC (posiedzenie 27–28.10).",
+      "tagi": [
+        "usa"
+      ]
+    },
+    {
+      "data": "2026-10-29",
+      "tekst": "29.10: EBC – decyzja Rady Prezesów (posiedzenie 28–29.10).",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-10-29",
+      "tekst": "29–30.10: szczyt UE–Kanada w Montrealu.",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-01",
+      "tekst": "1.11: OPEC+ – spotkanie siedmiu państw w sprawie limitów wydobycia na grudzień.",
+      "tagi": [
+        "energia"
+      ]
+    },
+    {
+      "data": "2026-11-01",
+      "tekst": "1.11: Bułgaria – II tura wyborów prezydenckich (Iliana Jotowa kontra Andrej Giurow).",
+      "tagi": [
+        "bulgaria",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-11-03",
+      "tekst": "3.11: USA – wybory połowy kadencji (cała Izba Reprezentantów, jedna trzecia Senatu, część gubernatorów).",
+      "tagi": [
+        "usa",
+        "wybory"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-11-15",
+      "tekst": "Ukraina, Rosja i USA – trójstronne rozmowy w Abu Zabi w listopadzie (termin według Kremla: około połowy miesiąca; Al Jazeera podaje spotkania techniczne na początku listopada); przedtem możliwa runda w Europie (według urzędnika UE)",
+      "tagi": [
+        "ukraina",
+        "rozejm"
+      ]
+    },
+    {
+      "data": "2026-11-12",
+      "tekst": "Europejska Wspólnota Polityczna w Irlandii (12.11), 13.11 nieformalne spotkanie przywódców UE",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [],
+    "pism": [
+      {
+        "tytul": "Sytuacja izraelskiej opozycji przed wyborami do Knesetu",
+        "numer": "Biuletyn nr 75 (3209)",
+        "autor": "M. Wojnarowicz",
+        "data": "2026-10-23",
+        "url": "https://www.pism.pl/publikacje/sytuacja-izraelskiej-opozycji-przed-wyborami-do-knesetu"
+      },
+      {
+        "tytul": "NATO wobec potencjalnej rosyjskiej eskalacji hybrydowej",
+        "numer": "Biuletyn nr 74 (3208)",
+        "autor": "F. Bryjka",
+        "data": "2026-10-23",
+        "url": "https://www.pism.pl/publikacje/nato-wobec-potencjalnej-rosyjskiej-eskalacji-hybrydowej"
+      },
+      {
+        "tytul": "Kolejny kryzys w relacjach USA i Ukrainy",
+        "numer": "Komentarz nr 51/2026",
+        "autor": "M. Doliński",
+        "data": "2026-10-14",
+        "url": "https://www.pism.pl/publikacje/kolejny-kryzys-w-relacjach-usa-i-ukrainy"
+      }
+    ],
+    "nieodczytane": [
+      "osw"
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "tekst": "Most Południowy w Kijowie: według Kyiv Independent (27.10) rosyjski pocisk balistyczny uszkodził most, który zamknięto dla ruchu drogowego i kolejowego; burmistrz Witalij Kliczko ogłosił budowę tymczasowych przepraw za 1 mld hrywien. Brak drugiego źródła z poziomów 1–2 dla zdarzenia z 27.10.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Kyiv Independent (artykuł, 27.10)",
+        "wyszukiwarka EN (27.10): relacje tylko o wcześniejszych atakach z 1–2.10 i 22.10",
+        "kanał Euronews (27.10): brak wzmianki",
+        "Al Jazeera (27.10, poziom 3): potwierdza uderzenie, nie liczy się do podstawy"
+      ]
+    },
+    {
+      "id": "n2",
+      "tekst": "RAF Fairford: według Euronews (27.10) dwóch mężczyzn oskarżono na podstawie ustawy o bezpieczeństwie narodowym, jeden o pomoc obcemu wywiadowi (policja wskazuje Iran). Wyszukiwarka zwraca relacje z 20–21.10 o ponownych aresztowaniach i nie potwierdza oskarżeń z 27.10.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Euronews (artykuł, 27.10)",
+        "wyszukiwarka EN (dwa zapytania): brak drugiego źródła o oskarżeniach",
+        "strona Counter Terrorism Policing (404)"
+      ]
+    },
+    {
+      "id": "n3",
+      "tekst": "Izrael: wybory do Knesetu 27.10 – według Euronews głosowanie zakończy się wieczorem, a wyniki ani frekwencja nie były dostępne w chwili wydania; ostatnie sondaże nie dawały żadnemu blokowi 61 mandatów.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Euronews (artykuł, 27.10)",
+        "kanał Polsat News (27.10, 07:41: początek głosowania)",
+        "wyszukiwarka EN: brak relacji z dnia głosowania z poziomów 1–2"
+      ],
+      "kalendarz": "2026-10-27",
+      "termin": "izrael-kneset-2026"
+    },
+    {
+      "id": "n4",
+      "tekst": "Ebola: według Euronews (27.10) w Kongo odnotowano ponad 10 tys. przypadków, a europejskie centrum chorób (ECDC) wysyła ekspertów do Nigerii. Komunikat ECDC z 27.10 potwierdza wysłanie ekspertów, lecz nie podaje liczby przypadków; według wyszukiwarki ECDC podawało 9964 potwierdzone przypadki do 25.10.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Euronews (artykuł, 27.10)",
+        "ECDC (komunikat, 27.10: bez liczb)",
+        "wyszukiwarka EN (dane ECDC z 25.10: 9964 przypadki – poniżej 10 tys.)",
+        "Al Jazeera (27.10, poziom 3): 10 060 przypadków według rządu DRK – poziom 3"
+      ]
+    },
+    {
+      "id": "n5",
+      "tekst": "Norwegia: według Euronews (27.10) krajowy urząd bezpieczeństwa NSM podał, że liczba udanych cyberataków wzrosła w ciągu pół roku mniej więcej trzykrotnie. Raportu NSM nie udało się otworzyć ani znaleźć.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Euronews (artykuł, 27.10)",
+        "wyszukiwarka NO (nsm.no): brak raportu z 27.10",
+        "wyszukiwarka EN: brak drugiego źródła"
+      ]
+    },
+    {
+      "id": "n6",
+      "tekst": "Zaproszenie Zełenskiego do Moskwy: według Polsat News (27.10, za TASS) doradca Kremla Jurij Uszakow powiedział, że Zełenski może przyjechać do Moskwy na rozmowy. Brak komunikatu Kremla i wzmianki w artykułach Euronews i Kyiv Independent o rozmowie z Putinem. Wyszukiwarka wskazuje wypowiedzi Uszakowa i Ławrowa o zaproszeniu do Moskwy ze stycznia i września.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Polsat News (artykuł, 27.10)",
+        "Euronews i Kyiv Independent (27.10): brak wzmianki",
+        "wyszukiwarka EN: brak relacji z 27.10"
+      ]
+    },
+    {
+      "tekst": "Kalendarz z 25.10 (wpis z wydania z 15.10 łączył Brazylię i Bułgarię w jednym wierszu): obie sprawy rozliczono osobnymi pozycjami w wydaniu z 26.10 (Brazylia – Lula wygrywa drugą turę; Bułgaria – wyniki pierwszej tury).",
+      "prog": "kompletność",
+      "kalendarz": "2026-10-25"
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-10-26#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Euronews (27.10: rozmowy w Abu Zabi, bez wizyty w Brukseli)",
+        "kanał Kyiv Independent (27.10): brak wzmianki",
+        "France 24 (27.10, rozmowa Stubba i Støre z Putinem): brak wzmianki"
+      ],
+      "powod": "Brak komunikatu Komisji Europejskiej, NATO ani Białego Domu o wizycie Zełenskiego w Brukseli."
+    },
+    {
+      "dotyczy": "2026-10-26#n2",
+      "wynik": "UZUPEŁNIONE",
+      "pozycja": "z4"
+    },
+    {
+      "dotyczy": "2026-10-26#n3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "wyszukiwarka EN (27.10): brak artykułu Wall Street Journal",
+        "Euronews (26.10): jedyne źródło poziomu 2",
+        "Euromaidan Press i VSquare (anonimowe źródła, poziom 4)"
+      ],
+      "powod": "Kandydatura Orbána na sekretarza generalnego ONZ nie ma potwierdzenia w komunikacie administracji USA ani w drugim źródle z poziomów 1–2."
+    },
+    {
+      "dotyczy": "2026-10-26#n4",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "wyszukiwarka EN: relacje Reutersa (za internazionale.it) i Al Jazeery o protestach w Tiranie do 19.10",
+        "Al Jazeera (17–18.10)",
+        "brak relacji z 25.10"
+      ],
+      "powod": "Wyszukiwarka nie zwraca żadnego źródła z poziomów 1–2 o zamieszkach z 25.10."
+    },
+    {
+      "dotyczy": "2026-10-26#n5",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "wyszukiwarka EN (25.10): brak relacji z poziomów 1–2",
+        "expats.cz (bez daty)",
+        "TASR/noviny.sk (bez daty z 25.10)"
+      ],
+      "powod": "Brak potwierdzenia manifestacji z 25.10 w źródłach z poziomów 1–2."
+    },
+    {
+      "dotyczy": "2026-10-26#n6",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "wyszukiwarka EN: wdrożenie myśliwców Algierii do Nigru z 30.08",
+        "Janes i AllAfrica (sierpień)",
+        "brak decyzji z października"
+      ],
+      "powod": "Brak komunikatu ministerstwa obrony Algierii ani relacji z poziomów 1–2 o zatwierdzeniu z października."
+    },
+    {
+      "dotyczy": "2026-10-26#n7",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Euronews (27.10, artykuł o wyborach): brak wzmianki",
+        "kanał Polsat News (27.10): brak pozycji",
+        "kanał Euronews (27.10): brak pozycji"
+      ],
+      "powod": "Brak komunikatu armii izraelskiej o zamknięciu przejść z Zachodnim Brzegiem."
+    }
+  ],
+  "do_sprawdzenia": [
+    "Izrael – wyniki wyborów (Centralna Komisja Wyborcza), exit polle i skład koalicji; Fed 28.10, EBC 29.10, szczyt UE–Kanada 29–30.10",
+    "Oleszki – termin i przebieg ewakuacji (rzecznik praw obywatelskich Ukrainy, Kreml, Biały Dom); trójstronne rozmowy w Abu Zabi – termin",
+    "Iran – komunikaty Białego Domu, MSZ Iranu i mediatorów; ropa Brent (spadek o 6 proc. z 26.10 niepotwierdzony)",
+    "Bułgaria – oficjalne wyniki I tury i II tura 1.11; Serbia – oficjalne wyniki RIK; Brazylia – skarga Flávia Bolsonaro, TSE",
+    "OSW i PISM – listy publikacji z 25–27.10 (strony niedostępne); PAP Kraj, DO RSZ, MON, SG, ŻW, Agencja Uzbrojenia – incydenty i kontrakty",
+    "Most Południowy w Kijowie, RAF Fairford (oskarżenia), Ebola (ECDC), cyberataki w Norwegii – drugie źródło",
+    "Serbia – protesty i wtargnięcie do redakcji Informer TV (Al Jazeera, 26–27.10); Jordania i Syria – ostrzał po ataku na kościół w Karaku; tankowiec w pobliżu Ormuzu; Putin–Pezeszkian w Moskwie (szczyt gazowy); Sudan, Etiopia – drugie źródło"
+  ],
+  "nota": "Wydanie z 27.10, przygotowane ok. 19:00–20:00 (Europe/Warsaw), mniejsze niż zwykle: cztery pozycje i dwie analizy. Dział Świat Onetu nie był otwierany (zablokowany); przegląd wyszukiwarką nie zwrócił jego nagłówków – z Onetu nie trafił do wydania żaden temat. Kanał Polsat News Świat otwarto (najnowszy wpis 27.10, 18:23); z kanału do wydania lub do wpisów w obserwacji trafiły tematy z2, z3 oraz n3, n6; pozostałe (m.in. Merz, Mbappé i chińska telewizja, Polak w Rosji po przejściu przez wydmy na Litwie, sondaż o Trumpie) nie zostały udokumentowane. TVN24 nie był próbowany. Kanały Euronews (najnowszy wpis 27.10, 18:41) i Kyiv Independent (27.10) otwarto; Meduzę wykorzystano tylko przy kartach osób. Reuters, AP i PAP nie były przeglądane bezpośrednio; przedruków Reutersa nie wykorzystano. OSW: strona publikacji wymaga weryfikacji przeglądarki (captcha) w wersji polskiej i angielskiej; PISM: listy działów zwróciły pustą stronę, wyszukiwarka nie wskazała tekstów z 24–27.10. Obie listy oznaczono jako nieodczytane, więc brak analiz z ostatnich dni nie oznacza braku publikacji. Na liście PISM są trzy teksty z uzupełnienia z poprzedniego wydania; otwarto dwa (Biuletyn nr 75 i Komentarz nr 51), Biuletynu nr 74 nie udało się otworzyć. Incydenty w Polsce i polski przemysł zbrojeniowy: wyszukiwarka nie zwróciła komunikatów DO RSZ, Agencji Uzbrojenia ani prokuratury z 26–27.10; do wydania trafił plan współpracy obronnej z komunikatu MON (strona MON w nagłówku podaje „podpisano”, a w podpisie zdjęcia „zostanie podpisany”; pozycję opisano zgodnie z Euronews i nagłówkiem; komunikat nie podaje wartości ani liczb). W z2 rozbieżne są dane o liczbie osób w Oleszkach (Biały Dom: 1,7–2 tys.; rzecznik Lubiniec 16.09: ponad 6 tys.) oraz o dacie ewakuacji (29–30.10 według rzecznika i Saldo; Euronews i France 24: brak terminu) – w tekście pominięto. W z3 oświadczenie Kremla o rozmowie (krytyka UE i NATO) podaje tylko France 24, więc pominięto. Rozstrzygnięcia z 26.10: jedno UZUPEŁNIONE (z4), sześć NIE DO POTWIERDZENIA. Kontrola niezależna przeprowadzona; uwagi do z1–z4 i „W skrócie” wprowadzono. Tematy z kontroli (Serbia po wyborach, Jordania i Syria, tankowiec koło Ormuzu, szczyt gazowy w Moskwie, Sudan, Etiopia, atak na Kijów) przekazano do „do sprawdzenia” – potwierdza je tylko Al Jazeera (poziom 3)."
+}

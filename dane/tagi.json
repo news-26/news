@@ -6,38 +6,43 @@
       "nazwa": "Ukraina",
       "grupa": "miejsce",
       "opis": "Wojna Rosji z Ukrainą: ataki, obrona powietrzna, polityka Kijowa, pomoc zachodnia.",
-      "stan": "Ukraina czeka prawie miesiąc na zgodę sekretarza obrony USA na pociski do Patriotów i NASAMS (Zełenski, 26.10); wizyta Zełenskiego w Brukseli niepotwierdzona; rozejm w Oleszkach zapowiedziany na 27.10 (Sztab Generalny Rosji) lub 29.10 (Biały Dom).",
+      "stan": "27.10 Stubb i Støre rozmawiali z Putinem, potem z Zełenskim; w Oleszkach obowiązuje lokalny rozejm; rozmowy trójstronne w Abu Zabi zapowiedziane na listopad.",
       "stan_zrodla": [
         {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/27/putin-call-pits-finland-and-norway-against-denmark-and-sweden",
+          "data": "2026-10-27"
+        },
+        {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/us-holding-up-air-defense-missiles-for-ukraine-for-nearly-a-month-zelensky-says/",
-          "data": "2026-10-26"
+          "url": "https://kyivindependent.com/norway-finland-call-putin-ahead-of-potential-abu-dhabi-peace-talks-2/",
+          "data": "2026-10-27"
         },
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/26/zelenskyy-calls-out-monthlong-wait-for-hegseth-to-sign-off-on-patriot-missiles",
-          "data": "2026-10-26"
+          "url": "https://www.euronews.com/2026/10/27/us-brokered-ceasefire-begins-in-russian-occupied-oleshky-as-strikes-hit-kyiv",
+          "data": "2026-10-27"
         }
       ],
-      "stan_data": "2026-10-26"
+      "stan_data": "2026-10-27"
     },
     {
       "id": "front",
       "nazwa": "Front",
       "grupa": "temat",
       "opis": "Działania na linii frontu w Ukrainie; oceny ISW zawsze jako ocena think tanku.",
-      "stan": "Rosyjskie ataki z 24–25.10: osiem zabitych i 51 rannych w ciągu doby, 153 drony Shahed i rakiety Banderol w nocy (Kyiv Independent, Euronews).",
-      "stan_data": "2026-10-25",
+      "stan": "27.10 w Oleszkach obowiązuje lokalny rozejm; w tym czasie Rosja uderzała w inne części Ukrainy, w tym Kijów (Euronews).",
+      "stan_data": "2026-10-27",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/russian-attacks-kill-8-injure-51-across-ukraine-over-past-day-as-drone-strikes-residential-building-in-vinnytsia/",
-          "data": "2026-10-25"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/27/us-brokered-ceasefire-begins-in-russian-occupied-oleshky-as-strikes-hit-kyiv",
+          "data": "2026-10-27"
         },
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/25/russian-strikes-on-ukraine-kill-four-and-injure-28-authorities-say",
-          "data": "2026-10-25"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/local-ceasefire-in-besieged-oleshky-begins-ukrainian-russian-officials-say/",
+          "data": "2026-10-27"
         }
       ]
     },
@@ -46,38 +51,43 @@
       "nazwa": "Rozejm",
       "grupa": "temat",
       "opis": "Rozmowy i propozycje zawieszenia broni w wojnie Rosji z Ukrainą.",
-      "stan": "Uzgodniony lokalny rozejm w Oleszkach (obwód chersoński) dla ewakuacji cywilów i dowozu pomocy; daty rozbieżne (27.10 – Sztab Generalny Rosji, 29.10 – Biały Dom); rozmowy trójstronne USA–Rosja–Ukraina zapowiedziane na połowę listopada.",
+      "stan": "Od 27.10 obowiązuje lokalny rozejm w Oleszkach (obwód chersoński), według Lubińca do 1.11; termin ewakuacji nie podany; rozmowy trójstronne USA–Rosja–Ukraina w Abu Zabi zapowiedziane na listopad.",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/breaking-russia-ukraine-agree-to-oleshky-ceasefire-mediated-by-melania-trump-white-house-says/",
-          "data": "2026-10-23"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/27/us-brokered-ceasefire-begins-in-russian-occupied-oleshky-as-strikes-hit-kyiv",
+          "data": "2026-10-27"
         },
         {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/10/23/russia-announces-october-27-ceasefire-on-southern-ukraine-s-kherson-front-to-evacuate-residents-of-occupied-oleshky",
-          "data": "2026-10-23"
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/live-news/20261027-us-brokered-truce-begins-in-ukraine-city-occupied-by-russia",
+          "data": "2026-10-27"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/local-ceasefire-in-besieged-oleshky-begins-ukrainian-russian-officials-say/",
+          "data": "2026-10-27"
         }
       ],
-      "stan_data": "2026-10-23"
+      "stan_data": "2026-10-27"
     },
     {
       "id": "rosja",
       "nazwa": "Rosja",
       "grupa": "miejsce",
       "opis": "Polityka wewnętrzna, armia i budżet Rosji.",
-      "stan": "Rosja ogłosiła przez Sztab Generalny wstrzymanie ognia w Oleszkach od 27.10; Rumunia przypisuje Rosji uderzenie drona w statek Khoryv; Moskwa zamknęła cztery lotniska po ukraińskim nalocie dronów.",
-      "stan_data": "2026-10-23",
+      "stan": "27.10 Putin rozmawiał telefonicznie ze Stubbem i Støre; Rosja i Ukraina wstrzymały walki w Oleszkach.",
+      "stan_data": "2026-10-27",
       "stan_zrodla": [
         {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/10/23/russia-announces-october-27-ceasefire-on-southern-ukraine-s-kherson-front-to-evacuate-residents-of-occupied-oleshky",
-          "data": "2026-10-23"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/27/putin-call-pits-finland-and-norway-against-denmark-and-sweden",
+          "data": "2026-10-27"
         },
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/23/rescue-operation-in-the-black-sea-following-a-distress-signal-from-a-ship",
-          "data": "2026-10-23"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/norway-finland-call-putin-ahead-of-potential-abu-dhabi-peace-talks-2/",
+          "data": "2026-10-27"
         }
       ]
     },
@@ -137,29 +147,40 @@
       "nazwa": "Uzbrojenie",
       "grupa": "temat",
       "opis": "Systemy uzbrojenia, zakupy, produkcja i dostawy: nazwy, liczby, jednostki.",
-      "stan": "Pociski do systemów Patriot i NASAMS dla Ukrainy czekają na zgodę sekretarza obrony USA od prawie miesiąca (według Zełenskiego, 26.10).",
+      "stan": "27.10 Polska i Wielka Brytania podpisały trzyletni plan współpracy obronnej, w tym o systemach przeciwdronowych i amunicji 155 mm (komunikat MON).",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/us-holding-up-air-defense-missiles-for-ukraine-for-nearly-a-month-zelensky-says/",
-          "data": "2026-10-26"
+          "nazwa": "MON (gov.pl)",
+          "url": "https://www.gov.pl/web/obrona-narodowa/strategiczne-partnerstwo-polski-i-wielkiej-brytanii-podpisano-trzyletni-plan-wspolpracy-obronnej",
+          "data": "2026-10-27"
         },
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/26/zelenskyy-calls-out-monthlong-wait-for-hegseth-to-sign-off-on-patriot-missiles",
-          "data": "2026-10-26"
+          "url": "https://www.euronews.com/2026/10/27/poland-signs-three-year-defence-cooperation-plan-with-uk",
+          "data": "2026-10-27"
         }
       ],
-      "stan_data": "2026-10-26"
+      "stan_data": "2026-10-27"
     },
     {
       "id": "przemysl-zbrojeniowy",
       "nazwa": "PrzemysłZbrojeniowy",
       "grupa": "temat",
       "opis": "Polski przemysł zbrojeniowy: kontrakty, targi, prezentacje nowego sprzętu, dostawy, eksport i współprodukcja.",
-      "stan": "",
-      "stan_data": "",
-      "stan_zrodla": []
+      "stan": "27.10 Polska i Wielka Brytania podpisały w Warszawie trzyletni plan współpracy obronnej (fregaty Miecznik, obrona powietrzna Narew, linia amunicji 155 mm).",
+      "stan_data": "2026-10-27",
+      "stan_zrodla": [
+        {
+          "nazwa": "MON (gov.pl)",
+          "url": "https://www.gov.pl/web/obrona-narodowa/strategiczne-partnerstwo-polski-i-wielkiej-brytanii-podpisano-trzyletni-plan-wspolpracy-obronnej",
+          "data": "2026-10-27"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/27/poland-signs-three-year-defence-cooperation-plan-with-uk",
+          "data": "2026-10-27"
+        }
+      ]
     },
     {
       "id": "obronnosc-polski",
@@ -231,20 +252,20 @@
       "nazwa": "Iran",
       "grupa": "miejsce",
       "opis": "Iran, Cieśnina Ormuz, rozmowy z USA i mediatorami.",
-      "stan": "IRGC twierdzi, że 19.10 dwa tankowce weszły na jego miny w Cieśninie Ormuz; brytyjskie UKMTO potwierdza jeden incydent bez szkód, a USA zaprzeczają zestrzeleniu drona MQ-9.",
+      "stan": "26.10 delegacje Arabii Saudyjskiej, Pakistanu i Turcji spotkały się w Teheranie z władzami Iranu; bez konkretnych ustaleń, spór z USA o blokadę i wzbogacanie uranu trwa.",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/20/irgc-mines-set-tankers-ablaze-as-tehran-threatens-expanded-attacks",
-          "data": "2026-10-20"
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20261026-iran-talks-mecca-pact-nations-war",
+          "data": "2026-10-26"
         },
         {
-          "nazwa": "France 24 (AFP)",
-          "url": "https://www.france24.com/en/live-news/20261020-tech-firms-bear-brunt-of-selling-as-asian-stocks-drop",
-          "data": "2026-10-20"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/27/qatar-urges-iran-to-show-goodwill-by-ending-threats-to-the-region-and-reopening-the-strait",
+          "data": "2026-10-27"
         }
       ],
-      "stan_data": "2026-10-20"
+      "stan_data": "2026-10-27"
     },
     {
       "id": "usa",
@@ -498,20 +519,20 @@
       "nazwa": "Nordyckie",
       "grupa": "miejsce",
       "opis": "Szwecja, Finlandia, Norwegia, Dania, Islandia.",
-      "stan": "W Szwecji Magdalena Andersson (S) od 5.10 ponownie bada możliwość utworzenia rządu, z raportem do 12.10; potem głosowanie w Riksdagu nad premierem.",
+      "stan": "27.10 prezydent Finlandii Stubb i premier Norwegii Støre rozmawiali z Putinem; premier Danii Frederiksen skrytykowała brak koordynacji.",
       "stan_zrodla": [
         {
-          "nazwa": "Riksdag (komunikat)",
-          "url": "https://www.riksdagen.se/sv/aktuellt/aktuelltnotiser/2026/okt/2/talmannens-sonderingsuppdrag-till-magdalena_cms77150d24-8e8b-479f-9da0-8df5bf84b9b6sv/",
-          "data": "2026-10-02"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/27/putin-call-pits-finland-and-norway-against-denmark-and-sweden",
+          "data": "2026-10-27"
         },
         {
-          "nazwa": "SVT",
-          "url": "https://www.svt.se/nyheter/inrikes/det-har-hander-nu-i-sonderingsprocessen",
-          "data": "2026-10-02"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/norway-finland-call-putin-ahead-of-potential-abu-dhabi-peace-talks-2/",
+          "data": "2026-10-27"
         }
       ],
-      "stan_data": "2026-10-03"
+      "stan_data": "2026-10-27"
     },
     {
       "id": "francja",
@@ -538,15 +559,20 @@
       "nazwa": "WielkaBrytania",
       "grupa": "miejsce",
       "opis": "Polityka Wielkiej Brytanii i jej bezpieczeństwo.",
-      "stan": "1.10 rząd wpisał na listę sankcji wobec Rosji 31 nowych celów, m.in. gazowce z rosyjskim LNG.",
+      "stan": "27.10 w Warszawie minister obrony Wes Streeting i Władysław Kosiniak-Kamysz podpisali trzyletni plan współpracy obronnej.",
       "stan_zrodla": [
         {
-          "nazwa": "Rząd Wielkiej Brytanii (Sanctions Notice, Russia)",
-          "url": "https://assets.publishing.service.gov.uk/media/6abe173e9c196f81005e5d7c/Sanctions_Notice__Russia__01_October_2026.pdf",
-          "data": "2026-10-01"
+          "nazwa": "MON (gov.pl)",
+          "url": "https://www.gov.pl/web/obrona-narodowa/strategiczne-partnerstwo-polski-i-wielkiej-brytanii-podpisano-trzyletni-plan-wspolpracy-obronnej",
+          "data": "2026-10-27"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/27/poland-signs-three-year-defence-cooperation-plan-with-uk",
+          "data": "2026-10-27"
         }
       ],
-      "stan_data": "2026-10-01"
+      "stan_data": "2026-10-27"
     },
     {
       "id": "rumunia",

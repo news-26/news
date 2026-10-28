@@ -1,0 +1,309 @@
+{
+  "nr": 40,
+  "data": "2026-10-28",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "W Hiszpanii pociąg dużej prędkości Renfe uderzył 28.10 rano w stojący pociąg Iryo koło miejscowości Urda w prowincji Toledo. Zginęło co najmniej 68 osób, a premier {{o:pedro-sanchez|Pedro Sánchez}} ogłosił trzy dni żałoby narodowej. Minister transportu {{o:oscar-puente|Óscar Puente}} powiedział, że po awarii systemu sygnalizacji centrala sterowania ruchem pozwoliła pociągowi jechać bez ograniczenia prędkości.",
+    "W wyborach do parlamentu Izraela (Knesetu) 27.10 żaden z dwóch głównych bloków nie ma większości, według wstępnych wyników po przeliczeniu ponad 85 proc. głosów. Frekwencja przekroczyła 77 proc., a partie arabskie mogą zdobyć około 19 z 120 mandatów (według France 24). Oficjalnych wyników jeszcze nie ogłoszono."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "swiat",
+      "data": "2026-10-28",
+      "tagi": [
+        "inne"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "urda",
+      "krotko": "Urda: zderzenie pociągów, co najmniej 68 zabitych",
+      "tekst": "Pociąg dużej prędkości Renfe uderzył 28.10 około godz. 8:53 w stojący pociąg Iryo koło miejscowości Urda w prowincji Toledo w środkowej Hiszpanii. Zginęło co najmniej 68 osób, a premier {{o:pedro-sanchez|Pedro Sánchez}} ogłosił trzy dni **żałoby narodowej**. Minister transportu {{o:oscar-puente|Óscar Puente}} powiedział, że po awarii systemu sygnalizacji centrala sterowania ruchem pozwoliła pociągowi Renfe jechać bez ograniczenia prędkości mimo czerwonego sygnału; według ministra maszyniści nie ponoszą winy, a przyczyny bada komisja.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/28/inexplicable-order-by-control-centre-investigated-after-spain-train-crash",
+          "data": "2026-10-28"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/europe/20261028-two-high-speed-trains-collide-in-southern-spain-rail-operator-says",
+          "data": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "swiat",
+      "data": "2026-10-27",
+      "tagi": [
+        "inne",
+        "wybory"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "jerozolima",
+      "krotko": "Jerozolima: wybory do Knesetu bez rozstrzygnięcia",
+      "tekst": "W wyborach do Knesetu 27.10 ani blok premiera Binjamina Netanjahu, ani centrowy blok {{o:gadi-ejzenkot|Gadiego Ejzenkota}} nie zdobył większości 61 z 120 mandatów, według wstępnych wyników po przeliczeniu ponad 85 proc. głosów. Frekwencja przekroczyła 77 proc., najwięcej od niemal trzech dekad, a **partie arabskie** (Zjednoczona Lista i Ra'am) mogą zdobyć około 19 mandatów, co może dać im decydujący głos. Oficjalne wyniki nie zostały jeszcze ogłoszone, a Netanjahu pozostaje urzędującym premierem.",
+      "zrodla": [
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20261028-arab-parties-have-woken-up-israel-uncertain-election-may-deliver-surprise-kingmakers",
+          "data": "2026-10-28"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/28/ex-israel-government-spokesperson-extraordinary-comeback-by-netanyahu",
+          "data": "2026-10-28"
+        }
+      ]
+    }
+  ],
+  "analizy": [],
+  "kalendarz": [
+    {
+      "data": "2026-10-28",
+      "tekst": "28.10: Fed – decyzja FOMC (posiedzenie 27–28.10).",
+      "tagi": [
+        "usa"
+      ]
+    },
+    {
+      "data": "2026-10-29",
+      "tekst": "29.10: EBC – decyzja Rady Prezesów (posiedzenie 28–29.10).",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-10-29",
+      "tekst": "29–30.10: szczyt UE–Kanada w Montrealu.",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-01",
+      "tekst": "1.11: OPEC+ – spotkanie siedmiu państw w sprawie limitów wydobycia na grudzień.",
+      "tagi": [
+        "energia"
+      ]
+    },
+    {
+      "data": "2026-11-01",
+      "tekst": "1.11: Bułgaria – II tura wyborów prezydenckich (Iliana Jotowa kontra Andrej Giurow).",
+      "tagi": [
+        "bulgaria",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-11-03",
+      "tekst": "3.11: USA – wybory połowy kadencji (cała Izba Reprezentantów, jedna trzecia Senatu, część gubernatorów).",
+      "tagi": [
+        "usa",
+        "wybory"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-11-15",
+      "tekst": "Ukraina, Rosja i USA – trójstronne rozmowy w Abu Zabi w listopadzie (termin według Kremla: około połowy miesiąca; Al Jazeera podaje spotkania techniczne na początku listopada); przedtem możliwa runda w Europie (według urzędnika UE)",
+      "tagi": [
+        "ukraina",
+        "rozejm"
+      ]
+    },
+    {
+      "data": "2026-11-12",
+      "tekst": "Europejska Wspólnota Polityczna w Irlandii (12.11), 13.11 nieformalne spotkanie przywódców UE",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [],
+    "pism": [],
+    "nieodczytane": [
+      "osw",
+      "pism"
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "tekst": "Centrum serwisowania pocisków PAC-3 do systemów Patriot w Polsce: według wiceministra obrony Magdaleny Sobkowiak-Czarneckiej (27.10) Polska została wybrana na gospodarza europejskiego centrum, inwestycja ma kosztować ok. 1 mld zł, a rozmowy z Lockheed Martin potrwają ok. 60 dni. Termin uruchomienia podają rozbieżnie: Euronews – co najmniej kilka miesięcy, Polsat News – co najmniej kilkanaście.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Euronews (artykuł, 28.10, poziom 2)",
+        "Polsat News i Defence24 (artykuły, 27.10, poziom 3)",
+        "PAP (tytuły w wyszukiwarce; strony nie otworzyły się)",
+        "komunikat Pentagonu i MON: wyszukiwarka go nie zwróciła"
+      ]
+    },
+    {
+      "id": "n2",
+      "tekst": "Komisja Europejska zatwierdziła według Euronews (28.10) węgierską pożyczkę 5,4 mld euro z programu SAFE i zamknęła pierwszą rundę; Polska ma największą pożyczkę (43 mld euro według Euronews).",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Euronews (artykuł, 28.10)",
+        "wyszukiwarka EN: tylko wrześniowe relacje o obniżeniu wniosku z 16,4 do 5,4 mld euro",
+        "strona Komisji Europejskiej: nie otwierano"
+      ]
+    },
+    {
+      "id": "n3",
+      "tekst": "Iran: według Wall Street Journal (za Polsat News, 28.10) USA poprosiły państwa Zatoki o przygotowanie się do krótkiej, intensywnej kampanii wojskowej po wyborach w USA 3.11; Trump nie podjął ostatecznej decyzji. Biały Dom nie komentuje planów.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Polsat News (artykuł, 28.10, poziom 3)",
+        "wyszukiwarka EN: wcześniejsze relacje NPR i Euronews z 22.10 o planach ataku po wyborach, bez potwierdzenia treści z 28.10",
+        "artykuł Wall Street Journal: niedostępny"
+      ]
+    },
+    {
+      "id": "n4",
+      "tekst": "Nord Stream: według Euronews (28.10) rzeczniczka Komisji Europejskiej Paula Pinho i Anna-Kaisa Itkonen oświadczyły, że gaz z Rosji nie wróci rurociągiem po wojnie, wbrew pomysłom USA i Rosji; unijny zakaz rosyjskiego gazu obowiązuje do końca 2027.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Euronews (artykuł, 28.10)",
+        "wyszukiwarka EN: tylko komentarze z 2022 i 2025",
+        "komunikat Komisji: nie znaleziono"
+      ]
+    },
+    {
+      "id": "n5",
+      "tekst": "Ceny gazu: według Euronews (28.10) holenderski TTF przekroczył 100 euro/MWh po raz pierwszy od grudnia 2022; komisarz Dan Jørgensen ostrzegł przed trudną zimą.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Euronews (artykuł, 28.10)",
+        "wyszukiwarka EN: najnowszy odczyt z 22.10 (ok. 91 euro/MWh), brak notowań z 28.10",
+        "notowania ICE: niedostępne"
+      ]
+    },
+    {
+      "id": "n6",
+      "tekst": "Brazylia: według Euronews (28.10) senator Flávio Bolsonaro, przegrany kandydat na prezydenta, przyleciał do Miami mimo zakazu opuszczania kraju i zatrzymania paszportu; Departament Stanu USA ma wydać wizy jemu i rodzinie.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Euronews (artykuł, 28.10)",
+        "France 24 (tylko nagłówki materiałów wideo, 28.10)",
+        "wyszukiwarka EN: brak innych relacji z 28.10"
+      ]
+    },
+    {
+      "id": "n7",
+      "tekst": "Wielka Brytania: według Kyiv Independent (28.10) minister finansów John Healey zapowiedział w budżecie ponad 10 mld funtów pomocy dla Ukrainy w 2027 r.; Kyiv Independent podaje składniki sumujące się do 9,5 mld funtów.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Kyiv Independent (artykuł, 28.10)",
+        "Euronews (omówienie budżetu, 28.10): bez informacji o Ukrainie",
+        "wyszukiwarka EN: brak potwierdzenia, strony rządu brytyjskiego nie zwróciły komunikatu"
+      ]
+    },
+    {
+      "id": "n8",
+      "tekst": "Rozmowy trójstronne w Abu Zabi: według Kyiv Independent (28.10) prezydent Wołodymyr Zełenski spodziewa się spotkania między 6 a 10.11, ale USA nie potwierdziły terminu, a Kreml nie podał własnego.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Kyiv Independent (artykuł, 28.10)",
+        "Euronews (artykuł o Oleszkach, 28.10): bez terminu rozmów",
+        "komunikaty Białego Domu i Kremla: nie znaleziono"
+      ]
+    },
+    {
+      "id": "n9",
+      "tekst": "Szczyt UE–Kanada w Montrealu (29–30.10): według Euronews (28.10) UE usunęła z projektu deklaracji „członkostwo stowarzyszone” po sprzeciwie Niemiec; deklaracja zostanie przyjęta na szczycie.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Euronews (artykuł, 28.10)",
+        "wyszukiwarka: brak innych relacji z 28.10",
+        "komunikat Rady Europejskiej: nie znaleziono"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-10-27#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Drugiego źródła z poziomów 1–2 dla uszkodzenia Mostu Południowego 27.10 nie znaleziono; polskie relacje (Defence24) dotyczą ataków z 1–2.10.",
+      "sprawdzono": [
+        "Kyiv Independent (27.10)",
+        "wyszukiwarka PL (28.10): Defence24 o atakach z października, bez zdarzenia z 27.10",
+        "kanały Euronews i Kyiv Independent (28.10): brak wzmianki"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-27#n2",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Relacje z 20–21.10 mówią o ponownych aresztowaniach pod ustawą o bezpieczeństwie narodowym; oskarżeń z 27.10 nie potwierdzono.",
+      "sprawdzono": [
+        "wyszukiwarka EN (28.10): The National, ITV, Al Jazeera z 20.10",
+        "ITV News (20.10): nikogo nie oskarżono",
+        "Counter Terrorism Policing: komunikatu o zarzutach nie znaleziono"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-27#n3",
+      "wynik": "UZUPEŁNIONE",
+      "pozycja": "z2"
+    },
+    {
+      "dotyczy": "2026-10-27#n4",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Wyszukiwarka nie zwróciła komunikatu ECDC o ekspertach w Nigerii; ECDC pisze o ekspertach w Kongo i Ugandzie, a o jednym potwierdzonym przypadku w Nigerii (20.10) i 9704 potwierdzonych przypadkach w Kongo.",
+      "sprawdzono": [
+        "wyszukiwarka EN (28.10)",
+        "strona ECDC o epidemii (wynik wyszukiwania, aktualizacja 23.10)",
+        "Kongo: dane do 20–21.10"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-27#n5",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Raportu norweskiego urzędu NSM z października o trzykrotnym wzroście cyberataków nie znaleziono.",
+      "sprawdzono": [
+        "wyszukiwarka EN (28.10)",
+        "relacje z sierpnia 2026 o ataku DDoS na usługi publiczne",
+        "strona NSM: nie otwierano"
+      ]
+    },
+    {
+      "dotyczy": "2026-10-27#n6",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Wypowiedzi Jurija Uszakowa o zaproszeniu Zełenskiego do Moskwy z 27.10 nie znaleziono; wyszukiwarka zwraca podobne wypowiedzi ze stycznia i maja 2026.",
+      "sprawdzono": [
+        "wyszukiwarka EN (28.10)",
+        "Kyiv Independent (28.10): Uszakow mówi tylko, że Europa nie będzie zaproszona do Abu Zabi",
+        "Polsat News (nagłówek z 27.10, poziom 3)"
+      ]
+    }
+  ],
+  "do_sprawdzenia": [
+    "Izrael – oficjalne wyniki Centralnej Komisji Wyborczej i skład koalicji; prezydent Izraela i konsultacje; Fed 28.10, EBC 29.10, szczyt UE–Kanada 29–30.10",
+    "Hiszpania – liczba ofiar, przyczyna (komisja badająca wypadki kolejowe, Adif, Renfe, Iryo)",
+    "Centrum PAC-3 w Polsce – komunikat MON/Pentagonu (wartość, lokalizacja, termin); SAFE – komunikat Komisji (Węgry, Polska)",
+    "Iran – plany ataku po wyborach w USA (3.11): Biały Dom, Wall Street Journal; rozmowy w Abu Zabi 6–10.11 – Biały Dom, Kreml",
+    "Gaz TTF powyżej 100 euro/MWh i ostrzeżenie komisarza Jørgensena; Nord Stream – komunikat Komisji; Brazylia – Flávio Bolsonaro (sąd, Departament Stanu); Wielka Brytania – budżet i Ukraina",
+    "Etiopia – walki w Moyale, 50 tys. uchodźców w Kenii (France 24, ONZ); Czarnogóra – zabezpieczenia dla nowych państw UE; Holandia – 500 mln euro dla Ukrainy",
+    "OSW i PISM – listy publikacji z 25–28.10 (obie strony nieczytelne); PAP Kraj, DO RSZ, MON, SG, ŻW – incydenty"
+  ],
+  "nota": "Wydanie z 28.10, przygotowane ok. 19:00–20:00 (Europe/Warsaw), mniejsze niż zwykle: dwie pozycje, bez analiz. Dział Świat Onetu nie był otwierany (zablokowany), a wyszukiwarka nie zwróciła jego nagłówków; z Onetu nie trafił do wydania żaden temat. Kanał Polsat News Świat otwarto (najnowszy wpis 28.10, 17:32); z kanału do wydania lub obserwacji trafiły katastrofa w Hiszpanii, wybory w Izraelu, plany USA wobec Iranu (n3), Bolsonaro (n6); pozostałe tematy (m.in. rozmowa Zełenskiego z Putinem, Starlink, zapasy zalecane przez rządy) nie zostały udokumentowane. TVN24 nie był próbowany. Kanały Euronews (najnowszy wpis 28.10, 18:00), Kyiv Independent (28.10) i France 24 (28.10) otwarto; BBC i DW zablokowane dla narzędzia. Reuters, AP i PAP nie były przeglądane bezpośrednio; przedruków Reutersa nie wykorzystano. OSW: strona publikacji wymaga weryfikacji przeglądarki (reCAPTCHA) w wersji polskiej i angielskiej; PISM: listy działów, lista główna i wersja angielska zwróciły pustą stronę, a wyszukiwarka nie wskazała tekstów z 24–28.10. Obie listy oznaczono jako nieodczytane, więc brak analiz nie oznacza braku publikacji. Incydenty w Polsce: wyszukiwarka nie zwróciła komunikatów DO RSZ, SG, ŻW ani prokuratury z 27–28.10. Polski przemysł zbrojeniowy: decyzję o centrum serwisowania PAC-3 w Polsce ogłoszono 27.10 (MON, Pentagon), ale pozostaje w obserwacji (n1), bo komunikatów instytucji nie udało się otworzyć; rozbieżne są terminy uruchomienia (kilka miesięcy według Euronews, kilkanaście według Polsat News) i konkurenci (Szwecja albo Norwegia). W z1 liczbę rannych pominięto z powodu rozbieżności (Euronews: 58 w szpitalach; France 24: ok. 80), a godzinę awarii sygnalizacji (8:30 albo 8:36) pominięto w tekście. Rozstrzygnięcia z 27.10: jedno UZUPEŁNIONE (z2), pięć NIE DO POTWIERDZENIA. Kontrola niezależna przeprowadzona; uwagi do z1, z2, „W skrócie” i wpisów w obserwacji wprowadzono. Wyszukiwarka nie wskazała w jej trakcie dodatkowych tematów z 28.10 ani komunikatów DO RSZ, SG i prokuratury."
+}

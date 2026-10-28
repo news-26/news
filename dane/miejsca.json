@@ -509,6 +509,18 @@
       "nazwa": "Sofia",
       "lon": 23.32,
       "lat": 42.7
+    },
+    {
+      "id": "urda",
+      "nazwa": "Urda (Hiszpania)",
+      "lon": -3.85,
+      "lat": 39.65
+    },
+    {
+      "id": "jerozolima",
+      "nazwa": "Jerozolima",
+      "lon": 35.21,
+      "lat": 31.77
     }
   ]
 }

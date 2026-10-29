@@ -521,6 +521,24 @@
       "nazwa": "Jerozolima",
       "lon": 35.21,
       "lat": 31.77
+    },
+    {
+      "id": "frankfurt",
+      "nazwa": "Frankfurt nad Menem",
+      "lon": 8.68,
+      "lat": 50.11
+    },
+    {
+      "id": "dnipro",
+      "nazwa": "Dniepr",
+      "lon": 35.05,
+      "lat": 48.46
+    },
+    {
+      "id": "montreal",
+      "nazwa": "Montreal",
+      "lon": -73.57,
+      "lat": 45.5
     }
   ]
 }

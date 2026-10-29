@@ -6,43 +6,38 @@
       "nazwa": "Ukraina",
       "grupa": "miejsce",
       "opis": "Wojna Rosji z Ukrainą: ataki, obrona powietrzna, polityka Kijowa, pomoc zachodnia.",
-      "stan": "27.10 Stubb i Støre rozmawiali z Putinem, potem z Zełenskim; w Oleszkach obowiązuje lokalny rozejm; rozmowy trójstronne w Abu Zabi zapowiedziane na listopad.",
+      "stan": "29.10 rosyjski dron zabił co najmniej 14 osób na dworcu w Dnieprze; Kreml: rozmowy trójstronne w Abu Zabi po 4.11; Wielka Brytania zapowiedziała pakiet 10 mld funtów.",
       "stan_zrodla": [
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/27/putin-call-pits-finland-and-norway-against-denmark-and-sweden",
-          "data": "2026-10-27"
+          "url": "https://www.euronews.com/2026/10/29/at-least-13-killed-several-injured-in-russian-drone-strike-on-ukrainian-railway-station",
+          "data": "2026-10-29"
         },
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/norway-finland-call-putin-ahead-of-potential-abu-dhabi-peace-talks-2/",
-          "data": "2026-10-27"
-        },
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/27/us-brokered-ceasefire-begins-in-russian-occupied-oleshky-as-strikes-hit-kyiv",
-          "data": "2026-10-27"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/10/29/kremlin-says-u-s-russia-ukraine-peace-talks-will-take-place-in-abu-dhabi-after-november-4-depending-on-battlefield-conditions",
+          "data": "2026-10-29"
         }
       ],
-      "stan_data": "2026-10-27"
+      "stan_data": "2026-10-29"
     },
     {
       "id": "front",
       "nazwa": "Front",
       "grupa": "temat",
       "opis": "Działania na linii frontu w Ukrainie; oceny ISW zawsze jako ocena think tanku.",
-      "stan": "27.10 w Oleszkach obowiązuje lokalny rozejm; w tym czasie Rosja uderzała w inne części Ukrainy, w tym Kijów (Euronews).",
-      "stan_data": "2026-10-27",
+      "stan": "29.10 rosyjskie ataki zabiły ludzi w Dnieprze (co najmniej 14), Czernihowie i Krzemieńczuku.",
+      "stan_data": "2026-10-29",
       "stan_zrodla": [
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/27/us-brokered-ceasefire-begins-in-russian-occupied-oleshky-as-strikes-hit-kyiv",
-          "data": "2026-10-27"
+          "url": "https://www.euronews.com/2026/10/29/at-least-13-killed-several-injured-in-russian-drone-strike-on-ukrainian-railway-station",
+          "data": "2026-10-29"
         },
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/local-ceasefire-in-besieged-oleshky-begins-ukrainian-russian-officials-say/",
-          "data": "2026-10-27"
+          "url": "https://kyivindependent.com/breaking-russia-strikes-train-at-dnipro-station-with-jet-powered-drone-at-least-13-dead/",
+          "data": "2026-10-29"
         }
       ]
     },
@@ -51,43 +46,38 @@
       "nazwa": "Rozejm",
       "grupa": "temat",
       "opis": "Rozmowy i propozycje zawieszenia broni w wojnie Rosji z Ukrainą.",
-      "stan": "Od 27.10 obowiązuje lokalny rozejm w Oleszkach (obwód chersoński), według Lubińca do 1.11; termin ewakuacji nie podany; rozmowy trójstronne USA–Rosja–Ukraina w Abu Zabi zapowiedziane na listopad.",
+      "stan": "28.10 Uszakow: rozmowy trójstronne w Abu Zabi po 4.11; Zełenski wskazuje 10.11; USA nie potwierdziły daty.",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/27/us-brokered-ceasefire-begins-in-russian-occupied-oleshky-as-strikes-hit-kyiv",
-          "data": "2026-10-27"
-        },
-        {
-          "nazwa": "France 24",
-          "url": "https://www.france24.com/en/live-news/20261027-us-brokered-truce-begins-in-ukraine-city-occupied-by-russia",
-          "data": "2026-10-27"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/10/29/kremlin-says-u-s-russia-ukraine-peace-talks-will-take-place-in-abu-dhabi-after-november-4-depending-on-battlefield-conditions",
+          "data": "2026-10-29"
         },
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/local-ceasefire-in-besieged-oleshky-begins-ukrainian-russian-officials-say/",
-          "data": "2026-10-27"
+          "url": "https://kyivindependent.com/moscow-ready-to-resume-trilateral-talks-with-ukraine-us-after-nov-4-kremlin-aide-says/",
+          "data": "2026-10-29"
         }
       ],
-      "stan_data": "2026-10-27"
+      "stan_data": "2026-10-29"
     },
     {
       "id": "rosja",
       "nazwa": "Rosja",
       "grupa": "miejsce",
       "opis": "Polityka wewnętrzna, armia i budżet Rosji.",
-      "stan": "27.10 Putin rozmawiał telefonicznie ze Stubbem i Støre; Rosja i Ukraina wstrzymały walki w Oleszkach.",
-      "stan_data": "2026-10-27",
+      "stan": "28–29.10 doradca Putina Uszakow: rozmowy w Abu Zabi po 4.11, termin zależny od sytuacji na froncie; 29.10 rosyjski atak dronem na dworzec w Dnieprze.",
+      "stan_data": "2026-10-29",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/27/putin-call-pits-finland-and-norway-against-denmark-and-sweden",
-          "data": "2026-10-27"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/10/29/kremlin-says-u-s-russia-ukraine-peace-talks-will-take-place-in-abu-dhabi-after-november-4-depending-on-battlefield-conditions",
+          "data": "2026-10-29"
         },
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/norway-finland-call-putin-ahead-of-potential-abu-dhabi-peace-talks-2/",
-          "data": "2026-10-27"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/29/at-least-13-killed-several-injured-in-russian-drone-strike-on-ukrainian-railway-station",
+          "data": "2026-10-29"
         }
       ]
     },
@@ -147,38 +137,38 @@
       "nazwa": "Uzbrojenie",
       "grupa": "temat",
       "opis": "Systemy uzbrojenia, zakupy, produkcja i dostawy: nazwy, liczby, jednostki.",
-      "stan": "27.10 Polska i Wielka Brytania podpisały trzyletni plan współpracy obronnej, w tym o systemach przeciwdronowych i amunicji 155 mm (komunikat MON).",
+      "stan": "27.10 centrum serwisowania pocisków PAC-3 do Patriotów w Polsce, koszt ok. 1 mld zł; termin uruchomienia nie jest ustalony.",
       "stan_zrodla": [
         {
-          "nazwa": "MON (gov.pl)",
-          "url": "https://www.gov.pl/web/obrona-narodowa/strategiczne-partnerstwo-polski-i-wielkiej-brytanii-podpisano-trzyletni-plan-wspolpracy-obronnej",
-          "data": "2026-10-27"
+          "nazwa": "Reuters (za Internazionale)",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/27/poland-to-host-european-patriot-maintenance-centre-government-says",
+          "data": "2026-10-29"
         },
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/27/poland-signs-three-year-defence-cooperation-plan-with-uk",
-          "data": "2026-10-27"
+          "nazwa": "Defence24",
+          "url": "https://defence24.pl/przemysl/polski-serwis-dla-europejskich-patriotow-jest-decyzja",
+          "data": "2026-10-29"
         }
       ],
-      "stan_data": "2026-10-27"
+      "stan_data": "2026-10-29"
     },
     {
       "id": "przemysl-zbrojeniowy",
       "nazwa": "PrzemysłZbrojeniowy",
       "grupa": "temat",
       "opis": "Polski przemysł zbrojeniowy: kontrakty, targi, prezentacje nowego sprzętu, dostawy, eksport i współprodukcja.",
-      "stan": "27.10 Polska i Wielka Brytania podpisały w Warszawie trzyletni plan współpracy obronnej (fregaty Miecznik, obrona powietrzna Narew, linia amunicji 155 mm).",
-      "stan_data": "2026-10-27",
+      "stan": "27.10 Polska ma gościć europejskie centrum serwisowania pocisków PAC-3 (ok. 1 mld zł); 29.10 druga runda SAFE – Polska największym beneficjentem programu.",
+      "stan_data": "2026-10-29",
       "stan_zrodla": [
         {
-          "nazwa": "MON (gov.pl)",
-          "url": "https://www.gov.pl/web/obrona-narodowa/strategiczne-partnerstwo-polski-i-wielkiej-brytanii-podpisano-trzyletni-plan-wspolpracy-obronnej",
-          "data": "2026-10-27"
+          "nazwa": "Reuters (za Internazionale)",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/27/poland-to-host-european-patriot-maintenance-centre-government-says",
+          "data": "2026-10-29"
         },
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/27/poland-signs-three-year-defence-cooperation-plan-with-uk",
-          "data": "2026-10-27"
+          "url": "https://www.euronews.com/2026/10/29/brussels-hopes-unspent-defence-loans-may-help-plug-ukraines-budget-hole",
+          "data": "2026-10-29"
         }
       ]
     },
@@ -272,18 +262,18 @@
       "nazwa": "USA",
       "grupa": "miejsce",
       "opis": "Polityka USA wobec Europy, Rosji, Ukrainy i Bliskiego Wschodu.",
-      "stan": "Sekretarz obrony Pete Hegseth nie zatwierdził według Zełenskiego od prawie miesiąca pocisków do Patriotów i NASAMS dla Ukrainy (26.10); FOMC 27–28.10; wybory połowy kadencji 3.11.",
-      "stan_data": "2026-10-26",
+      "stan": "27.10 Pentagon i Polska: europejskie centrum serwisowania pocisków PAC-3 w Polsce (Lockheed Martin); 3.11 wybory połowy kadencji.",
+      "stan_data": "2026-10-29",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/us-holding-up-air-defense-missiles-for-ukraine-for-nearly-a-month-zelensky-says/",
-          "data": "2026-10-26"
+          "nazwa": "Reuters (za Internazionale)",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/27/poland-to-host-european-patriot-maintenance-centre-government-says",
+          "data": "2026-10-29"
         },
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/26/zelenskyy-calls-out-monthlong-wait-for-hegseth-to-sign-off-on-patriot-missiles",
-          "data": "2026-10-26"
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/europe/20261029-canada-and-eu-drop-associate-membership-plan-in-bid-to-deepen-ties",
+          "data": "2026-10-29"
         }
       ]
     },
@@ -337,25 +327,25 @@
       "nazwa": "UE",
       "grupa": "temat",
       "opis": "Unia Europejska: Rada, Komisja, obronność, budżet WRF 2028–2034.",
-      "stan": "UE: Costa i von der Leyen zapowiadają wsparcie reform w Serbii, komisarz Marta Kos mówi o otwartych drzwiach do UE (26.10); szczyt UE–Kanada 29–30.10.",
+      "stan": "29.10 Komisja otworzyła drugą rundę SAFE (21,3 mld euro, wnioski do 13.11); szczyt UE–Kanada w Montrealu 29–30.10 bez „członkostwa stowarzyszonego”; EBC bez zmiany stóp.",
       "stan_zrodla": [
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won",
-          "data": "2026-10-25"
+          "url": "https://www.euronews.com/2026/10/29/brussels-hopes-unspent-defence-loans-may-help-plug-ukraines-budget-hole",
+          "data": "2026-10-29"
         },
         {
-          "nazwa": "CNN",
-          "url": "https://www.cnn.com/2026/10/25/europe/serbian-strongman-vucic-concedes-defeat-to-student-led-movement-intl-latam",
-          "data": "2026-10-25"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/eu-frees-up-over-20-billion-euros-to-potentially-help-ukraines-defense/",
+          "data": "2026-10-29"
         },
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/26/eu-hails-serbias-political-upheaval-after-student-group-ends-vucics-rule",
-          "data": "2026-10-26"
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/europe/20261029-canada-and-eu-drop-associate-membership-plan-in-bid-to-deepen-ties",
+          "data": "2026-10-29"
         }
       ],
-      "stan_data": "2026-10-26"
+      "stan_data": "2026-10-29"
     },
     {
       "id": "onz",
@@ -664,50 +654,40 @@
       "nazwa": "Gospodarka",
       "grupa": "temat",
       "opis": "Tylko zdarzenia nadzwyczajne: inflacja, kurs złotego, decyzje banków centralnych, cła.",
-      "stan": "21.10 rentowność francuskich 10-letnich obligacji przekroczyła 5% po raz pierwszy od 2002 r. (spread do Niemiec ok. 1,6 pkt proc.); inwestorzy czekają na decyzję Moody's.",
+      "stan": "29.10 EBC utrzymał stopę depozytową na poziomie 2,5 proc.; Christine Lagarde odejdzie 7.02.2027.",
       "stan_zrodla": [
         {
-          "nazwa": "France 24 (za AFP)",
-          "url": "https://www.france24.com/en/live-news/20261021-five-things-to-know-as-french-bond-yield-tops-5",
-          "data": "2026-10-21"
+          "nazwa": "EBC",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
+          "data": "2026-10-29"
         },
         {
-          "nazwa": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/21/france-protests-bonds-debt.html",
-          "data": "2026-10-21"
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/live-news/20261029-ecb-holds-rates-steady-after-lagarde-says-to-quit-early",
+          "data": "2026-10-29"
         }
       ],
-      "stan_data": "2026-10-21"
+      "stan_data": "2026-10-29"
     },
     {
       "id": "inne",
       "nazwa": "Inne",
       "grupa": "temat",
       "opis": "Wątki rzadkie, bez osobnego hashtagu.",
-      "stan": "28.10 w Hiszpanii pociąg Renfe uderzył w stojący pociąg Iryo koło Urdy, zginęło co najmniej 68 osób; w Izraelu po wyborach 27.10 żaden blok nie ma większości, partie arabskie mogą mieć ok. 19 mandatów.",
+      "stan": "29.10 liczba ofiar zderzenia pociągów w Hiszpanii wzrosła do co najmniej 74; Izrael czeka na oficjalne wyniki wyborów (do 4.11).",
       "stan_zrodla": [
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/28/inexplicable-order-by-control-centre-investigated-after-spain-train-crash",
-          "data": "2026-10-28"
+          "url": "https://www.euronews.com/2026/10/29/death-toll-from-spain-train-crash-rises-to-74-as-royals-visit-victims",
+          "data": "2026-10-29"
         },
         {
-          "nazwa": "France 24",
-          "url": "https://www.france24.com/en/europe/20261028-two-high-speed-trains-collide-in-southern-spain-rail-operator-says",
-          "data": "2026-10-28"
-        },
-        {
-          "nazwa": "France 24",
-          "url": "https://www.france24.com/en/middle-east/20261028-arab-parties-have-woken-up-israel-uncertain-election-may-deliver-surprise-kingmakers",
-          "data": "2026-10-28"
-        },
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/28/ex-israel-government-spokesperson-extraordinary-comeback-by-netanyahu",
-          "data": "2026-10-28"
+          "nazwa": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/10/29/spagna-ancora-disperse-due-italiane.-tajani-sono-unitalo-argentina-e-unitalo_cb23d261-10a6-4136-8db0-a611c06f6406.html",
+          "data": "2026-10-29"
         }
       ],
-      "stan_data": "2026-10-28"
+      "stan_data": "2026-10-29"
     },
     {
       "id": "afryka",

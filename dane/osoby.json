@@ -189,12 +189,12 @@
       "kraj": [
         "obronnosc-polski"
       ],
-      "zweryfikowano": "2026-10-01",
+      "zweryfikowano": "2026-10-29",
       "zrodla": [
         {
-          "nazwa": "Ministerstwo Obrony Narodowej (gov.pl)",
-          "url": "https://www.gov.pl/web/national-defence/magdalena-sobkowiak-czarnecka-secretary-of-state",
-          "data": "2026-07-09"
+          "nazwa": "PAP",
+          "url": "https://www.pap.pl/aktualnosci/wiceszefowa-mon-centrum-serwisowania-pociskow-pac-3-do-systemow-patriot-powstanie-w-0",
+          "data": "2026-10-27"
         }
       ]
     },
@@ -253,12 +253,12 @@
       "kraj": [
         "ue"
       ],
-      "zweryfikowano": "2026-10-01",
+      "zweryfikowano": "2026-10-29",
       "zrodla": [
         {
-          "nazwa": "Komisja Europejska (State of the Union 2026)",
-          "url": "https://commission.europa.eu/strategy-and-policy/state-union_en",
-          "data": "2026-09-16"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/29/brussels-hopes-unspent-defence-loans-may-help-plug-ukraines-budget-hole",
+          "data": "2026-10-29"
         }
       ],
       "formy": [
@@ -1645,6 +1645,27 @@
           "nazwa": "France 24",
           "url": "https://www.france24.com/en/middle-east/20261028-arab-parties-have-woken-up-israel-uncertain-election-may-deliver-surprise-kingmakers",
           "data": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "id": "christine-lagarde",
+      "imie": "Christine Lagarde",
+      "funkcja": "Prezes Europejskiego Banku Centralnego; odejdzie ze stanowiska 7.02.2027.",
+      "kraj": [
+        "ue"
+      ],
+      "zweryfikowano": "2026-10-29",
+      "zrodla": [
+        {
+          "nazwa": "EBC",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
+          "data": "2026-10-29"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/europe/20261029-ecb-president-christine-lagarde-to-step-down-in-february-2027-nine-months-before-term-ends",
+          "data": "2026-10-29"
         }
       ]
     }

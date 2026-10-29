@@ -318,6 +318,12 @@
       "nazwa": "OFAC",
       "pelna": "Biuro Kontroli Aktywów Zagranicznych",
       "definicja": "Urząd w Departamencie Skarbu USA, który administruje sankcjami gospodarczymi i wydaje licencje na transakcje z podmiotami objętymi sankcjami."
+    },
+    {
+      "id": "safe",
+      "nazwa": "SAFE",
+      "pelna": "Security Action for Europe",
+      "definicja": "Unijny program tanich pożyczek na wspólne zakupy obronne państw członkowskich, z puli 150 mld euro. Pierwsza runda objęła 19 państw; Polska ma największą pożyczkę (43,73 mld euro według Euronews, 29.10.2026)."
     }
   ]
 }

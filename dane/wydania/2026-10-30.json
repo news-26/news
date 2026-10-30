@@ -8,9 +8,27 @@
     "Komisja Europejska przedstawiła 30.10 plan wypłat dla Ukrainy na 2027 rok w wysokości około **45 mld euro** z pożyczki unijnej. Proponuje przeznaczyć 31,7 mld euro na przemysł obronny, a 13,3 mld euro na wsparcie finansowe.",
     "W Świdnicy na Dolnym Śląsku sąd aresztował na trzy miesiące 55-letniego obywatela Rosji. Jest on podejrzany o **fotografowanie linii kolejowych** i infrastruktury transportowej na rzecz obcego wywiadu.",
     "Redakcja rosyjskiej gazety niezależnej **„Nowaja Gazieta”** ogłosiła 30.10, że kończy działalność. 9.11 opuści siedzibę w Moskwie, a według redakcji banki i platforma darowizn przestały ją obsługiwać.",
-    "Rezerwa Federalna USA utrzymała 28.10 stopy na poziomie **3,75–4 proc.** Dwoje z dwunastu głosujących członków Komitetu chciało podwyżki o 0,25 punktu procentowego."
+    "Premier Donald Tusk otworzył 30.10 w Porcie Gdańsk **terminal T5**, z którego będą wysyłane elementy turbin dla morskich farm wiatrowych na Bałtyku. Najpierw obsłuży farmę Baltica 2 o mocy 1,5 GW."
   ],
-  "korekty": [],
+  "korekty": [
+    {
+      "dotyczy": "2026-10-30#z6",
+      "bylo": "Pominięcie: wydanie z 30.10 nie miało pozycji o otwarciu terminalu T5 w Porcie Gdańsk.",
+      "jest": "Pozycję z6 dodano do wydania z 30.10 (30.10.2026, po publikacji).",
+      "zrodla": [
+        {
+          "nazwa": "KPRM",
+          "url": "https://www.gov.pl/web/premier/wiecej-polski-wiecej-mocy-terminal-t5-oficjalnie-oddany-do-uzytku",
+          "data": "2026-10-30"
+        },
+        {
+          "nazwa": "Ministerstwo Infrastruktury",
+          "url": "https://www.gov.pl/web/infrastruktura/otwarto-nowy-terminal-instalacyjny-offshore-w-porcie-gdansk",
+          "data": "2026-10-30"
+        }
+      ]
+    }
+  ],
   "zarys": [
     {
       "id": "z1",
@@ -135,6 +153,30 @@
           "nazwa": "Fed",
           "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
           "data": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "id": "z6",
+      "blok": "polska",
+      "data": "2026-10-30",
+      "tagi": [
+        "energia"
+      ],
+      "etap": "PRZYJĘTE",
+      "miejsce": "gdansk",
+      "krotko": "Gdańsk: otwarto terminal T5 dla farm wiatrowych",
+      "tekst": "Premier {{o:donald-tusk|Donald Tusk}} otworzył 30.10 w Porcie Gdańsk **terminal T5** – 21,3 ha lądu usypanego na morzu, z którego będą wysyłane elementy turbin dla morskich farm wiatrowych na Bałtyku. Najpierw obsłuży farmę Baltica 2 (PGE i Ørsted, 1,5 GW, uruchomienie planowane w 2027 r.); inwestycja kosztowała ok. 1,2 mld zł, w tym ponad 700 mln zł z Krajowego Planu Odbudowy.",
+      "zrodla": [
+        {
+          "nazwa": "KPRM",
+          "url": "https://www.gov.pl/web/premier/wiecej-polski-wiecej-mocy-terminal-t5-oficjalnie-oddany-do-uzytku",
+          "data": "2026-10-30"
+        },
+        {
+          "nazwa": "Ministerstwo Infrastruktury",
+          "url": "https://www.gov.pl/web/infrastruktura/otwarto-nowy-terminal-instalacyjny-offshore-w-porcie-gdansk",
+          "data": "2026-10-30"
         }
       ]
     }

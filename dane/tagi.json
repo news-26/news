@@ -614,20 +614,20 @@
       "nazwa": "Energia",
       "grupa": "temat",
       "opis": "Ropa, gaz, infrastruktura energetyczna, ceny paliw.",
-      "stan": "Pierwszy ładunek rosyjskiego diesla (ok. 40 tys. ton, tankowiec Agioi Fanendes z Primorska) płynie do Nowego Jorku, dotarcie ok. 7.11 według Kpler.",
+      "stan": "30.10 otwarto w Porcie Gdańsk terminal T5 do obsługi budowy morskich farm wiatrowych na Bałtyku, najpierw Baltica 2 (1,5 GW).",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/23/first-russian-diesel-shipment-is-heading-to-us-under-trump-putin-deal",
-          "data": "2026-10-23"
+          "nazwa": "KPRM",
+          "url": "https://www.gov.pl/web/premier/wiecej-polski-wiecej-mocy-terminal-t5-oficjalnie-oddany-do-uzytku",
+          "data": "2026-10-30"
         },
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/inside-the-legal-design-of-americas-russia-sanctions-u-turn-2/",
-          "data": "2026-10-23"
+          "nazwa": "Ministerstwo Infrastruktury",
+          "url": "https://www.gov.pl/web/infrastruktura/otwarto-nowy-terminal-instalacyjny-offshore-w-porcie-gdansk",
+          "data": "2026-10-30"
         }
       ],
-      "stan_data": "2026-10-23"
+      "stan_data": "2026-10-30"
     },
     {
       "id": "gospodarka",

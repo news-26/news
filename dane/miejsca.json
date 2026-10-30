@@ -631,6 +631,13 @@
       "lon": 16.49,
       "lat": 50.84,
       "kraj": "obronnosc-polski"
+    },
+    {
+      "id": "gdansk",
+      "nazwa": "Gdańsk",
+      "lon": 18.69,
+      "lat": 54.39,
+      "kraj": "Polska"
     }
   ]
 }

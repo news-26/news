@@ -204,6 +204,8 @@ def sprawdz_slownik_miejsc(b):
         if not (isinstance(m.get("lon"), (int, float)) and -180 <= m["lon"] <= 180
                 and isinstance(m.get("lat"), (int, float)) and -90 <= m["lat"] <= 90):
             b.dodaj(g, "lon (−180…180) i lat (−90…90) muszą być liczbami w stopniach")
+        if "kraj" in m and not (isinstance(m["kraj"], str) and m["kraj"].strip()):
+            b.dodaj(g, "kraj: id hashtagu państwa/regionu albo polska nazwa państwa")
 
 
 def sprawdz_miejsce(it, gdzie, b):
@@ -2195,8 +2197,20 @@ class Budowa:
         for pid, p in self.pojecia.items():
             wezel(f"p:{pid}", "p", p["nazwa"], p.get("pelna") or p["definicja"], f"pojecia/{pid}.html")
 
-        def encje(teksty, tagi):
+        def kraj_wezel(miejsce):
+            """Węzeł państwa z miejsca zdarzenia: hashtag, gdy istnieje, inaczej węzeł samego państwa (bez strony wątku)."""
+            k = (MIEJSCA.get(miejsce) or {}).get("kraj") if miejsce else None
+            if not k:
+                return None
+            if f"t:{k}" in indeks:
+                return indeks[f"t:{k}"]
+            return wezel(f"k:{k}", "k", k, "Państwo – pozycje z miejscem zdarzenia na jego terytorium.", "")
+
+        def encje(teksty, tagi, miejsce=None):
             n = {indeks[f"t:{t}"] for t in tagi if f"t:{t}" in indeks}
+            kw = kraj_wezel(miejsce)
+            if kw is not None:
+                n.add(kw)
             for s in teksty:
                 if not s:
                     continue
@@ -2210,7 +2224,7 @@ class Budowa:
         zdarzenia = []
         for w in self.wydania:
             for it in w["zarys"]:
-                n = encje([it["tekst"], it.get("dla_polski")], it["tagi"])
+                n = encje([it["tekst"], it.get("dla_polski")], it["tagi"], it.get("miejsce"))
                 if len(n) < 1:
                     continue
                 tekst = czysty(it["tekst"], self.osoby, self.pojecia)
@@ -2235,7 +2249,7 @@ class Budowa:
         self.zapisz("powiazania.json", json.dumps({"dzis": dzis, "n": [wezly[i] for i in uzyte], "z": zdarzenia, "s": stale},
                                                   ensure_ascii=False, separators=(",", ":")))
         tresc = r"""<section class="winieta"><h1>Powiązania</h1><p class="w-stan">Kto, gdzie i w jakiej sprawie pojawia się razem w wydaniach.
-Na grafie widać wszystkich naraz; dotknij węzła, żeby podświetlić jego powiązania, a suwakiem czasu cofnij się do wcześniejszych dni. Pod grafem: szczegóły wybranej pozycji i to, co łączy dwie wybrane. Połączenie oznacza wspólne pozycje lub analizy w wydaniach, nie ocenę redakcji.</p></section>
+Na grafie widać wszystkich naraz; dotknij węzła, żeby podświetlić jego powiązania, a suwakiem czasu cofnij się do wcześniejszych dni. Pod grafem: szczegóły wybranej pozycji i to, co łączy dwie wybrane. Połączenie oznacza wspólne pozycje lub analizy w wydaniach, nie ocenę autora.</p></section>
 <div class="pw-pasek">
   <input id="pw-q" class="szukaj" type="search" placeholder="Szukaj: osoba, kraj, temat…" autocomplete="off">
   <div class="pw-okres" role="group" aria-label="Okres">
@@ -2325,7 +2339,7 @@ Na grafie widać wszystkich naraz; dotknij węzła, żeby podświetlić jego pow
     podpowiedzi();
     if(st.w===null){box.innerHTML='';return;}
     var zd=zakres(), L=licz(zd), w=D.n[st.w], moje=zd.filter(function(z){return z.n.indexOf(st.w)>=0;});
-    var h='<div class="pw-karta '+KL[w.t]+'"><p class="w-nr">'+TYP[w.t]+' · '+moje.length+' poz. w okresie</p><h2>'+esc(w.l)+'</h2><p>'+esc(w.s)+'</p><p class="pw-akcje"><a href="'+w.u+'">'+(w.t==='o'?'Karta osoby':w.t==='p'?'Definicja':'Strona wątku')+' →</a> <a href="#" id="pw-wyczysc">Zmień wybór</a></p></div>';
+    var h='<div class="pw-karta '+KL[w.t]+'"><p class="w-nr">'+TYP[w.t]+' · '+moje.length+' poz. w okresie</p><h2>'+esc(w.l)+'</h2><p>'+esc(w.s)+'</p><p class="pw-akcje">'+(w.u?'<a href="'+w.u+'">'+(w.t==='o'?'Karta osoby':w.t==='p'?'Definicja':'Strona wątku')+' →</a> ':'')+'<a href="#" id="pw-wyczysc">Zmień wybór</a></p></div>';
     h+=graf(L.sas,L.ile,zd);
     if(st.z!==null){
       var z=D.n[st.z], wsp=moje.filter(function(x){return x.n.indexOf(st.z)>=0;});
@@ -2463,7 +2477,7 @@ Na grafie widać wszystkich naraz; dotknij węzła, żeby podświetlić jego pow
     } else {var d=D.n[w.ref];
       h='<p class="w-nr">'+TYP[d.t]+' · '+w.c+' poz. w okresie</p><h3>'+esc(d.l)+'</h3><p class="pw-s">'+esc(d.s)+'</p>'
         +(G.zd?'':'<p class="pw-inne">'+s.slice(0,12).map(function(j){var v=G.n[j];return '<a href="#" class="pw-chip maly '+KL[v.typ]+'" data-g="'+v.key+'">'+esc(D.n[v.ref].l)+(G.adj[i][j]?' <span>'+G.adj[i][j]+'</span>':'')+'</a>';}).join('')+'</p>')
-        +'<p class="pw-akcje"><a href="#" data-szcz="'+w.ref+'">Szczegóły i wszystkie pozycje ↓</a><a href="'+d.u+'">'+(d.t==='o'?'Karta osoby':d.t==='p'?'Definicja':'Strona wątku')+' →</a></p>';}
+        +'<p class="pw-akcje"><a href="#" data-szcz="'+w.ref+'">Szczegóły i wszystkie pozycje ↓</a>'+(d.u?'<a href="'+d.u+'">'+(d.t==='o'?'Karta osoby':d.t==='p'?'Definicja':'Strona wątku')+' →</a>':'')+'</p>';}
     INFO.innerHTML=h;
   }
   function podswietl(key,centruj){G.hl=key;var i=key?wezelKlucz(key):-1;

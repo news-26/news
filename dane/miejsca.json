@@ -4,19 +4,22 @@
       "id": "abha",
       "nazwa": "Abha",
       "lon": 42.5,
-      "lat": 18.22
+      "lat": 18.22,
+      "kraj": "Arabia Saudyjska"
     },
     {
       "id": "abudza",
       "nazwa": "Abudża",
       "lon": 7.49,
-      "lat": 9.06
+      "lat": 9.06,
+      "kraj": "Nigeria"
     },
     {
       "id": "anenii-noi",
       "nazwa": "Anenii Noi (Mołdawia)",
       "lon": 29.22,
-      "lat": 46.88
+      "lat": 46.88,
+      "kraj": "moldawia"
     },
     {
       "id": "bab-al-mandab",
@@ -28,43 +31,50 @@
       "id": "belgrad",
       "nazwa": "Belgrad",
       "lon": 20.46,
-      "lat": 44.82
+      "lat": 44.82,
+      "kraj": "balkany"
     },
     {
       "id": "berlin",
       "nazwa": "Berlin",
       "lon": 13.4,
-      "lat": 52.52
+      "lat": 52.52,
+      "kraj": "niemcy"
     },
     {
       "id": "biala-wse",
       "nazwa": "Morze Czarne (WSE Bułgarii)",
       "lon": 29.4,
-      "lat": 42.9
+      "lat": 42.9,
+      "kraj": "bulgaria"
     },
     {
       "id": "brandenburgia",
       "nazwa": "Brandenburgia",
       "lon": 13.06,
-      "lat": 52.4
+      "lat": 52.4,
+      "kraj": "niemcy"
     },
     {
       "id": "braniewo",
       "nazwa": "Braniewo",
       "lon": 19.82,
-      "lat": 54.38
+      "lat": 54.38,
+      "kraj": "Polska"
     },
     {
       "id": "brasilia",
       "nazwa": "Brasília",
       "lon": -47.88,
-      "lat": -15.79
+      "lat": -15.79,
+      "kraj": "Brazylia"
     },
     {
       "id": "bratyslawa",
       "nazwa": "Bratysława",
       "lon": 17.11,
-      "lat": 48.15
+      "lat": 48.15,
+      "kraj": "slowacja"
     },
     {
       "id": "bruksela",
@@ -76,13 +86,15 @@
       "id": "budapeszt",
       "nazwa": "Budapeszt",
       "lon": 19.04,
-      "lat": 47.5
+      "lat": 47.5,
+      "kraj": "wegry"
     },
     {
       "id": "bukareszt",
       "nazwa": "Bukareszt",
       "lon": 26.1,
-      "lat": 44.43
+      "lat": 44.43,
+      "kraj": "rumunia"
     },
     {
       "id": "ciesnina-ormuz",
@@ -94,127 +106,148 @@
       "id": "darfur",
       "nazwa": "Darfur",
       "lon": 24.9,
-      "lat": 13.5
+      "lat": 13.5,
+      "kraj": "Sudan"
     },
     {
       "id": "el-alamejn",
       "nazwa": "Nowe El-Alamejn",
       "lon": 28.95,
-      "lat": 30.83
+      "lat": 30.83,
+      "kraj": "Egipt"
     },
     {
       "id": "fairford",
       "nazwa": "RAF Fairford",
       "lon": -1.79,
-      "lat": 51.68
+      "lat": 51.68,
+      "kraj": "wielka-brytania"
     },
     {
       "id": "granica-lt-krolewiec",
       "nazwa": "Granica Litwy z obwodem królewieckim",
       "lon": 22.75,
-      "lat": 54.65
+      "lat": 54.65,
+      "kraj": "litwa"
     },
     {
       "id": "grenlandia",
       "nazwa": "Grenlandia",
       "lon": -45.0,
-      "lat": 66.0
+      "lat": 66.0,
+      "kraj": "Grenlandia"
     },
     {
       "id": "hebron",
       "nazwa": "Hebron",
       "lon": 35.1,
-      "lat": 31.53
+      "lat": 31.53,
+      "kraj": "Palestyna"
     },
     {
       "id": "irkuck",
       "nazwa": "Irkuck",
       "lon": 104.28,
-      "lat": 52.29
+      "lat": 52.29,
+      "kraj": "rosja"
     },
     {
       "id": "jagodzin",
       "nazwa": "Jagodzin (obwód wołyński)",
       "lon": 23.8,
-      "lat": 51.18
+      "lat": 51.18,
+      "kraj": "ukraina"
     },
     {
       "id": "jaroslaw",
       "nazwa": "Jarosław",
       "lon": 22.68,
-      "lat": 50.02
+      "lat": 50.02,
+      "kraj": "Polska"
     },
     {
       "id": "jemen",
       "nazwa": "Jemen",
       "lon": 47.5,
-      "lat": 15.6
+      "lat": 15.6,
+      "kraj": "Jemen"
     },
     {
       "id": "kaluga",
       "nazwa": "Obwód kałuski",
       "lon": 36.26,
-      "lat": 54.51
+      "lat": 54.51,
+      "kraj": "rosja"
     },
     {
       "id": "karlsruhe",
       "nazwa": "Karlsruhe",
       "lon": 8.4,
-      "lat": 49.01
+      "lat": 49.01,
+      "kraj": "niemcy"
     },
     {
       "id": "kijow",
       "nazwa": "Kijów",
       "lon": 30.52,
-      "lat": 50.45
+      "lat": 50.45,
+      "kraj": "ukraina"
     },
     {
       "id": "kopenhaga",
       "nazwa": "Kopenhaga",
       "lon": 12.57,
-      "lat": 55.68
+      "lat": 55.68,
+      "kraj": "nordyckie"
     },
     {
       "id": "kowno",
       "nazwa": "Kowno",
       "lon": 23.9,
-      "lat": 54.9
+      "lat": 54.9,
+      "kraj": "litwa"
     },
     {
       "id": "kramatorsk",
       "nazwa": "Kramatorsk",
       "lon": 37.58,
-      "lat": 48.72
+      "lat": 48.72,
+      "kraj": "ukraina"
     },
     {
       "id": "krolewiec",
       "nazwa": "Królewiec",
       "lon": 20.51,
-      "lat": 54.71
+      "lat": 54.71,
+      "kraj": "krolewiec"
     },
     {
       "id": "krzywy-rog",
       "nazwa": "Krzywy Róg",
       "lon": 33.39,
-      "lat": 47.91
+      "lat": 47.91,
+      "kraj": "ukraina"
     },
     {
       "id": "liban",
       "nazwa": "Liban",
       "lon": 35.86,
-      "lat": 33.85
+      "lat": 33.85,
+      "kraj": "Liban"
     },
     {
       "id": "londyn",
       "nazwa": "Londyn",
       "lon": -0.13,
-      "lat": 51.51
+      "lat": 51.51,
+      "kraj": "wielka-brytania"
     },
     {
       "id": "lublin",
       "nazwa": "Lublin",
       "lon": 22.57,
-      "lat": 51.25
+      "lat": 51.25,
+      "kraj": "Polska"
     },
     {
       "id": "luksemburg",
@@ -226,67 +259,78 @@
       "id": "madryt",
       "nazwa": "Madryt",
       "lon": -3.7,
-      "lat": 40.42
+      "lat": 40.42,
+      "kraj": "Hiszpania"
     },
     {
       "id": "manila",
       "nazwa": "Manila",
       "lon": 120.98,
-      "lat": 14.6
+      "lat": 14.6,
+      "kraj": "Filipiny"
     },
     {
       "id": "mediolan",
       "nazwa": "Mediolan",
       "lon": 9.19,
-      "lat": 45.46
+      "lat": 45.46,
+      "kraj": "wlochy"
     },
     {
       "id": "mekele",
       "nazwa": "Mekele",
       "lon": 39.47,
-      "lat": 13.5
+      "lat": 13.5,
+      "kraj": "Etiopia"
     },
     {
       "id": "meklemburgia",
       "nazwa": "Meklemburgia-Pomorze Przednie",
       "lon": 12.4,
-      "lat": 53.7
+      "lat": 53.7,
+      "kraj": "niemcy"
     },
     {
       "id": "miami",
       "nazwa": "Miami",
       "lon": -80.19,
-      "lat": 25.76
+      "lat": 25.76,
+      "kraj": "usa"
     },
     {
       "id": "minsk",
       "nazwa": "Mińsk",
       "lon": 27.56,
-      "lat": 53.9
+      "lat": 53.9,
+      "kraj": "bialorus"
     },
     {
       "id": "morze-czarne-bulgaria",
       "nazwa": "Morze Czarne (wody Bułgarii)",
       "lon": 28.6,
-      "lat": 43.4
+      "lat": 43.4,
+      "kraj": "bulgaria"
     },
     {
       "id": "morze-czarne-konstanca",
       "nazwa": "Morze Czarne, 13 mil morskich na wschód od Konstancy",
       "lon": 28.9,
-      "lat": 44.2
+      "lat": 44.2,
+      "kraj": "rumunia"
     },
     {
       "id": "moskwa",
       "nazwa": "Moskwa",
       "lon": 37.62,
-      "lat": 55.75
+      "lat": 55.75,
+      "kraj": "rosja"
     },
     {
       "id": "nowe-delhi",
       "nazwa": "Nowe Delhi",
       "lon": 77.21,
-      "lat": 28.61
+      "lat": 28.61,
+      "kraj": "Indie"
     },
     {
       "id": "nowy-jork",
@@ -298,247 +342,288 @@
       "id": "oleszki",
       "nazwa": "Oleszki",
       "lon": 32.72,
-      "lat": 46.62
+      "lat": 46.62,
+      "kraj": "ukraina"
     },
     {
       "id": "omsk",
       "nazwa": "Omsk",
       "lon": 73.37,
-      "lat": 54.99
+      "lat": 54.99,
+      "kraj": "rosja"
     },
     {
       "id": "orzel",
       "nazwa": "Orzeł",
       "lon": 36.08,
-      "lat": 52.97
+      "lat": 52.97,
+      "kraj": "rosja"
     },
     {
       "id": "oslo",
       "nazwa": "Oslo",
       "lon": 10.75,
-      "lat": 59.91
+      "lat": 59.91,
+      "kraj": "nordyckie"
     },
     {
       "id": "paryz",
       "nazwa": "Paryż",
       "lon": 2.35,
-      "lat": 48.86
+      "lat": 48.86,
+      "kraj": "francja"
     },
     {
       "id": "penonome",
       "nazwa": "Penonomé (Panama)",
       "lon": -80.36,
-      "lat": 8.52
+      "lat": 8.52,
+      "kraj": "Panama"
     },
     {
       "id": "petersburg",
       "nazwa": "Petersburg",
       "lon": 30.34,
-      "lat": 59.94
+      "lat": 59.94,
+      "kraj": "rosja"
     },
     {
       "id": "polnocna-litwa",
       "nazwa": "Północna Litwa",
       "lon": 24.6,
-      "lat": 56.1
+      "lat": 56.1,
+      "kraj": "litwa"
     },
     {
       "id": "praga",
       "nazwa": "Praga",
       "lon": 14.42,
-      "lat": 50.08
+      "lat": 50.08,
+      "kraj": "czechy"
     },
     {
       "id": "prisztina",
       "nazwa": "Prisztina",
       "lon": 21.17,
-      "lat": 42.66
+      "lat": 42.66,
+      "kraj": "balkany"
     },
     {
       "id": "pryluki",
       "nazwa": "Pryluki",
       "lon": 32.39,
-      "lat": 50.59
+      "lat": 50.59,
+      "kraj": "ukraina"
     },
     {
       "id": "ramallah",
       "nazwa": "Ramallah",
       "lon": 35.2,
-      "lat": 31.9
+      "lat": 31.9,
+      "kraj": "Palestyna"
     },
     {
       "id": "rijad",
       "nazwa": "Rijad",
       "lon": 46.72,
-      "lat": 24.71
+      "lat": 24.71,
+      "kraj": "Arabia Saudyjska"
     },
     {
       "id": "rowne",
       "nazwa": "Równe",
       "lon": 26.25,
-      "lat": 50.62
+      "lat": 50.62,
+      "kraj": "ukraina"
     },
     {
       "id": "rusinowo",
       "nazwa": "Rusinowo",
       "lon": 16.47,
-      "lat": 54.53
+      "lat": 54.53,
+      "kraj": "Polska"
     },
     {
       "id": "ryga",
       "nazwa": "Ryga",
       "lon": 24.11,
-      "lat": 56.95
+      "lat": 56.95,
+      "kraj": "lotwa"
     },
     {
       "id": "rzeszow",
       "nazwa": "Rzeszów",
       "lon": 22.0,
-      "lat": 50.04
+      "lat": 50.04,
+      "kraj": "Polska"
     },
     {
       "id": "sarajewo",
       "nazwa": "Sarajewo",
       "lon": 18.41,
-      "lat": 43.86
+      "lat": 43.86,
+      "kraj": "balkany"
     },
     {
       "id": "sasowo",
       "nazwa": "Sasowo",
       "lon": 41.92,
-      "lat": 54.35
+      "lat": 54.35,
+      "kraj": "rosja"
     },
     {
       "id": "seul",
       "nazwa": "Seul",
       "lon": 126.98,
-      "lat": 37.57
+      "lat": 37.57,
+      "kraj": "Korea Południowa"
     },
     {
       "id": "slowiansk",
       "nazwa": "Słowiańsk",
       "lon": 37.62,
-      "lat": 48.85
+      "lat": 48.85,
+      "kraj": "ukraina"
     },
     {
       "id": "sztokholm",
       "nazwa": "Sztokholm",
       "lon": 18.07,
-      "lat": 59.33
+      "lat": 59.33,
+      "kraj": "nordyckie"
     },
     {
       "id": "tallinn",
       "nazwa": "Tallinn",
       "lon": 24.75,
-      "lat": 59.44
+      "lat": 59.44,
+      "kraj": "estonia"
     },
     {
       "id": "teheran",
       "nazwa": "Teheran",
       "lon": 51.39,
-      "lat": 35.69
+      "lat": 35.69,
+      "kraj": "iran"
     },
     {
       "id": "tigraj",
       "nazwa": "Tigraj",
       "lon": 39.47,
-      "lat": 14.0
+      "lat": 14.0,
+      "kraj": "Etiopia"
     },
     {
       "id": "tirana",
       "nazwa": "Tirana",
       "lon": 19.82,
-      "lat": 41.33
+      "lat": 41.33,
+      "kraj": "balkany"
     },
     {
       "id": "trappes",
       "nazwa": "Trappes",
       "lon": 2.0,
-      "lat": 48.78
+      "lat": 48.78,
+      "kraj": "francja"
     },
     {
       "id": "warszawa",
       "nazwa": "Warszawa",
       "lon": 21.01,
-      "lat": 52.23
+      "lat": 52.23,
+      "kraj": "Polska"
     },
     {
       "id": "waszyngton",
       "nazwa": "Waszyngton",
       "lon": -77.04,
-      "lat": 38.9
+      "lat": 38.9,
+      "kraj": "usa"
     },
     {
       "id": "wilno",
       "nazwa": "Wilno",
       "lon": 25.28,
-      "lat": 54.69
+      "lat": 54.69,
+      "kraj": "litwa"
     },
     {
       "id": "wola-krobowska",
       "nazwa": "Wola Krobowska",
       "lon": 20.73,
-      "lat": 51.72
+      "lat": 51.72,
+      "kraj": "Polska"
     },
     {
       "id": "wse-rumunii",
       "nazwa": "Morze Czarne (WSE Rumunii)",
       "lon": 29.4,
-      "lat": 44.4
+      "lat": 44.4,
+      "kraj": "rumunia"
     },
     {
       "id": "zaporoze",
       "nazwa": "Zaporoże",
       "lon": 35.14,
-      "lat": 47.84
+      "lat": 47.84,
+      "kraj": "ukraina"
     },
     {
       "id": "zatoka-zea",
       "nazwa": "Zatoka Perska u wybrzeży ZEA",
       "lon": 55.55,
-      "lat": 25.75
+      "lat": 25.75,
+      "kraj": "Zjednoczone Emiraty Arabskie"
     },
     {
       "id": "winnica",
       "nazwa": "Winnica",
       "lon": 28.47,
-      "lat": 49.23
+      "lat": 49.23,
+      "kraj": "ukraina"
     },
     {
       "id": "sofia",
       "nazwa": "Sofia",
       "lon": 23.32,
-      "lat": 42.7
+      "lat": 42.7,
+      "kraj": "bulgaria"
     },
     {
       "id": "urda",
       "nazwa": "Urda (Hiszpania)",
       "lon": -3.85,
-      "lat": 39.65
+      "lat": 39.65,
+      "kraj": "Hiszpania"
     },
     {
       "id": "jerozolima",
       "nazwa": "Jerozolima",
       "lon": 35.21,
-      "lat": 31.77
+      "lat": 31.77,
+      "kraj": "Izrael"
     },
     {
       "id": "frankfurt",
       "nazwa": "Frankfurt nad Menem",
       "lon": 8.68,
-      "lat": 50.11
+      "lat": 50.11,
+      "kraj": "niemcy"
     },
     {
       "id": "dnipro",
       "nazwa": "Dniepr",
       "lon": 35.05,
-      "lat": 48.46
+      "lat": 48.46,
+      "kraj": "ukraina"
     },
     {
       "id": "montreal",
       "nazwa": "Montreal",
       "lon": -73.57,
-      "lat": 45.5
+      "lat": 45.5,
+      "kraj": "Kanada"
     }
   ]
 }

@@ -624,6 +624,13 @@
       "lon": -73.57,
       "lat": 45.5,
       "kraj": "Kanada"
+    },
+    {
+      "id": "swidnica",
+      "nazwa": "Świdnica",
+      "lon": 16.49,
+      "lat": 50.84,
+      "kraj": "obronnosc-polski"
     }
   ]
 }

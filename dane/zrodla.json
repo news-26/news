@@ -1626,6 +1626,21 @@
         "onet.pl"
       ],
       "uzasadnienie": "Dopisano 8.10.2026 na polecenie właściciela (dział Świat – wiadomosci.onet.pl/swiat): ogólnopolski serwis informacyjny z własną redakcją i podpisanymi autorami. Materiały Onetu oparte na depeszach agencji (PAP, Reuters, AFP) opisuj jako „AGENCJA (za Onet)” – nie liczą się wtedy jako źródło niezależne od tej agencji. Podstawą pozycji tylko razem z drugim niezależnym źródłem z poziomów 1–2."
+    },
+    {
+      "id": "policja",
+      "nazwa": "Policja",
+      "poziom": 1,
+      "typ": "instytucja",
+      "kraj": "Polska",
+      "domeny": [
+        "policja.gov.pl"
+      ],
+      "wzorce": [
+        "Policja Dolnośląska",
+        "Policja"
+      ],
+      "uzasadnienie": "Komunikaty polskiej Policji o własnych czynnościach (zatrzymania, wnioski, decyzje sądu); dopisano 30.10.2026 przy zatrzymaniu obywatela Rosji w Świdnicy."
     }
   ]
 }

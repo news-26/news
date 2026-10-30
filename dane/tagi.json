@@ -6,20 +6,20 @@
       "nazwa": "Ukraina",
       "grupa": "miejsce",
       "opis": "Wojna Rosji z Ukrainą: ataki, obrona powietrzna, polityka Kijowa, pomoc zachodnia.",
-      "stan": "29.10 rosyjski dron zabił co najmniej 14 osób na dworcu w Dnieprze; Kreml: rozmowy trójstronne w Abu Zabi po 4.11; Wielka Brytania zapowiedziała pakiet 10 mld funtów.",
+      "stan": "30.10 w Ołeszkach trwa lokalne zawieszenie broni i ewakuacja cywilów; Komisja Europejska przedstawiła plan 45 mld euro dla Ukrainy na 2027 r.",
       "stan_zrodla": [
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/29/at-least-13-killed-several-injured-in-russian-drone-strike-on-ukrainian-railway-station",
-          "data": "2026-10-29"
+          "url": "https://www.euronews.com/2026/10/30/residents-leave-russian-occupied-oleshky-amid-local-ceasefire",
+          "data": "2026-10-30"
         },
         {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/10/29/kremlin-says-u-s-russia-ukraine-peace-talks-will-take-place-in-abu-dhabi-after-november-4-depending-on-battlefield-conditions",
-          "data": "2026-10-29"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/30/eu-to-fast-track-45-billion-for-ukraine-amid-acute-financial-crunch",
+          "data": "2026-10-30"
         }
       ],
-      "stan_data": "2026-10-29"
+      "stan_data": "2026-10-30"
     },
     {
       "id": "front",
@@ -46,38 +46,33 @@
       "nazwa": "Rozejm",
       "grupa": "temat",
       "opis": "Rozmowy i propozycje zawieszenia broni w wojnie Rosji z Ukrainą.",
-      "stan": "28.10 Uszakow: rozmowy trójstronne w Abu Zabi po 4.11; Zełenski wskazuje 10.11; USA nie potwierdziły daty.",
+      "stan": "Od około 27.10 obowiązuje lokalne zawieszenie broni w Ołeszkach; trójstronne rozmowy z USA wciąż bez potwierdzonego terminu.",
       "stan_zrodla": [
         {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/10/29/kremlin-says-u-s-russia-ukraine-peace-talks-will-take-place-in-abu-dhabi-after-november-4-depending-on-battlefield-conditions",
-          "data": "2026-10-29"
-        },
-        {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/moscow-ready-to-resume-trilateral-talks-with-ukraine-us-after-nov-4-kremlin-aide-says/",
-          "data": "2026-10-29"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/30/residents-leave-russian-occupied-oleshky-amid-local-ceasefire",
+          "data": "2026-10-30"
         }
       ],
-      "stan_data": "2026-10-29"
+      "stan_data": "2026-10-30"
     },
     {
       "id": "rosja",
       "nazwa": "Rosja",
       "grupa": "miejsce",
       "opis": "Polityka wewnętrzna, armia i budżet Rosji.",
-      "stan": "28–29.10 doradca Putina Uszakow: rozmowy w Abu Zabi po 4.11, termin zależny od sytuacji na froncie; 29.10 rosyjski atak dronem na dworzec w Dnieprze.",
-      "stan_data": "2026-10-29",
+      "stan": "30.10 „Nowaja Gazieta” ogłosiła zamknięcie; w Świdnicy aresztowano obywatela Rosji podejrzanego o szpiegostwo na rzecz obcego wywiadu.",
+      "stan_data": "2026-10-30",
       "stan_zrodla": [
         {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/10/29/kremlin-says-u-s-russia-ukraine-peace-talks-will-take-place-in-abu-dhabi-after-november-4-depending-on-battlefield-conditions",
-          "data": "2026-10-29"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/30/russian-independent-newspaper-novaya-gazeta-says-it-will-shut-down-following-pressure-from",
+          "data": "2026-10-30"
         },
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/29/at-least-13-killed-several-injured-in-russian-drone-strike-on-ukrainian-railway-station",
-          "data": "2026-10-29"
+          "nazwa": "Policja Dolnośląska",
+          "url": "https://dolnoslaska.policja.gov.pl/wr1/aktualnosci/biezace-inf/187300,Policjanci-zatrzymali-ob-Federacji-Rosyjskiej-podejrzewanego-o-prowadzenie-dzial.html",
+          "data": "2026-10-30"
         }
       ]
     },
@@ -117,20 +112,20 @@
       "nazwa": "Wojna hybrydowa",
       "grupa": "temat",
       "opis": "Działania hybrydowe: drony, sabotaż, dezinformacja, cyberataki, presja migracyjna.",
-      "stan": "22.10 Niemcy zatrzymały w Brandenburgii Ukraińca podejrzanego o szpiegostwo na rzecz Rosji (dane o przemyśle zbrojeniowym i wschodniej flance NATO).",
+      "stan": "30.10 sąd aresztował w Świdnicy na trzy miesiące obywatela Rosji podejrzanego o fotografowanie infrastruktury kolejowej na rzecz obcego wywiadu.",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/22/germany-arrests-ukrainian-national-on-suspicion-of-spying-for-russia",
-          "data": "2026-10-22"
+          "nazwa": "Policja Dolnośląska",
+          "url": "https://dolnoslaska.policja.gov.pl/wr1/aktualnosci/biezace-inf/187300,Policjanci-zatrzymali-ob-Federacji-Rosyjskiej-podejrzewanego-o-prowadzenie-dzial.html",
+          "data": "2026-10-30"
         },
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/germany-arrests-ukrainian-national-suspected-of-spying-for-russia/",
-          "data": "2026-10-22"
+          "nazwa": "Rzeczpospolita",
+          "url": "https://www.rp.pl/przestepczosc/art45420081-fotografowal-pociagi-i-infrastrukture-krytyczna-sad-aresztowal-rosjanina",
+          "data": "2026-10-30"
         }
       ],
-      "stan_data": "2026-10-22"
+      "stan_data": "2026-10-30"
     },
     {
       "id": "uzbrojenie",
@@ -177,20 +172,20 @@
       "nazwa": "ObronnośćPolski",
       "grupa": "temat",
       "opis": "Siły zbrojne RP, procedury obrony powietrznej, budżet obronny.",
-      "stan": "Litwa twierdzi, że ukraiński dron, który 18.10 wybuchł w Juodžionys, wleciał z Polski; MON i DO RSZ nie potwierdzają przelotu, a Tusk 20.10 zapowiedział współpracę z Litwą i zażądał wyjaśnień od Ukrainy.",
+      "stan": "30.10 sąd aresztował w Świdnicy na trzy miesiące obywatela Rosji podejrzanego o działanie na rzecz obcego wywiadu.",
       "stan_zrodla": [
         {
-          "nazwa": "PAP (za RMF24)",
-          "url": "https://www.rmf24.pl/fakty/polska/news-dron-eksplodowal-na-litwie-mial-przyleciec-z-polski-tusk-nie,nIdn,1022662",
-          "data": "2026-10-20"
+          "nazwa": "Policja Dolnośląska",
+          "url": "https://dolnoslaska.policja.gov.pl/wr1/aktualnosci/biezace-inf/187300,Policjanci-zatrzymali-ob-Federacji-Rosyjskiej-podejrzewanego-o-prowadzenie-dzial.html",
+          "data": "2026-10-30"
         },
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/poland-to-demand-explanation-from-ukraine-over-drone-incident-in-lithuania/",
-          "data": "2026-10-20"
+          "nazwa": "Rzeczpospolita",
+          "url": "https://www.rp.pl/przestepczosc/art45420081-fotografowal-pociagi-i-infrastrukture-krytyczna-sad-aresztowal-rosjanina",
+          "data": "2026-10-30"
         }
       ],
-      "stan_data": "2026-10-20"
+      "stan_data": "2026-10-30"
     },
     {
       "id": "dyplomacja-rp",
@@ -262,18 +257,13 @@
       "nazwa": "USA",
       "grupa": "miejsce",
       "opis": "Polityka USA wobec Europy, Rosji, Ukrainy i Bliskiego Wschodu.",
-      "stan": "27.10 Pentagon i Polska: europejskie centrum serwisowania pocisków PAC-3 w Polsce (Lockheed Martin); 3.11 wybory połowy kadencji.",
-      "stan_data": "2026-10-29",
+      "stan": "28.10 FOMC utrzymał stopę Fed na poziomie 3,75–4 proc. (10 do 2); 3.11 wybory połowy kadencji.",
+      "stan_data": "2026-10-30",
       "stan_zrodla": [
         {
-          "nazwa": "Reuters (za Internazionale)",
-          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/27/poland-to-host-european-patriot-maintenance-centre-government-says",
-          "data": "2026-10-29"
-        },
-        {
-          "nazwa": "France 24",
-          "url": "https://www.france24.com/en/europe/20261029-canada-and-eu-drop-associate-membership-plan-in-bid-to-deepen-ties",
-          "data": "2026-10-29"
+          "nazwa": "Fed",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+          "data": "2026-10-28"
         }
       ]
     },
@@ -327,25 +317,15 @@
       "nazwa": "UE",
       "grupa": "temat",
       "opis": "Unia Europejska: Rada, Komisja, obronność, budżet WRF 2028–2034.",
-      "stan": "29.10 Komisja otworzyła drugą rundę SAFE (21,3 mld euro, wnioski do 13.11); szczyt UE–Kanada w Montrealu 29–30.10 bez „członkostwa stowarzyszonego”; EBC bez zmiany stóp.",
+      "stan": "30.10 Komisja Europejska przedstawiła plan wypłat 45 mld euro dla Ukrainy na 2027 r.; wymaga zatwierdzenia przez Radę UE.",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/29/brussels-hopes-unspent-defence-loans-may-help-plug-ukraines-budget-hole",
-          "data": "2026-10-29"
-        },
-        {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/eu-frees-up-over-20-billion-euros-to-potentially-help-ukraines-defense/",
-          "data": "2026-10-29"
-        },
-        {
-          "nazwa": "France 24",
-          "url": "https://www.france24.com/en/europe/20261029-canada-and-eu-drop-associate-membership-plan-in-bid-to-deepen-ties",
-          "data": "2026-10-29"
+          "url": "https://kyivindependent.com/eu-lays-out-45-billion-euro-spending-plan-for-ukraine-in-2027/",
+          "data": "2026-10-30"
         }
       ],
-      "stan_data": "2026-10-29"
+      "stan_data": "2026-10-30"
     },
     {
       "id": "onz",
@@ -654,20 +634,15 @@
       "nazwa": "Gospodarka",
       "grupa": "temat",
       "opis": "Tylko zdarzenia nadzwyczajne: inflacja, kurs złotego, decyzje banków centralnych, cła.",
-      "stan": "29.10 EBC utrzymał stopę depozytową na poziomie 2,5 proc.; Christine Lagarde odejdzie 7.02.2027.",
+      "stan": "28.10 Fed utrzymał stopy na poziomie 3,75–4 proc.; Komisja Europejska planuje 45 mld euro dla Ukrainy w 2027 r.",
       "stan_zrodla": [
         {
-          "nazwa": "EBC",
-          "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
-          "data": "2026-10-29"
-        },
-        {
-          "nazwa": "France 24",
-          "url": "https://www.france24.com/en/live-news/20261029-ecb-holds-rates-steady-after-lagarde-says-to-quit-early",
-          "data": "2026-10-29"
+          "nazwa": "Fed",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+          "data": "2026-10-28"
         }
       ],
-      "stan_data": "2026-10-29"
+      "stan_data": "2026-10-30"
     },
     {
       "id": "inne",

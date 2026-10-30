@@ -5,19 +5,6 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Prasówka – kalendarium
 X-WR-TIMEZONE:Europe/Warsaw
 BEGIN:VEVENT
-UID:ebc-2026-10@news-26
-DTSTAMP:20261029T180000Z
-DTSTART;VALUE=DATE:20261028
-DTEND;VALUE=DATE:20261030
-SUMMARY:EBC: posiedzenie Rady Prezesów w sprawie polityki pieniężnej (
- decyzja i konferencja 29.10).
-DESCRIPTION:EBC: posiedzenie Rady Prezesów w sprawie polityki pieniężn
- ej (decyzja i konferencja 29.10). Źródła: EBC (kalendarz posiedzeń):
-  https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html
-URL:https://news-26.github.io/news/kalendarium.html#ebc-2026-10
-CATEGORIES:Banki centralne
-END:VEVENT
-BEGIN:VEVENT
 UID:ue-kanada-2026@news-26
 DTSTAMP:20261029T180000Z
 DTSTART;VALUE=DATE:20261029
@@ -177,18 +164,6 @@ URL:https://news-26.github.io/news/kalendarium.html#obwe-rm-2026
 CATEGORIES:Instytucje i organizacje
 END:VEVENT
 BEGIN:VEVENT
-UID:fomc-2026-12@news-26
-DTSTAMP:20261029T180000Z
-DTSTART;VALUE=DATE:20261208
-DTEND;VALUE=DATE:20261210
-SUMMARY:Fed: posiedzenie FOMC z projekcjami gospodarczymi (decyzja 9.12).
-DESCRIPTION:Fed: posiedzenie FOMC z projekcjami gospodarczymi (decyzja 9.
- 12). Źródła: Fed (kalendarz FOMC): https://www.federalreserve.gov/mon
- etarypolicy/fomccalendars.htm
-URL:https://news-26.github.io/news/kalendarium.html#fomc-2026-12
-CATEGORIES:Banki centralne
-END:VEVENT
-BEGIN:VEVENT
 UID:g20-2026@news-26
 DTSTAMP:20261029T180000Z
 DTSTART;VALUE=DATE:20261214
@@ -200,19 +175,6 @@ DESCRIPTION:Szczyt przywódców G20 w Miami (Doral)\, gospodarz: prezyden
  sters-meeting-in-atlanta-georgia/
 URL:https://news-26.github.io/news/kalendarium.html#g20-2026
 CATEGORIES:Szczyty
-END:VEVENT
-BEGIN:VEVENT
-UID:ebc-2026-12@news-26
-DTSTAMP:20261029T180000Z
-DTSTART;VALUE=DATE:20261216
-DTEND;VALUE=DATE:20261218
-SUMMARY:EBC: posiedzenie w sprawie polityki pieniężnej (decyzja i konfe
- rencja 17.12).
-DESCRIPTION:EBC: posiedzenie w sprawie polityki pieniężnej (decyzja i k
- onferencja 17.12). Źródła: EBC (kalendarz posiedzeń): https://www.ec
- b.europa.eu/press/calendars/mgcgc/html/index.en.html
-URL:https://news-26.github.io/news/kalendarium.html#ebc-2026-12
-CATEGORIES:Banki centralne
 END:VEVENT
 BEGIN:VEVENT
 UID:rada-europejska-2026-12@news-26
@@ -308,31 +270,6 @@ URL:https://news-26.github.io/news/kalendarium.html#litwa-art137-2027
 CATEGORIES:Inne
 END:VEVENT
 BEGIN:VEVENT
-UID:fomc-2027-01@news-26
-DTSTAMP:20261029T180000Z
-DTSTART;VALUE=DATE:20270126
-DTEND;VALUE=DATE:20270128
-SUMMARY:Fed: posiedzenie FOMC (decyzja 27.01).
-DESCRIPTION:Fed: posiedzenie FOMC (decyzja 27.01). Źródła: Fed (kalend
- arz FOMC): https://www.federalreserve.gov/monetarypolicy/fomccalendars.h
- tm
-URL:https://news-26.github.io/news/kalendarium.html#fomc-2027-01
-CATEGORIES:Banki centralne
-END:VEVENT
-BEGIN:VEVENT
-UID:ebc-2027-02@news-26
-DTSTAMP:20261029T180000Z
-DTSTART;VALUE=DATE:20270203
-DTEND;VALUE=DATE:20270205
-SUMMARY:EBC: posiedzenie w sprawie polityki pieniężnej (decyzja i konfe
- rencja 4.02).
-DESCRIPTION:EBC: posiedzenie w sprawie polityki pieniężnej (decyzja i k
- onferencja 4.02). Źródła: EBC (kalendarz posiedzeń): https://www.ecb
- .europa.eu/press/calendars/mgcgc/html/index.en.html
-URL:https://news-26.github.io/news/kalendarium.html#ebc-2027-02
-CATEGORIES:Banki centralne
-END:VEVENT
-BEGIN:VEVENT
 UID:estonia-riigikogu-2027@news-26
 DTSTAMP:20261029T180000Z
 DTSTART;VALUE=DATE:20270307
@@ -344,54 +281,5 @@ DESCRIPTION:Estonia: wybory do Riigikogu (głosowanie wcześniejsze i int
  s://www.valimised.ee/en/riigikogu-elections-2027
 URL:https://news-26.github.io/news/kalendarium.html#estonia-riigikogu-2027
 CATEGORIES:Wybory
-END:VEVENT
-BEGIN:VEVENT
-UID:fomc-2027-03@news-26
-DTSTAMP:20261029T180000Z
-DTSTART;VALUE=DATE:20270316
-DTEND;VALUE=DATE:20270318
-SUMMARY:Fed: posiedzenie FOMC z projekcjami gospodarczymi (decyzja 17.03).
-DESCRIPTION:Fed: posiedzenie FOMC z projekcjami gospodarczymi (decyzja 17
- .03). Źródła: Fed (kalendarz FOMC): https://www.federalreserve.gov/mo
- netarypolicy/fomccalendars.htm
-URL:https://news-26.github.io/news/kalendarium.html#fomc-2027-03
-CATEGORIES:Banki centralne
-END:VEVENT
-BEGIN:VEVENT
-UID:ebc-2027-03@news-26
-DTSTAMP:20261029T180000Z
-DTSTART;VALUE=DATE:20270317
-DTEND;VALUE=DATE:20270319
-SUMMARY:EBC: posiedzenie w sprawie polityki pieniężnej (decyzja i konfe
- rencja 18.03).
-DESCRIPTION:EBC: posiedzenie w sprawie polityki pieniężnej (decyzja i k
- onferencja 18.03). Źródła: EBC (kalendarz posiedzeń): https://www.ec
- b.europa.eu/press/calendars/mgcgc/html/index.en.html
-URL:https://news-26.github.io/news/kalendarium.html#ebc-2027-03
-CATEGORIES:Banki centralne
-END:VEVENT
-BEGIN:VEVENT
-UID:fomc-2027-04@news-26
-DTSTAMP:20261029T180000Z
-DTSTART;VALUE=DATE:20270427
-DTEND;VALUE=DATE:20270429
-SUMMARY:Fed: posiedzenie FOMC (termin wstępny).
-DESCRIPTION:Fed: posiedzenie FOMC (termin wstępny). Źródła: Fed (kale
- ndarz FOMC): https://www.federalreserve.gov/monetarypolicy/fomccalendars
- .htm
-URL:https://news-26.github.io/news/kalendarium.html#fomc-2027-04
-CATEGORIES:Banki centralne
-END:VEVENT
-BEGIN:VEVENT
-UID:ebc-2027-04@news-26
-DTSTAMP:20261029T180000Z
-DTSTART;VALUE=DATE:20270428
-DTEND;VALUE=DATE:20270430
-SUMMARY:EBC: posiedzenie w sprawie polityki pieniężnej.
-DESCRIPTION:EBC: posiedzenie w sprawie polityki pieniężnej. Źródła: 
- EBC (kalendarz posiedzeń): https://www.ecb.europa.eu/press/calendars/mg
- cgc/html/index.en.html
-URL:https://news-26.github.io/news/kalendarium.html#ebc-2027-04
-CATEGORIES:Banki centralne
 END:VEVENT
 END:VCALENDAR

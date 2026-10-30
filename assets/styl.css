@@ -437,14 +437,17 @@ button.kal-strz[disabled] { color: var(--linia); cursor: default; }
 .kalm .poz { grid-template-columns: 82px 1fr; }
 .kalm .poz::before { left: 96px; }
 #fk-all:checked ~ .filtr label[for="fk-all"], #fk-szczyt:checked ~ .filtr label[for="fk-szczyt"],
-#fk-wybory:checked ~ .filtr label[for="fk-wybory"], #fk-banki:checked ~ .filtr label[for="fk-banki"],
-#fk-instytucje:checked ~ .filtr label[for="fk-instytucje"],
+#fk-wybory:checked ~ .filtr label[for="fk-wybory"],
+#fk-instytucje:checked ~ .filtr label[for="fk-instytucje"], #fk-sojusze:checked ~ .filtr label[for="fk-sojusze"],
+#fk-rozmowy:checked ~ .filtr label[for="fk-rozmowy"],
 #fk-inne:checked ~ .filtr label[for="fk-inne"] { background: var(--atrament); color: var(--papier); border-color: var(--atrament); }
 #fk-szczyt:checked ~ .kalm .poz:not(.k-szczyt), #fk-wybory:checked ~ .kalm .poz:not(.k-wybory),
-#fk-banki:checked ~ .kalm .poz:not(.k-banki), #fk-instytucje:checked ~ .kalm .poz:not(.k-instytucje),
+#fk-instytucje:checked ~ .kalm .poz:not(.k-instytucje),
+#fk-sojusze:checked ~ .kalm .poz:not(.k-sojusze), #fk-rozmowy:checked ~ .kalm .poz:not(.k-rozmowy),
 #fk-inne:checked ~ .kalm .poz:not(.k-inne) { display: none; }
 #fk-szczyt:checked ~ .kalm .kalm-m:not(:has(.k-szczyt)), #fk-wybory:checked ~ .kalm .kalm-m:not(:has(.k-wybory)),
-#fk-banki:checked ~ .kalm .kalm-m:not(:has(.k-banki)), #fk-instytucje:checked ~ .kalm .kalm-m:not(:has(.k-instytucje)),
+#fk-instytucje:checked ~ .kalm .kalm-m:not(:has(.k-instytucje)),
+#fk-sojusze:checked ~ .kalm .kalm-m:not(:has(.k-sojusze)), #fk-rozmowy:checked ~ .kalm .kalm-m:not(:has(.k-rozmowy)),
 #fk-inne:checked ~ .kalm .kalm-m:not(:has(.k-inne)) { display: none; }
 @media (max-width: 600px) { .kalm .poz::before { left: 5px; } }
 
@@ -480,7 +483,8 @@ button.kal-strz[disabled] { color: var(--linia); cursor: default; }
   font: 13px/1.45 var(--sans); box-shadow: 0 4px 14px rgba(0,0,0,.18); pointer-events: none; }
 .os-chmurka b { display: block; margin-bottom: 2px; }
 #fk-szczyt:checked ~ .os .os-pas:not(.k-szczyt), #fk-wybory:checked ~ .os .os-pas:not(.k-wybory),
-#fk-banki:checked ~ .os .os-pas:not(.k-banki), #fk-instytucje:checked ~ .os .os-pas:not(.k-instytucje),
+#fk-instytucje:checked ~ .os .os-pas:not(.k-instytucje),
+#fk-sojusze:checked ~ .os .os-pas:not(.k-sojusze), #fk-rozmowy:checked ~ .os .os-pas:not(.k-rozmowy),
 #fk-inne:checked ~ .os .os-pas:not(.k-inne) { display: none; }
 @media (max-width: 560px) { .os-przewin { display: inline; } .os { padding: 10px 8px; } .os-pas, .os-skala { grid-template-columns: 86px 1fr; } }
 @media print { .os-chmurka { display: none; } }

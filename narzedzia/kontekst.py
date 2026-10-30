@@ -84,7 +84,14 @@ def main():
         if not B.obowiazkowy(t) and dzis <= od <= dzis + dt.timedelta(days=10):
             print(f"- {t['od']}–{do.isoformat()} [{t.get('kategoria')}] {t['tekst'][:110]} (id {t['id']})")
     kon = max((t.get("do") or t["od"] for t in terminy), default="–")
-    print(f"Kalendarium sięga do {kon}; ma sięgać pół roku naprzód – dopisz nowe zapowiedzi (szczyty, wybory, banki centralne).")
+    print(f"Kalendarium sięga do {kon}; ma sięgać pół roku naprzód – dopisz nowe zapowiedzi (szczyty, sojusze, rozmowy pokojowe, wybory).")
+    if prev:
+        brak = [k for k in prev.get("kalendarz", []) + prev.get("poza_oknem", [])
+                if k["data"] > dzis.isoformat() and not k.get("poza_kalendarium") and not B.w_kalendarium(k, terminy)]
+        if brak:
+            print("Zapowiedzi z poprzedniego wydania bez odpowiednika w kalendarium (dopisz do terminy.json albo pole poza_kalendarium z powodem):")
+            for k in sorted(brak, key=lambda k: k["data"]):
+                print(f"- {k['data']} [{','.join(k.get('tagi', []))}] {B.czysty(k['tekst'], osoby, pojecia)[:140]}")
     print("\n## Karty osób z ostatnich 3 wydań starsze niż 7 dni (sprawdź, jeśli występują dziś)")
     uzyte = set()
     for w in dzienne[-3:]:

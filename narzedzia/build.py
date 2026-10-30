@@ -49,6 +49,8 @@ WERDYKTY = {"POTWIERDZONE", "SPROSTOWANE", "NADAL OTWARTE"}
 #  1. „W obserwacji” z progiem dokumentacja: pole id i lista „sprawdzono” (min. 3 miejsca, w tym komunikat instytucji).
 #  2. Następne wydanie dzienne rozlicza każdy taki wpis w „rozstrzygniecia”.
 #  3. Termin z kalendarza po upływie 2 dni ma pozycję w zarysie albo wpis w sekcji „W obserwacji” z polem „kalendarz”.
+#  5. Od ZAPOWIEDZI_OD: przyszły termin z kalendarza wydania i „poza oknem” ma odpowiednik w kalendarium
+#     (dane/terminy.json) albo pole „poza_kalendarium” z powodem.
 STRAZE_OD = "2026-10-05"
 SLOWNIK_OD = "2026-10-22"  # od tej daty: osoby z kartą muszą mieć odnośnik, a hashtagi z zarysu – aktualny stan
 DNI_NA_ROZLICZENIE_KALENDARZA = 2
@@ -152,8 +154,17 @@ def podstawa_ok(zrodla, ranking=None, scisle=False):
 
 TERMINY = []  # dane/terminy.json – zaplanowane wydarzenia (kalendarium); obowiązkowe przechodzą przez straże
 KALENDARIUM_DNI = 183  # zakładka Kalendarium: pół roku naprzód od najnowszego wydania
-KATEGORIE_TERMINOW = {"szczyt": "Szczyty", "wybory": "Wybory", "banki": "Banki centralne",
+KATEGORIE_TERMINOW = {"szczyt": "Szczyty", "sojusze": "Sojusze i formaty", "rozmowy": "Rozmowy pokojowe i bezpieczeństwa",
+                      "wybory": "Wybory",
                       "instytucje": "Instytucje i organizacje", "inne": "Inne"}
+ZAPOWIEDZI_OD = "2026-10-31"  # od tej daty: przyszły termin z kalendarza wydania ma odpowiednik w kalendarium albo pole poza_kalendarium
+
+
+def w_kalendarium(k, terminy=None):
+    """Czy wpis kalendarza wydania ma odpowiednik w dane/terminy.json (data w [od, do] i wspólny hashtag)."""
+    kt = set(k.get("tagi", []))
+    return any(t["od"] <= k["data"] <= (t.get("do") or t["od"]) and (kt & set(t.get("tagi", [])) or not kt)
+               for t in (TERMINY if terminy is None else terminy))
 
 
 def obowiazkowy(t):
@@ -471,6 +482,17 @@ def waliduj_straze(wydania, tagi, b: Bledy, od=None, raport=None):
                 zglos(f"{w['_plik']} kalendarz {k['data']}",
                       f"termin minął, a w zarysie (zdarzenia {k['data']} – +{DNI_NA_ROZLICZENIE_KALENDARZA} dni, hashtagi {sorted(miejsca or kt)}) "
                       f"nie ma pozycji ani wpisu w sekcji „W obserwacji” z polem kalendarz: „{k['tekst'][:90]}…”")
+
+    # 5. zapowiedzi wykryte w wydaniu trafiają do kalendarium
+    for w in dzienne:
+        if w["data"] < ZAPOWIEDZI_OD:
+            continue
+        for k in w.get("kalendarz", []) + w.get("poza_oknem", []):
+            if k.get("data", "") <= w["data"] or k.get("poza_kalendarium") or w_kalendarium(k):
+                continue
+            zglos(f"{w['_plik']} kalendarz {k['data']}",
+                  f"zapowiedź nie ma odpowiednika w dane/terminy.json (data w od–do i wspólny hashtag) ani pola poza_kalendarium "
+                  f"z powodem: „{k.get('tekst', '')[:90]}”")
 
     # 4. terminy obowiązkowe (dane/terminy.json): w kalendarzu na 7 dni przed i w zarysie po
     for i, t in enumerate(TERMINY):
@@ -1787,7 +1809,7 @@ class Budowa:
         cz = [f"""<section class="winieta">
   <p class="w-nr">Kalendarium</p>
   <h1>Najważniejsze wydarzenia międzynarodowe na pół roku naprzód</h1>
-  <p class="w-stan">Od {data_dluga(ref)} do {data_dluga(koniec.isoformat())}: {len(lista)} terminów – szczyty, wybory, decyzje banków centralnych i posiedzenia instytucji. Każdy termin ma źródło; aktualizujemy je przy każdym wydaniu. <span class="odznaka kluczowe">kluczowe</span> – wydarzenie, które wydanie zawsze odnotuje.</p>
+  <p class="w-stan">Od {data_dluga(ref)} do {data_dluga(koniec.isoformat())}: {len(lista)} terminów – szczyty, spotkania sojuszy, rozmowy pokojowe, wybory i posiedzenia instytucji. Każdy termin ma źródło; aktualizujemy je przy każdym wydaniu. <span class="odznaka kluczowe">kluczowe</span> – wydarzenie, które wydanie zawsze odnotuje.</p>
   <p class="w-stan"><a href="kalendarium.ics">Dodaj do swojego kalendarza (plik .ics)</a></p>
 </section>"""]
         if not lista:
@@ -1829,7 +1851,7 @@ class Budowa:
                       "[].forEach.call(document.querySelectorAll('.kalm-m'),function(m){if(!m.querySelector('.poz:not([hidden])'))m.hidden=true;});})();</script>")
         cz.append('<p class="dalej">Terminy, które już minęły, znajdziesz w wydaniach: <a href="kalendarz.html">Kalendarz wydań</a>.</p>')
         self.zapisz("kalendarium.html", strona("Kalendarium", "\n".join(cz), "",
-                                               "Najważniejsze wydarzenia międzynarodowe na pół roku naprzód – szczyty, wybory, banki centralne – ze źródłami.", "kalendarium"))
+                                               "Najważniejsze wydarzenia międzynarodowe na pół roku naprzód – szczyty, sojusze, rozmowy pokojowe, wybory – ze źródłami.", "kalendarium"))
         self.kalendarium_ics(lista)
 
     def os_kalendarium(self, lista, od, do, kat):

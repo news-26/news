@@ -143,26 +143,6 @@
       "krotko": "Serbia: parlament"
     },
     {
-      "id": "fomc-2026-10",
-      "od": "2026-10-27",
-      "do": "2026-10-28",
-      "kategoria": "banki",
-      "obowiazkowy": false,
-      "tagi": [
-        "gospodarka",
-        "usa"
-      ],
-      "tekst": "Fed: posiedzenie FOMC (decyzja o stopach 28.10).",
-      "zrodla": [
-        {
-          "nazwa": "Fed (kalendarz FOMC)",
-          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-          "data": "2026-10-05"
-        }
-      ],
-      "krotko": "Fed"
-    },
-    {
       "id": "izrael-kneset-2026",
       "od": "2026-10-27",
       "kategoria": "wybory",
@@ -184,25 +164,6 @@
         }
       ],
       "krotko": "Izrael: Kneset"
-    },
-    {
-      "id": "ebc-2026-10",
-      "od": "2026-10-28",
-      "do": "2026-10-29",
-      "kategoria": "banki",
-      "obowiazkowy": false,
-      "tagi": [
-        "gospodarka"
-      ],
-      "tekst": "EBC: posiedzenie Rady Prezesów w sprawie polityki pieniężnej (decyzja i konferencja 29.10).",
-      "zrodla": [
-        {
-          "nazwa": "EBC (kalendarz posiedzeń)",
-          "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
-          "data": "2026-10-05"
-        }
-      ],
-      "krotko": "EBC"
     },
     {
       "id": "ue-kanada-2026",
@@ -419,26 +380,6 @@
       "krotko": "OBWE"
     },
     {
-      "id": "fomc-2026-12",
-      "od": "2026-12-08",
-      "do": "2026-12-09",
-      "kategoria": "banki",
-      "obowiazkowy": false,
-      "tagi": [
-        "gospodarka",
-        "usa"
-      ],
-      "tekst": "Fed: posiedzenie FOMC z projekcjami gospodarczymi (decyzja 9.12).",
-      "zrodla": [
-        {
-          "nazwa": "Fed (kalendarz FOMC)",
-          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-          "data": "2026-10-05"
-        }
-      ],
-      "krotko": "Fed"
-    },
-    {
       "id": "g20-2026",
       "od": "2026-12-14",
       "do": "2026-12-15",
@@ -455,25 +396,6 @@
       ],
       "kategoria": "szczyt",
       "krotko": "G20"
-    },
-    {
-      "id": "ebc-2026-12",
-      "od": "2026-12-16",
-      "do": "2026-12-17",
-      "kategoria": "banki",
-      "obowiazkowy": false,
-      "tagi": [
-        "gospodarka"
-      ],
-      "tekst": "EBC: posiedzenie w sprawie polityki pieniężnej (decyzja i konferencja 17.12).",
-      "zrodla": [
-        {
-          "nazwa": "EBC (kalendarz posiedzeń)",
-          "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
-          "data": "2026-10-05"
-        }
-      ],
-      "krotko": "EBC"
     },
     {
       "id": "rada-europejska-2026-12",
@@ -604,45 +526,6 @@
       "krotko": "Litwa: art. 137"
     },
     {
-      "id": "fomc-2027-01",
-      "od": "2027-01-26",
-      "do": "2027-01-27",
-      "kategoria": "banki",
-      "obowiazkowy": false,
-      "tagi": [
-        "gospodarka",
-        "usa"
-      ],
-      "tekst": "Fed: posiedzenie FOMC (decyzja 27.01).",
-      "zrodla": [
-        {
-          "nazwa": "Fed (kalendarz FOMC)",
-          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-          "data": "2026-10-05"
-        }
-      ],
-      "krotko": "Fed"
-    },
-    {
-      "id": "ebc-2027-02",
-      "od": "2027-02-03",
-      "do": "2027-02-04",
-      "kategoria": "banki",
-      "obowiazkowy": false,
-      "tagi": [
-        "gospodarka"
-      ],
-      "tekst": "EBC: posiedzenie w sprawie polityki pieniężnej (decyzja i konferencja 4.02).",
-      "zrodla": [
-        {
-          "nazwa": "EBC (kalendarz posiedzeń)",
-          "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
-          "data": "2026-10-05"
-        }
-      ],
-      "krotko": "EBC"
-    },
-    {
       "id": "estonia-riigikogu-2027",
       "od": "2027-03-07",
       "kategoria": "wybory",
@@ -659,83 +542,6 @@
         }
       ],
       "krotko": "Estonia: Riigikogu"
-    },
-    {
-      "id": "fomc-2027-03",
-      "od": "2027-03-16",
-      "do": "2027-03-17",
-      "kategoria": "banki",
-      "obowiazkowy": false,
-      "tagi": [
-        "gospodarka",
-        "usa"
-      ],
-      "tekst": "Fed: posiedzenie FOMC z projekcjami gospodarczymi (decyzja 17.03).",
-      "zrodla": [
-        {
-          "nazwa": "Fed (kalendarz FOMC)",
-          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-          "data": "2026-10-05"
-        }
-      ],
-      "krotko": "Fed"
-    },
-    {
-      "id": "ebc-2027-03",
-      "od": "2027-03-17",
-      "do": "2027-03-18",
-      "kategoria": "banki",
-      "obowiazkowy": false,
-      "tagi": [
-        "gospodarka"
-      ],
-      "tekst": "EBC: posiedzenie w sprawie polityki pieniężnej (decyzja i konferencja 18.03).",
-      "zrodla": [
-        {
-          "nazwa": "EBC (kalendarz posiedzeń)",
-          "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
-          "data": "2026-10-05"
-        }
-      ],
-      "krotko": "EBC"
-    },
-    {
-      "id": "fomc-2027-04",
-      "od": "2027-04-27",
-      "do": "2027-04-28",
-      "kategoria": "banki",
-      "obowiazkowy": false,
-      "tagi": [
-        "gospodarka"
-      ],
-      "tekst": "Fed: posiedzenie FOMC (termin wstępny).",
-      "zrodla": [
-        {
-          "nazwa": "Fed (kalendarz FOMC)",
-          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-          "data": "2026-10-06"
-        }
-      ],
-      "krotko": "Fed"
-    },
-    {
-      "id": "ebc-2027-04",
-      "od": "2027-04-28",
-      "do": "2027-04-29",
-      "kategoria": "banki",
-      "obowiazkowy": false,
-      "tagi": [
-        "gospodarka"
-      ],
-      "tekst": "EBC: posiedzenie w sprawie polityki pieniężnej.",
-      "zrodla": [
-        {
-          "nazwa": "EBC (kalendarz posiedzeń)",
-          "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
-          "data": "2026-10-06"
-        }
-      ],
-      "krotko": "EBC"
     },
     {
       "id": "bulgaria-prezydent-ii-tura-2026",

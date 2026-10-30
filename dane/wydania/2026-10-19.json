@@ -182,7 +182,7 @@
    "tytul": "OSW: ataki ukraińskich dronów na rosyjskie centra danych – mały skutek gospodarczy, duży polityczny; suwerenizacja rosyjskiego internetu zwiększa podatność",
    "autor": "OSW (Iwona Wiśniewska), analiza z 19.10.2026",
    "tekst": "Według OSW od 7 do 11.10 ukraińskie drony trafiły w trzy z sześciu centrów danych Yandeksu (Sasowo, Włodzimierz – zatrzymane, w Kałudze uszkodzono część infrastruktury), 14.10 w centrum Sbierbanku w Bałakowie, a 18.10 w serwerownię obsługującą VK w obwodzie leningradzkim; Yandex i Sbierbank potwierdziły ataki, choć Yandex od 8.10 działa w trybie awaryjnym, z zakłóceniami wyszukiwarki, nawigacji, transportu i płatności. Autorka ocenia, że gospodarczo to cios ograniczony (impuls inflacyjny, niższe wpływy budżetu), ale politycznie uderza w interesy elity kontrolującej Yandex i VK. Podatność zwiększa polityka suwerenizacji rosyjskiego internetu: wymóg przechowywania danych w kraju nie pozwala przenieść kopii poza zasięg dronów, a sprzęt IT, w tym superkomputery zbudowane na sprzęcie NVIDIA, Rosja musi importować z obejściem sankcji. Według szacunków przywołanych przez OSW przywrócenie pełnej funkcjonalności systemu Yandeksu potrwa co najmniej pół roku.",
-   "dla_polski": "Wniosek redakcji (nie teza OSW): centra danych stały się celem wojskowym po obu stronach (OSW przypomina rosyjskie ataki z 27.09 na centra danych w Kijowie i Dnieprze) – kontrast z Ukrainą, która utrzymała usługi dzięki chmurze i serwerom w UE, to argument za rozproszeniem i zapasowymi lokalizacjami danych państwa i operatorów w Polsce.",
+   "dla_polski": "Wniosek autora (nie teza OSW): centra danych stały się celem wojskowym po obu stronach (OSW przypomina rosyjskie ataki z 27.09 na centra danych w Kijowie i Dnieprze) – kontrast z Ukrainą, która utrzymała usługi dzięki chmurze i serwerom w UE, to argument za rozproszeniem i zapasowymi lokalizacjami danych państwa i operatorów w Polsce.",
    "tagi": [
     "rosja",
     "ukraina",
@@ -201,7 +201,7 @@
    "tytul": "OSW: Węgry odblokowały dwa klastry negocjacyjne Ukrainy z UE – „ocieplenie” warunkowe, nie zwrot w polityce Magyara",
    "autor": "OSW (Kacper Sienicki, Ilona Gizińska, Marcin Jędrysiak), analiza z 16.10.2026",
    "tekst": "Według OSW 13.10 w Luksemburgu państwa UE zgodziły się na otwarcie z Ukrainą klastra 2 (rynek wewnętrzny) i 3 (konkurencyjność i wzrost sprzyjający włączeniu społecznemu), łącznie 17 rozdziałów; Rada Europejska potwierdziła to 16.10, otwarte są już cztery z sześciu klastrów. Węgry zdjęły weto po nowelizacji ukraińskiej ustawy oświatowej z 12.10 (szkoły mniejszościowe, języki i symbole mniejszości). Autorzy oceniają zgodę jako warunkową: zobowiązania oświatowe mają być wykonane do końca 2026 r., pozostałe w 2027 r., a ich niewykonanie może przywrócić blokadę. Rząd Pétera {{o:peter-magyar|Magyara}} wybrał dialog zamiast konfrontacji, lecz nie przyspiesza negocjacji, zapowiada przyszłe referendum w sprawie członkostwa Ukrainy, nie udziela pomocy wojskowej i nie zgadza się na tranzyt broni.",
-   "dla_polski": "Otwarcie klastra rynku wewnętrznego przybliża integrację gospodarki ukraińskiej z jednolitym rynkiem przed akcesją; według OSW Kijów i Bruksela chcą jeszcze w tym roku otworzyć klastry 4 i 5, obejmujące m.in. rolnictwo i transport. Wniosek redakcji (nie teza OSW): to obszary najbardziej sporne dla polskich rolników i przewoźników.",
+   "dla_polski": "Otwarcie klastra rynku wewnętrznego przybliża integrację gospodarki ukraińskiej z jednolitym rynkiem przed akcesją; według OSW Kijów i Bruksela chcą jeszcze w tym roku otworzyć klastry 4 i 5, obejmujące m.in. rolnictwo i transport. Wniosek autora (nie teza OSW): to obszary najbardziej sporne dla polskich rolników i przewoźników.",
    "tagi": [
     "wegry",
     "ukraina",
@@ -219,7 +219,7 @@
    "tytul": "OSW: problemy Ukrainy z amerykańskimi danymi wywiadowczymi i systemem Starshield – brak potwierdzenia wstrzymania, zależność od USA realna",
    "autor": "OSW (Andrzej Wilk), analiza z 14.10.2026",
    "tekst": "Według autora Zełenski mówił, że partnerzy nie ostrzegli Ukrainy przed rosyjskimi atakami balistycznymi na Kijów 12 i 13.10 oraz że administracja USA groziła wstrzymaniem danych wywiadowczych, jeśli Kijów nie zaprzestanie uderzeń w rosyjskie rafinerie. OSW nie widzi potwierdzenia zawieszenia przekazywania danych i zwraca uwagę, że starty rakiet bywały niewykrywane wcześniej, m.in. przez pogodę i luki w pokryciu satelitarnym; zakłócenia dronów wynikały z ograniczeń SpaceX dla {{p:starshield|Starshield}}, wojskowej wersji Starlinka. Ocena OSW wyprzedza dzisiejsze wypowiedzi Rubio (z4), który zaprzecza „pauzie”, i atak z 19.10 (z3).",
-   "dla_polski": "Wniosek redakcji (wnioskowanie, nie teza OSW): zdolności sojuszników zależą od kontrolowanych przez USA danych i usług satelitarnych, które Waszyngton może ograniczyć – ma to znaczenie dla wczesnego ostrzegania na wschodniej flance.",
+   "dla_polski": "Wniosek autora (wnioskowanie, nie teza OSW): zdolności sojuszników zależą od kontrolowanych przez USA danych i usług satelitarnych, które Waszyngton może ograniczyć – ma to znaczenie dla wczesnego ostrzegania na wschodniej flance.",
    "tagi": [
     "ukraina",
     "usa"

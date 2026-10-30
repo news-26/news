@@ -1,5 +1,5 @@
 {
-  "opis": "Ranking wiarygodności źródeł Prasówki: ocena redakcji według kryteriów opisanych na stronie zrodla.html. Dopasowanie: najpierw początek nazwy źródła (wzorce), potem domena linku. Źródło spoza listy nie przejdzie walidacji.",
+  "opis": "Ranking wiarygodności źródeł Prasówki: ocena autora według kryteriów opisanych na stronie zrodla.html. Dopasowanie: najpierw początek nazwy źródła (wzorce), potem domena linku. Źródło spoza listy nie przejdzie walidacji.",
   "kryteria": [
     [
       "Pierwotność",

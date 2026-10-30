@@ -988,7 +988,7 @@ def strona(tytul, tresc, prefix="", opis="", aktywne=""):
 </main>
 <footer class="stopka">
   <div class="wrap">
-    <p>Każda pozycja ma źródło z linkiem i przeszła <a href="{prefix}jak-weryfikujemy.html">procedurę weryfikacji</a>. Oceny analityczne są podpisane autorem i oddzielone od faktów. Błędy prostujemy jawnie w <a href="{prefix}korekty.html">rejestrze korekt</a>.</p>
+    <p>Prasówkę przygotowuje model AI (Claude) według opisanej <a href="{prefix}jak-weryfikujemy.html">procedury weryfikacji</a>; nie stoi za nią redakcja dziennikarzy. Każda pozycja ma źródło z linkiem do samodzielnego sprawdzenia. Oceny analityczne są podpisane autorem i oddzielone od faktów. Błędy prostujemy jawnie w <a href="{prefix}korekty.html">rejestrze korekt</a>.</p>
     <p class="wz-leg">Kolor przy źródle to jego wiarygodność według <a href="{prefix}zrodla.html">rankingu źródeł</a>: <span class="wz wz1"></span>urzędowe <span class="wz wz2"></span>wysoka <span class="wz wz3"></span>z zastrzeżeniami <span class="wz wz4"></span>niska <span class="wz wz5"></span>strona zainteresowana</p>
     <p><a href="{prefix}feed.xml">Kanał RSS</a> · Strona nie jest indeksowana przez wyszukiwarki.</p>
   </div>
@@ -1719,7 +1719,7 @@ class Budowa:
                           f'<li><a href="{z["_slug"]}.html#t{n}">{e(p["tytul"])}</a> <span class="top-okres">{self.top_data(p)}</span> {self.top_odznaka(z, p)}</li>' for n, p in enumerate(z["pozycje"], 1))
                       + "</ol></article>")
         tresc = ('<section class="winieta"><h1>Top 10</h1><p class="w-stan">Dziesięć najważniejszych wydarzeń ostatnich 7 dni, odświeżane codziennie, oraz archiwum zamkniętych zestawień za miesiące kalendarzowe – '
-                 'z przebiegiem, ocenami ekspertów i wnioskiem „Dla Polski”. Kolejność to ocena redakcji; fakty mają źródła.</p>'
+                 'z przebiegiem, ocenami ekspertów i wnioskiem „Dla Polski”. Kolejność to ocena autora; fakty mają źródła.</p>'
                  '<p class="w-stan">Odznaki: <span class="odznaka hist nowe">nowe</span> pierwszy raz w zestawieniu · '
                  '<span class="odznaka hist ponownie">ponownie</span> sprawa była już w zestawieniu, wraca z nowym faktem · '
                  '<span class="odznaka hist rozstrz">rozstrzygnięte</span> sprawa zamknięta.</p></section>'
@@ -2128,7 +2128,7 @@ class Budowa:
                   f'<p class="m-leg">{leg}</p></section>')
         cz.append('<h2 class="pasek">Jak oceniamy</h2><section class="skrot">' + "".join(
             f'<p><strong>{e(n)}:</strong> {e(o)}.</p>' for n, o in RANKING.dane["kryteria"]) +
-            '<p>Ranking to <strong>ocena redakcji Prasówki</strong>, nie obiektywna miara: mówi, ile potwierdzenia potrzebuje informacja z danego źródła. '
+            '<p>Ranking to <strong>ocena autora Prasówki (modelu AI)</strong>, nie obiektywna miara: mówi, ile potwierdzenia potrzebuje informacja z danego źródła. '
             'Poziom dotyczy typowej informacji; źródło z poziomu 5 jest rozstrzygające co do tego, co twierdzi jego rząd, a urzędowe (1) – co do decyzji instytucji, nie co do ocen.</p>'
             '<p><strong>Zasada publikacji (od 01.10.2026 sprawdzana automatycznie):</strong> pozycja zarysu wymaga źródła urzędowego (poziom 1) '
             'albo dwóch niezależnych źródeł z poziomów 1–2. Poziomy 3–5 mogą towarzyszyć, ale nie liczą się do podstawy. '
@@ -2166,7 +2166,7 @@ class Budowa:
 <p><strong>Kompletność (od 5.10.2026).</strong> Po pominięciu szczytu Trump–Xi we wrześniu sprawdzamy nie tylko to, co weszło do wydania, ale i to, czego w nim brakuje. Ważne zaplanowane wydarzenia (szczyty, wizyty przywódców mocarstw, wybory w regionie) prowadzimy na liście terminów: na tydzień przed muszą stać w kalendarzu wydania, a po zakończeniu – w zarysie albo w nocie „W obserwacji” z wyjaśnieniem; inaczej wydanie nie zostanie zbudowane. To samo dotyczy każdego terminu z kalendarza. Wpis „W obserwacji” z braku dokumentacji wymaga listy miejsc sprawdzonych bez skutku (w tym komunikatów instytucji obu stron), a następne wydanie musi go rozstrzygnąć: uzupełnić, uznać za niemożliwy do potwierdzenia albo odrzucić z powodem. Kontrola niezależna porównuje też zarys z głównymi tematami dnia w agencjach.</p>
 <p><strong>Rewizja archiwum.</strong> Do 30.09.2026 używaliśmy oznaczeń NIEPOTWIERDZONE i SPRZECZNE ŹRÓDŁA. 01.10.2026 wszystkie takie pozycje, a także oparte na samych tytułach, sprawdzono ponownie: zostawiono tylko część potwierdzoną, a niepotwierdzone wycofano; wersje pierwotne są w <a href="korekty.html#rewizja">rejestrze korekt</a>.</p>
 <p><span class="odznaka etap">PROPOZYCJA</span> <span class="odznaka etap">ZAPOWIEDŹ</span> <span class="odznaka etap">PRZYJĘTE</span> etap decyzji.</p>
-<p><strong>Ocena: autor</strong> przy analizach oznacza interpretację (OSW, PISM, ISW jako think tank albo redakcja), nie ustalenie.</p>
+<p><strong>Ocena: autor</strong> przy analizach oznacza interpretację (OSW, PISM, ISW jako think tank albo autor Prasówki), nie ustalenie.</p>
 <p><span class="kor-znak">▲</span> pozycja sprostowana później; link prowadzi do sprostowania.</p>
 <p><mark>wyróżnienie</mark> słowo kluczowe pozycji.</p>
 </section>

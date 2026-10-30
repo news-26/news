@@ -115,20 +115,20 @@ Przy wątkach trwających miesiącami liczy się zmiana w danym okresie, nie sam
 ```json
 {
   "od": "2026-09-07", "do": "2026-10-02", "opublikowano": "2026-10-02", "godzina": "09:00",
-  "tytul": "…", "wstep": ["2–3 zdania"], "kryteria": "jak ustalono kolejność (ocena redakcji)",
+  "tytul": "…", "wstep": ["2–3 zdania"], "kryteria": "jak ustalono kolejność (ocena autora)",
   "pozycje": [{
     "id": "krolewiec", "tytul": "…", "data": "2026-09-30 (data wydarzenia z tytułu; kilka faktów: [od, do])", "tagi": ["krolewiec", "nato"], "etap": "PRZYJĘTE (opcjonalnie)",
     "lead": "1–2 zdania z **wyróżnieniem**", "omowienie": ["akapit: kontekst", "akapit: co się zmieniło"],
     "przebieg": [{"data": "2026-09-30", "tekst": "fakt", "etap": "opcjonalnie", "zrodla": [ZRODLO]}],
     "oceny": [{"autor": "OSW (J. Kowalski), Analiza z 1.10.2026", "tekst": "…", "zrodla": [ZRODLO]}],
-    "dla_polski": "… Wniosek redakcji: …", "co_dalej": [{"data": "…", "tekst": "…"}],
+    "dla_polski": "… Wniosek autora: …", "co_dalej": [{"data": "…", "tekst": "…"}],
     "w_wydaniach": ["2026-09-30#z2"]
   }],
   "czego_nie_ma": [{"tekst": "…", "prog": "dokumentacja|następstwo|kompletność"}], "nota": "…"
 }
 ```
 
-Walidacja jak w wydaniach: każdy wiersz `przebieg` musi mieć źródło z poziomu 1 albo dwa niezależne z poziomów 1–2 (daty w okresie zestawienia, dopuszczalny tydzień kontekstu przed jego początkiem), każda ocena – autora, osoby i pojęcia – karty, `w_wydaniach` – istniejące pozycje. Lead i omówienie mogą zawierać tylko fakty z wierszy przebiegu; interpretacja należy do ocen (z autorem) i do „Dla Polski” (oznaczonej jako wniosek redakcji). Najwyżej 10 pozycji.
+Walidacja jak w wydaniach: każdy wiersz `przebieg` musi mieć źródło z poziomu 1 albo dwa niezależne z poziomów 1–2 (daty w okresie zestawienia, dopuszczalny tydzień kontekstu przed jego początkiem), każda ocena – autora, osoby i pojęcia – karty, `w_wydaniach` – istniejące pozycje. Lead i omówienie mogą zawierać tylko fakty z wierszy przebiegu; interpretacja należy do ocen (z autorem) i do „Dla Polski” (oznaczonej jako wniosek autora). Najwyżej 10 pozycji.
 
 ## Ranking źródeł
 

@@ -21,7 +21,7 @@ Dwa rodzaje zestawień, ten sam format (README, „Zestawienia Top 10”):
 
 Wątki wielomiesięczne (wojna, Iran, Królewiec): wchodzi zmiana w okresie, nie wątek.
 
-Kolejność: (1) wpływ na bezpieczeństwo i interesy Polski, (2) waga dla sytuacji międzynarodowej i skala, (3) trwałość skutków. Zwykle 2–3 sprawy o wadze globalnej, nawet przy pośrednim skutku dla Polski. Ranking to ocena redakcji – opisz ją w polu `kryteria`. Najwyżej 10 pozycji, mniej, gdy w tygodniu mniej spraw spełnia kryteria – nie dopełniaj listy; miejsca 11+ można wymienić w `czego_nie_ma` z progiem „następstwo”.
+Kolejność: (1) wpływ na bezpieczeństwo i interesy Polski, (2) waga dla sytuacji międzynarodowej i skala, (3) trwałość skutków. Zwykle 2–3 sprawy o wadze globalnej, nawet przy pośrednim skutku dla Polski. Ranking to ocena autora – opisz ją w polu `kryteria`. Najwyżej 10 pozycji, mniej, gdy w tygodniu mniej spraw spełnia kryteria – nie dopełniaj listy; miejsca 11+ można wymienić w `czego_nie_ma` z progiem „następstwo”.
 
 ## Tytuły
 

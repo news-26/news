@@ -32,7 +32,7 @@
       "nazwa": "Belgrad",
       "lon": 20.46,
       "lat": 44.82,
-      "kraj": "balkany"
+      "kraj": "Serbia"
     },
     {
       "id": "berlin",
@@ -198,7 +198,7 @@
       "nazwa": "Kopenhaga",
       "lon": 12.57,
       "lat": 55.68,
-      "kraj": "nordyckie"
+      "kraj": "Dania"
     },
     {
       "id": "kowno",
@@ -364,7 +364,7 @@
       "nazwa": "Oslo",
       "lon": 10.75,
       "lat": 59.91,
-      "kraj": "nordyckie"
+      "kraj": "Norwegia"
     },
     {
       "id": "paryz",
@@ -406,7 +406,7 @@
       "nazwa": "Prisztina",
       "lon": 21.17,
       "lat": 42.66,
-      "kraj": "balkany"
+      "kraj": "Kosowo"
     },
     {
       "id": "pryluki",
@@ -462,7 +462,7 @@
       "nazwa": "Sarajewo",
       "lon": 18.41,
       "lat": 43.86,
-      "kraj": "balkany"
+      "kraj": "Bośnia i Hercegowina"
     },
     {
       "id": "sasowo",
@@ -490,7 +490,7 @@
       "nazwa": "Sztokholm",
       "lon": 18.07,
       "lat": 59.33,
-      "kraj": "nordyckie"
+      "kraj": "Szwecja"
     },
     {
       "id": "tallinn",
@@ -518,7 +518,7 @@
       "nazwa": "Tirana",
       "lon": 19.82,
       "lat": 41.33,
-      "kraj": "balkany"
+      "kraj": "Albania"
     },
     {
       "id": "trappes",

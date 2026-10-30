@@ -204,8 +204,22 @@ def sprawdz_slownik_miejsc(b):
         if not (isinstance(m.get("lon"), (int, float)) and -180 <= m["lon"] <= 180
                 and isinstance(m.get("lat"), (int, float)) and -90 <= m["lat"] <= 90):
             b.dodaj(g, "lon (−180…180) i lat (−90…90) muszą być liczbami w stopniach")
-        if "kraj" in m and not (isinstance(m["kraj"], str) and m["kraj"].strip()):
-            b.dodaj(g, "kraj: id hashtagu państwa/regionu albo polska nazwa państwa")
+        if "kraj" in m and not (isinstance(m["kraj"], str) and m["kraj"].strip() and m["kraj"] not in REGIONY):
+            b.dodaj(g, "kraj: konkretne państwo – id hashtagu państwa albo polska nazwa, nie region")
+
+
+REGIONY = {"balkany", "nordyckie", "afryka", "ameryki", "inne"}
+
+
+def sprawdz_kraje(it, gdzie, b):
+    """Pole kraje (zarys i analizy): konkretne państwa sprawy – id hashtagu państwa albo polska nazwa, nie region."""
+    k = it.get("kraje")
+    if k is None:
+        return
+    if not (isinstance(k, list) and all(isinstance(x, str) and x.strip() for x in k)):
+        b.dodaj(gdzie, "kraje: lista nazw państw albo id hashtagów państw")
+    elif set(k) & REGIONY:
+        b.dodaj(gdzie, f"kraje: konkretne państwo zamiast regionu ({', '.join(sorted(set(k) & REGIONY))})")
 
 
 def sprawdz_miejsce(it, gdzie, b):
@@ -560,6 +574,10 @@ def waliduj(tagi, osoby, pojecia, wydania, rewizje=(), topy=()) -> Bledy:
             for t in o["kraj"]:
                 if t not in tagi:
                     b.dodaj(g, f"kraj: nieznany hashtag {t}")
+        if o.get("kraj") and set(o["kraj"]) <= REGIONY and not o.get("panstwo"):
+            b.dodaj(g, "kraj inne lub region wymaga pola panstwo (polska nazwa państwa z funkcji)")
+        if "panstwo" in o and not (isinstance(o["panstwo"], str) and o["panstwo"].strip()):
+            b.dodaj(g, "panstwo: polska nazwa państwa")
         sprawdz_zrodla(o.get("zrodla"), g, b)
     klucze = set()
     for w in wydania:
@@ -597,6 +615,7 @@ def waliduj(tagi, osoby, pojecia, wydania, rewizje=(), topy=()) -> Bledy:
                 b.dodaj(g, f"etap musi być jednym z {sorted(s for s in ETAPY if s)}")
             sprawdz_tagi(it.get("tagi"), g, tagi, b)
             sprawdz_miejsce(it, g, b)
+            sprawdz_kraje(it, g, b)
             sprawdz_tekst(it.get("tekst"), g, osoby, pojecia, b)
             sprawdz_zrodla(it.get("zrodla"), g, b)
         for i, a in enumerate(w.get("analizy", [])):
@@ -605,6 +624,7 @@ def waliduj(tagi, osoby, pojecia, wydania, rewizje=(), topy=()) -> Bledy:
                 if not a.get(pole):
                     b.dodaj(g, f"brak pola {pole} (ocena zawsze z autorem i wnioskiem dla Polski)")
             sprawdz_tagi(a.get("tagi"), g, tagi, b)
+            sprawdz_kraje(a, g, b)
             sprawdz_tekst(a.get("tekst"), g, osoby, pojecia, b)
             sprawdz_zrodla(a.get("zrodla"), g, b)
         for i, k in enumerate(w.get("kalendarz", []) + w.get("poza_oknem", [])):
@@ -2197,20 +2217,20 @@ class Budowa:
         for pid, p in self.pojecia.items():
             wezel(f"p:{pid}", "p", p["nazwa"], p.get("pelna") or p["definicja"], f"pojecia/{pid}.html")
 
-        def kraj_wezel(miejsce):
-            """Węzeł państwa z miejsca zdarzenia: hashtag, gdy istnieje, inaczej węzeł samego państwa (bez strony wątku)."""
-            k = (MIEJSCA.get(miejsce) or {}).get("kraj") if miejsce else None
+        def kraj_wezel(k):
+            """Węzeł państwa: hashtag, gdy istnieje, inaczej węzeł samego państwa (bez strony wątku)."""
             if not k:
                 return None
             if f"t:{k}" in indeks:
                 return indeks[f"t:{k}"]
-            return wezel(f"k:{k}", "k", k, "Państwo – pozycje z miejscem zdarzenia na jego terytorium.", "")
+            return wezel(f"k:{k}", "k", k, "Państwo – pozycje i analizy, które go dotyczą.", "")
 
-        def encje(teksty, tagi, miejsce=None):
+        def encje(teksty, tagi, miejsce=None, kraje=()):
             n = {indeks[f"t:{t}"] for t in tagi if f"t:{t}" in indeks}
-            kw = kraj_wezel(miejsce)
-            if kw is not None:
-                n.add(kw)
+            for k in [(MIEJSCA.get(miejsce) or {}).get("kraj") if miejsce else None, *kraje]:
+                kw = kraj_wezel(k)
+                if kw is not None:
+                    n.add(kw)
             for s in teksty:
                 if not s:
                     continue
@@ -2224,14 +2244,14 @@ class Budowa:
         zdarzenia = []
         for w in self.wydania:
             for it in w["zarys"]:
-                n = encje([it["tekst"], it.get("dla_polski")], it["tagi"], it.get("miejsce"))
+                n = encje([it["tekst"], it.get("dla_polski")], it["tagi"], it.get("miejsce"), it.get("kraje") or ())
                 if len(n) < 1:
                     continue
                 tekst = czysty(it["tekst"], self.osoby, self.pojecia)
                 zdarzenia.append({"d": it["data"], "k": it.get("krotko") or "", "x": skroc(tekst, 260),
                                   "u": f"wydania/{w['_slug']}.html#{it['id']}", "w": w["nr"], "n": n})
             for j, a in enumerate(w.get("analizy") or []):
-                n = encje([a["tekst"], a.get("dla_polski")], a.get("tagi", []))
+                n = encje([a["tekst"], a.get("dla_polski")], a.get("tagi", []), None, a.get("kraje") or ())
                 if not n:
                     continue
                 zdarzenia.append({"d": w["data"], "k": a["tytul"], "x": "Ocena: " + a["autor"], "a": 1,
@@ -2239,6 +2259,7 @@ class Budowa:
         zdarzenia.sort(key=lambda z: z["d"], reverse=True)
         stale = [[indeks[f"o:{oid}"], indeks[f"t:{t}"]] for oid, o in self.osoby.items()
                  for t in o.get("kraj", []) if f"t:{t}" in indeks]
+        stale += [[indeks[f"o:{oid}"], kraj_wezel(o["panstwo"])] for oid, o in self.osoby.items() if o.get("panstwo")]
         uzyte = {i for z in zdarzenia for i in z["n"]}
         uzyte = sorted(uzyte | {k for o_, k in stale if o_ in uzyte})
         nowy = {s: i for i, s in enumerate(uzyte)}

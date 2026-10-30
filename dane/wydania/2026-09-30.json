@@ -253,6 +253,10 @@
           "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-september-28-2026",
           "data": "2026-09-28"
         }
+      ],
+      "kraje": [
+        "ukraina",
+        "Polska"
       ]
     },
     {
@@ -270,6 +274,9 @@
           "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-09-28/dymisja-prezydenta-vucicia-w-serbii-teatr-jednego-aktora",
           "data": "2026-09-28"
         }
+      ],
+      "kraje": [
+        "Serbia"
       ]
     }
   ],

@@ -1,109 +1,19 @@
 {
- "od": "2026-10-23",
- "do": "2026-10-29",
- "opublikowano": "2026-10-30",
+ "od": "2026-10-24",
+ "do": "2026-10-30",
+ "opublikowano": "2026-10-31",
  "godzina": "04:45",
- "tytul": "Top 10: ostatnie 7 dni (23–29.10.2026)",
+ "tytul": "Top 10: ostatnie 7 dni (24–30.10.2026)",
  "wstep": [
-  "Najważniejsze sprawy z ostatnich 7 dni (23–29.10.2026) – w tym tygodniu siedem spełnia kryteria. Każda ma przebieg z datami i źródłami oraz wniosek „Dla Polski”; starsze sprawy są w archiwum miesięcznym.",
-  "Oś tygodnia to **Morze Czarne i zależność Ukrainy od USA**: 23.10 po uderzeniu drona zatonął statek Khoryv u wybrzeży Rumunii, a Rumunia i Bułgaria poprosiły NATO o wsparcie. Trump wstrzymał kolejne sankcje na Rosję, a pierwszy rosyjski tankowiec z dieslem płynie do USA; SpaceX ograniczył Starshield ukraińskim dronom, a 24.10 Ukraina poinformowała, że łączność jest znów stabilna. We Francji po zamieszkach rentowność obligacji przekroczyła 5%, Macron zapowiedział zakaz „nielegalnych” demonstracji, a 24.10 na ulice wyszło według władz 410 tys. osób, a policja zatrzymała 1314. 29.10 rosyjski dron odrzutowy uderzył w peron dworca w Dnieprze, zginęło co najmniej 14 osób; wcześniej, w nocy na 22.10, Rosja uderzyła w Kijów kilka godzin po spotkaniu Putina z Witkoffem. 27.10 w Oleszkach pod Chersoniem weszło w życie lokalne zawieszenie broni do 1.11, uzgodnione przy pośrednictwie USA."
+  "Najważniejsze sprawy z ostatnich 7 dni (24–30.10.2026) – w tym tygodniu cztery spełniają kryteria. Każda ma przebieg z datami i źródłami oraz wniosek „Dla Polski”; starsze sprawy są w archiwum miesięcznym.",
+  "Oś tygodnia to **wojna i Ukraina**: 29.10 rosyjski dron odrzutowy uderzył w peron dworca w Dnieprze, zginęło co najmniej 14 osób. 24.10 Ukraina poinformowała, że łączność Starlink i Starshield jest znów stabilna. W Oleszkach pod Chersoniem od 27.10 do 1.11 trwa lokalny rozejm uzgodniony przy pośrednictwie USA, a 30.10 ruszyła ewakuacja cywilów. We Francji 24.10 na ulice wyszło według władz 410 tys. osób, a policja zatrzymała 1314."
  ],
  "kryteria": "Do zestawienia trafia wydarzenie, które spełnia trzy warunki: zmieniło stan rzeczy w ostatnich 7 dniach (zapadła decyzja, zmieniła się władza, powstała nowa zdolność wojskowa albo incydent miał realne następstwo – retoryka i zapowiedzi bez terminu nie wystarczą), ma konkretny skutek dla Polski lub Europy albo dla sytuacji międzynarodowej i jest udokumentowane w co najmniej dwóch pozycjach wydań dziennych. Przy wątkach trwających miesiącami liczy się zmiana w tygodniu, a nie sam wątek; tytuł opisuje najnowszy fakt. Gdy kryteria spełnia mniej niż dziesięć spraw, lista jest krótsza. Kolejność ustala autor według wpływu na bezpieczeństwo i interesy Polski, potem skali, potem trwałości skutków. Ranking jest więc oceną, a nie faktem; fakty mają źródła, oceny – autora.",
  "pozycje": [
   {
-   "id": "morze-czarne-statki",
-   "tytul": "Statek Khoryv tonie po uderzeniu drona 13 mil od Konstancy, Rumunia obarcza Rosję; Rumunia i Bułgaria proszą NATO o wsparcie",
-   "data": "2026-10-23",
-   "tagi": [
-    "rumunia",
-    "bulgaria",
-    "nato",
-    "hybryda"
-   ],
-   "etap": "W TOKU",
-   "lead": "23.10 komorski statek towarowy **Khoryv** zatonął ok. 13 mil morskich od Konstancy po uderzeniu drona, który według władz Rumunii pochodził z Rosji; jeden marynarz zginął, trzech jest poszukiwanych. Rumunia i Bułgaria poprosiły NATO o wsparcie nadzoru i obrony przed dronami. Wcześniej w tygodniu drony trafiły tankowiec **Wine Trader** (15.10, według Reutersa ośmiu zaginionych), a 17.10 dwa rumuńskie F-16 zestrzeliły dwa drony nad rumuńskimi wodami terytorialnymi.",
-   "omowienie": [
-    "15.10 według rumuńskiej Administracji Morskiej na tankowcu Wine Trader przy kanale Sulina zaginęło siedmiu marynarzy (Reuters: ośmiu); dzień wcześniej zapalił się Yara J. Prezydent Nicușor Dan powiedział, że uderzyły dwa drony i Rumunia odpowie, nie wskazał jednak sprawcy; minister obrony zapowiedział śledztwo.",
-    "17.10 dwa rumuńskie F-16 zestrzeliły dwa drony, które spadły na rumuńskie wody terytorialne; MApN nie podaje ich pochodzenia.",
-    "23.10 komorski statek Khoryv zatonął ok. 13 mil morskich na wschód od Konstancy po uderzeniu drona; prezydent Nicușor Dan nazwał atak elementem „eskalacji” rosyjskiej wojny, a rumuńskie władze uznały, że dron pochodził z Rosji. Z 13 członków załogi jeden zginął, dziewięciu uratowano, trzech nie odnaleziono. Rumunia i Bułgaria poprosiły NATO o wsparcie; Kaja Kallas mówiła w Parlamencie Europejskim o sześciu atakach na statki w 10 dni."
-   ],
-   "przebieg": [
-    {
-     "data": "2026-10-15",
-     "tekst": "Tankowiec Wine Trader zgłosił pożar ok. 13 mil morskich od Sulina, w rumuńskich wodach terytorialnych; według Reutersa zaginęło ośmiu z 12-osobowej załogi. Rumuńscy urzędnicy mówią, że rosyjskie drony wleciały w przestrzeń powietrzną Rumunii, ale nie łączą ich wprost z pożarami; prezydent Dan: uderzyły dwa drony, Rumunia odpowie.",
-     "etap": "W TOKU",
-     "zrodla": [
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/10/15/romania-probes-possible-drone-attack-on-tanker-in-its-black-sea-territorial-waters",
-       "data": "2026-10-15"
-      },
-      {
-       "nazwa": "Reuters (za Global News)",
-       "url": "https://globalnews.ca/news/12103450/ships-ablaze-romania-black-sea",
-       "data": "2026-10-15"
-      },
-      {
-       "nazwa": "Reuters (za Internazionale)",
-       "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/15/two-ships-ablaze-in-romanian-black-sea-waters-8-sailors-missing",
-       "data": "2026-10-15"
-      }
-     ]
-    },
-    {
-     "data": "2026-10-17",
-     "tekst": "Dwa rumuńskie F-16 zestrzeliły 17.10 dwa drony wykryte ok. 120 km na wschód od Wyspy Wężowej; oba spadły na rumuńskie wody terytorialne. Komunikat MApN nie podaje pochodzenia dronów.",
-     "zrodla": [
-      {
-       "nazwa": "Ministerstwo Obrony Narodowej Rumunii (MApN)",
-       "url": "https://english.mapn.ro/cpresa/6888_Press-Release",
-       "data": "2026-10-17"
-      },
-      {
-       "nazwa": "Polsat News",
-       "url": "https://www.polsatnews.pl/wiadomosc/2026-10-17/drony-zestrzelone-nad-morzem-czarnym-kraj-nato-potwierdza/",
-       "data": "2026-10-17"
-      }
-     ]
-    },
-    {
-     "data": "2026-10-23",
-     "tekst": "Komorski statek towarowy Khoryv zatonął 23.10 ok. 13 mil morskich na wschód od Konstancy po uderzeniu drona; prezydent Rumunii Nicușor Dan nazwał atak elementem „eskalacji” rosyjskiej wojny, a rumuńskie władze uznały, że dron pochodził z Rosji. Według Euronews z 13 członków załogi jeden zginął, dziewięciu uratowano, trzech nie odnaleziono. Rumunia i Bułgaria poprosiły NATO o wsparcie nadzoru i obrony przed dronami; Kaja Kallas mówiła w Parlamencie Europejskim o sześciu atakach na statki w 10 dni.",
-     "etap": "W TOKU",
-     "zrodla": [
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/civilian-cargo-ship-sinks-off-coast-of-romania-after-russian-drone-strike-authorities-say/",
-       "data": "2026-10-23"
-      },
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/10/23/rescue-operation-in-the-black-sea-following-a-distress-signal-from-a-ship",
-       "data": "2026-10-23"
-      },
-      {
-       "nazwa": "Meduza",
-       "url": "https://meduza.io/en/news/2026/10/23/romania-blames-russia-for-drone-strike-that-sinks-cargo-ship-in-black-sea-killing-one-sailor-and-leaving-three-missing",
-       "data": "2026-10-23"
-      }
-     ]
-    }
-   ],
-   "oceny": [],
-   "dla_polski": "Ataki dotyczą wód Rumunii, państwa wschodniej flanki NATO, i szlaków, którymi płyną ukraińskie towary i paliwa; ich skutek dla Polski jest pośredni (bezpieczeństwo żeglugi czarnomorskiej, presja na ustalenia NATO i UE o reakcji). Wniosek autora: po tym, jak Bukareszt wskazał Rosję, a Rumunia i Bułgaria zwróciły się do NATO, o dalszych krokach zdecyduje reakcja sojuszu.",
-   "w_wydaniach": [
-    "2026-10-15#z2",
-    "2026-10-17#z1",
-    "2026-10-23#z2"
-   ]
-  },
-  {
    "id": "starshield-wywiad",
-   "tytul": "Ukraina: łączność Starlink i Starshield znów stabilna, prędkość powyżej 400 km/h; Zełenski: USA po trzech dniach przerwy wznawiają ostrzeżenia o rosyjskich rakietach balistycznych",
-   "data": [
-    "2026-10-18",
-    "2026-10-24"
-   ],
+   "tytul": "Ukraina: łączność Starlink i Starshield znów stabilna, prędkość powyżej 400 km/h",
+   "data": "2026-10-24",
    "tagi": [
     "ukraina",
     "usa",
@@ -193,195 +103,6 @@
     "2026-10-15#z3",
     "2026-10-18#z5",
     "2026-10-24#z3"
-   ]
-  },
-  {
-   "id": "sankcje",
-   "tytul": "Trump wstrzymuje kolejne sankcje na Rosję, a pierwszy rosyjski tankowiec z dieslem płynie do USA",
-   "data": [
-    "2026-10-18",
-    "2026-10-23"
-   ],
-   "tagi": [
-    "sankcje",
-    "usa",
-    "ue"
-   ],
-   "etap": "PRZYJĘTE",
-   "lead": "12.10 ministrowie spraw zagranicznych UE zatwierdzili blisko **1600 nowych wpisów sankcyjnych** wobec Rosji – największe rozszerzenie listy od początku wojny, głównie w przemysł zbrojeniowy. Cztery dni później, 16.10, {{o:donald-trump|Donald Trump}} rozporządzeniem wykonawczym **uchylił w dużej mierze nowy pakiet sankcji i ceł** z ustawy Lindseya Grahama tuż przed jego wejściem w życie.",
-   "omowienie": [
-    "Ustawę przyjął Senat w sierpniu, a Izba Reprezentantów 16.09. Upoważnia prezydenta do ceł do 100% na towary z państw należących do pięciu największych importerów rosyjskiej ropy lub gazu (głównie Chiny i Indie) i do 500% na import z Rosji, rozszerza sankcje na urzędników, banki i statki pomagające obchodzić restrykcje, a irańską ustawę sankcyjną przedłuża o pięć lat. Prezydent może z ceł i sankcji zwolnić, przedstawiając Kongresowi certyfikat interesu narodowego.",
-    "22.09 państwa UE uzgodniły przedłużenie sankcji indywidualnych wobec Rosji na 36 miesięcy zamiast dotychczasowych sześciu. Zapłaciły za to skreśleniem z listy dwóch oligarchów – jednego na wniosek Francji, drugiego po wecie Słowacji.",
-    "7.10 ambasadorowie państw UE jednomyślnie zatwierdzili największe jednorazowe rozszerzenie listy sankcyjnej wobec Rosji – 1646 wpisów, głównie z przemysłu obronnego. Formalnie lista ma zostać przyjęta przez ministrów spraw zagranicznych 12.10.",
-    "9.10 Trump ogłosił po rozmowie z Putinem, że Rosja dostarczy ponad 300 tys. ton oleju napędowego od razu i 500 tys. ton w listopadzie; Departament Skarbu potwierdził tymczasowe zawieszenie sankcji na rosyjski sektor energii na potrzeby tych dostaw. Według CBS News decyzja jest sprzeczna z ustawą sankcyjną podpisaną we wrześniu. Szefowa dyplomacji UE Kaja Kallas zapowiedziała największe dotąd listy sankcyjne UE.",
-    "16.10 Trump podpisał rozporządzenie wykonawcze, które według Euronews i Kyiv Independent w dużej mierze uchyla nowy pakiet sankcji i ceł z ustawy Grahama, uzasadnione interesem narodowym USA. Rosyjski wysłannik Kirył Dmitriew nazwał decyzję „historyczną chwilą”, a Zełenski ocenił ją jako „złą”. Treść rozporządzenia znamy z doniesień, nie z tekstu Białego Domu.",
-    "18.10 Trump napisał na Truth Social, że wstrzymał wprowadzenie sankcji wobec Rosji, bo nie chce „głupio odpychać” jej od stołu negocjacyjnego, i oskarżył Zełenskiego, że ten „nie chce zakończyć tej wojny”; Zełenski w NBC ocenił, że zawieszenie sankcji wzmacnia Putina.",
-    "23.10 pierwszy tankowiec z ok. 40 tys. ton rosyjskiego oleju napędowego wypłynął z Primorska do USA; według Kpler dotrze do Nowego Jorku ok. 7.11."
-   ],
-   "przebieg": [
-    {
-     "data": "2026-09-18",
-     "tekst": "Trump podpisał ustawę Lindseya Grahama o sankcjach wobec Rosji i Iranu: cła do 100% na towary z pięciu największych importerów rosyjskiej ropy lub gazu, do 500% na import z Rosji, nowe sankcje na urzędników, banki i statki; możliwe zwolnienia z uwagi na interes narodowy.",
-     "zrodla": [
-      {
-       "nazwa": "CBS",
-       "url": "https://www.cbsnews.com/news/trump-signs-russia-sanctions-bill-lindsey-graham/",
-       "data": "2026-09-18"
-      },
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/trump-signs-sweeping-russia-sanctions-bill-into-law/",
-       "data": "2026-09-19"
-      }
-     ]
-    },
-    {
-     "data": "2026-09-22",
-     "tekst": "UE przedłużyła sankcje indywidualne wobec Rosji na trzy lata; z listy skreślono dwóch oligarchów: jednego na wniosek Francji (w związku z uwolnieniem jej obywateli w Azerbejdżanie), drugiego po wecie Słowacji.",
-     "zrodla": [
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/09/22/eu-renews-russia-sanctions-but-removes-usmanov-at-frances-request",
-       "data": "2026-09-22"
-      },
-      {
-       "nazwa": "OSW",
-       "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-09-24/azerbejdzan-francja-szansa-na-nowe-otwarcie",
-       "data": "2026-09-24"
-      }
-     ]
-    },
-    {
-     "data": "2026-10-07",
-     "tekst": "Ambasadorowie państw UE jednomyślnie zatwierdzili największe jednorazowe rozszerzenie listy sankcyjnej wobec Rosji – 1646 wpisów (743 osoby, 826 podmiotów i 77 deputowanych z okupowanych terytoriów Ukrainy), głównie przemysł obronny; formalne przyjęcie przez ministrów planowane na 12.10.",
-     "etap": "W TOKU",
-     "zrodla": [
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/10/07/eu-agrees-to-sanction-over-1600-people-and-entities-linked-to-russias-war",
-       "data": "2026-10-07"
-      },
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/eu-ambassadors-wave-through-largest-ever-list-of-russia-sanctions-2/",
-       "data": "2026-10-07"
-      }
-     ]
-    },
-    {
-     "data": "2026-10-09",
-     "tekst": "Trump ogłosił po rozmowie z Putinem dostawy rosyjskiego oleju napędowego na rynek USA i światowy (ponad 300 tys. ton od razu, 500 tys. ton w listopadzie); Departament Skarbu USA potwierdził tymczasowe zawieszenie sankcji na rosyjski sektor energii na potrzeby tych dostaw. Według CBS News jest to sprzeczne z ustawą sankcyjną z września; Kallas zapowiedziała największe dotąd listy sankcyjne UE.",
-     "etap": "PRZYJĘTE",
-     "zrodla": [
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/",
-       "data": "2026-10-09"
-      },
-      {
-       "nazwa": "CBS News",
-       "url": "https://www.cbsnews.com/news/russia-strikes-ukraine-trump-diesel-deal/",
-       "data": "2026-10-10"
-      }
-     ]
-    },
-    {
-     "data": "2026-10-12",
-     "tekst": "Ministrowie spraw zagranicznych UE zatwierdzili w Luksemburgu blisko 1600 nowych wpisów sankcyjnych, głównie w rosyjski przemysł zbrojeniowy; według Kaji Kallas ponad połowa dotyczy łańcucha produkcji rakiet balistycznych, a według Kyiv Independent liczba wpisów rośnie z ok. 3000 do ponad 4500.",
-     "etap": "PRZYJĘTE",
-     "zrodla": [
-      {
-       "nazwa": "Reuters (za 93.3 The Drive)",
-       "url": "https://www.933thedrive.com/2026/10/12/eu-adopts-nearly-1600-new-sanctions-listings-targeting-russia/",
-       "data": "2026-10-12"
-      },
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/eu-votes-through-largest-ever-russia-sanctions-list/",
-       "data": "2026-10-12"
-      }
-     ]
-    },
-    {
-     "data": "2026-10-16",
-     "tekst": "Trump podpisał rozporządzenie wykonawcze uchylające w dużej mierze nowy pakiet sankcji i ceł z ustawy Grahama tuż przed jego wejściem w życie; Dmitriew: „historyczna chwila”, Zełenski: decyzja „zła”.",
-     "zrodla": [
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/10/17/trump-signs-executive-order-waiving-new-russia-sanctions-package",
-       "data": "2026-10-17"
-      },
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/trump-waives-latest-russia-sanctions-amid-growing-ukraine-us-tensions/",
-       "data": "2026-10-17"
-      }
-     ]
-    },
-    {
-     "data": "2026-10-18",
-     "tekst": "Trump napisał na Truth Social, że wstrzymał wprowadzenie sankcji wobec Rosji, bo nie chce „głupio odpychać” jej od stołu negocjacyjnego, i wiązał to z ukraińskimi uderzeniami w rosyjskie rafinerie; Zełenski w NBC ocenił, że zawieszenie sankcji wzmacnia Putina.",
-     "etap": "PRZYJĘTE",
-     "zrodla": [
-      {
-       "nazwa": "Meduza",
-       "url": "https://meduza.io/en/news/2026/10/19/trump-says-he-doesn-t-want-to-drive-russia-away-from-peace-talks-again-criticizes-zelensky-over-refinery-strikes",
-       "data": "2026-10-19"
-      },
-      {
-       "nazwa": "CBS News",
-       "url": "https://www.cbsnews.com/news/ukraine-russia-drone-st-petersburg-oil-facilites/",
-       "data": "2026-10-18"
-      }
-     ]
-    },
-    {
-     "data": "2026-10-23",
-     "tekst": "Pierwszy ładunek rosyjskiego oleju napędowego płynie do USA na podstawie porozumienia Trumpa z Putinem: tankowiec Agioi Fanendes z ok. 40 tys. ton diesla wypłynął z Primorska i według danych Kpler dotrze do Nowego Jorku ok. 7.11. Ustawowy zakaz importu rosyjskiej energii do USA pozostaje w mocy; według Kyiv Independent decyzję krytykują ustawodawcy obu partii.",
-     "etap": "PRZYJĘTE",
-     "zrodla": [
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/10/23/first-russian-diesel-shipment-is-heading-to-us-under-trump-putin-deal",
-       "data": "2026-10-23"
-      },
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/inside-the-legal-design-of-americas-russia-sanctions-u-turn-2/",
-       "data": "2026-10-23"
-      }
-     ]
-    }
-   ],
-   "oceny": [
-    {
-     "autor": "OSW (Iwona Wiśniewska, Filip Rudnik, Andrzej Kohut), Analiza z 17.09.2026",
-     "tekst": "Autorzy oceniają ustawę przede wszystkim jako demonstrację polityczną i potencjalne narzędzie nacisku: daje prezydentowi dużą swobodę, a niechęć Białego Domu do zaostrzania restrykcji energetycznych w czasie drogiej ropy osłabia jej wiarygodność jako dźwigni wobec Kremla.",
-     "zrodla": [
-      {
-       "nazwa": "OSW",
-       "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-09-17/ustawa-sankcyjna-usa-na-rosje-narzedzie-polityczne-bez-gwarancji",
-       "data": "2026-09-17"
-      }
-     ]
-    }
-   ],
-   "dla_polski": "Ustawa miała dać USA dźwignię (cła wtórne uderzyłyby w Chiny i Indie, nie w Europę), a rozporządzeniem z 16.10 Trump w dużej mierze z niej zrezygnował – presja ekonomiczna na Moskwę spada, a ciężar sankcji spoczywa głównie na UE. Trzyletnie przedłużenie list UE ogranicza ryzyko wet co pół roku, a wrześniowe skreślenia pokazują, że miejsca na liście mogą stać się walutą w innych sporach. Wniosek autora: Polska powinna w UE pilnować, by sankcje nie słabły wraz z amerykańskimi, i by nie powtarzały się wymiany „skreślenie za ustępstwo”.",
-   "co_dalej": [
-    {
-     "data": "2026-10-18",
-     "tekst": "upływa 30 dni od podpisu ustawy Grahama – termin na nałożenie przewidzianych w niej ceł"
-    }
-   ],
-   "w_wydaniach": [
-    "2026-10-12#z5",
-    "2026-10-09#z5",
-    "2026-09-23#z6",
-    "2026-09-22#z4",
-    "2026-10-10#z2",
-    "2026-10-17#z2",
-    "2026-10-19#z4",
-    "2026-10-23#z4"
    ]
   },
   {
@@ -588,11 +309,8 @@
   },
   {
    "id": "francja-zamieszki",
-   "tytul": "Macron zapowiada zakaz „nielegalnych” demonstracji, a rentowność francuskich obligacji przekracza 5%; na protesty 24.10 wychodzi według władz 410 tys. osób, a policja zatrzymuje 1314",
-   "data": [
-    "2026-10-21",
-    "2026-10-24"
-   ],
+   "tytul": "Na protesty przeciw kosztom życia we Francji 24.10 wychodzi według władz 410 tys. osób, a policja zatrzymuje 1314",
+   "data": "2026-10-24",
    "tagi": [
     "francja",
     "ue"
@@ -742,11 +460,8 @@
   },
   {
    "id": "oleszki-rozejm",
-   "tytul": "Rosja i Ukraina wstrzymują walki w Oleszkach pod Chersoniem do 1.11, by ewakuować cywilów; rozejm pośredniczy Biały Dom",
-   "data": [
-    "2026-10-23",
-    "2026-10-27"
-   ],
+   "tytul": "W Oleszkach pod Chersoniem rusza ewakuacja cywilów w ramach rozejmu do 1.11; rozejm pośredniczy Biały Dom",
+   "data": "2026-10-30",
    "tagi": [
     "ukraina",
     "rosja",
@@ -754,7 +469,7 @@
     "rozejm"
    ],
    "etap": "W TOKU",
-   "lead": "23.10 Rosja i Ukraina uzgodniły lokalny rozejm w okupowanych Oleszkach, by umożliwić dowóz pomocy i wyjazd cywilów; według Białego Domu pośredniczyła Melania Trump. Rozbieżne daty startu (27.10 według rosyjskiego Sztabu Generalnego, 29.10 według Białego Domu) rozstrzygnął 27.10 początek rozejmu o godz. 3:00 czasu kijowskiego; trwa do 1.11, a ewakuacja ma ruszyć 30.10.",
+   "lead": "Rosja i Ukraina uzgodniły 23.10 lokalny rozejm w okupowanych Oleszkach; według Białego Domu pośredniczyła Melania Trump. Rozejm obowiązuje od 27.10 do 1.11, a 30.10 do miasta wjechała kolumna 25 autobusów i karetek i ruszyła ewakuacja cywilów.",
    "omowienie": [
     "Według rzecznika praw obywatelskich Dmytra Lubińca rozejm obejmuje cały obwód chersoński; Lubiniec wcześniej nazwał operację „niezwykle trudną do przeprowadzenia”. Czas trwania rozejmu jest krótki, a gwarancje bezpieczeństwa nie zostały podane."
    ],
@@ -802,31 +517,46 @@
        "data": "2026-10-27"
       }
      ]
+    },
+    {
+     "data": "2026-10-30",
+     "tekst": "W Oleszkach ruszyła ewakuacja cywilów i dystrybucja pomocy humanitarnej: do miasta wjechała kolumna 25 autobusów i karetek. Według ukraińskiej telewizji publicznej ewakuowani jadą przez Rosję i Białoruś.",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "Euronews",
+       "url": "https://www.euronews.com/2026/10/30/residents-leave-russian-occupied-oleshky-amid-local-ceasefire",
+       "data": "2026-10-30"
+      },
+      {
+       "nazwa": "Kyiv Independent",
+       "url": "https://kyivindependent.com/oleshky-evacuation-begins-but-volunteer-claims-russia-already-moved-people-outside-of-agreed-terms/",
+       "data": "2026-10-30"
+      },
+      {
+       "nazwa": "Meduza",
+       "url": "https://meduza.io/en/news/2026/10/30/evacuation-humanitarian-aid-distribution-begin-in-russian-occupied-oleshky",
+       "data": "2026-10-30"
+      }
+     ]
     }
    ],
    "oceny": [],
-   "dla_polski": "Pierwszy lokalny rozejm uzgodniony przez Rosję i Ukrainę przy pośrednictwie USA pokazuje, że kanał humanitarny działa mimo braku rozmów o zawieszeniu broni; dla Polski i Europy oznacza to możliwy wzorzec dalszych ograniczonych porozumień, ale bez wpływu na ogólny przebieg wojny. Wniosek autora: o znaczeniu rozstrzygnie to, czy rozejm przetrwa do 1.11 i czy ewakuacja 30.10 się odbędzie.",
+   "dla_polski": "Pierwszy lokalny rozejm uzgodniony przez Rosję i Ukrainę przy pośrednictwie USA pokazuje, że kanał humanitarny działa mimo braku rozmów o zawieszeniu broni; dla Polski i Europy oznacza to możliwy wzorzec dalszych ograniczonych porozumień, ale bez wpływu na ogólny przebieg wojny. Wniosek autora: o znaczeniu rozstrzygnie to, czy rozejm przetrwa do 1.11 i czy ewakuacja się powiedzie.",
    "w_wydaniach": [
     "2026-10-23#z1",
-    "2026-10-27#z2"
+    "2026-10-27#z2",
+    "2026-10-30#z1"
    ]
   }
  ],
  "czego_nie_ma": [
   {
-   "tekst": "Wystąpienie SACEUR gen. Alexusa Grynkewicha na Warsaw Security Forum (12.10) i rozmowa papieża Leona XIV z Putinem (16.10) – wypowiedzi bez decyzji.",
+   "tekst": "Zatonięcie statku Khoryv (23.10) i decyzje Trumpa o sankcjach na Rosję (23.10) – ostatnie fakty sprzed okna, bez nowych w tygodniu.",
    "prog": "następstwo"
   },
   {
    "tekst": "Sprawy z poprzednich tygodni bez nowych faktów w oknie (groźba jądrowa w sprawie Królewca, drony przy polskiej granicy, mediacja USA, Duma i armia Rosji, Ormuz, Białoruś, AfD) – trafią do archiwum za październik 2026.",
-   "prog": "następstwo"
-  },
-  {
-   "tekst": "Atak na konwój dyplomatów (w tym polskich) na Zachodnim Brzegu (17.10, zatrzymanie 8 osób 19.10) – Polacy nie ucierpieli, brak decyzji o następstwach.",
-   "prog": "następstwo"
-  },
-  {
-   "tekst": "Spotkanie Putina z Witkoffem i uwolnienie Amerykanina Stephena Hubbarda (21.10), propozycja Zełenskiego zamrożenia frontu oraz zapowiedź Kremla (22.10) rozmów trójstronnych USA–Rosja–Ukraina w połowie listopada, bez terminu i miejsca – zapowiedzi bez decyzji.",
    "prog": "następstwo"
   },
   {
@@ -852,7 +582,11 @@
   {
    "tekst": "EBC utrzymuje stopy, Lagarde odejdzie 7.02.2027 (29.10), centrum serwisowania pocisków PAC-3 w Polsce (27.10), druga runda pożyczek SAFE (29.10), pakiet 10 mld funtów dla Ukrainy (28.10) i zapowiedź rozmów trójstronnych w Abu Zabi po 4.11 (28.10) – po jednej pozycji w wydaniach z okresu.",
    "prog": "następstwo"
+  },
+  {
+   "tekst": "Plan wypłat KE dla Ukrainy na 2027 rok (30.10), zatrzymanie Rosjanina w Świdnicy (30.10), zamknięcie „Nowej Gaziety” (30.10) i otwarcie terminalu T5 w Gdańsku (30.10) – po jednej pozycji w wydaniach z okresu.",
+   "prog": "następstwo"
   }
  ],
- "nota": "Zestawienie kroczące za 23–29.10.2026. Przesunięto okno; pozycja o atakach powietrznych dostała nowy fakt z 29.10 (Dniepr). Fakty pochodzą z wydań dziennych i ich źródeł; kolejność to ocena autora."
+ "nota": "Zestawienie kroczące za 24–30.10.2026. Przesunięto okno; wypadły dwie sprawy bez faktu w oknie, a pozycja o Oleszkach dostała nowy fakt z 30.10. Fakty pochodzą z wydań dziennych i ich źródeł; kolejność to ocena autora."
 }

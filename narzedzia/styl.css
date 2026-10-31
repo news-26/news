@@ -315,6 +315,17 @@ a.pub-tytul:hover { color: var(--morze); text-decoration: underline; }
 #f-all:focus-visible ~ .filtr label[for="f-all"], #f-osw:focus-visible ~ .filtr label[for="f-osw"],
 #f-pism:focus-visible ~ .filtr label[for="f-pism"], #f-om:focus-visible ~ .filtr label[for="f-om"] { outline: 3px solid var(--morze); outline-offset: 2px; }
 #f-osw:checked ~ .pub-czyt li:not(.w-osw), #f-pism:checked ~ .pub-czyt li:not(.w-pism), #f-om:checked ~ .pub-czyt li[data-om="0"] { display: none; }
+.filtr-data { align-items: center; margin-top: 6px; }
+.filtr-data[hidden] { display: none; }
+.filtr-data .fd-et { color: var(--atrament); font-weight: bold; }
+.filtr-data button { font: inherit; padding: 5px 12px; border: 1px solid var(--linia); border-radius: 999px; background: var(--karta); color: var(--atrament); cursor: pointer; }
+.filtr-data button:hover { border-color: var(--morze); }
+.filtr-data button[aria-pressed="true"] { background: var(--atrament); color: var(--papier); border-color: var(--atrament); }
+.filtr-data button:focus-visible, .filtr-data input:focus-visible { outline: 3px solid var(--morze); outline-offset: 2px; }
+.filtr-data .fd-pole { display: inline-flex; align-items: center; gap: 6px; }
+.filtr-data input { font: inherit; padding: 3px 6px; border: 1px solid var(--linia); border-radius: 6px; background: var(--karta); color: var(--atrament); }
+.filtr-data .fd-ile { color: var(--atrament); opacity: .75; }
+.pub-czyt li[hidden] { display: none; }
 @media print { .spis, .filtr { display: none; } }
 
 /* Top 10 – zestawienia okresowe */

@@ -1798,9 +1798,30 @@ class Budowa:
                       '<input type="radio" name="czyt-f" id="f-om" class="filtr-r">'
                       f'<p class="filtr"><label for="f-all">Wszystkie ({len(lista)})</label><label for="f-osw">OSW ({n["OSW"]})</label>'
                       f'<label for="f-pism">PISM ({n["PISM"]})</label><label for="f-om">Z omówieniem ({n_om})</label></p>'
+                      '<div class="filtr filtr-data" hidden><span class="fd-et">Data:</span>'
+                      '<button type="button" data-dni="0" aria-pressed="true">Cały okres</button>'
+                      '<button type="button" data-dni="7" aria-pressed="false">Ostatni tydzień</button>'
+                      '<button type="button" data-dni="14" aria-pressed="false">14 dni</button>'
+                      '<label class="fd-pole">od <input type="date" id="fd-od"></label>'
+                      '<label class="fd-pole">do <input type="date" id="fd-do"></label>'
+                      '<span class="fd-ile" aria-live="polite"></span></div>'
                       '<ul class="pub pub-czyt">' +
-                      "".join(self.publikacja_li(r, "", pelna=True).replace("<li", f'<li data-om="{1 if r["omowienia"] else 0}"', 1)
-                              for r in lista) + "</ul></div>")
+                      "".join(self.publikacja_li(r, "", pelna=True).replace(
+                          "<li", f'<li data-om="{1 if r["omowienia"] else 0}" data-data="{e(r["data"][:10])}"', 1)
+                              for r in lista) + "</ul></div>"
+                      "<script>(function(){var f=document.querySelector('.filtr-data');if(!f)return;f.hidden=false;"
+                      "var od=f.querySelector('#fd-od'),dod=f.querySelector('#fd-do'),ile=f.querySelector('.fd-ile'),"
+                      "bt=f.querySelectorAll('button'),li=document.querySelectorAll('.pub-czyt li'),"
+                      "rr=document.querySelectorAll('.czyt-wrap .filtr-r');"
+                      "function iso(d){return d.getFullYear()+'-'+('0'+(d.getMonth()+1)).slice(-2)+'-'+('0'+d.getDate()).slice(-2);}"
+                      "function licz(){var n=0;[].forEach.call(li,function(x){if(!x.hidden&&x.offsetParent!==null)n++;});ile.textContent='Pokazano: '+n;}"
+                      "function zastosuj(){var a=od.value,b=dod.value;[].forEach.call(li,function(x){var d=x.getAttribute('data-data');"
+                      "x.hidden=!!((a&&(!d||d<a))||(b&&(!d||d>b)));});licz();}"
+                      "function zaznacz(k){[].forEach.call(bt,function(b){b.setAttribute('aria-pressed',b===k?'true':'false');});}"
+                      "[].forEach.call(bt,function(b){b.addEventListener('click',function(){var n=+b.getAttribute('data-dni');"
+                      "if(n){var d=new Date();d.setDate(d.getDate()-(n-1));od.value=iso(d);}else{od.value='';}dod.value='';zaznacz(b);zastosuj();});});"
+                      "[od,dod].forEach(function(i){i.addEventListener('change',function(){zaznacz(null);zastosuj();});});"
+                      "[].forEach.call(rr,function(r){r.addEventListener('change',licz);});zastosuj();})();</script>")
         self.zapisz("czytelnia.html", strona("Czytelnia OSW i PISM", "\n".join(cz), "",
                                              "Teksty OSW i PISM odnotowane w wydaniach Prasówki, z linkami do oryginałów i omówień.", "czytelnia"))
 

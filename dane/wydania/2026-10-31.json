@@ -1,0 +1,475 @@
+{
+  "nr": 43,
+  "data": "2026-10-31",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Mieszkańcy okupowanych **Ołeszek** w obwodzie chersońskim dotarli 31.10 na terytorium Ukrainy po ewakuacji przez Rosję i Białoruś. Lokalne zawieszenie broni ma obowiązywać do wieczora 1.11.",
+    "Departament Stanu USA zatwierdził 30.10 możliwą sprzedaż Ukrainie 500 pocisków przechwytujących **PAC-3 MSE** do systemów Patriot za 2,1 mld dolarów. Prezydent Ukrainy Wołodymyr Zełenski ostrzegł, że dostawy mogą ruszyć dopiero za kilka lat.",
+    "Korpus Strażników Rewolucji Islamskiej podał 30.10, że tankowce miały incydenty na trasach w **Cieśninie Ormuz**, które Iran uznaje za nieautoryzowane. Według Omanu jego marynarka ewakuowała tego dnia 25 marynarzy ze statku, który zapalił się przy półwyspie Musandam.",
+    "Na spotkaniu ministrów spraw zagranicznych G20 w Atlancie organizatorzy z USA odwołali 30.10 wspólne zdjęcie, bo kilku ministrów nie chciało pozować z rosyjskim ministrem **Siergiejem Ławrowem**.",
+    "Ambasada USA w Moskwie ostrzegła 31.10 przed wiarygodnym zagrożeniem zamachem w muzeum-rezerwacie **Carycyno**. Rosyjska Federalna Służba Bezpieczeństwa potwierdziła otrzymanie ostrzeżenia."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-10-31",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "rozejm"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "oleszki",
+      "krotko": "Ołeszki: ewakuowani dotarli na Ukrainę",
+      "tekst": "Mieszkańcy okupowanego przez Rosję miasta Ołeszki w obwodzie chersońskim dotarli 31.10 na terytorium Ukrainy po ewakuacji przez Rosję i Białoruś. Według Euronews przekroczyli granicę w obwodzie czernihowskim, a lokalne **zawieszenie broni** ma trwać do niedzielnego wieczoru 1.11. Umowę, według AP, wynegocjowała pierwsza dama USA {{o:melania-trump|Melania Trump}}.",
+      "zrodla": [
+        {
+          "nazwa": "Associated Press",
+          "url": "https://apnews.com/article/russia-ukraine-war-oleshky-evacuation-5cbc7d2a5b8ac34b15c914338fd5a9f3",
+          "data": "2026-10-31"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/31/oleshky-evacuees-arrive-in-belarus-amid-localised-truce-between-kyiv-and-moscow",
+          "data": "2026-10-31"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/oleshky-residents-reach-ukrainian-controlled-territory-after-escaping-russian-occupation/",
+          "data": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-10-30",
+      "tagi": [
+        "ukraina",
+        "usa"
+      ],
+      "etap": "PRZYJĘTE",
+      "miejsce": "waszyngton",
+      "krotko": "Waszyngton: zgoda na sprzedaż 500 pocisków Patriot",
+      "tekst": "Departament Stanu USA zatwierdził 30.10 możliwą sprzedaż Ukrainie 500 pocisków przechwytujących PAC-3 MSE do systemów {{p:patriot|Patriot}} o wartości **2,1 mld dolarów**. Według Kyiv Independent zakup sfinansują Kanada, Niemcy i Norwegia, a prezydent {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} ostrzegł, że dostawy mogą ruszyć dopiero za kilka lat.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/us-approves-2-1-billion-patriot-missile-sale-to-ukraine-as-nato-commander-dismisses-delivery-concerns/",
+          "data": "2026-10-30"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/10/31/u-s-state-department-approves-potential-2-1-billion-sale-of-500-patriot-air-defense-missiles-to-ukraine",
+          "data": "2026-10-31"
+        },
+        {
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/business/aerospace-defense/us-approves-21-billion-patriot-missile-sale-ukraine-2026-10-30/",
+          "data": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "wojna",
+      "data": "2026-10-31",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "front"
+      ],
+      "miejsce": "kijow",
+      "krotko": "Ukraina: nocny atak, 280 tys. domostw bez prądu",
+      "tekst": "Rosyjskie ataki dronami i pociskami w nocy z 30 na 31.10 zabiły pięć osób i raniły co najmniej 46 – podał Kyiv Independent. Według Zełenskiego bez prądu jest około 280 tys. gospodarstw domowych, głównie w obwodach dniepropetrowskim i kijowskim, a ataki uszkodziły kijowską elektrociepłownię i cztery podstacje.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-attacks-kill-5-injure-at-least-46-as-ukraine-faces-difficult-energy-situation/",
+          "data": "2026-10-31"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/31/oleshky-evacuees-arrive-in-belarus-amid-localised-truce-between-kyiv-and-moscow",
+          "data": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "swiat",
+      "data": "2026-10-30",
+      "tagi": [
+        "rosja",
+        "usa",
+        "ue",
+        "ukraina"
+      ],
+      "tekst": "Na spotkaniu ministrów spraw zagranicznych G20 w Atlancie 30.10 organizatorzy z USA odwołali wspólne zdjęcie, bo kilku ministrów odmówiło pozowania z rosyjskim ministrem {{o:siergiej-lawrow|Siergiejem Ławrowem}}. Szefowa unijnej dyplomacji {{o:kaja-kallas|Kaja Kallas}} zarzuciła mu „mnóstwo kłamstw”, a sekretarz stanu USA {{o:marco-rubio|Marco Rubio}} spotkał się z nim na marginesie obrad.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/30/eu-diplomats-object-to-g20-photo-with-lavrov-prompting-us-cancellation",
+          "data": "2026-10-30"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/10/30/g20-foreign-ministers-group-photo-canceled-after-several-refuse-to-pose-with-russian-foreign-minister-sergey-lavrov",
+          "data": "2026-10-30"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/31/a-lot-of-lies-kaja-kallas-criticises-russian-fm-lavrov-following-g20-meetings",
+          "data": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "swiat",
+      "data": "2026-10-30",
+      "tagi": [
+        "iran",
+        "usa",
+        "energia"
+      ],
+      "miejsce": "ciesnina-ormuz",
+      "krotko": "Ormuz: incydenty z tankowcami",
+      "tekst": "Korpus Strażników Rewolucji Islamskiej (IRGC) podał 30.10, że tankowce miały incydenty na trasach w {{p:ormuz|Cieśninie Ormuz}}, które Teheran uznaje za nieautoryzowane, i zostały zatrzymane na południu. Według Euronews marynarka Omanu ewakuowała 25 członków załogi statku pod banderą Panamy, który zapalił się przy półwyspie Musandam, a amerykańskie Dowództwo Centralne (CENTCOM) oświadczyło, że główne szlaki oczyszczono z min.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/world/middle-east/irans-irgc-navy-says-two-tankers-stopped-south-hormuz-after-incidents-2026-10-30/",
+          "data": "2026-10-30"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/30/irans-revolutionary-guard-reports-two-tankers-on-fire-in-strait-of-hormuz-as-talks-continu",
+          "data": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "z6",
+      "blok": "swiat",
+      "data": "2026-10-30",
+      "tagi": [
+        "iran",
+        "usa"
+      ],
+      "etap": "W TOKU",
+      "tekst": "Katarscy mediatorzy wrócili 30.10 do Teheranu; według CBS, przytoczonej przez Euronews, Iran ma odpowiedzieć na zmienioną propozycję do końca tygodnia. Rzecznik armii Pakistanu, który także pośredniczy, powiedział 30.10 Reutersowi, że wojsko jest „ostrożnie optymistyczne”.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/30/irans-revolutionary-guard-reports-two-tankers-on-fire-in-strait-of-hormuz-as-talks-continu",
+          "data": "2026-10-30"
+        },
+        {
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/world/asia-pacific/pakistan-military-cautiously-optimistic-iran-us-mediation-2026-10-30/",
+          "data": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "z7",
+      "blok": "swiat",
+      "data": "2026-10-31",
+      "tagi": [
+        "rosja",
+        "usa"
+      ],
+      "miejsce": "moskwa",
+      "krotko": "Moskwa: ostrzeżenie USA o zagrożeniu w Carycynie",
+      "tekst": "Ambasada USA w Moskwie ostrzegła 31.10 przed wiarygodnym zagrożeniem zamachem z wieloma ofiarami w muzeum-rezerwacie Carycyno i radziła unikać tego miejsca. Rosyjska Federalna Służba Bezpieczeństwa (FSB) potwierdziła, że otrzymała ostrzeżenie.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/us-warns-russia-of-mass-casualty-event-threat-at-historic-palace-outside-moscow/",
+          "data": "2026-10-31"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/10/31/u-s-embassy-warns-of-mass-casualty-threat-at-moscow-s-tsaritsyno-museum-fsb-confirms-receiving-the-warning",
+          "data": "2026-10-31"
+        },
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-10-31/amerykanie-ostrzegli-rosje-w-tle-grozba-ataku-terrorystycznego/",
+          "data": "2026-10-31"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "PISM: wybory połówkowe w USA są testem poparcia dla rządów Trumpa",
+      "autor": "PISM (M. Doliński, M. Piotrowski), Biuletyn nr 77 (3211), 29.10.2026",
+      "tekst": "Autorzy oceniają, że wybory do Kongresu 3.11 są plebiscytem w sprawie rządów prezydenta USA, a Republikanie najpewniej je przegrają. Wskazują na niepopularną politykę celną, wojnę z Iranem i rosnące koszty życia; w drugiej połowie października Demokraci prowadzili w średniej sondaży o 8–9 pkt proc. Według autorów zdecentralizowany system wyborczy sprawia, że spory powyborcze raczej nie wywołają długotrwałego kryzysu.",
+      "dla_polski": "Skutek pośredni: układ sił w Kongresie wpłynie na decyzje USA o pomocy dla Ukrainy i o wojnie z Iranem, a od nich zależy sytuacja bezpieczeństwa Europy (ocena redakcji).",
+      "tagi": [
+        "usa"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "PISM",
+          "url": "https://www.pism.pl/publikacje/wybory-polowkowe-w-usa-jako-test-poparcia-dla-rzadow-trumpa",
+          "data": "2026-10-29"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-11-01",
+      "tekst": "1.11: OPEC+ – spotkanie siedmiu państw w sprawie limitów wydobycia na grudzień.",
+      "tagi": [
+        "energia"
+      ]
+    },
+    {
+      "data": "2026-11-01",
+      "tekst": "1.11: Bułgaria – II tura wyborów prezydenckich (Iliana Jotowa kontra Andrej Giurow).",
+      "tagi": [
+        "bulgaria",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-11-03",
+      "tekst": "3.11: USA – wybory połowy kadencji (cała Izba Reprezentantów, jedna trzecia Senatu, część gubernatorów).",
+      "tagi": [
+        "usa",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-11-04",
+      "tekst": "4.11: Izrael – termin oficjalnego ogłoszenia wyników wyborów do Knesetu (według mediów); później prezydent Izraela wskazuje kandydata na premiera.",
+      "tagi": [
+        "inne",
+        "wybory"
+      ],
+      "poza_kalendarium": "termin podają media, brak komunikatu komisji wyborczej; w do_sprawdzenia"
+    },
+    {
+      "data": "2026-11-10",
+      "tekst": "10.11: Ukraina – niepotwierdzony termin rozmów trójstronnych z Rosją i USA w Abu Zabi według Zełenskiego (Kreml: po 4.11, bez daty).",
+      "tagi": [
+        "ukraina",
+        "rozejm"
+      ],
+      "poza_kalendarium": "datę podaje tylko jedna strona (Zełenski); w do_sprawdzenia"
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-11-12",
+      "tekst": "Europejska Wspólnota Polityczna w Irlandii (12.11), 13.11 nieformalne spotkanie przywódców UE",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-15",
+      "tekst": "Ukraina, Rosja i USA – trójstronne rozmowy w Abu Zabi w listopadzie (termin według Kremla: około połowy miesiąca; Al Jazeera podaje spotkania techniczne na początku listopada); przedtem możliwa runda w Europie (według urzędnika UE)",
+      "tagi": [
+        "ukraina",
+        "rozejm"
+      ],
+      "poza_kalendarium": "termin podany tylko przez Kreml; strony nie potwierdziły daty"
+    },
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [],
+    "pism": [
+      {
+        "tytul": "Wybory połówkowe w USA jako test poparcia dla rządów Trumpa",
+        "numer": "Biuletyn nr 77 (3211)",
+        "data": "2026-10-29",
+        "url": "https://www.pism.pl/publikacje/wybory-polowkowe-w-usa-jako-test-poparcia-dla-rzadow-trumpa"
+      },
+      {
+        "tytul": "Rozwój rosyjskich dronów uderzeniowych dalekiego zasięgu",
+        "numer": "Biuletyn nr 76 (3210)",
+        "data": "2026-10-28",
+        "url": "https://www.pism.pl/publikacje/rozwoj-rosyjskich-dronow-uderzeniowych-dalekiego-zasiegu"
+      }
+    ],
+    "nieodczytane": [
+      "osw"
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "tekst": "Izrael: oficjalne wyniki wyborów do Knesetu ogłosi według mediów 4.11 komisja wyborcza; do tego czasu rozkład mandatów w relacjach cząstkowych się różni.",
+      "prog": "dokumentacja",
+      "kalendarz": "2026-11-04",
+      "sprawdzono": [
+        "Al Jazeera (31.10, analiza bez wyników)",
+        "WebSearch: strona komisji wyborczej – brak wyników końcowych",
+        "PISM (Biuletyn nr 75 z 23.10, przed wyborami)"
+      ]
+    },
+    {
+      "id": "n2",
+      "tekst": "UE–Kanada: według Euronews (30.10) premier Kanady wyznaczył na czerwiec 2027 cel wynegocjowania statusu „członka stowarzyszonego” UE, a wspólna deklaracja z Montrealu używa określenia „coraz ściślejsze stowarzyszenie”; pełnego tekstu deklaracji ani komunikatu Rady UE nie znaleziono.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Euronews (28.10 i 30.10)",
+        "WebSearch: komunikat Rady UE – brak tekstu deklaracji",
+        "NV.ua i To Vima (przed szczytem, bez tekstu końcowego)"
+      ]
+    },
+    {
+      "id": "n3",
+      "tekst": "Iran: według analizy AP z 31.10 irańskie ataki uszkodziły lub zniszczyły amerykańską obronę przeciwlotniczą, samoloty i budynki na ponad dwóch tuzinach baz na Bliskim Wschodzie, a prezydent USA rozważa nowe uderzenia po wyborach połówkowych; drugiego źródła analizy nie znaleziono.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "AP (newsletter, 31.10)",
+        "Reuters Iran Briefing (31.10) – bez tej analizy",
+        "Al Jazeera (31.10, relacja na żywo: sekretarz stanu USA mówi, że decyzji o ataku nie podjęto)"
+      ]
+    },
+    {
+      "id": "n4",
+      "tekst": "Turcja: prezydent Ukrainy przyjechał 31.10 do Stambułu na rozmowy z prezydentem Turcji, m.in. o żegludze na Morzu Czarnym (Kyiv Independent); wyników rozmów nie podano.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Kyiv Independent (31.10)",
+        "WebSearch: komunikat strony tureckiej – brak",
+        "Euronews i Meduza (kanały z 31.10) – bez wzmianki"
+      ]
+    },
+    {
+      "id": "n5",
+      "tekst": "Rafinerie: Wall Street Journal (29.10) podał, że Ukraina zgodziła się wstrzymać ataki na rosyjskie rafinerie; według Kyiv Independent (31.10) ukraińscy urzędnicy temu zaprzeczają.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Kyiv Independent (31.10)",
+        "Euronews (kanał z 31.10) – bez wzmianki",
+        "Meduza (kanał z 31.10) – bez wzmianki"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-10-30#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Euronews (30.10)",
+        "WebSearch: Rada UE – brak tekstu deklaracji",
+        "NV.ua i To Vima"
+      ],
+      "powod": "Tekst deklaracji z Montrealu nadal nieopublikowany w odnalezionych źródłach; dalszy ciąg w wpisie n2."
+    },
+    {
+      "dotyczy": "2026-10-30#n2",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Al Jazeera (31.10)",
+        "WebSearch: komisja wyborcza",
+        "PISM"
+      ],
+      "powod": "Oficjalne wyniki mają być ogłoszone 4.11; dalszy ciąg w wpisie n1."
+    },
+    {
+      "dotyczy": "2026-10-30#n3",
+      "wynik": "UZUPEŁNIONE",
+      "pozycja": "z5"
+    },
+    {
+      "dotyczy": "2026-10-30#n4",
+      "wynik": "UZUPEŁNIONE",
+      "pozycja": "z4"
+    },
+    {
+      "dotyczy": "2026-10-30#n5",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Euronews (kanał z 31.10)",
+        "Kyiv Independent (kanał z 31.10)",
+        "Meduza (kanał z 31.10)"
+      ],
+      "powod": "Informacji Financial Times o składzie europejskiej delegacji nie potwierdza żadne odnalezione źródło poza przedrukami z 30.10."
+    },
+    {
+      "dotyczy": "2026-10-30#n6",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kyiv Independent (kanał z 31.10)",
+        "Euronews (kanał z 31.10)",
+        "Polsat News (kanał z 31.10)"
+      ],
+      "powod": "Brak wzmianki o zwołaniu nadzwyczajnego posiedzenia Rady Bezpieczeństwa ONZ."
+    },
+    {
+      "dotyczy": "2026-10-30#n7",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Euronews (30.10, jedyne źródło)",
+        "WebSearch: komunikaty południowokoreańskiego Kolegium Szefów Sztabów – ostatni start 12.10",
+        "Polsat News (kanał z 31.10)"
+      ],
+      "powod": "Start pocisków z 30.10 ma jedno źródło."
+    },
+    {
+      "dotyczy": "2026-10-30#n8",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kyiv Independent (31.10)",
+        "WebSearch: komunikat strony tureckiej",
+        "Euronews (kanał z 31.10)"
+      ],
+      "powod": "Przyjazd potwierdzony (Kyiv Independent), wyniki rozmów nieznane; dalszy ciąg w wpisie n4."
+    },
+    {
+      "dotyczy": "2026-10-30#n9",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Polsat News (30.10)",
+        "Kyiv Independent (kanał z 31.10)",
+        "Euronews i Meduza (kanały z 31.10)"
+      ],
+      "powod": "Informację Reutersa o prośbie Pentagonu do państw bałtyckich przytacza tylko przedruk; brak potwierdzenia drugiego źródła."
+    },
+    {
+      "dotyczy": "2026-10-30#n10",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Euronews (30.10, bez wzmianki o wyjeździe)",
+        "Al Jazeera (31.10: delegacja irańska w Katarze)",
+        "Reuters Iran Briefing (31.10)"
+      ],
+      "powod": "Wyjazd wiceprezydenta USA do Szwajcarii nie został potwierdzony."
+    }
+  ],
+  "do_sprawdzenia": [
+    "Bułgaria – wynik II tury wyborów prezydenckich 1.11 (komisja wyborcza); Izrael – oficjalne wyniki (4.11); USA – wybory 3.11",
+    "Zełenski i Erdoğan w Stambule – komunikat strony tureckiej i ukraińskiej; UE–Kanada – tekst deklaracji (Rada UE)",
+    "Iran – odpowiedź na propozycję katarskich mediatorów; Ormuz – UKMTO, CENTCOM; analiza AP o bazach USA – drugie źródło",
+    "OSW i PISM – listy publikacji z 29–31.10 (OSW wymaga reCAPTCHA, listy PISM zwracają puste strony); PAP Kraj, DO RSZ, MON, SG, ŻW – incydenty; Agencja Uzbrojenia – umowy",
+    "EBC – niepotwierdzona wzmianka (Reuters, podcast 30.10) o rezygnacji Christine Lagarde; sprawdzić komunikat EBC"
+  ],
+  "nota": "Wydanie przygotowane 31.10.2026 (Europe/Warsaw). Nie udało się odczytać: listy OSW (reCAPTCHA), list PISM (puste odpowiedzi; Biuletyn nr 77 z 29.10 znaleziono wyszukiwarką i opisano według streszczenia ze strony, więc lista PISM jest niepełna), działu Świat Onetu (wyszukiwarka nie zwróciła wyników) oraz komunikatów PAP Kraj, DO RSZ, MON, Straży Granicznej, Żandarmerii Wojskowej, Agencji Uzbrojenia i PGZ z 30–31.10 (wyszukiwarka ich nie zwróciła). Kontrola niezależna przeprowadzona; uwagi uwzględniono."
+}

@@ -24,12 +24,12 @@
       "kraj": [
         "ukraina"
       ],
-      "zweryfikowano": "2026-10-22",
+      "zweryfikowano": "2026-10-31",
       "zrodla": [
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/russian-ballistic-missiles-rock-kyiv-in-late-night-attack-injuring-6/",
-          "data": "2026-10-22"
+          "url": "https://kyivindependent.com/zelensky-arrives-in-istanbul-for-important-talks-with-turkeys-erdogan/",
+          "data": "2026-10-31"
         }
       ]
     },
@@ -410,12 +410,12 @@
       "kraj": [
         "rosja"
       ],
-      "zweryfikowano": "2026-10-01",
+      "zweryfikowano": "2026-10-31",
       "zrodla": [
         {
-          "nazwa": "ONZ (UN News)",
-          "url": "https://news.un.org/en/story/2026/09/1168457",
-          "data": "2026-09-26"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/31/a-lot-of-lies-kaja-kallas-criticises-russian-fm-lavrov-following-g20-meetings",
+          "data": "2026-10-31"
         }
       ]
     },
@@ -966,17 +966,12 @@
       "kraj": [
         "usa"
       ],
-      "zweryfikowano": "2026-10-22",
+      "zweryfikowano": "2026-10-31",
       "zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/rubio-says-delays-in-us-air-defense-shipments-to-ukraine-not-deliberate/",
-          "data": "2026-10-20"
-        },
-        {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/20/trump-envoy-witkoff-to-meet-zelenskyy-in-oslo-before-planned-putin-talks-in-moscow",
-          "data": "2026-10-20"
+          "url": "https://www.euronews.com/2026/10/31/a-lot-of-lies-kaja-kallas-criticises-russian-fm-lavrov-following-g20-meetings",
+          "data": "2026-10-31"
         }
       ]
     },
@@ -987,17 +982,12 @@
       "kraj": [
         "ue"
       ],
-      "zweryfikowano": "2026-10-22",
+      "zweryfikowano": "2026-10-31",
       "zrodla": [
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/08/17/eu-to-propose-tougher-sanctions-on-russia-this-autumn-kaja-kallas-says",
-          "data": "2026-08-17"
-        },
-        {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/eu-votes-through-largest-ever-russia-sanctions-list/",
-          "data": "2026-10-12"
+          "url": "https://www.euronews.com/2026/10/31/a-lot-of-lies-kaja-kallas-criticises-russian-fm-lavrov-following-g20-meetings",
+          "data": "2026-10-31"
         }
       ]
     },
@@ -1391,12 +1381,12 @@
       "kraj": [
         "usa"
       ],
-      "zweryfikowano": "2026-10-23",
+      "zweryfikowano": "2026-10-31",
       "zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/23/melania-trump-secures-ceasefire-in-russian-occupied-ukrainian-city-of-oleshky-white-house-",
-          "data": "2026-10-23"
+          "nazwa": "Associated Press",
+          "url": "https://apnews.com/article/russia-ukraine-war-oleshky-evacuation-5cbc7d2a5b8ac34b15c914338fd5a9f3",
+          "data": "2026-10-31"
         }
       ],
       "formy": [

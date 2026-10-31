@@ -6,38 +6,58 @@
       "nazwa": "Ukraina",
       "grupa": "miejsce",
       "opis": "Wojna Rosji z Ukrainą: ataki, obrona powietrzna, polityka Kijowa, pomoc zachodnia.",
-      "stan": "30.10 w Ołeszkach trwa lokalne zawieszenie broni i ewakuacja cywilów; Komisja Europejska przedstawiła plan 45 mld euro dla Ukrainy na 2027 r.",
+      "stan": "31.10 mieszkańcy Ołeszek dotarli na terytorium Ukrainy; 30.10 Departament Stanu USA zatwierdził możliwą sprzedaż 500 pocisków PAC-3 MSE za 2,1 mld dolarów.",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/30/residents-leave-russian-occupied-oleshky-amid-local-ceasefire",
-          "data": "2026-10-30"
+          "nazwa": "Associated Press",
+          "url": "https://apnews.com/article/russia-ukraine-war-oleshky-evacuation-5cbc7d2a5b8ac34b15c914338fd5a9f3",
+          "data": "2026-10-31"
         },
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/30/eu-to-fast-track-45-billion-for-ukraine-amid-acute-financial-crunch",
+          "url": "https://www.euronews.com/2026/10/31/oleshky-evacuees-arrive-in-belarus-amid-localised-truce-between-kyiv-and-moscow",
+          "data": "2026-10-31"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/oleshky-residents-reach-ukrainian-controlled-territory-after-escaping-russian-occupation/",
+          "data": "2026-10-31"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/us-approves-2-1-billion-patriot-missile-sale-to-ukraine-as-nato-commander-dismisses-delivery-concerns/",
+          "data": "2026-10-30"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/10/31/u-s-state-department-approves-potential-2-1-billion-sale-of-500-patriot-air-defense-missiles-to-ukraine",
+          "data": "2026-10-31"
+        },
+        {
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/business/aerospace-defense/us-approves-21-billion-patriot-missile-sale-ukraine-2026-10-30/",
           "data": "2026-10-30"
         }
       ],
-      "stan_data": "2026-10-30"
+      "stan_data": "2026-10-31"
     },
     {
       "id": "front",
       "nazwa": "Front",
       "grupa": "temat",
       "opis": "Działania na linii frontu w Ukrainie; oceny ISW zawsze jako ocena think tanku.",
-      "stan": "29.10 rosyjskie ataki zabiły ludzi w Dnieprze (co najmniej 14), Czernihowie i Krzemieńczuku.",
-      "stan_data": "2026-10-29",
+      "stan": "31.10 po nocnych atakach rosyjskich około 280 tys. gospodarstw w Ukrainie jest bez prądu, pięć osób zginęło.",
+      "stan_data": "2026-10-31",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/29/at-least-13-killed-several-injured-in-russian-drone-strike-on-ukrainian-railway-station",
-          "data": "2026-10-29"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-attacks-kill-5-injure-at-least-46-as-ukraine-faces-difficult-energy-situation/",
+          "data": "2026-10-31"
         },
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/breaking-russia-strikes-train-at-dnipro-station-with-jet-powered-drone-at-least-13-dead/",
-          "data": "2026-10-29"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/31/oleshky-evacuees-arrive-in-belarus-amid-localised-truce-between-kyiv-and-moscow",
+          "data": "2026-10-31"
         }
       ]
     },
@@ -46,32 +66,52 @@
       "nazwa": "Rozejm",
       "grupa": "temat",
       "opis": "Rozmowy i propozycje zawieszenia broni w wojnie Rosji z Ukrainą.",
-      "stan": "Od około 27.10 obowiązuje lokalne zawieszenie broni w Ołeszkach; trójstronne rozmowy z USA wciąż bez potwierdzonego terminu.",
+      "stan": "31.10 ewakuowani z Ołeszek dotarli na Ukrainę; lokalne zawieszenie broni obowiązuje do wieczora 1.11.",
       "stan_zrodla": [
         {
+          "nazwa": "Associated Press",
+          "url": "https://apnews.com/article/russia-ukraine-war-oleshky-evacuation-5cbc7d2a5b8ac34b15c914338fd5a9f3",
+          "data": "2026-10-31"
+        },
+        {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/30/residents-leave-russian-occupied-oleshky-amid-local-ceasefire",
-          "data": "2026-10-30"
+          "url": "https://www.euronews.com/2026/10/31/oleshky-evacuees-arrive-in-belarus-amid-localised-truce-between-kyiv-and-moscow",
+          "data": "2026-10-31"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/oleshky-residents-reach-ukrainian-controlled-territory-after-escaping-russian-occupation/",
+          "data": "2026-10-31"
         }
       ],
-      "stan_data": "2026-10-30"
+      "stan_data": "2026-10-31"
     },
     {
       "id": "rosja",
       "nazwa": "Rosja",
       "grupa": "miejsce",
       "opis": "Polityka wewnętrzna, armia i budżet Rosji.",
-      "stan": "30.10 „Nowaja Gazieta” ogłosiła zamknięcie; w Świdnicy aresztowano obywatela Rosji podejrzanego o szpiegostwo na rzecz obcego wywiadu.",
-      "stan_data": "2026-10-30",
+      "stan": "31.10 ambasada USA ostrzegła przed zagrożeniem zamachem w Carycynie w Moskwie; 30.10 na spotkaniu G20 w Atlancie odwołano wspólne zdjęcie z Ławrowem.",
+      "stan_data": "2026-10-31",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/30/russian-independent-newspaper-novaya-gazeta-says-it-will-shut-down-following-pressure-from",
-          "data": "2026-10-30"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/us-warns-russia-of-mass-casualty-event-threat-at-historic-palace-outside-moscow/",
+          "data": "2026-10-31"
         },
         {
-          "nazwa": "Policja Dolnośląska",
-          "url": "https://dolnoslaska.policja.gov.pl/wr1/aktualnosci/biezace-inf/187300,Policjanci-zatrzymali-ob-Federacji-Rosyjskiej-podejrzewanego-o-prowadzenie-dzial.html",
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/10/31/u-s-embassy-warns-of-mass-casualty-threat-at-moscow-s-tsaritsyno-museum-fsb-confirms-receiving-the-warning",
+          "data": "2026-10-31"
+        },
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-10-31/amerykanie-ostrzegli-rosje-w-tle-grozba-ataku-terrorystycznego/",
+          "data": "2026-10-31"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/30/eu-diplomats-object-to-g20-photo-with-lavrov-prompting-us-cancellation",
           "data": "2026-10-30"
         }
       ]
@@ -237,33 +277,48 @@
       "nazwa": "Iran",
       "grupa": "miejsce",
       "opis": "Iran, Cieśnina Ormuz, rozmowy z USA i mediatorami.",
-      "stan": "26.10 delegacje Arabii Saudyjskiej, Pakistanu i Turcji spotkały się w Teheranie z władzami Iranu; bez konkretnych ustaleń, spór z USA o blokadę i wzbogacanie uranu trwa.",
+      "stan": "30.10 Korpus Strażników Rewolucji Islamskiej podał o incydentach z tankowcami w Cieśninie Ormuz; katarscy mediatorzy wrócili do Teheranu.",
       "stan_zrodla": [
         {
-          "nazwa": "France 24",
-          "url": "https://www.france24.com/en/middle-east/20261026-iran-talks-mecca-pact-nations-war",
-          "data": "2026-10-26"
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/world/middle-east/irans-irgc-navy-says-two-tankers-stopped-south-hormuz-after-incidents-2026-10-30/",
+          "data": "2026-10-30"
         },
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/27/qatar-urges-iran-to-show-goodwill-by-ending-threats-to-the-region-and-reopening-the-strait",
-          "data": "2026-10-27"
+          "url": "https://www.euronews.com/2026/10/30/irans-revolutionary-guard-reports-two-tankers-on-fire-in-strait-of-hormuz-as-talks-continu",
+          "data": "2026-10-30"
+        },
+        {
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/world/asia-pacific/pakistan-military-cautiously-optimistic-iran-us-mediation-2026-10-30/",
+          "data": "2026-10-30"
         }
       ],
-      "stan_data": "2026-10-27"
+      "stan_data": "2026-10-31"
     },
     {
       "id": "usa",
       "nazwa": "USA",
       "grupa": "miejsce",
       "opis": "Polityka USA wobec Europy, Rosji, Ukrainy i Bliskiego Wschodu.",
-      "stan": "28.10 FOMC utrzymał stopę Fed na poziomie 3,75–4 proc. (10 do 2); 3.11 wybory połowy kadencji.",
-      "stan_data": "2026-10-30",
+      "stan": "30.10 Departament Stanu zatwierdził możliwą sprzedaż Ukrainie 500 pocisków PAC-3 MSE; 3.11 odbędą się wybory połowy kadencji.",
+      "stan_data": "2026-10-31",
       "stan_zrodla": [
         {
-          "nazwa": "Fed",
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
-          "data": "2026-10-28"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/us-approves-2-1-billion-patriot-missile-sale-to-ukraine-as-nato-commander-dismisses-delivery-concerns/",
+          "data": "2026-10-30"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/10/31/u-s-state-department-approves-potential-2-1-billion-sale-of-500-patriot-air-defense-missiles-to-ukraine",
+          "data": "2026-10-31"
+        },
+        {
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/business/aerospace-defense/us-approves-21-billion-patriot-missile-sale-ukraine-2026-10-30/",
+          "data": "2026-10-30"
         }
       ]
     },
@@ -317,15 +372,15 @@
       "nazwa": "UE",
       "grupa": "temat",
       "opis": "Unia Europejska: Rada, Komisja, obronność, budżet WRF 2028–2034.",
-      "stan": "30.10 Komisja Europejska przedstawiła plan wypłat 45 mld euro dla Ukrainy na 2027 r.; wymaga zatwierdzenia przez Radę UE.",
+      "stan": "31.10 szefowa unijnej dyplomacji Kaja Kallas na spotkaniu G20 w Atlancie zarzuciła Ławrowowi kłamstwa.",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/eu-lays-out-45-billion-euro-spending-plan-for-ukraine-in-2027/",
-          "data": "2026-10-30"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/31/a-lot-of-lies-kaja-kallas-criticises-russian-fm-lavrov-following-g20-meetings",
+          "data": "2026-10-31"
         }
       ],
-      "stan_data": "2026-10-30"
+      "stan_data": "2026-10-31"
     },
     {
       "id": "onz",
@@ -614,20 +669,20 @@
       "nazwa": "Energia",
       "grupa": "temat",
       "opis": "Ropa, gaz, infrastruktura energetyczna, ceny paliw.",
-      "stan": "30.10 otwarto w Porcie Gdańsk terminal T5 do obsługi budowy morskich farm wiatrowych na Bałtyku, najpierw Baltica 2 (1,5 GW).",
+      "stan": "30.10 Korpus Strażników Rewolucji Islamskiej podał o incydentach z tankowcami w Cieśninie Ormuz; CENTCOM oświadczył, że główne szlaki oczyszczono z min.",
       "stan_zrodla": [
         {
-          "nazwa": "KPRM",
-          "url": "https://www.gov.pl/web/premier/wiecej-polski-wiecej-mocy-terminal-t5-oficjalnie-oddany-do-uzytku",
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/world/middle-east/irans-irgc-navy-says-two-tankers-stopped-south-hormuz-after-incidents-2026-10-30/",
           "data": "2026-10-30"
         },
         {
-          "nazwa": "Ministerstwo Infrastruktury",
-          "url": "https://www.gov.pl/web/infrastruktura/otwarto-nowy-terminal-instalacyjny-offshore-w-porcie-gdansk",
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/10/30/irans-revolutionary-guard-reports-two-tankers-on-fire-in-strait-of-hormuz-as-talks-continu",
           "data": "2026-10-30"
         }
       ],
-      "stan_data": "2026-10-30"
+      "stan_data": "2026-10-31"
     },
     {
       "id": "gospodarka",

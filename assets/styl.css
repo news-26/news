@@ -650,3 +650,4 @@ button.kal-strz[disabled] { color: var(--linia); cursor: default; }
 .kafel-n { font: 600 12px/1 var(--sans); padding: 4px 8px; border-radius: 999px; background: var(--morze-t); color: var(--morze); }
 .kafel[open] { padding-bottom: 12px; }
 .kafel .pasek { display: none; }
+.gl-pub { background: var(--karta); border: 1px solid var(--linia); border-radius: 8px; padding: 6px 18px 12px; margin-top: 22px; }

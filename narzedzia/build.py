@@ -65,7 +65,9 @@ MIESIACE_MIAN = ["Styczeń", "Luty", "Marzec", "Kwiecień", "Maj", "Czerwiec", "
                  "Sierpień", "Wrzesień", "Październik", "Listopad", "Grudzień"]
 EUROPA = json.loads((Path(__file__).resolve().parent / "europa.json").read_text("utf-8"))
 SWIAT = json.loads((Path(__file__).resolve().parent / "swiat.json").read_text("utf-8"))
-GENEROWANE = ["index.html", "wydania", "watki", "osoby", "pojecia", "top", "czytelnia.html", "kalendarz.html", "kalendarium.html", "kalendarium.ics", "korekty.html", "zrodla.html",
+# Układ strony: "nowy" – menu w czterech działach i uproszczona strona główna; "stary" – układ sprzed 31.10.2026.
+UKLAD = "nowy"
+GENEROWANE = ["index.html", "archiwum.html", "wydania", "watki", "osoby", "pojecia", "top", "czytelnia.html", "kalendarz.html", "kalendarium.html", "kalendarium.ics", "korekty.html", "zrodla.html",
               "jak-weryfikujemy.html", "szukaj.html", "szukaj.json", "feed.xml",
               "robots.txt", ".nojekyll", "assets", "404.html"]
 
@@ -985,7 +987,32 @@ def strona(tytul, tresc, prefix="", opis="", aktywne=""):
            ("korekty.html", "Korekty", "korekty"), ("zrodla.html", "Źródła", "zrodla"), ("jak-weryfikujemy.html", "Jak weryfikujemy", "jak"),
            ("szukaj.html", "Szukaj", "szukaj")]
     akt = ' aria-current="page"'
-    menu = "".join(f'<a href="{prefix}{h}"{akt if k == aktywne else ""}>{n}</a>' for h, n, k in nav)
+    if UKLAD == "stary":
+        menu = f'<nav class="menu">{"".join(f"<a href=\"{prefix}{h}\"{akt if k == aktywne else str()}>{n}</a>" for h, n, k in nav)}</nav>'
+    else:
+        dzialy = [("Czytaj", [("index.html", "Najnowsze wydanie", "wydania"), ("archiwum.html", "Archiwum wydań", "archiwum"),
+                              ("kalendarz.html", "Kalendarz wydań", "kalendarz"), ("top/index.html", "Top 10", "top")]),
+                  ("Ucz się", [("watki/index.html", "Wątki", "watki"), ("osoby/index.html", "Kto jest kim", "osoby"),
+                               ("pojecia/index.html", "Pojęcia", "pojecia"), ("powiazania.html", "Powiązania", "powiazania")]),
+                  ("Terminy", [("kalendarium.html", "Kalendarium", "kalendarium")]),
+                  ("Źródła", [("czytelnia.html", "Czytelnia OSW i PISM", "czytelnia"), ("zrodla.html", "Ranking źródeł", "zrodla"),
+                              ("jak-weryfikujemy.html", "Jak weryfikujemy", "jak"), ("korekty.html", "Korekty", "korekty")])]
+        el = []
+        for nazwa, linki in dzialy:
+            biez = any(k == aktywne for _, _, k in linki)
+            if len(linki) == 1:
+                h, _, k = linki[0]
+                el.append(f'<a class="mg-l" href="{prefix}{h}"{akt if biez else ""}>{nazwa}</a>')
+            else:
+                el.append(f'<details class="mg" name="menu-g"><summary{" class=\"biez\"" if biez else ""}>{nazwa}</summary><div class="mg-p">' +
+                          "".join(f'<a href="{prefix}{h}"{akt if k == aktywne else ""}>{n}</a>' for h, n, k in linki) + "</div></details>")
+        el.append(f'<a class="mg-szukaj" href="{prefix}szukaj.html"{akt if aktywne == "szukaj" else ""}>Szukaj</a>')
+        menu = (f'<nav class="menu-g" aria-label="Menu">{"".join(el)}</nav>'
+                "<script>(function(){var g=document.querySelectorAll('.mg');"
+                "function zamknij(w){[].forEach.call(g,function(d){if(d!==w)d.open=false;});}"
+                "[].forEach.call(g,function(d){d.addEventListener('toggle',function(){if(d.open)zamknij(d);});});"
+                "document.addEventListener('click',function(e){if(!e.target.closest('.mg'))zamknij(null);});"
+                "document.addEventListener('keydown',function(e){if(e.key==='Escape')zamknij(null);});})();</script>")
     return f"""<!doctype html>
 <html lang="pl">
 <head>
@@ -1002,7 +1029,7 @@ def strona(tytul, tresc, prefix="", opis="", aktywne=""):
 <header class="gora">
   <div class="wrap">
     <a class="marka" href="{prefix}index.html"><span class="marka-t">{TYTUL}</span><span class="marka-p">{PODTYTUL}</span></a>
-    <nav class="menu">{menu}</nav>
+    {menu}
   </div>
 </header>
 <main class="wrap">
@@ -1476,7 +1503,33 @@ class Budowa:
         self.zapisz(f"wydania/{w['_slug']}.html",
                     strona(f"{rodzaj} nr {w['nr']} – {data_dluga(w['data'])}", "\n".join(cz), prefix, opis, "wydania"))
 
+    def archiwum_html(self):
+        miesiac = None
+        lista = ""
+        for w in reversed(self.wydania):
+            d = data_(w["data"])
+            if (d.year, d.month) != miesiac:
+                if lista:
+                    lista += "</ul>"
+                miesiac = (d.year, d.month)
+                lista += f'<h3 class="blok">{MIESIACE_MIAN[d.month-1]} {d.year}</h3><ul class="archiwum">'
+            rodzaj = " · tygodniowe" if w.get("typ") == "tygodniowe" else ""
+            tg = sorted({t for it in w["zarys"] for t in it["tagi"]})[:6]
+            lista += (f'<li><a href="wydania/{w["_slug"]}.html"><span class="a-d">{DNI_KROTKO[d.weekday()]} {data_krotka(w["data"])}</span> '
+                      f'nr {w["nr"]}{rodzaj}</a> {html_tagi(tg, self.tagi, "")}</li>')
+        return lista + ("</ul>" if lista else "")
+
+    def archiwum_strona(self):
+        cz = [f"""<section class="winieta">
+  <p class="w-nr">Czytaj</p>
+  <h1>Archiwum wydań</h1>
+  <p class="w-stan">Wszystkie wydania od najnowszego ({len(self.wydania)}). Wydania dzień po dniu pokazuje też <a href="kalendarz.html">kalendarz wydań</a>.</p>
+</section>""", self.archiwum_html() or '<p class="uwaga">Archiwum wypełni się z kolejnymi wydaniami.</p>']
+        self.zapisz("archiwum.html", strona("Archiwum wydań", "\n".join(cz), "", "Wszystkie wydania Prasówki od najnowszego.", "archiwum"))
+
     def index(self):
+        if UKLAD != "stary" and self.wydania:
+            return self.index_nowy()
         cz = []
         if self.wydania:
             w = self.wydania[-1]
@@ -1529,22 +1582,7 @@ class Budowa:
                 cz.append('<h2 class="pasek">Gorące wątki z ostatnich 7 dni</h2><div class="chmura">' + "".join(
                     f'<a class="tag tag-{self.tagi[t]["grupa"]} duzy" href="watki/{t}.html">#{e(self.tagi[t]["nazwa"])} <span>{n}</span></a>'
                     for t, n in gorace) + "</div>")
-            cz.append('<h2 class="pasek" id="archiwum">Archiwum wydań</h2>')
-            miesiac = None
-            lista = ""
-            for w in reversed(self.wydania):
-                d = data_(w["data"])
-                if (d.year, d.month) != miesiac:
-                    if lista:
-                        lista += "</ul>"
-                    miesiac = (d.year, d.month)
-                    lista += f'<h3 class="blok">{MIESIACE_MIAN[d.month-1]} {d.year}</h3><ul class="archiwum">'
-
-                rodzaj = " · tygodniowe" if w.get("typ") == "tygodniowe" else ""
-                tg = sorted({t for it in w["zarys"] for t in it["tagi"]})[:6]
-                lista += (f'<li><a href="wydania/{w["_slug"]}.html"><span class="a-d">{DNI_KROTKO[d.weekday()]} {data_krotka(w["data"])}</span> '
-                          f'nr {w["nr"]}{rodzaj}</a> {html_tagi(tg, self.tagi, "")}</li>')
-            cz.append(lista + "</ul>")
+            cz.append('<h2 class="pasek" id="archiwum">Archiwum wydań</h2>' + self.archiwum_html())
         else:
             cz.append("""<section class="winieta"><h1>Archiwum rusza wkrótce</h1>
 <p class="w-stan">Pierwsze wydanie pojawi się tu po najbliższej wieczornej publikacji.</p></section>
@@ -1552,6 +1590,51 @@ class Budowa:
 <p>Każde wydanie ma trzy części: <strong>zarys</strong> udokumentowanych wydarzeń, <strong>analizy</strong> z podpisanym autorem oceny i <strong>kalendarz</strong>.</p>
 <p><strong>Hashtagi</strong> łączą wydania: kliknięcie <span class="tag tag-miejsce">#Słowacja</span> pokazuje całą historię wątku na jednej stronie, z aktualnym stanem na górze.</p>
 <p>Osoby i pojęcia w tekście są klikalne i prowadzą do kart w działach „Kto jest kim” i „Pojęcia”.</p></section>""")
+        self.zapisz("index.html", strona("Wydania", "\n".join(cz), "", "", "wydania"))
+
+    def index_nowy(self):
+        w = self.wydania[-1]
+        T = Tekst(self.osoby, self.pojecia, "")
+        cz = [f"""<section class="winieta">
+  <p class="w-nr">Najnowsze · wydanie nr {e(w['nr'])}</p>
+  <h1><a href="wydania/{w['_slug']}.html">{data_pelna(w['data']).capitalize()}</a></h1>
+  <p class="w-stan">stan na godz. {e(w['godzina'])} CEST</p>
+</section>
+<section class="skrot"><h2>W skrócie</h2>{''.join(f'<p>{T(z)}</p>' for z in w['w_skrocie'])}
+<p class="gl-cta"><a class="przycisk" href="wydania/{w['_slug']}.html">Czytaj całe wydanie</a>
+<a href="archiwum.html">Poprzednie wydania</a></p></section>"""]
+        kol = []
+        terminy = self.najblizsze_terminy(w["data"], 5)
+        if terminy:
+            kol.append(f'<div class="gl-kol">{terminy.replace("<h2 class=\"pasek\">Najbliższe wydarzenia</h2>", "<h2 class=\"gl-t\">Najbliższe dni</h2>")}</div>')
+        if self.topy:
+            z = self.biezace or self.archiwum[-1]
+            tyt = "Top 10 tygodnia" if z["_kroczace"] else f"Top 10 · {okres_topu(z)}"
+            kol.append(f'<div class="gl-kol"><h2 class="gl-t">{e(tyt)}</h2><ol class="top-lista">' + "".join(
+                f'<li><a href="top/{z["_slug"]}.html#t{n}">{e(p["tytul"])}</a></li>' for n, p in enumerate(z["pozycje"], 1))
+                + f'</ol><p class="dalej"><a href="top/{z["_slug"]}.html">Całe zestawienie z omówieniami</a></p></div>')
+        if kol:
+            cz.append('<div class="gl-dwie">' + "".join(kol) + "</div>")
+        kafle = []
+        nowe = self.publikacje_posortowane()[:5]
+        if nowe:
+            kafle.append(f'<details class="kafel"><summary>Nowe teksty OSW i PISM <span class="kafel-n">{len(nowe)}</span></summary>'
+                         '<ul class="pub pub-glowna">' + "".join(self.publikacja_li(r, "") for r in nowe) +
+                         f'</ul><p class="dalej"><a href="czytelnia.html">Wszystkie teksty ({len(self.publikacje)}) w Czytelni</a></p></details>')
+        gorace = self.gorace_watki(7)
+        if gorace:
+            kafle.append(f'<details class="kafel"><summary>Gorące wątki tygodnia <span class="kafel-n">{len(gorace)}</span></summary><div class="chmura">' + "".join(
+                f'<a class="tag tag-{self.tagi[t]["grupa"]} duzy" href="watki/{t}.html">#{e(self.tagi[t]["nazwa"])} <span>{n}</span></a>'
+                for t, n in gorace) + '</div><p class="dalej"><a href="watki/index.html">Wszystkie wątki</a></p></details>')
+        koniec = data_(w["data"])
+        poz7 = [(x, it) for x in self.wydania for it in x["zarys"] if 0 <= (koniec - data_(it["data"])).days < 7]
+        mapa = self.mapa_miejsc(poz7, "", "Mapa wydarzeń z ostatnich 7 dni",
+                                f"Pozycje z wydań z datą zdarzenia od {data_dluga((koniec - dt.timedelta(days=6)).isoformat())} do {data_dluga(w['data'])}.",
+                                "mapa")
+        if mapa:
+            kafle.append(f'<details class="kafel"><summary>Mapa wydarzeń tygodnia <span class="kafel-n">{len(poz7)}</span></summary>{mapa}</details>')
+        if kafle:
+            cz.append('<h2 class="pasek">Więcej</h2><div class="gl-kafle">' + "".join(kafle) + "</div>")
         self.zapisz("index.html", strona("Wydania", "\n".join(cz), "", "", "wydania"))
 
     # ---- kalendarz wydań
@@ -2661,6 +2744,7 @@ Na grafie widać wszystkich naraz; dotknij węzła, żeby podświetlić jego pow
         self.index()
         self.top_strony()
         self.czytelnia()
+        self.archiwum_strona()
         self.kalendarz_strona()
         self.kalendarium_strona()
         self.watki()

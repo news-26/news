@@ -1603,9 +1603,9 @@ class Budowa:
 <section class="skrot"><h2>W skrócie</h2>{''.join(f'<p>{T(z)}</p>' for z in w['w_skrocie'])}
 <p class="gl-cta"><a class="przycisk" href="wydania/{w['_slug']}.html">Czytaj całe wydanie</a>
 <a href="archiwum.html">Poprzednie wydania</a></p></section>"""]
-        nowe = self.publikacje_posortowane()[:5]
+        nowe = [r for r in self.publikacje_posortowane() if r["data"][:10] == w["data"]]
         if nowe:
-            cz.append('<section class="gl-pub"><h2 class="gl-t">Nowe teksty OSW i PISM</h2><ul class="pub pub-glowna">' +
+            cz.append(f'<section class="gl-pub"><h2 class="gl-t">Nowe teksty OSW i PISM z {data_krotka(w["data"])}</h2><ul class="pub pub-glowna">' +
                       "".join(self.publikacja_li(r, "") for r in nowe) +
                       f'</ul><p class="dalej"><a href="czytelnia.html">Wszystkie teksty ({len(self.publikacje)}) w Czytelni</a></p></section>')
         kol = []

@@ -1,0 +1,365 @@
+{
+ "nr": 44,
+ "data": "2026-11-01",
+ "godzina": "20:00",
+ "typ": "dzienne",
+ "w_skrocie": [
+  "W nocy na 1.11 drony uszkodziły zakład przemysłowy w rejonie kstowskim w obwodzie niżnonowogrodzkim w Rosji. Gubernator Gleb Nikitin podał, że zniszczono ponad 100 dronów; rafinerii w Kstowie, o której piszą kanały monitorujące, nie potwierdzono.",
+  "Rosyjskie ataki na infrastrukturę energetyczną Ukrainy pozbawiły prądu setki tysięcy gospodarstw domowych. Według władz regionalnych w ciągu doby zginęła jedna osoba, a co najmniej 47 zostało rannych.",
+  "Najwyższy przywódca Iranu Modżtaba Chamenei zapowiedział 31.10 natychmiastową i **geograficznie nieograniczoną** odpowiedź na każdy atak USA. Według Euronews ostrzeżenia z USA mówią o możliwym uderzeniu po wyborach śródokresowych.",
+  "Ambasada USA w Moskwie ostrzegła 31.10 przed zagrożeniem zamachem w parku Carycyno. Według komunikatu FSB zatrzymano 1.11 nieletniego, który publikował zdjęcia z bronią podobną do automatu."
+ ],
+ "korekty": [],
+ "zarys": [
+  {
+   "id": "z1",
+   "blok": "wojna",
+   "data": "2026-11-01",
+   "tagi": [
+    "ukraina",
+    "rosja",
+    "front"
+   ],
+   "etap": "W TOKU",
+   "miejsce": "kstowo",
+   "krotko": "Kstowo: atak dronów na zakład przemysłowy",
+   "tekst": "Ukraiński atak dronów w nocy na 1.11 uszkodził zakład przemysłowy w rejonie kstowskim w obwodzie niżnonowogrodzkim w Rosji. Gubernator Gleb Nikitin podał, że zniszczono ponad 100 dronów. Według kanałów monitorujących na Telegramie celem była **rafineria w Kstowie**, czego niezależnie nie potwierdzono.",
+   "zrodla": [
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/11/01/russia-says-massive-drone-attack-targeted-industrial-enterprise-amid-reports-oil-refinery-",
+     "data": "2026-11-01"
+    },
+    {
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/russian-oil-refinery-in-kstovo-ablaze-after-reported-overnight-drone-strike/",
+     "data": "2026-11-01"
+    },
+    {
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/ukraine-never-agreed-to-pause-strikes-on-russian-refineries-sources-confirm/",
+     "data": "2026-10-31"
+    }
+   ]
+  },
+  {
+   "id": "z2",
+   "blok": "wojna",
+   "data": "2026-11-01",
+   "tagi": [
+    "ukraina",
+    "rosja",
+    "front",
+    "energia"
+   ],
+   "etap": "W TOKU",
+   "miejsce": "kijow",
+   "krotko": "Ukraina: ataki na sieć energetyczną",
+   "tekst": "Rosja uderzyła w nocy na 1.11 w infrastrukturę **energetyczną** w co najmniej czterech obwodach Ukrainy, pozbawiając prądu setki tysięcy gospodarstw domowych. Według Sił Powietrznych Ukrainy zestrzelono 371 z 433 dronów, a według władz regionalnych zginęła jedna osoba, a co najmniej 47 zostało rannych. Według {{o:wolodymyr-zelenski|Wołodymyra Zełenskiego}} (Euronews) 31.10 około 280 tys. gospodarstw straciło prąd, a trafiono m.in. elektrociepłownię w Kijowie i cztery podstacje w obwodzie dnieprzańskim.",
+   "zrodla": [
+    {
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/russian-attacks-kill-1-injure-47-over-past-day-leaving-hundreds-of-thousands-without-electricity/",
+     "data": "2026-11-01"
+    },
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/11/01/russia-says-massive-drone-attack-targeted-industrial-enterprise-amid-reports-oil-refinery-",
+     "data": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "z3",
+   "blok": "swiat",
+   "data": "2026-11-01",
+   "tagi": [
+    "iran",
+    "usa"
+   ],
+   "etap": "W TOKU",
+   "tekst": "Ajatollah Modżtaba Chamenei, najwyższy przywódca Iranu, powiedział 31.10 dowódcom wojskowym, że każde zagrożenie spotka się z natychmiastową i **geograficznie nieograniczoną** odpowiedzią; według irańskich mediów państwowych kazał przygotować nową listę celów USA i Izraela. Według Euronews, powołującego się na ostrzeżenia z USA, możliwa jest krótka, intensywna kampania po wyborach śródokresowych. Reuters (newsletter) podał, że irańscy wysłannicy spotkali się z katarskimi mediatorami.",
+   "zrodla": [
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/11/01/irans-supreme-leader-warns-of-geographically-unrestricted-response-if-us-attacks-again",
+     "data": "2026-11-01"
+    },
+    {
+     "nazwa": "Reuters (newsletter)",
+     "url": "https://www.reuters.com/world/middle-east/iranian-envoys-meet-qatari-mediators-threat-looms-us-strikes-after-midterms-2026-10-31/",
+     "data": "2026-10-31"
+    }
+   ]
+  },
+  {
+   "id": "z4",
+   "blok": "swiat",
+   "data": "2026-11-01",
+   "tagi": [
+    "rosja",
+    "usa"
+   ],
+   "miejsce": "moskwa",
+   "krotko": "Moskwa: ostrzeżenie o zamachu w Carycynie",
+   "tekst": "Ambasada USA w Moskwie ostrzegła 31.10 przed wiarygodnym zagrożeniem zamachem z wieloma ofiarami w parku-muzeum Carycyno; FSB potwierdziła otrzymanie ostrzeżenia. Według Euronews teren zamknięto wieczorem z oficjalnie podanych przyczyn technicznych. Według komunikatu FSB 1.11 zatrzymano nieletniego obywatela Rosji, który publikował zdjęcia z bronią podobną do automatu i z terenu muzeum; zarzutów nie podano.",
+   "zrodla": [
+    {
+     "nazwa": "Meduza",
+     "url": "https://meduza.io/en/news/2026/10/31/u-s-embassy-warns-of-mass-casualty-threat-at-moscow-s-tsaritsyno-museum-fsb-confirms-receiving-the-warning",
+     "data": "2026-10-31"
+    },
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/11/01/russia-arrests-minor-after-us-embassy-warns-of-credible-threat-of-a-mass-casualty-event",
+     "data": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "z5",
+   "blok": "instytucje",
+   "data": "2026-10-31",
+   "tagi": [
+    "ue"
+   ],
+   "etap": "W TOKU",
+   "tekst": "Rzecznik Komisji Europejskiej oświadczył 31.10 w odpowiedzi dla Euronews, że za funkcjonowanie Trybunału Konstytucyjnego odpowiadają polskie władze, a powołanie ośmiu nowych sędziów mieści się w kompetencjach Sejmu. Powołał się na środki tymczasowe Europejskiego Trybunału Praw Człowieka (ETPCz) z 5.05.2026 wobec Polski. Oświadczenie padło po wieczorze 30.10, gdy policja otoczyła budynek Trybunału w czasie próby wejścia prezydenta {{o:karol-nawrocki|Karola Nawrockiego}}.",
+   "zrodla": [
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/11/01/eu-commission-polish-parliament-has-right-to-appoint-judges-to-the-constitutional-court",
+     "data": "2026-11-01"
+    },
+    {
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/eu-commission-backs-poland-government-over-constitutional-court-crisis/",
+     "data": "2026-11-01"
+    }
+   ]
+  }
+ ],
+ "analizy": [
+  {
+   "tytul": "ISW: groźby Modżtaby Chameneiego są prawdopodobnie próbą odstraszenia USA i Izraela",
+   "autor": "ISW (Institute for the Study of War), ocena przytoczona przez Euronews 1.11.2026",
+   "tekst": "Według ISW zapowiedź „geograficznie nieograniczonej” odpowiedzi to prawdopodobnie element irańskich starań o odstraszenie USA i Izraela. Euronews dodaje, że irańscy urzędnicy wskazują na pozytywne sygnały z Waszyngtonu, m.in. list wiceprezydenta USA do sekretarza Rady Bezpieczeństwa Narodowego Iranu (relacja strony irańskiej).",
+   "dla_polski": "Skutek pośredni: wznowienie wojny USA z Iranem zakłóciłoby dostawy ropy i gazu oraz odciągnęło uwagę i zasoby USA od Europy (ocena redakcji).",
+   "tagi": [
+    "iran",
+    "usa"
+   ],
+   "zrodla": [
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/11/01/irans-supreme-leader-warns-of-geographically-unrestricted-response-if-us-attacks-again",
+     "data": "2026-11-01"
+    }
+   ]
+  }
+ ],
+ "kalendarz": [
+  {
+   "data": "2026-11-01",
+   "tekst": "1.11: OPEC+ – spotkanie siedmiu państw w sprawie limitów wydobycia na grudzień.",
+   "tagi": [
+    "energia"
+   ]
+  },
+  {
+   "data": "2026-11-01",
+   "tekst": "1.11: Bułgaria – II tura wyborów prezydenckich (Iliana Jotowa kontra Andrej Giurow).",
+   "tagi": [
+    "bulgaria",
+    "wybory"
+   ]
+  },
+  {
+   "data": "2026-11-03",
+   "tekst": "3.11: USA – wybory połowy kadencji (cała Izba Reprezentantów, jedna trzecia Senatu, część gubernatorów).",
+   "tagi": [
+    "usa",
+    "wybory"
+   ]
+  },
+  {
+   "data": "2026-11-04",
+   "tekst": "4.11: Izrael – termin oficjalnego ogłoszenia wyników wyborów do Knesetu (według mediów); później prezydent Izraela wskazuje kandydata na premiera.",
+   "tagi": [
+    "inne",
+    "wybory"
+   ],
+   "poza_kalendarium": "termin podają media, brak komunikatu komisji wyborczej; w do_sprawdzenia"
+  },
+  {
+   "data": "2026-11-10",
+   "tekst": "10.11: Ukraina – niepotwierdzony termin rozmów trójstronnych z Rosją i USA w Abu Zabi według Zełenskiego (Kreml: po 4.11, bez daty).",
+   "tagi": [
+    "ukraina",
+    "rozejm"
+   ],
+   "poza_kalendarium": "datę podaje tylko jedna strona (Zełenski); w do_sprawdzenia"
+  }
+ ],
+ "poza_oknem": [
+  {
+   "data": "2026-11-12",
+   "tekst": "Europejska Wspólnota Polityczna w Irlandii (12.11), 13.11 nieformalne spotkanie przywódców UE",
+   "tagi": [
+    "ue"
+   ]
+  },
+  {
+   "data": "2026-11-15",
+   "tekst": "Ukraina, Rosja i USA – trójstronne rozmowy w Abu Zabi w listopadzie (termin według Kremla: około połowy miesiąca; Al Jazeera podaje spotkania techniczne na początku listopada); przedtem możliwa runda w Europie (według urzędnika UE)",
+   "tagi": [
+    "ukraina",
+    "rozejm"
+   ],
+   "poza_kalendarium": "termin podany tylko przez Kreml; strony nie potwierdziły daty"
+  },
+  {
+   "data": "2026-11-29",
+   "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+   "tagi": [
+    "inne",
+    "wybory"
+   ]
+  },
+  {
+   "data": "2027-01-12",
+   "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+   "tagi": [
+    "litwa"
+   ]
+  }
+ ],
+ "zrodla_analityczne": {
+  "osw": [],
+  "pism": [],
+  "nieodczytane": [
+   "osw",
+   "pism"
+  ]
+ },
+ "czego_nie_ma": [
+  {
+   "id": "n1",
+   "tekst": "Bułgaria: wynik II tury wyborów prezydenckich 1.11 (Iliana Jotowa kontra Andrej Giurow) nie był jeszcze dostępny w chwili przygotowania wydania; po pierwszej turze 25.10 prowadziła Jotowa, a frekwencja wyniosła ok. 22,5 proc.",
+   "prog": "dokumentacja",
+   "kalendarz": "2026-11-01",
+   "sprawdzono": [
+    "Euronews (1.11, tylko otwarcie lokali)",
+    "WebSearch: komisja wyborcza i agencje – brak wyniku",
+    "Brussels Signal i AP (27.10, tylko I tura)"
+   ]
+  },
+  {
+   "id": "n2",
+   "tekst": "OPEC+: według Reutersa (newsletter 1.11, źródła) siedem państw miało utrzymać cele wydobycia na grudzień bez zmian; komunikatu OPEC o decyzji nie znaleziono.",
+   "prog": "dokumentacja",
+   "termin": "opec-2026-11",
+   "sprawdzono": [
+    "Reuters (newsletter 1.11, tylko zapowiedź)",
+    "WebSearch: komunikat OPEC – brak",
+    "WebSearch: drugie źródło poziomu 2 – tylko Reuters z 27.10"
+   ]
+  },
+  {
+   "id": "n3",
+   "tekst": "Izrael: oficjalne wyniki wyborów do Knesetu ogłosi według mediów 4.11 komisja wyborcza.",
+   "prog": "dokumentacja",
+   "kalendarz": "2026-11-04",
+   "sprawdzono": [
+    "PISM (Biuletyn nr 75 z 23.10, przed wyborami)",
+    "WebSearch: komisja wyborcza – brak wyników",
+    "Al Jazeera (31.10, bez wyników końcowych)"
+   ]
+  },
+  {
+   "id": "n4",
+   "tekst": "Turcja: według Kyiv Independent po rozmowach w Stambule 31.10 prezydent Turcji Recep Tayyip Erdoğan uznał ataki na statki cywilne na Morzu Czarnym za nie do przyjęcia, a Zełenski nazwał rozmowy rzeczowymi; żadnej nowej umowy nie podano. Komunikatu strony tureckiej ani drugiego źródła poziomu 2 nie znaleziono.",
+   "prog": "dokumentacja",
+   "sprawdzono": [
+    "Kyiv Independent (31.10)",
+    "WebSearch (po turecku): İletişim Başkanlığı i AA – brak wpisu z 31.10",
+    "Reuters i AP – niedostępne poza newsletterem"
+   ]
+  },
+  {
+   "id": "n5",
+   "tekst": "Jemen: według Euronews Wysoki Komisarz ONZ ds. praw człowieka Volker Türk zażądał 1.11 pilnego śledztwa po śmierci pracownika biura ONZ ds. praw człowieka Mohammada el Shamiego, więzionego od 6.06.2024 przez Huti; premier Jemenu Shaya al-Zindani mówi o ponad 70 zatrzymanych pracownikach ONZ. Komunikatu ONZ nie odnaleziono.",
+   "prog": "dokumentacja",
+   "sprawdzono": [
+    "Euronews (1.11)",
+    "WebSearch: komunikat Biura Wysokiego Komisarza – brak",
+    "Reuters i AP – niedostępne poza newsletterem"
+   ]
+  },
+  {
+   "id": "n6",
+   "tekst": "Rosja: według Kyiv Independent (31.10) wicepremier Rosji Aleksandr Nowak potwierdził ataki dronów na rafinerie 30.10, a producent dronów Fire Point przyznał się do uderzenia w Nowokujbyszewsk; komunikatów rosyjskich ani drugiego źródła poziomu 2 nie otwarto.",
+   "prog": "dokumentacja",
+   "sprawdzono": [
+    "Kyiv Independent (31.10, według kontroli niezależnej)",
+    "WebSearch: Euronews, Reuters – brak",
+    "Reuters i AP – niedostępne poza newsletterem"
+   ]
+  }
+ ],
+ "rozstrzygniecia": [
+  {
+   "dotyczy": "2026-10-31#n1",
+   "wynik": "NIE DO POTWIERDZENIA",
+   "sprawdzono": [
+    "Al Jazeera (31.10)",
+    "WebSearch: komisja wyborcza",
+    "PISM (Biuletyn nr 75)"
+   ],
+   "powod": "Wyniki oficjalne mają być ogłoszone 4.11; dalszy ciąg w wpisie n3."
+  },
+  {
+   "dotyczy": "2026-10-31#n2",
+   "wynik": "NIE DO POTWIERDZENIA",
+   "sprawdzono": [
+    "Euronews (30.10)",
+    "WebSearch: komunikat Rady UE",
+    "NV.ua i To Vima"
+   ],
+   "powod": "Tekstu deklaracji z Montrealu nadal nie znaleziono w źródłach poziomu 1–2."
+  },
+  {
+   "dotyczy": "2026-10-31#n3",
+   "wynik": "NIE DO POTWIERDZENIA",
+   "sprawdzono": [
+    "AP (alert 31.10)",
+    "WebSearch: Reuters, Euronews – brak",
+    "Euronews (1.11) – bez liczb o bazach"
+   ],
+   "powod": "Analizę AP potwierdza tylko AP (alert 31.10 w skrzynce); drugiego źródła nie znaleziono."
+  },
+  {
+   "dotyczy": "2026-10-31#n4",
+   "wynik": "NIE DO POTWIERDZENIA",
+   "sprawdzono": [
+    "Kyiv Independent (31.10)",
+    "WebSearch: İletişim Başkanlığı",
+    "Reuters i AP – niedostępne"
+   ],
+   "powod": "Wyniki rozmów w Stambule opisuje tylko Kyiv Independent; dalszy ciąg w wpisie n4."
+  },
+  {
+   "dotyczy": "2026-10-31#n5",
+   "wynik": "UZUPEŁNIONE",
+   "pozycja": "z1"
+  }
+ ],
+ "do_sprawdzenia": [
+  "Bułgaria – wynik II tury (komisja wyborcza); Izrael – oficjalne wyniki (4.11); USA – wybory 3.11",
+  "OPEC+ – komunikat o decyzji z 1.11; Iran – odpowiedź na propozycje mediatorów, ewentualne uderzenia USA po 3.11",
+  "Erdoğan–Zełenski – komunikat strony tureckiej; Jemen – komunikat Biura Wysokiego Komisarza ONZ",
+  "OSW i PISM – listy publikacji z 29.10–1.11 (OSW reCAPTCHA, listy PISM puste); PAP Kraj, DO RSZ, MON, SG, ŻW – incydenty; Agencja Uzbrojenia – umowy",
+  "Kstowo – komunikat Lukoilu lub drugie źródło o skutkach ataku"
+ ],
+ "nota": "Wydanie przygotowane 1.11.2026 (Europe/Warsaw). Nie udało się odczytać: list OSW (reCAPTCHA) i PISM (puste odpowiedzi; wyszukiwarka nie zwróciła tekstów z 29.10–1.11), działu Świat Onetu oraz komunikatów PAP Kraj, DO RSZ, MON, Straży Granicznej, Żandarmerii Wojskowej, Agencji Uzbrojenia i PGZ (wyszukiwarka ich nie zwróciła); Reuters i AP znane tylko z newsletterów. Wynik wyborów w Bułgarii nie był jeszcze dostępny. Kontrola niezależna została przeprowadzona."
+}

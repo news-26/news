@@ -5,37 +5,8 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Prasówka – kalendarium
 X-WR-TIMEZONE:Europe/Warsaw
 BEGIN:VEVENT
-UID:bulgaria-prezydent-ii-tura-2026@news-26
-DTSTAMP:20261101T180000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:Bułgaria: II tura wyborów prezydenckich – Iliana Jotowa kontr
- a Andrej Giurow.
-DESCRIPTION:Bułgaria: II tura wyborów prezydenckich – Iliana Jotowa k
- ontra Andrej Giurow. Źródła: Euronews: https://www.euronews.com/2026/
- 10/25/bulgaria-votes-for-president-in-election-dominated-by-ukraine-war-
- and-the-economy\; Bloomberg: https://www.bloomberg.com/news/articles/202
- 6-10-25/bulgarian-president-set-to-win-first-round-of-election-poll
-URL:https://news-26.github.io/news/kalendarium.html#bulgaria-prezydent-ii
- -tura-2026
-CATEGORIES:Wybory
-END:VEVENT
-BEGIN:VEVENT
-UID:opec-2026-11@news-26
-DTSTAMP:20261101T180000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:OPEC+: spotkanie siedmiu państw w sprawie limitów wydobycia na 
- grudzień.
-DESCRIPTION:OPEC+: spotkanie siedmiu państw w sprawie limitów wydobycia
-  na grudzień. Źródła: OPEC: https://www.opec.org/pr-detail/616-4-oct
- ober-2026.html
-URL:https://news-26.github.io/news/kalendarium.html#opec-2026-11
-CATEGORIES:Instytucje i organizacje
-END:VEVENT
-BEGIN:VEVENT
 UID:usa-midterms-2026@news-26
-DTSTAMP:20261101T180000Z
+DTSTAMP:20261102T180000Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:USA: wybory połowy kadencji – cała Izba Reprezentantów\, jed
@@ -50,7 +21,7 @@ CATEGORIES:Wybory
 END:VEVENT
 BEGIN:VEVENT
 UID:cop31@news-26
-DTSTAMP:20261101T180000Z
+DTSTAMP:20261102T180000Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261121
 SUMMARY:COP31 – konferencja klimatyczna ONZ w Antalyi (Turcja\, we wsp
@@ -63,7 +34,7 @@ CATEGORIES:Szczyty
 END:VEVENT
 BEGIN:VEVENT
 UID:epc-2026-11@news-26
-DTSTAMP:20261101T180000Z
+DTSTAMP:20261102T180000Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:Szczyt Europejskiej Wspólnoty Politycznej w Irlandii.
@@ -75,7 +46,7 @@ CATEGORIES:Szczyty
 END:VEVENT
 BEGIN:VEVENT
 UID:rada-europejska-2026-11-niefor@news-26
-DTSTAMP:20261101T180000Z
+DTSTAMP:20261102T180000Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Nieformalne spotkanie szefów państw i rządów UE.
@@ -88,7 +59,7 @@ CATEGORIES:Szczyty
 END:VEVENT
 BEGIN:VEVENT
 UID:apec-2026@news-26
-DTSTAMP:20261101T180000Z
+DTSTAMP:20261102T180000Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261120
 SUMMARY:Spotkanie przywódców APEC w Shenzhen (Chiny)
@@ -100,7 +71,7 @@ CATEGORIES:Szczyty
 END:VEVENT
 BEGIN:VEVENT
 UID:rada-europejska-2026-11-nadzw@news-26
-DTSTAMP:20261101T180000Z
+DTSTAMP:20261102T180000Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261128
 SUMMARY:Nadzwyczajna Rada Europejska w sprawie WRF 2028–34 (termin wst
@@ -114,7 +85,7 @@ CATEGORIES:Szczyty
 END:VEVENT
 BEGIN:VEVENT
 UID:tajwan-lokalne-2026@news-26
-DTSTAMP:20261101T180000Z
+DTSTAMP:20261102T180000Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Tajwan: wybory lokalne (burmistrzowie\, radni) – pierwszy spraw
@@ -127,7 +98,7 @@ CATEGORIES:Wybory
 END:VEVENT
 BEGIN:VEVENT
 UID:hiszpania-wybory-2026@news-26
-DTSTAMP:20261101T180000Z
+DTSTAMP:20261102T180000Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Hiszpania: przedterminowe wybory parlamentarne ogłoszone przez p
@@ -143,7 +114,7 @@ CATEGORIES:Wybory
 END:VEVENT
 BEGIN:VEVENT
 UID:obwe-rm-2026@news-26
-DTSTAMP:20261101T180000Z
+DTSTAMP:20261102T180000Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261205
 SUMMARY:33. Rada Ministerialna OBWE w Lugano (przewodnictwo Szwajcarii).
@@ -154,7 +125,7 @@ CATEGORIES:Instytucje i organizacje
 END:VEVENT
 BEGIN:VEVENT
 UID:g20-2026@news-26
-DTSTAMP:20261101T180000Z
+DTSTAMP:20261102T180000Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261216
 SUMMARY:Szczyt przywódców G20 w Miami (Doral)\, gospodarz: prezydent USA
@@ -167,7 +138,7 @@ CATEGORIES:Szczyty
 END:VEVENT
 BEGIN:VEVENT
 UID:rada-europejska-2026-12@news-26
-DTSTAMP:20261101T180000Z
+DTSTAMP:20261102T180000Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261219
 SUMMARY:Rada Europejska w Brukseli – przywódcy chcą do końca 2026 r.
@@ -184,7 +155,7 @@ CATEGORIES:Szczyty
 END:VEVENT
 BEGIN:VEVENT
 UID:litwa-prezydencja-2027@news-26
-DTSTAMP:20261101T180000Z
+DTSTAMP:20261102T180000Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Litwa obejmuje prezydencję w Radzie UE (do 30.06.2027)\, po Irla
@@ -198,7 +169,7 @@ CATEGORIES:Instytucje i organizacje
 END:VEVENT
 BEGIN:VEVENT
 UID:onz-sekretarz-2027@news-26
-DTSTAMP:20261101T180000Z
+DTSTAMP:20261102T180000Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Nowy sekretarz generalny ONZ obejmuje urząd\; kadencja Antónia 
@@ -212,7 +183,7 @@ CATEGORIES:Instytucje i organizacje
 END:VEVENT
 BEGIN:VEVENT
 UID:lng-rosja-2027@news-26
-DTSTAMP:20261101T180000Z
+DTSTAMP:20261102T180000Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:UE: zakaz importu rosyjskiego LNG obejmuje także kontrakty dług
@@ -228,7 +199,7 @@ CATEGORIES:Inne
 END:VEVENT
 BEGIN:VEVENT
 UID:rozejm-usa-chiny-2027@news-26
-DTSTAMP:20261101T180000Z
+DTSTAMP:20261102T180000Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Koniec przedłużonego rozejmu handlowego USA–Chiny (ustalonego
@@ -244,7 +215,7 @@ CATEGORIES:Inne
 END:VEVENT
 BEGIN:VEVENT
 UID:litwa-art137-2027@news-26
-DTSTAMP:20261101T180000Z
+DTSTAMP:20261102T180000Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:Litwa: drugie głosowanie Sejmu nad usunięciem z art. 137 konsty
@@ -260,7 +231,7 @@ CATEGORIES:Inne
 END:VEVENT
 BEGIN:VEVENT
 UID:estonia-riigikogu-2027@news-26
-DTSTAMP:20261101T180000Z
+DTSTAMP:20261102T180000Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:Estonia: wybory do Riigikogu (głosowanie wcześniejsze i interne

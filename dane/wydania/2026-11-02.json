@@ -1,0 +1,317 @@
+{
+ "nr": 45,
+ "data": "2026-11-02",
+ "godzina": "20:00",
+ "typ": "dzienne",
+ "w_skrocie": [
+  "Siły Powietrzne Ukrainy potwierdziły włamanie do publicznej aplikacji z alarmami przeciwlotniczymi. Aplikacja rozesłała wieczorem 1.11 fałszywe ostrzeżenia o zagrożeniu jądrowym i chemicznym.",
+  "Iran oświadczył 2.11, że może otworzyć Cieśninę Ormuz w dwa dni, jeśli USA spełnią jego warunki.",
+  "{{o:iliana-jotowa|Iliana Jotowa}} wygrała 1.11 drugą turę wyborów prezydenckich w Bułgarii. Jej rywal {{o:andrej-giurow|Andrej Giurow}} przyznał porażkę.",
+  "Lokalne zawieszenie broni w rejonie Oleszek w obwodzie chersońskim zakończyło się 1.11. Po nim Rosja wznowiła ataki w regionie, jak podał Kijów."
+ ],
+ "korekty": [],
+ "zarys": [
+  {
+   "id": "z1",
+   "blok": "wojna",
+   "data": "2026-11-01",
+   "tagi": [
+    "ukraina",
+    "rosja",
+    "front"
+   ],
+   "etap": "W TOKU",
+   "miejsce": "kijow",
+   "krotko": "Ukraina: fałszywe alarmy po ataku na aplikację",
+   "tekst": "Siły Powietrzne Ukrainy potwierdziły, że wieczorem 1.11 włamano się do publicznej aplikacji z alarmami przeciwlotniczymi, która rozesłała fałszywe ostrzeżenia o zagrożeniu **jądrowym, chemicznym i walkami ulicznymi**. Według Kyiv Independent rosyjskie ministerstwo obrony cywilnej podało, że podobny **cyberatak** dotknął we wczesnych godzinach 2.11 rosyjski system powiadamiania.",
+   "zrodla": [
+    {
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/ukraines-air-raid-alert-system-hacked-air-force-says-as-false-nuclear-chemical-warnings-sound/",
+     "data": "2026-11-01"
+    },
+    {
+     "nazwa": "Reuters (newsletter)",
+     "url": "https://www.reuters.com/world/europe/ukrainian-air-force-says-public-air-raid-alert-app-has-been-hacked-2026-11-01/",
+     "data": "2026-11-02"
+    },
+    {
+     "nazwa": "Associated Press (newsletter)",
+     "url": "https://apnews.com/article/russia-ukraine-cyberattacks-emergency-apps-717372f7bbf4e8a805bc918f06f9730f",
+     "data": "2026-11-02"
+    }
+   ]
+  },
+  {
+   "id": "z2",
+   "blok": "swiat",
+   "data": "2026-11-02",
+   "tagi": [
+    "iran",
+    "usa",
+    "energia"
+   ],
+   "etap": "W TOKU",
+   "tekst": "Rzecznik MSZ Iranu Esmaeil Baghaei oświadczył 2.11, że Iran może otworzyć **Cieśninę Ormuz** w ciągu dwóch dni, a nie siedmiu, jak proponował we wrześniu, jeśli USA przyjmą jego warunki. Według rzecznika to koniec wojny na wszystkich frontach, odmrożenie irańskich aktywów, zniesienie sankcji naftowych i zakończenie amerykańskiej blokady. Według Euronews wiceminister spraw zagranicznych Kazem Gharibabadi pracuje w Katarze nad wstępnym porozumieniem.",
+   "zrodla": [
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/11/02/iran-says-it-can-reopen-hormuz-in-two-days-if-us-meets-conditions",
+     "data": "2026-11-02"
+    },
+    {
+     "nazwa": "Reuters (newsletter)",
+     "url": "https://www.reuters.com/world/middle-east/iranians-have-left-doha-talks-draft-proposal-us-deal-being-circulated-official-says-2026-11-02/",
+     "data": "2026-11-02"
+    }
+   ]
+  },
+  {
+   "id": "z3",
+   "blok": "wojna",
+   "data": "2026-11-02",
+   "tagi": [
+    "ukraina",
+    "rosja",
+    "front"
+   ],
+   "etap": "W TOKU",
+   "miejsce": "oleszki",
+   "krotko": "Oleszki: koniec rozejmu humanitarnego",
+   "tekst": "Lokalne zawieszenie broni, które trwało do 1.11 do godz. 23.00 według Kyiv Independent, umożliwiło ewakuację cywilów z okupowanych Oleszek w obwodzie chersońskim. Według {{o:melania-trump|Melanii Trump}}, pierwszej damy USA, ewakuowano blisko 800 osób; Kijów i Moskwa nie podały własnych liczb. Po zakończeniu rozejmu Rosja wznowiła ataki w regionie, jak podał Kijów.",
+   "zrodla": [
+    {
+     "nazwa": "Associated Press (newsletter)",
+     "url": "https://apnews.com/article/ceasefire-ukraine-russia-war-oleshky-08b1c18befa0b3ff79e3992bd8dfb23",
+     "data": "2026-11-02"
+    },
+    {
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/nearly-800-people-evacuated-from-oleshky-melania-trump-says-as-kyiv-moscow-withhold-figures/",
+     "data": "2026-11-02"
+    },
+    {
+     "nazwa": "Euronews",
+     "url": "https://www.euronews.com/2026/11/02/russia-resumes-attacks-on-ukraines-kherson-region-after-truce-ends-kyiv-says",
+     "data": "2026-11-02"
+    }
+   ]
+  },
+  {
+   "id": "z4",
+   "blok": "swiat",
+   "data": "2026-11-01",
+   "tagi": [
+    "bulgaria",
+    "wybory"
+   ],
+   "etap": "W TOKU",
+   "miejsce": "sofia",
+   "krotko": "Bułgaria: Jotowa wygrywa II turę",
+   "tekst": "Iliana Jotowa, dotychczasowa prezydent Bułgarii, wygrała 1.11 drugą turę wyborów prezydenckich z wynikiem 57,6 proc. wobec 39,3 proc. Andreja Giurowa, byłego premiera rządu tymczasowego. Giurow przyznał porażkę; według Meduzy to wyniki wstępne przy 99,68 proc. obliczonych głosów.",
+   "zrodla": [
+    {
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/russia-friendly-yotova-wins-bulgarias-presidential-runoff/",
+     "data": "2026-11-02"
+    },
+    {
+     "nazwa": "Meduza",
+     "url": "https://meduza.io/en/news/2026/11/02/bulgaria-set-to-elect-its-first-female-president-as-russia-friendly-iliana-yotova-wins-runoff",
+     "data": "2026-11-02"
+    }
+   ]
+  }
+ ],
+ "analizy": [],
+ "kalendarz": [
+  {
+   "data": "2026-11-03",
+   "tekst": "3.11: USA – wybory połowy kadencji (cała Izba Reprezentantów, jedna trzecia Senatu, część gubernatorów).",
+   "tagi": [
+    "usa",
+    "wybory"
+   ]
+  },
+  {
+   "data": "2026-11-04",
+   "tekst": "4.11: Izrael – termin oficjalnego ogłoszenia wyników wyborów do Knesetu (według mediów); później prezydent Izraela wskazuje kandydata na premiera.",
+   "tagi": [
+    "inne",
+    "wybory"
+   ],
+   "poza_kalendarium": "termin podają media, brak komunikatu komisji wyborczej; w do_sprawdzenia"
+  },
+  {
+   "data": "2026-11-10",
+   "tekst": "10.11: Ukraina – niepotwierdzony termin rozmów trójstronnych z Rosją i USA w Abu Zabi według Zełenskiego (Kreml: po 4.11, bez daty).",
+   "tagi": [
+    "ukraina",
+    "rozejm"
+   ],
+   "poza_kalendarium": "datę podaje tylko jedna strona (Zełenski); w do_sprawdzenia"
+  }
+ ],
+ "poza_oknem": [
+  {
+   "data": "2026-11-15",
+   "tekst": "Ukraina, Rosja i USA – trójstronne rozmowy w Abu Zabi w listopadzie (termin według Kremla: około połowy miesiąca; Al Jazeera podaje spotkania techniczne na początku listopada); przedtem możliwa runda w Europie (według urzędnika UE)",
+   "tagi": [
+    "ukraina",
+    "rozejm"
+   ],
+   "poza_kalendarium": "termin podany tylko przez Kreml; strony nie potwierdziły daty"
+  },
+  {
+   "data": "2026-11-29",
+   "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+   "tagi": [
+    "inne",
+    "wybory"
+   ]
+  },
+  {
+   "data": "2027-01-12",
+   "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+   "tagi": [
+    "litwa"
+   ]
+  }
+ ],
+ "zrodla_analityczne": {
+  "osw": [],
+  "pism": [],
+  "nieodczytane": [
+   "osw",
+   "pism"
+  ]
+ },
+ "czego_nie_ma": [
+  {
+   "id": "n2",
+   "tekst": "OPEC+: komunikatu o decyzji z 1.11 w sprawie wydobycia na grudzień nie znaleziono.",
+   "prog": "dokumentacja",
+   "sprawdzono": [
+    "WebSearch: komunikat OPEC – tylko wyniki z 2025",
+    "Euronews (kanał RSS 2.11) – brak",
+    "Reuters (newslettery 2.11) – brak"
+   ],
+   "termin": "opec-2026-11"
+  },
+  {
+   "id": "n3",
+   "tekst": "Izrael: według AP (newsletter 2.11) urzędnicy oświadczyli, że wyniki wyborów zostaną utrzymane po zarzutach premiera Benjamina Netanjahu o ingerencję arabską; zatwierdzenie wyników komisji wyborczej zapowiedziano na 4.11.",
+   "prog": "dokumentacja",
+   "sprawdzono": [
+    "AP (newsletter 2.11) – jedyne źródło",
+    "Euronews (kanał RSS 2.11) – brak",
+    "WebSearch: komisja wyborcza – brak"
+   ],
+   "kalendarz": "2026-11-04"
+  },
+  {
+   "id": "n4",
+   "tekst": "Ukraina: według Meduzy (2.11) rosyjskie naloty na szkołę w Komyszuwasze w obwodzie zaporoskim zabiły co najmniej 18 osób, według prezydenta Zełenskiego; strona rosyjska się nie wypowiedziała.",
+   "prog": "dokumentacja",
+   "sprawdzono": [
+    "Meduza (2.11) – jedyne źródło",
+    "WebSearch – brak relacji o tym zdarzeniu",
+    "Kyiv Independent (kanał RSS 2.11) – brak"
+   ]
+  },
+  {
+   "id": "n5",
+   "tekst": "Niemcy: według Reutersa (newsletter 2.11) ministrowie zapowiedzieli surowe kary po zamieszkach we Frankfurcie, w których rannych zostało ponad 100 policjantów.",
+   "prog": "dokumentacja",
+   "sprawdzono": [
+    "Reuters (newsletter 2.11) – jedyne źródło",
+    "WebSearch – tylko zapowiedzi demonstracji",
+    "Euronews (kanał RSS 2.11) – brak"
+   ]
+  },
+  {
+   "id": "n6",
+   "tekst": "Belgia: według Meduzy (2.11) premier Bart De Wever zaproponował dymisję po sporze budżetowym; komunikatu rządu ani drugiego źródła nie znaleziono.",
+   "prog": "dokumentacja",
+   "sprawdzono": [
+    "Meduza (2.11) – jedyne źródło",
+    "WebSearch – tylko starsze doniesienia",
+    "Euronews (kanał RSS 2.11) – brak"
+   ]
+  },
+  {
+   "id": "n7",
+   "tekst": "Estonia: według Meduzy (2.11) Estonia wydaliła rosyjskiego dziennikarza Leonida Karabeszkina z zakazem wjazdu do strefy Schengen z powodu podejrzeń o związki z wywiadem; komunikatu estońskich władz nie znaleziono.",
+   "prog": "dokumentacja",
+   "sprawdzono": [
+    "Meduza (2.11) – jedyne źródło",
+    "Euronews (kanał RSS 2.11) – brak",
+    "Kyiv Independent (kanał RSS 2.11) – brak"
+   ]
+  }
+ ],
+ "rozstrzygniecia": [
+  {
+   "dotyczy": "2026-11-01#n1",
+   "wynik": "UZUPEŁNIONE",
+   "pozycja": "z4"
+  },
+  {
+   "dotyczy": "2026-11-01#n2",
+   "wynik": "NIE DO POTWIERDZENIA",
+   "sprawdzono": [
+    "WebSearch: komunikat OPEC",
+    "Euronews (kanał RSS 2.11)",
+    "Reuters (newslettery 2.11)"
+   ],
+   "powod": "Komunikatu o decyzji nie znaleziono; dalszy ciąg we wpisie n2."
+  },
+  {
+   "dotyczy": "2026-11-01#n3",
+   "wynik": "NIE DO POTWIERDZENIA",
+   "sprawdzono": [
+    "AP (newsletter 2.11)",
+    "WebSearch: komisja wyborcza",
+    "Euronews (kanał RSS 2.11)"
+   ],
+   "powod": "Zatwierdzenie wyników przez komisję wyborczą zapowiedziano na 4.11; dalszy ciąg we wpisie n3."
+  },
+  {
+   "dotyczy": "2026-11-01#n4",
+   "wynik": "NIE DO POTWIERDZENIA",
+   "sprawdzono": [
+    "Euronews (kanał RSS 2.11)",
+    "Kyiv Independent (kanał RSS 2.11)",
+    "WebSearch: komunikat strony tureckiej – tylko wrześniowe wypowiedzi"
+   ],
+   "powod": "Komunikatu strony tureckiej o rozmowach 31.10 nie znaleziono."
+  },
+  {
+   "dotyczy": "2026-11-01#n5",
+   "wynik": "NIE DO POTWIERDZENIA",
+   "sprawdzono": [
+    "WebSearch: OHCHR i Volker Türk",
+    "Euronews (kanał RSS 2.11)",
+    "Reuters i AP (newslettery 2.11)"
+   ],
+   "powod": "Komunikatu Biura Wysokiego Komisarza ONZ ds. praw człowieka o tej sprawie nie znaleziono."
+  },
+  {
+   "dotyczy": "2026-11-01#n6",
+   "wynik": "NIE DO POTWIERDZENIA",
+   "sprawdzono": [
+    "WebSearch: wypowiedź wicepremiera Nowaka",
+    "Euronews (30.10)",
+    "Kyiv Independent (kanał RSS 2.11)"
+   ],
+   "powod": "Wypowiedzi wicepremiera Rosji i przyznania się producenta dronów nie potwierdza drugie źródło z poziomów 1–2."
+  }
+ ],
+ "do_sprawdzenia": [
+  "USA – wybory 3.11 i wyniki; Izrael – zatwierdzenie wyników (4.11)",
+  "Iran – odpowiedź USA na warunki Teheranu i wynik rozmów w Katarze; OPEC+ – komunikat o decyzji z 1.11",
+  "Obwód zaporoski – drugie źródło o nalocie na szkołę; Belgia – dymisja premiera; Niemcy – bilans zamieszek we Frankfurcie",
+  "OSW i PISM – listy publikacji z 30.10–2.11; PAP Kraj, DO RSZ, MON, SG, ŻW – incydenty; Agencja Uzbrojenia – umowy"
+ ],
+ "nota": "Nie udało się sprawdzić: list OSW (reCAPTCHA) i PISM (puste odpowiedzi), działu Świat Onetu, komunikatów PAP Kraj, DO RSZ, MON, Straży Granicznej, Żandarmerii Wojskowej, Agencji Uzbrojenia, PGZ, KPRM i ministerstw, Al Jazeery, kanałów Polsat News i TVN24. Reuters i AP znane tylko z newsletterów. Kontrola niezależna została przeprowadzona."
+}

@@ -6,43 +6,28 @@
    "nazwa": "Ukraina",
    "grupa": "miejsce",
    "opis": "Wojna Rosji z Ukrainą: ataki, obrona powietrzna, polityka Kijowa, pomoc zachodnia.",
-   "stan": "1.11 ukraiński atak dronów uszkodził zakład przemysłowy w Kstowie; rosyjskie ataki odcięły od prądu setki tysięcy rodzin.",
+   "stan": "2.11 Rosja wznowiła ataki w obwodzie chersońskim po zakończeniu lokalnego zawieszenia broni; 1.11 włamano się do ukraińskiej aplikacji z alarmami.",
    "stan_zrodla": [
     {
-     "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/11/01/russia-says-massive-drone-attack-targeted-industrial-enterprise-amid-reports-oil-refinery-",
-     "data": "2026-11-01"
-    },
-    {
      "nazwa": "Kyiv Independent",
-     "url": "https://kyivindependent.com/russian-oil-refinery-in-kstovo-ablaze-after-reported-overnight-drone-strike/",
-     "data": "2026-11-01"
-    },
-    {
-     "nazwa": "Kyiv Independent",
-     "url": "https://kyivindependent.com/ukraine-never-agreed-to-pause-strikes-on-russian-refineries-sources-confirm/",
-     "data": "2026-10-31"
+     "url": "https://kyivindependent.com/nearly-800-people-evacuated-from-oleshky-melania-trump-says-as-kyiv-moscow-withhold-figures/",
+     "data": "2026-11-02"
     }
    ],
-   "stan_data": "2026-11-01"
+   "stan_data": "2026-11-02"
   },
   {
    "id": "front",
    "nazwa": "Front",
    "grupa": "temat",
    "opis": "Działania na linii frontu w Ukrainie; oceny ISW zawsze jako ocena think tanku.",
-   "stan": "1.11 według Sił Powietrznych Ukrainy zestrzelono 371 z 433 dronów; jedna osoba zginęła, co najmniej 47 zostało rannych.",
-   "stan_data": "2026-11-01",
+   "stan": "2.11 po zakończeniu rozejmu humanitarnego w rejonie Oleszek Rosja wznowiła ataki w obwodzie chersońskim, jak podał Kijów.",
+   "stan_data": "2026-11-02",
    "stan_zrodla": [
     {
-     "nazwa": "Kyiv Independent",
-     "url": "https://kyivindependent.com/russian-attacks-kill-1-injure-47-over-past-day-leaving-hundreds-of-thousands-without-electricity/",
-     "data": "2026-11-01"
-    },
-    {
      "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/11/01/russia-says-massive-drone-attack-targeted-industrial-enterprise-amid-reports-oil-refinery-",
-     "data": "2026-11-01"
+     "url": "https://www.euronews.com/2026/11/02/russia-resumes-attacks-on-ukraines-kherson-region-after-truce-ends-kyiv-says",
+     "data": "2026-11-02"
     }
    ]
   },
@@ -76,23 +61,13 @@
    "nazwa": "Rosja",
    "grupa": "miejsce",
    "opis": "Polityka wewnętrzna, armia i budżet Rosji.",
-   "stan": "1.11 FSB zatrzymała nieletniego po ostrzeżeniu ambasady USA o zagrożeniu zamachem w Carycynie; gubernator Nikitin podał o ataku dronów w obwodzie niżnonowogrodzkim.",
-   "stan_data": "2026-11-01",
+   "stan": "2.11 Kreml wyklucza na razie kolejne operacje humanitarne typu Oleszki; rosyjski system powiadamiania padł ofiarą cyberataku.",
+   "stan_data": "2026-11-02",
    "stan_zrodla": [
     {
-     "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/11/01/russia-says-massive-drone-attack-targeted-industrial-enterprise-amid-reports-oil-refinery-",
-     "data": "2026-11-01"
-    },
-    {
      "nazwa": "Kyiv Independent",
-     "url": "https://kyivindependent.com/russian-oil-refinery-in-kstovo-ablaze-after-reported-overnight-drone-strike/",
-     "data": "2026-11-01"
-    },
-    {
-     "nazwa": "Kyiv Independent",
-     "url": "https://kyivindependent.com/ukraine-never-agreed-to-pause-strikes-on-russian-refineries-sources-confirm/",
-     "data": "2026-10-31"
+     "url": "https://kyivindependent.com/nearly-800-people-evacuated-from-oleshky-melania-trump-says-as-kyiv-moscow-withhold-figures/",
+     "data": "2026-11-02"
     }
    ]
   },
@@ -257,38 +232,28 @@
    "nazwa": "Iran",
    "grupa": "miejsce",
    "opis": "Iran, Cieśnina Ormuz, rozmowy z USA i mediatorami.",
-   "stan": "31.10 Modżtaba Chamenei zapowiedział geograficznie nieograniczoną odpowiedź na każdy atak USA; 1.11 Araghczi oświadczył, że Teheran liczy na dyplomację.",
+   "stan": "2.11 Iran oświadczył, że może otworzyć Cieśninę Ormuz w dwa dni, jeśli USA przyjmą jego warunki; rozmowy przez mediatorów w Katarze.",
    "stan_zrodla": [
     {
      "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/11/01/irans-supreme-leader-warns-of-geographically-unrestricted-response-if-us-attacks-again",
-     "data": "2026-11-01"
-    },
-    {
-     "nazwa": "Reuters (newsletter)",
-     "url": "https://www.reuters.com/world/middle-east/iranian-envoys-meet-qatari-mediators-threat-looms-us-strikes-after-midterms-2026-10-31/",
-     "data": "2026-10-31"
+     "url": "https://www.euronews.com/2026/11/02/iran-says-it-can-reopen-hormuz-in-two-days-if-us-meets-conditions",
+     "data": "2026-11-02"
     }
    ],
-   "stan_data": "2026-11-01"
+   "stan_data": "2026-11-02"
   },
   {
    "id": "usa",
    "nazwa": "USA",
    "grupa": "miejsce",
    "opis": "Polityka USA wobec Europy, Rosji, Ukrainy i Bliskiego Wschodu.",
-   "stan": "1.11 anonimowi urzędnicy USA ostrzegają przed krótką kampanią przeciw Iranowi po wyborach 3.11; 31.10 ambasada USA ostrzegła przed zamachem w Moskwie.",
-   "stan_data": "2026-11-01",
+   "stan": "2.11 Trump zostawia sobie możliwość nowych uderzeń na Iran; 3.11 wybory połowy kadencji.",
+   "stan_data": "2026-11-02",
    "stan_zrodla": [
     {
      "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/11/01/irans-supreme-leader-warns-of-geographically-unrestricted-response-if-us-attacks-again",
-     "data": "2026-11-01"
-    },
-    {
-     "nazwa": "Reuters (newsletter)",
-     "url": "https://www.reuters.com/world/middle-east/iranian-envoys-meet-qatari-mediators-threat-looms-us-strikes-after-midterms-2026-10-31/",
-     "data": "2026-10-31"
+     "url": "https://www.euronews.com/2026/11/02/iran-says-it-can-reopen-hormuz-in-two-days-if-us-meets-conditions",
+     "data": "2026-11-02"
     }
    ]
   },
@@ -624,18 +589,13 @@
    "nazwa": "Wybory",
    "grupa": "temat",
    "opis": "Wybory w Europie i na świecie; wyniki wstępne odróżniane od oficjalnych.",
-   "stan": "Izrael, wybory 27.10: żaden blok bez większości 61 mandatów według wstępnych wyników, oficjalnych brak; następne: Bułgaria II tura 1.11, USA 3.11.",
-   "stan_data": "2026-10-28",
+   "stan": "Bułgaria, II tura 1.11: wygrała Iliana Jotowa; Izrael: zatwierdzenie wyników 4.11; USA: wybory 3.11.",
+   "stan_data": "2026-11-02",
    "stan_zrodla": [
     {
-     "nazwa": "France 24",
-     "url": "https://www.france24.com/en/middle-east/20261028-arab-parties-have-woken-up-israel-uncertain-election-may-deliver-surprise-kingmakers",
-     "data": "2026-10-28"
-    },
-    {
-     "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/10/28/ex-israel-government-spokesperson-extraordinary-comeback-by-netanyahu",
-     "data": "2026-10-28"
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/russia-friendly-yotova-wins-bulgarias-presidential-runoff/",
+     "data": "2026-11-02"
     }
    ]
   },
@@ -644,20 +604,15 @@
    "nazwa": "Energia",
    "grupa": "temat",
    "opis": "Ropa, gaz, infrastruktura energetyczna, ceny paliw.",
-   "stan": "1.11 rosyjskie ataki na infrastrukturę energetyczną Ukrainy; 31.10 Zełenski podał, że ok. 280 tys. gospodarstw domowych straciło prąd.",
+   "stan": "2.11 ropa tanieje na nadziejach na otwarcie Cieśniny Ormuz po rozmowach w Katarze.",
    "stan_zrodla": [
     {
-     "nazwa": "Kyiv Independent",
-     "url": "https://kyivindependent.com/russian-attacks-kill-1-injure-47-over-past-day-leaving-hundreds-of-thousands-without-electricity/",
-     "data": "2026-11-01"
-    },
-    {
      "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/11/01/russia-says-massive-drone-attack-targeted-industrial-enterprise-amid-reports-oil-refinery-",
-     "data": "2026-11-01"
+     "url": "https://www.euronews.com/2026/11/02/oil-slides-on-hormuz-deal-hopes-but-trump-keeps-iran-strikes-on-the-table",
+     "data": "2026-11-02"
     }
    ],
-   "stan_data": "2026-11-01"
+   "stan_data": "2026-11-02"
   },
   {
    "id": "gospodarka",
@@ -744,20 +699,15 @@
    "nazwa": "Bułgaria",
    "grupa": "miejsce",
    "opis": "Polityka Bułgarii i bezpieczeństwo jej strefy na Morzu Czarnym.",
-   "stan": "Bułgaria: do II tury wyborów prezydenckich 1.11 przechodzą Iliana Jotowa i Andrej Giurow (według exit poll 35–36,5 proc. wobec ok. 32 proc.).",
+   "stan": "Bułgaria: 1.11 Iliana Jotowa wygrała II turę wyborów prezydenckich (57,6 proc. wobec 39,3 proc.); Giurow przyznał porażkę.",
    "stan_zrodla": [
     {
-     "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/10/25/bulgaria-votes-for-president-in-election-dominated-by-ukraine-war-and-the-economy",
-     "data": "2026-10-25"
-    },
-    {
-     "nazwa": "Bloomberg",
-     "url": "https://www.bloomberg.com/news/articles/2026-10-25/bulgarian-president-set-to-win-first-round-of-election-poll",
-     "data": "2026-10-25"
+     "nazwa": "Kyiv Independent",
+     "url": "https://kyivindependent.com/russia-friendly-yotova-wins-bulgarias-presidential-runoff/",
+     "data": "2026-11-02"
     }
    ],
-   "stan_data": "2026-10-26"
+   "stan_data": "2026-11-02"
   },
   {
    "id": "watykan",

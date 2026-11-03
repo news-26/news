@@ -1,0 +1,244 @@
+{
+  "nr": 46,
+  "data": "2026-11-03",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Stany Zjednoczone przeprowadziły 2.11 ograniczone uderzenia na irańskie cele w rejonie Cieśniny Ormuz. Amerykański urzędnik podał, że celem byli Irańczycy używający rakiet przeciwlotniczych.",
+    "Amerykanie głosują 3.11 w wyborach połowy kadencji do Kongresu. Rozstrzygną one o większości w Izbie Reprezentantów i Senacie."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "swiat",
+      "data": "2026-11-02",
+      "tagi": [
+        "iran",
+        "usa",
+        "energia"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "ciesnina-ormuz",
+      "krotko": "Ormuz: amerykańskie uderzenia",
+      "tekst": "Stany Zjednoczone uderzyły 2.11 w irańskie cele w rejonie **Cieśniny Ormuz**, jak poinformował amerykański urzędnik. Irańskie media podały o wybuchach na wyspach Keszm i Hengam oraz w Bandar Abbas; według urzędnika celem byli Irańczycy używający rakiet przeciwlotniczych przeciw siłom USA.",
+      "zrodla": [
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/iran-us-strikes-strait-hormuz-183b3d32d9bf5241f744abb917e6713e",
+          "data": "2026-11-03"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/us-struck-irans-qeshm-island-wall-street-journal-reports-2026-11-03/",
+          "data": "2026-11-03"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "swiat",
+      "data": "2026-11-03",
+      "tagi": [
+        "usa",
+        "wybory"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "waszyngton",
+      "krotko": "USA: wybory połowy kadencji",
+      "tekst": "Amerykanie głosują 3.11 w **wyborach połowy kadencji**, które rozstrzygną o większości w Kongresie. Według Reutersa sondaże i niezależni analitycy wskazują na przewagę demokratów w Izbie Reprezentantów, a kontrola Senatu jest niepewna.",
+      "zrodla": [
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/election-takeaways-midterms-trump-democrats-takeover-republicans-1cb09c8674598632ec3e4307eda5fbb8",
+          "data": "2026-11-03"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/us/trump-faces-midterm-verdict-with-control-congress-stake-2026-11-03/",
+          "data": "2026-11-03"
+        }
+      ]
+    }
+  ],
+  "analizy": [],
+  "kalendarz": [
+    {
+      "data": "2026-11-04",
+      "tekst": "4.11: Izrael – termin oficjalnego ogłoszenia wyników wyborów do Knesetu (według mediów); później prezydent Izraela wskazuje kandydata na premiera.",
+      "tagi": [
+        "inne",
+        "wybory"
+      ],
+      "poza_kalendarium": "termin podają media, brak komunikatu komisji wyborczej; w do_sprawdzenia"
+    },
+    {
+      "data": "2026-11-10",
+      "tekst": "10.11: Ukraina – niepotwierdzony termin rozmów trójstronnych z Rosją i USA w Abu Zabi według Zełenskiego (Kreml: po 4.11, bez daty).",
+      "tagi": [
+        "ukraina",
+        "rozejm"
+      ],
+      "poza_kalendarium": "datę podaje tylko jedna strona (Zełenski); w do_sprawdzenia"
+    },
+    {
+      "data": "2026-11-12",
+      "tekst": "12.11: Irlandia – szczyt Europejskiej Wspólnoty Politycznej.",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-13",
+      "tekst": "13.11: nieformalne spotkanie szefów państw i rządów UE.",
+      "tagi": [
+        "ue"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-11-15",
+      "tekst": "Ukraina, Rosja i USA – trójstronne rozmowy w Abu Zabi w listopadzie (termin według Kremla: około połowy miesiąca; Al Jazeera podaje spotkania techniczne na początku listopada); przedtem możliwa runda w Europie (według urzędnika UE)",
+      "tagi": [
+        "ukraina",
+        "rozejm"
+      ],
+      "poza_kalendarium": "termin podany tylko przez Kreml; strony nie potwierdziły daty"
+    },
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [],
+    "pism": [],
+    "nieodczytane": [
+      "osw",
+      "pism"
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "tekst": "USA i Izrael: według AP (alert 3.11) Donald Trump powiedział, że USA przestaną przekazywać Izraelowi 4 mld dolarów pomocy i będą sprzedawać mu broń.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "AP (alert 3.11) – jedyne źródło",
+        "WebSearch (3.11): tylko wyniki z marca 2025",
+        "newslettery Reutersa (3.11): brak"
+      ]
+    },
+    {
+      "id": "n2",
+      "tekst": "Morze Czarne: według Reutersa (3.11) rosyjsko-ukraińska wojna morska rozszerza się i naraża Rumunię i Bułgarię; NATO wzmacnia obecność po atakach dronów na statki z października.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Reuters (newsletter 3.11) – jedyne źródło z 3.11",
+        "WebSearch (3.11): AP, Al Jazeera, ITV z października – bez ataków z 2–3.11",
+        "komunikat NATO – nie znaleziono"
+      ]
+    },
+    {
+      "id": "n3",
+      "tekst": "Iran: według anonimowego wysokiego irańskiego urzędnika (Reuters, 3.11) porozumienie z USA kończące wojnę pozostaje poza zasięgiem mimo wysiłków dyplomatycznych.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Reuters (Iran Briefing 3.11) – wypowiedź strony",
+        "AP (newsletter 3.11): negocjator Iranu wzywa USA do działania",
+        "komunikat MSZ Iranu – nie znaleziono"
+      ]
+    },
+    {
+      "id": "n4",
+      "tekst": "Ukraina: według AP (newsletter 3.11) rosyjski atak na punkt pomocy humanitarnej zabił 31 osób, kilkadziesiąt jest zaginionych.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "AP (newsletter 3.11) – jedyne źródło",
+        "WebSearch (3.11): brak",
+        "Kyiv Independent i Meduza – nie sprawdzano"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-11-02#n2",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "WebSearch (3.11): komunikat OPEC+ – wyniki tylko z 2025",
+        "newslettery Reutersa i AP (3.11): brak",
+        "Meduza, Euronews, Kyiv Independent – nie sprawdzano ponownie"
+      ],
+      "powod": "Brak komunikatu OPEC+ o decyzji z 1.11; wyszukiwarka zwraca wyłącznie decyzje z 2025 r."
+    },
+    {
+      "dotyczy": "2026-11-02#n3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "WebSearch (3.11): Israel Hayom (29.10) o wynikach, komisja wyborcza i śledztwo Szin Bet",
+        "newsletter AP (3.11): Netanjahu naciska na kolejne uderzenia na Iran po utracie większości, bez wzmianki o zatwierdzeniu",
+        "komunikat komisji wyborczej – nie znaleziono"
+      ],
+      "powod": "Wyszukiwarka wskazuje opublikowanie wyników przez komisję wyborczą w Izraelu 29–30.10, bez potwierdzenia zatwierdzenia 4.11 i bez stanowiska premiera."
+    },
+    {
+      "dotyczy": "2026-11-02#n4",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "WebSearch PL (3.11): tylko wyniki z lat 2022–2023",
+        "newsletter AP (3.11): inne zdarzenie",
+        "newsletter Reutersa (3.11): brak"
+      ],
+      "powod": "Brak drugiego źródła o nalocie na szkołę w Komyszuwasze; AP (3.11) podaje inny atak – na punkt pomocy humanitarnej, 31 zabitych."
+    },
+    {
+      "dotyczy": "2026-11-02#n5",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "newslettery Reutersa i AP (3.11): brak",
+        "WebSearch (3.11): brak wyników",
+        "Euronews – nie sprawdzano ponownie"
+      ],
+      "powod": "Brak drugiego źródła i komunikatu niemieckich władz o bilansie zamieszek we Frankfurcie."
+    },
+    {
+      "dotyczy": "2026-11-02#n6",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "WebSearch (3.11): Brussels Times, Belga – materiały z 2025 r.",
+        "VRT (15.10): projekt budżetu bez reformy VAT",
+        "komunikat rządu – nie znaleziono"
+      ],
+      "powod": "Brak potwierdzenia dymisji premiera Belgii; wyszukiwarka pokazuje tylko spór budżetowy (VRT, 15.10)."
+    },
+    {
+      "dotyczy": "2026-11-02#n7",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "newslettery AP i Reutersa (3.11): brak",
+        "WebSearch (3.11): brak",
+        "ERR – nie sprawdzono"
+      ],
+      "powod": "Brak komunikatu estońskich władz i drugiego źródła o wydaleniu Leonida Karabeszkina."
+    }
+  ],
+  "do_sprawdzenia": [
+    "USA – wyniki wyborów połowy kadencji z 3.11; Iran – dalsze uderzenia USA i wynik rozmów w Katarze",
+    "Izrael – komunikat komisji wyborczej o wynikach; Trump – przekazanie pomocy wojskowej Izraelowi",
+    "Morze Czarne – komunikat NATO o wzmocnieniu obecności; Ukraina – atak na punkt pomocy humanitarnej, drugie źródło",
+    "OSW i PISM – listy publikacji z 30.10–3.11; PAP Kraj, DO RSZ, MON, SG, ŻW – incydenty; Agencja Uzbrojenia – umowy"
+  ],
+  "nota": "Nie udało się sprawdzić: list OSW (HTTP 503) i PISM (pusta odpowiedź), działu Świat Onetu, komunikatów PAP Kraj, DO RSZ, MON, Straży Granicznej, Żandarmerii Wojskowej, Agencji Uzbrojenia, PGZ, KPRM i ministerstw, Al Jazeery, kanałów Polsat News i TVN24. Reuters i AP znane głównie z newsletterów; wyszukiwarka nie zwracała materiałów z 2–3.11. Kontrola niezależna została przeprowadzona."
+}

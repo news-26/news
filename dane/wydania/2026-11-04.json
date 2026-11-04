@@ -1,332 +1,359 @@
 {
-  "nr": 47,
-  "data": "2026-11-04",
-  "godzina": "20:00",
-  "typ": "dzienne",
-  "niepelne": "Zarys nie obejmuje Polski ani Europy. Nie udało się odczytać list OSW i PISM ani komunikatów DO RSZ, MON, Straży Granicznej, Żandarmerii Wojskowej i Agencji Uzbrojenia z 3–4.11; wydanie oparto na newsletterach AP i Reutersa.",
-  "w_skrocie": [
-    "Demokraci wygrali 3.11 wybory do Kongresu Stanów Zjednoczonych i zdobyli większość w Izbie Reprezentantów oraz w Senacie.",
-    "Prezydent USA Donald Trump zapowiedział 3.11, że od 2027 r. Stany Zjednoczone przestaną przekazywać Izraelowi około 4 mld dolarów pomocy rocznie. Nadal będą sprzedawać mu broń, a umowa o pomocy wojskowej obowiązuje do 2028 r.",
-    "Izraelska komisja wyborcza nie stwierdziła oszustw w wyborach do Knesetu, a prezydent Icchak Herzog przyjął 4.11 zatwierdzone wyniki. Rozpocznie teraz konsultacje z partiami w sprawie nowego rządu."
-  ],
-  "korekty": [],
-  "zarys": [
+ "nr": 47,
+ "data": "2026-11-04",
+ "godzina": "20:00",
+ "typ": "dzienne",
+ "niepelne": "Nie udało się odczytać list OSW i PISM ani komunikatów DO RSZ, MON, Straży Granicznej, Żandarmerii Wojskowej i Agencji Uzbrojenia z 3–4.11; brak pozycji o Polsce. Wydanie oparto głównie na newsletterach AP i Reutersa.",
+ "w_skrocie": [
+  "Komisja Europejska przyjęła 4.11 pakiet rozszerzeniowy. Według Komisji Ukraina spełniła warunki otwarcia wszystkich pozostałych klastrów negocjacyjnych, a negocjacje mają się zakończyć do końca 2028 r.",
+  "Demokraci wygrali 3.11 wybory do Kongresu Stanów Zjednoczonych i zdobyli większość w Izbie Reprezentantów oraz w Senacie.",
+  "Prezydent USA Donald Trump zapowiedział 3.11, że od 2027 r. Stany Zjednoczone przestaną przekazywać Izraelowi około 4 mld dolarów pomocy rocznie, ale nadal będą sprzedawać mu broń. Według Reutersa umowa o pomocy wojskowej obowiązuje do 2028 r.",
+  "Izraelska komisja wyborcza nie znalazła dowodów naruszenia uczciwości wyborów do Knesetu, a prezydent Icchak Herzog przyjął 4.11 zatwierdzone wyniki i rozpoczął konsultacje z partiami w sprawie nowego rządu."
+ ],
+ "korekty": [],
+ "zarys": [
+  {
+   "id": "z7",
+   "blok": "instytucje",
+   "data": "2026-11-04",
+   "tagi": [
+    "ue",
+    "ukraina",
+    "moldawia",
+    "balkany"
+   ],
+   "etap": "PRZYJĘTE",
+   "miejsce": "bruksela",
+   "krotko": "UE: pakiet rozszerzeniowy i mapy drogowe",
+   "kraje": [
+    "Czarnogóra",
+    "Albania"
+   ],
+   "tekst": "Komisja Europejska przyjęła 4.11 **pakiet rozszerzeniowy** z mapami drogowymi dla Ukrainy, Mołdawii, Czarnogóry i Albanii. Według Komisji Ukraina i Mołdawia spełniły warunki otwarcia wszystkich pozostałych klastrów negocjacyjnych; cel to zamknięcie negocjacji z Ukrainą do końca 2028 r., z Mołdawią na początku 2028 r. i z Albanią do 2027 r., a Czarnogóra może tymczasowo zamknąć pozostałe rozdziały jeszcze w tym roku.",
+   "zrodla": [
     {
-      "id": "z1",
-      "blok": "swiat",
-      "data": "2026-11-03",
-      "tagi": [
-        "usa",
-        "wybory"
-      ],
-      "etap": "PRZYJĘTE",
-      "miejsce": "waszyngton",
-      "krotko": "USA: demokraci zdobywają większość w Kongresie",
-      "tekst": "Demokraci wygrali 3.11 wybory połowy kadencji i zdobyli **większość w obu izbach Kongresu**. Zwycięstwa odnieśli m.in. w Teksasie i Karolinie Południowej, gdzie od dziesięcioleci wygrywali republikanie. Kontrola Kongresu pozwoli demokratom wszczynać dochodzenia wobec administracji {{o:donald-trump|Donalda Trumpa}} i ograniczy jego plany legislacyjne.",
-      "zrodla": [
-        {
-          "nazwa": "Associated Press (newsletter)",
-          "url": "https://apnews.com/article/midterm-election-house-senate-democrats-republicans-trump-f126e12e05b579a327b98481c0ae2226",
-          "data": "2026-11-04"
-        },
-        {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/legal/government/democrats-seize-congress-sweeping-midterm-repudiation-trump-2026-11-04/",
-          "data": "2026-11-04"
-        }
-      ]
-    },
-    {
-      "id": "z2",
-      "blok": "swiat",
-      "data": "2026-11-03",
-      "tagi": [
-        "usa",
-        "inne"
-      ],
-      "etap": "ZAPOWIEDŹ",
-      "miejsce": "waszyngton",
-      "krotko": "USA: zapowiedź końca pomocy dla Izraela",
-      "kraje": [
-        "Izrael"
-      ],
-      "tekst": "Prezydent Donald Trump zapowiedział 3.11, że od 2027 r. USA przestaną przekazywać Izraelowi około 4 mld dolarów rocznie, ale nadal będą sprzedawać mu **broń**. Zapowiedź nie ma szczegółów, a według Reutersa umowa o pomocy wojskowej obowiązuje do 2028 r.",
-      "zrodla": [
-        {
-          "nazwa": "Associated Press (newsletter)",
-          "url": "https://apnews.com/article/trump-israel-military-aid-hardware-5cad93330300b2d45a9665d5eccb2ab2",
-          "data": "2026-11-04"
-        },
-        {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/middle-east/trump-says-us-will-stop-paying-israel-after-year-end-2026-11-03/",
-          "data": "2026-11-04"
-        }
-      ]
-    },
-    {
-      "id": "z3",
-      "blok": "swiat",
-      "data": "2026-11-04",
-      "tagi": [
-        "inne",
-        "wybory"
-      ],
-      "etap": "PRZYJĘTE",
-      "miejsce": "jerozolima",
-      "krotko": "Izrael: wyniki wyborów zatwierdzone",
-      "kraje": [
-        "Izrael"
-      ],
-      "tekst": "Izraelska komisja wyborcza ogłosiła 4.11, że nie stwierdziła oszustw w wyborach do Knesetu, a prezydent {{o:icchak-herzog|Icchak Herzog}} przyjął **zatwierdzone wyniki** i rozpocznie konsultacje z partiami w sprawie nowego rządu. Według AP blok religijno-nacjonalistyczny dotychczasowego premiera stracił w wyborach większość.",
-      "zrodla": [
-        {
-          "nazwa": "Associated Press (newsletter)",
-          "url": "https://apnews.com/article/israel-election-netanyahu-57aefc6424da937ad2842f6d762631ae",
-          "data": "2026-11-04"
-        }
-      ]
-    },
-    {
-      "id": "z4",
-      "blok": "swiat",
-      "data": "2026-11-02",
-      "tagi": [
-        "chiny",
-        "iran"
-      ],
-      "etap": "ZAPOWIEDŹ",
-      "miejsce": "pekin",
-      "krotko": "Chiny: wysłannik do Iranu i Zatoki",
-      "kraje": [
-        "Oman",
-        "Arabia Saudyjska"
-      ],
-      "tekst": "Według Reutersa Chiny wyślą w listopadzie **specjalnego wysłannika** do Iranu, Omanu i Arabii Saudyjskiej. Wcześniej, 2.11 w Pekinie, {{o:xi-jinping|Xi Jinping}} przyjął sułtana Omanu, a szef chińskiej dyplomacji rozmawiał osobno z przedstawicielami Iranu i Arabii Saudyjskiej.",
-      "zrodla": [
-        {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/china/deeper-china-oman-ties-strategic-both-sides-xi-says-2026-11-02/",
-          "data": "2026-11-04"
-        }
-      ]
-    },
-    {
-      "id": "z5",
-      "blok": "swiat",
-      "data": "2026-11-03",
-      "tagi": [
-        "inne"
-      ],
-      "etap": "W TOKU",
-      "miejsce": "jemen",
-      "krotko": "Jemen: brak opieki medycznej w Taizie",
-      "tekst": "Według Funduszu Ludnościowego ONZ, na który powołuje się Reuters, walki i ograniczenia dostępu wokół jemeńskiego miasta **Taiz** pozbawiły podstawowej opieki medycznej ponad 13 tys. kobiet w ciąży. Działa częściowo tylko 5 z 27 placówek położniczych.",
-      "zrodla": [
-        {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/middle-east/thousands-pregnant-women-risk-yemeni-city-taiz-un-agency-says-2026-11-03/",
-          "data": "2026-11-03"
-        }
-      ]
-    },
-    {
-      "id": "z6",
-      "blok": "gospodarka",
-      "data": "2026-11-03",
-      "tagi": [
-        "energia",
-        "iran"
-      ],
-      "etap": "W TOKU",
-      "miejsce": "ciesnina-ormuz",
-      "krotko": "Zatoka: mniej ropy, rekord ataków",
-      "tekst": "Według Reutersa, który powołuje się na dwie firmy śledzące statki, eksport ropy z Zatoki Perskiej spadł w październiku po wrześniowym maksimum z okresu wojny z Iranem. Ataki na statki w **Cieśninie Ormuz** osiągnęły w październiku rekord.",
-      "zrodla": [
-        {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/business/energy/gulf-oil-flows-dip-october-post-iran-war-high-data-shows-2026-11-03/",
-          "data": "2026-11-03"
-        }
-      ]
+     "nazwa": "Komisja Europejska",
+     "url": "https://enlargement.ec.europa.eu/news/2026-enlargement-package-shows-reform-commitment-delivers-progress-towards-eu-membership-2026-11-04_en",
+     "data": "2026-11-04"
     }
-  ],
-  "analizy": [
-    {
-      "tytul": "Reuters: Chiny chcą roli w kończeniu wojny USA z Iranem, ale ich wpływ jest ograniczony",
-      "autor": "Andrew Mills, Reuters (Gulf Currents), analiza z 4.11.2026",
-      "tekst": "Według autora Chiny są największym partnerem handlowym Iranu i mają największe wpływy w Teheranie spośród mocarstw spoza regionu, lecz nie mają zobowiązań obronnych na Bliskim Wschodzie. Autor ocenia, że Pekin zachowuje się jak zaangażowany obserwator, a w najnowszych rozmowach liderem mediacji jest jego zdaniem Katar.",
-      "dla_polski": "Skutek pośredni: przedłużanie wojny wokół Cieśniny Ormuz utrzymuje wysokie ceny ropy i gazu w Europie (ocena redakcji).",
-      "tagi": [
-        "chiny",
-        "iran"
-      ],
-      "kraje": [
-        "Chiny",
-        "Iran"
-      ],
-      "zrodla": [
-        {
-          "nazwa": "Reuters (newsletter Gulf Currents)",
-          "url": "https://www.reuters.com/",
-          "data": "2026-11-04"
-        }
-      ]
-    },
-    {
-      "tytul": "Reuters: porażka republikanów może ośmielić partnerów handlowych USA do oporu wobec ceł",
-      "autor": "Redakcja Reutersa (tekst z 4.11.2026, bez podanego autora)",
-      "tekst": "Reuters ocenia, że sprzeciw wyborców wobec rosnących kosztów życia może zachęcić państwa na świecie do oporu wobec polityki handlowej Trumpa. Według agencji ceny dla amerykańskich konsumentów wzrosły przez cła.",
-      "dla_polski": "Skutek pośredni: mocniejsza pozycja UE w rozmowach z USA o cłach (ocena redakcji).",
-      "tagi": [
-        "usa"
-      ],
-      "kraje": [
-        "USA"
-      ],
-      "zrodla": [
-        {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/china/trumps-midterm-rebuke-gives-trading-partners-room-resist-2026-11-04/",
-          "data": "2026-11-04"
-        }
-      ]
-    }
-  ],
-  "kalendarz": [
-    {
-      "data": "2026-11-09",
-      "tekst": "9.11: Turcja – początek konferencji klimatycznej ONZ COP31 w Antalyi (do 20.11).",
-      "tagi": [
-        "onz"
-      ]
-    },
-    {
-      "data": "2026-11-10",
-      "tekst": "10.11: Ukraina – niepotwierdzony termin rozmów trójstronnych z Rosją i USA w Abu Zabi według Zełenskiego (Kreml: po 4.11, bez daty).",
-      "tagi": [
-        "ukraina",
-        "rozejm"
-      ],
-      "poza_kalendarium": "datę podaje tylko jedna strona (Zełenski); w do_sprawdzenia"
-    },
-    {
-      "data": "2026-11-12",
-      "tekst": "12.11: Irlandia – szczyt Europejskiej Wspólnoty Politycznej.",
-      "tagi": [
-        "ue"
-      ]
-    },
-    {
-      "data": "2026-11-13",
-      "tekst": "13.11: nieformalne spotkanie szefów państw i rządów UE.",
-      "tagi": [
-        "ue"
-      ]
-    }
-  ],
-  "poza_oknem": [
-    {
-      "data": "2026-11-15",
-      "tekst": "Ukraina, Rosja i USA – trójstronne rozmowy w Abu Zabi w listopadzie (termin według Kremla: około połowy miesiąca; Al Jazeera podaje spotkania techniczne na początku listopada); przedtem możliwa runda w Europie (według urzędnika UE)",
-      "tagi": [
-        "ukraina",
-        "rozejm"
-      ],
-      "poza_kalendarium": "termin podany tylko przez Kreml; strony nie potwierdziły daty"
-    },
-    {
-      "data": "2026-11-29",
-      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
-      "tagi": [
-        "inne",
-        "wybory"
-      ]
-    },
-    {
-      "data": "2027-01-12",
-      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
-      "tagi": [
-        "litwa"
-      ]
-    }
-  ],
-  "zrodla_analityczne": {
-    "osw": [],
-    "pism": [],
-    "nieodczytane": [
-      "osw",
-      "pism"
-    ]
+   ]
   },
-  "czego_nie_ma": [
+  {
+   "id": "z1",
+   "blok": "swiat",
+   "data": "2026-11-03",
+   "tagi": [
+    "usa",
+    "wybory"
+   ],
+   "etap": "PRZYJĘTE",
+   "miejsce": "waszyngton",
+   "krotko": "USA: demokraci zdobywają większość w Kongresie",
+   "tekst": "Demokraci wygrali 3.11 wybory połowy kadencji i zdobyli **większość w obu izbach Kongresu**. Zwycięstwa odnieśli m.in. w Teksasie i Karolinie Południowej, gdzie od dziesięcioleci wygrywali republikanie. Kontrola Kongresu pozwoli demokratom wszczynać dochodzenia wobec administracji {{o:donald-trump|Donalda Trumpa}} i ograniczy jego plany legislacyjne.",
+   "zrodla": [
     {
-      "id": "n2",
-      "tekst": "Iran: według Reutersa (Gulf Currents 4.11) czterech europejskich urzędników uważa, że USA mogą uderzyć na Iran w krótkim czasie, możliwe że w tym tygodniu; Trump mówił o „kolejnej małej operacji Epic Fury” po wyborach.",
-      "prog": "dokumentacja",
-      "sprawdzono": [
-        "Reuters (Gulf Currents 4.11) – anonimowi urzędnicy, jedyne źródło",
-        "AP (newsletter 4.11): tylko pytania o dalszy przebieg po uderzeniach w rejonie Ormuzu",
-        "WebSearch (4.11): brak komunikatu Białego Domu"
-      ]
+     "nazwa": "Associated Press (newsletter)",
+     "url": "https://apnews.com/article/midterm-election-house-senate-democrats-republicans-trump-f126e12e05b579a327b98481c0ae2226",
+     "data": "2026-11-04"
     },
     {
-      "id": "n3",
-      "tekst": "Ukraina: według rosyjskiego ministerstwa obrony (Reuters, 4.11) Rosja uderzyła w dwie elektrownie w obwodach kijowskim i żytomierskim.",
-      "prog": "dokumentacja",
-      "sprawdzono": [
-        "Reuters (Daily Briefing 4.11) – za rosyjskim resortem obrony, wypowiedź strony",
-        "WebSearch (4.11): wyniki tylko z lat 2022 i 2026 (luty)",
-        "komunikat ukraińskiego operatora sieci – nie znaleziono"
-      ]
-    },
-    {
-      "id": "n5",
-      "tekst": "Indonezja: według nagłówka AP (newsletter 4.11) wojsko skierowało tysiące żołnierzy do stolicy po aresztowaniu generałów.",
-      "prog": "dokumentacja",
-      "sprawdzono": [
-        "AP (newsletter 4.11) – tylko nagłówek, artykuł nieotwarty",
-        "WebSearch (4.11): brak materiałów z listopada 2026",
-        "newslettery Reutersa (4.11): brak"
-      ]
+     "nazwa": "Reuters (newsletter)",
+     "url": "https://www.reuters.com/legal/government/democrats-seize-congress-sweeping-midterm-repudiation-trump-2026-11-04/",
+     "data": "2026-11-04"
     }
-  ],
-  "rozstrzygniecia": [
+   ]
+  },
+  {
+   "id": "z2",
+   "blok": "swiat",
+   "data": "2026-11-03",
+   "tagi": [
+    "usa",
+    "inne"
+   ],
+   "etap": "ZAPOWIEDŹ",
+   "miejsce": "waszyngton",
+   "krotko": "USA: zapowiedź końca pomocy dla Izraela",
+   "kraje": [
+    "Izrael"
+   ],
+   "tekst": "Prezydent Donald Trump zapowiedział 3.11, że od 2027 r. USA przestaną przekazywać Izraelowi około 4 mld dolarów rocznie, ale nadal będą sprzedawać mu **broń**. Zapowiedź nie ma szczegółów, a według Reutersa umowa o pomocy wojskowej obowiązuje do 2028 r.",
+   "zrodla": [
     {
-      "dotyczy": "2026-11-03#n1",
-      "wynik": "UZUPEŁNIONE",
-      "pozycja": "z2"
+     "nazwa": "Associated Press (newsletter)",
+     "url": "https://apnews.com/article/trump-israel-military-aid-hardware-5cad93330300b2d45a9665d5eccb2ab2",
+     "data": "2026-11-04"
     },
     {
-      "dotyczy": "2026-11-03#n2",
-      "wynik": "NIE DO POTWIERDZENIA",
-      "sprawdzono": [
-        "Reuters i AP (newslettery 4.11): brak wzmianki o Morzu Czarnym",
-        "WebSearch (4.11): bez ataków z 2–3.11",
-        "komunikat NATO – nie znaleziono"
-      ],
-      "powod": "Brak drugiego źródła i komunikatu NATO o wzmocnieniu obecności."
-    },
-    {
-      "dotyczy": "2026-11-03#n3",
-      "wynik": "ODPADA",
-      "powod": "Anonimowa wypowiedź strony irańskiej; sytuację opisuje wpis n2 na podstawie nowszych doniesień."
-    },
-    {
-      "dotyczy": "2026-11-03#n4",
-      "wynik": "NIE DO POTWIERDZENIA",
-      "sprawdzono": [
-        "AP (newsletter 4.11): brak",
-        "WebSearch (4.11): brak raportu o 31 ofiarach",
-        "Reuters (Daily Briefing 4.11): tylko ataki na elektrownie"
-      ],
-      "powod": "Tylko jedno źródło (AP z 3.11), bez potwierdzenia ukraińskich władz."
+     "nazwa": "Reuters (newsletter)",
+     "url": "https://www.reuters.com/world/middle-east/trump-says-us-will-stop-paying-israel-after-year-end-2026-11-03/",
+     "data": "2026-11-04"
     }
-  ],
-  "do_sprawdzenia": [
-    "USA – reakcje na wyniki wyborów, możliwe uderzenie USA na Iran; Izrael – konsultacje prezydenta z partiami",
-    "OSW i PISM – listy publikacji z 1–4.11; PAP Kraj, DO RSZ, MON, SG, ŻW – incydenty; Agencja Uzbrojenia – umowy",
-    "Chiny – przyjazd specjalnego wysłannika do Iranu, Omanu i Arabii Saudyjskiej; Indonezja – rozmieszczenie wojska w Dżakarcie"
-  ],
-  "nota": "Lista publikacji OSW (strona zablokowana testem przeglądarki) i PISM (lista bez dostępu) nie została odczytana; z wyszukiwarki znany jest tylko tekst OSW z 4.11 o szczycie Kanada–UE. Komunikaty DO RSZ, MON, Straży Granicznej, Żandarmerii Wojskowej i Agencji Uzbrojenia z 3–4.11 nie zostały znalezione wyszukiwarką. Wydanie oparto głównie na newsletterach AP i Reutersa; kontrola niezależna jest wykonywana osobno."
+   ]
+  },
+  {
+   "id": "z3",
+   "blok": "swiat",
+   "data": "2026-11-04",
+   "tagi": [
+    "inne",
+    "wybory"
+   ],
+   "etap": "PRZYJĘTE",
+   "miejsce": "jerozolima",
+   "krotko": "Izrael: wyniki wyborów zatwierdzone",
+   "kraje": [
+    "Izrael"
+   ],
+   "tekst": "Izraelska komisja wyborcza ogłosiła 4.11, że nie znalazła dowodów naruszenia uczciwości wyborów do Knesetu, a prezydent {{o:icchak-herzog|Icchak Herzog}} przyjął **zatwierdzone wyniki** i rozpoczął konsultacje z partiami w sprawie nowego rządu. Według AP blok premiera {{o:benjamin-netanjahu|Benjamina Netanjahu}} stracił w wyborach większość.",
+   "zrodla": [
+    {
+     "nazwa": "Associated Press (newsletter)",
+     "url": "https://apnews.com/article/israel-election-netanyahu-57aefc6424da937ad2842f6d762631ae",
+     "data": "2026-11-04"
+    }
+   ]
+  },
+  {
+   "id": "z4",
+   "blok": "swiat",
+   "data": "2026-11-02",
+   "tagi": [
+    "chiny",
+    "iran"
+   ],
+   "etap": "ZAPOWIEDŹ",
+   "miejsce": "pekin",
+   "krotko": "Chiny: wysłannik do Iranu i Zatoki",
+   "kraje": [
+    "Oman",
+    "Arabia Saudyjska"
+   ],
+   "tekst": "Według Reutersa Chiny wyślą w listopadzie **specjalnego wysłannika** do Iranu, Omanu i Arabii Saudyjskiej. Wcześniej, 2.11 w Pekinie, {{o:xi-jinping|Xi Jinping}} przyjął sułtana Omanu, a szef chińskiej dyplomacji rozmawiał osobno z przedstawicielami Iranu i Arabii Saudyjskiej.",
+   "zrodla": [
+    {
+     "nazwa": "Reuters (newsletter)",
+     "url": "https://www.reuters.com/world/china/deeper-china-oman-ties-strategic-both-sides-xi-says-2026-11-02/",
+     "data": "2026-11-04"
+    }
+   ]
+  },
+  {
+   "id": "z5",
+   "blok": "swiat",
+   "data": "2026-11-03",
+   "tagi": [
+    "inne"
+   ],
+   "etap": "W TOKU",
+   "miejsce": "jemen",
+   "krotko": "Jemen: brak opieki medycznej w Taizie",
+   "tekst": "Według Funduszu Ludnościowego ONZ, na który powołuje się Reuters, walki i ograniczenia dostępu wokół jemeńskiego miasta **Taiz** pozbawiły podstawowej opieki medycznej ponad 13 tys. kobiet w ciąży. Spośród 27 ratunkowych placówek opieki nad matką i noworodkiem działa, i to tylko częściowo, pięć.",
+   "zrodla": [
+    {
+     "nazwa": "Reuters (newsletter)",
+     "url": "https://www.reuters.com/world/middle-east/thousands-pregnant-women-risk-yemeni-city-taiz-un-agency-says-2026-11-03/",
+     "data": "2026-11-03"
+    }
+   ]
+  },
+  {
+   "id": "z6",
+   "blok": "gospodarka",
+   "data": "2026-11-03",
+   "tagi": [
+    "energia",
+    "iran"
+   ],
+   "etap": "W TOKU",
+   "miejsce": "ciesnina-ormuz",
+   "krotko": "Zatoka: mniej ropy, rekord ataków",
+   "tekst": "Według Reutersa, który powołuje się na dwie firmy śledzące statki, eksport ropy z Zatoki Perskiej spadł w październiku po wrześniowym najwyższym poziomie od początku wojny z Iranem. Reuters podaje też, że ataki na statki w **Cieśninie Ormuz** osiągnęły w październiku rekord.",
+   "zrodla": [
+    {
+     "nazwa": "Reuters (newsletter)",
+     "url": "https://www.reuters.com/business/energy/gulf-oil-flows-dip-october-post-iran-war-high-data-shows-2026-11-03/",
+     "data": "2026-11-03"
+    }
+   ]
+  }
+ ],
+ "analizy": [
+  {
+   "tytul": "Reuters: Chiny chcą roli w kończeniu wojny USA z Iranem, ale ich wpływ jest ograniczony",
+   "autor": "Andrew Mills, Reuters (Gulf Currents), analiza z 4.11.2026",
+   "tekst": "Według autora Chiny są największym partnerem handlowym Iranu i mają największe wpływy w Teheranie spośród mocarstw spoza regionu, lecz nie mają zobowiązań obronnych na Bliskim Wschodzie. Autor ocenia, że Pekin zachowuje się jak zaangażowany obserwator, a w najnowszych rozmowach liderem mediacji jest jego zdaniem Katar.",
+   "dla_polski": "Skutek pośredni: przedłużanie wojny wokół Cieśniny Ormuz utrzymuje wysokie ceny ropy i gazu w Europie (ocena redakcji).",
+   "tagi": [
+    "chiny",
+    "iran"
+   ],
+   "kraje": [
+    "Chiny",
+    "Iran"
+   ],
+   "zrodla": [
+    {
+     "nazwa": "Reuters (newsletter Gulf Currents)",
+     "url": "https://www.reuters.com/",
+     "data": "2026-11-04"
+    }
+   ]
+  },
+  {
+   "tytul": "Reuters: porażka republikanów może ośmielić partnerów handlowych USA do oporu wobec ceł",
+   "autor": "Redakcja Reutersa (tekst z 4.11.2026, bez podanego autora)",
+   "tekst": "Reuters ocenia, że sprzeciw wyborców wobec rosnących kosztów życia może zachęcić państwa na świecie do oporu wobec polityki handlowej Trumpa. Według agencji ceny dla amerykańskich konsumentów wzrosły przez cła.",
+   "dla_polski": "Skutek pośredni: mocniejsza pozycja UE w rozmowach z USA o cłach (ocena redakcji).",
+   "tagi": [
+    "usa"
+   ],
+   "kraje": [
+    "USA"
+   ],
+   "zrodla": [
+    {
+     "nazwa": "Reuters (newsletter)",
+     "url": "https://www.reuters.com/world/china/trumps-midterm-rebuke-gives-trading-partners-room-resist-2026-11-04/",
+     "data": "2026-11-04"
+    }
+   ]
+  }
+ ],
+ "kalendarz": [
+  {
+   "data": "2026-11-09",
+   "tekst": "9.11: Turcja – początek konferencji klimatycznej ONZ COP31 w Antalyi (do 20.11).",
+   "tagi": [
+    "onz"
+   ]
+  },
+  {
+   "data": "2026-11-10",
+   "tekst": "10.11: Ukraina – niepotwierdzony termin rozmów trójstronnych z Rosją i USA w Abu Zabi według Zełenskiego (Kreml: po 4.11, bez daty).",
+   "tagi": [
+    "ukraina",
+    "rozejm"
+   ],
+   "poza_kalendarium": "datę podaje tylko jedna strona (Zełenski); w do_sprawdzenia"
+  },
+  {
+   "data": "2026-11-12",
+   "tekst": "12.11: Irlandia – szczyt Europejskiej Wspólnoty Politycznej.",
+   "tagi": [
+    "ue"
+   ]
+  },
+  {
+   "data": "2026-11-13",
+   "tekst": "13.11: nieformalne spotkanie szefów państw i rządów UE.",
+   "tagi": [
+    "ue"
+   ]
+  }
+ ],
+ "poza_oknem": [
+  {
+   "data": "2026-11-15",
+   "tekst": "Ukraina, Rosja i USA – trójstronne rozmowy w Abu Zabi w listopadzie (termin według Kremla: około połowy miesiąca; Al Jazeera podaje spotkania techniczne na początku listopada); przedtem możliwa runda w Europie (według urzędnika UE)",
+   "tagi": [
+    "ukraina",
+    "rozejm"
+   ],
+   "poza_kalendarium": "termin podany tylko przez Kreml; strony nie potwierdziły daty"
+  },
+  {
+   "data": "2026-11-29",
+   "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+   "tagi": [
+    "inne",
+    "wybory"
+   ]
+  },
+  {
+   "data": "2027-01-12",
+   "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+   "tagi": [
+    "litwa"
+   ]
+  }
+ ],
+ "zrodla_analityczne": {
+  "osw": [],
+  "pism": [],
+  "nieodczytane": [
+   "osw",
+   "pism"
+  ]
+ },
+ "czego_nie_ma": [
+  {
+   "id": "n2",
+   "tekst": "Iran: według Reutersa (Gulf Currents 4.11) czterech europejskich urzędników uważa, że USA mogą uderzyć na Iran w krótkim czasie, możliwe że w tym tygodniu; Trump mówił o „kolejnej małej operacji Epic Fury” po wyborach.",
+   "prog": "dokumentacja",
+   "sprawdzono": [
+    "Reuters (Gulf Currents 4.11) – anonimowi urzędnicy, jedyne źródło",
+    "AP (newsletter 4.11): tylko pytania o dalszy przebieg po uderzeniach w rejonie Ormuzu",
+    "WebSearch (4.11): brak komunikatu Białego Domu"
+   ]
+  },
+  {
+   "id": "n3",
+   "tekst": "Ukraina: według rosyjskiego ministerstwa obrony (Reuters, 4.11) Rosja uderzyła w dwie elektrownie w obwodach kijowskim i żytomierskim.",
+   "prog": "dokumentacja",
+   "sprawdzono": [
+    "Reuters (Daily Briefing 4.11) – za rosyjskim resortem obrony, wypowiedź strony",
+    "WebSearch (4.11): wyniki tylko z lat 2022 i 2026 (luty)",
+    "komunikat ukraińskiego operatora sieci – nie znaleziono"
+   ]
+  },
+  {
+   "id": "n5",
+   "tekst": "Indonezja: według nagłówka AP (newsletter 4.11) wojsko skierowało tysiące żołnierzy do stolicy po aresztowaniu generałów.",
+   "prog": "dokumentacja",
+   "sprawdzono": [
+    "AP (newsletter 4.11) – tylko nagłówek, artykuł nieotwarty",
+    "WebSearch (4.11): brak materiałów z listopada 2026",
+    "newslettery Reutersa (4.11): brak"
+   ]
+  }
+ ],
+ "rozstrzygniecia": [
+  {
+   "dotyczy": "2026-11-03#n1",
+   "wynik": "UZUPEŁNIONE",
+   "pozycja": "z2"
+  },
+  {
+   "dotyczy": "2026-11-03#n2",
+   "wynik": "NIE DO POTWIERDZENIA",
+   "sprawdzono": [
+    "Reuters i AP (newslettery 4.11): brak wzmianki o Morzu Czarnym",
+    "WebSearch (4.11): bez ataków z 2–3.11",
+    "komunikat NATO – nie znaleziono"
+   ],
+   "powod": "Brak drugiego źródła i komunikatu NATO o wzmocnieniu obecności."
+  },
+  {
+   "dotyczy": "2026-11-03#n3",
+   "wynik": "ODPADA",
+   "powod": "Anonimowa wypowiedź strony irańskiej; sytuację opisuje wpis n2 na podstawie nowszych doniesień."
+  },
+  {
+   "dotyczy": "2026-11-03#n4",
+   "wynik": "NIE DO POTWIERDZENIA",
+   "sprawdzono": [
+    "AP (newsletter 4.11): brak",
+    "WebSearch (4.11): brak raportu o 31 ofiarach",
+    "Reuters (Daily Briefing 4.11): tylko ataki na elektrownie"
+   ],
+   "powod": "Tylko jedno źródło (AP z 3.11), bez potwierdzenia ukraińskich władz."
+  }
+ ],
+ "do_sprawdzenia": [
+  "USA – reakcje na wyniki wyborów, możliwe uderzenie USA na Iran; Izrael – konsultacje prezydenta z partiami",
+  "OSW i PISM – listy publikacji z 1–4.11; PAP Kraj, DO RSZ, MON, SG, ŻW – incydenty; Agencja Uzbrojenia – umowy",
+  "Chiny – przyjazd specjalnego wysłannika do Iranu, Omanu i Arabii Saudyjskiej; Indonezja – rozmieszczenie wojska w Dżakarcie"
+ ],
+ "nota": "Lista publikacji OSW (strona zablokowana testem przeglądarki) i PISM (lista bez dostępu) nie została odczytana; z wyszukiwarki znany jest tylko tekst OSW z 4.11 o szczycie Kanada–UE. Komunikaty DO RSZ, MON, Straży Granicznej, Żandarmerii Wojskowej i Agencji Uzbrojenia z 3–4.11 nie zostały znalezione wyszukiwarką. Wydanie oparto głównie na newsletterach AP i Reutersa; kontrola niezależna jest wykonywana osobno."
 }

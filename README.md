@@ -35,7 +35,7 @@ python3 narzedzia/pdf.py RRRR-MM-DD   # PDF archiwalny – tylko na żądanie
 git add -A && git commit -m "Wydanie nr N, RRRR-MM-DD" && git push
 ```
 
-Do zarysu wchodzą **wyłącznie informacje potwierdzone** (komunikat instytucji, dane urzędowe albo dwa niezależne serwisy). Niepotwierdzone i sporne idą do `czego_nie_ma` z progiem `dokumentacja`; pola `status` nie ma (walidacja je odrzuca). Pozycje oznaczone tak przed 01.10.2026 oraz oparte na samych tytułach przeszły rewizję: `dane/rewizje.json` (`wynik`: POTWIERDZONE PO REWIZJI z wersją pierwotną i potwierdzoną albo WYCOFANE z powodem), widoczną w rejestrze korekt i w wydaniach.
+Do zarysu wchodzą **wyłącznie informacje potwierdzone** (komunikat instytucji, dane urzędowe, dwa niezależne serwisy albo – od 4.11.2026 – jedna agencja Reuters/AP/AFP/PAP/Bloomberg wymieniona w tekście pozycji, bez liczby ofiar). Niepotwierdzone i sporne idą do `czego_nie_ma` z progiem `dokumentacja`; pola `status` nie ma (walidacja je odrzuca). Pozycje oznaczone tak przed 01.10.2026 oraz oparte na samych tytułach przeszły rewizję: `dane/rewizje.json` (`wynik`: POTWIERDZONE PO REWIZJI z wersją pierwotną i potwierdzoną albo WYCOFANE z powodem), widoczną w rejestrze korekt i w wydaniach.
 
 Walidacja odrzuca wydanie, jeśli którakolwiek pozycja nie ma źródła z linkiem i datą, ma źródło opisane jako sam tytuł, ma hashtag spoza słownika, osobę bez karty albo analizę bez autora. Od 22.10.2026 odrzuca też wydanie, w którym osoba mająca kartę występuje bez odnośnika `{{o:…}}` albo hashtag z zarysu nie ma stanu wątku na dzień wydania (`stan_data` w `dane/tagi.json`). Pole `formy` w karcie osoby podaje odmiany nazwiska, po których walidacja ją rozpoznaje.
 
@@ -134,7 +134,7 @@ Walidacja jak w wydaniach: każdy wiersz `przebieg` musi mieć źródło z pozio
 
 `dane/zrodla.json` ocenia każde źródło w skali 1–5 (1 urzędowe – zielony, 2 wysoka wiarygodność, 3 z zastrzeżeniami, 4 niska, 5 strona zainteresowana – czerwony), z typem, krajem i uzasadnieniem. Źródło w wydaniu jest dopasowywane po początku nazwy (`wzorce`, np. „Reuters (za U.S. News)” → Reuters), a potem po domenie linku. Strona `zrodla.html` pokazuje ranking i rozkład cytowań; przy każdym źródle na stronie jest kolorowa kropka.
 
-Walidacja odrzuca źródło spoza rankingu (nowe trzeba świadomie dopisać z poziomem i uzasadnieniem), a w wydaniach od 01.10.2026 także pozycję bez wystarczającej podstawy: źródło z poziomu 1 albo dwa niezależne z poziomów 1–2 (poziomy 3–5 nie liczą się do podstawy). Do `zrodla` pozycji wpisuj wszystkie źródła, którymi ją potwierdzono.
+Walidacja odrzuca źródło spoza rankingu (nowe trzeba świadomie dopisać z poziomem i uzasadnieniem), a w wydaniach od 01.10.2026 także pozycję bez wystarczającej podstawy: źródło z poziomu 1 albo dwa niezależne z poziomów 1–2 (poziomy 3–5 nie liczą się do podstawy); od 4.11.2026 wystarcza też jedna agencja z `AGENCJE_SAMODZIELNE` w build.py, jeśli tekst ją wymienia i nie podaje liczby ofiar. Wydanie dzienne od 4.11.2026 z mniej niż 6 pozycjami zarysu wymaga pola `niepelne` (powód; ramka „Wydanie niepełne” na stronie). Do `zrodla` pozycji wpisuj wszystkie źródła, którymi ją potwierdzono.
 
 ## Grafiki
 

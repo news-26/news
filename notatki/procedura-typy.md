@@ -5,7 +5,7 @@ W wydaniu są tylko informacje potwierdzone. Co nie przechodzi, idzie do „W ob
 | Typ | Przykłady | Reguła |
 |---|---|---|
 | A. Status | kto pełni funkcję, kto jest więziony, czy sankcje obowiązują | Wyszukiwanie dziś z nazwiskiem i rokiem, chyba że rejestr ma weryfikację ≤ 7 dni. Szukaj najnowszej zmiany. |
-| B. Nowe zdarzenie | atak, spotkanie, incydent | Dwa niezależne źródła albo komunikat instytucji; przy jednym – „W obserwacji”. |
+| B. Nowe zdarzenie | atak, spotkanie, incydent | Komunikat instytucji, dwa niezależne źródła albo jedna agencja (Reuters, AP, AFP, PAP, Bloomberg) z atrybucją w tekście; incydent w Polsce – komunikat albo dwa źródła. |
 | C. Liczba | ofiary, kwoty, kurs, liczba systemów | Źródło urzędowe z datą i atrybucją w treści. Gdy wartości się rozjeżdżają i żadna nie jest urzędowa – liczbę pomiń (do „W obserwacji”), zdarzenie zostaje, jeśli jest potwierdzone. |
 | D. Data | kiedy coś się stało | Porównaj datę zdarzenia z datą publikacji; dni tygodnia przelicz na daty. |
 | E. Etap decyzji | propozycja / decyzja, zapowiedź / podpis, uzgodnienie / wypłata | Nazwij etap wprost. |

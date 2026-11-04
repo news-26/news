@@ -143,7 +143,19 @@ DWA_ZRODLA_OD = "2026-10-01"
 PODSTAWA_ADRES_OD = "2026-10-10"
 
 
-def podstawa_ok(zrodla, ranking=None, scisle=False):
+# Od tej daty pozycja zarysu może stać na jednej agencji z AGENCJE_SAMODZIELNE, jeśli tekst ją wymienia
+# („według Reutersa”); liczby ofiar nadal wymagają dwóch źródeł albo urzędowego.
+JEDNA_AGENCJA_OD = "2026-11-04"
+AGENCJE_SAMODZIELNE = {"reuters": r"Reuters", "ap": r"\bAP\b|Associated Press", "afp": r"\bAFP\b",
+                       "pap": r"\bPAP\b", "bloomberg": r"Bloomberg"}
+OFIARY_RE = re.compile(r"ofiar|zabi(ł|ł[aoy]|li|t[ay]ch)|zgin(ął|ęł)|ranny|rannych|zmarł|nie żyj", re.I)
+# Od tej daty wydanie dzienne z mniejszą liczbą pozycji zarysu musi mieć pole „niepelne” (powód).
+NIEPELNE_OD = "2026-11-04"
+NIEPELNE_PONIZEJ = 6
+
+
+def podstawa_ok(zrodla, ranking=None, scisle=False, tekst=None):
+    """tekst podany = reguła od JEDNA_AGENCJA_OD: wystarcza też jedna agencja wymieniona w tekście."""
     r = ranking or RANKING
     ocen = r.ocen_podstawa if scisle else r.ocen
     oc = [ocen(z.get("nazwa"), z.get("url")) for z in zrodla]
@@ -151,7 +163,12 @@ def podstawa_ok(zrodla, ranking=None, scisle=False):
     if any(o["poziom"] == 1 for o in oc):
         return True
     niezalezne = {o["id"] for o in oc if o["poziom"] <= 2}
-    return len(niezalezne) >= 2
+    if len(niezalezne) >= 2:
+        return True
+    if tekst is not None and not OFIARY_RE.search(tekst):
+        czysty_t = re.sub(r"\{\{[op]:[^|}]+\|([^}]+)\}\}", r"\1", tekst)
+        return any(o["id"] in AGENCJE_SAMODZIELNE and re.search(AGENCJE_SAMODZIELNE[o["id"]], czysty_t) for o in oc)
+    return False
 
 
 TERMINY = []  # dane/terminy.json – zaplanowane wydarzenia (kalendarium); obowiązkowe przechodzą przez straże
@@ -594,6 +611,10 @@ def waliduj(tagi, osoby, pojecia, wydania, rewizje=(), topy=()) -> Bledy:
         if w.get("typ", "dzienne") not in ("dzienne", "tygodniowe"):
             b.dodaj(g0, "typ musi być dzienne albo tygodniowe")
         waliduj_slownik(w, tagi, osoby, b)
+        if w.get("typ") == "dzienne" and w.get("data", "") >= NIEPELNE_OD:
+            if len(w.get("zarys", [])) < NIEPELNE_PONIZEJ and not (w.get("niepelne") or "").strip():
+                b.dodaj(g0, f"zarys ma mniej niż {NIEPELNE_PONIZEJ} pozycji — dodaj pole niepelne z powodem "
+                            "(strona pokaże ramkę „Wydanie niepełne”) albo uzupełnij zarys")
         ids = set()
         for it in w.get("zarys", []):
             g = f"{g0} zarys {it.get('id')}"
@@ -607,9 +628,13 @@ def waliduj(tagi, osoby, pojecia, wydania, rewizje=(), topy=()) -> Bledy:
                 data_(it.get("data", ""))
             except ValueError:
                 b.dodaj(g, "brak daty zdarzenia RRRR-MM-DD")
-            if RANKING and w.get("data", "") >= DWA_ZRODLA_OD and it.get("zrodla") and not podstawa_ok(it["zrodla"], scisle=w.get("data", "") >= PODSTAWA_ADRES_OD):
-                b.dodaj(g, "za słaba podstawa: potrzebne źródło urzędowe (poziom 1) albo dwa niezależne z poziomów 1–2 "
-                           "(źródła z poziomów 3–5 nie liczą się do podstawy; zob. zrodla.html)")
+            jedna = w.get("data", "") >= JEDNA_AGENCJA_OD
+            if RANKING and w.get("data", "") >= DWA_ZRODLA_OD and it.get("zrodla") and not podstawa_ok(
+                    it["zrodla"], scisle=w.get("data", "") >= PODSTAWA_ADRES_OD, tekst=it.get("tekst", "") if jedna else None):
+                b.dodaj(g, "za słaba podstawa: potrzebne źródło urzędowe (poziom 1) albo dwa niezależne z poziomów 1–2"
+                           + ("; jedna agencja (Reuters, AP, AFP, PAP, Bloomberg) wystarcza tylko z atrybucją w tekście "
+                              "(„według Reutersa”) i bez liczby ofiar" if jedna else "")
+                           + " (źródła z poziomów 3–5 nie liczą się do podstawy; zob. zrodla.html)")
             if "status" in it:
                 b.dodaj(g, f"pole status ({it['status']}) — do zarysu wchodzą tylko informacje potwierdzone; "
                            "niepotwierdzone przenieś do „W obserwacji” (próg: dokumentacja)")
@@ -1378,6 +1403,8 @@ class Budowa:
                   + "<script>(function(){var d=document.querySelector('.wn-kal');if(!d)return;"
                     "document.addEventListener('click',function(e){if(d.open&&!d.contains(e.target))d.open=false;});"
                     "document.addEventListener('keydown',function(e){if(e.key==='Escape'&&d.open){d.open=false;d.querySelector('summary').focus();}});})();</script>")
+        if (w.get("niepelne") or "").strip():
+            cz.append(f'<section class="niepelne" role="note"><h2>Wydanie niepełne</h2><p>{T(w["niepelne"])}</p></section>')
         cz.append('<section class="skrot"><h2>W skrócie</h2>' +
                   "".join(f"<p>{T(z)}</p>" for z in w["w_skrocie"]) + "</section>")
         spis = []
@@ -2257,7 +2284,9 @@ class Budowa:
             '<p>Ranking to <strong>ocena autora Prasówki (modelu AI)</strong>, nie obiektywna miara: mówi, ile potwierdzenia potrzebuje informacja z danego źródła. '
             'Poziom dotyczy typowej informacji; źródło z poziomu 5 jest rozstrzygające co do tego, co twierdzi jego rząd, a urzędowe (1) – co do decyzji instytucji, nie co do ocen.</p>'
             '<p><strong>Zasada publikacji (od 01.10.2026 sprawdzana automatycznie):</strong> pozycja zarysu wymaga źródła urzędowego (poziom 1) '
-            'albo dwóch niezależnych źródeł z poziomów 1–2. Poziomy 3–5 mogą towarzyszyć, ale nie liczą się do podstawy. '
+            'albo dwóch niezależnych źródeł z poziomów 1–2. Od 4.11.2026 wystarcza też jedna agencja (Reuters, AP, AFP, PAP, Bloomberg), '
+            'jeśli tekst pozycji ją wymienia („według Reutersa”); liczby ofiar nadal wymagają dwóch źródeł albo komunikatu urzędowego. '
+            'Poziomy 3–5 mogą towarzyszyć, ale nie liczą się do podstawy. '
             'Przy przedruku depeszy kolor bierze się z agencji, którą wskazujemy w nazwie, np. „Reuters (za U.S. News)”.</p></section>')
         for p, poz in sorted(RANKING.poziomy.items()):
             lista = sorted([z for z in RANKING.zrodla if z["poziom"] == p], key=lambda z: (-uzycia.get(z["id"], 0), z["nazwa"].lower()))
@@ -2272,7 +2301,7 @@ class Budowa:
 <p class="w-stan">Co musi się stać, żeby informacja trafiła do przeglądu, i jak czytać oznaczenia.</p></section>
 <h2 class="pasek">Trzy progi</h2>
 <section class="skrot">
-<p><strong>1. Dokumentacja.</strong> Komunikat instytucji, dane urzędowe albo dwa niezależne serwisy. Sam nagłówek z wyszukiwarki nie wystarcza: strona źródła jest otwierana i czytana.</p>
+<p><strong>1. Dokumentacja.</strong> Komunikat instytucji, dane urzędowe, dwa niezależne serwisy albo jedna agencja (Reuters, AP, AFP, PAP, Bloomberg) wskazana w tekście. Sam nagłówek z wyszukiwarki nie wystarcza: strona źródła jest otwierana i czytana.</p>
 <p><strong>2. Następstwo.</strong> Coś się zmieniło: zapadła decyzja, powstał termin, zmienił się stan rzeczy. Zdarzenie potwierdzone, ale bez skutku, nie wchodzi do zarysu; trafia do noty „W obserwacji” z podaniem powodu.</p>
 <p><strong>3. Kompletność.</strong> Osoba zawsze z funkcją, uzbrojenie z nazwą systemu, liczbą i jednostką, skróty rozwinięte, liczby z datą i źródłem.</p>
 </section>

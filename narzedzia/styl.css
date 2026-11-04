@@ -70,6 +70,9 @@ a:focus-visible, input:focus-visible { outline: 3px solid var(--morze); outline-
 .skrot { background: var(--karta); border-left: 4px solid #C9A227; padding: 14px 18px; margin: 18px 0; }
 .skrot h2 { margin: 0 0 6px; font: 600 15px/1.4 var(--sans); color: var(--atrament); }
 .skrot p { margin: 0 0 8px; }
+.niepelne { border: 2px solid #B3261E; background: var(--karta); padding: 12px 18px; margin: 18px 0; }
+.niepelne h2 { margin: 0 0 4px; font: 700 15px/1.4 var(--sans); color: #B3261E; }
+.niepelne p { margin: 0; }
 .skrot p:last-child { margin-bottom: 0; }
 .dalej { font-family: var(--sans); font-size: 15px; }
 mark { background: var(--zolty); color: var(--atrament); padding: 0 3px; border-radius: 3px; font-weight: 600; -webkit-box-decoration-break: clone; box-decoration-break: clone; }

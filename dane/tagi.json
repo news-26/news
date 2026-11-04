@@ -252,18 +252,28 @@
       "nazwa": "USA",
       "grupa": "miejsce",
       "opis": "Polityka USA wobec Europy, Rosji, Ukrainy i Bliskiego Wschodu.",
-      "stan": "3.11 Amerykanie głosują w wyborach połowy kadencji; 2.11 USA uderzyły w irańskie cele w rejonie Cieśniny Ormuz.",
-      "stan_data": "2026-11-03",
+      "stan": "4.11 demokraci zdobyli większość w Izbie Reprezentantów i Senacie po wyborach połowy kadencji; 3.11 Trump zapowiedział koniec pomocy dla Izraela po tym roku.",
+      "stan_data": "2026-11-04",
       "stan_zrodla": [
         {
           "nazwa": "Associated Press (newsletter)",
-          "url": "https://apnews.com/article/election-takeaways-midterms-trump-democrats-takeover-republicans-1cb09c8674598632ec3e4307eda5fbb8",
-          "data": "2026-11-03"
+          "url": "https://apnews.com/article/midterm-election-house-senate-democrats-republicans-trump-f126e12e05b579a327b98481c0ae2226",
+          "data": "2026-11-04"
         },
         {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/us/trump-faces-midterm-verdict-with-control-congress-stake-2026-11-03/",
-          "data": "2026-11-03"
+          "url": "https://www.reuters.com/legal/government/democrats-seize-congress-sweeping-midterm-repudiation-trump-2026-11-04/",
+          "data": "2026-11-04"
+        },
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/trump-israel-military-aid-hardware-5cad93330300b2d45a9665d5eccb2ab2",
+          "data": "2026-11-04"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/trump-says-us-will-stop-paying-israel-after-year-end-2026-11-03/",
+          "data": "2026-11-04"
         }
       ]
     },
@@ -599,18 +609,18 @@
       "nazwa": "Wybory",
       "grupa": "temat",
       "opis": "Wybory w Europie i na świecie; wyniki wstępne odróżniane od oficjalnych.",
-      "stan": "3.11 wybory połowy kadencji w USA; wyniki w Izbie Reprezentantów i Senacie będą znane po zliczeniu głosów.",
-      "stan_data": "2026-11-03",
+      "stan": "3.11 wybory połowy kadencji w USA wygrali demokraci, którzy zdobyli większość w obu izbach Kongresu.",
+      "stan_data": "2026-11-04",
       "stan_zrodla": [
         {
           "nazwa": "Associated Press (newsletter)",
-          "url": "https://apnews.com/article/election-takeaways-midterms-trump-democrats-takeover-republicans-1cb09c8674598632ec3e4307eda5fbb8",
-          "data": "2026-11-03"
+          "url": "https://apnews.com/article/midterm-election-house-senate-democrats-republicans-trump-f126e12e05b579a327b98481c0ae2226",
+          "data": "2026-11-04"
         },
         {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/us/trump-faces-midterm-verdict-with-control-congress-stake-2026-11-03/",
-          "data": "2026-11-03"
+          "url": "https://www.reuters.com/legal/government/democrats-seize-congress-sweeping-midterm-repudiation-trump-2026-11-04/",
+          "data": "2026-11-04"
         }
       ]
     },
@@ -654,20 +664,20 @@
       "nazwa": "Inne",
       "grupa": "temat",
       "opis": "Wątki rzadkie, bez osobnego hashtagu.",
-      "stan": "29.10 liczba ofiar zderzenia pociągów w Hiszpanii wzrosła do co najmniej 74; Izrael czeka na oficjalne wyniki wyborów (do 4.11).",
+      "stan": "3.11 USA zapowiedziały koniec pomocy wojskowej dla Izraela po tym roku.",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/29/death-toll-from-spain-train-crash-rises-to-74-as-royals-visit-victims",
-          "data": "2026-10-29"
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/trump-israel-military-aid-hardware-5cad93330300b2d45a9665d5eccb2ab2",
+          "data": "2026-11-04"
         },
         {
-          "nazwa": "ANSA",
-          "url": "https://www.ansa.it/sito/notizie/mondo/2026/10/29/spagna-ancora-disperse-due-italiane.-tajani-sono-unitalo-argentina-e-unitalo_cb23d261-10a6-4136-8db0-a611c06f6406.html",
-          "data": "2026-10-29"
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/trump-says-us-will-stop-paying-israel-after-year-end-2026-11-03/",
+          "data": "2026-11-04"
         }
       ],
-      "stan_data": "2026-10-29"
+      "stan_data": "2026-11-04"
     },
     {
       "id": "afryka",

@@ -232,20 +232,20 @@
       "nazwa": "Iran",
       "grupa": "miejsce",
       "opis": "Iran, Cieśnina Ormuz, rozmowy z USA i mediatorami.",
-      "stan": "2.11 USA przeprowadziły ograniczone uderzenia na irańskie cele w rejonie Cieśniny Ormuz; rozmowy przez mediatorów w Katarze trwają.",
+      "stan": "2.11 USA uderzyły w irańskie cele w rejonie Cieśniny Ormuz; według Reutersa (4.11) Chiny wyślą do Iranu specjalnego wysłannika.",
       "stan_zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/china/deeper-china-oman-ties-strategic-both-sides-xi-says-2026-11-02/",
+          "data": "2026-11-04"
+        },
         {
           "nazwa": "Associated Press (newsletter)",
           "url": "https://apnews.com/article/iran-us-strikes-strait-hormuz-183b3d32d9bf5241f744abb917e6713e",
           "data": "2026-11-03"
-        },
-        {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/middle-east/us-struck-irans-qeshm-island-wall-street-journal-reports-2026-11-03/",
-          "data": "2026-11-03"
         }
       ],
-      "stan_data": "2026-11-03"
+      "stan_data": "2026-11-04"
     },
     {
       "id": "usa",
@@ -282,23 +282,13 @@
       "nazwa": "Chiny",
       "grupa": "miejsce",
       "opis": "Chiny w polityce światowej i wobec Europy.",
-      "stan": "Po wizycie państwowej Xi Jinpinga w USA (23–25.09) rozejm handlowy USA–Chiny przedłużono z 10.11.2026 do 10.01.2027; powołano też dialog USA–Chiny o superinteligencji z kolejną rundą do listopada.",
-      "stan_data": "2026-10-04",
+      "stan": "Według Reutersa (4.11) Chiny wyślą w listopadzie specjalnego wysłannika do Iranu, Omanu i Arabii Saudyjskiej; 2.11 Xi Jinping przyjął w Pekinie sułtana Omanu.",
+      "stan_data": "2026-11-04",
       "stan_zrodla": [
         {
-          "nazwa": "Biały Dom (fact sheet o wizycie państwowej)",
-          "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-advances-a-fair-and-reciprocal-relationship-with-china-while-hosting-historic-state-visit/",
-          "data": "2026-09-25"
-        },
-        {
-          "nazwa": "Reuters (za Investing.com)",
-          "url": "https://www.investing.com/news/stock-market-news/trump-plans-grand-spectacle-for-potentially-tense-xi-talks-4912458",
-          "data": "2026-09-23"
-        },
-        {
-          "nazwa": "ABC News",
-          "url": "https://abcnews.com/Politics/trump-rolls-red-carpet-chinas-xi/story?id=136692781",
-          "data": "2026-09-23"
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/china/deeper-china-oman-ties-strategic-both-sides-xi-says-2026-11-02/",
+          "data": "2026-11-04"
         }
       ]
     },
@@ -629,20 +619,20 @@
       "nazwa": "Energia",
       "grupa": "temat",
       "opis": "Ropa, gaz, infrastruktura energetyczna, ceny paliw.",
-      "stan": "2.11 USA uderzyły w irańskie cele w rejonie Cieśniny Ormuz, przez którą płynie ropa; Iran deklaruje gotowość otwarcia cieśniny po spełnieniu jego warunków.",
+      "stan": "Według Reutersa (3.11) eksport ropy z Zatoki Perskiej spadł w październiku, a ataki na statki w Cieśninie Ormuz osiągnęły rekord; 2.11 USA uderzyły w irańskie cele w rejonie cieśniny.",
       "stan_zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/business/energy/gulf-oil-flows-dip-october-post-iran-war-high-data-shows-2026-11-03/",
+          "data": "2026-11-03"
+        },
         {
           "nazwa": "Associated Press (newsletter)",
           "url": "https://apnews.com/article/iran-us-strikes-strait-hormuz-183b3d32d9bf5241f744abb917e6713e",
           "data": "2026-11-03"
-        },
-        {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/middle-east/us-struck-irans-qeshm-island-wall-street-journal-reports-2026-11-03/",
-          "data": "2026-11-03"
         }
       ],
-      "stan_data": "2026-11-03"
+      "stan_data": "2026-11-04"
     },
     {
       "id": "gospodarka",
@@ -664,16 +654,11 @@
       "nazwa": "Inne",
       "grupa": "temat",
       "opis": "Wątki rzadkie, bez osobnego hashtagu.",
-      "stan": "3.11 USA zapowiedziały koniec pomocy wojskowej dla Izraela po tym roku.",
+      "stan": "4.11 prezydent Izraela przyjął zatwierdzone wyniki wyborów do Knesetu i rozpocznie konsultacje w sprawie rządu.",
       "stan_zrodla": [
         {
           "nazwa": "Associated Press (newsletter)",
-          "url": "https://apnews.com/article/trump-israel-military-aid-hardware-5cad93330300b2d45a9665d5eccb2ab2",
-          "data": "2026-11-04"
-        },
-        {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/middle-east/trump-says-us-will-stop-paying-israel-after-year-end-2026-11-03/",
+          "url": "https://apnews.com/article/israel-election-netanyahu-57aefc6424da937ad2842f6d762631ae",
           "data": "2026-11-04"
         }
       ],

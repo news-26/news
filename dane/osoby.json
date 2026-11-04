@@ -570,12 +570,12 @@
       "kraj": [
         "chiny"
       ],
-      "zweryfikowano": "2026-10-01",
+      "zweryfikowano": "2026-11-04",
       "zrodla": [
         {
-          "nazwa": "Biały Dom (fact sheet o wizycie państwowej)",
-          "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-advances-a-fair-and-reciprocal-relationship-with-china-while-hosting-historic-state-visit/",
-          "data": "2026-09-25"
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/china/deeper-china-oman-ties-strategic-both-sides-xi-says-2026-11-02/",
+          "data": "2026-11-04"
         }
       ]
     },
@@ -1673,6 +1673,28 @@
           "url": "https://www.france24.com/en/europe/20261029-ecb-president-christine-lagarde-to-step-down-in-february-2027-nine-months-before-term-ends",
           "data": "2026-10-29"
         }
+      ]
+    },
+    {
+      "id": "icchak-herzog",
+      "imie": "Icchak Herzog",
+      "funkcja": "Prezydent Izraela.",
+      "kraj": [
+        "inne"
+      ],
+      "panstwo": "Izrael",
+      "zweryfikowano": "2026-11-04",
+      "zrodla": [
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/israel-election-netanyahu-57aefc6424da937ad2842f6d762631ae",
+          "data": "2026-11-04"
+        }
+      ],
+      "formy": [
+        "Icchak Herzog",
+        "Icchaka Herzoga",
+        "Icchakowi Herzogowi"
       ]
     }
   ]

@@ -3,10 +3,11 @@
   "data": "2026-11-04",
   "godzina": "20:00",
   "typ": "dzienne",
-  "niepelne": "Zarys ma dwie pozycje. Nie udało się odczytać list OSW i PISM ani komunikatów DO RSZ, MON, Straży Granicznej, Żandarmerii Wojskowej i Agencji Uzbrojenia z 3–4.11; wydanie oparto głównie na newsletterach AP i Reutersa.",
+  "niepelne": "Zarys nie obejmuje Polski ani Europy. Nie udało się odczytać list OSW i PISM ani komunikatów DO RSZ, MON, Straży Granicznej, Żandarmerii Wojskowej i Agencji Uzbrojenia z 3–4.11; wydanie oparto na newsletterach AP i Reutersa.",
   "w_skrocie": [
     "Demokraci wygrali 3.11 wybory do Kongresu Stanów Zjednoczonych i zdobyli większość w Izbie Reprezentantów oraz w Senacie.",
-    "Prezydent USA Donald Trump zapowiedział 3.11, że od 2027 r. Stany Zjednoczone przestaną przekazywać Izraelowi około 4 mld dolarów pomocy rocznie. Nadal będą sprzedawać mu broń, a umowa o pomocy wojskowej obowiązuje do 2028 r."
+    "Prezydent USA Donald Trump zapowiedział 3.11, że od 2027 r. Stany Zjednoczone przestaną przekazywać Izraelowi około 4 mld dolarów pomocy rocznie. Nadal będą sprzedawać mu broń, a umowa o pomocy wojskowej obowiązuje do 2028 r.",
+    "Izraelska komisja wyborcza nie stwierdziła oszustw w wyborach do Knesetu, a prezydent Icchak Herzog przyjął 4.11 zatwierdzone wyniki. Rozpocznie teraz konsultacje z partiami w sprawie nowego rządu."
   ],
   "korekty": [],
   "zarys": [
@@ -60,6 +61,92 @@
           "nazwa": "Reuters (newsletter)",
           "url": "https://www.reuters.com/world/middle-east/trump-says-us-will-stop-paying-israel-after-year-end-2026-11-03/",
           "data": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "swiat",
+      "data": "2026-11-04",
+      "tagi": [
+        "inne",
+        "wybory"
+      ],
+      "etap": "PRZYJĘTE",
+      "miejsce": "jerozolima",
+      "krotko": "Izrael: wyniki wyborów zatwierdzone",
+      "kraje": [
+        "Izrael"
+      ],
+      "tekst": "Izraelska komisja wyborcza ogłosiła 4.11, że nie stwierdziła oszustw w wyborach do Knesetu, a prezydent {{o:icchak-herzog|Icchak Herzog}} przyjął **zatwierdzone wyniki** i rozpocznie konsultacje z partiami w sprawie nowego rządu. Według AP blok religijno-nacjonalistyczny dotychczasowego premiera stracił w wyborach większość.",
+      "zrodla": [
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/israel-election-netanyahu-57aefc6424da937ad2842f6d762631ae",
+          "data": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "swiat",
+      "data": "2026-11-02",
+      "tagi": [
+        "chiny",
+        "iran"
+      ],
+      "etap": "ZAPOWIEDŹ",
+      "miejsce": "pekin",
+      "krotko": "Chiny: wysłannik do Iranu i Zatoki",
+      "kraje": [
+        "Oman",
+        "Arabia Saudyjska"
+      ],
+      "tekst": "Według Reutersa Chiny wyślą w listopadzie **specjalnego wysłannika** do Iranu, Omanu i Arabii Saudyjskiej. Wcześniej, 2.11 w Pekinie, {{o:xi-jinping|Xi Jinping}} przyjął sułtana Omanu, a szef chińskiej dyplomacji rozmawiał osobno z przedstawicielami Iranu i Arabii Saudyjskiej.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/china/deeper-china-oman-ties-strategic-both-sides-xi-says-2026-11-02/",
+          "data": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "swiat",
+      "data": "2026-11-03",
+      "tagi": [
+        "inne"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "jemen",
+      "krotko": "Jemen: brak opieki medycznej w Taizie",
+      "tekst": "Według Funduszu Ludnościowego ONZ, na który powołuje się Reuters, walki i ograniczenia dostępu wokół jemeńskiego miasta **Taiz** pozbawiły podstawowej opieki medycznej ponad 13 tys. kobiet w ciąży. Działa częściowo tylko 5 z 27 placówek położniczych.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/thousands-pregnant-women-risk-yemeni-city-taiz-un-agency-says-2026-11-03/",
+          "data": "2026-11-03"
+        }
+      ]
+    },
+    {
+      "id": "z6",
+      "blok": "gospodarka",
+      "data": "2026-11-03",
+      "tagi": [
+        "energia",
+        "iran"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "ciesnina-ormuz",
+      "krotko": "Zatoka: mniej ropy, rekord ataków",
+      "tekst": "Według Reutersa, który powołuje się na dwie firmy śledzące statki, eksport ropy z Zatoki Perskiej spadł w październiku po wrześniowym maksimum z okresu wojny z Iranem. Ataki na statki w **Cieśninie Ormuz** osiągnęły w październiku rekord.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/business/energy/gulf-oil-flows-dip-october-post-iran-war-high-data-shows-2026-11-03/",
+          "data": "2026-11-03"
         }
       ]
     }
@@ -174,17 +261,6 @@
   },
   "czego_nie_ma": [
     {
-      "id": "n1",
-      "kalendarz": "2026-11-04",
-      "tekst": "Izrael: według AP (4.11) komisja wyborcza nie znalazła oszustw w wyborach, a prezydent Icchak Herzog przyjął zatwierdzone wyniki i rozpocznie konsultacje z partiami w sprawie nowego rządu.",
-      "prog": "dokumentacja",
-      "sprawdzono": [
-        "AP (newsletter 4.11) – jedyne źródło",
-        "WebSearch (4.11): komisja zapowiada przekazanie wyników prezydentowi 4.11, bez komunikatu o przyjęciu",
-        "Reuters (Gulf Currents 4.11): tylko nagłówek o rywalach Netanjahu"
-      ]
-    },
-    {
       "id": "n2",
       "tekst": "Iran: według Reutersa (Gulf Currents 4.11) czterech europejskich urzędników uważa, że USA mogą uderzyć na Iran w krótkim czasie, możliwe że w tym tygodniu; Trump mówił o „kolejnej małej operacji Epic Fury” po wyborach.",
       "prog": "dokumentacja",
@@ -205,13 +281,13 @@
       ]
     },
     {
-      "id": "n4",
-      "tekst": "Chiny: według Reutersa (Gulf Currents 4.11) Pekin wyśle w listopadzie specjalnego wysłannika do Iranu, Omanu i Arabii Saudyjskiej.",
+      "id": "n5",
+      "tekst": "Indonezja: według nagłówka AP (newsletter 4.11) wojsko skierowało tysiące żołnierzy do stolicy po aresztowaniu generałów.",
       "prog": "dokumentacja",
       "sprawdzono": [
-        "Reuters (Gulf Currents 4.11) – jedyne źródło",
-        "WebSearch (4.11): tylko zapowiedź wysłannika z marca 2026",
-        "komunikat MSZ Chin – nie otwarto, brak w wynikach"
+        "AP (newsletter 4.11) – tylko nagłówek, artykuł nieotwarty",
+        "WebSearch (4.11): brak materiałów z listopada 2026",
+        "newslettery Reutersa (4.11): brak"
       ]
     }
   ],
@@ -249,8 +325,8 @@
   ],
   "do_sprawdzenia": [
     "USA – reakcje na wyniki wyborów, możliwe uderzenie USA na Iran; Izrael – konsultacje prezydenta z partiami",
-    "Chiny – wysłannik do Iranu, Omanu i Arabii Saudyjskiej",
-    "OSW i PISM – listy publikacji z 1–4.11; PAP Kraj, DO RSZ, MON, SG, ŻW – incydenty; Agencja Uzbrojenia – umowy"
+    "OSW i PISM – listy publikacji z 1–4.11; PAP Kraj, DO RSZ, MON, SG, ŻW – incydenty; Agencja Uzbrojenia – umowy",
+    "Chiny – przyjazd specjalnego wysłannika do Iranu, Omanu i Arabii Saudyjskiej; Indonezja – rozmieszczenie wojska w Dżakarcie"
   ],
   "nota": "Lista publikacji OSW (strona zablokowana testem przeglądarki) i PISM (lista bez dostępu) nie została odczytana; z wyszukiwarki znany jest tylko tekst OSW z 4.11 o szczycie Kanada–UE. Komunikaty DO RSZ, MON, Straży Granicznej, Żandarmerii Wojskowej i Agencji Uzbrojenia z 3–4.11 nie zostały znalezione wyszukiwarką. Wydanie oparto głównie na newsletterach AP i Reutersa; kontrola niezależna jest wykonywana osobno."
 }

@@ -645,6 +645,13 @@
    "lon": 44.17,
    "lat": 56.15,
    "kraj": "rosja"
+  },
+  {
+   "id": "pekin",
+   "nazwa": "Pekin",
+   "lon": 116.4,
+   "lat": 39.9,
+   "kraj": "chiny"
   }
  ]
 }

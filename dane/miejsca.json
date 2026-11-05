@@ -652,6 +652,26 @@
    "lon": 116.4,
    "lat": 39.9,
    "kraj": "chiny"
+  },
+  {
+   "id": "polnoc-od-kataru",
+   "nazwa": "Zatoka Perska, na północ od Kataru",
+   "lon": 51.6,
+   "lat": 26.1
+  },
+  {
+   "id": "hongkong",
+   "nazwa": "Hongkong",
+   "lon": 114.17,
+   "lat": 22.32,
+   "kraj": "chiny"
+  },
+  {
+   "id": "asuncion",
+   "nazwa": "Asunción",
+   "lon": -57.58,
+   "lat": -25.28,
+   "kraj": "Paragwaj"
   }
  ]
 }

@@ -324,6 +324,12 @@
       "nazwa": "SAFE",
       "pelna": "Security Action for Europe",
       "definicja": "Unijny program tanich pożyczek na wspólne zakupy obronne państw członkowskich, z puli 150 mld euro. Pierwsza runda objęła 19 państw; Polska ma największą pożyczkę (43,73 mld euro według Euronews, 29.10.2026)."
+    },
+    {
+      "id": "ukmto",
+      "nazwa": "UKMTO",
+      "pelna": "United Kingdom Maritime Trade Operations",
+      "definicja": "Brytyjskie centrum informacji o bezpieczeństwie żeglugi handlowej w rejonie Zatoki Perskiej i Oceanu Indyjskiego, które przyjmuje zgłoszenia o incydentach na statkach."
     }
   ]
 }

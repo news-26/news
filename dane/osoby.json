@@ -1717,6 +1717,39 @@
     "Benjamin Netanjahu",
     "Benjamina Netanjahu"
    ]
+  },
+  {
+   "id": "jd-vance",
+   "imie": "J.D. Vance",
+   "funkcja": "Wiceprezydent Stanów Zjednoczonych.",
+   "kraj": [
+    "usa"
+   ],
+   "zweryfikowano": "2026-11-05",
+   "zrodla": [
+    {
+     "nazwa": "Reuters (newsletter)",
+     "url": "https://www.reuters.com/legal/government/vance-repudiates-iran-war-after-us-electoral-defeat-2026-11-04/",
+     "data": "2026-11-04"
+    }
+   ]
+  },
+  {
+   "id": "santiago-pena",
+   "imie": "Santiago Peña",
+   "funkcja": "Prezydent Paragwaju (według AP ogłosił 5.11 rezygnację).",
+   "kraj": [
+    "ameryki"
+   ],
+   "zweryfikowano": "2026-11-05",
+   "zrodla": [
+    {
+     "nazwa": "Associated Press (newsletter)",
+     "url": "https://apnews.com/",
+     "data": "2026-11-05"
+    }
+   ],
+   "panstwo": "Paragwaj"
   }
  ]
 }

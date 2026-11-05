@@ -6,28 +6,38 @@
    "nazwa": "Ukraina",
    "grupa": "miejsce",
    "opis": "Wojna Rosji z Ukrainą: ataki, obrona powietrzna, polityka Kijowa, pomoc zachodnia.",
-   "stan": "4.11 Komisja Europejska przyjęła pakiet rozszerzeniowy z mapami drogowymi dla Ukrainy, Mołdawii, Czarnogóry i Albanii; cel dla Ukrainy – zamknięcie negocjacji do końca 2028 r.",
+   "stan": "2.11 rosyjski atak na centrum pomocy i schron w obwodzie zaporoskim zabił według ukraińskich służb co najmniej 24 osoby (Reuters, za policją: 42).",
    "stan_zrodla": [
     {
-     "nazwa": "Komisja Europejska",
-     "url": "https://enlargement.ec.europa.eu/news/2026-enlargement-package-shows-reform-commitment-delivers-progress-towards-eu-membership-2026-11-04_en",
-     "data": "2026-11-04"
+     "nazwa": "Associated Press (za AJC)",
+     "url": "https://www.ajc.com/news/2026/11/russia-bombs-aid-center-and-shelter-in-southern-ukraine-killing-24-authorities-say/",
+     "data": "2026-11-03"
+    },
+    {
+     "nazwa": "Reuters (newsletter)",
+     "url": "https://www.reuters.com/world/europe/death-toll-russian-strike-ukrainian-aid-centre-reaches-42-police-say-2026-11-05/",
+     "data": "2026-11-05"
     }
    ],
-   "stan_data": "2026-11-04"
+   "stan_data": "2026-11-05"
   },
   {
    "id": "front",
    "nazwa": "Front",
    "grupa": "temat",
    "opis": "Działania na linii frontu w Ukrainie; oceny ISW zawsze jako ocena think tanku.",
-   "stan": "2.11 po zakończeniu rozejmu humanitarnego w rejonie Oleszek Rosja wznowiła ataki w obwodzie chersońskim, jak podał Kijów.",
-   "stan_data": "2026-11-02",
+   "stan": "2.11 rosyjski atak na centrum pomocy i schron w obwodzie zaporoskim zabił według ukraińskich służb co najmniej 24 osoby (Reuters, za policją: 42).",
+   "stan_data": "2026-11-05",
    "stan_zrodla": [
     {
-     "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/11/02/russia-resumes-attacks-on-ukraines-kherson-region-after-truce-ends-kyiv-says",
-     "data": "2026-11-02"
+     "nazwa": "Associated Press (za AJC)",
+     "url": "https://www.ajc.com/news/2026/11/russia-bombs-aid-center-and-shelter-in-southern-ukraine-killing-24-authorities-say/",
+     "data": "2026-11-03"
+    },
+    {
+     "nazwa": "Reuters (newsletter)",
+     "url": "https://www.reuters.com/world/europe/death-toll-russian-strike-ukrainian-aid-centre-reaches-42-police-say-2026-11-05/",
+     "data": "2026-11-05"
     }
    ]
   },
@@ -232,47 +242,47 @@
    "nazwa": "Iran",
    "grupa": "miejsce",
    "opis": "Iran, Cieśnina Ormuz, rozmowy z USA i mediatorami.",
-   "stan": "2.11 USA uderzyły w irańskie cele w rejonie Cieśniny Ormuz; według Reutersa (4.11) Chiny wyślą do Iranu specjalnego wysłannika.",
+   "stan": "5.11 według Reutersa dwa pociski trafiły tankowiec na północ od Kataru (UKMTO); według Reutersa Iran i USA są nadal daleko od porozumienia, a Trump nie spieszy się z uderzeniami.",
    "stan_zrodla": [
     {
      "nazwa": "Reuters (newsletter)",
-     "url": "https://www.reuters.com/world/china/deeper-china-oman-ties-strategic-both-sides-xi-says-2026-11-02/",
+     "url": "https://www.reuters.com/world/middle-east/irans-foreign-minister-says-talks-with-saudi-arabia-are-ongoing-yemen-fighting-2026-11-03/",
+     "data": "2026-11-03"
+    },
+    {
+     "nazwa": "Reuters (newsletter)",
+     "url": "https://www.reuters.com/world/middle-east/beaten-home-trump-faces-stark-choice-iran-deal-or-escalation-2026-11-04/",
      "data": "2026-11-04"
     },
     {
-     "nazwa": "Associated Press (newsletter)",
-     "url": "https://apnews.com/article/iran-us-strikes-strait-hormuz-183b3d32d9bf5241f744abb917e6713e",
-     "data": "2026-11-03"
+     "nazwa": "Reuters (newsletter)",
+     "url": "https://www.reuters.com/world/middle-east/tanker-struck-by-two-projectiles-north-qatar-crew-status-unconfirmed-ukmto-says-2026-11-05/",
+     "data": "2026-11-05"
     }
    ],
-   "stan_data": "2026-11-04"
+   "stan_data": "2026-11-05"
   },
   {
    "id": "usa",
    "nazwa": "USA",
    "grupa": "miejsce",
    "opis": "Polityka USA wobec Europy, Rosji, Ukrainy i Bliskiego Wschodu.",
-   "stan": "4.11 demokraci zdobyli większość w Izbie Reprezentantów i Senacie po wyborach połowy kadencji; 3.11 Trump zapowiedział koniec pomocy dla Izraela po tym roku.",
-   "stan_data": "2026-11-04",
+   "stan": "5.11 Trump powiedział, że zrobiłby wojnę z Iranem ponownie, mimo wzrostu cen benzyny; 4.11 wiceprezydent Vance obwinił tę wojnę o porażkę republikanów w wyborach połowy kadencji.",
+   "stan_data": "2026-11-05",
    "stan_zrodla": [
     {
      "nazwa": "Associated Press (newsletter)",
-     "url": "https://apnews.com/article/midterm-election-house-senate-democrats-republicans-trump-f126e12e05b579a327b98481c0ae2226",
-     "data": "2026-11-04"
-    },
-    {
-     "nazwa": "Reuters (newsletter)",
-     "url": "https://www.reuters.com/legal/government/democrats-seize-congress-sweeping-midterm-repudiation-trump-2026-11-04/",
-     "data": "2026-11-04"
+     "url": "https://apnews.com/article/economy-trump-midterms-inflation-ai-wealthy-healthcare-f8dbe8800549340c8a75d956302c126b",
+     "data": "2026-11-05"
     },
     {
      "nazwa": "Associated Press (newsletter)",
-     "url": "https://apnews.com/article/trump-israel-military-aid-hardware-5cad93330300b2d45a9665d5eccb2ab2",
+     "url": "https://apnews.com/article/vance-iran-war-trump-midterm-elections-a1a0f2a2373f80442dde2b04b9d4d2b3",
      "data": "2026-11-04"
     },
     {
      "nazwa": "Reuters (newsletter)",
-     "url": "https://www.reuters.com/world/middle-east/trump-says-us-will-stop-paying-israel-after-year-end-2026-11-03/",
+     "url": "https://www.reuters.com/legal/government/vance-repudiates-iran-war-after-us-electoral-defeat-2026-11-04/",
      "data": "2026-11-04"
     }
    ]
@@ -282,13 +292,18 @@
    "nazwa": "Chiny",
    "grupa": "miejsce",
    "opis": "Chiny w polityce światowej i wobec Europy.",
-   "stan": "Według Reutersa (4.11) Chiny wyślą w listopadzie specjalnego wysłannika do Iranu, Omanu i Arabii Saudyjskiej; 2.11 Xi Jinping przyjął w Pekinie sułtana Omanu.",
-   "stan_data": "2026-11-04",
+   "stan": "5.11 sąd w Hongkongu skazał działacza Joshuę Wonga na 10 lat więzienia na podstawie ustawy o bezpieczeństwie narodowym; 4.11 według Reutersa Chiny wyślą w listopadzie specjalnego wysłannika do Iranu, Omanu i Arabii Saudyjskiej.",
+   "stan_data": "2026-11-05",
    "stan_zrodla": [
     {
+     "nazwa": "Associated Press (newsletter)",
+     "url": "https://apnews.com/article/hong-kong-joshua-wong-sentencing-national-security-f4b08dd23bab9912569e5cabd990c1ef",
+     "data": "2026-11-05"
+    },
+    {
      "nazwa": "Reuters (newsletter)",
-     "url": "https://www.reuters.com/world/china/deeper-china-oman-ties-strategic-both-sides-xi-says-2026-11-02/",
-     "data": "2026-11-04"
+     "url": "https://www.reuters.com/world/china/hong-kongs-joshua-wong-teenage-protest-leader-decade-behind-bars-2026-11-05/",
+     "data": "2026-11-05"
     }
    ]
   },
@@ -604,20 +619,30 @@
    "nazwa": "Energia",
    "grupa": "temat",
    "opis": "Ropa, gaz, infrastruktura energetyczna, ceny paliw.",
-   "stan": "Według Reutersa (3.11) eksport ropy z Zatoki Perskiej spadł w październiku, a ataki na statki w Cieśninie Ormuz osiągnęły rekord; 2.11 USA uderzyły w irańskie cele w rejonie cieśniny.",
+   "stan": "5.11 według Reutersa dwa pociski trafiły tankowiec na północ od Kataru (UKMTO); wojna USA z Iranem podniosła na krótko ceny benzyny, jak przyznał Trump (AP).",
    "stan_zrodla": [
     {
      "nazwa": "Reuters (newsletter)",
-     "url": "https://www.reuters.com/business/energy/gulf-oil-flows-dip-october-post-iran-war-high-data-shows-2026-11-03/",
-     "data": "2026-11-03"
+     "url": "https://www.reuters.com/world/middle-east/tanker-struck-by-two-projectiles-north-qatar-crew-status-unconfirmed-ukmto-says-2026-11-05/",
+     "data": "2026-11-05"
     },
     {
      "nazwa": "Associated Press (newsletter)",
-     "url": "https://apnews.com/article/iran-us-strikes-strait-hormuz-183b3d32d9bf5241f744abb917e6713e",
-     "data": "2026-11-03"
+     "url": "https://apnews.com/article/economy-trump-midterms-inflation-ai-wealthy-healthcare-f8dbe8800549340c8a75d956302c126b",
+     "data": "2026-11-05"
+    },
+    {
+     "nazwa": "Associated Press (newsletter)",
+     "url": "https://apnews.com/article/vance-iran-war-trump-midterm-elections-a1a0f2a2373f80442dde2b04b9d4d2b3",
+     "data": "2026-11-04"
+    },
+    {
+     "nazwa": "Reuters (newsletter)",
+     "url": "https://www.reuters.com/legal/government/vance-repudiates-iran-war-after-us-electoral-defeat-2026-11-04/",
+     "data": "2026-11-04"
     }
    ],
-   "stan_data": "2026-11-04"
+   "stan_data": "2026-11-05"
   },
   {
    "id": "gospodarka",
@@ -674,25 +699,15 @@
    "nazwa": "Ameryki",
    "grupa": "miejsce",
    "opis": "Polityka państw obu Ameryk poza USA: wybory, kryzysy, relacje z UE i Chinami.",
-   "stan": "Brazylia: Lula wygrał II turę 25.10 z wynikiem ok. 51,8 proc.; Flávio Bolsonaro nie uznaje wyniku i zapowiada skargę do sądu;",
+   "stan": "5.11 prezydent Paragwaju Santiago Peña zapowiedział według AP rezygnację po upadku banku; 25.10 Lula wygrał II turę wyborów w Brazylii.",
    "stan_zrodla": [
     {
-     "nazwa": "CNBC",
-     "url": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
-     "data": "2026-10-26"
-    },
-    {
-     "nazwa": "NPR",
-     "url": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election",
-     "data": "2026-10-25"
-    },
-    {
-     "nazwa": "Euronews",
-     "url": "https://www.euronews.com/2026/10/26/lula-wins-brazil-election-after-cutting-amazon-deforestation-to-record-low",
-     "data": "2026-10-26"
+     "nazwa": "Associated Press (newsletter)",
+     "url": "https://apnews.com/",
+     "data": "2026-11-05"
     }
    ],
-   "stan_data": "2026-10-26"
+   "stan_data": "2026-11-05"
   },
   {
    "id": "bulgaria",

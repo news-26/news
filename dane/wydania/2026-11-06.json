@@ -1,0 +1,205 @@
+{
+  "nr": 49,
+  "data": "2026-11-06",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Według Reutersa wysoki rangą irański urzędnik oświadczył 5.11, że Iran przekazał Stanom Zjednoczonym przez Katar propozycję w sprawie programu jądrowego.",
+    "Według Reutersa prezydent {{o:icchak-herzog|Icchak Herzog}} wskaże w niedzielę 8.11 kandydata na premiera. Według Al Jazeery lider partii Jaszar Gadi Eisenkot ma rekomendacje 67 posłów, a premier {{o:benjamin-netanjahu|Benjamin Netanjahu}} 46.",
+    "Prezydent Paragwaju {{o:santiago-pena|Santiago Peña}} złożył 5.11 rezygnację po upadku banku cyfrowego. Według Reutersa musi ją jeszcze zatwierdzić Senat."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-11-05",
+      "tagi": [
+        "iran",
+        "usa"
+      ],
+      "etap": "W TOKU",
+      "krotko": "Iran: propozycja jądrowa dla USA przez Katar",
+      "tekst": "Według Reutersa wysoki rangą irański urzędnik oświadczył 5.11, że Iran **przekazał** Stanom Zjednoczonym przez Katar propozycję w sprawie programu jądrowego. Według doniesień USA analizują propozycję.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (za Haaretz)",
+          "url": "https://www.haaretz.com/middle-east-news/iran/2026-11-06/ty-article/iran-sent-nuclear-proposal-to-u-s-via-qatar-senior-iranian-official-says/000001a1-ae09-dd7a-a3ed-ef4969d10000",
+          "data": "2026-11-06"
+        },
+        {
+          "nazwa": "Reuters (za The Jerusalem Post)",
+          "url": "https://www.jpost.com/middle-east/article-914025",
+          "data": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "swiat",
+      "data": "2026-11-06",
+      "tagi": [
+        "inne"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "jerozolima",
+      "krotko": "Izrael: prezydent wskaże kandydata na premiera",
+      "kraje": [
+        "Izrael"
+      ],
+      "tekst": "Według Reutersa prezydent {{o:icchak-herzog|Icchak Herzog}} **wskaże kandydata** na premiera w niedzielę 8.11, bo wynik wyborów nie rozstrzyga, kto utworzy rząd. Według Al Jazeery lider partii Jaszar Gadi Eisenkot ma rekomendacje 67 posłów, a premier {{o:benjamin-netanjahu|Benjamin Netanjahu}} 46.",
+      "zrodla": [
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/6/israels-herzog-to-name-a-candidate-to-form-government-on-sunday",
+          "data": "2026-11-06"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/netanyahus-position-weakens-ultra-orthodox-party-withholds-support-2026-11-05/",
+          "data": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "swiat",
+      "data": "2026-11-05",
+      "tagi": [
+        "ameryki"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "asuncion",
+      "krotko": "Paragwaj: prezydent Peña złożył rezygnację",
+      "kraje": [
+        "Paragwaj"
+      ],
+      "tekst": "Prezydent Paragwaju {{o:santiago-pena|Santiago Peña}} **złożył rezygnację** 5.11 po upadku banku cyfrowego Ueno. Według Reutersa musi ją jeszcze zatwierdzić Senat.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/americas/paraguay-president-pea-resigns-under-mounting-pressure-bank-collapse-2026-11-05/",
+          "data": "2026-11-05"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/05/paraguayan-president-resigns-amid-bank-collapse-leaving-3m-people-without-access-to-bank-a",
+          "data": "2026-11-05"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "OSW: Kanada i UE ogłosiły sojusz, ale mają ograniczone możliwości współpracy w bezpieczeństwie i handlu",
+      "autor": "Łukasz Maślanka, OSW (analiza z 4.11.2026)",
+      "tekst": "Ośrodek Studiów Wschodnich ocenia, że szczyt Kanada–UE w Montrealu przyniósł ogłoszenie „Sojuszu na rzecz przyszłości” i prace nad koncepcją pogłębionego stowarzyszenia Kanady z UE. Autor uważa, że obie strony mają ograniczone możliwości zacieśniania współpracy z obawy przed reakcją USA.",
+      "dla_polski": "Skutek pośredni: większa współpraca Kanady z UE w obronności i handlu może poszerzyć rynek dla europejskich firm, ale jej zakres zależy od polityki USA (ocena autora).",
+      "tagi": [
+        "ue"
+      ],
+      "kraje": [
+        "Kanada"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-04/szczyt-kanada-ue-sojusz-z-ograniczonymi-mozliwosciami",
+          "data": "2026-11-04"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-11-09",
+      "tekst": "9.11: Turcja – początek konferencji klimatycznej ONZ COP31 w Antalyi (do 20.11).",
+      "tagi": [
+        "onz"
+      ]
+    },
+    {
+      "data": "2026-11-10",
+      "tekst": "10.11: Ukraina – niepotwierdzony termin rozmów trójstronnych z Rosją i USA w Abu Zabi według Zełenskiego (Kreml: po 4.11, bez daty).",
+      "tagi": [
+        "ukraina",
+        "rozejm"
+      ],
+      "poza_kalendarium": "datę podaje tylko jedna strona (Zełenski); w do_sprawdzenia"
+    },
+    {
+      "data": "2026-11-12",
+      "tekst": "12.11: Irlandia – szczyt Europejskiej Wspólnoty Politycznej.",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-13",
+      "tekst": "13.11: nieformalne spotkanie szefów państw i rządów UE.",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-08",
+      "tekst": "8.11: Izrael – prezydent Herzog wskaże kandydata na premiera.",
+      "tagi": [
+        "inne"
+      ],
+      "poza_kalendarium": "krajowa procedura formowania rządu w Izraelu; termin podał prezydent"
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [
+      {
+        "tytul": "Szczyt Kanada–UE: sojusz z ograniczonymi możliwościami",
+        "autor": "Łukasz Maślanka",
+        "data": "2026-11-04",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-04/szczyt-kanada-ue-sojusz-z-ograniczonymi-mozliwosciami"
+      }
+    ],
+    "pism": [],
+    "nieodczytane": [
+      "pism"
+    ]
+  },
+  "czego_nie_ma": [],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-11-05#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "AP (Morning Wire 6.11): brak wzmianki o rezygnacji spikera",
+        "Reuters (Daily Briefing 6.11): brak wzmianki",
+        "WebSearch (6.11): brak oświadczenia Johnsona"
+      ],
+      "powod": "Tylko anonimowe źródło AP z 4.11, bez drugiego źródła ani oświadczenia spikera."
+    }
+  ],
+  "do_sprawdzenia": [
+    "Izrael – wskazanie kandydata na premiera przez prezydenta Herzoga (8.11)",
+    "Iran i USA – odpowiedź Waszyngtonu na irańską propozycję przekazaną przez Katar; żegluga w cieśninie Ormuz",
+    "Paragwaj – zatwierdzenie rezygnacji przez Senat i następca; Europa – groźby wobec lotnisk i samolotów",
+    "OSW i PISM – listy publikacji z 4–6.11; PAP Kraj, DO RSZ, MON, SG, ŻW – incydenty; Agencja Uzbrojenia – umowy"
+  ],
+  "nota": "Listy publikacji OSW i PISM nie zostały odczytane (OSW: test przeglądarki; PISM: pusta strona); z wyszukiwarki znany jest tylko tekst OSW z 4.11. Nie sprawdzono działu Świat Onetu, PAP, Al Jazeery i kanałów RSS ani komunikatów DO RSZ, MON, Straży Granicznej, Żandarmerii Wojskowej i Agencji Uzbrojenia.",
+  "niepelne": "Nie udało się odczytać list OSW i PISM (OSW: test przeglądarki, PISM: pusta strona), a wyszukiwarka nie zwróciła nagłówków działu Świat Onetu, PAP ani komunikatów DO RSZ, MON, Straży Granicznej, Żandarmerii Wojskowej i Agencji Uzbrojenia z 5–6.11; nie sprawdzono też działów Al Jazeery i kanałów RSS."
+}

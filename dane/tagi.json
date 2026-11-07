@@ -6,38 +6,48 @@
       "nazwa": "Ukraina",
       "grupa": "miejsce",
       "opis": "Wojna Rosji z Ukrainą: ataki, obrona powietrzna, polityka Kijowa, pomoc zachodnia.",
-      "stan": "2.11 rosyjski atak na centrum pomocy i schron w obwodzie zaporoskim zabił według ukraińskich służb co najmniej 24 osoby (Reuters, za policją: 42).",
+      "stan": "7.11 rosyjskie pociski balistyczne uderzyły w Kijów i obwód kijowski; uszkodzony został Most Północny, rannych jest co najmniej sześć osób.",
       "stan_zrodla": [
         {
-          "nazwa": "Associated Press (za AJC)",
-          "url": "https://www.ajc.com/news/2026/11/russia-bombs-aid-center-and-shelter-in-southern-ukraine-killing-24-authorities-say/",
-          "data": "2026-11-03"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-ballistic-missiles-slam-kyiv-after-zelensky-warns-of-mass-attack/",
+          "data": "2026-11-07"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/07/russia-fires-north-korean-missiles-at-key-ukrainian-energy-facility-zelenskyy-says",
+          "data": "2026-11-07"
         },
         {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/europe/death-toll-russian-strike-ukrainian-aid-centre-reaches-42-police-say-2026-11-05/",
-          "data": "2026-11-05"
+          "url": "https://www.reuters.com/world/europe/russia-says-it-hit-targets-around-kyiv-massive-overnight-strike-2026-11-07/",
+          "data": "2026-11-07"
         }
       ],
-      "stan_data": "2026-11-05"
+      "stan_data": "2026-11-07"
     },
     {
       "id": "front",
       "nazwa": "Front",
       "grupa": "temat",
       "opis": "Działania na linii frontu w Ukrainie; oceny ISW zawsze jako ocena think tanku.",
-      "stan": "2.11 rosyjski atak na centrum pomocy i schron w obwodzie zaporoskim zabił według ukraińskich służb co najmniej 24 osoby (Reuters, za policją: 42).",
-      "stan_data": "2026-11-05",
+      "stan": "7.11 rosyjskie pociski balistyczne uderzyły w Kijów i obwód kijowski; uszkodzony został Most Północny.",
+      "stan_data": "2026-11-07",
       "stan_zrodla": [
         {
-          "nazwa": "Associated Press (za AJC)",
-          "url": "https://www.ajc.com/news/2026/11/russia-bombs-aid-center-and-shelter-in-southern-ukraine-killing-24-authorities-say/",
-          "data": "2026-11-03"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-ballistic-missiles-slam-kyiv-after-zelensky-warns-of-mass-attack/",
+          "data": "2026-11-07"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/07/russia-fires-north-korean-missiles-at-key-ukrainian-energy-facility-zelenskyy-says",
+          "data": "2026-11-07"
         },
         {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/europe/death-toll-russian-strike-ukrainian-aid-centre-reaches-42-police-say-2026-11-05/",
-          "data": "2026-11-05"
+          "url": "https://www.reuters.com/world/europe/russia-says-it-hit-targets-around-kyiv-massive-overnight-strike-2026-11-07/",
+          "data": "2026-11-07"
         }
       ]
     },
@@ -46,25 +56,20 @@
       "nazwa": "Rozejm",
       "grupa": "temat",
       "opis": "Rozmowy i propozycje zawieszenia broni w wojnie Rosji z Ukrainą.",
-      "stan": "31.10 ewakuowani z Ołeszek dotarli na Ukrainę; lokalne zawieszenie broni obowiązuje do wieczora 1.11.",
+      "stan": "Rozmowy trójstronne w Abu Zabi: szefem ukraińskiej delegacji będzie Rustem Umerow; Kreml zapowiada wyjazd rosyjskich przedstawicieli w przyszłym tygodniu, bez daty.",
       "stan_zrodla": [
         {
-          "nazwa": "Associated Press",
-          "url": "https://apnews.com/article/russia-ukraine-war-oleshky-evacuation-5cbc7d2a5b8ac34b15c914338fd5a9f3",
-          "data": "2026-10-31"
-        },
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/31/oleshky-evacuees-arrive-in-belarus-amid-localised-truce-between-kyiv-and-moscow",
-          "data": "2026-10-31"
-        },
-        {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/oleshky-residents-reach-ukrainian-controlled-territory-after-escaping-russian-occupation/",
-          "data": "2026-10-31"
+          "url": "https://kyivindependent.com/umerov-to-lead-ukraine-delegation-in-abu-dhabi-peace-talks-despite-media-confusion-top-official-confirms/",
+          "data": "2026-11-06"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/europe/russian-aide-military-intelligence-chief-attend-talks-with-us-ukraine-kremlin-2026-11-07/",
+          "data": "2026-11-07"
         }
       ],
-      "stan_data": "2026-10-31"
+      "stan_data": "2026-11-07"
     },
     {
       "id": "rosja",
@@ -117,20 +122,15 @@
       "nazwa": "Wojna hybrydowa",
       "grupa": "temat",
       "opis": "Działania hybrydowe: drony, sabotaż, dezinformacja, cyberataki, presja migracyjna.",
-      "stan": "30.10 sąd aresztował w Świdnicy na trzy miesiące obywatela Rosji podejrzanego o fotografowanie infrastruktury kolejowej na rzecz obcego wywiadu.",
+      "stan": "6.11 według Reutersa do stacji telewizyjnych w Europie trafiły fałszywe zawiadomienia o bombach; nadawanie wstrzymano nawet na trzy godziny.",
       "stan_zrodla": [
         {
-          "nazwa": "Policja Dolnośląska",
-          "url": "https://dolnoslaska.policja.gov.pl/wr1/aktualnosci/biezace-inf/187300,Policjanci-zatrzymali-ob-Federacji-Rosyjskiej-podejrzewanego-o-prowadzenie-dzial.html",
-          "data": "2026-10-30"
-        },
-        {
-          "nazwa": "Rzeczpospolita",
-          "url": "https://www.rp.pl/przestepczosc/art45420081-fotografowal-pociagi-i-infrastrukture-krytyczna-sad-aresztowal-rosjanina",
-          "data": "2026-10-30"
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/bomb-threats-warning-the-clock-is-ticking-disrupt-tv-channels-across-europe-2026-11-06/",
+          "data": "2026-11-06"
         }
       ],
-      "stan_data": "2026-10-30"
+      "stan_data": "2026-11-07"
     },
     {
       "id": "uzbrojenie",
@@ -242,28 +242,48 @@
       "nazwa": "Iran",
       "grupa": "miejsce",
       "opis": "Iran, Cieśnina Ormuz, rozmowy z USA i mediatorami.",
-      "stan": "6.11 według Reutersa wysoki rangą irański urzędnik oświadczył, że Iran przekazał USA przez Katar propozycję w sprawie programu jądrowego.",
+      "stan": "6.11 siły USA uderzyły w irańską obronę przeciwlotniczą na wyspie Keszm; Katar oświadczył, że mediacja trwa.",
       "stan_zrodla": [
         {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island",
+          "data": "2026-11-07"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/07/us-launches-new-targeted-strikes-on-iran-as-trump-claims-progress-in-talks-with-tehran",
+          "data": "2026-11-07"
+        },
+        {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/middle-east/iran-sent-nuclear-proposal-us-via-qatar-senior-iranian-official-tells-reuters-2026-11-05/",
-          "data": "2026-11-05"
+          "url": "https://www.reuters.com/world/middle-east/qatar-says-its-mediation-efforts-between-us-iran-continue-prevent-escalation-2026-11-07/",
+          "data": "2026-11-07"
         }
       ],
-      "stan_data": "2026-11-06"
+      "stan_data": "2026-11-07"
     },
     {
       "id": "usa",
       "nazwa": "USA",
       "grupa": "miejsce",
       "opis": "Polityka USA wobec Europy, Rosji, Ukrainy i Bliskiego Wschodu.",
-      "stan": "6.11 według Reutersa Iran przekazał USA przez Katar propozycję w sprawie programu jądrowego; reakcja Waszyngtonu nie jest znana.",
-      "stan_data": "2026-11-06",
+      "stan": "6.11 prezydent Trump mianował Stephena Millera szefem personelu Białego Domu; siły USA uderzyły w obronę przeciwlotniczą Iranu na Keszm.",
+      "stan_data": "2026-11-07",
       "stan_zrodla": [
         {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/middle-east/iran-sent-nuclear-proposal-us-via-qatar-senior-iranian-official-tells-reuters-2026-11-05/",
-          "data": "2026-11-05"
+          "url": "https://www.reuters.com/world/us/trump-says-stephen-miller-become-chief-staff-2026-11-06/",
+          "data": "2026-11-06"
+        },
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com",
+          "data": "2026-11-06"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island",
+          "data": "2026-11-07"
         }
       ]
     },
@@ -644,15 +664,25 @@
       "nazwa": "Inne",
       "grupa": "temat",
       "opis": "Wątki rzadkie, bez osobnego hashtagu.",
-      "stan": "6.11 według Al Jazeery prezydent Izraela wskaże w niedzielę 8.11 kandydata na premiera; Eisenkot ma rekomendacje 67 posłów, Netanjahu 46.",
+      "stan": "7.11 według wojewody małopolskiego i policji w strzelaninie na Rynku Głównym w Krakowie zginęło sześć osób, a 15 zostało rannych; sprawcę zatrzymano.",
       "stan_zrodla": [
         {
-          "nazwa": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/6/israels-herzog-to-name-a-candidate-to-form-government-on-sunday",
-          "data": "2026-11-06"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/07/at-least-five-killed-in-shooting-in-krakow-polish-police-say",
+          "data": "2026-11-07"
+        },
+        {
+          "nazwa": "Interia (za wojewodą małopolskim i policją)",
+          "url": "https://wydarzenia.interia.pl/malopolskie/news-rosnie-liczba-ofiar-strzelaniny-w-krakowie-wojewoda-malopols,nId,23570605",
+          "data": "2026-11-07"
+        },
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/poland-shooting-krakow-market-dead-076b972f107df14a1f71e12a74d4d8e5",
+          "data": "2026-11-07"
         }
       ],
-      "stan_data": "2026-11-06"
+      "stan_data": "2026-11-07"
     },
     {
       "id": "afryka",
@@ -679,15 +709,25 @@
       "nazwa": "Ameryki",
       "grupa": "miejsce",
       "opis": "Polityka państw obu Ameryk poza USA: wybory, kryzysy, relacje z UE i Chinami.",
-      "stan": "5.11 prezydent Paragwaju Santiago Peña złożył rezygnację po upadku banku cyfrowego (musi ją zatwierdzić Senat); 25.10 Lula wygrał II turę wyborów w Brazylii.",
+      "stan": "6.11 Senat Paragwaju odsunął prezydenta Santiago Peñę; wiceprezydent Pedro Alliana został zaprzysiężony.",
       "stan_zrodla": [
         {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/americas/paraguay-president-pea-resigns-under-mounting-pressure-bank-collapse-2026-11-05/",
-          "data": "2026-11-05"
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/paraguay-santiago-pena-bank-failure-ueno-impeachment-trial-resign-crisis-e84f5ada84e8c747329ec82fabb46e4d",
+          "data": "2026-11-06"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/07/pedro-alliana-sworn-in-as-paraguay-president-after-santiago-penas-impeachment",
+          "data": "2026-11-07"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/7/paraguays-santiago-pena-under-arrest-new-president-pedro-alliana-sworn-in",
+          "data": "2026-11-07"
         }
       ],
-      "stan_data": "2026-11-06"
+      "stan_data": "2026-11-07"
     },
     {
       "id": "bulgaria",

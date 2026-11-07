@@ -1,0 +1,327 @@
+{
+  "nr": 50,
+  "data": "2026-11-07",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "W sobotę 7.11 mężczyzna jadący samochodem po Rynku Głównym w Krakowie strzelał do przypadkowych osób. Według wojewody małopolskiego i policji zginęło sześć osób, a 15 zostało rannych; sprawcę, obywatela Polski, zatrzymano.",
+    "W piątek 6.11 siły USA uderzyły w irańską obronę przeciwlotniczą na wyspie Keszm. Prezydent {{o:donald-trump|Donald Trump}} mówi o postępach w rozmowach z Teheranem, a Katar zapewnia, że jego mediacja trwa.",
+    "W nocy z 6 na 7.11 rosyjskie pociski balistyczne uderzyły w Kijów i obwód kijowski. Uszkodzony został Most Północny, a według władz ukraińskich rannych jest co najmniej sześć osób.",
+    "Senat Paragwaju odsunął 6.11 prezydenta {{o:santiago-pena|Santiago Peña}} po upadku banku cyfrowego Ueno. Urząd objął wiceprezydent {{o:pedro-alliana|Pedro Alliana}}."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "polska",
+      "data": "2026-11-07",
+      "tagi": [
+        "inne"
+      ],
+      "miejsce": "krakow",
+      "krotko": "Kraków: strzelanina na Rynku Głównym",
+      "tekst": "W sobotę 7.11 około godz. 15 mężczyzna jadący samochodem po Rynku Głównym w Krakowie **strzelał** do przypadkowych osób. Według wojewody małopolskiego i policji zginęło sześć osób, a 15 zostało rannych, w tym policjanci; policja postrzeliła i zatrzymała sprawcę, obywatela Polski, a jego motywów nie ustalono.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/07/at-least-five-killed-in-shooting-in-krakow-polish-police-say",
+          "data": "2026-11-07"
+        },
+        {
+          "nazwa": "Interia (za wojewodą małopolskim i policją)",
+          "url": "https://wydarzenia.interia.pl/malopolskie/news-rosnie-liczba-ofiar-strzelaniny-w-krakowie-wojewoda-malopols,nId,23570605",
+          "data": "2026-11-07"
+        },
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/poland-shooting-krakow-market-dead-076b972f107df14a1f71e12a74d4d8e5",
+          "data": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-11-06",
+      "tagi": [
+        "iran",
+        "usa"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "keszm",
+      "krotko": "Keszm: kolejne uderzenia USA",
+      "kraje": [
+        "Iran"
+      ],
+      "tekst": "W piątek 6.11 siły USA **uderzyły** w irańską obronę przeciwlotniczą na wyspie Keszm, a prezydent {{o:donald-trump|Donald Trump}} nazwał to drobnymi uderzeniami i powiedział, że rozmowy z Teheranem czynią postępy. Katar oświadczył, że jego mediacja między USA a Iranem trwa; irańska telewizja państwowa podała, że obrona zestrzeliła amerykańskiego drona MQ-9.",
+      "zrodla": [
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island",
+          "data": "2026-11-07"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/07/us-launches-new-targeted-strikes-on-iran-as-trump-claims-progress-in-talks-with-tehran",
+          "data": "2026-11-07"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/qatar-says-its-mediation-efforts-between-us-iran-continue-prevent-escalation-2026-11-07/",
+          "data": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "wojna",
+      "data": "2026-11-07",
+      "tagi": [
+        "ukraina",
+        "front"
+      ],
+      "miejsce": "kijow",
+      "krotko": "Kijów: rosyjskie rakiety balistyczne",
+      "tekst": "W nocy z 6 na 7.11 rosyjskie pociski balistyczne **uderzyły** w Kijów i obwód kijowski. Według władz ukraińskich rannych jest co najmniej sześć osób, uszkodzony został Most Północny, a uderzenia objęły też obiekty energetyczne; prezydent {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} podał, że wystrzelono 36 pocisków.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-ballistic-missiles-slam-kyiv-after-zelensky-warns-of-mass-attack/",
+          "data": "2026-11-07"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/07/russia-fires-north-korean-missiles-at-key-ukrainian-energy-facility-zelenskyy-says",
+          "data": "2026-11-07"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/europe/russia-says-it-hit-targets-around-kyiv-massive-overnight-strike-2026-11-07/",
+          "data": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "wojna",
+      "data": "2026-11-07",
+      "tagi": [
+        "ukraina",
+        "rozejm"
+      ],
+      "etap": "ZAPOWIEDŹ",
+      "miejsce": "abudza",
+      "krotko": "Abu Zabi: rozmowy USA–Ukraina–Rosja",
+      "tekst": "Szefem ukraińskiej delegacji na rozmowach trójstronnych w Abu Zabi będzie {{o:rustem-umerow|Rustem Umerow}}, co potwierdził szef klubu Sługa Narodu David Arachamia. Według Reutersa Kreml oświadczył, że w przyszłym tygodniu do Abu Zabi pojedzie m.in. szef rosyjskiego wywiadu wojskowego; dokładnej daty rozmów nie podano.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/umerov-to-lead-ukraine-delegation-in-abu-dhabi-peace-talks-despite-media-confusion-top-official-confirms/",
+          "data": "2026-11-06"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/europe/russian-aide-military-intelligence-chief-attend-talks-with-us-ukraine-kremlin-2026-11-07/",
+          "data": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "swiat",
+      "data": "2026-11-06",
+      "tagi": [
+        "ameryki"
+      ],
+      "etap": "PRZYJĘTE",
+      "miejsce": "asuncion",
+      "krotko": "Paragwaj: Senat odsunął prezydenta",
+      "kraje": [
+        "Paragwaj"
+      ],
+      "tekst": "Senat Paragwaju uznał 6.11 prezydenta {{o:santiago-pena|Santiago Peña}} za winnego nadużyć po upadku banku cyfrowego Ueno i **odsunął** go od władzy; wiceprezydent {{o:pedro-alliana|Pedro Alliana}} został zaprzysiężony na prezydenta. Według Euronews Peña przebywa w areszcie domowym i ma być przesłuchany przez prokuraturę.",
+      "zrodla": [
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/paraguay-santiago-pena-bank-failure-ueno-impeachment-trial-resign-crisis-e84f5ada84e8c747329ec82fabb46e4d",
+          "data": "2026-11-06"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/07/pedro-alliana-sworn-in-as-paraguay-president-after-santiago-penas-impeachment",
+          "data": "2026-11-07"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/7/paraguays-santiago-pena-under-arrest-new-president-pedro-alliana-sworn-in",
+          "data": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "id": "z6",
+      "blok": "instytucje",
+      "data": "2026-11-06",
+      "tagi": [
+        "hybryda"
+      ],
+      "etap": "W TOKU",
+      "tekst": "Według Reutersa do stacji telewizyjnych w całej Europie trafiły 6.11 fałszywe zawiadomienia o bombach. Część stacji ewakuowano, a nadawanie wstrzymano nawet na trzy godziny.",
+      "kraje": [
+        "Irlandia",
+        "Wielka Brytania"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/bomb-threats-warning-the-clock-is-ticking-disrupt-tv-channels-across-europe-2026-11-06/",
+          "data": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "z7",
+      "blok": "swiat",
+      "data": "2026-11-06",
+      "tagi": [
+        "usa"
+      ],
+      "kraje": [
+        "Stany Zjednoczone"
+      ],
+      "tekst": "Prezydent {{o:donald-trump|Donald Trump}} **mianował** 6.11 {{o:stephen-miller|Stephena Millera}} szefem personelu Białego Domu. Zastępuje Susie Wiles, która opuszcza administrację.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/us/trump-says-stephen-miller-become-chief-staff-2026-11-06/",
+          "data": "2026-11-06"
+        },
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com",
+          "data": "2026-11-06"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "Al Jazeera: Trump waha się przed kolejnym uderzeniem na irańskie obiekty jądrowe, bo nie widzi, jak zakończyć ograniczoną wojnę",
+      "autor": "Nils Adler, Al Jazeera (analiza z 7.11.2026), z wypowiedziami Hassana Ahmadiana (Uniwersytet Teherański) i Hadiego Afghahiego (były dyplomata irański)",
+      "tekst": "Autor przytacza ocenę Hassana Ahmadiana z Uniwersytetu Teherańskiego, że Trump nie wie, jak miałoby się zakończyć ograniczone uderzenie, i chce dla siebie „godnego wyjścia”. Według Hadiego Afghahiego Trump nie chce nowej wojny, ale otaczają go jastrzębie.",
+      "dla_polski": "Skutek pośredni: dalsza eskalacja wokół cieśniny Ormuz podnosiłaby ceny ropy i gazu w Europie (ocena autora tej noty, nie źródła).",
+      "tagi": [
+        "iran",
+        "usa"
+      ],
+      "kraje": [
+        "Iran"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/7/will-trump-strike-nuclear-sites-again-as-iran-engages-cognitive",
+          "data": "2026-11-07"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-11-08",
+      "tekst": "8.11: Izrael – prezydent Herzog wskaże kandydata na premiera.",
+      "tagi": [
+        "inne"
+      ],
+      "poza_kalendarium": "krajowa procedura formowania rządu w Izraelu; termin podał prezydent"
+    },
+    {
+      "data": "2026-11-09",
+      "tekst": "9.11: Turcja – początek konferencji klimatycznej ONZ COP31 w Antalyi (do 20.11).",
+      "tagi": [
+        "onz"
+      ]
+    },
+    {
+      "data": "2026-11-10",
+      "tekst": "10.11: Ukraina – niepotwierdzony termin rozmów trójstronnych z Rosją i USA w Abu Zabi według Zełenskiego (Kreml: po 4.11, bez daty).",
+      "tagi": [
+        "ukraina",
+        "rozejm"
+      ],
+      "poza_kalendarium": "datę podaje tylko jedna strona (Zełenski); w do_sprawdzenia"
+    },
+    {
+      "data": "2026-11-12",
+      "tekst": "12.11: Irlandia – szczyt Europejskiej Wspólnoty Politycznej.",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-13",
+      "tekst": "13.11: nieformalne spotkanie szefów państw i rządów UE.",
+      "tagi": [
+        "ue"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [],
+    "pism": [],
+    "nieodczytane": [
+      "osw",
+      "pism"
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "tekst": "Kongo: według Reutersa islamistyczni bojownicy zabili co najmniej 33 cywilów podczas napadu na wioskę na wschodzie kraju, a pacjenci z potwierdzonym ebolą uciekli.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Reuters (Weekend Briefing 7.11): jedno źródło, liczba ofiar",
+        "WebSearch 7.11: Bloomberg o 33 zabitych bez daty, brak komunikatu ONZ lub władz DR Konga",
+        "WebSearch 7.11: inne ataki w rejonie Beni, bez potwierdzenia tego napadu"
+      ]
+    },
+    {
+      "id": "n2",
+      "tekst": "Polska–USA: według Polsat News minister obrony narodowej Władysław Kosiniak-Kamysz spotka się 10.11 z sekretarzem obrony USA Pete'em Hegsethem w Pentagonie.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Polsat News (6.11): termin 10.11",
+        "WebSearch 7.11 (Defence24): nowy termin spotkania około połowy listopada",
+        "WebSearch 7.11 (PAP, gov.pl): brak komunikatu MON o dacie 10.11"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [],
+  "do_sprawdzenia": [
+    "Izrael – wskazanie kandydata na premiera przez prezydenta Herzoga (8.11)",
+    "Kraków – motyw sprawcy, komunikat prokuratury i policji, ostateczna liczba ofiar",
+    "Iran i USA – dalsze uderzenia na Keszm, rozmowy przez Katar; żegluga w cieśninie Ormuz (tankowiec na minie według irańskich mediów)",
+    "Ukraina – data i skład rozmów w Abu Zabi (10.11 według strony ukraińskiej; Kreml: w przyszłym tygodniu); wpływ uderzeń na stacje łączące elektrownie jądrowe z Kijowem",
+    "Polska – spotkanie Kosiniak-Kamysz–Hegseth (10.11 czy połowa listopada); propozycja Komisji Europejskiej wyłączenia Polski z paktu migracyjnego (Polsat News, 6.11)",
+    "Paragwaj – zarzuty wobec Peñi; Europa – fałszywe alarmy bombowe i cyberataki (Włochy, Brenner)",
+    "OSW i PISM – listy publikacji z 4–7.11 (nieodczytane); PAP Kraj, DO RSZ, MON, SG, ŻW – incydenty; Agencja Uzbrojenia – umowy"
+  ],
+  "nota": "Listy publikacji OSW (test przeglądarki) i PISM (pusta strona) nie zostały odczytane; z wyszukiwarki znany jest tylko tekst OSW z 4.11. Nie sprawdzono komunikatów DO RSZ, MON, SG, ŻW, Agencji Uzbrojenia i PGZ ani działu Świat Onetu; PAP i strony AP, Reutersa są zablokowane, więc agencje opisano według newsletterów w skrzynce (AP: alerty z 6–7.11; Reuters: Weekend Briefing i Iran Briefing z 7.11) i przedruków. Liczby ofiar w Krakowie podano według wojewody małopolskiego i policji w relacjach Interii, Radia Kraków i Euronews; AP w alercie podawało wcześniej pięć ofiar."
+}

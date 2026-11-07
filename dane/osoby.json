@@ -1737,19 +1737,73 @@
     {
       "id": "santiago-pena",
       "imie": "Santiago Peña",
-      "funkcja": "Prezydent Paragwaju; według Reutersa ustąpił 5.11.",
+      "funkcja": "Były prezydent Paragwaju; Senat odsunął go od władzy 6.11.2026.",
       "kraj": [
         "ameryki"
       ],
-      "zweryfikowano": "2026-11-06",
+      "zweryfikowano": "2026-11-07",
       "zrodla": [
         {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/americas/paraguay-president-pea-resigns-under-mounting-pressure-bank-collapse-2026-11-05/",
-          "data": "2026-11-05"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/07/pedro-alliana-sworn-in-as-paraguay-president-after-santiago-penas-impeachment",
+          "data": "2026-11-07"
         }
       ],
       "panstwo": "Paragwaj"
+    },
+    {
+      "id": "pedro-alliana",
+      "imie": "Pedro Alliana",
+      "funkcja": "Prezydent Paragwaju od 6.11.2026, wcześniej wiceprezydent.",
+      "kraj": [
+        "ameryki"
+      ],
+      "zweryfikowano": "2026-11-07",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/07/pedro-alliana-sworn-in-as-paraguay-president-after-santiago-penas-impeachment",
+          "data": "2026-11-07"
+        }
+      ],
+      "panstwo": "Paragwaj"
+    },
+    {
+      "id": "rustem-umerow",
+      "imie": "Rustem Umerow",
+      "funkcja": "Sekretarz Rady Bezpieczeństwa Narodowego i Obrony Ukrainy; szef ukraińskiej delegacji na rozmowach w Abu Zabi.",
+      "kraj": [
+        "ukraina"
+      ],
+      "formy": [
+        "Umerow",
+        "Umerowa",
+        "Umerowem"
+      ],
+      "zweryfikowano": "2026-11-07",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/umerov-to-lead-ukraine-delegation-in-abu-dhabi-peace-talks-despite-media-confusion-top-official-confirms/",
+          "data": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "stephen-miller",
+      "imie": "Stephen Miller",
+      "funkcja": "Szef personelu Białego Domu od 6.11.2026.",
+      "kraj": [
+        "usa"
+      ],
+      "zweryfikowano": "2026-11-07",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/us/trump-says-stephen-miller-become-chief-staff-2026-11-06/",
+          "data": "2026-11-06"
+        }
+      ]
     }
   ]
 }

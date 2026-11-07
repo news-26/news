@@ -1,107 +1,15 @@
 {
- "od": "2026-10-30",
- "do": "2026-11-05",
- "opublikowano": "2026-11-06",
- "godzina": "04:50",
- "tytul": "Top 10: ostatnie 7 dni (30.10–5.11.2026)",
+ "od": "2026-10-31",
+ "do": "2026-11-06",
+ "opublikowano": "2026-11-07",
+ "godzina": "05:50",
+ "tytul": "Top 10: ostatnie 7 dni (31.10–6.11.2026)",
  "wstep": [
-  "Najważniejsze sprawy z ostatnich 7 dni (30.10–5.11.2026) – w tym tygodniu sześć spraw spełnia kryteria. Każda ma przebieg z datami i źródłami oraz wniosek „Dla Polski”; starsze sprawy są w archiwum miesięcznym.",
-  "Oś tygodnia to **wojna i pomoc dla Ukrainy**: 30.10 Departament Stanu USA zatwierdził możliwą sprzedaż Ukrainie 500 pocisków PAC-3 MSE, a Komisja Europejska zaproponowała ok. 45 mld euro dla Ukrainy na 2027 rok. W nocy na 1.11 Rosja znów uderzyła w sieć energetyczną w co najmniej czterech obwodach, a w Oleszkach pod Chersoniem lokalny rozejm trwał do wieczora 1.11; ewakuowano blisko 800 osób, a po jego końcu Rosja wznowiła ataki w regionie. Poza Ukrainą: 3.11 demokraci wygrali wybory połowy kadencji w USA i zdobyli większość w obu izbach Kongresu, a 2.11 USA uderzyły w irańskie cele w rejonie Cieśniny Ormuz."
+  "Najważniejsze sprawy z ostatnich 7 dni (31.10–6.11.2026) – w tym tygodniu cztery sprawy spełniają kryteria. Każda ma przebieg z datami i źródłami oraz wniosek „Dla Polski”; starsze sprawy są w archiwum miesięcznym.",
+  "Oś tygodnia to **wojna z Iranem i Ukraina**: 2.11 USA uderzyły w irańskie cele w rejonie Cieśniny Ormuz, a Iran oświadczył, że może otworzyć cieśninę w dwa dni, jeśli USA przyjmą jego warunki. W nocy na 1.11 Rosja znów uderzyła w sieć energetyczną w co najmniej czterech obwodach Ukrainy, a w Oleszkach pod Chersoniem lokalny rozejm trwał do wieczora 1.11; ewakuowano blisko 800 osób, a po jego końcu Rosja wznowiła ataki w regionie. Poza tym 3.11 demokraci wygrali wybory połowy kadencji w USA i zdobyli większość w obu izbach Kongresu."
  ],
  "kryteria": "Do zestawienia trafia wydarzenie, które spełnia trzy warunki: zmieniło stan rzeczy w ostatnich 7 dniach (zapadła decyzja, zmieniła się władza, powstała nowa zdolność wojskowa albo incydent miał realne następstwo – retoryka i zapowiedzi bez terminu nie wystarczą), ma konkretny skutek dla Polski lub Europy albo dla sytuacji międzynarodowej i jest udokumentowane w co najmniej dwóch pozycjach wydań dziennych. Przy wątkach trwających miesiącami liczy się zmiana w tygodniu, a nie sam wątek; tytuł opisuje najnowszy fakt. Gdy kryteria spełnia mniej niż dziesięć spraw, lista jest krótsza. Kolejność ustala autor według wpływu na bezpieczeństwo i interesy Polski, potem skali, potem trwałości skutków. Ranking jest więc oceną, a nie faktem; fakty mają źródła, oceny – autora.",
  "pozycje": [
-  {
-   "id": "patrioty-pac3",
-   "tytul": "Departament Stanu USA zatwierdza 30.10 sprzedaż Ukrainie 500 pocisków PAC-3 MSE za 2,1 mld dolarów",
-   "data": "2026-10-30",
-   "tagi": [
-    "ukraina",
-    "usa",
-    "uzbrojenie",
-    "przemysl-zbrojeniowy"
-   ],
-   "etap": "W TOKU",
-   "lead": "Departament Stanu USA zatwierdził 30.10 możliwą sprzedaż Ukrainie 500 pocisków przechwytujących **PAC-3 MSE** do systemów {{p:patriot|Patriot}} o wartości 2,1 mld dolarów. Wiceminister obrony {{o:magdalena-sobkowiak-czarnecka|Magdalena Sobkowiak-Czarnecka}} podała 27.10, że Polska ma gościć europejskie centrum serwisowania takich pocisków.",
-   "omowienie": [
-    "Według Kyiv Independent zakup sfinansują Kanada, Niemcy i Norwegia, a prezydent {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} ostrzegł, że dostawy mogą ruszyć dopiero za kilka lat. Wcześniej, 26.10, Zełenski powiedział, że Ukraina czeka prawie miesiąc, aż sekretarz obrony USA {{o:pete-hegseth|Pete Hegseth}} zatwierdzi pociski do Patriotów i NASAMS.",
-    "Centrum w Polsce będzie jedynym takim obiektem poza Stanami Zjednoczonymi i ma kosztować ok. 1 mld zł. Termin uruchomienia nie jest ustalony, bo Polska musi jeszcze negocjować z Lockheed Martin; o lokalizację ubiegały się też Niemcy, Holandia i Norwegia."
-   ],
-   "przebieg": [
-    {
-     "data": "2026-10-26",
-     "tekst": "Zełenski: Ukraina czeka prawie miesiąc, aż sekretarz obrony USA Hegseth zatwierdzi pociski do Patriotów i NASAMS; według Euronews dostawy pocisków do Patriotów zatwierdziły już państwa europejskie, część trafia do Ukrainy przez inicjatywę NATO PURL.",
-     "etap": "W TOKU",
-     "zrodla": [
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/us-holding-up-air-defense-missiles-for-ukraine-for-nearly-a-month-zelensky-says/",
-       "data": "2026-10-26"
-      },
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/10/26/zelenskyy-calls-out-monthlong-wait-for-hegseth-to-sign-off-on-patriot-missiles",
-       "data": "2026-10-26"
-      }
-     ]
-    },
-    {
-     "data": "2026-10-27",
-     "tekst": "Wiceminister obrony Sobkowiak-Czarnecka: Polska ma gościć europejskie centrum serwisowania pocisków PAC-3, inwestycja ma kosztować ok. 1 mld zł; termin zależy od negocjacji z Lockheed Martin, o lokalizację ubiegały się też Niemcy, Holandia i Norwegia.",
-     "etap": "PRZYJĘTE",
-     "zrodla": [
-      {
-       "nazwa": "Reuters (za Internazionale)",
-       "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/27/poland-to-host-european-patriot-maintenance-centre-government-says",
-       "data": "2026-10-27"
-      },
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/10/28/poland-chosen-to-host-227m-patriot-missile-maintenance-centre",
-       "data": "2026-10-28"
-      },
-      {
-       "nazwa": "Defence24 (wskaźnik tematu)",
-       "url": "https://defence24.pl/przemysl/polski-serwis-dla-europejskich-patriotow-jest-decyzja",
-       "data": "2026-10-27"
-      },
-      {
-       "nazwa": "PAP",
-       "url": "https://www.pap.pl/aktualnosci/wiceszefowa-mon-centrum-serwisowania-pociskow-pac-3-do-systemow-patriot-powstanie-w-0",
-       "data": "2026-10-27"
-      }
-     ]
-    },
-    {
-     "data": "2026-10-30",
-     "tekst": "Departament Stanu USA zatwierdził możliwą sprzedaż Ukrainie 500 pocisków PAC-3 MSE za 2,1 mld dolarów; według Kyiv Independent zakup sfinansują Kanada, Niemcy i Norwegia, a dostawy mogą ruszyć za kilka lat.",
-     "etap": "PRZYJĘTE",
-     "zrodla": [
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/us-approves-2-1-billion-patriot-missile-sale-to-ukraine-as-nato-commander-dismisses-delivery-concerns/",
-       "data": "2026-10-30"
-      },
-      {
-       "nazwa": "Meduza",
-       "url": "https://meduza.io/en/news/2026/10/31/u-s-state-department-approves-potential-2-1-billion-sale-of-500-patriot-air-defense-missiles-to-ukraine",
-       "data": "2026-10-31"
-      },
-      {
-       "nazwa": "Reuters",
-       "url": "https://www.reuters.com/business/aerospace-defense/us-approves-21-billion-patriot-missile-sale-ukraine-2026-10-30/",
-       "data": "2026-10-30"
-      }
-     ]
-    }
-   ],
-   "oceny": [],
-   "dla_polski": "Polska ma zostać europejskim węzłem obsługi pocisków do Patriotów, których używa także jej wojsko, co może skrócić naprawy i uniezależnić je od transportu za Atlantyk. Inwestycja za ok. 1 mld zł nie ma jeszcze terminu. Wniosek autora: zgoda USA na sprzedaż Ukrainie nie oznacza dostaw, a o skutku dla Polski rozstrzygnie umowa z Lockheed Martin.",
-   "w_wydaniach": [
-    "2026-10-26#z1",
-    "2026-10-29#z3",
-    "2026-10-31#z2"
-   ]
-  },
   {
    "id": "wojna-powietrzna",
    "tytul": "Rosja uderza w nocy na 1.11 w sieć energetyczną w co najmniej czterech obwodach Ukrainy, zginęła jedna osoba, 47 rannych",
@@ -211,83 +119,63 @@
    ]
   },
   {
-   "id": "ukraina-finanse-2027",
-   "tytul": "Komisja Europejska proponuje 30.10 ok. 45 mld euro dla Ukrainy na 2027 rok",
-   "data": "2026-10-30",
-   "tagi": [
-    "ukraina",
-    "ue"
+   "id": "ormuz-ropa",
+   "tytul": "USA uderzają 2.11 w irańskie cele w rejonie Cieśniny Ormuz; Iran oświadcza, że może otworzyć cieśninę w dwa dni, jeśli USA przyjmą jego warunki",
+   "data": [
+    "2026-11-02"
    ],
-   "etap": "PROPOZYCJA",
-   "lead": "Komisja Europejska przedstawiła 30.10 plan wypłat dla Ukrainy na 2027 rok: około **45 mld euro** z unijnej pożyczki wsparcia, w tym 31,7 mld euro na przemysł obronny. Propozycja wymaga zatwierdzenia przez Radę UE, a luka budżetowa Ukrainy w 2027 r. wynosi według Komisji około 70 mld euro.",
+   "tagi": [
+    "iran",
+    "usa",
+    "energia"
+   ],
+   "etap": "W TOKU",
+   "lead": "Stany Zjednoczone uderzyły 2.11 w irańskie cele w rejonie **Cieśniny Ormuz**, jak poinformował amerykański urzędnik. Tego samego dnia rzecznik MSZ Iranu Esmaeil Baghaei oświadczył, że Iran może otworzyć cieśninę w ciągu dwóch dni, jeśli USA przyjmą jego warunki.",
    "omowienie": [
-    "28.10 rząd Wielkiej Brytanii zapowiedział w budżecie pakiet 10 mld funtów dla Ukrainy: 500 mln funtów na obronę powietrzną tej zimy, 7 mld funtów wsparcia gospodarczego (do 5,5 mld funtów gwarancji Banku Światowego) i 3 mld funtów dodatkowej zdolności finansowania eksportu UKEF, przeznaczonej głównie na sprzęt wojskowy.",
-    "29.10 Komisja otworzyła drugą rundę pożyczek z programu {{p:safe|SAFE}} na ok. 21,3 mld euro niewykorzystanych środków; wnioski przyjmuje do 13.11. Pożyczki są krajowe i nie mogą trafić bezpośrednio do Kijowa, ale Komisja zachęca państwa do wspólnych projektów z ukraińskimi firmami."
+    "Irańskie media podały o wybuchach na wyspach Keszm i Hengam oraz w Bandar Abbas; według amerykańskiego urzędnika celem byli Irańczycy używający rakiet przeciwlotniczych przeciw siłom USA. Warunki Iranu to koniec wojny na wszystkich frontach, odmrożenie aktywów, zniesienie sankcji naftowych i zakończenie amerykańskiej blokady."
    ],
    "przebieg": [
     {
-     "data": "2026-10-28",
-     "tekst": "Rząd Wielkiej Brytanii zapowiedział w budżecie pakiet dla Ukrainy o wartości 10 mld funtów: 500 mln funtów na obronę powietrzną, 7 mld funtów wsparcia gospodarczego i 3 mld funtów zdolności finansowania eksportu UKEF.",
-     "etap": "ZAPOWIEDŹ",
-     "zrodla": [
-      {
-       "nazwa": "GOV.UK",
-       "url": "https://www.gov.uk/government/news/uk-boosts-support-to-ukraine-with-10-billion-package",
-       "data": "2026-10-28"
-      },
-      {
-       "nazwa": "CNBC",
-       "url": "https://www.cnbc.com/2026/10/28/uk-defense-spending-ukraine-aid.html",
-       "data": "2026-10-28"
-      },
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/uk-budgets-over-13-billion-support-for-ukraine-in-2027/",
-       "data": "2026-10-28"
-      }
-     ]
-    },
-    {
-     "data": "2026-10-29",
-     "tekst": "Komisja Europejska otworzyła drugą rundę pożyczek z programu SAFE na ok. 21,3 mld euro niewykorzystanych środków; wnioski przyjmuje do 13.11. Pożyczki są krajowe i nie mogą trafić bezpośrednio do Kijowa.",
+     "data": "2026-11-02",
+     "tekst": "Rzecznik MSZ Iranu Baghaei oświadczył, że Iran może otworzyć cieśninę Ormuz w ciągu dwóch dni, a nie siedmiu, jak proponował we wrześniu, jeśli USA przyjmą jego warunki; według Euronews wiceminister Kazem Gharibabadi pracuje w Katarze nad wstępnym porozumieniem.",
      "etap": "W TOKU",
      "zrodla": [
       {
        "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/10/29/brussels-hopes-unspent-defence-loans-may-help-plug-ukraines-budget-hole",
-       "data": "2026-10-29"
+       "url": "https://www.euronews.com/2026/11/02/iran-says-it-can-reopen-hormuz-in-two-days-if-us-meets-conditions",
+       "data": "2026-11-02"
       },
       {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/eu-frees-up-over-20-billion-euros-to-potentially-help-ukraines-defense/",
-       "data": "2026-10-29"
+       "nazwa": "Reuters (newsletter)",
+       "url": "https://www.reuters.com/world/middle-east/iranians-have-left-doha-talks-draft-proposal-us-deal-being-circulated-official-says-2026-11-02/",
+       "data": "2026-11-02"
       }
      ]
     },
     {
-     "data": "2026-10-30",
-     "tekst": "Komisja Europejska przedstawiła plan wypłat dla Ukrainy na 2027 rok: ok. 45 mld euro z unijnej pożyczki wsparcia (31,7 mld euro na przemysł obronny, 13,3 mld euro na wsparcie finansowe); propozycja wymaga zatwierdzenia przez Radę UE.",
-     "etap": "PROPOZYCJA",
+     "data": "2026-11-02",
+     "tekst": "Stany Zjednoczone uderzyły w irańskie cele w rejonie cieśniny Ormuz; irańskie media podały o wybuchach na wyspach Keszm i Hengam oraz w Bandar Abbas, a według amerykańskiego urzędnika celem byli Irańczycy używający rakiet przeciwlotniczych przeciw siłom USA.",
+     "etap": "W TOKU",
      "zrodla": [
       {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/10/30/eu-to-fast-track-45-billion-for-ukraine-amid-acute-financial-crunch",
-       "data": "2026-10-30"
+       "nazwa": "Associated Press (newsletter)",
+       "url": "https://apnews.com/article/iran-us-strikes-strait-hormuz-183b3d32d9bf5241f744abb917e6713e",
+       "data": "2026-11-03"
       },
       {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/eu-lays-out-45-billion-euro-spending-plan-for-ukraine-in-2027/",
-       "data": "2026-10-30"
+       "nazwa": "Reuters (newsletter)",
+       "url": "https://www.reuters.com/world/middle-east/us-struck-irans-qeshm-island-wall-street-journal-reports-2026-11-03/",
+       "data": "2026-11-03"
       }
      ]
     }
    ],
    "oceny": [],
-   "dla_polski": "Polska jest największym beneficjentem SAFE (43,73 mld euro według Euronews), ale nie może już zamawiać sprzętu tylko u siebie i potrzebuje partnerów z innych państw. Wspólne projekty z ukraińskimi firmami to dla polskiego przemysłu zbrojeniowego możliwość współpracy, a dla budżetu UE – większy ciężar finansowania Ukrainy w 2027 r. Wniosek autora: o skutku rozstrzygnie zgoda Rady UE na plan wypłat.",
+   "dla_polski": "Zamknięta lub ryzykowna cieśnina Ormuz podnosi ceny ropy i paliw w Europie. Wniosek autora: wymiana uderzeń przy równoległych rozmowach o porozumieniu utrzymuje ryzyko kolejnych szoków cenowych, które uderzą w polską gospodarkę.",
    "w_wydaniach": [
-    "2026-10-29#z8",
-    "2026-10-29#z4",
-    "2026-10-30#z2"
+    "2026-10-31#z5",
+    "2026-11-02#z2",
+    "2026-11-03#z1"
    ]
   },
   {
@@ -344,83 +232,6 @@
    "w_wydaniach": [
     "2026-11-03#z2",
     "2026-11-04#z1"
-   ]
-  },
-  {
-   "id": "ormuz-ropa",
-   "tytul": "USA uderzają 2.11 w irańskie cele w rejonie Cieśniny Ormuz; Iran oświadcza, że może otworzyć cieśninę w dwa dni, jeśli USA przyjmą jego warunki",
-   "data": [
-    "2026-11-02"
-   ],
-   "tagi": [
-    "iran",
-    "usa",
-    "energia"
-   ],
-   "etap": "W TOKU",
-   "lead": "Stany Zjednoczone uderzyły 2.11 w irańskie cele w rejonie **Cieśniny Ormuz**, jak poinformował amerykański urzędnik. Tego samego dnia rzecznik MSZ Iranu Esmaeil Baghaei oświadczył, że Iran może otworzyć cieśninę w ciągu dwóch dni, jeśli USA przyjmą jego warunki.",
-   "omowienie": [
-    "Irańskie media podały o wybuchach na wyspach Keszm i Hengam oraz w Bandar Abbas; według amerykańskiego urzędnika celem byli Irańczycy używający rakiet przeciwlotniczych przeciw siłom USA. Warunki Iranu to koniec wojny na wszystkich frontach, odmrożenie aktywów, zniesienie sankcji naftowych i zakończenie amerykańskiej blokady.",
-    "30.10 Korpus Strażników Rewolucji Islamskiej (IRGC) podał o incydentach tankowców w cieśninie, a amerykańskie Dowództwo Centralne (CENTCOM) oświadczyło, że główne szlaki oczyszczono z min."
-   ],
-   "przebieg": [
-    {
-     "data": "2026-10-30",
-     "tekst": "IRGC podał, że tankowce miały incydenty na trasach w cieśninie Ormuz, które Teheran uznaje za nieautoryzowane; według Euronews marynarka Omanu ewakuowała 25 członków załogi statku, który zapalił się przy półwyspie Musandam. CENTCOM: główne szlaki oczyszczono z min.",
-     "zrodla": [
-      {
-       "nazwa": "Reuters",
-       "url": "https://www.reuters.com/world/middle-east/irans-irgc-navy-says-two-tankers-stopped-south-hormuz-after-incidents-2026-10-30/",
-       "data": "2026-10-30"
-      },
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/10/30/irans-revolutionary-guard-reports-two-tankers-on-fire-in-strait-of-hormuz-as-talks-continu",
-       "data": "2026-10-30"
-      }
-     ]
-    },
-    {
-     "data": "2026-11-02",
-     "tekst": "Rzecznik MSZ Iranu Baghaei oświadczył, że Iran może otworzyć cieśninę Ormuz w ciągu dwóch dni, a nie siedmiu, jak proponował we wrześniu, jeśli USA przyjmą jego warunki; według Euronews wiceminister Kazem Gharibabadi pracuje w Katarze nad wstępnym porozumieniem.",
-     "etap": "W TOKU",
-     "zrodla": [
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/11/02/iran-says-it-can-reopen-hormuz-in-two-days-if-us-meets-conditions",
-       "data": "2026-11-02"
-      },
-      {
-       "nazwa": "Reuters (newsletter)",
-       "url": "https://www.reuters.com/world/middle-east/iranians-have-left-doha-talks-draft-proposal-us-deal-being-circulated-official-says-2026-11-02/",
-       "data": "2026-11-02"
-      }
-     ]
-    },
-    {
-     "data": "2026-11-02",
-     "tekst": "Stany Zjednoczone uderzyły w irańskie cele w rejonie cieśniny Ormuz; irańskie media podały o wybuchach na wyspach Keszm i Hengam oraz w Bandar Abbas, a według amerykańskiego urzędnika celem byli Irańczycy używający rakiet przeciwlotniczych przeciw siłom USA.",
-     "etap": "W TOKU",
-     "zrodla": [
-      {
-       "nazwa": "Associated Press (newsletter)",
-       "url": "https://apnews.com/article/iran-us-strikes-strait-hormuz-183b3d32d9bf5241f744abb917e6713e",
-       "data": "2026-11-03"
-      },
-      {
-       "nazwa": "Reuters (newsletter)",
-       "url": "https://www.reuters.com/world/middle-east/us-struck-irans-qeshm-island-wall-street-journal-reports-2026-11-03/",
-       "data": "2026-11-03"
-      }
-     ]
-    }
-   ],
-   "oceny": [],
-   "dla_polski": "Zamknięta lub ryzykowna cieśnina Ormuz podnosi ceny ropy i paliw w Europie. Wniosek autora: wymiana uderzeń przy równoległych rozmowach o porozumieniu utrzymuje ryzyko kolejnych szoków cenowych, które uderzą w polską gospodarkę.",
-   "w_wydaniach": [
-    "2026-10-31#z5",
-    "2026-11-02#z2",
-    "2026-11-03#z1"
    ]
   },
   {
@@ -558,35 +369,27 @@
  ],
  "czego_nie_ma": [
   {
-   "tekst": "Zapowiedź Trumpa z 3.11 o końcu przekazywania Izraelowi ok. 4 mld dolarów rocznie od 2027 r., zatwierdzenie wyników wyborów w Izraelu (4.11), pakiet rozszerzeniowy Komisji Europejskiej (4.11) i chiński wysłannik do Iranu i Zatoki (zapowiedź z 2.11) – po jednej pozycji w wydaniach z okresu.",
+   "tekst": "Zapowiedź Trumpa z 3.11 o końcu przekazywania Izraelowi ok. 4 mld dolarów rocznie od 2027 r., zatwierdzenie wyników wyborów w Izraelu (4.11), próby budowy koalicji bez Netanjahu (5.11) i zapowiedź Herzoga z 6.11, że wskaże kandydata na premiera 8.11 – bez rozstrzygnięcia, kto utworzy rząd.",
    "prog": "następstwo"
   },
   {
-   "tekst": "Wybory w Serbii, Brazylii i Bułgarii (25.10) oraz wybory do Knesetu bez rozstrzygnięcia (27.10) – po jednej pozycji w wydaniach z okresu; wyniki Knesetu nieoficjalne.",
+   "tekst": "Rezygnacja prezydenta Paragwaju Santiago Peñi po upadku banku Ueno (5.11) – wymaga jeszcze zatwierdzenia przez Senat, skutek regionalny.",
    "prog": "następstwo"
   },
   {
-   "tekst": "Zderzenie pociągów koło Urdy w Hiszpanii (28.10) – wypadek bez skutku dla Polski i dla sytuacji międzynarodowej.",
+   "tekst": "Propozycja Iranu w sprawie programu jądrowego przekazana USA przez Katar (5.11) i uderzenie pocisków w tankowiec na północ od Kataru (5.11) – po jednej agencji (Reuters), bez drugiego źródła z poziomów 1–2.",
    "prog": "następstwo"
   },
   {
-   "tekst": "Zapowiedź rozmów Rosji, Ukrainy i USA w Abu Zabi (28.10), incydenty tankowców w Cieśninie Ormuz i powrót katarskich mediatorów do Teheranu (30.10), odwołane wspólne zdjęcie na spotkaniu ministrów G20 w Atlancie (30.10) oraz ostrzeżenie ambasady USA w Moskwie przed zamachem (31.10) – bez przyjętej decyzji w okresie.",
+   "tekst": "Pakiet rozszerzeniowy Komisji Europejskiej (4.11), chiński wysłannik do Iranu i Zatoki (zapowiedź z 2.11), skazanie Joshuy Wonga w Hongkongu (5.11) i alarmy bombowe w samolotach w Europie (5.11) – po jednej pozycji w wydaniach z okresu.",
    "prog": "następstwo"
   },
   {
-   "tekst": "Oświadczenie Komisji Europejskiej w sprawie Trybunału Konstytucyjnego w Polsce (31.10), ukraiński atak dronów na rafinerię w Kstowie (1.11) oraz groźby Modżtaby Chameneiego wobec USA i Izraela (31.10) – po jednej pozycji w wydaniach z okresu.",
+   "tekst": "Oświadczenie Komisji Europejskiej w sprawie Trybunału Konstytucyjnego w Polsce (31.10), ukraiński atak dronów na rafinerię w Kstowie (1.11), groźby Modżtaby Chameneiego wobec USA i Izraela (31.10), cyberatak na aplikację z alarmami przeciwlotniczymi (1–2.11) i wybór Iliany Jotowej na prezydenta Bułgarii (1.11) – po jednej pozycji w wydaniach z okresu, bez przyjętej decyzji.",
    "prog": "następstwo"
   },
   {
-   "tekst": "Wizyta Kosiniaka-Kamysza w Wielkiej Brytanii (27.10), zatrzymanie Rosjanina w Świdnicy (30.10), zamknięcie „Nowej Gaziety” (30.10) i otwarcie terminalu T5 w Gdańsku (30.10) – po jednej pozycji w wydaniach z okresu.",
-   "prog": "następstwo"
-  },
-  {
-   "tekst": "Cyberatak na aplikację z alarmami przeciwlotniczymi w Ukrainie i podobny w Rosji (1–2.11), wybór Iliany Jotowej na prezydenta Bułgarii (1.11) oraz oświadczenie Iranu o możliwym otwarciu Cieśniny Ormuz w dwa dni (2.11) – po jednej pozycji w wydaniach z okresu, bez przyjętej decyzji.",
-   "prog": "następstwo"
-  },
-  {
-   "tekst": "Sprawy z poprzednich tygodni bez nowych faktów w oknie (Starshield, protesty we Francji, sankcje USA na Rosję, drony na Litwie, groźba jądrowa w sprawie Królewca i inne) – są w archiwum za październik 2026.",
+   "tekst": "Sprawy z poprzednich tygodni bez nowych faktów w oknie (decyzja USA o sprzedaży Ukrainie pocisków PAC-3 MSE, propozycja Komisji Europejskiej dotycząca pomocy dla Ukrainy na 2027 rok, Starshield, protesty we Francji, sankcje USA na Rosję, drony na Litwie, groźba jądrowa w sprawie Królewca i inne) – są w archiwum za październik 2026.",
    "prog": "następstwo"
   }
  ],

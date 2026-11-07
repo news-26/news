@@ -4,10 +4,10 @@
   "godzina": "20:00",
   "typ": "dzienne",
   "w_skrocie": [
-    "W sobotę 7.11 mężczyzna jadący samochodem po Rynku Głównym w Krakowie strzelał do przypadkowych osób. Według wojewody małopolskiego i policji zginęło sześć osób, a 15 zostało rannych; sprawcę, obywatela Polski, zatrzymano.",
-    "W piątek 6.11 siły USA uderzyły w irańską obronę przeciwlotniczą na wyspie Keszm. Prezydent {{o:donald-trump|Donald Trump}} mówi o postępach w rozmowach z Teheranem, a Katar zapewnia, że jego mediacja trwa.",
-    "W nocy z 6 na 7.11 rosyjskie pociski balistyczne uderzyły w Kijów i obwód kijowski. Uszkodzony został Most Północny, a według władz ukraińskich rannych jest co najmniej sześć osób.",
-    "Senat Paragwaju odsunął 6.11 prezydenta {{o:santiago-pena|Santiago Peña}} po upadku banku cyfrowego Ueno. Urząd objął wiceprezydent {{o:pedro-alliana|Pedro Alliana}}."
+    "W sobotę 7.11 mężczyzna jadący samochodem po Rynku Głównym w Krakowie strzelał do ludzi. Według wojewody małopolskiego i policji zginęło sześć osób, a 15 zostało rannych; sprawcę, obywatela Polski, zatrzymano.",
+    "W piątek 6.11 siły USA uderzyły w irańską obronę przeciwlotniczą na wyspie Keszm. Prezydent {{o:donald-trump|Donald Trump}} mówi o postępach w rozmowach z Teheranem.",
+    "W nocy z 6 na 7.11 rosyjskie pociski balistyczne uderzyły w Kijów i obwód kijowski. Uszkodzony został Most Północny, a według władz ukraińskich co najmniej sześć osób zostało rannych w Kijowie.",
+    "Senat Paragwaju odsunął 6.11 prezydenta {{o:santiago-pena|Santiago Peña}} od władzy w związku z upadkiem banku cyfrowego Ueno. Urząd objął wiceprezydent {{o:pedro-alliana|Pedro Alliana}}."
   ],
   "korekty": [],
   "zarys": [
@@ -20,7 +20,7 @@
       ],
       "miejsce": "krakow",
       "krotko": "Kraków: strzelanina na Rynku Głównym",
-      "tekst": "W sobotę 7.11 około godz. 15 mężczyzna jadący samochodem po Rynku Głównym w Krakowie **strzelał** do przypadkowych osób. Według wojewody małopolskiego i policji zginęło sześć osób, a 15 zostało rannych, w tym policjanci; policja postrzeliła i zatrzymała sprawcę, obywatela Polski, a jego motywów nie ustalono.",
+      "tekst": "W sobotę 7.11 około godz. 15 mężczyzna jadący samochodem po Rynku Głównym w Krakowie **strzelał** do ludzi. Według wojewody małopolskiego i policji zginęło sześć osób, a 15 zostało rannych, w tym policjanci. Policja postrzeliła i zatrzymała sprawcę, obywatela Polski; jego motywów nie ustalono.",
       "zrodla": [
         {
           "nazwa": "Euronews",
@@ -53,7 +53,7 @@
       "kraje": [
         "Iran"
       ],
-      "tekst": "W piątek 6.11 siły USA **uderzyły** w irańską obronę przeciwlotniczą na wyspie Keszm, a prezydent {{o:donald-trump|Donald Trump}} nazwał to drobnymi uderzeniami i powiedział, że rozmowy z Teheranem czynią postępy. Katar oświadczył, że jego mediacja między USA a Iranem trwa; irańska telewizja państwowa podała, że obrona zestrzeliła amerykańskiego drona MQ-9.",
+      "tekst": "W piątek 6.11 siły USA **uderzyły** w irańską obronę przeciwlotniczą na wyspie Keszm, a prezydent {{o:donald-trump|Donald Trump}} nazwał to drobnymi uderzeniami i powiedział, że rozmowy z Teheranem czynią postępy. Katar oświadczył, że jego mediacja między USA a Iranem trwa; Iran twierdzi, że jego obrona zestrzeliła amerykańskiego drona MQ-9, czego USA nie potwierdziły.",
       "zrodla": [
         {
           "nazwa": "Al Jazeera",
@@ -81,8 +81,8 @@
         "front"
       ],
       "miejsce": "kijow",
-      "krotko": "Kijów: rosyjskie rakiety balistyczne",
-      "tekst": "W nocy z 6 na 7.11 rosyjskie pociski balistyczne **uderzyły** w Kijów i obwód kijowski. Według władz ukraińskich rannych jest co najmniej sześć osób, uszkodzony został Most Północny, a uderzenia objęły też obiekty energetyczne; prezydent {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} podał, że wystrzelono 36 pocisków.",
+      "krotko": "Kijów: rosyjski atak pociskami balistycznymi",
+      "tekst": "W nocy z 6 na 7.11 rosyjskie pociski balistyczne **uderzyły** w Kijów i obwód kijowski. Według władz ukraińskich co najmniej sześć osób zostało rannych w Kijowie, a uszkodzony został Most Północny i obiekty energetyczne. Według {{o:wolodymyr-zelenski|Wołodymyra Zełenskiego}} wystrzelono 36 pocisków.",
       "zrodla": [
         {
           "nazwa": "Kyiv Independent",
@@ -112,7 +112,7 @@
       "etap": "ZAPOWIEDŹ",
       "miejsce": "abudza",
       "krotko": "Abu Zabi: rozmowy USA–Ukraina–Rosja",
-      "tekst": "Szefem ukraińskiej delegacji na rozmowach trójstronnych w Abu Zabi będzie {{o:rustem-umerow|Rustem Umerow}}, co potwierdził szef klubu Sługa Narodu David Arachamia. Według Reutersa Kreml oświadczył, że w przyszłym tygodniu do Abu Zabi pojedzie m.in. szef rosyjskiego wywiadu wojskowego; dokładnej daty rozmów nie podano.",
+      "tekst": "Szefem ukraińskiej delegacji na rozmowach trójstronnych w Abu Zabi będzie {{o:rustem-umerow|Rustem Umerow}}, co potwierdził szef klubu Sługa Narodu David Arachamia. Według Reutersa Kreml oświadczył, że do Abu Zabi pojedzie m.in. szef rosyjskiego wywiadu wojskowego; strona ukraińska podaje wstępnie 10.11, a Kreml daty nie podał.",
       "zrodla": [
         {
           "nazwa": "Kyiv Independent",
@@ -139,7 +139,7 @@
       "kraje": [
         "Paragwaj"
       ],
-      "tekst": "Senat Paragwaju uznał 6.11 prezydenta {{o:santiago-pena|Santiago Peña}} za winnego nadużyć po upadku banku cyfrowego Ueno i **odsunął** go od władzy; wiceprezydent {{o:pedro-alliana|Pedro Alliana}} został zaprzysiężony na prezydenta. Według Euronews Peña przebywa w areszcie domowym i ma być przesłuchany przez prokuraturę.",
+      "tekst": "Senat Paragwaju **odsunął** 6.11 prezydenta {{o:santiago-pena|Santiago Peña}} od władzy w związku z upadkiem banku cyfrowego Ueno, a wiceprezydent {{o:pedro-alliana|Pedro Alliana}} został zaprzysiężony na prezydenta. Według Euronews Peña przebywa w areszcie domowym i ma być przesłuchany przez prokuraturę.",
       "zrodla": [
         {
           "nazwa": "Associated Press (newsletter)",
@@ -166,7 +166,7 @@
         "hybryda"
       ],
       "etap": "W TOKU",
-      "tekst": "Według Reutersa do stacji telewizyjnych w całej Europie trafiły 6.11 fałszywe zawiadomienia o bombach. Część stacji ewakuowano, a nadawanie wstrzymano nawet na trzy godziny.",
+      "tekst": "Według Reutersa do stacji telewizyjnych w całej Europie trafiły 6.11 fałszywe zawiadomienia o bombach. Według tej agencji część stacji ewakuowano, a nadawanie wstrzymano nawet na trzy godziny.",
       "kraje": [
         "Irlandia",
         "Wielka Brytania"
@@ -189,7 +189,7 @@
       "kraje": [
         "Stany Zjednoczone"
       ],
-      "tekst": "Prezydent {{o:donald-trump|Donald Trump}} **mianował** 6.11 {{o:stephen-miller|Stephena Millera}} szefem personelu Białego Domu. Zastępuje Susie Wiles, która opuszcza administrację.",
+      "tekst": "Prezydent {{o:donald-trump|Donald Trump}} ogłosił 6.11, że {{o:stephen-miller|Stephen Miller}} zostanie szefem gabinetu Białego Domu. Według Reutersa i Associated Press zastąpi Susie Wiles, która opuszcza administrację.",
       "zrodla": [
         {
           "nazwa": "Reuters (newsletter)",
@@ -323,5 +323,5 @@
     "Paragwaj – zarzuty wobec Peñi; Europa – fałszywe alarmy bombowe i cyberataki (Włochy, Brenner)",
     "OSW i PISM – listy publikacji z 4–7.11 (nieodczytane); PAP Kraj, DO RSZ, MON, SG, ŻW – incydenty; Agencja Uzbrojenia – umowy"
   ],
-  "nota": "Listy publikacji OSW (test przeglądarki) i PISM (pusta strona) nie zostały odczytane; z wyszukiwarki znany jest tylko tekst OSW z 4.11. Nie sprawdzono komunikatów DO RSZ, MON, SG, ŻW, Agencji Uzbrojenia i PGZ ani działu Świat Onetu; PAP i strony AP, Reutersa są zablokowane, więc agencje opisano według newsletterów w skrzynce (AP: alerty z 6–7.11; Reuters: Weekend Briefing i Iran Briefing z 7.11) i przedruków. Liczby ofiar w Krakowie podano według wojewody małopolskiego i policji w relacjach Interii, Radia Kraków i Euronews; AP w alercie podawało wcześniej pięć ofiar."
+  "nota": "Nie odczytano list publikacji OSW (test przeglądarki) i PISM (pusta strona). Nie sprawdzono komunikatów DO RSZ, MON, Straży Granicznej, Żandarmerii Wojskowej, Agencji Uzbrojenia i PGZ ani działu Świat Onetu (blokada domeny lub brak dostępu); strony AP, Reutersa i PAP są zablokowane, agencje opisano według newsletterów i przedruków."
 }

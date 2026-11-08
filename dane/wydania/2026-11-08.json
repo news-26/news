@@ -1,0 +1,295 @@
+{
+  "nr": 51,
+  "data": "2026-11-08",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "W sobotę 7.11 na Rynku Głównym w Krakowie 24-letni obywatel Polski zabił sześć osób. Prokuratura Krajowa uznała 8.11, że był to czyn o charakterze terrorystycznym, i uważa, że sprawca zabił też trzy osoby w Ostrowcu Świętokrzyskim.",
+    "Prezydent Izraela {{o:icchak-herzog|Icchak Herzog}} powierzył 7.11 wieczorem misję utworzenia rządu Gadiemu Eisenkotowi, byłemu szefowi sztabu i rywalowi premiera {{o:benjamin-netanjahu|Benjamina Netanjahu}}. Eisenkot ma 28 dni na zbudowanie koalicji, z możliwością przedłużenia o 14.",
+    "Rozmowy Rosji, Ukrainy i USA w Abu Zabi zaczną się według Euronews 10.11. Francuski minister spraw zagranicznych Jean-Noël Barrot powiedział, że wezmą w nich udział także Europejczycy.",
+    "W nocy z 7 na 8.11 rosyjskie ataki pozbawiły prądu około 850 tysięcy odbiorców w obwodach dniepropetrowskim i charkowskim. Prezydent {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} mówi, że Rosja nasiliła uderzenia przed rozmowami w Abu Zabi."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "polska",
+      "data": "2026-11-07",
+      "tagi": [
+        "inne"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "krakow",
+      "krotko": "Kraków: prokuratura uznaje atak za terrorystyczny",
+      "tekst": "Prokuratura Krajowa podała 8.11, że sobotni atak na Rynku Głównym w Krakowie, w którym zginęło sześć osób, był przestępstwem o charakterze **terrorystycznym**. Prokuratura uważa, że 24-letni sprawca zabił też trzy osoby w Ostrowcu Świętokrzyskim; według ministra spraw wewnętrznych i administracji {{o:marcin-kierwinski|Marcina Kierwińskiego}} interesował się ideologiami skrajnej prawicy.",
+      "zrodla": [
+        {
+          "nazwa": "Prokuratura Krajowa (za zero.pl)",
+          "url": "https://zero.pl/news/sledztwo-po-zamachu-w-krakowie-i-zabojstwach-w-ostrowcu-jest-komunikat-prokuratury",
+          "data": "2026-11-08"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/08/what-we-know-about-the-krakow-shooting-that-left-six-people-dead",
+          "data": "2026-11-08"
+        },
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/poland-shooting-krakow-market-dead-69a65400657ffd0c8b3fa104bd472b97",
+          "data": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "wojna",
+      "data": "2026-11-08",
+      "tagi": [
+        "iran"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "rijad",
+      "krotko": "Rijad: szczątki uszkadzają budynek Aramco",
+      "kraje": [
+        "Arabia Saudyjska"
+      ],
+      "tekst": "Według saudyjskiego ministerstwa spadające szczątki po nieudanym ataku uszkodziły 8.11 budynek koncernu naftowego Saudi Aramco w Rijadzie. Według AP saudyjska obrona przechwyciła rakiety; sprawców ataku w źródłach nie wskazano.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/loud-booms-heard-saudi-capital-riyadh-after-early-warning-alert-issued-2026-11-08/",
+          "data": "2026-11-08"
+        },
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/mideast-news-november-8-2026-090d96e25872f5c63e105b9dd3e5dc60",
+          "data": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "wojna",
+      "data": "2026-11-08",
+      "tagi": [
+        "ukraina",
+        "front"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "dnipro",
+      "krotko": "Rosja atakuje sieć w Dnipro i Charkowie",
+      "tekst": "Rosyjskie ataki pozbawiły prądu około 850 tysięcy odbiorców: ponad 600 tysięcy w obwodzie dniepropetrowskim według firmy DTEK i około 250 tysięcy w obwodzie charkowskim według władz lokalnych. Prezydent {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} dodał, że w obwodzie żytomierskim 140 bloków straciło ogrzewanie.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/08/russian-strikes-on-ukraine-leave-850000-without-power-as-zelenskyy-reports-drone-attack-on",
+          "data": "2026-11-08"
+        },
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/russia-ukraine-war-strike-bomb-humanitarian-aid-e64dd583955f11e4cf08ef5af6eaf35b",
+          "data": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "wojna",
+      "data": "2026-11-08",
+      "tagi": [
+        "ukraina",
+        "rozejm"
+      ],
+      "etap": "ZAPOWIEDŹ",
+      "miejsce": "abudza",
+      "krotko": "Abu Zabi: rozmowy z udziałem Europy",
+      "tekst": "Rozmowy Rosji, Ukrainy i USA w Abu Zabi mają według Euronews trwać 10–11.11. Francuski minister spraw zagranicznych Jean-Noël Barrot oświadczył 8.11, że wezmą w nich udział także Europejczycy, a Rosja wyśle wiceministra spraw zagranicznych Siergieja Riabkowa i wojskowych, według Kyiv Independent.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/08/europeans-to-join-russia-ukraine-talks-in-abu-dhabi-says-french-fm-barrot",
+          "data": "2026-11-08"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/europeans-will-participate-in-abu-dhabi-peace-talks-french-foreign-minister-says/",
+          "data": "2026-11-08"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russia-to-send-senior-diplomats-military-officials-to-upcoming-peace-talks-in-abu-dhabi/",
+          "data": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "id": "z6",
+      "blok": "swiat",
+      "data": "2026-11-07",
+      "tagi": [
+        "inne"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "jerozolima",
+      "krotko": "Herzog powierza Eisenkotowi misję rządu",
+      "tekst": "Prezydent Izraela {{o:icchak-herzog|Icchak Herzog}} powierzył 7.11 wieczorem **misję** utworzenia rządu Gadiemu Eisenkotowi, byłemu szefowi sztabu i rywalowi premiera Benjamina Netanjahu. Za Eisenkotem opowiedziały się frakcje z 67 posłami, za Netanjahu z 46; Eisenkot ma 28 dni na zbudowanie koalicji, z możliwością przedłużenia o 14.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/israeli-president-picks-gadi-eisenkot-netanyahu-rival-form-government-2026-11-07/",
+          "data": "2026-11-07"
+        },
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/israel-elections-netanyahu-eisenkot-bec07675825bee5895315e2ea1cb5751",
+          "data": "2026-11-08"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/08/netanyahu-rival-eisenkot-to-be-tasked-with-forming-new-government-following-israeli-electi",
+          "data": "2026-11-08"
+        }
+      ]
+    }
+  ],
+  "analizy": [],
+  "kalendarz": [
+    {
+      "data": "2026-11-09",
+      "tekst": "9.11: Turcja – początek konferencji klimatycznej ONZ COP31 w Antalyi (do 20.11).",
+      "tagi": [
+        "onz"
+      ]
+    },
+    {
+      "data": "2026-11-10",
+      "tekst": "10.11: Ukraina – według Euronews początek rozmów Rosji, Ukrainy i USA w Abu Zabi, z udziałem przedstawicieli Europy (Kreml wcześniej: bez daty).",
+      "tagi": [
+        "ukraina",
+        "rozejm"
+      ],
+      "poza_kalendarium": "datę podaje Euronews, bez potwierdzenia organizatora; w do_sprawdzenia"
+    },
+    {
+      "data": "2026-11-12",
+      "tekst": "12.11: Irlandia – szczyt Europejskiej Wspólnoty Politycznej.",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-13",
+      "tekst": "13.11: nieformalne spotkanie szefów państw i rządów UE.",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-18",
+      "tekst": "18–19.11: Chiny – spotkanie przywódców APEC w Shenzhen.",
+      "tagi": [
+        "chiny"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [],
+    "pism": [],
+    "nieodczytane": [
+      "osw",
+      "pism"
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "tekst": "Jemen: według Reutersa kierowane przez Huti ministerstwo zdrowia podało, że naloty zabiły 27 lub 33 osoby w pobliżu Sany (tytuł i adres artykułu różnią się co do liczby).",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Reuters (newsletter 8.11): jedno źródło, rozbieżna liczba ofiar, dane strony zainteresowanej",
+        "WebSearch 8.11: brak komunikatu koalicji saudyjskiej ani ONZ",
+        "WebSearch 8.11: brak innej redakcji z poziomów 1–2 z tym zdarzeniem"
+      ]
+    },
+    {
+      "id": "n2",
+      "tekst": "Niemcy: według Kyiv Independent minister obrony Boris Pistorius oświadczył, że Niemcy nie mogą na razie przekazać Ukrainie kolejnych systemów Patriot; sprawa ma być omawiana na połowę listopada w Grupie Kontaktowej ds. Obrony Ukrainy.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Kyiv Independent (7.11): jedno źródło, brak daty spotkania",
+        "WebSearch 8.11: brak komunikatu niemieckiego ministerstwa obrony",
+        "WebSearch 8.11: brak przedruku agencji ani innej redakcji z poziomów 1–2"
+      ]
+    },
+    {
+      "id": "n3",
+      "tekst": "Europa: cyberataki na szefa włoskiego MSZ Antonia Tajaniego i spółkę budującą tunel bazowy pod Brenner (7.11).",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Euronews (7.11): jedno źródło poziomu 2",
+        "Polsat News (7.11): wypowiedź Tajaniego, poziom 3",
+        "WebSearch 8.11: brak komunikatu włoskich służb ani agencji ANSA z potwierdzeniem sprawcy i skutków"
+      ]
+    },
+    {
+      "id": "n4",
+      "tekst": "USA–Iran: według Dowództwa Centralnego USA (CENTCOM) samolot sił USA unieruchomił 7.11 statek M/V Huda na Zatoce Omańskiej, łamiący blokadę irańskich portów; Gwardia Narodowa ZEA uratowała 22 osoby.",
+      "prog": "dokumentacja",
+      "sprawdzono": [
+        "Euronews (8.11): jedno źródło, wersja CENTCOM, strona zaangażowana",
+        "Reuters (newsletter 7.11): artykuł o rozszerzaniu blokady, bez zdarzenia z Hudą",
+        "WebSearch 8.11: brak komunikatu UKMTO lub władz ZEA w wynikach"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-11-07#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "WebSearch 8.11: brak doniesień z listopada o napadzie z 33 zabitymi",
+        "WebSearch 8.11: wyniki dotyczą wcześniejszych ataków z maja–sierpnia 2026",
+        "brak komunikatu ONZ lub władz DR Konga"
+      ],
+      "powod": "Liczba 33 ofiar i ucieczka pacjentów z ebolą mają tylko jedno źródło (Reuters, 7.11)."
+    },
+    {
+      "dotyczy": "2026-11-07#n2",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "WebSearch 8.11 (PAP, Defence24): brak komunikatu o spotkaniu 10.11 w Pentagonie",
+        "WebSearch 8.11: w wynikach wcześniejsze wizyty (maj 2025, lipiec 2026) bez nowego terminu",
+        "brak komunikatu MON"
+      ],
+      "powod": "Termin 10.11 podał tylko Polsat News; Defence24 pisał o nowym terminie około połowy listopada."
+    }
+  ],
+  "do_sprawdzenia": [
+    "Izrael – skład koalicji Eisenkota; ceremonia wręczenia misji",
+    "Kraków i Ostrowiec Świętokrzyski – zarzuty wobec sprawcy, jego stan zdrowia, motyw; wniosek o areszt",
+    "Iran i USA – skutki uderzenia na M/V Huda; reakcja Iranu; źródło ataku na Rijad",
+    "Ukraina – potwierdzenie daty i składu rozmów w Abu Zabi (10–11.11); Komyszuwacha – liczba ofiar",
+    "Niemcy – Patriot i spotkanie Grupy Kontaktowej ds. Obrony Ukrainy w połowie listopada",
+    "Polska – spotkanie Kosiniak-Kamysz–Hegseth; PAP Kraj, DO RSZ, MON, SG, ŻW – incydenty; Agencja Uzbrojenia i PGZ – umowy",
+    "OSW i PISM – listy publikacji z 5–8.11 (nieodczytane)"
+  ],
+  "nota": "Nie odczytano list publikacji OSW (test przeglądarki) i PISM (pusta strona), mimo ponowień. Nie sprawdzono komunikatów DO RSZ, MON, Straży Granicznej, Żandarmerii Wojskowej, Agencji Uzbrojenia i PGZ ani działu Świat Onetu (wyszukiwarka nie zwróciła wpisów z 8.11); strony AP, Reutersa i PAP są zablokowane, agencje opisano według newsletterów.",
+  "niepelne": "Nie udało się sprawdzić listy OSW i PISM, komunikatów DO RSZ, MON, SG, ŻW, Agencji Uzbrojenia i PGZ ani działu Świat Onetu; zdarzenie ze statkiem na Zatoce Omańskiej ma jedno źródło."
+}

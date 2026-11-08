@@ -330,6 +330,12 @@
       "nazwa": "UKMTO",
       "pelna": "United Kingdom Maritime Trade Operations",
       "definicja": "Brytyjskie centrum informacji o bezpieczeństwie żeglugi handlowej w rejonie Zatoki Perskiej i Oceanu Indyjskiego, które przyjmuje zgłoszenia o incydentach na statkach."
+    },
+    {
+      "id": "centcom",
+      "nazwa": "CENTCOM",
+      "pelna": "Dowództwo Centralne USA",
+      "definicja": "Dowództwo sił zbrojnych USA odpowiedzialne za Bliski Wschód i Azję Środkową; w 2026 r. egzekwuje amerykańską blokadę irańskich portów."
     }
   ]
 }

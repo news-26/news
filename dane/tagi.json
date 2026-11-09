@@ -71,13 +71,13 @@
       "nazwa": "Rosja",
       "grupa": "miejsce",
       "opis": "Polityka wewnętrzna, armia i budżet Rosji.",
-      "stan": "2.11 Kreml wyklucza na razie kolejne operacje humanitarne typu Oleszki; rosyjski system powiadamiania padł ofiarą cyberataku.",
-      "stan_data": "2026-11-02",
+      "stan": "9.11 według Reutersa wewnętrzna ocena UE przypisuje tajnej rosyjskiej sieci wykorzystanie zamieszek we Francji w mediach społecznościowych.",
+      "stan_data": "2026-11-09",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/nearly-800-people-evacuated-from-oleshky-melania-trump-says-as-kyiv-moscow-withhold-figures/",
-          "data": "2026-11-02"
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/europe/covert-russian-network-exploited-french-riots-social-media-eu-report-says-2026-11-09/",
+          "data": "2026-11-09"
         }
       ]
     },
@@ -117,15 +117,15 @@
       "nazwa": "Wojna hybrydowa",
       "grupa": "temat",
       "opis": "Działania hybrydowe: drony, sabotaż, dezinformacja, cyberataki, presja migracyjna.",
-      "stan": "6.11 według Reutersa do stacji telewizyjnych w Europie trafiły fałszywe zawiadomienia o bombach; nadawanie wstrzymano nawet na trzy godziny.",
+      "stan": "9.11 według Reutersa wewnętrzna ocena UE wskazuje, że tajna rosyjska sieć wykorzystała zamieszki we Francji w mediach społecznościowych.",
       "stan_zrodla": [
         {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/bomb-threats-warning-the-clock-is-ticking-disrupt-tv-channels-across-europe-2026-11-06/",
-          "data": "2026-11-06"
+          "url": "https://www.reuters.com/world/europe/covert-russian-network-exploited-french-riots-social-media-eu-report-says-2026-11-09/",
+          "data": "2026-11-09"
         }
       ],
-      "stan_data": "2026-11-07"
+      "stan_data": "2026-11-09"
     },
     {
       "id": "uzbrojenie",
@@ -237,38 +237,33 @@
       "nazwa": "Iran",
       "grupa": "miejsce",
       "opis": "Iran, Cieśnina Ormuz, rozmowy z USA i mediatorami.",
-      "stan": "8.11 według saudyjskiego ministerstwa szczątki po nieudanym ataku uszkodziły budynek Aramco w Rijadzie.",
+      "stan": "9.11 według Reutersa Trump ma spotkać się z premierem Kataru, a urzędnicy USA i Zatoki nie widzą rychłego porozumienia; 8.11 Trump uznał nowe ataki na Iran za bardzo mało prawdopodobne, dopóki trwają rozmowy.",
       "stan_zrodla": [
         {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/middle-east/loud-booms-heard-saudi-capital-riyadh-after-early-warning-alert-issued-2026-11-08/",
-          "data": "2026-11-08"
+          "url": "https://www.reuters.com/world/middle-east/trump-meet-qatars-prime-minister-iran-diplomacy-faces-hurdles-2026-11-09/",
+          "data": "2026-11-09"
         },
         {
-          "nazwa": "Associated Press (newsletter)",
-          "url": "https://apnews.com/article/mideast-news-november-8-2026-090d96e25872f5c63e105b9dd3e5dc60",
-          "data": "2026-11-08"
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/iran-suggests-blasts-are-not-us-attacks-both-sides-report-ships-hit-2026-11-08/",
+          "data": "2026-11-09"
         }
       ],
-      "stan_data": "2026-11-08"
+      "stan_data": "2026-11-09"
     },
     {
       "id": "usa",
       "nazwa": "USA",
       "grupa": "miejsce",
       "opis": "Polityka USA wobec Europy, Rosji, Ukrainy i Bliskiego Wschodu.",
-      "stan": "6.11 prezydent Trump mianował Stephena Millera szefem personelu Białego Domu; siły USA uderzyły w obronę przeciwlotniczą Iranu na Keszm.",
-      "stan_data": "2026-11-07",
+      "stan": "8.11 według AP Nvidia wszczęła śledztwo w sprawie doniesień o próbie werbunku prezesa Jensena Huanga przez zagraniczne służby; Chiny odrzuciły zarzut.",
+      "stan_data": "2026-11-09",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/08/us-forces-strike-commercial-vessel-in-gulf-of-oman-after-crew-ignored-repeated-warnings",
-          "data": "2026-11-08"
-        },
-        {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/middle-east/expanding-naval-blockade-us-military-looks-restrict-iranian-land-commerce-2026-11-07/",
-          "data": "2026-11-07"
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/nvidia-jensen-huang-investigation-chinese-spy-68839e7ca6ba2b121529f7e475e501d6",
+          "data": "2026-11-09"
         }
       ]
     },
@@ -277,18 +272,13 @@
       "nazwa": "Chiny",
       "grupa": "miejsce",
       "opis": "Chiny w polityce światowej i wobec Europy.",
-      "stan": "5.11 sąd w Hongkongu skazał działacza Joshuę Wonga na 10 lat więzienia na podstawie ustawy o bezpieczeństwie narodowym; 4.11 według Reutersa Chiny wyślą w listopadzie specjalnego wysłannika do Iranu, Omanu i Arabii Saudyjskiej.",
-      "stan_data": "2026-11-05",
+      "stan": "8.11 według AP Chiny odrzuciły jako zniesławienie zarzut o werbunek prezesa Nvidii Jensena Huanga przez chińskie służby.",
+      "stan_data": "2026-11-09",
       "stan_zrodla": [
         {
           "nazwa": "Associated Press (newsletter)",
-          "url": "https://apnews.com/article/hong-kong-joshua-wong-sentencing-national-security-f4b08dd23bab9912569e5cabd990c1ef",
-          "data": "2026-11-05"
-        },
-        {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/china/hong-kongs-joshua-wong-teenage-protest-leader-decade-behind-bars-2026-11-05/",
-          "data": "2026-11-05"
+          "url": "https://apnews.com/article/nvidia-jensen-huang-investigation-chinese-spy-68839e7ca6ba2b121529f7e475e501d6",
+          "data": "2026-11-09"
         }
       ]
     },
@@ -317,21 +307,30 @@
       "nazwa": "UE",
       "grupa": "temat",
       "opis": "Unia Europejska: Rada, Komisja, obronność, budżet WRF 2028–2034.",
-      "stan": "4.11 Komisja Europejska przyjęła pakiet rozszerzeniowy z mapami drogowymi dla Ukrainy, Mołdawii, Czarnogóry i Albanii; cel dla Ukrainy – zamknięcie negocjacji do końca 2028 r.",
+      "stan": "9.11 według Reutersa wewnętrzna ocena UE opisuje rosyjską sieć wykorzystującą zamieszki we Francji.",
       "stan_zrodla": [
         {
-          "nazwa": "Komisja Europejska",
-          "url": "https://enlargement.ec.europa.eu/news/2026-enlargement-package-shows-reform-commitment-delivers-progress-towards-eu-membership-2026-11-04_en",
-          "data": "2026-11-04"
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/europe/covert-russian-network-exploited-french-riots-social-media-eu-report-says-2026-11-09/",
+          "data": "2026-11-09"
         }
       ],
-      "stan_data": "2026-11-04"
+      "stan_data": "2026-11-09"
     },
     {
       "id": "onz",
       "nazwa": "ONZ",
       "grupa": "temat",
-      "opis": "ONZ i jej agendy, w tym Rada Bezpieczeństwa i Zgromadzenie Ogólne."
+      "opis": "ONZ i jej agendy, w tym Rada Bezpieczeństwa i Zgromadzenie Ogólne.",
+      "stan": "9.11 w Antalyi rozpoczęła się konferencja klimatyczna ONZ COP31 (do 20.11).",
+      "stan_data": "2026-11-09",
+      "stan_zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/sustainability/cop/cop31-open-turkey-with-climate-goals-under-pressure-war-ai-2026-11-09/",
+          "data": "2026-11-09"
+        }
+      ]
     },
     {
       "id": "mfw",
@@ -509,20 +508,15 @@
       "nazwa": "Francja",
       "grupa": "miejsce",
       "opis": "Polityka Francji: rząd, budżet, stanowisko w UE.",
-      "stan": "Protesty z 24.10 przeciw kosztom życia: według MSW 1314 zatrzymanych, co najmniej 50 rannych policjantów, ok. 410 tys. uczestników (France 24, Euronews).",
+      "stan": "9.11 według Reutersa wewnętrzna ocena UE wskazuje, że rosyjska sieć wykorzystała zeszłomiesięczne zamieszki we Francji.",
       "stan_zrodla": [
         {
-          "nazwa": "France 24",
-          "url": "https://www.france24.com/en/france/20261025-at-least-1-300-people-arrested-in-mass-weekend-protests-across-france",
-          "data": "2026-10-25"
-        },
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/25/almost-1000-arrests-across-france-as-protesters-clashed-with-police",
-          "data": "2026-10-25"
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/europe/covert-russian-network-exploited-french-riots-social-media-eu-report-says-2026-11-09/",
+          "data": "2026-11-09"
         }
       ],
-      "stan_data": "2026-10-25"
+      "stan_data": "2026-11-09"
     },
     {
       "id": "wielka-brytania",
@@ -649,45 +643,30 @@
       "nazwa": "Inne",
       "grupa": "temat",
       "opis": "Wątki rzadkie, bez osobnego hashtagu.",
-      "stan": "7.11 Herzog powierzył Eisenkotowi misję utworzenia rządu w Izraelu.",
+      "stan": "8.11 według Reutersa Ejzenkot dąży do szerokiego rządu w Izraelu; droga do większości w Knesecie jest niepewna.",
       "stan_zrodla": [
         {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/middle-east/israeli-president-picks-gadi-eisenkot-netanyahu-rival-form-government-2026-11-07/",
-          "data": "2026-11-07"
-        },
-        {
-          "nazwa": "Associated Press (newsletter)",
-          "url": "https://apnews.com/article/israel-elections-netanyahu-eisenkot-bec07675825bee5895315e2ea1cb5751",
-          "data": "2026-11-08"
-        },
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/08/netanyahu-rival-eisenkot-to-be-tasked-with-forming-new-government-following-israeli-electi",
-          "data": "2026-11-08"
+          "url": "https://www.reuters.com/world/middle-east/netanyahu-rival-eisenkot-seeks-wide-government-path-power-uncertain-2026-11-08/",
+          "data": "2026-11-09"
         }
       ],
-      "stan_data": "2026-11-08"
+      "stan_data": "2026-11-09"
     },
     {
       "id": "afryka",
       "nazwa": "Afryka",
       "grupa": "miejsce",
       "opis": "Wojny, przewroty i kryzysy w Afryce (Róg Afryki, Sudan, Sahel, Kongo).",
-      "stan": "20.10 Nigeria potwierdziła pierwszy przypadek eboli (Bundibugyo), piąty kraj z wykrytym wirusem.",
+      "stan": "6.11 sąd w Tanzanii uniewinnił Tundu Lissu od zarzutu zdrady stanu, ale skazał go na cztery lata więzienia.",
       "stan_zrodla": [
         {
-          "nazwa": "France 24",
-          "url": "https://www.france24.com/en/africa/20261020-nigeria-records-first-ebola-case-as-outbreak-spreads-across-africa",
-          "data": "2026-10-21"
-        },
-        {
-          "nazwa": "NPR",
-          "url": "https://www.npr.org/2026/10/20/g-s1-148975/nigeria-confirms-ebola-case",
-          "data": "2026-10-21"
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/africa-treason-trial-tundu-lissu-857e08dbb40be85d705947b5fa4285f8",
+          "data": "2026-11-09"
         }
       ],
-      "stan_data": "2026-10-21"
+      "stan_data": "2026-11-09"
     },
     {
       "id": "ameryki",

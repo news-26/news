@@ -686,6 +686,13 @@
       "lon": 55.9,
       "lat": 26.85,
       "kraj": "iran"
+    },
+    {
+      "id": "antalya",
+      "nazwa": "Antalya",
+      "lon": 30.71,
+      "lat": 36.9,
+      "kraj": "Turcja"
     }
   ]
 }

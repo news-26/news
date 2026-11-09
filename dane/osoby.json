@@ -1804,6 +1804,39 @@
           "data": "2026-11-06"
         }
       ]
+    },
+    {
+      "id": "jensen-huang",
+      "imie": "Jensen Huang",
+      "funkcja": "Prezes i dyrektor generalny koncernu Nvidia.",
+      "kraj": [
+        "usa"
+      ],
+      "zweryfikowano": "2026-11-09",
+      "zrodla": [
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/nvidia-jensen-huang-investigation-chinese-spy-68839e7ca6ba2b121529f7e475e501d6",
+          "data": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "id": "tundu-lissu",
+      "imie": "Tundu Lissu",
+      "funkcja": "Tanzański polityk opozycyjny, skazany 6.11.2026 na cztery lata więzienia.",
+      "kraj": [
+        "afryka"
+      ],
+      "panstwo": "Tanzania",
+      "zweryfikowano": "2026-11-09",
+      "zrodla": [
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/africa-treason-trial-tundu-lissu-857e08dbb40be85d705947b5fa4285f8",
+          "data": "2026-11-09"
+        }
+      ]
     }
   ]
 }

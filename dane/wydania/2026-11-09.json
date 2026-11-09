@@ -1,0 +1,301 @@
+{
+  "nr": 52,
+  "data": "2026-11-09",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Prezydent {{o:donald-trump|Donald Trump}} ma spotkać się z premierem Kataru, który pośredniczy w rozmowach z Iranem. Według Reutersa wysocy urzędnicy USA i państw Zatoki nie spodziewają się rychłego porozumienia kończącego wojnę.",
+    "Trump oświadczył, że nowe ataki USA na Iran są bardzo mało prawdopodobne, dopóki trwają rozmowy, podał Reuters. Każde z państw zgłosiło uderzenia w statki w rejonie {{p:ormuz|Cieśniny Ormuz}}.",
+    "Według Reutersa atak jemeńskich {{p:huti|Huti}} uszkodził 8.11 budynek koncernu Saudi Aramco w Rijadzie. Saudyjskie ministerstwo mówiło wcześniej o spadających szczątkach.",
+    "Według wewnętrznej oceny Unii Europejskiej, do której dotarł Reuters, tajna rosyjska sieć rozpowszechniała w mediach społecznościowych tezy o zamieszkach we Francji. Obwiniała za nie imigrację i przedstawiała rząd jako tracący kontrolę.",
+    "W Antalyi w Turcji rozpoczęła się 9.11 konferencja klimatyczna ONZ {{p:cop31|COP31}}."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-11-09",
+      "tagi": [
+        "iran",
+        "usa"
+      ],
+      "etap": "W TOKU",
+      "tekst": "Prezydent {{o:donald-trump|Donald Trump}} ma spotkać się z premierem Kataru, który pośredniczy w rozmowach z Iranem. Według Reutersa wysocy urzędnicy USA i państw Zatoki nie spodziewają się rychłego porozumienia kończącego wojnę.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/trump-meet-qatars-prime-minister-iran-diplomacy-faces-hurdles-2026-11-09/",
+          "data": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-11-08",
+      "tagi": [
+        "iran",
+        "usa"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "ciesnina-ormuz",
+      "krotko": "Ormuz: statki trafione, Trump wstrzemięźliwy",
+      "tekst": "Według Reutersa Trump oświadczył, że jest bardzo mało prawdopodobne, by nakazał nowe ataki na Iran, dopóki postępują rozmowy o zakończeniu wojny. Oba państwa poinformowały równocześnie o uderzeniach w statki w rejonie {{p:ormuz|Cieśniny Ormuz}}.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/iran-suggests-blasts-are-not-us-attacks-both-sides-report-ships-hit-2026-11-08/",
+          "data": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "wojna",
+      "data": "2026-11-08",
+      "tagi": [
+        "iran"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "rijad",
+      "krotko": "Rijad: atak Huti uszkadza budynek Aramco",
+      "kraje": [
+        "Arabia Saudyjska"
+      ],
+      "tekst": "Według Reutersa atak {{p:huti|Huti}} uszkodził 8.11 budynek koncernu Saudi Aramco w dzielnicy finansowej Rijadu. Saudyjskie ministerstwo podało wcześniej, że budynek uszkodziły spadające szczątki po nieudanym ataku.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/loud-booms-heard-saudi-capital-riyadh-after-early-warning-alert-issued-2026-11-08/",
+          "data": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "instytucje",
+      "data": "2026-11-09",
+      "tagi": [
+        "hybryda",
+        "rosja",
+        "francja",
+        "ue"
+      ],
+      "miejsce": "paryz",
+      "krotko": "Rosyjska sieć wykorzystuje zamieszki we Francji",
+      "tekst": "Według wewnętrznej oceny Unii Europejskiej, do której dotarł Reuters, tajna rosyjska sieć wykorzystała w mediach społecznościowych zeszłomiesięczne zamieszki we Francji. Sieć obwiniała za nie niekontrolowaną imigrację i przedstawiała rząd jako tracący kontrolę.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/europe/covert-russian-network-exploited-french-riots-social-media-eu-report-says-2026-11-09/",
+          "data": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "swiat",
+      "data": "2026-11-09",
+      "tagi": [
+        "onz"
+      ],
+      "miejsce": "antalya",
+      "krotko": "Antalya: start konferencji COP31",
+      "tekst": "W Antalyi w Turcji rozpoczęła się 9.11 konferencja klimatyczna ONZ {{p:cop31|COP31}}. Według Reutersa przywódcy na szczycie wezwali świat do szybszych działań na rzecz klimatu.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/sustainability/cop/cop31-open-turkey-with-climate-goals-under-pressure-war-ai-2026-11-09/",
+          "data": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "id": "z6",
+      "blok": "swiat",
+      "data": "2026-11-08",
+      "tagi": [
+        "inne"
+      ],
+      "etap": "W TOKU",
+      "kraje": [
+        "Izrael"
+      ],
+      "tekst": "{{o:gadi-ejzenkot|Gadi Ejzenkot}} dąży do „szerokiego” rządu w Izraelu, według Reutersa. Prezydent {{o:icchak-herzog|Icchak Herzog}} powierzył mu 7.11 misję utworzenia rządu, ale droga do większości w Knesecie pozostaje niepewna.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/netanyahu-rival-eisenkot-seeks-wide-government-path-power-uncertain-2026-11-08/",
+          "data": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "z7",
+      "blok": "swiat",
+      "data": "2026-11-08",
+      "tagi": [
+        "usa",
+        "chiny"
+      ],
+      "kraje": [
+        "Chiny"
+      ],
+      "tekst": "Rada dyrektorów koncernu Nvidia ogłosiła 8.11 śledztwo w sprawie doniesień, że prezes {{o:jensen-huang|Jensen Huang}} był celem zagranicznych służb. Według AP Huang przyznał przed radą romans z menedżerką, która według „New York Timesa” zbierała informacje dla Pekinu. Chiny odrzuciły zarzut jako zniesławienie.",
+      "zrodla": [
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/nvidia-jensen-huang-investigation-chinese-spy-68839e7ca6ba2b121529f7e475e501d6",
+          "data": "2026-11-09"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/asia-pacific/south-korea-says-nvidia-issues-wont-affect-contracted-gpu-supplies-2026-11-09/",
+          "data": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "id": "z8",
+      "blok": "swiat",
+      "data": "2026-11-06",
+      "tagi": [
+        "afryka"
+      ],
+      "kraje": [
+        "Tanzania"
+      ],
+      "tekst": "Sąd w Tanzanii uniewinnił 6.11 opozycjonistę {{o:tundu-lissu|Tundu Lissu}} od zarzutu zdrady stanu, ale skazał go na cztery lata więzienia za nawoływanie do zakłócenia zeszłorocznych wyborów. Według AP organizacje praw człowieka twierdzą, że procesy opozycjonistów o zdradę w Afryce służą często uciszeniu krytyków.",
+      "zrodla": [
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/africa-treason-trial-tundu-lissu-857e08dbb40be85d705947b5fa4285f8",
+          "data": "2026-11-09"
+        }
+      ]
+    }
+  ],
+  "analizy": [],
+  "kalendarz": [
+    {
+      "data": "2026-11-10",
+      "tekst": "10.11: Ukraina – według Euronews początek rozmów Rosji, Ukrainy i USA w Abu Zabi, z udziałem przedstawicieli Europy (Kreml wcześniej: bez daty).",
+      "tagi": [
+        "ukraina",
+        "rozejm"
+      ],
+      "poza_kalendarium": "datę podaje Euronews, bez potwierdzenia organizatora; w do_sprawdzenia"
+    },
+    {
+      "data": "2026-11-12",
+      "tekst": "12.11: Irlandia – szczyt Europejskiej Wspólnoty Politycznej.",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-13",
+      "tekst": "13.11: nieformalne spotkanie szefów państw i rządów UE.",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-18",
+      "tekst": "18–19.11: Chiny – spotkanie przywódców APEC w Shenzhen.",
+      "tagi": [
+        "chiny"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [],
+    "pism": [],
+    "nieodczytane": [
+      "osw",
+      "pism"
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "prog": "dokumentacja",
+      "tekst": "Ukraina: według Euronews rozmowy Rosji, Ukrainy i USA w Abu Zabi mają ruszyć 10.11; data i skład delegacji nie mają potwierdzenia organizatora ani stron.",
+      "sprawdzono": [
+        "Euronews 8.11: jedyne źródło daty",
+        "WebSearch 9.11: brak doniesień o rozmowach w Abu Zabi 10.11",
+        "Newslettery AP i Reutersa z 8–9.11: brak wzmianki o terminie"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-11-08#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "WebSearch 9.11: brak doniesień o nalotach na Sanę z listopada 2026",
+        "Newslettery AP i Reutersa z 9.11: brak aktualizacji",
+        "Komunikaty koalicji i ONZ: nie znaleziono w wyszukiwarce"
+      ],
+      "powod": "Poza Reutersem (dane strony zainteresowanej, rozbieżna liczba ofiar) żadne źródło nie potwierdziło zdarzenia."
+    },
+    {
+      "dotyczy": "2026-11-08#n2",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "WebSearch 9.11: Pistorius Patriot – tylko teksty z 2025 i stycznia 2026",
+        "Kyiv Independent: wpisu z 8.11 nie znaleziono w wyszukiwarce",
+        "Newslettery AP i Reutersa z 9.11: brak wzmianki"
+      ],
+      "powod": "Wyszukiwarka zwraca tylko wcześniejsze wypowiedzi Pistoriusa (styczeń 2026); wypowiedzi z listopada nie znaleziono."
+    },
+    {
+      "dotyczy": "2026-11-08#n3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "WebSearch 9.11: Tajani, Brenner – brak doniesień o ataku z 7.11",
+        "ANSA i Farnesina: wpisu z 7.11 nie znaleziono",
+        "Newslettery AP i Reutersa z 9.11: brak wzmianki"
+      ],
+      "powod": "Wyszukiwarka nie wskazuje ataku na spółkę budującą tunel pod Brenner; znaleziono tylko wcześniejsze ataki na MSZ Włoch."
+    },
+    {
+      "dotyczy": "2026-11-08#n4",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "centcom.mil: HTTP 403",
+        "WebSearch 9.11: M/V Huda – brak wyników",
+        "Newslettery AP i Reutersa z 9.11: brak wzmianki"
+      ],
+      "powod": "Komunikatu Dowództwa Centralnego USA o statku M/V Huda nie znaleziono; strona CENTCOM zwraca 403."
+    }
+  ],
+  "do_sprawdzenia": [
+    "Ukraina – data i skład rozmów w Abu Zabi (10–11.11); komunikat organizatora lub stron",
+    "Iran i USA – wynik spotkania Trumpa z premierem Kataru; ataki na statki w rejonie Ormuzu",
+    "Izrael – skład koalicji Ejzenkota",
+    "Niemcy – Patriot i spotkanie Grupy Kontaktowej ds. Obrony Ukrainy w połowie listopada",
+    "Polska – spotkanie Kosiniak-Kamysz–Hegseth; DO RSZ, MON, SG, ŻW – incydenty; Agencja Uzbrojenia i PGZ – umowy",
+    "OSW i PISM – listy publikacji z 6–9.11 (nieodczytane)",
+    "Kalendarium – szczyt ASEAN (16–18.11), MSC 2027, wybory w Serbii, marcowa Rada Europejska 2027"
+  ],
+  "nota": "Nie udało się odczytać list publikacji OSW (test przeglądarki) i PISM (pusta strona), także w wersjach angielskich. Nie sprawdzono komunikatów DORSZ, MON, Straży Granicznej, Żandarmerii Wojskowej, Agencji Uzbrojenia i PGZ ani działu Świat Onetu (wyszukiwarka nie zwróciła wpisów z 9.11); strony AP, Reutersa, PAP i CENTCOM są zablokowane. Agencje opisano według newsletterów AP i Reutersa."
+}

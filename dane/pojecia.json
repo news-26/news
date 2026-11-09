@@ -336,6 +336,12 @@
       "nazwa": "CENTCOM",
       "pelna": "Dowództwo Centralne USA",
       "definicja": "Dowództwo sił zbrojnych USA odpowiedzialne za Bliski Wschód i Azję Środkową; w 2026 r. egzekwuje amerykańską blokadę irańskich portów."
+    },
+    {
+      "id": "cop31",
+      "nazwa": "COP31",
+      "pelna": "31. Konferencja Stron Ramowej konwencji ONZ w sprawie zmian klimatu",
+      "definicja": "Doroczny szczyt klimatyczny ONZ. W 2026 roku odbywa się w Antalyi w Turcji, we współpracy z Australią, w dniach 9–20 listopada."
     }
   ]
 }

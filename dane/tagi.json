@@ -649,23 +649,8 @@
       "nazwa": "Inne",
       "grupa": "temat",
       "opis": "Wątki rzadkie, bez osobnego hashtagu.",
-      "stan": "8.11 Prokuratura Krajowa uznała zamach w Krakowie za przestępstwo o charakterze terrorystycznym; 7.11 Herzog powierzył Eisenkotowi misję utworzenia rządu w Izraelu.",
+      "stan": "7.11 Herzog powierzył Eisenkotowi misję utworzenia rządu w Izraelu.",
       "stan_zrodla": [
-        {
-          "nazwa": "Prokuratura Krajowa (za zero.pl)",
-          "url": "https://zero.pl/news/sledztwo-po-zamachu-w-krakowie-i-zabojstwach-w-ostrowcu-jest-komunikat-prokuratury",
-          "data": "2026-11-08"
-        },
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/08/what-we-know-about-the-krakow-shooting-that-left-six-people-dead",
-          "data": "2026-11-08"
-        },
-        {
-          "nazwa": "Associated Press (newsletter)",
-          "url": "https://apnews.com/article/poland-shooting-krakow-market-dead-69a65400657ffd0c8b3fa104bd472b97",
-          "data": "2026-11-08"
-        },
         {
           "nazwa": "Reuters (newsletter)",
           "url": "https://www.reuters.com/world/middle-east/israeli-president-picks-gadi-eisenkot-netanyahu-rival-form-government-2026-11-07/",

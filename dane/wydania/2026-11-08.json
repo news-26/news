@@ -4,42 +4,12 @@
   "godzina": "20:00",
   "typ": "dzienne",
   "w_skrocie": [
-    "W sobotę 7.11 na Rynku Głównym w Krakowie 24-letni obywatel Polski zabił sześć osób. Prokuratura Krajowa uznała 8.11, że był to czyn o charakterze terrorystycznym, i uważa, że sprawca zabił też trzy osoby w Ostrowcu Świętokrzyskim.",
     "Prezydent Izraela {{o:icchak-herzog|Icchak Herzog}} powierzył 7.11 wieczorem misję utworzenia rządu Gadiemu Eisenkotowi, byłemu szefowi sztabu i rywalowi premiera {{o:benjamin-netanjahu|Benjamina Netanjahu}}. Eisenkot ma 28 dni na zbudowanie koalicji, z możliwością przedłużenia o 14.",
     "Rozmowy Rosji, Ukrainy i USA w Abu Zabi zaczną się według Euronews 10.11. Francuski minister spraw zagranicznych Jean-Noël Barrot powiedział, że wezmą w nich udział także Europejczycy.",
     "W nocy z 7 na 8.11 rosyjskie ataki pozbawiły prądu około 850 tysięcy odbiorców w obwodach dniepropetrowskim i charkowskim. Prezydent {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} mówi, że Rosja nasiliła uderzenia przed rozmowami w Abu Zabi."
   ],
   "korekty": [],
   "zarys": [
-    {
-      "id": "z1",
-      "blok": "polska",
-      "data": "2026-11-07",
-      "tagi": [
-        "inne"
-      ],
-      "etap": "W TOKU",
-      "miejsce": "krakow",
-      "krotko": "Kraków: prokuratura uznaje atak za terrorystyczny",
-      "tekst": "Prokuratura Krajowa podała 8.11, że sobotni atak na Rynku Głównym w Krakowie, w którym zginęło sześć osób, był przestępstwem o charakterze **terrorystycznym**. Prokuratura uważa, że 24-letni sprawca zabił też trzy osoby w Ostrowcu Świętokrzyskim; według ministra spraw wewnętrznych i administracji {{o:marcin-kierwinski|Marcina Kierwińskiego}} interesował się ideologiami skrajnej prawicy.",
-      "zrodla": [
-        {
-          "nazwa": "Prokuratura Krajowa (za zero.pl)",
-          "url": "https://zero.pl/news/sledztwo-po-zamachu-w-krakowie-i-zabojstwach-w-ostrowcu-jest-komunikat-prokuratury",
-          "data": "2026-11-08"
-        },
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/08/what-we-know-about-the-krakow-shooting-that-left-six-people-dead",
-          "data": "2026-11-08"
-        },
-        {
-          "nazwa": "Associated Press (newsletter)",
-          "url": "https://apnews.com/article/poland-shooting-krakow-market-dead-69a65400657ffd0c8b3fa104bd472b97",
-          "data": "2026-11-08"
-        }
-      ]
-    },
     {
       "id": "z3",
       "blok": "wojna",
@@ -283,7 +253,6 @@
   ],
   "do_sprawdzenia": [
     "Izrael – skład koalicji Eisenkota; ceremonia wręczenia misji",
-    "Kraków i Ostrowiec Świętokrzyski – zarzuty wobec sprawcy, jego stan zdrowia, motyw; wniosek o areszt",
     "Iran i USA – skutki uderzenia na M/V Huda; reakcja Iranu; źródło ataku na Rijad",
     "Ukraina – potwierdzenie daty i składu rozmów w Abu Zabi (10–11.11); Komyszuwacha – liczba ofiar",
     "Niemcy – Patriot i spotkanie Grupy Kontaktowej ds. Obrony Ukrainy w połowie listopada",

@@ -4,41 +4,12 @@
   "godzina": "20:00",
   "typ": "dzienne",
   "w_skrocie": [
-    "W sobotę 7.11 mężczyzna jadący samochodem po Rynku Głównym w Krakowie strzelał do ludzi. Według wojewody małopolskiego i policji zginęło sześć osób, a 15 zostało rannych; sprawcę, obywatela Polski, zatrzymano.",
     "W piątek 6.11 siły USA uderzyły w irańską obronę przeciwlotniczą na wyspie Keszm. Prezydent {{o:donald-trump|Donald Trump}} mówi o postępach w rozmowach z Teheranem.",
     "W nocy z 6 na 7.11 rosyjskie pociski balistyczne uderzyły w Kijów i obwód kijowski. Uszkodzony został Most Północny, a według władz ukraińskich co najmniej sześć osób zostało rannych w Kijowie.",
     "Senat Paragwaju odsunął 6.11 prezydenta {{o:santiago-pena|Santiago Peña}} od władzy w związku z upadkiem banku cyfrowego Ueno. Urząd objął wiceprezydent {{o:pedro-alliana|Pedro Alliana}}."
   ],
   "korekty": [],
   "zarys": [
-    {
-      "id": "z1",
-      "blok": "polska",
-      "data": "2026-11-07",
-      "tagi": [
-        "inne"
-      ],
-      "miejsce": "krakow",
-      "krotko": "Kraków: strzelanina na Rynku Głównym",
-      "tekst": "W sobotę 7.11 około godz. 15 mężczyzna jadący samochodem po Rynku Głównym w Krakowie **strzelał** do ludzi. Według wojewody małopolskiego i policji zginęło sześć osób, a 15 zostało rannych, w tym policjanci. Policja postrzeliła i zatrzymała sprawcę, obywatela Polski; jego motywów nie ustalono.",
-      "zrodla": [
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/07/at-least-five-killed-in-shooting-in-krakow-polish-police-say",
-          "data": "2026-11-07"
-        },
-        {
-          "nazwa": "Interia (za wojewodą małopolskim i policją)",
-          "url": "https://wydarzenia.interia.pl/malopolskie/news-rosnie-liczba-ofiar-strzelaniny-w-krakowie-wojewoda-malopols,nId,23570605",
-          "data": "2026-11-07"
-        },
-        {
-          "nazwa": "Associated Press (newsletter)",
-          "url": "https://apnews.com/article/poland-shooting-krakow-market-dead-076b972f107df14a1f71e12a74d4d8e5",
-          "data": "2026-11-07"
-        }
-      ]
-    },
     {
       "id": "z2",
       "blok": "wojna",
@@ -316,7 +287,6 @@
   "rozstrzygniecia": [],
   "do_sprawdzenia": [
     "Izrael – wskazanie kandydata na premiera przez prezydenta Herzoga (8.11)",
-    "Kraków – motyw sprawcy, komunikat prokuratury i policji, ostateczna liczba ofiar",
     "Iran i USA – dalsze uderzenia na Keszm, rozmowy przez Katar; żegluga w cieśninie Ormuz (tankowiec na minie według irańskich mediów)",
     "Ukraina – data i skład rozmów w Abu Zabi (10.11 według strony ukraińskiej; Kreml: w przyszłym tygodniu); wpływ uderzeń na stacje łączące elektrownie jądrowe z Kijowem",
     "Polska – spotkanie Kosiniak-Kamysz–Hegseth (10.11 czy połowa listopada); propozycja Komisji Europejskiej wyłączenia Polski z paktu migracyjnego (Polsat News, 6.11)",

@@ -1,29 +1,99 @@
 {
- "od": "2026-11-01",
- "do": "2026-11-07",
- "opublikowano": "2026-11-08",
+ "od": "2026-11-02",
+ "do": "2026-11-08",
+ "opublikowano": "2026-11-09",
  "godzina": "04:47",
- "tytul": "Top 10: ostatnie 7 dni (1–7.11.2026)",
+ "tytul": "Top 10: ostatnie 7 dni (2–8.11.2026)",
  "wstep": [
-  "Najważniejsze sprawy z ostatnich 7 dni (1–7.11.2026) – w tym tygodniu cztery sprawy spełniają kryteria. Każda ma przebieg z datami i źródłami oraz wniosek „Dla Polski”; starsze sprawy są w archiwum miesięcznym.",
-  "Oś tygodnia to **wojna z Iranem i Ukraina**: 2.11 USA uderzyły w irańskie cele w rejonie Cieśniny Ormuz, a 6.11 w irańską obronę przeciwlotniczą na wyspie Keszm; Katar mediuje między stronami. W nocy na 1.11 Rosja uderzyła w sieć energetyczną w co najmniej czterech obwodach Ukrainy, a w nocy na 7.11 pociskami balistycznymi w Kijów i obwód kijowski. W Oleszkach pod Chersoniem lokalny rozejm trwał do wieczora 1.11; ewakuowano blisko 800 osób, a po jego końcu Rosja wznowiła ataki w regionie. Poza tym 3.11 demokraci wygrali wybory połowy kadencji w USA i zdobyli większość w obu izbach Kongresu."
+  "Najważniejsze sprawy z ostatnich 7 dni (2–8.11.2026) – w tym tygodniu cztery sprawy spełniają kryteria. Każda ma przebieg z datami i źródłami oraz wniosek „Dla Polski”; starsze sprawy są w archiwum miesięcznym.",
+  "Najważniejszy dla Polski jest **zamach w Krakowie**: 7.11 sprawca zabił na Rynku Głównym sześć osób, a 8.11 prokuratura uznała atak za terrorystyczny. Oś tygodnia to też **wojna z Iranem i Ukraina**: 2.11 USA uderzyły w irańskie cele w rejonie Cieśniny Ormuz, a 6.11 w irańską obronę przeciwlotniczą na wyspie Keszm; Katar mediuje między stronami. W nocy na 7.11 Rosja uderzyła pociskami balistycznymi w Kijów, a 8.11 ataki pozbawiły prądu około 850 tys. odbiorców. Poza tym 3.11 demokraci wygrali wybory połowy kadencji w USA i zdobyli większość w obu izbach Kongresu."
  ],
  "kryteria": "Do zestawienia trafia wydarzenie, które spełnia trzy warunki: zmieniło stan rzeczy w ostatnich 7 dniach (zapadła decyzja, zmieniła się władza, powstała nowa zdolność wojskowa albo incydent miał realne następstwo – retoryka i zapowiedzi bez terminu nie wystarczą), ma konkretny skutek dla Polski lub Europy albo dla sytuacji międzynarodowej i jest udokumentowane w co najmniej dwóch pozycjach wydań dziennych. Przy wątkach trwających miesiącami liczy się zmiana w tygodniu, a nie sam wątek; tytuł opisuje najnowszy fakt. Gdy kryteria spełnia mniej niż dziesięć spraw, lista jest krótsza. Kolejność ustala autor według wpływu na bezpieczeństwo i interesy Polski, potem skali, potem trwałości skutków. Ranking jest więc oceną, a nie faktem; fakty mają źródła, oceny – autora.",
  "pozycje": [
   {
+   "id": "krakow-zamach",
+   "tytul": "Prokuratura Krajowa uznaje 8.11 sobotni atak na Rynku Głównym w Krakowie, w którym zginęło sześć osób, za przestępstwo terrorystyczne; sprawca ma też zabić trzy osoby w Ostrowcu Świętokrzyskim",
+   "data": [
+    "2026-11-07",
+    "2026-11-08"
+   ],
+   "tagi": [
+    "inne"
+   ],
+   "etap": "W TOKU",
+   "lead": "W sobotę 7.11 około godz. 15 mężczyzna jadący samochodem po Rynku Głównym w Krakowie strzelał do ludzi; według wojewody małopolskiego i policji zginęło sześć osób, a 15 zostało rannych. 8.11 Prokuratura Krajowa podała, że atak był przestępstwem o charakterze **terrorystycznym**, a 24-letni sprawca zabił też trzy osoby w Ostrowcu Świętokrzyskim.",
+   "omowienie": [
+    "Policja postrzeliła i zatrzymała sprawcę, obywatela Polski. Według ministra spraw wewnętrznych i administracji {{o:marcin-kierwinski|Marcina Kierwińskiego}} interesował się ideologiami skrajnej prawicy."
+   ],
+   "przebieg": [
+    {
+     "data": "2026-11-07",
+     "tekst": "W sobotę 7.11 około godz. 15 mężczyzna jadący samochodem po Rynku Głównym w Krakowie **strzelał** do ludzi. Według wojewody małopolskiego i policji zginęło sześć osób, a 15 zostało rannych, w tym policjanci. Policja postrzeliła i zatrzymała sprawcę, obywatela Polski; jego motywów nie ustalono.",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "Euronews",
+       "url": "https://www.euronews.com/2026/11/07/at-least-five-killed-in-shooting-in-krakow-polish-police-say",
+       "data": "2026-11-07"
+      },
+      {
+       "nazwa": "Interia (za wojewodą małopolskim i policją)",
+       "url": "https://wydarzenia.interia.pl/malopolskie/news-rosnie-liczba-ofiar-strzelaniny-w-krakowie-wojewoda-malopols,nId,23570605",
+       "data": "2026-11-07"
+      },
+      {
+       "nazwa": "Associated Press (newsletter)",
+       "url": "https://apnews.com/article/poland-shooting-krakow-market-dead-076b972f107df14a1f71e12a74d4d8e5",
+       "data": "2026-11-07"
+      }
+     ]
+    },
+    {
+     "data": "2026-11-08",
+     "tekst": "Prokuratura Krajowa podała 8.11, że sobotni atak na Rynku Głównym w Krakowie, w którym zginęło sześć osób, był przestępstwem o charakterze **terrorystycznym**. Prokuratura uważa, że 24-letni sprawca zabił też trzy osoby w Ostrowcu Świętokrzyskim; według ministra spraw wewnętrznych i administracji {{o:marcin-kierwinski|Marcina Kierwińskiego}} interesował się ideologiami skrajnej prawicy.",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "Prokuratura Krajowa (za zero.pl)",
+       "url": "https://zero.pl/news/sledztwo-po-zamachu-w-krakowie-i-zabojstwach-w-ostrowcu-jest-komunikat-prokuratury",
+       "data": "2026-11-08"
+      },
+      {
+       "nazwa": "Euronews",
+       "url": "https://www.euronews.com/2026/11/08/what-we-know-about-the-krakow-shooting-that-left-six-people-dead",
+       "data": "2026-11-08"
+      },
+      {
+       "nazwa": "Associated Press (newsletter)",
+       "url": "https://apnews.com/article/poland-shooting-krakow-market-dead-69a65400657ffd0c8b3fa104bd472b97",
+       "data": "2026-11-08"
+      }
+     ]
+    }
+   ],
+   "oceny": [],
+   "dla_polski": "To największy od lat zamach terrorystyczny w Polsce, dokonany przez obywatela Polski, więc ocena zagrożenia i ochrona zgromadzeń publicznych dotyczą krajowych służb. Wniosek autora: śledztwo w sprawie motywów i powiązań sprawcy zdecyduje, czy potrzebne są zmiany w nadzorze nad osobami radykalizującymi się.",
+   "w_wydaniach": [
+    "2026-11-07#z1",
+    "2026-11-08#z1"
+   ]
+  },
+  {
    "id": "wojna-powietrzna",
-   "tytul": "Rosja uderza w nocy na 7.11 pociskami balistycznymi w Kijów i obwód kijowski; uszkodzony Most Północny, co najmniej sześć osób rannych",
-   "data": "2026-11-07",
+   "tytul": "Rosyjskie ataki 8.11 pozbawiają prądu około 850 tys. odbiorców w obwodach dniepropetrowskim i charkowskim; w nocy na 7.11 Rosja uderza pociskami balistycznymi w Kijów",
+   "data": [
+    "2026-11-07",
+    "2026-11-08"
+   ],
    "tagi": [
     "front",
     "ukraina",
     "rosja",
     "energia"
    ],
-   "lead": "W nocy z 6 na 7.11 rosyjskie pociski balistyczne uderzyły w Kijów i obwód kijowski. Według władz ukraińskich co najmniej sześć osób zostało rannych w Kijowie, a uszkodzony został Most Północny i obiekty energetyczne; według Zełenskiego wystrzelono 36 pocisków.",
+   "lead": "W nocy z 6 na 7.11 rosyjskie pociski balistyczne uderzyły w Kijów i obwód kijowski; według władz ukraińskich co najmniej sześć osób zostało rannych, a uszkodzony został Most Północny i obiekty energetyczne. 8.11 rosyjskie ataki pozbawiły prądu około **850 tys. odbiorców**: ponad 600 tys. w obwodzie dniepropetrowskim (według firmy DTEK) i około 250 tys. w charkowskim (według władz lokalnych).",
    "omowienie": [
-    "W nocy z 30 na 31.10 ataki uszkodziły kijowską elektrociepłownię i cztery podstacje, a według Zełenskiego bez prądu zostało około **280 tys. gospodarstw domowych**; brak prądu dotyczył głównie obwodów dniepropetrowskiego i kijowskiego. W nocy na 1.11 uderzenia w sieć energetyczną znów pozbawiły prądu setki tysięcy gospodarstw.",
-    "Wcześniej, w nocy na 1.11, Rosja uderzyła w sieć energetyczną w co najmniej czterech obwodach; według sił powietrznych Ukrainy zestrzelono 371 z 433 dronów, a według władz regionalnych zginęła jedna osoba, a co najmniej 47 zostało rannych."
+    "Według Zełenskiego w nocy na 7.11 wystrzelono 36 pocisków, a w obwodzie żytomierskim 140 bloków straciło ogrzewanie. Wcześniej, w nocy z 30 na 31.10, ataki uszkodziły kijowską elektrociepłownię i cztery podstacje, a bez prądu zostało około 280 tys. gospodarstw domowych."
    ],
    "przebieg": [
     {
@@ -125,6 +195,23 @@
        "data": "2026-11-07"
       }
      ]
+    },
+    {
+     "data": "2026-11-08",
+     "tekst": "Rosyjskie ataki pozbawiły prądu około 850 tysięcy odbiorców: ponad 600 tysięcy w obwodzie dniepropetrowskim według firmy DTEK i około 250 tysięcy w obwodzie charkowskim według władz lokalnych. Prezydent {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} dodał, że w obwodzie żytomierskim 140 bloków straciło ogrzewanie.",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "Euronews",
+       "url": "https://www.euronews.com/2026/11/08/russian-strikes-on-ukraine-leave-850000-without-power-as-zelenskyy-reports-drone-attack-on",
+       "data": "2026-11-08"
+      },
+      {
+       "nazwa": "Associated Press (newsletter)",
+       "url": "https://apnews.com/article/russia-ukraine-war-strike-bomb-humanitarian-aid-e64dd583955f11e4cf08ef5af6eaf35b",
+       "data": "2026-11-08"
+      }
+     ]
     }
    ],
    "oceny": [],
@@ -134,7 +221,8 @@
     "2026-10-29#z2",
     "2026-10-31#z3",
     "2026-11-01#z2",
-    "2026-11-07#z3"
+    "2026-11-07#z3",
+    "2026-11-08#z4"
    ]
   },
   {
@@ -273,147 +361,15 @@
     "2026-11-03#z2",
     "2026-11-04#z1"
    ]
-  },
-  {
-   "id": "oleszki-rozejm",
-   "tytul": "Lokalny rozejm w okupowanych Oleszkach kończy się 1.11; według Melanii Trump ewakuowano blisko 800 osób, Rosja wznawia ataki w obwodzie chersońskim",
-   "data": "2026-11-01",
-   "tagi": [
-    "ukraina",
-    "rosja",
-    "usa",
-    "rozejm"
-   ],
-   "etap": "W TOKU",
-   "lead": "Rosja i Ukraina uzgodniły 23.10 lokalny rozejm w okupowanych Oleszkach; według AP umowę wynegocjowała Melania Trump. Rozejm obowiązywał od 27.10 do wieczora 1.11, a według Melanii Trump ewakuowano blisko 800 osób; Kijów i Moskwa nie podały własnych liczb. Po końcu rozejmu Rosja wznowiła ataki w obwodzie chersońskim, jak podał Kijów.",
-   "omowienie": [
-    "Według rzecznika praw obywatelskich Dmytra Lubińca rozejm obejmuje cały obwód chersoński; Lubiniec nazwał operację „niezwykle trudną do przeprowadzenia”. Gwarancje bezpieczeństwa nie zostały podane, a według ukraińskiej telewizji publicznej ewakuowani jadą przez Rosję i Białoruś. 31.10 ewakuowani mieszkańcy dotarli na terytorium Ukrainy po drodze przez Rosję i Białoruś."
-   ],
-   "przebieg": [
-    {
-     "data": "2026-10-23",
-     "tekst": "Rosja i Ukraina uzgodniły lokalny rozejm w Oleszkach, by umożliwić dowóz pomocy i wyjazd cywilów; według Białego Domu zacznie się 29.10, według rosyjskiego Sztabu Generalnego (Gierasimow) wstrzymanie ognia obowiązuje od 27.10. Porozumienie potwierdził Lubiniec.",
-     "etap": "ZAPOWIEDŹ",
-     "zrodla": [
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/10/23/melania-trump-secures-ceasefire-in-russian-occupied-ukrainian-city-of-oleshky-white-house-",
-       "data": "2026-10-23"
-      },
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/breaking-russia-ukraine-agree-to-oleshky-ceasefire-mediated-by-melania-trump-white-house-says/",
-       "data": "2026-10-23"
-      },
-      {
-       "nazwa": "Meduza",
-       "url": "https://meduza.io/en/news/2026/10/23/russia-announces-october-27-ceasefire-on-southern-ukraine-s-kherson-front-to-evacuate-residents-of-occupied-oleshky",
-       "data": "2026-10-23"
-      }
-     ]
-    },
-    {
-     "data": "2026-10-27",
-     "tekst": "Rozejm w Oleszkach rozpoczął się 27.10 o godz. 3:00 czasu kijowskiego i trwa do 1.11, do godz. 22:59; ewakuacja ma ruszyć 30.10. Według biura Lubińca obejmuje cały obwód chersoński, a Melania Trump napisała, że rozejm został rozszerzony.",
-     "etap": "W TOKU",
-     "zrodla": [
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/10/27/us-brokered-ceasefire-begins-in-russian-occupied-oleshky-as-strikes-hit-kyiv",
-       "data": "2026-10-27"
-      },
-      {
-       "nazwa": "France 24",
-       "url": "https://www.france24.com/en/live-news/20261027-us-brokered-truce-begins-in-ukraine-city-occupied-by-russia",
-       "data": "2026-10-27"
-      },
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/local-ceasefire-in-besieged-oleshky-begins-ukrainian-russian-officials-say/",
-       "data": "2026-10-27"
-      }
-     ]
-    },
-    {
-     "data": "2026-10-30",
-     "tekst": "W Oleszkach ruszyła ewakuacja cywilów i dystrybucja pomocy humanitarnej: do miasta wjechała kolumna 25 autobusów i karetek. Według ukraińskiej telewizji publicznej ewakuowani jadą przez Rosję i Białoruś.",
-     "etap": "W TOKU",
-     "zrodla": [
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/10/30/residents-leave-russian-occupied-oleshky-amid-local-ceasefire",
-       "data": "2026-10-30"
-      },
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/oleshky-evacuation-begins-but-volunteer-claims-russia-already-moved-people-outside-of-agreed-terms/",
-       "data": "2026-10-30"
-      },
-      {
-       "nazwa": "Meduza",
-       "url": "https://meduza.io/en/news/2026/10/30/evacuation-humanitarian-aid-distribution-begin-in-russian-occupied-oleshky",
-       "data": "2026-10-30"
-      }
-     ]
-    },
-    {
-     "data": "2026-10-31",
-     "tekst": "Ewakuowani mieszkańcy Oleszek dotarli na terytorium Ukrainy po drodze przez Rosję i Białoruś; według Euronews przekroczyli granicę w obwodzie czernihowskim, a lokalne zawieszenie broni ma trwać do wieczora 1.11. Umowę wynegocjowała według AP Melania Trump.",
-     "etap": "W TOKU",
-     "zrodla": [
-      {
-       "nazwa": "Associated Press",
-       "url": "https://apnews.com/article/russia-ukraine-war-oleshky-evacuation-5cbc7d2a5b8ac34b15c914338fd5a9f3",
-       "data": "2026-10-31"
-      },
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/10/31/oleshky-evacuees-arrive-in-belarus-amid-localised-truce-between-kyiv-and-moscow",
-       "data": "2026-10-31"
-      },
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/oleshky-residents-reach-ukrainian-controlled-territory-after-escaping-russian-occupation/",
-       "data": "2026-10-31"
-      }
-     ]
-    },
-    {
-     "data": "2026-11-01",
-     "tekst": "Lokalne zawieszenie broni w Oleszkach skończyło się 1.11 o godz. 23:00; według Melanii Trump ewakuowano blisko 800 osób, Kijów i Moskwa nie podały własnych liczb. Po końcu rozejmu Rosja wznowiła ataki w obwodzie chersońskim, jak podał Kijów.",
-     "etap": "W TOKU",
-     "zrodla": [
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/nearly-800-people-evacuated-from-oleshky-melania-trump-says-as-kyiv-moscow-withhold-figures/",
-       "data": "2026-11-02"
-      },
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/11/02/russia-resumes-attacks-on-ukraines-kherson-region-after-truce-ends-kyiv-says",
-       "data": "2026-11-02"
-      }
-     ]
-    }
-   ],
-   "oceny": [],
-   "dla_polski": "Pierwszy lokalny rozejm uzgodniony przez Rosję i Ukrainę przy pośrednictwie USA pokazuje, że kanał humanitarny działa mimo braku rozmów o zawieszeniu broni; dla Polski i Europy oznacza to możliwy wzorzec dalszych ograniczonych porozumień, ale bez wpływu na ogólny przebieg wojny. Wniosek autora: rozejm dotrwał do końca terminu i umożliwił ewakuację, ale Rosja wznowiła ataki zaraz po jego zakończeniu, więc nie zmienia ogólnego przebiegu wojny.",
-   "w_wydaniach": [
-    "2026-10-23#z1",
-    "2026-10-27#z2",
-    "2026-10-30#z1",
-    "2026-10-31#z1",
-    "2026-11-02#z3"
-   ]
   }
  ],
  "czego_nie_ma": [
   {
-   "tekst": "Strzelanina na Rynku Głównym w Krakowie (7.11, sześć zabitych, sprawca – obywatel Polski, motywów nie ustalono) – po jednej pozycji w wydaniach z okresu, bez ustalonego związku z sytuacją międzynarodową.",
+   "tekst": "Szczątki po nieudanym ataku uszkadzające budynek Saudi Aramco w Rijadzie (8.11) – jedna pozycja, sprawców nie wskazano.",
    "prog": "następstwo"
   },
   {
-   "tekst": "Zapowiedź Trumpa z 3.11 o końcu przekazywania Izraelowi ok. 4 mld dolarów rocznie od 2027 r., zatwierdzenie wyników wyborów w Izraelu (4.11), próby budowy koalicji bez Netanjahu (5.11) i zapowiedź Herzoga z 6.11, że wskaże kandydata na premiera 8.11 – bez rozstrzygnięcia, kto utworzy rząd.",
+   "tekst": "Zapowiedź Trumpa z 3.11 o końcu przekazywania Izraelowi ok. 4 mld dolarów rocznie od 2027 r. (jedna pozycja) oraz powierzenie przez Herzoga 7.11 misji tworzenia rządu Gadiemu Eisenkotowi (28 dni na koalicję) – rząd jeszcze nie powstał.",
    "prog": "następstwo"
   },
   {
@@ -421,7 +377,7 @@
    "prog": "następstwo"
   },
   {
-   "tekst": "Rozmowy trójstronne USA–Ukraina–Rosja w Abu Zabi (zapowiedź, wstępnie 10.11, bez potwierdzonej daty), mianowanie Stephena Millera szefem gabinetu Białego Domu (6.11) i fałszywe zawiadomienia o bombach w stacjach telewizyjnych w Europie (6.11) – po jednej pozycji w wydaniach z okresu.",
+   "tekst": "Rozmowy trójstronne USA–Ukraina–Rosja w Abu Zabi (zapowiedź, według Euronews 10–11.11, Kreml daty nie podał), mianowanie Stephena Millera szefem gabinetu Białego Domu (6.11) i fałszywe zawiadomienia o bombach w stacjach telewizyjnych w Europie (6.11) – zapowiedź albo po jednej pozycji w wydaniach z okresu.",
    "prog": "następstwo"
   },
   {
@@ -433,5 +389,5 @@
    "prog": "następstwo"
   }
  ],
- "nota": "Zestawienie kroczące za 1–7.11.2026. Przesunięto okno o dzień; do spraw o atakach powietrznych i o Iranie dopisano fakty z wydania 7.11. Fakty pochodzą z wydań dziennych i ich źródeł; kolejność to ocena autora."
+ "nota": "Zestawienie kroczące za 2–8.11.2026. Przesunięto okno o dzień: z listy wypadła sprawa Oleszek (ostatni fakt 1.11), do spraw o atakach powietrznych dopisano fakty z wydania 8.11, a sprawa zamachu w Krakowie weszła po drugiej pozycji w wydaniach z okresu. Fakty pochodzą z wydań dziennych i ich źródeł; kolejność to ocena autora."
 }

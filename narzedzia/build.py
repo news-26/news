@@ -821,7 +821,7 @@ def waliduj_topy(topy, tagi, osoby, pojecia, klucze, b: Bledy):
                     b.dodaj(gr, f"etap musi być jednym z {sorted(x for x in ETAPY if x)}")
                 sprawdz_tekst(r.get("tekst"), gr, osoby, pojecia, b)
                 sprawdz_zrodla(r.get("zrodla"), gr, b)
-                jedna = str(r.get("data", "")) >= JEDNA_AGENCJA_OD  # ta sama reguła co w zarysie wydania dziennego
+                jedna = str(z.get("opublikowano", "")) >= JEDNA_AGENCJA_OD  # ta sama reguła co w zarysie wydania dziennego
                 if RANKING and r.get("zrodla") and not podstawa_ok(r["zrodla"], tekst=r.get("tekst", "") if jedna else None):
                     b.dodaj(gr, "za słaba podstawa: potrzebne źródło urzędowe (poziom 1) albo dwa niezależne z poziomów 1–2"
                                 + ("; jedna agencja (Reuters, AP, AFP, PAP, Bloomberg) wystarcza tylko z atrybucją w tekście" if jedna else ""))

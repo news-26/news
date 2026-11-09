@@ -106,9 +106,9 @@ Dwa rodzaje, ten sam format: **kroczące** `dane/top/biezace.json` – ostatnie 
 **Kiedy wydarzenie trafia do Top 10** – trzy warunki naraz:
 1. zmieniło stan rzeczy w danym okresie (tydzień w zestawieniu kroczącym, miesiąc w archiwum) (decyzja przyjęta, zmiana władzy, nowa zdolność wojskowa, incydent z realnym następstwem); retoryka i zapowiedzi bez terminu nie wystarczą,
 2. ma konkretny skutek dla Polski lub Europy albo zmienia ogólną sytuację międzynarodową (układ sił, wojny i rozejmy, relacje mocarstw, globalna gospodarka), co da się nazwać w jednym zdaniu,
-3. jest udokumentowane w co najmniej dwóch pozycjach wydań dziennych z tego okresu.
+3. jest udokumentowane w co najmniej jednej pozycji wydań dziennych z tego okresu.
 
-Przy wątkach trwających miesiącami liczy się zmiana w danym okresie, nie sam wątek. Kolejność: wpływ na bezpieczeństwo i interesy Polski → skala (ile państw lub instytucji) → trwałość skutków. Fakty bierzemy z wydań dziennych (już zweryfikowanych) i ich źródeł; nie weryfikujemy ich drugi raz, ale każdy wiersz przebiegu musi spełniać zasadę rankingu źródeł.
+Przy wątkach trwających miesiącami liczy się zmiana w danym okresie, nie sam wątek. Kolejność: wpływ na bezpieczeństwo i interesy Polski → skala (ile państw lub instytucji) → trwałość skutków. Fakty bierzemy z wydań dziennych (już zweryfikowanych) i ich źródeł; nie weryfikujemy ich drugi raz, ale każdy wiersz przebiegu musi spełniać tę samą zasadę rankingu źródeł co pozycja wydania dziennego.
 
 **Historia zestawień.** Sprawa ciągnąca się z miesiąca na miesiąc zachowuje to samo `id` – strona sama oznacza ją odznaką „ponownie” (była już w archiwum) i linkuje do zestawień archiwalnych; nowa sprawa dostaje „nowe”, a pole `"rozstrzygniete": true` daje odznakę „rozstrzygnięte”. Stare adresy zestawień zastąpionych miesięcznymi przekierowuje `TOP_PRZEKIEROWANIA` w `build.py`. Strona `top/OD_DO.html`, lista `top/index.html` (kroczące na górze, niżej archiwum), blok na stronie głównej, odnośniki na stronach wątków, wyszukiwarka i RSS (tylko archiwum).
 

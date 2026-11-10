@@ -1,0 +1,481 @@
+{
+  "nr": 53,
+  "data": "2026-11-10",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Delegacje Ukrainy i Rosji rozpoczęły 10.11 w Abu Zabi pierwsze od lutego rozmowy z udziałem wysłanników USA. Według Kyiv Independent dotyczyły one wymiany jeńców, deeskalacji i gwarancji bezpieczeństwa, a 11.11 mają być kontynuowane.",
+    "Prezydent {{o:donald-trump|Donald Trump}} zapowiedział po rozmowie z premierem Kataru, że na razie nie wyda rozkazu nowych ataków na Iran. Według Reutersa Stany Zjednoczone utrzymają jednak blokadę morską w rejonie {{p:ormuz|Cieśniny Ormuz}}.",
+    "{{p:abw|Agencja Bezpieczeństwa Wewnętrznego}} zatrzymała 3.11 w Mińsku Mazowieckim dwóch obywateli Ukrainy podejrzanych o szpiegostwo i dywersję na zlecenie rosyjskiego wywiadu. Minister koordynator służb specjalnych poinformował o tym 10.11; sąd aresztował obu na trzy miesiące.",
+    "Dania przekaże Ukrainie pomoc wojskową o wartości 4,8 mld koron, czyli około 643 mln euro. Pakiet ogłoszono w Kopenhadze podczas wizyty prezydenta {{o:wolodymyr-zelenski|Wołodymyra Zełenskiego}}.",
+    "Litwa od 16.11 zatrzyma w porcie w Kłajpedzie zboże z Rosji i Białorusi do czasu sprawdzenia jego pochodzenia. Władze chcą wykryć zboże z okupowanych terenów Ukrainy."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-11-10",
+      "tagi": [
+        "ukraina",
+        "rozejm",
+        "rosja",
+        "usa"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "abu-zabi",
+      "krotko": "Abu Zabi: rozmowy Ukraina–Rosja–USA",
+      "kraje": [
+        "Zjednoczone Emiraty Arabskie"
+      ],
+      "tekst": "Delegacje Ukrainy pod kierunkiem {{o:rustem-umerow|Rustema Umerowa}} i Rosji pod kierunkiem doradcy prezydenta {{o:wladimir-miedinski|Władimira Miedinskiego}} rozpoczęły 10.11 w Abu Zabi pierwsze od lutego **rozmowy trójstronne** z udziałem wysłanników USA {{o:steve-witkoff|Steve'a Witkoffa}} i {{o:jared-kushner|Jareda Kushnera}}. Według Kyiv Independent pierwszy dzień dotyczył wymiany jeńców, deeskalacji oraz gwarancji bezpieczeństwa; delegacje mają kontynuować rozmowy 11.11.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/europe/russia-ukraine-meet-us-backed-talks-after-trump-says-broad-deal-possible-2026-11-10/",
+          "data": "2026-11-10"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/ukraine-russia-us-resume-trilateral-peace-talks-in-abu-dhabi-after-9-month-pause/",
+          "data": "2026-11-10"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/11/10/russia-and-ukraine-discuss-prisoners-security-guarantees-and-postwar-future-on-first-day-of-abu-dhabi-talks",
+          "data": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-11-10",
+      "tagi": [
+        "ukraina",
+        "nordyckie"
+      ],
+      "etap": "PRZYJĘTE",
+      "miejsce": "kopenhaga",
+      "krotko": "Kopenhaga: duński pakiet dla Ukrainy",
+      "kraje": [
+        "Dania"
+      ],
+      "tekst": "Dania ogłosiła 10.11 w Kopenhadze **pakiet pomocy wojskowej** dla Ukrainy o wartości 4,8 mld koron (około 643 mln euro). Prezydent {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} rozmawiał tam z premier {{o:mette-frederiksen|Mette Frederiksen}} i przywódcami państw nordyckich; Dania przeznaczy też 150 mln koron na ukraińską energetykę.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/10/denmark-pledges-643-million-in-military-aid-as-zelenskyy-meets-nordic-leaders",
+          "data": "2026-11-10"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-arrives-in-denmark-for-talks-with-nordic-leaders/",
+          "data": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "wojna",
+      "data": "2026-11-09",
+      "tagi": [
+        "iran",
+        "usa"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "waszyngton",
+      "krotko": "Waszyngton: Trump wstrzymuje ataki na Iran",
+      "tekst": "Prezydent {{o:donald-trump|Donald Trump}} oświadczył 9.11 po spotkaniu z premierem Kataru w Białym Domu, że na razie **wstrzyma nowe ataki** na Iran, ale utrzyma blokadę morską w rejonie {{p:ormuz|Cieśniny Ormuz}}. Minister spraw zagranicznych Iranu {{o:abbas-araghczi|Abbas Araghczi}} zaprzeczył, by planowano spotkanie przedstawicieli obu państw w Katarze.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/trump-meet-iran-war-mediator-qatar-no-imminent-deal-seen-end-war-2026-11-09/",
+          "data": "2026-11-10"
+        },
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/iran-us-war-trump-qatar-c38770b168faf5e094e96c1e1e212cff",
+          "data": "2026-11-10"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://pl.euronews.com/2026/11/10/trump-wojna-z-iranem-praktycznie-zakonczona-teheran-zaprzecza-planowanym-rozmowom",
+          "data": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "z13",
+      "blok": "wojna",
+      "data": "2026-11-09",
+      "tagi": [
+        "usa",
+        "iran",
+        "wielka-brytania"
+      ],
+      "miejsce": "mildenhall",
+      "krotko": "Mildenhall: USA przenoszą tankowce",
+      "tekst": "Według CNN lotnictwo USA przeniosło 9.11 z brytyjskiej bazy RAF Mildenhall dziesięć **samolotów tankowania** w powietrzu z powodu zagrożenia ze strony Iranu. Amerykański urzędnik potwierdził tymczasowe przeniesienie, a w bazach Mildenhall i Lakenheath podniesiono stopień zagrożenia.",
+      "zrodla": [
+        {
+          "nazwa": "CNN",
+          "url": "https://www.cnn.com/2026/11/10/world/us-moves-aircraft-british-military-base-intl",
+          "data": "2026-11-10"
+        },
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/us-air-force-planes-moved-18294a0abfe39c04c2e4f5b520ea8586",
+          "data": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "wojna",
+      "data": "2026-11-10",
+      "tagi": [
+        "iran"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "rijad",
+      "krotko": "Rijad: przechwycone pociski Huti",
+      "kraje": [
+        "Arabia Saudyjska",
+        "Jemen"
+      ],
+      "tekst": "Według Reutersa koalicja pod wodzą Arabii Saudyjskiej przechwyciła 10.11 dwa **pociski** jemeńskich {{p:huti|Huti}} wystrzelone w stronę Rijadu oraz drony. Jemeńska agencja Saba, kontrolowana przez Huti, podała, że Arabia Saudyjska zbombardowała Sanę.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/saudi-led-coalition-says-it-intercepts-two-houthi-missiles-fired-towards-riyadh-2026-11-10/",
+          "data": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "wojna",
+      "data": "2026-11-10",
+      "tagi": [
+        "francja",
+        "iran",
+        "hybryda"
+      ],
+      "miejsce": "paryz",
+      "krotko": "Paryż: wezwanie ambasadora Iranu",
+      "tekst": "Według Reutersa Francja wezwała 10.11 ambasadora Iranu w związku z **włamaniem do systemów chłodniczych** w supermarketach i zapowiedziała odpowiedź. Według CNBC francuska agencja cyberbezpieczeństwa ANSSI przypisała atak z 12.10 irańskiej grupie Shahid Kaveh.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/europe/france-summons-iran-envoy-over-supermarket-fridge-hack-warns-response-2026-11-10/",
+          "data": "2026-11-10"
+        },
+        {
+          "nazwa": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/10/iran-fridge-cyberattacks-france.html",
+          "data": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "z6",
+      "blok": "polska",
+      "data": "2026-11-03",
+      "tagi": [
+        "hybryda",
+        "obronnosc-polski"
+      ],
+      "miejsce": "minsk-mazowiecki",
+      "krotko": "Mińsk Mazowiecki: zatrzymani dywersanci",
+      "kraje": [
+        "Ukraina",
+        "Rosja"
+      ],
+      "tekst": "{{p:abw|ABW}} zatrzymała 3.11 w Mińsku Mazowieckim dwóch obywateli Ukrainy w wieku 24 i 25 lat, podejrzanych o **szpiegostwo i dywersję** na zlecenie rosyjskiego wywiadu. Według ministra koordynatora służb specjalnych {{o:tomasz-siemoniak|Tomasza Siemoniaka}} fotografowali obiekty infrastruktury krytycznej i wojskowej oraz podpalali samochody; sąd aresztował ich na trzy miesiące.",
+      "zrodla": [
+        {
+          "nazwa": "PAP (za Radio Maryja)",
+          "url": "https://www.radiomaryja.pl/informacje/t-siemoniak-abw-zatrzymala-dwoch-podejrzanych-o-szpiegostwo-i-dywersje-na-rzecz-rosji/",
+          "data": "2026-11-10"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/10/poland-arrests-two-ukrainians-suspected-of-spying-and-sabotage-for-russia",
+          "data": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "z7",
+      "blok": "instytucje",
+      "data": "2026-11-10",
+      "tagi": [
+        "litwa",
+        "rosja",
+        "bialorus",
+        "sankcje"
+      ],
+      "etap": "PRZYJĘTE",
+      "miejsce": "klajpeda",
+      "krotko": "Kłajpeda: kontrola zboża z Rosji",
+      "tekst": "Litwa od 16.11 będzie zatrzymywać w porcie w Kłajpedzie **zboże z Rosji i Białorusi** do czasu zbadania jego pochodzenia. Według Reutersa władze chcą wykryć ziarno z okupowanych terenów Ukrainy; ładunek o fałszywym pochodzeniu zostanie zawrócony albo zniszczony na koszt eksportera.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (za Kyiv Independent)",
+          "url": "https://kyivindependent.com/lithuania-to-tighten-checks-on-russian-grain-shipments/",
+          "data": "2026-11-10"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/10/lithuania-to-inspect-grain-shipments-from-russia-and-belarus-for-crops-from-occupied-ukraine-potentially-delaying-exports-by-months",
+          "data": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "z8",
+      "blok": "swiat",
+      "data": "2026-11-09",
+      "tagi": [
+        "usa"
+      ],
+      "etap": "PROPOZYCJA",
+      "miejsce": "waszyngton",
+      "krotko": "Waszyngton: wniosek o impeachment Hegsetha",
+      "tekst": "Republikański kongresmen Thomas Massie ponownie złożył 9.11 w Izbie Reprezentantów rezolucję o **postawienie w stan oskarżenia** sekretarza obrony {{o:pete-hegseth|Pete'a Hegsetha}}, głównie za prowadzenie wojny z Iranem. Według CBS News głosowanie nad wnioskiem o odrzucenie rezolucji zaplanowano na wieczór 10.11 czasu amerykańskiego; Hegseth nazwał inicjatywę „politycznym spektaklem”.",
+      "zrodla": [
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/hegseth-impeachment-briefing-trump-massie-87a78193502f716e6fb8eee5aef06ac0",
+          "data": "2026-11-10"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/us/hegseth-faces-expected-us-house-impeachment-vote-this-week-2026-11-09/",
+          "data": "2026-11-09"
+        },
+        {
+          "nazwa": "CBS News",
+          "url": "https://www.cbsnews.com/news/hegseth-pentagon-briefing-impeachment-iran-war/",
+          "data": "2026-11-10"
+        },
+        {
+          "nazwa": "NPR",
+          "url": "https://www.npr.org/2026/11/09/nx-s1-6034483/thomas-massie-impeachment-pete-hegseth",
+          "data": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "id": "z9",
+      "blok": "swiat",
+      "data": "2026-11-10",
+      "tagi": [
+        "iran",
+        "sankcje"
+      ],
+      "etap": "PRZYJĘTE",
+      "kraje": [
+        "Kanada"
+      ],
+      "tekst": "Według Reutersa Kanada przywróciła 10.11 **sankcje** wobec 11 irańskich podmiotów, które wspierają program jądrowy Iranu.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/canada-reimposes-sanctions-11-iranian-entities-contributing-nuclear-activities-2026-11-10/",
+          "data": "2026-11-10"
+        }
+      ],
+      "miejsce": "ottawa",
+      "krotko": "Ottawa: sankcje wobec Iranu"
+    },
+    {
+      "id": "z10",
+      "blok": "swiat",
+      "data": "2026-11-09",
+      "tagi": [
+        "rosja"
+      ],
+      "miejsce": "moskwa",
+      "krotko": "Moskwa: „Nowaja Gazieta” zamyka redakcję",
+      "tekst": "Według AP rosyjska niezależna gazeta **„Nowaja Gazieta”** zamknęła 9.11 swoją redakcję po trzech dekadach działalności. Redakcja wskazała jako powód naciski władz.",
+      "zrodla": [
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/russian-newspaper-media-novaya-gazeta-closure-01cca444cb9636ee74a57979b0dcd604",
+          "data": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "z11",
+      "blok": "gospodarka",
+      "data": "2026-11-10",
+      "tagi": [
+        "rosja",
+        "ukraina",
+        "energia"
+      ],
+      "tekst": "Według Reutersa ukraińskie ataki dronów ograniczyły w ostatnim tygodniu o około 30% **zdolności rafineryjne** Rosji. Zakłócona lub wstrzymana została praca dziewięciu z 35 dużych rosyjskich rafinerii.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (za Kyiv Independent)",
+          "url": "https://kyivindependent.com/ukrainian-strikes-cut-russias-oil-refining-capacity-by-30-reuters-reports/",
+          "data": "2026-11-10"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "„Washington Post”: Rosja odniosła strategiczny sukces przed rozmowami w Abu Zabi",
+      "autor": "„Washington Post”, 10.11.2026 (omówienie: „Rzeczpospolita”)",
+      "tekst": "Według gazety amerykańscy negocjatorzy zgodzili się rozszerzyć rozmowy o nowe ramy bezpieczeństwa w Europie. Dziennik ocenia, że to ustępstwo wobec narracji Kremla o przyczynach wojny i wiąże je z presją administracji Trumpa, by po miesiącach przestoju wznowić rozmowy.",
+      "dla_polski": "Rozmowa o architekturze bezpieczeństwa Europy bez udziału państw wschodniej flanki NATO może dotyczyć obecności sojuszniczych wojsk w Polsce (ocena redakcji).",
+      "tagi": [
+        "ukraina",
+        "rozejm",
+        "usa"
+      ],
+      "kraje": [
+        "Rosja",
+        "Stany Zjednoczone",
+        "Ukraina"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Rzeczpospolita",
+          "url": "https://rp.pl/dyplomacja/art45468941-washington-post-usa-ustepuja-rosji-strategiczny-sukces-kremla-przed-rozmowami-w-abu-zabi",
+          "data": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "tytul": "Anders Fogh Rasmussen: Europa ma przestać zabiegać o miejsce przy stole rozmów o Ukrainie",
+      "autor": "Anders Fogh Rasmussen, były sekretarz generalny NATO, wywiad dla Euronews, 10.11.2026",
+      "tekst": "Rasmussen ocenia, że Europa jest w słabej pozycji i prosi o udział w rozmowach prowadzonych przez USA. Jego zdaniem powinna stać się niezbędna dzięki własnym zdolnościom, koordynować swoje inicjatywy wobec Rosji i uwzględniać interesy bezpieczeństwa Europy Wschodniej.",
+      "dla_polski": "Rasmussen wprost wskazuje interesy państw wschodnich jako zaniedbane przez Europę, co wspiera postulat udziału Polski w rozmowach (ocena redakcji).",
+      "tagi": [
+        "ukraina",
+        "rozejm",
+        "ue"
+      ],
+      "kraje": [
+        "Dania"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/10/europe-must-stop-begging-for-seat-at-ukraine-peace-talks-ex-nato-chief-warns",
+          "data": "2026-11-10"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-11-11",
+      "tekst": "11.11: Abu Zabi – drugi dzień rozmów Ukrainy, Rosji i USA.",
+      "tagi": [
+        "ukraina",
+        "rozejm"
+      ]
+    },
+    {
+      "data": "2026-11-12",
+      "tekst": "12.11: Irlandia – szczyt Europejskiej Wspólnoty Politycznej.",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-13",
+      "tekst": "13.11: nieformalne spotkanie szefów państw i rządów UE.",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-18",
+      "tekst": "18–19.11: Chiny – spotkanie przywódców APEC w Shenzhen.",
+      "tagi": [
+        "chiny"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [],
+    "pism": [],
+    "nieodczytane": [
+      "osw",
+      "pism"
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "prog": "dokumentacja",
+      "tekst": "Polska i USA: wicepremier {{o:wladyslaw-kosiniak-kamysz|Władysław Kosiniak-Kamysz}} spotkał się 10.11 w Pentagonie z {{o:pete-hegseth|Pete'em Hegsethem}}. Według Polsat News minister mówi o „zielonym świetle” Pentagonu dla stałej bazy wojsk USA w Polsce, a według „Rzeczpospolitej” Hegseth zapowiedział podpisanie deklaracji o współpracy przemysłów obronnych.",
+      "sprawdzono": [
+        "MON (gov.pl), lista wiadomości 10.11: brak komunikatu o spotkaniu",
+        "Rzeczpospolita 10.11: przebieg otwartej części spotkania, bez wyniku rozmów o bazie",
+        "WebSearch 10.11: brak komunikatu Pentagonu i depeszy agencji o wyniku spotkania"
+      ]
+    },
+    {
+      "id": "n2",
+      "prog": "dokumentacja",
+      "tekst": "UE: według Euronews premierzy Słowacji, Czech, Węgier i Bułgarii sprzeciwiają się propozycji kanclerza {{o:friedrich-merz|Friedricha Merza}}, by zgoda na nowy wieloletni budżet UE zależała od nowej pomocy dla Ukrainy.",
+      "sprawdzono": [
+        "Euronews 10.11: jedyne źródło",
+        "Newslettery AP i Reutersa z 10.11: brak wzmianki",
+        "WebSearch 10.11: brak komunikatu Rady Europejskiej i rządów"
+      ]
+    },
+    {
+      "id": "n4",
+      "prog": "dokumentacja",
+      "tekst": "Zatoka Perska: według Euronews państwa Rady Współpracy Zatoki Perskiej uzgodniły rozmieszczenie sił w nowym punkcie dowodzenia w Kuwejcie, podległym wspólnemu dowództwu w Rijadzie.",
+      "sprawdzono": [
+        "Euronews 10.11: jedyne źródło",
+        "Newslettery AP i Reutersa z 10.11: brak wzmianki",
+        "WebSearch 10.11: brak komunikatu sekretariatu Rady"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-11-09#n1",
+      "wynik": "UZUPEŁNIONE",
+      "pozycja": "z1"
+    }
+  ],
+  "do_sprawdzenia": [
+    "Ukraina – wynik drugiego dnia rozmów w Abu Zabi (11.11); termin kolejnej rundy",
+    "Polska i USA – wynik spotkania Kosiniak-Kamysz–Hegseth; deklaracja o współpracy przemysłów; komunikat MON lub Pentagonu",
+    "USA – głosowanie Izby Reprezentantów nad impeachmentem Hegsetha",
+    "UE – spór o powiązanie budżetu UE z pomocą dla Ukrainy (Słowacja, Czechy, Węgry, Bułgaria)",
+    "Polska – DO RSZ, MON, SG, ŻW – incydenty; Agencja Uzbrojenia i PGZ – umowy",
+    "OSW i PISM – listy publikacji z 8–10.11 (nieodczytane)",
+    "Kalendarium – szczyt UE–Wielka Brytania (według Euronews 20.11), szczyt ASEAN, MSC 2027, wybory w Serbii, marcowa Rada Europejska 2027"
+  ],
+  "nota": "Listy publikacji OSW (strona zablokowana testem przeglądarki, także wersja angielska) i PISM (pusta odpowiedź list działów i wersji angielskiej) nie zostały odczytane. Komunikaty DO RSZ, Straży Granicznej, Żandarmerii Wojskowej i Agencji Uzbrojenia z 9–10.11 nie zostały znalezione wyszukiwarką; dział Świat Onetu niedostępny dla narzędzi i nieodnaleziony w wyszukiwarce."
+}

@@ -693,6 +693,41 @@
       "lon": 30.71,
       "lat": 36.9,
       "kraj": "Turcja"
+    },
+    {
+      "id": "abu-zabi",
+      "nazwa": "Abu Zabi",
+      "lon": 54.37,
+      "lat": 24.45,
+      "kraj": "Zjednoczone Emiraty Arabskie"
+    },
+    {
+      "id": "minsk-mazowiecki",
+      "nazwa": "Mińsk Mazowiecki",
+      "lon": 21.56,
+      "lat": 52.18,
+      "kraj": "polska"
+    },
+    {
+      "id": "klajpeda",
+      "nazwa": "Kłajpeda",
+      "lon": 21.13,
+      "lat": 55.71,
+      "kraj": "litwa"
+    },
+    {
+      "id": "ottawa",
+      "nazwa": "Ottawa",
+      "lon": -75.7,
+      "lat": 45.42,
+      "kraj": "Kanada"
+    },
+    {
+      "id": "mildenhall",
+      "nazwa": "Mildenhall",
+      "lon": 0.49,
+      "lat": 52.36,
+      "kraj": "wielka-brytania"
     }
   ]
 }

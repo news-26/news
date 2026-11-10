@@ -6,20 +6,20 @@
       "nazwa": "Ukraina",
       "grupa": "miejsce",
       "opis": "Wojna Rosji z Ukrainą: ataki, obrona powietrzna, polityka Kijowa, pomoc zachodnia.",
-      "stan": "8.11 rosyjskie ataki pozbawiły prądu ponad 850 tysięcy odbiorców w obwodach dniepropetrowskim, charkowskim i żytomierskim; rozmowy w Abu Zabi mają ruszyć 10.11.",
+      "stan": "Delegacje Ukrainy i Rosji rozpoczęły 10.11 w Abu Zabi pierwsze od lutego rozmowy z udziałem USA; 11.11 mają być kontynuowane. Dania ogłosiła pakiet pomocy wojskowej o wartości 643 mln euro.",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/08/russian-strikes-on-ukraine-leave-850000-without-power-as-zelenskyy-reports-drone-attack-on",
-          "data": "2026-11-08"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/ukraine-russia-us-resume-trilateral-peace-talks-in-abu-dhabi-after-9-month-pause/",
+          "data": "2026-11-10"
         },
         {
-          "nazwa": "Associated Press (newsletter)",
-          "url": "https://apnews.com/article/russia-ukraine-war-strike-bomb-humanitarian-aid-e64dd583955f11e4cf08ef5af6eaf35b",
-          "data": "2026-11-08"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/10/denmark-pledges-643-million-in-military-aid-as-zelenskyy-meets-nordic-leaders",
+          "data": "2026-11-10"
         }
       ],
-      "stan_data": "2026-11-08"
+      "stan_data": "2026-11-10"
     },
     {
       "id": "front",
@@ -46,38 +46,38 @@
       "nazwa": "Rozejm",
       "grupa": "temat",
       "opis": "Rozmowy i propozycje zawieszenia broni w wojnie Rosji z Ukrainą.",
-      "stan": "Rozmowy trójstronne w Abu Zabi mają się zacząć 10.11 według Euronews; udział wezmą Europejczycy, a Rosja wyśle wiceministra Riabkowa i wojskowych.",
+      "stan": "10.11 w Abu Zabi ruszyły rozmowy trójstronne Ukrainy, Rosji i USA; pierwszy dzień dotyczył wymiany jeńców, deeskalacji i gwarancji bezpieczeństwa.",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/08/europeans-to-join-russia-ukraine-talks-in-abu-dhabi-says-french-fm-barrot",
-          "data": "2026-11-08"
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/europe/russia-ukraine-meet-us-backed-talks-after-trump-says-broad-deal-possible-2026-11-10/",
+          "data": "2026-11-10"
         },
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/europeans-will-participate-in-abu-dhabi-peace-talks-french-foreign-minister-says/",
-          "data": "2026-11-08"
-        },
-        {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/russia-to-send-senior-diplomats-military-officials-to-upcoming-peace-talks-in-abu-dhabi/",
-          "data": "2026-11-07"
+          "url": "https://kyivindependent.com/ukraine-russia-us-resume-trilateral-peace-talks-in-abu-dhabi-after-9-month-pause/",
+          "data": "2026-11-10"
         }
       ],
-      "stan_data": "2026-11-08"
+      "stan_data": "2026-11-10"
     },
     {
       "id": "rosja",
       "nazwa": "Rosja",
       "grupa": "miejsce",
       "opis": "Polityka wewnętrzna, armia i budżet Rosji.",
-      "stan": "9.11 według Reutersa wewnętrzna ocena UE przypisuje tajnej rosyjskiej sieci wykorzystanie zamieszek we Francji w mediach społecznościowych.",
-      "stan_data": "2026-11-09",
+      "stan": "Rosyjska delegacja pod kierunkiem Władimira Miedinskiego rozmawia od 10.11 w Abu Zabi z Ukrainą przy udziale USA. Według Reutersa ukraińskie ataki ograniczyły zdolności rafineryjne Rosji o około 30%.",
+      "stan_data": "2026-11-10",
       "stan_zrodla": [
         {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/europe/covert-russian-network-exploited-french-riots-social-media-eu-report-says-2026-11-09/",
-          "data": "2026-11-09"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/ukraine-russia-us-resume-trilateral-peace-talks-in-abu-dhabi-after-9-month-pause/",
+          "data": "2026-11-10"
+        },
+        {
+          "nazwa": "Reuters (za Kyiv Independent)",
+          "url": "https://kyivindependent.com/ukrainian-strikes-cut-russias-oil-refining-capacity-by-30-reuters-reports/",
+          "data": "2026-11-10"
         }
       ]
     },
@@ -110,22 +110,41 @@
       "id": "bialorus",
       "nazwa": "Białoruś",
       "grupa": "miejsce",
-      "opis": "Reżim w Mińsku, granica z Polską, więźniowie polityczni."
+      "opis": "Reżim w Mińsku, granica z Polską, więźniowie polityczni.",
+      "stan": "Litwa od 16.11 wstrzyma odprawę białoruskiego i rosyjskiego zboża w Kłajpedzie do czasu sprawdzenia, czy nie pochodzi z okupowanych terenów Ukrainy.",
+      "stan_data": "2026-11-10",
+      "stan_zrodla": [
+        {
+          "nazwa": "Reuters (za Kyiv Independent)",
+          "url": "https://kyivindependent.com/lithuania-to-tighten-checks-on-russian-grain-shipments/",
+          "data": "2026-11-10"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/10/lithuania-to-inspect-grain-shipments-from-russia-and-belarus-for-crops-from-occupied-ukraine-potentially-delaying-exports-by-months",
+          "data": "2026-11-10"
+        }
+      ]
     },
     {
       "id": "hybryda",
       "nazwa": "Wojna hybrydowa",
       "grupa": "temat",
       "opis": "Działania hybrydowe: drony, sabotaż, dezinformacja, cyberataki, presja migracyjna.",
-      "stan": "9.11 według Reutersa wewnętrzna ocena UE wskazuje, że tajna rosyjska sieć wykorzystała zamieszki we Francji w mediach społecznościowych.",
+      "stan": "ABW zatrzymała w Mińsku Mazowieckim dwóch obywateli Ukrainy podejrzanych o szpiegostwo i dywersję na rzecz Rosji. Francja przypisuje Iranowi cyberatak na supermarkety.",
       "stan_zrodla": [
         {
+          "nazwa": "PAP (za Radio Maryja)",
+          "url": "https://www.radiomaryja.pl/informacje/t-siemoniak-abw-zatrzymala-dwoch-podejrzanych-o-szpiegostwo-i-dywersje-na-rzecz-rosji/",
+          "data": "2026-11-10"
+        },
+        {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/europe/covert-russian-network-exploited-french-riots-social-media-eu-report-says-2026-11-09/",
-          "data": "2026-11-09"
+          "url": "https://www.reuters.com/world/europe/france-summons-iran-envoy-over-supermarket-fridge-hack-warns-response-2026-11-10/",
+          "data": "2026-11-10"
         }
       ],
-      "stan_data": "2026-11-09"
+      "stan_data": "2026-11-10"
     },
     {
       "id": "uzbrojenie",
@@ -172,20 +191,20 @@
       "nazwa": "ObronnośćPolski",
       "grupa": "temat",
       "opis": "Siły zbrojne RP, procedury obrony powietrznej, budżet obronny.",
-      "stan": "30.10 sąd aresztował w Świdnicy na trzy miesiące obywatela Rosji podejrzanego o działanie na rzecz obcego wywiadu.",
+      "stan": "Sąd aresztował dwóch obywateli Ukrainy zatrzymanych 3.11 przez ABW pod zarzutem szpiegostwa i dywersji na rzecz rosyjskiego wywiadu.",
       "stan_zrodla": [
         {
-          "nazwa": "Policja Dolnośląska",
-          "url": "https://dolnoslaska.policja.gov.pl/wr1/aktualnosci/biezace-inf/187300,Policjanci-zatrzymali-ob-Federacji-Rosyjskiej-podejrzewanego-o-prowadzenie-dzial.html",
-          "data": "2026-10-30"
+          "nazwa": "PAP (za Radio Maryja)",
+          "url": "https://www.radiomaryja.pl/informacje/t-siemoniak-abw-zatrzymala-dwoch-podejrzanych-o-szpiegostwo-i-dywersje-na-rzecz-rosji/",
+          "data": "2026-11-10"
         },
         {
-          "nazwa": "Rzeczpospolita",
-          "url": "https://www.rp.pl/przestepczosc/art45420081-fotografowal-pociagi-i-infrastrukture-krytyczna-sad-aresztowal-rosjanina",
-          "data": "2026-10-30"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/10/poland-arrests-two-ukrainians-suspected-of-spying-and-sabotage-for-russia",
+          "data": "2026-11-10"
         }
       ],
-      "stan_data": "2026-10-30"
+      "stan_data": "2026-11-10"
     },
     {
       "id": "dyplomacja-rp",
@@ -217,53 +236,63 @@
       "nazwa": "Sankcje",
       "grupa": "temat",
       "opis": "Sankcje UE, USA i innych państw oraz ich omijanie.",
-      "stan": "USA złagodziły sankcje na rosyjski diesel (licencja OFAC GL 135 do kwietnia 2027) i zawiesiły większość środków ustawy Grahama; zakaz importu rosyjskiej energii do USA pozostaje w mocy.",
+      "stan": "Kanada przywróciła 10.11 sankcje wobec 11 irańskich podmiotów związanych z programem jądrowym; Litwa zaostrza kontrolę zboża z Rosji i Białorusi.",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/inside-the-legal-design-of-americas-russia-sanctions-u-turn-2/",
-          "data": "2026-10-23"
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/canada-reimposes-sanctions-11-iranian-entities-contributing-nuclear-activities-2026-11-10/",
+          "data": "2026-11-10"
         },
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/23/first-russian-diesel-shipment-is-heading-to-us-under-trump-putin-deal",
-          "data": "2026-10-23"
+          "nazwa": "Reuters (za Kyiv Independent)",
+          "url": "https://kyivindependent.com/lithuania-to-tighten-checks-on-russian-grain-shipments/",
+          "data": "2026-11-10"
         }
       ],
-      "stan_data": "2026-10-23"
+      "stan_data": "2026-11-10"
     },
     {
       "id": "iran",
       "nazwa": "Iran",
       "grupa": "miejsce",
       "opis": "Iran, Cieśnina Ormuz, rozmowy z USA i mediatorami.",
-      "stan": "9.11 według Reutersa Trump ma spotkać się z premierem Kataru, a urzędnicy USA i Zatoki nie widzą rychłego porozumienia; 8.11 Trump uznał nowe ataki na Iran za bardzo mało prawdopodobne, dopóki trwają rozmowy.",
+      "stan": "Trump zapowiedział 9.11, że na razie nie zarządzi nowych ataków na Iran i utrzyma blokadę morską; Teheran zaprzecza planom rozmów w Katarze. Francja wezwała ambasadora Iranu w sprawie cyberataku, a Kanada przywróciła sankcje wobec 11 podmiotów.",
       "stan_zrodla": [
         {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/middle-east/trump-meet-qatars-prime-minister-iran-diplomacy-faces-hurdles-2026-11-09/",
-          "data": "2026-11-09"
+          "url": "https://www.reuters.com/world/middle-east/trump-meet-iran-war-mediator-qatar-no-imminent-deal-seen-end-war-2026-11-09/",
+          "data": "2026-11-10"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://pl.euronews.com/2026/11/10/trump-wojna-z-iranem-praktycznie-zakonczona-teheran-zaprzecza-planowanym-rozmowom",
+          "data": "2026-11-10"
         },
         {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/middle-east/iran-suggests-blasts-are-not-us-attacks-both-sides-report-ships-hit-2026-11-08/",
-          "data": "2026-11-09"
+          "url": "https://www.reuters.com/world/europe/france-summons-iran-envoy-over-supermarket-fridge-hack-warns-response-2026-11-10/",
+          "data": "2026-11-10"
         }
       ],
-      "stan_data": "2026-11-09"
+      "stan_data": "2026-11-10"
     },
     {
       "id": "usa",
       "nazwa": "USA",
       "grupa": "miejsce",
       "opis": "Polityka USA wobec Europy, Rosji, Ukrainy i Bliskiego Wschodu.",
-      "stan": "8.11 według AP Nvidia wszczęła śledztwo w sprawie doniesień o próbie werbunku prezesa Jensena Huanga przez zagraniczne służby; Chiny odrzuciły zarzut.",
-      "stan_data": "2026-11-09",
+      "stan": "Trump wstrzymuje na razie nowe ataki na Iran, ale utrzymuje blokadę morską; w Izbie Reprezentantów złożono 9.11 wniosek o impeachment sekretarza obrony Hegsetha.",
+      "stan_data": "2026-11-10",
       "stan_zrodla": [
         {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/trump-meet-iran-war-mediator-qatar-no-imminent-deal-seen-end-war-2026-11-09/",
+          "data": "2026-11-10"
+        },
+        {
           "nazwa": "Associated Press (newsletter)",
-          "url": "https://apnews.com/article/nvidia-jensen-huang-investigation-chinese-spy-68839e7ca6ba2b121529f7e475e501d6",
-          "data": "2026-11-09"
+          "url": "https://apnews.com/article/hegseth-impeachment-briefing-trump-massie-87a78193502f716e6fb8eee5aef06ac0",
+          "data": "2026-11-10"
         }
       ]
     },
@@ -272,13 +301,13 @@
       "nazwa": "Chiny",
       "grupa": "miejsce",
       "opis": "Chiny w polityce światowej i wobec Europy.",
-      "stan": "8.11 według AP Chiny odrzuciły jako zniesławienie zarzut o werbunek prezesa Nvidii Jensena Huanga przez chińskie służby.",
-      "stan_data": "2026-11-09",
+      "stan": "Nadwyżka handlowa Chin przekroczyła w 10 miesiącach 2026 r. bilion dolarów, co według Reutersa zaostrzy napięcia z partnerami handlowymi.",
+      "stan_data": "2026-11-10",
       "stan_zrodla": [
         {
-          "nazwa": "Associated Press (newsletter)",
-          "url": "https://apnews.com/article/nvidia-jensen-huang-investigation-chinese-spy-68839e7ca6ba2b121529f7e475e501d6",
-          "data": "2026-11-09"
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/asia-pacific/chinas-trade-surplus-soars-past-1-trillion-october-exports-jump-352-yy-2026-11-10/",
+          "data": "2026-11-10"
         }
       ]
     },
@@ -418,25 +447,20 @@
       "nazwa": "Litwa",
       "grupa": "miejsce",
       "opis": "Polityka Litwy i bezpieczeństwo przesmyku suwalskiego.",
-      "stan": "Wilno ma według doradcy prezydenta „wiarygodne dane”, że dron, który 18.10 wybuchł na północy Litwy, wleciał z Polski, i proponuje wspólne śledztwo; Polska nie potwierdza przelotu. 18.10 udaremniono podpalenie sprzętu Starlink.",
+      "stan": "Od 16.11 Litwa zatrzyma w Kłajpedzie zboże z Rosji i Białorusi do czasu zbadania jego pochodzenia.",
       "stan_zrodla": [
         {
-          "nazwa": "PAP (za RMF24)",
-          "url": "https://www.rmf24.pl/fakty/polska/news-dron-eksplodowal-na-litwie-mial-przyleciec-z-polski-tusk-nie,nIdn,1022662",
-          "data": "2026-10-20"
+          "nazwa": "Reuters (za Kyiv Independent)",
+          "url": "https://kyivindependent.com/lithuania-to-tighten-checks-on-russian-grain-shipments/",
+          "data": "2026-11-10"
         },
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/poland-to-demand-explanation-from-ukraine-over-drone-incident-in-lithuania/",
-          "data": "2026-10-20"
-        },
-        {
-          "nazwa": "LRT",
-          "url": "https://www.lrt.lt/en/news-in-english/19/3086054/attempted-arson-at-lithuanian-firm-storing-starlink-equipment-pm-blames-russia",
-          "data": "2026-10-18"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/10/lithuania-to-inspect-grain-shipments-from-russia-and-belarus-for-crops-from-occupied-ukraine-potentially-delaying-exports-by-months",
+          "data": "2026-11-10"
         }
       ],
-      "stan_data": "2026-10-20"
+      "stan_data": "2026-11-10"
     },
     {
       "id": "lotwa",
@@ -488,55 +512,55 @@
       "nazwa": "Nordyckie",
       "grupa": "miejsce",
       "opis": "Szwecja, Finlandia, Norwegia, Dania, Islandia.",
-      "stan": "27.10 prezydent Finlandii Stubb i premier Norwegii Støre rozmawiali z Putinem; premier Danii Frederiksen skrytykowała brak koordynacji.",
+      "stan": "Dania ogłosiła 10.11 w Kopenhadze pakiet pomocy wojskowej dla Ukrainy o wartości 4,8 mld koron; Zełenski spotkał się tam z przywódcami państw nordyckich.",
       "stan_zrodla": [
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/27/putin-call-pits-finland-and-norway-against-denmark-and-sweden",
-          "data": "2026-10-27"
+          "url": "https://www.euronews.com/2026/11/10/denmark-pledges-643-million-in-military-aid-as-zelenskyy-meets-nordic-leaders",
+          "data": "2026-11-10"
         },
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/norway-finland-call-putin-ahead-of-potential-abu-dhabi-peace-talks-2/",
-          "data": "2026-10-27"
+          "url": "https://kyivindependent.com/zelensky-arrives-in-denmark-for-talks-with-nordic-leaders/",
+          "data": "2026-11-10"
         }
       ],
-      "stan_data": "2026-10-27"
+      "stan_data": "2026-11-10"
     },
     {
       "id": "francja",
       "nazwa": "Francja",
       "grupa": "miejsce",
       "opis": "Polityka Francji: rząd, budżet, stanowisko w UE.",
-      "stan": "9.11 według Reutersa wewnętrzna ocena UE wskazuje, że rosyjska sieć wykorzystała zeszłomiesięczne zamieszki we Francji.",
+      "stan": "Francja wezwała 10.11 ambasadora Iranu w związku z włamaniem do systemów chłodniczych supermarketów i zapowiedziała odpowiedź.",
       "stan_zrodla": [
         {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/europe/covert-russian-network-exploited-french-riots-social-media-eu-report-says-2026-11-09/",
-          "data": "2026-11-09"
+          "url": "https://www.reuters.com/world/europe/france-summons-iran-envoy-over-supermarket-fridge-hack-warns-response-2026-11-10/",
+          "data": "2026-11-10"
         }
       ],
-      "stan_data": "2026-11-09"
+      "stan_data": "2026-11-10"
     },
     {
       "id": "wielka-brytania",
       "nazwa": "WielkaBrytania",
       "grupa": "miejsce",
       "opis": "Polityka Wielkiej Brytanii i jej bezpieczeństwo.",
-      "stan": "27.10 w Warszawie minister obrony Wes Streeting i Władysław Kosiniak-Kamysz podpisali trzyletni plan współpracy obronnej.",
+      "stan": "Według CNN lotnictwo USA przeniosło 9.11 z bazy RAF Mildenhall dziesięć samolotów tankowania z powodu zagrożenia ze strony Iranu; w bazach Mildenhall i Lakenheath podniesiono stopień zagrożenia.",
       "stan_zrodla": [
         {
-          "nazwa": "MON (gov.pl)",
-          "url": "https://www.gov.pl/web/obrona-narodowa/strategiczne-partnerstwo-polski-i-wielkiej-brytanii-podpisano-trzyletni-plan-wspolpracy-obronnej",
-          "data": "2026-10-27"
+          "nazwa": "CNN",
+          "url": "https://www.cnn.com/2026/11/10/world/us-moves-aircraft-british-military-base-intl",
+          "data": "2026-11-10"
         },
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/27/poland-signs-three-year-defence-cooperation-plan-with-uk",
-          "data": "2026-10-27"
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/us-air-force-planes-moved-18294a0abfe39c04c2e4f5b520ea8586",
+          "data": "2026-11-10"
         }
       ],
-      "stan_data": "2026-10-27"
+      "stan_data": "2026-11-10"
     },
     {
       "id": "rumunia",
@@ -598,45 +622,30 @@
       "nazwa": "Energia",
       "grupa": "temat",
       "opis": "Ropa, gaz, infrastruktura energetyczna, ceny paliw.",
-      "stan": "5.11 według Reutersa dwa pociski trafiły tankowiec na północ od Kataru (UKMTO); wojna USA z Iranem podniosła na krótko ceny benzyny, jak przyznał Trump (AP).",
+      "stan": "Według Reutersa ukraińskie ataki dronów zakłóciły pracę dziewięciu z 35 dużych rosyjskich rafinerii i ograniczyły zdolności przerobu o około 30%.",
       "stan_zrodla": [
         {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/middle-east/tanker-struck-by-two-projectiles-north-qatar-crew-status-unconfirmed-ukmto-says-2026-11-05/",
-          "data": "2026-11-05"
-        },
-        {
-          "nazwa": "Associated Press (newsletter)",
-          "url": "https://apnews.com/article/economy-trump-midterms-inflation-ai-wealthy-healthcare-f8dbe8800549340c8a75d956302c126b",
-          "data": "2026-11-05"
-        },
-        {
-          "nazwa": "Associated Press (newsletter)",
-          "url": "https://apnews.com/article/vance-iran-war-trump-midterm-elections-a1a0f2a2373f80442dde2b04b9d4d2b3",
-          "data": "2026-11-04"
-        },
-        {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/legal/government/vance-repudiates-iran-war-after-us-electoral-defeat-2026-11-04/",
-          "data": "2026-11-04"
+          "nazwa": "Reuters (za Kyiv Independent)",
+          "url": "https://kyivindependent.com/ukrainian-strikes-cut-russias-oil-refining-capacity-by-30-reuters-reports/",
+          "data": "2026-11-10"
         }
       ],
-      "stan_data": "2026-11-05"
+      "stan_data": "2026-11-10"
     },
     {
       "id": "gospodarka",
       "nazwa": "Gospodarka",
       "grupa": "temat",
       "opis": "Gospodarka w wymiarze geopolitycznym: sankcje, cła i wojny handlowe, surowce i szlaki handlowe, pomoc finansowa dla państw w kryzysie.",
-      "stan": "28.10 Fed utrzymał stopy na poziomie 3,75–4 proc.; Komisja Europejska planuje 45 mld euro dla Ukrainy w 2027 r.",
+      "stan": "Nadwyżka handlowa Chin przekroczyła w 10 miesiącach 2026 r. bilion dolarów dzięki eksportowi zaawansowanych technologii.",
       "stan_zrodla": [
         {
-          "nazwa": "Fed",
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
-          "data": "2026-10-28"
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/asia-pacific/chinas-trade-surplus-soars-past-1-trillion-october-exports-jump-352-yy-2026-11-10/",
+          "data": "2026-11-10"
         }
       ],
-      "stan_data": "2026-10-30"
+      "stan_data": "2026-11-10"
     },
     {
       "id": "inne",

@@ -342,6 +342,12 @@
       "nazwa": "COP31",
       "pelna": "31. Konferencja Stron Ramowej konwencji ONZ w sprawie zmian klimatu",
       "definicja": "Doroczny szczyt klimatyczny ONZ. W 2026 roku odbywa się w Antalyi w Turcji, we współpracy z Australią, w dniach 9–20 listopada."
+    },
+    {
+      "id": "abw",
+      "nazwa": "ABW",
+      "pelna": "Agencja Bezpieczeństwa Wewnętrznego",
+      "definicja": "Polska służba specjalna odpowiedzialna m.in. za kontrwywiad, zwalczanie terroryzmu i ochronę infrastruktury krytycznej. Podlega premierowi, a nadzór nad nią sprawuje minister koordynator służb specjalnych."
     }
   ]
 }

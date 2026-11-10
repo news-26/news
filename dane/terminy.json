@@ -566,6 +566,30 @@
       ],
       "krotko": "Bułgaria: II tura",
       "obowiazkowy": false
+    },
+    {
+      "id": "abu-zabi-2026-11",
+      "od": "2026-11-10",
+      "do": "2026-11-11",
+      "kategoria": "rozmowy",
+      "tagi": [
+        "ukraina",
+        "rozejm"
+      ],
+      "tekst": "Abu Zabi: rozmowy delegacji Ukrainy, Rosji i USA.",
+      "krotko": "Abu Zabi: rozmowy",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/ukraine-russia-us-resume-trilateral-peace-talks-in-abu-dhabi-after-9-month-pause/",
+          "data": "2026-11-10"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/europe/russia-ukraine-meet-us-backed-talks-after-trump-says-broad-deal-possible-2026-11-10/",
+          "data": "2026-11-10"
+        }
+      ]
     }
   ]
 }

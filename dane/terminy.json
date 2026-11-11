@@ -253,12 +253,17 @@
       "tagi": [
         "ue"
       ],
-      "tekst": "Szczyt Europejskiej Wspólnoty Politycznej w Irlandii.",
+      "tekst": "Szczyt Europejskiej Wspólnoty Politycznej w Dublinie (Irlandia).",
       "zrodla": [
         {
           "nazwa": "Rada UE (agenda przywódców 2026)",
           "url": "https://www.consilium.europa.eu/media/x41pvfn5/leaders-agenda_2026.pdf",
           "data": "2026-10-06"
+        },
+        {
+          "nazwa": "Prezydencja Irlandii w Radzie UE",
+          "url": "https://irish-presidency.consilium.europa.eu/en/events/meeting-of-the-european-political-community-epc/",
+          "data": "2026-11-11"
         }
       ],
       "krotko": "EWP w Irlandii"
@@ -270,12 +275,17 @@
       "tagi": [
         "ue"
       ],
-      "tekst": "Nieformalne spotkanie szefów państw i rządów UE.",
+      "tekst": "Nieformalne spotkanie szefów państw i rządów UE w Dublinie.",
       "zrodla": [
         {
           "nazwa": "Rada UE",
           "url": "https://www.consilium.europa.eu/en/meetings/european-council/2026/10/15-16/",
           "data": "2026-10-05"
+        },
+        {
+          "nazwa": "Prezydencja Irlandii w Radzie UE",
+          "url": "https://irish-presidency.consilium.europa.eu/en/events/informal-meeting-of-eu-heads-of-state-or-government/",
+          "data": "2026-11-11"
         }
       ],
       "krotko": "Nieformalna RE"
@@ -588,6 +598,26 @@
           "nazwa": "Reuters (newsletter)",
           "url": "https://www.reuters.com/world/europe/russia-ukraine-meet-us-backed-talks-after-trump-says-broad-deal-possible-2026-11-10/",
           "data": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "ue-uk-2026-11",
+      "od": "2026-11-20",
+      "do": "2026-11-20",
+      "kategoria": "szczyt",
+      "obowiazkowy": false,
+      "tagi": [
+        "ue",
+        "wielka-brytania"
+      ],
+      "tekst": "Szczyt UE–Wielka Brytania w Brukseli.",
+      "krotko": "Szczyt UE–Wlk. Brytania",
+      "zrodla": [
+        {
+          "nazwa": "Rząd Wielkiej Brytanii (gov.uk)",
+          "url": "https://www.gov.uk/government/news/prime-minister-to-attend-uk-eu-summit-in-brussels-on-20-november",
+          "data": "2026-11-11"
         }
       ]
     }

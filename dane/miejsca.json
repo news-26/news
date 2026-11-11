@@ -728,6 +728,13 @@
       "lon": 0.49,
       "lat": 52.36,
       "kraj": "wielka-brytania"
+    },
+    {
+      "id": "rzym",
+      "nazwa": "Rzym",
+      "lon": 12.5,
+      "lat": 41.9,
+      "kraj": "wlochy"
     }
   ]
 }

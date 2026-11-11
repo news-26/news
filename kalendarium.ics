@@ -6,7 +6,7 @@ X-WR-CALNAME:Prasówka – kalendarium
 X-WR-TIMEZONE:Europe/Warsaw
 BEGIN:VEVENT
 UID:cop31@news-26
-DTSTAMP:20261110T180000Z
+DTSTAMP:20261111T180000Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261121
 SUMMARY:COP31 – konferencja klimatyczna ONZ w Antalyi (Turcja\, we wsp
@@ -19,7 +19,7 @@ CATEGORIES:Szczyty
 END:VEVENT
 BEGIN:VEVENT
 UID:abu-zabi-2026-11@news-26
-DTSTAMP:20261110T180000Z
+DTSTAMP:20261111T180000Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261112
 SUMMARY:Abu Zabi: rozmowy delegacji Ukrainy\, Rosji i USA.
@@ -33,32 +33,36 @@ CATEGORIES:Rozmowy pokojowe i bezpieczeństwa
 END:VEVENT
 BEGIN:VEVENT
 UID:epc-2026-11@news-26
-DTSTAMP:20261110T180000Z
+DTSTAMP:20261111T180000Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
-SUMMARY:Szczyt Europejskiej Wspólnoty Politycznej w Irlandii.
-DESCRIPTION:Szczyt Europejskiej Wspólnoty Politycznej w Irlandii. Źród
- ła: Rada UE (agenda przywódców 2026): https://www.consilium.europa.eu
- /media/x41pvfn5/leaders-agenda_2026.pdf
+SUMMARY:Szczyt Europejskiej Wspólnoty Politycznej w Dublinie (Irlandia).
+DESCRIPTION:Szczyt Europejskiej Wspólnoty Politycznej w Dublinie (Irland
+ ia). Źródła: Rada UE (agenda przywódców 2026): https://www.consiliu
+ m.europa.eu/media/x41pvfn5/leaders-agenda_2026.pdf\; Prezydencja Irlandi
+ i w Radzie UE: https://irish-presidency.consilium.europa.eu/en/events/me
+ eting-of-the-european-political-community-epc/
 URL:https://news-26.github.io/news/kalendarium.html#epc-2026-11
 CATEGORIES:Szczyty
 END:VEVENT
 BEGIN:VEVENT
 UID:rada-europejska-2026-11-niefor@news-26
-DTSTAMP:20261110T180000Z
+DTSTAMP:20261111T180000Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
-SUMMARY:Nieformalne spotkanie szefów państw i rządów UE.
-DESCRIPTION:Nieformalne spotkanie szefów państw i rządów UE. Źródł
- a: Rada UE: https://www.consilium.europa.eu/en/meetings/european-council
- /2026/10/15-16/
+SUMMARY:Nieformalne spotkanie szefów państw i rządów UE w Dublinie.
+DESCRIPTION:Nieformalne spotkanie szefów państw i rządów UE w Dublini
+ e. Źródła: Rada UE: https://www.consilium.europa.eu/en/meetings/europ
+ ean-council/2026/10/15-16/\; Prezydencja Irlandii w Radzie UE: https://i
+ rish-presidency.consilium.europa.eu/en/events/informal-meeting-of-eu-hea
+ ds-of-state-or-government/
 URL:https://news-26.github.io/news/kalendarium.html#rada-europejska-2026-
  11-niefor
 CATEGORIES:Szczyty
 END:VEVENT
 BEGIN:VEVENT
 UID:apec-2026@news-26
-DTSTAMP:20261110T180000Z
+DTSTAMP:20261111T180000Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261120
 SUMMARY:Spotkanie przywódców APEC w Shenzhen (Chiny)
@@ -69,8 +73,20 @@ URL:https://news-26.github.io/news/kalendarium.html#apec-2026
 CATEGORIES:Szczyty
 END:VEVENT
 BEGIN:VEVENT
+UID:ue-uk-2026-11@news-26
+DTSTAMP:20261111T180000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Szczyt UE–Wielka Brytania w Brukseli.
+DESCRIPTION:Szczyt UE–Wielka Brytania w Brukseli. Źródła: Rząd Wiel
+ kiej Brytanii (gov.uk): https://www.gov.uk/government/news/prime-ministe
+ r-to-attend-uk-eu-summit-in-brussels-on-20-november
+URL:https://news-26.github.io/news/kalendarium.html#ue-uk-2026-11
+CATEGORIES:Szczyty
+END:VEVENT
+BEGIN:VEVENT
 UID:rada-europejska-2026-11-nadzw@news-26
-DTSTAMP:20261110T180000Z
+DTSTAMP:20261111T180000Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261128
 SUMMARY:Nadzwyczajna Rada Europejska w sprawie WRF 2028–34 (termin wst
@@ -84,7 +100,7 @@ CATEGORIES:Szczyty
 END:VEVENT
 BEGIN:VEVENT
 UID:tajwan-lokalne-2026@news-26
-DTSTAMP:20261110T180000Z
+DTSTAMP:20261111T180000Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Tajwan: wybory lokalne (burmistrzowie\, radni) – pierwszy spraw
@@ -97,7 +113,7 @@ CATEGORIES:Wybory
 END:VEVENT
 BEGIN:VEVENT
 UID:hiszpania-wybory-2026@news-26
-DTSTAMP:20261110T180000Z
+DTSTAMP:20261111T180000Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Hiszpania: przedterminowe wybory parlamentarne ogłoszone przez p
@@ -113,7 +129,7 @@ CATEGORIES:Wybory
 END:VEVENT
 BEGIN:VEVENT
 UID:obwe-rm-2026@news-26
-DTSTAMP:20261110T180000Z
+DTSTAMP:20261111T180000Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261205
 SUMMARY:33. Rada Ministerialna OBWE w Lugano (przewodnictwo Szwajcarii).
@@ -124,7 +140,7 @@ CATEGORIES:Instytucje i organizacje
 END:VEVENT
 BEGIN:VEVENT
 UID:g20-2026@news-26
-DTSTAMP:20261110T180000Z
+DTSTAMP:20261111T180000Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261216
 SUMMARY:Szczyt przywódców G20 w Miami (Doral)\, gospodarz: prezydent USA
@@ -137,7 +153,7 @@ CATEGORIES:Szczyty
 END:VEVENT
 BEGIN:VEVENT
 UID:rada-europejska-2026-12@news-26
-DTSTAMP:20261110T180000Z
+DTSTAMP:20261111T180000Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261219
 SUMMARY:Rada Europejska w Brukseli – przywódcy chcą do końca 2026 r.
@@ -154,7 +170,7 @@ CATEGORIES:Szczyty
 END:VEVENT
 BEGIN:VEVENT
 UID:litwa-prezydencja-2027@news-26
-DTSTAMP:20261110T180000Z
+DTSTAMP:20261111T180000Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Litwa obejmuje prezydencję w Radzie UE (do 30.06.2027)\, po Irla
@@ -168,7 +184,7 @@ CATEGORIES:Instytucje i organizacje
 END:VEVENT
 BEGIN:VEVENT
 UID:onz-sekretarz-2027@news-26
-DTSTAMP:20261110T180000Z
+DTSTAMP:20261111T180000Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Nowy sekretarz generalny ONZ obejmuje urząd\; kadencja Antónia 
@@ -182,7 +198,7 @@ CATEGORIES:Instytucje i organizacje
 END:VEVENT
 BEGIN:VEVENT
 UID:lng-rosja-2027@news-26
-DTSTAMP:20261110T180000Z
+DTSTAMP:20261111T180000Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:UE: zakaz importu rosyjskiego LNG obejmuje także kontrakty dług
@@ -198,7 +214,7 @@ CATEGORIES:Inne
 END:VEVENT
 BEGIN:VEVENT
 UID:rozejm-usa-chiny-2027@news-26
-DTSTAMP:20261110T180000Z
+DTSTAMP:20261111T180000Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Koniec przedłużonego rozejmu handlowego USA–Chiny (ustalonego
@@ -214,7 +230,7 @@ CATEGORIES:Inne
 END:VEVENT
 BEGIN:VEVENT
 UID:litwa-art137-2027@news-26
-DTSTAMP:20261110T180000Z
+DTSTAMP:20261111T180000Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:Litwa: drugie głosowanie Sejmu nad usunięciem z art. 137 konsty
@@ -230,7 +246,7 @@ CATEGORIES:Inne
 END:VEVENT
 BEGIN:VEVENT
 UID:estonia-riigikogu-2027@news-26
-DTSTAMP:20261110T180000Z
+DTSTAMP:20261111T180000Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:Estonia: wybory do Riigikogu (głosowanie wcześniejsze i interne

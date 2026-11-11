@@ -1,0 +1,475 @@
+{
+  "nr": 54,
+  "data": "2026-11-11",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Delegacje Ukrainy i Rosji uzgodniły 11.11 w Abu Zabi dużą wymianę jeńców wojennych. Według AP liczby mają zostać ustalone 12.11, a wysłannicy USA {{o:steve-witkoff|Steve Witkoff}} i {{o:jared-kushner|Jared Kushner}} pojadą do Moskwy na rozmowę z {{o:wladimir-putin|Władimirem Putinem}}.",
+    "Kanclerz {{o:friedrich-merz|Friedrich Merz}} zagroził 9.11 w liście do przewodniczącego Rady Europejskiej, że Niemcy zablokują budżet UE na lata 2028–2034. Warunkiem zgody jest wspólne finansowanie Ukrainy przez wszystkie państwa, czemu sprzeciwiają się Węgry, Słowacja, Czechy i Bułgaria.",
+    "Co najmniej 300 szkół we Włoszech ewakuowano 11.11 po otrzymaniu tej samej wiadomości z groźbą zamachu bombowego. To kolejny z serii fałszywych alarmów, które w ostatnich tygodniach zakłócały pracę instytucji w Europie.",
+    "Sekretarz Najwyższej Rady Bezpieczeństwa Narodowego Iranu {{o:mohsen-rezaei|Mohsen Rezaei}} oświadczył 11.11, że Iran nie pozwoli wywieźć z kraju wzbogaconego materiału jądrowego. Według Reutersa zapowiedział też, że na nowy atak USA Iran odpowie uderzeniami w amerykańskie bazy."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-11-11",
+      "tagi": [
+        "ukraina",
+        "rozejm",
+        "rosja",
+        "usa"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "abu-zabi",
+      "krotko": "Abu Zabi: umowa o wymianie jeńców",
+      "kraje": [
+        "Zjednoczone Emiraty Arabskie"
+      ],
+      "tekst": "Delegacje Ukrainy pod kierunkiem {{o:rustem-umerow|Rustema Umerowa}} i Rosji pod kierunkiem {{o:wladimir-miedinski|Władimira Miedinskiego}} zakończyły 11.11 w Abu Zabi dwudniowe rozmowy z udziałem USA uzgodnieniem **dużej wymiany jeńców**. Według AP wysłannik USA Jared Kushner zapowiedział ustalenie liczb 12.11. Wysłannicy USA jadą teraz do Moskwy na spotkanie z Władimirem Putinem.",
+      "zrodla": [
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/russia-ukraine-war-talks-kushner-witkoff-7c8d1024302e0c6ad8be064eec852a64",
+          "data": "2026-11-11"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/",
+          "data": "2026-11-11"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu",
+          "data": "2026-11-11"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/11/11/russia-ukraine-peace-talks-conclude-in-abu-dhabi-with-prisoner-exchange-agreement-but-no-breakthrough-on-territory",
+          "data": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-11-11",
+      "tagi": [
+        "iran",
+        "usa"
+      ],
+      "miejsce": "teheran",
+      "krotko": "Teheran: Rezaei o materiale jądrowym",
+      "tekst": "Według Reutersa sekretarz Najwyższej Rady Bezpieczeństwa Narodowego Iranu {{o:mohsen-rezaei|Mohsen Rezaei}} oświadczył 11.11, że Iran **nie pozwoli wywieźć wzbogaconego materiału jądrowego** z kraju i nie prowadzi rozmów z USA. Zapowiedział, że na nowy atak USA Iran odpowie uderzeniami w amerykańskie bazy; według Al Jazeery Teheran chce utrzymać zamknięcie {{p:ormuz|Cieśniny Ormuz}} do spełnienia swoich warunków.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/iran-will-not-allow-enriched-nuclear-material-leave-country-security-chief-says-2026-11-11/",
+          "data": "2026-11-11"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/11/iran-denies-talks-with-us-says-hormuz-will-stay-shut-until-demands-are-met",
+          "data": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "instytucje",
+      "data": "2026-11-09",
+      "tagi": [
+        "ue",
+        "ukraina",
+        "niemcy"
+      ],
+      "etap": "PROPOZYCJA",
+      "miejsce": "berlin",
+      "krotko": "Berlin: Merz wiąże budżet UE z Ukrainą",
+      "kraje": [
+        "Węgry",
+        "Słowacja",
+        "Czechy",
+        "Bułgaria"
+      ],
+      "tekst": "Kanclerz {{o:friedrich-merz|Friedrich Merz}} zagroził w liście do przewodniczącego Rady Europejskiej {{o:antonio-costa|António Costy}}, że Niemcy **zablokują budżet UE** na lata 2028–2034 ({{p:wrf|wieloletnie ramy finansowe}}), jeśli wszystkie państwa nie zgodzą się na wspólne finansowanie Ukrainy. Według Meduzy, powołującej się na „Financial Times”, sprzeciwiają się temu Węgry, Słowacja, Czechy i Bułgaria.",
+      "zrodla": [
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/09/german-chancellor-merz-threatens-to-block-eu-budget-unless-four-holdouts-hungary-slovakia-bulgaria-and-the-czech-republic-commit-to-funding-ukraine",
+          "data": "2026-11-09"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://de.euronews.com/2026/11/09/merz-koppelt-eu-budget-an-neue-hilfen-fur-die-ukraine",
+          "data": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "instytucje",
+      "data": "2026-11-11",
+      "tagi": [
+        "wlochy",
+        "hybryda"
+      ],
+      "miejsce": "rzym",
+      "krotko": "Włochy: ewakuacja 300 szkół",
+      "tekst": "Według Reutersa co najmniej 300 szkół we Włoszech **ewakuowano** 11.11 po otrzymaniu tej samej wiadomości e-mail z groźbą zamachu bombowego; podał to minister edukacji Giuseppe Valditara. Alarm wpisuje się w serię fałszywych gróźb, które w ostatnich tygodniach zakłócały w Europie pracę supermarketów, banków krwi, ruchu lotniczego i stacji telewizyjnych.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/least-300-italian-schools-evacuated-after-email-bomb-alerts-2026-11-11/",
+          "data": "2026-11-11"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/11/at-least-300-italian-schools-evacuated-after-email-bomb-alerts",
+          "data": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "swiat",
+      "data": "2026-11-10",
+      "tagi": [
+        "usa"
+      ],
+      "miejsce": "waszyngton",
+      "krotko": "Waszyngton: impeachment Hegsetha zablokowany",
+      "tekst": "Izba Reprezentantów USA stosunkiem głosów 211 do 204 **skierowała do komisji** 10.11 rezolucję o impeachmencie sekretarza obrony {{o:pete-hegseth|Pete'a Hegsetha}}, co blokuje sprawę. Zarzuty dotyczyły m.in. prowadzenia wojny z Iranem; według AP Demokraci, którzy w styczniu przejmą kontrolę nad obiema izbami Kongresu, mogą ponowić próbę.",
+      "zrodla": [
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/hegseth-impeachment-briefing-trump-massie-87a78193502f716e6fb8eee5aef06ac0",
+          "data": "2026-11-11"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/pentagon-chief-hegseth-calls-moves-impeach-him-farce-that-will-fail-2026-11-10/",
+          "data": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "id": "z6",
+      "blok": "swiat",
+      "data": "2026-11-11",
+      "tagi": [
+        "chiny",
+        "usa"
+      ],
+      "krotko": "Chiny: zakup chipów Nvidia mimo zakazu",
+      "kraje": [
+        "Chiny",
+        "Stany Zjednoczone"
+      ],
+      "tekst": "Według Reutersa chińska uczelnia powiązana z Armią Ludowo-Wyzwoleńczą Chin kupiła w październiku **procesory Nvidia H200** do sztucznej inteligencji, choć figuruje na amerykańskiej czarnej liście eksportowej. Agencja oparła się na dokumentach przetargowych; pokazuje to luki w amerykańskich ograniczeniach dostępu Chin do zaawansowanych technologii.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/pla-linked-chinese-university-bought-nvidia-h200-chips-despite-us-blacklist-2026-11-11/",
+          "data": "2026-11-11"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/11/chinese-university-buys-nvidia-ai-h200-chips-despite-us-ban-records-show",
+          "data": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "id": "z7",
+      "blok": "gospodarka",
+      "data": "2026-11-10",
+      "tagi": [
+        "iran",
+        "energia"
+      ],
+      "miejsce": "ciesnina-ormuz",
+      "krotko": "Ormuz: więcej LNG i więcej ataków",
+      "tekst": "Według Reutersa październik był najbardziej ruchliwym miesiącem **eksportu LNG** przez Cieśninę Ormuz od początku wojny z Iranem 28.02: firma S&P Global naliczyła 31 gazowców wobec 23 we wrześniu. Był to zarazem najgorszy miesiąc pod względem ataków na statki – według Washington Institute trafiono 37 jednostek.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/business/energy/hormuz-lng-traffic-hits-highest-october-since-iran-war-began-2026-11-10/",
+          "data": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "id": "z8",
+      "blok": "gospodarka",
+      "data": "2026-11-11",
+      "tagi": [
+        "iran",
+        "energia"
+      ],
+      "miejsce": "teheran",
+      "krotko": "Iran: zimowe niedobory gazu",
+      "tekst": "Według Reutersa rząd Iranu ostrzegł 11.11 przed **niedoborami gazu** tej zimy w całym kraju, także w Teheranie. Prognozowany deficyt wynosi 430 mln m³ dziennie wobec około 300 mln w poprzednich latach – z powodu zniszczeń zakładów przetwórczych w wojnie i trwającej blokady irańskich portów przez USA.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/business/energy/iran-warns-domestic-gas-shortages-war-this-winter-2026-11-11/",
+          "data": "2026-11-11"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "Reuters: droga Ukrainy do członkostwa w UE się zawęża",
+      "autor": "Reuters, 11.11.2026",
+      "tekst": "Według agencji ponad dziesięciu dyplomatów i urzędników z państw UE w rozmowach nieoficjalnych ostrożnie ocenia szanse szybkiego przystąpienia Ukrainy. Wskazują na poważne przeszkody, w tym obawy rolników, m.in. w Polsce, przed konkurencją ukraińskiego rolnictwa.",
+      "dla_polski": "Polska jest jednym z państw, w których sprzeciw rolników może hamować negocjacje akcesyjne Ukrainy (ocena redakcji).",
+      "tagi": [
+        "ue",
+        "ukraina"
+      ],
+      "kraje": [
+        "Ukraina",
+        "Polska"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/europe/ukraines-path-eu-accession-narrows-war-drags-2026-11-11/",
+          "data": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "tytul": "Reuters: ulga w Zatoce Perskiej jest krucha, a na morzu niebezpieczeństwo rośnie",
+      "autor": "Andrew Mills, zastępca szefa biura Reutersa w Zatoce Perskiej, newsletter „Gulf Currents”, 11.11.2026",
+      "tekst": "Autor ocenia, że zapowiedź wstrzymania nowych ataków USA przyniosła państwom Zatoki ulgę, ale rozdźwięk między optymizmem rynków a sytuacją na morzu jest największy w Cieśninie Ormuz. Więcej statków w ruchu oznacza więcej celów; Międzynarodowa Organizacja Morska potwierdziła od początku wojny 130 incydentów i co najmniej 25 zabitych marynarzy.",
+      "dla_polski": "Pośrednio: ceny i dostępność LNG z Zatoki wpływają na rynek gazu w Europie, z którego korzysta też Polska (ocena redakcji).",
+      "tagi": [
+        "iran",
+        "energia"
+      ],
+      "kraje": [
+        "Iran",
+        "Katar",
+        "Zjednoczone Emiraty Arabskie"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/",
+          "data": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "tytul": "ISW: Rosja wykorzystuje zimową kampanię uderzeń przeciw ukraińskiej energetyce",
+      "autor": "Institute for the Study of War, 8.11.2026",
+      "tekst": "{{p:isw|ISW}} ocenia, że Rosja wykorzystuje kampanię uderzeń na zimę 2026–2027, by osłabić bezpieczeństwo energetyczne Ukrainy i utrudnić życie cywilów. Według instytutu 7–8.11 Rosja drugi dzień z rzędu atakowała pociskami i dronami ukraińską infrastrukturę krytyczną i energetyczną.",
+      "dla_polski": "Zniszczenia energetyki Ukrainy zwiększają zapotrzebowanie na import prądu i pomoc z UE, w tym przez połączenia z Polską (ocena redakcji).",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "energia"
+      ],
+      "kraje": [
+        "Ukraina",
+        "Rosja"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "ISW",
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-8-2026",
+          "data": "2026-11-08"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-11-12",
+      "tekst": "12.11: Dublin – szczyt Europejskiej Wspólnoty Politycznej.",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-13",
+      "tekst": "13.11: Dublin – nieformalne spotkanie szefów państw i rządów UE.",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-18",
+      "tekst": "18–19.11: Chiny – spotkanie przywódców APEC w Shenzhen.",
+      "tagi": [
+        "chiny"
+      ]
+    },
+    {
+      "data": "2026-11-20",
+      "tekst": "20.11: Bruksela – szczyt UE–Wielka Brytania.",
+      "tagi": [
+        "ue",
+        "wielka-brytania"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [],
+    "pism": [],
+    "nieodczytane": [
+      "osw",
+      "pism"
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "prog": "dokumentacja",
+      "tekst": "Rosja i Polska: według Meduzy FSB poinformowała 11.11 o zatrzymaniu w Rosji dwóch obywateli Polski podejrzanych o szpiegostwo. Według Polsat News rzecznik ministra koordynatora służb specjalnych Jacek Dobrzyński nazwał to prowokacją i dezinformacją.",
+      "sprawdzono": [
+        "Meduza 11.11: komunikat FSB",
+        "Polsat News 11.11 (poziom 3): reakcja rzecznika ministra koordynatora służb",
+        "WebSearch 11.11: brak komunikatu MSZ i rzecznika na gov.pl oraz depesz agencji"
+      ]
+    },
+    {
+      "id": "n2",
+      "prog": "dokumentacja",
+      "tekst": "Polska: według Defence24 w ćwiczeniach „Koalicja 26.2” w Nowej Dębie (9–22.11) bierze udział około 5 tys. żołnierzy, w tym z Francji, Niemiec i Wielkiej Brytanii. Rzeczniczka MSZ Rosji Maria Zacharowa nazwała je niedopuszczalnymi.",
+      "sprawdzono": [
+        "Defence24 10.11 (poziom 3)",
+        "MON, lista wiadomości na gov.pl 10–11.11: brak komunikatu",
+        "WebSearch 11.11: brak depesz agencji"
+      ]
+    },
+    {
+      "id": "n3",
+      "prog": "dokumentacja",
+      "tekst": "Polska: według Defence24 9.11 dotarła z Korei Południowej ostatnia w tym roku dostawa kilkudziesięciu haubic K9PL (Hanwha Aerospace) i czołgów K2 (Hyundai Rotem) z umów z 2023 i 2025 r.",
+      "sprawdzono": [
+        "Defence24 9.11 (poziom 3)",
+        "MON, lista wiadomości na gov.pl: brak komunikatu",
+        "WebSearch 11.11: brak komunikatu Agencji Uzbrojenia i depesz agencji"
+      ]
+    },
+    {
+      "id": "n4",
+      "prog": "dokumentacja",
+      "tekst": "Mołdawia: według Kyiv Independent dwa rosyjskie pociski manewrujące naruszyły 11.11 przestrzeń powietrzną Mołdawii podczas ataku na Ukrainę.",
+      "sprawdzono": [
+        "Kyiv Independent 11.11: jedyne źródło",
+        "WebSearch 11.11: brak komunikatu MSZ i ministerstwa obrony Mołdawii",
+        "Kanał RSS Euronews 11.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n5",
+      "prog": "dokumentacja",
+      "tekst": "Państwa bałtyckie: według Euronews w nocy na 11.11 ogłaszano alarmy przed dronami, a myśliwcom NATO nie udało się zestrzelić jednego z nich.",
+      "sprawdzono": [
+        "Euronews 11.11: jedyne źródło",
+        "WebSearch 11.11: brak komunikatów sił zbrojnych Litwy, Łotwy i Estonii",
+        "Newslettery AP i Reutersa z 11.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n6",
+      "prog": "dokumentacja",
+      "tekst": "Wielka Brytania i USA: według Al Jazeery i Euronews w USA postawiono zarzuty trzem mężczyznom powiązanym z Iranem w sprawie spisku przeciw bazie RAF Fairford.",
+      "sprawdzono": [
+        "Euronews 11.11",
+        "Al Jazeera 11.11 (poziom 3)",
+        "WebSearch 11.11: wyniki dotyczą zarzutów z 27.10 wobec dwóch mężczyzn; brak komunikatu prokuratury"
+      ]
+    },
+    {
+      "id": "n7",
+      "prog": "dokumentacja",
+      "tekst": "OUBZ: według Meduzy Organizacja Układu o Bezpieczeństwie Zbiorowym odebrała 11.11 Armenii prawo głosu z powodu niepłaconych składek. Według Kyiv Post i Al Jazeery minister spraw zagranicznych Rosji {{o:siergiej-lawrow|Siergiej Ławrow}} zapowiedział taki krok 10.11, a Armenia zbojkotowała szczyt organizacji w Moskwie.",
+      "sprawdzono": [
+        "Meduza 11.11: jedyne źródło decyzji",
+        "Kyiv Post i Al Jazeera 10.11 (poziom 3): zapowiedź Ławrowa",
+        "WebSearch 11.11: brak komunikatu OUBZ i depesz agencji"
+      ]
+    },
+    {
+      "id": "n8",
+      "prog": "dokumentacja",
+      "tekst": "Wielka Brytania: według Euronews w Anglii zatrzymano żołnierza armii USA podejrzanego o szpiegostwo na rzecz Rosji.",
+      "sprawdzono": [
+        "Euronews 11.11",
+        "Polsat News 10.11 (poziom 3)",
+        "Newslettery AP i Reutersa z 10–11.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n9",
+      "prog": "dokumentacja",
+      "tekst": "Strefa Gazy: według Al Jazeery zawalenie się wału ziemnego w Dajr al-Balah spowodowało powódź w obozach przesiedleńców.",
+      "sprawdzono": [
+        "Al Jazeera 11.11 (poziom 3): jedyne źródło",
+        "Newslettery AP i Reutersa z 11.11: brak wzmianki",
+        "WebSearch 11.11: brak komunikatu ONZ"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-11-10#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "MON, lista wiadomości na gov.pl 10–11.11: brak komunikatu",
+        "Defence24 i Polsat News 10.11 (poziom 3): relacje bez podpisanego dokumentu",
+        "WebSearch 11.11: brak komunikatu Pentagonu i depesz agencji"
+      ],
+      "powod": "Brak komunikatu MON i Pentagonu; według Polsat News decyzję o stałej bazie ma podjąć Biały Dom na początku grudnia."
+    },
+    {
+      "dotyczy": "2026-11-10#n2",
+      "wynik": "UZUPEŁNIONE",
+      "pozycja": "z3"
+    },
+    {
+      "dotyczy": "2026-11-10#n4",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Euronews 10.11: jedyne źródło z rankingu",
+        "Al Jazeera 10.11 (poziom 3)",
+        "WebSearch 11.11: brak komunikatu sekretariatu Rady Współpracy Zatoki Perskiej"
+      ],
+      "powod": "Poza Euronews tylko źródła spoza dwóch najwyższych poziomów."
+    }
+  ],
+  "do_sprawdzenia": [
+    "Ukraina i Rosja – liczby jeńców do wymiany (12.11); wizyta Witkoffa i Kushnera w Moskwie; termin kolejnej rundy",
+    "Dublin – wyniki szczytu EWP (12.11) i nieformalnego szczytu UE (13.11)",
+    "Rosja – zatrzymanie dwóch Polaków przez FSB; komunikat MSZ",
+    "UE – reakcja Węgier, Słowacji, Czech i Bułgarii na list Merza; posiedzenie budżetowe 26–27.11",
+    "Polska – DO RSZ, MON, SG, ŻW – incydenty; Agencja Uzbrojenia i PGZ – umowy",
+    "OSW i PISM – listy publikacji z 9–11.11 (nieodczytane)",
+    "Kalendarium – szczyt ASEAN w Manili (15–17 czy 16–18.11), MSC 2027, wybory w Serbii, marcowa Rada Europejska 2027"
+  ],
+  "nota": "Listy publikacji OSW (strona zablokowana testem przeglądarki, także wersja angielska i strona działu Analizy) i PISM (lista bez dat, strony tekstów i wersja angielska puste) nie zostały odczytane. Komunikaty DO RSZ, Straży Granicznej, Żandarmerii Wojskowej i Agencji Uzbrojenia z 10–11.11 nie zostały znalezione; dział Świat Onetu niedostępny dla narzędzi i nieodnaleziony w wyszukiwarce."
+}

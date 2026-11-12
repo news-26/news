@@ -1,0 +1,676 @@
+{
+  "nr": 55,
+  "data": "2026-11-12",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Wysłannicy prezydenta USA {{o:steve-witkoff|Steve Witkoff}} i {{o:jared-kushner|Jared Kushner}} rozmawiali 12.11 na Kremlu z {{o:wladimir-putin|Władimirem Putinem}} o zakończeniu wojny w Ukrainie. Według Meduzy Witkoff powiedział po spotkaniu, że ustalono kolejną rundę rozmów z udziałem przedstawicieli Europy.",
+    "Przywódcy około 50 państw spotkali się 12.11 w Dublinie na szczycie {{p:ewp|Europejskiej Wspólnoty Politycznej}}. Według Euronews prezydent Francji {{o:emmanuel-macron|Emmanuel Macron}} powiedział, że o bezpieczeństwie Europy zdecydują Europejczycy, a kanclerz Niemiec {{o:friedrich-merz|Friedrich Merz}} zażądał udziału Ukrainy i Europy w rozmowach z Rosją.",
+    "Wielka Brytania objęła 12.11 sankcjami kolejne rosyjskie firmy naftowe i węglowe oraz statki floty cieni. Według rządu brytyjskiego Wielka Brytania jest pierwszym państwem, które ukarało wszystkich dziesięciu największych producentów ropy w Rosji.",
+    "Rosyjska Federalna Służba Bezpieczeństwa (FSB) ogłosiła 11.11, że zatrzymała w obwodzie królewieckim dwóch obywateli Polski podejrzanych o szpiegostwo. Według Defence24 rzecznik ministra koordynatora służb specjalnych nazwał ten komunikat prowokacją i dezinformacją.",
+    "Izraelski nalot na szpital Nasera w Chan Junus w Strefie Gazy zabił 12.11 co najmniej sześć osób. Armia Izraela podała, że celem byli członkowie zbrojnego skrzydła Hamasu."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-11-12",
+      "tagi": [
+        "ukraina",
+        "rozejm",
+        "rosja",
+        "usa"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "moskwa",
+      "krotko": "Kreml: wysłannicy USA u Putina",
+      "tekst": "Wysłannicy prezydenta USA {{o:steve-witkoff|Steve Witkoff}} i {{o:jared-kushner|Jared Kushner}} rozmawiali 12.11 na Kremlu z {{o:wladimir-putin|Władimirem Putinem}}, dzień po zakończeniu rozmów w Abu Zabi. Według Meduzy Witkoff powiedział po spotkaniu, że **ustalono kolejną rundę rozmów** i że wezmą w niej udział przedstawiciele Europy. Z Moskwy wysłannicy polecieli do Dublina na spotkanie z prezydentem Ukrainy {{o:wolodymyr-zelenski|Wołodymyrem Zełenskim}}.",
+      "zrodla": [
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/12/after-meeting-with-putin-witkoff-says-new-round-of-peace-talks-agreed-with-european-representatives-set-to-participate",
+          "data": "2026-11-12"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks",
+          "data": "2026-11-12"
+        },
+        {
+          "nazwa": "France 24 (za AFP)",
+          "url": "https://www.france24.com/en/europe/20261112-live-us-envoys-to-meet-putin-and-zelensky-after-abu-dhabi-talks",
+          "data": "2026-11-12"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-11-12",
+      "tagi": [
+        "ukraina",
+        "rosja"
+      ],
+      "miejsce": "kijow",
+      "krotko": "Ukraina: 10 zabitych w atakach",
+      "tekst": "Rosja zaatakowała Ukrainę w nocy na 12.11 pociskami balistycznymi i dronami, kilka godzin po zakończeniu rozmów w Abu Zabi. Według zestawienia Kyiv Independent, opartego na danych władz lokalnych, w ciągu doby **zginęło 10 osób**, a 40 zostało rannych, w tym cztery osoby zabite na targu w Czornomorsku w obwodzie odeskim i jedna w Kijowie. Siły Powietrzne Ukrainy podały, że z 123 dronów dalekiego zasięgu zestrzelono 89.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-attacks-kill-10-injure-40-across-ukraine-over-past-day-as-peace-talks-end/",
+          "data": "2026-11-12"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russia-attacks-kyiv-with-ballistic-missiles-hours-after-peace-talks-end/",
+          "data": "2026-11-11"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/12/ukraine-russian-drone-attack-sparks-major-fire-in-kyiv-residential-building",
+          "data": "2026-11-12"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "wojna",
+      "data": "2026-11-12",
+      "tagi": [
+        "sankcje",
+        "wielka-brytania",
+        "rosja"
+      ],
+      "etap": "PRZYJĘTE",
+      "miejsce": "londyn",
+      "krotko": "Londyn: sankcje na rosyjską ropę",
+      "tekst": "Rząd premiera {{o:andy-burnham|Andy'ego Burnhama}} objął 12.11 **sankcjami** spółkę Vostok Oil, arktyczny projekt koncernu Rosnieft, firmę naftową Slawnieft, duże rosyjskie firmy węglowe i statki floty cieni. Według rządu brytyjskiego Wielka Brytania jest pierwszym państwem, które ukarało wszystkich dziesięciu największych producentów ropy w Rosji.",
+      "zrodla": [
+        {
+          "nazwa": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/ukraine-set-to-be-focus-of-epc-summit-as-uk-sanctions-russias-top-ten-oil-producers",
+          "data": "2026-11-12"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/uk-says-its-1st-country-to-target-all-of-russias-top-10-oil-producers-with-latest-round-of-sanctions/",
+          "data": "2026-11-12"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "wojna",
+      "data": "2026-11-12",
+      "tagi": [
+        "ukraina",
+        "usa"
+      ],
+      "krotko": "Ukraina: ograniczenia Starshield",
+      "kraje": [
+        "Ukraina",
+        "Stany Zjednoczone"
+      ],
+      "tekst": "Prezydent {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} oświadczył 12.11, że ukraińskie jednostki znów mają **ograniczoną prędkość łączności** wojskowego systemu satelitarnego {{p:starshield|Starshield}} firmy SpaceX. Według niego utrudnia to przechwytywanie rosyjskich dronów odrzutowych; Kijów podnosi sprawę w rozmowach z Waszyngtonem.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/business/aerospace-defense/zelenskiy-says-starshield-speed-limited-again-hampering-ukraines-defences-2026-11-12/",
+          "data": "2026-11-12"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/starshield-speed-restrictions-return-hampering-efforts-to-intercept-russian-drones-zelensky-says/",
+          "data": "2026-11-12"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/12/zelenskyy-starlink-again-facing-restrictions-in-ukraine-hampering-russian-drone-intercepti",
+          "data": "2026-11-12"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/12/zelensky-says-starshield-again-being-restricted-at-the-front",
+          "data": "2026-11-12"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "wojna",
+      "data": "2026-11-12",
+      "tagi": [
+        "rosja"
+      ],
+      "miejsce": "petersburg",
+      "krotko": "Petersburg: oficer zginął w zamachu",
+      "tekst": "Rosyjski pułkownik **zginął 12.11 w wybuchu bomby** podłożonej w jego samochodzie w dzielnicy Puszkin w Petersburgu. Rosyjscy śledczy wszczęli sprawę o zabójstwo; według Meduzy pół kilometra dalej w sierpniu wysadzono samochód innego oficera.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/12/russian-officer-killed-by-car-bomb-in-st-petersburg-as-murder-investigation-begins",
+          "data": "2026-11-12"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/11/12/russian-colonel-killed-in-st-petersburg-car-bombing-three-months-after-another-military-officer-s-car-was-blown-up-in-the-same-area",
+          "data": "2026-11-12"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-colonel-reportedly-killed-in-car-explosion-near-st-petersburg/",
+          "data": "2026-11-12"
+        }
+      ]
+    },
+    {
+      "id": "z6",
+      "blok": "polska",
+      "data": "2026-11-11",
+      "tagi": [
+        "hybryda",
+        "krolewiec"
+      ],
+      "miejsce": "krolewiec",
+      "krotko": "Obwód królewiecki: FSB zatrzymuje Polaków",
+      "tekst": "Rosyjska Federalna Służba Bezpieczeństwa (FSB) ogłosiła 11.11, że **zatrzymała dwóch obywateli Polski** w obwodzie królewieckim pod zarzutem szpiegostwa. Według FSB zbierali oni informacje o rosyjskich wojskowych i obiektach ministerstwa obrony; siedmiu innym Polakom zakazano wjazdu do Rosji. Według Defence24 rzecznik ministra koordynatora służb specjalnych Jacek Dobrzyński nazwał komunikat FSB prowokacją i dezinformacją.",
+      "zrodla": [
+        {
+          "nazwa": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/russia-says-two-polish-spies-detained-in-kaliningrad-region",
+          "data": "2026-11-11"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/11/on-poland-s-independence-day-fsb-says-it-detained-two-poles-in-russia-on-espionage-charges",
+          "data": "2026-11-11"
+        },
+        {
+          "nazwa": "Defence24",
+          "url": "https://defence24.pl/geopolityka/fsb-oglasza-rozbicie-polskiej-siatki-dobrzynski-prowokacja-i-dezinformacja",
+          "data": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "id": "z7",
+      "blok": "polska",
+      "data": "2026-11-10",
+      "tagi": [
+        "obronnosc-polski",
+        "ukraina"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "nowa-deba",
+      "krotko": "Nowa Dęba: ćwiczenia sił dla Ukrainy",
+      "tekst": "Na poligonie w Nowej Dębie trwają ćwiczenia „Koalicja 26.2” – **pierwsze ćwiczenia** {{p:mnf-u|Wielonarodowych Sił dla Ukrainy (MNF-U)}}, wcześniej nazywanych koalicją chętnych. Według Ministerstwa Obrony Narodowej biorą w nich udział wojska 11 państw, m.in. Francji, Wielkiej Brytanii, Niemiec i Turcji, a Polska jest gospodarzem i państwem wiodącym w logistyce. Ćwiczenia sprawdzają gotowość do wysłania sił wsparcia na Ukrainę po zawieszeniu broni albo porozumieniu pokojowym.",
+      "zrodla": [
+        {
+          "nazwa": "MON (gov.pl)",
+          "url": "https://www.gov.pl/web/obrona-narodowa/zapowiedz-dla-mediow---cwiczenie-koalicja-262-w-nowej-debie-koalicja-chetnych",
+          "data": "2026-11-12"
+        },
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-10/pierwsze-cwiczenia-kontyngentu-sil-wsparcia-ukrainy-1721-dzien-wojny",
+          "data": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "z8",
+      "blok": "instytucje",
+      "data": "2026-11-12",
+      "tagi": [
+        "ue",
+        "ukraina",
+        "rosja"
+      ],
+      "miejsce": "dublin",
+      "krotko": "Dublin: szczyt EWP o Ukrainie",
+      "tekst": "Przywódcy około 50 państw spotkali się 12.11 w Dublinie na szczycie {{p:ewp|Europejskiej Wspólnoty Politycznej}}. Według Euronews prezydent Francji {{o:emmanuel-macron|Emmanuel Macron}} powiedział, że o przyszłym bezpieczeństwie Europy **zdecydują Europejczycy**, a kanclerz {{o:friedrich-merz|Friedrich Merz}} zażądał udziału Ukrainy i Europy w rozmowach z Rosją.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/12/europe-tells-russia-our-security-architecture-is-for-us-to-decide",
+          "data": "2026-11-12"
+        },
+        {
+          "nazwa": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/ukraine-set-to-be-focus-of-epc-summit-as-uk-sanctions-russias-top-ten-oil-producers",
+          "data": "2026-11-12"
+        },
+        {
+          "nazwa": "Rada UE",
+          "url": "https://irish-presidency.consilium.europa.eu/en/events/meeting-of-the-european-political-community-epc/",
+          "data": "2026-11-12"
+        }
+      ]
+    },
+    {
+      "id": "z9",
+      "blok": "swiat",
+      "data": "2026-11-12",
+      "tagi": [
+        "inne"
+      ],
+      "miejsce": "chan-junus",
+      "krotko": "Chan Junus: nalot na szpital",
+      "kraje": [
+        "Izrael"
+      ],
+      "tekst": "Izraelski nalot na budynek szpitala Nasera w Chan Junus na południu Strefy Gazy **zabił 12.11 co najmniej sześć osób**, w tym lekarza; według Światowej Organizacji Zdrowia rannych zostało co najmniej 27. Armia Izraela podała, że celem był wysoki rangą członek zbrojnego skrzydła Hamasu i jego ludzie działający na terenie szpitala.",
+      "zrodla": [
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/gaza-israel-hospital-strike-people-killed-50b547b5a82388b6b415aee4d776fbfb",
+          "data": "2026-11-12"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/12/gaza-devastation-inside-nasser-hospital-after-deadly-israeli-strike",
+          "data": "2026-11-12"
+        }
+      ]
+    },
+    {
+      "id": "z10",
+      "blok": "swiat",
+      "data": "2026-11-12",
+      "tagi": [
+        "usa",
+        "chiny"
+      ],
+      "krotko": "USA: Huang odchodzi z Nvidii",
+      "kraje": [
+        "Stany Zjednoczone",
+        "Chiny"
+      ],
+      "tekst": "Koncern Nvidia, największy producent procesorów do sztucznej inteligencji, ogłosił 12.11, że {{o:jensen-huang|Jensen Huang}} **ustąpił ze stanowiska** prezesa i dyrektora generalnego. Odejście poprzedziły doniesienia o jego związku z Alice Huang, menedżerką singapurskiej firmy Megaspeed, którą według amerykańskiej notatki wywiadowczej podejrzewa się o pracę dla chińskiego Ministerstwa Bezpieczeństwa Państwowego. Tymczasowo koncernem kieruje dyrektor finansowa Colette Kress.",
+      "zrodla": [
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/",
+          "data": "2026-11-12"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/12/nvidias-jensen-huang-resigns-over-relationship-with-suspected-chinese-spy",
+          "data": "2026-11-12"
+        }
+      ]
+    },
+    {
+      "id": "z11",
+      "blok": "swiat",
+      "data": "2026-11-12",
+      "tagi": [
+        "inne"
+      ],
+      "miejsce": "dzakarta",
+      "krotko": "Dżakarta: wiceprezydent ustępuje",
+      "kraje": [
+        "Indonezja"
+      ],
+      "tekst": "Według AP wiceprezydent Indonezji Gibran Rakabuming Raka, syn byłego prezydenta Joko Widodo, **złożył 12.11 rezygnację** na ręce kierownictwa Ludowego Zgromadzenia Doradczego. W październiku Trybunał Konstytucyjny i Sąd Najwyższy orzekły, że jego dokumenty o wykształceniu zdobytym za granicą nie spełniały wymogów wyborczych.",
+      "zrodla": [
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/indonesia-gibran-rakabuming-raka-resigns-abfe5e288fad3b8b26719eae634f2ee0",
+          "data": "2026-11-12"
+        }
+      ]
+    },
+    {
+      "id": "z12",
+      "blok": "gospodarka",
+      "data": "2026-11-12",
+      "tagi": [
+        "iran",
+        "energia"
+      ],
+      "miejsce": "ciesnina-ormuz",
+      "krotko": "Ormuz: dwa tankowce unieruchomione",
+      "tekst": "Według Reutersa Korpus Strażników Rewolucji Islamskiej podał 12.11, że w Cieśninie {{p:ormuz|Ormuz}} wybuchy **unieruchomiły dwa tankowce** z ropą. Agencja podała też, powołując się na źródła, że Iran zaatakował systemy nawigacji morskiej na omańskiej wyspie Didamar przy wejściu do cieśniny.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/two-oil-tankers-disabled-by-explosions-strait-hormuz-irgc-says-2026-11-12/",
+          "data": "2026-11-12"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/iran-attacks-shipping-navigation-systems-omans-didamar-island-sources-say-2026-11-11/",
+          "data": "2026-11-11"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "OSW: Rosja przesuwa rozmowy w Abu Zabi na bezpieczeństwo Europy",
+      "autor": "Ośrodek Studiów Wschodnich, 12.11.2026",
+      "tekst": "{{p:osw|OSW}} ocenia, że w rozmowach 10–11.11 Rosja przesunęła ich przedmiot z zakończenia wojny na nowy kształt bezpieczeństwa europejskiego, by uzyskać wpływ na wschodnią flankę NATO. Ukraina odrzuca ustępstwa terytorialne, a USA sprawdzają możliwe drogi do porozumienia.",
+      "dla_polski": "Rosyjskie żądania dotyczące wschodniej flanki NATO bezpośrednio dotyczą obecności sojuszniczych wojsk w Polsce (ocena OSW).",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "rozejm"
+      ],
+      "kraje": [
+        "Ukraina",
+        "Rosja",
+        "Stany Zjednoczone",
+        "Polska"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-12/rozmowy-ukraina-usa-rosja-w-abu-zabi-bezpieczenstwo-europejskie-w",
+          "data": "2026-11-12"
+        }
+      ]
+    },
+    {
+      "tytul": "OSW: ćwiczenia w Nowej Dębie testują gotowość sił dla Ukrainy",
+      "autor": "Ośrodek Studiów Wschodnich, 10.11.2026",
+      "tekst": "Według OSW ćwiczenia MNF-U są pierwszym dużym sprawdzianem, czy wielonarodowe siły będą gotowe do rozmieszczenia na Ukrainie po zawieszeniu broni albo zawarciu porozumienia pokojowego.",
+      "dla_polski": "Polska jest gospodarzem ćwiczeń i państwem wiodącym w logistyce przyszłych sił wsparcia Ukrainy (ocena redakcji).",
+      "tagi": [
+        "obronnosc-polski",
+        "ukraina"
+      ],
+      "kraje": [
+        "Polska",
+        "Ukraina"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-10/pierwsze-cwiczenia-kontyngentu-sil-wsparcia-ukrainy-1721-dzien-wojny",
+          "data": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "tytul": "OSW: działania antykorupcyjne uderzają w przestępczość zorganizowaną na Ukrainie",
+      "autor": "Ośrodek Studiów Wschodnich, 10.11.2026",
+      "tekst": "OSW ocenia, że przestępczość zorganizowana na Ukrainie rośnie w czasie wojny. Zatrzymania wysokich funkcjonariuszy Służby Bezpieczeństwa Ukrainy i policji przez Narodowe Biuro Antykorupcyjne ({{p:nabu|NABU}}) pokazują, że źródłem korupcji są same instytucje bezpieczeństwa, co osłabia pozycję prezydenta Zełenskiego.",
+      "dla_polski": "Skuteczność walki z korupcją jest jednym z warunków negocjacji akcesyjnych Ukrainy z UE, w których uczestniczy Polska (ocena redakcji).",
+      "tagi": [
+        "ukraina"
+      ],
+      "kraje": [
+        "Ukraina"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-10/kartagina-20-uderzenie-sluzb-antykorupcyjnych-w-przestepczosc",
+          "data": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "tytul": "AP: ofensywa Salwadoru na Haiti to polityczne ryzyko Bukele",
+      "autor": "Associated Press, 12.11.2026",
+      "tekst": "Według ekspertów cytowanych przez AP prezydent Salwadoru Nayib Bukele przedstawia się jako wybawca Haiti od gangów, by odsunąć krytykę wysłania 2500 żołnierzy i zyskać poparcie przed lutowymi wyborami. Ofensywa może zdaniem ekspertów zarówno zrazić sojuszników, w tym administrację USA, jak i osłabić poparcie dla Bukele w kraju.",
+      "dla_polski": "Pośrednio: operacja poza mandatem misji wspieranej przez ONZ osłabia wielostronne mechanizmy stabilizacji kryzysów (ocena redakcji).",
+      "tagi": [
+        "ameryki"
+      ],
+      "kraje": [
+        "Salwador",
+        "Haiti"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/nayib-bukele-el-salvador-haiti-elections-war-on-gangs-un-rubio-democracy-5c8a5e284835778c31c9ff78c140afcd",
+          "data": "2026-11-12"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-11-13",
+      "tekst": "13.11: Dublin – nieformalne spotkanie szefów państw i rządów UE.",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-18",
+      "tekst": "18–19.11: Chiny – spotkanie przywódców APEC w Shenzhen.",
+      "tagi": [
+        "chiny"
+      ]
+    },
+    {
+      "data": "2026-11-20",
+      "tekst": "20.11: Bruksela – szczyt UE–Wielka Brytania.",
+      "tagi": [
+        "ue",
+        "wielka-brytania"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [
+      {
+        "tytul": "Rozmowy Ukraina–USA–Rosja w Abu Zabi: bezpieczeństwo europejskie w centrum uwagi",
+        "data": "2026-11-12",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-12/rozmowy-ukraina-usa-rosja-w-abu-zabi-bezpieczenstwo-europejskie-w"
+      },
+      {
+        "tytul": "Kartagina 2.0. Uderzenie służb antykorupcyjnych w przestępczość zorganizowaną na Ukrainie",
+        "data": "2026-11-10",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-10/kartagina-20-uderzenie-sluzb-antykorupcyjnych-w-przestepczosc"
+      },
+      {
+        "tytul": "Pierwsze ćwiczenia kontyngentu sił wsparcia Ukrainy. 1721. dzień wojny",
+        "data": "2026-11-10",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-10/pierwsze-cwiczenia-kontyngentu-sil-wsparcia-ukrainy-1721-dzien-wojny"
+      }
+    ],
+    "pism": [],
+    "nieodczytane": [
+      "pism"
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "prog": "dokumentacja",
+      "tekst": "Włochy i Francja: według Euronews 12.11 drugi dzień z rzędu włoskie szkoły dostawały e-maile z groźbą zamachu bombowego, a we Francji ewakuowano m.in. liceum w Marsylii. Prezydent Macron powiedział, że za wcześnie, by przypisać te groźby obcym państwom.",
+      "sprawdzono": [
+        "Euronews 12.11",
+        "Polsat News 12.11 (poziom 3)",
+        "Newslettery AP i Reutersa z 12.11: brak wzmianki o drugim dniu alarmów"
+      ]
+    },
+    {
+      "id": "n2",
+      "prog": "dokumentacja",
+      "tekst": "Arabia Saudyjska: według nagłówka Reutersa z 12.11 szczątki przechwyconych pocisków spadły w regionie Mekki; agencja pisze też o rosnącym napięciu między Arabią Saudyjską a Huti.",
+      "sprawdzono": [
+        "Newsletter Reutersa „Iran Briefing” 12.11: tylko nagłówki",
+        "WebSearch 12.11: wyniki dotyczą ataków z października",
+        "Kanał RSS Euronews 12.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n3",
+      "prog": "dokumentacja",
+      "tekst": "Węgry: według Euronews Komisja Europejska ma w przyszłym tygodniu zatwierdzić blisko 10 mld euro z funduszu odbudowy dla Węgier po reformach praworządności przyjętych przez nowy rząd.",
+      "sprawdzono": [
+        "Euronews 12.11: jedyne źródło",
+        "Newslettery AP i Reutersa z 12.11: brak wzmianki",
+        "Kanał RSS Kyiv Independent 12.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n4",
+      "prog": "dokumentacja",
+      "tekst": "Rosja: według Polsat News Ministerstwo Spraw Zagranicznych Rosji poinformowało 11.11 o śmierci ambasadora w USA Aleksandra Darczijewa.",
+      "sprawdzono": [
+        "Polsat News 11.11 (poziom 3)",
+        "Kanały RSS Meduzy i Kyiv Independent 11–12.11: brak wzmianki",
+        "Newslettery AP i Reutersa z 11–12.11: brak wzmianki",
+        "WebSearch 12.11: brak wyników o śmierci ambasadora"
+      ]
+    },
+    {
+      "id": "n5",
+      "prog": "dokumentacja",
+      "tekst": "Rosja i Estonia: według Polsat News minister obrony Estonii potwierdził wybuch na okręcie rosyjskiej Floty Bałtyckiej w Zatoce Fińskiej; według sztabu generalnego Ukrainy 11.11 zaatakowano port Ust-Ługa.",
+      "sprawdzono": [
+        "Polsat News 11–12.11 (poziom 3)",
+        "WebSearch 12.11: brak komunikatu ministerstwa obrony Estonii i depesz agencji",
+        "Kanały RSS Euronews i Kyiv Independent 12.11: brak wzmianki",
+        "Kontrola niezależna: według ERR minister obrony Estonii mówił o wybuchu na okręcie 11.11 – nie odnaleziono artykułu w wyszukiwarce"
+      ]
+    },
+    {
+      "id": "n6",
+      "prog": "dokumentacja",
+      "tekst": "Hiszpania i UE: według Kyiv Independent, powołującego się na raport CREA, Hiszpania w październiku wznowiła import rosyjskiego LNG, a zakupy LNG z rosyjskiego projektu Jamał przez państwa UE przekroczyły w 2026 r. 9 mld dolarów.",
+      "sprawdzono": [
+        "Kyiv Independent 12.11: jedyne źródło z rankingu",
+        "Newslettery AP i Reutersa z 12.11: brak wzmianki",
+        "Kanał RSS Euronews 12.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n7",
+      "prog": "dokumentacja",
+      "tekst": "USA i UE: według Euronews państwa UE sprzeciwiają się rozszerzeniu amerykańskiego sojuszu Pax Silica w sprawie łańcuchów dostaw sztucznej inteligencji w pakt o bezpieczeństwie gospodarczym.",
+      "sprawdzono": [
+        "Euronews 12.11: jedyne źródło",
+        "Newslettery AP i Reutersa z 12.11: brak wzmianki",
+        "Kanał RSS Kyiv Independent 12.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n8",
+      "prog": "dokumentacja",
+      "tekst": "Izrael i Iran: według Al Jazeery, powołującej się na izraelską telewizję publiczną KAN, izraelski gabinet bezpieczeństwa polecił 12.11 armii przygotować się do możliwego ataku na Iran.",
+      "sprawdzono": [
+        "Al Jazeera 12.11 (poziom 3)",
+        "Times of Israel 12.11 (poziom 3)",
+        "Newslettery AP i Reutersa z 12.11: brak wzmianki"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-11-11#n1",
+      "wynik": "UZUPEŁNIONE",
+      "pozycja": "z6"
+    },
+    {
+      "dotyczy": "2026-11-11#n2",
+      "wynik": "UZUPEŁNIONE",
+      "pozycja": "z7"
+    },
+    {
+      "dotyczy": "2026-11-11#n3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Defence24 9.11 i Portal Obronny (poziom 3 i spoza rankingu)",
+        "WebSearch 12.11: brak komunikatu Agencji Uzbrojenia i MON na gov.pl",
+        "WebSearch 12.11: brak depesz PAP i agencji"
+      ],
+      "powod": "Dostawę opisują tylko serwisy branżowe; brak komunikatu Agencji Uzbrojenia z liczbą sprzętu."
+    },
+    {
+      "dotyczy": "2026-11-11#n4",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 12.11: brak nowych informacji",
+        "Kanał RSS Euronews 12.11: brak wzmianki",
+        "Newslettery AP i Reutersa z 12.11: brak wzmianki"
+      ],
+      "powod": "Poza Kyiv Independent brak potwierdzenia władz Mołdawii."
+    },
+    {
+      "dotyczy": "2026-11-11#n5",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kurier Wileński 12.11 (spoza rankingu): alarm na Litwie 10/11.11",
+        "Kanał RSS Euronews 12.11: brak wzmianki",
+        "Newslettery AP i Reutersa z 12.11: brak wzmianki"
+      ],
+      "powod": "Brak komunikatów sił zbrojnych państw bałtyckich; Kurier Wileński opisuje tylko alarm na Litwie."
+    },
+    {
+      "dotyczy": "2026-11-11#n6",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Euronews 12.11: brak wzmianki",
+        "Newslettery AP i Reutersa z 12.11: brak wzmianki",
+        "Kanał RSS Kyiv Independent 12.11: brak wzmianki"
+      ],
+      "powod": "Brak komunikatu prokuratury USA o nowych zarzutach."
+    },
+    {
+      "dotyczy": "2026-11-11#n7",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Meduzy 12.11: brak nowych informacji",
+        "Newslettery AP i Reutersa z 12.11: brak wzmianki",
+        "Kanał RSS Euronews 12.11: brak wzmianki"
+      ],
+      "powod": "Poza Meduzą brak potwierdzenia decyzji Organizacji Układu o Bezpieczeństwie Zbiorowym."
+    },
+    {
+      "dotyczy": "2026-11-11#n8",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Euronews 12.11: brak nowych informacji",
+        "Newslettery AP i Reutersa z 12.11: brak wzmianki",
+        "Kanał RSS Polsat News 12.11 (poziom 3): brak wzmianki"
+      ],
+      "powod": "Brak komunikatu policji brytyjskiej i armii USA."
+    },
+    {
+      "dotyczy": "2026-11-11#n9",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Newslettery AP i Reutersa z 12.11: brak wzmianki",
+        "Kanał RSS Euronews 12.11: brak wzmianki",
+        "WebSearch 12.11: brak komunikatu ONZ"
+      ],
+      "powod": "Poza Al Jazeerą brak potwierdzenia ONZ i agencji."
+    }
+  ],
+  "do_sprawdzenia": [
+    "Ukraina, Rosja, USA – termin i skład nowej rundy rozmów z udziałem Europy; wymiana jeńców",
+    "Dublin – wyniki nieformalnego szczytu UE (13.11); spotkanie Witkoffa i Kushnera z Zełenskim",
+    "Polska – reakcja MSZ na zatrzymanie Polaków przez FSB; DO RSZ, SG, ŻW – incydenty; Agencja Uzbrojenia i PGZ – umowy",
+    "Włochy i Francja – fałszywe alarmy bombowe, ustalenia służb",
+    "Indonezja – przyjęcie rezygnacji wiceprezydenta przez Ludowe Zgromadzenie Doradcze",
+    "PISM – lista publikacji z 10–12.11 (nieodczytana)",
+    "Kalendarium – szczyt ASEAN, MSC 2027, wybory w Serbii, marcowa Rada Europejska 2027"
+  ],
+  "nota": "Lista publikacji PISM nie została odczytana: strony działów Biuletyny i Komentarze, lista główna i wersja angielska zwróciły puste strony. Dział Świat Onetu niedostępny dla narzędzi i nieodnaleziony w wyszukiwarce."
+}

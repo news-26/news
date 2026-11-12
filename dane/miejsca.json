@@ -735,6 +735,34 @@
       "lon": 12.5,
       "lat": 41.9,
       "kraj": "wlochy"
+    },
+    {
+      "id": "dublin",
+      "nazwa": "Dublin",
+      "lon": -6.26,
+      "lat": 53.35,
+      "kraj": "Irlandia"
+    },
+    {
+      "id": "nowa-deba",
+      "nazwa": "Nowa Dęba",
+      "lon": 21.75,
+      "lat": 50.42,
+      "kraj": "Polska"
+    },
+    {
+      "id": "chan-junus",
+      "nazwa": "Chan Junus",
+      "lon": 34.3,
+      "lat": 31.34,
+      "kraj": "Palestyna"
+    },
+    {
+      "id": "dzakarta",
+      "nazwa": "Dżakarta",
+      "lon": 106.85,
+      "lat": -6.21,
+      "kraj": "Indonezja"
     }
   ]
 }

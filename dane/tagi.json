@@ -6,20 +6,25 @@
       "nazwa": "Ukraina",
       "grupa": "miejsce",
       "opis": "Wojna Rosji z Ukrainą: ataki, obrona powietrzna, polityka Kijowa, pomoc zachodnia.",
-      "stan": "Delegacje Ukrainy i Rosji uzgodniły 11.11 w Abu Zabi dużą wymianę jeńców; liczby mają zostać ustalone 12.11. Postępu w sprawie terytoriów nie ogłoszono.",
+      "stan": "Wysłannicy USA rozmawiali 12.11 na Kremlu z Putinem; według Meduzy Witkoff zapowiedział nową rundę rozmów z udziałem Europy, bez daty. W nocy na 12.11 rosyjskie ataki zabiły w Ukrainie 10 osób.",
       "stan_zrodla": [
         {
-          "nazwa": "Associated Press (newsletter)",
-          "url": "https://apnews.com/article/russia-ukraine-war-talks-kushner-witkoff-7c8d1024302e0c6ad8be064eec852a64",
-          "data": "2026-11-11"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/12/after-meeting-with-putin-witkoff-says-new-round-of-peace-talks-agreed-with-european-representatives-set-to-participate",
+          "data": "2026-11-12"
         },
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/",
-          "data": "2026-11-11"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks",
+          "data": "2026-11-12"
+        },
+        {
+          "nazwa": "France 24 (za AFP)",
+          "url": "https://www.france24.com/en/europe/20261112-live-us-envoys-to-meet-putin-and-zelensky-after-abu-dhabi-talks",
+          "data": "2026-11-12"
         }
       ],
-      "stan_data": "2026-11-11"
+      "stan_data": "2026-11-12"
     },
     {
       "id": "front",
@@ -46,38 +51,48 @@
       "nazwa": "Rozejm",
       "grupa": "temat",
       "opis": "Rozmowy i propozycje zawieszenia broni w wojnie Rosji z Ukrainą.",
-      "stan": "Dwudniowe rozmowy Ukrainy, Rosji i USA w Abu Zabi zakończyły się 11.11 uzgodnieniem wymiany jeńców. Wysłannicy USA jadą do Moskwy na rozmowę z Władimirem Putinem.",
+      "stan": "Po rozmowach w Abu Zabi (10–11.11) i spotkaniu wysłanników USA z Putinem 12.11 Witkoff zapowiedział kolejną rundę rozmów z udziałem Europejczyków; daty nie podano.",
       "stan_zrodla": [
         {
-          "nazwa": "Associated Press (newsletter)",
-          "url": "https://apnews.com/article/russia-ukraine-war-talks-kushner-witkoff-7c8d1024302e0c6ad8be064eec852a64",
-          "data": "2026-11-11"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/12/after-meeting-with-putin-witkoff-says-new-round-of-peace-talks-agreed-with-european-representatives-set-to-participate",
+          "data": "2026-11-12"
         },
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/",
-          "data": "2026-11-11"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks",
+          "data": "2026-11-12"
+        },
+        {
+          "nazwa": "France 24 (za AFP)",
+          "url": "https://www.france24.com/en/europe/20261112-live-us-envoys-to-meet-putin-and-zelensky-after-abu-dhabi-talks",
+          "data": "2026-11-12"
         }
       ],
-      "stan_data": "2026-11-11"
+      "stan_data": "2026-11-12"
     },
     {
       "id": "rosja",
       "nazwa": "Rosja",
       "grupa": "miejsce",
       "opis": "Polityka wewnętrzna, armia i budżet Rosji.",
-      "stan": "Rosja uzgodniła 11.11 w Abu Zabi z Ukrainą dużą wymianę jeńców; termin kolejnej rundy rozmów nie jest znany.",
-      "stan_data": "2026-11-11",
+      "stan": "Putin przyjął 12.11 na Kremlu wysłanników USA; Wielka Brytania objęła sankcjami wszystkich dziesięciu największych rosyjskich producentów ropy.",
+      "stan_data": "2026-11-12",
       "stan_zrodla": [
         {
-          "nazwa": "Associated Press (newsletter)",
-          "url": "https://apnews.com/article/russia-ukraine-war-talks-kushner-witkoff-7c8d1024302e0c6ad8be064eec852a64",
-          "data": "2026-11-11"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/12/after-meeting-with-putin-witkoff-says-new-round-of-peace-talks-agreed-with-european-representatives-set-to-participate",
+          "data": "2026-11-12"
         },
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/",
-          "data": "2026-11-11"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks",
+          "data": "2026-11-12"
+        },
+        {
+          "nazwa": "France 24 (za AFP)",
+          "url": "https://www.france24.com/en/europe/20261112-live-us-envoys-to-meet-putin-and-zelensky-after-abu-dhabi-talks",
+          "data": "2026-11-12"
         }
       ]
     },
@@ -86,25 +101,25 @@
       "nazwa": "Królewiec",
       "grupa": "miejsce",
       "opis": "Obwód królewiecki: militaryzacja, tranzyt, napięcia z NATO.",
-      "stan": "Rosja grozi NATO bronią jądrową w razie izolowania obwodu (pismo ujawnione 30.09); Putin 1.10 na forum Wałdaj zapowiedział, że przy bezpośrednim ataku na Rosję na porządku dnia stanie użycie „wszystkich rodzajów broni”; MSZ RP mówi o „cynicznej próbie eskalacji”.",
+      "stan": "FSB ogłosiła 11.11 zatrzymanie w obwodzie królewieckim dwóch obywateli Polski podejrzanych o szpiegostwo i zakaz wjazdu dla siedmiu kolejnych Polaków.",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/02/putin-says-all-weapons-on-agenda-if-russias-kaliningrad-attacked",
-          "data": "2026-10-02"
+          "nazwa": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/russia-says-two-polish-spies-detained-in-kaliningrad-region",
+          "data": "2026-11-11"
         },
         {
-          "nazwa": "AFP (za Arab News)",
-          "url": "https://www.arabnews.pk/world/all-types-of-weapons-on-agenda-if-russias-kaliningrad-attacked-putin-3002905",
-          "data": "2026-10-01"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/11/on-poland-s-independence-day-fsb-says-it-detained-two-poles-in-russia-on-espionage-charges",
+          "data": "2026-11-11"
         },
         {
-          "nazwa": "PAP (za WP)",
-          "url": "https://wiadomosci.wp.pl/rzecznik-msz-o-pismie-moskwy-cyniczna-proba-eskalacji-7335530154125632a",
-          "data": "2026-10-02"
+          "nazwa": "Defence24",
+          "url": "https://defence24.pl/geopolityka/fsb-oglasza-rozbicie-polskiej-siatki-dobrzynski-prowokacja-i-dezinformacja",
+          "data": "2026-11-11"
         }
       ],
-      "stan_data": "2026-10-02"
+      "stan_data": "2026-11-12"
     },
     {
       "id": "bialorus",
@@ -131,15 +146,25 @@
       "nazwa": "Wojna hybrydowa",
       "grupa": "temat",
       "opis": "Działania hybrydowe: drony, sabotaż, dezinformacja, cyberataki, presja migracyjna.",
-      "stan": "We Włoszech ewakuowano 11.11 co najmniej 300 szkół po fałszywych groźbach bombowych – kolejnych w serii alarmów w Europie.",
+      "stan": "FSB ogłosiła 11.11 zatrzymanie w obwodzie królewieckim dwóch Polaków pod zarzutem szpiegostwa; polskie służby mówią o prowokacji i dezinformacji.",
       "stan_zrodla": [
         {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/least-300-italian-schools-evacuated-after-email-bomb-alerts-2026-11-11/",
+          "nazwa": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/russia-says-two-polish-spies-detained-in-kaliningrad-region",
+          "data": "2026-11-11"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/11/on-poland-s-independence-day-fsb-says-it-detained-two-poles-in-russia-on-espionage-charges",
+          "data": "2026-11-11"
+        },
+        {
+          "nazwa": "Defence24",
+          "url": "https://defence24.pl/geopolityka/fsb-oglasza-rozbicie-polskiej-siatki-dobrzynski-prowokacja-i-dezinformacja",
           "data": "2026-11-11"
         }
       ],
-      "stan_data": "2026-11-11"
+      "stan_data": "2026-11-12"
     },
     {
       "id": "uzbrojenie",
@@ -186,20 +211,20 @@
       "nazwa": "ObronnośćPolski",
       "grupa": "temat",
       "opis": "Siły zbrojne RP, procedury obrony powietrznej, budżet obronny.",
-      "stan": "Sąd aresztował dwóch obywateli Ukrainy zatrzymanych 3.11 przez ABW pod zarzutem szpiegostwa i dywersji na rzecz rosyjskiego wywiadu.",
+      "stan": "W Nowej Dębie trwają ćwiczenia „Koalicja 26.2” – pierwsze ćwiczenia Wielonarodowych Sił dla Ukrainy z udziałem wojsk 11 państw; Polska jest gospodarzem.",
       "stan_zrodla": [
         {
-          "nazwa": "PAP (za Radio Maryja)",
-          "url": "https://www.radiomaryja.pl/informacje/t-siemoniak-abw-zatrzymala-dwoch-podejrzanych-o-szpiegostwo-i-dywersje-na-rzecz-rosji/",
-          "data": "2026-11-10"
+          "nazwa": "MON (gov.pl)",
+          "url": "https://www.gov.pl/web/obrona-narodowa/zapowiedz-dla-mediow---cwiczenie-koalicja-262-w-nowej-debie-koalicja-chetnych",
+          "data": "2026-11-12"
         },
         {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/11/10/poland-arrests-two-ukrainians-suspected-of-spying-and-sabotage-for-russia",
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-10/pierwsze-cwiczenia-kontyngentu-sil-wsparcia-ukrainy-1721-dzien-wojny",
           "data": "2026-11-10"
         }
       ],
-      "stan_data": "2026-11-10"
+      "stan_data": "2026-11-12"
     },
     {
       "id": "dyplomacja-rp",
@@ -231,58 +256,63 @@
       "nazwa": "Sankcje",
       "grupa": "temat",
       "opis": "Sankcje UE, USA i innych państw oraz ich omijanie.",
-      "stan": "Kanada przywróciła 10.11 sankcje wobec 11 irańskich podmiotów związanych z programem jądrowym; Litwa zaostrza kontrolę zboża z Rosji i Białorusi.",
+      "stan": "Wielka Brytania objęła 12.11 sankcjami Vostok Oil, Slawnieft, rosyjskie firmy węglowe i statki floty cieni.",
       "stan_zrodla": [
         {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/canada-reimposes-sanctions-11-iranian-entities-contributing-nuclear-activities-2026-11-10/",
-          "data": "2026-11-10"
+          "nazwa": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/ukraine-set-to-be-focus-of-epc-summit-as-uk-sanctions-russias-top-ten-oil-producers",
+          "data": "2026-11-12"
         },
         {
-          "nazwa": "Reuters (za Kyiv Independent)",
-          "url": "https://kyivindependent.com/lithuania-to-tighten-checks-on-russian-grain-shipments/",
-          "data": "2026-11-10"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/uk-says-its-1st-country-to-target-all-of-russias-top-10-oil-producers-with-latest-round-of-sanctions/",
+          "data": "2026-11-12"
         }
       ],
-      "stan_data": "2026-11-10"
+      "stan_data": "2026-11-12"
     },
     {
       "id": "iran",
       "nazwa": "Iran",
       "grupa": "miejsce",
       "opis": "Iran, Cieśnina Ormuz, rozmowy z USA i mediatorami.",
-      "stan": "Sekretarz Najwyższej Rady Bezpieczeństwa Narodowego Mohsen Rezaei oświadczył 11.11, że Iran nie pozwoli wywieźć wzbogaconego materiału jądrowego i nie prowadzi rozmów z USA. Rząd ostrzega przed zimowymi niedoborami gazu.",
+      "stan": "Według Reutersa Korpus Strażników Rewolucji podał 12.11, że wybuchy unieruchomiły w Cieśninie Ormuz dwa tankowce; Iran miał też zaatakować systemy nawigacji na omańskiej wyspie Didamar.",
       "stan_zrodla": [
         {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/middle-east/iran-will-not-allow-enriched-nuclear-material-leave-country-security-chief-says-2026-11-11/",
-          "data": "2026-11-11"
+          "url": "https://www.reuters.com/world/middle-east/two-oil-tankers-disabled-by-explosions-strait-hormuz-irgc-says-2026-11-12/",
+          "data": "2026-11-12"
         },
         {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/business/energy/iran-warns-domestic-gas-shortages-war-this-winter-2026-11-11/",
+          "url": "https://www.reuters.com/world/middle-east/iran-attacks-shipping-navigation-systems-omans-didamar-island-sources-say-2026-11-11/",
           "data": "2026-11-11"
         }
       ],
-      "stan_data": "2026-11-11"
+      "stan_data": "2026-11-12"
     },
     {
       "id": "usa",
       "nazwa": "USA",
       "grupa": "miejsce",
       "opis": "Polityka USA wobec Europy, Rosji, Ukrainy i Bliskiego Wschodu.",
-      "stan": "Izba Reprezentantów odrzuciła 10.11 impeachment sekretarza obrony Pete'a Hegsetha. Wysłannicy USA pośredniczyli w Abu Zabi w uzgodnieniu wymiany jeńców Ukrainy i Rosji.",
-      "stan_data": "2026-11-11",
+      "stan": "Witkoff i Kushner rozmawiali 12.11 z Putinem w Moskwie i polecieli do Dublina na spotkanie z Zełenskim; Jensen Huang ustąpił z kierownictwa Nvidii w tle afery szpiegowskiej.",
+      "stan_data": "2026-11-12",
       "stan_zrodla": [
         {
-          "nazwa": "Associated Press (newsletter)",
-          "url": "https://apnews.com/article/hegseth-impeachment-briefing-trump-massie-87a78193502f716e6fb8eee5aef06ac0",
-          "data": "2026-11-11"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/12/after-meeting-with-putin-witkoff-says-new-round-of-peace-talks-agreed-with-european-representatives-set-to-participate",
+          "data": "2026-11-12"
         },
         {
-          "nazwa": "Associated Press (newsletter)",
-          "url": "https://apnews.com/article/russia-ukraine-war-talks-kushner-witkoff-7c8d1024302e0c6ad8be064eec852a64",
-          "data": "2026-11-11"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks",
+          "data": "2026-11-12"
+        },
+        {
+          "nazwa": "France 24 (za AFP)",
+          "url": "https://www.france24.com/en/europe/20261112-live-us-envoys-to-meet-putin-and-zelensky-after-abu-dhabi-talks",
+          "data": "2026-11-12"
         }
       ]
     },
@@ -291,13 +321,23 @@
       "nazwa": "Chiny",
       "grupa": "miejsce",
       "opis": "Chiny w polityce światowej i wobec Europy.",
-      "stan": "Według Reutersa uczelnia powiązana z Chińską Armią Ludowo-Wyzwoleńczą kupiła w październiku procesory Nvidia H200 mimo amerykańskiej czarnej listy.",
-      "stan_data": "2026-11-11",
+      "stan": "Szef Nvidii Jensen Huang ustąpił 12.11 po doniesieniach o związku z kobietą podejrzewaną o pracę dla chińskiego wywiadu; Chiny odrzucają zarzuty.",
+      "stan_data": "2026-11-12",
       "stan_zrodla": [
         {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/",
+          "data": "2026-11-12"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/12/nvidias-jensen-huang-resigns-over-relationship-with-suspected-chinese-spy",
+          "data": "2026-11-12"
+        },
+        {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/pla-linked-chinese-university-bought-nvidia-h200-chips-despite-us-blacklist-2026-11-11/",
-          "data": "2026-11-11"
+          "url": "https://www.reuters.com/world/china/chinese-ai-firms-rush-secure-nvidia-chip-capacity-spy-scandal-stirs-fear-us-2026-11-12/",
+          "data": "2026-11-12"
         }
       ]
     },
@@ -326,20 +366,25 @@
       "nazwa": "UE",
       "grupa": "temat",
       "opis": "Unia Europejska: Rada, Komisja, obronność, budżet WRF 2028–2034.",
-      "stan": "Kanclerz Friedrich Merz zagroził zablokowaniem budżetu UE na lata 2028–2034 bez wspólnego finansowania Ukrainy; sprzeciwiają się Węgry, Słowacja, Czechy i Bułgaria. 12–13.11 w Dublinie szczyty EWP i UE.",
+      "stan": "Szczyt Europejskiej Wspólnoty Politycznej w Dublinie 12.11; przywódcy europejscy żądają udziału w rozmowach o bezpieczeństwie Europy. Nieformalny szczyt UE 13.11.",
       "stan_zrodla": [
         {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/11/09/german-chancellor-merz-threatens-to-block-eu-budget-unless-four-holdouts-hungary-slovakia-bulgaria-and-the-czech-republic-commit-to-funding-ukraine",
-          "data": "2026-11-09"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/12/europe-tells-russia-our-security-architecture-is-for-us-to-decide",
+          "data": "2026-11-12"
         },
         {
-          "nazwa": "Euronews",
-          "url": "https://de.euronews.com/2026/11/09/merz-koppelt-eu-budget-an-neue-hilfen-fur-die-ukraine",
-          "data": "2026-11-09"
+          "nazwa": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/ukraine-set-to-be-focus-of-epc-summit-as-uk-sanctions-russias-top-ten-oil-producers",
+          "data": "2026-11-12"
+        },
+        {
+          "nazwa": "Rada UE",
+          "url": "https://irish-presidency.consilium.europa.eu/en/events/meeting-of-the-european-political-community-epc/",
+          "data": "2026-11-12"
         }
       ],
-      "stan_data": "2026-11-11"
+      "stan_data": "2026-11-12"
     },
     {
       "id": "onz",
@@ -542,20 +587,20 @@
       "nazwa": "WielkaBrytania",
       "grupa": "miejsce",
       "opis": "Polityka Wielkiej Brytanii i jej bezpieczeństwo.",
-      "stan": "Według CNN lotnictwo USA przeniosło 9.11 z bazy RAF Mildenhall dziesięć samolotów tankowania z powodu zagrożenia ze strony Iranu; w bazach Mildenhall i Lakenheath podniesiono stopień zagrożenia.",
+      "stan": "Rząd Andy'ego Burnhama nałożył 12.11 sankcje na rosyjski sektor naftowy; Burnham współprowadził w Dublinie spotkanie w sprawie Ukrainy.",
       "stan_zrodla": [
         {
-          "nazwa": "CNN",
-          "url": "https://www.cnn.com/2026/11/10/world/us-moves-aircraft-british-military-base-intl",
-          "data": "2026-11-10"
+          "nazwa": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/ukraine-set-to-be-focus-of-epc-summit-as-uk-sanctions-russias-top-ten-oil-producers",
+          "data": "2026-11-12"
         },
         {
-          "nazwa": "Associated Press (newsletter)",
-          "url": "https://apnews.com/article/us-air-force-planes-moved-18294a0abfe39c04c2e4f5b520ea8586",
-          "data": "2026-11-10"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/uk-says-its-1st-country-to-target-all-of-russias-top-10-oil-producers-with-latest-round-of-sanctions/",
+          "data": "2026-11-12"
         }
       ],
-      "stan_data": "2026-11-10"
+      "stan_data": "2026-11-12"
     },
     {
       "id": "rumunia",
@@ -617,15 +662,20 @@
       "nazwa": "Energia",
       "grupa": "temat",
       "opis": "Ropa, gaz, infrastruktura energetyczna, ceny paliw.",
-      "stan": "Według Reutersa Iran spodziewa się zimą niedoboru 430 mln m³ gazu. Eksport LNG przez Cieśninę Ormuz był w październiku najwyższy od początku wojny.",
+      "stan": "Według Reutersa 12.11 dwa tankowce z ropą unieruchomione w Cieśninie Ormuz; ruch statków przez cieśninę rośnie mimo ataków.",
       "stan_zrodla": [
         {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/business/energy/iran-warns-domestic-gas-shortages-war-this-winter-2026-11-11/",
+          "url": "https://www.reuters.com/world/middle-east/two-oil-tankers-disabled-by-explosions-strait-hormuz-irgc-says-2026-11-12/",
+          "data": "2026-11-12"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/iran-attacks-shipping-navigation-systems-omans-didamar-island-sources-say-2026-11-11/",
           "data": "2026-11-11"
         }
       ],
-      "stan_data": "2026-11-11"
+      "stan_data": "2026-11-12"
     },
     {
       "id": "gospodarka",

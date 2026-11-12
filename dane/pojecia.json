@@ -348,6 +348,18 @@
       "nazwa": "ABW",
       "pelna": "Agencja Bezpieczeństwa Wewnętrznego",
       "definicja": "Polska służba specjalna odpowiedzialna m.in. za kontrwywiad, zwalczanie terroryzmu i ochronę infrastruktury krytycznej. Podlega premierowi, a nadzór nad nią sprawuje minister koordynator służb specjalnych."
+    },
+    {
+      "id": "ewp",
+      "nazwa": "EWP",
+      "pelna": "Europejska Wspólnota Polityczna",
+      "definicja": "Forum przywódców państw Europy – członków UE i państw spoza Unii, m.in. Wielkiej Brytanii, Ukrainy i Turcji – zbierające się dwa razy w roku. Nie podejmuje wiążących decyzji."
+    },
+    {
+      "id": "mnf-u",
+      "nazwa": "MNF-U",
+      "pelna": "Wielonarodowe Siły dla Ukrainy (Multinational Force – Ukraine)",
+      "definicja": "Planowane siły państw europejskich, wcześniej nazywane koalicją chętnych, które mają wspierać Ukrainę po zawieszeniu broni albo porozumieniu pokojowym."
     }
   ]
 }

@@ -1,19 +1,19 @@
 {
- "od": "2026-11-04",
- "do": "2026-11-10",
- "opublikowano": "2026-11-11",
+ "od": "2026-11-05",
+ "do": "2026-11-11",
+ "opublikowano": "2026-11-12",
  "godzina": "05:55",
- "tytul": "Top 10: ostatnie 7 dni (4–10.11.2026)",
+ "tytul": "Top 10: ostatnie 7 dni (5–11.11.2026)",
  "wstep": [
-  "Najważniejsze sprawy z ostatnich 7 dni (4–10.11.2026) – w tym tygodniu dziesięć spraw spełnia kryteria. Każda ma przebieg z datami i źródłami oraz wniosek „Dla Polski”; starsze sprawy są w archiwum miesięcznym.",
-  "Oś tygodnia to **rozmowy o zakończeniu wojny i wojna z Iranem**: 10.11 w Abu Zabi ruszyły pierwsze od lutego rozmowy Ukrainy, Rosji i USA, a Trump 9.11 wstrzymał nowe ataki na Iran przy utrzymanej blokadzie morskiej. Rosja uderzała w Kijów i ukraińską energetykę, a ukraińskie drony ograniczyły o około 30% rosyjską rafinację. W Polsce minister koordynator służb poinformował 10.11 o zatrzymaniu przez ABW dwóch podejrzanych o dywersję na rzecz Rosji. Dania ogłosiła pakiet pomocy wojskowej dla Ukrainy, Litwa – kontrolę zboża z Rosji i Białorusi, Komisja Europejska przyjęła 4.11 pakiet rozszerzeniowy, prezydent Izraela powierzył 7.11 tworzenie rządu rywalowi premiera, a 5–6.11 fałszywe alarmy bombowe zakłóciły loty i nadawanie telewizji w Europie."
+  "Najważniejsze sprawy z ostatnich 7 dni (5–11.11.2026) – w tym tygodniu dziewięć spraw spełnia kryteria. Każda ma przebieg z datami i źródłami oraz wniosek „Dla Polski”; starsze sprawy są w archiwum miesięcznym.",
+  "Oś tygodnia to **rozmowy o zakończeniu wojny i wojna z Iranem**: 10–11.11 w Abu Zabi odbyły się pierwsze od lutego rozmowy Ukrainy, Rosji i USA, zakończone uzgodnieniem dużej wymiany jeńców, a Trump 9.11 wstrzymał nowe ataki na Iran przy utrzymanej blokadzie morskiej. Rosja uderzała w Kijów i ukraińską energetykę, a ukraińskie drony ograniczyły o około 30% rosyjską rafinację. W Polsce minister koordynator służb poinformował 10.11 o zatrzymaniu przez ABW dwóch podejrzanych o dywersję na rzecz Rosji. Dania ogłosiła pakiet pomocy wojskowej dla Ukrainy, a Litwa – kontrolę zboża z Rosji i Białorusi. Fałszywe alarmy bombowe zakłóciły 5–6.11 loty i nadawanie telewizji w Europie, a 11.11 pracę szkół we Włoszech; prezydent Izraela powierzył 7.11 tworzenie rządu rywalowi premiera."
  ],
  "kryteria": "Do zestawienia trafia wydarzenie, które spełnia trzy warunki: zmieniło stan rzeczy w ostatnich 7 dniach (zapadła decyzja, zmieniła się władza, powstała nowa zdolność wojskowa albo incydent miał realne następstwo – retoryka i zapowiedzi bez terminu nie wystarczą), ma konkretny skutek dla Polski lub Europy albo dla sytuacji międzynarodowej i jest udokumentowane w wydaniach dziennych z tego okresu. Przy wątkach trwających miesiącami liczy się zmiana w tygodniu, a nie sam wątek; tytuł opisuje najnowszy fakt. Gdy kryteria spełnia mniej niż dziesięć spraw, lista jest krótsza. Kolejność ustala autor według wpływu na bezpieczeństwo i interesy Polski, potem skali, potem trwałości skutków. Ranking jest więc oceną, a nie faktem; fakty mają źródła, oceny – autora.",
  "pozycje": [
   {
    "id": "mediacja-usa",
-   "tytul": "Delegacje Ukrainy i Rosji rozpoczynają 10.11 w Abu Zabi pierwsze od lutego rozmowy trójstronne z udziałem wysłanników USA Steve'a Witkoffa i Jareda Kushnera",
-   "data": "2026-11-10",
+   "tytul": "Delegacje Ukrainy i Rosji uzgadniają 11.11 w Abu Zabi dużą wymianę jeńców; wysłannicy USA Steve Witkoff i Jared Kushner jadą do Moskwy na spotkanie z Władimirem Putinem",
+   "data": "2026-11-11",
    "tagi": [
     "ukraina",
     "rozejm",
@@ -21,8 +21,9 @@
     "usa"
    ],
    "etap": "W TOKU",
-   "lead": "Delegacje Ukrainy pod kierunkiem {{o:rustem-umerow|Rustema Umerowa}} i Rosji pod kierunkiem doradcy prezydenta {{o:wladimir-miedinski|Władimira Miedinskiego}} rozpoczęły 10.11 w Abu Zabi pierwsze od lutego **rozmowy trójstronne** z udziałem wysłanników USA {{o:steve-witkoff|Steve'a Witkoffa}} i {{o:jared-kushner|Jareda Kushnera}}. Według Kyiv Independent pierwszy dzień dotyczył wymiany jeńców, deeskalacji oraz gwarancji bezpieczeństwa; rozmowy mają trwać także 11.11.",
+   "lead": "Delegacje Ukrainy pod kierunkiem {{o:rustem-umerow|Rustema Umerowa}} i Rosji pod kierunkiem doradcy prezydenta {{o:wladimir-miedinski|Władimira Miedinskiego}} zakończyły 11.11 w Abu Zabi dwudniowe rozmowy z udziałem USA uzgodnieniem **dużej wymiany jeńców**. Według AP wysłannik USA {{o:jared-kushner|Jared Kushner}} zapowiedział ustalenie liczb 12.11, a wysłannicy USA jadą do Moskwy na spotkanie z {{o:wladimir-putin|Władimirem Putinem}}.",
    "omowienie": [
+    "Rozmowy, pierwsze trójstronne od lutego, rozpoczęły się 10.11 z udziałem wysłanników USA {{o:steve-witkoff|Steve'a Witkoffa}} i Jareda Kushnera; według Kyiv Independent pierwszy dzień dotyczył wymiany jeńców, deeskalacji oraz gwarancji bezpieczeństwa.",
     "Szef klubu Sługa Narodu David Arachamia potwierdził 7.11, że ukraińską delegacją pokieruje Umerow; według Reutersa Kreml zapowiedział udział m.in. szefa rosyjskiego wywiadu wojskowego. Francuski minister spraw zagranicznych Jean-Noël Barrot oświadczył 8.11, że w rozmowach wezmą udział także Europejczycy."
    ],
    "przebieg": [
@@ -86,6 +87,33 @@
        "data": "2026-11-10"
       }
      ]
+    },
+    {
+     "data": "2026-11-11",
+     "tekst": "Delegacje Ukrainy pod kierunkiem {{o:rustem-umerow|Rustema Umerowa}} i Rosji pod kierunkiem {{o:wladimir-miedinski|Władimira Miedinskiego}} zakończyły 11.11 w Abu Zabi dwudniowe rozmowy z udziałem USA uzgodnieniem dużej wymiany jeńców. Według AP wysłannik USA Jared Kushner zapowiedział ustalenie liczb 12.11, a wysłannicy USA jadą do Moskwy na spotkanie z Władimirem Putinem.",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "Associated Press (newsletter)",
+       "url": "https://apnews.com/article/russia-ukraine-war-talks-kushner-witkoff-7c8d1024302e0c6ad8be064eec852a64",
+       "data": "2026-11-11"
+      },
+      {
+       "nazwa": "Kyiv Independent",
+       "url": "https://kyivindependent.com/large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/",
+       "data": "2026-11-11"
+      },
+      {
+       "nazwa": "Euronews",
+       "url": "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu",
+       "data": "2026-11-11"
+      },
+      {
+       "nazwa": "Meduza",
+       "url": "https://meduza.io/en/feature/2026/11/11/russia-ukraine-peace-talks-conclude-in-abu-dhabi-with-prisoner-exchange-agreement-but-no-breakthrough-on-territory",
+       "data": "2026-11-11"
+      }
+     ]
     }
    ],
    "oceny": [
@@ -112,11 +140,12 @@
      ]
     }
    ],
-   "dla_polski": "Wynik rozmów o zakończeniu wojny przesądzi o sytuacji bezpieczeństwa na wschodniej granicy Polski i NATO. Wniosek autora: jeśli – jak pisze „Washington Post” – rozmowy obejmą ramy bezpieczeństwa w Europie, Polska powinna zabiegać o udział w tej części albo o uzgodnienie stanowiska z USA przed kolejną rundą.",
+   "dla_polski": "Wynik rozmów o zakończeniu wojny przesądzi o sytuacji bezpieczeństwa na wschodniej granicy Polski i NATO. Wniosek autora: wymiana jeńców to pierwszy uzgodniony wynik, ale kolejny etap toczy się w Moskwie bez Europejczyków; jeśli – jak pisze „Washington Post” – rozmowy obejmą ramy bezpieczeństwa w Europie, Polska powinna zabiegać o udział w tej części albo o uzgodnienie stanowiska z USA przed kolejną rundą.",
    "w_wydaniach": [
     "2026-11-07#z4",
     "2026-11-08#z5",
-    "2026-11-10#z1"
+    "2026-11-10#z1",
+    "2026-11-11#z1"
    ]
   },
   {
@@ -482,41 +511,6 @@
    ]
   },
   {
-   "id": "ue-ukraina",
-   "tytul": "Komisja Europejska przyjmuje 4.11 pakiet rozszerzeniowy; według niej Ukraina i Mołdawia spełniają warunki otwarcia wszystkich pozostałych klastrów negocjacyjnych",
-   "data": "2026-11-04",
-   "tagi": [
-    "ue",
-    "ukraina",
-    "moldawia",
-    "balkany"
-   ],
-   "etap": "PROPOZYCJA",
-   "lead": "Komisja Europejska przyjęła 4.11 **pakiet rozszerzeniowy** z mapami drogowymi dla Ukrainy, Mołdawii, Czarnogóry i Albanii. Według Komisji Ukraina i Mołdawia spełniły warunki otwarcia wszystkich pozostałych {{p:klaster-negocjacyjny|klastrów negocjacyjnych}}.",
-   "omowienie": [
-    "Komisja podaje cele: zamknięcie negocjacji z Ukrainą do końca 2028 r., z Mołdawią na początku 2028 r. i z Albanią do 2027 r. Czarnogóra może tymczasowo zamknąć pozostałe rozdziały jeszcze w tym roku."
-   ],
-   "przebieg": [
-    {
-     "data": "2026-11-04",
-     "tekst": "Komisja Europejska przyjęła 4.11 pakiet rozszerzeniowy z mapami drogowymi dla Ukrainy, Mołdawii, Czarnogóry i Albanii. Według Komisji Ukraina i Mołdawia spełniły warunki otwarcia wszystkich pozostałych klastrów negocjacyjnych; cel to zamknięcie negocjacji z Ukrainą do końca 2028 r., z Mołdawią na początku 2028 r. i z Albanią do 2027 r., a Czarnogóra może tymczasowo zamknąć pozostałe rozdziały jeszcze w tym roku.",
-     "etap": "PROPOZYCJA",
-     "zrodla": [
-      {
-       "nazwa": "Komisja Europejska",
-       "url": "https://enlargement.ec.europa.eu/news/2026-enlargement-package-shows-reform-commitment-delivers-progress-towards-eu-membership-2026-11-04_en",
-       "data": "2026-11-04"
-      }
-     ]
-    }
-   ],
-   "oceny": [],
-   "dla_polski": "Polska graniczy z Ukrainą i jest jednym z głównych szlaków jej handlu z Unią, więc tempo negocjacji przekłada się na warunki dla polskiego rolnictwa, transportu i przemysłu. Wniosek autora: ocena Komisji sama nie otwiera klastrów – decydują o tym jednomyślnie państwa członkowskie, a daty zamknięcia negocjacji to cel Komisji, nie zobowiązanie państw.",
-   "w_wydaniach": [
-    "2026-11-04#z7"
-   ]
-  },
-  {
    "id": "rafinerie-rosja",
    "tytul": "Ukraińskie ataki dronów ograniczają w ciągu tygodnia o około 30% zdolności rafineryjne Rosji; dziewięć z 35 dużych rafinerii ma zakłóconą lub wstrzymaną pracę",
    "data": "2026-11-10",
@@ -627,12 +621,76 @@
    ]
   },
   {
-   "id": "izrael-rzad",
-   "tytul": "Prezydent Izraela Icchak Herzog powierza 7.11 misję utworzenia rządu Gadiemu Ejzenkotowi, rywalowi premiera Benjamina Netanjahu; 4.11 Herzog przyjmuje zatwierdzone wyniki wyborów do Knesetu",
+   "id": "alarmy-bombowe",
+   "tytul": "Włochy ewakuują 11.11 co najmniej 300 szkół po fałszywych groźbach zamachu bombowego; 6.11 fałszywe zawiadomienia o bombach trafiają do stacji telewizyjnych w całej Europie",
    "data": [
-    "2026-11-04",
-    "2026-11-07"
+    "2026-11-06",
+    "2026-11-11"
    ],
+   "tagi": [
+    "hybryda"
+   ],
+   "lead": "Według Reutersa co najmniej 300 szkół we Włoszech **ewakuowano** 11.11 po otrzymaniu tej samej wiadomości e-mail z groźbą zamachu bombowego; podał to minister edukacji Giuseppe Valditara. Wcześniej, 6.11, fałszywe zawiadomienia o bombach trafiły do stacji telewizyjnych w całej Europie, a 5.11 kilka samolotów pasażerskich zmieniło trasę.",
+   "omowienie": [
+    "Według Reutersa część stacji telewizyjnych ewakuowano 6.11, a nadawanie wstrzymano nawet na trzy godziny. Według AP 5.11 zagrożony był m.in. lot Finnair 1761 z Helsinek do Rzymu; Reuters opisuje alarmy jako kolejne z serii zagrożeń wobec linii lotniczych w Europie."
+   ],
+   "przebieg": [
+    {
+     "data": "2026-11-05",
+     "tekst": "W Europie 5.11 kilka samolotów pasażerskich zmieniło trasę lub lotnisko lądowania z powodu alarmów bombowych. Według AP zagrożony był m.in. lot Finnair 1761 z Helsinek do Rzymu; Reuters opisuje to jako kolejne z serii zagrożeń wobec linii lotniczych w Europie.",
+     "zrodla": [
+      {
+       "nazwa": "Associated Press (newsletter)",
+       "url": "https://apnews.com/article/flight-diverted-france-bomb-threat-dublin-rome-6585ff565ee1ccb9f19b73074aa2fec4",
+       "data": "2026-11-05"
+      },
+      {
+       "nazwa": "Reuters (newsletter)",
+       "url": "https://www.reuters.com/business/aerospace-defense/bomb-alert-diverts-airbus-a320-plane-going-dublin-rome-french-pm-says-2026-11-05/",
+       "data": "2026-11-05"
+      }
+     ]
+    },
+    {
+     "data": "2026-11-06",
+     "tekst": "Według Reutersa do stacji telewizyjnych w całej Europie trafiły 6.11 fałszywe zawiadomienia o bombach. Według tej agencji część stacji ewakuowano, a nadawanie wstrzymano nawet na trzy godziny.",
+     "zrodla": [
+      {
+       "nazwa": "Reuters (newsletter)",
+       "url": "https://www.reuters.com/world/bomb-threats-warning-the-clock-is-ticking-disrupt-tv-channels-across-europe-2026-11-06/",
+       "data": "2026-11-06"
+      }
+     ]
+    },
+    {
+     "data": "2026-11-11",
+     "tekst": "Według Reutersa co najmniej 300 szkół we Włoszech ewakuowano 11.11 po otrzymaniu tej samej wiadomości e-mail z groźbą zamachu bombowego; podał to minister edukacji Giuseppe Valditara. Alarm wpisuje się w serię fałszywych gróźb, które w ostatnich tygodniach zakłócały w Europie pracę supermarketów, banków krwi, ruchu lotniczego i stacji telewizyjnych.",
+     "zrodla": [
+      {
+       "nazwa": "Reuters (newsletter)",
+       "url": "https://www.reuters.com/world/least-300-italian-schools-evacuated-after-email-bomb-alerts-2026-11-11/",
+       "data": "2026-11-11"
+      },
+      {
+       "nazwa": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/11/at-least-300-italian-schools-evacuated-after-email-bomb-alerts",
+       "data": "2026-11-11"
+      }
+     ]
+    }
+   ],
+   "oceny": [],
+   "dla_polski": "Takie alarmy zakłócają ruch lotniczy, pracę mediów i szkół także bez ładunku wybuchowego, a polskie lotniska i instytucje działają w tej samej europejskiej sieci. Wniosek autora: źródła nie wskazują sprawców, więc nie ma podstaw, by łączyć alarmy z konkretnym państwem; o wadze sprawy decyduje skala – kilka krajów i setki instytucji w ciągu tygodnia.",
+   "w_wydaniach": [
+    "2026-11-05#z5",
+    "2026-11-07#z6",
+    "2026-11-11#z4"
+   ]
+  },
+  {
+   "id": "izrael-rzad",
+   "tytul": "Prezydent Izraela Icchak Herzog powierza 7.11 misję utworzenia rządu Gadiemu Ejzenkotowi, rywalowi premiera Benjamina Netanjahu",
+   "data": "2026-11-07",
    "tagi": [
     "inne",
     "wybory"
@@ -700,61 +758,15 @@
     "2026-11-08#z6",
     "2026-11-09#z6"
    ]
-  },
-  {
-   "id": "alarmy-bombowe",
-   "tytul": "Fałszywe zawiadomienia o bombach trafiają 6.11 do stacji telewizyjnych w całej Europie; 5.11 alarmy bombowe zmieniają trasy kilku samolotów pasażerskich",
-   "data": [
-    "2026-11-05",
-    "2026-11-06"
-   ],
-   "tagi": [
-    "hybryda"
-   ],
-   "lead": "Według Reutersa do stacji telewizyjnych w całej Europie trafiły 6.11 **fałszywe zawiadomienia o bombach**; część stacji ewakuowano, a nadawanie wstrzymano nawet na trzy godziny. Dzień wcześniej kilka samolotów pasażerskich w Europie zmieniło trasę lub lotnisko lądowania z powodu alarmów bombowych.",
-   "omowienie": [
-    "Według AP zagrożony był m.in. lot Finnair 1761 z Helsinek do Rzymu. Reuters opisuje alarmy z 5.11 jako kolejne z serii zagrożeń wobec linii lotniczych w Europie."
-   ],
-   "przebieg": [
-    {
-     "data": "2026-11-05",
-     "tekst": "W Europie 5.11 kilka samolotów pasażerskich zmieniło trasę lub lotnisko lądowania z powodu alarmów bombowych. Według AP zagrożony był m.in. lot Finnair 1761 z Helsinek do Rzymu; Reuters opisuje to jako kolejne z serii zagrożeń wobec linii lotniczych w Europie.",
-     "zrodla": [
-      {
-       "nazwa": "Associated Press (newsletter)",
-       "url": "https://apnews.com/article/flight-diverted-france-bomb-threat-dublin-rome-6585ff565ee1ccb9f19b73074aa2fec4",
-       "data": "2026-11-05"
-      },
-      {
-       "nazwa": "Reuters (newsletter)",
-       "url": "https://www.reuters.com/business/aerospace-defense/bomb-alert-diverts-airbus-a320-plane-going-dublin-rome-french-pm-says-2026-11-05/",
-       "data": "2026-11-05"
-      }
-     ]
-    },
-    {
-     "data": "2026-11-06",
-     "tekst": "Według Reutersa do stacji telewizyjnych w całej Europie trafiły 6.11 fałszywe zawiadomienia o bombach. Według tej agencji część stacji ewakuowano, a nadawanie wstrzymano nawet na trzy godziny.",
-     "zrodla": [
-      {
-       "nazwa": "Reuters (newsletter)",
-       "url": "https://www.reuters.com/world/bomb-threats-warning-the-clock-is-ticking-disrupt-tv-channels-across-europe-2026-11-06/",
-       "data": "2026-11-06"
-      }
-     ]
-    }
-   ],
-   "oceny": [],
-   "dla_polski": "Takie alarmy zakłócają ruch lotniczy i pracę mediów także bez ładunku wybuchowego, a polskie lotniska i nadawcy działają w tej samej europejskiej sieci połączeń. Wniosek autora: źródła nie wskazują sprawców, więc nie ma podstaw, by łączyć alarmy z konkretnym państwem; o wadze sprawy decyduje skala – wiele krajów w ciągu dwóch dni.",
-   "w_wydaniach": [
-    "2026-11-05#z5",
-    "2026-11-07#z6"
-   ]
   }
  ],
  "czego_nie_ma": [
   {
-   "tekst": "Wybory połowy kadencji w USA – demokraci zdobyli większość w obu izbach Kongresu 3.11, przed oknem; w oknie tylko wypowiedzi Trumpa i wiceprezydenta J.D. Vance'a o przyczynach porażki (4–5.11) oraz rezolucja kongresmena Thomasa Massiego o postawienie w stan oskarżenia sekretarza obrony Pete'a Hegsetha (9.11) – wniosek bez rozstrzygnięcia w wydaniach.",
+   "tekst": "Groźba kanclerza Friedricha Merza w liście do przewodniczącego Rady Europejskiej António Costy (9.11), że Niemcy zablokują budżet UE na lata 2028–2034, jeśli wszystkie państwa nie zgodzą się na wspólne finansowanie Ukrainy – propozycja w negocjacjach, bez decyzji.",
+   "prog": "następstwo"
+  },
+  {
+   "tekst": "Rezolucja o postawienie w stan oskarżenia sekretarza obrony USA Pete'a Hegsetha – kongresmen Thomas Massie złożył ją 9.11, a Izba Reprezentantów 10.11 stosunkiem głosów 211 do 204 skierowała ją do komisji, co blokuje sprawę; spór wewnętrzny w USA bez zmiany polityki obronnej.",
    "prog": "następstwo"
   },
   {
@@ -766,12 +778,16 @@
    "prog": "następstwo"
   },
   {
-   "tekst": "Spotkanie wicepremiera Władysława Kosiniaka-Kamysza z sekretarzem obrony USA Pete'em Hegsethem (10.11), spór o powiązanie budżetu UE z pomocą dla Ukrainy i nowy punkt dowodzenia Rady Współpracy Zatoki Perskiej w Kuwejcie – w wydaniu z 10.11 w „Czego tu nie ma” z braku dokumentacji; drugiego źródła o wyniku spotkania w Pentagonie nadal brak.",
+   "tekst": "Oświadczenie sekretarza Najwyższej Rady Bezpieczeństwa Narodowego Iranu Mohsena Rezaei (11.11), że Iran nie pozwoli wywieźć wzbogaconego materiału jądrowego i odpowie na nowy atak USA, rekordowy w październiku eksport LNG przez Cieśninę Ormuz i ostrzeżenie rządu Iranu przed zimowymi niedoborami gazu (11.11) – deklaracje i dane bez zmiany stanu rzeczy w wojnie z Iranem.",
+   "prog": "następstwo"
+  },
+  {
+   "tekst": "Spotkanie wicepremiera Władysława Kosiniaka-Kamysza z sekretarzem obrony USA Pete'em Hegsethem (10.11) i nowy punkt dowodzenia Rady Współpracy Zatoki Perskiej w Kuwejcie – w wydaniu z 10.11 w „W obserwacji” z braku dokumentacji; drugiego źródła o wyniku spotkania w Pentagonie nadal brak (według Polsat News decyzję o stałej bazie ma podjąć Biały Dom na początku grudnia).",
    "prog": "dokumentacja"
   },
   {
-   "tekst": "Zapowiedź Trumpa z 3.11, że od 2027 r. USA przestaną przekazywać Izraelowi ok. 4 mld dolarów rocznie – bez szczegółów i bez decyzji; według Reutersa umowa o pomocy wojskowej obowiązuje do 2028 r.",
-   "prog": "następstwo"
+   "tekst": "Zatrzymanie przez FSB dwóch obywateli Polski podejrzanych o szpiegostwo (11.11; rzecznik ministra koordynatora służb nazwał to prowokacją), ćwiczenia „Koalicja 26.2” w Nowej Dębie, dostawa haubic K9PL i czołgów K2 z Korei Południowej (9.11), naruszenie przestrzeni powietrznej Mołdawii przez rosyjskie pociski i alarmy przed dronami w państwach bałtyckich (11.11) – w wydaniu z 11.11 w „W obserwacji” z braku drugiego źródła z poziomów 1–2.",
+   "prog": "dokumentacja"
   },
   {
    "tekst": "Uszkodzenie budynku Saudi Aramco w Rijadzie (8.11) – według Reutersa atak Huti, według saudyjskiego ministerstwa spadające szczątki po nieudanym ataku; skutek lokalny.",
@@ -794,13 +810,13 @@
    "prog": "następstwo"
   },
   {
-   "tekst": "Zapowiedź wysłania chińskiego wysłannika do Iranu, Omanu i Arabii Saudyjskiej, śledztwo rady dyrektorów Nvidii w sprawie prezesa (8.11), wyrok w sprawie Tundu Lissu w Tanzanii (6.11) i sytuacja medyczna w jemeńskim Taizie – zapowiedź albo sprawy bez skutku dla Polski, Europy i układu sił.",
+   "tekst": "Zapowiedź wysłania chińskiego wysłannika do Iranu, Omanu i Arabii Saudyjskiej, śledztwo rady dyrektorów Nvidii w sprawie prezesa (8.11), zakup procesorów Nvidia H200 przez chińską uczelnię powiązaną z armią mimo amerykańskiej czarnej listy (według Reutersa, 11.11), wyrok w sprawie Tundu Lissu w Tanzanii (6.11) i sytuacja medyczna w jemeńskim Taizie – zapowiedź, ujawnienie bez decyzji albo sprawy bez skutku dla Polski, Europy i układu sił.",
    "prog": "następstwo"
   },
   {
-   "tekst": "Sprawy z poprzednich tygodni bez nowych faktów w tym tygodniu (decyzja USA o sprzedaży Ukrainie pocisków PAC-3 MSE, Starshield, protesty we Francji, sankcje USA na Rosję, drony na Litwie, groźba jądrowa w sprawie Królewca i inne) – są w archiwum za październik 2026; wybory do Kongresu USA trafią do archiwum za listopad.",
+   "tekst": "Sprawy z poprzednich tygodni bez nowych faktów w tym tygodniu (decyzja USA o sprzedaży Ukrainie pocisków PAC-3 MSE, Starshield, protesty we Francji, sankcje USA na Rosję, drony na Litwie, groźba jądrowa w sprawie Królewca i inne) – są w archiwum za październik 2026; wybory do Kongresu USA (3.11) i pakiet rozszerzeniowy Komisji Europejskiej (4.11) trafią do archiwum za listopad.",
    "prog": "następstwo"
   }
  ],
- "nota": "Zestawienie kroczące za 4–10.11.2026. Wypadły wybory do Kongresu USA (wynik z 3.11, przed oknem). Doszły rozmowy w Abu Zabi, zatrzymania ABW (ujawnione 10.11, zatrzymanie 3.11), spadek rosyjskiej rafinacji, duński pakiet dla Ukrainy i litewska kontrola zboża; Iran – nowe fakty z 9.11. Fakty pochodzą z wydań dziennych i ich źródeł; kolejność to ocena autora."
+ "nota": "Zestawienie kroczące za 5–11.11.2026. Wypadł pakiet rozszerzeniowy Komisji Europejskiej (4.11, przed oknem). Rozmowy w Abu Zabi – nowy fakt z 11.11 (uzgodniona wymiana jeńców), alarmy bombowe – ewakuacja szkół we Włoszech 11.11; tytuł pozycji o Izraelu bez faktu z 4.11. Fakty pochodzą z wydań dziennych i ich źródeł; kolejność to ocena autora."
 }

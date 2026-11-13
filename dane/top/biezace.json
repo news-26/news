@@ -1,19 +1,22 @@
 {
- "od": "2026-11-05",
- "do": "2026-11-11",
- "opublikowano": "2026-11-12",
- "godzina": "05:55",
- "tytul": "Top 10: ostatnie 7 dni (5–11.11.2026)",
+ "od": "2026-11-06",
+ "do": "2026-11-12",
+ "opublikowano": "2026-11-13",
+ "godzina": "06:10",
+ "tytul": "Top 10: ostatnie 7 dni (6–12.11.2026)",
  "wstep": [
-  "Najważniejsze sprawy z ostatnich 7 dni (5–11.11.2026) – w tym tygodniu dziewięć spraw spełnia kryteria. Każda ma przebieg z datami i źródłami oraz wniosek „Dla Polski”; starsze sprawy są w archiwum miesięcznym.",
-  "Oś tygodnia to **rozmowy o zakończeniu wojny i wojna z Iranem**: 10–11.11 w Abu Zabi odbyły się pierwsze od lutego rozmowy Ukrainy, Rosji i USA, zakończone uzgodnieniem dużej wymiany jeńców, a Trump 9.11 wstrzymał nowe ataki na Iran przy utrzymanej blokadzie morskiej. Rosja uderzała w Kijów i ukraińską energetykę, a ukraińskie drony ograniczyły o około 30% rosyjską rafinację. W Polsce minister koordynator służb poinformował 10.11 o zatrzymaniu przez ABW dwóch podejrzanych o dywersję na rzecz Rosji. Dania ogłosiła pakiet pomocy wojskowej dla Ukrainy, a Litwa – kontrolę zboża z Rosji i Białorusi. Fałszywe alarmy bombowe zakłóciły 5–6.11 loty i nadawanie telewizji w Europie, a 11.11 pracę szkół we Włoszech; prezydent Izraela powierzył 7.11 tworzenie rządu rywalowi premiera."
+  "Najważniejsze sprawy z ostatnich 7 dni (6–12.11.2026) – w tym tygodniu dziesięć spraw spełnia kryteria. Każda ma przebieg z datami i źródłami oraz wniosek „Dla Polski”; starsze sprawy są w archiwum miesięcznym.",
+  "Oś tygodnia to **rozmowy o zakończeniu wojny i wojna z Iranem**: 10–11.11 w Abu Zabi odbyły się pierwsze od lutego rozmowy Ukrainy, Rosji i USA, zakończone uzgodnieniem dużej wymiany jeńców, a 12.11 wysłannicy USA rozmawiali na Kremlu z Putinem i ogłosili kolejną rundę z udziałem Europy. Trump 9.11 wstrzymał nowe ataki na Iran przy utrzymanej blokadzie morskiej, a 12.11 wybuchy unieruchomiły dwa tankowce w Cieśninie Ormuz. Rosja uderzała w ukraińskie miasta i energetykę, a ukraińskie drony ograniczyły o około 30% rosyjską rafinację. W Polsce ABW zatrzymała dwóch podejrzanych o dywersję na rzecz Rosji, a FSB ogłosiła 11.11 zatrzymanie dwóch Polaków w obwodzie królewieckim; w Nowej Dębie trwają pierwsze ćwiczenia Wielonarodowych Sił dla Ukrainy. Wielka Brytania objęła sankcjami wszystkich dziesięciu największych producentów rosyjskiej ropy, Dania ogłosiła pakiet pomocy wojskowej dla Ukrainy, a Litwa – kontrolę zboża z Rosji i Białorusi; fałszywe alarmy bombowe zakłóciły loty, nadawanie telewizji i pracę szkół w Europie."
  ],
  "kryteria": "Do zestawienia trafia wydarzenie, które spełnia trzy warunki: zmieniło stan rzeczy w ostatnich 7 dniach (zapadła decyzja, zmieniła się władza, powstała nowa zdolność wojskowa albo incydent miał realne następstwo – retoryka i zapowiedzi bez terminu nie wystarczą), ma konkretny skutek dla Polski lub Europy albo dla sytuacji międzynarodowej i jest udokumentowane w wydaniach dziennych z tego okresu. Przy wątkach trwających miesiącami liczy się zmiana w tygodniu, a nie sam wątek; tytuł opisuje najnowszy fakt. Gdy kryteria spełnia mniej niż dziesięć spraw, lista jest krótsza. Kolejność ustala autor według wpływu na bezpieczeństwo i interesy Polski, potem skali, potem trwałości skutków. Ranking jest więc oceną, a nie faktem; fakty mają źródła, oceny – autora.",
  "pozycje": [
   {
    "id": "mediacja-usa",
-   "tytul": "Delegacje Ukrainy i Rosji uzgadniają 11.11 w Abu Zabi dużą wymianę jeńców; wysłannicy USA Steve Witkoff i Jared Kushner jadą do Moskwy na spotkanie z Władimirem Putinem",
-   "data": "2026-11-11",
+   "tytul": "Wysłannicy USA Steve Witkoff i Jared Kushner rozmawiają 12.11 na Kremlu z Władimirem Putinem i ogłaszają kolejną rundę rozmów z udziałem Europy; 11.11 delegacje Ukrainy i Rosji uzgadniają w Abu Zabi dużą wymianę jeńców",
+   "data": [
+    "2026-11-11",
+    "2026-11-12"
+   ],
    "tagi": [
     "ukraina",
     "rozejm",
@@ -21,9 +24,9 @@
     "usa"
    ],
    "etap": "W TOKU",
-   "lead": "Delegacje Ukrainy pod kierunkiem {{o:rustem-umerow|Rustema Umerowa}} i Rosji pod kierunkiem doradcy prezydenta {{o:wladimir-miedinski|Władimira Miedinskiego}} zakończyły 11.11 w Abu Zabi dwudniowe rozmowy z udziałem USA uzgodnieniem **dużej wymiany jeńców**. Według AP wysłannik USA {{o:jared-kushner|Jared Kushner}} zapowiedział ustalenie liczb 12.11, a wysłannicy USA jadą do Moskwy na spotkanie z {{o:wladimir-putin|Władimirem Putinem}}.",
+   "lead": "Wysłannicy prezydenta USA {{o:steve-witkoff|Steve Witkoff}} i {{o:jared-kushner|Jared Kushner}} rozmawiali 12.11 na Kremlu z {{o:wladimir-putin|Władimirem Putinem}}; według Meduzy Witkoff powiedział po spotkaniu, że **ustalono kolejną rundę rozmów** z udziałem przedstawicieli Europy. Dzień wcześniej delegacje Ukrainy pod kierunkiem {{o:rustem-umerow|Rustema Umerowa}} i Rosji pod kierunkiem {{o:wladimir-miedinski|Władimira Miedinskiego}} zakończyły w Abu Zabi dwudniowe rozmowy z udziałem USA uzgodnieniem dużej wymiany jeńców.",
    "omowienie": [
-    "Rozmowy, pierwsze trójstronne od lutego, rozpoczęły się 10.11 z udziałem wysłanników USA {{o:steve-witkoff|Steve'a Witkoffa}} i Jareda Kushnera; według Kyiv Independent pierwszy dzień dotyczył wymiany jeńców, deeskalacji oraz gwarancji bezpieczeństwa.",
+    "Rozmowy w Abu Zabi, pierwsze trójstronne od lutego, rozpoczęły się 10.11; według Kyiv Independent pierwszy dzień dotyczył wymiany jeńców, deeskalacji oraz gwarancji bezpieczeństwa. Z Moskwy wysłannicy USA polecieli 12.11 do Dublina na spotkanie z prezydentem Ukrainy {{o:wolodymyr-zelenski|Wołodymyrem Zełenskim}}.",
     "Szef klubu Sługa Narodu David Arachamia potwierdził 7.11, że ukraińską delegacją pokieruje Umerow; według Reutersa Kreml zapowiedział udział m.in. szefa rosyjskiego wywiadu wojskowego. Francuski minister spraw zagranicznych Jean-Noël Barrot oświadczył 8.11, że w rozmowach wezmą udział także Europejczycy."
    ],
    "przebieg": [
@@ -114,6 +117,28 @@
        "data": "2026-11-11"
       }
      ]
+    },
+    {
+     "data": "2026-11-12",
+     "tekst": "Wysłannicy prezydenta USA {{o:steve-witkoff|Steve Witkoff}} i {{o:jared-kushner|Jared Kushner}} rozmawiali 12.11 na Kremlu z {{o:wladimir-putin|Władimirem Putinem}}, dzień po zakończeniu rozmów w Abu Zabi. Według Meduzy Witkoff powiedział po spotkaniu, że ustalono kolejną rundę rozmów z udziałem przedstawicieli Europy; z Moskwy wysłannicy polecieli do Dublina na spotkanie z prezydentem Ukrainy {{o:wolodymyr-zelenski|Wołodymyrem Zełenskim}}.",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "Meduza",
+       "url": "https://meduza.io/en/news/2026/11/12/after-meeting-with-putin-witkoff-says-new-round-of-peace-talks-agreed-with-european-representatives-set-to-participate",
+       "data": "2026-11-12"
+      },
+      {
+       "nazwa": "Meduza",
+       "url": "https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks",
+       "data": "2026-11-12"
+      },
+      {
+       "nazwa": "France 24 (za AFP)",
+       "url": "https://www.france24.com/en/europe/20261112-live-us-envoys-to-meet-putin-and-zelensky-after-abu-dhabi-talks",
+       "data": "2026-11-12"
+      }
+     ]
     }
    ],
    "oceny": [
@@ -140,20 +165,122 @@
      ]
     }
    ],
-   "dla_polski": "Wynik rozmów o zakończeniu wojny przesądzi o sytuacji bezpieczeństwa na wschodniej granicy Polski i NATO. Wniosek autora: wymiana jeńców to pierwszy uzgodniony wynik, ale kolejny etap toczy się w Moskwie bez Europejczyków; jeśli – jak pisze „Washington Post” – rozmowy obejmą ramy bezpieczeństwa w Europie, Polska powinna zabiegać o udział w tej części albo o uzgodnienie stanowiska z USA przed kolejną rundą.",
+   "dla_polski": "Wynik rozmów o zakończeniu wojny przesądzi o sytuacji bezpieczeństwa na wschodniej granicy Polski i NATO. Wniosek autora: zapowiedź udziału Europejczyków w kolejnej rundzie to szansa, by Europa nie dostała gotowych ustaleń z Moskwy; jeśli – jak pisze „Washington Post” – rozmowy obejmą ramy bezpieczeństwa w Europie, Polska powinna zabiegać o miejsce w tej części albo o uzgodnienie stanowiska z USA przed kolejną rundą.",
    "w_wydaniach": [
     "2026-11-07#z4",
     "2026-11-08#z5",
     "2026-11-10#z1",
-    "2026-11-11#z1"
+    "2026-11-11#z1",
+    "2026-11-12#z1"
+   ]
+  },
+  {
+   "id": "hybryda-sabotaz",
+   "tytul": "FSB ogłasza 11.11 zatrzymanie dwóch obywateli Polski w obwodzie królewieckim pod zarzutem szpiegostwa; minister koordynator służb specjalnych Tomasz Siemoniak informuje 10.11, że ABW zatrzymała dwóch obywateli Ukrainy podejrzanych o dywersję na zlecenie rosyjskiego wywiadu",
+   "data": [
+    "2026-11-10",
+    "2026-11-11"
+   ],
+   "tagi": [
+    "hybryda",
+    "obronnosc-polski",
+    "rosja",
+    "krolewiec"
+   ],
+   "lead": "Rosyjska Federalna Służba Bezpieczeństwa (FSB) ogłosiła 11.11, że **zatrzymała dwóch obywateli Polski** w obwodzie królewieckim pod zarzutem szpiegostwa, a siedmiu innym Polakom zakazała wjazdu do Rosji; rzecznik ministra koordynatora służb nazwał komunikat prowokacją i dezinformacją. Dzień wcześniej minister koordynator służb specjalnych {{o:tomasz-siemoniak|Tomasz Siemoniak}} poinformował, że {{p:abw|ABW}} zatrzymała 3.11 w Mińsku Mazowieckim dwóch obywateli Ukrainy podejrzanych o **szpiegostwo i dywersję** na zlecenie rosyjskiego wywiadu.",
+   "omowienie": [
+    "Według Siemoniaka zatrzymani przez ABW fotografowali obiekty infrastruktury krytycznej i wojskowej oraz podpalali samochody; sąd aresztował obu na trzy miesiące. Według FSB zatrzymani w obwodzie królewieckim Polacy zbierali informacje o rosyjskich wojskowych i obiektach ministerstwa obrony."
+   ],
+   "przebieg": [
+    {
+     "data": "2026-11-10",
+     "tekst": "Minister koordynator służb specjalnych {{o:tomasz-siemoniak|Tomasz Siemoniak}} poinformował 10.11, że {{p:abw|ABW}} zatrzymała 3.11 w Mińsku Mazowieckim dwóch obywateli Ukrainy w wieku 24 i 25 lat, podejrzanych o szpiegostwo i dywersję na zlecenie rosyjskiego wywiadu. Według ministra fotografowali obiekty infrastruktury krytycznej i wojskowej oraz podpalali samochody; sąd aresztował ich na trzy miesiące.",
+     "zrodla": [
+      {
+       "nazwa": "PAP (za Radio Maryja)",
+       "url": "https://www.radiomaryja.pl/informacje/t-siemoniak-abw-zatrzymala-dwoch-podejrzanych-o-szpiegostwo-i-dywersje-na-rzecz-rosji/",
+       "data": "2026-11-10"
+      },
+      {
+       "nazwa": "Meduza",
+       "url": "https://meduza.io/en/news/2026/11/10/poland-arrests-two-ukrainians-suspected-of-spying-and-sabotage-for-russia",
+       "data": "2026-11-10"
+      }
+     ]
+    },
+    {
+     "data": "2026-11-11",
+     "tekst": "Rosyjska Federalna Służba Bezpieczeństwa (FSB) ogłosiła 11.11, że zatrzymała dwóch obywateli Polski w obwodzie królewieckim pod zarzutem szpiegostwa; według FSB zbierali oni informacje o rosyjskich wojskowych i obiektach ministerstwa obrony, a siedmiu innym Polakom zakazano wjazdu do Rosji. Według Defence24 rzecznik ministra koordynatora służb specjalnych Jacek Dobrzyński nazwał komunikat FSB prowokacją i dezinformacją.",
+     "zrodla": [
+      {
+       "nazwa": "Bloomberg",
+       "url": "https://www.bloomberg.com/news/articles/2026-11-11/russia-says-two-polish-spies-detained-in-kaliningrad-region",
+       "data": "2026-11-11"
+      },
+      {
+       "nazwa": "Meduza",
+       "url": "https://meduza.io/en/news/2026/11/11/on-poland-s-independence-day-fsb-says-it-detained-two-poles-in-russia-on-espionage-charges",
+       "data": "2026-11-11"
+      },
+      {
+       "nazwa": "Defence24",
+       "url": "https://defence24.pl/geopolityka/fsb-oglasza-rozbicie-polskiej-siatki-dobrzynski-prowokacja-i-dezinformacja",
+       "data": "2026-11-11"
+      }
+     ]
+    }
+   ],
+   "oceny": [],
+   "dla_polski": "Sprawa dotyczy bezpośrednio Polski: według ministra rosyjski wywiad zlecił rozpoznanie obiektów wojskowych i infrastruktury krytycznej oraz podpalenia, a dzień później Rosja ogłosiła zatrzymanie Polaków. Wniosek autora: komunikat FSB, wydany w Święto Niepodległości, wygląda na odpowiedź na polskie zatrzymania; obywatele Polski podróżujący do obwodu królewieckiego są narażeni na podobne zarzuty, a ochrona obiektów w kraju pozostaje pilna.",
+   "w_wydaniach": [
+    "2026-11-10#z6",
+    "2026-11-12#z6"
+   ]
+  },
+  {
+   "id": "mnf-u",
+   "tytul": "Wielonarodowe Siły dla Ukrainy (MNF-U) prowadzą w Nowej Dębie pierwsze ćwiczenia „Koalicja 26.2” z udziałem wojsk 11 państw; Polska jest gospodarzem i państwem wiodącym w logistyce",
+   "data": "2026-11-10",
+   "tagi": [
+    "obronnosc-polski",
+    "ukraina"
+   ],
+   "etap": "W TOKU",
+   "lead": "Na poligonie w Nowej Dębie trwają ćwiczenia „Koalicja 26.2” – **pierwsze ćwiczenia** {{p:mnf-u|Wielonarodowych Sił dla Ukrainy (MNF-U)}}, wcześniej nazywanych koalicją chętnych. Według Ministerstwa Obrony Narodowej biorą w nich udział wojska 11 państw, m.in. Francji, Wielkiej Brytanii, Niemiec i Turcji, a Polska jest gospodarzem i państwem wiodącym w logistyce.",
+   "omowienie": [
+    "Ćwiczenia sprawdzają gotowość do wysłania sił wsparcia na Ukrainę po zawieszeniu broni albo porozumieniu pokojowym."
+   ],
+   "przebieg": [
+    {
+     "data": "2026-11-10",
+     "tekst": "Na poligonie w Nowej Dębie trwają ćwiczenia „Koalicja 26.2” – **pierwsze ćwiczenia** {{p:mnf-u|Wielonarodowych Sił dla Ukrainy (MNF-U)}}, wcześniej nazywanych koalicją chętnych. Według Ministerstwa Obrony Narodowej biorą w nich udział wojska 11 państw, m.in. Francji, Wielkiej Brytanii, Niemiec i Turcji, a Polska jest gospodarzem i państwem wiodącym w logistyce. Ćwiczenia sprawdzają gotowość do wysłania sił wsparcia na Ukrainę po zawieszeniu broni albo porozumieniu pokojowym.",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "MON (gov.pl)",
+       "url": "https://www.gov.pl/web/obrona-narodowa/zapowiedz-dla-mediow---cwiczenie-koalicja-262-w-nowej-debie-koalicja-chetnych",
+       "data": "2026-11-12"
+      },
+      {
+       "nazwa": "OSW",
+       "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-10/pierwsze-cwiczenia-kontyngentu-sil-wsparcia-ukrainy-1721-dzien-wojny",
+       "data": "2026-11-10"
+      }
+     ]
+    }
+   ],
+   "oceny": [],
+   "dla_polski": "Polska jako gospodarz i państwo wiodące w logistyce przyszłych sił wsparcia dla Ukrainy staje się ich zapleczem. Wniosek autora: to zwiększa wagę Polski w rozmowach o gwarancjach bezpieczeństwa dla Ukrainy, ale też obciąża polską infrastrukturę i może uczynić węzły logistyczne w kraju celem rosyjskiej presji.",
+   "w_wydaniach": [
+    "2026-11-12#z7"
    ]
   },
   {
    "id": "wojna-powietrzna",
-   "tytul": "Rosyjskie ataki 8.11 pozbawiają prądu około 850 tys. odbiorców w obwodach dniepropetrowskim i charkowskim; w nocy na 7.11 Rosja uderza pociskami balistycznymi w Kijów",
+   "tytul": "Rosyjskie ataki pociskami i dronami zabijają w Ukrainie 12.11 dziesięć osób, kilka godzin po zakończeniu rozmów w Abu Zabi; 8.11 rosyjskie ataki pozbawiają prądu około 850 tys. odbiorców w obwodach dniepropetrowskim i charkowskim",
    "data": [
-    "2026-11-07",
-    "2026-11-08"
+    "2026-11-08",
+    "2026-11-12"
    ],
    "tagi": [
     "front",
@@ -161,9 +288,9 @@
     "rosja",
     "energia"
    ],
-   "lead": "W nocy z 6 na 7.11 rosyjskie pociski balistyczne uderzyły w Kijów i obwód kijowski; według władz ukraińskich co najmniej sześć osób zostało rannych, a uszkodzony został Most Północny i obiekty energetyczne. 8.11 rosyjskie ataki pozbawiły prądu około **850 tys. odbiorców**: ponad 600 tys. w obwodzie dniepropetrowskim (według firmy DTEK) i około 250 tys. w charkowskim (według władz lokalnych).",
+   "lead": "Rosja zaatakowała Ukrainę w nocy na 12.11 pociskami balistycznymi i dronami, kilka godzin po zakończeniu rozmów w Abu Zabi; według Kyiv Independent w ciągu doby **zginęło 10 osób**, a 40 zostało rannych. 8.11 rosyjskie ataki pozbawiły prądu około **850 tys. odbiorców**: ponad 600 tys. w obwodzie dniepropetrowskim (według firmy DTEK) i około 250 tys. w charkowskim (według władz lokalnych).",
    "omowienie": [
-    "Według Zełenskiego w nocy na 7.11 wystrzelono 36 pocisków, a w obwodzie żytomierskim 140 bloków straciło ogrzewanie. Wcześniej, 2.11, rosyjskie lotnictwo zbombardowało centrum pomocy humanitarnej i schron w obwodzie zaporoskim; według ukraińskich służb ratunkowych zginęły co najmniej 24 osoby, a Reuters, powołując się na policję, podał później 42 zabitych."
+    "12.11 cztery osoby zginęły na targu w Czornomorsku w obwodzie odeskim, a jedna w Kijowie. W nocy z 6 na 7.11 rosyjskie pociski balistyczne uderzyły w Kijów i obwód kijowski; według władz ukraińskich co najmniej sześć osób zostało rannych, a uszkodzony został Most Północny i obiekty energetyczne. Według Zełenskiego w obwodzie żytomierskim 8.11 140 bloków straciło ogrzewanie."
    ],
    "przebieg": [
     {
@@ -277,6 +404,28 @@
        "data": "2026-11-08"
       }
      ]
+    },
+    {
+     "data": "2026-11-12",
+     "tekst": "Rosja zaatakowała Ukrainę w nocy na 12.11 pociskami balistycznymi i dronami, kilka godzin po zakończeniu rozmów w Abu Zabi. Według zestawienia Kyiv Independent, opartego na danych władz lokalnych, w ciągu doby zginęło 10 osób, a 40 zostało rannych, w tym cztery osoby zabite na targu w Czornomorsku w obwodzie odeskim i jedna w Kijowie; Siły Powietrzne Ukrainy podały, że z 123 dronów dalekiego zasięgu zestrzelono 89.",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "Kyiv Independent",
+       "url": "https://kyivindependent.com/russian-attacks-kill-10-injure-40-across-ukraine-over-past-day-as-peace-talks-end/",
+       "data": "2026-11-12"
+      },
+      {
+       "nazwa": "Kyiv Independent",
+       "url": "https://kyivindependent.com/russia-attacks-kyiv-with-ballistic-missiles-hours-after-peace-talks-end/",
+       "data": "2026-11-11"
+      },
+      {
+       "nazwa": "Euronews",
+       "url": "https://www.euronews.com/video/2026/11/12/ukraine-russian-drone-attack-sparks-major-fire-in-kyiv-residential-building",
+       "data": "2026-11-12"
+      }
+     ]
     }
    ],
    "oceny": [],
@@ -287,52 +436,16 @@
     "2026-11-01#z2",
     "2026-11-05#z8",
     "2026-11-07#z3",
-    "2026-11-08#z4"
-   ]
-  },
-  {
-   "id": "hybryda-sabotaz",
-   "tytul": "Minister koordynator służb specjalnych Tomasz Siemoniak informuje 10.11, że ABW zatrzymała dwóch obywateli Ukrainy podejrzanych o szpiegostwo i dywersję na zlecenie rosyjskiego wywiadu",
-   "data": "2026-11-10",
-   "tagi": [
-    "hybryda",
-    "obronnosc-polski",
-    "rosja"
-   ],
-   "lead": "Minister koordynator służb specjalnych {{o:tomasz-siemoniak|Tomasz Siemoniak}} poinformował 10.11, że {{p:abw|ABW}} zatrzymała 3.11 w Mińsku Mazowieckim dwóch obywateli Ukrainy w wieku 24 i 25 lat, podejrzanych o **szpiegostwo i dywersję** na zlecenie rosyjskiego wywiadu. Sąd aresztował obu na trzy miesiące.",
-   "omowienie": [
-    "Według Siemoniaka zatrzymani fotografowali obiekty infrastruktury krytycznej i wojskowej oraz podpalali samochody."
-   ],
-   "przebieg": [
-    {
-     "data": "2026-11-10",
-     "tekst": "Minister koordynator służb specjalnych {{o:tomasz-siemoniak|Tomasz Siemoniak}} poinformował 10.11, że {{p:abw|ABW}} zatrzymała 3.11 w Mińsku Mazowieckim dwóch obywateli Ukrainy w wieku 24 i 25 lat, podejrzanych o szpiegostwo i dywersję na zlecenie rosyjskiego wywiadu. Według ministra fotografowali obiekty infrastruktury krytycznej i wojskowej oraz podpalali samochody; sąd aresztował ich na trzy miesiące.",
-     "zrodla": [
-      {
-       "nazwa": "PAP (za Radio Maryja)",
-       "url": "https://www.radiomaryja.pl/informacje/t-siemoniak-abw-zatrzymala-dwoch-podejrzanych-o-szpiegostwo-i-dywersje-na-rzecz-rosji/",
-       "data": "2026-11-10"
-      },
-      {
-       "nazwa": "Meduza",
-       "url": "https://meduza.io/en/news/2026/11/10/poland-arrests-two-ukrainians-suspected-of-spying-and-sabotage-for-russia",
-       "data": "2026-11-10"
-      }
-     ]
-    }
-   ],
-   "oceny": [],
-   "dla_polski": "Sprawa dotyczy bezpośrednio Polski: według ministra rosyjski wywiad zlecił rozpoznanie obiektów wojskowych i infrastruktury krytycznej oraz podpalenia. Wniosek autora: to ten sam wzorzec co w październikowych zatrzymaniach, więc ochrona obiektów i szybkie zgłaszanie podejrzanych zdarzeń pozostają pilne.",
-   "w_wydaniach": [
-    "2026-11-10#z6"
+    "2026-11-08#z4",
+    "2026-11-12#z2"
    ]
   },
   {
    "id": "ormuz-ropa",
-   "tytul": "Prezydent USA Donald Trump wstrzymuje 9.11 po rozmowie z premierem Kataru nowe ataki na Iran, ale utrzymuje blokadę morską w rejonie Cieśniny Ormuz; 6.11 siły USA uderzają w irańską obronę przeciwlotniczą na wyspie Keszm",
+   "tytul": "Wybuchy unieruchamiają 12.11 dwa tankowce w Cieśninie Ormuz według Korpusu Strażników Rewolucji; prezydent USA Donald Trump wstrzymuje 9.11 nowe ataki na Iran, ale utrzymuje blokadę morską",
    "data": [
-    "2026-11-06",
-    "2026-11-09"
+    "2026-11-09",
+    "2026-11-12"
    ],
    "tagi": [
     "iran",
@@ -340,8 +453,9 @@
     "energia"
    ],
    "etap": "W TOKU",
-   "lead": "Prezydent {{o:donald-trump|Donald Trump}} oświadczył 9.11 po spotkaniu z premierem Kataru w Białym Domu, że na razie **wstrzyma nowe ataki** na Iran, ale utrzyma blokadę morską w rejonie {{p:ormuz|Cieśniny Ormuz}}. Wcześniej, 6.11, siły USA uderzyły w irańską obronę przeciwlotniczą na wyspie Keszm.",
+   "lead": "Według Reutersa Korpus Strażników Rewolucji Islamskiej podał 12.11, że w {{p:ormuz|Cieśninie Ormuz}} wybuchy **unieruchomiły dwa tankowce** z ropą. Trzy dni wcześniej prezydent {{o:donald-trump|Donald Trump}} oświadczył po spotkaniu z premierem Kataru, że na razie **wstrzyma nowe ataki** na Iran, ale utrzyma blokadę morską w rejonie cieśniny; 6.11 siły USA uderzyły w irańską obronę przeciwlotniczą na wyspie Keszm.",
    "omowienie": [
+    "Według źródeł Reutersa Iran zaatakował też systemy nawigacji morskiej na omańskiej wyspie Didamar przy wejściu do cieśniny.",
     "Według Reutersa wysoki rangą irański urzędnik oświadczył 5.11, że Iran przekazał Stanom Zjednoczonym przez Katar propozycję w sprawie programu jądrowego. Tego samego dnia, jak podał Reuters za brytyjskim centrum informacji o żegludze {{p:ukmto|UKMTO}}, dwa pociski uderzyły w tankowiec na północ od Kataru, a 8.11 oba państwa poinformowały o uderzeniach w statki w rejonie {{p:ormuz|Cieśniny Ormuz}}.",
     "Minister spraw zagranicznych Iranu {{o:abbas-araghczi|Abbas Araghczi}} zaprzeczył, by planowano spotkanie przedstawicieli obu państw w Katarze. Według CNN lotnictwo USA przeniosło 9.11 z brytyjskiej bazy RAF Mildenhall dziesięć samolotów tankowania w powietrzu z powodu zagrożenia ze strony Iranu, a w bazach Mildenhall i Lakenheath podniesiono stopień zagrożenia."
    ],
@@ -492,10 +606,27 @@
        "data": "2026-11-10"
       }
      ]
+    },
+    {
+     "data": "2026-11-12",
+     "tekst": "Według Reutersa Korpus Strażników Rewolucji Islamskiej podał 12.11, że w Cieśninie {{p:ormuz|Ormuz}} wybuchy unieruchomiły dwa tankowce z ropą. Agencja podała też, powołując się na źródła, że Iran zaatakował systemy nawigacji morskiej na omańskiej wyspie Didamar przy wejściu do cieśniny.",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "Reuters (newsletter)",
+       "url": "https://www.reuters.com/world/middle-east/two-oil-tankers-disabled-by-explosions-strait-hormuz-irgc-says-2026-11-12/",
+       "data": "2026-11-12"
+      },
+      {
+       "nazwa": "Reuters (newsletter)",
+       "url": "https://www.reuters.com/world/middle-east/iran-attacks-shipping-navigation-systems-omans-didamar-island-sources-say-2026-11-11/",
+       "data": "2026-11-11"
+      }
+     ]
     }
    ],
    "oceny": [],
-   "dla_polski": "Zamknięta lub ryzykowna Cieśnina Ormuz podnosi ceny ropy i paliw w Europie; według Reutersa eksport ropy z Zatoki Perskiej spadł w październiku, a liczba ataków na statki była rekordowa. Wniosek autora: dopóki rozmowom towarzyszą uderzenia w statki, utrzymuje się ryzyko szoków cenowych, które uderzą w polską gospodarkę.",
+   "dla_polski": "Zamknięta lub ryzykowna Cieśnina Ormuz podnosi ceny ropy i paliw w Europie; według Reutersa eksport ropy z Zatoki Perskiej spadł w październiku, a liczba ataków na statki była rekordowa. Wniosek autora: wstrzymanie amerykańskich ataków nie zatrzymało uderzeń w tankowce, więc ryzyko szoków cenowych, które uderzą w polską gospodarkę, się utrzymuje.",
    "w_wydaniach": [
     "2026-10-31#z5",
     "2026-11-02#z2",
@@ -507,7 +638,48 @@
     "2026-11-09#z1",
     "2026-11-09#z2",
     "2026-11-10#z3",
-    "2026-11-10#z13"
+    "2026-11-10#z13",
+    "2026-11-12#z12"
+   ]
+  },
+  {
+   "id": "sankcje",
+   "tytul": "Wielka Brytania obejmuje 12.11 sankcjami Vostok Oil, Slawnieft, rosyjskie firmy węglowe i statki floty cieni jako pierwsze państwo, które ukarało wszystkich dziesięciu największych producentów ropy w Rosji",
+   "data": "2026-11-12",
+   "tagi": [
+    "sankcje",
+    "wielka-brytania",
+    "rosja",
+    "energia"
+   ],
+   "etap": "PRZYJĘTE",
+   "lead": "Rząd premiera {{o:andy-burnham|Andy'ego Burnhama}} objął 12.11 **sankcjami** spółkę Vostok Oil, arktyczny projekt koncernu Rosnieft, firmę naftową Slawnieft, duże rosyjskie firmy węglowe i statki floty cieni. Według rządu brytyjskiego Wielka Brytania jest pierwszym państwem, które ukarało wszystkich dziesięciu największych producentów ropy w Rosji.",
+   "omowienie": [
+    "Sankcje ogłoszono w dniu szczytu Europejskiej Wspólnoty Politycznej w Dublinie, poświęconego według rządu brytyjskiego Ukrainie."
+   ],
+   "przebieg": [
+    {
+     "data": "2026-11-12",
+     "tekst": "Rząd premiera {{o:andy-burnham|Andy'ego Burnhama}} objął 12.11 **sankcjami** spółkę Vostok Oil, arktyczny projekt koncernu Rosnieft, firmę naftową Slawnieft, duże rosyjskie firmy węglowe i statki floty cieni. Według rządu brytyjskiego Wielka Brytania jest pierwszym państwem, które ukarało wszystkich dziesięciu największych producentów ropy w Rosji.",
+     "etap": "PRZYJĘTE",
+     "zrodla": [
+      {
+       "nazwa": "GOV.UK",
+       "url": "https://www.gov.uk/government/news/ukraine-set-to-be-focus-of-epc-summit-as-uk-sanctions-russias-top-ten-oil-producers",
+       "data": "2026-11-12"
+      },
+      {
+       "nazwa": "Kyiv Independent",
+       "url": "https://kyivindependent.com/uk-says-its-1st-country-to-target-all-of-russias-top-10-oil-producers-with-latest-round-of-sanctions/",
+       "data": "2026-11-12"
+      }
+     ]
+    }
+   ],
+   "oceny": [],
+   "dla_polski": "Sankcje wymierzone w rosyjską ropę i flotę cieni ograniczają dochody, z których Rosja finansuje wojnę, a statki floty cieni pływają także po Bałtyku. Wniosek autora: brytyjski krok wyprzedza UE i USA, więc Polsce opłaca się wspierać w Unii objęcie tych samych podmiotów kolejnym pakietem.",
+   "w_wydaniach": [
+    "2026-11-12#z3"
    ]
   },
   {
@@ -686,81 +858,25 @@
     "2026-11-07#z6",
     "2026-11-11#z4"
    ]
-  },
-  {
-   "id": "izrael-rzad",
-   "tytul": "Prezydent Izraela Icchak Herzog powierza 7.11 misję utworzenia rządu Gadiemu Ejzenkotowi, rywalowi premiera Benjamina Netanjahu",
-   "data": "2026-11-07",
-   "tagi": [
-    "inne",
-    "wybory"
-   ],
-   "etap": "W TOKU",
-   "lead": "Prezydent Izraela {{o:icchak-herzog|Icchak Herzog}} powierzył 7.11 wieczorem **misję utworzenia rządu** {{o:gadi-ejzenkot|Gadiemu Ejzenkotowi}}, byłemu szefowi sztabu i rywalowi premiera {{o:benjamin-netanjahu|Benjamina Netanjahu}}. Ejzenkot ma 28 dni na zbudowanie koalicji, z możliwością przedłużenia o 14.",
-   "omowienie": [
-    "Za Ejzenkotem opowiedziały się frakcje z 67 posłami, za Netanjahu z 46. Wcześniej, 4.11, komisja wyborcza ogłosiła, że nie znalazła dowodów naruszenia uczciwości wyborów, a Herzog przyjął zatwierdzone wyniki; według AP blok Netanjahu stracił w wyborach większość.",
-    "Według Reutersa Ejzenkot dąży do „szerokiego” rządu, ale droga do większości w Knesecie pozostaje niepewna."
-   ],
-   "przebieg": [
-    {
-     "data": "2026-11-04",
-     "tekst": "Izraelska komisja wyborcza ogłosiła 4.11, że nie znalazła dowodów naruszenia uczciwości wyborów do Knesetu, a prezydent Herzog przyjął zatwierdzone wyniki i rozpoczął konsultacje z partiami w sprawie nowego rządu. Według AP blok premiera Netanjahu stracił w wyborach większość.",
-     "etap": "PRZYJĘTE",
-     "zrodla": [
-      {
-       "nazwa": "Associated Press (newsletter)",
-       "url": "https://apnews.com/article/israel-election-netanyahu-57aefc6424da937ad2842f6d762631ae",
-       "data": "2026-11-04"
-      }
-     ]
-    },
-    {
-     "data": "2026-11-07",
-     "tekst": "Prezydent Herzog powierzył 7.11 wieczorem misję utworzenia rządu Gadiemu Ejzenkotowi, byłemu szefowi sztabu i rywalowi premiera Netanjahu. Za Ejzenkotem opowiedziały się frakcje z 67 posłami, za Netanjahu z 46; Ejzenkot ma 28 dni na zbudowanie koalicji, z możliwością przedłużenia o 14.",
-     "etap": "W TOKU",
-     "zrodla": [
-      {
-       "nazwa": "Reuters (newsletter)",
-       "url": "https://www.reuters.com/world/middle-east/israeli-president-picks-gadi-eisenkot-netanyahu-rival-form-government-2026-11-07/",
-       "data": "2026-11-07"
-      },
-      {
-       "nazwa": "Associated Press (newsletter)",
-       "url": "https://apnews.com/article/israel-elections-netanyahu-eisenkot-bec07675825bee5895315e2ea1cb5751",
-       "data": "2026-11-08"
-      },
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/11/08/netanyahu-rival-eisenkot-to-be-tasked-with-forming-new-government-following-israeli-electi",
-       "data": "2026-11-08"
-      }
-     ]
-    },
-    {
-     "data": "2026-11-08",
-     "tekst": "Według Reutersa Ejzenkot dąży do „szerokiego” rządu w Izraelu, ale droga do większości w Knesecie pozostaje niepewna.",
-     "etap": "W TOKU",
-     "zrodla": [
-      {
-       "nazwa": "Reuters (newsletter)",
-       "url": "https://www.reuters.com/world/middle-east/netanyahu-rival-eisenkot-seeks-wide-government-path-power-uncertain-2026-11-08/",
-       "data": "2026-11-08"
-      }
-     ]
-    }
-   ],
-   "oceny": [],
-   "dla_polski": "Skład izraelskiego rządu wpływa na przebieg konfliktów na Bliskim Wschodzie, a przez nie na ceny ropy i paliw w Europie. Wniosek autora: dopóki koalicja nie powstanie, skutek dla Polski jest pośredni i niepewny.",
-   "w_wydaniach": [
-    "2026-11-04#z3",
-    "2026-11-05#z6",
-    "2026-11-06#z2",
-    "2026-11-08#z6",
-    "2026-11-09#z6"
-   ]
   }
  ],
  "czego_nie_ma": [
+  {
+   "tekst": "Powierzenie 7.11 przez prezydenta Izraela Icchaka Herzoga misji utworzenia rządu Gadiemu Ejzenkotowi, rywalowi premiera Benjamina Netanjahu – miejsce 11: etap procedury, rząd jeszcze nie powstał.",
+   "prog": "następstwo"
+  },
+  {
+   "tekst": "Szczyt Europejskiej Wspólnoty Politycznej w Dublinie (12.11) – deklaracje Emmanuela Macrona i Friedricha Merza o udziale Europy w rozmowach z Rosją, bez decyzji; zapowiedź udziału Europejczyków w kolejnej rundzie opisuje pozycja o rozmowach.",
+   "prog": "następstwo"
+  },
+  {
+   "tekst": "Izraelski nalot na szpital Nasera w Chan Junus (12.11, co najmniej sześć zabitych), rezygnacja wiceprezydenta Indonezji Gibrana Rakabuminga Raki (12.11) i zabójstwo rosyjskiego pułkownika w zamachu bombowym w Petersburgu (12.11) – incydenty i zmiany o skutku regionalnym albo wewnętrznym, bez zmiany układu sił.",
+   "prog": "następstwo"
+  },
+  {
+   "tekst": "Odejście Jensena Huanga ze stanowiska prezesa Nvidii (12.11) po doniesieniach o związku z menedżerką podejrzewaną o pracę dla chińskiego wywiadu oraz ograniczenia łączności Starshield na froncie według Zełenskiego (12.11) – zmiana w firmie bez decyzji państw i deklaracja jednej strony bez potwierdzenia przyczyny.",
+   "prog": "następstwo"
+  },
   {
    "tekst": "Groźba kanclerza Friedricha Merza w liście do przewodniczącego Rady Europejskiej António Costy (9.11), że Niemcy zablokują budżet UE na lata 2028–2034, jeśli wszystkie państwa nie zgodzą się na wspólne finansowanie Ukrainy – propozycja w negocjacjach, bez decyzji.",
    "prog": "następstwo"
@@ -783,10 +899,6 @@
   },
   {
    "tekst": "Spotkanie wicepremiera Władysława Kosiniaka-Kamysza z sekretarzem obrony USA Pete'em Hegsethem (10.11) i nowy punkt dowodzenia Rady Współpracy Zatoki Perskiej w Kuwejcie – w wydaniu z 10.11 w „W obserwacji” z braku dokumentacji; drugiego źródła o wyniku spotkania w Pentagonie nadal brak (według Polsat News decyzję o stałej bazie ma podjąć Biały Dom na początku grudnia).",
-   "prog": "dokumentacja"
-  },
-  {
-   "tekst": "Zatrzymanie przez FSB dwóch obywateli Polski podejrzanych o szpiegostwo (11.11; rzecznik ministra koordynatora służb nazwał to prowokacją), ćwiczenia „Koalicja 26.2” w Nowej Dębie, dostawa haubic K9PL i czołgów K2 z Korei Południowej (9.11), naruszenie przestrzeni powietrznej Mołdawii przez rosyjskie pociski i alarmy przed dronami w państwach bałtyckich (11.11) – w wydaniu z 11.11 w „W obserwacji” z braku drugiego źródła z poziomów 1–2.",
    "prog": "dokumentacja"
   },
   {
@@ -814,9 +926,13 @@
    "prog": "następstwo"
   },
   {
-   "tekst": "Sprawy z poprzednich tygodni bez nowych faktów w tym tygodniu (decyzja USA o sprzedaży Ukrainie pocisków PAC-3 MSE, Starshield, protesty we Francji, sankcje USA na Rosję, drony na Litwie, groźba jądrowa w sprawie Królewca i inne) – są w archiwum za październik 2026; wybory do Kongresu USA (3.11) i pakiet rozszerzeniowy Komisji Europejskiej (4.11) trafią do archiwum za listopad.",
+   "tekst": "Naruszenie przestrzeni powietrznej Mołdawii przez rosyjskie pociski i alarmy przed dronami w państwach bałtyckich (11.11) oraz dostawa haubic K9PL i czołgów K2 z Korei Południowej (9.11) – w wydaniu z 11.11 w „W obserwacji” z braku drugiego źródła z poziomów 1–2; drugi dzień alarmów bombowych w szkołach Włoch i Francji (12.11) – w wydaniu z 12.11 tylko według Euronews.",
+   "prog": "dokumentacja"
+  },
+  {
+   "tekst": "Sprawy z poprzednich tygodni bez nowych faktów w tym tygodniu (decyzja USA o sprzedaży Ukrainie pocisków PAC-3 MSE, protesty we Francji, sankcje USA na Rosję, drony na Litwie, groźba jądrowa w sprawie Królewca i inne) – są w archiwum za październik 2026; wybory do Kongresu USA (3.11) i pakiet rozszerzeniowy Komisji Europejskiej (4.11) trafią do archiwum za listopad.",
    "prog": "następstwo"
   }
  ],
- "nota": "Zestawienie kroczące za 5–11.11.2026. Wypadł pakiet rozszerzeniowy Komisji Europejskiej (4.11, przed oknem). Rozmowy w Abu Zabi – nowy fakt z 11.11 (uzgodniona wymiana jeńców), alarmy bombowe – ewakuacja szkół we Włoszech 11.11; tytuł pozycji o Izraelu bez faktu z 4.11. Fakty pochodzą z wydań dziennych i ich źródeł; kolejność to ocena autora."
+ "nota": "Zestawienie kroczące za 6–12.11.2026. Nowe fakty z 12.11: rozmowy wysłanników USA z Putinem na Kremlu, rosyjskie ataki na Ukrainę i unieruchomienie dwóch tankowców w Cieśninie Ormuz; do sprawy zatrzymań dopisano komunikat FSB z 11.11. Weszły ćwiczenia „Koalicja 26.2” i brytyjskie sankcje na rosyjską ropę; wypadła powierzona 7.11 misja tworzenia rządu w Izraelu (miejsce 11). Fakty pochodzą z wydań dziennych i ich źródeł; kolejność to ocena autora."
 }

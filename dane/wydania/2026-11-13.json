@@ -1,0 +1,602 @@
+{
+  "nr": 56,
+  "data": "2026-11-13",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Wysłannik prezydenta USA {{o:jared-kushner|Jared Kushner}} zapowiedział 13.11, że w kolejnej rundzie rozmów o zakończeniu wojny w Ukrainie wezmą udział przedstawiciele Europy. Według Kushnera USA przygotowują też największą w tej wojnie wymianę jeńców.",
+    "Przywódcy państw UE rozmawiali 13.11 w Dublinie o sztucznej inteligencji i o wojnie w Ukrainie. Wysoka przedstawiciel UE {{o:kaja-kallas|Kaja Kallas}} powiedziała, że zabiega o rolę wysłannika UE w rozmowach pokojowych; według niej Rosjanie nie chcą jej w tej roli.",
+    "Dowództwo Centralne USA podało 13.11, że zestrzeliło nad Bahrajnem dwa irańskie drony. Iran twierdzi, że zniszczył tam amerykański radar wczesnego ostrzegania.",
+    "Rosyjskie drony zaatakowały Ukrainę w nocy na 13.11. Według zestawienia Kyiv Independent w ciągu doby zginęło 9 osób, a 61 zostało rannych.",
+    "Ukraińskie drony trafiły 11.11 w Zatoce Fińskiej rosyjski okręt rakietowy „Naro-Fominsk”. Według estońskiego wojska okręt nie mógł płynąć o własnych siłach, a wśród załogi są zabici i ranni."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-11-12",
+      "tagi": [
+        "ukraina",
+        "rozejm",
+        "usa",
+        "rosja"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "dublin",
+      "krotko": "Dublin: Zełenski i wysłannicy USA",
+      "tekst": "Wysłannicy prezydenta USA {{o:jared-kushner|Jared Kushner}} i {{o:steve-witkoff|Steve Witkoff}} spotkali się 12.11 wieczorem pod Dublinem z prezydentem Ukrainy {{o:wolodymyr-zelenski|Wołodymyrem Zełenskim}}, kilka godzin po rozmowie z {{o:wladimir-putin|Władimirem Putinem}} w Moskwie. Kushner zapowiedział 13.11, że w **kolejnej rundzie rozmów** wezmą udział przedstawiciele Europy, a USA przygotowują największą w tej wojnie wymianę jeńców. Kreml nie potwierdził zgody na udział Europejczyków, a daty i miejsca następnej rundy nie podano.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-meets-with-trumps-envoys-in-dublin-after-their-summit-with-putin/",
+          "data": "2026-11-12"
+        },
+        {
+          "nazwa": "CNN",
+          "url": "https://edition.cnn.com/2026/11/12/politics/ukraine-witkoff-kushner-putin-peace-talks-intl",
+          "data": "2026-11-12"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/13/kushner-says-ukraine-and-russia-are-preparing-what-could-be-the-war-s-largest-prisoner-swap",
+          "data": "2026-11-13"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/13/european-negotiators-could-be-set-to-join-ukraine-peace-talks",
+          "data": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-11-13",
+      "tagi": [
+        "ukraina",
+        "rosja"
+      ],
+      "miejsce": "kijow",
+      "krotko": "Ukraina: 9 zabitych w atakach",
+      "tekst": "Rosja zaatakowała Ukrainę w nocy na 13.11 dronami; Siły Powietrzne Ukrainy podały, że wystrzelono 117 dronów, w tym 63 odrzutowe. Według zestawienia Kyiv Independent, opartego na danych władz lokalnych, w ciągu doby **zginęło 9 osób**, a 61 zostało rannych. W Kijowie dron uszkodził placówkę medyczną.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-attacks-kill-9-injure-61-across-ukraine-over-past-day-spark-fire-at-kyiv-hospital/",
+          "data": "2026-11-13"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/13/ukraine-russian-drone-attacks-hit-kyiv-hospital-leave-one-dead-in-odesa",
+          "data": "2026-11-13"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/13/russian-strikes-kill-three-in-ukraine-injure-several-others-including-children",
+          "data": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "wojna",
+      "data": "2026-11-11",
+      "tagi": [
+        "rosja",
+        "ukraina",
+        "nordyckie",
+        "estonia"
+      ],
+      "miejsce": "zatoka-finska",
+      "krotko": "Zatoka Fińska: trafiony okręt",
+      "tekst": "Służba Bezpieczeństwa Ukrainy ({{p:sbu|SBU}}) ogłosiła, że 11.11 zaatakowała w Zatoce Fińskiej rosyjski mały okręt rakietowy „Naro-Fominsk” Floty Bałtyckiej. Fińskie władze potwierdziły nadawcy Yle, że wykryły atak w pobliżu wyspy Gogland, ok. 40 km od wybrzeża Finlandii. Według zastępcy dowódcy dywizji estońskich sił zbrojnych płk. Arona Kalmusa okręt trafiło kilka dronów, **nie mógł płynąć o własnych siłach**, a w załodze są zabici i ranni.",
+      "kraje": [
+        "Rosja",
+        "Ukraina",
+        "Finlandia",
+        "Estonia"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Yle",
+          "url": "https://yle.fi/a/74-20256496",
+          "data": "2026-11-12"
+        },
+        {
+          "nazwa": "ERR",
+          "url": "https://news.err.ee/1610195272/officer-russian-warship-hit-multiple-times-in-baltic-with-casualties",
+          "data": "2026-11-13"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/13/why-is-ukraine-attacking-russian-warships-in-the-baltic-sea-amid-talks",
+          "data": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "wojna",
+      "data": "2026-11-13",
+      "tagi": [
+        "rosja",
+        "ukraina"
+      ],
+      "miejsce": "moskwa",
+      "krotko": "Moskwa: wybuch samochodu",
+      "tekst": "W moskiewskiej dzielnicy Czertanowo wybuchł 13.11 samochód; według rosyjskich mediów, na które powołuje się Meduza, ciężko ranny został Siergiej Zaworotny, były rzecznik premiera Ukrainy Mykoły Azarowa, który w 2014 r. uciekł do Rosji. Rosyjscy śledczy wszczęli sprawę karną. To **drugi zamach z użyciem samochodu-pułapki** w Rosji w ciągu dwóch dni – 12.11 w Petersburgu zginął rosyjski wojskowy.",
+      "zrodla": [
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/11/13/a-car-exploded-in-moscow-telegram-channels-say-it-belongs-to-sergei-zavorotny-former-spokesman-for-ukrainian-ex-prime-minister-mykola-azarov",
+          "data": "2026-11-13"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/car-explosion-in-moscow-reportedly-injures-ex-azarov-press-secretary/",
+          "data": "2026-11-13"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/13/car-bombings-in-russia-kill-military-officer-injure-ex-ukraine-pm-adviser",
+          "data": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "instytucje",
+      "data": "2026-11-13",
+      "tagi": [
+        "ue",
+        "ukraina"
+      ],
+      "miejsce": "dublin",
+      "krotko": "Dublin: nieformalny szczyt UE",
+      "tekst": "Przywódcy 27 państw UE spotkali się 13.11 w Dublinie na nieformalnym posiedzeniu Rady Europejskiej, poświęconym sztucznej inteligencji i wojnie w Ukrainie; takie spotkanie nie przyjmuje decyzji. Według Meduzy przywódcy **wciąż nie są zgodni**, kto ma reprezentować Europę w rozmowach pokojowych. Wysoka przedstawiciel UE {{o:kaja-kallas|Kaja Kallas}} powiedziała Euronews, że zabiega o tę rolę; według niej „Rosjanie jej nie chcą”.",
+      "zrodla": [
+        {
+          "nazwa": "Rada UE i Komisja Europejska",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/11/media-advisory-meeting-of-the-european-political-community-of-12-november-2026-and-the-informal-meeting-of-heads-of-state-or-government-of-13-november-2026/",
+          "data": "2026-11-11"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/13/eu-leaders-discuss-how-to-boost-europes-ai-industry-while-tackling-risks-at-dublin-summit",
+          "data": "2026-11-13"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/13/kallas-says-russians-dont-want-me-as-eu-envoy-for-peace-talks",
+          "data": "2026-11-13"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/11/13/you-could-even-have-a-tv-show-about-it-europe-struggles-to-choose-its-representative-for-ukraine-peace-talks",
+          "data": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "z6",
+      "blok": "swiat",
+      "data": "2026-11-13",
+      "tagi": [
+        "iran",
+        "usa"
+      ],
+      "miejsce": "manama",
+      "krotko": "Bahrajn: drony Iranu zestrzelone",
+      "tekst": "Korpus Strażników Rewolucji Islamskiej ogłosił 13.11, że zniszczył amerykański radar wczesnego ostrzegania w Bahrajnie. Dowództwo Centralne USA ({{p:centcom|CENTCOM}}) zaprzeczyło i podało, że **zestrzeliło dwa irańskie drony** nad Bahrajnem, bez ofiar i szkód. Iran przedstawił atak jako odwet za uderzenie z 12.11 na wieżę telekomunikacyjną w okręgu Sirik na południu kraju.",
+      "kraje": [
+        "Bahrajn"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/irans-guards-say-they-targeted-us-early-warning-radar-bahrain-2026-11-13/",
+          "data": "2026-11-13"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/13/irgc-says-it-destroyed-us-radar-in-bahrain-after-attack-on-southern-iran",
+          "data": "2026-11-13"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain",
+          "data": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "z7",
+      "blok": "swiat",
+      "data": "2026-11-12",
+      "tagi": [
+        "usa",
+        "iran"
+      ],
+      "kraje": [
+        "Stany Zjednoczone",
+        "Iran"
+      ],
+      "tekst": "Prezydent USA {{o:donald-trump|Donald Trump}} napisał 12.11, że Stany Zjednoczone **„nie potrzebują porozumienia z Iranem”**, i polecił wiceprezydentowi {{o:jd-vance|J.D. Vance'owi}} zająć się zamiast wojną z Iranem walką z korupcją i przestępczością w kraju. Według AP wcześniej „The Wall Street Journal” podał, że Vance rozważał nową rundę bezpośrednich rozmów z irańskim przedstawicielem.",
+      "zrodla": [
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/trump-iran-vance-negotiations-d9671cbf66e3c2e337f4fb3485ad07d0",
+          "data": "2026-11-12"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/us/trump-says-vance-should-focus-domestic-corruption-we-dont-need-deal-with-iran-2026-11-12/",
+          "data": "2026-11-12"
+        }
+      ]
+    },
+    {
+      "id": "z8",
+      "blok": "swiat",
+      "data": "2026-11-13",
+      "tagi": [
+        "iran",
+        "onz"
+      ],
+      "miejsce": "wieden",
+      "krotko": "MAEA: raport o Iranie",
+      "tekst": "Według Reutersa Międzynarodowa Agencja Energii Atomowej ({{p:maea|MAEA}}) wyraziła w raporcie z 13.11 **rosnące zaniepokojenie** irańskim zakładem wzbogacania uranu. Agencja wezwała Iran do ponownego wpuszczenia inspektorów do obiektów jądrowych.",
+      "kraje": [
+        "Iran"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/china/iaea-increasingly-concerned-about-iranian-enrichment-plant-its-report-says-2026-11-13/",
+          "data": "2026-11-13"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/13/un-watchdog-calls-on-iran-to-reopen-nuclear-facilities-to-inspection",
+          "data": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "z9",
+      "blok": "swiat",
+      "data": "2026-11-12",
+      "tagi": [
+        "ue",
+        "inne"
+      ],
+      "kraje": [
+        "Arabia Saudyjska",
+        "Jemen"
+      ],
+      "tekst": "Według Reutersa Arabia Saudyjska **naciska na UE**, by uznała jemeński ruch {{p:huti|Huti}} za organizację terrorystyczną. Uznanie oznaczałoby objęcie ruchu unijnymi sankcjami.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/saudi-arabia-puts-pressure-eu-label-yemens-houthis-terrorist-group-2026-11-12/",
+          "data": "2026-11-12"
+        }
+      ]
+    },
+    {
+      "id": "z10",
+      "blok": "gospodarka",
+      "data": "2026-11-13",
+      "tagi": [
+        "iran",
+        "energia"
+      ],
+      "miejsce": "ciesnina-ormuz",
+      "krotko": "Ormuz: gazowiec na minie",
+      "tekst": "Według Reutersa Iran podał 13.11, że gazowiec przewożący {{p:lng|LNG}} wszedł na minę w Cieśninie {{p:ormuz|Ormuz}} i doszło na nim do eksplozji. Według tej samej agencji Iran mówi już o **czterech tankowcach** trafionych w cieśninie przez wybuchy; 12.11 informował o dwóch.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/iran-says-tanker-carrying-lng-hit-mine-suffered-explosion-hormuz-2026-11-13/",
+          "data": "2026-11-13"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/two-oil-tankers-disabled-by-explosions-strait-hormuz-irgc-says-2026-11-12/",
+          "data": "2026-11-12"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "OSW: ścieżki akcesyjne Mołdawii i Ukrainy do UE się rozchodzą",
+      "autor": "Kamil Całus, Kacper Sienicki (OSW), 13.11.2026",
+      "tekst": "Według mapy drogowej z pakietu rozszerzenia Komisji Europejskiej z 4.11 Mołdawia może w 2027 r. zamknąć do 25 z 35 rozdziałów negocjacyjnych, a Ukraina siedem z 33. {{p:osw|OSW}} ocenia, że raport o Mołdawii jest najkorzystniejszy w historii, a tempo reform w Ukrainie słabnie, więc drogi obu państw do UE się rozchodzą.",
+      "dla_polski": "Polska popiera rozszerzenie UE o oba państwa; rozdzielenie ich ścieżek zmienia kalendarz negocjacji, w których Polska uczestniczy (ocena redakcji).",
+      "tagi": [
+        "ue",
+        "ukraina",
+        "moldawia"
+      ],
+      "kraje": [
+        "Mołdawia",
+        "Ukraina"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-13/moldawia-przed-ukraina-na-sciezce-akcesyjnej-do-ue",
+          "data": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "tytul": "PISM: Komisja Europejska pozytywnie ocenia postępy Mołdawii i Ukrainy",
+      "autor": "Polski Instytut Spraw Międzynarodowych, 13.11.2026",
+      "tekst": "{{p:pism|PISM}} omawia pakiet rozszerzenia Komisji Europejskiej z 4.11 i mapy drogowe dla czterech najbardziej zaawansowanych kandydatów. Według PISM Mołdawia mogłaby zakończyć negocjacje akcesyjne na początku 2028 r., a Ukraina pod koniec 2028 r.",
+      "dla_polski": "Termin zakończenia negocjacji z Ukrainą wyznacza harmonogram przygotowań Polski do akcesji sąsiada, m.in. w rolnictwie i transporcie (ocena redakcji).",
+      "tagi": [
+        "ue",
+        "ukraina",
+        "moldawia"
+      ],
+      "kraje": [
+        "Mołdawia",
+        "Ukraina"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "PISM",
+          "url": "https://www.pism.pl/publikacje/komisja-europejska-pozytywnie-ocenia-postepy-moldawii-i-ukrainy-w-integracji-z-ue",
+          "data": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "tytul": "PISM: Litwa i Niemcy rozwijają współpracę w dziedzinie bezpieczeństwa",
+      "autor": "Łukasz Jasiński, Tomasz Zduńczyk (PISM), 10.11.2026",
+      "tekst": "PISM opisuje rozwój współpracy Litwy i Niemiec w sferze bezpieczeństwa. Według autorów obejmuje ona także energetykę: planowane podmorskie połączenie sieci przesyłowych państw bałtyckich z Niemcami ma dla Litwy i Łotwy wymiar bezpieczeństwa.",
+      "dla_polski": "Większe zaangażowanie Niemiec na Litwie wzmacnia obronę przesmyku suwalskiego, kluczowego dla połączenia Polski z państwami bałtyckimi (ocena redakcji).",
+      "tagi": [
+        "litwa",
+        "niemcy",
+        "nato"
+      ],
+      "kraje": [
+        "Litwa",
+        "Niemcy"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "PISM",
+          "url": "https://pism.pl/publikacje/rozwoj-litewsko-niemieckiej-wspolpracy-w-sferze-bezpieczenstwa",
+          "data": "2026-11-10"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-11-13",
+      "tekst": "13.11: Dublin – nieformalne spotkanie szefów państw i rządów UE.",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-18",
+      "tekst": "18–19.11: Chiny – spotkanie przywódców APEC w Shenzhen.",
+      "tagi": [
+        "chiny"
+      ]
+    },
+    {
+      "data": "2026-11-20",
+      "tekst": "20.11: Bruksela – szczyt UE–Wielka Brytania.",
+      "tagi": [
+        "ue",
+        "wielka-brytania"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [
+      {
+        "tytul": "Mołdawia przed Ukrainą na ścieżce akcesyjnej do UE",
+        "autor": "Kamil Całus, Kacper Sienicki",
+        "data": "2026-11-13",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-13/moldawia-przed-ukraina-na-sciezce-akcesyjnej-do-ue"
+      },
+      {
+        "tytul": "Rozmowy Ukraina–USA–Rosja w Abu Zabi: bezpieczeństwo europejskie w centrum uwagi",
+        "autor": "Witold Rodkiewicz, Kacper Sienicki, Łukasz Maślanka, Andrzej Kohut",
+        "data": "2026-11-12",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-12/rozmowy-ukraina-usa-rosja-w-abu-zabi-bezpieczenstwo-europejskie-w"
+      },
+      {
+        "tytul": "Kartagina 2.0. Uderzenie służb antykorupcyjnych w przestępczość zorganizowaną na Ukrainie",
+        "autor": "Mateusz Goliszewski",
+        "data": "2026-11-10",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-10/kartagina-20-uderzenie-sluzb-antykorupcyjnych-w-przestepczosc"
+      },
+      {
+        "tytul": "Pierwsze ćwiczenia kontyngentu sił wsparcia Ukrainy. 1721. dzień wojny",
+        "autor": "Andrzej Wilk, Mateusz Goliszewski",
+        "data": "2026-11-10",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-10/pierwsze-cwiczenia-kontyngentu-sil-wsparcia-ukrainy-1721-dzien-wojny"
+      }
+    ],
+    "pism": [
+      {
+        "tytul": "Komisja Europejska pozytywnie ocenia postępy Mołdawii i Ukrainy w integracji z UE",
+        "data": "2026-11-13",
+        "url": "https://www.pism.pl/publikacje/komisja-europejska-pozytywnie-ocenia-postepy-moldawii-i-ukrainy-w-integracji-z-ue"
+      },
+      {
+        "tytul": "Rozwój litewsko-niemieckiej współpracy w sferze bezpieczeństwa",
+        "autor": "Łukasz Jasiński, Tomasz Zduńczyk",
+        "numer": "Biuletyn nr 79 (3213)",
+        "data": "2026-11-10",
+        "url": "https://pism.pl/publikacje/rozwoj-litewsko-niemieckiej-wspolpracy-w-sferze-bezpieczenstwa"
+      }
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "prog": "dokumentacja",
+      "tekst": "Rosja i Finlandia: według niemieckiego dziennika „Bild” rosyjscy negocjatorzy w Abu Zabi mieli zażądać wystąpienia Finlandii z NATO i zakazu baz NATO w państwach bałtyckich. Według Yle minister obrony Finlandii {{o:antti-hakkanen|Antti Häkkänen}} nazwał takie żądanie oburzającym; rzecznik Kremla zaprzeczył, by o tym rozmawiano.",
+      "sprawdzono": [
+        "Yle 13.11 (poziom 2): relacja doniesień „Bilda” i reakcji Finlandii",
+        "Polsat News 13.11 (poziom 3)",
+        "Newslettery AP i Reutersa z 13.11: brak wzmianki",
+        "Kanał RSS Euronews 13.11: brak wzmianki o „Bildzie”"
+      ]
+    },
+    {
+      "id": "n2",
+      "prog": "dokumentacja",
+      "tekst": "Rosja: według Meduzy ukraińskie drony wywołały 13.11 pożar rafinerii w Wołgogradzie, w którym zginęło czterech pracowników, a w obwodzie samarskim w ataku na zakład przemysłowy zginęły cztery osoby.",
+      "sprawdzono": [
+        "Meduza 13.11: jedyne źródło z poziomów 1–2",
+        "Al Jazeera 13.11 (poziom 3): ogólnie o atakach obu stron",
+        "Newslettery AP i Reutersa z 13.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n3",
+      "prog": "dokumentacja",
+      "tekst": "Węgry i UE: według Euronews prezes koncernu MOL zapowiedział, że firma może zakończyć import rosyjskiej ropy w 2027 r., i zabiega o środki UE na alternatywne rurociągi.",
+      "sprawdzono": [
+        "Euronews 13.11: jedyne źródło",
+        "Newslettery AP i Reutersa z 13.11: brak wzmianki",
+        "Kanał RSS Kyiv Independent 13.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n4",
+      "prog": "dokumentacja",
+      "tekst": "Turcja i Katar: według Al Jazeery oba państwa podpisały 13.11 w Stambule umowę o wzajemnej obronie.",
+      "sprawdzono": [
+        "Al Jazeera 13.11 (poziom 3)",
+        "Kanał RSS Euronews 13.11: brak wzmianki",
+        "Newslettery AP i Reutersa z 13.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n5",
+      "prog": "dokumentacja",
+      "tekst": "Chiny i USA: według Euronews Pekin skrytykował amerykańskie ograniczenia eksportu procesorów po doniesieniach, że firma podejrzanej o szpiegostwo Alice Huang otrzymała objęte zakazem układy.",
+      "sprawdzono": [
+        "Euronews 13.11: jedyne źródło",
+        "Newsletter Reutersa z 13.11: tylko o śledztwie Departamentu Sprawiedliwości",
+        "Kanał RSS Meduzy 13.11: brak wzmianki"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-11-12#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Euronews 13.11: brak wzmianki",
+        "Newslettery AP i Reutersa z 13.11: brak wzmianki",
+        "Kanał RSS Polsat News 13.11 (poziom 3): brak wzmianki"
+      ],
+      "powod": "Brak komunikatów policji włoskiej i francuskiej o ustaleniach w sprawie alarmów."
+    },
+    {
+      "dotyczy": "2026-11-12#n2",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Newsletter Reutersa „Iran Briefing” 13.11: tylko o nacisku Arabii Saudyjskiej na UE w sprawie Huti",
+        "Al Jazeera 13.11: brak wzmianki o Mekce",
+        "Kanał RSS Euronews 13.11: brak wzmianki"
+      ],
+      "powod": "Brak komunikatu władz saudyjskich o szczątkach pocisków w regionie Mekki."
+    },
+    {
+      "dotyczy": "2026-11-12#n3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Euronews 13.11: tylko o koncernie MOL",
+        "Newslettery AP i Reutersa z 13.11: brak wzmianki",
+        "Kanał RSS Kyiv Independent 13.11: brak wzmianki"
+      ],
+      "powod": "Brak komunikatu Komisji Europejskiej o wypłacie środków dla Węgier."
+    },
+    {
+      "dotyczy": "2026-11-12#n4",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Meduzy 12–13.11: brak wzmianki",
+        "Kanał RSS Euronews 13.11: brak wzmianki",
+        "Newslettery AP i Reutersa z 13.11: brak wzmianki"
+      ],
+      "powod": "Poza Polsat News brak potwierdzenia w źródłach z poziomów 1–2."
+    },
+    {
+      "dotyczy": "2026-11-12#n5",
+      "wynik": "UZUPEŁNIONE",
+      "pozycja": "z3"
+    },
+    {
+      "dotyczy": "2026-11-12#n6",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 13.11: brak nowych informacji",
+        "Kanał RSS Euronews 13.11: brak wzmianki",
+        "Newslettery AP i Reutersa z 13.11: brak wzmianki"
+      ],
+      "powod": "Brak danych hiszpańskiego operatora gazowego lub Komisji Europejskiej."
+    },
+    {
+      "dotyczy": "2026-11-12#n7",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Euronews 13.11: brak nowych informacji",
+        "Newslettery AP i Reutersa z 13.11: brak wzmianki",
+        "Al Jazeera 13.11: brak wzmianki"
+      ],
+      "powod": "Brak komunikatu Rady UE lub Departamentu Stanu."
+    },
+    {
+      "dotyczy": "2026-11-12#n8",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Al Jazeera 13.11 (poziom 3): tylko omówienie możliwości ataku",
+        "Newsletter Reutersa „Iran Briefing” 13.11: brak wzmianki",
+        "Kanał RSS Euronews 13.11: brak wzmianki"
+      ],
+      "powod": "Brak komunikatu rządu Izraela; doniesienie opiera się na telewizji KAN."
+    }
+  ],
+  "do_sprawdzenia": [
+    "Ukraina, Rosja, USA – termin i miejsce rozmów z udziałem Europy; wymiana jeńców; wybór przedstawiciela UE",
+    "Finlandia i NATO – doniesienia „Bilda” o żądaniach Rosji, stanowisko rządu Finlandii",
+    "Iran, USA, Bahrajn – kolejne ataki; raport MAEA i Rada Gubernatorów; Cieśnina Ormuz",
+    "Polska – DO RSZ, SG, ŻW – incydenty; Agencja Uzbrojenia i PGZ – umowy; Polacy zatrzymani przez FSB",
+    "PISM – data biuletynu „Coraz bliżej Chin – polityka władz Słowacji”",
+    "Kalendarium – szczyt ASEAN, MSC 2027, wybory w Serbii, marcowa Rada Europejska 2027"
+  ],
+  "nota": "Lista publikacji PISM odczytana częściowo: lista Biuletynów otworzyła się bez dat, a strony tekstów i lista Komentarzy zwróciły puste strony; daty ustalono wyszukiwarką, nie ustalono daty biuletynu „Coraz bliżej Chin – polityka władz Słowacji”. Dział Świat Onetu niedostępny dla narzędzi i nieodnaleziony w wyszukiwarce."
+}

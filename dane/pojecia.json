@@ -360,6 +360,18 @@
       "nazwa": "MNF-U",
       "pelna": "Wielonarodowe Siły dla Ukrainy (Multinational Force – Ukraine)",
       "definicja": "Planowane siły państw europejskich, wcześniej nazywane koalicją chętnych, które mają wspierać Ukrainę po zawieszeniu broni albo porozumieniu pokojowym."
+    },
+    {
+      "id": "maea",
+      "nazwa": "MAEA",
+      "pelna": "Międzynarodowa Agencja Energii Atomowej (International Atomic Energy Agency, IAEA)",
+      "definicja": "Agencja ONZ z siedzibą w Wiedniu, która kontroluje programy jądrowe państw, w tym przez inspekcje obiektów, i raportuje o nich Radzie Gubernatorów i Radzie Bezpieczeństwa ONZ."
+    },
+    {
+      "id": "sbu",
+      "nazwa": "SBU",
+      "pelna": "Służba Bezpieczeństwa Ukrainy",
+      "definicja": "Ukraińska służba specjalna odpowiedzialna za kontrwywiad i bezpieczeństwo państwa; w czasie wojny prowadzi także operacje dronowe na terytorium Rosji."
     }
   ]
 }

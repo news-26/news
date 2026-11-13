@@ -8,12 +8,12 @@
       "kraj": [
         "usa"
       ],
-      "zweryfikowano": "2026-11-04",
+      "zweryfikowano": "2026-11-13",
       "zrodla": [
         {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/middle-east/trump-says-us-will-stop-paying-israel-after-year-end-2026-11-03/",
-          "data": "2026-11-04"
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/trump-iran-vance-negotiations-d9671cbf66e3c2e337f4fb3485ad07d0",
+          "data": "2026-11-12"
         }
       ]
     },
@@ -646,12 +646,12 @@
       "kraj": [
         "usa"
       ],
-      "zweryfikowano": "2026-11-12",
+      "zweryfikowano": "2026-11-13",
       "zrodla": [
         {
           "nazwa": "Meduza",
-          "url": "https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks",
-          "data": "2026-11-12"
+          "url": "https://meduza.io/en/news/2026/11/13/kushner-says-ukraine-and-russia-are-preparing-what-could-be-the-war-s-largest-prisoner-swap",
+          "data": "2026-11-13"
         }
       ]
     },
@@ -977,12 +977,12 @@
       "kraj": [
         "ue"
       ],
-      "zweryfikowano": "2026-10-31",
+      "zweryfikowano": "2026-11-13",
       "zrodla": [
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/31/a-lot-of-lies-kaja-kallas-criticises-russian-fm-lavrov-following-g20-meetings",
-          "data": "2026-10-31"
+          "url": "https://www.euronews.com/2026/11/13/kallas-says-russians-dont-want-me-as-eu-envoy-for-peace-talks",
+          "data": "2026-11-13"
         }
       ]
     },
@@ -1720,12 +1720,12 @@
       "kraj": [
         "usa"
       ],
-      "zweryfikowano": "2026-11-05",
+      "zweryfikowano": "2026-11-13",
       "zrodla": [
         {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/legal/government/vance-repudiates-iran-war-after-us-electoral-defeat-2026-11-04/",
-          "data": "2026-11-04"
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/trump-iran-vance-negotiations-d9671cbf66e3c2e337f4fb3485ad07d0",
+          "data": "2026-11-12"
         }
       ]
     },
@@ -1868,6 +1868,30 @@
           "url": "https://www.reuters.com/world/middle-east/iran-will-not-allow-enriched-nuclear-material-leave-country-security-chief-says-2026-11-11/",
           "data": "2026-11-11"
         }
+      ]
+    },
+    {
+      "id": "antti-hakkanen",
+      "imie": "Antti Häkkänen",
+      "funkcja": "Minister obrony Finlandii (Partia Koalicji Narodowej).",
+      "kraj": [
+        "nordyckie"
+      ],
+      "panstwo": "Finlandia",
+      "zweryfikowano": "2026-11-13",
+      "zrodla": [
+        {
+          "nazwa": "Yle",
+          "url": "https://yle.fi/a/74-20256829",
+          "data": "2026-11-13"
+        }
+      ],
+      "formy": [
+        "Antti Häkkänen",
+        "Häkkänen",
+        "Häkkänena",
+        "Häkkänenowi",
+        "Häkkänenem"
       ]
     }
   ]

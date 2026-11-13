@@ -763,6 +763,26 @@
       "lon": 106.85,
       "lat": -6.21,
       "kraj": "Indonezja"
+    },
+    {
+      "id": "zatoka-finska",
+      "nazwa": "Zatoka Fińska (Gogland)",
+      "lon": 27.0,
+      "lat": 60.07
+    },
+    {
+      "id": "manama",
+      "nazwa": "Manama",
+      "lon": 50.58,
+      "lat": 26.23,
+      "kraj": "Bahrajn"
+    },
+    {
+      "id": "wieden",
+      "nazwa": "Wiedeń",
+      "lon": 16.37,
+      "lat": 48.21,
+      "kraj": "Austria"
     }
   ]
 }

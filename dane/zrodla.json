@@ -571,6 +571,20 @@
       "uzasadnienie": "Szwedzka telewizja publiczna z własnymi ustaleniami i praktyką sprostowań; rzetelna co do decyzji szwedzkiego rządu i sił zbrojnych. Dodana 01.10.2026."
     },
     {
+      "id": "yle",
+      "nazwa": "Yle",
+      "poziom": 2,
+      "typ": "redakcja",
+      "kraj": "Finlandia",
+      "domeny": [
+        "yle.fi"
+      ],
+      "wzorce": [
+        "Yle"
+      ],
+      "uzasadnienie": "Dopisano 13.11.2026: fiński nadawca publiczny (odpowiednik SVT, ERR) z własnymi ustaleniami i praktyką sprostowań; rzetelny co do stanowisk fińskiego rządu i sił zbrojnych."
+    },
+    {
       "id": "dennik-n",
       "nazwa": "Denník N",
       "poziom": 2,

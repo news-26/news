@@ -372,6 +372,18 @@
       "nazwa": "SBU",
       "pelna": "Służba Bezpieczeństwa Ukrainy",
       "definicja": "Ukraińska służba specjalna odpowiedzialna za kontrwywiad i bezpieczeństwo państwa; w czasie wojny prowadzi także operacje dronowe na terytorium Rosji."
+    },
+    {
+      "id": "apec",
+      "nazwa": "APEC",
+      "pelna": "Współpraca Gospodarcza Azji i Pacyfiku",
+      "definicja": "Forum 21 gospodarek regionu Azji i Pacyfiku, m.in. USA, Chin, Rosji i Japonii. Coroczne spotkanie przywódców jest okazją do rozmów dwustronnych i wielostronnych."
+    },
+    {
+      "id": "koalicja-chetnych",
+      "nazwa": "Koalicja chętnych",
+      "definicja": "Grupa państw, głównie europejskich, z udziałem Francji i Wielkiej Brytanii jako współprzewodniczących, która przygotowuje gwarancje bezpieczeństwa i siły wsparcia dla Ukrainy na czas po zawieszeniu broni.",
+      "pelna": "Koalicja chętnych (Coalition of the Willing)"
     }
   ]
 }

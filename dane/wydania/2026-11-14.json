@@ -1,0 +1,506 @@
+{
+  "nr": 57,
+  "data": "2026-11-14",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Przywódcy UE uzgodnili 13.11 w Dublinie, że w rozmowach o zakończeniu wojny w Ukrainie Europę będą reprezentować instytucje UE oraz Francja, Niemcy, Włochy, **Polska** i Wielka Brytania. Według Reutersa rzecznik Kremla {{o:dmitrij-pieskow|Dmitrij Pieskow}} powiedział, że Europejczycy mogą dołączyć do rozmów, jeśli okażą „gotowość”.",
+    "Biały Dom zapowiedział 13.11 pierwsze trójstronne spotkanie przywódców USA, Chin i Rosji. {{o:donald-trump|Donald Trump}}, {{o:xi-jinping|Xi Jinping}} i {{o:wladimir-putin|Władimir Putin}} mają rozmawiać 19.11 w Shenzhen o **arsenałach jądrowych** i wojnie z Iranem.",
+    "Prezydent Ukrainy {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} powiedział 13.11, że USA zapytały, czy Ukraina wycofa się z Donbasu w zamian za członkostwo w NATO. Według niego mogliby o tym zdecydować tylko obywatele Ukrainy, i to przy gwarancjach bezpieczeństwa.",
+    "Bundestag przyjął 13.11 ustawę, która pozwala niemieckim służbom wywiadowczym aktywnie przeciwdziałać zagrożeniom ze strony obcych państw, np. wyłączać serwery państwowych grup hakerskich."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-11-13",
+      "tagi": [
+        "ukraina",
+        "rozejm",
+        "ue",
+        "dyplomacja-rp"
+      ],
+      "etap": "PRZYJĘTE",
+      "miejsce": "dublin",
+      "krotko": "Dublin: zespół Europy do rozmów o Ukrainie",
+      "tekst": "Przewodniczący Rady Europejskiej {{o:antonio-costa|António Costa}} ogłosił 13.11 w Dublinie, że w rozmowach o zakończeniu wojny w Ukrainie Europę będą reprezentować **instytucje UE i pięć państw** {{p:koalicja-chetnych|koalicji chętnych}}: Francja, Niemcy, Włochy, Polska i Wielka Brytania. Według Reutersa rzecznik Kremla {{o:dmitrij-pieskow|Dmitrij Pieskow}} powiedział, że Europejczycy mogą dołączyć do rozmów, jeśli okażą „gotowość”.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/european-leaders-agree-on-joint-team-for-ukraine-peace-negotiations-costa-says/",
+          "data": "2026-11-13"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/13/eu-leaders-bring-italy-and-poland-into-ukraine-peace-talks-team-as-kallas-fights-for-spot",
+          "data": "2026-11-13"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/14/europe-taps-national-security-advisers-to-represent-the-continent-in-russia-ukraine-peace-talks",
+          "data": "2026-11-13"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/europe/russia-says-europeans-can-join-ukraine-peace-talks-if-they-show-readiness-2026-11-13/",
+          "data": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-11-13",
+      "tagi": [
+        "ukraina",
+        "usa",
+        "nato",
+        "rozejm"
+      ],
+      "etap": "PROPOZYCJA",
+      "tekst": "Prezydent Ukrainy {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} powiedział 13.11, że przedstawiciele USA zapytali, czy Ukraina **wycofa się z Donbasu w zamian za członkostwo w NATO**; według niego taką kwestię podniesiono po raz pierwszy. Zełenski odpowiedział, że o takim porozumieniu mogliby rozstrzygnąć tylko obywatele Ukrainy, i to wyłącznie po uzgodnieniu z USA i sojusznikami z NATO pakietu gwarancji bezpieczeństwa NATO i UE.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/us-floats-nato-membership-for-ukraine-in-exchange-for-donbas-withdrawal-zelensky-says/",
+          "data": "2026-11-14"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/14/us-floats-ukraine-ceding-land-to-russia-in-exchange-for-nato-membership-zelenskyy",
+          "data": "2026-11-14"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/14/us-suggested-ukraine-cede-parts-of-donbas-to-russia-to-become-part-of-nato",
+          "data": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "instytucje",
+      "data": "2026-11-13",
+      "tagi": [
+        "niemcy",
+        "hybryda"
+      ],
+      "etap": "PRZYJĘTE",
+      "miejsce": "berlin",
+      "krotko": "Berlin: nowe uprawnienia służb",
+      "tekst": "Bundestag przyjął 13.11 reformę prawa o służbach wywiadowczych; za głosowało 308 posłów, przeciw 190, a 71 wstrzymało się od głosu. Ustawa pozwala wywiadowi zagranicznemu (BND) w razie zagrożenia ze strony obcych państw **aktywnie przeciwdziałać atakom**, np. wyłączać serwery państwowych grup hakerskich, a kontrwywiadowi (BfV) – w wąskich przypadkach działać wobec zagrożeń i włamywać się do systemów informatycznych sprawców.",
+      "zrodla": [
+        {
+          "nazwa": "Bundestag",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-nachrichtendienste-1231530",
+          "data": "2026-11-13"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/14/german-intelligence-agencies-gain-powers-to-hack-foreign-it-systems-and-recruit-informants-as-young-as-16",
+          "data": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "instytucje",
+      "data": "2026-11-14",
+      "tagi": [
+        "wegry"
+      ],
+      "etap": "W TOKU",
+      "tekst": "Według Reutersa węgierscy śledczy odzyskali **niemal 20 mln dolarów w gotówce** w śledztwie korupcyjnym wobec Miklósa Sesztáka, ministra rozwoju narodowego w rządzie Viktora Orbána w latach 2014–2018. Część pieniędzy była zakopana w lasach albo ukryta w budynkach gospodarczych i magazynach.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/hungary-recovers-20-million-cash-probe-orban-minister-2026-11-14/",
+          "data": "2026-11-14"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/14/hungarian-investigators-uncover-19-5m-hidden-in-forests-and-buildings",
+          "data": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "swiat",
+      "data": "2026-11-13",
+      "tagi": [
+        "usa",
+        "chiny",
+        "rosja"
+      ],
+      "etap": "ZAPOWIEDŹ",
+      "miejsce": "shenzhen",
+      "krotko": "Shenzhen: zapowiedź spotkania Trump–Xi–Putin",
+      "tekst": "Biały Dom ogłosił 13.11, że prezydenci {{o:donald-trump|Donald Trump}}, {{o:xi-jinping|Xi Jinping}} i {{o:wladimir-putin|Władimir Putin}} spotkają się 19.11 w Shenzhen przy szczycie {{p:apec|APEC}}; będzie to **pierwsze spotkanie przywódców USA, Chin i Rosji we trzech**. Według amerykańskiego urzędnika rozmowa ma dotyczyć arsenałów jądrowych i wojny z Iranem, a nie Ukrainy.",
+      "zrodla": [
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/trump-xi-putin-summit-china-5fe92253ef38100bae913834a9b74d72",
+          "data": "2026-11-13"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/china/new-yalta-trump-putin-push-meeting-that-xi-is-wary-hosting-2026-11-14/",
+          "data": "2026-11-14"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/historic-first-summit-among-trump-xi-putin-will-not-focus-on-ukraine-white-house-says/",
+          "data": "2026-11-14"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/14/trump-xi-and-putin-to-meet-in-china-white-house-says",
+          "data": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "z6",
+      "blok": "swiat",
+      "data": "2026-11-14",
+      "tagi": [
+        "usa",
+        "iran"
+      ],
+      "tekst": "Według Reutersa, który powołuje się na trzy osoby znające sprawę, Trump powiedział doradcom, że może **wstrzymać się z atakami na Iran**. Warunkiem jest brak nowych prowokacji ze strony Teheranu i wspieranego przez niego jemeńskiego ruchu {{p:huti|Huti}}.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/trump-tells-advisers-he-may-hold-off-iran-attacks-barring-new-provocations-2026-11-14/",
+          "data": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "z7",
+      "blok": "swiat",
+      "data": "2026-11-13",
+      "tagi": [
+        "iran",
+        "inne"
+      ],
+      "kraje": [
+        "Arabia Saudyjska",
+        "Jemen"
+      ],
+      "miejsce": "dzazan",
+      "krotko": "Dżazan: rakiety Huti",
+      "tekst": "Huti ogłosili 13.11, że ostrzelali rakietami siły saudyjskie w prowincji Dżazan na południu Arabii Saudyjskiej; według Reutersa saudyjska obrona cywilna podała później, że **zagrożenie minęło**.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/saudi-civil-defence-says-danger-passed-jazan-2026-11-13/",
+          "data": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "z8",
+      "blok": "gospodarka",
+      "data": "2026-11-14",
+      "tagi": [
+        "iran",
+        "energia"
+      ],
+      "miejsce": "ciesnina-ormuz",
+      "krotko": "Ormuz: tankowiec na minie",
+      "tekst": "Według Reutersa irańska marynarka wojenna podała 14.11, że tankowiec wszedł na minę we wschodniej części Cieśniny {{p:ormuz|Ormuz}} i **stanął w ogniu**.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/irans-navy-says-oil-tanker-fire-after-hitting-mine-hormuz-2026-11-14/",
+          "data": "2026-11-14"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "AP: analitycy nie spodziewają się przełomu na spotkaniu Trumpa, Xi i Putina",
+      "autor": "analitycy cytowani przez Associated Press, 13.11.2026",
+      "tekst": "Według analityków, na których powołuje się Associated Press, oczekiwania wobec rozmowy Trumpa, Xi i Putina w Shenzhen są niskie. Spotkanie ma mieć według nich więcej znaczenia symbolicznego niż praktycznego.",
+      "dla_polski": "Biały Dom zapowiada, że w Shenzhen nie będzie mowy o Ukrainie; rozmowy mocarstw o arsenałach jądrowych toczyłyby się bez udziału Europy (ocena redakcji).",
+      "tagi": [
+        "usa",
+        "chiny",
+        "rosja"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/trump-xi-putin-summit-china-5fe92253ef38100bae913834a9b74d72",
+          "data": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "tytul": "Reuters: Rosja znów uderza w ukraińską energetykę przed zimą",
+      "autor": "reporterzy Reutersa, 13.11.2026",
+      "tekst": "Reuters ocenia, że Rosja po raz kolejny próbuje zniszczyć ukraińską infrastrukturę energetyczną, by w najzimniejszych miesiącach zostawić miliony ludzi bez ogrzewania i prądu. Reporterzy agencji opisują, jak załoga jednej z elektrowni naprawia zniszczenia.",
+      "dla_polski": "Polska jest jedną z dróg dostaw energii i sprzętu energetycznego dla Ukrainy; większe zniszczenia oznaczają większe zapotrzebowanie na import przez polską granicę (ocena redakcji).",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "energia"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/business/energy/ukraine-races-repair-power-plants-wrecked-by-russian-missiles-before-winter-2026-11-13/",
+          "data": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "tytul": "Reuters: bogate państwa na COP31 stawiają bezpieczeństwo przed finansowaniem klimatu",
+      "autor": "reporterzy Reutersa na COP31, 13.11.2026",
+      "tekst": "Według reporterów Reutersa na szczycie klimatycznym {{p:cop31|COP31}} w Turcji biedne państwa narażone na katastrofy klimatyczne proszą o pieniądze na ograniczanie ryzyka. Rządy zachodnie odpowiadają ograniczonymi ofertami, bo na pierwszym miejscu stawiają bezpieczeństwo narodowe i koszty życia.",
+      "dla_polski": "Skutek pośredni: Polska i inne państwa UE, które zwiększają wydatki na obronę, mają mniej środków na międzynarodowe finansowanie klimatu (ocena redakcji).",
+      "tagi": [
+        "onz",
+        "inne"
+      ],
+      "kraje": [
+        "Turcja"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/sustainability/cop/urgent-climate-finance-pleas-cop31-face-non-urgent-response-2026-11-13/",
+          "data": "2026-11-13"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-11-18",
+      "tekst": "18–19.11: Chiny – spotkanie przywódców APEC w Shenzhen.",
+      "tagi": [
+        "chiny"
+      ]
+    },
+    {
+      "data": "2026-11-19",
+      "tekst": "19.11: Shenzhen – spotkanie Donalda Trumpa, Xi Jinpinga i Władimira Putina (zapowiedź Białego Domu).",
+      "tagi": [
+        "usa",
+        "chiny",
+        "rosja"
+      ],
+      "poza_kalendarium": "Termin podał Biały Dom; Pekin go nie potwierdził."
+    },
+    {
+      "data": "2026-11-20",
+      "tekst": "20.11: Bruksela – szczyt UE–Wielka Brytania.",
+      "tagi": [
+        "ue",
+        "wielka-brytania"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [
+      {
+        "tytul": "Mołdawia przed Ukrainą na ścieżce akcesyjnej do UE",
+        "autor": "Kamil Całus, Kacper Sienicki",
+        "data": "2026-11-13",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-13/moldawia-przed-ukraina-na-sciezce-akcesyjnej-do-ue"
+      },
+      {
+        "tytul": "Rozmowy Ukraina–USA–Rosja w Abu Zabi: bezpieczeństwo europejskie w centrum uwagi",
+        "autor": "Witold Rodkiewicz, Kacper Sienicki, Łukasz Maślanka, Andrzej Kohut",
+        "data": "2026-11-12",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-12/rozmowy-ukraina-usa-rosja-w-abu-zabi-bezpieczenstwo-europejskie-w"
+      }
+    ],
+    "pism": [],
+    "nieodczytane": [
+      "pism"
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "prog": "dokumentacja",
+      "tekst": "Rosja i NATO: według Polsat News, które powołuje się na „New York Times”, Rosja przedstawiła w Abu Zabi dokument z żądaniem wycofania wojsk i baz NATO z państw wschodniej flanki, w tym z Polski, do stanu z 1997 r., oraz rezygnacji Francji i Wielkiej Brytanii z obrony innych państw Europy bronią jądrową.",
+      "sprawdzono": [
+        "Polsat News 14.11 (poziom 3) za „New York Times”",
+        "Newslettery AP i Reutersa z 13–14.11: brak wzmianki",
+        "Kanał RSS Kyiv Independent 14.11: brak wzmianki",
+        "Kanał RSS Meduzy 14.11: tylko o doniesieniach „Bilda”"
+      ]
+    },
+    {
+      "id": "n2",
+      "prog": "dokumentacja",
+      "tekst": "Wielka Brytania: według Kyiv Independent ochrona Sił Powietrznych USA zareagowała 13.11 na podejrzane drony nad bazą RAF Lakenheath we wschodniej Anglii; brytyjskie Ministerstwo Obrony podało, że incydent jest zakończony, a pochodzenia dronów nie ustalono.",
+      "sprawdzono": [
+        "Kyiv Independent 13.11: jedyne źródło z poziomów 1–2",
+        "Newslettery AP i Reutersa z 13–14.11: brak wzmianki",
+        "Kanał RSS Euronews 13–14.11: brak wzmianki",
+        "Kanał RSS Polsat News 13–14.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n3",
+      "prog": "dokumentacja",
+      "tekst": "Iran: według Euronews deputowani irańskiego parlamentu dyskutują o zmianie doktryny jądrowej i o możliwym wystąpieniu z Układu o nierozprzestrzenianiu broni jądrowej (NPT).",
+      "sprawdzono": [
+        "Euronews 13.11: jedyne źródło z poziomów 1–2",
+        "Newsletter Reutersa „Iran Briefing” 14.11: brak wzmianki",
+        "Al Jazeera 14.11 (relacja na żywo): brak wzmianki"
+      ]
+    },
+    {
+      "id": "n4",
+      "prog": "dokumentacja",
+      "tekst": "Rosja i Polska: według Meduzy osoby, dla których polski jest językiem ojczystym, wskazują błędy i nienaturalne sformułowania w wiadomościach, które FSB opublikowała po zatrzymaniu w obwodzie królewieckim osób oskarżonych o szpiegostwo na rzecz Polski.",
+      "sprawdzono": [
+        "Meduza 14.11: jedyne źródło",
+        "Kanał RSS Polsat News 13–14.11: brak wzmianki",
+        "Newslettery AP i Reutersa z 13–14.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n5",
+      "prog": "dokumentacja",
+      "tekst": "Ukraina i Rosja: według Kyiv Independent prezydent Zełenski ocenił 14.11, że zaproponowana przez Putina tymczasowa „misja humanitarna” w Kostiantyniwce pozwoliłaby wojskom rosyjskim zająć miasto i iść dalej w stronę Kramatorska.",
+      "sprawdzono": [
+        "Kyiv Independent 14.11: jedyne źródło",
+        "Kanał RSS Meduzy 14.11: brak wzmianki",
+        "Al Jazeera 14.11: brak wzmianki",
+        "Newsletter Reutersa „Weekend Briefing” 14.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n6",
+      "prog": "dokumentacja",
+      "tekst": "Sudan Południowy: według Al Jazeery władze przełożyły pierwsze w historii państwa wybory powszechne na luty.",
+      "sprawdzono": [
+        "Al Jazeera 14.11 (poziom 3)",
+        "Newslettery AP i Reutersa z 13–14.11: brak wzmianki",
+        "Kanał RSS Euronews 14.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n7",
+      "prog": "dokumentacja",
+      "tekst": "Ukraina: według Sił Powietrznych Ukrainy, na które powołują się Al Jazeera i Reuters, Rosja wystrzeliła w nocy na 14.11 96 dronów, z których 81 zestrzelono lub unieszkodliwiono. Według zestawienia Kyiv Independent w ciągu doby zginęło co najmniej 7 osób, a około 80 zostało rannych, najwięcej w obwodzie zaporoskim.",
+      "sprawdzono": [
+        "Kyiv Independent 14.11: zestawienie ofiar",
+        "Al Jazeera 14.11 (poziom 3, tekst współtworzony z Reuterem)",
+        "Kanały RSS Euronews i Meduzy 14.11: brak wzmianki",
+        "Newsletter Reutersa „Weekend Briefing” 14.11: tylko ogólnie o atakach na energetykę"
+      ]
+    },
+    {
+      "id": "n8",
+      "prog": "dokumentacja",
+      "tekst": "Rosja: według Sztabu Generalnego Ukrainy, na który powołuje się Kyiv Independent, ukraińskie drony wywołały 14.11 pożar stacji kontroli ropy i zbiorników w obwodzie samarskim i zaatakowały rosyjskie lotnisko wojskowe. Według władz rosyjskich, na które powołuje się Al Jazeera, ukraiński dron zabił w obwodzie biełgorodzkim troje członków jednej rodziny.",
+      "sprawdzono": [
+        "Kyiv Independent 14.11: komunikat Sztabu Generalnego",
+        "Al Jazeera 14.11 (poziom 3): ofiary w obwodzie biełgorodzkim",
+        "Kanał RSS Meduzy 14.11: brak wzmianki",
+        "Newslettery AP i Reutersa z 14.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n9",
+      "prog": "dokumentacja",
+      "tekst": "Cieśnina Ormuz: według Al Jazeery ONZ podaje, że od lutego w cieśninie i jej okolicach zginęło 25 marynarzy.",
+      "sprawdzono": [
+        "Al Jazeera 14.11 (poziom 3)",
+        "Newsletter Reutersa „Iran Briefing” 14.11: brak wzmianki",
+        "Kanał RSS Euronews 14.11: brak wzmianki"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-11-13#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Meduza 14.11: relacja doniesień „Bilda”, zaprzeczenie Kremla i reakcja Finlandii",
+        "Polsat News 14.11 (poziom 3): za „Bildem”",
+        "Newsletter Reutersa „Weekend Briefing” 14.11: brak wzmianki"
+      ],
+      "powod": "Treść żądania podaje tylko „Bild”; Kreml zaprzecza, by o tym rozmawiano."
+    },
+    {
+      "dotyczy": "2026-11-13#n2",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 14.11: brak wzmianki o Wołgogradzie",
+        "Al Jazeera 14.11: tylko o ofiarach w obwodzie biełgorodzkim",
+        "Newslettery AP i Reutersa z 13–14.11: brak wzmianki"
+      ],
+      "powod": "Brak drugiego źródła i komunikatu władz rosyjskich o ofiarach w Wołgogradzie i obwodzie samarskim."
+    },
+    {
+      "dotyczy": "2026-11-13#n3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Newsletter Reutersa „Weekend Briefing” 14.11: brak wzmianki",
+        "Kanał RSS Euronews 14.11: brak nowych informacji",
+        "Kanał RSS Polsat News 14.11: brak wzmianki"
+      ],
+      "powod": "Brak komunikatu koncernu MOL i drugiego źródła."
+    },
+    {
+      "dotyczy": "2026-11-13#n4",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Euronews 14.11 (poziom 2): opis umowy podpisanej w Stambule",
+        "Polsat News 13.11 (poziom 3)",
+        "Newsletter Reutersa „Iran Briefing” 14.11: brak wzmianki",
+        "Wyszukiwarka: brak komunikatu prezydenta Turcji lub emira Kataru o umowie"
+      ],
+      "powod": "Tylko jedno źródło z poziomów 1–2 (Euronews); brak komunikatu stron."
+    },
+    {
+      "dotyczy": "2026-11-13#n5",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Newsletter Reutersa „Weekend Briefing” 14.11: tylko o Jensenie Huangu i Alice Huang",
+        "Kanał RSS Euronews 14.11: brak wzmianki",
+        "Al Jazeera 14.11: brak wzmianki"
+      ],
+      "powod": "Brak komunikatu MSZ ChRL w drugim źródle."
+    }
+  ],
+  "do_sprawdzenia": [
+    "Ukraina, Rosja, USA, Europa – termin i miejsce kolejnej rundy rozmów; skład zespołu europejskiego (przedstawiciel Polski); wymiana jeńców",
+    "Shenzhen 19.11 – potwierdzenie spotkania Trump–Xi–Putin przez Pekin; szczyt ASEAN w Manili (16–18.11 czy 15–17.11)",
+    "Rosja – dokument z żądaniami wobec NATO („New York Times”): drugie źródło, reakcja NATO i MSZ RP",
+    "Iran, USA – Cieśnina Ormuz, Huti; parlament Iranu i NPT",
+    "Polska – DO RSZ, SG, ŻW – incydenty; Agencja Uzbrojenia i PGZ – umowy",
+    "PISM – lista publikacji z 12–14.11 i data biuletynu „Coraz bliżej Chin – polityka władz Słowacji”",
+    "Kalendarium – MSC 2027, wybory w Serbii, marcowa Rada Europejska 2027; przedłużenie kalendarium do maja 2027"
+  ],
+  "nota": "Lista publikacji PISM nie została odczytana: strony działów Biuletyny i Komentarze, lista główna i wersja angielska zwróciły puste strony, a wyszukiwarka nie podała tekstów z ostatnich 3 dni. Dział Świat Onetu niedostępny dla narzędzi i nieodnaleziony w wyszukiwarce."
+}

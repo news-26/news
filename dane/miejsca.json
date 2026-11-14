@@ -783,6 +783,34 @@
       "lon": 16.37,
       "lat": 48.21,
       "kraj": "Austria"
+    },
+    {
+      "id": "samara",
+      "nazwa": "Samara",
+      "lon": 50.15,
+      "lat": 53.2,
+      "kraj": "rosja"
+    },
+    {
+      "id": "lakenheath",
+      "nazwa": "Lakenheath",
+      "lon": 0.56,
+      "lat": 52.41,
+      "kraj": "wielka-brytania"
+    },
+    {
+      "id": "shenzhen",
+      "nazwa": "Shenzhen",
+      "lon": 114.06,
+      "lat": 22.54,
+      "kraj": "chiny"
+    },
+    {
+      "id": "dzazan",
+      "nazwa": "Dżazan",
+      "lon": 42.55,
+      "lat": 16.89,
+      "kraj": "Arabia Saudyjska"
     }
   ]
 }

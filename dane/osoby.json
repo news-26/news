@@ -490,12 +490,12 @@
       "kraj": [
         "estonia"
       ],
-      "zweryfikowano": "2026-10-30",
+      "zweryfikowano": "2026-11-15",
       "zrodla": [
         {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/10/30/estonian-prime-minister-refuses-to-tone-down-rhetoric-on-russia-despite-u-s-requests-putin-is-a-dictator-who-kills-women-and-children",
-          "data": "2026-10-30"
+          "nazwa": "ERR",
+          "url": "https://news.err.ee/1610196794/estonia-to-close-border-crossings-with-russia-after-gru-linked-sabotage-attacks",
+          "data": "2026-11-15"
         }
       ]
     },
@@ -1415,12 +1415,12 @@
       "kraj": [
         "rumunia"
       ],
-      "zweryfikowano": "2026-10-23",
+      "zweryfikowano": "2026-11-15",
       "zrodla": [
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/23/rescue-operation-in-the-black-sea-following-a-distress-signal-from-a-ship",
-          "data": "2026-10-23"
+          "url": "https://www.euronews.com/2026/11/15/three-commercial-vessels-struck-by-drones-near-romanias-black-sea-pm-says",
+          "data": "2026-11-15"
         }
       ],
       "formy": [
@@ -1892,6 +1892,22 @@
         "Häkkänena",
         "Häkkänenowi",
         "Häkkänenem"
+      ]
+    },
+    {
+      "id": "igor-taro",
+      "imie": "Igor Taro",
+      "funkcja": "Minister spraw wewnętrznych Estonii (partia Eesti 200).",
+      "kraj": [
+        "estonia"
+      ],
+      "zweryfikowano": "2026-11-15",
+      "zrodla": [
+        {
+          "nazwa": "ERR",
+          "url": "https://news.err.ee/1610196794/estonia-to-close-border-crossings-with-russia-after-gru-linked-sabotage-attacks",
+          "data": "2026-11-15"
+        }
       ]
     }
   ]

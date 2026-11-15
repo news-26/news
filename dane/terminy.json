@@ -620,6 +620,31 @@
           "data": "2026-11-11"
         }
       ]
+    },
+    {
+      "id": "fac-2026-11-16",
+      "od": "2026-11-16",
+      "do": "2026-11-16",
+      "kategoria": "instytucje",
+      "obowiazkowy": false,
+      "tagi": [
+        "ue",
+        "sankcje"
+      ],
+      "tekst": "Posiedzenie Rady do Spraw Zagranicznych UE w Brukseli; zapowiedziane nowe sankcje wobec rosyjskiej floty cieni.",
+      "krotko": "Rada UE ds. zagranicznych",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/15/eu-forces-board-suspected-russian-shadow-fleet-tanker-in-mediterranean-kallas-says",
+          "data": "2026-11-15"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/eu-forces-board-suspected-russian-shadow-fleet-tanker-in-mediterranean-kallas-says/",
+          "data": "2026-11-15"
+        }
+      ]
     }
   ]
 }

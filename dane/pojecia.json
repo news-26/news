@@ -384,6 +384,30 @@
       "nazwa": "Koalicja chętnych",
       "definicja": "Grupa państw, głównie europejskich, z udziałem Francji i Wielkiej Brytanii jako współprzewodniczących, która przygotowuje gwarancje bezpieczeństwa i siły wsparcia dla Ukrainy na czas po zawieszeniu broni.",
       "pelna": "Koalicja chętnych (Coalition of the Willing)"
+    },
+    {
+      "id": "irini",
+      "nazwa": "Irini",
+      "pelna": "EUNAVFOR MED Irini – operacja morska UE na Morzu Śródziemnym",
+      "definicja": "Operacja wojskowa UE prowadzona od 2020 r. na Morzu Śródziemnym; jej siły kontrolują statki, m.in. w ramach egzekwowania embarga i sankcji."
+    },
+    {
+      "id": "flota-cieni",
+      "nazwa": "flota cieni",
+      "pelna": "rosyjska flota cieni",
+      "definicja": "Tankowce o niejasnej własności, często pod banderami państw trzecich lub fałszywymi, którymi Rosja przewozi ropę z ominięciem zachodnich sankcji i limitu cenowego."
+    },
+    {
+      "id": "kapo",
+      "nazwa": "KAPO",
+      "pelna": "Kaitsepolitseiamet – Policja Bezpieczeństwa Estonii",
+      "definicja": "Estońska służba kontrwywiadu i bezpieczeństwa wewnętrznego."
+    },
+    {
+      "id": "gru",
+      "nazwa": "GRU",
+      "pelna": "Główny Zarząd Sztabu Generalnego Sił Zbrojnych Federacji Rosyjskiej",
+      "definicja": "Rosyjski wywiad wojskowy; państwa UE i NATO przypisują mu liczne akcje sabotażu i dywersji w Europie."
     }
   ]
 }

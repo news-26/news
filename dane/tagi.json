@@ -6,20 +6,20 @@
       "nazwa": "Ukraina",
       "grupa": "miejsce",
       "opis": "Wojna Rosji z Ukrainą: ataki, obrona powietrzna, polityka Kijowa, pomoc zachodnia.",
-      "stan": "Zełenski powiedział 13.11, że USA zapytały, czy Ukraina wycofa się z Donbasu w zamian za członkostwo w NATO; Europa wyznaczyła zespół do rozmów pokojowych.",
+      "stan": "Prezydent Wołodymyr Zełenski napisał 15.11, że ograniczenia prędkości terminali Starshield utrudniają zestrzeliwanie rosyjskich dronów atakujących podstacje energetyczne.",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/us-floats-nato-membership-for-ukraine-in-exchange-for-donbas-withdrawal-zelensky-says/",
-          "data": "2026-11-14"
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/russia-ukraine-war-starshield-spacex-energy-winter-b139307f0d3ed0f7d0b222c08c30a4a1",
+          "data": "2026-11-15"
         },
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/14/us-floats-ukraine-ceding-land-to-russia-in-exchange-for-nato-membership-zelenskyy",
-          "data": "2026-11-14"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/starshield-speed-restrictions-hamper-ukraines-ability-to-defend-energy-infrastructure-against-russian-jet-powered-drones-zelensky-says/",
+          "data": "2026-11-15"
         }
       ],
-      "stan_data": "2026-11-14"
+      "stan_data": "2026-11-15"
     },
     {
       "id": "front",
@@ -46,38 +46,38 @@
       "nazwa": "Rozejm",
       "grupa": "temat",
       "opis": "Rozmowy i propozycje zawieszenia broni w wojnie Rosji z Ukrainą.",
-      "stan": "Przywódcy UE uzgodnili 13.11, że Europę w rozmowach pokojowych reprezentują instytucje UE i pięć państw, w tym Polska; Kreml uzależnia udział Europejczyków od ich „gotowości”.",
+      "stan": "Jared Kushner napisał 14.11, że USA chcą doprowadzić do bezpośrednich rozmów Rosji z Europą i przygotowują kolejną rundę rozmów trójstronnych; termin nie jest znany.",
       "stan_zrodla": [
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/european-leaders-agree-on-joint-team-for-ukraine-peace-negotiations-costa-says/",
-          "data": "2026-11-13"
+          "url": "https://kyivindependent.com/us-now-focused-on-facilitating-direct-engagement-between-russia-europe-kushner-says-after-ukraine-peace-talks/",
+          "data": "2026-11-14"
         },
         {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/europe/russia-says-europeans-can-join-ukraine-peace-talks-if-they-show-readiness-2026-11-13/",
-          "data": "2026-11-13"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/14/moscow-says-it-will-not-dictate-eu-delegations-participation-in-ukraine-talks",
+          "data": "2026-11-14"
         }
       ],
-      "stan_data": "2026-11-14"
+      "stan_data": "2026-11-15"
     },
     {
       "id": "rosja",
       "nazwa": "Rosja",
       "grupa": "miejsce",
       "opis": "Polityka wewnętrzna, armia i budżet Rosji.",
-      "stan": "Putin ma 19.11 rozmawiać z Trumpem i Xi w Shenzhen; Kreml uzależnia udział Europejczyków w rozmowach o Ukrainie od ich „gotowości”.",
-      "stan_data": "2026-11-14",
+      "stan": "Estonia zamknie 1.12 drogowe przejścia graniczne z Rosją po zamachu na producenta dronów, który według estońskiego kontrwywiadu zlecił rosyjski wywiad wojskowy.",
+      "stan_data": "2026-11-15",
       "stan_zrodla": [
         {
-          "nazwa": "Associated Press (newsletter)",
-          "url": "https://apnews.com/article/trump-xi-putin-summit-china-5fe92253ef38100bae913834a9b74d72",
-          "data": "2026-11-13"
+          "nazwa": "ERR",
+          "url": "https://news.err.ee/1610196794/estonia-to-close-border-crossings-with-russia-after-gru-linked-sabotage-attacks",
+          "data": "2026-11-15"
         },
         {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/europe/russia-says-europeans-can-join-ukraine-peace-talks-if-they-show-readiness-2026-11-13/",
-          "data": "2026-11-13"
+          "nazwa": "ERR",
+          "url": "https://news.err.ee/1610196722/8-detained-after-gru-linked-arson-at-estonian-drone-company-threod-systems",
+          "data": "2026-11-15"
         }
       ]
     },
@@ -131,20 +131,20 @@
       "nazwa": "Wojna hybrydowa",
       "grupa": "temat",
       "opis": "Działania hybrydowe: drony, sabotaż, dezinformacja, cyberataki, presja migracyjna.",
-      "stan": "Bundestag przyjął 13.11 ustawę pozwalającą niemieckim służbom wyłączać serwery państwowych grup hakerskich i działać wobec zagrożeń ze strony obcych państw.",
+      "stan": "Według estońskiej KAPO próbę wywołania wybuchu i pożaru w zakładzie Threod Systems w Viimsi 14.11 zlecił rosyjski wywiad wojskowy GRU.",
       "stan_zrodla": [
         {
-          "nazwa": "Bundestag",
-          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-nachrichtendienste-1231530",
-          "data": "2026-11-13"
+          "nazwa": "ERR",
+          "url": "https://news.err.ee/1610196722/8-detained-after-gru-linked-arson-at-estonian-drone-company-threod-systems",
+          "data": "2026-11-15"
         },
         {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/11/14/german-intelligence-agencies-gain-powers-to-hack-foreign-it-systems-and-recruit-informants-as-young-as-16",
-          "data": "2026-11-14"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/15/estonian-drone-maker-targeted-by-gru-ordered-sabotage-attempt-pm-says",
+          "data": "2026-11-15"
         }
       ],
-      "stan_data": "2026-11-14"
+      "stan_data": "2026-11-15"
     },
     {
       "id": "uzbrojenie",
@@ -231,58 +231,58 @@
       "nazwa": "Sankcje",
       "grupa": "temat",
       "opis": "Sankcje UE, USA i innych państw oraz ich omijanie.",
-      "stan": "Wielka Brytania objęła 12.11 sankcjami Vostok Oil, Slawnieft, rosyjskie firmy węglowe i statki floty cieni.",
+      "stan": "Kaja Kallas zapowiedziała, że ministrowie spraw zagranicznych UE zatwierdzą 16.11 sankcje wobec banków, nabywców i firm wspierających rosyjską flotę cieni.",
       "stan_zrodla": [
         {
-          "nazwa": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/ukraine-set-to-be-focus-of-epc-summit-as-uk-sanctions-russias-top-ten-oil-producers",
-          "data": "2026-11-12"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/15/eu-forces-board-suspected-russian-shadow-fleet-tanker-in-mediterranean-kallas-says",
+          "data": "2026-11-15"
         },
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/uk-says-its-1st-country-to-target-all-of-russias-top-10-oil-producers-with-latest-round-of-sanctions/",
-          "data": "2026-11-12"
+          "url": "https://kyivindependent.com/eu-forces-board-suspected-russian-shadow-fleet-tanker-in-mediterranean-kallas-says/",
+          "data": "2026-11-15"
         }
       ],
-      "stan_data": "2026-11-12"
+      "stan_data": "2026-11-15"
     },
     {
       "id": "iran",
       "nazwa": "Iran",
       "grupa": "miejsce",
       "opis": "Iran, Cieśnina Ormuz, rozmowy z USA i mediatorami.",
-      "stan": "Według Reutersa Trump może wstrzymać się z atakami na Iran bez nowych prowokacji; Iran podał 14.11 kolejny tankowiec na minie w Cieśninie Ormuz.",
+      "stan": "Bahrajn podał 15.11, że przechwycił kilka irańskich ataków z powietrza; według Reutersa Teheran twierdzi, że zaatakował amerykańską bazę.",
       "stan_zrodla": [
         {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/middle-east/trump-tells-advisers-he-may-hold-off-iran-attacks-barring-new-provocations-2026-11-14/",
-          "data": "2026-11-14"
+          "url": "https://www.reuters.com/world/middle-east/bahrains-interior-ministry-issues-alerts-potential-threats-2026-11-15/",
+          "data": "2026-11-15"
         },
         {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/middle-east/irans-navy-says-oil-tanker-fire-after-hitting-mine-hormuz-2026-11-14/",
-          "data": "2026-11-14"
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/15/bahrain-accuses-iran-of-attacking-its-territory-to-settle-score-with-us",
+          "data": "2026-11-15"
         }
       ],
-      "stan_data": "2026-11-14"
+      "stan_data": "2026-11-15"
     },
     {
       "id": "usa",
       "nazwa": "USA",
       "grupa": "miejsce",
       "opis": "Polityka USA wobec Europy, Rosji, Ukrainy i Bliskiego Wschodu.",
-      "stan": "Biały Dom zapowiedział na 19.11 spotkanie Trumpa z Xi i Putinem w Shenzhen; według Reutersa Trump może wstrzymać się z atakami na Iran, jeśli nie będzie nowych prowokacji.",
-      "stan_data": "2026-11-14",
+      "stan": "Wysłannik prezydenta USA Jared Kushner napisał 14.11, że Waszyngton chce doprowadzić do bezpośrednich rozmów Rosji z Europą; Bahrajn podał 15.11, że przechwycił irańskie ataki, a Teheran twierdzi, że celem była amerykańska baza.",
+      "stan_data": "2026-11-15",
       "stan_zrodla": [
         {
-          "nazwa": "Associated Press (newsletter)",
-          "url": "https://apnews.com/article/trump-xi-putin-summit-china-5fe92253ef38100bae913834a9b74d72",
-          "data": "2026-11-13"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/us-now-focused-on-facilitating-direct-engagement-between-russia-europe-kushner-says-after-ukraine-peace-talks/",
+          "data": "2026-11-14"
         },
         {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/middle-east/trump-tells-advisers-he-may-hold-off-iran-attacks-barring-new-provocations-2026-11-14/",
-          "data": "2026-11-14"
+          "url": "https://www.reuters.com/world/middle-east/bahrains-interior-ministry-issues-alerts-potential-threats-2026-11-15/",
+          "data": "2026-11-15"
         }
       ]
     },
@@ -331,20 +331,20 @@
       "nazwa": "UE",
       "grupa": "temat",
       "opis": "Unia Europejska: Rada, Komisja, obronność, budżet WRF 2028–2034.",
-      "stan": "Na spotkaniu w Dublinie 13.11 przywódcy UE wyznaczyli zespół do rozmów o Ukrainie: instytucje UE oraz Francję, Niemcy, Włochy, Polskę i Wielką Brytanię.",
+      "stan": "Siły operacji Irini weszły na pokład tankowca Midag z rosyjskiej floty cieni; ministrowie spraw zagranicznych UE mają 16.11 zatwierdzić nowe sankcje.",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/european-leaders-agree-on-joint-team-for-ukraine-peace-negotiations-costa-says/",
-          "data": "2026-11-13"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/15/eu-forces-board-suspected-russian-shadow-fleet-tanker-in-mediterranean-kallas-says",
+          "data": "2026-11-15"
         },
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/13/eu-leaders-bring-italy-and-poland-into-ukraine-peace-talks-team-as-kallas-fights-for-spot",
-          "data": "2026-11-13"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/eu-forces-board-suspected-russian-shadow-fleet-tanker-in-mediterranean-kallas-says/",
+          "data": "2026-11-15"
         }
       ],
-      "stan_data": "2026-11-14"
+      "stan_data": "2026-11-15"
     },
     {
       "id": "onz",
@@ -497,25 +497,20 @@
       "nazwa": "Estonia",
       "grupa": "miejsce",
       "opis": "Polityka i bezpieczeństwo Estonii.",
-      "stan": "Według estońskiego wojska rosyjski okręt trafiony 11.11 w Zatoce Fińskiej nie mógł płynąć o własnych siłach; w załodze są zabici i ranni.",
+      "stan": "Estońskie MSZ podało 15.11, że 1.12 zostaną zamknięte drogowe przejścia z Rosją w Narwie, Luhamaa i Koidula; 14.11 zatrzymano ośmiu obywateli Łotwy podejrzanych o próbę podpalenia zakładu Threod Systems.",
       "stan_zrodla": [
         {
-          "nazwa": "Yle",
-          "url": "https://yle.fi/a/74-20256496",
-          "data": "2026-11-12"
+          "nazwa": "ERR",
+          "url": "https://news.err.ee/1610196794/estonia-to-close-border-crossings-with-russia-after-gru-linked-sabotage-attacks",
+          "data": "2026-11-15"
         },
         {
           "nazwa": "ERR",
-          "url": "https://news.err.ee/1610195272/officer-russian-warship-hit-multiple-times-in-baltic-with-casualties",
-          "data": "2026-11-13"
-        },
-        {
-          "nazwa": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/13/why-is-ukraine-attacking-russian-warships-in-the-baltic-sea-amid-talks",
-          "data": "2026-11-13"
+          "url": "https://news.err.ee/1610196722/8-detained-after-gru-linked-arson-at-estonian-drone-company-threod-systems",
+          "data": "2026-11-15"
         }
       ],
-      "stan_data": "2026-11-13"
+      "stan_data": "2026-11-15"
     },
     {
       "id": "nordyckie",
@@ -582,20 +577,20 @@
       "nazwa": "Rumunia",
       "grupa": "miejsce",
       "opis": "Polityka Rumunii.",
-      "stan": "Rząd Luca-Alexandru Niculescu ma wotum zaufania z 20.10 (280 głosów); 23.10 rumuńskie władze przypisały Rosji uderzenie drona w statek Khoryv u wybrzeża Konstancy (jeden zabity, trzech zaginionych).",
+      "stan": "Drony trafiły 14.11 trzy statki handlowe przy kanale Sulina u rumuńskiego wybrzeża; premier Niculescu zapowiedział działania z sojusznikami na rzecz bezpieczeństwa Morza Czarnego.",
       "stan_zrodla": [
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/23/rescue-operation-in-the-black-sea-following-a-distress-signal-from-a-ship",
-          "data": "2026-10-23"
+          "url": "https://www.euronews.com/2026/11/15/three-commercial-vessels-struck-by-drones-near-romanias-black-sea-pm-says",
+          "data": "2026-11-15"
         },
         {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/10/23/romania-blames-russia-for-drone-strike-that-sinks-cargo-ship-in-black-sea-killing-one-sailor-and-leaving-three-missing",
-          "data": "2026-10-23"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/three-commercial-ships-struck-by-drones-near-romanias-black-sea-coast-over-two-days/",
+          "data": "2026-11-15"
         }
       ],
-      "stan_data": "2026-10-23"
+      "stan_data": "2026-11-15"
     },
     {
       "id": "balkany",
@@ -637,15 +632,20 @@
       "nazwa": "Energia",
       "grupa": "temat",
       "opis": "Ropa, gaz, infrastruktura energetyczna, ceny paliw.",
-      "stan": "Według Reutersa irańska marynarka podała 14.11, że tankowiec wszedł na minę w Cieśninie Ormuz i stanął w ogniu.",
+      "stan": "Zełenski ostrzegł 15.11, że ograniczenia Starshield osłabiają obronę ukraińskich podstacji energetycznych przed zimą.",
       "stan_zrodla": [
         {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/middle-east/irans-navy-says-oil-tanker-fire-after-hitting-mine-hormuz-2026-11-14/",
-          "data": "2026-11-14"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/starshield-speed-restrictions-hamper-ukraines-ability-to-defend-energy-infrastructure-against-russian-jet-powered-drones-zelensky-says/",
+          "data": "2026-11-15"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/15/zelenskyy-questions-spacex-over-reported-starshield-speed-restrictions",
+          "data": "2026-11-15"
         }
       ],
-      "stan_data": "2026-11-14"
+      "stan_data": "2026-11-15"
     },
     {
       "id": "gospodarka",
@@ -667,15 +667,20 @@
       "nazwa": "Inne",
       "grupa": "temat",
       "opis": "Wątki rzadkie, bez osobnego hashtagu.",
-      "stan": "Według Reutersa Arabia Saudyjska naciska na UE, by uznała Huti za organizację terrorystyczną.",
+      "stan": "Siły rządu Jemenu wycofały się 15.11 z rejonu cieśniny Bab al-Mandab, by bronić Adenu; według Reutersa obszar kontrolują Huti.",
       "stan_zrodla": [
         {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/middle-east/saudi-arabia-puts-pressure-eu-label-yemens-houthis-terrorist-group-2026-11-12/",
-          "data": "2026-11-12"
+          "url": "https://www.reuters.com/world/middle-east/yemen-government-forces-withdraw-area-near-bab-el-mandeb-strait-houthis-control-2026-11-15/",
+          "data": "2026-11-15"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/15/yemeni-government-forces-redeploy-from-bab-al-mandeb-to-defend-aden",
+          "data": "2026-11-15"
         }
       ],
-      "stan_data": "2026-11-13"
+      "stan_data": "2026-11-15"
     },
     {
       "id": "afryka",

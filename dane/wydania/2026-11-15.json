@@ -1,0 +1,516 @@
+{
+  "nr": 58,
+  "data": "2026-11-15",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Estońskie MSZ zapowiedziało zamknięcie 1.12 drogowych przejść granicznych z Rosją w Narwie, Luhamaa i Koidula; szczegóły omówi rząd. Premier {{o:kristen-michal|Kristen Michal}} wskazał jako powód rosyjskie operacje hybrydowe. Według estońskiego kontrwywiadu próbę podpalenia zakładu producenta dronów Threod Systems zlecił **rosyjski wywiad wojskowy**.",
+    "Wysłannik prezydenta USA {{o:jared-kushner|Jared Kushner}} napisał 14.11, że USA chcą doprowadzić do bezpośrednich rozmów Rosji z Europą. Według Euronews rzecznik Kremla {{o:dmitrij-pieskow|Dmitrij Pieskow}} powiedział tego samego dnia, że Moskwa nie chce stawiać warunków co do składu zespołu europejskiego.",
+    "Według Reutersa Bahrajn podał 15.11, że jego obrona powietrzna przechwyciła kilka irańskich ataków powietrznych. Wcześniej Korpus Strażników Rewolucji Islamskiej ogłosił, że uderzył w amerykański radar w Bahrajnie.",
+    "Drony trafiły 13 i 14.11 trzy statki handlowe w pobliżu ujścia Dunaju u rumuńskiego wybrzeża Morza Czarnego. Według Euronews premier Rumunii {{o:luca-niculescu|Luca Niculescu}} nazwał ataki niedopuszczalnymi."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-11-14",
+      "tagi": [
+        "ukraina",
+        "rozejm",
+        "usa",
+        "rosja",
+        "ue"
+      ],
+      "etap": "W TOKU",
+      "tekst": "Wysłannik prezydenta USA Jared Kushner napisał 14.11, że Waszyngton chce teraz **doprowadzić do bezpośrednich rozmów Rosji z Europą** i przygotowuje program kolejnej rundy rozmów USA, Ukrainy i Rosji. Według Euronews Dmitrij Pieskow powiedział tego samego dnia, że Moskwa nie chce stawiać warunków co do składu zespołu europejskiego, ale najpierw chce ocenić, czy jego stanowisko może pomóc w procesie pokojowym.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/us-now-focused-on-facilitating-direct-engagement-between-russia-europe-kushner-says-after-ukraine-peace-talks/",
+          "data": "2026-11-14"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/14/moscow-says-it-will-not-dictate-eu-delegations-participation-in-ukraine-talks",
+          "data": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-11-15",
+      "tagi": [
+        "ukraina",
+        "usa",
+        "energia"
+      ],
+      "tekst": "Prezydent Ukrainy {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} napisał 15.11, że ograniczenia prędkości terminali {{p:starshield|Starshield}} na froncie i nad terenami okupowanymi **utrudniają zestrzeliwanie rosyjskich dronów** atakujących podstacje energetyczne. Polecił rządowi rozwiązać sprawę z przedstawicielami USA i firmą SpaceX przed zimą, gdy Rosja zwykle uderza w sieć energetyczną.",
+      "zrodla": [
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/russia-ukraine-war-starshield-spacex-energy-winter-b139307f0d3ed0f7d0b222c08c30a4a1",
+          "data": "2026-11-15"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/starshield-speed-restrictions-hamper-ukraines-ability-to-defend-energy-infrastructure-against-russian-jet-powered-drones-zelensky-says/",
+          "data": "2026-11-15"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/15/zelenskyy-questions-spacex-over-reported-starshield-speed-restrictions",
+          "data": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "wojna",
+      "data": "2026-11-14",
+      "tagi": [
+        "rumunia",
+        "rosja",
+        "ukraina"
+      ],
+      "miejsce": "sulina",
+      "krotko": "Sulina: drony trafiają statki",
+      "tekst": "Drony trafiły 13 i 14.11 **trzy statki handlowe** u rumuńskiego wybrzeża Morza Czarnego, w pobliżu ujścia Dunaju, którym Ukraina eksportuje towary; nikt nie został ranny, a rumuńskie lotnictwo poderwało myśliwce. Według Euronews premier Rumunii Luca Niculescu nazwał ataki niedopuszczalnymi, a Rosja zaprzecza, by atakowała dronami państwa sąsiadujące z Ukrainą.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/15/three-commercial-vessels-struck-by-drones-near-romanias-black-sea-pm-says",
+          "data": "2026-11-15"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/three-commercial-ships-struck-by-drones-near-romanias-black-sea-coast-over-two-days/",
+          "data": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "wojna",
+      "data": "2026-11-13",
+      "tagi": [
+        "ue",
+        "rosja",
+        "sankcje"
+      ],
+      "etap": "ZAPOWIEDŹ",
+      "miejsce": "morze-srodziemne",
+      "krotko": "Morze Śródziemne: UE wchodzi na tankowiec",
+      "tekst": "Siły unijnej operacji {{p:irini|Irini}} weszły 13.11 na Morzu Śródziemnym na pokład tankowca Midag, podejrzewanego o przynależność do rosyjskiej {{p:flota-cieni|floty cieni}}; według szefowej dyplomacji UE {{o:kaja-kallas|Kai Kallas}} statek płynął pod fałszywą banderą. Kallas zapowiedziała, że ministrowie spraw zagranicznych UE zatwierdzą 16.11 **nowe sankcje** wobec banków, nabywców i firm wspierających flotę cieni.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/15/eu-forces-board-suspected-russian-shadow-fleet-tanker-in-mediterranean-kallas-says",
+          "data": "2026-11-15"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/eu-forces-board-suspected-russian-shadow-fleet-tanker-in-mediterranean-kallas-says/",
+          "data": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "z6",
+      "blok": "instytucje",
+      "data": "2026-11-15",
+      "tagi": [
+        "estonia",
+        "rosja",
+        "hybryda"
+      ],
+      "etap": "ZAPOWIEDŹ",
+      "miejsce": "narwa",
+      "krotko": "Narwa: zapowiedź zamknięcia granicy",
+      "tekst": "Estońskie MSZ zapowiedziało 15.11 **zamknięcie 1.12 drogowych przejść granicznych z Rosją** w Narwie, Luhamaa i Koidula, a szczegóły omówi rząd; premier Kristen Michal uzasadnił to rosyjskimi operacjami hybrydowymi, a wniosek przedstawi rządowi minister spraw wewnętrznych {{o:igor-taro|Igor Taro}}. Dzień wcześniej w Viimsi pod Tallinem zatrzymano ośmiu obywateli Łotwy, którzy według estońskiego kontrwywiadu ({{p:kapo|KAPO}}) na zlecenie rosyjskiego wywiadu wojskowego ({{p:gru|GRU}}) próbowali wywołać wybuch i pożar w zakładzie producenta dronów Threod Systems.",
+      "zrodla": [
+        {
+          "nazwa": "ERR",
+          "url": "https://news.err.ee/1610196794/estonia-to-close-border-crossings-with-russia-after-gru-linked-sabotage-attacks",
+          "data": "2026-11-15"
+        },
+        {
+          "nazwa": "ERR",
+          "url": "https://news.err.ee/1610196722/8-detained-after-gru-linked-arson-at-estonian-drone-company-threod-systems",
+          "data": "2026-11-15"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/15/estonian-drone-maker-targeted-by-gru-ordered-sabotage-attempt-pm-says",
+          "data": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "z7",
+      "blok": "swiat",
+      "data": "2026-11-15",
+      "tagi": [
+        "iran",
+        "usa"
+      ],
+      "miejsce": "riffa",
+      "krotko": "Bahrajn: przechwycone ataki Iranu",
+      "tekst": "Według Reutersa siły obronne Bahrajnu podały 15.11, że przechwyciły **kilka irańskich ataków powietrznych**, a Teheran twierdzi, że zaatakował amerykańską bazę, a Korpus Strażników Rewolucji Islamskiej ogłosił wcześniej zniszczenie amerykańskiego radaru wczesnego ostrzegania w Bahrajnie.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/bahrains-interior-ministry-issues-alerts-potential-threats-2026-11-15/",
+          "data": "2026-11-15"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/15/bahrain-accuses-iran-of-attacking-its-territory-to-settle-score-with-us",
+          "data": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "z8",
+      "blok": "swiat",
+      "data": "2026-11-15",
+      "tagi": [
+        "inne",
+        "iran"
+      ],
+      "kraje": [
+        "Jemen",
+        "Arabia Saudyjska"
+      ],
+      "miejsce": "bab-al-mandab",
+      "krotko": "Bab al-Mandab: wojska rządu Jemenu się wycofują",
+      "tekst": "Według Reutersa siły uznawanego międzynarodowo rządu Jemenu ogłosiły 15.11, że **wycofują się z rejonu cieśniny Bab al-Mandab**, by bronić Adenu przed {{p:huti|Huti}}, a kontrolę nad tym obszarem przejęli Huti. Koalicja pod wodzą Arabii Saudyjskiej podała, że przechwyciła tego dnia pociski lecące w stronę Rijadu i drony nad Prowincją Wschodnią.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/yemen-government-forces-withdraw-area-near-bab-el-mandeb-strait-houthis-control-2026-11-15/",
+          "data": "2026-11-15"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/saudi-led-coalition-intercepts-missiles-towards-riyadh-drones-eastern-province-2026-11-15/",
+          "data": "2026-11-15"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/15/yemeni-government-forces-redeploy-from-bab-al-mandeb-to-defend-aden",
+          "data": "2026-11-15"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "OSW: Mołdawia wyprzedza Ukrainę na drodze do członkostwa w UE",
+      "autor": "Kamil Całus, Kacper Sienicki (OSW), 13.11.2026",
+      "tekst": "Według analityków {{p:osw|OSW}} raport Komisji Europejskiej z 4.11 jest dla Mołdawii najkorzystniejszy od 2023 r., a jej cel zamknięcia do 25 rozdziałów negocjacyjnych w 2027 r. jest ambitny, ale osiągalny. Ukraina według nich zwalnia z reformami, a termin czerwca 2027 r. na zamykanie rozdziałów jest zbyt optymistyczny, więc drogi obu państw się rozchodzą.",
+      "dla_polski": "Polska popiera rozszerzenie UE na wschód; wolniejsze tempo Ukrainy może oddzielić jej akcesję od akcesji Mołdawii (ocena redakcji).",
+      "tagi": [
+        "moldawia",
+        "ukraina",
+        "ue"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-13/moldawia-przed-ukraina-na-sciezce-akcesyjnej-do-ue",
+          "data": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "tytul": "Premier Estonii Kristen Michal: Europa nie ma z Rosją o czym rozmawiać o architekturze bezpieczeństwa",
+      "autor": "Kristen Michal, premier Estonii, 13.11.2026 (za ERR)",
+      "tekst": "Kristen Michal powiedział w Dublinie, że {{o:wladimir-putin|Władimir Putin}} chce odciągnąć uwagę Europy listą żądań zamiast dążyć do trwałego pokoju w Ukrainie. Jedyne zmiany, które poparłby, to przystąpienie Ukrainy do UE i NATO oraz koniec rosyjskich zabójstw.",
+      "dla_polski": "Polska jest jednym z pięciu państw reprezentujących Europę w rozmowach o Ukrainie, więc stanowisko państw bałtyckich wpływa na wspólną linię tego zespołu.",
+      "tagi": [
+        "estonia",
+        "rosja",
+        "rozejm"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "ERR",
+          "url": "https://news.err.ee/1610196385/prime-minister-we-have-nothing-to-discuss-with-russia-on-european-security",
+          "data": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "tytul": "Prezydent Ukrainy Wołodymyr Zełenski: proponowane przez USA nowe ramy bezpieczeństwa Europy mogą sprzyjać Putinowi",
+      "autor": "Wołodymyr Zełenski, prezydent Ukrainy (za Associated Press), 15.11.2026",
+      "tekst": "Według Associated Press Zełenski ocenił, że nowe ramy bezpieczeństwa europejskiego, o których mówią Stany Zjednoczone, mogą przynieść korzyść Władimirowi Putinowi.",
+      "dla_polski": "Nowe ramy bezpieczeństwa Europy dotyczyłyby obecności NATO na wschodniej flance, w tym w Polsce.",
+      "tagi": [
+        "ukraina",
+        "usa",
+        "nato"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Associated Press (newsletter)",
+          "url": "https://apnews.com/article/russia-ukraine-war-nato-us-zelenskyy-f9a8629626c087424f05adc85d127780",
+          "data": "2026-11-15"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-11-16",
+      "tekst": "16.11: Bruksela – posiedzenie ministrów spraw zagranicznych UE; zapowiedziane nowe sankcje wobec rosyjskiej floty cieni.",
+      "tagi": [
+        "ue",
+        "sankcje"
+      ]
+    },
+    {
+      "data": "2026-11-18",
+      "tekst": "18–19.11: Chiny – spotkanie przywódców APEC w Shenzhen.",
+      "tagi": [
+        "chiny"
+      ]
+    },
+    {
+      "data": "2026-11-19",
+      "tekst": "19.11: Shenzhen – spotkanie Donalda Trumpa, Xi Jinpinga i Władimira Putina (zapowiedź Białego Domu).",
+      "tagi": [
+        "usa",
+        "chiny",
+        "rosja"
+      ],
+      "poza_kalendarium": "Termin podał Biały Dom; Pekin go nie potwierdził."
+    },
+    {
+      "data": "2026-11-20",
+      "tekst": "20.11: Bruksela – szczyt UE–Wielka Brytania.",
+      "tagi": [
+        "ue",
+        "wielka-brytania"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-12-01",
+      "tekst": "Estonia – zapowiedziane zamknięcie drogowych przejść granicznych z Rosją",
+      "tagi": [
+        "estonia"
+      ],
+      "poza_kalendarium": "Decyzja administracyjna państwa, nie spotkanie ani wybory."
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [
+      {
+        "tytul": "Mołdawia przed Ukrainą na ścieżce akcesyjnej do UE",
+        "autor": "Kamil Całus, Kacper Sienicki",
+        "data": "2026-11-13",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-13/moldawia-przed-ukraina-na-sciezce-akcesyjnej-do-ue"
+      }
+    ],
+    "pism": [],
+    "nieodczytane": [
+      "pism"
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "prog": "dokumentacja",
+      "tekst": "Polska: według Kyiv Independent, który powołuje się na TVN24, na dwóch pomnikach w Warszawie – Pomniku Bohaterów Getta i pomniku żołnierzy 1. Armii Wojska Polskiego – pojawił się 14.11 czerwony napis „Sława UPA”; ambasada Ukrainy nazwała to elementem rosyjskiej wojny hybrydowej, a policja prowadzi postępowanie.",
+      "sprawdzono": [
+        "Kyiv Independent 15.11: jedyne źródło z poziomów 1–2",
+        "Wyszukiwarka – komunikat Komendy Stołecznej Policji: brak",
+        "Kanał RSS Polsat News 14–15.11: brak wzmianki",
+        "Kanał RSS Euronews 14–15.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n2",
+      "prog": "dokumentacja",
+      "tekst": "ASEAN: według Euronews 49. szczyt Stowarzyszenia Narodów Azji Południowo-Wschodniej rozpoczął się 15.11 w Manili; przy szczycie podpisano umowę ramową o gospodarce cyfrowej.",
+      "sprawdzono": [
+        "Euronews 15.11: jedyne źródło z poziomów 1–2",
+        "Wyszukiwarka: tylko media filipińskie i malezyjskie spoza rankingu",
+        "Newslettery AP i Reutersa 15.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n3",
+      "prog": "dokumentacja",
+      "tekst": "Australia i Filipiny: według Euronews minister obrony Filipin Gilberto Teodoro i ambasador Australii podpisali 15.11 w Manili, w obecności premiera Australii Anthony'ego Albanese'a, nową umowę o współpracy obronnej.",
+      "sprawdzono": [
+        "Euronews 15.11: jedyne źródło z poziomów 1–2",
+        "Newslettery AP i Reutersa 15.11: brak wzmianki",
+        "Kanał RSS Kyiv Independent 15.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n4",
+      "prog": "kompletność",
+      "tekst": "Strefa Gazy: według Reutersa i AP izraelskie wojsko zabiło 14.11 w Strefie Gazy wysokiego rangą dowódcę zbrojnego skrzydła Hamasu; nazwiska nie udało się ustalić."
+    },
+    {
+      "id": "n5",
+      "prog": "dokumentacja",
+      "tekst": "Czechy: według Euronews setki tysięcy osób protestowały 15.11 w Pradze przeciw planom rządu Andreja Babiša dotyczącym finansowania mediów publicznych.",
+      "sprawdzono": [
+        "Euronews 15.11: jedyne źródło z poziomów 1–2",
+        "Wyszukiwarka – ČTK i Radio Praga: brak wyników z 15.11",
+        "Newsletter AP 15.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n6",
+      "prog": "dokumentacja",
+      "tekst": "Ukraina: według Sił Powietrznych Ukrainy, na które powołuje się Kyiv Independent, Rosja wysłała w nocy na 15.11 132 drony dalekiego zasięgu, a ataki z ostatniej doby zabiły 4 osoby i raniły 69; Sztab Generalny Ukrainy podał, że ukraińskie drony uderzyły w lotnisko wojskowe w obwodzie astrachańskim.",
+      "sprawdzono": [
+        "Kyiv Independent 15.11: jedyne źródło z poziomów 1–2",
+        "Kanał RSS Polsat News 15.11 (poziom 3): tylko atak na Niżniekamsk",
+        "Newsletter AP 15.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n7",
+      "prog": "dokumentacja",
+      "tekst": "Holandia: według Euronews mniejszościowy rząd premiera Roba Jettena prowadził 15.11 rozmowy kryzysowe po sporze o podatek majątkowy.",
+      "sprawdzono": [
+        "Euronews 15.11: jedyne źródło z poziomów 1–2",
+        "Newsletter AP 15.11: brak wzmianki",
+        "Kanał RSS Kyiv Independent 15.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n9",
+      "prog": "dokumentacja",
+      "tekst": "USA i Europa: według Polsat News, które powołuje się na Bloomberga, USA mogą wycofać z Europy około 5 tys. żołnierzy, głównie z Niemiec, a nie do 25 tys., jak obawiali się europejscy urzędnicy; wschodnia flanka NATO ma zostać wzmocniona, a decyzję podejmie prezydent Donald Trump.",
+      "sprawdzono": [
+        "Polsat News 15.11 (poziom 3) za Bloombergiem",
+        "Wyszukiwarka – artykuł Bloomberga z 14.11: brak",
+        "Newsletter AP 15.11: brak wzmianki",
+        "Kanał RSS Kyiv Independent 14–15.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n8",
+      "prog": "następstwo",
+      "tekst": "RPA: według AP w RPA zatrzymano dziesiątą osobę podejrzaną o próbę wyjazdu na wojnę Rosji z Ukrainą."
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-11-14#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Newsletter AP 15.11: brak wzmianki",
+        "Newsletter Reutersa „Iran Briefing” 15.11: brak wzmianki",
+        "Kanał RSS Kyiv Independent 14–15.11: brak wzmianki",
+        "Kanał RSS Euronews 14–15.11: brak wzmianki"
+      ],
+      "powod": "Treść dokumentu podaje tylko „New York Times” w relacji Polsat News."
+    },
+    {
+      "dotyczy": "2026-11-14#n2",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 14–15.11: brak nowych informacji",
+        "Kanał RSS Euronews 14–15.11: brak wzmianki",
+        "Newsletter AP 15.11: brak wzmianki"
+      ],
+      "powod": "Brak drugiego źródła i komunikatu brytyjskiego Ministerstwa Obrony."
+    },
+    {
+      "dotyczy": "2026-11-14#n3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Newsletter Reutersa „Iran Briefing” 15.11: brak wzmianki",
+        "Al Jazeera – dział Bliski Wschód 15.11: brak wzmianki",
+        "Kanał RSS Euronews 14–15.11: brak nowych informacji"
+      ],
+      "powod": "Brak drugiego źródła o debacie parlamentu Iranu."
+    },
+    {
+      "dotyczy": "2026-11-14#n4",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Meduzy: brak nowych wpisów od 14.11",
+        "Kanał RSS Kyiv Independent 14–15.11: brak wzmianki",
+        "Kanał RSS Polsat News 14–15.11: brak wzmianki"
+      ],
+      "powod": "Ocenę językową podaje tylko Meduza."
+    },
+    {
+      "dotyczy": "2026-11-14#n5",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 15.11: brak nowych informacji",
+        "Newsletter AP 15.11: brak wzmianki",
+        "Kanał RSS Euronews 14–15.11: brak wzmianki"
+      ],
+      "powod": "Wypowiedź podaje tylko Kyiv Independent."
+    },
+    {
+      "dotyczy": "2026-11-14#n6",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Newsletter AP 15.11: brak wzmianki",
+        "Newsletter Reutersa „Iran Briefing” 15.11: brak wzmianki",
+        "Kanał RSS Euronews 14–15.11: brak wzmianki"
+      ],
+      "powod": "Brak drugiego źródła i komunikatu władz Sudanu Południowego."
+    },
+    {
+      "dotyczy": "2026-11-14#n7",
+      "wynik": "ODPADA",
+      "powod": "Dane o nocnym ataku z 14.11 zastąpiły nowsze doniesienia o ataku w nocy na 15.11."
+    },
+    {
+      "dotyczy": "2026-11-14#n8",
+      "wynik": "ODPADA",
+      "powod": "Pojedynczy atak bez nowych następstw; nowsze uderzenia ukraińskie opisuje wpis o 15.11."
+    },
+    {
+      "dotyczy": "2026-11-14#n9",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Newsletter Reutersa „Iran Briefing” 15.11: brak wzmianki",
+        "Al Jazeera – dział Bliski Wschód 15.11: brak wzmianki",
+        "Newsletter AP 15.11: brak wzmianki"
+      ],
+      "powod": "Liczbę ofiar podaje tylko Al Jazeera."
+    }
+  ],
+  "do_sprawdzenia": [
+    "Ukraina, Rosja, USA, Europa – termin i miejsce kolejnej rundy rozmów; udział zespołu europejskiego",
+    "Bruksela 16.11 – sankcje UE wobec floty cieni; los tankowca Midag",
+    "Estonia – decyzja rządu o zamknięciu granicy z Rosją; reakcja Rosji i Łotwy",
+    "Rumunia – sprawca ataków na statki przy Sulinie; patrole sojusznicze na Morzu Czarnym",
+    "Bahrajn, Iran, USA – komunikat CENTCOM; Jemen – Bab al-Mandab i Aden",
+    "Warszawa – komunikat policji o napisach na pomnikach; Polska – DO RSZ, SG, ŻW, Agencja Uzbrojenia",
+    "Szczyt ASEAN w Manili (15–17.11) – drugie źródło; Shenzhen 19.11 – potwierdzenie Pekinu",
+    "PISM – lista publikacji z 13–15.11"
+  ],
+  "nota": "Lista publikacji PISM nie została odczytana: listy działów Biuletyny i Komentarze, lista główna (z www i bez) i wersja angielska zwróciły puste strony, a wyszukiwarka nie podała tekstów z ostatnich 3 dni. Dział Świat Onetu niedostępny dla narzędzi i nieodnaleziony w wyszukiwarce. Kanał RSS Meduzy bez wpisów od 14.11 rano."
+}

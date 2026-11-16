@@ -1,30 +1,34 @@
 {
- "od": "2026-11-08",
- "do": "2026-11-14",
- "opublikowano": "2026-11-15",
+ "od": "2026-11-09",
+ "do": "2026-11-15",
+ "opublikowano": "2026-11-16",
  "godzina": "06:10",
- "tytul": "Top 10: ostatnie 7 dni (8–14.11.2026)",
+ "tytul": "Top 10: ostatnie 7 dni (9–15.11.2026)",
  "wstep": [
-  "Najważniejsze sprawy z ostatnich 7 dni (8–14.11.2026) – w tym tygodniu dziesięć spraw spełnia kryteria. Każda ma przebieg z datami i źródłami oraz wniosek „Dla Polski”; starsze sprawy są w archiwum miesięcznym.",
-  "Oś tygodnia to **rozmowy o zakończeniu wojny i wojna z Iranem**: 10–11.11 w Abu Zabi odbyły się pierwsze od lutego rozmowy Ukrainy, Rosji i USA, zakończone uzgodnieniem dużej wymiany jeńców; 12.11 wysłannicy USA rozmawiali z Putinem na Kremlu i z Zełenskim pod Dublinem, a 13.11 przywódcy UE ustalili, że Europę w rozmowach będą reprezentować instytucje UE oraz Francja, Niemcy, Włochy, Polska i Wielka Brytania. Trump 9.11 wstrzymał nowe ataki na Iran przy utrzymanej blokadzie morskiej, ale w Cieśninie Ormuz miny trafiły 13.11 gazowiec z LNG, a 14.11 kolejny tankowiec. Rosja uderzała w ukraińskie miasta i energetykę, a ukraińskie drony ograniczyły o około 30% rosyjską rafinację i 11.11 unieruchomiły rosyjski okręt rakietowy w Zatoce Fińskiej. W Polsce ABW zatrzymała dwóch podejrzanych o dywersję na rzecz Rosji, a FSB ogłosiła 11.11 zatrzymanie dwóch Polaków w obwodzie królewieckim; w Nowej Dębie trwają pierwsze ćwiczenia Wielonarodowych Sił dla Ukrainy. Wielka Brytania objęła sankcjami wszystkich dziesięciu największych producentów rosyjskiej ropy, Dania ogłosiła pakiet pomocy wojskowej dla Ukrainy, a Litwa – kontrolę zboża z Rosji i Białorusi."
+  "Najważniejsze sprawy z ostatnich 7 dni (9–15.11.2026) – w tym tygodniu dziesięć spraw spełnia kryteria. Każda ma przebieg z datami i źródłami oraz wniosek „Dla Polski”; starsze sprawy są w archiwum miesięcznym.",
+  "Oś tygodnia to **rozmowy o zakończeniu wojny i wojna z Iranem**: 10–11.11 w Abu Zabi odbyły się pierwsze od lutego rozmowy Ukrainy, Rosji i USA, zakończone uzgodnieniem dużej wymiany jeńców; 12.11 wysłannicy USA rozmawiali z Putinem na Kremlu i z Zełenskim pod Dublinem, 13.11 przywódcy UE ustalili, że Europę w rozmowach będą reprezentować instytucje UE oraz Francja, Niemcy, Włochy, Polska i Wielka Brytania, a 14.11 Kushner napisał, że USA chcą doprowadzić do bezpośrednich rozmów Rosji z Europą. Trump 9.11 wstrzymał nowe ataki na Iran przy utrzymanej blokadzie morskiej, ale w Cieśninie Ormuz miny trafiły 13.11 gazowiec z LNG, a 14.11 kolejny tankowiec; 15.11 Bahrajn przechwytywał irańskie ataki, a Huti przejęli rejon cieśniny Bab al-Mandab po wycofaniu się wojsk rządu Jemenu. Rosja uderzała w ukraińskie miasta i energetykę, a ukraińskie drony ograniczyły o około 30% rosyjską rafinację i 11.11 unieruchomiły rosyjski okręt rakietowy w Zatoce Fińskiej. W Polsce ABW zatrzymała dwóch podejrzanych o dywersję na rzecz Rosji, a FSB ogłosiła 11.11 zatrzymanie dwóch Polaków w obwodzie królewieckim; w Nowej Dębie trwają pierwsze ćwiczenia Wielonarodowych Sił dla Ukrainy. Estonia zapowiedziała zamknięcie 1.12 drogowych przejść granicznych z Rosją po próbie sabotażu zleconej według kontrwywiadu przez GRU. Wielka Brytania objęła sankcjami wszystkich dziesięciu największych producentów rosyjskiej ropy, a siły UE weszły na pokład tankowca floty cieni."
  ],
  "kryteria": "Do zestawienia trafia wydarzenie, które spełnia trzy warunki: zmieniło stan rzeczy w ostatnich 7 dniach (zapadła decyzja, zmieniła się władza, powstała nowa zdolność wojskowa albo incydent miał realne następstwo – retoryka i zapowiedzi bez terminu nie wystarczą), ma konkretny skutek dla Polski lub Europy albo dla sytuacji międzynarodowej i jest udokumentowane w wydaniach dziennych z tego okresu. Przy wątkach trwających miesiącami liczy się zmiana w tygodniu, a nie sam wątek; tytuł opisuje najnowszy fakt. Gdy kryteria spełnia mniej niż dziesięć spraw, lista jest krótsza. Kolejność ustala autor według wpływu na bezpieczeństwo i interesy Polski, potem skali, potem trwałości skutków. Ranking jest więc oceną, a nie faktem; fakty mają źródła, oceny – autora.",
  "pozycje": [
   {
    "id": "mediacja-usa",
-   "tytul": "Przywódcy UE ustalają 13.11 w Dublinie, że w rozmowach o zakończeniu wojny Europę reprezentują instytucje UE oraz Francja, Niemcy, Włochy, Polska i Wielka Brytania; wysłannik USA Jared Kushner zapowiada 13.11 udział Europy w kolejnej rundzie rozmów i największą w tej wojnie wymianę jeńców",
-   "data": "2026-11-13",
+   "tytul": "Wysłannik USA Jared Kushner deklaruje 14.11, że USA chcą doprowadzić do bezpośrednich rozmów Rosji z Europą; przywódcy UE ustalają 13.11 w Dublinie, że w rozmowach o zakończeniu wojny Europę reprezentują instytucje UE oraz Francja, Niemcy, Włochy, Polska i Wielka Brytania",
+   "data": [
+    "2026-11-13",
+    "2026-11-14"
+   ],
    "tagi": [
     "ukraina",
     "rozejm",
     "rosja",
-    "usa"
+    "usa",
+    "ue"
    ],
    "etap": "W TOKU",
-   "lead": "Przewodniczący Rady Europejskiej {{o:antonio-costa|António Costa}} ogłosił 13.11 w Dublinie, że w rozmowach o zakończeniu wojny Europę będą reprezentować **instytucje UE i pięć państw** {{p:koalicja-chetnych|koalicji chętnych}}: Francja, Niemcy, Włochy, **Polska** i Wielka Brytania; według Reutersa rzecznik Kremla {{o:dmitrij-pieskow|Dmitrij Pieskow}} powiedział, że Europejczycy mogą dołączyć, jeśli okażą „gotowość”. Tego samego dnia wysłannik prezydenta USA {{o:jared-kushner|Jared Kushner}} zapowiedział udział Europy w kolejnej rundzie rozmów i największą w tej wojnie wymianę jeńców; daty i miejsca rundy nie podano.",
+   "lead": "Wysłannik prezydenta USA {{o:jared-kushner|Jared Kushner}} napisał 14.11, że Waszyngton chce teraz **doprowadzić do bezpośrednich rozmów Rosji z Europą** i przygotowuje program kolejnej rundy rozmów USA, Ukrainy i Rosji; według Euronews rzecznik Kremla {{o:dmitrij-pieskow|Dmitrij Pieskow}} powiedział, że Moskwa nie chce stawiać warunków co do składu zespołu europejskiego. Dzień wcześniej przewodniczący Rady Europejskiej {{o:antonio-costa|António Costa}} ogłosił w Dublinie, że Europę w rozmowach będą reprezentować **instytucje UE i pięć państw** {{p:koalicja-chetnych|koalicji chętnych}}: Francja, Niemcy, Włochy, **Polska** i Wielka Brytania.",
    "omowienie": [
-    "Rozmowy w Abu Zabi, pierwsze trójstronne od lutego, trwały 10–11.11; delegacje Ukrainy pod kierunkiem {{o:rustem-umerow|Rustema Umerowa}} i Rosji pod kierunkiem {{o:wladimir-miedinski|Władimira Miedinskiego}} zakończyły je uzgodnieniem dużej wymiany jeńców. 12.11 Kushner i {{o:steve-witkoff|Steve Witkoff}} rozmawiali na Kremlu z {{o:wladimir-putin|Władimirem Putinem}}, a wieczorem pod Dublinem z prezydentem Ukrainy {{o:wolodymyr-zelenski|Wołodymyrem Zełenskim}}.",
-    "Zełenski powiedział 13.11, że przedstawiciele USA zapytali, czy Ukraina wycofa się z Donbasu w zamian za członkostwo w NATO; odpowiedział, że mogliby o tym rozstrzygnąć tylko obywatele Ukrainy, i to po uzgodnieniu gwarancji bezpieczeństwa NATO i UE. Francuski minister spraw zagranicznych Jean-Noël Barrot oświadczył 8.11, że w rozmowach wezmą udział także Europejczycy."
+    "Rozmowy w Abu Zabi, pierwsze trójstronne od lutego, trwały 10–11.11; delegacje Ukrainy pod kierunkiem {{o:rustem-umerow|Rustema Umerowa}} i Rosji pod kierunkiem {{o:wladimir-miedinski|Władimira Miedinskiego}} zakończyły je uzgodnieniem dużej wymiany jeńców. 12.11 Kushner i {{o:steve-witkoff|Steve Witkoff}} rozmawiali na Kremlu z {{o:wladimir-putin|Władimirem Putinem}}, a wieczorem pod Dublinem z prezydentem Ukrainy {{o:wolodymyr-zelenski|Wołodymyrem Zełenskim}}; 13.11 Kushner zapowiedział udział Europy w kolejnej rundzie i największą w tej wojnie wymianę jeńców.",
+    "Zełenski powiedział 13.11, że przedstawiciele USA zapytali, czy Ukraina wycofa się z Donbasu w zamian za członkostwo w NATO; odpowiedział, że mogliby o tym rozstrzygnąć tylko obywatele Ukrainy, i to po uzgodnieniu gwarancji bezpieczeństwa NATO i UE. Według Euronews Pieskow dodał 14.11, że Moskwa najpierw chce ocenić, czy stanowisko zespołu europejskiego może pomóc w procesie pokojowym."
    ],
    "przebieg": [
     {
@@ -212,6 +216,23 @@
        "data": "2026-11-14"
       }
      ]
+    },
+    {
+     "data": "2026-11-14",
+     "tekst": "Wysłannik prezydenta USA Jared Kushner napisał 14.11, że Waszyngton chce teraz **doprowadzić do bezpośrednich rozmów Rosji z Europą** i przygotowuje program kolejnej rundy rozmów USA, Ukrainy i Rosji. Według Euronews Dmitrij Pieskow powiedział tego samego dnia, że Moskwa nie chce stawiać warunków co do składu zespołu europejskiego, ale najpierw chce ocenić, czy jego stanowisko może pomóc w procesie pokojowym.",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "Kyiv Independent",
+       "url": "https://kyivindependent.com/us-now-focused-on-facilitating-direct-engagement-between-russia-europe-kushner-says-after-ukraine-peace-talks/",
+       "data": "2026-11-14"
+      },
+      {
+       "nazwa": "Euronews",
+       "url": "https://www.euronews.com/2026/11/14/moscow-says-it-will-not-dictate-eu-delegations-participation-in-ukraine-talks",
+       "data": "2026-11-14"
+      }
+     ]
     }
    ],
    "oceny": [
@@ -236,9 +257,20 @@
        "data": "2026-11-10"
       }
      ]
+    },
+    {
+     "autor": "Wołodymyr Zełenski, prezydent Ukrainy (za Associated Press), 15.11.2026",
+     "tekst": "Według Associated Press Zełenski ocenił, że nowe ramy bezpieczeństwa europejskiego, o których mówią Stany Zjednoczone, mogą przynieść korzyść Władimirowi Putinowi.",
+     "zrodla": [
+      {
+       "nazwa": "Associated Press (newsletter)",
+       "url": "https://apnews.com/article/russia-ukraine-war-nato-us-zelenskyy-f9a8629626c087424f05adc85d127780",
+       "data": "2026-11-15"
+      }
+     ]
     }
    ],
-   "dla_polski": "Wynik rozmów o zakończeniu wojny przesądzi o sytuacji bezpieczeństwa na wschodniej granicy Polski i NATO, a Polska jest jednym z pięciu państw, które mają reprezentować Europę. Wniosek autora: miejsce w zespole europejskim daje Polsce wpływ na część rozmów o ramach bezpieczeństwa w Europie, o której pisał „Washington Post”; sprawdzianem będzie, czy Rosja i USA przyjmą zespół w kolejnej rundzie i czy w rozmowach wróci pytanie o Donbas w zamian za NATO.",
+   "dla_polski": "Wynik rozmów o zakończeniu wojny przesądzi o sytuacji bezpieczeństwa na wschodniej granicy Polski i NATO, a Polska jest jednym z pięciu państw, które mają reprezentować Europę. Wniosek autora: jeśli USA rzeczywiście doprowadzą do bezpośrednich rozmów Rosji z Europą, Polska będzie przy stole, na którym mogą zapaść ustalenia o ramach bezpieczeństwa w Europie; sprawdzianem będzie, czy Kreml po „ocenie” przyjmie zespół europejski i czy wróci pytanie o Donbas w zamian za NATO.",
    "w_wydaniach": [
     "2026-11-07#z4",
     "2026-11-08#z5",
@@ -247,7 +279,8 @@
     "2026-11-12#z1",
     "2026-11-13#z1",
     "2026-11-14#z1",
-    "2026-11-14#z2"
+    "2026-11-14#z2",
+    "2026-11-15#z1"
    ]
   },
   {
@@ -349,6 +382,49 @@
    "dla_polski": "Polska jako gospodarz i państwo wiodące w logistyce przyszłych sił wsparcia dla Ukrainy staje się ich zapleczem. Wniosek autora: to zwiększa wagę Polski w rozmowach o gwarancjach bezpieczeństwa dla Ukrainy, ale też obciąża polską infrastrukturę i może uczynić węzły logistyczne w kraju celem rosyjskiej presji.",
    "w_wydaniach": [
     "2026-11-12#z7"
+   ]
+  },
+  {
+   "id": "estonia-granica",
+   "tytul": "Estonia zapowiada 15.11 zamknięcie 1.12 drogowych przejść granicznych z Rosją w Narwie, Luhamaa i Koidula; według estońskiego kontrwywiadu próbę podpalenia zakładu producenta dronów Threod Systems zlecił rosyjski wywiad wojskowy",
+   "data": "2026-11-15",
+   "tagi": [
+    "estonia",
+    "rosja",
+    "hybryda"
+   ],
+   "etap": "ZAPOWIEDŹ",
+   "lead": "Estońskie MSZ zapowiedziało 15.11 **zamknięcie 1.12 drogowych przejść granicznych z Rosją** w Narwie, Luhamaa i Koidula; premier {{o:kristen-michal|Kristen Michal}} uzasadnił to rosyjskimi operacjami hybrydowymi. Według estońskiego kontrwywiadu ({{p:kapo|KAPO}}) próbę wywołania wybuchu i pożaru w zakładzie producenta dronów Threod Systems zlecił rosyjski wywiad wojskowy ({{p:gru|GRU}}).",
+   "omowienie": [
+    "W Viimsi pod Tallinem zatrzymano 14.11 ośmiu obywateli Łotwy podejrzanych o tę próbę. Wniosek o zamknięcie przejść przedstawi rządowi minister spraw wewnętrznych {{o:igor-taro|Igor Taro}}, a szczegóły omówi rząd."
+   ],
+   "przebieg": [
+    {
+     "data": "2026-11-15",
+     "tekst": "Estońskie MSZ zapowiedziało 15.11 **zamknięcie 1.12 drogowych przejść granicznych z Rosją** w Narwie, Luhamaa i Koidula, a szczegóły omówi rząd; premier Kristen Michal uzasadnił to rosyjskimi operacjami hybrydowymi, a wniosek przedstawi rządowi minister spraw wewnętrznych {{o:igor-taro|Igor Taro}}. Dzień wcześniej w Viimsi pod Tallinem zatrzymano ośmiu obywateli Łotwy, którzy według estońskiego kontrwywiadu ({{p:kapo|KAPO}}) na zlecenie rosyjskiego wywiadu wojskowego ({{p:gru|GRU}}) próbowali wywołać wybuch i pożar w zakładzie producenta dronów Threod Systems.",
+     "etap": "ZAPOWIEDŹ",
+     "zrodla": [
+      {
+       "nazwa": "ERR",
+       "url": "https://news.err.ee/1610196794/estonia-to-close-border-crossings-with-russia-after-gru-linked-sabotage-attacks",
+       "data": "2026-11-15"
+      },
+      {
+       "nazwa": "ERR",
+       "url": "https://news.err.ee/1610196722/8-detained-after-gru-linked-arson-at-estonian-drone-company-threod-systems",
+       "data": "2026-11-15"
+      },
+      {
+       "nazwa": "Euronews",
+       "url": "https://www.euronews.com/2026/11/15/estonian-drone-maker-targeted-by-gru-ordered-sabotage-attempt-pm-says",
+       "data": "2026-11-15"
+      }
+     ]
+    }
+   ],
+   "dla_polski": "Zamknięcie przejść ograniczy ruch na kolejnym odcinku granicy NATO z Rosją, a celem próby sabotażu był zakład produkujący drony. Wniosek autora: rosyjskie służby atakują przemysł obronny państw wspierających Ukrainę, więc podobne ryzyko dotyczy polskich zakładów zbrojeniowych; sprawdzianem będzie decyzja rządu Estonii i odpowiedź Rosji.",
+   "w_wydaniach": [
+    "2026-11-15#z6"
    ]
   },
   {
@@ -584,10 +660,10 @@
   },
   {
    "id": "ormuz-ropa",
-   "tytul": "Tankowiec wchodzi 14.11 na minę we wschodniej części Cieśniny Ormuz i staje w ogniu według irańskiej marynarki wojennej, dzień po wejściu na minę gazowca z LNG; Dowództwo Centralne USA zestrzeliwuje 13.11 nad Bahrajnem dwa irańskie drony",
+   "tytul": "Obrona powietrzna Bahrajnu przechwytuje 15.11 kilka irańskich ataków powietrznych; tankowiec wchodzi 14.11 na minę we wschodniej części Cieśniny Ormuz i staje w ogniu według irańskiej marynarki wojennej",
    "data": [
-    "2026-11-13",
-    "2026-11-14"
+    "2026-11-14",
+    "2026-11-15"
    ],
    "tagi": [
     "iran",
@@ -595,9 +671,9 @@
     "energia"
    ],
    "etap": "W TOKU",
-   "lead": "Według Reutersa irańska marynarka wojenna podała 14.11, że tankowiec wszedł na minę we wschodniej części {{p:ormuz|Cieśniny Ormuz}} i **stanął w ogniu**; dzień wcześniej Iran informował o gazowcu z {{p:lng|LNG}} na minie i o **czterech tankowcach** trafionych w cieśninie przez wybuchy. 13.11 Dowództwo Centralne USA ({{p:centcom|CENTCOM}}) podało, że **zestrzeliło dwa irańskie drony** nad Bahrajnem. 9.11 prezydent {{o:donald-trump|Donald Trump}} wstrzymał nowe ataki na Iran, ale utrzymał blokadę morską.",
+   "lead": "Według Reutersa siły obronne Bahrajnu podały 15.11, że przechwyciły **kilka irańskich ataków powietrznych**; Teheran twierdzi, że zaatakował amerykańską bazę. 14.11 irańska marynarka wojenna podała, że tankowiec wszedł na minę we wschodniej części {{p:ormuz|Cieśniny Ormuz}} i **stanął w ogniu**, a 13.11 Iran informował o gazowcu z {{p:lng|LNG}} na minie i o czterech tankowcach trafionych w cieśninie przez wybuchy. 9.11 prezydent {{o:donald-trump|Donald Trump}} wstrzymał nowe ataki na Iran, ale utrzymał blokadę morską.",
    "omowienie": [
-    "Według źródeł Reutersa Iran zaatakował też systemy nawigacji morskiej na omańskiej wyspie Didamar przy wejściu do cieśniny.",
+    "13.11 Dowództwo Centralne USA ({{p:centcom|CENTCOM}}) podało, że zestrzeliło nad Bahrajnem dwa irańskie drony. Według źródeł Reutersa Iran zaatakował też systemy nawigacji morskiej na omańskiej wyspie Didamar przy wejściu do cieśniny.",
     "Według Reutersa wysoki rangą irański urzędnik oświadczył 5.11, że Iran przekazał Stanom Zjednoczonym przez Katar propozycję w sprawie programu jądrowego. Tego samego dnia, jak podał Reuters za brytyjskim centrum informacji o żegludze {{p:ukmto|UKMTO}}, dwa pociski uderzyły w tankowiec na północ od Kataru, a 8.11 oba państwa poinformowały o uderzeniach w statki w rejonie {{p:ormuz|Cieśniny Ormuz}}.",
     "Minister spraw zagranicznych Iranu {{o:abbas-araghczi|Abbas Araghczi}} zaprzeczył, by planowano spotkanie przedstawicieli obu państw w Katarze. Według CNN lotnictwo USA przeniosło 9.11 z brytyjskiej bazy RAF Mildenhall dziesięć samolotów tankowania w powietrzu z powodu zagrożenia ze strony Iranu, a w bazach Mildenhall i Lakenheath podniesiono stopień zagrożenia."
    ],
@@ -816,10 +892,27 @@
       }
      ],
      "etap": "W TOKU"
+    },
+    {
+     "data": "2026-11-15",
+     "tekst": "Według Reutersa siły obronne Bahrajnu podały 15.11, że przechwyciły **kilka irańskich ataków powietrznych**; Teheran twierdzi, że zaatakował amerykańską bazę. Korpus Strażników Rewolucji Islamskiej ogłosił wcześniej zniszczenie amerykańskiego radaru wczesnego ostrzegania w Bahrajnie.",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "Reuters (newsletter)",
+       "url": "https://www.reuters.com/world/middle-east/bahrains-interior-ministry-issues-alerts-potential-threats-2026-11-15/",
+       "data": "2026-11-15"
+      },
+      {
+       "nazwa": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/15/bahrain-accuses-iran-of-attacking-its-territory-to-settle-score-with-us",
+       "data": "2026-11-15"
+      }
+     ]
     }
    ],
    "oceny": [],
-   "dla_polski": "Zamknięta lub ryzykowna Cieśnina Ormuz podnosi ceny ropy i paliw w Europie; według Reutersa eksport ropy z Zatoki Perskiej spadł w październiku, a liczba ataków na statki była rekordowa. Wniosek autora: wstrzymanie amerykańskich ataków nie zatrzymało uderzeń w tankowce, więc ryzyko szoków cenowych, które uderzą w polską gospodarkę, się utrzymuje.",
+   "dla_polski": "Zamknięta lub ryzykowna Cieśnina Ormuz podnosi ceny ropy i paliw w Europie; według Reutersa eksport ropy z Zatoki Perskiej spadł w październiku, a liczba ataków na statki była rekordowa. Wniosek autora: wstrzymanie amerykańskich ataków nie zatrzymało ani uderzeń w tankowce, ani irańskich ataków na Bahrajn, gdzie stacjonują siły USA, więc ryzyko szoków cenowych, które uderzą w polską gospodarkę, się utrzymuje.",
    "w_wydaniach": [
     "2026-10-31#z5",
     "2026-11-02#z2",
@@ -835,23 +928,97 @@
     "2026-11-12#z12",
     "2026-11-13#z6",
     "2026-11-13#z10",
-    "2026-11-14#z8"
+    "2026-11-14#z8",
+    "2026-11-15#z7"
+   ]
+  },
+  {
+   "id": "bab-al-mandab",
+   "tytul": "Siły uznawanego międzynarodowo rządu Jemenu wycofują się 15.11 z rejonu cieśniny Bab al-Mandab, by bronić Adenu, a kontrolę nad tym obszarem przejmują Huti",
+   "data": "2026-11-15",
+   "tagi": [
+    "inne",
+    "iran"
+   ],
+   "etap": "W TOKU",
+   "lead": "Według Reutersa siły uznawanego międzynarodowo rządu Jemenu ogłosiły 15.11, że **wycofują się z rejonu cieśniny Bab al-Mandab**, by bronić Adenu przed {{p:huti|Huti}}; kontrolę nad tym obszarem przejęli Huti. Tego samego dnia koalicja pod wodzą Arabii Saudyjskiej podała, że przechwyciła pociski lecące w stronę Rijadu i drony nad Prowincją Wschodnią.",
+   "omowienie": [
+    "Według Reutersa koalicja przechwyciła już 10.11 dwa pociski Huti wystrzelone w stronę Rijadu, a 13.11 Huti ogłosili, że ostrzelali rakietami siły saudyjskie w prowincji Dżazan."
+   ],
+   "przebieg": [
+    {
+     "data": "2026-11-10",
+     "tekst": "Według Reutersa koalicja pod wodzą Arabii Saudyjskiej przechwyciła 10.11 dwa **pociski** jemeńskich {{p:huti|Huti}} wystrzelone w stronę Rijadu oraz drony. Jemeńska agencja Saba, kontrolowana przez Huti, podała, że Arabia Saudyjska zbombardowała Sanę.",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "Reuters (newsletter)",
+       "url": "https://www.reuters.com/world/middle-east/saudi-led-coalition-says-it-intercepts-two-houthi-missiles-fired-towards-riyadh-2026-11-10/",
+       "data": "2026-11-10"
+      }
+     ]
+    },
+    {
+     "data": "2026-11-13",
+     "tekst": "Huti ogłosili 13.11, że ostrzelali rakietami siły saudyjskie w prowincji Dżazan na południu Arabii Saudyjskiej; według Reutersa saudyjska obrona cywilna podała później, że **zagrożenie minęło**.",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "Reuters (newsletter)",
+       "url": "https://www.reuters.com/world/middle-east/saudi-civil-defence-says-danger-passed-jazan-2026-11-13/",
+       "data": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "data": "2026-11-15",
+     "tekst": "Według Reutersa siły uznawanego międzynarodowo rządu Jemenu ogłosiły 15.11, że **wycofują się z rejonu cieśniny Bab al-Mandab**, by bronić Adenu przed {{p:huti|Huti}}, a kontrolę nad tym obszarem przejęli Huti. Koalicja pod wodzą Arabii Saudyjskiej podała, że przechwyciła tego dnia pociski lecące w stronę Rijadu i drony nad Prowincją Wschodnią.",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "Reuters (newsletter)",
+       "url": "https://www.reuters.com/world/middle-east/yemen-government-forces-withdraw-area-near-bab-el-mandeb-strait-houthis-control-2026-11-15/",
+       "data": "2026-11-15"
+      },
+      {
+       "nazwa": "Reuters (newsletter)",
+       "url": "https://www.reuters.com/world/middle-east/saudi-led-coalition-intercepts-missiles-towards-riyadh-drones-eastern-province-2026-11-15/",
+       "data": "2026-11-15"
+      },
+      {
+       "nazwa": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/15/yemeni-government-forces-redeploy-from-bab-al-mandeb-to-defend-aden",
+       "data": "2026-11-15"
+      }
+     ]
+    }
+   ],
+   "dla_polski": "Przez cieśninę Bab al-Mandab prowadzi szlak morski z Azji i Zatoki Perskiej przez Morze Czerwone do Kanału Sueskiego i Europy. Wniosek autora: przejęcie przez Huti rejonu cieśniny w czasie wojny z Iranem i ataków w Cieśninie Ormuz zwiększa ryzyko dla dostaw ropy i towarów do Europy, a więc i dla cen w Polsce.",
+   "w_wydaniach": [
+    "2026-11-10#z4",
+    "2026-11-14#z7",
+    "2026-11-15#z8"
    ]
   },
   {
    "id": "sankcje",
-   "tytul": "Wielka Brytania obejmuje 12.11 sankcjami Vostok Oil, Slawnieft, rosyjskie firmy węglowe i statki floty cieni jako pierwsze państwo, które ukarało wszystkich dziesięciu największych producentów ropy w Rosji",
-   "data": "2026-11-12",
+   "tytul": "Wielka Brytania obejmuje 12.11 sankcjami Vostok Oil, Slawnieft i statki floty cieni jako pierwsze państwo, które ukarało wszystkich dziesięciu największych producentów ropy w Rosji; siły unijnej operacji Irini wchodzą 13.11 na pokład tankowca Midag, podejrzewanego o przynależność do floty cieni",
+   "data": [
+    "2026-11-12",
+    "2026-11-13"
+   ],
    "tagi": [
     "sankcje",
     "wielka-brytania",
     "rosja",
-    "energia"
+    "energia",
+    "ue"
    ],
    "etap": "PRZYJĘTE",
-   "lead": "Rząd premiera {{o:andy-burnham|Andy'ego Burnhama}} objął 12.11 **sankcjami** spółkę Vostok Oil, arktyczny projekt koncernu Rosnieft, firmę naftową Slawnieft, duże rosyjskie firmy węglowe i statki floty cieni. Według rządu brytyjskiego Wielka Brytania jest pierwszym państwem, które ukarało wszystkich dziesięciu największych producentów ropy w Rosji.",
+   "lead": "Rząd premiera {{o:andy-burnham|Andy'ego Burnhama}} objął 12.11 **sankcjami** spółkę Vostok Oil, arktyczny projekt koncernu Rosnieft, firmę naftową Slawnieft, duże rosyjskie firmy węglowe i statki floty cieni; według rządu brytyjskiego Wielka Brytania jest pierwszym państwem, które ukarało wszystkich dziesięciu największych producentów ropy w Rosji. 13.11 siły unijnej operacji {{p:irini|Irini}} weszły na Morzu Śródziemnym na pokład tankowca Midag, podejrzewanego o przynależność do rosyjskiej {{p:flota-cieni|floty cieni}}.",
    "omowienie": [
-    "Sankcje ogłoszono w dniu szczytu Europejskiej Wspólnoty Politycznej w Dublinie, poświęconego według rządu brytyjskiego Ukrainie."
+    "Sankcje brytyjskie ogłoszono w dniu szczytu Europejskiej Wspólnoty Politycznej w Dublinie, poświęconego według rządu brytyjskiego Ukrainie.",
+    "Według szefowej dyplomacji UE {{o:kaja-kallas|Kai Kallas}} Midag płynął pod fałszywą banderą; Kallas zapowiedziała, że ministrowie spraw zagranicznych UE zatwierdzą 16.11 nowe sankcje wobec banków, nabywców i firm wspierających flotę cieni."
    ],
    "przebieg": [
     {
@@ -870,12 +1037,30 @@
        "data": "2026-11-12"
       }
      ]
+    },
+    {
+     "data": "2026-11-13",
+     "tekst": "Siły unijnej operacji {{p:irini|Irini}} weszły 13.11 na Morzu Śródziemnym na pokład tankowca Midag, podejrzewanego o przynależność do rosyjskiej {{p:flota-cieni|floty cieni}}; według szefowej dyplomacji UE {{o:kaja-kallas|Kai Kallas}} statek płynął pod fałszywą banderą. Kallas zapowiedziała, że ministrowie spraw zagranicznych UE zatwierdzą 16.11 **nowe sankcje** wobec banków, nabywców i firm wspierających flotę cieni.",
+     "etap": "ZAPOWIEDŹ",
+     "zrodla": [
+      {
+       "nazwa": "Euronews",
+       "url": "https://www.euronews.com/2026/11/15/eu-forces-board-suspected-russian-shadow-fleet-tanker-in-mediterranean-kallas-says",
+       "data": "2026-11-15"
+      },
+      {
+       "nazwa": "Kyiv Independent",
+       "url": "https://kyivindependent.com/eu-forces-board-suspected-russian-shadow-fleet-tanker-in-mediterranean-kallas-says/",
+       "data": "2026-11-15"
+      }
+     ]
     }
    ],
    "oceny": [],
-   "dla_polski": "Sankcje wymierzone w rosyjską ropę i flotę cieni ograniczają dochody, z których Rosja finansuje wojnę, a statki floty cieni pływają także po Bałtyku. Wniosek autora: brytyjski krok wyprzedza UE i USA, więc Polsce opłaca się wspierać w Unii objęcie tych samych podmiotów kolejnym pakietem.",
+   "dla_polski": "Sankcje i działania wymierzone w rosyjską ropę i flotę cieni ograniczają dochody, z których Rosja finansuje wojnę, a statki floty cieni pływają także po Bałtyku. Wniosek autora: wejście sił UE na tankowiec pokazuje, że Unia przechodzi od list sankcyjnych do działań na morzu; Polsce opłaca się wspierać, by zapowiedziany 16.11 pakiet objął te same podmioty co sankcje brytyjskie.",
    "w_wydaniach": [
-    "2026-11-12#z3"
+    "2026-11-12#z3",
+    "2026-11-15#z4"
    ]
   },
   {
@@ -909,87 +1094,25 @@
    "w_wydaniach": [
     "2026-11-10#z11"
    ]
-  },
-  {
-   "id": "dania-pomoc",
-   "tytul": "Dania ogłasza 10.11 w Kopenhadze pakiet pomocy wojskowej dla Ukrainy o wartości 4,8 mld koron (około 643 mln euro) podczas wizyty prezydenta Wołodymyra Zełenskiego",
-   "data": "2026-11-10",
-   "tagi": [
-    "ukraina",
-    "nordyckie"
-   ],
-   "etap": "PRZYJĘTE",
-   "lead": "Dania ogłosiła 10.11 w Kopenhadze **pakiet pomocy wojskowej** dla Ukrainy o wartości 4,8 mld koron, czyli około 643 mln euro. Prezydent {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} rozmawiał tam z premier {{o:mette-frederiksen|Mette Frederiksen}} i przywódcami państw nordyckich.",
-   "omowienie": [
-    "Dania przeznaczy też 150 mln koron na ukraińską energetykę."
-   ],
-   "przebieg": [
-    {
-     "data": "2026-11-10",
-     "tekst": "Dania ogłosiła 10.11 w Kopenhadze pakiet pomocy wojskowej dla Ukrainy o wartości 4,8 mld koron (około 643 mln euro). Prezydent {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} rozmawiał tam z premier {{o:mette-frederiksen|Mette Frederiksen}} i przywódcami państw nordyckich; Dania przeznaczy też 150 mln koron na ukraińską energetykę.",
-     "etap": "PRZYJĘTE",
-     "zrodla": [
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/11/10/denmark-pledges-643-million-in-military-aid-as-zelenskyy-meets-nordic-leaders",
-       "data": "2026-11-10"
-      },
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/zelensky-arrives-in-denmark-for-talks-with-nordic-leaders/",
-       "data": "2026-11-10"
-      }
-     ]
-    }
-   ],
-   "oceny": [],
-   "dla_polski": "Pakiet wzmacnia obronę Ukrainy w chwili, gdy zaczynają się rozmowy w Abu Zabi, i pokazuje, że państwa nordyckie utrzymują poziom wsparcia. Wniosek autora: im większy udział europejskich państw w pomocy, tym mocniejszy argument Europy – także Polski – za udziałem w rozmowach o pokoju.",
-   "w_wydaniach": [
-    "2026-11-10#z2"
-   ]
-  },
-  {
-   "id": "litwa-zboze",
-   "tytul": "Litwa ogłasza 10.11, że od 16.11 będzie zatrzymywać w porcie w Kłajpedzie zboże z Rosji i Białorusi do czasu sprawdzenia, czy nie pochodzi z okupowanych terenów Ukrainy",
-   "data": "2026-11-10",
-   "tagi": [
-    "litwa",
-    "rosja",
-    "bialorus",
-    "sankcje"
-   ],
-   "etap": "PRZYJĘTE",
-   "lead": "Litwa od 16.11 będzie zatrzymywać w porcie w Kłajpedzie **zboże z Rosji i Białorusi** do czasu zbadania jego pochodzenia. Według Reutersa władze chcą wykryć ziarno z okupowanych terenów Ukrainy.",
-   "omowienie": [
-    "Ładunek o fałszywym pochodzeniu zostanie zawrócony albo zniszczony na koszt eksportera."
-   ],
-   "przebieg": [
-    {
-     "data": "2026-11-10",
-     "tekst": "Litwa od 16.11 będzie zatrzymywać w porcie w Kłajpedzie zboże z Rosji i Białorusi do czasu zbadania jego pochodzenia. Według Reutersa władze chcą wykryć ziarno z okupowanych terenów Ukrainy; ładunek o fałszywym pochodzeniu zostanie zawrócony albo zniszczony na koszt eksportera.",
-     "etap": "PRZYJĘTE",
-     "zrodla": [
-      {
-       "nazwa": "Reuters (za Kyiv Independent)",
-       "url": "https://kyivindependent.com/lithuania-to-tighten-checks-on-russian-grain-shipments/",
-       "data": "2026-11-10"
-      },
-      {
-       "nazwa": "Meduza",
-       "url": "https://meduza.io/en/news/2026/11/10/lithuania-to-inspect-grain-shipments-from-russia-and-belarus-for-crops-from-occupied-ukraine-potentially-delaying-exports-by-months",
-       "data": "2026-11-10"
-      }
-     ]
-    }
-   ],
-   "oceny": [],
-   "dla_polski": "Polska prowadzi podobny tranzyt z Białorusi i graniczy z obu państwami, więc litewskie kontrole mogą przesunąć część ładunków na inne szlaki. Wniosek autora: warto sprawdzić, czy polskie porty i przejścia nie staną się obejściem litewskich kontroli.",
-   "w_wydaniach": [
-    "2026-11-10#z7"
-   ]
   }
  ],
  "czego_nie_ma": [
+  {
+   "tekst": "Pakiet pomocy wojskowej Danii dla Ukrainy o wartości około 643 mln euro (10.11) i zapowiedź Litwy, że od 16.11 będzie zatrzymywać w Kłajpedzie zboże z Rosji i Białorusi (10.11) – miejsca 11–12: decyzje o mniejszej skali niż sprawy z listy; ustąpiły zapowiedzi zamknięcia granicy Estonii z Rosją i przejęciu przez Huti rejonu Bab al-Mandab.",
+   "prog": "następstwo"
+  },
+  {
+   "tekst": "Trafienie dronami trzech statków handlowych u rumuńskiego wybrzeża Morza Czarnego przy ujściu Dunaju (13 i 14.11) – nikt nie został ranny, sprawcy nie ustalono, a Rosja zaprzecza; incydent bez następstwa poza poderwaniem rumuńskich myśliwców.",
+   "prog": "następstwo"
+  },
+  {
+   "tekst": "Zabicie przez izraelskie wojsko wysokiego rangą dowódcy zbrojnego skrzydła Hamasu w Strefie Gazy (14.11, według Reutersa i AP, bez nazwiska) i zatrzymanie w RPA dziesiątej osoby podejrzanej o próbę wyjazdu na wojnę Rosji z Ukrainą (według AP) – skutek regionalny albo wewnętrzny, bez zmiany układu sił.",
+   "prog": "następstwo"
+  },
+  {
+   "tekst": "Napisy „Sława UPA” na dwóch pomnikach w Warszawie (14.11), szczyt ASEAN w Manili i umowa obronna Australii i Filipin (15.11), protest w Pradze przeciw planom rządu Andreja Babiša wobec mediów publicznych, rozmowy kryzysowe rządu Holandii, rosyjski atak 132 dronów na Ukrainę w nocy na 15.11 i doniesienia Bloomberga (za Polsat News) o możliwym wycofaniu z Europy około 5 tys. żołnierzy USA – w wydaniu z 15.11 w „W obserwacji” z braku drugiego źródła z poziomów 1–2.",
+   "prog": "dokumentacja"
+  },
   {
    "tekst": "Fałszywe groźby zamachu bombowego w Europie – ewakuacja co najmniej 300 szkół we Włoszech (11.11) po alarmach w stacjach telewizyjnych (6.11) i w samolotach (5.11) – miejsce 11: zakłócenie bez ustalonego sprawcy i bez trwałego skutku; drugi dzień alarmów w szkołach Włoch i Francji (12.11) opisało tylko Euronews.",
    "prog": "następstwo"
@@ -1007,11 +1130,11 @@
    "prog": "następstwo"
   },
   {
-   "tekst": "Słowa Trumpa do doradców, że może wstrzymać się z atakami na Iran bez nowych prowokacji (według Reutersa za trzema osobami, 14.11), ostrzał rakietowy Huti w saudyjskiej prowincji Dżazan (13.11) i odzyskanie niemal 20 mln dolarów w śledztwie wobec byłego węgierskiego ministra Miklósa Sesztáka (14.11) – deklaracja bez decyzji, incydent bez następstwa i sprawa wewnętrzna.",
+   "tekst": "Słowa Trumpa do doradców, że może wstrzymać się z atakami na Iran bez nowych prowokacji (według Reutersa za trzema osobami, 14.11), i odzyskanie niemal 20 mln dolarów w śledztwie wobec byłego węgierskiego ministra Miklósa Sesztáka (14.11) – deklaracja bez decyzji i sprawa wewnętrzna; ostrzał Huti w prowincji Dżazan (13.11) opisuje pozycja o Bab al-Mandab.",
    "prog": "następstwo"
   },
   {
-   "tekst": "Rosyjskie żądanie wycofania NATO ze wschodniej flanki do stanu z 1997 r. (według Polsat News za „New York Times”), drony nad bazą RAF Lakenheath (13.11), dyskusja w parlamencie Iranu o wystąpieniu z NPT, rosyjski atak 96 dronów na Ukrainę w nocy na 14.11 i ukraińskie ataki w obwodzie samarskim (14.11) – w wydaniu z 14.11 w „Czego tu nie ma” z braku drugiego źródła z poziomów 1–2.",
+   "tekst": "Rosyjskie żądanie wycofania NATO ze wschodniej flanki do stanu z 1997 r. (według Polsat News za „New York Times”), drony nad bazą RAF Lakenheath (13.11), dyskusja w parlamencie Iranu o wystąpieniu z NPT, rosyjski atak 96 dronów na Ukrainę w nocy na 14.11 i ukraińskie ataki w obwodzie samarskim (14.11) – w wydaniu z 14.11 w „Czego tu nie ma” z braku drugiego źródła z poziomów 1–2; 15.11 nadal bez drugiego źródła.",
    "prog": "dokumentacja"
   },
   {
@@ -1039,7 +1162,7 @@
    "prog": "następstwo"
   },
   {
-   "tekst": "Odejście Jensena Huanga ze stanowiska prezesa Nvidii (12.11) po doniesieniach o związku z menedżerką podejrzewaną o pracę dla chińskiego wywiadu oraz ograniczenia łączności Starshield na froncie według Zełenskiego (12.11) – zmiana w firmie bez decyzji państw i deklaracja jednej strony bez potwierdzenia przyczyny.",
+   "tekst": "Odejście Jensena Huanga ze stanowiska prezesa Nvidii (12.11) po doniesieniach o związku z menedżerką podejrzewaną o pracę dla chińskiego wywiadu oraz ograniczenia prędkości terminali Starshield na froncie według Zełenskiego (12 i 15.11; 15.11 polecił rządowi rozwiązać sprawę z USA i SpaceX przed zimą) – zmiana w firmie bez decyzji państw i deklaracja jednej strony bez potwierdzenia przyczyny.",
    "prog": "następstwo"
   },
   {
@@ -1055,7 +1178,7 @@
    "prog": "następstwo"
   },
   {
-   "tekst": "Przechwycenie pocisków Huti wystrzelonych w stronę Rijadu i według kontrolowanej przez Huti agencji Saba saudyjskie bombardowanie Sany (10.11), przywrócenie przez Kanadę sankcji wobec 11 irańskich podmiotów (10.11) i zamknięcie redakcji „Nowej Gaziety” (9.11) – skutek regionalny albo wewnętrzny, bez zmiany układu sił.",
+   "tekst": "Według kontrolowanej przez Huti agencji Saba saudyjskie bombardowanie Sany (10.11), przywrócenie przez Kanadę sankcji wobec 11 irańskich podmiotów (10.11) i zamknięcie redakcji „Nowej Gaziety” (9.11) – skutek regionalny albo wewnętrzny, bez zmiany układu sił; przechwycenie pocisków Huti nad Rijadem (10.11) opisuje pozycja o Bab al-Mandab.",
    "prog": "następstwo"
   },
   {
@@ -1087,5 +1210,5 @@
    "prog": "następstwo"
   }
  ],
- "nota": "Zestawienie kroczące za 8–14.11.2026. Nowe fakty z 13–14.11: ustalenie w Dublinie, że Europę w rozmowach o zakończeniu wojny reprezentują instytucje UE oraz Francja, Niemcy, Włochy, Polska i Wielka Brytania, pytanie USA o Donbas w zamian za NATO oraz kolejny tankowiec na minie w Cieśninie Ormuz (14.11). Bez zmian w składzie; reforma niemieckich służb wywiadowczych jest na miejscu 11. Fakty pochodzą z wydań dziennych i ich źródeł; kolejność to ocena autora."
+ "nota": "Zestawienie kroczące za 9–15.11.2026. Nowe fakty z 13–15.11: deklaracja Jareda Kushnera o bezpośrednich rozmowach Rosji z Europą (14.11), wejście sił operacji Irini na tankowiec Midag (13.11), przechwycone irańskie ataki na Bahrajn (15.11). Nowe pozycje: zapowiedź zamknięcia granicy Estonii z Rosją i wycofanie wojsk rządu Jemenu z rejonu Bab al-Mandab; pakiet Danii i kontrola zboża na Litwie są na miejscach 11–12. Fakty pochodzą z wydań dziennych i ich źródeł; kolejność to ocena autora."
 }

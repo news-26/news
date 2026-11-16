@@ -1,0 +1,634 @@
+{
+  "nr": 59,
+  "data": "2026-11-16",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Ministrowie spraw zagranicznych UE przyjęli 16.11 sankcje wobec 145 osób i podmiotów związanych z Rosją. Objęły one m.in. niemal 50 banków, statki **floty cieni** oraz nabywców rosyjskiej ropy z Chin i Zjednoczonych Emiratów Arabskich.",
+    "Kilku ministrów spraw zagranicznych UE uznało 16.11, że rozmowy z Rosją o przyszłym bezpieczeństwie Europy przed rozejmem na Ukrainie byłyby **przedwczesne**.",
+    "Według PAP chińskie MSZ potwierdziło spotkanie Xi Jinpinga, Władimira Putina i Donalda Trumpa 19.11 w Shenzhen. Trump zapowiedział, że przywódcy będą rozmawiać o **rozbrojeniu jądrowym** oraz o wojnach w Iranie i na Ukrainie.",
+    "Estonia wezwała 16.11 rosyjskiego chargé d'affaires po próbie podpalenia zakładu producenta dronów pod Tallinem. Kreml nazwał estońskie oskarżenia **bezpodstawnymi**.",
+    "Drony uderzyły 16.11 w most Krymski, a ruch samochodowy na moście wstrzymano na wiele godzin. Według Reutersa Ukraina przeprowadziła tej nocy **największy od początku wojny atak dronów** na Rosję."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-11-16",
+      "tagi": [
+        "ue",
+        "rosja",
+        "sankcje"
+      ],
+      "etap": "PRZYJĘTE",
+      "miejsce": "bruksela",
+      "krotko": "Bruksela: nowe sankcje UE wobec Rosji",
+      "tekst": "Ministrowie spraw zagranicznych UE przyjęli 16.11 w Brukseli **sankcje wobec 145 osób i podmiotów** związanych z Rosją, w tym niemal 50 banków, statków {{p:flota-cieni|floty cieni}} oraz nabywców rosyjskiej ropy z Chin, Zjednoczonych Emiratów Arabskich, Seszeli i Omanu. Sankcje objęły m.in. właścicielkę sklepu internetowego Wildberries Tatianę Kim, a 32 osoby i podmioty z tej liczby ukarano za rosyjską dezinformację i cyberataki.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/eu-clamps-down-on-russias-wildberries-owner-50-banks-oil-and-shadow-fleet-with-new-sanctions/",
+          "data": "2026-11-16"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/16/eu-sanctions-tatyana-kim-founder-of-russian-e-commerce-giant-wildberries-over-alleged-military-supply-ties",
+          "data": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-11-16",
+      "tagi": [
+        "estonia",
+        "rosja",
+        "hybryda"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "tallinn",
+      "krotko": "Tallinn: wezwanie rosyjskiego dyplomaty",
+      "tekst": "Estońskie MSZ wezwało 16.11 rosyjskiego chargé d'affaires w związku z próbą podpalenia zakładu producenta dronów Threod Systems pod Tallinem, którą Estonia przypisuje rosyjskiemu wywiadowi wojskowemu ({{p:gru|GRU}}). Kreml **odrzucił oskarżenia jako bezpodstawne**. Według Reutersa rzecznik Kremla {{o:dmitrij-pieskow|Dmitrij Pieskow}} porównał zapowiedziane na 1.12 zamknięcie przejść granicznych do budowy muru.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/estonia-summons-russian-diplomat-over-sabotage-attempt-on-drone-manufacturer/",
+          "data": "2026-11-16"
+        },
+        {
+          "nazwa": "Reuters (za Polsat News)",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-16/kreml-reaguje-na-decyzje-estonii-nie-mozemy-zaakceptowac/",
+          "data": "2026-11-16"
+        },
+        {
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/world/europe/estonia-close-russian-border-crossings-after-attempted-arson-attack-2026-11-15/",
+          "data": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "wojna",
+      "data": "2026-11-16",
+      "tagi": [
+        "ukraina",
+        "rosja"
+      ],
+      "miejsce": "most-krymski",
+      "krotko": "Most Krymski: uderzenie dronów",
+      "tekst": "Drony uderzyły 16.11 rano w **most Krymski** nad Cieśniną Kerczeńską, a ruch samochodowy wstrzymano na wiele godzin; Kreml podał, że ocenia niewielkie uszkodzenia. Według Reutersa Ukraina przeprowadziła tej nocy największy od początku wojny atak dronów na Rosję.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/world/ukraine-hits-key-crimean-bridge-curbing-traffic-russian-governor-says-2026-11-16/",
+          "data": "2026-11-16"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/11/16/ukrainian-drone-attack-damages-crimea-bridge-shutting-down-road-traffic-for-hours-kremlin-says-damage-is-minor",
+          "data": "2026-11-16"
+        },
+        {
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/world/europe/ukraine-launches-biggest-drone-attack-russia-since-war-began-defence-ministry-2026-11-16/",
+          "data": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "wojna",
+      "data": "2026-11-16",
+      "tagi": [
+        "ukraina",
+        "usa",
+        "nato"
+      ],
+      "tekst": "Według AP prezydent Ukrainy {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} powiedział 16.11, że USA podniosły w rozmowach możliwość **nowej architektury bezpieczeństwa Europy**, i ostrzegł, że może to być niebezpieczne.",
+      "zrodla": [
+        {
+          "nazwa": "AP",
+          "url": "https://apnews.com/article/russia-ukraine-war-nato-us-zelenskyy-f9a8629626c087424f05adc85d127780",
+          "data": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "wojna",
+      "data": "2026-11-16",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "energia"
+      ],
+      "miejsce": "azow",
+      "krotko": "Azow: pożar składu paliw",
+      "tekst": "Sztab Generalny Ukrainy potwierdził 16.11 uderzenie w **skład paliw w obwodzie rostowskim**, który zaopatruje rosyjskie wojska na południu frontu, oraz w rafinerię w Kraju Krasnodarskim, gdzie trafiono trzy instalacje przerobu ropy. Według Meduzy po atakach dronów w Azowie wybuchły pożary w czterech zakładach, a trzy osoby zostały ranne.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/fuel-depot-in-azov-russia-reportedly-in-flames-following-ukrainian-drone-attacks/",
+          "data": "2026-11-16"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/ukraine-strikes-key-oil-refinery-in-southern-russia-hitting-3-processing-units-general-staff-says/",
+          "data": "2026-11-16"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/16/ukrainian-drone-attacks-spark-fires-in-russia-s-rostov-region-oil-depot-reportedly-burning-in-azov",
+          "data": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "z6",
+      "blok": "wojna",
+      "data": "2026-11-16",
+      "tagi": [
+        "ukraina",
+        "energia"
+      ],
+      "tekst": "Urzędy dozoru jądrowego z 38 państw ostrzegły 16.11, że **ryzyko awarii jądrowej na Ukrainie rośnie** tej zimy. Wezwały Rosję do zaprzestania ataków na ukraińską sieć energetyczną.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/business/energy/risk-nuclear-accident-ukraine-increasing-this-winter-atomic-safety-regulators-2026-11-16/",
+          "data": "2026-11-16"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/ukraine-faces-rising-nuclear-accident-risk-this-winter-regulators-warn/",
+          "data": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "z7",
+      "blok": "instytucje",
+      "data": "2026-11-16",
+      "tagi": [
+        "ue",
+        "rosja",
+        "ukraina",
+        "rozejm"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "bruksela",
+      "krotko": "Bruksela: bez rozmów z Rosją przed rozejmem",
+      "tekst": "Kilku ministrów spraw zagranicznych UE ostrzegło 16.11 w Brukseli, że **rozmowy z Rosją o przyszłym ładzie bezpieczeństwa Europy przed rozejmem na Ukrainie byłyby przedwczesne**, a ich warunkiem są realne ustępstwa Moskwy. Według Euronews minister spraw zagranicznych Litwy Kęstutis Budrys powiedział, że Europa nie powinna rozmawiać z Moskwą, dopóki na Ukrainie nie zapanuje rozejm.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/business/finance/holding-talks-with-russia-europes-security-now-would-be-premature-eu-ministers-2026-11-16/",
+          "data": "2026-11-16"
+        },
+        {
+          "nazwa": "AP",
+          "url": "https://apnews.com/article/europe-ukraine-russia-security-ceasefire-cde686fba0e452b10ca613b3517e884e",
+          "data": "2026-11-16"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/16/europe-tonight-five-eu-states-announce-rwanda-deportation-hubs-as-eu-warns-russia-is-weapo",
+          "data": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "z8",
+      "blok": "instytucje",
+      "data": "2026-11-16",
+      "tagi": [
+        "balkany",
+        "ue"
+      ],
+      "etap": "ZAPOWIEDŹ",
+      "kraje": [
+        "Serbia"
+      ],
+      "tekst": "Lista Studencka, która w październikowych wyborach odsunęła od władzy partię {{o:aleksandar-vucic|Aleksandara Vučicia}} po 14 latach, przygotowuje się do utworzenia rządu Serbii. Według Euronews jej poseł Aleksandar Baucal zapowiedział 16.11 na forum rozszerzenia UE w Brukseli **przyspieszenie reform praworządności** potrzebnych do członkostwa w Unii.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/16/serbia-to-accelerate-work-on-eu-accession-student-list-representative-says",
+          "data": "2026-11-16"
+        },
+        {
+          "nazwa": "AP",
+          "url": "https://apnews.com/article/serbia-students-vucic-parliament-what-to-know-56d4bd5d052aae651036477252043dbd",
+          "data": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "z9",
+      "blok": "swiat",
+      "data": "2026-11-16",
+      "tagi": [
+        "usa",
+        "chiny",
+        "rosja",
+        "ukraina"
+      ],
+      "etap": "ZAPOWIEDŹ",
+      "tekst": "Według PAP chińskie MSZ potwierdziło, że {{o:xi-jinping|Xi Jinping}}, {{o:wladimir-putin|Władimir Putin}} i {{o:donald-trump|Donald Trump}} spotkają się 19.11 w Shenzhen przy szczycie {{p:apec|APEC}} – **pierwszy raz w formacie trójstronnym**. Trump powiedział 16.11 przed wylotem do Azji, że przywódcy będą rozmawiać o rozbrojeniu jądrowym oraz o wojnach w Iranie i na Ukrainie, i dodał, że w Chinach może spotkać się z przywódcą Korei Północnej Kim Dzong Unem.",
+      "zrodla": [
+        {
+          "nazwa": "PAP (za Polsat News)",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-16/spotkanie-swiatowych-przywodcow-w-shenzhen-chinskie-msz-potwierdza/",
+          "data": "2026-11-16"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/16/trump-says-he-could-meet-with-north-korean-leader-kim-jong-un-in-china",
+          "data": "2026-11-16"
+        },
+        {
+          "nazwa": "AP (newsletter)",
+          "url": "https://apnews.com/",
+          "data": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "z10",
+      "blok": "swiat",
+      "data": "2026-11-16",
+      "tagi": [
+        "onz",
+        "usa",
+        "rosja"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "genewa",
+      "krotko": "Genewa: spór o broń autonomiczną",
+      "tekst": "Państwa-strony {{p:ccw|Konwencji o niektórych broniach konwencjonalnych}} decydują w tym tygodniu na konferencji przeglądowej w Genewie, czy rozpocząć **negocjacje wiążących zasad dla broni autonomicznej**; propozycję złożyło siedem państw, m.in. Austria, Brazylia i Meksyk. Według Reutersa USA i Rosja prawdopodobnie zablokują rozpoczęcie rozmów, a decyzje konwencji wymagają konsensusu.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/16/countries-to-decide-future-of-killer-robots-at-un-conference",
+          "data": "2026-11-16"
+        },
+        {
+          "nazwa": "Reuters (za Meduza)",
+          "url": "https://meduza.io/en/news/2026/11/16/u-s-and-russia-likely-to-oppose-u-n-talks-on-restricting-ai-powered-autonomous-weapons-reuters-reports",
+          "data": "2026-11-16"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "Meduza: żądania Kremla wobec Europy wykraczają daleko poza Ukrainę",
+      "autor": "Redakcja Meduzy, 16.11.2026",
+      "tekst": "Według Meduzy nieoficjalny dokument, który 13.11 opisał „New York Times”, pokazuje, że Moskwa trzyma się pierwotnych żądań, w tym wycofania Ukrainy z całego Donbasu. Redakcja ocenia, że rozmowy przesuwają się ku powojennemu ładowi bezpieczeństwa w Europie: wśród żądań są powrót NATO do granic z 1997 r., wyjście Finlandii z sojuszu i federalizacja Mołdawii, w dużej mierze powtórzone z ultimatum Rosji z 2021 r.",
+      "dla_polski": "Powrót NATO do granic z 1997 r. oznaczałby wycofanie wojsk sojuszniczych z Polski, Czech i państw bałtyckich.",
+      "tagi": [
+        "rosja",
+        "ukraina",
+        "nato",
+        "moldawia"
+      ],
+      "kraje": [
+        "Finlandia"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/11/16/the-kremlin-s-demands-for-ending-the-war-reach-far-beyond-ukraine-from-nato-to-moldova-to-finland",
+          "data": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "tytul": "Nikkei Asia: Xi Jinping zyska najwięcej na spotkaniu w Shenzhen",
+      "autor": "Nikkei Asia (za Polsat News), 16.11.2026",
+      "tekst": "Według japońskiego dziennika Nikkei Asia najwięcej na spotkaniu w Shenzhen zyska Xi Jinping, który przed przyszłorocznym zjazdem Komunistycznej Partii Chin chce stabilnych relacji z Trumpem. Wspólne zdjęcie z Trumpem i Putinem może według dziennika stworzyć wrażenie, że świat kręci się wokół Pekinu.",
+      "dla_polski": "Skutek pośredni: rozmowy mocarstw, w których padnie temat Ukrainy, odbywają się bez Europy, co ogranicza wpływ UE i Polski na warunki rozejmu (ocena redakcji).",
+      "tagi": [
+        "chiny",
+        "usa",
+        "rosja"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-16/spotkanie-swiatowych-przywodcow-w-shenzhen-chinskie-msz-potwierdza/",
+          "data": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "tytul": "Danny Citrinowicz: sytuacja w cieśninie Ormuz nie może trwać w nieskończoność",
+      "autor": "Danny Citrinowicz, były szef działu badań wywiadu wojskowego Izraela (za Euronews), 16.11.2026",
+      "tekst": "Euronews opisuje 16.11 nową wymianę ognia: Korpus Strażników Rewolucji Islamskiej twierdzi, że od 15.11 eksplodowało sześć tankowców, a USA zaatakowały irańskie wyrzutnie rakiet na południu kraju. Według Citrinowicza sytuacja w {{p:ormuz|cieśninie Ormuz}} jest z natury niestabilna i nie da się jej utrzymać bez końca.",
+      "dla_polski": "Skutek pośredni: dalsza eskalacja w cieśninie Ormuz grozi wzrostem cen ropy i skroplonego gazu w Europie (ocena redakcji).",
+      "tagi": [
+        "iran",
+        "usa"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/16/us-and-iran-slide-closer-to-fresh-all-out-war-as-new-exchange-of-fire-increases",
+          "data": "2026-11-16"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-11-18",
+      "tekst": "18–19.11: Shenzhen – spotkanie przywódców APEC.",
+      "tagi": [
+        "chiny"
+      ]
+    },
+    {
+      "data": "2026-11-19",
+      "tekst": "19.11: Shenzhen – spotkanie Xi Jinpinga, Władimira Putina i Donalda Trumpa.",
+      "tagi": [
+        "usa",
+        "chiny",
+        "rosja"
+      ]
+    },
+    {
+      "data": "2026-11-20",
+      "tekst": "20.11: Bruksela – szczyt UE–Wielka Brytania.",
+      "tagi": [
+        "ue",
+        "wielka-brytania"
+      ]
+    },
+    {
+      "data": "2026-11-26",
+      "tekst": "26–27.11: Bruksela – nadzwyczajna Rada Europejska w sprawie wieloletnich ram finansowych 2028–2034 (termin wstępny).",
+      "tagi": [
+        "ue"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-12-01",
+      "tekst": "Estonia – zapowiedziane zamknięcie drogowych przejść granicznych z Rosją",
+      "tagi": [
+        "estonia"
+      ],
+      "poza_kalendarium": "Decyzja administracyjna państwa, nie spotkanie ani wybory."
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [],
+    "pism": [],
+    "nieodczytane": [
+      "pism"
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "prog": "dokumentacja",
+      "tekst": "Rosja i Ukraina: według Meduzy, która powołuje się na Interfax, doradca prezydenta Rosji {{o:jurij-uszakow|Jurij Uszakow}} powiedział 16.11, że udział Europy w rozmowach pokojowych nie został z Moskwą uzgodniony, a najpierw musi się odbyć co najmniej jedna runda w formacie USA–Rosja–Ukraina.",
+      "sprawdzono": [
+        "Meduza 16.11: jedyne źródło z poziomów 1–2",
+        "Kanał RSS Kyiv Independent 16.11: brak wzmianki",
+        "Kanał RSS Euronews 16.11: brak wzmianki",
+        "Kanał RSS Polsat News 15–16.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n2",
+      "prog": "dokumentacja",
+      "tekst": "Iran i USA: według Euronews lotniskowiec USS Theodore Roosevelt dotarł w rejon odpowiedzialności Dowództwa Centralnego USA jako trzeci amerykański lotniskowiec na Bliskim Wschodzie, a brytyjska agencja {{p:ukmto|UKMTO}} podała, że 16.11 tankowiec wychodzący z cieśniny Ormuz trafił niezidentyfikowany pocisk.",
+      "sprawdzono": [
+        "Euronews 16.11: jedyne źródło z poziomów 1–2",
+        "Newsletter Reutersa „Iran Briefing” 16.11: brak wzmianki",
+        "Kanał RSS France 24 16.11: brak wzmianki",
+        "Kanał RSS Polsat News 15–16.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n3",
+      "prog": "dokumentacja",
+      "tekst": "Iran: według France 24 irańskie MSZ ogłosiło 16.11, że nie wpuści inspektorów {{p:maea|MAEA}} do uszkodzonych obiektów jądrowych, dopóki USA nie spełnią warunków trwałego zakończenia wojny.",
+      "sprawdzono": [
+        "France 24 16.11: jedyne źródło z poziomów 1–2",
+        "Newsletter Reutersa „Iran Briefing” 16.11: brak wzmianki",
+        "Kanał RSS Euronews 16.11: brak wzmianki",
+        "Kanał RSS Polsat News 15–16.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n4",
+      "prog": "dokumentacja",
+      "tekst": "UE i Ukraina: według Kyiv Independent Komisja Europejska wypłaciła 16.11 Ukrainie 1,71 mld euro z części obronnej pożyczki na wsparcie Ukrainy, przeznaczonej m.in. na drony, amunicję i obronę powietrzną.",
+      "sprawdzono": [
+        "Kyiv Independent 16.11: jedyne źródło z poziomów 1–2",
+        "Komunikat Komisji Europejskiej: strona Rady i Komisji niedostępna dla narzędzi (403)",
+        "Kanał RSS Euronews 16.11: brak wzmianki",
+        "Kanał RSS Meduzy 16.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n6",
+      "prog": "dokumentacja",
+      "tekst": "UE: według Euronews Dania, Austria, Niemcy, Holandia i Grecja ogłosiły 16.11 w Wiedniu plan odsyłania odrzuconych wnioskodawców azylowych do ośrodka w Rwandzie od 2027 r.; umowa z Rwandą nie została jeszcze podpisana.",
+      "sprawdzono": [
+        "Euronews 16.11: jedyne źródło z poziomów 1–2",
+        "Kanał RSS Polsat News 15–16.11: brak wzmianki",
+        "Newsletter Reutersa „Daily Briefing” 16.11: brak wzmianki",
+        "Newsletter AP Morning Wire 16.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n7",
+      "prog": "dokumentacja",
+      "tekst": "Białoruś: według Kyiv Independent, który powołuje się na państwową agencję BiełTA, Aleksandr Łukaszenka zarządził 16.11 niezapowiedzianą kontrolę gotowości bojowej jednostek szybkiego reagowania straży granicznej; nie podano, na którym odcinku granicy.",
+      "sprawdzono": [
+        "Kyiv Independent 16.11: jedyne źródło z poziomów 1–2",
+        "Kanał RSS Polsat News 15–16.11: brak wzmianki",
+        "Kanał RSS Euronews 16.11: brak wzmianki",
+        "Wyszukiwarka – komunikat Straży Granicznej RP: brak"
+      ]
+    },
+    {
+      "id": "n8",
+      "prog": "dokumentacja",
+      "tekst": "Ukraina: według Kyiv Independent rosyjskie ataki zabiły w ciągu doby 6 osób, a 45 raniły; w nocy na 16.11 Rosja wysłała 158 dronów dalekiego zasięgu, w tym 77 z napędem odrzutowym.",
+      "sprawdzono": [
+        "Kyiv Independent 16.11: jedyne źródło z poziomów 1–2",
+        "Kanał RSS Euronews 16.11: brak wzmianki",
+        "Kanał RSS Meduzy 16.11: brak wzmianki",
+        "Kanał RSS Polsat News 15–16.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n9",
+      "prog": "dokumentacja",
+      "tekst": "Francja i Wielka Brytania: według Kyiv Independent oba państwa zorganizują w grudniu konferencję o przeciwdziałaniu rosyjskiej flocie cieni; data nie została podana.",
+      "sprawdzono": [
+        "Kyiv Independent 16.11: jedyne źródło z poziomów 1–2",
+        "Kanał RSS Euronews 16.11: brak wzmianki",
+        "Kanał RSS France 24 16.11: brak wzmianki",
+        "Kanał RSS Polsat News 15–16.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n10",
+      "prog": "dokumentacja",
+      "tekst": "Mołdawia: według Meduzy przewodniczący parlamentu Mołdawii odrzucił 16.11 opisane w mediach rosyjskie żądanie federalizacji kraju, wskazując, że konstytucja zobowiązuje Mołdawię do integracji z UE.",
+      "sprawdzono": [
+        "Meduza 16.11: jedyne źródło z poziomów 1–2",
+        "Kanał RSS Euronews 16.11: brak wzmianki",
+        "Kanał RSS Kyiv Independent 16.11: brak wzmianki",
+        "Kanał RSS Polsat News 15–16.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n11",
+      "prog": "dokumentacja",
+      "tekst": "Izrael: według Euronews i France 24 przywódcy opozycji, w tym Gadi Eizenkot, wezwali 15.11 pełniącego obowiązki premiera {{o:benjamin-netanjahu|Benjamina Netanjahu}} do natychmiastowego odejścia po doniesieniach o ingerencji jego współpracownika w wybory; źródła nie opisują, na czym miała polegać ingerencja.",
+      "sprawdzono": [
+        "Euronews 16.11: tylko wezwanie opozycji",
+        "France 24 16.11: tylko wypowiedź Eizenkota",
+        "Newsletter Reutersa „Daily Briefing” 16.11: brak wzmianki",
+        "Kanał RSS Polsat News 15–16.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n12",
+      "prog": "dokumentacja",
+      "tekst": "Etiopia i Sudan: według AP oba państwa oskarżają się wzajemnie o wspieranie uzbrojonych bojowników, co budzi obawy przed szerszym konfliktem.",
+      "sprawdzono": [
+        "Newsletter AP Morning Wire 16.11: tylko tytuł artykułu",
+        "Kanał RSS Euronews 16.11: brak wzmianki",
+        "Kanał RSS France 24 16.11: brak wzmianki",
+        "Strona AP niedostępna dla narzędzi"
+      ]
+    },
+    {
+      "id": "n13",
+      "prog": "dokumentacja",
+      "tekst": "Bułgaria: według Euronews statek towarowy Betul 8 pod banderą Somalii, płynący z rumuńskiej Tulczy do Egiptu z ok. 3 tys. ton pszenicy, zatonął 16.11 w bułgarskiej {{p:wse|wyłącznej strefie ekonomicznej}} na Morzu Czarnym; 12 członków załogi uratowano, a załoga mówiła o trafieniu przez drony morskie. Przyczyna nie została ustalona.",
+      "sprawdzono": [
+        "Euronews 16.11: jedyne źródło z poziomów 1–2",
+        "Polsat News 16.11 (poziom 3, powołuje się na bułgarskie ministerstwo transportu i Reutersa)",
+        "Kanał RSS Kyiv Independent 16.11: brak wzmianki",
+        "Kanał RSS France 24 16.11: brak wzmianki",
+        "Wyszukiwarka – komunikat bułgarskiego ministerstwa transportu: brak"
+      ]
+    },
+    {
+      "id": "n14",
+      "prog": "dokumentacja",
+      "tekst": "NATO: według AP, na którą powołuje się Polsat News, NATO odwoła planowany na 2027 r. szczyt przywódców w Albanii z powodu sporów o Ukrainę, Iran i wydatki obronne; sekretarz generalny {{o:mark-rutte|Mark Rutte}} powiedział agencji, że sojusz jest elastyczny w sprawie szczytów.",
+      "sprawdzono": [
+        "Polsat News 15.11 (poziom 3, za AP): jedyna relacja",
+        "Newsletter AP Morning Wire 16.11: brak wzmianki",
+        "Kanał RSS Euronews 16.11: brak wzmianki",
+        "Kanał RSS Kyiv Independent 16.11: brak wzmianki"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-11-15#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Polsat News 15–16.11: brak wzmianki",
+        "Kanał RSS Kyiv Independent 16.11: brak wzmianki",
+        "Kanał RSS Euronews 16.11: brak wzmianki",
+        "Wyszukiwarka – komunikat Komendy Stołecznej Policji: brak"
+      ],
+      "powod": "Poza Kyiv Independent sprawę opisują tylko serwisy z poziomu 3."
+    },
+    {
+      "dotyczy": "2026-11-15#n2",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Newsletter Reutersa „Daily Briefing” 16.11: tylko zapowiedź spotkań Trumpa w Manili",
+        "Kanał RSS Euronews 16.11: brak wzmianki",
+        "Kanał RSS Polsat News 15–16.11: brak wzmianki"
+      ],
+      "powod": "Brak drugiego źródła o umowie ramowej podpisanej przy szczycie."
+    },
+    {
+      "dotyczy": "2026-11-15#n3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Newsletter Reutersa „Daily Briefing” 16.11: brak wzmianki",
+        "Kanał RSS Euronews 16.11: brak wzmianki",
+        "Kanał RSS Polsat News 15–16.11: brak wzmianki"
+      ],
+      "powod": "Umowę opisuje tylko Euronews."
+    },
+    {
+      "dotyczy": "2026-11-15#n5",
+      "wynik": "ODPADA",
+      "powod": "Protest potwierdziło AP, ale to sprawa polityki wewnętrznej Czech bez następstwa międzynarodowego."
+    },
+    {
+      "dotyczy": "2026-11-15#n6",
+      "wynik": "ODPADA",
+      "powod": "Dane z 15.11 zastąpiły nowsze liczby z 16.11 (wpis n8)."
+    },
+    {
+      "dotyczy": "2026-11-15#n7",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Euronews 16.11: brak wzmianki",
+        "Newsletter Reutersa „Daily Briefing” 16.11: brak wzmianki",
+        "Newsletter AP Morning Wire 16.11: brak wzmianki",
+        "Kanał RSS Polsat News 15–16.11: brak wzmianki"
+      ],
+      "powod": "Brak nowych relacji o rozmowach w rządzie Holandii."
+    },
+    {
+      "dotyczy": "2026-11-15#n9",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Newsletter Reutersa „Daily Briefing” 16.11: brak wzmianki",
+        "Newsletter AP Morning Wire 16.11: brak wzmianki",
+        "Kanał RSS Euronews 16.11: brak wzmianki",
+        "Kanał RSS Polsat News 15–16.11: brak wzmianki"
+      ],
+      "powod": "Liczbę 5 tys. żołnierzy podaje tylko Bloomberg w relacji Polsat News."
+    }
+  ],
+  "do_sprawdzenia": [
+    "Shenzhen 19.11 – przebieg spotkania Xi–Putin–Trump; ewentualne spotkanie Trump–Kim",
+    "Manila – spotkania Trumpa z przywódcami Azji Południowo-Wschodniej; szczyt ASEAN – drugie źródło",
+    "Ukraina, Rosja, USA – termin kolejnej rundy rozmów; udział zespołu europejskiego",
+    "Bułgaria – przyczyna zatonięcia Betul 8; komunikat ministerstwa transportu lub marynarki wojennej",
+    "Iran i USA – cieśnina Ormuz, komunikat CENTCOM; zakaz inspekcji MAEA",
+    "Genewa – decyzja konferencji przeglądowej CCW o negocjacjach w sprawie broni autonomicznej",
+    "Estonia – formalna decyzja rządu o zamknięciu granicy z Rosją",
+    "Komisja Europejska – komunikat o wypłacie 1,71 mld euro dla Ukrainy",
+    "Polska – DO RSZ, SG, ŻW, ABW; Agencja Uzbrojenia i PGZ – umowy",
+    "PISM – lista publikacji z 14–16.11"
+  ],
+  "nota": "Lista publikacji PISM nie została odczytana: listy działów Komentarze i Biuletyny oraz angielska lista publikacji zwróciły puste strony, a wyszukiwarka nie podała tekstów z ostatnich 3 dni. Dział Świat Onetu nieodnaleziony w wyszukiwarce."
+}

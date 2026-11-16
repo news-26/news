@@ -838,6 +838,27 @@
       "lon": 50.56,
       "lat": 26.12,
       "kraj": "Bahrajn"
+    },
+    {
+      "id": "azow",
+      "nazwa": "Azow",
+      "lon": 39.42,
+      "lat": 47.11,
+      "kraj": "rosja"
+    },
+    {
+      "id": "genewa",
+      "nazwa": "Genewa",
+      "lon": 6.14,
+      "lat": 46.2,
+      "kraj": "Szwajcaria"
+    },
+    {
+      "id": "most-krymski",
+      "nazwa": "Most Krymski (Cieśnina Kerczeńska)",
+      "lon": 36.51,
+      "lat": 45.31,
+      "kraj": "ukraina"
     }
   ]
 }

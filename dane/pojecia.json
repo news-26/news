@@ -408,6 +408,18 @@
       "nazwa": "GRU",
       "pelna": "Główny Zarząd Sztabu Generalnego Sił Zbrojnych Federacji Rosyjskiej",
       "definicja": "Rosyjski wywiad wojskowy; państwa UE i NATO przypisują mu liczne akcje sabotażu i dywersji w Europie."
+    },
+    {
+      "id": "ccw",
+      "nazwa": "CCW",
+      "pelna": "Konwencja o zakazie lub ograniczeniu użycia pewnych broni konwencjonalnych",
+      "definicja": "Konwencja ONZ z 1980 r. ograniczająca użycie broni uznanych za nadmiernie okrutne lub działające bez rozróżnienia, np. min i broni zapalających. Od kilku lat państwa-strony rozmawiają w jej ramach o broni autonomicznej; decyzje zapadają w drodze konsensusu."
+    },
+    {
+      "id": "wse",
+      "nazwa": "Wyłączna strefa ekonomiczna",
+      "pelna": "Wyłączna strefa ekonomiczna (WSE)",
+      "definicja": "Pas morza do 200 mil morskich od wybrzeża, w którym państwo ma wyłączne prawo do połowów i wydobycia surowców. Nie jest wodami terytorialnymi – obowiązuje w nim swoboda żeglugi."
     }
   ]
 }

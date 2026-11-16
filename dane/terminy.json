@@ -645,6 +645,33 @@
           "data": "2026-11-15"
         }
       ]
+    },
+    {
+      "id": "shenzhen-trojstronne-2026-11-19",
+      "od": "2026-11-19",
+      "do": "2026-11-19",
+      "kategoria": "szczyt",
+      "tagi": [
+        "usa",
+        "chiny",
+        "rosja"
+      ],
+      "tekst": "Trójstronne spotkanie Xi Jinpinga, Władimira Putina i Donalda Trumpa w Shenzhen przy szczycie APEC.",
+      "krotko": "Xi–Putin–Trump",
+      "zrodla": [
+        {
+          "nazwa": "PAP (za Polsat News)",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-16/spotkanie-swiatowych-przywodcow-w-shenzhen-chinskie-msz-potwierdza/",
+          "data": "2026-11-16"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/16/trump-says-he-could-meet-with-north-korean-leader-kim-jong-un-in-china",
+          "data": "2026-11-16"
+        }
+      ],
+      "obowiazkowy": false,
+      "uwaga": "Spotkanie przy szczycie APEC (termin obowiązkowy apec-2026)."
     }
   ]
 }

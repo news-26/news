@@ -1,12 +1,12 @@
 {
- "od": "2026-11-09",
- "do": "2026-11-15",
- "opublikowano": "2026-11-16",
+ "od": "2026-11-10",
+ "do": "2026-11-16",
+ "opublikowano": "2026-11-17",
  "godzina": "06:10",
- "tytul": "Top 10: ostatnie 7 dni (9–15.11.2026)",
+ "tytul": "Top 10: ostatnie 7 dni (10–16.11.2026)",
  "wstep": [
-  "Najważniejsze sprawy z ostatnich 7 dni (9–15.11.2026) – w tym tygodniu dziesięć spraw spełnia kryteria. Każda ma przebieg z datami i źródłami oraz wniosek „Dla Polski”; starsze sprawy są w archiwum miesięcznym.",
-  "Oś tygodnia to **rozmowy o zakończeniu wojny i wojna z Iranem**: 10–11.11 w Abu Zabi odbyły się pierwsze od lutego rozmowy Ukrainy, Rosji i USA, zakończone uzgodnieniem dużej wymiany jeńców; 12.11 wysłannicy USA rozmawiali z Putinem na Kremlu i z Zełenskim pod Dublinem, 13.11 przywódcy UE ustalili, że Europę w rozmowach będą reprezentować instytucje UE oraz Francja, Niemcy, Włochy, Polska i Wielka Brytania, a 14.11 Kushner napisał, że USA chcą doprowadzić do bezpośrednich rozmów Rosji z Europą. Trump 9.11 wstrzymał nowe ataki na Iran przy utrzymanej blokadzie morskiej, ale w Cieśninie Ormuz miny trafiły 13.11 gazowiec z LNG, a 14.11 kolejny tankowiec; 15.11 Bahrajn przechwytywał irańskie ataki, a Huti przejęli rejon cieśniny Bab al-Mandab po wycofaniu się wojsk rządu Jemenu. Rosja uderzała w ukraińskie miasta i energetykę, a ukraińskie drony ograniczyły o około 30% rosyjską rafinację i 11.11 unieruchomiły rosyjski okręt rakietowy w Zatoce Fińskiej. W Polsce ABW zatrzymała dwóch podejrzanych o dywersję na rzecz Rosji, a FSB ogłosiła 11.11 zatrzymanie dwóch Polaków w obwodzie królewieckim; w Nowej Dębie trwają pierwsze ćwiczenia Wielonarodowych Sił dla Ukrainy. Estonia zapowiedziała zamknięcie 1.12 drogowych przejść granicznych z Rosją po próbie sabotażu zleconej według kontrwywiadu przez GRU. Wielka Brytania objęła sankcjami wszystkich dziesięciu największych producentów rosyjskiej ropy, a siły UE weszły na pokład tankowca floty cieni."
+  "Najważniejsze sprawy z ostatnich 7 dni (10–16.11.2026) – w tym tygodniu dziesięć spraw spełnia kryteria. Każda ma przebieg z datami i źródłami oraz wniosek „Dla Polski”; starsze sprawy są w archiwum miesięcznym.",
+  "Oś tygodnia to **rozmowy o zakończeniu wojny i wojna z Iranem**: 10–11.11 w Abu Zabi odbyły się pierwsze od lutego rozmowy Ukrainy, Rosji i USA, zakończone uzgodnieniem dużej wymiany jeńców; 12.11 wysłannicy USA rozmawiali z Putinem na Kremlu i z Zełenskim pod Dublinem, 13.11 przywódcy UE ustalili, że Europę w rozmowach będą reprezentować instytucje UE oraz Francja, Niemcy, Włochy, Polska i Wielka Brytania, a 14.11 Kushner napisał, że USA chcą doprowadzić do bezpośrednich rozmów Rosji z Europą. W Cieśninie Ormuz miny trafiły 13.11 gazowiec z LNG, a 14.11 kolejny tankowiec; 15.11 Bahrajn przechwytywał irańskie ataki, a Huti przejęli rejon cieśniny Bab al-Mandab po wycofaniu się wojsk rządu Jemenu. Rosja uderzała w ukraińskie miasta i energetykę. Ukraina 11.11 unieruchomiła dronami rosyjski okręt rakietowy w Zatoce Fińskiej, a 16.11 przeprowadziła według Reutersa największy od początku wojny atak dronów na Rosję, w tym na most Krymski. W Polsce ABW zatrzymała dwóch podejrzanych o dywersję na rzecz Rosji, a FSB ogłosiła 11.11 zatrzymanie dwóch Polaków w obwodzie królewieckim; w Nowej Dębie trwają pierwsze ćwiczenia Wielonarodowych Sił dla Ukrainy. Estonia zapowiedziała zamknięcie 1.12 drogowych przejść granicznych z Rosją po próbie sabotażu zleconej według kontrwywiadu przez GRU. UE przyjęła 16.11 sankcje wobec 145 osób i podmiotów związanych z Rosją, a Wielka Brytania objęła sankcjami wszystkich dziesięciu największych producentów rosyjskiej ropy."
  ],
  "kryteria": "Do zestawienia trafia wydarzenie, które spełnia trzy warunki: zmieniło stan rzeczy w ostatnich 7 dniach (zapadła decyzja, zmieniła się władza, powstała nowa zdolność wojskowa albo incydent miał realne następstwo – retoryka i zapowiedzi bez terminu nie wystarczą), ma konkretny skutek dla Polski lub Europy albo dla sytuacji międzynarodowej i jest udokumentowane w wydaniach dziennych z tego okresu. Przy wątkach trwających miesiącami liczy się zmiana w tygodniu, a nie sam wątek; tytuł opisuje najnowszy fakt. Gdy kryteria spełnia mniej niż dziesięć spraw, lista jest krótsza. Kolejność ustala autor według wpływu na bezpieczeństwo i interesy Polski, potem skali, potem trwałości skutków. Ranking jest więc oceną, a nie faktem; fakty mają źródła, oceny – autora.",
  "pozycje": [
@@ -385,9 +385,93 @@
    ]
   },
   {
+   "id": "sankcje",
+   "tytul": "Ministrowie spraw zagranicznych UE przyjmują 16.11 sankcje wobec 145 osób i podmiotów związanych z Rosją, w tym niemal 50 banków, statków floty cieni i nabywców rosyjskiej ropy z Chin i Zjednoczonych Emiratów Arabskich; Wielka Brytania obejmuje 12.11 sankcjami wszystkich dziesięciu największych producentów ropy w Rosji",
+   "data": [
+    "2026-11-12",
+    "2026-11-16"
+   ],
+   "tagi": [
+    "sankcje",
+    "wielka-brytania",
+    "rosja",
+    "energia",
+    "ue"
+   ],
+   "etap": "PRZYJĘTE",
+   "lead": "Ministrowie spraw zagranicznych UE przyjęli 16.11 w Brukseli **sankcje wobec 145 osób i podmiotów** związanych z Rosją, w tym niemal 50 banków, statków {{p:flota-cieni|floty cieni}} oraz nabywców rosyjskiej ropy z Chin, Zjednoczonych Emiratów Arabskich, Seszeli i Omanu. Cztery dni wcześniej rząd premiera {{o:andy-burnham|Andy'ego Burnhama}} objął sankcjami spółkę Vostok Oil, firmę naftową Slawnieft i statki floty cieni; według rządu brytyjskiego Wielka Brytania jest pierwszym państwem, które ukarało wszystkich dziesięciu największych producentów ropy w Rosji.",
+   "omowienie": [
+    "Unijne sankcje objęły m.in. właścicielkę sklepu internetowego Wildberries Tatianę Kim, a 32 osoby i podmioty ukarano za rosyjską dezinformację i cyberataki. Sankcje brytyjskie ogłoszono 12.11, w dniu szczytu Europejskiej Wspólnoty Politycznej w Dublinie.",
+    "13.11 siły unijnej operacji {{p:irini|Irini}} weszły na Morzu Śródziemnym na pokład tankowca Midag, podejrzewanego o przynależność do floty cieni; według szefowej dyplomacji UE {{o:kaja-kallas|Kai Kallas}} statek płynął pod fałszywą banderą."
+   ],
+   "przebieg": [
+    {
+     "data": "2026-11-12",
+     "tekst": "Rząd premiera {{o:andy-burnham|Andy'ego Burnhama}} objął 12.11 **sankcjami** spółkę Vostok Oil, arktyczny projekt koncernu Rosnieft, firmę naftową Slawnieft, duże rosyjskie firmy węglowe i statki floty cieni. Według rządu brytyjskiego Wielka Brytania jest pierwszym państwem, które ukarało wszystkich dziesięciu największych producentów ropy w Rosji.",
+     "etap": "PRZYJĘTE",
+     "zrodla": [
+      {
+       "nazwa": "GOV.UK",
+       "url": "https://www.gov.uk/government/news/ukraine-set-to-be-focus-of-epc-summit-as-uk-sanctions-russias-top-ten-oil-producers",
+       "data": "2026-11-12"
+      },
+      {
+       "nazwa": "Kyiv Independent",
+       "url": "https://kyivindependent.com/uk-says-its-1st-country-to-target-all-of-russias-top-10-oil-producers-with-latest-round-of-sanctions/",
+       "data": "2026-11-12"
+      }
+     ]
+    },
+    {
+     "data": "2026-11-13",
+     "tekst": "Siły unijnej operacji {{p:irini|Irini}} weszły 13.11 na Morzu Śródziemnym na pokład tankowca Midag, podejrzewanego o przynależność do rosyjskiej {{p:flota-cieni|floty cieni}}; według szefowej dyplomacji UE {{o:kaja-kallas|Kai Kallas}} statek płynął pod fałszywą banderą. Kallas zapowiedziała, że ministrowie spraw zagranicznych UE zatwierdzą 16.11 **nowe sankcje** wobec banków, nabywców i firm wspierających flotę cieni.",
+     "etap": "ZAPOWIEDŹ",
+     "zrodla": [
+      {
+       "nazwa": "Euronews",
+       "url": "https://www.euronews.com/2026/11/15/eu-forces-board-suspected-russian-shadow-fleet-tanker-in-mediterranean-kallas-says",
+       "data": "2026-11-15"
+      },
+      {
+       "nazwa": "Kyiv Independent",
+       "url": "https://kyivindependent.com/eu-forces-board-suspected-russian-shadow-fleet-tanker-in-mediterranean-kallas-says/",
+       "data": "2026-11-15"
+      }
+     ]
+    },
+    {
+     "data": "2026-11-16",
+     "tekst": "Ministrowie spraw zagranicznych UE przyjęli 16.11 w Brukseli **sankcje wobec 145 osób i podmiotów** związanych z Rosją, w tym niemal 50 banków, statków {{p:flota-cieni|floty cieni}} oraz nabywców rosyjskiej ropy z Chin, Zjednoczonych Emiratów Arabskich, Seszeli i Omanu. Sankcje objęły m.in. właścicielkę sklepu internetowego Wildberries Tatianę Kim, a 32 osoby i podmioty z tej liczby ukarano za rosyjską dezinformację i cyberataki.",
+     "etap": "PRZYJĘTE",
+     "zrodla": [
+      {
+       "nazwa": "Kyiv Independent",
+       "url": "https://kyivindependent.com/eu-clamps-down-on-russias-wildberries-owner-50-banks-oil-and-shadow-fleet-with-new-sanctions/",
+       "data": "2026-11-16"
+      },
+      {
+       "nazwa": "Meduza",
+       "url": "https://meduza.io/en/news/2026/11/16/eu-sanctions-tatyana-kim-founder-of-russian-e-commerce-giant-wildberries-over-alleged-military-supply-ties",
+       "data": "2026-11-16"
+      }
+     ]
+    }
+   ],
+   "oceny": [],
+   "dla_polski": "Sankcje wymierzone w rosyjskie banki, ropę i flotę cieni ograniczają dochody, z których Rosja finansuje wojnę, a statki floty cieni pływają także po Bałtyku. Wniosek autora: objęcie sankcjami nabywców ropy z Chin i Zjednoczonych Emiratów Arabskich oraz wejście sił UE na tankowiec pokazują, że Unia uderza w kanały omijania sankcji; dla Polski sprawdzianem będzie egzekwowanie ich wobec statków floty cieni na Bałtyku.",
+   "w_wydaniach": [
+    "2026-11-12#z3",
+    "2026-11-15#z4",
+    "2026-11-16#z1"
+   ]
+  },
+  {
    "id": "estonia-granica",
-   "tytul": "Estonia zapowiada 15.11 zamknięcie 1.12 drogowych przejść granicznych z Rosją w Narwie, Luhamaa i Koidula; według estońskiego kontrwywiadu próbę podpalenia zakładu producenta dronów Threod Systems zlecił rosyjski wywiad wojskowy",
-   "data": "2026-11-15",
+   "tytul": "Estonia zapowiada 15.11 zamknięcie 1.12 drogowych przejść granicznych z Rosją w Narwie, Luhamaa i Koidula; estońskie MSZ wzywa 16.11 rosyjskiego chargé d'affaires po próbie podpalenia zakładu producenta dronów Threod Systems, którą Estonia przypisuje rosyjskiemu wywiadowi wojskowemu",
+   "data": [
+    "2026-11-15",
+    "2026-11-16"
+   ],
    "tagi": [
     "estonia",
     "rosja",
@@ -396,7 +480,8 @@
    "etap": "ZAPOWIEDŹ",
    "lead": "Estońskie MSZ zapowiedziało 15.11 **zamknięcie 1.12 drogowych przejść granicznych z Rosją** w Narwie, Luhamaa i Koidula; premier {{o:kristen-michal|Kristen Michal}} uzasadnił to rosyjskimi operacjami hybrydowymi. Według estońskiego kontrwywiadu ({{p:kapo|KAPO}}) próbę wywołania wybuchu i pożaru w zakładzie producenta dronów Threod Systems zlecił rosyjski wywiad wojskowy ({{p:gru|GRU}}).",
    "omowienie": [
-    "W Viimsi pod Tallinem zatrzymano 14.11 ośmiu obywateli Łotwy podejrzanych o tę próbę. Wniosek o zamknięcie przejść przedstawi rządowi minister spraw wewnętrznych {{o:igor-taro|Igor Taro}}, a szczegóły omówi rząd."
+    "W Viimsi pod Tallinem zatrzymano 14.11 ośmiu obywateli Łotwy podejrzanych o tę próbę. Wniosek o zamknięcie przejść przedstawi rządowi minister spraw wewnętrznych {{o:igor-taro|Igor Taro}}, a szczegóły omówi rząd.",
+    "16.11 estońskie MSZ wezwało rosyjskiego chargé d'affaires w sprawie próby podpalenia. Kreml odrzucił oskarżenia jako bezpodstawne, a według Reutersa rzecznik Kremla {{o:dmitrij-pieskow|Dmitrij Pieskow}} porównał zapowiedziane zamknięcie przejść do budowy muru."
    ],
    "przebieg": [
     {
@@ -420,11 +505,34 @@
        "data": "2026-11-15"
       }
      ]
+    },
+    {
+     "data": "2026-11-16",
+     "tekst": "Estońskie MSZ wezwało 16.11 rosyjskiego chargé d'affaires w związku z próbą podpalenia zakładu producenta dronów Threod Systems pod Tallinem, którą Estonia przypisuje rosyjskiemu wywiadowi wojskowemu ({{p:gru|GRU}}). Kreml **odrzucił oskarżenia jako bezpodstawne**. Według Reutersa rzecznik Kremla {{o:dmitrij-pieskow|Dmitrij Pieskow}} porównał zapowiedziane na 1.12 zamknięcie przejść granicznych do budowy muru.",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "Kyiv Independent",
+       "url": "https://kyivindependent.com/estonia-summons-russian-diplomat-over-sabotage-attempt-on-drone-manufacturer/",
+       "data": "2026-11-16"
+      },
+      {
+       "nazwa": "Reuters (za Polsat News)",
+       "url": "https://www.polsatnews.pl/wiadomosc/2026-11-16/kreml-reaguje-na-decyzje-estonii-nie-mozemy-zaakceptowac/",
+       "data": "2026-11-16"
+      },
+      {
+       "nazwa": "Reuters",
+       "url": "https://www.reuters.com/world/europe/estonia-close-russian-border-crossings-after-attempted-arson-attack-2026-11-15/",
+       "data": "2026-11-15"
+      }
+     ]
     }
    ],
    "dla_polski": "Zamknięcie przejść ograniczy ruch na kolejnym odcinku granicy NATO z Rosją, a celem próby sabotażu był zakład produkujący drony. Wniosek autora: rosyjskie służby atakują przemysł obronny państw wspierających Ukrainę, więc podobne ryzyko dotyczy polskich zakładów zbrojeniowych; sprawdzianem będzie decyzja rządu Estonii i odpowiedź Rosji.",
    "w_wydaniach": [
-    "2026-11-15#z6"
+    "2026-11-15#z6",
+    "2026-11-16#z2"
    ]
   },
   {
@@ -933,6 +1041,86 @@
    ]
   },
   {
+   "id": "rafinerie-rosja",
+   "tytul": "Ukraińskie drony uderzają 16.11 w most Krymski, skład paliw w obwodzie rostowskim i rafinerię w Kraju Krasnodarskim w największym według Reutersa ataku dronów na Rosję od początku wojny; wcześniejsze ataki ograniczyły o około 30% zdolności rafineryjne Rosji",
+   "data": [
+    "2026-11-10",
+    "2026-11-16"
+   ],
+   "tagi": [
+    "rosja",
+    "ukraina",
+    "energia"
+   ],
+   "lead": "Drony uderzyły 16.11 rano w **most Krymski** nad Cieśniną Kerczeńską, a ruch samochodowy wstrzymano na wiele godzin; według Reutersa Ukraina przeprowadziła tej nocy **największy od początku wojny atak dronów** na Rosję. Sztab Generalny Ukrainy potwierdził uderzenie w skład paliw w obwodzie rostowskim, który zaopatruje rosyjskie wojska na południu frontu, i w rafinerię w Kraju Krasnodarskim.",
+   "omowienie": [
+    "Kreml podał, że ocenia uszkodzenia mostu jako niewielkie. Według Meduzy po atakach dronów w Azowie wybuchły pożary w czterech zakładach, a trzy osoby zostały ranne; w rafinerii w Kraju Krasnodarskim trafiono trzy instalacje przerobu ropy.",
+    "Według Reutersa ukraińskie ataki dronów ograniczyły w tygodniu do 10.11 o około 30% zdolności rafineryjne Rosji; zakłócona lub wstrzymana została praca dziewięciu z 35 dużych rosyjskich rafinerii."
+   ],
+   "przebieg": [
+    {
+     "data": "2026-11-10",
+     "tekst": "Według Reutersa ukraińskie ataki dronów ograniczyły w ostatnim tygodniu o około 30% zdolności rafineryjne Rosji. Zakłócona lub wstrzymana została praca dziewięciu z 35 dużych rosyjskich rafinerii.",
+     "zrodla": [
+      {
+       "nazwa": "Reuters (za Kyiv Independent)",
+       "url": "https://kyivindependent.com/ukrainian-strikes-cut-russias-oil-refining-capacity-by-30-reuters-reports/",
+       "data": "2026-11-10"
+      }
+     ]
+    },
+    {
+     "data": "2026-11-16",
+     "tekst": "Drony uderzyły 16.11 rano w **most Krymski** nad Cieśniną Kerczeńską, a ruch samochodowy wstrzymano na wiele godzin; Kreml podał, że ocenia niewielkie uszkodzenia. Według Reutersa Ukraina przeprowadziła tej nocy największy od początku wojny atak dronów na Rosję.",
+     "zrodla": [
+      {
+       "nazwa": "Reuters",
+       "url": "https://www.reuters.com/world/ukraine-hits-key-crimean-bridge-curbing-traffic-russian-governor-says-2026-11-16/",
+       "data": "2026-11-16"
+      },
+      {
+       "nazwa": "Meduza",
+       "url": "https://meduza.io/en/feature/2026/11/16/ukrainian-drone-attack-damages-crimea-bridge-shutting-down-road-traffic-for-hours-kremlin-says-damage-is-minor",
+       "data": "2026-11-16"
+      },
+      {
+       "nazwa": "Reuters",
+       "url": "https://www.reuters.com/world/europe/ukraine-launches-biggest-drone-attack-russia-since-war-began-defence-ministry-2026-11-16/",
+       "data": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "data": "2026-11-16",
+     "tekst": "Sztab Generalny Ukrainy potwierdził 16.11 uderzenie w **skład paliw w obwodzie rostowskim**, który zaopatruje rosyjskie wojska na południu frontu, oraz w rafinerię w Kraju Krasnodarskim, gdzie trafiono trzy instalacje przerobu ropy. Według Meduzy po atakach dronów w Azowie wybuchły pożary w czterech zakładach, a trzy osoby zostały ranne.",
+     "zrodla": [
+      {
+       "nazwa": "Kyiv Independent",
+       "url": "https://kyivindependent.com/fuel-depot-in-azov-russia-reportedly-in-flames-following-ukrainian-drone-attacks/",
+       "data": "2026-11-16"
+      },
+      {
+       "nazwa": "Kyiv Independent",
+       "url": "https://kyivindependent.com/ukraine-strikes-key-oil-refinery-in-southern-russia-hitting-3-processing-units-general-staff-says/",
+       "data": "2026-11-16"
+      },
+      {
+       "nazwa": "Meduza",
+       "url": "https://meduza.io/en/news/2026/11/16/ukrainian-drone-attacks-spark-fires-in-russia-s-rostov-region-oil-depot-reportedly-burning-in-azov",
+       "data": "2026-11-16"
+      }
+     ]
+    }
+   ],
+   "oceny": [],
+   "dla_polski": "Mniejsza produkcja paliw w Rosji uderza w jej dochody z eksportu i w zaopatrzenie wojsk na południu frontu, a most Krymski jest głównym połączeniem drogowym Rosji z Krymem. Wniosek autora: Ukraina zwiększa skalę uderzeń w głąb Rosji w czasie rozmów o zakończeniu wojny, co podnosi koszty wojny dla Moskwy; dla Polski czynnikiem ryzyka pozostają ceny oleju napędowego zimą.",
+   "w_wydaniach": [
+    "2026-11-10#z11",
+    "2026-11-16#z3",
+    "2026-11-16#z5"
+   ]
+  },
+  {
    "id": "bab-al-mandab",
    "tytul": "Siły uznawanego międzynarodowo rządu Jemenu wycofują się 15.11 z rejonu cieśniny Bab al-Mandab, by bronić Adenu, a kontrolę nad tym obszarem przejmują Huti",
    "data": "2026-11-15",
@@ -999,101 +1187,6 @@
     "2026-11-14#z7",
     "2026-11-15#z8"
    ]
-  },
-  {
-   "id": "sankcje",
-   "tytul": "Wielka Brytania obejmuje 12.11 sankcjami Vostok Oil, Slawnieft i statki floty cieni jako pierwsze państwo, które ukarało wszystkich dziesięciu największych producentów ropy w Rosji; siły unijnej operacji Irini wchodzą 13.11 na pokład tankowca Midag, podejrzewanego o przynależność do floty cieni",
-   "data": [
-    "2026-11-12",
-    "2026-11-13"
-   ],
-   "tagi": [
-    "sankcje",
-    "wielka-brytania",
-    "rosja",
-    "energia",
-    "ue"
-   ],
-   "etap": "PRZYJĘTE",
-   "lead": "Rząd premiera {{o:andy-burnham|Andy'ego Burnhama}} objął 12.11 **sankcjami** spółkę Vostok Oil, arktyczny projekt koncernu Rosnieft, firmę naftową Slawnieft, duże rosyjskie firmy węglowe i statki floty cieni; według rządu brytyjskiego Wielka Brytania jest pierwszym państwem, które ukarało wszystkich dziesięciu największych producentów ropy w Rosji. 13.11 siły unijnej operacji {{p:irini|Irini}} weszły na Morzu Śródziemnym na pokład tankowca Midag, podejrzewanego o przynależność do rosyjskiej {{p:flota-cieni|floty cieni}}.",
-   "omowienie": [
-    "Sankcje brytyjskie ogłoszono w dniu szczytu Europejskiej Wspólnoty Politycznej w Dublinie, poświęconego według rządu brytyjskiego Ukrainie.",
-    "Według szefowej dyplomacji UE {{o:kaja-kallas|Kai Kallas}} Midag płynął pod fałszywą banderą; Kallas zapowiedziała, że ministrowie spraw zagranicznych UE zatwierdzą 16.11 nowe sankcje wobec banków, nabywców i firm wspierających flotę cieni."
-   ],
-   "przebieg": [
-    {
-     "data": "2026-11-12",
-     "tekst": "Rząd premiera {{o:andy-burnham|Andy'ego Burnhama}} objął 12.11 **sankcjami** spółkę Vostok Oil, arktyczny projekt koncernu Rosnieft, firmę naftową Slawnieft, duże rosyjskie firmy węglowe i statki floty cieni. Według rządu brytyjskiego Wielka Brytania jest pierwszym państwem, które ukarało wszystkich dziesięciu największych producentów ropy w Rosji.",
-     "etap": "PRZYJĘTE",
-     "zrodla": [
-      {
-       "nazwa": "GOV.UK",
-       "url": "https://www.gov.uk/government/news/ukraine-set-to-be-focus-of-epc-summit-as-uk-sanctions-russias-top-ten-oil-producers",
-       "data": "2026-11-12"
-      },
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/uk-says-its-1st-country-to-target-all-of-russias-top-10-oil-producers-with-latest-round-of-sanctions/",
-       "data": "2026-11-12"
-      }
-     ]
-    },
-    {
-     "data": "2026-11-13",
-     "tekst": "Siły unijnej operacji {{p:irini|Irini}} weszły 13.11 na Morzu Śródziemnym na pokład tankowca Midag, podejrzewanego o przynależność do rosyjskiej {{p:flota-cieni|floty cieni}}; według szefowej dyplomacji UE {{o:kaja-kallas|Kai Kallas}} statek płynął pod fałszywą banderą. Kallas zapowiedziała, że ministrowie spraw zagranicznych UE zatwierdzą 16.11 **nowe sankcje** wobec banków, nabywców i firm wspierających flotę cieni.",
-     "etap": "ZAPOWIEDŹ",
-     "zrodla": [
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/11/15/eu-forces-board-suspected-russian-shadow-fleet-tanker-in-mediterranean-kallas-says",
-       "data": "2026-11-15"
-      },
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/eu-forces-board-suspected-russian-shadow-fleet-tanker-in-mediterranean-kallas-says/",
-       "data": "2026-11-15"
-      }
-     ]
-    }
-   ],
-   "oceny": [],
-   "dla_polski": "Sankcje i działania wymierzone w rosyjską ropę i flotę cieni ograniczają dochody, z których Rosja finansuje wojnę, a statki floty cieni pływają także po Bałtyku. Wniosek autora: wejście sił UE na tankowiec pokazuje, że Unia przechodzi od list sankcyjnych do działań na morzu; Polsce opłaca się wspierać, by zapowiedziany 16.11 pakiet objął te same podmioty co sankcje brytyjskie.",
-   "w_wydaniach": [
-    "2026-11-12#z3",
-    "2026-11-15#z4"
-   ]
-  },
-  {
-   "id": "rafinerie-rosja",
-   "tytul": "Ukraińskie ataki dronów ograniczają w ciągu tygodnia o około 30% zdolności rafineryjne Rosji; dziewięć z 35 dużych rafinerii ma zakłóconą lub wstrzymaną pracę",
-   "data": "2026-11-10",
-   "tagi": [
-    "rosja",
-    "ukraina",
-    "energia"
-   ],
-   "lead": "Według Reutersa ukraińskie ataki dronów ograniczyły w ostatnim tygodniu o około **30% zdolności rafineryjne** Rosji.",
-   "omowienie": [
-    "Zakłócona lub wstrzymana została praca dziewięciu z 35 dużych rosyjskich rafinerii."
-   ],
-   "przebieg": [
-    {
-     "data": "2026-11-10",
-     "tekst": "Według Reutersa ukraińskie ataki dronów ograniczyły w ostatnim tygodniu o około 30% zdolności rafineryjne Rosji. Zakłócona lub wstrzymana została praca dziewięciu z 35 dużych rosyjskich rafinerii.",
-     "zrodla": [
-      {
-       "nazwa": "Reuters (za Kyiv Independent)",
-       "url": "https://kyivindependent.com/ukrainian-strikes-cut-russias-oil-refining-capacity-by-30-reuters-reports/",
-       "data": "2026-11-10"
-      }
-     ]
-    }
-   ],
-   "oceny": [],
-   "dla_polski": "Mniejsza produkcja paliw w Rosji uderza w jej dochody z eksportu i może wpłynąć na ceny oleju napędowego na rynkach światowych. Wniosek autora: dla Polski to sygnał, że Ukraina skutecznie podnosi koszty wojny dla Rosji, ale też czynnik ryzyka dla cen paliw zimą.",
-   "w_wydaniach": [
-    "2026-11-10#z11"
-   ]
   }
  ],
  "czego_nie_ma": [
@@ -1118,15 +1211,11 @@
    "prog": "następstwo"
   },
   {
-   "tekst": "Powierzenie 7.11 przez prezydenta Izraela Icchaka Herzoga misji utworzenia rządu Gadiemu Ejzenkotowi, rywalowi premiera Benjamina Netanjahu – etap procedury, rząd jeszcze nie powstał.",
-   "prog": "następstwo"
-  },
-  {
    "tekst": "Reforma prawa o służbach wywiadowczych przyjęta 13.11 przez Bundestag, która pozwala BND aktywnie przeciwdziałać atakom obcych państw, np. wyłączać serwery państwowych grup hakerskich – miejsce 11: zmiana prawa krajowego, której skutek zależy od stosowania nowych uprawnień.",
    "prog": "następstwo"
   },
   {
-   "tekst": "Zapowiedź Białego Domu (13.11) pierwszego spotkania Donalda Trumpa, Xi Jinpinga i Władimira Putina 19.11 w Shenzhen o arsenałach jądrowych i wojnie z Iranem – zapowiedź, której Pekin nie potwierdził; spotkanie poza oknem.",
+   "tekst": "Spotkanie Donalda Trumpa, Xi Jinpinga i Władimira Putina 19.11 w Shenzhen przy szczycie APEC, pierwsze w formacie trójstronnym – Biały Dom ogłosił je 13.11, a według PAP chińskie MSZ potwierdziło je 16.11; Trump zapowiedział rozmowy o rozbrojeniu jądrowym oraz o wojnach w Iranie i na Ukrainie. Spotkanie poza oknem.",
    "prog": "następstwo"
   },
   {
@@ -1190,15 +1279,7 @@
    "prog": "dokumentacja"
   },
   {
-   "tekst": "Uszkodzenie budynku Saudi Aramco w Rijadzie (8.11) – według Reutersa atak Huti, według saudyjskiego ministerstwa spadające szczątki po nieudanym ataku; skutek lokalny.",
-   "prog": "następstwo"
-  },
-  {
-   "tekst": "Wewnętrzna ocena UE o rosyjskiej sieci, która według Reutersa wykorzystała w mediach społecznościowych zamieszki we Francji (9.11), i otwarcie konferencji klimatycznej COP31 w Antalyi (9.11, potrwa do 20.11) – bez decyzji w tym tygodniu.",
-   "prog": "następstwo"
-  },
-  {
-   "tekst": "Zapowiedź wysłania chińskiego wysłannika do Iranu, Omanu i Arabii Saudyjskiej, śledztwo rady dyrektorów Nvidii w sprawie prezesa (8.11), zakup procesorów Nvidia H200 przez chińską uczelnię powiązaną z armią mimo amerykańskiej czarnej listy (według Reutersa, 11.11), wyrok w sprawie Tundu Lissu w Tanzanii (6.11) i sytuacja medyczna w jemeńskim Taizie – zapowiedź, ujawnienie bez decyzji albo sprawy bez skutku dla Polski, Europy i układu sił.",
+   "tekst": "Zakup procesorów Nvidia H200 przez chińską uczelnię powiązaną z armią mimo amerykańskiej czarnej listy (według Reutersa, 11.11) – ujawnienie bez decyzji państw.",
    "prog": "następstwo"
   },
   {
@@ -1206,9 +1287,21 @@
    "prog": "dokumentacja"
   },
   {
+   "tekst": "Stanowisko kilku ministrów spraw zagranicznych UE (16.11), że rozmowy z Rosją o przyszłym ładzie bezpieczeństwa Europy przed rozejmem na Ukrainie byłyby przedwczesne, i słowa Wołodymyra Zełenskiego (według AP, 16.11), że USA podniosły w rozmowach możliwość nowej architektury bezpieczeństwa Europy – deklaracje bez decyzji; rozmowy o zakończeniu wojny opisuje pozycja o rozmowach.",
+   "prog": "następstwo"
+  },
+  {
+   "tekst": "Ostrzeżenie urzędów dozoru jądrowego z 38 państw przed rosnącym tej zimy ryzykiem awarii jądrowej na Ukrainie (16.11), zapowiedź Listy Studenckiej o przyspieszeniu reform potrzebnych do członkostwa Serbii w UE (16.11) i konferencja przeglądowa Konwencji o niektórych broniach konwencjonalnych w Genewie, która w tym tygodniu decyduje o negocjacjach w sprawie broni autonomicznej – ostrzeżenie, zapowiedź i decyzja jeszcze niepodjęta.",
+   "prog": "następstwo"
+  },
+  {
+   "tekst": "Słowa doradcy prezydenta Rosji Jurija Uszakowa, że udział Europy w rozmowach pokojowych nie został z Moskwą uzgodniony (według Meduzy za Interfaksem), lotniskowiec USS Theodore Roosevelt na Bliskim Wschodzie i pocisk, który według UKMTO trafił tankowiec wychodzący z cieśniny Ormuz, zakaz wstępu inspektorów MAEA do irańskich obiektów jądrowych, wypłata 1,71 mld euro z unijnej pożyczki dla Ukrainy, zatonięcie statku Betul 8 z pszenicą w bułgarskiej wyłącznej strefie ekonomicznej i odwołanie szczytu NATO w Albanii (według AP za Polsat News) – w wydaniu z 16.11 w „W obserwacji” z braku drugiego źródła z poziomów 1–2.",
+   "prog": "dokumentacja"
+  },
+  {
    "tekst": "Sprawy z poprzednich tygodni bez nowych faktów w tym tygodniu (decyzja USA o sprzedaży Ukrainie pocisków PAC-3 MSE, protesty we Francji, sankcje USA na Rosję, drony na Litwie, groźba jądrowa w sprawie Królewca i inne) – są w archiwum za październik 2026; wybory do Kongresu USA (3.11) i pakiet rozszerzeniowy Komisji Europejskiej (4.11) trafią do archiwum za listopad.",
    "prog": "następstwo"
   }
  ],
- "nota": "Zestawienie kroczące za 9–15.11.2026. Nowe fakty z 13–15.11: deklaracja Jareda Kushnera o bezpośrednich rozmowach Rosji z Europą (14.11), wejście sił operacji Irini na tankowiec Midag (13.11), przechwycone irańskie ataki na Bahrajn (15.11). Nowe pozycje: zapowiedź zamknięcia granicy Estonii z Rosją i wycofanie wojsk rządu Jemenu z rejonu Bab al-Mandab; pakiet Danii i kontrola zboża na Litwie są na miejscach 11–12. Fakty pochodzą z wydań dziennych i ich źródeł; kolejność to ocena autora."
+ "nota": "Zestawienie kroczące za 10–16.11.2026. Nowe fakty z 16.11: sankcje UE wobec 145 osób i podmiotów związanych z Rosją, wezwanie rosyjskiego chargé d'affaires w Estonii, uderzenia dronów w most Krymski, skład paliw w obwodzie rostowskim i rafinerię w Kraju Krasnodarskim. Sankcje przesunięto z 9. na 4. miejsce, a pozycję o atakach na Rosję – z 10. na 9.; pakiet Danii i kontrola zboża na Litwie pozostają na miejscach 11–12. Fakty pochodzą z wydań dziennych i ich źródeł; kolejność to ocena autora."
 }

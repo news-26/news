@@ -672,6 +672,26 @@
       ],
       "obowiazkowy": false,
       "uwaga": "Spotkanie przy szczycie APEC (termin obowiązkowy apec-2026)."
+    },
+    {
+      "id": "koalicja-chetnych-berlin-2026-11-19",
+      "od": "2026-11-19",
+      "do": "2026-11-19",
+      "kategoria": "szczyt",
+      "tagi": [
+        "ukraina",
+        "niemcy"
+      ],
+      "tekst": "Szczyt koalicji chętnych w Berlinie (gospodarze: Friedrich Merz, Emmanuel Macron, Andy Burnham).",
+      "krotko": "Koalicja chętnych",
+      "obowiazkowy": false,
+      "zrodla": [
+        {
+          "nazwa": "Rząd Niemiec",
+          "url": "https://www.bundesregierung.de/breg-de/aktuelles/bundeskanzler-merz-laedt-zu-treffen-der-koalition-der-willigen-am-19-november-in-berlin-ein-2461054",
+          "data": "2026-11-13"
+        }
+      ]
     }
   ]
 }

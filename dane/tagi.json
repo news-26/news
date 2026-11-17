@@ -6,20 +6,20 @@
       "nazwa": "Ukraina",
       "grupa": "miejsce",
       "opis": "Wojna Rosji z Ukrainą: ataki, obrona powietrzna, polityka Kijowa, pomoc zachodnia.",
-      "stan": "Ukraina uderzyła 16.11 w skład paliw w obwodzie rostowskim i rafinerię w Kraju Krasnodarskim; regulatorzy z 38 państw ostrzegają przed ryzykiem awarii jądrowej.",
+      "stan": "Ukraina zniszczyła 17.11 przęsło drogowe mostu Krymskiego; Rosja uderzyła rakietami balistycznymi w dwa mosty w Kijowie.",
       "stan_zrodla": [
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/fuel-depot-in-azov-russia-reportedly-in-flames-following-ukrainian-drone-attacks/",
-          "data": "2026-11-16"
+          "url": "https://kyivindependent.com/ukrainian-forces-reportedly-strike-crimean-bridge-after-russian-missiles-hit-kyiv-bridges/",
+          "data": "2026-11-17"
         },
         {
-          "nazwa": "Reuters",
-          "url": "https://www.reuters.com/business/energy/risk-nuclear-accident-ukraine-increasing-this-winter-atomic-safety-regulators-2026-11-16/",
-          "data": "2026-11-16"
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/russia-says-ukraine-struck-its-bridge-crimea-second-day-biggest-drone-attack-war-2026-11-17/",
+          "data": "2026-11-17"
         }
       ],
-      "stan_data": "2026-11-16"
+      "stan_data": "2026-11-17"
     },
     {
       "id": "front",
@@ -46,43 +46,38 @@
       "nazwa": "Rozejm",
       "grupa": "temat",
       "opis": "Rozmowy i propozycje zawieszenia broni w wojnie Rosji z Ukrainą.",
-      "stan": "Ministrowie spraw zagranicznych UE uznali 16.11 rozmowy z Rosją o bezpieczeństwie Europy przed rozejmem za przedwczesne.",
+      "stan": "Szczyt koalicji chętnych 19.11 w Berlinie ma omówić gwarancje bezpieczeństwa dla Ukrainy; według Kyiv Independent tego dnia rozmawiać mają też wysłannicy USA, Ukrainy i Europy.",
       "stan_zrodla": [
         {
-          "nazwa": "Reuters",
-          "url": "https://www.reuters.com/business/finance/holding-talks-with-russia-europes-security-now-would-be-premature-eu-ministers-2026-11-16/",
-          "data": "2026-11-16"
+          "nazwa": "Rząd Niemiec",
+          "url": "https://www.bundesregierung.de/breg-de/aktuelles/bundeskanzler-merz-laedt-zu-treffen-der-koalition-der-willigen-am-19-november-in-berlin-ein-2461054",
+          "data": "2026-11-13"
         },
         {
-          "nazwa": "AP",
-          "url": "https://apnews.com/article/europe-ukraine-russia-security-ceasefire-cde686fba0e452b10ca613b3517e884e",
-          "data": "2026-11-16"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-announces-berlin-talks-with-us-european-allies-to-shape-next-phase-of-russia-negotiations/",
+          "data": "2026-11-17"
         }
       ],
-      "stan_data": "2026-11-16"
+      "stan_data": "2026-11-17"
     },
     {
       "id": "rosja",
       "nazwa": "Rosja",
       "grupa": "miejsce",
       "opis": "Polityka wewnętrzna, armia i budżet Rosji.",
-      "stan": "Kreml odrzucił estońskie oskarżenia o zlecenie sabotażu; UE przyjęła nowe sankcje; Putin ma spotkać się 19.11 z Xi i Trumpem w Shenzhen.",
-      "stan_data": "2026-11-16",
+      "stan": "Most Krymski stracił 17.11 przęsło drogowe po ukraińskim ataku; ruch drogowy i kolejowy wstrzymano.",
+      "stan_data": "2026-11-17",
       "stan_zrodla": [
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/estonia-summons-russian-diplomat-over-sabotage-attempt-on-drone-manufacturer/",
-          "data": "2026-11-16"
+          "url": "https://kyivindependent.com/ukrainian-forces-reportedly-strike-crimean-bridge-after-russian-missiles-hit-kyiv-bridges/",
+          "data": "2026-11-17"
         },
         {
-          "nazwa": "Reuters (za Polsat News)",
-          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-16/kreml-reaguje-na-decyzje-estonii-nie-mozemy-zaakceptowac/",
-          "data": "2026-11-16"
-        },
-        {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/eu-clamps-down-on-russias-wildberries-owner-50-banks-oil-and-shadow-fleet-with-new-sanctions/",
-          "data": "2026-11-16"
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/russia-says-ukraine-struck-its-bridge-crimea-second-day-biggest-drone-attack-war-2026-11-17/",
+          "data": "2026-11-17"
         }
       ]
     },
@@ -221,18 +216,13 @@
       "nazwa": "DyplomacjaRP",
       "grupa": "temat",
       "opis": "Polityka zagraniczna Polski, wizyty, spory kompetencyjne.",
-      "stan": "Polska weszła 13.11 do pięcioosobowego zespołu państw, który wraz z instytucjami UE reprezentuje Europę w rozmowach o zakończeniu wojny w Ukrainie.",
-      "stan_data": "2026-11-14",
+      "stan": "Według Kyiv Independent przyszłe rozmowy z Rosją o zakończeniu wojny mają objąć grupę pięciu państw europejskich, w tym Polskę.",
+      "stan_data": "2026-11-17",
       "stan_zrodla": [
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/european-leaders-agree-on-joint-team-for-ukraine-peace-negotiations-costa-says/",
-          "data": "2026-11-13"
-        },
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/13/eu-leaders-bring-italy-and-poland-into-ukraine-peace-talks-team-as-kallas-fights-for-spot",
-          "data": "2026-11-13"
+          "url": "https://kyivindependent.com/zelensky-announces-berlin-talks-with-us-european-allies-to-shape-next-phase-of-russia-negotiations/",
+          "data": "2026-11-17"
         }
       ]
     },
@@ -261,38 +251,43 @@
       "nazwa": "Iran",
       "grupa": "miejsce",
       "opis": "Iran, Cieśnina Ormuz, rozmowy z USA i mediatorami.",
-      "stan": "Bahrajn podał 15.11, że przechwycił kilka irańskich ataków z powietrza; według Reutersa Teheran twierdzi, że zaatakował amerykańską bazę.",
+      "stan": "Korpus Strażników Rewolucji Islamskiej zaatakował 17.11 dronami radar USA w Bahrajnie; w cieśninie Ormuz ponownie trafiono tankowiec.",
       "stan_zrodla": [
         {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/middle-east/bahrains-interior-ministry-issues-alerts-potential-threats-2026-11-15/",
-          "data": "2026-11-15"
+          "url": "https://www.reuters.com/world/middle-east/bahrain-says-it-intercepts-iranian-air-attacks-irgc-says-it-targets-us-radar-2026-11-17/",
+          "data": "2026-11-17"
         },
         {
-          "nazwa": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/15/bahrain-accuses-iran-of-attacking-its-territory-to-settle-score-with-us",
-          "data": "2026-11-15"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/17/qatar-warns-gulf-escalation-poses-grave-danger-and-announces-new-talks-with-iran",
+          "data": "2026-11-17"
         }
       ],
-      "stan_data": "2026-11-15"
+      "stan_data": "2026-11-17"
     },
     {
       "id": "usa",
       "nazwa": "USA",
       "grupa": "miejsce",
       "opis": "Polityka USA wobec Europy, Rosji, Ukrainy i Bliskiego Wschodu.",
-      "stan": "Trump leci do Azji; 19.11 w Shenzhen ma spotkać się z Xi Jinpingiem i Władimirem Putinem.",
-      "stan_data": "2026-11-16",
+      "stan": "Iran zaatakował 17.11 dronami radar USA w Bahrajnie; Trump przyleciał do Manili przed spotkaniem Quad i szczytem APEC.",
+      "stan_data": "2026-11-17",
       "stan_zrodla": [
         {
-          "nazwa": "PAP (za Polsat News)",
-          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-16/spotkanie-swiatowych-przywodcow-w-shenzhen-chinskie-msz-potwierdza/",
-          "data": "2026-11-16"
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/bahrain-says-it-intercepts-iranian-air-attacks-irgc-says-it-targets-us-radar-2026-11-17/",
+          "data": "2026-11-17"
         },
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/16/trump-says-he-could-meet-with-north-korean-leader-kim-jong-un-in-china",
-          "data": "2026-11-16"
+          "url": "https://www.euronews.com/2026/11/17/qatar-warns-gulf-escalation-poses-grave-danger-and-announces-new-talks-with-iran",
+          "data": "2026-11-17"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/china/trump-kick-off-asia-trip-with-quad-talks-manila-ahead-china-visit-2026-11-17/",
+          "data": "2026-11-17"
         }
       ]
     },
@@ -301,18 +296,18 @@
       "nazwa": "Chiny",
       "grupa": "miejsce",
       "opis": "Chiny w polityce światowej i wobec Europy.",
-      "stan": "Chińskie MSZ potwierdziło trójstronne spotkanie Xi, Putina i Trumpa 19.11 w Shenzhen przy szczycie APEC.",
-      "stan_data": "2026-11-16",
+      "stan": "Według Reutersa USA chcą zablokować import chińskiego sprzętu do centrów danych; Trump zmierza na szczyt APEC w Shenzhen.",
+      "stan_data": "2026-11-17",
       "stan_zrodla": [
         {
-          "nazwa": "PAP (za Polsat News)",
-          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-16/spotkanie-swiatowych-przywodcow-w-shenzhen-chinskie-msz-potwierdza/",
-          "data": "2026-11-16"
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/trumps-china-data-center-curb-advances-despite-amazon-google-meta-lobbying-2026-11-17/",
+          "data": "2026-11-17"
         },
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/16/trump-says-he-could-meet-with-north-korean-leader-kim-jong-un-in-china",
-          "data": "2026-11-16"
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/china/trump-kick-off-asia-trip-with-quad-talks-manila-ahead-china-visit-2026-11-17/",
+          "data": "2026-11-17"
         }
       ]
     },
@@ -321,13 +316,18 @@
       "nazwa": "NATO",
       "grupa": "temat",
       "opis": "Sojusz Północnoatlantycki: decyzje, szczyty, wschodnia flanka.",
-      "stan": "Według AP Zełenski ostrzegł 16.11, że proponowana przez USA nowa architektura bezpieczeństwa Europy może być niebezpieczna.",
-      "stan_data": "2026-11-16",
+      "stan": "W siedzibie NATO w Brukseli obradowała 17.11 Grupa Kontaktowa ds. Obrony Ukrainy; zapowiedziano nowe dostawy obrony powietrznej.",
+      "stan_data": "2026-11-17",
       "stan_zrodla": [
         {
-          "nazwa": "AP",
-          "url": "https://apnews.com/article/russia-ukraine-war-nato-us-zelenskyy-f9a8629626c087424f05adc85d127780",
-          "data": "2026-11-16"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/uk-pledges-over-1-000-short-range-missiles-for-ukraine-in-240-million-pound-air-defense-package-2/",
+          "data": "2026-11-17"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/17/germany-and-norway-to-buy-more-us-air-defences-for-ukraine-including-patriot-missiles",
+          "data": "2026-11-17"
         }
       ]
     },
@@ -336,20 +336,15 @@
       "nazwa": "UE",
       "grupa": "temat",
       "opis": "Unia Europejska: Rada, Komisja, obronność, budżet WRF 2028–2034.",
-      "stan": "UE przyjęła 16.11 sankcje wobec 145 osób i podmiotów związanych z Rosją; ministrowie uznali rozmowy z Rosją o bezpieczeństwie Europy przed rozejmem za przedwczesne.",
+      "stan": "Szczyt UE–Wielka Brytania 20.11 ma przypieczętować umowy o handlu żywnością, energii i mobilności młodzieży.",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/eu-clamps-down-on-russias-wildberries-owner-50-banks-oil-and-shadow-fleet-with-new-sanctions/",
-          "data": "2026-11-16"
-        },
-        {
-          "nazwa": "Reuters",
-          "url": "https://www.reuters.com/business/finance/holding-talks-with-russia-europes-security-now-would-be-premature-eu-ministers-2026-11-16/",
+          "nazwa": "AP (newsletter)",
+          "url": "https://apnews.com/article/andy-burnham-lord-mayor-banquet-speech-brexit-073f83b31ac8372ab7835e06a830261b",
           "data": "2026-11-16"
         }
       ],
-      "stan_data": "2026-11-16"
+      "stan_data": "2026-11-17"
     },
     {
       "id": "onz",
@@ -382,20 +377,25 @@
       "nazwa": "Niemcy",
       "grupa": "miejsce",
       "opis": "Polityka Niemiec: rząd, koalicja, wybory, obronność.",
-      "stan": "Bundestag przyjął 13.11 reformę prawa o służbach: BND i BfV mogą aktywnie przeciwdziałać zagrożeniom, np. wyłączać serwery państwowych grup hakerskich.",
+      "stan": "Niemcy przeznaczą 300 mln dolarów na amerykańską broń dla Ukrainy; kanclerz Merz przyjmie 19.11 w Berlinie szczyt koalicji chętnych.",
       "stan_zrodla": [
         {
-          "nazwa": "Bundestag",
-          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-nachrichtendienste-1231530",
-          "data": "2026-11-13"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/uk-pledges-over-1-000-short-range-missiles-for-ukraine-in-240-million-pound-air-defense-package-2/",
+          "data": "2026-11-17"
         },
         {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/11/14/german-intelligence-agencies-gain-powers-to-hack-foreign-it-systems-and-recruit-informants-as-young-as-16",
-          "data": "2026-11-14"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/17/germany-and-norway-to-buy-more-us-air-defences-for-ukraine-including-patriot-missiles",
+          "data": "2026-11-17"
+        },
+        {
+          "nazwa": "Rząd Niemiec",
+          "url": "https://www.bundesregierung.de/breg-de/aktuelles/bundeskanzler-merz-laedt-zu-treffen-der-koalition-der-willigen-am-19-november-in-berlin-ein-2461054",
+          "data": "2026-11-13"
         }
       ],
-      "stan_data": "2026-11-14"
+      "stan_data": "2026-11-17"
     },
     {
       "id": "czechy",
@@ -567,20 +567,25 @@
       "nazwa": "WielkaBrytania",
       "grupa": "miejsce",
       "opis": "Polityka Wielkiej Brytanii i jej bezpieczeństwo.",
-      "stan": "Nad bazą RAF Lakenheath, z której korzysta lotnictwo USA, pojawiły się 13.11 drony nieznanego pochodzenia; Wielka Brytania weszła do europejskiego zespołu rozmów o Ukrainie.",
+      "stan": "Wielka Brytania zapowiedziała 17.11 ponad 1000 pocisków przeciwlotniczych dla Ukrainy; premier Burnham przed szczytem z UE 20.11 ocenił, że brexit się nie sprawdził.",
       "stan_zrodla": [
         {
-          "nazwa": "Associated Press (za Kyiv Independent)",
-          "url": "https://kyivindependent.com/us-air-force-responds-to-suspected-drone-activity-at-military-base-in-uk/",
-          "data": "2026-11-13"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/uk-pledges-over-1-000-short-range-missiles-for-ukraine-in-240-million-pound-air-defense-package-2/",
+          "data": "2026-11-17"
         },
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/european-leaders-agree-on-joint-team-for-ukraine-peace-negotiations-costa-says/",
-          "data": "2026-11-13"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/17/germany-and-norway-to-buy-more-us-air-defences-for-ukraine-including-patriot-missiles",
+          "data": "2026-11-17"
+        },
+        {
+          "nazwa": "AP (newsletter)",
+          "url": "https://apnews.com/article/andy-burnham-lord-mayor-banquet-speech-brexit-073f83b31ac8372ab7835e06a830261b",
+          "data": "2026-11-16"
         }
       ],
-      "stan_data": "2026-11-14"
+      "stan_data": "2026-11-17"
     },
     {
       "id": "rumunia",
@@ -607,20 +612,20 @@
       "nazwa": "Bałkany",
       "grupa": "miejsce",
       "opis": "Serbia, Bośnia i Hercegowina, Kosowo i inne państwa regionu.",
-      "stan": "Lista Studencka przygotowuje się do utworzenia rządu Serbii i zapowiada przyspieszenie reform potrzebnych do członkostwa w UE.",
+      "stan": "Nowy parlament Serbii zebrał się 17.11; posłowie Listy Studenckiej, która ma 140 z 250 mandatów, objęli mandaty.",
       "stan_zrodla": [
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/16/serbia-to-accelerate-work-on-eu-accession-student-list-representative-says",
-          "data": "2026-11-16"
+          "url": "https://www.euronews.com/2026/11/17/serbias-new-parliament-meets-for-first-time-since-student-led-movement-won-election",
+          "data": "2026-11-17"
         },
         {
-          "nazwa": "AP",
-          "url": "https://apnews.com/article/serbia-students-vucic-parliament-what-to-know-56d4bd5d052aae651036477252043dbd",
-          "data": "2026-11-16"
+          "nazwa": "Reuters (za U.S. News)",
+          "url": "https://www.usnews.com/news/world/articles/2026-11-17/serbias-student-list-deputies-take-seats-in-parliament-after-landmark-election-win",
+          "data": "2026-11-17"
         }
       ],
-      "stan_data": "2026-11-16"
+      "stan_data": "2026-11-17"
     },
     {
       "id": "wybory",
@@ -667,15 +672,15 @@
       "nazwa": "Gospodarka",
       "grupa": "temat",
       "opis": "Gospodarka w wymiarze geopolitycznym: sankcje, cła i wojny handlowe, surowce i szlaki handlowe, pomoc finansowa dla państw w kryzysie.",
-      "stan": "Nadwyżka handlowa Chin przekroczyła w 10 miesiącach 2026 r. bilion dolarów dzięki eksportowi zaawansowanych technologii.",
+      "stan": "Według Reutersa administracja Trumpa zamierza zablokować import chińskiego sprzętu do centrów danych.",
       "stan_zrodla": [
         {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/asia-pacific/chinas-trade-surplus-soars-past-1-trillion-october-exports-jump-352-yy-2026-11-10/",
-          "data": "2026-11-10"
+          "url": "https://www.reuters.com/world/trumps-china-data-center-curb-advances-despite-amazon-google-meta-lobbying-2026-11-17/",
+          "data": "2026-11-17"
         }
       ],
-      "stan_data": "2026-11-10"
+      "stan_data": "2026-11-17"
     },
     {
       "id": "inne",
@@ -702,15 +707,15 @@
       "nazwa": "Afryka",
       "grupa": "miejsce",
       "opis": "Wojny, przewroty i kryzysy w Afryce (Róg Afryki, Sudan, Sahel, Kongo).",
-      "stan": "6.11 sąd w Tanzanii uniewinnił Tundu Lissu od zarzutu zdrady stanu, ale skazał go na cztery lata więzienia.",
+      "stan": "Według Reutersa epidemia eboli we wschodniej DR Konga rozprzestrzenia się w rekordowym tempie.",
       "stan_zrodla": [
         {
-          "nazwa": "Associated Press (newsletter)",
-          "url": "https://apnews.com/article/africa-treason-trial-tundu-lissu-857e08dbb40be85d705947b5fa4285f8",
-          "data": "2026-11-09"
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/congos-ebola-outbreak-is-spreading-killing-record-pace-2026-11-17/",
+          "data": "2026-11-17"
         }
       ],
-      "stan_data": "2026-11-09"
+      "stan_data": "2026-11-17"
     },
     {
       "id": "ameryki",

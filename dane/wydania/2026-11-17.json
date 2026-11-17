@@ -1,0 +1,702 @@
+{
+  "nr": 60,
+  "data": "2026-11-17",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Ukraina uderzyła w nocy na 17.11 w most Krymski po raz drugi w ciągu dwóch dni. Metalowy łuk i przęsło drogowe **wpadły do Cieśniny Kerczeńskiej**, a ruch samochodowy i kolejowy wstrzymano.",
+    "Korpus Strażników Rewolucji Islamskiej zaatakował 17.11 dronami amerykański radar w bazie lotniczej w Bahrajnie. Bahrajn i Dowództwo Centralne USA podały, że **drony przechwycono** bez szkód.",
+    "Wielka Brytania zapowiedziała 17.11 w Brukseli dostawę **ponad 1000 pocisków przeciwlotniczych krótkiego zasięgu** dla Ukrainy. Niemcy przeznaczą 300 mln dolarów na zakup amerykańskiej broni dla Kijowa, głównie pocisków do systemów Patriot.",
+    "Kanclerz Niemiec Friedrich Merz zwołał na 19.11 do Berlinu, wspólnie z prezydentem Francji i premierem Wielkiej Brytanii, **szczyt koalicji chętnych**. Według Kyiv Independent tego dnia w Berlinie mają też rozmawiać wysłannicy USA, Ukrainy i państw europejskich."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-11-17",
+      "tagi": [
+        "ukraina",
+        "rosja"
+      ],
+      "miejsce": "most-krymski",
+      "krotko": "Most Krymski: zawalone przęsło",
+      "tekst": "Ukraińskie siły uderzyły w nocy na 17.11 w most Krymski po raz drugi w ciągu dwóch dni; **metalowy łuk i przęsło drogowe wpadły do Cieśniny Kerczeńskiej**, a ruch samochodowy i kolejowy wstrzymano. Prezydent {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} powiedział, że w ataku użyto rakiet Neptun i Flamingo, a według Kyiv Independent tej samej nocy Rosja uderzyła rakietami balistycznymi w dwa mosty w Kijowie.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/ukrainian-forces-reportedly-strike-crimean-bridge-after-russian-missiles-hit-kyiv-bridges/",
+          "data": "2026-11-17"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/17/zelensky-calls-crimea-bridge-strike-an-unprecedented-operation-says-ukraine-used-neptune-and-flamingo-missiles",
+          "data": "2026-11-17"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/11/17/ukraine-strikes-crimea-bridge-for-second-time-in-two-days-sending-an-arch-crashing-into-the-water-and-halting-traffic",
+          "data": "2026-11-17"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/russia-says-ukraine-struck-its-bridge-crimea-second-day-biggest-drone-attack-war-2026-11-17/",
+          "data": "2026-11-17"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-11-17",
+      "tagi": [
+        "ukraina",
+        "wielka-brytania",
+        "niemcy",
+        "nato"
+      ],
+      "etap": "ZAPOWIEDŹ",
+      "miejsce": "bruksela",
+      "krotko": "Bruksela: obrona powietrzna dla Ukrainy",
+      "tekst": "Minister obrony Wielkiej Brytanii {{o:wes-streeting|Wes Streeting}} zapowiedział 17.11 w siedzibie NATO w Brukseli, na posiedzeniu {{p:udcg|Grupy Kontaktowej ds. Obrony Ukrainy}}, pakiet za 240 mln funtów: **ponad 1000 pocisków przeciwlotniczych krótkiego zasięgu**, wyrzutnie i kilkanaście radarów; pociski dostarczy od połowy grudnia firma Thales z zakładu w Belfaście. Minister obrony Niemiec {{o:boris-pistorius|Boris Pistorius}} ogłosił, że Niemcy przeznaczą 300 mln dolarów, a Norwegia także dołoży środki na zakup amerykańskiej broni dla Ukrainy, głównie pocisków do systemów {{p:patriot|Patriot}}.",
+      "zrodla": [
+        {
+          "nazwa": "Rząd Wielkiej Brytanii",
+          "url": "https://www.gov.uk/government/news/more-than-1000-air-defence-missiles-for-ukraine-as-uk-delivers-240-million-in-winter-support",
+          "data": "2026-11-17"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/uk-pledges-over-1-000-short-range-missiles-for-ukraine-in-240-million-pound-air-defense-package-2/",
+          "data": "2026-11-17"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/17/germany-and-norway-to-buy-more-us-air-defences-for-ukraine-including-patriot-missiles",
+          "data": "2026-11-17"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "wojna",
+      "data": "2026-11-17",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "usa",
+        "rozejm",
+        "niemcy",
+        "dyplomacja-rp"
+      ],
+      "etap": "ZAPOWIEDŹ",
+      "miejsce": "berlin",
+      "krotko": "Berlin: szczyt koalicji chętnych 19.11",
+      "tekst": "Kanclerz Niemiec {{o:friedrich-merz|Friedrich Merz}} zwołał na 19.11 do Berlinu, wspólnie z prezydentem Francji {{o:emmanuel-macron|Emmanuelem Macronem}} i premierem Wielkiej Brytanii {{o:andy-burnham|Andym Burnhamem}}, **szczyt {{p:koalicja-chetnych|koalicji chętnych}}** o gwarancjach bezpieczeństwa dla Ukrainy po wojnie. Według Kyiv Independent tego dnia w Berlinie mają też rozmawiać wysłannicy USA, Ukrainy i państw europejskich, a przyszłe rozmowy z Rosją mają objąć grupę pięciu państw europejskich, w tym Polskę.",
+      "zrodla": [
+        {
+          "nazwa": "Rząd Niemiec",
+          "url": "https://www.bundesregierung.de/breg-de/aktuelles/bundeskanzler-merz-laedt-zu-treffen-der-koalition-der-willigen-am-19-november-in-berlin-ein-2461054",
+          "data": "2026-11-13"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-announces-berlin-talks-with-us-european-allies-to-shape-next-phase-of-russia-negotiations/",
+          "data": "2026-11-17"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "instytucje",
+      "data": "2026-11-16",
+      "tagi": [
+        "wielka-brytania",
+        "ue"
+      ],
+      "etap": "ZAPOWIEDŹ",
+      "tekst": "Według AP premier Wielkiej Brytanii {{o:andy-burnham|Andy Burnham}} powiedział 16.11 w Londynie, że **brexit się nie sprawdził**, a kraj potrzebuje znacznie bliższych relacji z Unią Europejską. Szczyt UE–Wielka Brytania 20.11 w Brukseli ma według AP przypieczętować umowę o handlu żywnością, porozumienia o energii i handlu emisjami oraz program czasowej pracy dla młodych ludzi.",
+      "zrodla": [
+        {
+          "nazwa": "AP (newsletter)",
+          "url": "https://apnews.com/article/andy-burnham-lord-mayor-banquet-speech-brexit-073f83b31ac8372ab7835e06a830261b",
+          "data": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "z11",
+      "blok": "instytucje",
+      "data": "2026-11-17",
+      "tagi": [
+        "balkany"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "belgrad",
+      "krotko": "Belgrad: pierwsze posiedzenie parlamentu",
+      "tekst": "Nowo wybrany parlament Serbii zebrał się 17.11 na pierwszym posiedzeniu, na którym **posłowie Listy Studenckiej objęli mandaty** po październikowym zwycięstwie nad partią {{o:aleksandar-vucic|Aleksandara Vučicia}}. Lista ma 140 z 250 mandatów, co pozwala jej samodzielnie utworzyć rząd.",
+      "kraje": [
+        "Serbia"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/17/serbias-new-parliament-meets-for-first-time-since-student-led-movement-won-election",
+          "data": "2026-11-17"
+        },
+        {
+          "nazwa": "Reuters (za U.S. News)",
+          "url": "https://www.usnews.com/news/world/articles/2026-11-17/serbias-student-list-deputies-take-seats-in-parliament-after-landmark-election-win",
+          "data": "2026-11-17"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "swiat",
+      "data": "2026-11-17",
+      "tagi": [
+        "iran",
+        "usa"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "riffa",
+      "krotko": "Bahrajn: drony nad bazą USA",
+      "tekst": "Korpus Strażników Rewolucji Islamskiej ogłosił 17.11, że zaatakował dronami **amerykański radar w bazie lotniczej Szajch Isa w Bahrajnie**; Bahrajn i Dowództwo Centralne USA ({{p:centcom|CENTCOM}}) podały, że drony przechwycono bez szkód. Według brytyjskiej agencji {{p:ukmto|UKMTO}} na północ od omańskiego Chasabu po raz drugi zaatakowano tankowiec, a los jego załogi jest nieznany.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/bahrain-says-it-intercepts-iranian-air-attacks-irgc-says-it-targets-us-radar-2026-11-17/",
+          "data": "2026-11-17"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/17/qatar-warns-gulf-escalation-poses-grave-danger-and-announces-new-talks-with-iran",
+          "data": "2026-11-17"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/crew-tanker-unaccounted-after-second-attack-north-omans-khasab-ukmto-says-2026-11-17/",
+          "data": "2026-11-17"
+        },
+        {
+          "nazwa": "AP (newsletter)",
+          "url": "https://apnews.com/article/iran-trump-israel-bahrain-attacks-582e0b5d51be06f0ed630fac24f39b72",
+          "data": "2026-11-17"
+        }
+      ]
+    },
+    {
+      "id": "z6",
+      "blok": "swiat",
+      "data": "2026-11-17",
+      "tagi": [
+        "usa",
+        "chiny"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "manila",
+      "krotko": "Manila: Trump przed spotkaniem Quad",
+      "tekst": "Według Reutersa prezydent USA {{o:donald-trump|Donald Trump}} przyleciał 17.11 do Manili, gdzie weźmie udział w **pierwszym od dwóch lat spotkaniu formatu {{p:quad|Quad}}** przed wizytą w Chinach i szczytem {{p:apec|APEC}}.",
+      "kraje": [
+        "Filipiny"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/china/trump-kick-off-asia-trip-with-quad-talks-manila-ahead-china-visit-2026-11-17/",
+          "data": "2026-11-17"
+        }
+      ]
+    },
+    {
+      "id": "z7",
+      "blok": "swiat",
+      "data": "2026-11-16",
+      "tagi": [
+        "iran"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "jemen",
+      "krotko": "Jemen: Huti zbliżają się do Adenu",
+      "tekst": "Według Reutersa Arabia Saudyjska **zmieniła dowódcę sił koalicji walczącej z jemeńskimi {{p:huti|Huti}}**, po tym jak sprzymierzone z Rijadem siły jemeńskie wycofały się z dużych obszarów, a Huti zajęli teren na południowym wybrzeżu bliżej Adenu.",
+      "kraje": [
+        "Jemen",
+        "Arabia Saudyjska"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/houthis-seize-ground-yemens-southern-coast-edge-closer-aden-2026-11-16/",
+          "data": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "z8",
+      "blok": "swiat",
+      "data": "2026-11-17",
+      "tagi": [
+        "wielka-brytania"
+      ],
+      "etap": "PRZYJĘTE",
+      "tekst": "Według Reutersa Wielka Brytania nałożyła 17.11 **sankcje na izraelskie firmy budujące osiedla** na okupowanym Zachodnim Brzegu oraz na aktywistów blokujących pomoc dla Strefy Gazy, by chronić rozwiązanie dwupaństwowe.",
+      "kraje": [
+        "Izrael",
+        "Palestyna"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/uk/britain-sanctions-israeli-settlement-builders-gaza-aid-blocking-activists-2026-11-17/",
+          "data": "2026-11-17"
+        }
+      ]
+    },
+    {
+      "id": "z9",
+      "blok": "swiat",
+      "data": "2026-11-17",
+      "tagi": [
+        "afryka"
+      ],
+      "tekst": "Według Reutersa **epidemia eboli we wschodniej części Demokratycznej Republiki Konga** pozostaje poza kontrolą pół roku po jej ogłoszeniu, a liczba zachorowań i zgonów rośnie w rekordowym tempie.",
+      "kraje": [
+        "Demokratyczna Republika Konga"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/congos-ebola-outbreak-is-spreading-killing-record-pace-2026-11-17/",
+          "data": "2026-11-17"
+        }
+      ]
+    },
+    {
+      "id": "z10",
+      "blok": "gospodarka",
+      "data": "2026-11-17",
+      "tagi": [
+        "usa",
+        "chiny",
+        "gospodarka"
+      ],
+      "etap": "ZAPOWIEDŹ",
+      "tekst": "Według Reutersa administracja Trumpa zamierza **zablokować import chińskiego sprzętu do centrów danych** mimo sprzeciwu Amazona, Google'a i Mety. Agencja podała to za osobami znającymi sprawę.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/trumps-china-data-center-curb-advances-despite-amazon-google-meta-lobbying-2026-11-17/",
+          "data": "2026-11-17"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "OSW: ćwiczenia „Koalicja 26.2” w Nowej Dębie mają przede wszystkim znaczenie polityczne",
+      "autor": "Piotr Szymański (OSW), 17.11.2026",
+      "tekst": "W ćwiczeniach na poligonie w Nowej Dębie (9–22.11) około 2800 żołnierzy z 10 państw sprawdza gotowość do szybkiego rozmieszczenia {{p:mnf-u|Wielonarodowych Sił Ukraina}} po zawieszeniu broni; dowodzą Francja i Wielka Brytania. Autor ocenia, że skala ćwiczeń i wąski mandat sił świadczą o skromnych ambicjach, a znaczenie ćwiczeń jest głównie polityczne: wzmacniają głos Europy w rozmowach pokojowych.",
+      "dla_polski": "Około 2000 polskich żołnierzy zapewnia wsparcie logistyczne, ale Polska, podobnie jak Niemcy, zapowiada, że nie wyśle wojsk na Ukrainę.",
+      "tagi": [
+        "ukraina",
+        "rozejm",
+        "obronnosc-polski"
+      ],
+      "kraje": [
+        "Francja",
+        "Wielka Brytania"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-17/cwiczenia-koalicja-262-test-gotowosci-rozmieszczenia-sil-koalicji",
+          "data": "2026-11-17"
+        }
+      ]
+    },
+    {
+      "tytul": "OSW: odbudowa mostu Krymskiego przed końcem wojny jest niewykonalna",
+      "autor": "Andrzej Wilk, Mateusz Goliszewski (OSW), 17.11.2026",
+      "tekst": "Według autorów w ataku na most użyto co najmniej 10 pocisków i 30 dronów, a rosyjska obrona przeciwlotnicza była wyraźnie bierna. Oceniają, że zaopatrzenie Krymu będzie trudniejsze, a szczątki w torze wodnym zablokują żeglugę do portów Morza Azowskiego – Berdiańska, Mariupola i Taganrogu – do czasu ich usunięcia.",
+      "dla_polski": "Skutek pośredni: osłabienie rosyjskiej logistyki na południu frontu wzmacnia pozycję Ukrainy przed rozmowami o rozejmie, w których ma uczestniczyć europejska grupa z udziałem Polski.",
+      "tagi": [
+        "ukraina",
+        "rosja"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-17/ukraincy-niszcza-drogowy-most-krymski-1728-dzien-wojny",
+          "data": "2026-11-17"
+        }
+      ]
+    },
+    {
+      "tytul": "OSW: największy protest w Czechach od 1989 r. nie zatrzyma ustawy o mediach publicznych",
+      "autor": "Krzysztof Dębiec (OSW), 17.11.2026",
+      "tekst": "Według autora około 400 tys. osób protestowało 15.11 w Pradze przeciw projektowi, który znosi abonament i finansuje telewizję i radio publiczne z budżetu państwa. Dębiec ocenia, że uchwalenie ustawy jest bardzo prawdopodobne, choć raczej nie przed drugą połową 2027 r., a finansowanie z budżetu uzależniłoby media publiczne od partii rządzącej.",
+      "dla_polski": "Skutek pośredni: autor wskazuje na wzór Słowacji, która zniosła abonament w 2023 r.; zmiany w mediach publicznych sąsiadów wpływają na spójność regionu w sprawach praworządności w UE.",
+      "tagi": [
+        "czechy",
+        "ue"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-17/czechy-najwiekszy-protest-od-aksamitnej-rewolucji",
+          "data": "2026-11-17"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-11-18",
+      "tekst": "18–19.11: Shenzhen – spotkanie przywódców APEC.",
+      "tagi": [
+        "chiny"
+      ]
+    },
+    {
+      "data": "2026-11-19",
+      "tekst": "19.11: Shenzhen – spotkanie Xi Jinpinga, Władimira Putina i Donalda Trumpa.",
+      "tagi": [
+        "usa",
+        "chiny",
+        "rosja"
+      ]
+    },
+    {
+      "data": "2026-11-19",
+      "tekst": "19.11: Berlin – szczyt koalicji chętnych.",
+      "tagi": [
+        "ukraina",
+        "niemcy"
+      ]
+    },
+    {
+      "data": "2026-11-20",
+      "tekst": "20.11: Bruksela – szczyt UE–Wielka Brytania.",
+      "tagi": [
+        "ue",
+        "wielka-brytania"
+      ]
+    },
+    {
+      "data": "2026-11-26",
+      "tekst": "26–27.11: Bruksela – nadzwyczajna Rada Europejska w sprawie wieloletnich ram finansowych 2028–2034 (termin wstępny).",
+      "tagi": [
+        "ue"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-12-01",
+      "tekst": "Estonia – zapowiedziane zamknięcie drogowych przejść granicznych z Rosją",
+      "tagi": [
+        "estonia"
+      ],
+      "poza_kalendarium": "Decyzja administracyjna państwa, nie spotkanie ani wybory."
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [
+      {
+        "tytul": "Czechy: największy protest od aksamitnej rewolucji",
+        "autor": "Krzysztof Dębiec",
+        "data": "2026-11-17",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-17/czechy-najwiekszy-protest-od-aksamitnej-rewolucji"
+      },
+      {
+        "tytul": "Ćwiczenia „Koalicja 26.2”: test gotowości rozmieszczenia sił Koalicji Chętnych na Ukrainie",
+        "autor": "Piotr Szymański",
+        "data": "2026-11-17",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-17/cwiczenia-koalicja-262-test-gotowosci-rozmieszczenia-sil-koalicji"
+      },
+      {
+        "tytul": "Ukraińcy niszczą drogowy Most Krymski (1728. dzień wojny)",
+        "autor": "Andrzej Wilk, Mateusz Goliszewski",
+        "data": "2026-11-17",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-17/ukraincy-niszcza-drogowy-most-krymski-1728-dzien-wojny"
+      }
+    ],
+    "pism": [],
+    "nieodczytane": [
+      "pism"
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n10",
+      "prog": "dokumentacja",
+      "tekst": "Polska: według PAP Dowództwo Operacyjne Rodzajów Sił Zbrojnych poinformowało 17.11, że w związku z rosyjskimi uderzeniami na zachodnią Ukrainę w polskiej przestrzeni powietrznej operowało lotnictwo wojskowe, a system obrony powietrznej postawiono w gotowość; według doniesień medialnych lotniska w Lublinie i Rzeszowie czasowo wstrzymały ruch.",
+      "sprawdzono": [
+        "Strona PAP z komunikatem: otwiera się bez treści",
+        "Wpis DO RSZ w serwisie X: zablokowany dla narzędzi (HTTP 402)",
+        "Wyszukiwarka – DO RSZ 17.11: tylko komunikaty z innych dni",
+        "Kanał RSS Polsat News 16–17.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n1",
+      "prog": "dokumentacja",
+      "tekst": "UE i Rosja: według Meduzy wysoka przedstawiciel UE {{o:kaja-kallas|Kaja Kallas}} powiedziała 17.11 w Brukseli, że UE nadal rozważa zakaz wjazdu dla Rosjan, którzy walczyli na Ukrainie, a przewodniczący Dumy Państwowej Wiaczesław Wołodin zagroził jej za to karą do 20 lat więzienia.",
+      "sprawdzono": [
+        "Meduza 17.11: jedyne źródło z poziomów 1–2",
+        "Kanał RSS Euronews 17.11: brak wzmianki",
+        "Kanał RSS Polsat News 16–17.11: brak wzmianki",
+        "Newsletter AP „Morning Wire” 17.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n3",
+      "prog": "dokumentacja",
+      "tekst": "Bułgaria: według Euronews, który powołuje się na bułgarskie Ministerstwo Obrony, gazowiec Gas Husky pod banderą Liberii z 19 Filipińczykami na pokładzie zatonął 17.11 około 50 mil morskich od wybrzeża Bułgarii; przyczyna nie jest znana.",
+      "sprawdzono": [
+        "Euronews 17.11: jedyne źródło z poziomów 1–2",
+        "Kanał RSS Kyiv Independent 16–17.11: brak wzmianki",
+        "Kanał RSS Polsat News 16–17.11: brak wzmianki",
+        "Wyszukiwarka „Gas Husky”: brak innych relacji"
+      ]
+    },
+    {
+      "id": "n4",
+      "prog": "dokumentacja",
+      "tekst": "Polska: według Polsat News ambasada USA w Warszawie opublikowała 17.11 ostrzeżenie dla Amerykanów przed możliwymi atakami terrorystycznymi w Europie w okresie świątecznym; podobne alerty wydało co najmniej 11 placówek USA w Europie.",
+      "sprawdzono": [
+        "Polsat News 17.11: tylko poziom 3",
+        "Wyszukiwarka – strona ambasady USA w Polsce: brak komunikatu z 17.11",
+        "Kanał RSS Kyiv Independent 16–17.11: brak wzmianki",
+        "Newsletter AP „Morning Wire” 17.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n5",
+      "prog": "dokumentacja",
+      "tekst": "Węgry i Ukraina: według Kyiv Independent Węgry wstrzymały na dwa dni ruch kolejowy z Ukrainą po rosyjskim ataku na obwód zakarpacki; Ukrzaliznycia nie zgłosiła uszkodzeń infrastruktury kolejowej.",
+      "sprawdzono": [
+        "Kyiv Independent 17.11: jedyne źródło z poziomów 1–2",
+        "Kanał RSS Euronews 17.11: brak wzmianki",
+        "Kanał RSS Polsat News 16–17.11: brak wzmianki",
+        "Kanał RSS Meduzy 17.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n6",
+      "prog": "dokumentacja",
+      "tekst": "Francja i Rosja: według Euronews Francja nazwała absurdem rosyjskie twierdzenia, że francuscy żołnierze bezpośrednio uczestniczą w wojnie na Ukrainie.",
+      "sprawdzono": [
+        "Euronews 17.11: jedyne źródło z poziomów 1–2",
+        "Kanał RSS Kyiv Independent 16–17.11: brak wzmianki",
+        "Kanał RSS Polsat News 16–17.11: brak wzmianki",
+        "Kanał RSS Meduzy 17.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n7",
+      "prog": "dokumentacja",
+      "tekst": "Finlandia: według Polsat News prezydent Finlandii {{o:alexander-stubb|Alexander Stubb}} powiedział 17.11, że Europa powinna negocjować z Rosją o ładzie bezpieczeństwa dopiero po zakończeniu wojny na Ukrainie.",
+      "sprawdzono": [
+        "Polsat News 17.11: tylko poziom 3",
+        "Kanał RSS Kyiv Independent 16–17.11: brak wzmianki",
+        "Kanał RSS Euronews 17.11: brak wzmianki",
+        "Kanał RSS Meduzy 17.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n8",
+      "prog": "dokumentacja",
+      "tekst": "Iran i USA: według Euronews Iran zaprzeczył doniesieniom mediów, opartym na danych amerykańskiego wywiadu, że planował atak brudną bombą w Waszyngtonie; Trump ostro ostrzegł Teheran.",
+      "sprawdzono": [
+        "Euronews 17.11: jedyne źródło z poziomów 1–2",
+        "Newsletter Reutersa „Iran Briefing” 17.11: brak wzmianki",
+        "Newsletter AP „Morning Wire” 17.11: brak wzmianki",
+        "Kanał RSS Polsat News 16–17.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n9",
+      "prog": "dokumentacja",
+      "tekst": "Bułgaria i Ukraina: według analizy OSW z 17.11 Bułgaria zapowiedziała wstrzymanie dostaw uzbrojenia dla Ukrainy, a ukraińskie drony trafiły rosyjską korwetę w Zatoce Fińskiej.",
+      "sprawdzono": [
+        "OSW 17.11: jedyne źródło, wzmianka w przeglądzie wojny",
+        "Kanał RSS Kyiv Independent 16–17.11: brak wzmianki",
+        "Kanał RSS Euronews 17.11: brak wzmianki",
+        "Kanał RSS Polsat News 16–17.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n11",
+      "prog": "dokumentacja",
+      "tekst": "Polska: według Super Expressu (Portal Obronny) Polska Grupa Zbrojeniowa i Ministerstwo Aktywów Państwowych sfinalizowały 16.11 umowy inwestycyjne dla spółek Mesko i Jelcz, finansowane z Funduszu Inwestycji Kapitałowych.",
+      "sprawdzono": [
+        "Wyszukiwarka – komunikat PGZ: brak z listopada 2026",
+        "Wyszukiwarka – strona MAP gov.pl: tylko komunikaty z 2025 i marca 2026",
+        "Wyszukiwarka – Agencja Uzbrojenia listopad 2026: brak"
+      ]
+    },
+    {
+      "id": "n12",
+      "prog": "dokumentacja",
+      "tekst": "Mongolia i Kanada: według doniesień przypisywanych AP, że prezydent Mongolii zapowiedział rezygnację, a przywódca Chin Xi Jinping i premier Kanady Mark Carney uzgodnili obniżki ceł.",
+      "sprawdzono": [
+        "Newsletter AP „Morning Wire” 17.11: brak wzmianki",
+        "Newsletter Reutersa „Daily Briefing” 17.11: brak wzmianki",
+        "Kanał RSS Euronews 17.11: brak wzmianki"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-11-16#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 17.11: brak wypowiedzi Uszakowa",
+        "Kanał RSS Euronews 17.11: brak wypowiedzi Uszakowa",
+        "Newsletter Reutersa „Daily Briefing” 17.11: brak wzmianki"
+      ],
+      "powod": "Wypowiedź Uszakowa podaje tylko Meduza za agencją Interfax."
+    },
+    {
+      "dotyczy": "2026-11-16#n2",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Newsletter Reutersa „Iran Briefing” 17.11: brak wzmianki",
+        "Newsletter AP „Morning Wire” 17.11: brak wzmianki",
+        "Euronews 17.11 (Katar i Iran): brak wzmianki o lotniskowcu"
+      ],
+      "powod": "Przybycie lotniskowca opisuje tylko Euronews."
+    },
+    {
+      "dotyczy": "2026-11-16#n3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Newsletter Reutersa „Iran Briefing” 17.11: brak wzmianki",
+        "Newsletter AP „Morning Wire” 17.11: brak wzmianki",
+        "Kanał RSS Euronews 17.11: brak wzmianki"
+      ],
+      "powod": "Zakaz inspekcji MAEA podaje tylko France 24."
+    },
+    {
+      "dotyczy": "2026-11-16#n4",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 16–17.11: brak wzmianki",
+        "Kanał RSS Euronews 17.11: brak wzmianki",
+        "Kanał RSS Polsat News 16–17.11: brak wzmianki"
+      ],
+      "powod": "Brak komunikatu Komisji Europejskiej i drugiego źródła o wypłacie."
+    },
+    {
+      "dotyczy": "2026-11-16#n6",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Euronews 17.11: kolejne teksty tej samej redakcji",
+        "Kanał RSS Kyiv Independent 16–17.11: brak wzmianki",
+        "Newsletter AP „Morning Wire” 17.11: brak wzmianki",
+        "Kanał RSS Polsat News 16–17.11: brak wzmianki"
+      ],
+      "powod": "Plan opisuje tylko Euronews."
+    },
+    {
+      "dotyczy": "2026-11-16#n7",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 16–17.11: brak wzmianki",
+        "Kanał RSS Euronews 17.11: brak wzmianki",
+        "Kanał RSS Meduzy 17.11: brak wzmianki"
+      ],
+      "powod": "Kontrolę gotowości opisuje tylko Kyiv Independent za państwową agencją BiełTA."
+    },
+    {
+      "dotyczy": "2026-11-16#n8",
+      "wynik": "ODPADA",
+      "powod": "Dobowy bilans ataków stracił aktualność; kolejny zmasowany atak z 17.11 opisuje pozycja z1."
+    },
+    {
+      "dotyczy": "2026-11-16#n9",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Euronews 17.11: brak wzmianki",
+        "Kanał RSS Polsat News 16–17.11: brak wzmianki",
+        "Newsletter AP „Morning Wire” 17.11: brak wzmianki"
+      ],
+      "powod": "Konferencję zapowiada tylko Kyiv Independent, bez daty."
+    },
+    {
+      "dotyczy": "2026-11-16#n10",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 16–17.11: brak wzmianki",
+        "Kanał RSS Euronews 17.11: brak wzmianki",
+        "Kanał RSS Polsat News 16–17.11: brak wzmianki"
+      ],
+      "powod": "Wypowiedź opisuje tylko Meduza."
+    },
+    {
+      "dotyczy": "2026-11-16#n11",
+      "wynik": "ODPADA",
+      "powod": "Sprawa polityki wewnętrznej Izraela bez następstwa międzynarodowego."
+    },
+    {
+      "dotyczy": "2026-11-16#n12",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Newsletter AP „Morning Wire” 17.11: brak wzmianki",
+        "Newsletter Reutersa „Daily Briefing” 17.11: brak wzmianki",
+        "Kanał RSS Euronews 17.11: brak wzmianki"
+      ],
+      "powod": "Brak nowych relacji poza tekstem AP z 16.11, który nie podaje konkretnego zdarzenia."
+    },
+    {
+      "dotyczy": "2026-11-16#n13",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Euronews 17.11: wszystkich 12 członków załogi uratowano, przyczyna nieznana",
+        "Kanał RSS Kyiv Independent 16–17.11: brak wzmianki",
+        "Kanał RSS Polsat News 16–17.11: brak wzmianki"
+      ],
+      "powod": "Brak komunikatu bułgarskich władz o przyczynie zatonięcia."
+    },
+    {
+      "dotyczy": "2026-11-16#n14",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Newsletter AP „Morning Wire” 17.11: brak wzmianki",
+        "Newsletter Reutersa „Daily Briefing” 17.11: brak wzmianki",
+        "Kanał RSS Euronews 17.11: brak wzmianki"
+      ],
+      "powod": "Brak komunikatu NATO i drugiego źródła."
+    }
+  ],
+  "do_sprawdzenia": [
+    "Shenzhen 19.11 – przebieg spotkania Xi–Putin–Trump; ewentualne spotkanie Trump–Kim",
+    "Berlin 19.11 – wyniki szczytu koalicji chętnych i rozmów z wysłannikami USA; skład europejskiej grupy negocjacyjnej",
+    "Manila – spotkanie Quad; szczyt ASEAN – drugie źródło",
+    "Most Krymski – stan przeprawy kolejowej; żegluga przez Cieśninę Kerczeńską",
+    "Bułgaria – Gas Husky i Betul 8: komunikat Ministerstwa Obrony; zapowiedź wstrzymania dostaw broni dla Ukrainy",
+    "Iran i USA – Bahrajn, cieśnina Ormuz, rozmowy Kataru z Iranem",
+    "Serbia – wybór przewodniczącego parlamentu i zarządzenie wyborów prezydenckich; Mongolia – rezygnacja prezydenta",
+    "Genewa – decyzja konferencji przeglądowej CCW o negocjacjach w sprawie broni autonomicznej",
+    "Polska – DO RSZ, SG, ŻW, ABW; ambasada USA – alert; Agencja Uzbrojenia i PGZ – umowy",
+    "PISM – lista publikacji z 15–17.11"
+  ],
+  "nota": "Lista publikacji PISM nie została odczytana: listy działów Komentarze i Biuletyny, lista główna, wersja angielska i wyszukiwarka nie podały tekstów z ostatnich 3 dni. Dział Świat Onetu nieodnaleziony w wyszukiwarce. Komunikat DO RSZ z 17.11 niedostępny: strona PAP otwiera się bez treści, a serwis X blokuje narzędzia."
+}

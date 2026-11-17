@@ -1919,6 +1919,27 @@
           "data": "2026-11-15"
         }
       ]
+    },
+    {
+      "id": "boris-pistorius",
+      "imie": "Boris Pistorius",
+      "funkcja": "Minister obrony Niemiec.",
+      "kraj": [
+        "niemcy"
+      ],
+      "zweryfikowano": "2026-11-17",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/17/germany-and-norway-to-buy-more-us-air-defences-for-ukraine-including-patriot-missiles",
+          "data": "2026-11-17"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/uk-pledges-over-1-000-short-range-missiles-for-ukraine-in-240-million-pound-air-defense-package-2/",
+          "data": "2026-11-17"
+        }
+      ]
     }
   ]
 }

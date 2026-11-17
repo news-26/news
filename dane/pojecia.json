@@ -420,6 +420,18 @@
       "nazwa": "Wyłączna strefa ekonomiczna",
       "pelna": "Wyłączna strefa ekonomiczna (WSE)",
       "definicja": "Pas morza do 200 mil morskich od wybrzeża, w którym państwo ma wyłączne prawo do połowów i wydobycia surowców. Nie jest wodami terytorialnymi – obowiązuje w nim swoboda żeglugi."
+    },
+    {
+      "id": "udcg",
+      "nazwa": "UDCG",
+      "pelna": "Grupa Kontaktowa ds. Obrony Ukrainy (format Ramstein)",
+      "definicja": "Forum ok. 50 państw koordynujące pomoc wojskową dla Ukrainy. Od 2025 r. współprzewodniczą jej Wielka Brytania i Niemcy; posiedzenia odbywają się zwykle w siedzibie NATO w Brukseli."
+    },
+    {
+      "id": "quad",
+      "nazwa": "Quad",
+      "pelna": "Czterostronny Dialog Bezpieczeństwa",
+      "definicja": "Format współpracy USA, Japonii, Indii i Australii w sprawach bezpieczeństwa w regionie Indo-Pacyfiku, postrzegany jako przeciwwaga dla Chin."
     }
   ]
 }

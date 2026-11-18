@@ -152,12 +152,12 @@
       "kraj": [
         "obronnosc-polski"
       ],
-      "zweryfikowano": "2026-10-27",
+      "zweryfikowano": "2026-11-18",
       "zrodla": [
         {
-          "nazwa": "MON (gov.pl)",
-          "url": "https://www.gov.pl/web/obrona-narodowa/strategiczne-partnerstwo-polski-i-wielkiej-brytanii-podpisano-trzyletni-plan-wspolpracy-obronnej",
-          "data": "2026-10-27"
+          "nazwa": "PAP (za RMF24)",
+          "url": "https://www.rmf24.pl/fakty/polska/news-wiedzielismy-szef-mon-o-udaremnieniu-rosyjskiej-operacji-prz,nIdn,1026702",
+          "data": "2026-11-18"
         }
       ]
     },
@@ -1177,12 +1177,12 @@
       "kraj": [
         "obronnosc-polski"
       ],
-      "zweryfikowano": "2026-11-10",
+      "zweryfikowano": "2026-11-18",
       "zrodla": [
         {
-          "nazwa": "PAP (za Radio Maryja)",
-          "url": "https://www.radiomaryja.pl/informacje/t-siemoniak-abw-zatrzymala-dwoch-podejrzanych-o-szpiegostwo-i-dywersje-na-rzecz-rosji/",
-          "data": "2026-11-10"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/the-goal-was-to-halt-aid-to-ukraine-russia-planned-high-casualty-false-flag-attack-near-kaliningrad-border-rzeczpospolita-reports/",
+          "data": "2026-11-18"
         }
       ]
     },
@@ -1938,6 +1938,27 @@
           "nazwa": "Kyiv Independent",
           "url": "https://kyivindependent.com/uk-pledges-over-1-000-short-range-missiles-for-ukraine-in-240-million-pound-air-defense-package-2/",
           "data": "2026-11-17"
+        }
+      ]
+    },
+    {
+      "id": "mary-peltola",
+      "imie": "Mary Peltola",
+      "funkcja": "Senator elekt USA ze stanu Alaska (Partia Demokratyczna), wybrana w listopadzie 2026 r.",
+      "kraj": [
+        "usa"
+      ],
+      "zweryfikowano": "2026-11-18",
+      "zrodla": [
+        {
+          "nazwa": "AP (newsletter)",
+          "url": "https://apnews.com/article/alaska-senate-peltola-sullivan-congress-f1fd4d243bf764ec46ff94db4c792953",
+          "data": "2026-11-17"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/us/democrat-peltola-wins-alaska-securing-56-44-us-senate-majority-2026-11-18/",
+          "data": "2026-11-18"
         }
       ]
     }

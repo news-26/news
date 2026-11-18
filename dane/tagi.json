@@ -6,20 +6,20 @@
       "nazwa": "Ukraina",
       "grupa": "miejsce",
       "opis": "Wojna Rosji z Ukrainą: ataki, obrona powietrzna, polityka Kijowa, pomoc zachodnia.",
-      "stan": "Ukraina zniszczyła 17.11 przęsło drogowe mostu Krymskiego; Rosja uderzyła rakietami balistycznymi w dwa mosty w Kijowie.",
+      "stan": "Komisja Europejska zaproponowała 18.11 pożyczkę dla Ukrainy na 2027 r. do 45 mld euro; przez most Krymski znów jeżdżą pociągi, ruch drogowy wstrzymany.",
       "stan_zrodla": [
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/ukrainian-forces-reportedly-strike-crimean-bridge-after-russian-missiles-hit-kyiv-bridges/",
-          "data": "2026-11-17"
+          "url": "https://kyivindependent.com/european-commission-approves-proposal-to-provide-additional-49-5-billion-to-ukraine-2/",
+          "data": "2026-11-18"
         },
         {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/russia-says-ukraine-struck-its-bridge-crimea-second-day-biggest-drone-attack-war-2026-11-17/",
-          "data": "2026-11-17"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/new-video-shows-damage-to-crimean-bridge-as-train-traffic-resumes/",
+          "data": "2026-11-18"
         }
       ],
-      "stan_data": "2026-11-17"
+      "stan_data": "2026-11-18"
     },
     {
       "id": "front",
@@ -66,18 +66,18 @@
       "nazwa": "Rosja",
       "grupa": "miejsce",
       "opis": "Polityka wewnętrzna, armia i budżet Rosji.",
-      "stan": "Most Krymski stracił 17.11 przęsło drogowe po ukraińskim ataku; ruch drogowy i kolejowy wstrzymano.",
-      "stan_data": "2026-11-17",
+      "stan": "Ukraińskie drony zaatakowały 18.11 rafinerie Afipską i Ilską w Kraju Krasnodarskim; Putin spotkał się w Shenzhen z Xi Jinpingiem i Donaldem Trumpem.",
+      "stan_data": "2026-11-18",
       "stan_zrodla": [
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/ukrainian-forces-reportedly-strike-crimean-bridge-after-russian-missiles-hit-kyiv-bridges/",
-          "data": "2026-11-17"
+          "url": "https://kyivindependent.com/2-russian-oil-refineries-reportedly-targeted-in-overnight-drone-attack-on-krasnodar-krai/",
+          "data": "2026-11-18"
         },
         {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/russia-says-ukraine-struck-its-bridge-crimea-second-day-biggest-drone-attack-war-2026-11-17/",
-          "data": "2026-11-17"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/18/xi-calls-ties-with-russia-firm-as-a-mountain-as-he-meets-putin-ahead-of-three-way-summit-with-trump",
+          "data": "2026-11-18"
         }
       ]
     },
@@ -86,25 +86,20 @@
       "nazwa": "Królewiec",
       "grupa": "miejsce",
       "opis": "Obwód królewiecki: militaryzacja, tranzyt, napięcia z NATO.",
-      "stan": "FSB ogłosiła 11.11 zatrzymanie w obwodzie królewieckim dwóch obywateli Polski podejrzanych o szpiegostwo i zakaz wjazdu dla siedmiu kolejnych Polaków.",
+      "stan": "Polska wzmocniła ochronę granicy z obwodem królewieckim po ostrzeżeniach o planowanej rosyjskiej prowokacji.",
       "stan_zrodla": [
         {
-          "nazwa": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-11/russia-says-two-polish-spies-detained-in-kaliningrad-region",
-          "data": "2026-11-11"
+          "nazwa": "PAP (za RMF24)",
+          "url": "https://www.rmf24.pl/fakty/polska/news-wiedzielismy-szef-mon-o-udaremnieniu-rosyjskiej-operacji-prz,nIdn,1026702",
+          "data": "2026-11-18"
         },
         {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/11/11/on-poland-s-independence-day-fsb-says-it-detained-two-poles-in-russia-on-espionage-charges",
-          "data": "2026-11-11"
-        },
-        {
-          "nazwa": "Defence24",
-          "url": "https://defence24.pl/geopolityka/fsb-oglasza-rozbicie-polskiej-siatki-dobrzynski-prowokacja-i-dezinformacja",
-          "data": "2026-11-11"
+          "nazwa": "Rzeczpospolita",
+          "url": "https://www.rp.pl/konflikty-zbrojne/art45490041-prowokacja-z-duza-liczba-ofiar-i-zrzuceniem-winy-na-ukraine-ustalilismy-co-powstrzymalo-rosje",
+          "data": "2026-11-18"
         }
       ],
-      "stan_data": "2026-11-12"
+      "stan_data": "2026-11-18"
     },
     {
       "id": "bialorus",
@@ -131,25 +126,20 @@
       "nazwa": "Wojna hybrydowa",
       "grupa": "temat",
       "opis": "Działania hybrydowe: drony, sabotaż, dezinformacja, cyberataki, presja migracyjna.",
-      "stan": "Estonia przypisuje próbę podpalenia zakładu producenta dronów pod Tallinem rosyjskiemu GRU; Kreml odrzuca oskarżenia.",
+      "stan": "Według „Rzeczpospolitej” rosyjskie służby planowały przy granicy z obwodem królewieckim prowokację, którą miano przypisać Ukrainie.",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/estonia-summons-russian-diplomat-over-sabotage-attempt-on-drone-manufacturer/",
-          "data": "2026-11-16"
+          "nazwa": "PAP (za RMF24)",
+          "url": "https://www.rmf24.pl/fakty/polska/news-wiedzielismy-szef-mon-o-udaremnieniu-rosyjskiej-operacji-prz,nIdn,1026702",
+          "data": "2026-11-18"
         },
         {
-          "nazwa": "Reuters (za Polsat News)",
-          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-16/kreml-reaguje-na-decyzje-estonii-nie-mozemy-zaakceptowac/",
-          "data": "2026-11-16"
-        },
-        {
-          "nazwa": "Reuters",
-          "url": "https://www.reuters.com/world/europe/estonia-close-russian-border-crossings-after-attempted-arson-attack-2026-11-15/",
-          "data": "2026-11-15"
+          "nazwa": "Rzeczpospolita",
+          "url": "https://www.rp.pl/konflikty-zbrojne/art45490041-prowokacja-z-duza-liczba-ofiar-i-zrzuceniem-winy-na-ukraine-ustalilismy-co-powstrzymalo-rosje",
+          "data": "2026-11-18"
         }
       ],
-      "stan_data": "2026-11-16"
+      "stan_data": "2026-11-18"
     },
     {
       "id": "uzbrojenie",
@@ -196,20 +186,20 @@
       "nazwa": "ObronnośćPolski",
       "grupa": "temat",
       "opis": "Siły zbrojne RP, procedury obrony powietrznej, budżet obronny.",
-      "stan": "W Nowej Dębie trwają ćwiczenia „Koalicja 26.2” – pierwsze ćwiczenia Wielonarodowych Sił dla Ukrainy z udziałem wojsk 11 państw; Polska jest gospodarzem.",
+      "stan": "Szef MON Władysław Kosiniak-Kamysz powiedział 18.11, że służby wiedziały o planowanej rosyjskiej prowokacji dywersyjnej przy granicy z obwodem królewieckim.",
       "stan_zrodla": [
         {
-          "nazwa": "MON (gov.pl)",
-          "url": "https://www.gov.pl/web/obrona-narodowa/zapowiedz-dla-mediow---cwiczenie-koalicja-262-w-nowej-debie-koalicja-chetnych",
-          "data": "2026-11-12"
+          "nazwa": "PAP (za RMF24)",
+          "url": "https://www.rmf24.pl/fakty/polska/news-wiedzielismy-szef-mon-o-udaremnieniu-rosyjskiej-operacji-prz,nIdn,1026702",
+          "data": "2026-11-18"
         },
         {
-          "nazwa": "OSW",
-          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-10/pierwsze-cwiczenia-kontyngentu-sil-wsparcia-ukrainy-1721-dzien-wojny",
-          "data": "2026-11-10"
+          "nazwa": "Rzeczpospolita",
+          "url": "https://www.rp.pl/konflikty-zbrojne/art45490041-prowokacja-z-duza-liczba-ofiar-i-zrzuceniem-winy-na-ukraine-ustalilismy-co-powstrzymalo-rosje",
+          "data": "2026-11-18"
         }
       ],
-      "stan_data": "2026-11-12"
+      "stan_data": "2026-11-18"
     },
     {
       "id": "dyplomacja-rp",
@@ -251,43 +241,38 @@
       "nazwa": "Iran",
       "grupa": "miejsce",
       "opis": "Iran, Cieśnina Ormuz, rozmowy z USA i mediatorami.",
-      "stan": "Korpus Strażników Rewolucji Islamskiej zaatakował 17.11 dronami radar USA w Bahrajnie; w cieśninie Ormuz ponownie trafiono tankowiec.",
+      "stan": "Iran zaatakował w nocy na 18.11 stanowiska USA w Kuwejcie po amerykańskim uderzeniu na wyspę Keszm; w regionie są trzy lotniskowce USA.",
       "stan_zrodla": [
         {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/middle-east/bahrain-says-it-intercepts-iranian-air-attacks-irgc-says-it-targets-us-radar-2026-11-17/",
-          "data": "2026-11-17"
+          "url": "https://www.reuters.com/world/middle-east/bahrain-warns-potential-threat-urges-residents-seek-safety-2026-11-17/",
+          "data": "2026-11-18"
         },
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/17/qatar-warns-gulf-escalation-poses-grave-danger-and-announces-new-talks-with-iran",
-          "data": "2026-11-17"
+          "nazwa": "AP (newsletter)",
+          "url": "https://apnews.com/article/iran-us-kuwait-gulf-attacks-bahrain-b1f0b530cffe951e6fcc1e27b2e1af94",
+          "data": "2026-11-18"
         }
       ],
-      "stan_data": "2026-11-17"
+      "stan_data": "2026-11-18"
     },
     {
       "id": "usa",
       "nazwa": "USA",
       "grupa": "miejsce",
       "opis": "Polityka USA wobec Europy, Rosji, Ukrainy i Bliskiego Wschodu.",
-      "stan": "Iran zaatakował 17.11 dronami radar USA w Bahrajnie; Trump przyleciał do Manili przed spotkaniem Quad i szczytem APEC.",
-      "stan_data": "2026-11-17",
+      "stan": "Trump spotkał Putina 18.11 w Shenzhen; Iran zaatakował stanowiska USA w Kuwejcie po uderzeniu na Keszm.",
+      "stan_data": "2026-11-18",
       "stan_zrodla": [
         {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/middle-east/bahrain-says-it-intercepts-iranian-air-attacks-irgc-says-it-targets-us-radar-2026-11-17/",
-          "data": "2026-11-17"
+          "nazwa": "AP (newsletter)",
+          "url": "https://apnews.com/article/trump-xi-marcos-apec-china-philippines-3fc8110f4b4414bfb2c03596f61da862",
+          "data": "2026-11-18"
         },
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/17/qatar-warns-gulf-escalation-poses-grave-danger-and-announces-new-talks-with-iran",
-          "data": "2026-11-17"
-        },
-        {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/china/trump-kick-off-asia-trip-with-quad-talks-manila-ahead-china-visit-2026-11-17/",
-          "data": "2026-11-17"
+          "nazwa": "AP (newsletter)",
+          "url": "https://apnews.com/article/iran-us-kuwait-gulf-attacks-bahrain-b1f0b530cffe951e6fcc1e27b2e1af94",
+          "data": "2026-11-18"
         }
       ]
     },
@@ -296,18 +281,18 @@
       "nazwa": "Chiny",
       "grupa": "miejsce",
       "opis": "Chiny w polityce światowej i wobec Europy.",
-      "stan": "Według Reutersa USA chcą zablokować import chińskiego sprzętu do centrów danych; Trump zmierza na szczyt APEC w Shenzhen.",
-      "stan_data": "2026-11-17",
+      "stan": "Xi Jinping przyjął 18.11 w Shenzhen Donalda Trumpa i Władimira Putina na szczycie APEC; rozmowa trójstronna zaplanowana na 19.11.",
+      "stan_data": "2026-11-18",
       "stan_zrodla": [
         {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/trumps-china-data-center-curb-advances-despite-amazon-google-meta-lobbying-2026-11-17/",
-          "data": "2026-11-17"
+          "url": "https://www.reuters.com/world/chinas-xi-calls-free-open-trade-apec-summit-2026-11-18/",
+          "data": "2026-11-18"
         },
         {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/china/trump-kick-off-asia-trip-with-quad-talks-manila-ahead-china-visit-2026-11-17/",
-          "data": "2026-11-17"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/18/trump-arrives-in-china-for-unprecedented-trilateral-encounter-with-xi-and-putin",
+          "data": "2026-11-18"
         }
       ]
     },
@@ -336,15 +321,20 @@
       "nazwa": "UE",
       "grupa": "temat",
       "opis": "Unia Europejska: Rada, Komisja, obronność, budżet WRF 2028–2034.",
-      "stan": "Szczyt UE–Wielka Brytania 20.11 ma przypieczętować umowy o handlu żywnością, energii i mobilności młodzieży.",
+      "stan": "Komisja Europejska zaproponowała 18.11 pożyczkę dla Ukrainy na 2027 r. do 45 mld euro; decyzja należy do państw członkowskich.",
       "stan_zrodla": [
         {
-          "nazwa": "AP (newsletter)",
-          "url": "https://apnews.com/article/andy-burnham-lord-mayor-banquet-speech-brexit-073f83b31ac8372ab7835e06a830261b",
-          "data": "2026-11-16"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/european-commission-approves-proposal-to-provide-additional-49-5-billion-to-ukraine-2/",
+          "data": "2026-11-18"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/18/europe-tonight-eu-proposes-45bn-ukraine-loan-as-trump-xi-and-putin-meet",
+          "data": "2026-11-18"
         }
       ],
-      "stan_data": "2026-11-17"
+      "stan_data": "2026-11-18"
     },
     {
       "id": "onz",
@@ -632,18 +622,18 @@
       "nazwa": "Wybory",
       "grupa": "temat",
       "opis": "Wybory w Europie i na świecie; wyniki wstępne odróżniane od oficjalnych.",
-      "stan": "3.11 wybory połowy kadencji w USA wygrali demokraci, którzy zdobyli większość w obu izbach Kongresu.",
-      "stan_data": "2026-11-04",
+      "stan": "Demokratka Mary Peltola wygrała wybory do Senatu USA na Alasce; demokraci będą mieli większość 56 do 44.",
+      "stan_data": "2026-11-18",
       "stan_zrodla": [
         {
-          "nazwa": "Associated Press (newsletter)",
-          "url": "https://apnews.com/article/midterm-election-house-senate-democrats-republicans-trump-f126e12e05b579a327b98481c0ae2226",
-          "data": "2026-11-04"
+          "nazwa": "AP (newsletter)",
+          "url": "https://apnews.com/article/alaska-senate-peltola-sullivan-congress-f1fd4d243bf764ec46ff94db4c792953",
+          "data": "2026-11-17"
         },
         {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/legal/government/democrats-seize-congress-sweeping-midterm-repudiation-trump-2026-11-04/",
-          "data": "2026-11-04"
+          "url": "https://www.reuters.com/world/us/democrat-peltola-wins-alaska-securing-56-44-us-senate-majority-2026-11-18/",
+          "data": "2026-11-18"
         }
       ]
     },

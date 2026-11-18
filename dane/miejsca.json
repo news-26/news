@@ -859,6 +859,41 @@
       "lon": 36.51,
       "lat": 45.31,
       "kraj": "ukraina"
+    },
+    {
+      "id": "afipski",
+      "nazwa": "Afipski (Kraj Krasnodarski)",
+      "lon": 38.85,
+      "lat": 44.9,
+      "kraj": "rosja"
+    },
+    {
+      "id": "granica-pl-krolewiec",
+      "nazwa": "Granica Polski z obwodem królewieckim",
+      "lon": 20.6,
+      "lat": 54.35,
+      "kraj": "Polska"
+    },
+    {
+      "id": "kuwejt",
+      "nazwa": "Kuwejt",
+      "lon": 47.98,
+      "lat": 29.37,
+      "kraj": "Kuwejt"
+    },
+    {
+      "id": "nusajrat",
+      "nazwa": "Nusajrat (Strefa Gazy)",
+      "lon": 34.39,
+      "lat": 31.45,
+      "kraj": "Palestyna"
+    },
+    {
+      "id": "alaska",
+      "nazwa": "Alaska (Anchorage)",
+      "lon": -149.9,
+      "lat": 61.22,
+      "kraj": "usa"
     }
   ]
 }

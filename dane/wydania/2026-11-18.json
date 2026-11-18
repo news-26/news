@@ -1,0 +1,609 @@
+{
+  "nr": 61,
+  "data": "2026-11-18",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Prezydent USA Donald Trump i prezydent Rosji Władimir Putin uścisnęli sobie dłonie 18.11 w Shenzhen na szczycie APEC, którego gospodarzem jest Xi Jinping. Według AP Trump spotka się z Putinem osobno, niezależnie od zaplanowanej na 19.11 **rozmowy trzech przywódców**.",
+    "Komisja Europejska zaproponowała 18.11 nową pożyczkę dla Ukrainy na 2027 r. w wysokości **do 45 mld euro**. Ukraina spłaci ją dopiero wtedy, gdy otrzyma reparacje od Rosji.",
+    "Szef MON Władysław Kosiniak-Kamysz powiedział 18.11, że polskie służby wiedziały o **planowanej rosyjskiej prowokacji dywersyjnej** przy granicy z obwodem królewieckim. Według „Rzeczpospolitej” prowokację miano przypisać Ukrainie.",
+    "Iran ogłosił, że w nocy na 18.11 zaatakował amerykańskie stanowiska wojskowe w Kuwejcie po uderzeniu USA na irańską wyspę Keszm. To **pierwszy atak Iranu na Kuwejt od września**."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-11-18",
+      "tagi": [
+        "ukraina",
+        "rosja"
+      ],
+      "miejsce": "afipski",
+      "krotko": "Kraj Krasnodarski: rafinerie",
+      "tekst": "Ukraińskie drony zaatakowały w nocy na 18.11 **dwie rafinerie w Kraju Krasnodarskim w Rosji**, Afipską i Ilską; ukraiński Sztab Generalny potwierdził atak. Według Meduzy w rejonie siewierskim wybuchły pożary, a cztery osoby zostały ranne.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/2-russian-oil-refineries-reportedly-targeted-in-overnight-drone-attack-on-krasnodar-krai/",
+          "data": "2026-11-18"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/18/ukrainian-drones-strike-two-oil-refineries-in-southern-russia",
+          "data": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-11-18",
+      "tagi": [
+        "ukraina",
+        "rosja"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "most-krymski",
+      "krotko": "Most Krymski: wracają pociągi",
+      "tekst": "Przez most Krymski 18.11 znów jeżdżą pociągi, ale ruch samochodowy pozostaje całkowicie wstrzymany po ukraińskich atakach z 16 i 17.11. Nagranie z przejeżdżającego pociągu pokazuje **dużą wyrwę w drogowej części mostu**.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/new-video-shows-damage-to-crimean-bridge-as-train-traffic-resumes/",
+          "data": "2026-11-18"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/11/18/see-the-damage-to-the-crimean-bridge-after-ukraine-s-strikes-new-video-filmed-from-a-passing-train-reveals-a-massive-gap-in-the-roadway",
+          "data": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "polska",
+      "data": "2026-11-18",
+      "tagi": [
+        "obronnosc-polski",
+        "hybryda",
+        "rosja",
+        "krolewiec"
+      ],
+      "miejsce": "granica-pl-krolewiec",
+      "krotko": "Granica z obw. królewieckim",
+      "tekst": "Wicepremier i minister obrony {{o:wladyslaw-kosiniak-kamysz|Władysław Kosiniak-Kamysz}} powiedział 18.11 w Jarosławiu, że **polskie służby wiedziały o planowanej rosyjskiej prowokacji dywersyjnej** przy granicy z {{p:obwod-krolewiecki|obwodem królewieckim}}; minister-koordynator służb specjalnych {{o:tomasz-siemoniak|Tomasz Siemoniak}} potwierdził tylko dodatkowe działania przy granicy. Według „Rzeczpospolitej”, która powołuje się na wysokich rangą urzędników, prowokacja miała pociągnąć wiele ofiar i zostać przypisana Ukrainie, by zatrzymać pomoc dla Kijowa.",
+      "zrodla": [
+        {
+          "nazwa": "PAP (za RMF24)",
+          "url": "https://www.rmf24.pl/fakty/polska/news-wiedzielismy-szef-mon-o-udaremnieniu-rosyjskiej-operacji-prz,nIdn,1026702",
+          "data": "2026-11-18"
+        },
+        {
+          "nazwa": "Rzeczpospolita",
+          "url": "https://www.rp.pl/konflikty-zbrojne/art45490041-prowokacja-z-duza-liczba-ofiar-i-zrzuceniem-winy-na-ukraine-ustalilismy-co-powstrzymalo-rosje",
+          "data": "2026-11-18"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/the-goal-was-to-halt-aid-to-ukraine-russia-planned-high-casualty-false-flag-attack-near-kaliningrad-border-rzeczpospolita-reports/",
+          "data": "2026-11-18"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/18/russia-planned-false-flag-operation-with-mass-casualties-on-polish-territory-rzeczpospolita-reports",
+          "data": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "instytucje",
+      "data": "2026-11-18",
+      "tagi": [
+        "ue",
+        "ukraina"
+      ],
+      "etap": "PROPOZYCJA",
+      "miejsce": "bruksela",
+      "krotko": "Bruksela: 45 mld euro dla Ukrainy",
+      "tekst": "Komisja Europejska zaproponowała 18.11 w Brukseli nową pożyczkę dla Ukrainy na 2027 r. w wysokości **do 45 mld euro**: do 25 mld euro na pomoc wojskową i do 20 mld euro na wsparcie budżetu. UE pożyczy te pieniądze na rynkach finansowych pod gwarancję swojego budżetu, a Ukraina spłaci je dopiero po otrzymaniu reparacji od Rosji; propozycję muszą jeszcze zatwierdzić państwa członkowskie.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/european-commission-approves-proposal-to-provide-additional-49-5-billion-to-ukraine-2/",
+          "data": "2026-11-18"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/18/europe-tonight-eu-proposes-45bn-ukraine-loan-as-trump-xi-and-putin-meet",
+          "data": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "swiat",
+      "data": "2026-11-18",
+      "tagi": [
+        "chiny",
+        "usa",
+        "rosja"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "shenzhen",
+      "krotko": "Shenzhen: Trump, Putin i Xi",
+      "tekst": "Prezydent USA {{o:donald-trump|Donald Trump}} i prezydent Rosji {{o:wladimir-putin|Władimir Putin}} uścisnęli sobie dłonie 18.11 w Shenzhen na szczycie {{p:apec|APEC}}, którego gospodarzem jest przewodniczący ChRL {{o:xi-jinping|Xi Jinping}}; to ich pierwsze spotkanie od sierpnia 2025 r. Według AP amerykański urzędnik potwierdził, że oprócz zaplanowanej na 19.11 **rozmowy trójstronnej Trump spotka się osobno z Putinem**.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/chinas-xi-calls-free-open-trade-apec-summit-2026-11-18/",
+          "data": "2026-11-18"
+        },
+        {
+          "nazwa": "AP (newsletter)",
+          "url": "https://apnews.com/article/trump-xi-marcos-apec-china-philippines-3fc8110f4b4414bfb2c03596f61da862",
+          "data": "2026-11-18"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/18/trump-arrives-in-china-for-unprecedented-trilateral-encounter-with-xi-and-putin",
+          "data": "2026-11-18"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/18/xi-calls-ties-with-russia-firm-as-a-mountain-as-he-meets-putin-ahead-of-three-way-summit-with-trump",
+          "data": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "id": "z6",
+      "blok": "swiat",
+      "data": "2026-11-18",
+      "tagi": [
+        "iran",
+        "usa"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "kuwejt",
+      "krotko": "Kuwejt: atak Iranu na USA",
+      "tekst": "Iran ogłosił, że w nocy na 18.11 zaatakował amerykańskie stanowiska dronów i rakiet w Kuwejcie, po tym jak USA uderzyły 17.11 na irańską wyspę Keszm w cieśninie {{p:ormuz|Ormuz}}. Według Reutersa i AP to **pierwszy atak Iranu na Kuwejt od września**.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/bahrain-warns-potential-threat-urges-residents-seek-safety-2026-11-17/",
+          "data": "2026-11-18"
+        },
+        {
+          "nazwa": "AP (newsletter)",
+          "url": "https://apnews.com/article/iran-us-kuwait-gulf-attacks-bahrain-b1f0b530cffe951e6fcc1e27b2e1af94",
+          "data": "2026-11-18"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/17/kuwait-reports-drone-attacks-as-iran-us-trade-attacks-on-qeshm-and-bahrain",
+          "data": "2026-11-17"
+        }
+      ]
+    },
+    {
+      "id": "z7",
+      "blok": "swiat",
+      "data": "2026-11-18",
+      "tagi": [
+        "inne"
+      ],
+      "kraje": [
+        "Izrael",
+        "Palestyna"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "nusajrat",
+      "krotko": "Strefa Gazy: nowa operacja",
+      "tekst": "Armia Izraela rozpoczęła 18.11 operację lądową w środkowej części Strefy Gazy, w rejonie obozów dla uchodźców Nusajrat i Al-Burajdż, mimo rozejmu obowiązującego od października 2025 r. Izrael podaje, że celem jest infrastruktura Hamasu, a **Hamas nazwał operację rażącym naruszeniem rozejmu**.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/israeli-military-begins-new-thrust-gaza-kills-three-people-2026-11-18/",
+          "data": "2026-11-18"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/18/israeli-military-launches-new-operation-on-central-gaza-despite-ceasefire",
+          "data": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "id": "z8",
+      "blok": "swiat",
+      "data": "2026-11-17",
+      "tagi": [
+        "usa",
+        "wybory"
+      ],
+      "miejsce": "alaska",
+      "krotko": "Alaska: mandat dla demokratki",
+      "tekst": "Demokratka {{o:mary-peltola|Mary Peltola}} wygrała wybory do Senatu USA na Alasce i pokonała republikańskiego senatora Dana Sullivana; wynik ogłoszono 17.11. Demokraci odbili w tych wyborach dziewięć mandatów i od stycznia **będą mieli w Senacie większość 56 do 44**.",
+      "zrodla": [
+        {
+          "nazwa": "AP (newsletter)",
+          "url": "https://apnews.com/article/alaska-senate-peltola-sullivan-congress-f1fd4d243bf764ec46ff94db4c792953",
+          "data": "2026-11-17"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/us/democrat-peltola-wins-alaska-securing-56-44-us-senate-majority-2026-11-18/",
+          "data": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "id": "z9",
+      "blok": "swiat",
+      "data": "2026-11-18",
+      "tagi": [
+        "inne"
+      ],
+      "kraje": [
+        "Izrael",
+        "Palestyna"
+      ],
+      "miejsce": "nowy-jork",
+      "krotko": "RB ONZ: ostrzeżenie dla Gazy",
+      "tekst": "Rada Pokoju, powołana z inicjatywy Donalda Trumpa do nadzoru nad rozejmem w Strefie Gazy, ostrzegła 18.11 Radę Bezpieczeństwa ONZ, że **rozejm grozi rychłym załamaniem**. Według Reutersa Rada obarczyła Izrael i Hamas winą za to, że wojny nie udało się zakończyć.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/trumps-board-peace-faults-israel-hamas-failure-end-gaza-war-2026-11-18/",
+          "data": "2026-11-18"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://aljazeera.com/news/2026/11/18/board-of-peace-warns-gaza-ceasefire-faces-imminent-collapse-without-action",
+          "data": "2026-11-18"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "William Dixon i Maksym Beznosiuk: obecna formuła rozmów pokojowych nie zakończy wojny w 2027 r.",
+      "autor": "William Dixon (Royal United Services Institute) i Maksym Beznosiuk, Kyiv Independent, 18.11.2026",
+      "tekst": "Autorzy oceniają, że rozmowy z udziałem USA w Abu Zabi tylko pozornie przynoszą postęp: Rosja podtrzymuje maksymalistyczne żądania, a rozmowy wykorzystuje do dzielenia USA, Ukrainy i Europy oraz do zyskania czasu na froncie. Ich zdaniem Kreml stawia na niszczenie ukraińskiej energetyki i nacisk na politykę europejską, a same negocjacje będą zasłoną dla kolejnego roku wojny.",
+      "dla_polski": "Autorzy zalecają Europie, by uznała swoją architekturę bezpieczeństwa za niepodlegającą negocjacjom, odrzucała lokalne rozejmy i uzależniała szersze rozmowy od wstrzymania ataków na ukraińską energetykę. To dotyczy bezpośrednio stanowiska Polski przed szczytem koalicji chętnych 19.11 w Berlinie.",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "rozejm"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/the-current-approach-to-peace-talks-wont-end-russias-war-in-2027/",
+          "data": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "tytul": "Reuters: USA i Iran grają na czas, a impas w wojnie się pogłębia",
+      "autor": "Reuters (Insight), 17.11.2026",
+      "tekst": "Według rozmówców Reutersa – dwóch byłych amerykańskich negocjatorów, urzędników europejskich i źródeł w Zatoce Perskiej – po prawie dziewięciu miesiącach wojny obie strony zakładają, że czas działa na ich korzyść. Trump liczy, że blokada morska wymusi ustępstwa w sprawie programu jądrowego, a władze Iranu, ośmielone porażką Republikanów w wyborach do Kongresu i utratą większości przez blok premiera Izraela {{o:benjamin-netanjahu|Benjamina Netanjahu}}, żądają, by pierwszy krok zrobił Waszyngton; rozmówcy ostrzegają, że walki mogą wrócić, zanim pojawi się wyjście dyplomatyczne.",
+      "dla_polski": "Skutek pośredni: przedłużający się impas podtrzymuje zakłócenia żeglugi w cieśninie Ormuz, od której zależą ceny ropy i gazu skroplonego w Europie.",
+      "tagi": [
+        "iran",
+        "usa"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/trump-tehran-gamble-time-iran-war-stalemate-deepens-2026-11-17/",
+          "data": "2026-11-17"
+        }
+      ]
+    },
+    {
+      "tytul": "Reuters: Waszyngton szuka wyjścia z wojny w Zatoce, a Rijad szykuje się na dłuższe walki",
+      "autor": "Andrew Mills (Reuters, „Gulf Currents”), 18.11.2026",
+      "tekst": "Autor zestawia zapowiedź wiceprezydenta USA {{o:jd-vance|JD Vance’a}}, że USA nie dopuszczą do wieloletniej wojny, z ocenami Saudyjczyków, że konflikt z {{p:huti|Huti}} w Jemenie potrwa do 2027 r.; dwaj zachodni urzędnicy po rozmowach z Saudyjczykami mówią o wojnie trwającej nawet pół roku. Autor wskazuje, że Huti przejęli cieśninę Bab al-Mandab i zbliżają się do Adenu, a koszt ubezpieczenia tankowców z portów saudyjskich wzrósł kilkukrotnie od lipca.",
+      "dla_polski": "Skutek pośredni: kontrola Huti nad Bab al-Mandab i ryzyko w cieśninie Ormuz podnoszą koszty transportu ropy i gazu skroplonego z Zatoki do Europy.",
+      "tagi": [
+        "iran",
+        "usa"
+      ],
+      "kraje": [
+        "Arabia Saudyjska",
+        "Jemen"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/saudis-preparing-yemen-campaign-last-well-into-2027-2026-11-18/",
+          "data": "2026-11-18"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-11-18",
+      "tekst": "18–19.11: Shenzhen – spotkanie przywódców APEC.",
+      "tagi": [
+        "chiny"
+      ]
+    },
+    {
+      "data": "2026-11-19",
+      "tekst": "19.11: Shenzhen – spotkanie Xi Jinpinga, Władimira Putina i Donalda Trumpa.",
+      "tagi": [
+        "usa",
+        "chiny",
+        "rosja"
+      ]
+    },
+    {
+      "data": "2026-11-19",
+      "tekst": "19.11: Berlin – szczyt koalicji chętnych.",
+      "tagi": [
+        "ukraina",
+        "niemcy"
+      ]
+    },
+    {
+      "data": "2026-11-20",
+      "tekst": "20.11: Bruksela – szczyt UE–Wielka Brytania.",
+      "tagi": [
+        "ue",
+        "wielka-brytania"
+      ]
+    },
+    {
+      "data": "2026-11-26",
+      "tekst": "26–27.11: Bruksela – nadzwyczajna Rada Europejska w sprawie wieloletnich ram finansowych 2028–2034 (termin wstępny).",
+      "tagi": [
+        "ue"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-11-29",
+      "tekst": "przedterminowe wybory parlamentarne w Hiszpanii",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-12-01",
+      "tekst": "Estonia – zapowiedziane zamknięcie drogowych przejść granicznych z Rosją",
+      "tagi": [
+        "estonia"
+      ],
+      "poza_kalendarium": "Decyzja administracyjna państwa, nie spotkanie ani wybory."
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [
+      {
+        "tytul": "Na zużytych torach. Wyzwania polityki kolejowej RFN",
+        "autor": "Michał Kędzierski",
+        "data": "2026-11-18",
+        "url": "https://www.osw.waw.pl/pl/publikacje/raport-osw/2026-11-18/na-zuzytych-torach"
+      },
+      {
+        "tytul": "Czechy: największy protest od aksamitnej rewolucji",
+        "autor": "Krzysztof Dębiec",
+        "data": "2026-11-17",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-17/czechy-najwiekszy-protest-od-aksamitnej-rewolucji"
+      },
+      {
+        "tytul": "Ćwiczenia „Koalicja 26.2”: test gotowości rozmieszczenia sił Koalicji Chętnych na Ukrainie",
+        "autor": "Piotr Szymański",
+        "data": "2026-11-17",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-17/cwiczenia-koalicja-262-test-gotowosci-rozmieszczenia-sil-koalicji"
+      },
+      {
+        "tytul": "Ukraińcy niszczą drogowy Most Krymski (1728. dzień wojny)",
+        "autor": "Andrzej Wilk, Mateusz Goliszewski",
+        "data": "2026-11-17",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-17/ukraincy-niszcza-drogowy-most-krymski-1728-dzien-wojny"
+      }
+    ],
+    "pism": [],
+    "nieodczytane": [
+      "pism"
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "prog": "dokumentacja",
+      "tekst": "Mołdawia i Rosja: według Polsat News mołdawskie MSZ wezwało 18.11 rosyjskiego ambasadora Olega Ozierowa i wręczyło mu notę protestacyjną po tym, jak 17.11 siedem rosyjskich dronów naruszyło przestrzeń powietrzną Mołdawii, w tym nad Kiszyniowem.",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 18.11: brak wzmianki",
+        "Kanał RSS Euronews 18.11: brak wzmianki",
+        "Wyszukiwarka – wezwanie rosyjskiego dyplomaty w Kiszyniowie, listopad 2026: tylko wcześniejsze przypadki"
+      ]
+    },
+    {
+      "id": "n3",
+      "prog": "dokumentacja",
+      "tekst": "Serbia: według Euronews kierownictwo Europejskiej Partii Ludowej zaproponuje w grudniu zawieszenie członkostwa Serbskiej Partii Postępowej prezydenta {{o:aleksandar-vucic|Aleksandara Vučicia}}.",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 18.11: brak wzmianki",
+        "Kanał RSS Meduzy 18.11: brak wzmianki",
+        "Newsletter Reutersa „Daily Briefing” 18.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n4",
+      "prog": "dokumentacja",
+      "tekst": "Irak i Turcja: według Euronews Irak wznowił tłoczenie ropy rurociągiem do Turcji, by ominąć zakłócenia w cieśninie Ormuz; porozumienie zawarto na rok.",
+      "sprawdzono": [
+        "Newsletter Reutersa „Gulf Currents” 18.11: brak wzmianki",
+        "Newsletter Reutersa „Daily Briefing” 18.11: brak wzmianki",
+        "Newsletter AP „Morning Wire” 18.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n5",
+      "prog": "dokumentacja",
+      "tekst": "Niemcy i USA: według Meduzy minister obrony Niemiec {{o:boris-pistorius|Boris Pistorius}} nazwał „dość głupią rzeczą” krytykę ukraińskich uderzeń w głąb Rosji ze strony podsekretarza obrony USA ds. polityki Elbridge’a Colby’ego.",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 18.11: brak wzmianki",
+        "Kanał RSS Euronews 18.11: brak wzmianki",
+        "Newsletter Reutersa „Daily Briefing” 18.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n6",
+      "prog": "dokumentacja",
+      "tekst": "USA i Rosja: według Kyiv Independent wysłannicy prezydenta Trumpa ostrzegli Rosję, że obecna runda rozmów może być ostatnią realną szansą na porozumienie w sprawie Ukrainy.",
+      "sprawdzono": [
+        "Kanał RSS Meduzy 18.11: brak wzmianki",
+        "Kanał RSS Euronews 18.11: brak wzmianki",
+        "Alert AP 18.11 o spotkaniu Trump–Putin: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n7",
+      "prog": "dokumentacja",
+      "tekst": "Ukraina: według Kyiv Independent w powtarzanych rosyjskich atakach na centrum Odessy zginęły 18.11 cztery osoby, a dziewięć zostało rannych.",
+      "sprawdzono": [
+        "Kanał RSS Meduzy 18.11: brak wzmianki",
+        "Kanał RSS Euronews 18.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 18.11: brak wzmianki"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-11-17#n10",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Wyszukiwarka – komunikat DO RSZ 17–18.11.2026: tylko komunikaty z 2025 r.",
+        "Kanał RSS Polsat News Świat 17–18.11: brak wzmianki",
+        "Kanał RSS Kyiv Independent 18.11: brak wzmianki"
+      ],
+      "powod": "Komunikat Dowództwa Operacyjnego z 17.11 nie jest dostępny w żadnym otwieralnym źródle."
+    },
+    {
+      "dotyczy": "2026-11-17#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 18.11: brak wzmianki",
+        "Kanał RSS Euronews 18.11: brak wzmianki",
+        "Newsletter Reutersa „Daily Briefing” 18.11: brak wzmianki"
+      ],
+      "powod": "Wypowiedź Kai Kallas o zakazie wjazdu podaje tylko Meduza."
+    },
+    {
+      "dotyczy": "2026-11-17#n3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Euronews 18.11: brak wzmianki",
+        "Newsletter Reutersa „Daily Briefing” 18.11: brak wzmianki",
+        "Newsletter AP „Morning Wire” 18.11: brak wzmianki"
+      ],
+      "powod": "Zatonięcie gazowca Gas Husky opisuje tylko Euronews."
+    },
+    {
+      "dotyczy": "2026-11-17#n4",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Newsletter AP „Morning Wire” 18.11: brak wzmianki",
+        "Newsletter Reutersa „Daily Briefing” 18.11: brak wzmianki",
+        "Kanał RSS Euronews 18.11: brak wzmianki"
+      ],
+      "powod": "Ostrzeżenie ambasady USA podaje tylko Polsat News."
+    },
+    {
+      "dotyczy": "2026-11-17#n5",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 18.11: brak wzmianki",
+        "Kanał RSS Euronews 18.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 18.11: brak wzmianki"
+      ],
+      "powod": "Wstrzymanie ruchu kolejowego przez Węgry opisuje tylko Kyiv Independent."
+    },
+    {
+      "dotyczy": "2026-11-17#n6",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Euronews 18.11: brak wzmianki",
+        "Kanał RSS Meduzy 18.11: brak wzmianki",
+        "Newsletter Reutersa „Daily Briefing” 18.11: brak wzmianki"
+      ],
+      "powod": "Reakcję Francji podaje tylko Euronews; Polsat News (17.11) opisuje inną wypowiedź – sekretarza generalnego NATO."
+    },
+    {
+      "dotyczy": "2026-11-17#n7",
+      "wynik": "ODPADA",
+      "powod": "Wypowiedź bez nowej decyzji; kolejne doniesienia (Meduza, 18.11) dotyczą innej sprawy – zaprzeczenia, że Rosja żądała wyjścia Finlandii z NATO."
+    },
+    {
+      "dotyczy": "2026-11-17#n8",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Newsletter Reutersa „Daily Briefing” 18.11: brak wzmianki",
+        "Newsletter AP „Morning Wire” 18.11: brak wzmianki",
+        "Kanał RSS Euronews 18.11: brak wzmianki"
+      ],
+      "powod": "Zaprzeczenie Iranu w sprawie brudnej bomby podaje tylko Euronews."
+    },
+    {
+      "dotyczy": "2026-11-17#n9",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Euronews 18.11: brak wzmianki",
+        "Kanał RSS Kyiv Independent 18.11: brak wzmianki",
+        "Newsletter Reutersa „Daily Briefing” 18.11: brak wzmianki"
+      ],
+      "powod": "Zapowiedź Bułgarii podaje tylko analiza OSW; brak komunikatu bułgarskiego rządu w dostępnych źródłach."
+    },
+    {
+      "dotyczy": "2026-11-17#n11",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Wyszukiwarka – umowy PGZ i MON, listopad 2026: brak wyników",
+        "Wyszukiwarka – Agencja Uzbrojenia, 18.11.2026: brak wyników",
+        "Kanał RSS Polsat News Świat 17–18.11: brak wzmianki"
+      ],
+      "powod": "Umowy inwestycyjne PGZ podaje tylko Super Express; brak komunikatu PGZ lub MAP w dostępnych źródłach."
+    },
+    {
+      "dotyczy": "2026-11-17#n12",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Newsletter AP „Morning Wire” 18.11: brak wzmianki",
+        "Newsletter Reutersa „Daily Briefing” 18.11: brak wzmianki",
+        "Kanał RSS Euronews 18.11: tylko konferencja UNCCD w Ułan Bator"
+      ],
+      "powod": "Rezygnacji prezydenta Mongolii nie potwierdza żadne dostępne źródło."
+    }
+  ],
+  "do_sprawdzenia": [
+    "Shenzhen 19.11 – przebieg spotkania Xi–Putin–Trump i osobnej rozmowy Trump–Putin; ewentualne spotkanie Trump–Kim",
+    "Berlin 19.11 – wyniki szczytu koalicji chętnych",
+    "Granica z obwodem królewieckim – komunikaty ABW, MSWiA i ministra koordynatora służb w sprawie planowanej prowokacji",
+    "Iran i USA – Kuwejt, Keszm, Bahrajn; reakcja Kuwejtu",
+    "Mołdawia – komunikat MSZ o wezwaniu rosyjskiego dyplomaty",
+    "Strefa Gazy – przebieg operacji w Nusajracie i Al-Burajdżu",
+    "Polska – DO RSZ, SG, ŻW; Agencja Uzbrojenia i PGZ – umowy",
+    "PISM – lista publikacji z 16–18.11",
+    "Operacja „Horyzont” – wniosek MON o przedłużenie",
+    "Huti – atak na saudyjski rurociąg Wschód–Zachód; Etiopia i Erytrea – wojska przy granicy; Equinor – atak na systemy IT",
+    "UE – kolejny pakiet sankcji; reakcja państw na pożyczkę 45 mld euro"
+  ],
+  "nota": "Lista publikacji PISM nie została odczytana: strony list publikacji nie zawierały treści. Dział Świat Onetu nieodnaleziony w wyszukiwarce. Komunikaty DO RSZ i Straży Granicznej z 17–18.11 niedostępne."
+}

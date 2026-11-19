@@ -6,20 +6,30 @@
       "nazwa": "Ukraina",
       "grupa": "miejsce",
       "opis": "Wojna Rosji z Ukrainą: ataki, obrona powietrzna, polityka Kijowa, pomoc zachodnia.",
-      "stan": "Komisja Europejska zaproponowała 18.11 pożyczkę dla Ukrainy na 2027 r. do 45 mld euro; przez most Krymski znów jeżdżą pociągi, ruch drogowy wstrzymany.",
+      "stan": "Ukraina uderzyła 19.11 po raz trzeci w tygodniu w most Krymski i wstrzymała ruch pociągów; Putin odrzucił rozmowy o zawieszeniu broni, a koalicja chętnych obradowała w Berlinie.",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/european-commission-approves-proposal-to-provide-additional-49-5-billion-to-ukraine-2/",
-          "data": "2026-11-18"
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/china/third-attack-week-suspends-traffic-over-crimean-bridge-russian-official-says-2026-11-19/",
+          "data": "2026-11-19"
+        },
+        {
+          "nazwa": "AP (newsletter)",
+          "url": "https://apnews.com/article/russia-ukraine-war-kerch-bridge-putin-crimea-7b4a86809dcd466bba97d374045a1a78",
+          "data": "2026-11-19"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/19/putin-russia-refuses-to-negotiate-ceasefire-with-ukraine-after-strikes-on-crimean-bridge",
+          "data": "2026-11-19"
         },
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/new-video-shows-damage-to-crimean-bridge-as-train-traffic-resumes/",
-          "data": "2026-11-18"
+          "url": "https://kyivindependent.com/we-will-not-negotiate-putin-addresses-ukraines-strikes-on-crimean-bridge/",
+          "data": "2026-11-19"
         }
       ],
-      "stan_data": "2026-11-18"
+      "stan_data": "2026-11-19"
     },
     {
       "id": "front",
@@ -46,38 +56,48 @@
       "nazwa": "Rozejm",
       "grupa": "temat",
       "opis": "Rozmowy i propozycje zawieszenia broni w wojnie Rosji z Ukrainą.",
-      "stan": "Szczyt koalicji chętnych 19.11 w Berlinie ma omówić gwarancje bezpieczeństwa dla Ukrainy; według Kyiv Independent tego dnia rozmawiać mają też wysłannicy USA, Ukrainy i Europy.",
+      "stan": "Putin odrzucił 19.11 rozmowy o częściowym zawieszeniu broni z Ukrainą po atakach na most Krymski.",
       "stan_zrodla": [
         {
-          "nazwa": "Rząd Niemiec",
-          "url": "https://www.bundesregierung.de/breg-de/aktuelles/bundeskanzler-merz-laedt-zu-treffen-der-koalition-der-willigen-am-19-november-in-berlin-ein-2461054",
-          "data": "2026-11-13"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/19/putin-russia-refuses-to-negotiate-ceasefire-with-ukraine-after-strikes-on-crimean-bridge",
+          "data": "2026-11-19"
         },
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/zelensky-announces-berlin-talks-with-us-european-allies-to-shape-next-phase-of-russia-negotiations/",
-          "data": "2026-11-17"
+          "url": "https://kyivindependent.com/we-will-not-negotiate-putin-addresses-ukraines-strikes-on-crimean-bridge/",
+          "data": "2026-11-19"
         }
       ],
-      "stan_data": "2026-11-17"
+      "stan_data": "2026-11-19"
     },
     {
       "id": "rosja",
       "nazwa": "Rosja",
       "grupa": "miejsce",
       "opis": "Polityka wewnętrzna, armia i budżet Rosji.",
-      "stan": "Ukraińskie drony zaatakowały 18.11 rafinerie Afipską i Ilską w Kraju Krasnodarskim; Putin spotkał się w Shenzhen z Xi Jinpingiem i Donaldem Trumpem.",
-      "stan_data": "2026-11-18",
+      "stan": "Putin zapowiedział 19.11, że po atakach na most Krymski Rosja nie będzie negocjować zawieszenia broni; tego dnia podpisał z Trumpem i Xi deklarację z Shenzhen.",
+      "stan_data": "2026-11-19",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/2-russian-oil-refineries-reportedly-targeted-in-overnight-drone-attack-on-krasnodar-krai/",
-          "data": "2026-11-18"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/19/putin-russia-refuses-to-negotiate-ceasefire-with-ukraine-after-strikes-on-crimean-bridge",
+          "data": "2026-11-19"
         },
         {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/11/18/xi-calls-ties-with-russia-firm-as-a-mountain-as-he-meets-putin-ahead-of-three-way-summit-with-trump",
-          "data": "2026-11-18"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/we-will-not-negotiate-putin-addresses-ukraines-strikes-on-crimean-bridge/",
+          "data": "2026-11-19"
+        },
+        {
+          "nazwa": "AP (newsletter)",
+          "url": "https://apnews.com/article/trump-xi-putin-nuclear-ukraine-iran-a04dc76ed8e786b087e2c1ea9598783a",
+          "data": "2026-11-19"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/trump-sits-down-with-his-friend-putin-chinas-xi-for-unprecedented-trilateral-talks/",
+          "data": "2026-11-19"
         }
       ]
     },
@@ -206,13 +226,18 @@
       "nazwa": "DyplomacjaRP",
       "grupa": "temat",
       "opis": "Polityka zagraniczna Polski, wizyty, spory kompetencyjne.",
-      "stan": "Według Kyiv Independent przyszłe rozmowy z Rosją o zakończeniu wojny mają objąć grupę pięciu państw europejskich, w tym Polskę.",
-      "stan_data": "2026-11-17",
+      "stan": "Premier Donald Tusk wziął udział 19.11 w Berlinie w szczycie koalicji chętnych z udziałem wysłanników prezydenta USA.",
+      "stan_data": "2026-11-19",
       "stan_zrodla": [
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/zelensky-announces-berlin-talks-with-us-european-allies-to-shape-next-phase-of-russia-negotiations/",
-          "data": "2026-11-17"
+          "url": "https://kyivindependent.com/zelensky-arrives-in-berlin-for-talks-with-european-officials-trumps-envoys/",
+          "data": "2026-11-19"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/19/trump-questions-europes-billions-in-ukraine-aid-during-surprise-call",
+          "data": "2026-11-19"
         }
       ]
     },
@@ -241,38 +266,53 @@
       "nazwa": "Iran",
       "grupa": "miejsce",
       "opis": "Iran, Cieśnina Ormuz, rozmowy z USA i mediatorami.",
-      "stan": "Iran zaatakował w nocy na 18.11 stanowiska USA w Kuwejcie po amerykańskim uderzeniu na wyspę Keszm; w regionie są trzy lotniskowce USA.",
+      "stan": "Według Reutersa Huti trafili 19.11 w Rijadzie siedzibę saudyjskiego funduszu majątkowego; MAE ostrzega przed skutkami wojny z Iranem dla rynku ropy.",
       "stan_zrodla": [
         {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/middle-east/bahrain-warns-potential-threat-urges-residents-seek-safety-2026-11-17/",
-          "data": "2026-11-18"
+          "url": "https://www.reuters.com/world/middle-east/houthi-missile-threat-towards-riyadh-causes-damage-saudi-led-coalition-says-2026-11-19/",
+          "data": "2026-11-19"
         },
         {
-          "nazwa": "AP (newsletter)",
-          "url": "https://apnews.com/article/iran-us-kuwait-gulf-attacks-bahrain-b1f0b530cffe951e6fcc1e27b2e1af94",
-          "data": "2026-11-18"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/19/middle-east-conflict-poses-biggest-threat-to-global-energy-security-in-history-iea-warns",
+          "data": "2026-11-19"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/business/energy/energy-security-response-iran-war-could-cut-oil-demand-by-4-by-2035-iea-says-2026-11-19/",
+          "data": "2026-11-19"
         }
       ],
-      "stan_data": "2026-11-18"
+      "stan_data": "2026-11-19"
     },
     {
       "id": "usa",
       "nazwa": "USA",
       "grupa": "miejsce",
       "opis": "Polityka USA wobec Europy, Rosji, Ukrainy i Bliskiego Wschodu.",
-      "stan": "Trump spotkał Putina 18.11 w Shenzhen; Iran zaatakował stanowiska USA w Kuwejcie po uderzeniu na Keszm.",
-      "stan_data": "2026-11-18",
+      "stan": "Trump podpisał 19.11 w Shenzhen deklarację z Putinem i Xi, a w rozmowie z koalicją chętnych według Politico kwestionował europejską pomoc dla Ukrainy.",
+      "stan_data": "2026-11-19",
       "stan_zrodla": [
         {
           "nazwa": "AP (newsletter)",
-          "url": "https://apnews.com/article/trump-xi-marcos-apec-china-philippines-3fc8110f4b4414bfb2c03596f61da862",
-          "data": "2026-11-18"
+          "url": "https://apnews.com/article/trump-xi-putin-nuclear-ukraine-iran-a04dc76ed8e786b087e2c1ea9598783a",
+          "data": "2026-11-19"
         },
         {
-          "nazwa": "AP (newsletter)",
-          "url": "https://apnews.com/article/iran-us-kuwait-gulf-attacks-bahrain-b1f0b530cffe951e6fcc1e27b2e1af94",
-          "data": "2026-11-18"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/trump-sits-down-with-his-friend-putin-chinas-xi-for-unprecedented-trilateral-talks/",
+          "data": "2026-11-19"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-arrives-in-berlin-for-talks-with-european-officials-trumps-envoys/",
+          "data": "2026-11-19"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/19/trump-questions-europes-billions-in-ukraine-aid-during-surprise-call",
+          "data": "2026-11-19"
         }
       ]
     },
@@ -281,18 +321,18 @@
       "nazwa": "Chiny",
       "grupa": "miejsce",
       "opis": "Chiny w polityce światowej i wobec Europy.",
-      "stan": "Xi Jinping przyjął 18.11 w Shenzhen Donalda Trumpa i Władimira Putina na szczycie APEC; rozmowa trójstronna zaplanowana na 19.11.",
-      "stan_data": "2026-11-18",
+      "stan": "Xi Jinping, Donald Trump i Władimir Putin podpisali 19.11 w Shenzhen deklarację zapowiadającą rozmowy o ograniczeniu ryzyka nuklearnego, reformę ONZ i większe dostawy paliw.",
+      "stan_data": "2026-11-19",
       "stan_zrodla": [
         {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/chinas-xi-calls-free-open-trade-apec-summit-2026-11-18/",
-          "data": "2026-11-18"
+          "nazwa": "AP (newsletter)",
+          "url": "https://apnews.com/article/trump-xi-putin-nuclear-ukraine-iran-a04dc76ed8e786b087e2c1ea9598783a",
+          "data": "2026-11-19"
         },
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/18/trump-arrives-in-china-for-unprecedented-trilateral-encounter-with-xi-and-putin",
-          "data": "2026-11-18"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/trump-sits-down-with-his-friend-putin-chinas-xi-for-unprecedented-trilateral-talks/",
+          "data": "2026-11-19"
         }
       ]
     },
@@ -367,25 +407,20 @@
       "nazwa": "Niemcy",
       "grupa": "miejsce",
       "opis": "Polityka Niemiec: rząd, koalicja, wybory, obronność.",
-      "stan": "Niemcy przeznaczą 300 mln dolarów na amerykańską broń dla Ukrainy; kanclerz Merz przyjmie 19.11 w Berlinie szczyt koalicji chętnych.",
+      "stan": "Kanclerz Friedrich Merz był 19.11 gospodarzem szczytu koalicji chętnych w Berlinie z udziałem Wołodymyra Zełenskiego i wysłanników USA.",
       "stan_zrodla": [
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/uk-pledges-over-1-000-short-range-missiles-for-ukraine-in-240-million-pound-air-defense-package-2/",
-          "data": "2026-11-17"
+          "url": "https://kyivindependent.com/zelensky-arrives-in-berlin-for-talks-with-european-officials-trumps-envoys/",
+          "data": "2026-11-19"
         },
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/17/germany-and-norway-to-buy-more-us-air-defences-for-ukraine-including-patriot-missiles",
-          "data": "2026-11-17"
-        },
-        {
-          "nazwa": "Rząd Niemiec",
-          "url": "https://www.bundesregierung.de/breg-de/aktuelles/bundeskanzler-merz-laedt-zu-treffen-der-koalition-der-willigen-am-19-november-in-berlin-ein-2461054",
-          "data": "2026-11-13"
+          "url": "https://www.euronews.com/2026/11/19/trump-questions-europes-billions-in-ukraine-aid-during-surprise-call",
+          "data": "2026-11-19"
         }
       ],
-      "stan_data": "2026-11-17"
+      "stan_data": "2026-11-19"
     },
     {
       "id": "czechy",
@@ -517,25 +552,20 @@
       "nazwa": "Nordyckie",
       "grupa": "miejsce",
       "opis": "Szwecja, Finlandia, Norwegia, Dania, Islandia.",
-      "stan": "Finlandia potwierdziła, że wykryła 11.11 atak ukraińskich dronów na rosyjski okręt rakietowy w Zatoce Fińskiej, ok. 40 km od swojego wybrzeża.",
+      "stan": "Parlament Danii zatwierdził 19.11 umowę o bezpieczeństwie z USA i Grenlandią, która pozwala USA zbudować na wyspie dwie nowe bazy.",
       "stan_zrodla": [
         {
-          "nazwa": "Yle",
-          "url": "https://yle.fi/a/74-20256496",
-          "data": "2026-11-12"
+          "nazwa": "AP (newsletter)",
+          "url": "https://apnews.com/article/denmark-greenland-us-security-arctic-north-atlantic-a392abbba5c2f1bccbbb372e3d38769d",
+          "data": "2026-11-19"
         },
         {
-          "nazwa": "ERR",
-          "url": "https://news.err.ee/1610195272/officer-russian-warship-hit-multiple-times-in-baltic-with-casualties",
-          "data": "2026-11-13"
-        },
-        {
-          "nazwa": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/13/why-is-ukraine-attacking-russian-warships-in-the-baltic-sea-amid-talks",
-          "data": "2026-11-13"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/19/danish-lawmakers-ratify-us-greenland-security-pact",
+          "data": "2026-11-19"
         }
       ],
-      "stan_data": "2026-11-13"
+      "stan_data": "2026-11-19"
     },
     {
       "id": "francja",
@@ -642,20 +672,20 @@
       "nazwa": "Energia",
       "grupa": "temat",
       "opis": "Ropa, gaz, infrastruktura energetyczna, ceny paliw.",
-      "stan": "Regulatorzy jądrowi z 38 państw ostrzegli 16.11 przed rosnącym ryzykiem awarii jądrowej na Ukrainie z powodu ataków na sieć energetyczną.",
+      "stan": "Międzynarodowa Agencja Energetyczna ostrzegła 19.11, że zakłócenia w cieśninie Ormuz to największe zagrożenie dla bezpieczeństwa energetycznego w historii.",
       "stan_zrodla": [
         {
-          "nazwa": "Reuters",
-          "url": "https://www.reuters.com/business/energy/risk-nuclear-accident-ukraine-increasing-this-winter-atomic-safety-regulators-2026-11-16/",
-          "data": "2026-11-16"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/19/middle-east-conflict-poses-biggest-threat-to-global-energy-security-in-history-iea-warns",
+          "data": "2026-11-19"
         },
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/ukraine-faces-rising-nuclear-accident-risk-this-winter-regulators-warn/",
-          "data": "2026-11-16"
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/business/energy/energy-security-response-iran-war-could-cut-oil-demand-by-4-by-2035-iea-says-2026-11-19/",
+          "data": "2026-11-19"
         }
       ],
-      "stan_data": "2026-11-16"
+      "stan_data": "2026-11-19"
     },
     {
       "id": "gospodarka",
@@ -712,25 +742,15 @@
       "nazwa": "Ameryki",
       "grupa": "miejsce",
       "opis": "Polityka państw obu Ameryk poza USA: wybory, kryzysy, relacje z UE i Chinami.",
-      "stan": "6.11 Senat Paragwaju odsunął prezydenta Santiago Peñę; wiceprezydent Pedro Alliana został zaprzysiężony.",
+      "stan": "Według AP USA i Wenezuela podpisały 18.11 umowę o przywróceniu współpracy wojskowej; ogłosił to w Karakasie sekretarz obrony USA Pete Hegseth.",
       "stan_zrodla": [
         {
-          "nazwa": "Associated Press (newsletter)",
-          "url": "https://apnews.com/article/paraguay-santiago-pena-bank-failure-ueno-impeachment-trial-resign-crisis-e84f5ada84e8c747329ec82fabb46e4d",
-          "data": "2026-11-06"
-        },
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/07/pedro-alliana-sworn-in-as-paraguay-president-after-santiago-penas-impeachment",
-          "data": "2026-11-07"
-        },
-        {
-          "nazwa": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/7/paraguays-santiago-pena-under-arrest-new-president-pedro-alliana-sworn-in",
-          "data": "2026-11-07"
+          "nazwa": "AP (newsletter)",
+          "url": "https://apnews.com/article/hegseth-venezuela-maduro-trump-e02dd6173e575c644a37dd417d84296d",
+          "data": "2026-11-18"
         }
       ],
-      "stan_data": "2026-11-07"
+      "stan_data": "2026-11-19"
     },
     {
       "id": "bulgaria",

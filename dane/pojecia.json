@@ -432,6 +432,18 @@
       "nazwa": "Quad",
       "pelna": "Czterostronny Dialog Bezpieczeństwa",
       "definicja": "Format współpracy USA, Japonii, Indii i Australii w sprawach bezpieczeństwa w regionie Indo-Pacyfiku, postrzegany jako przeciwwaga dla Chin."
+    },
+    {
+      "id": "mts",
+      "nazwa": "MTS",
+      "pelna": "Międzynarodowy Trybunał Sprawiedliwości",
+      "definicja": "Główny organ sądowy ONZ z siedzibą w Hadze; rozstrzyga spory między państwami, m.in. o naruszenie Konwencji o zapobieganiu i karaniu zbrodni ludobójstwa. Jego wyroki są ostateczne, ale trybunał nie ma środków ich egzekwowania."
+    },
+    {
+      "id": "mtk",
+      "nazwa": "MTK",
+      "pelna": "Międzynarodowy Trybunał Karny",
+      "definicja": "Stały sąd w Hadze sądzący osoby oskarżone o ludobójstwo, zbrodnie wojenne i zbrodnie przeciw ludzkości. W 2023 r. wydał nakaz aresztowania Władimira Putina; USA, Rosja i Chiny nie uznają jego jurysdykcji."
     }
   ]
 }

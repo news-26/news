@@ -1568,8 +1568,13 @@
       "kraj": [
         "usa"
       ],
-      "zweryfikowano": "2026-11-10",
+      "zweryfikowano": "2026-11-19",
       "zrodla": [
+        {
+          "nazwa": "AP (newsletter)",
+          "url": "https://apnews.com/article/hegseth-venezuela-maduro-trump-e02dd6173e575c644a37dd417d84296d",
+          "data": "2026-11-18"
+        },
         {
           "nazwa": "Associated Press (newsletter)",
           "url": "https://apnews.com/article/hegseth-impeachment-briefing-trump-massie-87a78193502f716e6fb8eee5aef06ac0",
@@ -1959,6 +1964,22 @@
           "nazwa": "Reuters (newsletter)",
           "url": "https://www.reuters.com/world/us/democrat-peltola-wins-alaska-securing-56-44-us-senate-majority-2026-11-18/",
           "data": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "id": "elbridge-colby",
+      "imie": "Elbridge Colby",
+      "funkcja": "Podsekretarz obrony USA ds. polityki.",
+      "kraj": [
+        "usa"
+      ],
+      "zweryfikowano": "2026-11-19",
+      "zrodla": [
+        {
+          "nazwa": "AP (newsletter)",
+          "url": "https://apnews.com/article/colby-ukraine-deep-long-nato-strikes-starshield-e570c549277a14f97ad24319f2f1bf7e",
+          "data": "2026-11-19"
         }
       ]
     }

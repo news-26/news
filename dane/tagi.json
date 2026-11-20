@@ -6,30 +6,25 @@
       "nazwa": "Ukraina",
       "grupa": "miejsce",
       "opis": "Wojna Rosji z Ukrainą: ataki, obrona powietrzna, polityka Kijowa, pomoc zachodnia.",
-      "stan": "Ukraina uderzyła 19.11 po raz trzeci w tygodniu w most Krymski i wstrzymała ruch pociągów; Putin odrzucił rozmowy o zawieszeniu broni, a koalicja chętnych obradowała w Berlinie.",
+      "stan": "Rosyjski atak z 20.11 (ponad 400 dronów i 110 pocisków) zabił co najmniej ośmiu cywilów i ograniczył pracę elektrowni jądrowych; Zełenski domaga się wyjaśnienia gwarancji bezpieczeństwa USA.",
       "stan_zrodla": [
         {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/china/third-attack-week-suspends-traffic-over-crimean-bridge-russian-official-says-2026-11-19/",
-          "data": "2026-11-19"
-        },
-        {
-          "nazwa": "AP (newsletter)",
-          "url": "https://apnews.com/article/russia-ukraine-war-kerch-bridge-putin-crimea-7b4a86809dcd466bba97d374045a1a78",
-          "data": "2026-11-19"
-        },
-        {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/11/19/putin-russia-refuses-to-negotiate-ceasefire-with-ukraine-after-strikes-on-crimean-bridge",
-          "data": "2026-11-19"
+          "nazwa": "AP (za WTXL)",
+          "url": "https://www.wtxl.com/politics/russia/russia-launches-massive-missile-and-drone-attack-on-ukraine-killing-at-least-8",
+          "data": "2026-11-20"
         },
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/we-will-not-negotiate-putin-addresses-ukraines-strikes-on-crimean-bridge/",
-          "data": "2026-11-19"
+          "url": "https://kyivindependent.com/russia-launches-mass-missile-attack-against-ukraine-after-putin-vows-revenge/",
+          "data": "2026-11-20"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/20/what-does-it-mean-zelenskyy-asks-us-to-clarify-article-5-like-guarantee",
+          "data": "2026-11-20"
         }
       ],
-      "stan_data": "2026-11-19"
+      "stan_data": "2026-11-20"
     },
     {
       "id": "front",
@@ -56,48 +51,43 @@
       "nazwa": "Rozejm",
       "grupa": "temat",
       "opis": "Rozmowy i propozycje zawieszenia broni w wojnie Rosji z Ukrainą.",
-      "stan": "Putin odrzucił 19.11 rozmowy o częściowym zawieszeniu broni z Ukrainą po atakach na most Krymski.",
+      "stan": "Kushner powiedział 19.11, że Rosja zaakceptowała gwarancję dla Ukrainy wzorowaną na art. 5 NATO; Zełenski pyta, co ona oznacza w praktyce.",
       "stan_zrodla": [
         {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/11/19/putin-russia-refuses-to-negotiate-ceasefire-with-ukraine-after-strikes-on-crimean-bridge",
-          "data": "2026-11-19"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/20/what-does-it-mean-zelenskyy-asks-us-to-clarify-article-5-like-guarantee",
+          "data": "2026-11-20"
         },
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/we-will-not-negotiate-putin-addresses-ukraines-strikes-on-crimean-bridge/",
-          "data": "2026-11-19"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/20/zelensky-questions-whether-kyiv-and-washington-mean-the-same-thing-by-nato-style-guarantees-and-reiterates-that-postwar-ukraine-would-need-foreign-troops-on-its-soil",
+          "data": "2026-11-20"
         }
       ],
-      "stan_data": "2026-11-19"
+      "stan_data": "2026-11-20"
     },
     {
       "id": "rosja",
       "nazwa": "Rosja",
       "grupa": "miejsce",
       "opis": "Polityka wewnętrzna, armia i budżet Rosji.",
-      "stan": "Putin zapowiedział 19.11, że po atakach na most Krymski Rosja nie będzie negocjować zawieszenia broni; tego dnia podpisał z Trumpem i Xi deklarację z Shenzhen.",
-      "stan_data": "2026-11-19",
+      "stan": "Rosja przeprowadziła 20.11 jeden z największych ataków na Ukrainę, a dwa jej pociski i dron spadły w Polsce; Estonia zamyka od 1.12 drogowe przejścia z Rosją.",
+      "stan_data": "2026-11-20",
       "stan_zrodla": [
         {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/11/19/putin-russia-refuses-to-negotiate-ceasefire-with-ukraine-after-strikes-on-crimean-bridge",
-          "data": "2026-11-19"
+          "nazwa": "AP (za WTXL)",
+          "url": "https://www.wtxl.com/politics/russia/russia-launches-massive-missile-and-drone-attack-on-ukraine-killing-at-least-8",
+          "data": "2026-11-20"
         },
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/we-will-not-negotiate-putin-addresses-ukraines-strikes-on-crimean-bridge/",
-          "data": "2026-11-19"
+          "url": "https://kyivindependent.com/poland-reports-airspace-violation-during-russian-attack-on-ukraine-investigates-debris-crash/",
+          "data": "2026-11-20"
         },
         {
-          "nazwa": "AP (newsletter)",
-          "url": "https://apnews.com/article/trump-xi-putin-nuclear-ukraine-iran-a04dc76ed8e786b087e2c1ea9598783a",
-          "data": "2026-11-19"
-        },
-        {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/trump-sits-down-with-his-friend-putin-chinas-xi-for-unprecedented-trilateral-talks/",
-          "data": "2026-11-19"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/20/estonia-to-shut-border-with-russia-over-gru-linked-sabotage-attack",
+          "data": "2026-11-20"
         }
       ]
     },
@@ -146,20 +136,20 @@
       "nazwa": "Wojna hybrydowa",
       "grupa": "temat",
       "opis": "Działania hybrydowe: drony, sabotaż, dezinformacja, cyberataki, presja migracyjna.",
-      "stan": "Według „Rzeczpospolitej” rosyjskie służby planowały przy granicy z obwodem królewieckim prowokację, którą miano przypisać Ukrainie.",
+      "stan": "Estonia zamyka od 1.12 drogowe przejścia z Rosją w odpowiedzi na sabotaż przypisany GRU.",
       "stan_zrodla": [
         {
-          "nazwa": "PAP (za RMF24)",
-          "url": "https://www.rmf24.pl/fakty/polska/news-wiedzielismy-szef-mon-o-udaremnieniu-rosyjskiej-operacji-prz,nIdn,1026702",
-          "data": "2026-11-18"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/20/estonia-to-shut-border-with-russia-over-gru-linked-sabotage-attack",
+          "data": "2026-11-20"
         },
         {
-          "nazwa": "Rzeczpospolita",
-          "url": "https://www.rp.pl/konflikty-zbrojne/art45490041-prowokacja-z-duza-liczba-ofiar-i-zrzuceniem-winy-na-ukraine-ustalilismy-co-powstrzymalo-rosje",
-          "data": "2026-11-18"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/20/estonia-to-close-all-road-crossings-with-russia",
+          "data": "2026-11-20"
         }
       ],
-      "stan_data": "2026-11-18"
+      "stan_data": "2026-11-20"
     },
     {
       "id": "uzbrojenie",
@@ -206,20 +196,25 @@
       "nazwa": "ObronnośćPolski",
       "grupa": "temat",
       "opis": "Siły zbrojne RP, procedury obrony powietrznej, budżet obronny.",
-      "stan": "Szef MON Władysław Kosiniak-Kamysz powiedział 18.11, że służby wiedziały o planowanej rosyjskiej prowokacji dywersyjnej przy granicy z obwodem królewieckim.",
+      "stan": "Dwa rosyjskie pociski Ch-101 i dron spadły 20.11 w województwach lubelskim i podkarpackim; nikt nie został ranny, a Polska poprosiła NATO o dodatkowe samoloty AWACS i myśliwce F-35.",
       "stan_zrodla": [
         {
-          "nazwa": "PAP (za RMF24)",
-          "url": "https://www.rmf24.pl/fakty/polska/news-wiedzielismy-szef-mon-o-udaremnieniu-rosyjskiej-operacji-prz,nIdn,1026702",
-          "data": "2026-11-18"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/poland-reports-airspace-violation-during-russian-attack-on-ukraine-investigates-debris-crash/",
+          "data": "2026-11-20"
         },
         {
-          "nazwa": "Rzeczpospolita",
-          "url": "https://www.rp.pl/konflikty-zbrojne/art45490041-prowokacja-z-duza-liczba-ofiar-i-zrzuceniem-winy-na-ukraine-ustalilismy-co-powstrzymalo-rosje",
-          "data": "2026-11-18"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/20/poland-issues-air-raid-alerts-as-russia-attacks-ukraine-poland-s-defense-minister-says-two-russian-missiles-and-a-drone-fell-on-polish-soil",
+          "data": "2026-11-20"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/20/polish-cities-sound-air-raid-sirens-after-russian-missile-strike",
+          "data": "2026-11-20"
         }
       ],
-      "stan_data": "2026-11-18"
+      "stan_data": "2026-11-20"
     },
     {
       "id": "dyplomacja-rp",
@@ -266,52 +261,32 @@
       "nazwa": "Iran",
       "grupa": "miejsce",
       "opis": "Iran, Cieśnina Ormuz, rozmowy z USA i mediatorami.",
-      "stan": "Według Reutersa Huti trafili 19.11 w Rijadzie siedzibę saudyjskiego funduszu majątkowego; MAE ostrzega przed skutkami wojny z Iranem dla rynku ropy.",
+      "stan": "Irackie siły weszły 20.11 do twierdzy Kataib Hezbollah w Dżurf as-Sachar w ramach porozumienia ograniczającego zasięg milicji.",
       "stan_zrodla": [
         {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/middle-east/houthi-missile-threat-towards-riyadh-causes-damage-saudi-led-coalition-says-2026-11-19/",
-          "data": "2026-11-19"
-        },
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/19/middle-east-conflict-poses-biggest-threat-to-global-energy-security-in-history-iea-warns",
-          "data": "2026-11-19"
-        },
-        {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/business/energy/energy-security-response-iran-war-could-cut-oil-demand-by-4-by-2035-iea-says-2026-11-19/",
-          "data": "2026-11-19"
+          "url": "https://www.reuters.com/world/middle-east/iraqi-security-forces-deploy-iran-backed-militia-stronghold-security-officials-2026-11-20/",
+          "data": "2026-11-20"
         }
       ],
-      "stan_data": "2026-11-19"
+      "stan_data": "2026-11-20"
     },
     {
       "id": "usa",
       "nazwa": "USA",
       "grupa": "miejsce",
       "opis": "Polityka USA wobec Europy, Rosji, Ukrainy i Bliskiego Wschodu.",
-      "stan": "Trump podpisał 19.11 w Shenzhen deklarację z Putinem i Xi, a w rozmowie z koalicją chętnych według Politico kwestionował europejską pomoc dla Ukrainy.",
-      "stan_data": "2026-11-19",
+      "stan": "Trump uznał upadek rosyjskich pocisków w Polsce za pomyłkę i ocenił 19.11, że ograniczenie broni jądrowej z Chinami i Rosją będzie trudne.",
+      "stan_data": "2026-11-20",
       "stan_zrodla": [
         {
-          "nazwa": "AP (newsletter)",
-          "url": "https://apnews.com/article/trump-xi-putin-nuclear-ukraine-iran-a04dc76ed8e786b087e2c1ea9598783a",
-          "data": "2026-11-19"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/20/trump-says-putin-launched-a-couple-of-small-missiles-into-poland-by-accident-a-couple-of-little-missiles",
+          "data": "2026-11-20"
         },
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/trump-sits-down-with-his-friend-putin-chinas-xi-for-unprecedented-trilateral-talks/",
-          "data": "2026-11-19"
-        },
-        {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/zelensky-arrives-in-berlin-for-talks-with-european-officials-trumps-envoys/",
-          "data": "2026-11-19"
-        },
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/19/trump-questions-europes-billions-in-ukraine-aid-during-surprise-call",
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/china/trump-says-after-talks-with-xi-putin-deal-limiting-nuclear-weapons-will-be-hard-2026-11-19/",
           "data": "2026-11-19"
         }
       ]
@@ -321,17 +296,12 @@
       "nazwa": "Chiny",
       "grupa": "miejsce",
       "opis": "Chiny w polityce światowej i wobec Europy.",
-      "stan": "Xi Jinping, Donald Trump i Władimir Putin podpisali 19.11 w Shenzhen deklarację zapowiadającą rozmowy o ograniczeniu ryzyka nuklearnego, reformę ONZ i większe dostawy paliw.",
-      "stan_data": "2026-11-19",
+      "stan": "Po szczycie w Shenzhen Trump ocenił 19.11, że porozumienie o ograniczeniu broni jądrowej z Chinami i Rosją będzie trudne.",
+      "stan_data": "2026-11-20",
       "stan_zrodla": [
         {
-          "nazwa": "AP (newsletter)",
-          "url": "https://apnews.com/article/trump-xi-putin-nuclear-ukraine-iran-a04dc76ed8e786b087e2c1ea9598783a",
-          "data": "2026-11-19"
-        },
-        {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/trump-sits-down-with-his-friend-putin-chinas-xi-for-unprecedented-trilateral-talks/",
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/china/trump-says-after-talks-with-xi-putin-deal-limiting-nuclear-weapons-will-be-hard-2026-11-19/",
           "data": "2026-11-19"
         }
       ]
@@ -361,38 +331,33 @@
       "nazwa": "UE",
       "grupa": "temat",
       "opis": "Unia Europejska: Rada, Komisja, obronność, budżet WRF 2028–2034.",
-      "stan": "Komisja Europejska zaproponowała 18.11 pożyczkę dla Ukrainy na 2027 r. do 45 mld euro; decyzja należy do państw członkowskich.",
+      "stan": "Szczyt UE–Wielka Brytania w Brukseli 20.11 uzgodnił program mobilności młodzieży, ułatwienia w handlu żywnością i połączenie systemów handlu emisjami.",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/european-commission-approves-proposal-to-provide-additional-49-5-billion-to-ukraine-2/",
-          "data": "2026-11-18"
+          "nazwa": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/ukeu-summit-2026-key-documents/uk-eu-summit-2026-explainer-youth-experience-scheme-html",
+          "data": "2026-11-20"
         },
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/18/europe-tonight-eu-proposes-45bn-ukraine-loan-as-trump-xi-and-putin-meet",
-          "data": "2026-11-18"
+          "url": "https://www.euronews.com/2026/11/20/europe-tonight-eu-and-uk-strike-post-brexit-reset-deal-as-russian-missiles-hit-poland",
+          "data": "2026-11-20"
         }
       ],
-      "stan_data": "2026-11-18"
+      "stan_data": "2026-11-20"
     },
     {
       "id": "onz",
       "nazwa": "ONZ",
       "grupa": "temat",
       "opis": "ONZ i jej agendy, w tym Rada Bezpieczeństwa i Zgromadzenie Ogólne.",
-      "stan": "Konferencja przeglądowa CCW w Genewie decyduje o rozpoczęciu negocjacji w sprawie broni autonomicznej; USA i Rosja prawdopodobnie się sprzeciwią.",
-      "stan_data": "2026-11-16",
+      "stan": "Rozmowy na COP31 w Antalyi przedłużono na weekend; spór dotyczy odchodzenia od paliw kopalnych i finansowania.",
+      "stan_data": "2026-11-20",
       "stan_zrodla": [
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/16/countries-to-decide-future-of-killer-robots-at-un-conference",
-          "data": "2026-11-16"
-        },
-        {
-          "nazwa": "Reuters (za Meduza)",
-          "url": "https://meduza.io/en/news/2026/11/16/u-s-and-russia-likely-to-oppose-u-n-talks-on-restricting-ai-powered-autonomous-weapons-reuters-reports",
-          "data": "2026-11-16"
+          "url": "https://www.euronews.com/video/2026/11/20/turkey-activists-chant-shame-as-cop31-negotiations-falter",
+          "data": "2026-11-20"
         }
       ]
     },
@@ -527,25 +492,25 @@
       "nazwa": "Estonia",
       "grupa": "miejsce",
       "opis": "Polityka i bezpieczeństwo Estonii.",
-      "stan": "Estonia wezwała 16.11 rosyjskiego chargé d'affaires po próbie podpalenia zakładu Threod Systems; zamknięcie przejść granicznych z Rosją zapowiedziano na 1.12.",
+      "stan": "Rząd Estonii formalnie zatwierdził zamknięcie od 1.12 wszystkich pięciu drogowych przejść granicznych z Rosją po próbie podpalenia zakładu Threod Systems zleconej według Tallinna przez GRU.",
       "stan_zrodla": [
         {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/20/estonia-to-shut-border-with-russia-over-gru-linked-sabotage-attack",
+          "data": "2026-11-20"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/20/estonia-to-close-all-road-crossings-with-russia",
+          "data": "2026-11-20"
+        },
+        {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/estonia-summons-russian-diplomat-over-sabotage-attempt-on-drone-manufacturer/",
-          "data": "2026-11-16"
-        },
-        {
-          "nazwa": "Reuters (za Polsat News)",
-          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-16/kreml-reaguje-na-decyzje-estonii-nie-mozemy-zaakceptowac/",
-          "data": "2026-11-16"
-        },
-        {
-          "nazwa": "Reuters",
-          "url": "https://www.reuters.com/world/europe/estonia-close-russian-border-crossings-after-attempted-arson-attack-2026-11-15/",
-          "data": "2026-11-15"
+          "url": "https://kyivindependent.com/estonia-to-close-road-borders-with-russia-in-response-to-sustained-aggression-against-europe/",
+          "data": "2026-11-20"
         }
       ],
-      "stan_data": "2026-11-16"
+      "stan_data": "2026-11-20"
     },
     {
       "id": "nordyckie",
@@ -587,25 +552,25 @@
       "nazwa": "WielkaBrytania",
       "grupa": "miejsce",
       "opis": "Polityka Wielkiej Brytanii i jej bezpieczeństwo.",
-      "stan": "Wielka Brytania zapowiedziała 17.11 ponad 1000 pocisków przeciwlotniczych dla Ukrainy; premier Burnham przed szczytem z UE 20.11 ocenił, że brexit się nie sprawdził.",
+      "stan": "Premier Andy Burnham uzgodnił 20.11 w Brukseli z UE program mobilności młodzieży i ułatwienia w handlu żywnością.",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/uk-pledges-over-1-000-short-range-missiles-for-ukraine-in-240-million-pound-air-defense-package-2/",
-          "data": "2026-11-17"
+          "nazwa": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/ukeu-summit-2026-key-documents/uk-eu-summit-2026-explainer-youth-experience-scheme-html",
+          "data": "2026-11-20"
         },
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/17/germany-and-norway-to-buy-more-us-air-defences-for-ukraine-including-patriot-missiles",
-          "data": "2026-11-17"
+          "url": "https://www.euronews.com/2026/11/20/europe-tonight-eu-and-uk-strike-post-brexit-reset-deal-as-russian-missiles-hit-poland",
+          "data": "2026-11-20"
         },
         {
-          "nazwa": "AP (newsletter)",
-          "url": "https://apnews.com/article/andy-burnham-lord-mayor-banquet-speech-brexit-073f83b31ac8372ab7835e06a830261b",
-          "data": "2026-11-16"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/20/burnham-drew-a-line-under-brexit-at-the-eu-uk-summit-but-where-does-britain-go-next",
+          "data": "2026-11-20"
         }
       ],
-      "stan_data": "2026-11-17"
+      "stan_data": "2026-11-20"
     },
     {
       "id": "rumunia",
@@ -707,20 +672,15 @@
       "nazwa": "Inne",
       "grupa": "temat",
       "opis": "Wątki rzadkie, bez osobnego hashtagu.",
-      "stan": "Siły rządu Jemenu wycofały się 15.11 z rejonu cieśniny Bab al-Mandab, by bronić Adenu; według Reutersa obszar kontrolują Huti.",
+      "stan": "Mjanma zakwestionowała 20.11 wyrok MTS o ludobójstwie Rohingjów.",
       "stan_zrodla": [
         {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/middle-east/yemen-government-forces-withdraw-area-near-bab-el-mandeb-strait-houthis-control-2026-11-15/",
-          "data": "2026-11-15"
-        },
-        {
-          "nazwa": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/15/yemeni-government-forces-redeploy-from-bab-al-mandeb-to-defend-aden",
-          "data": "2026-11-15"
+          "url": "https://www.reuters.com/world/asia-pacific/myanmar-calls-icj-ruling-genocide-unfair-2026-11-20/",
+          "data": "2026-11-20"
         }
       ],
-      "stan_data": "2026-11-15"
+      "stan_data": "2026-11-20"
     },
     {
       "id": "afryka",

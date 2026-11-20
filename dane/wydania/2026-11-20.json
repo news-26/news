@@ -1,0 +1,566 @@
+{
+  "nr": 63,
+  "data": "2026-11-20",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Dwa rosyjskie pociski, w tym manewrujący Ch-101, i dron spadły w nocy na 20.11 na terytorium Polski podczas zmasowanego ataku Rosji na Ukrainę. Nikt nie został ranny, a **Warszawa uznała incydent za celową prowokację**.",
+    "Rosja wystrzeliła w nocy na 20.11 na Ukrainę ponad 400 dronów i ponad 110 pocisków. Zginęło co najmniej ośmiu cywilów, w tym sześciu w Kijowie, a według AP **trzy ukraińskie elektrownie jądrowe musiały ograniczyć moc**.",
+    "Unia Europejska i Wielka Brytania zakończyły 20.11 na szczycie w Brukseli negocjacje w sprawie **programu mobilności dla młodzieży** oraz ułatwień w handlu żywnością. Program obejmie do 100 tys. młodych ludzi rocznie z każdej strony.",
+    "Rząd Estonii formalnie zatwierdził **zamknięcie od 1 grudnia wszystkich drogowych przejść granicznych z Rosją**. Decyzja jest odpowiedzią na próbę podpalenia estońskiego zakładu zbrojeniowego, którą według Tallinna zleciły rosyjskie służby.",
+    "Według Reutersa prezydent USA Donald Trump powiedział 19.11 po rozmowach z Xi Jinpingiem i Władimirem Putinem, że **porozumienie o ograniczeniu broni jądrowej będzie trudne do osiągnięcia**."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "polska",
+      "data": "2026-11-20",
+      "tagi": [
+        "obronnosc-polski",
+        "rosja"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "nowy-lipowiec",
+      "krotko": "Ch-101 spadł w Polsce",
+      "tekst": "Dwa rosyjskie pociski, w tym {{p:ch-101|pocisk manewrujący Ch-101}}, i dron z napędem odrzutowym spadły w nocy na 20.11 na terytorium Polski podczas zmasowanego ataku Rosji na Ukrainę; {{o:wladyslaw-kosiniak-kamysz|minister obrony narodowej Władysław Kosiniak-Kamysz}} podał miejsca upadku: Nowy Lipowiec w powiecie biłgorajskim, Rudnik nad Sanem i Mołodycz. Nikt nie został ranny, a **Warszawa uznała naruszenie przestrzeni powietrznej za celową prowokację**; według Kyiv Independent minister poprosił NATO o dodatkowe samoloty wczesnego ostrzegania {{p:awacs|AWACS}} i myśliwce F-35.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/poland-reports-airspace-violation-during-russian-attack-on-ukraine-investigates-debris-crash/",
+          "data": "2026-11-20"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/20/poland-issues-air-raid-alerts-as-russia-attacks-ukraine-poland-s-defense-minister-says-two-russian-missiles-and-a-drone-fell-on-polish-soil",
+          "data": "2026-11-20"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/20/polish-cities-sound-air-raid-sirens-after-russian-missile-strike",
+          "data": "2026-11-20"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/20/europe-tonight-eu-and-uk-strike-post-brexit-reset-deal-as-russian-missiles-hit-poland",
+          "data": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "polska",
+      "data": "2026-11-20",
+      "tagi": [
+        "obronnosc-polski",
+        "usa",
+        "rosja"
+      ],
+      "tekst": "Prezydent USA {{o:donald-trump|Donald Trump}} powiedział w wywiadzie dla telewizji Fox News, że rosyjskie pociski spadły w Polsce **przez pomyłkę**, i nazwał je „kilkoma małymi pociskami”. Polski minister obrony narodowej ocenił, że naruszenie przestrzeni powietrznej wyglądało na celowe.",
+      "zrodla": [
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/20/trump-says-putin-launched-a-couple-of-small-missiles-into-poland-by-accident-a-couple-of-little-missiles",
+          "data": "2026-11-20"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/poland-reports-airspace-violation-during-russian-attack-on-ukraine-investigates-debris-crash/",
+          "data": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "wojna",
+      "data": "2026-11-20",
+      "tagi": [
+        "ukraina",
+        "rosja"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "kijow",
+      "krotko": "Kijów: zmasowany atak",
+      "tekst": "Rosja wystrzeliła w nocy na 20.11 na Ukrainę ponad 400 dronów i ponad 110 pocisków, w tym 27 balistycznych; według prezydenta {{o:wolodymyr-zelenski|Wołodymyra Zełenskiego}} zginęło co najmniej ośmiu cywilów, z tego sześciu w Kijowie. W Kijowie uszkodzone zostały trzy mosty, a według AP uderzenia w elektrownie i podstacje **wymusiły ograniczenie mocy trzech czynnych elektrowni jądrowych** i awaryjne wyłączenia prądu w 11 obwodach.",
+      "zrodla": [
+        {
+          "nazwa": "AP (za WTXL)",
+          "url": "https://www.wtxl.com/politics/russia/russia-launches-massive-missile-and-drone-attack-on-ukraine-killing-at-least-8",
+          "data": "2026-11-20"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russia-launches-mass-missile-attack-against-ukraine-after-putin-vows-revenge/",
+          "data": "2026-11-20"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/20/russian-missile-and-drone-attack-on-kyiv-kills-three-and-damages-three-dnipro-bridges-mayor-says",
+          "data": "2026-11-20"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/20/ukraine-rescue-teams-search-wreckage-after-deadly-russian-strike-on-kyiv",
+          "data": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "wojna",
+      "data": "2026-11-19",
+      "tagi": [
+        "ukraina",
+        "usa",
+        "rozejm"
+      ],
+      "tekst": "Prezydent Ukrainy Wołodymyr Zełenski powiedział 19.11 w Berlinie, że nie ma pewności, czy Kijów i Waszyngton tak samo rozumieją proponowaną gwarancję bezpieczeństwa wzorowaną na art. 5 traktatu NATO. Wysłannik prezydenta USA {{o:jared-kushner|Jared Kushner}} powiedział tam, że Rosja **oswoiła się z tą koncepcją**; Zełenski pytał, czy USA rozmieszczą w Ukrainie wojska lub bazy.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/20/what-does-it-mean-zelenskyy-asks-us-to-clarify-article-5-like-guarantee",
+          "data": "2026-11-20"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/20/zelensky-questions-whether-kyiv-and-washington-mean-the-same-thing-by-nato-style-guarantees-and-reiterates-that-postwar-ukraine-would-need-foreign-troops-on-its-soil",
+          "data": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "instytucje",
+      "data": "2026-11-20",
+      "tagi": [
+        "ue",
+        "wielka-brytania"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "bruksela",
+      "krotko": "Szczyt UE–Wielka Brytania",
+      "tekst": "Przywódcy UE i premier Wielkiej Brytanii {{o:andy-burnham|Andy Burnham}} ogłosili 20.11 na szczycie w Brukseli zakończenie negocjacji w sprawie ułatwień w handlu żywnością, połączenia systemów handlu uprawnieniami do emisji i **programu mobilności dla młodzieży**. Program obejmie do 100 tys. osób w wieku 18–31 lat rocznie z każdej strony, z prawem pobytu do trzech lat; porozumienia czekają jeszcze na podpisanie.",
+      "zrodla": [
+        {
+          "nazwa": "GOV.UK",
+          "url": "https://www.gov.uk/government/publications/ukeu-summit-2026-key-documents/uk-eu-summit-2026-explainer-youth-experience-scheme-html",
+          "data": "2026-11-20"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/20/europe-tonight-eu-and-uk-strike-post-brexit-reset-deal-as-russian-missiles-hit-poland",
+          "data": "2026-11-20"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/20/burnham-drew-a-line-under-brexit-at-the-eu-uk-summit-but-where-does-britain-go-next",
+          "data": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "z6",
+      "blok": "instytucje",
+      "data": "2026-11-20",
+      "tagi": [
+        "estonia",
+        "rosja",
+        "hybryda"
+      ],
+      "etap": "PRZYJĘTE",
+      "miejsce": "tallinn",
+      "krotko": "Estonia zamyka przejścia",
+      "tekst": "Rząd Estonii formalnie zatwierdził **zamknięcie od 1 grudnia wszystkich pięciu drogowych przejść granicznych z Rosją**, w tym obu w Narwie; ruch kolejowy zostaje utrzymany. Premier {{o:kristen-michal|Kristen Michal}} uzasadnił decyzję próbą podpalenia zakładu zbrojeniowego Threod Systems pod Tallinnem 14.11, którą według władz Estonii zleciła rosyjska {{p:gru|GRU}}.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/20/estonia-to-shut-border-with-russia-over-gru-linked-sabotage-attack",
+          "data": "2026-11-20"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/20/estonia-to-close-all-road-crossings-with-russia",
+          "data": "2026-11-20"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/estonia-to-close-road-borders-with-russia-in-response-to-sustained-aggression-against-europe/",
+          "data": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "z7",
+      "blok": "swiat",
+      "data": "2026-11-19",
+      "tagi": [
+        "usa",
+        "chiny",
+        "rosja"
+      ],
+      "tekst": "Według Reutersa prezydent USA Donald Trump powiedział 19.11 po rozmowach z przewodniczącym ChRL {{o:xi-jinping|Xi Jinpingiem}} i prezydentem Rosji {{o:wladimir-putin|Władimirem Putinem}}, że **porozumienie o ograniczeniu broni jądrowej będzie trudne do osiągnięcia**. Deklaracja przyjęta w Shenzhen zapowiadała rozmowy o zmniejszeniu ryzyka nuklearnego.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/china/trump-says-after-talks-with-xi-putin-deal-limiting-nuclear-weapons-will-be-hard-2026-11-19/",
+          "data": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "z8",
+      "blok": "swiat",
+      "data": "2026-11-20",
+      "tagi": [
+        "iran",
+        "usa"
+      ],
+      "kraje": [
+        "Irak"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "dzurf-as-sachar",
+      "krotko": "Irak: wojsko w Dżurf as-Sachar",
+      "tekst": "Według Reutersa irackie siły bezpieczeństwa weszły 20.11 do Dżurf as-Sachar na południe od Bagdadu, twierdzy wspieranej przez Iran milicji {{p:kataib-hezbollah|Kataib Hezbollah}}. Wejście jest częścią **porozumienia, które ma ograniczyć zasięg milicji bez zbrojnej konfrontacji**.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/iraqi-security-forces-deploy-iran-backed-militia-stronghold-security-officials-2026-11-20/",
+          "data": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "z9",
+      "blok": "swiat",
+      "data": "2026-11-20",
+      "tagi": [
+        "inne"
+      ],
+      "kraje": [
+        "Mjanma"
+      ],
+      "tekst": "Według Reutersa rząd Mjanmy **zakwestionował 20.11 wyrok Międzynarodowego Trybunału Sprawiedliwości**, który uznał, że państwo dopuściło się ludobójstwa na Rohingjach.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/asia-pacific/myanmar-calls-icj-ruling-genocide-unfair-2026-11-20/",
+          "data": "2026-11-20"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "Michał Bogusz, Ernest Wyciszkiewicz, Andrzej Kohut (OSW): spotkania w Shenzhen nie przyniosły przełomu, a Pekin zyskał rolę pośrednika",
+      "autor": "Michał Bogusz, Ernest Wyciszkiewicz, Andrzej Kohut, Ośrodek Studiów Wschodnich, 20.11.2026",
+      "tekst": "Autorzy oceniają, że rozmowy Xi Jinpinga z Donaldem Trumpem nie przyniosły realnych przełomów, a krótka deklaracja z Shenzhen nie rozstrzygnęła żadnej kluczowej sprawy. Pekin zyskał kapitał polityczny jako pośrednik, unikając wiążących zobowiązań w sprawie Ukrainy i kontroli zbrojeń. Putin rozmawiał o wojnie z Trumpem bez udziału Kijowa, a szczyt dał Moskwie uznanie jako mocarstwu mimo sankcji i nakazu aresztowania Międzynarodowego Trybunału Karnego.",
+      "dla_polski": "Rozmowy mocarstw o wojnie w Ukrainie bez udziału Kijowa i Europy osłabiają wpływ Polski i UE na warunki ewentualnego porozumienia. Moskwa będzie powoływać się na ten precedens, zabiegając o kolejne spotkania w takim formacie.",
+      "tagi": [
+        "chiny",
+        "usa",
+        "rosja"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-20/nie-nowa-jalta-spotkania-na-marginesie-apec-w-shenzhen",
+          "data": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "tytul": "Zuzanna Krzyżanowska (OSW): tureckie gangi nowej generacji stają się narzędziem rosyjskiego sabotażu",
+      "autor": "Zuzanna Krzyżanowska, Ośrodek Studiów Wschodnich, 20.11.2026",
+      "tekst": "Autorka opisuje tureckie „gangi nowej generacji”, które przeszły od drobnej przestępczości do wymuszeń, handlu narkotykami i bronią, a dziś działają także w Niemczech; 27.10 tureckie władze zatrzymały 89 osób z nimi związanych. Według doniesień prasy gang Daltons podpalał we wrześniu i październiku stacje łączności satelitarnej Starlink w Polsce, Bułgarii i na Litwie, prawdopodobnie na zlecenie Rosji. Autorka ocenia, że Rosja wykorzystuje takie grupy do sabotażu w państwach wspierających Ukrainę.",
+      "dla_polski": "Polska jest jednym z państw, w których według doniesień działały grupy zlecone przez Rosję. Werbunek obcych przestępców utrudnia wykrywanie sabotażu przez polskie służby.",
+      "tagi": [
+        "hybryda",
+        "rosja",
+        "obronnosc-polski"
+      ],
+      "kraje": [
+        "Turcja"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-20/turcja-gangi-nowej-generacji-narzedziem-rosyjskiego-sabotazu",
+          "data": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "tytul": "Piotr Dzierżanowski, Oskar Pietrewicz, Justyna Szczudlik (PISM): szczyt APEC w Shenzhen promował chińską wizję ładu regionalnego",
+      "autor": "Piotr Dzierżanowski, Oskar Pietrewicz, Justyna Szczudlik, Polski Instytut Spraw Międzynarodowych, Komentarz nr 59/2026, 20.11.2026",
+      "tekst": "Autorzy oceniają, że szczyt {{p:apec|APEC}} w Shenzhen (18–19.11) nie rozwiązał głównych problemów gospodarczych regionu, a Chiny wykorzystały go do promowania wizji ładu z własną rolą przywódczą. Niewiążąca deklaracja końcowa pominęła odwołania do wielostronnego systemu handlu opartego na Światowej Organizacji Handlu. Dla UE najważniejsze były spotkania dwustronne, zwłaszcza rozmowy Trumpa z Putinem.",
+      "dla_polski": "Według autorów rozmowy USA i Rosji o Ukrainie będą trwać, więc państwa europejskie, w tym Polska, muszą dalej wspierać Ukrainę i wziąć większą odpowiedzialność za bezpieczeństwo Europy.",
+      "tagi": [
+        "chiny",
+        "usa"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "PISM",
+          "url": "https://www.pism.pl/publikacje/szczyt-apec-w-shenzhen-wymiar-regionalny-i-dwustronny",
+          "data": "2026-11-20"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-11-26",
+      "tekst": "26–27.11: Bruksela – nadzwyczajna Rada Europejska w sprawie wieloletnich ram finansowych 2028–2034 (termin wstępny).",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-28",
+      "tekst": "28.11: Tajwan – wybory lokalne.",
+      "tagi": [
+        "chiny",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-11-29",
+      "tekst": "29.11: Hiszpania – przedterminowe wybory parlamentarne.",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-12-01",
+      "tekst": "Estonia – zapowiedziane zamknięcie drogowych przejść granicznych z Rosją",
+      "tagi": [
+        "estonia"
+      ],
+      "poza_kalendarium": "Decyzja administracyjna państwa, nie spotkanie ani wybory."
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [
+      {
+        "tytul": "Turcja: gangi nowej generacji narzędziem rosyjskiego sabotażu",
+        "autor": "Zuzanna Krzyżanowska",
+        "data": "2026-11-20",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-20/turcja-gangi-nowej-generacji-narzedziem-rosyjskiego-sabotazu"
+      },
+      {
+        "tytul": "Nie nowa Jałta. Spotkania na marginesie APEC w Shenzhen",
+        "autor": "Michał Bogusz, Ernest Wyciszkiewicz, Andrzej Kohut",
+        "data": "2026-11-20",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-20/nie-nowa-jalta-spotkania-na-marginesie-apec-w-shenzhen"
+      },
+      {
+        "tytul": "Łotwa: nowy rząd, stary premier. Drugi gabinet Kulbergsa",
+        "autor": "Bartosz Chmielewski",
+        "data": "2026-11-20",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-20/lotwa-nowy-rzad-stary-premier-drugi-gabinet-kulbergsa"
+      },
+      {
+        "tytul": "Litwa i Niemcy – od dystansu do partnerstwa strategicznego",
+        "autor": "Joanna Hyndle-Hussein",
+        "data": "2026-11-19",
+        "url": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-11-19/litwa-i-niemcy-od-dystansu-do-partnerstwa-strategicznego"
+      },
+      {
+        "tytul": "Na zużytych torach. Wyzwania polityki kolejowej RFN",
+        "autor": "Michał Kędzierski",
+        "data": "2026-11-18",
+        "url": "https://www.osw.waw.pl/pl/publikacje/raport-osw/2026-11-18/na-zuzytych-torach"
+      }
+    ],
+    "pism": [],
+    "nieodczytane": [
+      "pism"
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "prog": "dokumentacja",
+      "tekst": "Most Krymski: według Meduzy wicepremier Rosji Marat Chusnullin powiedział 20.11, że uszkodzone są łuk i główny dźwigar mostu, a czasu naprawy nie da się na razie określić.",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 20.11: brak wzmianki",
+        "Kanał RSS Euronews 20.11: brak wzmianki",
+        "Newsletter Reutersa „Daily Briefing” 20.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n2",
+      "prog": "dokumentacja",
+      "tekst": "UE i Ukraina: według Kyiv Independent państwa UE zatwierdziły 20.11 kolejny 1 mld euro z Europejskiego Instrumentu na rzecz Pokoju (EPF) na wspólne zakupy dronów, obrony powietrznej i amunicji dla Ukrainy, z dostawami do końca 2027 r.",
+      "sprawdzono": [
+        "Kanał RSS Euronews 20.11: brak wzmianki",
+        "Kanał RSS Meduzy 20.11: brak wzmianki",
+        "Wyszukiwarka (komunikat Rady UE z 20.11): brak wyniku"
+      ]
+    },
+    {
+      "id": "n3",
+      "prog": "dokumentacja",
+      "tekst": "Polska i Ukraina: według Kyiv Independent Orlen podpisał 18.11 z Naftohazem umowę na trzy częściowe ładunki amerykańskiego LNG, które mają trafić przez terminal w Świnoujściu i polską sieć gazową na Ukrainę w I kwartale 2027 r.",
+      "sprawdzono": [
+        "Kanał RSS Euronews 20.11: brak wzmianki",
+        "Kanał RSS Meduzy 20.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 20.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n4",
+      "prog": "dokumentacja",
+      "tekst": "Niemcy i Rosja: według Meduzy (za „Spieglem” i DW) minister obrony Niemiec Boris Pistorius wezwał Europejczyków do przyjęcia zaproszenia Putina na rozmowy w Moskwie; według Radia Swoboda doradcy ds. bezpieczeństwa narodowego Francji, Niemiec i Wielkiej Brytanii mogą pojechać do Moskwy jeszcze w listopadzie.",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 20.11: brak wzmianki",
+        "Kanał RSS Euronews 20.11: brak wzmianki",
+        "Newsletter Reutersa „Daily Briefing” 20.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n5",
+      "prog": "dokumentacja",
+      "tekst": "USA, Chiny i Rosja: według Meduzy (za „Helsingin Sanomat”) prezydent Finlandii Alexander Stubb powiedział w Berlinie, że na prośbę USA z deklaracji z Shenzhen usunięto zapis o Ukrainie.",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 20.11: brak wzmianki",
+        "Kanał RSS Euronews 20.11: brak wzmianki",
+        "Newsletter Reutersa „Daily Briefing” 20.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n6",
+      "prog": "dokumentacja",
+      "tekst": "Węgry i UE: według Euronews Komisja Europejska zatwierdziła częściowo wypłatę 10 mld euro z Krajowego Planu Odbudowy dla Węgier po reformach praworządności; Budapeszt spełnił wszystkie warunki poza jednym.",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 20.11: brak wzmianki",
+        "Kanał RSS Meduzy 20.11: brak wzmianki",
+        "Newsletter Reutersa „Daily Briefing” 20.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n7",
+      "prog": "dokumentacja",
+      "tekst": "Dania i Rosja: tytuł artykułu Euronews z 20.11 mówi o wydaleniu rosyjskiego attaché obrony w związku ze spiskiem na życie ukraińskiego rapera; opis artykułu mówi tylko o zarzutach dla dwóch Duńczyków.",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 20.11: brak wzmianki",
+        "Kanał RSS Meduzy 20.11: brak wzmianki",
+        "Wyszukiwarka (wydalenie attaché, listopad 2026): brak wyniku"
+      ]
+    },
+    {
+      "id": "n8",
+      "prog": "dokumentacja",
+      "tekst": "Niemcy i Ukraina: według Kyiv Independent Niemcy poparły plan nowej fabryki dronów firm SkyFall i Auterion, który rozszerzy ukraińską produkcję uzbrojenia za granicą.",
+      "sprawdzono": [
+        "Kanał RSS Euronews 20.11: brak wzmianki",
+        "Kanał RSS Meduzy 20.11: brak wzmianki",
+        "Wyszukiwarka (SkyFall, Auterion, 20.11): tylko teksty z wcześniejszych miesięcy"
+      ]
+    },
+    {
+      "id": "n9",
+      "prog": "następstwo",
+      "tekst": "Wielka Brytania i Iran: według Reutersa dwaj mężczyźni oskarżeni w sprawie incydentu w bazie RAF Fairford, który ma związek z Iranem, staną przed sądem w przyszłym roku."
+    },
+    {
+      "id": "n10",
+      "prog": "dokumentacja",
+      "tekst": "USA i Iran: według tytułów w newsletterach AP i Reutersa republikanie w Senacie USA zablokowali 19.11 kolejną próbę demokratów, by zakończyć wojnę z Iranem, a Trump powiedział, że nie spieszy się z decyzją w sprawie Iranu.",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 20.11: brak wzmianki",
+        "Kanał RSS Euronews 20.11: brak wzmianki",
+        "Kanał RSS Meduzy 20.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n11",
+      "prog": "dokumentacja",
+      "tekst": "COP31: według Euronews rozmowy na konferencji klimatycznej ONZ w Antalyi przedłużono na weekend, bo państwa nie uzgodniły do 20.11 harmonogramu odchodzenia od paliw kopalnych ani finansowania klimatycznego.",
+      "sprawdzono": [
+        "Newsletter Reutersa „Iran Briefing” 20.11: tylko tytuł",
+        "Kanał RSS Kyiv Independent 20.11: brak wzmianki",
+        "Kanał RSS Meduzy 20.11: brak wzmianki"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-11-19#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Euronews 20.11: brak wzmianki",
+        "Newsletter Reutersa „Daily Briefing” 20.11: brak wzmianki",
+        "Kanał RSS Meduzy 20.11: brak wzmianki"
+      ],
+      "powod": "Wycofanie sprzeciwu Węgier wobec otwarcia dwóch ostatnich klastrów opisuje tylko Kyiv Independent."
+    },
+    {
+      "dotyczy": "2026-11-19#n2",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 20.11: brak wzmianki",
+        "Newsletter Reutersa „Daily Briefing” 20.11: brak wzmianki",
+        "Newsletter AP „Morning Wire” 20.11: brak wzmianki"
+      ],
+      "powod": "Okres próbny dla nowych członków UE opisuje tylko Euronews."
+    },
+    {
+      "dotyczy": "2026-11-19#n3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 20.11: brak wzmianki",
+        "Kanał RSS Meduzy 20.11: brak wzmianki",
+        "Newsletter Reutersa „Daily Briefing” 20.11: brak wzmianki"
+      ],
+      "powod": "Cyberatak na Komisję Europejską opisuje tylko Euronews; 20.11 dodał relację o krytyce związków zawodowych urzędników."
+    },
+    {
+      "dotyczy": "2026-11-19#n4",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 20.11: brak wzmianki",
+        "Kanał RSS Meduzy 20.11: brak wzmianki",
+        "Newsletter Reutersa „Daily Briefing” 20.11: brak wzmianki"
+      ],
+      "powod": "Wybór przewodniczącego serbskiego parlamentu opisuje tylko Euronews."
+    },
+    {
+      "dotyczy": "2026-11-19#n5",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 20.11: brak wzmianki",
+        "Kanał RSS Euronews 20.11: brak wzmianki",
+        "Newsletter Reutersa „Daily Briefing” 20.11: brak wzmianki"
+      ],
+      "powod": "Zaproszenie Europejczyków do Moskwy przez Putina potwierdza tylko Meduza; wątek opisano w nowym wpisie n4."
+    },
+    {
+      "dotyczy": "2026-11-19#n6",
+      "wynik": "UZUPEŁNIONE",
+      "pozycja": "z8"
+    }
+  ],
+  "do_sprawdzenia": [
+    "Polska – komunikaty DO RSZ, MON i prokuratury o pociskach Ch-101 i dronie; odpowiedź NATO na prośbę o AWACS i F-35",
+    "Most Krymski – skala uszkodzeń i termin naprawy",
+    "Kijów – ostateczny bilans ofiar ataku z 20.11",
+    "COP31 – wynik rozmów w Antalyi",
+    "UE – komunikat Rady o 1 mld euro z EPF dla Ukrainy",
+    "Europejscy doradcy ds. bezpieczeństwa – wyjazd do Moskwy",
+    "Węgry – wypłata z Krajowego Planu Odbudowy",
+    "Agencja Uzbrojenia i PGZ – umowy"
+  ],
+  "nota": "Listy publikacji PISM nie udało się odczytać (polska i angielska lista oraz strona główna zwróciły pustą treść lub błąd 404); w analizach omówiono Komentarz PISM nr 59/2026 odnaleziony wyszukiwarką. Dział Świat Onetu niesprawdzony: domena jest niedostępna dla wyszukiwarki. Komunikatów DO RSZ i MON o pociskach w Polsce nie odnaleziono na stronach instytucji; wypowiedzi ministra obrony podano za Kyiv Independent, Meduzą i Euronews. Komunikatów Agencji Uzbrojenia i PGZ z 19–20.11 wyszukiwarka nie zwróciła. Bilans ofiar ataku na Ukrainę z 20.11 podano za AP (co najmniej 8, w tym 6 w Kijowie); Kyiv Independent podaje 9, w tym 7 w Kijowie. Kontrola niezależna przeprowadzona; jej uwagi uwzględniono."
+}

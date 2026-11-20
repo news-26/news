@@ -8,12 +8,17 @@
       "kraj": [
         "usa"
       ],
-      "zweryfikowano": "2026-11-13",
+      "zweryfikowano": "2026-11-20",
       "zrodla": [
         {
-          "nazwa": "Associated Press (newsletter)",
-          "url": "https://apnews.com/article/trump-iran-vance-negotiations-d9671cbf66e3c2e337f4fb3485ad07d0",
-          "data": "2026-11-12"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/20/trump-says-putin-launched-a-couple-of-small-missiles-into-poland-by-accident-a-couple-of-little-missiles",
+          "data": "2026-11-20"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/china/trump-says-after-talks-with-xi-putin-deal-limiting-nuclear-weapons-will-be-hard-2026-11-19/",
+          "data": "2026-11-19"
         }
       ]
     },
@@ -24,12 +29,17 @@
       "kraj": [
         "ukraina"
       ],
-      "zweryfikowano": "2026-11-12",
+      "zweryfikowano": "2026-11-20",
       "zrodla": [
         {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/20/what-does-it-mean-zelenskyy-asks-us-to-clarify-article-5-like-guarantee",
+          "data": "2026-11-20"
+        },
+        {
           "nazwa": "Meduza",
-          "url": "https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks",
-          "data": "2026-11-12"
+          "url": "https://meduza.io/en/news/2026/11/20/zelensky-questions-whether-kyiv-and-washington-mean-the-same-thing-by-nato-style-guarantees-and-reiterates-that-postwar-ukraine-would-need-foreign-troops-on-its-soil",
+          "data": "2026-11-20"
         }
       ]
     },
@@ -500,12 +510,12 @@
       "kraj": [
         "estonia"
       ],
-      "zweryfikowano": "2026-11-15",
+      "zweryfikowano": "2026-11-20",
       "zrodla": [
         {
-          "nazwa": "ERR",
-          "url": "https://news.err.ee/1610196794/estonia-to-close-border-crossings-with-russia-after-gru-linked-sabotage-attacks",
-          "data": "2026-11-15"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/20/estonia-to-shut-border-with-russia-over-gru-linked-sabotage-attack",
+          "data": "2026-11-20"
         }
       ]
     },
@@ -656,12 +666,12 @@
       "kraj": [
         "usa"
       ],
-      "zweryfikowano": "2026-11-13",
+      "zweryfikowano": "2026-11-20",
       "zrodla": [
         {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/11/13/kushner-says-ukraine-and-russia-are-preparing-what-could-be-the-war-s-largest-prisoner-swap",
-          "data": "2026-11-13"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/20/what-does-it-mean-zelenskyy-asks-us-to-clarify-article-5-like-guarantee",
+          "data": "2026-11-20"
         }
       ]
     },
@@ -1094,12 +1104,17 @@
       "kraj": [
         "wielka-brytania"
       ],
-      "zweryfikowano": "2026-11-12",
+      "zweryfikowano": "2026-11-20",
       "zrodla": [
         {
-          "nazwa": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/ukraine-set-to-be-focus-of-epc-summit-as-uk-sanctions-russias-top-ten-oil-producers",
-          "data": "2026-11-12"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/20/europe-tonight-eu-and-uk-strike-post-brexit-reset-deal-as-russian-missiles-hit-poland",
+          "data": "2026-11-20"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/20/burnham-drew-a-line-under-brexit-at-the-eu-uk-summit-but-where-does-britain-go-next",
+          "data": "2026-11-20"
         }
       ]
     },

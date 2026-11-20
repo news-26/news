@@ -444,6 +444,24 @@
       "nazwa": "MTK",
       "pelna": "Międzynarodowy Trybunał Karny",
       "definicja": "Stały sąd w Hadze sądzący osoby oskarżone o ludobójstwo, zbrodnie wojenne i zbrodnie przeciw ludzkości. W 2023 r. wydał nakaz aresztowania Władimira Putina; USA, Rosja i Chiny nie uznają jego jurysdykcji."
+    },
+    {
+      "id": "ch-101",
+      "nazwa": "Ch-101",
+      "pelna": "Ch-101 (Kh-101)",
+      "definicja": "Rosyjski pocisk manewrujący odpalany z bombowców strategicznych Tu-95 i Tu-160, o zasięgu kilku tysięcy kilometrów. Rosja używa go w zmasowanych atakach na Ukrainę."
+    },
+    {
+      "id": "awacs",
+      "nazwa": "AWACS",
+      "pelna": "Airborne Warning and Control System",
+      "definicja": "Samoloty wczesnego ostrzegania i dowodzenia z dużym radarem, które wykrywają cele powietrzne z dużej odległości. NATO ma własną flotę takich maszyn."
+    },
+    {
+      "id": "kataib-hezbollah",
+      "nazwa": "Kataib Hezbollah",
+      "pelna": "Kataib Hezbollah (Brygady Hezbollahu)",
+      "definicja": "Iracka szyicka milicja zbrojna wspierana przez Iran, najsilniejsza z ugrupowań sprzymierzonych z Teheranem w Iraku. USA uznają ją za organizację terrorystyczną."
     }
   ]
 }

@@ -915,6 +915,20 @@
       "lon": -66.9,
       "lat": 10.49,
       "kraj": "Wenezuela"
+    },
+    {
+      "id": "nowy-lipowiec",
+      "nazwa": "Nowy Lipowiec",
+      "lon": 22.66,
+      "lat": 50.62,
+      "kraj": "Polska"
+    },
+    {
+      "id": "dzurf-as-sachar",
+      "nazwa": "Dżurf as-Sachar",
+      "lon": 44.12,
+      "lat": 32.83,
+      "kraj": "Irak"
     }
   ]
 }

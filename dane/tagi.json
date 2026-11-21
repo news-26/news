@@ -6,25 +6,25 @@
       "nazwa": "Ukraina",
       "grupa": "miejsce",
       "opis": "Wojna Rosji z Ukrainą: ataki, obrona powietrzna, polityka Kijowa, pomoc zachodnia.",
-      "stan": "Rosyjski atak z 20.11 (ponad 400 dronów i 110 pocisków) zabił co najmniej ośmiu cywilów i ograniczył pracę elektrowni jądrowych; Zełenski domaga się wyjaśnienia gwarancji bezpieczeństwa USA.",
+      "stan": "Rosyjskie pociski balistyczne zabiły 20.11 w Krzywym Rogu dwie osoby, w tym dziecko, i raniły ponad 50; w nocy na 21.11 Rosja wystrzeliła 148 dronów i trzy pociski balistyczne.",
       "stan_zrodla": [
         {
-          "nazwa": "AP (za WTXL)",
-          "url": "https://www.wtxl.com/politics/russia/russia-launches-massive-missile-and-drone-attack-on-ukraine-killing-at-least-8",
-          "data": "2026-11-20"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-attacks-kill-at-least-2-injure-83-across-ukraine-as-strikes-devastate-kryvyi-rih/",
+          "data": "2026-11-21"
         },
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/russia-launches-mass-missile-attack-against-ukraine-after-putin-vows-revenge/",
+          "url": "https://kyivindependent.com/russian-ballistic-missile-strikes-on-kryvyi-rih-kill-7-year-old-paramedic-injure-42-others-in-double-tap-attack/",
           "data": "2026-11-20"
         },
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/20/what-does-it-mean-zelenskyy-asks-us-to-clarify-article-5-like-guarantee",
-          "data": "2026-11-20"
+          "url": "https://www.euronews.com/2026/11/21/ballistic-missile-attack-on-zelenskyys-hometown-kills-two-people",
+          "data": "2026-11-21"
         }
       ],
-      "stan_data": "2026-11-20"
+      "stan_data": "2026-11-21"
     },
     {
       "id": "front",
@@ -71,23 +71,23 @@
       "nazwa": "Rosja",
       "grupa": "miejsce",
       "opis": "Polityka wewnętrzna, armia i budżet Rosji.",
-      "stan": "Rosja przeprowadziła 20.11 jeden z największych ataków na Ukrainę, a dwa jej pociski i dron spadły w Polsce; Estonia zamyka od 1.12 drogowe przejścia z Rosją.",
-      "stan_data": "2026-11-20",
+      "stan": "Drony trafiły 21.11 w objęty sankcjami rosyjski statek Sparta II w Zatoce Fińskiej; kilka godzin później rosyjski śmigłowiec prawdopodobnie naruszył przestrzeń powietrzną Finlandii.",
+      "stan_data": "2026-11-21",
       "stan_zrodla": [
         {
-          "nazwa": "AP (za WTXL)",
-          "url": "https://www.wtxl.com/politics/russia/russia-launches-massive-missile-and-drone-attack-on-ukraine-killing-at-least-8",
-          "data": "2026-11-20"
-        },
-        {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/poland-reports-airspace-violation-during-russian-attack-on-ukraine-investigates-debris-crash/",
-          "data": "2026-11-20"
+          "url": "https://kyivindependent.com/russian-military-linked-cargo-ship-catches-fire-after-reported-drone-strike-in-gulf-of-finland/",
+          "data": "2026-11-21"
         },
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/20/estonia-to-shut-border-with-russia-over-gru-linked-sabotage-attack",
-          "data": "2026-11-20"
+          "url": "https://www.euronews.com/2026/11/21/russian-cargo-ship-struck-by-drone-in-gulf-of-finland-finnish-authorities-say",
+          "data": "2026-11-21"
+        },
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-21/atak-na-baltyku-rosyjski-statek-w-ogniu-trwa-akcja-ratunkowa/",
+          "data": "2026-11-21"
         }
       ]
     },
@@ -136,20 +136,25 @@
       "nazwa": "Wojna hybrydowa",
       "grupa": "temat",
       "opis": "Działania hybrydowe: drony, sabotaż, dezinformacja, cyberataki, presja migracyjna.",
-      "stan": "Estonia zamyka od 1.12 drogowe przejścia z Rosją w odpowiedzi na sabotaż przypisany GRU.",
+      "stan": "Dania wydala rosyjskiego attaché obrony po udaremnieniu spisku na życie ukraińskiego rapera i proponuje zawieszenie wiz turystycznych dla Rosjan w strefie Schengen.",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/20/estonia-to-shut-border-with-russia-over-gru-linked-sabotage-attack",
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/20/denmark-to-expel-russia-s-military-attache-after-arrests-in-alleged-plot-to-kill-ukrainian-rapper",
           "data": "2026-11-20"
         },
         {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/11/20/estonia-to-close-all-road-crossings-with-russia",
-          "data": "2026-11-20"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/denmark-calls-for-eu-wide-travel-restrictions-on-russians-following-foiled-assassination-plot/",
+          "data": "2026-11-21"
+        },
+        {
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/world/europe/denmark-pushes-eu-tighten-curbs-russians-after-foiled-plot-message-member-states-2026-11-21/",
+          "data": "2026-11-21"
         }
       ],
-      "stan_data": "2026-11-20"
+      "stan_data": "2026-11-21"
     },
     {
       "id": "uzbrojenie",
@@ -261,15 +266,20 @@
       "nazwa": "Iran",
       "grupa": "miejsce",
       "opis": "Iran, Cieśnina Ormuz, rozmowy z USA i mediatorami.",
-      "stan": "Irackie siły weszły 20.11 do twierdzy Kataib Hezbollah w Dżurf as-Sachar w ramach porozumienia ograniczającego zasięg milicji.",
+      "stan": "Dwa tankowce trafione 21.11 niezidentyfikowanymi pociskami w Cieśninie Ormuz koło Chasab; Iran twierdzi, że tankowiec wszedł na minę w zamkniętym rejonie.",
       "stan_zrodla": [
         {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/middle-east/iraqi-security-forces-deploy-iran-backed-militia-stronghold-security-officials-2026-11-20/",
-          "data": "2026-11-20"
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/business/energy/tanker-hit-by-unknown-projectile-near-omans-khasab-ukmto-says-2026-11-21/",
+          "data": "2026-11-21"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping",
+          "data": "2026-11-21"
         }
       ],
-      "stan_data": "2026-11-20"
+      "stan_data": "2026-11-21"
     },
     {
       "id": "usa",
@@ -331,33 +341,38 @@
       "nazwa": "UE",
       "grupa": "temat",
       "opis": "Unia Europejska: Rada, Komisja, obronność, budżet WRF 2028–2034.",
-      "stan": "Szczyt UE–Wielka Brytania w Brukseli 20.11 uzgodnił program mobilności młodzieży, ułatwienia w handlu żywnością i połączenie systemów handlu emisjami.",
+      "stan": "António Costa zaproponował 21.11 budżet UE na lata 2028–2034 w wysokości 1,78 bln euro, o ok. 10% mniejszy od projektu Komisji; rozmowy na nadzwyczajnej Radzie Europejskiej.",
       "stan_zrodla": [
         {
-          "nazwa": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/ukeu-summit-2026-key-documents/uk-eu-summit-2026-explainer-youth-experience-scheme-html",
-          "data": "2026-11-20"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/21/eu-budget-costa-pitches-more-cuts-big-tech-tax-to-break-deadlock",
+          "data": "2026-11-21"
         },
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/20/europe-tonight-eu-and-uk-strike-post-brexit-reset-deal-as-russian-missiles-hit-poland",
-          "data": "2026-11-20"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/eu-budget-proposal-keeps-ukraine-funding-unchanged-as-cost-of-russias-war-rises/",
+          "data": "2026-11-21"
         }
       ],
-      "stan_data": "2026-11-20"
+      "stan_data": "2026-11-21"
     },
     {
       "id": "onz",
       "nazwa": "ONZ",
       "grupa": "temat",
       "opis": "ONZ i jej agendy, w tym Rada Bezpieczeństwa i Zgromadzenie Ogólne.",
-      "stan": "Rozmowy na COP31 w Antalyi przedłużono na weekend; spór dotyczy odchodzenia od paliw kopalnych i finansowania.",
-      "stan_data": "2026-11-20",
+      "stan": "Konferencja klimatyczna COP31 w Antalyi przekroczyła 20.11 termin zakończenia z powodu sporu o paliwa kopalne i finansowanie klimatyczne.",
+      "stan_data": "2026-11-21",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/20/turkey-activists-chant-shame-as-cop31-negotiations-falter",
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/sustainability/cop/cop31-climate-talks-spill-into-overtime-nations-quarrel-over-fossil-fuels-2026-11-20/",
           "data": "2026-11-20"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/21/fossil-fuel-row-sees-cop31-talks-spill-into-overtime",
+          "data": "2026-11-21"
         }
       ]
     },
@@ -517,20 +532,25 @@
       "nazwa": "Nordyckie",
       "grupa": "miejsce",
       "opis": "Szwecja, Finlandia, Norwegia, Dania, Islandia.",
-      "stan": "Parlament Danii zatwierdził 19.11 umowę o bezpieczeństwie z USA i Grenlandią, która pozwala USA zbudować na wyspie dwie nowe bazy.",
+      "stan": "Atak dronów na rosyjski statek Sparta II w Zatoce Fińskiej 21.11 i podejrzenie naruszenia fińskiej przestrzeni powietrznej przez rosyjski śmigłowiec; Dania wydala rosyjskiego attaché obrony.",
       "stan_zrodla": [
         {
-          "nazwa": "AP (newsletter)",
-          "url": "https://apnews.com/article/denmark-greenland-us-security-arctic-north-atlantic-a392abbba5c2f1bccbbb372e3d38769d",
-          "data": "2026-11-19"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-military-linked-cargo-ship-catches-fire-after-reported-drone-strike-in-gulf-of-finland/",
+          "data": "2026-11-21"
         },
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/19/danish-lawmakers-ratify-us-greenland-security-pact",
-          "data": "2026-11-19"
+          "url": "https://www.euronews.com/2026/11/21/russian-cargo-ship-struck-by-drone-in-gulf-of-finland-finnish-authorities-say",
+          "data": "2026-11-21"
+        },
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-21/atak-na-baltyku-rosyjski-statek-w-ogniu-trwa-akcja-ratunkowa/",
+          "data": "2026-11-21"
         }
       ],
-      "stan_data": "2026-11-19"
+      "stan_data": "2026-11-21"
     },
     {
       "id": "francja",

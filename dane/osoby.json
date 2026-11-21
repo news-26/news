@@ -285,12 +285,12 @@
       "kraj": [
         "ue"
       ],
-      "zweryfikowano": "2026-11-11",
+      "zweryfikowano": "2026-11-21",
       "zrodla": [
         {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/11/09/german-chancellor-merz-threatens-to-block-eu-budget-unless-four-holdouts-hungary-slovakia-bulgaria-and-the-czech-republic-commit-to-funding-ukraine",
-          "data": "2026-11-09"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/21/eu-budget-costa-pitches-more-cuts-big-tech-tax-to-break-deadlock",
+          "data": "2026-11-21"
         }
       ]
     },
@@ -1908,12 +1908,12 @@
         "nordyckie"
       ],
       "panstwo": "Finlandia",
-      "zweryfikowano": "2026-11-13",
+      "zweryfikowano": "2026-11-21",
       "zrodla": [
         {
-          "nazwa": "Yle",
-          "url": "https://yle.fi/a/74-20256829",
-          "data": "2026-11-13"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/21/russian-cargo-ship-struck-by-drone-in-gulf-of-finland-finnish-authorities-say",
+          "data": "2026-11-21"
         }
       ],
       "formy": [
@@ -1996,6 +1996,30 @@
           "url": "https://apnews.com/article/colby-ukraine-deep-long-nato-strikes-starshield-e570c549277a14f97ad24319f2f1bf7e",
           "data": "2026-11-19"
         }
+      ]
+    },
+    {
+      "id": "petteri-orpo",
+      "imie": "Petteri Orpo",
+      "funkcja": "Premier Finlandii (Partia Koalicji Narodowej).",
+      "kraj": [
+        "nordyckie"
+      ],
+      "panstwo": "Finlandia",
+      "zweryfikowano": "2026-11-21",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/21/russian-cargo-ship-struck-by-drone-in-gulf-of-finland-finnish-authorities-say",
+          "data": "2026-11-21"
+        }
+      ],
+      "formy": [
+        "Petteri Orpo",
+        "Orpo",
+        "Orpa",
+        "Orpie",
+        "Orpem"
       ]
     }
   ]

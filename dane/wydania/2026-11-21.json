@@ -1,0 +1,579 @@
+{
+  "nr": 64,
+  "data": "2026-11-21",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Drony trafiły 21.11 w rosyjski statek towarowy Sparta II w Zatoce Fińskiej, objęty sankcjami USA i Ukrainy. Na pokładzie wybuchł pożar, a **premier Finlandii Petteri Orpo powiedział, że Ukraina ma prawo walczyć z agresorem**.",
+    "Rosyjski atak rakietowy na centrum Krzywego Rogu, rodzinnego miasta prezydenta Ukrainy, zabił 20.11 wieczorem dwie osoby, w tym siedmioletnie dziecko. **Blisko 60 osób zostało rannych**.",
+    "Dania nakazała wydalenie rosyjskiego attaché obrony po udaremnieniu spisku na życie ukraińsko-amerykańskiego rapera; duńskie służby przypisują spisek Rosji. Kopenhaga proponuje też **zawieszenie wiz turystycznych dla Rosjan w całej strefie Schengen**.",
+    "Przewodniczący Rady Europejskiej António Costa zaproponował **budżet UE na lata 2028–2034 mniejszy o ok. 10% od projektu Komisji Europejskiej**. Propozycja ma być podstawą rozmów na nadzwyczajnym szczycie UE pod koniec listopada.",
+    "Dwa tankowce zostały 21.11 trafione niezidentyfikowanymi pociskami w Cieśninie Ormuz w pobliżu omańskiego portu Chasab. Według Al-Dżaziry Iran twierdzi, że **tankowiec wszedł tam na minę w rejonie objętym irańskimi ograniczeniami**."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-11-21",
+      "tagi": [
+        "rosja",
+        "ukraina",
+        "nordyckie"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "zatoka-finska",
+      "krotko": "Dron trafił Spartę II",
+      "tekst": "Drony trafiły rano 21.11 w rosyjski statek towarowy Sparta II na wodach międzynarodowych w Zatoce Fińskiej, na zachód od wyspy Suursaari; na pokładzie wybuchł pożar, a statek dryfował na fińskie wody terytorialne na południe od Loviisy. Jednostka jest objęta sankcjami USA i Ukrainy, a według Kyiv Independent przewoziła wcześniej rosyjski sprzęt wojskowy. Premier Finlandii {{o:petteri-orpo|Petteri Orpo}} powiedział, że **Ukraina ma prawo walczyć z agresorem**.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-military-linked-cargo-ship-catches-fire-after-reported-drone-strike-in-gulf-of-finland/",
+          "data": "2026-11-21"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/21/russian-cargo-ship-struck-by-drone-in-gulf-of-finland-finnish-authorities-say",
+          "data": "2026-11-21"
+        },
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-21/atak-na-baltyku-rosyjski-statek-w-ogniu-trwa-akcja-ratunkowa/",
+          "data": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-11-20",
+      "tagi": [
+        "ukraina",
+        "rosja"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "krzywy-rog",
+      "krotko": "Krzywy Róg: atak rakietowy",
+      "tekst": "Rosyjski atak rakietowy na centrum Krzywego Rogu, rodzinnego miasta prezydenta Ukrainy {{o:wolodymyr-zelenski|Wołodymyra Zełenskiego}}, zabił 20.11 wieczorem dwie osoby, w tym siedmioletnie dziecko; **blisko 60 osób zostało rannych**. Według Kyiv Independent drugie uderzenie trafiło w miejsce, gdzie pracowali już ratownicy; w nocy na 21.11 Rosja wystrzeliła według ukraińskich Sił Powietrznych trzy pociski balistyczne i 148 dronów.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-attacks-kill-at-least-2-injure-83-across-ukraine-as-strikes-devastate-kryvyi-rih/",
+          "data": "2026-11-21"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-ballistic-missile-strikes-on-kryvyi-rih-kill-7-year-old-paramedic-injure-42-others-in-double-tap-attack/",
+          "data": "2026-11-20"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/21/ballistic-missile-attack-on-zelenskyys-hometown-kills-two-people",
+          "data": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "instytucje",
+      "data": "2026-11-20",
+      "tagi": [
+        "nordyckie",
+        "rosja",
+        "hybryda",
+        "ue"
+      ],
+      "etap": "PRZYJĘTE",
+      "miejsce": "kopenhaga",
+      "krotko": "Dania wydala attaché",
+      "tekst": "Dania nakazała 20.11 wydalenie rosyjskiego attaché obrony po udaremnieniu spisku na życie ukraińsko-amerykańskiego rapera Kyivstonera; duńskie służby przypisują spisek rosyjskiemu wywiadowi, a ambasada Rosji zaprzecza. Kopenhaga rozesłała państwom UE notę z propozycją **zawieszenia wiz turystycznych dla Rosjan w całej strefie Schengen** i nieuznawania rosyjskich paszportów bez danych biometrycznych; według Kyiv Independent przedstawi ją ambasadorom UE 23.11.",
+      "zrodla": [
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/20/denmark-to-expel-russia-s-military-attache-after-arrests-in-alleged-plot-to-kill-ukrainian-rapper",
+          "data": "2026-11-20"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/denmark-calls-for-eu-wide-travel-restrictions-on-russians-following-foiled-assassination-plot/",
+          "data": "2026-11-21"
+        },
+        {
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/world/europe/denmark-pushes-eu-tighten-curbs-russians-after-foiled-plot-message-member-states-2026-11-21/",
+          "data": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "instytucje",
+      "data": "2026-11-21",
+      "tagi": [
+        "nordyckie",
+        "rosja",
+        "hybryda"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "loviisa",
+      "krotko": "Śmigłowiec nad Finlandią",
+      "tekst": "Ministerstwo Obrony Finlandii podało, że rosyjski śmigłowiec prawdopodobnie naruszył 21.11 po południu przestrzeń powietrzną Finlandii w rejonie Loviisy, kilka godzin po ataku na statek Sparta II. Minister obrony {{o:antti-hakkanen|Antti Häkkänen}} powiedział, że naruszenie **może mieć związek z akcją ratunkową lub obserwacją uszkodzonego statku**; sprawę bada fińska Straż Graniczna.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-military-linked-cargo-ship-catches-fire-after-reported-drone-strike-in-gulf-of-finland/",
+          "data": "2026-11-21"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/21/russian-cargo-ship-struck-by-drone-in-gulf-of-finland-finnish-authorities-say",
+          "data": "2026-11-21"
+        },
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-21/rosyjski-smiglowiec-nad-finlandia-reakcja-ministerstwa-obrony/",
+          "data": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "instytucje",
+      "data": "2026-11-21",
+      "tagi": [
+        "ue"
+      ],
+      "etap": "PROPOZYCJA",
+      "miejsce": "bruksela",
+      "krotko": "Costa: budżet UE",
+      "tekst": "Przewodniczący Rady Europejskiej {{o:antonio-costa|António Costa}} przedstawił nową propozycję {{p:wrf|wieloletnich ram finansowych}} UE na lata 2028–2034, która według Euronews **zmniejsza budżet o ok. 10% względem projektu Komisji Europejskiej, do 1,78 bln euro**. Po raz pierwszy cięcia obejmują politykę spójności, a nowym dochodem UE miałby być 3-procentowy podatek od usług cyfrowych; propozycja będzie podstawą rozmów na nadzwyczajnej Radzie Europejskiej w Brukseli.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/21/eu-budget-costa-pitches-more-cuts-big-tech-tax-to-break-deadlock",
+          "data": "2026-11-21"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/eu-budget-proposal-keeps-ukraine-funding-unchanged-as-cost-of-russias-war-rises/",
+          "data": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": "z6",
+      "blok": "swiat",
+      "data": "2026-11-21",
+      "tagi": [
+        "iran"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "ciesnina-ormuz",
+      "krotko": "Ormuz: trafione tankowce",
+      "tekst": "Według Reutersa i Al-Dżaziry brytyjskie centrum {{p:ukmto|UKMTO}} zgłosiło 21.11, że dwa tankowce zostały **trafione niezidentyfikowanymi pociskami w Cieśninie Ormuz**, ok. 20 km na północ i ok. 31 km na wschód od omańskiego portu Chasab. Według Al-Dżaziry marynarka wojenna Iranu podała, że w rejonie objętym irańskimi ograniczeniami tankowiec zapalił się po wejściu na minę.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/business/energy/tanker-hit-by-unknown-projectile-near-omans-khasab-ukmto-says-2026-11-21/",
+          "data": "2026-11-21"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping",
+          "data": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": "z7",
+      "blok": "swiat",
+      "data": "2026-11-20",
+      "tagi": [
+        "onz"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "antalya",
+      "krotko": "COP31 po terminie",
+      "tekst": "Konferencja klimatyczna ONZ {{p:cop31|COP31}} w Antalyi przekroczyła 20.11 termin zakończenia, bo delegacje blisko 200 państw nie uzgodniły, czy porozumienie końcowe ma wymieniać paliwa kopalne i czy bogatsze państwa mają finansować dostosowanie biedniejszych do zmian klimatu. Według Euronews Francja, Panama i inne państwa domagają się **jasnego zapisu o odchodzeniu od paliw kopalnych**.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/sustainability/cop/cop31-climate-talks-spill-into-overtime-nations-quarrel-over-fossil-fuels-2026-11-20/",
+          "data": "2026-11-20"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/21/fossil-fuel-row-sees-cop31-talks-spill-into-overtime",
+          "data": "2026-11-21"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "Paul Balawajder, Jakub Benedyczak, Justyna Szczudlik (PISM): spotkanie w Shenzhen zmniejsza rolę Europy i jest wymierzone w Międzynarodowy Trybunał Karny",
+      "autor": "Paul Balawajder, Jakub Benedyczak, Justyna Szczudlik, Polski Instytut Spraw Międzynarodowych, 20.11.2026",
+      "tekst": "Autorzy oceniają, że najbardziej konkretnym elementem deklaracji z Shenzhen jest wspólny sprzeciw USA, Chin i Rosji wobec jurysdykcji {{p:mtk|Międzynarodowego Trybunału Karnego}}, co zapowiada skoordynowany nacisk na Trybunał. Zapowiedź większej produkcji i dostaw produktów naftowych może według nich oznaczać wzrost importu rosyjskiej energii. Spotkanie przyniosło niewiele konkretów w sprawie Ukrainy, Iranu i kontroli zbrojeń.",
+      "dla_polski": "Autorzy widzą w spotkaniu sygnał malejącej roli Europy w kształtowaniu ładu międzynarodowego. Bezpośredni kanał Kremla do Waszyngtonu grozi osłabieniem spójności transatlantyckiej i naciskiem na Kijów w sprawie ustępstw terytorialnych, co dotyka bezpieczeństwa Polski.",
+      "tagi": [
+        "chiny",
+        "usa",
+        "rosja"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "PISM",
+          "url": "https://www.pism.pl/publikacje/spotkanie-liderow-chin-rosji-i-usa-w-shenzhen",
+          "data": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "tytul": "Bartosz Chmielewski (OSW): drugi rząd Andrisa Kulbergsa na Łotwie zależy od warunkowego poparcia opozycyjnej partii Łotwa na Pierwszym Miejscu",
+      "autor": "Bartosz Chmielewski, Ośrodek Studiów Wschodnich, 20.11.2026",
+      "tekst": "Drugi gabinet premiera {{o:andris-kulbergs|Andrisa Kulbergsa}}, zatwierdzony przez Sejm Łotwy 17.11, tworzą Zjednoczona Lista i nacjonalistyczny Sojusz Narodowy. Autor ocenia, że większość jednego mandatu uzależnia rząd od warunkowego poparcia części posłów partii Łotwa na Pierwszym Miejscu. Wydatki na obronę wynoszą 4,73% PKB i w przyszłym roku mają przekroczyć 5%.",
+      "dla_polski": "Według autora proeuropejski i proatlantycki kurs Łotwy oraz wsparcie dla Ukrainy pozostaną bez zmian. Dla Polski oznacza to ciągłość współpracy z Rygą na wschodniej flance NATO mimo słabej większości rządu.",
+      "tagi": [
+        "lotwa"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-20/lotwa-nowy-rzad-stary-premier-drugi-gabinet-kulbergsa",
+          "data": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "tytul": "Aliona Hlivco (Kyiv Independent): Europa powinna mówić jednym głosem w rozmowach z Rosją i szybciej rozbudowywać obronność",
+      "autor": "Aliona Hlivco, prezes St. James's Foreign Policy Group, Kyiv Independent, 21.11.2026",
+      "tekst": "Autorka ocenia, że Europa po raz pierwszy ma szansę dołączyć do rozmów z Rosją obok Ukrainy i USA, choć wcześniej była od nich odsunięta. Według niej warunkiem jest jednolite stanowisko i szybsza rozbudowa obronności, bo to wojska europejskie miałyby nadzorować ewentualne zawieszenie broni. Ukraina z doświadczeniem bojowym i taktyką dronów staje się według autorki dostarczycielem bezpieczeństwa dla Europy.",
+      "dla_polski": "Polska należałaby do państw, które dostarczałyby siły do nadzoru zawieszenia broni. Wspólne stanowisko UE zwiększyłoby wpływ Warszawy na warunki porozumienia.",
+      "tagi": [
+        "ue",
+        "rosja",
+        "ukraina"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/is-europe-finally-ready-to-play-hardball-with-putin/",
+          "data": "2026-11-21"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-11-23",
+      "tekst": "23.11: Bruksela – Dania ma przedstawić ambasadorom UE propozycję ograniczeń wizowych dla Rosjan (według Kyiv Independent).",
+      "tagi": [
+        "nordyckie",
+        "ue"
+      ],
+      "poza_kalendarium": "Termin podaje tylko jedno źródło; robocze spotkanie ambasadorów, nie szczyt ani posiedzenie ministrów."
+    },
+    {
+      "data": "2026-11-26",
+      "tekst": "26–27.11: Bruksela – nadzwyczajna Rada Europejska w sprawie wieloletnich ram finansowych 2028–2034 (termin wstępny).",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-28",
+      "tekst": "28.11: Tajwan – wybory lokalne.",
+      "tagi": [
+        "chiny",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-11-29",
+      "tekst": "29.11: Hiszpania – przedterminowe wybory parlamentarne.",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-12-01",
+      "tekst": "1.12: Estonia – zamknięcie wszystkich drogowych przejść granicznych z Rosją.",
+      "tagi": [
+        "estonia"
+      ],
+      "poza_kalendarium": "Decyzja administracyjna państwa, nie spotkanie ani wybory."
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [
+      {
+        "tytul": "Turcja: gangi nowej generacji narzędziem rosyjskiego sabotażu",
+        "autor": "Zuzanna Krzyżanowska",
+        "data": "2026-11-20",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-20/turcja-gangi-nowej-generacji-narzedziem-rosyjskiego-sabotazu"
+      },
+      {
+        "tytul": "Nie nowa Jałta. Spotkania na marginesie APEC w Shenzhen",
+        "autor": "Michał Bogusz, Ernest Wyciszkiewicz, Andrzej Kohut",
+        "data": "2026-11-20",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-20/nie-nowa-jalta-spotkania-na-marginesie-apec-w-shenzhen"
+      },
+      {
+        "tytul": "Łotwa: nowy rząd, stary premier. Drugi gabinet Kulbergsa",
+        "autor": "Bartosz Chmielewski",
+        "data": "2026-11-20",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-20/lotwa-nowy-rzad-stary-premier-drugi-gabinet-kulbergsa"
+      },
+      {
+        "tytul": "Litwa i Niemcy – od dystansu do partnerstwa strategicznego",
+        "autor": "Joanna Hyndle-Hussein",
+        "data": "2026-11-19",
+        "url": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-11-19/litwa-i-niemcy-od-dystansu-do-partnerstwa-strategicznego"
+      }
+    ],
+    "pism": [],
+    "nieodczytane": [
+      "pism"
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n13",
+      "prog": "dokumentacja",
+      "tekst": "Polska: według „Rzeczpospolitej” rzecznik Prokuratury Okręgowej w Lublinie Marcin Kozak powiedział 21.11, że w Nowym Lipowcu służby wydobyły elementy napędu i sterowania obiektu, który spadł w nocy na 20.11, a w Rudniku nad Sanem i Mołodyczu Żandarmeria Wojskowa zabezpiecza szczątki do badań laboratoryjnych; prokurator nie przesądził jeszcze pochodzenia obiektów.",
+      "sprawdzono": [
+        "Polsat News 21.11 (poziom 3): relacja o informacjach Żandarmerii",
+        "TVN24 21.11 (poziom 3): relacja o zabezpieczaniu śladów przez prokuraturę",
+        "Wyszukiwarka (komunikat Żandarmerii Wojskowej, Nowy Lipowiec, Rudnik nad Sanem, Mołodycz): brak wyniku"
+      ]
+    },
+    {
+      "id": "n1",
+      "prog": "dokumentacja",
+      "tekst": "Ukraina i USA: według Kyiv Independent prezydent Ukrainy Wołodymyr Zełenski powiedział 21.11, że nie widział jeszcze na piśmie amerykańskich zobowiązań do gwarancji bezpieczeństwa wzorowanych na art. 5 traktatu NATO.",
+      "sprawdzono": [
+        "Kanał RSS Euronews 21.11: tylko inna wypowiedź Zełenskiego o Putinie",
+        "Kanał RSS Meduzy 21.11: brak wzmianki",
+        "Newsletter Reutersa „Weekend Briefing” 21.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n2",
+      "prog": "dokumentacja",
+      "tekst": "Most Krymski: według Kyiv Independent minister obrony Ukrainy Jewhen Chmara ocenił 21.11, że usunięcie zawalonego przęsła mostu może zająć Rosji od kilku miesięcy do roku.",
+      "sprawdzono": [
+        "Kanał RSS Euronews 21.11: brak wzmianki",
+        "Kanał RSS Meduzy 21.11: brak wzmianki",
+        "Newsletter Reutersa „Weekend Briefing” 21.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n3",
+      "prog": "dokumentacja",
+      "tekst": "ONZ: według Al-Dżaziry państwa-strony konwencji CCW uzgodniły 21.11 w Genewie, że do 2028 r. opracują instrument w sprawie śmiercionośnej broni autonomicznej; USA, Rosja i Izrael sprzeciwiały się wiążącym przepisom.",
+      "sprawdzono": [
+        "Kanał RSS Euronews 21.11: tylko tekst z 20.11 o blokowaniu rozmów przez Rosję",
+        "Newsletter Reutersa „Weekend Briefing” 21.11: brak wzmianki",
+        "Wyszukiwarka (CCW, broń autonomiczna, 21.11): tylko teksty sprzed 20.11"
+      ]
+    },
+    {
+      "id": "n4",
+      "prog": "dokumentacja",
+      "tekst": "UE i Indonezja: według Euronews UE i Indonezja podpisały 21.11 umowę o wolnym handlu po dziesięciu latach negocjacji. Wyszukiwarka zwraca tylko informacje o zawarciu umowy we wrześniu 2025 r.",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 21.11: brak wzmianki",
+        "Newsletter Reutersa „Weekend Briefing” 21.11: brak wzmianki",
+        "Wyszukiwarka (UE, Indonezja, umowa, listopad 2026): tylko teksty z 2025 r."
+      ]
+    },
+    {
+      "id": "n5",
+      "prog": "dokumentacja",
+      "tekst": "USA, Rosja i Ukraina: według Meduzy (za „Financial Times”) amerykańscy negocjatorzy chcą porozumienia pokojowego do początku stycznia, zanim demokraci przejmą kontrolę nad Kongresem, a część europejskich urzędników obawia się dużych ustępstw Ukrainy.",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 21.11: brak wzmianki",
+        "Kanał RSS Euronews 21.11: brak wzmianki",
+        "Newsletter Reutersa „Weekend Briefing” 21.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n6",
+      "prog": "dokumentacja",
+      "tekst": "Iran i USA: według Al-Dżaziry armia Iranu twierdzi, że 20.11 uszkodziła nad Zatoką Perską amerykański myśliwiec F-16; dowództwo {{p:centcom|CENTCOM}} zaprzeczyło.",
+      "sprawdzono": [
+        "Newsletter Reutersa „Iran Briefing” 21.11: brak wzmianki",
+        "Kanał RSS Euronews 21.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 21.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n7",
+      "prog": "dokumentacja",
+      "tekst": "Jemen i Arabia Saudyjska: według tytułów w newsletterze Reutersa Arabia Saudyjska przechwyciła 20.11 trzy pociski Huti wymierzone w Rijad, a siły rządowe w Adenie szykują się na atak Huti.",
+      "sprawdzono": [
+        "Al Jazeera, relacja na żywo 21.11: tylko adres strony",
+        "Kanał RSS Euronews 21.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 21.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n8",
+      "prog": "dokumentacja",
+      "tekst": "USA i Iran: według tytułu w newsletterze Reutersa Departament Skarbu USA objął 20.11 sankcjami irańskich „powierników” zbierających dochody ze sprzedaży ropy.",
+      "sprawdzono": [
+        "Al Jazeera, strona działu 21.11: brak wzmianki",
+        "Kanał RSS Euronews 21.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 21.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n9",
+      "prog": "dokumentacja",
+      "tekst": "USA, Gujana i Wenezuela: według Reutersa (za anonimowymi źródłami) przedstawiciel administracji USA zasugerował Gujanie rozważenie oddania części terytorium Wenezueli.",
+      "sprawdzono": [
+        "Al Jazeera, strona działu 21.11: brak wzmianki",
+        "Kanał RSS Euronews 21.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 21.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n10",
+      "prog": "następstwo",
+      "tekst": "Niemcy i USA: według Reutersa minister obrony Niemiec Boris Pistorius przeprosił podsekretarza obrony USA Elbridge'a Colby'ego za nazwanie „głupim” jego sprzeciwu wobec ukraińskich uderzeń w głąb Rosji, ale nie wycofał krytyki."
+    },
+    {
+      "id": "n11",
+      "prog": "następstwo",
+      "tekst": "Francja i Rosja: według Euronews prezydent Francji Emmanuel Macron napisał 21.11, że incydenty u europejskich sojuszników z ostatniej doby pokazują „nowy poziom agresji” Rosji."
+    },
+    {
+      "id": "n12",
+      "prog": "następstwo",
+      "tekst": "Irak: według Reutersa w pożarze elektrowni w Basrze zginęły 21.11 co najmniej cztery osoby, a 35 zostało rannych."
+    },
+    {
+      "id": "n14",
+      "prog": "dokumentacja",
+      "tekst": "Meksyk i USA: według Euronews meksykańskie siły bezpieczeństwa zatrzymały 20.11 w Guasave w stanie Sinaloa Fausta Isidra Mezę Floresa, „El Chapo Isidro”, szefa kartelu z listy najbardziej poszukiwanych przez FBI; rząd Meksyku podał, że operację wsparł wywiad USA.",
+      "sprawdzono": [
+        "Newsletter AP (alert) 21.11: tylko tytuł, bez adresu artykułu",
+        "Al Jazeera 21.11 (poziom 3): sylwetka zatrzymanego",
+        "Kanał RSS Polsat News Świat 21.11 (poziom 3): relacja o zatrzymaniu"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-11-20#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 21.11: tylko ocena ministra obrony Ukrainy",
+        "Kanał RSS Euronews 21.11: brak wzmianki",
+        "Newsletter Reutersa „Weekend Briefing” 21.11: brak wzmianki"
+      ],
+      "powod": "Wypowiedź wicepremiera Rosji o uszkodzeniach mostu opisuje tylko Meduza; nową ocenę strony ukraińskiej podano w „W obserwacji”."
+    },
+    {
+      "dotyczy": "2026-11-20#n2",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Euronews 21.11: brak wzmianki",
+        "Kanał RSS Meduzy 21.11: brak wzmianki",
+        "Newsletter Reutersa „Weekend Briefing” 21.11: brak wzmianki"
+      ],
+      "powod": "Zatwierdzenie kolejnego 1 mld euro z EPF opisuje tylko Kyiv Independent."
+    },
+    {
+      "dotyczy": "2026-11-20#n3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Euronews 21.11: brak wzmianki",
+        "Kanał RSS Meduzy 21.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 21.11: brak wzmianki"
+      ],
+      "powod": "Umowę Orlenu z Naftohazem opisuje tylko Kyiv Independent."
+    },
+    {
+      "dotyczy": "2026-11-20#n4",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 21.11: brak wzmianki",
+        "Kanał RSS Euronews 21.11: brak wzmianki",
+        "Newsletter Reutersa „Weekend Briefing” 21.11: tylko przeprosiny Pistoriusa wobec Colby'ego"
+      ],
+      "powod": "Wezwanie do rozmów w Moskwie i wyjazd doradców opisuje tylko Meduza za innymi mediami."
+    },
+    {
+      "dotyczy": "2026-11-20#n5",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 21.11: brak wzmianki",
+        "Kanał RSS Euronews 21.11: brak wzmianki",
+        "Newsletter Reutersa „Weekend Briefing” 21.11: brak wzmianki"
+      ],
+      "powod": "Usunięcie zapisu o Ukrainie z deklaracji opisuje tylko Meduza za „Helsingin Sanomat”."
+    },
+    {
+      "dotyczy": "2026-11-20#n6",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 21.11: brak wzmianki",
+        "Kanał RSS Meduzy 21.11: brak wzmianki",
+        "Newsletter Reutersa „Weekend Briefing” 21.11: brak wzmianki"
+      ],
+      "powod": "Częściową wypłatę z Krajowego Planu Odbudowy dla Węgier opisuje tylko Euronews."
+    },
+    {
+      "dotyczy": "2026-11-20#n7",
+      "wynik": "UZUPEŁNIONE",
+      "pozycja": "z3"
+    },
+    {
+      "dotyczy": "2026-11-20#n8",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Euronews 21.11: brak wzmianki",
+        "Kanał RSS Meduzy 21.11: brak wzmianki",
+        "Newsletter Reutersa „Weekend Briefing” 21.11: brak wzmianki"
+      ],
+      "powod": "Poparcie Niemiec dla fabryki dronów SkyFall i Auterion opisuje tylko Kyiv Independent."
+    },
+    {
+      "dotyczy": "2026-11-20#n10",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Newsletter Reutersa „Iran Briefing” 21.11: tylko tytuł o innej wypowiedzi Trumpa",
+        "Kanał RSS Euronews 21.11: brak wzmianki",
+        "Al Jazeera, strona działu 21.11: brak wzmianki"
+      ],
+      "powod": "Głosowanie w Senacie USA znane jest tylko z tytułów w newsletterach."
+    },
+    {
+      "dotyczy": "2026-11-20#n11",
+      "wynik": "UZUPEŁNIONE",
+      "pozycja": "z7"
+    }
+  ],
+  "do_sprawdzenia": [
+    "Sparta II – sprawca ataku, ładunek i stan statku",
+    "Finlandia – wynik postępowania w sprawie rosyjskiego śmigłowca",
+    "COP31 – porozumienie końcowe w Antalyi",
+    "UE – propozycja Danii na posiedzeniu ambasadorów 23.11 i 22. pakiet sankcji",
+    "Rada Europejska – potwierdzenie terminu i przebiegu rozmów o WRF",
+    "Polska – komunikaty Żandarmerii Wojskowej i Prokuratury Okręgowej w Lublinie o obiektach z Nowego Lipowca, Rudnika nad Sanem i Mołodycza",
+    "CCW – dokument końcowy konferencji w Genewie",
+    "Agencja Uzbrojenia i PGZ – umowy"
+  ],
+  "nota": "Listy publikacji PISM nie udało się odczytać (listy działów Komentarze i Biuletyny oraz pism.pl/publikacje zwróciły pustą treść, wersja angielska – błąd 404); w analizach omówiono Komentarz PISM nr 60/2026 odnaleziony wyszukiwarką. Dział Świat Onetu niesprawdzony: wyszukiwarka nie zwróciła nagłówków działu z 21.11. Komunikatów Żandarmerii Wojskowej i prokuratury z 21.11 o obiektach, które spadły w Polsce w nocy na 20.11, nie odnaleziono na stronach instytucji; wypowiedzi rzecznika prokuratury znane są z relacji mediów. Komunikatów Agencji Uzbrojenia i PGZ z 20–21.11 wyszukiwarka nie zwróciła."
+}

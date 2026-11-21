@@ -929,6 +929,13 @@
       "lon": 44.12,
       "lat": 32.83,
       "kraj": "Irak"
+    },
+    {
+      "id": "loviisa",
+      "nazwa": "Loviisa",
+      "lon": 26.23,
+      "lat": 60.46,
+      "kraj": "Finlandia"
     }
   ]
 }

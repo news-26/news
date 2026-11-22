@@ -43,6 +43,7 @@ Format: fakt | stan | zweryfikowano | źródło
 - Sankcje Wielkiej Brytanii wobec Rosji | 1.10: 31 wpisów; 2.10: 2 statki | 03.10.2026 | gov.uk 1.10 i 2.10
 - Estonia – zakaz tranzytu zboża z Rosji i Białorusi | PRZYJĘTE 1.10 | 01.10.2026 | ERR 1.10
 - Gripeny nad Polską | od 1.10 na ok. 2 miesiące, F 17; liczby maszyn brak w źródłach urzędowych | 02.10.2026 | regeringen.se 30.09
+- Obiekty z nocy na 20.11 (Nowy Lipowiec, Rudnik nad Sanem, Mołodycz) | prokuratura: we wszystkich trzech szczątki Ch-101 (nie dron), produkcja IV kw. 2026, Dubna | 22.11.2026 | PO Lublin za PAP/RMF24, rp.pl 22.11
 - Rozporządzenie powrotowe UE | przyjęte ostatecznie 1.10 | 02.10.2026 | consilium 1.10
 - Procedury OPL (identyfikacja pozytywna) | w mocy od 1.10.2026 | 02.10.2026 | Reuters 30.09; KI 28.09
 - „Ustawa przedwojenna” MON | projekt bez tekstu i komunikatu MON | 03.10.2026 | PAP 2.10; rp.pl 2.10

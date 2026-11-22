@@ -1,0 +1,602 @@
+{
+  "nr": 65,
+  "data": "2026-11-22",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Prokuratura Okręgowa w Lublinie podała 22.11, że we wszystkich trzech miejscach na wschodzie Polski, w których w nocy na 20.11 spadły obiekty z Rosji, znaleziono szczątki pocisków manewrujących Ch-101. **Według wstępnych ustaleń pociski wyprodukowano w IV kwartale 2026 r. w zakładach w Dubnej pod Moskwą.**",
+    "Konferencja klimatyczna ONZ COP31 w Antalyi zakończyła się 22.11 bez porozumienia końcowego. **Unia Europejska odrzuciła ostatni projekt, z którego usunięto wszystkie wzmianki o paliwach kopalnych.**",
+    "Wybuch i pożar uszkodziły 22.11 rosyjską jednostkę w bazie marynarki wojennej w Bengazi we wschodniej Libii. Rząd wschodniej Libii podał, że **podejrzewa atak drona**, i wszczął wspólne z Rosją śledztwo.",
+    "Rosyjski dron zniszczył w nocy na 22.11 część pięciopiętrowego bloku mieszkalnego w Dymerze pod Kijowem. **Zginęły co najmniej trzy osoby**, a ratownicy szukają kolejnych pod gruzami.",
+    "Iran zaatakował 21.11 wieczorem Bahrajn, gdzie stacjonuje V Flota USA. Według bahrajńskiego MSW **pożar wybuchł w cywilnym zakładzie przemysłowym**, ale nikt nie został ranny."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "polska",
+      "data": "2026-11-22",
+      "tagi": [
+        "obronnosc-polski",
+        "rosja"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "nowy-lipowiec",
+      "krotko": "Prokuratura: trzy pociski Ch-101",
+      "tekst": "Prokuratura Okręgowa w Lublinie podała 22.11 w komunikacie, że w Nowym Lipowcu, Rudniku nad Sanem i Mołodyczu znaleziono szczątki rosyjskich {{p:ch-101|pocisków manewrujących Ch-101}}, które spadły w nocy na 20.11; wcześniej {{o:wladyslaw-kosiniak-kamysz|minister obrony narodowej Władysław Kosiniak-Kamysz}} mówił, że w Mołodyczu spadł najpewniej dron. Według wstępnych ustaleń prokuratury **pociski wyprodukowano w IV kwartale 2026 r. w zakładach w Dubnej w obwodzie moskiewskim**.",
+      "zrodla": [
+        {
+          "nazwa": "Rzeczpospolita",
+          "url": "https://www.rp.pl/sluzby/art45525381-trzy-rosyjskie-pociski-ch-101-spadly-w-polsce-nowe-ustalenia-prokuratury",
+          "data": "2026-11-22"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://pl.euronews.com/2026/11/22/prokuratura-we-wszystkich-trzech-lokalizacjach-odnaleziono-szczatki-rakiet-ch-101",
+          "data": "2026-11-22"
+        },
+        {
+          "nazwa": "PAP (za RMF24)",
+          "url": "https://www.rmf24.pl/fakty/polska/news-trzy-rakiety-nowe-informacje-o-obiektach-ktore-spadly-w-pols,nIdn,1027175",
+          "data": "2026-11-22"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "polska",
+      "data": "2026-11-21",
+      "tagi": [
+        "krolewiec",
+        "litwa",
+        "hybryda"
+      ],
+      "miejsce": "granica-lt-krolewiec",
+      "krotko": "Alarm przy granicy z Litwą",
+      "tekst": "Gubernator obwodu królewieckiego Aleksiej Biesprozwannych ogłosił 21.11 wieczorem alarm przeciwdronowy w rejonie niemeńskim przy granicy z Litwą, bo system wykrył podejrzany obiekt nadlatujący z Litwy; według niego sprawdzenie nie wykazało zagrożenia. Minister spraw zagranicznych Litwy Kęstutis Budrys **odrzucił pogłoski o udziale Litwy w ataku na obwód**, a litewskie centrum zarządzania kryzysowego podało, że nie odnotowało dronów.",
+      "zrodla": [
+        {
+          "nazwa": "LRT",
+          "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3122038/kestutis-budrys-atmete-teiginius-kad-lietuva-dalyvavo-atakose-pries-kaliningrado-sriti",
+          "data": "2026-11-21"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/explosions-reported-near-russian-baltic-fleet-base-in-kaliningrad-oblast-amid-drone-alerts/",
+          "data": "2026-11-21"
+        },
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-22/doniesienia-o-eksplozjach-w-obwodzie-krolewieckim-mozliwa-prowokacja/",
+          "data": "2026-11-22"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "wojna",
+      "data": "2026-11-22",
+      "tagi": [
+        "rosja",
+        "ukraina",
+        "nordyckie"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "loviisa",
+      "krotko": "Sparta II: załoga ewakuowana",
+      "tekst": "Załogę rosyjskiego statku Sparta II, trafionego 21.11 przez drony w Zatoce Fińskiej, ewakuowano na inny rosyjski statek, a 22.11 rosyjski statek ratowniczy Murman pod nadzorem fińskiej Straży Granicznej zaczął holować płonącą jednostkę z fińskich wód koło Loviisy. Według Yle i ERR fińskie i estońskie siły zbrojne oceniły, że **drony były prawdopodobnie ukraińskie**.",
+      "zrodla": [
+        {
+          "nazwa": "Yle",
+          "url": "https://yle.fi/a/74-20258314",
+          "data": "2026-11-22"
+        },
+        {
+          "nazwa": "ERR",
+          "url": "https://www.err.ee/1610202955/vene-kaubalaeva-sparta-ii-tulekahju-kustutamine-jatkub-ka-puhapaeval",
+          "data": "2026-11-22"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-military-linked-cargo-ship-catches-fire-after-reported-drone-strike-in-gulf-of-finland/",
+          "data": "2026-11-21"
+        },
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-22/atak-na-rosyjski-statek-w-zatoce-finskiej-nowe-informacje-strazy-przybrzeznej/",
+          "data": "2026-11-22"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "wojna",
+      "data": "2026-11-22",
+      "tagi": [
+        "ukraina",
+        "rosja"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "dymer",
+      "krotko": "Dymer: dron zniszczył blok",
+      "tekst": "Rosyjski dron trafił w nocy na 22.11 w pięciopiętrowy blok mieszkalny w Dymerze w obwodzie kijowskim i zniszczył jego część na wszystkich kondygnacjach. Według szefa obwodowej administracji wojskowej Tymura Tkaczenki **zginęły co najmniej trzy osoby**, cztery zostały ranne, a ratownicy szukają kolejnych pod gruzami.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/apartment-building-destroyed-in-kyiv-oblast-following-russian-drone-attack/",
+          "data": "2026-11-22"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/22/14-people-missing-after-russian-drone-strike-on-kyiv-region",
+          "data": "2026-11-22"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "wojna",
+      "data": "2026-11-22",
+      "tagi": [
+        "rosja",
+        "afryka"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "bengazi",
+      "krotko": "Bengazi: pożar rosyjskiej jednostki",
+      "tekst": "Wybuch i pożar uszkodziły 22.11 rano rosyjską jednostkę w bazie marynarki wojennej w Bengazi we wschodniej Libii, do której zawinęła po paliwo i zaopatrzenie na podstawie umowy Rosji z rządem wschodniej Libii. Rząd ten podał, że **podejrzewa atak drona**, i wszczął wspólne z Rosją śledztwo w sprawie sprawcy.",
+      "zrodla": [
+        {
+          "nazwa": "AP (za ABC News)",
+          "url": "https://abcnews.com/International/wireStory/suspected-drone-strike-hits-russian-vessel-libya-138359178",
+          "data": "2026-11-22"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/22/suspected-drone-strike-hits-russian-ship-at-libyas-benghazi-port-raising-regional-security",
+          "data": "2026-11-22"
+        },
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-22/rosyjska-korweta-stanela-w-plomieniach-wybuch-u-wybrzezy-libii/",
+          "data": "2026-11-22"
+        }
+      ]
+    },
+    {
+      "id": "z6",
+      "blok": "instytucje",
+      "data": "2026-11-22",
+      "tagi": [
+        "onz"
+      ],
+      "miejsce": "antalya",
+      "krotko": "COP31 bez porozumienia",
+      "tekst": "Konferencja klimatyczna ONZ {{p:cop31|COP31}} w Antalyi zakończyła się 22.11, dwa dni po terminie, bez przyjęcia decyzji końcowych; jej przewodniczący Murat Kurum przyznał, że zabrakło konsensusu. **Unia Europejska odrzuciła ostatni projekt porozumienia**, bo usunięto z niego wszystkie wzmianki o paliwach kopalnych.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/22/cop31-climate-talks-fail-after-eu-and-others-reject-final-deal-proposal",
+          "data": "2026-11-22"
+        },
+        {
+          "nazwa": "Associated Press",
+          "url": "https://apnews.com/article/climate-un-turkey-fossil-fuels-global-warming-f6e36c4caf13ec6fed57c9f077cbd067",
+          "data": "2026-11-22"
+        },
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-22/kluczowe-negocjacje-bez-powodzenia-chaos-na-posiedzeniu-w-turcji/",
+          "data": "2026-11-22"
+        }
+      ]
+    },
+    {
+      "id": "z7",
+      "blok": "swiat",
+      "data": "2026-11-21",
+      "tagi": [
+        "iran",
+        "usa"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "manama",
+      "krotko": "Atak Iranu na Bahrajn",
+      "tekst": "Ministerstwo Spraw Wewnętrznych Bahrajnu podało, że irański atak wywołał 21.11 wieczorem pożar w cywilnym zakładzie przemysłowym, a nikt nie został ranny; obrona powietrzna przechwyciła kilka irańskich ataków z powietrza. **Korpus Strażników Rewolucji Islamskiej twierdzi, że trafił radary systemów Patriot w bazach USA w Bahrajnie**; Bahrajn i USA tego nie potwierdziły.",
+      "zrodla": [
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/21/bahrain-says-iranian-attack-causes-fire-at-industrial-facility",
+          "data": "2026-11-21"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/bahrain-warns-residents-potential-threat-iran-conflict-persists-2026-11-21/",
+          "data": "2026-11-21"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade",
+          "data": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": "z8",
+      "blok": "swiat",
+      "data": "2026-11-21",
+      "tagi": [
+        "ameryki",
+        "usa"
+      ],
+      "miejsce": "guasave",
+      "krotko": "Zatrzymanie „El Chapo Isidro”",
+      "tekst": "Meksykańskie siły bezpieczeństwa zatrzymały w nocy z 20 na 21.11 w stanie Sinaloa Fausta Isidra Mezę Floresa, zwanego „El Chapo Isidro”, przywódcę kartelu z listy dziesięciu najbardziej poszukiwanych przez FBI. Operację wsparł wywiad administracji USA, a **w strzelaninach po zatrzymaniu zginęło 11 osób**.",
+      "zrodla": [
+        {
+          "nazwa": "Associated Press",
+          "url": "https://apnews.com/article/mexico-cartels-el-chapo-isidro-sinaloa-violence-7301b67a1b1b974bc6bd20c9d030ce07",
+          "data": "2026-11-22"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence",
+          "data": "2026-11-21"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "Associated Press: Kreml wykorzystuje amerykańską propozycję rozmów o bezpieczeństwie Europy, by powtórzyć żądania sprzed inwazji na Ukrainę",
+      "autor": "Associated Press, 22.11.2026",
+      "tekst": "Według AP Kreml chętnie przyjął propozycję wysłanników prezydenta USA {{o:donald-trump|Donalda Trumpa}}, by rozmawiać o powojennym ładzie bezpieczeństwa w Europie. Moskwa wykorzystuje ją, by potwierdzić twarde żądania, które {{o:wladimir-putin|Władimir Putin}} stawiał przed pełnoskalową inwazją. Ukraina i jej zachodni sojusznicy obawiają się, że takie rozmowy osłabią NATO.",
+      "dla_polski": "Rosyjskie żądania sprzed inwazji dotyczyły m.in. ograniczenia obecności wojskowej NATO w Europie Środkowo-Wschodniej, a więc także w Polsce. Rozmowy o ładzie europejskim bez udziału Europy mogłyby podważyć obecność sił sojuszniczych na wschodniej flance.",
+      "tagi": [
+        "rosja",
+        "usa",
+        "nato"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Associated Press",
+          "url": "https://apnews.com/article/russia-ukraine-war-putin-trump-security-europe-60752c921b031be80b1f7a9e83455a0e",
+          "data": "2026-11-22"
+        }
+      ]
+    },
+    {
+      "tytul": "Simon Ormiston (Euronews): niejasność co do sprawców cyberataków w Europie działa na korzyść atakujących",
+      "autor": "Simon Ormiston, Euronews, 22.11.2026",
+      "tekst": "Autor zestawia incydenty z okresu 18.10–18.11.2026, m.in. ataki na systemy chłodnicze ponad 350 francuskich supermarketów i zakłócenia GPS, które dotknęły ok. 80 samolotów nad Morzem Północnym. Ocenia, że większości ataków nie przypisano sprawcom, a wiele z nich wykorzystało proste zaniedbania, jak domyślne hasła i niezałatane urządzenia podłączone do sieci. Wniosek: odporność cyfrowa staje się sprawą bezpieczeństwa i polityki przemysłowej.",
+      "dla_polski": "Polska jest jednym z głównych celów rosyjskich działań hybrydowych, więc zalecenie, by traktować urządzenia podłączone do sieci jako infrastrukturę bezpieczeństwa, dotyczy także polskich sieci handlowych, energetyki i transportu. Skutek pośredni: presja na większe środki UE na odporność cyfrową w budżecie 2028–2034.",
+      "tagi": [
+        "hybryda",
+        "ue",
+        "francja"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/22/hot-freezers-lost-gps-and-fake-bombs-europes-month-of-cyberattacks",
+          "data": "2026-11-22"
+        }
+      ]
+    },
+    {
+      "tytul": "Jorge Liboreiro (Euronews): spotkanie w Shenzhen nie stało się „nową Jałtą”, a Europa zyskała miejsce w rozmowach o gwarancjach dla Ukrainy",
+      "autor": "Jorge Liboreiro, Euronews, 21.11.2026",
+      "tekst": "Autor ocenia, że trójstronne spotkanie Donalda Trumpa, {{o:xi-jinping|Xi Jinpinga}} i Władimira Putina w Shenzhen przyniosło niewiele konkretów, a najwięcej zyskał Xi jako gospodarz promujący własną wizję ładu światowego. Putin nie zdołał według niego wprowadzić wojny w Ukrainie do wspólnej deklaracji.",
+      "dla_polski": "Autor zauważa, że Waszyngton nakłania Moskwę do bezpośrednich rozmów z Europą, i uznaje to za potwierdzenie, że Europa musi uczestniczyć w każdym porozumieniu. Dla Polski oznacza to realny wpływ na kształt gwarancji bezpieczeństwa dla Ukrainy.",
+      "tagi": [
+        "chiny",
+        "usa",
+        "rosja"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/21/off-the-record-europe-shrugs-as-trumps-yalta-knockoff-flops",
+          "data": "2026-11-21"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-11-23",
+      "tekst": "23.11: Bruksela – Dania ma przedstawić ambasadorom UE propozycję ograniczeń wizowych dla Rosjan (według Kyiv Independent).",
+      "tagi": [
+        "nordyckie",
+        "ue"
+      ],
+      "poza_kalendarium": "Termin podaje tylko jedno źródło; robocze spotkanie ambasadorów, nie szczyt ani posiedzenie ministrów."
+    },
+    {
+      "data": "2026-11-26",
+      "tekst": "26–27.11: Bruksela – nadzwyczajna Rada Europejska w sprawie wieloletnich ram finansowych 2028–2034 (termin wstępny).",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-28",
+      "tekst": "28.11: Tajwan – wybory lokalne.",
+      "tagi": [
+        "chiny",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-11-29",
+      "tekst": "29.11: Hiszpania – przedterminowe wybory parlamentarne.",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-12-01",
+      "tekst": "1.12: Estonia – zamknięcie wszystkich drogowych przejść granicznych z Rosją.",
+      "tagi": [
+        "estonia"
+      ],
+      "poza_kalendarium": "Decyzja administracyjna państwa, nie spotkanie ani wybory."
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [
+      {
+        "tytul": "Turcja: gangi nowej generacji narzędziem rosyjskiego sabotażu",
+        "autor": "Zuzanna Krzyżanowska",
+        "data": "2026-11-20",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-20/turcja-gangi-nowej-generacji-narzedziem-rosyjskiego-sabotazu"
+      },
+      {
+        "tytul": "Nie nowa Jałta. Spotkania na marginesie APEC w Shenzhen",
+        "autor": "Michał Bogusz, Ernest Wyciszkiewicz, Andrzej Kohut",
+        "data": "2026-11-20",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-20/nie-nowa-jalta-spotkania-na-marginesie-apec-w-shenzhen"
+      },
+      {
+        "tytul": "Łotwa: nowy rząd, stary premier. Drugi gabinet Kulbergsa",
+        "autor": "Bartosz Chmielewski",
+        "data": "2026-11-20",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-20/lotwa-nowy-rzad-stary-premier-drugi-gabinet-kulbergsa"
+      }
+    ],
+    "pism": [],
+    "nieodczytane": [
+      "pism"
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "prog": "dokumentacja",
+      "tekst": "Polska: według Kyiv Independent (za „Rzeczpospolitą”) dowódca operacyjny rodzajów sił zbrojnych gen. Ireneusz Nowak powiedział, że szwedzki pilot myśliwca JAS 39 Gripen, działający w nocy na 20.11 pod dowództwem NATO, nie zestrzelił podejrzanego pocisku Ch-101 nad Polską, bo w wyjątkowo trudnych warunkach pogodowych nie zdołał zidentyfikować obiektu.",
+      "sprawdzono": [
+        "Kyiv Independent 21.11 (poziom 2): relacja za „Rzeczpospolitą”",
+        "Wyszukiwarka (rp.pl, gen. Nowak, Gripen, pogoda): brak artykułu z 21–22.11",
+        "Wyszukiwarka (komunikat Dowództwa Operacyjnego 21–22.11): brak wyniku"
+      ]
+    },
+    {
+      "id": "n2",
+      "prog": "dokumentacja",
+      "tekst": "Mołdawia: według Kyiv Independent Ministerstwo Obrony Mołdawii podało, że rosyjski dron z napędem odrzutowym dwukrotnie wleciał 21.11 w przestrzeń powietrzną kraju koło wsi Purcari podczas rosyjskiego ataku na zachodnią Ukrainę.",
+      "sprawdzono": [
+        "Kanał RSS Euronews 21–22.11: brak wzmianki",
+        "Kanał RSS Meduzy 21.11: brak wzmianki",
+        "Wyszukiwarka (Ministerul Apărării, Purcari, 21.11): brak komunikatu z tej daty"
+      ]
+    },
+    {
+      "id": "n3",
+      "prog": "dokumentacja",
+      "tekst": "Wielka Brytania i Ukraina: według Kyiv Independent minister obrony Ukrainy Jewhen Chmara i brytyjski minister obrony {{o:wes-streeting|Wes Streeting}} podpisali 21.11 w Kijowie umowę o produkcji w Wielkiej Brytanii dronów uderzeniowych średniego i dalekiego zasięgu dla Ukrainy, finansowanych z pakietu 500 mln funtów.",
+      "sprawdzono": [
+        "Kanał RSS Euronews 21–22.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 21–22.11: brak wzmianki",
+        "Newsletter AP Morning Wire 22.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n4",
+      "prog": "dokumentacja",
+      "tekst": "Ukraina i USA: według Kyiv Independent prezydent Ukrainy {{o:wolodymyr-zelenski|Wołodymyr Zełenski}} nazwał 22.11 „trudnymi do zrozumienia” opóźnienia USA w zgodzie na przekazanie Ukrainie pocisków Patriot opłaconych przez sojuszników i podał, że Rosja wystrzeliła w ciągu tygodnia 165 pocisków.",
+      "sprawdzono": [
+        "Kanał RSS Euronews 21–22.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 21–22.11: brak wzmianki",
+        "Wyszukiwarka (Zełenski, Patriot, 165 pocisków): brak drugiego źródła"
+      ]
+    },
+    {
+      "id": "n5",
+      "prog": "dokumentacja",
+      "tekst": "Rosja: według Kyiv Independent i Polsat News drony zaatakowały w nocy na 22.11 obiekt Gwardii Narodowej Rosji w Krasnodarze i rafinerię w Afipskim w Kraju Krasnodarskim; doniesienia pochodzą z mediów ukraińskich i kanałów w serwisie Telegram.",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 22.11 (poziom 2): doniesienia niepotwierdzone przez władze",
+        "Kanał RSS Polsat News Świat 22.11 (poziom 3): doniesienia mediów",
+        "Kanał RSS Euronews 21–22.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n6",
+      "prog": "dokumentacja",
+      "tekst": "Strefa Gazy: według Reutersa izraelski atak na pojazd w Strefie Gazy zabił 21.11 trzy osoby, jak podało ministerstwo zdrowia w Gazie; organizacja World Central Kitchen zaprzeczyła, by pojazd był z nią związany.",
+      "sprawdzono": [
+        "Newsletter Reutersa „Iran Briefing” 22.11 (poziom 2): jedyne źródło liczby ofiar",
+        "Kanał RSS Euronews 22.11: tylko ataki osadników na Zachodnim Brzegu",
+        "Kanał RSS Polsat News Świat 21–22.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n7",
+      "prog": "dokumentacja",
+      "tekst": "Katar i Iran: według tytułu w newsletterze Reutersa katarska delegacja przybyła 21.11 do Teheranu na rozmowy, co podał irański urzędnik.",
+      "sprawdzono": [
+        "Newsletter Reutersa „Iran Briefing” 22.11: tylko tytuł",
+        "Kanał RSS Euronews 21–22.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 21–22.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n8",
+      "prog": "dokumentacja",
+      "tekst": "Irak: według tytułu w newsletterze Reutersa irackie siły bezpieczeństwa weszły 20.11 do twierdzy jednej z milicji wspieranych przez Iran.",
+      "sprawdzono": [
+        "Newsletter Reutersa „Iran Briefing” 22.11: tylko tytuł",
+        "Kanał RSS Euronews 21–22.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 21–22.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n9",
+      "prog": "dokumentacja",
+      "tekst": "Izrael: według Euronews Gadi Ejzenkot, który ma czas do początku grudnia na utworzenie rządu, zaprosił partię Likud na rozmowy koalicyjne.",
+      "sprawdzono": [
+        "Kanał RSS Euronews 22.11 (poziom 2): jedyne źródło",
+        "Kanał RSS Polsat News Świat 21–22.11: brak wzmianki",
+        "Newsletter Reutersa „Iran Briefing” 22.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n10",
+      "prog": "następstwo",
+      "tekst": "USA i Chiny: według AP sekretarz skarbu USA {{o:scott-bessent|Scott Bessent}} powiedział, że nie są potrzebne dalsze ograniczenia eksportu chipów firmy Nvidia do Chin."
+    },
+    {
+      "id": "n11",
+      "prog": "dokumentacja",
+      "tekst": "Obwód królewiecki: ukraińskie kanały w serwisie Telegram podały 21.11, że przy bazie Floty Bałtyckiej w Bałtijsku słychać było wybuchy i drony; władze Rosji nie potwierdziły ataku ani szkód.",
+      "sprawdzono": [
+        "Kyiv Independent 21.11 (poziom 2): doniesienia kanałów, niezweryfikowane",
+        "Polsat News 22.11 (poziom 3): doniesienia kanałów",
+        "LRT 21.11 (poziom 2): litewskie centrum kryzysowe nie odnotowało dronów"
+      ]
+    },
+    {
+      "id": "n12",
+      "prog": "następstwo",
+      "tekst": "USA i Iran: według Euronews i CBS News prezydent USA {{o:donald-trump|Donald Trump}} powiedział 21.11, że chce „trwałego” porozumienia z Iranem; Teheran żąda zniesienia amerykańskiej blokady morskiej."
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-11-21#n13",
+      "wynik": "UZUPEŁNIONE",
+      "pozycja": "z1"
+    },
+    {
+      "dotyczy": "2026-11-21#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 22.11: tylko wypowiedź o opóźnieniach dostaw pocisków Patriot",
+        "Kanał RSS Euronews 22.11: brak wzmianki",
+        "Newsletter AP Morning Wire 22.11: brak wzmianki"
+      ],
+      "powod": "Wypowiedź prezydenta Ukrainy o braku pisemnych zobowiązań USA opisuje tylko Kyiv Independent."
+    },
+    {
+      "dotyczy": "2026-11-21#n2",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 22.11: brak nowych informacji",
+        "Kanał RSS Euronews 22.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 21–22.11: brak wzmianki"
+      ],
+      "powod": "Ocenę ministra obrony Ukrainy opisuje tylko Kyiv Independent."
+    },
+    {
+      "dotyczy": "2026-11-21#n3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Wyszukiwarka (CCW, Genewa, broń autonomiczna, dokument końcowy): brak wyniku",
+        "Kanał RSS Euronews 21–22.11: brak wzmianki",
+        "Newsletter AP Morning Wire 22.11: brak wzmianki"
+      ],
+      "powod": "Ustalenia konferencji CCW opisuje tylko Al-Dżazira; dokumentu końcowego nie odnaleziono."
+    },
+    {
+      "dotyczy": "2026-11-21#n4",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Euronews 21.11: artykuł o podpisaniu umowy",
+        "Newsletter AP Morning Wire 22.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 21–22.11: brak wzmianki"
+      ],
+      "powod": "Podpisanie umowy UE z Indonezją opisuje tylko Euronews; drugiego źródła nie odnaleziono."
+    },
+    {
+      "dotyczy": "2026-11-21#n5",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Meduzy 21.11: brak wzmianki",
+        "Newsletter AP Morning Wire 22.11: tylko tekst o rosyjskiej reakcji na propozycję rozmów o bezpieczeństwie Europy",
+        "Kanał RSS Euronews 21–22.11: brak wzmianki"
+      ],
+      "powod": "Termin porozumienia opisuje tylko Meduza za „Financial Times”."
+    },
+    {
+      "dotyczy": "2026-11-21#n6",
+      "wynik": "ODPADA",
+      "powod": "Twierdzenie armii Iranu, któremu dowództwo USA zaprzeczyło; tytuł w newsletterze Reutersa z 21.11 powtarza tylko to zaprzeczenie i nie zmienia stanu rzeczy."
+    },
+    {
+      "dotyczy": "2026-11-21#n7",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Newsletter Reutersa „Iran Briefing” 22.11: tylko tytuł o obawach wokół umowy nuklearnej USA z Arabią Saudyjską po atakach Huti",
+        "Kanał RSS Euronews 21–22.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 21–22.11: brak wzmianki"
+      ],
+      "powod": "Przechwycenie pocisków Huti znane jest tylko z tytułów w newsletterach Reutersa."
+    },
+    {
+      "dotyczy": "2026-11-21#n8",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Newsletter Reutersa „Iran Briefing” 22.11: brak wzmianki",
+        "Kanał RSS Euronews 21–22.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 21–22.11: brak wzmianki"
+      ],
+      "powod": "Sankcje Departamentu Skarbu USA znane są tylko z tytułu w newsletterze Reutersa."
+    },
+    {
+      "dotyczy": "2026-11-21#n9",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Newsletter AP Morning Wire 22.11: brak wzmianki",
+        "Kanał RSS Euronews 21–22.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 21–22.11: brak wzmianki"
+      ],
+      "powod": "Doniesienie Reutersa opiera się na anonimowych źródłach; potwierdzenia rządów USA ani Gujany nie odnaleziono."
+    },
+    {
+      "dotyczy": "2026-11-21#n14",
+      "wynik": "UZUPEŁNIONE",
+      "pozycja": "z8"
+    }
+  ],
+  "do_sprawdzenia": [
+    "Polska – wyniki oględzin w Mołodyczu i kolejne komunikaty Prokuratury Okręgowej w Lublinie",
+    "Polska – komunikat Dowództwa Operacyjnego o próbie przechwycenia pocisku przez szwedzki Gripen",
+    "Bengazi – nazwa okrętu, straty i sprawca ataku",
+    "Sparta II – los statku i ładunek",
+    "Obwód królewiecki – przyczyna alarmu i wybuchów w Bałtijsku",
+    "UE – propozycja Danii na posiedzeniu ambasadorów 23.11",
+    "Rada Europejska 26–27.11 – potwierdzenie terminu",
+    "Agencja Uzbrojenia i PGZ – umowy"
+  ],
+  "nota": "Listy publikacji PISM nie udało się odczytać (listy działów Komentarze i Biuletyny, pism.pl/publikacje i wersja angielska zwróciły pustą treść, strony pojedynczych tekstów również). Dział Świat Onetu niesprawdzony: wyszukiwarka nie zwróciła nagłówków działu z 22.11. Komunikatów Dowództwa Operacyjnego, Straży Granicznej, Agencji Uzbrojenia i PGZ z 21–22.11 wyszukiwarka nie zwróciła; komunikat Prokuratury Okręgowej w Lublinie znany jest z przedruku PAP."
+}

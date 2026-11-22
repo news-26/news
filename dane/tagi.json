@@ -6,25 +6,20 @@
       "nazwa": "Ukraina",
       "grupa": "miejsce",
       "opis": "Wojna Rosji z Ukrainą: ataki, obrona powietrzna, polityka Kijowa, pomoc zachodnia.",
-      "stan": "Rosyjskie pociski balistyczne zabiły 20.11 w Krzywym Rogu dwie osoby, w tym dziecko, i raniły ponad 50; w nocy na 21.11 Rosja wystrzeliła 148 dronów i trzy pociski balistyczne.",
+      "stan": "Rosyjski dron zniszczył część bloku w Dymerze pod Kijowem; zginęły co najmniej trzy osoby.",
       "stan_zrodla": [
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/russian-attacks-kill-at-least-2-injure-83-across-ukraine-as-strikes-devastate-kryvyi-rih/",
-          "data": "2026-11-21"
-        },
-        {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/russian-ballistic-missile-strikes-on-kryvyi-rih-kill-7-year-old-paramedic-injure-42-others-in-double-tap-attack/",
-          "data": "2026-11-20"
+          "url": "https://kyivindependent.com/apartment-building-destroyed-in-kyiv-oblast-following-russian-drone-attack/",
+          "data": "2026-11-22"
         },
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/21/ballistic-missile-attack-on-zelenskyys-hometown-kills-two-people",
-          "data": "2026-11-21"
+          "url": "https://www.euronews.com/2026/11/22/14-people-missing-after-russian-drone-strike-on-kyiv-region",
+          "data": "2026-11-22"
         }
       ],
-      "stan_data": "2026-11-21"
+      "stan_data": "2026-11-22"
     },
     {
       "id": "front",
@@ -71,23 +66,23 @@
       "nazwa": "Rosja",
       "grupa": "miejsce",
       "opis": "Polityka wewnętrzna, armia i budżet Rosji.",
-      "stan": "Drony trafiły 21.11 w objęty sankcjami rosyjski statek Sparta II w Zatoce Fińskiej; kilka godzin później rosyjski śmigłowiec prawdopodobnie naruszył przestrzeń powietrzną Finlandii.",
-      "stan_data": "2026-11-21",
+      "stan": "Wybuch i pożar uszkodziły rosyjską jednostkę w libijskim Bengazi; rząd wschodniej Libii podejrzewa atak drona.",
+      "stan_data": "2026-11-22",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/russian-military-linked-cargo-ship-catches-fire-after-reported-drone-strike-in-gulf-of-finland/",
-          "data": "2026-11-21"
+          "nazwa": "AP (za ABC News)",
+          "url": "https://abcnews.com/International/wireStory/suspected-drone-strike-hits-russian-vessel-libya-138359178",
+          "data": "2026-11-22"
         },
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/21/russian-cargo-ship-struck-by-drone-in-gulf-of-finland-finnish-authorities-say",
-          "data": "2026-11-21"
+          "url": "https://www.euronews.com/2026/11/22/suspected-drone-strike-hits-russian-ship-at-libyas-benghazi-port-raising-regional-security",
+          "data": "2026-11-22"
         },
         {
           "nazwa": "Polsat News",
-          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-21/atak-na-baltyku-rosyjski-statek-w-ogniu-trwa-akcja-ratunkowa/",
-          "data": "2026-11-21"
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-22/rosyjska-korweta-stanela-w-plomieniach-wybuch-u-wybrzezy-libii/",
+          "data": "2026-11-22"
         }
       ]
     },
@@ -96,20 +91,25 @@
       "nazwa": "Królewiec",
       "grupa": "miejsce",
       "opis": "Obwód królewiecki: militaryzacja, tranzyt, napięcia z NATO.",
-      "stan": "Polska wzmocniła ochronę granicy z obwodem królewieckim po ostrzeżeniach o planowanej rosyjskiej prowokacji.",
+      "stan": "Gubernator obwodu królewieckiego ogłosił 21.11 alarm przeciwdronowy przy granicy z Litwą; Litwa zaprzeczyła udziałowi w ataku.",
       "stan_zrodla": [
         {
-          "nazwa": "PAP (za RMF24)",
-          "url": "https://www.rmf24.pl/fakty/polska/news-wiedzielismy-szef-mon-o-udaremnieniu-rosyjskiej-operacji-prz,nIdn,1026702",
-          "data": "2026-11-18"
+          "nazwa": "LRT",
+          "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3122038/kestutis-budrys-atmete-teiginius-kad-lietuva-dalyvavo-atakose-pries-kaliningrado-sriti",
+          "data": "2026-11-21"
         },
         {
-          "nazwa": "Rzeczpospolita",
-          "url": "https://www.rp.pl/konflikty-zbrojne/art45490041-prowokacja-z-duza-liczba-ofiar-i-zrzuceniem-winy-na-ukraine-ustalilismy-co-powstrzymalo-rosje",
-          "data": "2026-11-18"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/explosions-reported-near-russian-baltic-fleet-base-in-kaliningrad-oblast-amid-drone-alerts/",
+          "data": "2026-11-21"
+        },
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-22/doniesienia-o-eksplozjach-w-obwodzie-krolewieckim-mozliwa-prowokacja/",
+          "data": "2026-11-22"
         }
       ],
-      "stan_data": "2026-11-18"
+      "stan_data": "2026-11-22"
     },
     {
       "id": "bialorus",
@@ -136,25 +136,20 @@
       "nazwa": "Wojna hybrydowa",
       "grupa": "temat",
       "opis": "Działania hybrydowe: drony, sabotaż, dezinformacja, cyberataki, presja migracyjna.",
-      "stan": "Dania wydala rosyjskiego attaché obrony po udaremnieniu spisku na życie ukraińskiego rapera i proponuje zawieszenie wiz turystycznych dla Rosjan w strefie Schengen.",
+      "stan": "Litwa odrzuciła sugestie, że udostępniła przestrzeń powietrzną do ataku dronów na obwód królewiecki.",
       "stan_zrodla": [
         {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/11/20/denmark-to-expel-russia-s-military-attache-after-arrests-in-alleged-plot-to-kill-ukrainian-rapper",
-          "data": "2026-11-20"
+          "nazwa": "LRT",
+          "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3122038/kestutis-budrys-atmete-teiginius-kad-lietuva-dalyvavo-atakose-pries-kaliningrado-sriti",
+          "data": "2026-11-21"
         },
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/denmark-calls-for-eu-wide-travel-restrictions-on-russians-following-foiled-assassination-plot/",
-          "data": "2026-11-21"
-        },
-        {
-          "nazwa": "Reuters",
-          "url": "https://www.reuters.com/world/europe/denmark-pushes-eu-tighten-curbs-russians-after-foiled-plot-message-member-states-2026-11-21/",
+          "url": "https://kyivindependent.com/explosions-reported-near-russian-baltic-fleet-base-in-kaliningrad-oblast-amid-drone-alerts/",
           "data": "2026-11-21"
         }
       ],
-      "stan_data": "2026-11-21"
+      "stan_data": "2026-11-22"
     },
     {
       "id": "uzbrojenie",
@@ -201,25 +196,25 @@
       "nazwa": "ObronnośćPolski",
       "grupa": "temat",
       "opis": "Siły zbrojne RP, procedury obrony powietrznej, budżet obronny.",
-      "stan": "Dwa rosyjskie pociski Ch-101 i dron spadły 20.11 w województwach lubelskim i podkarpackim; nikt nie został ranny, a Polska poprosiła NATO o dodatkowe samoloty AWACS i myśliwce F-35.",
+      "stan": "Prokuratura potwierdziła, że w trzech miejscach na wschodzie Polski spadły 20.11 rosyjskie pociski Ch-101 wyprodukowane w IV kwartale 2026 r.",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/poland-reports-airspace-violation-during-russian-attack-on-ukraine-investigates-debris-crash/",
-          "data": "2026-11-20"
-        },
-        {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/11/20/poland-issues-air-raid-alerts-as-russia-attacks-ukraine-poland-s-defense-minister-says-two-russian-missiles-and-a-drone-fell-on-polish-soil",
-          "data": "2026-11-20"
+          "nazwa": "Rzeczpospolita",
+          "url": "https://www.rp.pl/sluzby/art45525381-trzy-rosyjskie-pociski-ch-101-spadly-w-polsce-nowe-ustalenia-prokuratury",
+          "data": "2026-11-22"
         },
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/20/polish-cities-sound-air-raid-sirens-after-russian-missile-strike",
-          "data": "2026-11-20"
+          "url": "https://pl.euronews.com/2026/11/22/prokuratura-we-wszystkich-trzech-lokalizacjach-odnaleziono-szczatki-rakiet-ch-101",
+          "data": "2026-11-22"
+        },
+        {
+          "nazwa": "PAP (za RMF24)",
+          "url": "https://www.rmf24.pl/fakty/polska/news-trzy-rakiety-nowe-informacje-o-obiektach-ktore-spadly-w-pols,nIdn,1027175",
+          "data": "2026-11-22"
         }
       ],
-      "stan_data": "2026-11-20"
+      "stan_data": "2026-11-22"
     },
     {
       "id": "dyplomacja-rp",
@@ -266,38 +261,43 @@
       "nazwa": "Iran",
       "grupa": "miejsce",
       "opis": "Iran, Cieśnina Ormuz, rozmowy z USA i mediatorami.",
-      "stan": "Dwa tankowce trafione 21.11 niezidentyfikowanymi pociskami w Cieśninie Ormuz koło Chasab; Iran twierdzi, że tankowiec wszedł na minę w zamkniętym rejonie.",
+      "stan": "Iran zaatakował 21.11 Bahrajn; pożar wybuchł w cywilnym zakładzie przemysłowym.",
       "stan_zrodla": [
         {
-          "nazwa": "Reuters",
-          "url": "https://www.reuters.com/business/energy/tanker-hit-by-unknown-projectile-near-omans-khasab-ukmto-says-2026-11-21/",
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/21/bahrain-says-iranian-attack-causes-fire-at-industrial-facility",
           "data": "2026-11-21"
         },
         {
-          "nazwa": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping",
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/bahrain-warns-residents-potential-threat-iran-conflict-persists-2026-11-21/",
+          "data": "2026-11-21"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade",
           "data": "2026-11-21"
         }
       ],
-      "stan_data": "2026-11-21"
+      "stan_data": "2026-11-22"
     },
     {
       "id": "usa",
       "nazwa": "USA",
       "grupa": "miejsce",
       "opis": "Polityka USA wobec Europy, Rosji, Ukrainy i Bliskiego Wschodu.",
-      "stan": "Trump uznał upadek rosyjskich pocisków w Polsce za pomyłkę i ocenił 19.11, że ograniczenie broni jądrowej z Chinami i Rosją będzie trudne.",
-      "stan_data": "2026-11-20",
+      "stan": "Meksyk zatrzymał przy wsparciu wywiadu USA przywódcę kartelu „El Chapo Isidro” z listy FBI.",
+      "stan_data": "2026-11-22",
       "stan_zrodla": [
         {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/11/20/trump-says-putin-launched-a-couple-of-small-missiles-into-poland-by-accident-a-couple-of-little-missiles",
-          "data": "2026-11-20"
+          "nazwa": "Associated Press",
+          "url": "https://apnews.com/article/mexico-cartels-el-chapo-isidro-sinaloa-violence-7301b67a1b1b974bc6bd20c9d030ce07",
+          "data": "2026-11-22"
         },
         {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/china/trump-says-after-talks-with-xi-putin-deal-limiting-nuclear-weapons-will-be-hard-2026-11-19/",
-          "data": "2026-11-19"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence",
+          "data": "2026-11-21"
         }
       ]
     },
@@ -361,18 +361,23 @@
       "nazwa": "ONZ",
       "grupa": "temat",
       "opis": "ONZ i jej agendy, w tym Rada Bezpieczeństwa i Zgromadzenie Ogólne.",
-      "stan": "Konferencja klimatyczna COP31 w Antalyi przekroczyła 20.11 termin zakończenia z powodu sporu o paliwa kopalne i finansowanie klimatyczne.",
-      "stan_data": "2026-11-21",
+      "stan": "Konferencja klimatyczna COP31 w Antalyi zakończyła się bez porozumienia końcowego.",
+      "stan_data": "2026-11-22",
       "stan_zrodla": [
         {
-          "nazwa": "Reuters",
-          "url": "https://www.reuters.com/sustainability/cop/cop31-climate-talks-spill-into-overtime-nations-quarrel-over-fossil-fuels-2026-11-20/",
-          "data": "2026-11-20"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/22/cop31-climate-talks-fail-after-eu-and-others-reject-final-deal-proposal",
+          "data": "2026-11-22"
         },
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/21/fossil-fuel-row-sees-cop31-talks-spill-into-overtime",
-          "data": "2026-11-21"
+          "nazwa": "Associated Press",
+          "url": "https://apnews.com/article/climate-un-turkey-fossil-fuels-global-warming-f6e36c4caf13ec6fed57c9f077cbd067",
+          "data": "2026-11-22"
+        },
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-22/kluczowe-negocjacje-bez-powodzenia-chaos-na-posiedzeniu-w-turcji/",
+          "data": "2026-11-22"
         }
       ]
     },
@@ -462,20 +467,20 @@
       "nazwa": "Litwa",
       "grupa": "miejsce",
       "opis": "Polityka Litwy i bezpieczeństwo przesmyku suwalskiego.",
-      "stan": "Od 16.11 Litwa zatrzyma w Kłajpedzie zboże z Rosji i Białorusi do czasu zbadania jego pochodzenia.",
+      "stan": "Minister spraw zagranicznych Litwy odrzucił pogłoski o udziale Litwy w ataku na obwód królewiecki.",
       "stan_zrodla": [
         {
-          "nazwa": "Reuters (za Kyiv Independent)",
-          "url": "https://kyivindependent.com/lithuania-to-tighten-checks-on-russian-grain-shipments/",
-          "data": "2026-11-10"
+          "nazwa": "LRT",
+          "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3122038/kestutis-budrys-atmete-teiginius-kad-lietuva-dalyvavo-atakose-pries-kaliningrado-sriti",
+          "data": "2026-11-21"
         },
         {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/11/10/lithuania-to-inspect-grain-shipments-from-russia-and-belarus-for-crops-from-occupied-ukraine-potentially-delaying-exports-by-months",
-          "data": "2026-11-10"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/explosions-reported-near-russian-baltic-fleet-base-in-kaliningrad-oblast-amid-drone-alerts/",
+          "data": "2026-11-21"
         }
       ],
-      "stan_data": "2026-11-10"
+      "stan_data": "2026-11-22"
     },
     {
       "id": "lotwa",
@@ -532,25 +537,25 @@
       "nazwa": "Nordyckie",
       "grupa": "miejsce",
       "opis": "Szwecja, Finlandia, Norwegia, Dania, Islandia.",
-      "stan": "Atak dronów na rosyjski statek Sparta II w Zatoce Fińskiej 21.11 i podejrzenie naruszenia fińskiej przestrzeni powietrznej przez rosyjski śmigłowiec; Dania wydala rosyjskiego attaché obrony.",
+      "stan": "Załogę statku Sparta II ewakuowano, a siły zbrojne Finlandii i Estonii uznały drony za prawdopodobnie ukraińskie.",
       "stan_zrodla": [
+        {
+          "nazwa": "Yle",
+          "url": "https://yle.fi/a/74-20258314",
+          "data": "2026-11-22"
+        },
+        {
+          "nazwa": "ERR",
+          "url": "https://www.err.ee/1610202955/vene-kaubalaeva-sparta-ii-tulekahju-kustutamine-jatkub-ka-puhapaeval",
+          "data": "2026-11-22"
+        },
         {
           "nazwa": "Kyiv Independent",
           "url": "https://kyivindependent.com/russian-military-linked-cargo-ship-catches-fire-after-reported-drone-strike-in-gulf-of-finland/",
           "data": "2026-11-21"
-        },
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/21/russian-cargo-ship-struck-by-drone-in-gulf-of-finland-finnish-authorities-say",
-          "data": "2026-11-21"
-        },
-        {
-          "nazwa": "Polsat News",
-          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-21/atak-na-baltyku-rosyjski-statek-w-ogniu-trwa-akcja-ratunkowa/",
-          "data": "2026-11-21"
         }
       ],
-      "stan_data": "2026-11-21"
+      "stan_data": "2026-11-22"
     },
     {
       "id": "francja",
@@ -707,30 +712,45 @@
       "nazwa": "Afryka",
       "grupa": "miejsce",
       "opis": "Wojny, przewroty i kryzysy w Afryce (Róg Afryki, Sudan, Sahel, Kongo).",
-      "stan": "Według Reutersa epidemia eboli we wschodniej DR Konga rozprzestrzenia się w rekordowym tempie.",
+      "stan": "W bazie w libijskim Bengazi płonęła rosyjska jednostka; rząd wschodniej Libii prowadzi z Rosją śledztwo.",
       "stan_zrodla": [
         {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/congos-ebola-outbreak-is-spreading-killing-record-pace-2026-11-17/",
-          "data": "2026-11-17"
+          "nazwa": "AP (za ABC News)",
+          "url": "https://abcnews.com/International/wireStory/suspected-drone-strike-hits-russian-vessel-libya-138359178",
+          "data": "2026-11-22"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/22/suspected-drone-strike-hits-russian-ship-at-libyas-benghazi-port-raising-regional-security",
+          "data": "2026-11-22"
+        },
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-22/rosyjska-korweta-stanela-w-plomieniach-wybuch-u-wybrzezy-libii/",
+          "data": "2026-11-22"
         }
       ],
-      "stan_data": "2026-11-17"
+      "stan_data": "2026-11-22"
     },
     {
       "id": "ameryki",
       "nazwa": "Ameryki",
       "grupa": "miejsce",
       "opis": "Polityka państw obu Ameryk poza USA: wybory, kryzysy, relacje z UE i Chinami.",
-      "stan": "Według AP USA i Wenezuela podpisały 18.11 umowę o przywróceniu współpracy wojskowej; ogłosił to w Karakasie sekretarz obrony USA Pete Hegseth.",
+      "stan": "Meksyk zatrzymał przywódcę kartelu „El Chapo Isidro”; w starciach po zatrzymaniu zginęło 11 osób.",
       "stan_zrodla": [
         {
-          "nazwa": "AP (newsletter)",
-          "url": "https://apnews.com/article/hegseth-venezuela-maduro-trump-e02dd6173e575c644a37dd417d84296d",
-          "data": "2026-11-18"
+          "nazwa": "Associated Press",
+          "url": "https://apnews.com/article/mexico-cartels-el-chapo-isidro-sinaloa-violence-7301b67a1b1b974bc6bd20c9d030ce07",
+          "data": "2026-11-22"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence",
+          "data": "2026-11-21"
         }
       ],
-      "stan_data": "2026-11-19"
+      "stan_data": "2026-11-22"
     },
     {
       "id": "bulgaria",

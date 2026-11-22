@@ -936,6 +936,41 @@
       "lon": 26.23,
       "lat": 60.46,
       "kraj": "Finlandia"
+    },
+    {
+      "id": "dymer",
+      "nazwa": "Dymer",
+      "lon": 30.3,
+      "lat": 50.79,
+      "kraj": "ukraina"
+    },
+    {
+      "id": "bengazi",
+      "nazwa": "Bengazi",
+      "lon": 20.07,
+      "lat": 32.12,
+      "kraj": "Libia"
+    },
+    {
+      "id": "sitra",
+      "nazwa": "Sitra",
+      "lon": 50.62,
+      "lat": 26.15,
+      "kraj": "Bahrajn"
+    },
+    {
+      "id": "baltijsk",
+      "nazwa": "Bałtijsk",
+      "lon": 19.91,
+      "lat": 54.65,
+      "kraj": "krolewiec"
+    },
+    {
+      "id": "guasave",
+      "nazwa": "Guasave",
+      "lon": -108.47,
+      "lat": 25.57,
+      "kraj": "Meksyk"
     }
   ]
 }

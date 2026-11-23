@@ -6,20 +6,20 @@
       "nazwa": "Ukraina",
       "grupa": "miejsce",
       "opis": "Wojna Rosji z Ukrainą: ataki, obrona powietrzna, polityka Kijowa, pomoc zachodnia.",
-      "stan": "Rosyjski dron zniszczył część bloku w Dymerze pod Kijowem; zginęły co najmniej trzy osoby.",
+      "stan": "Rosyjski atak dronem na blok w Dymerze zabił 11 osób; ukraińskie drony morskie zatopiły rosyjską korwetę w Bengazi.",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/apartment-building-destroyed-in-kyiv-oblast-following-russian-drone-attack/",
-          "data": "2026-11-22"
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/world/russian-attack-ukraines-dymer-kyiv-region-kills-11-official-says-2026-11-23/",
+          "data": "2026-11-23"
         },
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/22/14-people-missing-after-russian-drone-strike-on-kyiv-region",
-          "data": "2026-11-22"
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/world/europe/zelenskiy-says-ukraine-sank-russian-corvette-near-libyas-coast-hit-cargo-ship-2026-11-23/",
+          "data": "2026-11-23"
         }
       ],
-      "stan_data": "2026-11-22"
+      "stan_data": "2026-11-23"
     },
     {
       "id": "front",
@@ -66,23 +66,23 @@
       "nazwa": "Rosja",
       "grupa": "miejsce",
       "opis": "Polityka wewnętrzna, armia i budżet Rosji.",
-      "stan": "Wybuch i pożar uszkodziły rosyjską jednostkę w libijskim Bengazi; rząd wschodniej Libii podejrzewa atak drona.",
-      "stan_data": "2026-11-22",
+      "stan": "Ukraina zatopiła rosyjską korwetę Merkury w Libii; Komisja Europejska zaproponowała 22. pakiet sankcji, a Moskwa grozi Estonii.",
+      "stan_data": "2026-11-23",
       "stan_zrodla": [
         {
-          "nazwa": "AP (za ABC News)",
-          "url": "https://abcnews.com/International/wireStory/suspected-drone-strike-hits-russian-vessel-libya-138359178",
-          "data": "2026-11-22"
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/world/europe/zelenskiy-says-ukraine-sank-russian-corvette-near-libyas-coast-hit-cargo-ship-2026-11-23/",
+          "data": "2026-11-23"
         },
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/22/suspected-drone-strike-hits-russian-ship-at-libyas-benghazi-port-raising-regional-security",
-          "data": "2026-11-22"
+          "url": "https://www.euronews.com/2026/11/23/eu-goes-after-russias-banks-soldiers-and-athletes-in-new-sanctions-package",
+          "data": "2026-11-23"
         },
         {
-          "nazwa": "Polsat News",
-          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-22/rosyjska-korweta-stanela-w-plomieniach-wybuch-u-wybrzezy-libii/",
-          "data": "2026-11-22"
+          "nazwa": "Reuters (za RTÉ)",
+          "url": "https://www.rte.ie/news/world/2026/1123/1600353-russia-estonia-finland/",
+          "data": "2026-11-23"
         }
       ]
     },
@@ -136,20 +136,20 @@
       "nazwa": "Wojna hybrydowa",
       "grupa": "temat",
       "opis": "Działania hybrydowe: drony, sabotaż, dezinformacja, cyberataki, presja migracyjna.",
-      "stan": "Litwa odrzuciła sugestie, że udostępniła przestrzeń powietrzną do ataku dronów na obwód królewiecki.",
+      "stan": "Rosja zarzuca Estonii udostępnianie przestrzeni powietrznej ukraińskim dronom; Estonia zaprzecza i zamyka granicę od 1.12.",
       "stan_zrodla": [
         {
-          "nazwa": "LRT",
-          "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3122038/kestutis-budrys-atmete-teiginius-kad-lietuva-dalyvavo-atakose-pries-kaliningrado-sriti",
-          "data": "2026-11-21"
+          "nazwa": "Reuters (za RTÉ)",
+          "url": "https://www.rte.ie/news/world/2026/1123/1600353-russia-estonia-finland/",
+          "data": "2026-11-23"
         },
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/explosions-reported-near-russian-baltic-fleet-base-in-kaliningrad-oblast-amid-drone-alerts/",
-          "data": "2026-11-21"
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-23/rosyjskie-msz-grzmi-na-kraj-nato-mowia-o-otwartej-wojnie/",
+          "data": "2026-11-23"
         }
       ],
-      "stan_data": "2026-11-22"
+      "stan_data": "2026-11-23"
     },
     {
       "id": "uzbrojenie",
@@ -196,25 +196,15 @@
       "nazwa": "ObronnośćPolski",
       "grupa": "temat",
       "opis": "Siły zbrojne RP, procedury obrony powietrznej, budżet obronny.",
-      "stan": "Prokuratura potwierdziła, że w trzech miejscach na wschodzie Polski spadły 20.11 rosyjskie pociski Ch-101 wyprodukowane w IV kwartale 2026 r.",
+      "stan": "Po nadzwyczajnej Radzie Północnoatlantyckiej 23.11 Polska otrzyma do dyspozycji jeden samolot AWACS.",
       "stan_zrodla": [
         {
-          "nazwa": "Rzeczpospolita",
-          "url": "https://www.rp.pl/sluzby/art45525381-trzy-rosyjskie-pociski-ch-101-spadly-w-polsce-nowe-ustalenia-prokuratury",
-          "data": "2026-11-22"
-        },
-        {
-          "nazwa": "Euronews",
-          "url": "https://pl.euronews.com/2026/11/22/prokuratura-we-wszystkich-trzech-lokalizacjach-odnaleziono-szczatki-rakiet-ch-101",
-          "data": "2026-11-22"
-        },
-        {
-          "nazwa": "PAP (za RMF24)",
-          "url": "https://www.rmf24.pl/fakty/polska/news-trzy-rakiety-nowe-informacje-o-obiektach-ktore-spadly-w-pols,nIdn,1027175",
-          "data": "2026-11-22"
+          "nazwa": "PAP (za Gość Niedzielny)",
+          "url": "https://www.gosc.pl/doc/9974238.Po-spotkaniu-NATO-AWACS-do-dyspozycji-Polski",
+          "data": "2026-11-23"
         }
       ],
-      "stan_data": "2026-11-22"
+      "stan_data": "2026-11-23"
     },
     {
       "id": "dyplomacja-rp",
@@ -241,63 +231,58 @@
       "nazwa": "Sankcje",
       "grupa": "temat",
       "opis": "Sankcje UE, USA i innych państw oraz ich omijanie.",
-      "stan": "UE objęła 16.11 sankcjami 145 osób i podmiotów, w tym niemal 50 banków, statki floty cieni i nabywców rosyjskiej ropy z Chin, ZEA, Seszeli i Omanu.",
+      "stan": "Komisja Europejska zaproponowała 23.11 22. pakiet sankcji wobec Rosji; państwa UE mają go przyjąć w grudniu.",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/eu-clamps-down-on-russias-wildberries-owner-50-banks-oil-and-shadow-fleet-with-new-sanctions/",
-          "data": "2026-11-16"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/23/eu-goes-after-russias-banks-soldiers-and-athletes-in-new-sanctions-package",
+          "data": "2026-11-23"
         },
         {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/11/16/eu-sanctions-tatyana-kim-founder-of-russian-e-commerce-giant-wildberries-over-alleged-military-supply-ties",
-          "data": "2026-11-16"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/eu-proposes-package-of-russian-sports-sanctions-visa-bans-and-a-krygyzstan-crypto-blockade/",
+          "data": "2026-11-23"
         }
       ],
-      "stan_data": "2026-11-16"
+      "stan_data": "2026-11-23"
     },
     {
       "id": "iran",
       "nazwa": "Iran",
       "grupa": "miejsce",
       "opis": "Iran, Cieśnina Ormuz, rozmowy z USA i mediatorami.",
-      "stan": "Iran zaatakował 21.11 Bahrajn; pożar wybuchł w cywilnym zakładzie przemysłowym.",
+      "stan": "Iran zapowiada użycie „wszelkich środków” przeciw amerykańskiej blokadzie morskiej; Trump grozi zatapianiem statków.",
       "stan_zrodla": [
         {
-          "nazwa": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/21/bahrain-says-iranian-attack-causes-fire-at-industrial-facility",
-          "data": "2026-11-21"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/23/iran-vows-every-means-to-counter-us-blockade-of-hormuz-after-trump-threat",
+          "data": "2026-11-23"
         },
         {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/middle-east/bahrain-warns-residents-potential-threat-iran-conflict-persists-2026-11-21/",
-          "data": "2026-11-21"
-        },
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade",
-          "data": "2026-11-21"
+          "url": "https://www.reuters.com/",
+          "data": "2026-11-23"
         }
       ],
-      "stan_data": "2026-11-22"
+      "stan_data": "2026-11-23"
     },
     {
       "id": "usa",
       "nazwa": "USA",
       "grupa": "miejsce",
       "opis": "Polityka USA wobec Europy, Rosji, Ukrainy i Bliskiego Wschodu.",
-      "stan": "Meksyk zatrzymał przy wsparciu wywiadu USA przywódcę kartelu „El Chapo Isidro” z listy FBI.",
-      "stan_data": "2026-11-22",
+      "stan": "Demokraci zdobyli co najmniej 258 mandatów w Izbie Reprezentantów; USA utrzymują blokadę morską Iranu.",
+      "stan_data": "2026-11-23",
       "stan_zrodla": [
         {
           "nazwa": "Associated Press",
-          "url": "https://apnews.com/article/mexico-cartels-el-chapo-isidro-sinaloa-violence-7301b67a1b1b974bc6bd20c9d030ce07",
+          "url": "https://apnews.com/article/democrats-house-majority-election-2026-congress-721096a4d9ba2cd68683692361798cdb",
           "data": "2026-11-22"
         },
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence",
-          "data": "2026-11-21"
+          "url": "https://www.euronews.com/2026/11/23/iran-vows-every-means-to-counter-us-blockade-of-hormuz-after-trump-threat",
+          "data": "2026-11-23"
         }
       ]
     },
@@ -321,18 +306,13 @@
       "nazwa": "NATO",
       "grupa": "temat",
       "opis": "Sojusz Północnoatlantycki: decyzje, szczyty, wschodnia flanka.",
-      "stan": "W siedzibie NATO w Brukseli obradowała 17.11 Grupa Kontaktowa ds. Obrony Ukrainy; zapowiedziano nowe dostawy obrony powietrznej.",
-      "stan_data": "2026-11-17",
+      "stan": "Rada Północnoatlantycka zebrała się 23.11 na wniosek Polski; Polska otrzyma jeden samolot AWACS.",
+      "stan_data": "2026-11-23",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/uk-pledges-over-1-000-short-range-missiles-for-ukraine-in-240-million-pound-air-defense-package-2/",
-          "data": "2026-11-17"
-        },
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/17/germany-and-norway-to-buy-more-us-air-defences-for-ukraine-including-patriot-missiles",
-          "data": "2026-11-17"
+          "nazwa": "PAP (za Gość Niedzielny)",
+          "url": "https://www.gosc.pl/doc/9974238.Po-spotkaniu-NATO-AWACS-do-dyspozycji-Polski",
+          "data": "2026-11-23"
         }
       ]
     },
@@ -341,20 +321,20 @@
       "nazwa": "UE",
       "grupa": "temat",
       "opis": "Unia Europejska: Rada, Komisja, obronność, budżet WRF 2028–2034.",
-      "stan": "António Costa zaproponował 21.11 budżet UE na lata 2028–2034 w wysokości 1,78 bln euro, o ok. 10% mniejszy od projektu Komisji; rozmowy na nadzwyczajnej Radzie Europejskiej.",
+      "stan": "Komisja Europejska przedstawiła projekt 22. pakietu sankcji wobec Rosji.",
       "stan_zrodla": [
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/21/eu-budget-costa-pitches-more-cuts-big-tech-tax-to-break-deadlock",
-          "data": "2026-11-21"
+          "url": "https://www.euronews.com/2026/11/23/eu-goes-after-russias-banks-soldiers-and-athletes-in-new-sanctions-package",
+          "data": "2026-11-23"
         },
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/eu-budget-proposal-keeps-ukraine-funding-unchanged-as-cost-of-russias-war-rises/",
-          "data": "2026-11-21"
+          "url": "https://kyivindependent.com/eu-proposes-package-of-russian-sports-sanctions-visa-bans-and-a-krygyzstan-crypto-blockade/",
+          "data": "2026-11-23"
         }
       ],
-      "stan_data": "2026-11-21"
+      "stan_data": "2026-11-23"
     },
     {
       "id": "onz",
@@ -447,18 +427,18 @@
       "nazwa": "Węgry",
       "grupa": "miejsce",
       "opis": "Polityka Węgier: rząd, rozliczenia, relacje z UE.",
-      "stan": "Według Reutersa śledczy odzyskali niemal 20 mln dolarów w gotówce w śledztwie wobec byłego ministra Miklósa Sesztáka.",
-      "stan_data": "2026-11-14",
+      "stan": "Premier Péter Magyar zapowiedział wizytę na Zakarpaciu; Węgry wiążą dalsze rozmowy akcesyjne Ukrainy z prawami mniejszości.",
+      "stan_data": "2026-11-23",
       "stan_zrodla": [
         {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/hungary-recovers-20-million-cash-probe-orban-minister-2026-11-14/",
-          "data": "2026-11-14"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/23/hungarys-pm-to-visit-transcarpathia-pledges-support-to-ukrainian-people-and-local-hungaria",
+          "data": "2026-11-23"
         },
         {
-          "nazwa": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/14/hungarian-investigators-uncover-19-5m-hidden-in-forests-and-buildings",
-          "data": "2026-11-14"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-hungarys-magyar-could-meet-soon-during-planned-visits-to-ukraines-zakarpattia-source-says/",
+          "data": "2026-11-23"
         }
       ]
     },
@@ -512,50 +492,40 @@
       "nazwa": "Estonia",
       "grupa": "miejsce",
       "opis": "Polityka i bezpieczeństwo Estonii.",
-      "stan": "Rząd Estonii formalnie zatwierdził zamknięcie od 1.12 wszystkich pięciu drogowych przejść granicznych z Rosją po próbie podpalenia zakładu Threod Systems zleconej według Tallinna przez GRU.",
+      "stan": "Rosja zaprotestowała przeciw zamknięciu estońskich przejść granicznych od 1.12 i ostrzegła przed „otwartą wojną”.",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/20/estonia-to-shut-border-with-russia-over-gru-linked-sabotage-attack",
-          "data": "2026-11-20"
+          "nazwa": "Reuters (za RTÉ)",
+          "url": "https://www.rte.ie/news/world/2026/1123/1600353-russia-estonia-finland/",
+          "data": "2026-11-23"
         },
         {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/11/20/estonia-to-close-all-road-crossings-with-russia",
-          "data": "2026-11-20"
-        },
-        {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/estonia-to-close-road-borders-with-russia-in-response-to-sustained-aggression-against-europe/",
-          "data": "2026-11-20"
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-23/rosyjskie-msz-grzmi-na-kraj-nato-mowia-o-otwartej-wojnie/",
+          "data": "2026-11-23"
         }
       ],
-      "stan_data": "2026-11-20"
+      "stan_data": "2026-11-23"
     },
     {
       "id": "nordyckie",
       "nazwa": "Nordyckie",
       "grupa": "miejsce",
       "opis": "Szwecja, Finlandia, Norwegia, Dania, Islandia.",
-      "stan": "Załogę statku Sparta II ewakuowano, a siły zbrojne Finlandii i Estonii uznały drony za prawdopodobnie ukraińskie.",
+      "stan": "Finlandia wezwała 23.11 ambasadora Rosji po podejrzeniu naruszenia przestrzeni powietrznej przez rosyjski śmigłowiec.",
       "stan_zrodla": [
         {
-          "nazwa": "Yle",
-          "url": "https://yle.fi/a/74-20258314",
-          "data": "2026-11-22"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/23/finland-summons-russian-ambassador-as-it-condemns-russias-dangerous-and-reckless-actions-i",
+          "data": "2026-11-23"
         },
         {
-          "nazwa": "ERR",
-          "url": "https://www.err.ee/1610202955/vene-kaubalaeva-sparta-ii-tulekahju-kustutamine-jatkub-ka-puhapaeval",
-          "data": "2026-11-22"
-        },
-        {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/russian-military-linked-cargo-ship-catches-fire-after-reported-drone-strike-in-gulf-of-finland/",
-          "data": "2026-11-21"
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/europe/20261123-finland-summons-russian-ambassador-after-suspected-airspace-violation",
+          "data": "2026-11-23"
         }
       ],
-      "stan_data": "2026-11-22"
+      "stan_data": "2026-11-23"
     },
     {
       "id": "francja",
@@ -642,18 +612,13 @@
       "nazwa": "Wybory",
       "grupa": "temat",
       "opis": "Wybory w Europie i na świecie; wyniki wstępne odróżniane od oficjalnych.",
-      "stan": "Demokratka Mary Peltola wygrała wybory do Senatu USA na Alasce; demokraci będą mieli większość 56 do 44.",
-      "stan_data": "2026-11-18",
+      "stan": "W USA Demokraci zdobyli co najmniej 258 mandatów w Izbie Reprezentantów; 29.11 przedterminowe wybory w Hiszpanii.",
+      "stan_data": "2026-11-23",
       "stan_zrodla": [
         {
-          "nazwa": "AP (newsletter)",
-          "url": "https://apnews.com/article/alaska-senate-peltola-sullivan-congress-f1fd4d243bf764ec46ff94db4c792953",
-          "data": "2026-11-17"
-        },
-        {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/us/democrat-peltola-wins-alaska-securing-56-44-us-senate-majority-2026-11-18/",
-          "data": "2026-11-18"
+          "nazwa": "Associated Press",
+          "url": "https://apnews.com/article/democrats-house-majority-election-2026-congress-721096a4d9ba2cd68683692361798cdb",
+          "data": "2026-11-22"
         }
       ]
     },
@@ -712,25 +677,20 @@
       "nazwa": "Afryka",
       "grupa": "miejsce",
       "opis": "Wojny, przewroty i kryzysy w Afryce (Róg Afryki, Sudan, Sahel, Kongo).",
-      "stan": "W bazie w libijskim Bengazi płonęła rosyjska jednostka; rząd wschodniej Libii prowadzi z Rosją śledztwo.",
+      "stan": "Ukraińskie drony morskie zatopiły 22.11 rosyjską korwetę Merkury w libijskim Bengazi; władze wschodniej Libii odrzucają wciąganie kraju w konflikt.",
       "stan_zrodla": [
         {
-          "nazwa": "AP (za ABC News)",
-          "url": "https://abcnews.com/International/wireStory/suspected-drone-strike-hits-russian-vessel-libya-138359178",
-          "data": "2026-11-22"
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/world/europe/zelenskiy-says-ukraine-sank-russian-corvette-near-libyas-coast-hit-cargo-ship-2026-11-23/",
+          "data": "2026-11-23"
         },
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/22/suspected-drone-strike-hits-russian-ship-at-libyas-benghazi-port-raising-regional-security",
-          "data": "2026-11-22"
-        },
-        {
-          "nazwa": "Polsat News",
-          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-22/rosyjska-korweta-stanela-w-plomieniach-wybuch-u-wybrzezy-libii/",
-          "data": "2026-11-22"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/no-safe-routes-ukraine-sinks-russian-corvette-in-drone-attack-off-libyan-coast/",
+          "data": "2026-11-23"
         }
       ],
-      "stan_data": "2026-11-22"
+      "stan_data": "2026-11-23"
     },
     {
       "id": "ameryki",

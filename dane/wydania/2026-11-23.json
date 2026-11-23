@@ -1,0 +1,633 @@
+{
+  "nr": 66,
+  "data": "2026-11-23",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Prezydent Ukrainy Wołodymyr Zełenski potwierdził 23.11, że siedem ukraińskich dronów morskich zatopiło rosyjską korwetę Merkury w libijskim porcie Bengazi. **Trafiony został też rosyjski statek towarowy Angara, który według Zełenskiego przewoził broń.**",
+    "Według PAP Polska otrzyma do dyspozycji jeden samolot wczesnego ostrzegania AWACS. **Zapowiedział to 23.11 w Brukseli wiceminister obrony narodowej Paweł Zalewski po nadzwyczajnym posiedzeniu Rady Północnoatlantyckiej**, zwołanym na wniosek Polski po wlocie rosyjskich pocisków 20.11.",
+    "Komisja Europejska zaproponowała 23.11 dwudziesty drugi pakiet sankcji wobec Rosji. **Według Euronews obejmuje on m.in. odłączenie 60 kolejnych rosyjskich banków od systemu SWIFT i sankcje wobec ponad 70 statków floty cieni.**",
+    "Rosyjskie MSZ ostrzegło 23.11, że działania Estonii są „na krawędzi wywołania otwartej wojny”. **Moskwa protestuje przeciw zamknięciu estońskich przejść granicznych z Rosją od 1 grudnia.**"
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-11-22",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "afryka"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "bengazi",
+      "krotko": "Zatopiona korweta Merkury",
+      "tekst": "{{o:wolodymyr-zelenski|Prezydent Ukrainy Wołodymyr Zełenski}} potwierdził 23.11, że siedem ukraińskich dronów morskich **zatopiło 22.11 rosyjską korwetę Merkury** w libijskim porcie Bengazi; trafiony został też rosyjski statek towarowy Angara. Według Zełenskiego statek przewoził broń, a według Kyiv Independent zniszczono też śmigłowiec Ka-27; władze wschodniej Libii odrzuciły wciąganie kraju w cudzy konflikt.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/world/europe/zelenskiy-says-ukraine-sank-russian-corvette-near-libyas-coast-hit-cargo-ship-2026-11-23/",
+          "data": "2026-11-23"
+        },
+        {
+          "nazwa": "Associated Press",
+          "url": "https://apnews.com/article/ukraine-russia-zelenskyy-warship-attack-libya-c382f8eb06dca7d87e89bc6c18ba7d61",
+          "data": "2026-11-23"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/no-safe-routes-ukraine-sinks-russian-corvette-in-drone-attack-off-libyan-coast/",
+          "data": "2026-11-23"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-11-23",
+      "tagi": [
+        "ukraina",
+        "rosja"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "dymer",
+      "krotko": "Dymer: 11 zabitych",
+      "tekst": "Według Państwowej Służby Ratunkowej Ukrainy liczba ofiar rosyjskiego ataku dronem na blok mieszkalny w Dymerze w obwodzie kijowskim wzrosła 23.11 do **11 zabitych**, gdy ratownicy wydobyli z gruzów kolejne ciało. Po 22 godzinach ratownicy wyciągnęli też spod gruzów żywą starszą kobietę; poszukiwania trwają.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/world/russian-attack-ukraines-dymer-kyiv-region-kills-11-official-says-2026-11-23/",
+          "data": "2026-11-23"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/23/ukraine-dramatic-night-rescue-pulls-woman-from-rubble-after-22-hours",
+          "data": "2026-11-23"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "wojna",
+      "data": "2026-11-23",
+      "tagi": [
+        "sankcje",
+        "ue",
+        "rosja"
+      ],
+      "etap": "PROPOZYCJA",
+      "miejsce": "bruksela",
+      "krotko": "22. pakiet sankcji",
+      "tekst": "{{o:ursula-von-der-leyen|Przewodnicząca Komisji Europejskiej Ursula von der Leyen}} przedstawiła 23.11 projekt **22. pakietu sankcji wobec Rosji**. Według Euronews obejmuje on odłączenie 60 kolejnych banków od systemu {{p:swift|SWIFT}}, zakaz naprawy rosyjskich rafinerii przez firmy z UE i sankcje wobec ponad 70 statków {{p:flota-cieni|floty cieni}}, a także zakaz wjazdu dla rosyjskich żołnierzy walczących w Ukrainie i wykluczenie rosyjskich drużyn z zawodów sportowych w UE – państwa członkowskie mają go przyjąć w grudniu.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/23/eu-goes-after-russias-banks-soldiers-and-athletes-in-new-sanctions-package",
+          "data": "2026-11-23"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/eu-proposes-package-of-russian-sports-sanctions-visa-bans-and-a-krygyzstan-crypto-blockade/",
+          "data": "2026-11-23"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "polska",
+      "data": "2026-11-23",
+      "tagi": [
+        "obronnosc-polski",
+        "nato"
+      ],
+      "etap": "ZAPOWIEDŹ",
+      "miejsce": "bruksela",
+      "krotko": "AWACS dla Polski",
+      "tekst": "Nadzwyczajna {{p:rada-polnocnoatlantycka|Rada Północnoatlantycka}}, zwołana na wniosek Polski po wlocie rosyjskich pocisków 20.11, zebrała się 23.11 w Brukseli; według PAP {{o:pawel-zalewski|wiceminister obrony narodowej Paweł Zalewski}} ogłosił po niej, że **do dyspozycji Polski będzie jeden samolot wczesnego ostrzegania {{p:awacs|AWACS}}**. Polska prosiła też o wsparcie sojuszniczych myśliwców F-35; kolejne propozycje mają wrócić na spotkaniu ministrów spraw zagranicznych NATO w przyszłym tygodniu.",
+      "zrodla": [
+        {
+          "nazwa": "PAP (za Gość Niedzielny)",
+          "url": "https://www.gosc.pl/doc/9974238.Po-spotkaniu-NATO-AWACS-do-dyspozycji-Polski",
+          "data": "2026-11-23"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "instytucje",
+      "data": "2026-11-23",
+      "tagi": [
+        "nordyckie",
+        "rosja"
+      ],
+      "miejsce": "loviisa",
+      "krotko": "Finlandia wzywa ambasadora",
+      "tekst": "Ministerstwo Spraw Zagranicznych Finlandii **wezwało 23.11 ambasadora Rosji** po podejrzeniu, że rosyjski śmigłowiec naruszył 21.11 fińską przestrzeń powietrzną u wybrzeży Loviisy. {{o:antti-hakkanen|Minister obrony Antti Häkkänen}} powiedział, że lot mógł mieć związek z akcją ratunkową wokół trafionego dronami statku Sparta II, który rosyjski statek ratowniczy holuje do Rosji; Kreml oskarżył Ukrainę o „działalność terrorystyczną” na Bałtyku.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/23/finland-summons-russian-ambassador-as-it-condemns-russias-dangerous-and-reckless-actions-i",
+          "data": "2026-11-23"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/europe/20261123-finland-summons-russian-ambassador-after-suspected-airspace-violation",
+          "data": "2026-11-23"
+        },
+        {
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/world/europe/kremlin-accuses-ukraine-terrorist-activity-baltic-after-cargo-ship-drone-strike-2026-11-23/",
+          "data": "2026-11-23"
+        }
+      ]
+    },
+    {
+      "id": "z6",
+      "blok": "instytucje",
+      "data": "2026-11-23",
+      "tagi": [
+        "estonia",
+        "rosja",
+        "hybryda"
+      ],
+      "miejsce": "moskwa",
+      "krotko": "Moskwa grozi Estonii",
+      "tekst": "Według Reutersa Ministerstwo Spraw Zagranicznych Rosji wezwało 23.11 chargé d'affaires Estonii i zaprotestowało przeciw **zamknięciu estońskich przejść granicznych z Rosją od 1 grudnia**; w komunikacie stwierdziło, że działania Tallinna są „na krawędzi wywołania otwartej wojny”. Moskwa zarzuciła Estonii udostępnianie przestrzeni powietrznej ukraińskim dronom, czemu estońskie MSZ zaprzecza.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (za RTÉ)",
+          "url": "https://www.rte.ie/news/world/2026/1123/1600353-russia-estonia-finland/",
+          "data": "2026-11-23"
+        },
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-23/rosyjskie-msz-grzmi-na-kraj-nato-mowia-o-otwartej-wojnie/",
+          "data": "2026-11-23"
+        }
+      ]
+    },
+    {
+      "id": "z7",
+      "blok": "instytucje",
+      "data": "2026-11-23",
+      "tagi": [
+        "wegry",
+        "ukraina"
+      ],
+      "etap": "ZAPOWIEDŹ",
+      "kraje": [
+        "wegry",
+        "ukraina"
+      ],
+      "tekst": "{{o:peter-magyar|Premier Węgier Péter Magyar}} zapowiedział 23.11, że **odwiedzi Zakarpacie** na zachodzie Ukrainy, zamieszkane przez węgierską mniejszość; powiedział, że żaden wybrany premier Węgier nie był tam od 2015 r. Według Kyiv Independent, który powołuje się na anonimowe źródło, Magyar może się tam spotkać z prezydentem Zełenskim; Budapeszt wstrzymuje otwarcie kolejnych {{p:klaster-negocjacyjny|klastrów negocjacyjnych}} Ukrainy z UE do uchwalenia ustaw o prawach mniejszości.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/23/hungarys-pm-to-visit-transcarpathia-pledges-support-to-ukrainian-people-and-local-hungaria",
+          "data": "2026-11-23"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-hungarys-magyar-could-meet-soon-during-planned-visits-to-ukraines-zakarpattia-source-says/",
+          "data": "2026-11-23"
+        }
+      ]
+    },
+    {
+      "id": "z8",
+      "blok": "swiat",
+      "data": "2026-11-23",
+      "tagi": [
+        "iran",
+        "usa"
+      ],
+      "etap": "W TOKU",
+      "tekst": "{{o:esmaeil-baghaei|Rzecznik MSZ Iranu Esmaeil Baghaei}} nazwał 23.11 amerykańską blokadę morską irańskiego eksportu ropy „przestępstwem” i zapowiedział, że **Iran użyje „wszelkich środków” przeciw blokadzie**. Dzień wcześniej {{o:donald-trump|prezydent USA Donald Trump}} powiedział, że irańskie statki próbujące ją przełamać „pójdą na dno”.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/23/iran-vows-every-means-to-counter-us-blockade-of-hormuz-after-trump-threat",
+          "data": "2026-11-23"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/",
+          "data": "2026-11-23"
+        }
+      ]
+    },
+    {
+      "id": "z9",
+      "blok": "swiat",
+      "data": "2026-11-22",
+      "tagi": [
+        "usa",
+        "wybory"
+      ],
+      "miejsce": "waszyngton",
+      "krotko": "Demokraci: 258 mandatów",
+      "tekst": "Według nieoficjalnych wyników ogłoszonych przez AP Partia Demokratyczna zdobyła w wyborach z 3 listopada **co najmniej 258 z 435 mandatów w Izbie Reprezentantów USA** – najwięcej od 1992 r. Próg osiągnęła 22.11 po zwycięstwie Chucka Hubbarda nad Republikanką Virginią Foxx w Karolinie Północnej; rozstrzygnięcia czekają jeszcze cztery okręgi.",
+      "zrodla": [
+        {
+          "nazwa": "Associated Press",
+          "url": "https://apnews.com/article/democrats-house-majority-election-2026-congress-721096a4d9ba2cd68683692361798cdb",
+          "data": "2026-11-22"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "Euronews: UE i USA spierają się, czy rozmawiać o bezpieczeństwie Europy przed rozejmem w Ukrainie",
+      "autor": "Euronews, 23.11.2026",
+      "tekst": "Według Euronews {{o:jared-kushner|wysłannik prezydenta USA Jared Kushner}} uważa, że gwarancji bezpieczeństwa dla Ukrainy nie da się ustalić bez powojennego ładu bezpieczeństwa w Europie. Przewodnicząca Komisji Europejskiej Ursula von der Leyen i kanclerz {{o:friedrich-merz|Friedrich Merz}} chcą najpierw rozejmu, a dopiero potem rozmów o bezpieczeństwie euroatlantyckim. {{o:mark-rutte|Sekretarz generalny NATO Mark Rutte}} powiedział 23.11, że nie można dopuścić do cofnięcia NATO do granic z 1997 r.",
+      "dla_polski": "Rosyjskie żądanie powrotu NATO do stanu z 1997 r. oznaczałoby wycofanie sił sojuszniczych z Polski. Rozmowy o ładzie europejskim przed rozejmem mogą postawić to żądanie na stole.",
+      "tagi": [
+        "usa",
+        "ue",
+        "nato",
+        "ukraina"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/23/von-der-leyen-and-kushner-clash-over-peace-talks-sequence",
+          "data": "2026-11-23"
+        }
+      ]
+    },
+    {
+      "tytul": "Euronews: umowa obronna USA z Danią i Grenlandią poszerza obecność wojskową USA, ale nie oddaje im wyspy",
+      "autor": "Evi Kiorri, Lauren Walker (Euronews), 23.11.2026",
+      "tekst": "Według autorów umowa podpisana 22 września i ratyfikowana w ubiegłym tygodniu przez Danię pozwala USA rozbudować bazę Pituffik i utworzyć dwie nowe strefy obronne, w Narsarsuaq i Mestersvig. USA zyskują też wpływ na blokowanie strategicznych inwestycji spoza NATO i UE. Umowa potwierdza suwerenność Danii, a UE nie jest jej stroną.",
+      "dla_polski": "Skutek pośredni: bezpieczeństwo Arktyki opiera się coraz bardziej na układzie skupionym na USA. Unia Europejska, a więc i Polska, nie ma w nim formalnej roli.",
+      "tagi": [
+        "usa",
+        "nordyckie"
+      ],
+      "kraje": [
+        "usa",
+        "Dania"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/23/no-greenland-isnt-being-handed-over-to-trump-but-what-exactly-has-washington-secured",
+          "data": "2026-11-23"
+        }
+      ]
+    },
+    {
+      "tytul": "Reuters: zdjęcia satelitarne wskazują, że liczba ofiar eboli we wschodnim Kongu jest zaniżona",
+      "autor": "Reuters, 23.11.2026",
+      "tekst": "Według analizy zdjęć satelitarnych Reutersa cmentarze we wschodnim Kongu rozrastają się znacznie szybciej, niż wynikałoby z oficjalnej liczby zgonów na ebolę. W Bunii liczba pochówków wzrosła od końca kwietnia z dwóch–trzech do kilkunastu dziennie. Rozbieżność wskazuje na poważne zaniżenie skali epidemii.",
+      "dla_polski": "Skutek pośredni: zaniżone dane utrudniają ocenę ryzyka rozprzestrzenienia się epidemii i planowanie pomocy przez UE i Światową Organizację Zdrowia.",
+      "tagi": [
+        "afryka"
+      ],
+      "kraje": [
+        "Demokratyczna Republika Konga"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/investigations/fields-graves-hidden-deaths-reveal-scale-ebola-disaster-2026-11-23/",
+          "data": "2026-11-23"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-11-23",
+      "tekst": "23.11: Bruksela – Dania ma przedstawić ambasadorom UE propozycję ograniczeń wizowych dla Rosjan (według Kyiv Independent).",
+      "tagi": [
+        "nordyckie",
+        "ue"
+      ],
+      "poza_kalendarium": "Termin podaje tylko jedno źródło; robocze spotkanie ambasadorów, nie szczyt ani posiedzenie ministrów."
+    },
+    {
+      "data": "2026-11-25",
+      "tekst": "25.11: Bruksela – spotkanie szefów obrony państw UE w Komitecie Wojskowym UE o gotowości obronnej (według Euronews).",
+      "tagi": [
+        "ue"
+      ],
+      "poza_kalendarium": "Termin podaje tylko jedno źródło; posiedzenie robocze szefów sztabów, nie szczyt ani posiedzenie ministrów."
+    },
+    {
+      "data": "2026-11-26",
+      "tekst": "26–27.11: Bruksela – nadzwyczajna Rada Europejska w sprawie wieloletnich ram finansowych 2028–2034, z udziałem prezydenta Ukrainy (termin wstępny).",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-28",
+      "tekst": "28.11: Tajwan – wybory lokalne.",
+      "tagi": [
+        "chiny",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-11-29",
+      "tekst": "29.11: Hiszpania – przedterminowe wybory parlamentarne.",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-12-01",
+      "tekst": "1.12: Estonia – zamknięcie przejść granicznych z Rosją.",
+      "tagi": [
+        "estonia"
+      ],
+      "poza_kalendarium": "Decyzja administracyjna państwa, nie spotkanie ani wybory."
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [],
+    "pism": [],
+    "nieodczytane": [
+      "pism"
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "prog": "dokumentacja",
+      "tekst": "Polska: według Kyiv Independent (za RMF24) prokuratorzy Polski, Niemiec, Litwy i Bułgarii planują utworzyć wspólny zespół śledczy w sprawie podpaleń i prób podpaleń infrastruktury Starlink, w tym stacji naziemnej w Woli Krobowskiej z 23 września; mają spotkać się na początku grudnia.",
+      "sprawdzono": [
+        "Kyiv Independent 23.11 (poziom 2): relacja za RMF24",
+        "Kanał RSS Euronews 23.11: brak wzmianki",
+        "Wyszukiwarka (wspólny zespół śledczy, Starlink, Litwa, Bułgaria): brak komunikatu prokuratury"
+      ]
+    },
+    {
+      "id": "n2",
+      "prog": "dokumentacja",
+      "tekst": "Niemcy i Polska: według Polsat News (za „Der Spiegel”) Bundeswehra przewiozła ciężki sprzęt 10. Dywizji Pancernej na ćwiczenia „Grand Eagle” na Litwie koleją zamiast konwojem drogowym przez Polskę, by nie prowokować Rosji.",
+      "sprawdzono": [
+        "Polsat News 22.11 (poziom 3): relacja za „Der Spiegel” i „Bild am Sonntag”",
+        "Strony Bundeswehry o ćwiczeniach na Litwie: przerzut promem, koleją i drogą, bez wzmianki o zmianie planu",
+        "Kanał RSS Euronews 23.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n3",
+      "prog": "dokumentacja",
+      "tekst": "Polska i Izrael: według Polsat News władze Izraela odmówiły 22–23.11 wjazdu posłowi Franciszkowi Sterczewskiemu na lotnisku Ben Guriona z powodu jego udziału we Flotylli Sumud; rzecznik MSZ Maciej Wewiór podał, że konsul udzieliła mu pomocy konsularnej.",
+      "sprawdzono": [
+        "Kanał RSS Polsat News Świat 22–23.11: dwie relacje",
+        "Newsletter Reuters Daily Briefing 23.11: brak wzmianki",
+        "Wyszukiwarka (Sterczewski, Ben Gurion, Wewiór): brak relacji z 23.11"
+      ]
+    },
+    {
+      "id": "n4",
+      "prog": "dokumentacja",
+      "tekst": "UE i Chiny: według Euronews Komisja Europejska podejrzewa, że za trwającym od miesiąca cyberatakiem na jej systemy stoi grupa hakerska powiązana z Chinami; potwierdzono pierwszy wyciek danych osobowych użytkowników EU Academy.",
+      "sprawdzono": [
+        "Kanał RSS Euronews 23.11: materiał na wyłączność",
+        "Kanał RSS Kyiv Independent 23.11: brak wzmianki",
+        "Newsletter Reuters Daily Briefing 23.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n5",
+      "prog": "dokumentacja",
+      "tekst": "Rosja: według Kyiv Independent (za śledztwem niemieckich mediów) Rosja od kilku lat przechowuje pod Moskwą kompletny system Sputnik-S, przygotowany do umieszczenia broni jądrowej w kosmosie.",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 23.11: relacja za mediami niemieckimi",
+        "Kanał RSS Euronews 23.11: brak wzmianki",
+        "Newsletter Reuters Daily Briefing 23.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n6",
+      "prog": "dokumentacja",
+      "tekst": "UE i Chiny: według Euronews Komisja Europejska wszczęła postępowanie ochronne, które może skończyć się cłami lub kontyngentami na chińskie materiały używane w przemyśle obronnym, energetyce odnawialnej i transporcie.",
+      "sprawdzono": [
+        "Kanał RSS Euronews 23.11: jedna relacja",
+        "Kanał RSS Kyiv Independent 23.11: brak wzmianki",
+        "Newsletter Reuters Daily Briefing 23.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n7",
+      "prog": "dokumentacja",
+      "tekst": "Japonia: według Euronews Japonia powołała azjatycki zespół zadaniowy ds. ropy; państwa Azji rozważają większe rezerwy awaryjne i wspólne magazyny po zakłóceniach dostaw przez Cieśninę Ormuz.",
+      "sprawdzono": [
+        "Kanał RSS Euronews 23.11: jedna relacja",
+        "Newsletter Reuters Daily Briefing 23.11: brak wzmianki",
+        "Newsletter AP Morning Wire 23.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n8",
+      "prog": "dokumentacja",
+      "tekst": "UE i Ukraina: według Kyiv Independent sama obsługa odsetek od pomocy dla Ukrainy ma kosztować następny budżet UE ok. 55,4 mld euro.",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 23.11: materiał na wyłączność",
+        "Kanał RSS Euronews 23.11: brak wzmianki",
+        "Newsletter Reuters Daily Briefing 23.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n9",
+      "prog": "dokumentacja",
+      "tekst": "Belgia: według Euronews oferta dymisji premiera Barta De Wevera, złożona z powodu impasu budżetowego, wciąż nie została rozstrzygnięta; związki zawodowe protestują przeciw cięciom.",
+      "sprawdzono": [
+        "Kanał RSS Euronews 23.11: jedna relacja",
+        "Newsletter Reuters Daily Briefing 23.11: brak wzmianki",
+        "Newsletter AP Morning Wire 23.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n10",
+      "prog": "dokumentacja",
+      "tekst": "ONZ: według tytułu w newsletterze AP państwa zgodziły się przedłużyć rozmowy o śmiercionośnej broni autonomicznej, w tym dronach sterowanych przez sztuczną inteligencję.",
+      "sprawdzono": [
+        "Newsletter AP Morning Wire 23.11: tylko tytuł",
+        "Kanał RSS Euronews 23.11: brak wzmianki",
+        "Newsletter Reuters Daily Briefing 23.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n11",
+      "prog": "dokumentacja",
+      "tekst": "USA i Iran: według Polsat News prezydent Donald Trump zagroził Iranowi nową serią ataków po Nowym Roku, jeśli nie dojdzie do porozumienia.",
+      "sprawdzono": [
+        "Kanał RSS Polsat News Świat 22–23.11: jedna relacja",
+        "Euronews 23.11: tylko groźba zatapiania statków łamiących blokadę",
+        "Newsletter Reuters Daily Briefing 23.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n12",
+      "prog": "następstwo",
+      "tekst": "USA i Rosja: dyrektor wywiadu narodowego USA Jay Clayton powiedział, że określenie Władimira Putina przez prezydenta Trumpa mianem przyjaciela jest „całkowicie właściwe”, choć w sprawie Ukrainy Putin nie jest przyjacielem USA (Reuters, AP); wypowiedź nie zmienia polityki USA."
+    },
+    {
+      "id": "n13",
+      "prog": "następstwo",
+      "tekst": "Rosja: minister spraw zagranicznych Siergiej Ławrow stwierdził 22.11, że znaczna część Ukrainy, w tym Kijów, to ziemie historycznie rosyjskie (Polsat News); to powtórzenie znanego stanowiska Moskwy."
+    },
+    {
+      "id": "n14",
+      "prog": "dokumentacja",
+      "tekst": "Polska i Holandia: według Defence24 i Notes from Poland w zakładach MESKO w Skarżysku-Kamiennej podpisano 23.11 aneks do umowy ramowej Agencji Uzbrojenia z 24 sierpnia na przenośne przeciwlotnicze zestawy rakietowe Piorun, który pozwala Holandii kupować je we wspólnych zamówieniach finansowanych z instrumentu SAFE; liczby pocisków, wartości i terminów dostaw dla Holandii aneks nie określa.",
+      "sprawdzono": [
+        "Defence24 23.11 (poziom 3): relacja z podpisania",
+        "Notes from Poland 23.11 (poziom 3): relacja",
+        "Wyszukiwarka (komunikat MON, Agencji Uzbrojenia i PGZ o aneksie): brak wyniku"
+      ]
+    },
+    {
+      "id": "n15",
+      "prog": "dokumentacja",
+      "tekst": "Polska: według TVN24 i RMF24 prokuratura wojskowa i Żandarmeria Wojskowa zakończyły 23.11 oględziny w Mołodyczu, ostatnim z trzech miejsc upadku pocisków Ch-101; szczątki trafią do biegłych.",
+      "sprawdzono": [
+        "TVN24 23.11 (poziom 3): relacja",
+        "RMF24 23.11 (poziom 3): relacja",
+        "Wyszukiwarka (komunikat Prokuratury Okręgowej w Lublinie 23.11): brak wyniku"
+      ]
+    },
+    {
+      "id": "n16",
+      "prog": "dokumentacja",
+      "tekst": "Zatoka Perska: według Al Jazeery w ciągu tygodnia trafiono co najmniej 25 tankowców, a Korpus Strażników Rewolucji Islamskiej twierdzi, że zestrzelił amerykański dron MQ-1.",
+      "sprawdzono": [
+        "Al Jazeera 22–23.11 (poziom 3): relacja na żywo",
+        "Euronews 23.11: tylko incydent z tankowcem w Zatoce Omańskiej potwierdzony przez UKMTO",
+        "Kanał RSS Kyiv Independent 23.11: brak wzmianki"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-11-22#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Wypowiedź gen. Ireneusza Nowaka o Gripenie znana jest tylko z relacji Kyiv Independent; komunikatu Dowództwa Operacyjnego nie znaleziono.",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 23.11: brak nowych informacji",
+        "Kanał RSS Euronews 23.11: brak wzmianki",
+        "Newsletter Reuters Daily Briefing 23.11: brak wzmianki"
+      ]
+    },
+    {
+      "dotyczy": "2026-11-22#n2",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Komunikat Ministerstwa Obrony Mołdawii znany jest tylko z relacji Kyiv Independent.",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 23.11: brak nowych informacji",
+        "Kanał RSS Euronews 23.11: brak wzmianki",
+        "Newsletter Reuters Daily Briefing 23.11: brak wzmianki"
+      ]
+    },
+    {
+      "dotyczy": "2026-11-22#n3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Umowę ministrów obrony Ukrainy i Wielkiej Brytanii opisuje tylko Kyiv Independent.",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 23.11: brak nowych informacji",
+        "Kanał RSS Euronews 23.11: brak wzmianki",
+        "Newsletter Reuters Daily Briefing 23.11: brak wzmianki"
+      ]
+    },
+    {
+      "dotyczy": "2026-11-22#n4",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Wypowiedź prezydenta Ukrainy o opóźnieniach USA opisuje tylko Kyiv Independent.",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 23.11: brak nowych informacji",
+        "Kanał RSS Euronews 23.11: brak wzmianki",
+        "Newsletter Reuters Daily Briefing 23.11: brak wzmianki"
+      ]
+    },
+    {
+      "dotyczy": "2026-11-22#n5",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Atak na Krasnodar i Afipski opisują tylko Kyiv Independent i Polsat News (poziom 3), bez potwierdzenia władz.",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 23.11: brak nowych informacji",
+        "Kanał RSS Euronews 23.11: brak wzmianki",
+        "Newsletter Reuters Daily Briefing 23.11: brak wzmianki"
+      ]
+    },
+    {
+      "dotyczy": "2026-11-22#n6",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Liczbę ofiar ataku w Strefie Gazy podaje tylko Reuters za ministerstwem zdrowia w Gazie.",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 23.11: brak nowych informacji",
+        "Kanał RSS Euronews 23.11: brak wzmianki",
+        "Newsletter Reuters Daily Briefing 23.11: brak wzmianki"
+      ]
+    },
+    {
+      "dotyczy": "2026-11-22#n7",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Wizytę katarskiej delegacji w Teheranie zna tylko tytuł w newsletterze Reutersa.",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 23.11: brak nowych informacji",
+        "Kanał RSS Euronews 23.11: brak wzmianki",
+        "Newsletter Reuters Daily Briefing 23.11: brak wzmianki"
+      ]
+    },
+    {
+      "dotyczy": "2026-11-22#n8",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Wejście irackich sił do twierdzy milicji zna tylko tytuł w newsletterze Reutersa.",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 23.11: brak nowych informacji",
+        "Kanał RSS Euronews 23.11: brak wzmianki",
+        "Newsletter Reuters Daily Briefing 23.11: brak wzmianki"
+      ]
+    },
+    {
+      "dotyczy": "2026-11-22#n9",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Zaproszenie Likudu do rozmów koalicyjnych opisuje tylko Euronews.",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 23.11: brak nowych informacji",
+        "Kanał RSS Euronews 23.11: brak wzmianki",
+        "Newsletter Reuters Daily Briefing 23.11: brak wzmianki"
+      ]
+    },
+    {
+      "dotyczy": "2026-11-22#n11",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Wybuchy w Bałtijsku znane są tylko z ukraińskich kanałów w serwisie Telegram.",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 23.11: brak nowych informacji",
+        "Kanał RSS Euronews 23.11: brak wzmianki",
+        "Newsletter Reuters Daily Briefing 23.11: brak wzmianki"
+      ]
+    }
+  ],
+  "do_sprawdzenia": [
+    "Polska – wyniki oględzin w Mołodyczu i kolejne komunikaty Prokuratury Okręgowej w Lublinie",
+    "Piorun dla Holandii – komunikat MON lub Agencji Uzbrojenia o aneksie",
+    "NATO – termin spotkania ministrów spraw zagranicznych i decyzja w sprawie myśliwców F-35 dla Polski",
+    "Starlink – komunikat prokuratury o wspólnym zespole śledczym",
+    "Bengazi – reakcja Rosji i los statku Angara",
+    "UE – rozmowy ambasadorów o 22. pakiecie sankcji",
+    "Rada Europejska 26–27.11 – potwierdzenie terminu przez Radę UE",
+    "Węgry – termin wizyty Pétera Magyara na Zakarpaciu",
+    "Agencja Uzbrojenia i PGZ – umowy"
+  ],
+  "nota": "Listy publikacji PISM nie udało się odczytać (listy działów Komentarze i Biuletyny oraz pism.pl/publications zwróciły pustą treść, wersja angielska błąd 404, strony pojedynczych tekstów również były puste). Dział Świat Onetu niesprawdzony: wyszukiwarka nie zwróciła nagłówków działu z 23.11. Komunikatów Dowództwa Operacyjnego, Straży Granicznej, Agencji Uzbrojenia i PGZ z 22–23.11 wyszukiwarka nie zwróciła. Kontrola niezależna przeprowadzona przed publikacją."
+}

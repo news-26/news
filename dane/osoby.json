@@ -135,12 +135,17 @@
       "kraj": [
         "wegry"
       ],
-      "zweryfikowano": "2026-10-01",
+      "zweryfikowano": "2026-11-23",
       "zrodla": [
         {
           "nazwa": "AP (za WRAL)",
           "url": "https://www.wral.com/news/ap/5e424-hungarys-parliament-suspends-immunity-for-prime-minister-magyar-and-two-orb-n-era-ministers/",
           "data": "2026-09-28"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/23/hungarys-pm-to-visit-transcarpathia-pledges-support-to-ukrainian-people-and-local-hungaria",
+          "data": "2026-11-23"
         }
       ]
     },
@@ -268,12 +273,17 @@
       "kraj": [
         "ue"
       ],
-      "zweryfikowano": "2026-10-30",
+      "zweryfikowano": "2026-11-23",
       "zrodla": [
         {
           "nazwa": "Euronews",
           "url": "https://www.euronews.com/2026/10/30/eu-to-fast-track-45-billion-for-ukraine-amid-acute-financial-crunch",
           "data": "2026-10-30"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/23/eu-goes-after-russias-banks-soldiers-and-athletes-in-new-sanctions-package",
+          "data": "2026-11-23"
         }
       ],
       "formy": [
@@ -2045,6 +2055,46 @@
         "Orpa",
         "Orpie",
         "Orpem"
+      ]
+    },
+    {
+      "id": "pawel-zalewski",
+      "imie": "Paweł Zalewski",
+      "funkcja": "Sekretarz stanu w Ministerstwie Obrony Narodowej RP (wiceminister obrony narodowej).",
+      "kraj": [
+        "obronnosc-polski"
+      ],
+      "zweryfikowano": "2026-11-23",
+      "zrodla": [
+        {
+          "nazwa": "PAP (za Gość Niedzielny)",
+          "url": "https://www.gosc.pl/doc/9974238.Po-spotkaniu-NATO-AWACS-do-dyspozycji-Polski",
+          "data": "2026-11-23"
+        }
+      ],
+      "formy": [
+        "Paweł Zalewski",
+        "Pawła Zalewskiego",
+        "Pawłowi Zalewskiemu",
+        "Pawłem Zalewskim",
+        "Zalewski",
+        "Zalewskiego"
+      ]
+    },
+    {
+      "id": "esmaeil-baghaei",
+      "imie": "Esmaeil Baghaei",
+      "funkcja": "Rzecznik Ministerstwa Spraw Zagranicznych Iranu.",
+      "kraj": [
+        "iran"
+      ],
+      "zweryfikowano": "2026-11-23",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/23/iran-vows-every-means-to-counter-us-blockade-of-hormuz-after-trump-threat",
+          "data": "2026-11-23"
+        }
       ]
     }
   ]

@@ -462,6 +462,18 @@
       "nazwa": "Kataib Hezbollah",
       "pelna": "Kataib Hezbollah (Brygady Hezbollahu)",
       "definicja": "Iracka szyicka milicja zbrojna wspierana przez Iran, najsilniejsza z ugrupowań sprzymierzonych z Teheranem w Iraku. USA uznają ją za organizację terrorystyczną."
+    },
+    {
+      "id": "swift",
+      "nazwa": "SWIFT",
+      "pelna": "Society for Worldwide Interbank Financial Telecommunication",
+      "definicja": "Międzynarodowy system łączności, przez który banki przesyłają sobie zlecenia płatnicze. Odłączenie od niego utrudnia bankowi rozliczenia z zagranicą."
+    },
+    {
+      "id": "rada-polnocnoatlantycka",
+      "nazwa": "Rada Północnoatlantycka",
+      "pelna": "North Atlantic Council (NAC)",
+      "definicja": "Główny organ decyzyjny NATO, w którym zasiadają przedstawiciele wszystkich państw członkowskich. Obraduje na szczeblu ambasadorów, ministrów lub przywódców i podejmuje decyzje jednomyślnie."
     }
   ]
 }

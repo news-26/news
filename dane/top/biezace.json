@@ -1,21 +1,21 @@
 {
- "od": "2026-11-16",
- "do": "2026-11-22",
- "opublikowano": "2026-11-23",
+ "od": "2026-11-17",
+ "do": "2026-11-23",
+ "opublikowano": "2026-11-24",
  "godzina": "05:55",
- "tytul": "Top 10: ostatnie 7 dni (16–22.11.2026)",
+ "tytul": "Top 10: ostatnie 7 dni (17–23.11.2026)",
  "wstep": [
-  "Najważniejsze sprawy z ostatnich 7 dni (16–22.11.2026) – w tym tygodniu dziesięć spraw spełnia kryteria. Każda ma przebieg z datami i źródłami oraz wniosek „Dla Polski”; starsze sprawy są w archiwum miesięcznym.",
-  "Oś tygodnia to **rosyjskie pociski na terytorium Polski i rozmowy o zakończeniu wojny**: w nocy na 20.11, podczas zmasowanego ataku Rosji na Ukrainę, na wschodzie Polski spadły rosyjskie pociski – według prokuratury z 22.11 trzy manewrujące Ch-101 – a Warszawa uznała to za celową prowokację. Tego samego ataku – ponad 400 dronów i ponad 110 pocisków – według AP skutkiem było ograniczenie mocy trzech ukraińskich elektrowni jądrowych, wieczorem 20.11 rosyjskie pociski zabiły dwie osoby w Krzywym Rogu, a 22.11 dron zabił co najmniej trzy osoby w Dymerze pod Kijowem. 19.11 Trump, Putin i Xi Jinping podpisali w Shenzhen deklarację o rozmowach o ograniczeniu ryzyka nuklearnego, Putin powiedział, że po atakach na most Krymski Rosja nie będzie negocjować zawieszenia broni, a w Berlinie zebrał się szczyt koalicji chętnych. Szef MON powiedział 18.11, że polskie służby wiedziały o planowanej rosyjskiej prowokacji przy granicy z obwodem królewieckim; rząd Estonii zatwierdził 20.11 zamknięcie od 1.12 wszystkich drogowych przejść granicznych z Rosją. UE przyjęła 16.11 sankcje wobec 145 osób i podmiotów związanych z Rosją. Ukraina uderzała w most Krymski i rosyjską infrastrukturę naftową, 21.11 drony – według sił zbrojnych Finlandii i Estonii prawdopodobnie ukraińskie – trafiły w rosyjski statek Sparta II w Zatoce Fińskiej, a w Cieśninie Ormuz trafione zostały 21.11 dwa kolejne tankowce, tego samego dnia Iran zaatakował Bahrajn."
+  "Najważniejsze sprawy z ostatnich 7 dni (17–23.11.2026) – w tym tygodniu dziesięć spraw spełnia kryteria. Każda ma przebieg z datami i źródłami oraz wniosek „Dla Polski”; starsze sprawy są w archiwum miesięcznym.",
+  "Oś tygodnia to **rosyjskie pociski na terytorium Polski i rozmowy o zakończeniu wojny**: w nocy na 20.11, podczas zmasowanego ataku Rosji na Ukrainę, na wschodzie Polski spadły trzy rosyjskie pociski manewrujące Ch-101, Warszawa uznała to za celową prowokację, a 23.11 na wniosek Polski zebrała się nadzwyczajna Rada Północnoatlantycka – według PAP Polska dostanie do dyspozycji jeden samolot AWACS. Tego samego ataku – ponad 400 dronów i ponad 110 pocisków – według AP skutkiem było ograniczenie mocy trzech ukraińskich elektrowni jądrowych, a liczba zabitych w ataku drona na blok w Dymerze pod Kijowem wzrosła 23.11 do 11. 19.11 Trump, Putin i Xi Jinping podpisali w Shenzhen deklarację o rozmowach o ograniczeniu ryzyka nuklearnego, Putin powiedział, że po atakach na most Krymski Rosja nie będzie negocjować zawieszenia broni, a w Berlinie zebrał się szczyt koalicji chętnych. Szef MON powiedział 18.11, że polskie służby wiedziały o planowanej rosyjskiej prowokacji przy granicy z obwodem królewieckim; rząd Estonii zatwierdził 20.11 zamknięcie od 1.12 wszystkich drogowych przejść granicznych z Rosją, a Moskwa odpowiedziała 23.11 groźbami. Ukraina uderzała w most Krymski i rosyjską infrastrukturę naftową, 21.11 drony – według sił zbrojnych Finlandii i Estonii prawdopodobnie ukraińskie – trafiły w rosyjski statek Sparta II w Zatoce Fińskiej, a 22.11 ukraińskie drony morskie zatopiły rosyjską korwetę Merkury w libijskim Bengazi. W Cieśninie Ormuz trafione zostały 21.11 dwa kolejne tankowce, tego samego dnia Iran zaatakował Bahrajn."
  ],
  "kryteria": "Do zestawienia trafia wydarzenie, które spełnia trzy warunki: zmieniło stan rzeczy w ostatnich 7 dniach (zapadła decyzja, zmieniła się władza, powstała nowa zdolność wojskowa albo incydent miał realne następstwo – retoryka i zapowiedzi bez terminu nie wystarczą), ma konkretny skutek dla Polski lub Europy albo dla sytuacji międzynarodowej i jest udokumentowane w wydaniach dziennych z tego okresu. Przy wątkach trwających miesiącami liczy się zmiana w tygodniu, a nie sam wątek; tytuł opisuje najnowszy fakt. Gdy kryteria spełnia mniej niż dziesięć spraw, lista jest krótsza. Kolejność ustala autor według wpływu na bezpieczeństwo i interesy Polski, potem skali, potem trwałości skutków. Ranking jest więc oceną, a nie faktem; fakty mają źródła, oceny – autora.",
  "pozycje": [
   {
    "id": "pociski-polska",
-   "tytul": "Prokuratura Okręgowa w Lublinie ustala 22.11, że we wszystkich trzech miejscach na wschodzie Polski spadły w nocy na 20.11 rosyjskie pociski manewrujące Ch-101; rząd uznał naruszenie przestrzeni powietrznej za celową prowokację",
+   "tytul": "Nadzwyczajna Rada Północnoatlantycka zbiera się 23.11 na wniosek Polski po upadku trzech rosyjskich pocisków Ch-101 na wschodzie kraju w nocy na 20.11; według PAP do dyspozycji Polski będzie jeden samolot wczesnego ostrzegania AWACS",
    "data": [
     "2026-11-20",
-    "2026-11-22"
+    "2026-11-23"
    ],
    "tagi": [
     "obronnosc-polski",
@@ -23,9 +23,10 @@
     "usa"
    ],
    "etap": "W TOKU",
-   "lead": "Prokuratura Okręgowa w Lublinie podała 22.11, że w Nowym Lipowcu, Rudniku nad Sanem i Mołodyczu znaleziono szczątki rosyjskich {{p:ch-101|pocisków manewrujących Ch-101}}, które spadły w nocy na 20.11 podczas zmasowanego ataku Rosji na Ukrainę; wcześniej {{o:wladyslaw-kosiniak-kamysz|minister obrony narodowej Władysław Kosiniak-Kamysz}} mówił o dwóch pociskach i dronie. Według wstępnych ustaleń prokuratury **pociski wyprodukowano w IV kwartale 2026 r. w zakładach w Dubnej w obwodzie moskiewskim**. Nikt nie został ranny, a Warszawa uznała naruszenie przestrzeni powietrznej za celową prowokację.",
+   "lead": "W nocy na 20.11, podczas zmasowanego ataku Rosji na Ukrainę, na wschodzie Polski spadły trzy rosyjskie {{p:ch-101|pociski manewrujące Ch-101}} – według Prokuratury Okręgowej w Lublinie z 22.11 ich szczątki znaleziono w Nowym Lipowcu, Rudniku nad Sanem i Mołodyczu, a **pociski wyprodukowano w IV kwartale 2026 r. w zakładach w Dubnej**. Nikt nie został ranny, a Warszawa uznała naruszenie przestrzeni powietrznej za celową prowokację. Na wniosek Polski 23.11 zebrała się nadzwyczajna {{p:rada-polnocnoatlantycka|Rada Północnoatlantycka}}; według PAP wiceminister obrony narodowej {{o:pawel-zalewski|Paweł Zalewski}} ogłosił po niej, że **do dyspozycji Polski będzie jeden samolot wczesnego ostrzegania {{p:awacs|AWACS}}**.",
    "omowienie": [
-    "Według Kyiv Independent minister poprosił NATO o dodatkowe samoloty wczesnego ostrzegania {{p:awacs|AWACS}} i myśliwce F-35. Prezydent USA {{o:donald-trump|Donald Trump}} powiedział w wywiadzie dla telewizji Fox News, że pociski spadły w Polsce **przez pomyłkę**, i nazwał je „kilkoma małymi pociskami”; polski minister obrony ocenił, że naruszenie wyglądało na celowe."
+    "Polska prosiła też o wsparcie sojuszniczych myśliwców F-35; kolejne propozycje mają wrócić na spotkaniu ministrów spraw zagranicznych NATO w przyszłym tygodniu. Wcześniej {{o:wladyslaw-kosiniak-kamysz|minister obrony narodowej Władysław Kosiniak-Kamysz}} mówił o dwóch pociskach i dronie.",
+    "Prezydent USA {{o:donald-trump|Donald Trump}} powiedział w wywiadzie dla telewizji Fox News, że pociski spadły w Polsce **przez pomyłkę**, i nazwał je „kilkoma małymi pociskami”; polski minister obrony ocenił, że naruszenie wyglądało na celowe."
    ],
    "przebieg": [
     {
@@ -93,14 +94,27 @@
        "data": "2026-11-22"
       }
      ]
+    },
+    {
+     "data": "2026-11-23",
+     "tekst": "Nadzwyczajna {{p:rada-polnocnoatlantycka|Rada Północnoatlantycka}}, zwołana na wniosek Polski po wlocie rosyjskich pocisków 20.11, zebrała się 23.11 w Brukseli; według PAP {{o:pawel-zalewski|wiceminister obrony narodowej Paweł Zalewski}} ogłosił po niej, że **do dyspozycji Polski będzie jeden samolot wczesnego ostrzegania {{p:awacs|AWACS}}**. Polska prosiła też o wsparcie sojuszniczych myśliwców F-35; kolejne propozycje mają wrócić na spotkaniu ministrów spraw zagranicznych NATO w przyszłym tygodniu.",
+     "etap": "ZAPOWIEDŹ",
+     "zrodla": [
+      {
+       "nazwa": "PAP (za Gość Niedzielny)",
+       "url": "https://www.gosc.pl/doc/9974238.Po-spotkaniu-NATO-AWACS-do-dyspozycji-Polski",
+       "data": "2026-11-23"
+      }
+     ]
     }
    ],
    "oceny": [],
-   "dla_polski": "Na terytorium Polski spadły trzy rosyjskie pociski manewrujące, a rząd uznał to za celową prowokację, nie za skutek uboczny ataku na Ukrainę. Wniosek autora: ustalenia prokuratury o pociskach z bieżącej produkcji wzmacniają stanowisko Warszawy wobec słów prezydenta USA o pomyłce; sprawdzianem będzie odpowiedź NATO na prośbę o samoloty AWACS i myśliwce F-35 oraz dalsze ustalenia śledztwa.",
+   "dla_polski": "Na terytorium Polski spadły trzy rosyjskie pociski manewrujące, a rząd uznał to za celową prowokację, nie za skutek uboczny ataku na Ukrainę. NATO odpowiedziało na wniosek Polski posiedzeniem Rady Północnoatlantyckiej i jednym samolotem AWACS. Wniosek autora: ustalenia prokuratury o pociskach z bieżącej produkcji wzmacniają stanowisko Warszawy wobec słów prezydenta USA o pomyłce; sprawdzianem będzie decyzja w sprawie myśliwców F-35 na spotkaniu ministrów spraw zagranicznych NATO.",
    "w_wydaniach": [
     "2026-11-20#z1",
     "2026-11-20#z2",
-    "2026-11-22#z1"
+    "2026-11-22#z1",
+    "2026-11-23#z4"
    ]
   },
   {
@@ -685,89 +699,11 @@
    ]
   },
   {
-   "id": "sankcje",
-   "tytul": "Ministrowie spraw zagranicznych UE przyjmują 16.11 sankcje wobec 145 osób i podmiotów związanych z Rosją, w tym niemal 50 banków, statków floty cieni i nabywców rosyjskiej ropy z Chin i Zjednoczonych Emiratów Arabskich",
-   "data": "2026-11-16",
-   "tagi": [
-    "sankcje",
-    "wielka-brytania",
-    "rosja",
-    "energia",
-    "ue"
-   ],
-   "etap": "PRZYJĘTE",
-   "lead": "Ministrowie spraw zagranicznych UE przyjęli 16.11 w Brukseli **sankcje wobec 145 osób i podmiotów** związanych z Rosją, w tym niemal 50 banków, statków {{p:flota-cieni|floty cieni}} oraz nabywców rosyjskiej ropy z Chin, Zjednoczonych Emiratów Arabskich, Seszeli i Omanu. Cztery dni wcześniej rząd premiera {{o:andy-burnham|Andy'ego Burnhama}} objął sankcjami spółkę Vostok Oil, firmę naftową Slawnieft i statki floty cieni; według rządu brytyjskiego Wielka Brytania jest pierwszym państwem, które ukarało wszystkich dziesięciu największych producentów ropy w Rosji.",
-   "omowienie": [
-    "Unijne sankcje objęły m.in. właścicielkę sklepu internetowego Wildberries Tatianę Kim, a 32 osoby i podmioty ukarano za rosyjską dezinformację i cyberataki. Sankcje brytyjskie ogłoszono 12.11, w dniu szczytu Europejskiej Wspólnoty Politycznej w Dublinie.",
-    "13.11 siły unijnej operacji {{p:irini|Irini}} weszły na Morzu Śródziemnym na pokład tankowca Midag, podejrzewanego o przynależność do floty cieni; według szefowej dyplomacji UE {{o:kaja-kallas|Kai Kallas}} statek płynął pod fałszywą banderą."
-   ],
-   "przebieg": [
-    {
-     "data": "2026-11-12",
-     "tekst": "Rząd premiera {{o:andy-burnham|Andy'ego Burnhama}} objął 12.11 **sankcjami** spółkę Vostok Oil, arktyczny projekt koncernu Rosnieft, firmę naftową Slawnieft, duże rosyjskie firmy węglowe i statki floty cieni. Według rządu brytyjskiego Wielka Brytania jest pierwszym państwem, które ukarało wszystkich dziesięciu największych producentów ropy w Rosji.",
-     "etap": "PRZYJĘTE",
-     "zrodla": [
-      {
-       "nazwa": "GOV.UK",
-       "url": "https://www.gov.uk/government/news/ukraine-set-to-be-focus-of-epc-summit-as-uk-sanctions-russias-top-ten-oil-producers",
-       "data": "2026-11-12"
-      },
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/uk-says-its-1st-country-to-target-all-of-russias-top-10-oil-producers-with-latest-round-of-sanctions/",
-       "data": "2026-11-12"
-      }
-     ]
-    },
-    {
-     "data": "2026-11-13",
-     "tekst": "Siły unijnej operacji {{p:irini|Irini}} weszły 13.11 na Morzu Śródziemnym na pokład tankowca Midag, podejrzewanego o przynależność do rosyjskiej {{p:flota-cieni|floty cieni}}; według szefowej dyplomacji UE {{o:kaja-kallas|Kai Kallas}} statek płynął pod fałszywą banderą. Kallas zapowiedziała, że ministrowie spraw zagranicznych UE zatwierdzą 16.11 **nowe sankcje** wobec banków, nabywców i firm wspierających flotę cieni.",
-     "etap": "ZAPOWIEDŹ",
-     "zrodla": [
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/11/15/eu-forces-board-suspected-russian-shadow-fleet-tanker-in-mediterranean-kallas-says",
-       "data": "2026-11-15"
-      },
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/eu-forces-board-suspected-russian-shadow-fleet-tanker-in-mediterranean-kallas-says/",
-       "data": "2026-11-15"
-      }
-     ]
-    },
-    {
-     "data": "2026-11-16",
-     "tekst": "Ministrowie spraw zagranicznych UE przyjęli 16.11 w Brukseli **sankcje wobec 145 osób i podmiotów** związanych z Rosją, w tym niemal 50 banków, statków {{p:flota-cieni|floty cieni}} oraz nabywców rosyjskiej ropy z Chin, Zjednoczonych Emiratów Arabskich, Seszeli i Omanu. Sankcje objęły m.in. właścicielkę sklepu internetowego Wildberries Tatianę Kim, a 32 osoby i podmioty z tej liczby ukarano za rosyjską dezinformację i cyberataki.",
-     "etap": "PRZYJĘTE",
-     "zrodla": [
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/eu-clamps-down-on-russias-wildberries-owner-50-banks-oil-and-shadow-fleet-with-new-sanctions/",
-       "data": "2026-11-16"
-      },
-      {
-       "nazwa": "Meduza",
-       "url": "https://meduza.io/en/news/2026/11/16/eu-sanctions-tatyana-kim-founder-of-russian-e-commerce-giant-wildberries-over-alleged-military-supply-ties",
-       "data": "2026-11-16"
-      }
-     ]
-    }
-   ],
-   "oceny": [],
-   "dla_polski": "Sankcje wymierzone w rosyjskie banki, ropę i flotę cieni ograniczają dochody, z których Rosja finansuje wojnę, a statki floty cieni pływają także po Bałtyku. Wniosek autora: objęcie sankcjami nabywców ropy z Chin i Zjednoczonych Emiratów Arabskich oraz wejście sił UE na tankowiec pokazują, że Unia uderza w kanały omijania sankcji; dla Polski sprawdzianem będzie egzekwowanie ich wobec statków floty cieni na Bałtyku.",
-   "w_wydaniach": [
-    "2026-11-12#z3",
-    "2026-11-15#z4",
-    "2026-11-16#z1"
-   ]
-  },
-  {
    "id": "wojna-powietrzna",
-   "tytul": "Rosja wystrzeliwuje w nocy na 20.11 na Ukrainę ponad 400 dronów i ponad 110 pocisków, a uderzenia w energetykę wymuszają według AP ograniczenie mocy trzech elektrowni jądrowych; rosyjski dron zabija w nocy na 22.11 co najmniej trzy osoby w bloku mieszkalnym w Dymerze pod Kijowem",
+   "tytul": "Rosja wystrzeliwuje w nocy na 20.11 na Ukrainę ponad 400 dronów i ponad 110 pocisków, a uderzenia w energetykę wymuszają według AP ograniczenie mocy trzech elektrowni jądrowych; liczba zabitych w rosyjskim ataku drona na blok mieszkalny w Dymerze pod Kijowem rośnie 23.11 do 11",
    "data": [
     "2026-11-20",
-    "2026-11-22"
+    "2026-11-23"
    ],
    "tagi": [
     "front",
@@ -777,10 +713,9 @@
    ],
    "lead": "Rosja wystrzeliła w nocy na 20.11 na Ukrainę ponad 400 dronów i ponad 110 pocisków, w tym 27 balistycznych; według prezydenta {{o:wolodymyr-zelenski|Wołodymyra Zełenskiego}} zginęło co najmniej ośmiu cywilów, z tego sześciu w Kijowie. Według AP uderzenia w elektrownie i podstacje **wymusiły ograniczenie mocy trzech czynnych elektrowni jądrowych** i awaryjne wyłączenia prądu w 11 obwodach; w Kijowie uszkodzone zostały trzy mosty.",
    "omowienie": [
-    "W nocy na 22.11 rosyjski dron trafił w pięciopiętrowy blok mieszkalny w Dymerze w obwodzie kijowskim; według szefa obwodowej administracji wojskowej Tymura Tkaczenki **zginęły co najmniej trzy osoby**, a ratownicy szukają kolejnych pod gruzami.",
+    "W nocy na 22.11 rosyjski dron trafił w pięciopiętrowy blok mieszkalny w Dymerze w obwodzie kijowskim; według Państwowej Służby Ratunkowej Ukrainy liczba zabitych wzrosła 23.11 do **11**. Po 22 godzinach ratownicy wyciągnęli spod gruzów żywą starszą kobietę; poszukiwania trwają.",
     "Wieczorem 20.11 rosyjski atak rakietowy na centrum Krzywego Rogu, rodzinnego miasta Zełenskiego, zabił dwie osoby, w tym siedmioletnie dziecko, a **blisko 60 osób zostało rannych**; według Kyiv Independent drugie uderzenie trafiło w miejsce, gdzie pracowali już ratownicy. W nocy na 21.11 Rosja wystrzeliła według ukraińskich Sił Powietrznych trzy pociski balistyczne i 148 dronów.",
-    "W czasie tego ataku rosyjskie pociski spadły na terytorium Polski (osobna pozycja). Dzień wcześniej, 19.11, rosyjski atak dronów na Kijów zabił jedną osobę, a pocisk spadł tuż za **ambasadą Holandii**, która odniosła niewielkie szkody.",
-    "W nocy na 13.11 Rosja wystrzeliła na Ukrainę 117 dronów; według Kyiv Independent w ciągu doby zginęło 9 osób. 12.11, kilka godzin po zakończeniu rozmów w Abu Zabi, rosyjskie pociski balistyczne i drony zabiły 10 osób, w tym cztery na targu w Czornomorsku w obwodzie odeskim."
+    "W czasie tego ataku rosyjskie pociski spadły na terytorium Polski (osobna pozycja). Dzień wcześniej, 19.11, rosyjski atak dronów na Kijów zabił jedną osobę, a pocisk spadł tuż za **ambasadą Holandii**, która odniosła niewielkie szkody."
    ],
    "przebieg": [
     {
@@ -1025,6 +960,23 @@
        "data": "2026-11-22"
       }
      ]
+    },
+    {
+     "data": "2026-11-23",
+     "tekst": "Według Państwowej Służby Ratunkowej Ukrainy liczba ofiar rosyjskiego ataku dronem na blok mieszkalny w Dymerze w obwodzie kijowskim wzrosła 23.11 do **11 zabitych**, gdy ratownicy wydobyli z gruzów kolejne ciało. Po 22 godzinach ratownicy wyciągnęli też spod gruzów żywą starszą kobietę; poszukiwania trwają.",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "Reuters",
+       "url": "https://www.reuters.com/world/russian-attack-ukraines-dymer-kyiv-region-kills-11-official-says-2026-11-23/",
+       "data": "2026-11-23"
+      },
+      {
+       "nazwa": "Euronews",
+       "url": "https://www.euronews.com/video/2026/11/23/ukraine-dramatic-night-rescue-pulls-woman-from-rubble-after-22-hours",
+       "data": "2026-11-23"
+      }
+     ]
     }
    ],
    "oceny": [],
@@ -1041,7 +993,8 @@
     "2026-11-19#z3",
     "2026-11-20#z3",
     "2026-11-21#z2",
-    "2026-11-22#z4"
+    "2026-11-22#z4",
+    "2026-11-23#z2"
    ]
   },
   {
@@ -1057,7 +1010,8 @@
    "lead": "Rząd Estonii formalnie zatwierdził 20.11 **zamknięcie od 1 grudnia wszystkich pięciu drogowych przejść granicznych z Rosją**, w tym obu w Narwie; ruch kolejowy zostaje utrzymany. Premier {{o:kristen-michal|Kristen Michal}} uzasadnił decyzję próbą podpalenia zakładu zbrojeniowego Threod Systems pod Tallinem 14.11, którą według władz Estonii zlecił rosyjski wywiad wojskowy ({{p:gru|GRU}}).",
    "omowienie": [
     "Zamknięcie przejść estońskie MSZ zapowiedziało 15.11. Dzień wcześniej w Viimsi pod Tallinem zatrzymano ośmiu obywateli Łotwy, którzy według estońskiego kontrwywiadu ({{p:kapo|KAPO}}) na zlecenie GRU próbowali wywołać wybuch i pożar w zakładzie Threod Systems, producenta dronów.",
-    "16.11 estońskie MSZ wezwało rosyjskiego chargé d'affaires w sprawie próby podpalenia. Kreml odrzucił oskarżenia jako bezpodstawne, a według Reutersa rzecznik Kremla {{o:dmitrij-pieskow|Dmitrij Pieskow}} porównał zapowiedziane zamknięcie przejść do budowy muru."
+    "16.11 estońskie MSZ wezwało rosyjskiego chargé d'affaires w sprawie próby podpalenia. Kreml odrzucił oskarżenia jako bezpodstawne, a według Reutersa rzecznik Kremla {{o:dmitrij-pieskow|Dmitrij Pieskow}} porównał zapowiedziane zamknięcie przejść do budowy muru.",
+    "Według Reutersa rosyjskie MSZ wezwało 23.11 chargé d'affaires Estonii i ostrzegło, że działania Tallinna są „na krawędzi wywołania otwartej wojny”; Moskwa zarzuciła Estonii udostępnianie przestrzeni powietrznej ukraińskim dronom, czemu estońskie MSZ zaprzecza."
    ],
    "przebieg": [
     {
@@ -1125,13 +1079,224 @@
        "data": "2026-11-20"
       }
      ]
+    },
+    {
+     "data": "2026-11-23",
+     "tekst": "Według Reutersa Ministerstwo Spraw Zagranicznych Rosji wezwało 23.11 chargé d'affaires Estonii i zaprotestowało przeciw **zamknięciu estońskich przejść granicznych z Rosją od 1 grudnia**; w komunikacie stwierdziło, że działania Tallinna są „na krawędzi wywołania otwartej wojny”. Moskwa zarzuciła Estonii udostępnianie przestrzeni powietrznej ukraińskim dronom, czemu estońskie MSZ zaprzecza.",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "Reuters (za RTÉ)",
+       "url": "https://www.rte.ie/news/world/2026/1123/1600353-russia-estonia-finland/",
+       "data": "2026-11-23"
+      },
+      {
+       "nazwa": "Polsat News",
+       "url": "https://www.polsatnews.pl/wiadomosc/2026-11-23/rosyjskie-msz-grzmi-na-kraj-nato-mowia-o-otwartej-wojnie/",
+       "data": "2026-11-23"
+      }
+     ]
     }
    ],
-   "dla_polski": "Zamknięcie przejść ograniczy od 1.12 ruch drogowy na kolejnym odcinku granicy NATO z Rosją, a celem próby sabotażu był zakład produkujący drony. Wniosek autora: rosyjskie służby atakują przemysł obronny państw wspierających Ukrainę, więc podobne ryzyko dotyczy polskich zakładów zbrojeniowych; sprawdzianem będzie odpowiedź Rosji po zamknięciu przejść.",
+   "dla_polski": "Zamknięcie przejść ograniczy od 1.12 ruch drogowy na kolejnym odcinku granicy NATO z Rosją, a celem próby sabotażu był zakład produkujący drony. Wniosek autora: rosyjskie służby atakują przemysł obronny państw wspierających Ukrainę, więc podobne ryzyko dotyczy polskich zakładów zbrojeniowych; Moskwa odpowiedziała na razie groźbami, a sprawdzianem będą jej działania po zamknięciu przejść.",
    "w_wydaniach": [
     "2026-11-15#z6",
     "2026-11-16#z2",
-    "2026-11-20#z6"
+    "2026-11-20#z6",
+    "2026-11-23#z6"
+   ]
+  },
+  {
+   "id": "zatoka-finska",
+   "tytul": "Fińskie i estońskie siły zbrojne oceniają, że drony, które 21.11 trafiły w objęty sankcjami rosyjski statek Sparta II w Zatoce Fińskiej, były prawdopodobnie ukraińskie; MSZ Finlandii wzywa 23.11 ambasadora Rosji po podejrzanym naruszeniu fińskiej przestrzeni powietrznej przez rosyjski śmigłowiec",
+   "data": [
+    "2026-11-21",
+    "2026-11-23"
+   ],
+   "tagi": [
+    "nordyckie",
+    "rosja",
+    "ukraina",
+    "hybryda"
+   ],
+   "etap": "W TOKU",
+   "lead": "Drony trafiły rano 21.11 w rosyjski statek towarowy Sparta II na wodach międzynarodowych w Zatoce Fińskiej, na zachód od wyspy Suursaari; na pokładzie wybuchł pożar, a **statek dryfował na fińskie wody terytorialne** na południe od Loviisy. Jednostka jest objęta sankcjami USA i Ukrainy. Kilka godzin później rosyjski śmigłowiec według Ministerstwa Obrony Finlandii **prawdopodobnie naruszył przestrzeń powietrzną Finlandii** w rejonie Loviisy. Załogę ewakuowano na inny rosyjski statek, a 22.11 rosyjski statek ratowniczy Murman pod nadzorem fińskiej Straży Granicznej zaczął holować płonącą jednostkę z fińskich wód; według Yle i ERR fińskie i estońskie siły zbrojne oceniły, że **drony były prawdopodobnie ukraińskie**.",
+   "omowienie": [
+    "Według Kyiv Independent Sparta II przewoziła wcześniej rosyjski sprzęt wojskowy. Premier Finlandii {{o:petteri-orpo|Petteri Orpo}} powiedział, że Ukraina ma prawo walczyć z agresorem. Minister obrony {{o:antti-hakkanen|Antti Häkkänen}} ocenił, że naruszenie przestrzeni powietrznej może mieć związek z akcją ratunkową lub obserwacją uszkodzonego statku; sprawę bada fińska Straż Graniczna.",
+    "Ministerstwo Spraw Zagranicznych Finlandii **wezwało 23.11 ambasadora Rosji** w sprawie lotu śmigłowca z 21.11. Kreml oskarżył Ukrainę o „działalność terrorystyczną” na Bałtyku."
+   ],
+   "przebieg": [
+    {
+     "data": "2026-11-21",
+     "tekst": "Drony trafiły rano 21.11 w rosyjski statek towarowy Sparta II na wodach międzynarodowych w Zatoce Fińskiej, na zachód od wyspy Suursaari; na pokładzie wybuchł pożar, a statek dryfował na fińskie wody terytorialne na południe od Loviisy. Jednostka jest objęta sankcjami USA i Ukrainy, a według Kyiv Independent przewoziła wcześniej rosyjski sprzęt wojskowy. Premier Finlandii {{o:petteri-orpo|Petteri Orpo}} powiedział, że **Ukraina ma prawo walczyć z agresorem**.",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "Kyiv Independent",
+       "url": "https://kyivindependent.com/russian-military-linked-cargo-ship-catches-fire-after-reported-drone-strike-in-gulf-of-finland/",
+       "data": "2026-11-21"
+      },
+      {
+       "nazwa": "Euronews",
+       "url": "https://www.euronews.com/2026/11/21/russian-cargo-ship-struck-by-drone-in-gulf-of-finland-finnish-authorities-say",
+       "data": "2026-11-21"
+      },
+      {
+       "nazwa": "Polsat News",
+       "url": "https://www.polsatnews.pl/wiadomosc/2026-11-21/atak-na-baltyku-rosyjski-statek-w-ogniu-trwa-akcja-ratunkowa/",
+       "data": "2026-11-21"
+      }
+     ]
+    },
+    {
+     "data": "2026-11-21",
+     "tekst": "Ministerstwo Obrony Finlandii podało, że rosyjski śmigłowiec prawdopodobnie naruszył 21.11 po południu przestrzeń powietrzną Finlandii w rejonie Loviisy, kilka godzin po ataku na statek Sparta II. Minister obrony {{o:antti-hakkanen|Antti Häkkänen}} powiedział, że naruszenie **może mieć związek z akcją ratunkową lub obserwacją uszkodzonego statku**; sprawę bada fińska Straż Graniczna.",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "Kyiv Independent",
+       "url": "https://kyivindependent.com/russian-military-linked-cargo-ship-catches-fire-after-reported-drone-strike-in-gulf-of-finland/",
+       "data": "2026-11-21"
+      },
+      {
+       "nazwa": "Euronews",
+       "url": "https://www.euronews.com/2026/11/21/russian-cargo-ship-struck-by-drone-in-gulf-of-finland-finnish-authorities-say",
+       "data": "2026-11-21"
+      },
+      {
+       "nazwa": "Polsat News",
+       "url": "https://www.polsatnews.pl/wiadomosc/2026-11-21/rosyjski-smiglowiec-nad-finlandia-reakcja-ministerstwa-obrony/",
+       "data": "2026-11-21"
+      }
+     ]
+    },
+    {
+     "data": "2026-11-22",
+     "tekst": "Załogę rosyjskiego statku Sparta II, trafionego 21.11 przez drony w Zatoce Fińskiej, ewakuowano na inny rosyjski statek, a 22.11 rosyjski statek ratowniczy Murman pod nadzorem fińskiej Straży Granicznej zaczął holować płonącą jednostkę z fińskich wód koło Loviisy. Według Yle i ERR fińskie i estońskie siły zbrojne oceniły, że **drony były prawdopodobnie ukraińskie**.",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "Yle",
+       "url": "https://yle.fi/a/74-20258314",
+       "data": "2026-11-22"
+      },
+      {
+       "nazwa": "ERR",
+       "url": "https://www.err.ee/1610202955/vene-kaubalaeva-sparta-ii-tulekahju-kustutamine-jatkub-ka-puhapaeval",
+       "data": "2026-11-22"
+      },
+      {
+       "nazwa": "Kyiv Independent",
+       "url": "https://kyivindependent.com/russian-military-linked-cargo-ship-catches-fire-after-reported-drone-strike-in-gulf-of-finland/",
+       "data": "2026-11-21"
+      },
+      {
+       "nazwa": "Polsat News",
+       "url": "https://www.polsatnews.pl/wiadomosc/2026-11-22/atak-na-rosyjski-statek-w-zatoce-finskiej-nowe-informacje-strazy-przybrzeznej/",
+       "data": "2026-11-22"
+      }
+     ]
+    },
+    {
+     "data": "2026-11-23",
+     "tekst": "Ministerstwo Spraw Zagranicznych Finlandii **wezwało 23.11 ambasadora Rosji** po podejrzeniu, że rosyjski śmigłowiec naruszył 21.11 fińską przestrzeń powietrzną u wybrzeży Loviisy. {{o:antti-hakkanen|Minister obrony Antti Häkkänen}} powiedział, że lot mógł mieć związek z akcją ratunkową wokół trafionego dronami statku Sparta II, który rosyjski statek ratowniczy holuje do Rosji; Kreml oskarżył Ukrainę o „działalność terrorystyczną” na Bałtyku.",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "Euronews",
+       "url": "https://www.euronews.com/2026/11/23/finland-summons-russian-ambassador-as-it-condemns-russias-dangerous-and-reckless-actions-i",
+       "data": "2026-11-23"
+      },
+      {
+       "nazwa": "France 24",
+       "url": "https://www.france24.com/en/europe/20261123-finland-summons-russian-ambassador-after-suspected-airspace-violation",
+       "data": "2026-11-23"
+      },
+      {
+       "nazwa": "Reuters",
+       "url": "https://www.reuters.com/world/europe/kremlin-accuses-ukraine-terrorist-activity-baltic-after-cargo-ship-drone-strike-2026-11-23/",
+       "data": "2026-11-23"
+      }
+     ]
+    }
+   ],
+   "oceny": [],
+   "dla_polski": "Atak na rosyjski statek i prawdopodobne naruszenie fińskiej przestrzeni powietrznej przeniosły skutki wojny na wody i niebo państwa NATO nad Bałtykiem, który jest też morzem Polski. Wniosek autora: rośnie ryzyko incydentów z udziałem rosyjskich jednostek i statków floty objętej sankcjami na szlakach żeglugowych prowadzących do polskich portów; sprawdzianem będzie oficjalne ustalenie sprawcy ataku i reakcja Rosji.",
+   "w_wydaniach": [
+    "2026-11-21#z1",
+    "2026-11-21#z4",
+    "2026-11-22#z3",
+    "2026-11-23#z5"
+   ]
+  },
+  {
+   "id": "bengazi-korweta",
+   "tytul": "Prezydent Ukrainy Wołodymyr Zełenski potwierdza 23.11, że siedem ukraińskich dronów morskich zatopiło 22.11 rosyjską korwetę Merkury w libijskim porcie Bengazi; trafiony zostaje też rosyjski statek towarowy Angara",
+   "data": [
+    "2026-11-22",
+    "2026-11-23"
+   ],
+   "tagi": [
+    "ukraina",
+    "rosja",
+    "afryka"
+   ],
+   "etap": "W TOKU",
+   "lead": "{{o:wolodymyr-zelenski|Prezydent Ukrainy Wołodymyr Zełenski}} potwierdził 23.11, że siedem ukraińskich dronów morskich **zatopiło 22.11 rosyjską korwetę Merkury** w porcie Bengazi we wschodniej Libii, gdzie okręt zawinął po paliwo i zaopatrzenie. Trafiony został też rosyjski statek towarowy Angara, który według Zełenskiego przewoził broń.",
+   "omowienie": [
+    "22.11 rząd wschodniej Libii podał, że podejrzewa atak drona, i wszczął wspólne z Rosją śledztwo. Według Kyiv Independent w ataku zniszczono też śmigłowiec Ka-27; władze wschodniej Libii odrzuciły wciąganie kraju w cudzy konflikt."
+   ],
+   "przebieg": [
+    {
+     "data": "2026-11-22",
+     "tekst": "Wybuch i pożar uszkodziły 22.11 rano rosyjską jednostkę w bazie marynarki wojennej w Bengazi we wschodniej Libii, do której zawinęła po paliwo i zaopatrzenie na podstawie umowy Rosji z rządem wschodniej Libii. Rząd ten podał, że **podejrzewa atak drona**, i wszczął wspólne z Rosją śledztwo w sprawie sprawcy.",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "AP (za ABC News)",
+       "url": "https://abcnews.com/International/wireStory/suspected-drone-strike-hits-russian-vessel-libya-138359178",
+       "data": "2026-11-22"
+      },
+      {
+       "nazwa": "Euronews",
+       "url": "https://www.euronews.com/2026/11/22/suspected-drone-strike-hits-russian-ship-at-libyas-benghazi-port-raising-regional-security",
+       "data": "2026-11-22"
+      },
+      {
+       "nazwa": "Polsat News",
+       "url": "https://www.polsatnews.pl/wiadomosc/2026-11-22/rosyjska-korweta-stanela-w-plomieniach-wybuch-u-wybrzezy-libii/",
+       "data": "2026-11-22"
+      }
+     ]
+    },
+    {
+     "data": "2026-11-23",
+     "tekst": "{{o:wolodymyr-zelenski|Prezydent Ukrainy Wołodymyr Zełenski}} potwierdził 23.11, że siedem ukraińskich dronów morskich **zatopiło 22.11 rosyjską korwetę Merkury** w libijskim porcie Bengazi; trafiony został też rosyjski statek towarowy Angara. Według Zełenskiego statek przewoził broń, a według Kyiv Independent zniszczono też śmigłowiec Ka-27; władze wschodniej Libii odrzuciły wciąganie kraju w cudzy konflikt.",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "Reuters",
+       "url": "https://www.reuters.com/world/europe/zelenskiy-says-ukraine-sank-russian-corvette-near-libyas-coast-hit-cargo-ship-2026-11-23/",
+       "data": "2026-11-23"
+      },
+      {
+       "nazwa": "Associated Press",
+       "url": "https://apnews.com/article/ukraine-russia-zelenskyy-warship-attack-libya-c382f8eb06dca7d87e89bc6c18ba7d61",
+       "data": "2026-11-23"
+      },
+      {
+       "nazwa": "Kyiv Independent",
+       "url": "https://kyivindependent.com/no-safe-routes-ukraine-sinks-russian-corvette-in-drone-attack-off-libyan-coast/",
+       "data": "2026-11-23"
+      }
+     ]
+    }
+   ],
+   "oceny": [],
+   "dla_polski": "Ukraina pokazała, że jej drony morskie mogą zatapiać rosyjskie okręty daleko od Morza Czarnego, w porcie na południowej flance NATO. Wniosek autora: atak podnosi koszt rosyjskiej obecności wojskowej w Libii i na Morzu Śródziemnym, ale też ryzyko, że wojna rozleje się na kolejne akweny przy granicach NATO, w tym Bałtyk; sprawdzianem będzie reakcja Rosji i władz wschodniej Libii.",
+   "w_wydaniach": [
+    "2026-11-22#z5",
+    "2026-11-23#z1"
    ]
   },
   {
@@ -1350,105 +1515,6 @@
    ]
   },
   {
-   "id": "zatoka-finska",
-   "tytul": "Fińskie i estońskie siły zbrojne oceniają, że drony, które 21.11 trafiły w objęty sankcjami rosyjski statek Sparta II w Zatoce Fińskiej, były prawdopodobnie ukraińskie; rosyjski statek ratowniczy zaczyna 22.11 holować płonącą jednostkę z wód Finlandii",
-   "data": [
-    "2026-11-21",
-    "2026-11-22"
-   ],
-   "tagi": [
-    "nordyckie",
-    "rosja",
-    "ukraina",
-    "hybryda"
-   ],
-   "etap": "W TOKU",
-   "lead": "Drony trafiły rano 21.11 w rosyjski statek towarowy Sparta II na wodach międzynarodowych w Zatoce Fińskiej, na zachód od wyspy Suursaari; na pokładzie wybuchł pożar, a **statek dryfował na fińskie wody terytorialne** na południe od Loviisy. Jednostka jest objęta sankcjami USA i Ukrainy. Kilka godzin później rosyjski śmigłowiec według Ministerstwa Obrony Finlandii **prawdopodobnie naruszył przestrzeń powietrzną Finlandii** w rejonie Loviisy. Załogę ewakuowano na inny rosyjski statek, a 22.11 rosyjski statek ratowniczy Murman pod nadzorem fińskiej Straży Granicznej zaczął holować płonącą jednostkę z fińskich wód; według Yle i ERR fińskie i estońskie siły zbrojne oceniły, że **drony były prawdopodobnie ukraińskie**.",
-   "omowienie": [
-    "Według Kyiv Independent Sparta II przewoziła wcześniej rosyjski sprzęt wojskowy. Premier Finlandii {{o:petteri-orpo|Petteri Orpo}} powiedział, że Ukraina ma prawo walczyć z agresorem. Minister obrony {{o:antti-hakkanen|Antti Häkkänen}} ocenił, że naruszenie przestrzeni powietrznej może mieć związek z akcją ratunkową lub obserwacją uszkodzonego statku; sprawę bada fińska Straż Graniczna."
-   ],
-   "przebieg": [
-    {
-     "data": "2026-11-21",
-     "tekst": "Drony trafiły rano 21.11 w rosyjski statek towarowy Sparta II na wodach międzynarodowych w Zatoce Fińskiej, na zachód od wyspy Suursaari; na pokładzie wybuchł pożar, a statek dryfował na fińskie wody terytorialne na południe od Loviisy. Jednostka jest objęta sankcjami USA i Ukrainy, a według Kyiv Independent przewoziła wcześniej rosyjski sprzęt wojskowy. Premier Finlandii {{o:petteri-orpo|Petteri Orpo}} powiedział, że **Ukraina ma prawo walczyć z agresorem**.",
-     "etap": "W TOKU",
-     "zrodla": [
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/russian-military-linked-cargo-ship-catches-fire-after-reported-drone-strike-in-gulf-of-finland/",
-       "data": "2026-11-21"
-      },
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/11/21/russian-cargo-ship-struck-by-drone-in-gulf-of-finland-finnish-authorities-say",
-       "data": "2026-11-21"
-      },
-      {
-       "nazwa": "Polsat News",
-       "url": "https://www.polsatnews.pl/wiadomosc/2026-11-21/atak-na-baltyku-rosyjski-statek-w-ogniu-trwa-akcja-ratunkowa/",
-       "data": "2026-11-21"
-      }
-     ]
-    },
-    {
-     "data": "2026-11-21",
-     "tekst": "Ministerstwo Obrony Finlandii podało, że rosyjski śmigłowiec prawdopodobnie naruszył 21.11 po południu przestrzeń powietrzną Finlandii w rejonie Loviisy, kilka godzin po ataku na statek Sparta II. Minister obrony {{o:antti-hakkanen|Antti Häkkänen}} powiedział, że naruszenie **może mieć związek z akcją ratunkową lub obserwacją uszkodzonego statku**; sprawę bada fińska Straż Graniczna.",
-     "etap": "W TOKU",
-     "zrodla": [
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/russian-military-linked-cargo-ship-catches-fire-after-reported-drone-strike-in-gulf-of-finland/",
-       "data": "2026-11-21"
-      },
-      {
-       "nazwa": "Euronews",
-       "url": "https://www.euronews.com/2026/11/21/russian-cargo-ship-struck-by-drone-in-gulf-of-finland-finnish-authorities-say",
-       "data": "2026-11-21"
-      },
-      {
-       "nazwa": "Polsat News",
-       "url": "https://www.polsatnews.pl/wiadomosc/2026-11-21/rosyjski-smiglowiec-nad-finlandia-reakcja-ministerstwa-obrony/",
-       "data": "2026-11-21"
-      }
-     ]
-    },
-    {
-     "data": "2026-11-22",
-     "tekst": "Załogę rosyjskiego statku Sparta II, trafionego 21.11 przez drony w Zatoce Fińskiej, ewakuowano na inny rosyjski statek, a 22.11 rosyjski statek ratowniczy Murman pod nadzorem fińskiej Straży Granicznej zaczął holować płonącą jednostkę z fińskich wód koło Loviisy. Według Yle i ERR fińskie i estońskie siły zbrojne oceniły, że **drony były prawdopodobnie ukraińskie**.",
-     "etap": "W TOKU",
-     "zrodla": [
-      {
-       "nazwa": "Yle",
-       "url": "https://yle.fi/a/74-20258314",
-       "data": "2026-11-22"
-      },
-      {
-       "nazwa": "ERR",
-       "url": "https://www.err.ee/1610202955/vene-kaubalaeva-sparta-ii-tulekahju-kustutamine-jatkub-ka-puhapaeval",
-       "data": "2026-11-22"
-      },
-      {
-       "nazwa": "Kyiv Independent",
-       "url": "https://kyivindependent.com/russian-military-linked-cargo-ship-catches-fire-after-reported-drone-strike-in-gulf-of-finland/",
-       "data": "2026-11-21"
-      },
-      {
-       "nazwa": "Polsat News",
-       "url": "https://www.polsatnews.pl/wiadomosc/2026-11-22/atak-na-rosyjski-statek-w-zatoce-finskiej-nowe-informacje-strazy-przybrzeznej/",
-       "data": "2026-11-22"
-      }
-     ]
-    }
-   ],
-   "oceny": [],
-   "dla_polski": "Atak na rosyjski statek i prawdopodobne naruszenie fińskiej przestrzeni powietrznej przeniosły skutki wojny na wody i niebo państwa NATO nad Bałtykiem, który jest też morzem Polski. Wniosek autora: rośnie ryzyko incydentów z udziałem rosyjskich jednostek i statków floty objętej sankcjami na szlakach żeglugowych prowadzących do polskich portów; sprawdzianem będzie oficjalne ustalenie sprawcy ataku i reakcja Rosji.",
-   "w_wydaniach": [
-    "2026-11-21#z1",
-    "2026-11-21#z4",
-    "2026-11-22#z3"
-   ]
-  },
-  {
    "id": "ormuz-ropa",
    "tytul": "Dwa tankowce zostają 21.11 trafione niezidentyfikowanymi pociskami w Cieśninie Ormuz koło omańskiego portu Chasab; irański atak wywołuje 21.11 pożar w zakładzie przemysłowym w Bahrajnie, gdzie stacjonuje V Flota USA",
    "data": "2026-11-21",
@@ -1460,6 +1526,7 @@
    "etap": "W TOKU",
    "lead": "Według Reutersa i Al-Dżaziry brytyjskie centrum {{p:ukmto|UKMTO}} zgłosiło 21.11, że **dwa tankowce zostały trafione niezidentyfikowanymi pociskami w {{p:ormuz|Cieśninie Ormuz}}** w pobliżu omańskiego portu Chasab; według Al-Dżaziry irańska marynarka wojenna podała, że tankowiec zapalił się po wejściu na minę w rejonie objętym irańskimi ograniczeniami. Iran ogłosił, że w nocy na 18.11 zaatakował **amerykańskie stanowiska dronów i rakiet w Kuwejcie**, po tym jak USA uderzyły 17.11 na irańską wyspę Keszm; według Reutersa i AP to pierwszy atak Iranu na Kuwejt od września. 17.11 Korpus Strażników Rewolucji Islamskiej zaatakował dronami amerykański radar w bazie lotniczej Szajch Isa w Bahrajnie; Bahrajn i Dowództwo Centralne USA ({{p:centcom|CENTCOM}}) podały, że drony przechwycono bez szkód. 21.11 wieczorem irański atak wywołał według bahrajńskiego MSW **pożar w cywilnym zakładzie przemysłowym w Bahrajnie**, a nikt nie został ranny; Korpus Strażników Rewolucji Islamskiej twierdzi, że trafił radary systemów Patriot w bazach USA, czego Bahrajn i USA nie potwierdziły.",
    "omowienie": [
+    "{{o:esmaeil-baghaei|Rzecznik MSZ Iranu Esmaeil Baghaei}} nazwał 23.11 amerykańską blokadę morską irańskiego eksportu ropy „przestępstwem” i zapowiedział, że Iran użyje „wszelkich środków” przeciw niej; dzień wcześniej prezydent Trump powiedział, że irańskie statki próbujące przełamać blokadę „pójdą na dno”.",
     "14.11 irańska marynarka wojenna podała, że tankowiec wszedł na minę we wschodniej części cieśniny i stanął w ogniu, a 9.11 prezydent {{o:donald-trump|Donald Trump}} wstrzymał nowe ataki na Iran, ale utrzymał blokadę morską. 13.11 Iran informował o gazowcu z {{p:lng|LNG}} na minie i o czterech tankowcach trafionych w cieśninie przez wybuchy, a CENTCOM podał, że zestrzelił nad Bahrajnem dwa irańskie drony. Według źródeł Reutersa Iran zaatakował też systemy nawigacji morskiej na omańskiej wyspie Didamar przy wejściu do cieśniny. 15.11 Bahrajn przechwytywał kilka irańskich ataków powietrznych, a 17.11 według brytyjskiej agencji {{p:ukmto|UKMTO}} na północ od omańskiego Chasabu po raz drugi zaatakowano tankowiec, a los jego załogi jest nieznany.",
     "Według Reutersa wysoki rangą irański urzędnik oświadczył 5.11, że Iran przekazał Stanom Zjednoczonym przez Katar propozycję w sprawie programu jądrowego. Tego samego dnia, jak podał Reuters za brytyjskim centrum informacji o żegludze {{p:ukmto|UKMTO}}, dwa pociski uderzyły w tankowiec na północ od Kataru, a 8.11 oba państwa poinformowały o uderzeniach w statki w rejonie {{p:ormuz|Cieśniny Ormuz}}.",
     "Minister spraw zagranicznych Iranu {{o:abbas-araghczi|Abbas Araghczi}} zaprzeczył, by planowano spotkanie przedstawicieli obu państw w Katarze. Według CNN lotnictwo USA przeniosło 9.11 z brytyjskiej bazy RAF Mildenhall dziesięć samolotów tankowania w powietrzu z powodu zagrożenia ze strony Iranu, a w bazach Mildenhall i Lakenheath podniesiono stopień zagrożenia."
@@ -1784,6 +1851,23 @@
        "data": "2026-11-21"
       }
      ]
+    },
+    {
+     "data": "2026-11-23",
+     "tekst": "{{o:esmaeil-baghaei|Rzecznik MSZ Iranu Esmaeil Baghaei}} nazwał 23.11 amerykańską blokadę morską irańskiego eksportu ropy „przestępstwem” i zapowiedział, że **Iran użyje „wszelkich środków” przeciw blokadzie**. Dzień wcześniej {{o:donald-trump|prezydent USA Donald Trump}} powiedział, że irańskie statki próbujące ją przełamać „pójdą na dno”.",
+     "etap": "W TOKU",
+     "zrodla": [
+      {
+       "nazwa": "Euronews",
+       "url": "https://www.euronews.com/2026/11/23/iran-vows-every-means-to-counter-us-blockade-of-hormuz-after-trump-threat",
+       "data": "2026-11-23"
+      },
+      {
+       "nazwa": "Reuters (newsletter)",
+       "url": "https://www.reuters.com/",
+       "data": "2026-11-23"
+      }
+     ]
     }
    ],
    "oceny": [],
@@ -1808,7 +1892,8 @@
     "2026-11-17#z5",
     "2026-11-18#z6",
     "2026-11-21#z6",
-    "2026-11-22#z7"
+    "2026-11-22#z7",
+    "2026-11-23#z8"
    ]
   }
  ],
@@ -1854,7 +1939,7 @@
    "prog": "dokumentacja"
   },
   {
-   "tekst": "Pierwsze posiedzenie nowego parlamentu Serbii, na którym mandaty objęli posłowie Listy Studenckiej (17.11), przemówienie premiera Wielkiej Brytanii Andy’ego Burnhama, że brexit się nie sprawdził (16.11, według AP), i sankcje Wielkiej Brytanii na izraelskie firmy budujące osiedla na Zachodnim Brzegu (17.11, według Reutersa) – zmiana o skutku regionalnym albo deklaracja; szczyt UE–Wielka Brytania z 20.11 jest osobnym wpisem.",
+   "tekst": "Pierwsze posiedzenie nowego parlamentu Serbii, na którym mandaty objęli posłowie Listy Studenckiej (17.11), i sankcje Wielkiej Brytanii na izraelskie firmy budujące osiedla na Zachodnim Brzegu (17.11, według Reutersa) – zmiana o skutku regionalnym; szczyt UE–Wielka Brytania z 20.11 jest osobnym wpisem.",
    "prog": "następstwo"
   },
   {
@@ -1862,7 +1947,7 @@
    "prog": "następstwo"
   },
   {
-   "tekst": "Gotowość polskiej obrony powietrznej i wstrzymanie ruchu na lotniskach w Lublinie i Rzeszowie w czasie rosyjskich uderzeń na zachodnią Ukrainę (według PAP za DO RSZ), rozważany przez UE zakaz wjazdu dla Rosjan, którzy walczyli na Ukrainie, zatonięcie gazowca Gas Husky u wybrzeży Bułgarii, ostrzeżenie ambasady USA w Warszawie przed atakami terrorystycznymi, wstrzymanie przez Węgry ruchu kolejowego z Ukrainą, zapowiedź Bułgarii o wstrzymaniu dostaw uzbrojenia dla Ukrainy i umowy inwestycyjne PGZ dla spółek Mesko i Jelcz (16–17.11) – w wydaniu z 17.11 w „W obserwacji” z braku drugiego źródła z poziomów 1–2.",
+   "tekst": "Gotowość polskiej obrony powietrznej i wstrzymanie ruchu na lotniskach w Lublinie i Rzeszowie w czasie rosyjskich uderzeń na zachodnią Ukrainę (według PAP za DO RSZ), rozważany przez UE zakaz wjazdu dla Rosjan, którzy walczyli na Ukrainie, zatonięcie gazowca Gas Husky u wybrzeży Bułgarii, ostrzeżenie ambasady USA w Warszawie przed atakami terrorystycznymi, wstrzymanie przez Węgry ruchu kolejowego z Ukrainą, zapowiedź Bułgarii o wstrzymaniu dostaw uzbrojenia dla Ukrainy i umowy inwestycyjne PGZ dla spółek Mesko i Jelcz (17.11) – w wydaniu z 17.11 w „W obserwacji” z braku drugiego źródła z poziomów 1–2.",
    "prog": "dokumentacja"
   },
   {
@@ -1882,22 +1967,6 @@
    "prog": "dokumentacja"
   },
   {
-   "tekst": "Stanowisko kilku ministrów spraw zagranicznych UE (16.11), że rozmowy z Rosją o przyszłym ładzie bezpieczeństwa Europy przed rozejmem na Ukrainie byłyby przedwczesne, i słowa Wołodymyra Zełenskiego (według AP, 16.11), że USA podniosły w rozmowach możliwość nowej architektury bezpieczeństwa Europy – deklaracje bez decyzji; rozmowy o zakończeniu wojny opisuje pozycja o rozmowach.",
-   "prog": "następstwo"
-  },
-  {
-   "tekst": "Ostrzeżenie urzędów dozoru jądrowego z 38 państw przed rosnącym tej zimy ryzykiem awarii jądrowej na Ukrainie (16.11), zapowiedź Listy Studenckiej o przyspieszeniu reform potrzebnych do członkostwa Serbii w UE (16.11) i konferencja przeglądowa Konwencji o niektórych broniach konwencjonalnych w Genewie, która w tym tygodniu decyduje o negocjacjach w sprawie broni autonomicznej – ostrzeżenie, zapowiedź i decyzja jeszcze niepodjęta.",
-   "prog": "następstwo"
-  },
-  {
-   "tekst": "Słowa doradcy prezydenta Rosji Jurija Uszakowa, że udział Europy w rozmowach pokojowych nie został z Moskwą uzgodniony (według Meduzy za Interfaksem), lotniskowiec USS Theodore Roosevelt na Bliskim Wschodzie i pocisk, który według UKMTO trafił tankowiec wychodzący z cieśniny Ormuz, zakaz wstępu inspektorów MAEA do irańskich obiektów jądrowych, wypłata 1,71 mld euro z unijnej pożyczki dla Ukrainy, zatonięcie statku Betul 8 z pszenicą w bułgarskiej wyłącznej strefie ekonomicznej i odwołanie szczytu NATO w Albanii (według AP za Polsat News) – w wydaniu z 16.11 w „W obserwacji” z braku drugiego źródła z poziomów 1–2.",
-   "prog": "dokumentacja"
-  },
-  {
-   "tekst": "Wybuch i pożar rosyjskiej jednostki w bazie marynarki wojennej w Bengazi we wschodniej Libii (22.11), w którym rząd wschodniej Libii podejrzewa atak drona – miejsce 15: sprawca, nazwa okrętu i straty nie są ustalone, śledztwo dopiero się zaczęło.",
-   "prog": "następstwo"
-  },
-  {
    "tekst": "Zakończenie 22.11 konferencji klimatycznej ONZ COP31 w Antalyi, dwa dni po terminie, bez przyjęcia decyzji końcowych, po tym jak UE odrzuciła projekt bez wzmianek o paliwach kopalnych – brak decyzji niczego nie zmienia w obowiązujących zobowiązaniach.",
    "prog": "następstwo"
   },
@@ -1914,9 +1983,21 @@
    "prog": "dokumentacja"
   },
   {
-   "tekst": "Sprawy z poprzednich tygodni bez nowych faktów w tym tygodniu (ćwiczenia Wielonarodowych Sił dla Ukrainy w Nowej Dębie, unieruchomienie rosyjskiego okrętu „Naro-Fominsk” w Zatoce Fińskiej, decyzja USA o sprzedaży Ukrainie pocisków PAC-3 MSE, protesty we Francji, sankcje USA na Rosję, drony na Litwie, groźba jądrowa w sprawie Królewca i inne) – są w archiwum za październik 2026 albo trafią do archiwum za listopad, podobnie jak wybory do Kongresu USA (3.11) i pakiet rozszerzeniowy Komisji Europejskiej (4.11).",
+   "tekst": "Projekt 22. pakietu sankcji wobec Rosji, który przewodnicząca Komisji Europejskiej Ursula von der Leyen przedstawiła 23.11 (według Euronews m.in. odłączenie 60 kolejnych banków od systemu SWIFT i sankcje wobec ponad 70 statków floty cieni) – propozycja; państwa członkowskie mają ją przyjąć w grudniu. Sankcje przyjęte 16.11 wypadły z okna.",
+   "prog": "następstwo"
+  },
+  {
+   "tekst": "Zapowiedź premiera Węgier Pétera Magyara z 23.11, że odwiedzi Zakarpacie na zachodzie Ukrainy, i co najmniej 258 mandatów demokratów w Izbie Reprezentantów USA według nieoficjalnych wyników AP (22.11) – zapowiedź bez terminu i sprawa wewnętrzna USA, której wynik przesądziły wybory z 3.11.",
+   "prog": "następstwo"
+  },
+  {
+   "tekst": "Wspólny zespół śledczy prokuratorów Polski, Niemiec, Litwy i Bułgarii w sprawie podpaleń infrastruktury Starlink, aneks umożliwiający Holandii zakup zestawów Piorun, zakończenie oględzin w Mołodyczu, przewóz sprzętu Bundeswehry na Litwę koleją, odmowa wjazdu do Izraela posłowi Franciszkowi Sterczewskiemu, podejrzenia KE o chińskich sprawcach cyberataku, postępowanie ochronne wobec chińskich materiałów, system Sputnik-S pod Moskwą i ataki na tankowce w Zatoce Perskiej według Al-Dżaziry (22–23.11) – w wydaniu z 23.11 w „W obserwacji” z braku drugiego źródła z poziomów 1–2.",
+   "prog": "dokumentacja"
+  },
+  {
+   "tekst": "Sprawy z poprzednich tygodni bez nowych faktów w tym tygodniu (ćwiczenia Wielonarodowych Sił dla Ukrainy w Nowej Dębie, unieruchomienie rosyjskiego okrętu „Naro-Fominsk” w Zatoce Fińskiej, decyzja USA o sprzedaży Ukrainie pocisków PAC-3 MSE, protesty we Francji, sankcje UE przyjęte 16.11, sankcje USA na Rosję, drony na Litwie, groźba jądrowa w sprawie Królewca i inne) – są w archiwum za październik 2026 albo trafią do archiwum za listopad, podobnie jak wybory do Kongresu USA (3.11) i pakiet rozszerzeniowy Komisji Europejskiej (4.11).",
    "prog": "następstwo"
   }
  ],
- "nota": "Zestawienie kroczące za 16–22.11.2026. Nowe fakty z 22.11 i z wieczoru 21.11: ustalenia Prokuratury Okręgowej w Lublinie, że we wszystkich trzech miejscach spadły pociski Ch-101 – nowy tytuł pozycji o pociskach w Polsce – ocena fińskich i estońskich sił zbrojnych, że drony, które trafiły w statek Sparta II, były prawdopodobnie ukraińskie, i holowanie statku – nowy tytuł pozycji o Zatoce Fińskiej – atak drona na blok w Dymerze, dopisany do pozycji o wojnie powietrznej, oraz irański atak na Bahrajn, od którego zaczyna się nowy drugi człon tytułu pozycji o Ormuzie. Pożar rosyjskiej jednostki w Bengazi, zakończenie COP31 bez porozumienia, alarm w obwodzie królewieckim i zatrzymanie „El Chapo Isidro” są w „Czego tu nie ma”. Z „Czego tu nie ma” usunięto sprawy z 13–15.11, które wypadły z okna. Fakty pochodzą z wydań dziennych i ich źródeł; kolejność to ocena autora."
+ "nota": "Zestawienie kroczące za 17–23.11.2026. Nowe fakty z 23.11: nadzwyczajne posiedzenie Rady Północnoatlantyckiej i samolot AWACS dla Polski – nowy tytuł pozycji o pociskach w Polsce – wzrost liczby zabitych w Dymerze do 11 – nowy drugi człon tytułu pozycji o wojnie powietrznej – wezwanie ambasadora Rosji przez MSZ Finlandii – nowy drugi człon tytułu pozycji o Zatoce Fińskiej – groźby rosyjskiego MSZ wobec Estonii i zapowiedź Iranu w sprawie blokady, dopisane do przebiegu. Nowa pozycja: zatopienie rosyjskiej korwety Merkury w Bengazi, wcześniej w „Czego tu nie ma”. Pozycja o sankcjach UE z 16.11 wypadła z okna; projekt 22. pakietu jest w „Czego tu nie ma”. Z „Czego tu nie ma” usunięto sprawy z 16.11, które wypadły z okna. Fakty pochodzą z wydań dziennych i ich źródeł; kolejność to ocena autora."
 }

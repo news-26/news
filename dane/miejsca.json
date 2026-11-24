@@ -971,6 +971,41 @@
       "lon": -108.47,
       "lat": 25.57,
       "kraj": "Meksyk"
+    },
+    {
+      "id": "strasburg",
+      "nazwa": "Strasburg",
+      "lon": 7.75,
+      "lat": 48.58,
+      "kraj": "francja"
+    },
+    {
+      "id": "uzhorod",
+      "nazwa": "Użhorod",
+      "lon": 22.29,
+      "lat": 48.62,
+      "kraj": "ukraina"
+    },
+    {
+      "id": "gaza",
+      "nazwa": "Gaza",
+      "lon": 34.45,
+      "lat": 31.52,
+      "kraj": "Palestyna"
+    },
+    {
+      "id": "ulleungdo",
+      "nazwa": "Ulleungdo",
+      "lon": 130.86,
+      "lat": 37.5,
+      "kraj": "Korea Południowa"
+    },
+    {
+      "id": "dorohusk",
+      "nazwa": "Dorohusk",
+      "lon": 23.8,
+      "lat": 51.17,
+      "kraj": "Polska"
     }
   ]
 }

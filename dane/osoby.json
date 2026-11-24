@@ -2096,6 +2096,61 @@
           "data": "2026-11-23"
         }
       ]
+    },
+    {
+      "id": "amir-hatami",
+      "imie": "Amir Hatami",
+      "funkcja": "Dowódca (naczelny dowódca) armii Iranu, generał.",
+      "kraj": [
+        "iran"
+      ],
+      "zweryfikowano": "2026-11-24",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/24/iran-orders-hormuz-closed-further-day-by-day-as-qatar-seeks-to-revive-peace-talks",
+          "data": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "id": "mohammed-al-thani",
+      "imie": "Mohammed bin Abdulrahman Al Thani",
+      "funkcja": "Premier i minister spraw zagranicznych Kataru.",
+      "kraj": [
+        "inne"
+      ],
+      "panstwo": "Katar",
+      "zweryfikowano": "2026-11-24",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/24/iran-orders-hormuz-closed-further-day-by-day-as-qatar-seeks-to-revive-peace-talks",
+          "data": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "id": "szejk-hasina",
+      "imie": "Szejk Hasina",
+      "funkcja": "Była premier Bangladeszu, od 2024 r. na wygnaniu w Indiach.",
+      "kraj": [
+        "inne"
+      ],
+      "panstwo": "Bangladesz",
+      "formy": [
+        "Szejk Hasiny",
+        "Szejk Hasinie",
+        "Szejk Hasinę"
+      ],
+      "zweryfikowano": "2026-11-24",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/asia-pacific/sheikh-hasina-seeks-return-bangladesh-december-16-state-carrier-2026-11-24/",
+          "data": "2026-11-24"
+        }
+      ]
     }
   ]
 }

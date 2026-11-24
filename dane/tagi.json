@@ -6,20 +6,20 @@
       "nazwa": "Ukraina",
       "grupa": "miejsce",
       "opis": "Wojna Rosji z Ukrainą: ataki, obrona powietrzna, polityka Kijowa, pomoc zachodnia.",
-      "stan": "Rosyjski atak dronem na blok w Dymerze zabił 11 osób; ukraińskie drony morskie zatopiły rosyjską korwetę w Bengazi.",
+      "stan": "Rosyjskie ataki zabiły w ciągu doby do 24.11 dziewięć osób w Ukrainie; prezydent Zełenski potwierdził atak na statek Sparta II w Zatoce Fińskiej.",
       "stan_zrodla": [
         {
-          "nazwa": "Reuters",
-          "url": "https://www.reuters.com/world/russian-attack-ukraines-dymer-kyiv-region-kills-11-official-says-2026-11-23/",
-          "data": "2026-11-23"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-attacks-kill-9-injure-77-across-ukraine-over-past-day-zaporizhzhia-residential-building-massively-hit/",
+          "data": "2026-11-24"
         },
         {
-          "nazwa": "Reuters",
-          "url": "https://www.reuters.com/world/europe/zelenskiy-says-ukraine-sank-russian-corvette-near-libyas-coast-hit-cargo-ship-2026-11-23/",
-          "data": "2026-11-23"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-confirms-ukrainian-attack-on-russian-ship-in-gulf-of-finland/",
+          "data": "2026-11-24"
         }
       ],
-      "stan_data": "2026-11-23"
+      "stan_data": "2026-11-24"
     },
     {
       "id": "front",
@@ -66,23 +66,18 @@
       "nazwa": "Rosja",
       "grupa": "miejsce",
       "opis": "Polityka wewnętrzna, armia i budżet Rosji.",
-      "stan": "Ukraina zatopiła rosyjską korwetę Merkury w Libii; Komisja Europejska zaproponowała 22. pakiet sankcji, a Moskwa grozi Estonii.",
-      "stan_data": "2026-11-23",
+      "stan": "Rosyjski dron naruszył w nocy na 24.11 polską przestrzeń powietrzną; rosyjskie samoloty wleciały do strefy identyfikacji obrony powietrznej Korei Południowej.",
+      "stan_data": "2026-11-24",
       "stan_zrodla": [
         {
-          "nazwa": "Reuters",
-          "url": "https://www.reuters.com/world/europe/zelenskiy-says-ukraine-sank-russian-corvette-near-libyas-coast-hit-cargo-ship-2026-11-23/",
-          "data": "2026-11-23"
+          "nazwa": "Rzeczpospolita",
+          "url": "https://www.rp.pl/wojsko/art45532721-rosyjski-dron-naruszyl-przestrzen-powietrzna-polski-wojsko-mialo-zgode-na-zestrzelenie",
+          "data": "2026-11-24"
         },
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/23/eu-goes-after-russias-banks-soldiers-and-athletes-in-new-sanctions-package",
-          "data": "2026-11-23"
-        },
-        {
-          "nazwa": "Reuters (za RTÉ)",
-          "url": "https://www.rte.ie/news/world/2026/1123/1600353-russia-estonia-finland/",
-          "data": "2026-11-23"
+          "url": "https://www.euronews.com/2026/11/24/south-korea-tells-island-residents-to-take-shelter-as-russian-warplanes-near-its-airspace",
+          "data": "2026-11-24"
         }
       ]
     },
@@ -116,18 +111,13 @@
       "nazwa": "Białoruś",
       "grupa": "miejsce",
       "opis": "Reżim w Mińsku, granica z Polską, więźniowie polityczni.",
-      "stan": "Litwa od 16.11 wstrzyma odprawę białoruskiego i rosyjskiego zboża w Kłajpedzie do czasu sprawdzenia, czy nie pochodzi z okupowanych terenów Ukrainy.",
-      "stan_data": "2026-11-10",
+      "stan": "ETPC orzekł 24.11 w sprawach zawracania migrantów na Białoruś przez Polskę, Łotwę i Litwę w latach 2021–2022.",
+      "stan_data": "2026-11-24",
       "stan_zrodla": [
         {
-          "nazwa": "Reuters (za Kyiv Independent)",
-          "url": "https://kyivindependent.com/lithuania-to-tighten-checks-on-russian-grain-shipments/",
-          "data": "2026-11-10"
-        },
-        {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/11/10/lithuania-to-inspect-grain-shipments-from-russia-and-belarus-for-crops-from-occupied-ukraine-potentially-delaying-exports-by-months",
-          "data": "2026-11-10"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/24/european-court-rules-against-poland-and-latvia-over-migrant-pushbacks-at-belarus-border",
+          "data": "2026-11-24"
         }
       ]
     },
@@ -136,20 +126,20 @@
       "nazwa": "Wojna hybrydowa",
       "grupa": "temat",
       "opis": "Działania hybrydowe: drony, sabotaż, dezinformacja, cyberataki, presja migracyjna.",
-      "stan": "Rosja zarzuca Estonii udostępnianie przestrzeni powietrznej ukraińskim dronom; Estonia zaprzecza i zamyka granicę od 1.12.",
+      "stan": "Wielka Brytania ostrzegła 24.11 dostawców sprzętu dla Ukrainy przed rosyjskim sabotażem w Europie.",
       "stan_zrodla": [
         {
-          "nazwa": "Reuters (za RTÉ)",
-          "url": "https://www.rte.ie/news/world/2026/1123/1600353-russia-estonia-finland/",
-          "data": "2026-11-23"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/24/uk-warns-defence-suppliers-to-ukraine-over-russian-sabotage",
+          "data": "2026-11-24"
         },
         {
-          "nazwa": "Polsat News",
-          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-23/rosyjskie-msz-grzmi-na-kraj-nato-mowia-o-otwartej-wojnie/",
-          "data": "2026-11-23"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/uk-warns-companies-supplying-ukraine-of-russian-sabotage-threat/",
+          "data": "2026-11-24"
         }
       ],
-      "stan_data": "2026-11-23"
+      "stan_data": "2026-11-24"
     },
     {
       "id": "uzbrojenie",
@@ -196,15 +186,20 @@
       "nazwa": "ObronnośćPolski",
       "grupa": "temat",
       "opis": "Siły zbrojne RP, procedury obrony powietrznej, budżet obronny.",
-      "stan": "Po nadzwyczajnej Radzie Północnoatlantyckiej 23.11 Polska otrzyma do dyspozycji jeden samolot AWACS.",
+      "stan": "Rosyjski dron naruszył w nocy na 24.11 polską przestrzeń powietrzną; ETPC orzekł, że Polska naruszyła Konwencję, zawracając Afgańczyka na Białoruś w 2021 r.",
       "stan_zrodla": [
         {
-          "nazwa": "PAP (za Gość Niedzielny)",
-          "url": "https://www.gosc.pl/doc/9974238.Po-spotkaniu-NATO-AWACS-do-dyspozycji-Polski",
-          "data": "2026-11-23"
+          "nazwa": "Rzeczpospolita",
+          "url": "https://www.rp.pl/wojsko/art45532721-rosyjski-dron-naruszyl-przestrzen-powietrzna-polski-wojsko-mialo-zgode-na-zestrzelenie",
+          "data": "2026-11-24"
+        },
+        {
+          "nazwa": "Rzeczpospolita",
+          "url": "https://www.rp.pl/prawo-w-polsce/art45534441-polska-naruszyla-konwencje-praw-czlowieka-europejski-trybunal-wydal-orzeczenie",
+          "data": "2026-11-24"
         }
       ],
-      "stan_data": "2026-11-23"
+      "stan_data": "2026-11-24"
     },
     {
       "id": "dyplomacja-rp",
@@ -251,38 +246,38 @@
       "nazwa": "Iran",
       "grupa": "miejsce",
       "opis": "Iran, Cieśnina Ormuz, rozmowy z USA i mediatorami.",
-      "stan": "Iran zapowiada użycie „wszelkich środków” przeciw amerykańskiej blokadzie morskiej; Trump grozi zatapianiem statków.",
+      "stan": "Dowódca armii Iranu polecił 23.11 coraz szczelniej zamykać Cieśninę Ormuz; Katar zabiega w Waszyngtonie o wznowienie rozmów USA z Iranem.",
       "stan_zrodla": [
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/23/iran-vows-every-means-to-counter-us-blockade-of-hormuz-after-trump-threat",
-          "data": "2026-11-23"
+          "url": "https://www.euronews.com/2026/11/24/iran-orders-hormuz-closed-further-day-by-day-as-qatar-seeks-to-revive-peace-talks",
+          "data": "2026-11-24"
         },
         {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/",
+          "url": "https://www.reuters.com/world/middle-east/iran-says-it-will-use-all-available-tools-confront-us-naval-blockade-2026-11-23/",
           "data": "2026-11-23"
         }
       ],
-      "stan_data": "2026-11-23"
+      "stan_data": "2026-11-24"
     },
     {
       "id": "usa",
       "nazwa": "USA",
       "grupa": "miejsce",
       "opis": "Polityka USA wobec Europy, Rosji, Ukrainy i Bliskiego Wschodu.",
-      "stan": "Demokraci zdobyli co najmniej 258 mandatów w Izbie Reprezentantów; USA utrzymują blokadę morską Iranu.",
-      "stan_data": "2026-11-23",
+      "stan": "Premier Kataru namawiał 23.11 w Waszyngtonie Marco Rubio i JD Vance'a do wznowienia rozmów z Iranem; Zełenski zapowiada apel do nowego Kongresu o sankcje wobec Rosji.",
+      "stan_data": "2026-11-24",
       "stan_zrodla": [
         {
-          "nazwa": "Associated Press",
-          "url": "https://apnews.com/article/democrats-house-majority-election-2026-congress-721096a4d9ba2cd68683692361798cdb",
-          "data": "2026-11-22"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/24/iran-orders-hormuz-closed-further-day-by-day-as-qatar-seeks-to-revive-peace-talks",
+          "data": "2026-11-24"
         },
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/23/iran-vows-every-means-to-counter-us-blockade-of-hormuz-after-trump-threat",
-          "data": "2026-11-23"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-confirms-ukrainian-attack-on-russian-ship-in-gulf-of-finland/",
+          "data": "2026-11-24"
         }
       ]
     },
@@ -321,20 +316,15 @@
       "nazwa": "UE",
       "grupa": "temat",
       "opis": "Unia Europejska: Rada, Komisja, obronność, budżet WRF 2028–2034.",
-      "stan": "Komisja Europejska przedstawiła projekt 22. pakietu sankcji wobec Rosji.",
+      "stan": "Premier Węgier odwiedził Ukrainę 24.11; przed Radą Europejską 26–27.11 trwa spór o budżet UE na lata 2028–2034.",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/23/eu-goes-after-russias-banks-soldiers-and-athletes-in-new-sanctions-package",
-          "data": "2026-11-23"
-        },
-        {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/eu-proposes-package-of-russian-sports-sanctions-visa-bans-and-a-krygyzstan-crypto-blockade/",
-          "data": "2026-11-23"
+          "url": "https://kyivindependent.com/zelensky-hungary-leader-magyar-to-hold-first-formal-meeting-in-zakarpattia/",
+          "data": "2026-11-24"
         }
       ],
-      "stan_data": "2026-11-23"
+      "stan_data": "2026-11-24"
     },
     {
       "id": "onz",
@@ -427,18 +417,13 @@
       "nazwa": "Węgry",
       "grupa": "miejsce",
       "opis": "Polityka Węgier: rząd, rozliczenia, relacje z UE.",
-      "stan": "Premier Péter Magyar zapowiedział wizytę na Zakarpaciu; Węgry wiążą dalsze rozmowy akcesyjne Ukrainy z prawami mniejszości.",
-      "stan_data": "2026-11-23",
+      "stan": "Premier Péter Magyar spotkał się 24.11 w Użhorodzie z prezydentem Zełenskim podczas pierwszej oficjalnej wizyty w Ukrainie.",
+      "stan_data": "2026-11-24",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/23/hungarys-pm-to-visit-transcarpathia-pledges-support-to-ukrainian-people-and-local-hungaria",
-          "data": "2026-11-23"
-        },
-        {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/zelensky-hungarys-magyar-could-meet-soon-during-planned-visits-to-ukraines-zakarpattia-source-says/",
-          "data": "2026-11-23"
+          "url": "https://kyivindependent.com/zelensky-hungary-leader-magyar-to-hold-first-formal-meeting-in-zakarpattia/",
+          "data": "2026-11-24"
         }
       ]
     },
@@ -447,45 +432,30 @@
       "nazwa": "Litwa",
       "grupa": "miejsce",
       "opis": "Polityka Litwy i bezpieczeństwo przesmyku suwalskiego.",
-      "stan": "Minister spraw zagranicznych Litwy odrzucił pogłoski o udziale Litwy w ataku na obwód królewiecki.",
+      "stan": "ETPC oddalił 24.11 skargę Kubańczyków na zawracanie ich przez Litwę na Białoruś.",
       "stan_zrodla": [
         {
-          "nazwa": "LRT",
-          "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3122038/kestutis-budrys-atmete-teiginius-kad-lietuva-dalyvavo-atakose-pries-kaliningrado-sriti",
-          "data": "2026-11-21"
-        },
-        {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/explosions-reported-near-russian-baltic-fleet-base-in-kaliningrad-oblast-amid-drone-alerts/",
-          "data": "2026-11-21"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/24/european-court-rules-against-poland-and-latvia-over-migrant-pushbacks-at-belarus-border",
+          "data": "2026-11-24"
         }
       ],
-      "stan_data": "2026-11-22"
+      "stan_data": "2026-11-24"
     },
     {
       "id": "lotwa",
       "nazwa": "Łotwa",
       "grupa": "miejsce",
       "opis": "Polityka Łotwy, wybory.",
-      "stan": "Po przeliczeniu niemal wszystkich głosów Zjednoczona Lista premiera Kulbergsa ma 42 ze 100 mandatów; może rządzić z Sojuszem Narodowym albo Postępowymi.",
+      "stan": "ETPC orzekł 24.11, że Łotwa naruszyła Konwencję, zawracając na Białoruś dzieci w 2021 r.",
       "stan_zrodla": [
         {
-          "nazwa": "LSM",
-          "url": "https://eng.lsm.lv/article/politics/election/04.10.2026-new-latvian-saeima-starts-to-shape-up-with-nearly-all-votes-counted.a666021/",
-          "data": "2026-10-04"
-        },
-        {
-          "nazwa": "Reuters (za Irish Times)",
-          "url": "https://www.irishtimes.com/world/europe/2026/10/04/latvian-pm-on-track-to-lead-pro-ukraine-coalition-after-election-win/",
-          "data": "2026-10-04"
-        },
-        {
-          "nazwa": "AP (za Euronews)",
-          "url": "https://www.euronews.com/2026/10/04/latvias-pro-european-ruling-party-wins-election-as-populists-gain-ground",
-          "data": "2026-10-04"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/24/european-court-rules-against-poland-and-latvia-over-migrant-pushbacks-at-belarus-border",
+          "data": "2026-11-24"
         }
       ],
-      "stan_data": "2026-10-04"
+      "stan_data": "2026-11-24"
     },
     {
       "id": "estonia",
@@ -512,20 +482,15 @@
       "nazwa": "Nordyckie",
       "grupa": "miejsce",
       "opis": "Szwecja, Finlandia, Norwegia, Dania, Islandia.",
-      "stan": "Finlandia wezwała 23.11 ambasadora Rosji po podejrzeniu naruszenia przestrzeni powietrznej przez rosyjski śmigłowiec.",
+      "stan": "Prezydent Ukrainy potwierdził 24.11, że Ukraina zaatakowała 21.11 rosyjski statek Sparta II w Zatoce Fińskiej.",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/23/finland-summons-russian-ambassador-as-it-condemns-russias-dangerous-and-reckless-actions-i",
-          "data": "2026-11-23"
-        },
-        {
-          "nazwa": "France 24",
-          "url": "https://www.france24.com/en/europe/20261123-finland-summons-russian-ambassador-after-suspected-airspace-violation",
-          "data": "2026-11-23"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-confirms-ukrainian-attack-on-russian-ship-in-gulf-of-finland/",
+          "data": "2026-11-24"
         }
       ],
-      "stan_data": "2026-11-23"
+      "stan_data": "2026-11-24"
     },
     {
       "id": "francja",
@@ -547,25 +512,15 @@
       "nazwa": "WielkaBrytania",
       "grupa": "miejsce",
       "opis": "Polityka Wielkiej Brytanii i jej bezpieczeństwo.",
-      "stan": "Premier Andy Burnham uzgodnił 20.11 w Brukseli z UE program mobilności młodzieży i ułatwienia w handlu żywnością.",
+      "stan": "Brytyjski urząd NPSA i Ministerstwo Obrony ostrzegły 24.11 dostawców sprzętu dla Ukrainy przed rosyjskim sabotażem.",
       "stan_zrodla": [
         {
-          "nazwa": "GOV.UK",
-          "url": "https://www.gov.uk/government/publications/ukeu-summit-2026-key-documents/uk-eu-summit-2026-explainer-youth-experience-scheme-html",
-          "data": "2026-11-20"
-        },
-        {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/20/europe-tonight-eu-and-uk-strike-post-brexit-reset-deal-as-russian-missiles-hit-poland",
-          "data": "2026-11-20"
-        },
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/20/burnham-drew-a-line-under-brexit-at-the-eu-uk-summit-but-where-does-britain-go-next",
-          "data": "2026-11-20"
+          "url": "https://www.euronews.com/2026/11/24/uk-warns-defence-suppliers-to-ukraine-over-russian-sabotage",
+          "data": "2026-11-24"
         }
       ],
-      "stan_data": "2026-11-20"
+      "stan_data": "2026-11-24"
     },
     {
       "id": "rumunia",
@@ -662,15 +617,20 @@
       "nazwa": "Inne",
       "grupa": "temat",
       "opis": "Wątki rzadkie, bez osobnego hashtagu.",
-      "stan": "Mjanma zakwestionowała 20.11 wyrok MTS o ludobójstwie Rohingjów.",
+      "stan": "Izraelski nalot zabił 24.11 dyrektora Służby Bezpieczeństwa Wewnętrznego w Gazie; Szejk Hasina zapowiada powrót do Bangladeszu 16.12.",
       "stan_zrodla": [
         {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/asia-pacific/myanmar-calls-icj-ruling-genocide-unfair-2026-11-20/",
-          "data": "2026-11-20"
+          "url": "https://www.reuters.com/world/middle-east/israeli-airstrike-kills-senior-hamas-security-official-gaza-hamas-sources-say-2026-11-24/",
+          "data": "2026-11-24"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/asia-pacific/sheikh-hasina-seeks-return-bangladesh-december-16-state-carrier-2026-11-24/",
+          "data": "2026-11-24"
         }
       ],
-      "stan_data": "2026-11-20"
+      "stan_data": "2026-11-24"
     },
     {
       "id": "afryka",

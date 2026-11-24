@@ -474,6 +474,30 @@
       "nazwa": "Rada Północnoatlantycka",
       "pelna": "North Atlantic Council (NAC)",
       "definicja": "Główny organ decyzyjny NATO, w którym zasiadają przedstawiciele wszystkich państw członkowskich. Obraduje na szczeblu ambasadorów, ministrów lub przywódców i podejmuje decyzje jednomyślnie."
+    },
+    {
+      "id": "etpc",
+      "nazwa": "ETPC",
+      "pelna": "Europejski Trybunał Praw Człowieka",
+      "definicja": "Sąd Rady Europy w Strasburgu, orzekający o naruszeniach Europejskiej Konwencji Praw Człowieka przez państwa członkowskie; jego wyroki są wiążące."
+    },
+    {
+      "id": "npsa",
+      "nazwa": "NPSA",
+      "pelna": "National Protective Security Authority",
+      "definicja": "Brytyjski urząd przy kontrwywiadzie MI5, doradzający firmom i instytucjom w ochronie przed sabotażem, szpiegostwem i terroryzmem."
+    },
+    {
+      "id": "kadiz",
+      "nazwa": "KADIZ",
+      "pelna": "Korea Air Defense Identification Zone",
+      "definicja": "Strefa identyfikacji obrony powietrznej Korei Południowej – obszar szerszy niż przestrzeń powietrzna państwa, w którym samoloty wojskowe mają się identyfikować."
+    },
+    {
+      "id": "rada-europejska",
+      "nazwa": "Rada Europejska",
+      "definicja": "Instytucja UE złożona z szefów państw i rządów państw członkowskich; wyznacza kierunki polityki Unii i rozstrzyga sprawy sporne, m.in. budżet wieloletni.",
+      "pelna": "Rada Europejska (European Council)"
     }
   ]
 }

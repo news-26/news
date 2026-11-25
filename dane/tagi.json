@@ -6,20 +6,20 @@
       "nazwa": "Ukraina",
       "grupa": "miejsce",
       "opis": "Wojna Rosji z Ukrainą: ataki, obrona powietrzna, polityka Kijowa, pomoc zachodnia.",
-      "stan": "Rosyjskie ataki zabiły w ciągu doby do 24.11 dziewięć osób w Ukrainie; prezydent Zełenski potwierdził atak na statek Sparta II w Zatoce Fińskiej.",
+      "stan": "Ukraińskie drony zaatakowały w nocy na 25.11 rafinerie w obwodzie samarskim i lotnisko Sawaslejka; rosyjskie ataki zabiły w Ukrainie co najmniej siedem osób.",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/russian-attacks-kill-9-injure-77-across-ukraine-over-past-day-zaporizhzhia-residential-building-massively-hit/",
-          "data": "2026-11-24"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/25/russian-strikes-kill-seven-in-ukraine-as-kyiv-hits-three-refineries",
+          "data": "2026-11-25"
         },
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/zelensky-confirms-ukrainian-attack-on-russian-ship-in-gulf-of-finland/",
-          "data": "2026-11-24"
+          "url": "https://kyivindependent.com/ukrainian-drones-reportedly-strike-russian-oil-refineries-in-massive-attack/",
+          "data": "2026-11-25"
         }
       ],
-      "stan_data": "2026-11-24"
+      "stan_data": "2026-11-25"
     },
     {
       "id": "front",
@@ -66,18 +66,18 @@
       "nazwa": "Rosja",
       "grupa": "miejsce",
       "opis": "Polityka wewnętrzna, armia i budżet Rosji.",
-      "stan": "Rosyjski dron naruszył w nocy na 24.11 polską przestrzeń powietrzną; rosyjskie samoloty wleciały do strefy identyfikacji obrony powietrznej Korei Południowej.",
-      "stan_data": "2026-11-24",
+      "stan": "Ukraina zaatakowała 25.11 rafinerie w obwodzie samarskim i lotnisko wojskowe Sawaslejka; niemieckie media podały, że Rosja przygotowuje start satelity z głowicą jądrową.",
+      "stan_data": "2026-11-25",
       "stan_zrodla": [
         {
-          "nazwa": "Rzeczpospolita",
-          "url": "https://www.rp.pl/wojsko/art45532721-rosyjski-dron-naruszyl-przestrzen-powietrzna-polski-wojsko-mialo-zgode-na-zestrzelenie",
-          "data": "2026-11-24"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/25/russian-strikes-kill-seven-in-ukraine-as-kyiv-hits-three-refineries",
+          "data": "2026-11-25"
         },
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/24/south-korea-tells-island-residents-to-take-shelter-as-russian-warplanes-near-its-airspace",
-          "data": "2026-11-24"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/ukrainian-drones-reportedly-strike-russian-oil-refineries-in-massive-attack/",
+          "data": "2026-11-25"
         }
       ]
     },
@@ -126,58 +126,58 @@
       "nazwa": "Wojna hybrydowa",
       "grupa": "temat",
       "opis": "Działania hybrydowe: drony, sabotaż, dezinformacja, cyberataki, presja migracyjna.",
-      "stan": "Wielka Brytania ostrzegła 24.11 dostawców sprzętu dla Ukrainy przed rosyjskim sabotażem w Europie.",
+      "stan": "Estonia wydaliła do Rosji Rosjanina, który według Policji Bezpieczeństwa utrzymywał kontakty z rosyjskimi służbami specjalnymi.",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/24/uk-warns-defence-suppliers-to-ukraine-over-russian-sabotage",
-          "data": "2026-11-24"
+          "nazwa": "ERR",
+          "url": "https://err.ee/1610206441/kapo-saatis-venemaale-enefiti-olitehases-tootanud-mehe",
+          "data": "2026-11-25"
         },
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/uk-warns-companies-supplying-ukraine-of-russian-sabotage-threat/",
-          "data": "2026-11-24"
+          "url": "https://kyivindependent.com/estonia-deports-russian-national-over-suspected-ties-to-russian-intelligence/",
+          "data": "2026-11-25"
         }
       ],
-      "stan_data": "2026-11-24"
+      "stan_data": "2026-11-25"
     },
     {
       "id": "uzbrojenie",
       "nazwa": "Uzbrojenie",
       "grupa": "temat",
       "opis": "Systemy uzbrojenia, zakupy, produkcja i dostawy: nazwy, liczby, jednostki.",
-      "stan": "27.10 centrum serwisowania pocisków PAC-3 do Patriotów w Polsce, koszt ok. 1 mld zł; termin uruchomienia nie jest ustalony.",
+      "stan": "Umowa międzyrządowa o wspólnym opracowaniu pocisku przeciwlotniczego CAMM-MR o zasięgu ponad 100 km dla fregat Miecznik i systemu Narew podpisana 24.11.",
       "stan_zrodla": [
         {
-          "nazwa": "Reuters (za Internazionale)",
-          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/27/poland-to-host-european-patriot-maintenance-centre-government-says",
-          "data": "2026-10-29"
+          "nazwa": "PAP",
+          "url": "https://biznes.pap.pl/wiadomosci/ekonomia-biznes-i-finanse/skrot-wiadomosci-wtorek-24-listopada-2100",
+          "data": "2026-11-24"
         },
         {
           "nazwa": "Defence24",
-          "url": "https://defence24.pl/przemysl/polski-serwis-dla-europejskich-patriotow-jest-decyzja",
-          "data": "2026-10-29"
+          "url": "https://defence24.pl/polityka-obronna/polsko-brytyjskie-pociski-dla-miecznika-i-nie-tylko-podpisano-wazne-porozumienie",
+          "data": "2026-11-24"
         }
       ],
-      "stan_data": "2026-10-29"
+      "stan_data": "2026-11-25"
     },
     {
       "id": "przemysl-zbrojeniowy",
       "nazwa": "PrzemysłZbrojeniowy",
       "grupa": "temat",
       "opis": "Polski przemysł zbrojeniowy: kontrakty, targi, prezentacje nowego sprzętu, dostawy, eksport i współprodukcja.",
-      "stan": "27.10 Polska ma gościć europejskie centrum serwisowania pocisków PAC-3 (ok. 1 mld zł); 29.10 druga runda SAFE – Polska największym beneficjentem programu.",
-      "stan_data": "2026-10-29",
+      "stan": "Polska i Wielka Brytania podpisały 24.11 umowę międzyrządową o opracowaniu pocisku CAMM-MR; w Gdyni położono stępkę pod fregatę ORP Huragan.",
+      "stan_data": "2026-11-25",
       "stan_zrodla": [
         {
-          "nazwa": "Reuters (za Internazionale)",
-          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/27/poland-to-host-european-patriot-maintenance-centre-government-says",
-          "data": "2026-10-29"
+          "nazwa": "PAP",
+          "url": "https://biznes.pap.pl/wiadomosci/ekonomia-biznes-i-finanse/skrot-wiadomosci-wtorek-24-listopada-2100",
+          "data": "2026-11-24"
         },
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/29/brussels-hopes-unspent-defence-loans-may-help-plug-ukraines-budget-hole",
-          "data": "2026-10-29"
+          "nazwa": "Defence24",
+          "url": "https://defence24.pl/polityka-obronna/polsko-brytyjskie-pociski-dla-miecznika-i-nie-tylko-podpisano-wazne-porozumienie",
+          "data": "2026-11-24"
         }
       ]
     },
@@ -186,20 +186,20 @@
       "nazwa": "ObronnośćPolski",
       "grupa": "temat",
       "opis": "Siły zbrojne RP, procedury obrony powietrznej, budżet obronny.",
-      "stan": "Rosyjski dron naruszył w nocy na 24.11 polską przestrzeń powietrzną; ETPC orzekł, że Polska naruszyła Konwencję, zawracając Afgańczyka na Białoruś w 2021 r.",
+      "stan": "Według Bloomberga Polska zaproponowała w NATO rozważenie zestrzeliwania nad Ukrainą rosyjskich pocisków lecących w stronę sojuszu; MON zapowiada strefę zakazu lotów przy granicy z Ukrainą.",
       "stan_zrodla": [
         {
-          "nazwa": "Rzeczpospolita",
-          "url": "https://www.rp.pl/wojsko/art45532721-rosyjski-dron-naruszyl-przestrzen-powietrzna-polski-wojsko-mialo-zgode-na-zestrzelenie",
-          "data": "2026-11-24"
+          "nazwa": "Bloomberg (za Meduza)",
+          "url": "https://meduza.io/en/news/2026/11/25/bloomberg-poland-proposes-that-nato-consider-shooting-down-russian-missiles-over-ukraine-headed-toward-alliance-territory",
+          "data": "2026-11-25"
         },
         {
-          "nazwa": "Rzeczpospolita",
-          "url": "https://www.rp.pl/prawo-w-polsce/art45534441-polska-naruszyla-konwencje-praw-czlowieka-europejski-trybunal-wydal-orzeczenie",
-          "data": "2026-11-24"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/poland-plans-no-fly-zone-near-ukraine-border-asks-nato-to-intercept-russian-missiles-over-ukraine/",
+          "data": "2026-11-25"
         }
       ],
-      "stan_data": "2026-11-24"
+      "stan_data": "2026-11-25"
     },
     {
       "id": "dyplomacja-rp",
@@ -266,17 +266,17 @@
       "nazwa": "USA",
       "grupa": "miejsce",
       "opis": "Polityka USA wobec Europy, Rosji, Ukrainy i Bliskiego Wschodu.",
-      "stan": "Premier Kataru namawiał 23.11 w Waszyngtonie Marco Rubio i JD Vance'a do wznowienia rozmów z Iranem; Zełenski zapowiada apel do nowego Kongresu o sankcje wobec Rosji.",
-      "stan_data": "2026-11-24",
+      "stan": "Przedstawiciel handlowy USA zaproponował nowe cła na towary z 14 gospodarek, w tym 15 proc. dla UE i do 20 proc. dla Chin.",
+      "stan_data": "2026-11-25",
       "stan_zrodla": [
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/24/iran-orders-hormuz-closed-further-day-by-day-as-qatar-seeks-to-revive-peace-talks",
-          "data": "2026-11-24"
+          "url": "https://www.euronews.com/2026/11/25/us-proposes-new-tariffs-on-14-major-trading-partners-the-eu-included",
+          "data": "2026-11-25"
         },
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/zelensky-confirms-ukrainian-attack-on-russian-ship-in-gulf-of-finland/",
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/us/trump-administration-set-unveil-new-tariffs-after-probe-on-excess-factory-2026-11-24/",
           "data": "2026-11-24"
         }
       ]
@@ -286,13 +286,18 @@
       "nazwa": "Chiny",
       "grupa": "miejsce",
       "opis": "Chiny w polityce światowej i wobec Europy.",
-      "stan": "Po szczycie w Shenzhen Trump ocenił 19.11, że porozumienie o ograniczeniu broni jądrowej z Chinami i Rosją będzie trudne.",
-      "stan_data": "2026-11-20",
+      "stan": "USA zaproponowały cła do 20 proc. na część chińskich towarów; według AP ława przysięgłych w USA uznała Huawei winnym kradzieży tajemnic handlowych.",
+      "stan_data": "2026-11-25",
       "stan_zrodla": [
         {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/25/us-proposes-new-tariffs-on-14-major-trading-partners-the-eu-included",
+          "data": "2026-11-25"
+        },
+        {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/china/trump-says-after-talks-with-xi-putin-deal-limiting-nuclear-weapons-will-be-hard-2026-11-19/",
-          "data": "2026-11-19"
+          "url": "https://www.reuters.com/world/us/trump-administration-set-unveil-new-tariffs-after-probe-on-excess-factory-2026-11-24/",
+          "data": "2026-11-24"
         }
       ]
     },
@@ -301,13 +306,18 @@
       "nazwa": "NATO",
       "grupa": "temat",
       "opis": "Sojusz Północnoatlantycki: decyzje, szczyty, wschodnia flanka.",
-      "stan": "Rada Północnoatlantycka zebrała się 23.11 na wniosek Polski; Polska otrzyma jeden samolot AWACS.",
-      "stan_data": "2026-11-23",
+      "stan": "Polska zaproponowała ambasadorom NATO rozważenie przechwytywania rosyjskich pocisków nad Ukrainą; Mark Rutte zapewnił, że wspólna obrona obejmuje zagrożenia w kosmosie.",
+      "stan_data": "2026-11-25",
       "stan_zrodla": [
         {
-          "nazwa": "PAP (za Gość Niedzielny)",
-          "url": "https://www.gosc.pl/doc/9974238.Po-spotkaniu-NATO-AWACS-do-dyspozycji-Polski",
-          "data": "2026-11-23"
+          "nazwa": "Bloomberg (za Meduza)",
+          "url": "https://meduza.io/en/news/2026/11/25/bloomberg-poland-proposes-that-nato-consider-shooting-down-russian-missiles-over-ukraine-headed-toward-alliance-territory",
+          "data": "2026-11-25"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/poland-plans-no-fly-zone-near-ukraine-border-asks-nato-to-intercept-russian-missiles-over-ukraine/",
+          "data": "2026-11-25"
         }
       ]
     },
@@ -316,15 +326,20 @@
       "nazwa": "UE",
       "grupa": "temat",
       "opis": "Unia Europejska: Rada, Komisja, obronność, budżet WRF 2028–2034.",
-      "stan": "Premier Węgier odwiedził Ukrainę 24.11; przed Radą Europejską 26–27.11 trwa spór o budżet UE na lata 2028–2034.",
+      "stan": "USA zaproponowały 15-procentowe cło na część towarów z UE; Komisja Europejska odrzuciła zarzut nadwyżek mocy produkcyjnych.",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/zelensky-hungary-leader-magyar-to-hold-first-formal-meeting-in-zakarpattia/",
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/25/us-proposes-new-tariffs-on-14-major-trading-partners-the-eu-included",
+          "data": "2026-11-25"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/us/trump-administration-set-unveil-new-tariffs-after-probe-on-excess-factory-2026-11-24/",
           "data": "2026-11-24"
         }
       ],
-      "stan_data": "2026-11-24"
+      "stan_data": "2026-11-25"
     },
     {
       "id": "onz",
@@ -362,20 +377,20 @@
       "nazwa": "Niemcy",
       "grupa": "miejsce",
       "opis": "Polityka Niemiec: rząd, koalicja, wybory, obronność.",
-      "stan": "Kanclerz Friedrich Merz był 19.11 gospodarzem szczytu koalicji chętnych w Berlinie z udziałem Wołodymyra Zełenskiego i wysłanników USA.",
+      "stan": "Rząd Niemiec uznał za bardzo poważne doniesienia NDR, WDR i „Süddeutsche Zeitung” o przygotowaniach Rosji do startu satelity z głowicą jądrową.",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/zelensky-arrives-in-berlin-for-talks-with-european-officials-trumps-envoys/",
-          "data": "2026-11-19"
+          "nazwa": "AFP (za t-online)",
+          "url": "https://www.t-online.de/nachrichten/deutschland/militaer-verteidigung/id_101542738/atomwaffen-im-all-besorgte-reaktionen-nach-bericht-zu-russischen-plaenen.html",
+          "data": "2026-11-23"
         },
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/19/trump-questions-europes-billions-in-ukraine-aid-during-surprise-call",
-          "data": "2026-11-19"
+          "url": "https://www.euronews.com/2026/11/25/europe-tonight-trump-unveils-new-tariffs-amid-russian-nuclear-space-threat",
+          "data": "2026-11-25"
         }
       ],
-      "stan_data": "2026-11-19"
+      "stan_data": "2026-11-25"
     },
     {
       "id": "czechy",
@@ -462,20 +477,20 @@
       "nazwa": "Estonia",
       "grupa": "miejsce",
       "opis": "Polityka i bezpieczeństwo Estonii.",
-      "stan": "Rosja zaprotestowała przeciw zamknięciu estońskich przejść granicznych od 1.12 i ostrzegła przed „otwartą wojną”.",
+      "stan": "Policja Bezpieczeństwa Estonii wydaliła do Rosji obywatela rosyjskiego podejrzewanego o kontakty z rosyjskimi służbami.",
       "stan_zrodla": [
         {
-          "nazwa": "Reuters (za RTÉ)",
-          "url": "https://www.rte.ie/news/world/2026/1123/1600353-russia-estonia-finland/",
-          "data": "2026-11-23"
+          "nazwa": "ERR",
+          "url": "https://err.ee/1610206441/kapo-saatis-venemaale-enefiti-olitehases-tootanud-mehe",
+          "data": "2026-11-25"
         },
         {
-          "nazwa": "Polsat News",
-          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-23/rosyjskie-msz-grzmi-na-kraj-nato-mowia-o-otwartej-wojnie/",
-          "data": "2026-11-23"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/estonia-deports-russian-national-over-suspected-ties-to-russian-intelligence/",
+          "data": "2026-11-25"
         }
       ],
-      "stan_data": "2026-11-23"
+      "stan_data": "2026-11-25"
     },
     {
       "id": "nordyckie",
@@ -512,15 +527,20 @@
       "nazwa": "WielkaBrytania",
       "grupa": "miejsce",
       "opis": "Polityka Wielkiej Brytanii i jej bezpieczeństwo.",
-      "stan": "Brytyjski urząd NPSA i Ministerstwo Obrony ostrzegły 24.11 dostawców sprzętu dla Ukrainy przed rosyjskim sabotażem.",
+      "stan": "Wielka Brytania i Polska podpisały 24.11 w Gdyni umowę o wspólnym opracowaniu pocisku CAMM-MR.",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/24/uk-warns-defence-suppliers-to-ukraine-over-russian-sabotage",
+          "nazwa": "PAP",
+          "url": "https://biznes.pap.pl/wiadomosci/ekonomia-biznes-i-finanse/skrot-wiadomosci-wtorek-24-listopada-2100",
+          "data": "2026-11-24"
+        },
+        {
+          "nazwa": "Defence24",
+          "url": "https://defence24.pl/polityka-obronna/polsko-brytyjskie-pociski-dla-miecznika-i-nie-tylko-podpisano-wazne-porozumienie",
           "data": "2026-11-24"
         }
       ],
-      "stan_data": "2026-11-24"
+      "stan_data": "2026-11-25"
     },
     {
       "id": "rumunia",
@@ -602,15 +622,20 @@
       "nazwa": "Gospodarka",
       "grupa": "temat",
       "opis": "Gospodarka w wymiarze geopolitycznym: sankcje, cła i wojny handlowe, surowce i szlaki handlowe, pomoc finansowa dla państw w kryzysie.",
-      "stan": "Według Reutersa administracja Trumpa zamierza zablokować import chińskiego sprzętu do centrów danych.",
+      "stan": "Administracja USA zaproponowała po dochodzeniu z sekcji 301 nowe cła na towary z 14 gospodarek; uwagi można składać do 5.01.2027.",
       "stan_zrodla": [
         {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/25/us-proposes-new-tariffs-on-14-major-trading-partners-the-eu-included",
+          "data": "2026-11-25"
+        },
+        {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/trumps-china-data-center-curb-advances-despite-amazon-google-meta-lobbying-2026-11-17/",
-          "data": "2026-11-17"
+          "url": "https://www.reuters.com/world/us/trump-administration-set-unveil-new-tariffs-after-probe-on-excess-factory-2026-11-24/",
+          "data": "2026-11-24"
         }
       ],
-      "stan_data": "2026-11-17"
+      "stan_data": "2026-11-25"
     },
     {
       "id": "inne",
@@ -637,20 +662,20 @@
       "nazwa": "Afryka",
       "grupa": "miejsce",
       "opis": "Wojny, przewroty i kryzysy w Afryce (Róg Afryki, Sudan, Sahel, Kongo).",
-      "stan": "Ukraińskie drony morskie zatopiły 22.11 rosyjską korwetę Merkury w libijskim Bengazi; władze wschodniej Libii odrzucają wciąganie kraju w konflikt.",
+      "stan": "Libijska Armia Narodowa zapowiedziała odwet za atak ukraińskich dronów na rosyjską korwetę w Bengazi.",
       "stan_zrodla": [
         {
-          "nazwa": "Reuters",
-          "url": "https://www.reuters.com/world/europe/zelenskiy-says-ukraine-sank-russian-corvette-near-libyas-coast-hit-cargo-ship-2026-11-23/",
-          "data": "2026-11-23"
+          "nazwa": "AP (newsletter)",
+          "url": "https://apnews.com/article/russia-ukraine-war-libya-drone-attack-warship-officers-5719d6750c0619695c7f23a373cecd7b",
+          "data": "2026-11-25"
         },
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/no-safe-routes-ukraine-sinks-russian-corvette-in-drone-attack-off-libyan-coast/",
-          "data": "2026-11-23"
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-25/ukrainski-atak-w-afryce-nie-zyje-dwoch-zolnierzy-libia-zapowiada-odwet/",
+          "data": "2026-11-25"
         }
       ],
-      "stan_data": "2026-11-23"
+      "stan_data": "2026-11-25"
     },
     {
       "id": "ameryki",

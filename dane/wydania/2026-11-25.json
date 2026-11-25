@@ -1,0 +1,632 @@
+{
+  "nr": 68,
+  "data": "2026-11-25",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Według Bloomberga Polska zaproponowała 23 listopada ambasadorom państw NATO, by **sojusz rozważył zestrzeliwanie nad Ukrainą rosyjskich pocisków lecących w stronę terytorium sojuszu**. Pomysł wymagałby zgody wszystkich państw członkowskich.",
+    "Polska i Wielka Brytania podpisały 24 listopada w Gdyni **umowę o wspólnym opracowaniu pocisku przeciwlotniczego CAMM-MR** o zasięgu ponad 100 km. W stoczni w Gdyni położono też stępkę pod trzecią fregatę programu Miecznik.",
+    "Niemieckie media, powołując się na zachodnie służby, podały, że **Rosja przygotowuje start satelity z głowicą jądrową**. Sekretarz generalny NATO Mark Rutte zapewnił, że wspólna obrona sojuszu obejmuje także zagrożenia w kosmosie.",
+    "Administracja USA zaproponowała **nowe cła na część towarów z 14 gospodarek: 15 proc. na towary z Unii Europejskiej i do 20 proc. na towary z Chin**. Uwagi można zgłaszać do 5 stycznia 2027 r."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-11-25",
+      "tagi": [
+        "ukraina",
+        "rosja"
+      ],
+      "etap": null,
+      "miejsce": "samara",
+      "krotko": "Ataki na rafinerie",
+      "tekst": "Ukraińskie drony zaatakowały w nocy na 25.11 **rafinerie Rosniefti w obwodzie samarskim i lotnisko wojskowe Sawaslejka w obwodzie niżnonowogrodzkim**; gubernator obwodu samarskiego potwierdził atak i śmierć jednej osoby, a Sztab Generalny Ukrainy podał, że trafiono trzy myśliwce MiG-31 i dwa bombowce Su-34. Rosja wysłała tej nocy na Ukrainę 112 dronów, z których według ukraińskich sił powietrznych 88 zestrzelono lub unieszkodliwiono; ataki zabiły co najmniej siedem osób w sześciu obwodach.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/25/russian-strikes-kill-seven-in-ukraine-as-kyiv-hits-three-refineries",
+          "data": "2026-11-25"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/ukrainian-drones-reportedly-strike-russian-oil-refineries-in-massive-attack/",
+          "data": "2026-11-25"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/5-russian-aircraft-hit-at-airfield-in-russias-nizhny-novgorod-oblast-general-staff-says/",
+          "data": "2026-11-25"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/25/ukrainian-drones-strike-russia-s-samara-region-killing-one-and-setting-two-rosneft-oil-refineries-ablaze",
+          "data": "2026-11-25"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-11-25",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "afryka"
+      ],
+      "etap": null,
+      "miejsce": "bengazi",
+      "krotko": "Odwet zapowiedziany w Libii",
+      "tekst": "Dowództwo {{p:lna|Libijskiej Armii Narodowej}}, która kontroluje wschód Libii, **zapowiedziało 25.11 odwet „w stosownym czasie i miejscu” za niedzielny atak ukraińskich dronów na rosyjską korwetę w bazie marynarki w Bengazi**. Według AP atak przeniósł wojnę Rosji z Ukrainą do Afryki Północnej.",
+      "kraje": [
+        "Libia"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "AP (newsletter)",
+          "url": "https://apnews.com/article/russia-ukraine-war-libya-drone-attack-warship-officers-5719d6750c0619695c7f23a373cecd7b",
+          "data": "2026-11-25"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/25/two-libyan-soldiers-die-after-ukraine-attack-on-russian-vessel",
+          "data": "2026-11-25"
+        },
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-25/ukrainski-atak-w-afryce-nie-zyje-dwoch-zolnierzy-libia-zapowiada-odwet/",
+          "data": "2026-11-25"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "polska",
+      "data": "2026-11-25",
+      "tagi": [
+        "obronnosc-polski",
+        "nato",
+        "rosja",
+        "ukraina"
+      ],
+      "etap": "PROPOZYCJA",
+      "miejsce": "bruksela",
+      "krotko": "Polski wniosek w NATO",
+      "tekst": "Według Bloomberga Polska zaproponowała 23.11 na posiedzeniu ambasadorów NATO w Brukseli, by **sojusz rozważył zestrzeliwanie nad Ukrainą rosyjskich pocisków lecących w stronę terytorium NATO**; część państw poparła pomysł, ale decyzji nie podjęto, a wymagałaby ona jednomyślności. Według Kyiv Independent {{o:cezary-tomczyk|wiceminister obrony narodowej Cezary Tomczyk}} zapowiedział, że do przełomu grudnia i stycznia rząd wprowadzi strefę zakazu lotów szerszą niż 10 km wzdłuż granicy z Ukrainą.",
+      "zrodla": [
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/25/bloomberg-poland-proposes-that-nato-consider-shooting-down-russian-missiles-over-ukraine-headed-toward-alliance-territory",
+          "data": "2026-11-25"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/poland-plans-no-fly-zone-near-ukraine-border-asks-nato-to-intercept-russian-missiles-over-ukraine/",
+          "data": "2026-11-25"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "polska",
+      "data": "2026-11-24",
+      "tagi": [
+        "przemysl-zbrojeniowy",
+        "uzbrojenie",
+        "wielka-brytania"
+      ],
+      "etap": "PRZYJĘTE",
+      "miejsce": "gdynia",
+      "krotko": "Umowa o CAMM-MR",
+      "tekst": "{{o:magdalena-sobkowiak-czarnecka|Wiceminister obrony narodowej Magdalena Sobkowiak-Czarnecka}} i brytyjski minister ds. zakupów obronnych {{o:luke-pollard|Luke Pollard}} podpisali 24.11 w Gdyni **umowę międzyrządową o wspólnym opracowaniu pocisku przeciwlotniczego {{p:camm-mr|CAMM-MR}}** o zasięgu ponad 100 km, przeznaczonego dla fregat {{p:miecznik|Miecznik}} i systemu {{p:narew|Narew}}. Kolejnym krokiem ma być umowa wykonawcza z Polską Grupą Zbrojeniową i MBDA UK. Tego samego dnia w PGZ Stoczni Wojennej w Gdyni położono stępkę pod ORP Huragan, trzecią fregatę programu Miecznik.",
+      "zrodla": [
+        {
+          "nazwa": "Agencja Uzbrojenia (MON)",
+          "url": "https://www.wojsko-polskie.pl/au/aktualnosci/polsko-brytyjskie-pociski-na-dobrym-kursie/",
+          "data": "2026-11-24"
+        },
+        {
+          "nazwa": "Agencja Uzbrojenia (MON)",
+          "url": "https://www.wojsko-polskie.pl/au/aktualnosci/huragan-przybiera-na-sile-budowa-trzeciego-miecznika-wchodzi-w-decydujacy-etap/",
+          "data": "2026-11-24"
+        },
+        {
+          "nazwa": "PAP",
+          "url": "https://biznes.pap.pl/wiadomosci/ekonomia-biznes-i-finanse/skrot-wiadomosci-wtorek-24-listopada-2100",
+          "data": "2026-11-24"
+        },
+        {
+          "nazwa": "Defence24",
+          "url": "https://defence24.pl/polityka-obronna/polsko-brytyjskie-pociski-dla-miecznika-i-nie-tylko-podpisano-wazne-porozumienie",
+          "data": "2026-11-24"
+        },
+        {
+          "nazwa": "Defence24",
+          "url": "https://defence24.pl/sily-zbrojne/trzecia-stepka-polozona-budowa-fregat-miecznik-postepuje-foto",
+          "data": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "instytucje",
+      "data": "2026-11-23",
+      "tagi": [
+        "rosja",
+        "nato",
+        "niemcy"
+      ],
+      "etap": null,
+      "miejsce": "berlin",
+      "krotko": "Rosyjski satelita jądrowy",
+      "tekst": "Niemieckie media NDR, WDR i „Süddeutsche Zeitung” podały 23.11, powołując się na zachodnie służby, że **Rosja przygotowuje w ciągu kilku tygodni start satelity Sputnik-S z głowicą jądrową**; rząd Niemiec nie potwierdził doniesień, ale uznał je za „bardzo poważne”, a niemieckie MSZ nazwało rozmieszczenie broni jądrowej w kosmosie rażącym naruszeniem {{p:traktat-kosmiczny|traktatu o przestrzeni kosmicznej z 1967 r.}} {{o:mark-rutte|Sekretarz generalny NATO Mark Rutte}} zapewnił 24.11 w Berlinie, że zobowiązanie sojuszu do wspólnej obrony obejmuje też zagrożenia w kosmosie; rzecznik Kremla {{o:dmitrij-pieskow|Dmitrij Pieskow}} odrzucił doniesienia jako oparte na nieznanych źródłach.",
+      "zrodla": [
+        {
+          "nazwa": "AFP (za t-online)",
+          "url": "https://www.t-online.de/nachrichten/deutschland/militaer-verteidigung/id_101542738/atomwaffen-im-all-besorgte-reaktionen-nach-bericht-zu-russischen-plaenen.html",
+          "data": "2026-11-23"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/25/europe-tonight-trump-unveils-new-tariffs-amid-russian-nuclear-space-threat",
+          "data": "2026-11-25"
+        },
+        {
+          "nazwa": "UNN",
+          "url": "https://unn.ua/en/news/nato-secretary-general-promises-protection-from-a-space-threat-following-reports-of-a-russian-nuclear-satellite",
+          "data": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "id": "z6",
+      "blok": "instytucje",
+      "data": "2026-11-25",
+      "tagi": [
+        "estonia",
+        "rosja",
+        "hybryda"
+      ],
+      "etap": null,
+      "tekst": "Policja Bezpieczeństwa Estonii ({{p:kapo|KAPO}}) poinformowała 25.11, że **wydaliła do Rosji obywatela rosyjskiego Antona Zujewa, który według jej oceny utrzymywał kontakty z rosyjskimi służbami specjalnymi**. Mężczyzna pracował w zakładzie przetwórstwa łupków naftowych Enefit w Auvere; to kolejne w tym roku wydalenie Rosjanina z Estonii z powodu zagrożenia dla bezpieczeństwa.",
+      "zrodla": [
+        {
+          "nazwa": "ERR",
+          "url": "https://err.ee/1610206441/kapo-saatis-venemaale-enefiti-olitehases-tootanud-mehe",
+          "data": "2026-11-25"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/estonia-deports-russian-national-over-suspected-ties-to-russian-intelligence/",
+          "data": "2026-11-25"
+        }
+      ]
+    },
+    {
+      "id": "z7",
+      "blok": "swiat",
+      "data": "2026-11-25",
+      "tagi": [
+        "usa",
+        "chiny"
+      ],
+      "etap": null,
+      "tekst": "Według AP **ława przysięgłych w USA uznała chiński koncern Huawei winnym kradzieży tajemnic handlowych** w procesie o zorganizowaną działalność przestępczą. Wyrok zapadł w czasie sporu Waszyngtonu z Pekinem o dostęp Chin do zaawansowanych technologii.",
+      "zrodla": [
+        {
+          "nazwa": "AP (newsletter)",
+          "url": "https://apnews.com/article/huawei-racketeering-trial-verdict-b39ac780e2e31140015a1be02f0329ab",
+          "data": "2026-11-25"
+        }
+      ]
+    },
+    {
+      "id": "z8",
+      "blok": "gospodarka",
+      "data": "2026-11-24",
+      "tagi": [
+        "usa",
+        "ue",
+        "chiny",
+        "gospodarka"
+      ],
+      "etap": "PROPOZYCJA",
+      "miejsce": "waszyngton",
+      "krotko": "Nowe cła USA",
+      "tekst": "Biuro Przedstawiciela Handlowego USA ({{p:ustr|USTR}}) zaproponowało po dochodzeniu z {{p:sekcja-301|sekcji 301}} ustawy o handlu **nowe cła na część towarów z 14 gospodarek, w tym 15 proc. dla Unii Europejskiej i do 20 proc. dla Chin**; z ceł dla UE wyłączono m.in. samochody, stal, aluminium i półprzewodniki. Uwagi można składać do 5 stycznia 2027 r., a przesłuchania zaczną się 25 stycznia; Komisja Europejska odrzuciła zarzut, że Europa jest źródłem nadwyżek mocy produkcyjnych.",
+      "kraje": [
+        "Japonia",
+        "Korea Południowa",
+        "Indie",
+        "Szwajcaria"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/25/us-proposes-new-tariffs-on-14-major-trading-partners-the-eu-included",
+          "data": "2026-11-25"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/us/trump-administration-set-unveil-new-tariffs-after-probe-on-excess-factory-2026-11-24/",
+          "data": "2026-11-24"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "Kyiv Independent: ukraińskie uderzenia od Krymu po Morze Śródziemne poszerzają geografię wojny",
+      "autor": "Tania Myronyshena, Jonas Heins (Kyiv Independent), 25.11.2026; oceny: Nona Mikhelidze (Istituto Affari Internazionali), Mykoła Nazarow (Centrum Bezpieczeństwa im. Sahajdacznego), Catarina Buchatskyi (Serpens)",
+      "tekst": "Autorzy zestawiają zawalenie się przęsła Mostu Krymskiego 17.11, atak na statek Sparta II w Zatoce Fińskiej 21.11 i zatopienie rosyjskiej korwety u wybrzeży Libii. Nona Mikhelidze ocenia, że założenie o niezwyciężoności Rosji coraz trudniej obronić. Mykoła Nazarow uważa, że Ukraina nie eskaluje wojny, tylko poszerza obszar ryzyka dla rosyjskiej armii, a skutki na Bałtyku będą widoczne dopiero za kilka tygodni.",
+      "dla_polski": "Ataki na rosyjską żeglugę na Bałtyku zbliżają działania wojenne do polskich szlaków morskich. Rośnie ryzyko incydentów i rosyjskich działań odwetowych w regionie.",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "krolewiec"
+      ],
+      "kraje": [
+        "Libia",
+        "Finlandia"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/from-crimea-to-kaliningrad-do-ukraines-latest-strikes-signal-a-broader-campaign-2/",
+          "data": "2026-11-25"
+        }
+      ]
+    },
+    {
+      "tytul": "Meduza i Mediazona: w wojnie z Ukrainą zginęło co najmniej 700 tys. rosyjskich żołnierzy",
+      "autor": "Redakcje Meduzy i Mediazony, 25.11.2026",
+      "tekst": "Dziennikarze obu redakcji szacują na podstawie m.in. wykradzionej bazy danych rosyjskiego urzędu statystycznego Rosstat, że w ciągu prawie pięciu lat pełnoskalowej wojny zginęło co najmniej 700 tys. rosyjskich żołnierzy. Dla porównania liczba ta przewyższa straty USA w II wojnie światowej i liczbę chłopców urodzonych w Rosji w 2024 r. Rzecznik Kremla Dmitrij Pieskow wezwał, by ufać wyłącznie danym rosyjskiego Ministerstwa Obrony.",
+      "dla_polski": "Skala strat pokazuje, że Rosja jest gotowa ponosić bardzo wysokie koszty wojny. To przemawia za utrzymaniem presji sankcyjnej i wzmacnianiem obrony wschodniej flanki NATO.",
+      "tagi": [
+        "rosja",
+        "ukraina"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/11/25/more-than-700-000-russian-soldiers-have-died-in-ukraine-more-than-the-u-s-lost-in-world-war-ii-or-the-number-of-boys-born-in-russia-in-a-single-year",
+          "data": "2026-11-25"
+        }
+      ]
+    },
+    {
+      "tytul": "Sebastian Schäffer: wybory w Ukrainie nie mogą być ustępstwem wymuszonym z zewnątrz",
+      "autor": "Sebastian Schäffer (Instytut Regionu Dunaju i Europy Środkowej IDM, Wiedeń), Kyiv Independent, 25.11.2026",
+      "tekst": "Autor ocenia, że warunki do uczciwych wyborów w Ukrainie jeszcze nie istnieją. Miliony obywateli przebywają za granicą, w wojsku lub pod okupacją i nie mogłyby głosować. Pospieszne wybory pozwoliłyby Moskwie podważać legitymację nowych władz, dlatego Unia Europejska powinna już teraz przygotowywać rozwiązania dla głosowania wszystkich uprawnionych.",
+      "dla_polski": "Polska jest jednym z państw z największą liczbą obywateli Ukrainy. Przy przyszłych wyborach ukraińskich będzie potrzebna do organizacji głosowania za granicą.",
+      "tagi": [
+        "ukraina",
+        "ue"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/ukraines-next-election/",
+          "data": "2026-11-25"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-11-26",
+      "tekst": "26–27.11: Bruksela – nadzwyczajna Rada Europejska w sprawie wieloletnich ram finansowych 2028–2034, z udziałem prezydenta Ukrainy (termin wstępny).",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-28",
+      "tekst": "28.11: Tajwan – wybory lokalne.",
+      "tagi": [
+        "chiny",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-11-29",
+      "tekst": "29.11: Hiszpania – przedterminowe wybory parlamentarne.",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-12-01",
+      "tekst": "1.12: Estonia – zamknięcie przejść granicznych z Rosją.",
+      "tagi": [
+        "estonia"
+      ],
+      "poza_kalendarium": "Decyzja administracyjna państwa, nie spotkanie ani wybory."
+    },
+    {
+      "data": "2026-12-03",
+      "tekst": "3–4.12: Lugano – 33. Rada Ministerialna OBWE.",
+      "tagi": [
+        "inne"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [
+      {
+        "tytul": "Ukraińcy atakują na Bałtyku i Morzu Śródziemnym. 1735. dzień wojny",
+        "autor": "Andrzej Wilk, Mateusz Goliszewski, Krzysztof Nieczypor",
+        "data": "2026-11-24",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-24/ukraincy-atakuja-na-baltyku-i-morzu-srodziemnym-1735-dzien-wojny"
+      }
+    ],
+    "pism": [],
+    "nieodczytane": [
+      "pism"
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n2",
+      "prog": "dokumentacja",
+      "tekst": "Unia Europejska: według Euronews posłowie do Parlamentu Europejskiego ostrzegli przewodniczącego Rady Europejskiej António Costę, że nie zatwierdzą wieloletnich ram finansowych z proponowanym 10-procentowym cięciem budżetu.",
+      "sprawdzono": [
+        "Euronews 25.11 (poziom 2)",
+        "Kanał RSS Kyiv Independent 25.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 25.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n3",
+      "prog": "dokumentacja",
+      "tekst": "Bałkany Zachodnie: według Euronews przywódca Serbii nie przyjechał na szczyt UE–Bałkany Zachodnie w Brukseli 25.11, tłumacząc to pracami parlamentu; ustaleń szczytu nie udało się sprawdzić.",
+      "sprawdzono": [
+        "Euronews 25.11 (poziom 2)",
+        "Kanał RSS Kyiv Independent 25.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 25.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n4",
+      "prog": "następstwo",
+      "tekst": "Iran: według Reutersa pierwszy wiceprezydent Iranu powiedział, że Teheran nie obawia się amerykańskiej blokady morskiej, bo wzrósł przewóz towarów przez inne granice, a rząd próbuje hamować wzrost cen.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/iran-says-it-is-prepared-withstand-us-blockade-seeks-curb-price-rises-2026-11-25/",
+          "data": "2026-11-25"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "prog": "następstwo",
+      "tekst": "Izrael: według Reutersa lewicowe ugrupowanie zawiesiło rozmowy koalicyjne z byłym szefem sztabu generalnego Gadim Ejzenkotem, który próbuje utworzyć rząd.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/israels-eisenkot-clinches-first-coalition-agreement-bid-form-government-2026-11-24/",
+          "data": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "prog": "następstwo",
+      "tekst": "Ukraina: według Kyiv Independent Rada Najwyższa poparła przystąpienie Ukrainy do komitetu zarządzającego Specjalnego Trybunału ds. Zbrodni Agresji wobec Ukrainy; Finlandia i Norwegia przeznaczyły prawie 60 mln dolarów na naprawy ukraińskiej energetyki.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/parliament-backs-ukraines-joining-management-committee-of-special-tribunal-on-russian-aggression/",
+          "data": "2026-11-25"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/finland-norway-pledge-nearly-60-million-to-support-ukraines-energy-sector-repairs/",
+          "data": "2026-11-25"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "prog": "dokumentacja",
+      "tekst": "USA i Ukraina: według Meduzy (za „New York Post”) prezydent USA Donald Trump powiedział 24.11, że nie wyznacza terminu zakończenia wojny w Ukrainie; odpowiadał na słowa prezydenta Wołodymyra Zełenskiego, według którego amerykańscy wysłannicy chcą porozumienia do stycznia.",
+      "sprawdzono": [
+        "Meduza 25.11 (poziom 2)",
+        "Polsat News 25.11 (poziom 3)",
+        "Kanał RSS Kyiv Independent 25.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n8",
+      "prog": "dokumentacja",
+      "tekst": "Arabia Saudyjska i Jemen: według CNBC jemeńscy Huti ogłosili 25.11 atak na rafinerię Ras Tanura; koalicja pod wodzą Arabii Saudyjskiej podała, że zestrzeliła cztery drony.",
+      "sprawdzono": [
+        "CNBC 25.11 (poziom 2)",
+        "Al Jazeera 25.11 (poziom 3): relacja na żywo",
+        "Kanał RSS Euronews 25.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n9",
+      "prog": "dokumentacja",
+      "tekst": "Iran: według Al Jazeery (za irańską armią) tankowiec wszedł 25.11 na minę w Cieśninie Ormuz i zapalił się.",
+      "sprawdzono": [
+        "Al Jazeera 25.11 (poziom 3): relacja na żywo",
+        "Kanał RSS Euronews 25.11: brak wzmianki",
+        "Kanał RSS Kyiv Independent 25.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n10",
+      "prog": "dokumentacja",
+      "tekst": "Polska: według „Rzeczpospolitej” dwoje obywateli Serbii jest poszukiwanych jako podejrzani o podpalenie zakładu WB Electronics w Skarżysku-Kamiennej na zlecenie obcego wywiadu; Interpol odmówił wydania czerwonej noty.",
+      "sprawdzono": [
+        "Rzeczpospolita 25.11 (poziom 2)",
+        "Prokuratura Krajowa (gov.pl): brak komunikatu",
+        "Kanał RSS Polsat News Świat 25.11: brak wzmianki"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-11-24#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 25.11: brak wzmianki",
+        "Kanał RSS Euronews 25.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 25.11: brak wzmianki"
+      ],
+      "powod": "Kwotę 7 mld dolarów pomocy Norwegii na 2027 r. nadal podaje tylko Kyiv Independent; komunikatu rządu Norwegii nie znaleziono."
+    },
+    {
+      "dotyczy": "2026-11-24#n2",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 25.11: brak wzmianki",
+        "Kanał RSS Euronews 25.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 25.11: brak wzmianki"
+      ],
+      "powod": "Liczbę 355 dronów nad Moskwą podaje tylko Meduza za merem Moskwy."
+    },
+    {
+      "dotyczy": "2026-11-24#n3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 25.11: brak wzmianki",
+        "Kanał RSS Euronews 25.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 25.11: brak wzmianki"
+      ],
+      "powod": "Wstrzymanie pocisków dla Ukrainy znane jest z „Financial Times”; PAP podała tylko komentarz rzecznika Pentagonu bez potwierdzenia."
+    },
+    {
+      "dotyczy": "2026-11-24#n4",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 25.11: brak wzmianki",
+        "Kanał RSS Euronews 25.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 25.11: brak wzmianki"
+      ],
+      "powod": "Dane z Rosstatu opisują tylko Euronews i Meduza; 25.11 Meduza i Mediazona podały nowe szacunki (analiza w tym wydaniu)."
+    },
+    {
+      "dotyczy": "2026-11-24#n5",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 25.11: brak wzmianki",
+        "Kanał RSS Euronews 25.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 25.11: brak wzmianki"
+      ],
+      "powod": "Nominację Rosjanina na zastępcę dyrektora generalnego MAEA opisują Kyiv Independent i Polsat News; komunikatu MAEA nie znaleziono."
+    },
+    {
+      "dotyczy": "2026-11-24#n6",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 25.11: brak wzmianki",
+        "Kanał RSS Euronews 25.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 25.11: brak wzmianki"
+      ],
+      "powod": "Zapewnienie prezydenta Argentyny podaje tylko Polsat News za ministrem Marcinem Przydaczem."
+    },
+    {
+      "dotyczy": "2026-11-24#n7",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 25.11: brak wzmianki",
+        "Kanał RSS Euronews 25.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 25.11: brak wzmianki"
+      ],
+      "powod": "Obywatelstwo Serbii dla syna Ramzana Kadyrowa opisuje tylko Meduza za Fundacją Walki z Korupcją."
+    },
+    {
+      "dotyczy": "2026-11-24#n8",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Meduza 25.11 (poziom 2)",
+        "Kanał RSS Kyiv Independent 25.11: brak wzmianki",
+        "Kanał RSS Euronews 25.11: brak wzmianki"
+      ],
+      "powod": "Aresztowanie gubernatora obwodu murmańskiego Andrieja Czibisa przez sąd w Moskwie 25.11 podaje tylko Meduza."
+    },
+    {
+      "dotyczy": "2026-11-24#n9",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 25.11: brak wzmianki",
+        "Kanał RSS Euronews 25.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 25.11: brak wzmianki"
+      ],
+      "powod": "Rozpoczęcie budowy korytarza TRIPP podaje tylko Euronews."
+    },
+    {
+      "dotyczy": "2026-11-24#n10",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 25.11: brak wzmianki",
+        "Kanał RSS Euronews 25.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 25.11: brak wzmianki"
+      ],
+      "powod": "Zapowiedź rezerw surowców krytycznych we Francji podaje tylko Euronews; komunikatu Pałacu Elizejskiego nie znaleziono."
+    },
+    {
+      "dotyczy": "2026-11-24#n11",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 25.11: brak wzmianki",
+        "Kanał RSS Euronews 25.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 25.11: brak wzmianki"
+      ],
+      "powod": "Dostosowanie sankcji przez Mołdawię podaje tylko Kyiv Independent."
+    },
+    {
+      "dotyczy": "2026-11-24#n17",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 25.11: brak wzmianki",
+        "Kanał RSS Euronews 25.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 25.11: brak wzmianki"
+      ],
+      "powod": "Liczbę tankowców podają tylko irańskie wojsko i Al Jazeera."
+    },
+    {
+      "dotyczy": "2026-11-24#n18",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 25.11: brak wzmianki",
+        "Kanał RSS Euronews 25.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 25.11: brak wzmianki"
+      ],
+      "powod": "Liczbę rannych w Rijadzie podaje tylko Al Jazeera; komunikatu władz saudyjskich nie znaleziono."
+    },
+    {
+      "dotyczy": "2026-11-24#n19",
+      "wynik": "ODPADA",
+      "powod": "Kreml nie podał terminu nowej rundy rozmów; nie ma nowego faktu."
+    }
+  ],
+  "do_sprawdzenia": [
+    "Polski wniosek w NATO o zestrzeliwanie pocisków nad Ukrainą – stanowisko MON i NATO",
+    "Strefa zakazu lotów przy granicy z Ukrainą – projekt rozporządzenia",
+    "Rada Europejska 26–27.11 – przebieg rozmów o wieloletnich ramach finansowych",
+    "Szczyt UE–Bałkany Zachodnie 25.11 – deklaracja",
+    "Rosyjski satelita Sputnik-S – stanowisko USA i NATO",
+    "Libia – działania Libijskiej Armii Narodowej po zapowiedzi odwetu",
+    "Nowe cła USA – reakcja Rady UE i Chin",
+    "PISM – lista publikacji, jeśli się otworzy",
+    "Agencja Uzbrojenia i PGZ – umowy",
+    "Podpalenie WB Electronics w Skarżysku-Kamiennej – komunikat prokuratury o poszukiwanych obywatelach Serbii"
+  ],
+  "nota": "Listy publikacji PISM nie udało się odczytać (listy działów Komentarze i Biuletyny, pism.pl/publikacje i wersja angielska zwróciły blokadę antybotową). Dział Świat Onetu niesprawdzony: wyszukiwarka nie zwróciła nagłówków działu z 25.11. Komunikaty Agencji Uzbrojenia i MON na stronach wojsko-polskie.pl zablokowane testem antybotowym."
+}

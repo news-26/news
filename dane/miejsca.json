@@ -1006,6 +1006,13 @@
       "lon": 23.8,
       "lat": 51.17,
       "kraj": "Polska"
+    },
+    {
+      "id": "gdynia",
+      "nazwa": "Gdynia",
+      "lon": 18.53,
+      "lat": 54.52,
+      "kraj": "Polska"
     }
   ]
 }

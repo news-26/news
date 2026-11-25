@@ -498,6 +498,48 @@
       "nazwa": "Rada Europejska",
       "definicja": "Instytucja UE złożona z szefów państw i rządów państw członkowskich; wyznacza kierunki polityki Unii i rozstrzyga sprawy sporne, m.in. budżet wieloletni.",
       "pelna": "Rada Europejska (European Council)"
+    },
+    {
+      "id": "camm-mr",
+      "nazwa": "CAMM-MR",
+      "pelna": "Common Anti-air Modular Missile – Medium Range",
+      "definicja": "Planowany pocisk przeciwlotniczy średniego zasięgu (ponad 100 km), rozwijany wspólnie przez Polskę i Wielką Brytanię na bazie brytyjskich pocisków CAMM i CAMM-ER produkowanych przez MBDA UK."
+    },
+    {
+      "id": "miecznik",
+      "nazwa": "Miecznik",
+      "definicja": "Program budowy trzech wielozadaniowych fregat dla Marynarki Wojennej RP w PGZ Stoczni Wojennej w Gdyni, na bazie brytyjskiego projektu Arrowhead 140; okręty to ORP Wicher, ORP Burza i ORP Huragan.",
+      "pelna": "Program fregat wielozadaniowych Miecznik"
+    },
+    {
+      "id": "narew",
+      "nazwa": "Narew",
+      "definicja": "Polski program obrony powietrznej krótkiego zasięgu, oparty na pociskach CAMM produkowanych we współpracy MBDA UK i Polskiej Grupy Zbrojeniowej.",
+      "pelna": "Program obrony powietrznej krótkiego zasięgu Narew"
+    },
+    {
+      "id": "lna",
+      "nazwa": "LNA",
+      "pelna": "Libijska Armia Narodowa",
+      "definicja": "Siły zbrojne kontrolujące wschód Libii, dowodzone przez marszałka Chalifę Haftara; utrzymują bliskie stosunki z Rosją."
+    },
+    {
+      "id": "traktat-kosmiczny",
+      "nazwa": "Traktat o przestrzeni kosmicznej",
+      "definicja": "Umowa międzynarodowa z 1967 r., która zakazuje umieszczania broni jądrowej i innej broni masowego rażenia na orbicie okołoziemskiej i ciałach niebieskich; stronami są m.in. USA i Rosja.",
+      "pelna": "Traktat o zasadach działalności państw w zakresie badań i użytkowania przestrzeni kosmicznej (1967)"
+    },
+    {
+      "id": "ustr",
+      "nazwa": "USTR",
+      "pelna": "Biuro Przedstawiciela Handlowego Stanów Zjednoczonych",
+      "definicja": "Urząd administracji USA odpowiedzialny za politykę handlową, negocjacje handlowe i postępowania w sprawie ceł."
+    },
+    {
+      "id": "sekcja-301",
+      "nazwa": "Sekcja 301",
+      "definicja": "Przepis amerykańskiej ustawy o handlu z 1974 r., który pozwala przedstawicielowi handlowemu USA nakładać cła i inne środki na państwa, których praktyki handlowe uznano za nieuzasadnione lub dyskryminujące.",
+      "pelna": "Sekcja 301 ustawy o handlu USA z 1974 r. (Trade Act)"
     }
   ]
 }

@@ -1013,6 +1013,20 @@
       "lon": 18.53,
       "lat": 54.52,
       "kraj": "Polska"
+    },
+    {
+      "id": "palm-beach",
+      "nazwa": "Palm Beach",
+      "lon": -80.04,
+      "lat": 26.71,
+      "kraj": "usa"
+    },
+    {
+      "id": "lask",
+      "nazwa": "Łask",
+      "lon": 19.13,
+      "lat": 51.59,
+      "kraj": "Polska"
     }
   ]
 }

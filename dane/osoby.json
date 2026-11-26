@@ -8,8 +8,13 @@
       "kraj": [
         "usa"
       ],
-      "zweryfikowano": "2026-11-20",
+      "zweryfikowano": "2026-11-26",
       "zrodla": [
+        {
+          "nazwa": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/26/trump-nato-rutte-russia-ukraine-war.html",
+          "data": "2026-11-26"
+        },
         {
           "nazwa": "Meduza",
           "url": "https://meduza.io/en/news/2026/11/20/trump-says-putin-launched-a-couple-of-small-missiles-into-poland-by-accident-a-couple-of-little-missiles",
@@ -87,8 +92,13 @@
       "kraj": [
         "niemcy"
       ],
-      "zweryfikowano": "2026-11-12",
+      "zweryfikowano": "2026-11-26",
       "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/solidarity-and-winter-top-eu-agenda-as-leaders-discuss-new-support-for-ukraine/",
+          "data": "2026-11-26"
+        },
         {
           "nazwa": "Euronews",
           "url": "https://www.euronews.com/2026/11/12/europe-tells-russia-our-security-architecture-is-for-us-to-decide",
@@ -172,8 +182,13 @@
       "kraj": [
         "obronnosc-polski"
       ],
-      "zweryfikowano": "2026-11-18",
+      "zweryfikowano": "2026-11-26",
       "zrodla": [
+        {
+          "nazwa": "MON (za Portal Obronny)",
+          "url": "https://portalobronny.se.pl/lotnictwo/nowe-f-35-juz-w-polsce-minister-kosiniak-kamysz-potwierdza-ladowanie-w-32-bazie-aa-qVSb-VGhR-GPBr.html",
+          "data": "2026-11-26"
+        },
         {
           "nazwa": "PAP (za RMF24)",
           "url": "https://www.rmf24.pl/fakty/polska/news-wiedzielismy-szef-mon-o-udaremnieniu-rosyjskiej-operacji-prz,nIdn,1026702",
@@ -1165,8 +1180,13 @@
       "kraj": [
         "bulgaria"
       ],
-      "zweryfikowano": "2026-10-22",
+      "zweryfikowano": "2026-11-26",
       "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/26/after-initial-reluctance-bulgaria-says-its-ready-to-join-45-billion-ukraine-loan",
+          "data": "2026-11-26"
+        },
         {
           "nazwa": "Rząd Bułgarii (gov.bg)",
           "url": "https://gov.bg/en/Cabinet/Prime-Minister/Rumen-Radev",
@@ -2186,6 +2206,33 @@
           "url": "https://defence24.pl/polityka-obronna/polsko-brytyjskie-pociski-dla-miecznika-i-nie-tylko-podpisano-wazne-porozumienie",
           "data": "2026-11-24"
         }
+      ]
+    },
+    {
+      "id": "kim-dzong-un",
+      "imie": "Kim Dzong Un",
+      "funkcja": "Przywódca Korei Północnej (przewodniczący Komisji Spraw Państwowych).",
+      "kraj": [
+        "inne"
+      ],
+      "panstwo": "Korea Północna",
+      "zweryfikowano": "2026-11-26",
+      "zrodla": [
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/26/kim-jong-un-says-north-korea-should-widen-deployment-of-tactical-nukes",
+          "data": "2026-11-26"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/26/images-show-kim-jong-un-inspecting-north-korean-nuclear-facilities",
+          "data": "2026-11-26"
+        }
+      ],
+      "formy": [
+        "Kim Dzong Una",
+        "Kim Dzong Unem",
+        "Kim Dzong Unowi"
       ]
     }
   ]

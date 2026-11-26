@@ -1,0 +1,690 @@
+{
+  "nr": 69,
+  "data": "2026-11-26",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Przywódcy Unii Europejskiej rozpoczęli 26 listopada w Brukseli nadzwyczajny szczyt o **budżecie Unii na lata 2028–2034 i proponowanej przez Komisję Europejską pożyczce dla Ukrainy w wysokości 45 mld euro**. Kanclerz Niemiec Friedrich Merz domaga się, by w finansowaniu Ukrainy uczestniczyły wszystkie 27 państw.",
+    "Prezydent USA Donald Trump i sekretarz generalny NATO Mark Rutte podkreślili we wspólnym oświadczeniu, że **Rosja powinna unikać działań, które rozszerzyłyby wojnę w Ukrainie**. Spotkali się 25 listopada na Florydzie.",
+    "Dwóch Włochów pracujących dla niemieckiego koncernu Rheinmetall zginęło 26 listopada w Kuwejcie od szczątków zestrzelonych dronów. Kuwejt przypisał **atak Iranowi**, a Teheran temu zaprzecza.",
+    "Do bazy lotnictwa taktycznego w Łasku przyleciały 26 listopada **dwa kolejne myśliwce F-35**. Polska ma już 12 z 32 zamówionych maszyn.",
+    "Przywódca Korei Północnej Kim Dzong Un wezwał do **rozmieszczania taktycznej broni jądrowej w wielu rodzajach sił zbrojnych**. Uznał status atomowy swojego państwa za nienaruszalny."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-11-26",
+      "tagi": [
+        "ukraina",
+        "rosja"
+      ],
+      "etap": null,
+      "miejsce": "kijow",
+      "krotko": "Atak balistyczny na Kijów",
+      "tekst": "Rosja zaatakowała w nocy na 26.11 Kijów pociskami balistycznymi i dronami; **trafiony został ośrodek handlowy, a siedem osób zostało rannych**. Według ukraińskich władz rosyjskie ataki zabiły w ciągu doby w Ukrainie 10 osób, w tym dwie w Charkowie; ukraińskie drony zaatakowały tej nocy zakłady azotowe w Newinnomyssku w Kraju Stawropolskim, które produkują m.in. saletrę amonową do materiałów wybuchowych.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-attacks-kill-10-injure-58-across-ukraine-over-past-day-strike-kyiv-with-ballistic-missiles/",
+          "data": "2026-11-26"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russia-slams-kyiv-in-ballistic-missile-attack-hits-shopping-center/",
+          "data": "2026-11-25"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/26/russian-strikes-on-ukraine-kill-two-in-kharkiv-and-injure-seven-in-kyiv",
+          "data": "2026-11-26"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/26/russia-launches-ballistic-missile-and-drone-barrage-on-ukraine-killing-at-least-three",
+          "data": "2026-11-26"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/ukrainian-drones-attack-key-russian-fertilizer-plant-linked-to-explosives-production-in-stavropol-krai-local-official-says/",
+          "data": "2026-11-26"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-11-25",
+      "tagi": [
+        "usa",
+        "nato",
+        "rosja"
+      ],
+      "etap": null,
+      "miejsce": "palm-beach",
+      "krotko": "Trump i Rutte",
+      "tekst": "{{o:donald-trump|Prezydent USA Donald Trump}} i {{o:mark-rutte|sekretarz generalny NATO Mark Rutte}} spotkali się wieczorem 25.11 w rezydencji Mar-a-Lago w Palm Beach na Florydzie; we wspólnym oświadczeniu z 26.11 **podkreślili, że Rosja powinna unikać działań, które celowo lub przypadkowo rozszerzyłyby wojnę w Ukrainie**, i wezwali do jak najszybszego pokojowego rozwiązania. Według Kyiv Independent Trump napisał 26.11, że w rozmowach w Chinach wezwał {{o:wladimir-putin|prezydenta Rosji Władimira Putina}} do wycofania „wszelkiej agresji wojskowej” wobec terytoriów w Europie.",
+      "zrodla": [
+        {
+          "nazwa": "NATO (nato.int)",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/26/joint-statement-by-the-president-of-the-united-states-of-america-and-the-nato-secretary-general",
+          "data": "2026-11-26"
+        },
+        {
+          "nazwa": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/26/trump-nato-rutte-russia-ukraine-war.html",
+          "data": "2026-11-26"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/trump-tells-putin-to-pull-back-all-military-aggression-across-europe/",
+          "data": "2026-11-26"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "wojna",
+      "data": "2026-11-26",
+      "tagi": [
+        "usa",
+        "rosja",
+        "ukraina"
+      ],
+      "etap": null,
+      "tekst": "{{o:jared-kushner|Wysłannik prezydenta USA Jared Kushner}} nazwał w wywiadzie opublikowanym 26.11 Władimira Putina „historyczną postacią” i „arcymistrzem polityki”; **powiedział, że Putin wykazał w Ukrainie powściągliwość i zgodził się nie użyć broni jądrowej**. Zastój rozmów pokojowych Kushner przypisał rzekomemu ukraińskiemu atakowi na rezydencję Putina z grudnia 2025 r., którego według Meduzy nie było zdaniem amerykańskiego wywiadu i samego Trumpa.",
+      "zrodla": [
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/11/26/jared-kushner-says-putin-has-shown-restraint-in-ukraine-and-promised-not-to-use-nuclear-weapons",
+          "data": "2026-11-26"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/26/kushner-blames-stalled-peace-talks-on-alleged-ukrainian-attack-on-putin-s-residence-an-attack-both-u-s-intelligence-and-trump-say-did-not-happen",
+          "data": "2026-11-26"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/grandmaster-of-politics-who-wants-peace-jared-kushner-interview-reveals-how-trumps-envoy-sees-putin-2/",
+          "data": "2026-11-26"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "polska",
+      "data": "2026-11-26",
+      "tagi": [
+        "przemysl-zbrojeniowy",
+        "uzbrojenie",
+        "usa"
+      ],
+      "etap": null,
+      "miejsce": "lask",
+      "krotko": "Kolejne F-35",
+      "tekst": "Do 32. Bazy Lotnictwa Taktycznego w Łasku przyleciały 26.11 **dwa kolejne wielozadaniowe myśliwce {{p:f-35|F-35A}}** amerykańskiego koncernu Lockheed Martin, zbudowane w zakładach w Cameri we Włoszech; przylot ogłosił {{o:wladyslaw-kosiniak-kamysz|minister obrony narodowej Władysław Kosiniak-Kamysz}}. Polska ma już 12 z 32 zamówionych maszyn; według harmonogramu MON do końca 2026 r. ma ich być 14, a do końca 2027 r. przybędzie kolejnych 12.",
+      "zrodla": [
+        {
+          "nazwa": "MON (za Portal Obronny)",
+          "url": "https://portalobronny.se.pl/lotnictwo/nowe-f-35-juz-w-polsce-minister-kosiniak-kamysz-potwierdza-ladowanie-w-32-bazie-aa-qVSb-VGhR-GPBr.html",
+          "data": "2026-11-26"
+        },
+        {
+          "nazwa": "MON (za WNP.pl)",
+          "url": "https://www.wnp.pl/bezpieczenstwo/flota-powietrzna-polskiej-armii-powiekszyla-sie-o-kolejne-samoloty-f-35,1123988.html",
+          "data": "2026-11-26"
+        },
+        {
+          "nazwa": "MON (za Radio Łódź)",
+          "url": "https://radiolodz.pl/kolejne-dwa-mysliwce-f-35-dotarly-do-lasku,691454/",
+          "data": "2026-11-26"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "instytucje",
+      "data": "2026-11-25",
+      "tagi": [
+        "usa",
+        "nato",
+        "niemcy"
+      ],
+      "etap": "W TOKU",
+      "tekst": "Według Bloomberga sojusznicy z NATO spodziewają się, że **USA odłożą decyzję o zmniejszeniu liczby żołnierzy w Europie** z początku grudnia na koniec grudnia lub styczeń. Redukcja ma objąć ok. 5 tys. z ok. 80 tys. stacjonujących tam żołnierzy, głównie w Niemczech; wcześniej mówiono nawet o 25 tys.",
+      "zrodla": [
+        {
+          "nazwa": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-25/nato-allies-expect-us-to-delay-decision-on-troop-cuts-in-europe",
+          "data": "2026-11-25"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/11/26/jared-kushner-says-putin-has-shown-restraint-in-ukraine-and-promised-not-to-use-nuclear-weapons",
+          "data": "2026-11-26"
+        }
+      ]
+    },
+    {
+      "id": "z6",
+      "blok": "instytucje",
+      "data": "2026-11-26",
+      "tagi": [
+        "ue",
+        "ukraina",
+        "niemcy",
+        "bulgaria"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "bruksela",
+      "krotko": "Szczyt UE o budżecie",
+      "tekst": "Przywódcy państw UE rozpoczęli 26.11 w Brukseli nadzwyczajną {{p:rada-europejska|Radę Europejską}} o **{{p:wrf|wieloletnich ramach finansowych}} na lata 2028–2034, finansowaniu Ukrainy i pożyczce dla Kijowa w wysokości 45 mld euro na 2027 r.**; {{o:friedrich-merz|kanclerz Niemiec Friedrich Merz}} żąda, by wszystkie trzy sprawy rozstrzygnąć razem i by w pomocy uczestniczyły wszystkie 27 państw. Według Euronews Merz grozi wetem wobec całego budżetu, a {{o:rumen-radew|premier Bułgarii Rumen Radew}} zgodził się, by Bułgaria współfinansowała część pożyczki przeznaczoną na wsparcie budżetu Ukrainy (20 mld euro), ale nie część wojskową (25 mld euro); Czechy, Słowacja i Węgry chcą nadal pozostać poza finansowaniem.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/solidarity-and-winter-top-eu-agenda-as-leaders-discuss-new-support-for-ukraine/",
+          "data": "2026-11-26"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/26/europe-tonight-eu-leaders-clash-over-record-high-budget-amid-ukraine-funding-standoff",
+          "data": "2026-11-26"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/26/after-initial-reluctance-bulgaria-says-its-ready-to-join-45-billion-ukraine-loan",
+          "data": "2026-11-26"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/26/eu-budget-and-ukraine-aid-headed-for-collision-at-turbulent-summit",
+          "data": "2026-11-26"
+        }
+      ]
+    },
+    {
+      "id": "z7",
+      "blok": "swiat",
+      "data": "2026-11-26",
+      "tagi": [
+        "iran",
+        "wlochy"
+      ],
+      "etap": null,
+      "miejsce": "kuwejt",
+      "krotko": "Drony nad Kuwejtem",
+      "tekst": "Ministerstwo obrony Kuwejtu poinformowało 26.11, że przechwyciło nad krajem **irańskie drony, których szczątki zabiły dwóch obywateli Włoch** pracujących dla niemieckiego koncernu zbrojeniowego Rheinmetall; dwie kolejne osoby zostały ranne. Minister spraw zagranicznych Włoch Antonio Tajani powiedział, że technicy pracowali w stacji nadzoru obrony powietrznej trafionej przez irańskie drony. Minister spraw zagranicznych Iranu zapewnił w rozmowie z szefem dyplomacji Kuwejtu, że Teheran nie stoi za atakiem; samoloty na korytarzu lotniczym między Europą a Zatoką Perską zmieniły trasy.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/26/civilian-flights-diverted-as-kuwait-army-intercepts-iranian-drone-attack",
+          "data": "2026-11-26"
+        },
+        {
+          "nazwa": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/11/26/due-tecnici-italiani-della-rheinmetall-morti-in-un-attacco-in-kuwait_060489c8-4e35-4f04-9c6a-ade4a80acda4.html",
+          "data": "2026-11-26"
+        },
+        {
+          "nazwa": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/iran-attack-on-kuwait-kills-two-italian-rheinmetall-workers",
+          "data": "2026-11-26"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/26/iran-war-live-explosion-rocks-sanaa-missiles-intercepted-over-riyadh",
+          "data": "2026-11-26"
+        },
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-26/iran-zaatakowal-w-kuwejcie-nie-zyje-dwoch-wlochow/",
+          "data": "2026-11-26"
+        }
+      ]
+    },
+    {
+      "id": "z8",
+      "blok": "swiat",
+      "data": "2026-11-26",
+      "tagi": [
+        "inne"
+      ],
+      "kraje": [
+        "Korea Północna"
+      ],
+      "etap": null,
+      "tekst": "Przywódca Korei Północnej {{o:kim-dzong-un|Kim Dzong Un}} wezwał podczas wizyty w zakładach produkcji materiałów jądrowych i ośrodkach badań nad bronią do **rozmieszczania taktycznej broni jądrowej „w wielu domenach i do różnych zadań”**, podała 26.11 państwowa agencja {{p:kcna|KCNA}}. Kim uznał status atomowy kraju za „absolutnie nienaruszalny”, a każdą próbę jego podważenia nazwał „otwartym wypowiedzeniem wojny”.",
+      "zrodla": [
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/26/kim-jong-un-says-north-korea-should-widen-deployment-of-tactical-nukes",
+          "data": "2026-11-26"
+        },
+        {
+          "nazwa": "Reuters (za The Korea Times)",
+          "url": "https://www.koreatimes.co.kr/foreignaffairs/northkorea/20261126/north-koreas-kim-urges-wider-tactical-nuclear-weapons-deployment-on-facility-tour-kcna-says",
+          "data": "2026-11-26"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/26/images-show-kim-jong-un-inspecting-north-korean-nuclear-facilities",
+          "data": "2026-11-26"
+        },
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-26/pjongjang-wzmacnia-nuklearna-strategie-kim-dzong-un-w-tajnych-bazach/",
+          "data": "2026-11-26"
+        }
+      ]
+    },
+    {
+      "id": "z9",
+      "blok": "swiat",
+      "data": "2026-11-26",
+      "tagi": [
+        "afryka"
+      ],
+      "kraje": [
+        "Demokratyczna Republika Konga"
+      ],
+      "etap": null,
+      "tekst": "Według danych rządu Demokratycznej Republiki Konga liczba potwierdzonych zachorowań w **epidemii eboli na wschodzie kraju przekroczyła 12 tys.**; to najszybciej rozwijająca się epidemia tej choroby w historii. Walki armii z rebeliantami utrudniają powstrzymanie jej rozprzestrzeniania.",
+      "zrodla": [
+        {
+          "nazwa": "AP (za KPBS)",
+          "url": "https://www.kpbs.org/news/international/2026/11/26/congo-ebola-outbreak-reaches-12-000-cases-as-some-responders-evacuate",
+          "data": "2026-11-26"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak",
+          "data": "2026-11-26"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/26/dr-congo-ebola-cases-surpass-12000-as-fighting-disrupts-response-in-east",
+          "data": "2026-11-26"
+        }
+      ]
+    },
+    {
+      "id": "z10",
+      "blok": "swiat",
+      "data": "2026-11-26",
+      "tagi": [
+        "inne"
+      ],
+      "kraje": [
+        "Izrael"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "jerozolima",
+      "krotko": "Rozmowy koalicyjne",
+      "tekst": "Według Reutersa {{o:gadi-ejzenkot|Gadi Ejzenkot}}, któremu powierzono misję utworzenia rządu Izraela, poinformował 26.11, że **rozwiązał spór z lewicową partią Demokraci i wznowił z nią rozmowy koalicyjne**; partia zawiesiła je wcześniej w tym tygodniu.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/",
+          "data": "2026-11-26"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "OSW: wizyta premiera Węgier Pétera Magyara na Zakarpaciu otwiera normalizację stosunków z Ukrainą",
+      "autor": "Ilona Gizińska, Kacper Sienicki (OSW), 26.11.2026",
+      "tekst": "{{o:peter-magyar|Premier Węgier Péter Magyar}} spotkał się 24.11 w Użhorodzie i Berehowem z {{o:wolodymyr-zelenski|prezydentem Ukrainy Wołodymyrem Zełenskim}}; rozmawiali o energetyce, nowych przejściach granicznych, połączeniach kolejowych, rozminowaniu i handlu. Autorzy oceniają wizytę jako symboliczny przełom, który nie oznacza, że Budapeszt rezygnuje ze swoich żądań, m.in. sprzeciwu wobec finansowania Ukrainy z budżetu UE. Magyar nadal wiąże drogę Ukrainy do Unii z prawami mniejszości węgierskiej.",
+      "dla_polski": "Złagodzenie sporu węgiersko-ukraińskiego może ułatwić decyzje UE w sprawie Ukrainy, na których zależy Polsce. Weto Węgier w sprawach akcesji Ukrainy pozostaje jednak możliwe.",
+      "tagi": [
+        "wegry",
+        "ukraina"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-26/magyar-na-zakarpaciu-symboliczny-krok-ku-normalizacji-stosunkow-z",
+          "data": "2026-11-26"
+        }
+      ]
+    },
+    {
+      "tytul": "PISM: model wdrażania budżetu UE na lata 2028–2034 budzi kontrowersje",
+      "autor": "Melchior Szczepanik (PISM), Biuletyn nr 84, 24.11.2026",
+      "tekst": "Autor omawia propozycję Komisji Europejskiej, by wypłaty z przyszłego budżetu UE uzależnić od reform w państwach członkowskich. Wskazuje na obawy organów doradczych UE, że w tym modelu regiony stracą wpływ na wydawanie funduszy spójności.",
+      "dla_polski": "Polska jest największym beneficjentem funduszy spójności. Zmiana modelu wypłat zdecyduje o tym, kto w Polsce będzie rozdzielał te pieniądze.",
+      "tagi": [
+        "ue"
+      ],
+      "kraje": [
+        "Polska"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "PISM",
+          "url": "https://www.pism.pl/publikacje/kontrowersje-wokol-modelu-wdrazania-wieloletniego-budzetu-ue-2028-2034",
+          "data": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "tytul": "PISM: kryzys CDU zmienia niemiecką scenę polityczną",
+      "autor": "Łukasz Jasiński (PISM), Biuletyn nr 86, 25.11.2026",
+      "tekst": "Autor opisuje spadek poparcia dla CDU kanclerza Friedricha Merza do ok. 18–21 proc. w sondażach. Ocenia, że słabsza pozycja chadecji może prowadzić do bardziej kruchych koalicji rządowych w Niemczech.",
+      "dla_polski": "Słabszy rząd w Berlinie może mieć mniejszą zdolność do decyzji w sprawie budżetu UE i pomocy dla Ukrainy. To dotyczy także negocjacji, w których uczestniczy Polska.",
+      "tagi": [
+        "niemcy"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "PISM",
+          "url": "https://www.pism.pl/publikacje/kryzys-cdu-i-ewolucja-niemieckiej-sceny-politycznej",
+          "data": "2026-11-25"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-11-26",
+      "tekst": "26–27.11: Bruksela – nadzwyczajna Rada Europejska w sprawie wieloletnich ram finansowych 2028–2034 i pożyczki dla Ukrainy.",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-11-28",
+      "tekst": "28.11: Tajwan – wybory lokalne.",
+      "tagi": [
+        "chiny",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-11-29",
+      "tekst": "29.11: Hiszpania – przedterminowe wybory parlamentarne.",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-12-01",
+      "tekst": "1.12: Estonia – zamknięcie przejść granicznych z Rosją.",
+      "tagi": [
+        "estonia"
+      ],
+      "poza_kalendarium": "Decyzja administracyjna państwa, nie spotkanie ani wybory."
+    },
+    {
+      "data": "2026-12-03",
+      "tekst": "3–4.12: Lugano – 33. Rada Ministerialna OBWE.",
+      "tagi": [
+        "inne"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-12-14",
+      "tekst": "Miami – szczyt przywódców G20",
+      "tagi": [
+        "usa"
+      ]
+    },
+    {
+      "data": "2026-12-17",
+      "tekst": "Bruksela – Rada Europejska; przywódcy chcą porozumienia w sprawie budżetu UE 2028–2034",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [
+      {
+        "tytul": "Magyar na Zakarpaciu: symboliczny krok ku normalizacji stosunków z Ukrainą",
+        "autor": "Ilona Gizińska, Kacper Sienicki",
+        "data": "2026-11-26",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-26/magyar-na-zakarpaciu-symboliczny-krok-ku-normalizacji-stosunkow-z"
+      },
+      {
+        "tytul": "Ukraińcy atakują na Bałtyku i Morzu Śródziemnym. 1735. dzień wojny",
+        "autor": "Andrzej Wilk, Mateusz Goliszewski, Krzysztof Nieczypor",
+        "data": "2026-11-24",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-24/ukraincy-atakuja-na-baltyku-i-morzu-srodziemnym-1735-dzien-wojny"
+      }
+    ],
+    "pism": [
+      {
+        "tytul": "Kryzys CDU i ewolucja niemieckiej sceny politycznej",
+        "autor": "Łukasz Jasiński",
+        "data": "2026-11-25",
+        "url": "https://www.pism.pl/publikacje/kryzys-cdu-i-ewolucja-niemieckiej-sceny-politycznej"
+      },
+      {
+        "tytul": "Międzynarodowe skutki końca tradycyjnej pomocy rozwojowej",
+        "autor": "Patryk Kugiel",
+        "data": "2026-11-24",
+        "url": "https://www.pism.pl/publikacje/miedzynarodowe-skutki-konca-tradycyjnej-pomocy-rozwojowej"
+      },
+      {
+        "tytul": "Kontrowersje wokół modelu wdrażania wieloletniego budżetu UE 2028–2034",
+        "autor": "Melchior Szczepanik",
+        "data": "2026-11-24",
+        "url": "https://www.pism.pl/publikacje/kontrowersje-wokol-modelu-wdrazania-wieloletniego-budzetu-ue-2028-2034"
+      }
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n1",
+      "prog": "dokumentacja",
+      "tekst": "Polska i NATO: według Euronews naczelny dowódca sił sojuszniczych NATO w Europie gen. Alexus Grynkewich zezwolił na wysunięte rozmieszczenie w Polsce samolotu wczesnego ostrzegania AWACS, a Polska prosi o dodatkowe środki rozpoznania.",
+      "sprawdzono": [
+        "Euronews 26.11 (poziom 2)",
+        "Kanał RSS Kyiv Independent 26.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 26.11: brak wzmianki",
+        "Wyszukiwarka – komunikat NATO: nie znaleziono"
+      ]
+    },
+    {
+      "id": "n2",
+      "prog": "dokumentacja",
+      "tekst": "Włochy i Niemcy: według Kyiv Independent premier Włoch Giorgia Meloni i minister spraw zagranicznych Niemiec Johann Wadephul przestrzegli 26.11 przed rozszerzeniem wojny poza Ukrainę; Meloni powiedziała, że wojna nie może objąć Morza Śródziemnego.",
+      "sprawdzono": [
+        "Kyiv Independent 26.11 (poziom 2)",
+        "Polsat News 26.11 (poziom 3)",
+        "Kanał RSS Euronews 26.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n3",
+      "prog": "dokumentacja",
+      "tekst": "Armenia i Rosja: według Meduzy (za News.am) premier Armenii Nikol Paszynian zapowiedział, że rosyjska straż graniczna zakończy w najbliższych latach służbę na granicach Armenii z Turcją i Iranem.",
+      "sprawdzono": [
+        "Meduza 26.11 (poziom 2)",
+        "Kanał RSS Euronews 26.11: brak wzmianki",
+        "Kanał RSS Kyiv Independent 26.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n4",
+      "prog": "dokumentacja",
+      "tekst": "Korea Północna i Rosja: według Kyiv Independent (za wywiadem wojskowym Ukrainy) Pjongjang wstrzymał część pomocy wojskowej dla Rosji, w tym dostawy pocisków i amunicji.",
+      "sprawdzono": [
+        "Kyiv Independent 26.11 (poziom 2)",
+        "Kanał RSS Meduzy 26.11: brak wzmianki",
+        "Kanał RSS Euronews 26.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n5",
+      "prog": "dokumentacja",
+      "tekst": "Finlandia, Norwegia i Rosja: według Polsat News (za „Wall Street Journal”) przywódcy Finlandii i Norwegii zapewnili w rozmowach z Władimirem Putinem, że nie planują blokady Bałtyku.",
+      "sprawdzono": [
+        "Polsat News 26.11 (poziom 3)",
+        "Kanał RSS Kyiv Independent 26.11: brak wzmianki",
+        "Kanał RSS Euronews 26.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n6",
+      "prog": "dokumentacja",
+      "tekst": "Polska i Rosja: według Polsat News rzeczniczka MSZ Rosji Maria Zacharowa i ambasada Rosji w Warszawie potępiły decyzję władz Olsztyna o budowie parkingu podziemnego w miejscu usuwanego Pomnika Wyzwolenia Ziemi Warmińsko-Mazurskiej.",
+      "sprawdzono": [
+        "Polsat News 26.11 (poziom 3)",
+        "Kanał RSS Meduzy 26.11: brak wzmianki",
+        "Wyszukiwarka – PAP: nie znaleziono"
+      ]
+    },
+    {
+      "id": "n7",
+      "prog": "dokumentacja",
+      "tekst": "Polska: według TVN24 MON podpisze 27.11 z amerykańską firmą Palantir Technologies umowę na system Saturn oparty na sztucznej inteligencji.",
+      "sprawdzono": [
+        "TVN24 (poziom 3)",
+        "Wyszukiwarka – komunikat MON: nie znaleziono",
+        "Kanał RSS Polsat News Świat 26.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n8",
+      "prog": "dokumentacja",
+      "tekst": "Polska i Rosja: według Polsat News dwaj rosyjscy współwłaściciele koncernu Technonicol pozwali Polskę o ponad 462 mln zł w związku z przejęciem zakładu na Dolnym Śląsku.",
+      "sprawdzono": [
+        "Polsat News 25.11 (poziom 3)",
+        "Kanał RSS Euronews 26.11: brak wzmianki",
+        "Wyszukiwarka – PAP: nie znaleziono"
+      ]
+    },
+    {
+      "id": "n9",
+      "prog": "dokumentacja",
+      "tekst": "Niemcy i Rosja: według Meduzy minister obrony Niemiec Boris Pistorius ocenił, że odrzucenie zaproszenia Putina do rozmów w Moskwie byłoby „całkowicie niewłaściwym sygnałem”.",
+      "sprawdzono": [
+        "Meduza 26.11 (poziom 2)",
+        "Kanał RSS Kyiv Independent 26.11: brak wzmianki",
+        "Kanał RSS Euronews 26.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n10",
+      "prog": "dokumentacja",
+      "tekst": "Cypr i Turcja: według Kyiv Independent prezydent Cypru Nikos Christodulidis oskarżył Turcję o pomaganie Rosji w omijaniu sankcji.",
+      "sprawdzono": [
+        "Kyiv Independent 26.11 (poziom 2)",
+        "Kanał RSS Euronews 26.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 26.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n11",
+      "prog": "dokumentacja",
+      "tekst": "Cieśnina Ormuz: według Al Jazeery dwa lub trzy tankowce zostały trafione 26.11 w pobliżu Chasabu w Omanie; Korpus Strażników Rewolucji Islamskiej mówi o minach, a brytyjska agencja bezpieczeństwa morskiego UKMTO o nieznanym pocisku.",
+      "sprawdzono": [
+        "Al Jazeera 26.11 (poziom 3)",
+        "TRT World (spoza rankingu)",
+        "Kanał RSS Euronews 26.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n12",
+      "prog": "dokumentacja",
+      "tekst": "Ukraina i Rosja: według Al Jazeery (za władzami okupacyjnymi) ukraiński dron zabił 26.11 pięć osób w okupowanej części obwodu zaporoskiego.",
+      "sprawdzono": [
+        "Al Jazeera 26.11 (poziom 3)",
+        "Kanał RSS Kyiv Independent 26.11: brak wzmianki",
+        "Kanał RSS Meduzy 26.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n13",
+      "prog": "dokumentacja",
+      "tekst": "Strefa Gazy: według Reutersa izraelski nalot zabił w nocy na 26.11 w Deir al-Balah wiceministra edukacji w rządzie Hamasu Chaleda Abu Nadę; była to trzecia z rzędu noc nalotów mimo rozejmu.",
+      "sprawdzono": [
+        "Reuters (newsletter) 26.11 (poziom 2)",
+        "Al Jazeera 26.11 (poziom 3)",
+        "Kanał RSS Euronews 26.11: brak wzmianki"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-11-25#n2",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Euronews 26.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 26.11: brak wzmianki",
+        "Strona działu Al Jazeera 26.11: brak wzmianki"
+      ],
+      "powod": "Ostrzeżenie posłów do Parlamentu Europejskiego nadal podaje tylko Euronews."
+    },
+    {
+      "dotyczy": "2026-11-25#n3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Euronews 26.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 26.11: brak wzmianki",
+        "Strona działu Al Jazeera 26.11: brak wzmianki"
+      ],
+      "powod": "Nieobecność przywódcy Serbii i ustalenia szczytu UE–Bałkany Zachodnie nadal tylko w Euronews."
+    },
+    {
+      "dotyczy": "2026-11-25#n7",
+      "wynik": "ODPADA",
+      "powod": "Sprawę wyprzedziło wspólne oświadczenie Trumpa i Ruttego z 25.11 oraz wpis Trumpa z 26.11 (pozycja z2)."
+    },
+    {
+      "dotyczy": "2026-11-25#n8",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Euronews 26.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 26.11: brak wzmianki",
+        "Strona działu Al Jazeera 26.11: brak wzmianki"
+      ],
+      "powod": "Atak Hutich na Ras Tanurę nadal podaje tylko CNBC."
+    },
+    {
+      "dotyczy": "2026-11-25#n9",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Kanał RSS Euronews 26.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 26.11: brak wzmianki",
+        "Strona działu Al Jazeera 26.11: brak wzmianki"
+      ],
+      "powod": "Wejście tankowca na minę nadal znane tylko z komunikatu irańskiej armii za Al Jazeerą."
+    },
+    {
+      "dotyczy": "2026-11-25#n10",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Rzeczpospolita (poziom 2)",
+        "RMF24 (poziom 3)",
+        "Wyszukiwarka – Prokuratura Krajowa: nie znaleziono"
+      ],
+      "powod": "Rzeczpospolita, RMF FM i TVP Kielce powołują się na nieoficjalne informacje; komunikatu prokuratury nie znaleziono."
+    }
+  ],
+  "do_sprawdzenia": [
+    "Rada Europejska 26–27.11 – wynik rozmów o budżecie i pożyczce dla Ukrainy",
+    "AWACS w Polsce – komunikat NATO lub MON",
+    "Decyzja USA o liczebności wojsk w Europie",
+    "Umowa MON z Palantir Technologies (27.11)",
+    "Atak dronów na Kuwejt – stanowisko rządu Włoch",
+    "Armenia – wycofanie rosyjskiej straży granicznej",
+    "PISM – lista publikacji, jeśli się otworzy",
+    "Agencja Uzbrojenia i PGZ – umowy",
+    "Podpalenie WB Electronics – komunikat prokuratury"
+  ],
+  "nota": "Listy publikacji PISM (działy Komentarze i Biuletyny, wersja angielska) zwróciły pustą stronę; teksty PISM ustalono wyszukiwarką i ze stron publikacji. Dział Świat Onetu niesprawdzony: wyszukiwarka nie zwróciła nagłówków działu z 26.11. Komunikatów Dowództwa Operacyjnego, Agencji Uzbrojenia i Prokuratury Krajowej z 26.11 wyszukiwarka nie zwróciła."
+}

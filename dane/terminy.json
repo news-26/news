@@ -317,16 +317,25 @@
       "tagi": [
         "ue"
       ],
-      "tekst": "Nadzwyczajna Rada Europejska w sprawie WRF 2028–34 (termin wstępny).",
+      "tekst": "Nadzwyczajna Rada Europejska w sprawie WRF 2028–34 i pożyczki dla Ukrainy.",
       "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/solidarity-and-winter-top-eu-agenda-as-leaders-discuss-new-support-for-ukraine/",
+          "data": "2026-11-26"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/26/eu-budget-and-ukraine-aid-headed-for-collision-at-turbulent-summit",
+          "data": "2026-11-26"
+        },
         {
           "nazwa": "Rada UE (agenda przywódców 2026)",
           "url": "https://www.consilium.europa.eu/media/x41pvfn5/leaders-agenda_2026.pdf",
           "data": "2026-10-06"
         }
       ],
-      "krotko": "RE: WRF (wstępnie)",
-      "uwaga": "Termin wstępny według agendy przywódców."
+      "krotko": "RE: WRF"
     },
     {
       "id": "tajwan-lokalne-2026",

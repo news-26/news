@@ -540,6 +540,18 @@
       "nazwa": "Sekcja 301",
       "definicja": "Przepis amerykańskiej ustawy o handlu z 1974 r., który pozwala przedstawicielowi handlowemu USA nakładać cła i inne środki na państwa, których praktyki handlowe uznano za nieuzasadnione lub dyskryminujące.",
       "pelna": "Sekcja 301 ustawy o handlu USA z 1974 r. (Trade Act)"
+    },
+    {
+      "id": "f-35",
+      "nazwa": "F-35",
+      "pelna": "Lockheed Martin F-35 Lightning II",
+      "definicja": "Amerykański wielozadaniowy myśliwiec piątej generacji o obniżonej wykrywalności. Polska zamówiła w 2020 r. 32 maszyny w wersji F-35A, nazwane w Wojsku Polskim „Husarz”."
+    },
+    {
+      "id": "kcna",
+      "nazwa": "KCNA",
+      "pelna": "Koreańska Centralna Agencja Prasowa",
+      "definicja": "Państwowa agencja informacyjna Korei Północnej, oficjalny kanał komunikatów władz w Pjongjangu."
     }
   ]
 }

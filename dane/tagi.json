@@ -6,20 +6,20 @@
       "nazwa": "Ukraina",
       "grupa": "miejsce",
       "opis": "Wojna Rosji z Ukrainą: ataki, obrona powietrzna, polityka Kijowa, pomoc zachodnia.",
-      "stan": "Ukraińskie drony zaatakowały w nocy na 25.11 rafinerie w obwodzie samarskim i lotnisko Sawaslejka; rosyjskie ataki zabiły w Ukrainie co najmniej siedem osób.",
+      "stan": "Rosja zaatakowała w nocy na 26.11 Kijów pociskami balistycznymi (siedmioro rannych); ukraińskie drony uderzyły w zakłady azotowe w Newinnomyssku. Przywódcy UE rozmawiają w Brukseli o pożyczce 45 mld euro dla Ukrainy na 2027 r.",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/25/russian-strikes-kill-seven-in-ukraine-as-kyiv-hits-three-refineries",
-          "data": "2026-11-25"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-attacks-kill-10-injure-58-across-ukraine-over-past-day-strike-kyiv-with-ballistic-missiles/",
+          "data": "2026-11-26"
         },
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/ukrainian-drones-reportedly-strike-russian-oil-refineries-in-massive-attack/",
-          "data": "2026-11-25"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/26/russian-strikes-on-ukraine-kill-two-in-kharkiv-and-injure-seven-in-kyiv",
+          "data": "2026-11-26"
         }
       ],
-      "stan_data": "2026-11-25"
+      "stan_data": "2026-11-26"
     },
     {
       "id": "front",
@@ -66,18 +66,18 @@
       "nazwa": "Rosja",
       "grupa": "miejsce",
       "opis": "Polityka wewnętrzna, armia i budżet Rosji.",
-      "stan": "Ukraina zaatakowała 25.11 rafinerie w obwodzie samarskim i lotnisko wojskowe Sawaslejka; niemieckie media podały, że Rosja przygotowuje start satelity z głowicą jądrową.",
-      "stan_data": "2026-11-25",
+      "stan": "Trump i Rutte wezwali 25.11 Rosję do unikania działań rozszerzających wojnę; wysłannik USA Jared Kushner nazwał Putina „arcymistrzem polityki”.",
+      "stan_data": "2026-11-26",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/25/russian-strikes-kill-seven-in-ukraine-as-kyiv-hits-three-refineries",
-          "data": "2026-11-25"
+          "nazwa": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/26/trump-nato-rutte-russia-ukraine-war.html",
+          "data": "2026-11-26"
         },
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/ukrainian-drones-reportedly-strike-russian-oil-refineries-in-massive-attack/",
-          "data": "2026-11-25"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/11/26/jared-kushner-says-putin-has-shown-restraint-in-ukraine-and-promised-not-to-use-nuclear-weapons",
+          "data": "2026-11-26"
         }
       ]
     },
@@ -146,38 +146,38 @@
       "nazwa": "Uzbrojenie",
       "grupa": "temat",
       "opis": "Systemy uzbrojenia, zakupy, produkcja i dostawy: nazwy, liczby, jednostki.",
-      "stan": "Umowa międzyrządowa o wspólnym opracowaniu pocisku przeciwlotniczego CAMM-MR o zasięgu ponad 100 km dla fregat Miecznik i systemu Narew podpisana 24.11.",
+      "stan": "Do Łasku przyleciały 26.11 dwa kolejne myśliwce F-35A; do końca 2026 r. Polska ma mieć ich 14.",
       "stan_zrodla": [
         {
-          "nazwa": "PAP",
-          "url": "https://biznes.pap.pl/wiadomosci/ekonomia-biznes-i-finanse/skrot-wiadomosci-wtorek-24-listopada-2100",
-          "data": "2026-11-24"
+          "nazwa": "MON (za Radio Łódź)",
+          "url": "https://radiolodz.pl/kolejne-dwa-mysliwce-f-35-dotarly-do-lasku,691454/",
+          "data": "2026-11-26"
         },
         {
-          "nazwa": "Defence24",
-          "url": "https://defence24.pl/polityka-obronna/polsko-brytyjskie-pociski-dla-miecznika-i-nie-tylko-podpisano-wazne-porozumienie",
-          "data": "2026-11-24"
+          "nazwa": "MON (za Portal Obronny)",
+          "url": "https://portalobronny.se.pl/lotnictwo/nowe-f-35-juz-w-polsce-minister-kosiniak-kamysz-potwierdza-ladowanie-w-32-bazie-aa-qVSb-VGhR-GPBr.html",
+          "data": "2026-11-26"
         }
       ],
-      "stan_data": "2026-11-25"
+      "stan_data": "2026-11-26"
     },
     {
       "id": "przemysl-zbrojeniowy",
       "nazwa": "PrzemysłZbrojeniowy",
       "grupa": "temat",
       "opis": "Polski przemysł zbrojeniowy: kontrakty, targi, prezentacje nowego sprzętu, dostawy, eksport i współprodukcja.",
-      "stan": "Polska i Wielka Brytania podpisały 24.11 umowę międzyrządową o opracowaniu pocisku CAMM-MR; w Gdyni położono stępkę pod fregatę ORP Huragan.",
-      "stan_data": "2026-11-25",
+      "stan": "Do Łasku przyleciały 26.11 dwa kolejne myśliwce F-35A; Polska ma 12 z 32 zamówionych.",
+      "stan_data": "2026-11-26",
       "stan_zrodla": [
         {
-          "nazwa": "PAP",
-          "url": "https://biznes.pap.pl/wiadomosci/ekonomia-biznes-i-finanse/skrot-wiadomosci-wtorek-24-listopada-2100",
-          "data": "2026-11-24"
+          "nazwa": "MON (za Radio Łódź)",
+          "url": "https://radiolodz.pl/kolejne-dwa-mysliwce-f-35-dotarly-do-lasku,691454/",
+          "data": "2026-11-26"
         },
         {
-          "nazwa": "Defence24",
-          "url": "https://defence24.pl/polityka-obronna/polsko-brytyjskie-pociski-dla-miecznika-i-nie-tylko-podpisano-wazne-porozumienie",
-          "data": "2026-11-24"
+          "nazwa": "MON (za Portal Obronny)",
+          "url": "https://portalobronny.se.pl/lotnictwo/nowe-f-35-juz-w-polsce-minister-kosiniak-kamysz-potwierdza-ladowanie-w-32-bazie-aa-qVSb-VGhR-GPBr.html",
+          "data": "2026-11-26"
         }
       ]
     },
@@ -246,38 +246,38 @@
       "nazwa": "Iran",
       "grupa": "miejsce",
       "opis": "Iran, Cieśnina Ormuz, rozmowy z USA i mediatorami.",
-      "stan": "Dowódca armii Iranu polecił 23.11 coraz szczelniej zamykać Cieśninę Ormuz; Katar zabiega w Waszyngtonie o wznowienie rozmów USA z Iranem.",
+      "stan": "Kuwejt przechwycił 26.11 drony, które przypisał Iranowi; ich szczątki zabiły dwóch Włochów. Teheran zaprzecza udziałowi w ataku.",
       "stan_zrodla": [
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/24/iran-orders-hormuz-closed-further-day-by-day-as-qatar-seeks-to-revive-peace-talks",
-          "data": "2026-11-24"
+          "url": "https://www.euronews.com/2026/11/26/civilian-flights-diverted-as-kuwait-army-intercepts-iranian-drone-attack",
+          "data": "2026-11-26"
         },
         {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/middle-east/iran-says-it-will-use-all-available-tools-confront-us-naval-blockade-2026-11-23/",
-          "data": "2026-11-23"
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/26/iran-war-live-explosion-rocks-sanaa-missiles-intercepted-over-riyadh",
+          "data": "2026-11-26"
         }
       ],
-      "stan_data": "2026-11-24"
+      "stan_data": "2026-11-26"
     },
     {
       "id": "usa",
       "nazwa": "USA",
       "grupa": "miejsce",
       "opis": "Polityka USA wobec Europy, Rosji, Ukrainy i Bliskiego Wschodu.",
-      "stan": "Przedstawiciel handlowy USA zaproponował nowe cła na towary z 14 gospodarek, w tym 15 proc. dla UE i do 20 proc. dla Chin.",
-      "stan_data": "2026-11-25",
+      "stan": "Trump i sekretarz generalny NATO Mark Rutte spotkali się 25.11 w Mar-a-Lago i wezwali Rosję do unikania działań rozszerzających wojnę; do Polski dotarły kolejne dwa myśliwce F-35.",
+      "stan_data": "2026-11-26",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/25/us-proposes-new-tariffs-on-14-major-trading-partners-the-eu-included",
-          "data": "2026-11-25"
+          "nazwa": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/26/trump-nato-rutte-russia-ukraine-war.html",
+          "data": "2026-11-26"
         },
         {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/us/trump-administration-set-unveil-new-tariffs-after-probe-on-excess-factory-2026-11-24/",
-          "data": "2026-11-24"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/trump-tells-putin-to-pull-back-all-military-aggression-across-europe/",
+          "data": "2026-11-26"
         }
       ]
     },
@@ -306,18 +306,18 @@
       "nazwa": "NATO",
       "grupa": "temat",
       "opis": "Sojusz Północnoatlantycki: decyzje, szczyty, wschodnia flanka.",
-      "stan": "Polska zaproponowała ambasadorom NATO rozważenie przechwytywania rosyjskich pocisków nad Ukrainą; Mark Rutte zapewnił, że wspólna obrona obejmuje zagrożenia w kosmosie.",
-      "stan_data": "2026-11-25",
+      "stan": "Trump i Rutte we wspólnym oświadczeniu z 25.11 wezwali Rosję do unikania działań, które rozszerzyłyby wojnę w Ukrainie.",
+      "stan_data": "2026-11-26",
       "stan_zrodla": [
         {
-          "nazwa": "Bloomberg (za Meduza)",
-          "url": "https://meduza.io/en/news/2026/11/25/bloomberg-poland-proposes-that-nato-consider-shooting-down-russian-missiles-over-ukraine-headed-toward-alliance-territory",
-          "data": "2026-11-25"
+          "nazwa": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/26/trump-nato-rutte-russia-ukraine-war.html",
+          "data": "2026-11-26"
         },
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/poland-plans-no-fly-zone-near-ukraine-border-asks-nato-to-intercept-russian-missiles-over-ukraine/",
-          "data": "2026-11-25"
+          "url": "https://kyivindependent.com/trump-tells-putin-to-pull-back-all-military-aggression-across-europe/",
+          "data": "2026-11-26"
         }
       ]
     },
@@ -326,20 +326,20 @@
       "nazwa": "UE",
       "grupa": "temat",
       "opis": "Unia Europejska: Rada, Komisja, obronność, budżet WRF 2028–2034.",
-      "stan": "USA zaproponowały 15-procentowe cło na część towarów z UE; Komisja Europejska odrzuciła zarzut nadwyżek mocy produkcyjnych.",
+      "stan": "Nadzwyczajna Rada Europejska rozpoczęła 26.11 w Brukseli rozmowy o budżecie UE 2028–2034 i pożyczce 45 mld euro dla Ukrainy; Niemcy żądają udziału wszystkich 27 państw.",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/25/us-proposes-new-tariffs-on-14-major-trading-partners-the-eu-included",
-          "data": "2026-11-25"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/solidarity-and-winter-top-eu-agenda-as-leaders-discuss-new-support-for-ukraine/",
+          "data": "2026-11-26"
         },
         {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/us/trump-administration-set-unveil-new-tariffs-after-probe-on-excess-factory-2026-11-24/",
-          "data": "2026-11-24"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/26/europe-tonight-eu-leaders-clash-over-record-high-budget-amid-ukraine-funding-standoff",
+          "data": "2026-11-26"
         }
       ],
-      "stan_data": "2026-11-25"
+      "stan_data": "2026-11-26"
     },
     {
       "id": "onz",
@@ -377,20 +377,20 @@
       "nazwa": "Niemcy",
       "grupa": "miejsce",
       "opis": "Polityka Niemiec: rząd, koalicja, wybory, obronność.",
-      "stan": "Rząd Niemiec uznał za bardzo poważne doniesienia NDR, WDR i „Süddeutsche Zeitung” o przygotowaniach Rosji do startu satelity z głowicą jądrową.",
+      "stan": "Kanclerz Friedrich Merz żąda na szczycie UE 26.11, by budżet, finansowanie Ukrainy i pożyczkę 45 mld euro rozstrzygnąć razem i z udziałem wszystkich 27 państw.",
       "stan_zrodla": [
         {
-          "nazwa": "AFP (za t-online)",
-          "url": "https://www.t-online.de/nachrichten/deutschland/militaer-verteidigung/id_101542738/atomwaffen-im-all-besorgte-reaktionen-nach-bericht-zu-russischen-plaenen.html",
-          "data": "2026-11-23"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/solidarity-and-winter-top-eu-agenda-as-leaders-discuss-new-support-for-ukraine/",
+          "data": "2026-11-26"
         },
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/25/europe-tonight-trump-unveils-new-tariffs-amid-russian-nuclear-space-threat",
-          "data": "2026-11-25"
+          "url": "https://www.euronews.com/2026/11/26/europe-tonight-eu-leaders-clash-over-record-high-budget-amid-ukraine-funding-standoff",
+          "data": "2026-11-26"
         }
       ],
-      "stan_data": "2026-11-25"
+      "stan_data": "2026-11-26"
     },
     {
       "id": "czechy",
@@ -662,20 +662,20 @@
       "nazwa": "Afryka",
       "grupa": "miejsce",
       "opis": "Wojny, przewroty i kryzysy w Afryce (Róg Afryki, Sudan, Sahel, Kongo).",
-      "stan": "Libijska Armia Narodowa zapowiedziała odwet za atak ukraińskich dronów na rosyjską korwetę w Bengazi.",
+      "stan": "Liczba zachorowań na ebolę w Demokratycznej Republice Konga przekroczyła 12 tys.; walki na wschodzie utrudniają walkę z epidemią.",
       "stan_zrodla": [
         {
-          "nazwa": "AP (newsletter)",
-          "url": "https://apnews.com/article/russia-ukraine-war-libya-drone-attack-warship-officers-5719d6750c0619695c7f23a373cecd7b",
-          "data": "2026-11-25"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak",
+          "data": "2026-11-26"
         },
         {
-          "nazwa": "Polsat News",
-          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-25/ukrainski-atak-w-afryce-nie-zyje-dwoch-zolnierzy-libia-zapowiada-odwet/",
-          "data": "2026-11-25"
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/26/dr-congo-ebola-cases-surpass-12000-as-fighting-disrupts-response-in-east",
+          "data": "2026-11-26"
         }
       ],
-      "stan_data": "2026-11-25"
+      "stan_data": "2026-11-26"
     },
     {
       "id": "ameryki",
@@ -702,15 +702,20 @@
       "nazwa": "Bułgaria",
       "grupa": "miejsce",
       "opis": "Polityka Bułgarii i bezpieczeństwo jej strefy na Morzu Czarnym.",
-      "stan": "Bułgaria: 1.11 Iliana Jotowa wygrała II turę wyborów prezydenckich (57,6 proc. wobec 39,3 proc.); Giurow przyznał porażkę.",
+      "stan": "Premier Rumen Radew zgodził się 26.11 dołożyć do cywilnej części pożyczki UE 45 mld euro dla Ukrainy, ale nie do części wojskowej.",
       "stan_zrodla": [
         {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/26/after-initial-reluctance-bulgaria-says-its-ready-to-join-45-billion-ukraine-loan",
+          "data": "2026-11-26"
+        },
+        {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/russia-friendly-yotova-wins-bulgarias-presidential-runoff/",
-          "data": "2026-11-02"
+          "url": "https://kyivindependent.com/solidarity-and-winter-top-eu-agenda-as-leaders-discuss-new-support-for-ukraine/",
+          "data": "2026-11-26"
         }
       ],
-      "stan_data": "2026-11-02"
+      "stan_data": "2026-11-26"
     },
     {
       "id": "watykan",
@@ -723,15 +728,20 @@
       "nazwa": "Włochy",
       "grupa": "miejsce",
       "opis": "Polityka Włoch i ich rola w UE.",
-      "stan": "Co najmniej 300 szkół ewakuowano 11.11 po fałszywych alarmach bombowych wysłanych e-mailem.",
+      "stan": "Dwóch Włochów pracujących dla Rheinmetallu zginęło 26.11 w Kuwejcie od szczątków zestrzelonych dronów.",
       "stan_zrodla": [
         {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/least-300-italian-schools-evacuated-after-email-bomb-alerts-2026-11-11/",
-          "data": "2026-11-11"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/26/civilian-flights-diverted-as-kuwait-army-intercepts-iranian-drone-attack",
+          "data": "2026-11-26"
+        },
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-26/iran-zaatakowal-w-kuwejcie-nie-zyje-dwoch-wlochow/",
+          "data": "2026-11-26"
         }
       ],
-      "stan_data": "2026-11-11"
+      "stan_data": "2026-11-26"
     },
     {
       "id": "moldawia",

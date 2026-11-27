@@ -1,0 +1,587 @@
+{
+  "nr": 70,
+  "data": "2026-11-27",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Nadzwyczajny szczyt Unii Europejskiej w Brukseli zakończył się w nocy na 27 listopada **bez porozumienia w sprawie budżetu na lata 2028–2034**. Przywódcy nie zatwierdzili też pożyczki 45 mld euro dla Ukrainy i wrócą do obu spraw w grudniu.",
+    "Dron wleciał w nocy na 27 listopada na krótko w przestrzeń powietrzną Łotwy w pobliżu granicy z Rosją. Łotewskie siły zbrojne poderwały **myśliwce misji NATO** i wysłały drona przechwytującego.",
+    "Prezydent USA Donald Trump powiedział, że chciałby, aby **Władimir Putin wziął udział w grudniowym szczycie G20 w Miami**. Prezydent Ukrainy Wołodymyr Zełenski porównał nazywanie Putina przyjacielem do nazywania przyjacielem Hitlera.",
+    "Rosja wysłała w nocy na 27 listopada nad Ukrainę 155 dronów i uszkodziła **infrastrukturę energetyczną i kolejową w dziewięciu obwodach**. Ukraina od 22 listopada nie eksportuje energii elektrycznej."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-11-27",
+      "tagi": [
+        "ukraina",
+        "rosja"
+      ],
+      "etap": null,
+      "miejsce": "nizyn",
+      "krotko": "Atak dronów na Ukrainę",
+      "tekst": "Rosja zaatakowała w nocy na 27.11 Ukrainę 155 dronami, z których obrona powietrzna zestrzeliła 110; **trafiona została infrastruktura energetyczna i kolejowa w dziewięciu obwodach**, a według Euronews w Niżynie w obwodzie czernihowskim zginęły dwie osoby. Ukraina od 22.11 nie eksportuje energii elektrycznej, a Sztab Generalny Sił Zbrojnych Ukrainy potwierdził tej nocy atak na zakład kauczuku syntetycznego w Jefremowie w obwodzie tulskim, który według strony ukraińskiej produkuje składniki paliwa do rakiet Iskander.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/27/russian-drone-strikes-hit-ukraines-energy-rail-and-civilian-infrastructure-causing-deaths",
+          "data": "2026-11-27"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/ukraine-stops-electricity-exports-as-russian-attacks-strain-power-grid/",
+          "data": "2026-11-27"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/explosions-reported-at-power-plant-synthetic-rubber-factory-in-russias-tula-oblast-following-drone-attack/",
+          "data": "2026-11-27"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/27/ukrainian-drones-strike-st-petersburg-and-three-russian-regions-injuring-three-and-disrupting-flights",
+          "data": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-11-26",
+      "tagi": [
+        "usa",
+        "rosja",
+        "ukraina"
+      ],
+      "etap": null,
+      "tekst": "{{o:donald-trump|Prezydent USA Donald Trump}} powiedział 26.11 dziennikarzom na Florydzie, że **chciałby, aby {{o:wladimir-putin|Władimir Putin}} przyjechał na szczyt G20 w Miami** w dniach 14–15.12; według Reutersa dodał, że prosił Putina o ograniczenie agresji wobec terytoriów w Europie. {{o:wolodymyr-zelenski|Prezydent Ukrainy Wołodymyr Zełenski}} powiedział w wywiadzie dla BBC, że Putin jest agresorem i nie może być przyjacielem, i porównał nazywanie go przyjacielem do nazywania tak Hitlera w czasie II wojny światowej.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/world/trump-says-putin-can-come-g20-if-he-wants-2026-11-27/",
+          "data": "2026-11-27"
+        },
+        {
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/world/europe/trump-says-hed-like-see-putin-pull-back-military-aggression-europe-2026-11-26/",
+          "data": "2026-11-26"
+        },
+        {
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/business/media-telecom/ukraines-zelenskiy-compares-trumps-friendship-with-putin-friendship-with-hitler-2026-11-27/",
+          "data": "2026-11-27"
+        },
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/27/he-s-an-aggressor-and-a-killer-he-can-t-be-a-friend-zelensky-likens-trump-calling-putin-his-friend-to-calling-hitler-a-friend-during-world-war-ii",
+          "data": "2026-11-27"
+        },
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-27/chcialbym-zeby-putin-byl-z-nami-trump-o-szczycie-g20/",
+          "data": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "wojna",
+      "data": "2026-11-27",
+      "tagi": [
+        "lotwa",
+        "nato"
+      ],
+      "etap": null,
+      "miejsce": "ludza",
+      "krotko": "Dron nad Łotwą",
+      "tekst": "Narodowe Siły Zbrojne Łotwy poinformowały, że w nocy na 27.11 **dron na krótko wleciał w przestrzeń powietrzną Łotwy** w gminie Ludza przy granicy z Rosją; alarm trwał od 2.30 do 2.55, a potem do ok. 3.30 obowiązywało ostrzeżenie w gminie Balvi. W odpowiedzi poderwano myśliwce natowskiej misji nadzoru przestrzeni powietrznej państw bałtyckich (Baltic Air Policing) i wysłano łotewskiego drona przechwytującego.",
+      "zrodla": [
+        {
+          "nazwa": "LSM",
+          "url": "https://eng.lsm.lv/article/society/defence/27.11.2026-possible-air-threats-in-balvi-and-ludza-municipalities-are-over.a673686/",
+          "data": "2026-11-27"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/27/nato-jets-scrambled-after-drone-briefly-enters-latvian-airspace",
+          "data": "2026-11-27"
+        },
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-27/nato-poderwalo-mysliwce-i-drona-incydent-na-granicy-sojuszu/",
+          "data": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "wojna",
+      "data": "2026-11-27",
+      "tagi": [
+        "rosja",
+        "inne"
+      ],
+      "etap": null,
+      "kraje": [
+        "Korea Północna"
+      ],
+      "tekst": "Według wywiadu wojskowego Ukrainy ({{p:hur|HUR}}) **Korea Północna czasowo zawiesiła współpracę wojskową z Rosją**: wstrzymała dostawy pocisków balistycznych i amunicji artyleryjskiej, zamknęła przestrzeń powietrzną dla rosyjskich samolotów transportowych i opóźnia wysłanie dodatkowych żołnierzy. Według HUR powodem jest zapowiedź rosyjskiego wiceministra spraw zagranicznych Andrieja Rudienki, że Moskwa będzie łagodzić napięcia między Koreą Północną a Południową.",
+      "zrodla": [
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/11/27/ukrainian-intelligence-says-north-korea-has-stopped-sending-troops-and-missiles-to-russia",
+          "data": "2026-11-27"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/27/north-korea-halts-russia-military-aid-over-seoul-row-kyiv-says",
+          "data": "2026-11-27"
+        },
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-26/wojna-w-ukrainie-korea-polnocna-ogranicza-wsparcie-wojskowe-dla-rosji/",
+          "data": "2026-11-26"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "instytucje",
+      "data": "2026-11-27",
+      "tagi": [
+        "ue",
+        "ukraina"
+      ],
+      "etap": "W TOKU",
+      "miejsce": "bruksela",
+      "krotko": "Szczyt UE bez porozumienia",
+      "tekst": "Nadzwyczajna {{p:rada-europejska|Rada Europejska}} w Brukseli zakończyła się w nocy na 27.11, dzień przed planowanym końcem, **bez porozumienia w sprawie {{p:wrf|wieloletnich ram finansowych}} na lata 2028–2034**; Niemcy, Austria, Holandia, Szwecja i inni płatnicy netto żądają mniejszego budżetu, a państwa spójności, w tym Polska, bronią funduszy regionalnych. {{o:antonio-costa|Przewodniczący Rady Europejskiej António Costa}} powiedział, że pożyczkę 45 mld euro dla Ukrainy popierają 24 państwa, a Czechy, Węgry i Słowacja są przeciw; Bułgaria zgadza się tylko na część niewojskową. Przywódcy wrócą do budżetu 17.12, a do pożyczki w grudniu.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/26/eu-summit-leaders-ready-to-spar-over-new-budget-and-ukraine-aid",
+          "data": "2026-11-27"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/why-bulgaria-czechia-hungary-and-slovakia-are-complicating-the-latest-eu-push-for-a-ukraine-loan/",
+          "data": "2026-11-27"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/27/europe-tonight-eu-budget-summit-collapses-as-spain-braces-for-vote-and-uk-unveils-deal",
+          "data": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "z6",
+      "blok": "swiat",
+      "data": "2026-11-26",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "afryka"
+      ],
+      "etap": null,
+      "kraje": [
+        "Libia"
+      ],
+      "tekst": "{{o:andrij-sybiha|Minister spraw zagranicznych Ukrainy Andrij Sybiha}} oświadczył 26.11, że **ukraińskie uderzenie na rosyjską korwetę i statek towarowy w porcie w Bengazi nie było wymierzone w Libię**, poinformował Reuters. Według Sybihy celem były wyłącznie rosyjskie jednostki.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/world/ukrainian-foreign-minister-says-military-action-was-never-directed-against-libya-2026-11-26/",
+          "data": "2026-11-26"
+        }
+      ]
+    },
+    {
+      "id": "z7",
+      "blok": "gospodarka",
+      "data": "2026-11-27",
+      "tagi": [
+        "usa",
+        "gospodarka",
+        "inne"
+      ],
+      "etap": null,
+      "kraje": [
+        "Wenezuela",
+        "Irak"
+      ],
+      "tekst": "Według Reutersa, który powołuje się na dziesięć osób znających sprawę, **administracja USA zachęcała w tym roku Wenezuelę i Irak do rozważenia wyjścia z Organizacji Krajów Eksportujących Ropę Naftową (OPEC)** i nie dopuściła do zapłacenia przez Wenezuelę rocznej składki członkowskiej.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/business/energy/us-pushed-venezuela-iraq-consider-leaving-opec-sources-say-2026-11-27/",
+          "data": "2026-11-27"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "OSW: Rosja rozszerza kampanię przeciw żegludze na Morzu Czarnym na wody terytorialne Rumunii",
+      "autor": "Andrzej Wilk, Piotr Szymański, Kamil Całus, Jan Nowinowski, Krzysztof Nieczypor (OSW), 27.11.2026",
+      "tekst": "Rosyjskie drony zaatakowały 13–15.11 statki czekające na wejście do kanału Sulina, w tym trzy na rumuńskich wodach terytorialnych. Autorzy oceniają to jako pierwsze ataki na dużą skalę na żeglugę do ukraińskich portów na wodach państwa NATO. Rumunia i Bułgaria reagują ostrożnie i nie powołały się na art. 4 traktatu waszyngtońskiego, a możliwości NATO ogranicza konwencja z Montreux.",
+      "dla_polski": "Rosja sprawdza, jak NATO reaguje na ataki na wodach państwa sojuszniczego. Od tej reakcji zależy wiarygodność obrony wschodniej flanki, także na Bałtyku.",
+      "tagi": [
+        "rosja",
+        "ukraina",
+        "rumunia",
+        "nato"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-11-27/gra-w-statki-rozszerzenie-rosyjskiej-kampanii-przeciw-zegludze",
+          "data": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "tytul": "OSW: Bundestag daje wywiadowi BND i kontrwywiadowi BfV uprawnienia do działań ofensywnych",
+      "autor": "Kamil Frymark (OSW), 27.11.2026",
+      "tekst": "Bundestag przyjął w listopadzie reformę, która pozwala wywiadowi zagranicznemu BND prowadzić m.in. operacje cybernetyczne i sabotaż za granicą, a kontrwywiadowi BfV ingerować w urządzenia. Autor ocenia ją jako najważniejszą przebudowę niemieckich służb od czasów powojennych, wymuszoną rosyjskimi atakami hybrydowymi. Otwarte pozostają koordynacja z krajami związkowymi i nadzór nad służbami, a reformę może zakwestionować Trybunał Konstytucyjny.",
+      "dla_polski": "Silniejsze niemieckie służby mogą skuteczniej przeciwdziałać rosyjskiej dywersji, która dotyka także Polski. Ułatwi to wspólne działania kontrwywiadowcze w Europie Środkowej.",
+      "tagi": [
+        "niemcy",
+        "hybryda"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-11-27/reforma-niemieckiego-wywiadu-i-kontrwywiadu-nowe-uprawnienia",
+          "data": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "tytul": "OSW: Turcja zyskuje inwestycje po szczycie COP31, ale traci wiarygodność jako mediator",
+      "autor": "Adam Michalski (OSW), 27.11.2026",
+      "tekst": "Szczyt klimatyczny {{p:cop31|COP31}} w Antalyi zakończył się bez deklaracji końcowej po sporze o odejście od paliw kopalnych. Turcja zawarła przy nim umowy inwestycyjne i finansowe warte ponad 26 mld dolarów, m.in. z Chinami w sprawie energii odnawialnej. Autor ocenia, że zyski gospodarcze są realne, ale sprzyjanie Arabii Saudyjskiej osłabiło wizerunek Turcji jako neutralnego pośrednika.",
+      "dla_polski": "Skutek pośredni: słabsza pozycja Turcji jako mediatora może utrudnić jej rolę w rozmowach o Morzu Czarnym i wojnie w Ukrainie.",
+      "tagi": [
+        "inne",
+        "chiny"
+      ],
+      "kraje": [
+        "Turcja",
+        "Arabia Saudyjska"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-27/turcja-po-cop31-kapital-i-technologie-mimo-fiaska-negocjacji",
+          "data": "2026-11-27"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-11-28",
+      "tekst": "28.11: Tajwan – wybory lokalne.",
+      "tagi": [
+        "chiny",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-11-29",
+      "tekst": "29.11: Hiszpania – przedterminowe wybory parlamentarne.",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-12-01",
+      "tekst": "1.12: Estonia – zamknięcie przejść granicznych z Rosją.",
+      "tagi": [
+        "estonia"
+      ],
+      "poza_kalendarium": "Decyzja administracyjna państwa, nie spotkanie ani wybory."
+    },
+    {
+      "data": "2026-12-03",
+      "tekst": "3–4.12: Lugano – 33. Rada Ministerialna OBWE.",
+      "tagi": [
+        "inne"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-12-14",
+      "tekst": "Miami – szczyt przywódców G20",
+      "tagi": [
+        "usa"
+      ]
+    },
+    {
+      "data": "2026-12-17",
+      "tekst": "Bruksela – Rada Europejska; przywódcy chcą porozumienia w sprawie budżetu UE 2028–2034",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [
+      {
+        "tytul": "Turcja po COP31: kapitał i technologie mimo fiaska negocjacji",
+        "autor": "Adam Michalski",
+        "data": "2026-11-27",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-27/turcja-po-cop31-kapital-i-technologie-mimo-fiaska-negocjacji"
+      },
+      {
+        "tytul": "Reforma niemieckiego wywiadu i kontrwywiadu. Nowe uprawnienia BND i BfV",
+        "autor": "Kamil Frymark",
+        "data": "2026-11-27",
+        "url": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-11-27/reforma-niemieckiego-wywiadu-i-kontrwywiadu-nowe-uprawnienia"
+      },
+      {
+        "tytul": "Gra w statki: rozszerzenie rosyjskiej kampanii przeciw żegludze czarnomorskiej",
+        "autor": "Andrzej Wilk, Piotr Szymański, Kamil Całus, Jan Nowinowski, Krzysztof Nieczypor",
+        "data": "2026-11-27",
+        "url": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-11-27/gra-w-statki-rozszerzenie-rosyjskiej-kampanii-przeciw-zegludze"
+      },
+      {
+        "tytul": "Magyar na Zakarpaciu: symboliczny krok ku normalizacji stosunków z Ukrainą",
+        "autor": "Ilona Gizińska, Kacper Sienicki",
+        "data": "2026-11-26",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-26/magyar-na-zakarpaciu-symboliczny-krok-ku-normalizacji-stosunkow-z"
+      }
+    ],
+    "pism": [
+      {
+        "tytul": "Kryzys CDU i ewolucja niemieckiej sceny politycznej",
+        "autor": "Łukasz Jasiński",
+        "data": "2026-11-25",
+        "url": "https://www.pism.pl/publikacje/kryzys-cdu-i-ewolucja-niemieckiej-sceny-politycznej"
+      }
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n11",
+      "prog": "dokumentacja",
+      "tekst": "Polska i USA: według „Rzeczpospolitej” Ministerstwo Obrony Narodowej podpisało 27.11 w Warszawie z firmą Palantir Technologies pięcioletnią umowę wartą ok. 1 mld zł na system wspomagania dowodzenia Saturn, czyli polską wersję systemu Maven Smart System; minister obrony narodowej Władysław Kosiniak-Kamysz porównał wagę umowy do zakupu myśliwców F-35.",
+      "sprawdzono": [
+        "Rzeczpospolita 27.11 (poziom 2)",
+        "RMF24 27.11 (poziom 3)",
+        "TVN24 26.11 – zapowiedź podpisania (poziom 3)",
+        "Strona MON (gov.pl), wiadomości: brak komunikatu z 27.11",
+        "Wyszukiwarka – PAP i Reuters: nie znaleziono",
+        "Forsal 27.11: MON nie ujawniło wartości ani okresu umowy"
+      ]
+    },
+    {
+      "id": "n12",
+      "prog": "dokumentacja",
+      "tekst": "Iran, Kuwejt i Włochy: według Euronews minister spraw zagranicznych Iranu Abbas Araghczi nazwał 27.11 oskarżenia o atak dronów w Kuwejcie, w którym zginęło dwóch Włochów, bezpodstawnymi i zaproponował Kuwejtowi i Włochom wspólne śledztwo.",
+      "sprawdzono": [
+        "Euronews 27.11 (poziom 2)",
+        "Al Jazeera 27.11 (poziom 3)",
+        "Kanał RSS Polsat News Świat 27.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n1",
+      "prog": "dokumentacja",
+      "tekst": "UE i Rosja: według Kyiv Independent (za czterema źródłami dyplomatycznymi) Bułgaria uzależnia zgodę na 22. pakiet sankcji wobec Rosji od zniesienia zakazu importu rosyjskiej surówki żelaza i sprzętu górniczego, a Włochy kwestionują zakaz zasiadania Europejczyków w zarządach rosyjskich firm; UE chce przyjąć pakiet w grudniu.",
+      "sprawdzono": [
+        "Kyiv Independent 27.11 (poziom 2)",
+        "Kanał RSS Euronews 27.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 27.11: brak wzmianki",
+        "Kanał RSS Meduzy 27.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n2",
+      "prog": "dokumentacja",
+      "tekst": "Chorwacja i Niemcy: według Kyiv Independent (za kancelarią obrońców) Wysoki Sąd Karny Chorwacji uchylił 23.11 decyzję o ekstradycji do Niemiec Ukraińca Wołodymyra Żurawlowa, podejrzanego o udział w wysadzeniu gazociągów Nord Stream, i zwrócił sprawę sądowi niższej instancji.",
+      "sprawdzono": [
+        "Kyiv Independent 27.11 (poziom 2)",
+        "Kanał RSS Euronews 27.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 27.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n3",
+      "prog": "dokumentacja",
+      "tekst": "USA i NATO: według Meduzy i Polsat News (za portalem Politico) Donald Trump sam zmienił wspólne oświadczenie z sekretarzem generalnym NATO Markiem Rutte z 25.11 i w swojej wersji wezwał do unikania rozszerzania wojny także Ukrainę, nie tylko Rosję.",
+      "sprawdzono": [
+        "Meduza 27.11 (poziom 2)",
+        "Polsat News 27.11 (poziom 3)",
+        "Kanał RSS Euronews 27.11: brak wzmianki",
+        "Kanał RSS Kyiv Independent 27.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n4",
+      "prog": "dokumentacja",
+      "tekst": "Cieśnina Ormuz i Iran: według Al Jazeery Korpus Strażników Rewolucji Islamskiej podał 27.11, że tankowiec w cieśninie Ormuz wszedł na minę i eksplodował, a w południowo-wschodnim Iranie zestrzelono „wrogiego drona”.",
+      "sprawdzono": [
+        "Al Jazeera 27.11 (poziom 3)",
+        "Kanał RSS Euronews 27.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 27.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n5",
+      "prog": "dokumentacja",
+      "tekst": "Gwinea Bissau: według Al Jazeery rządząca wojskowa junta przełożyła wybory prezydenckie zaplanowane na 6.12.2026 o dwa lata, do 2028 r.",
+      "sprawdzono": [
+        "Al Jazeera 26.11 (poziom 3)",
+        "Kanał RSS Euronews 27.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 27.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n6",
+      "prog": "dokumentacja",
+      "tekst": "Rosja: według Kyiv Independent i Polsat News (za wywiadem wojskowym Ukrainy) Rosja buduje własny wojskowy system łączności satelitarnej, wzorowany na sieci Starlink.",
+      "sprawdzono": [
+        "Kyiv Independent 27.11 (poziom 2)",
+        "Polsat News 27.11 (poziom 3)",
+        "Kanał RSS Euronews 27.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n7",
+      "prog": "kompletność",
+      "tekst": "Turcja: według Reutersa prezydent Recep Tayyip Erdoğan zakończył 27.11 ratyfikację przez Turcję paktu obronnego z Mekki; według Al Jazeery stronami paktu są Arabia Saudyjska, Pakistan i Turcja, a ich przedstawiciele spotkali się 27.11 w Islamabadzie."
+    },
+    {
+      "id": "n8",
+      "prog": "następstwo",
+      "tekst": "Australia i Iran: według Reutersa Australia nałożyła sankcje na dwie osoby, które uważa za irańskich agentów kierujących atakami antysemickimi w tym kraju."
+    },
+    {
+      "id": "n9",
+      "prog": "następstwo",
+      "tekst": "Iran i Korea Południowa: według Reutersa Iran ostrzegł przed obecnością wojskową w Zatoce Perskiej w chwili, gdy Korea Południowa przygotowuje rozszerzenie misji swojej marynarki wojennej w regionie."
+    },
+    {
+      "id": "n10",
+      "prog": "następstwo",
+      "tekst": "Turcja: według Reutersa wiceprezydent Turcji zapowiedział, że wybory odbędą się w 2028 r., a rządzący sojusz poprze kandydaturę Recepa Tayyipa Erdoğana."
+    },
+    {
+      "id": "n13",
+      "prog": "następstwo",
+      "tekst": "Handel w Azji i Pacyfiku: według Reutersa państwa transpacyficznego porozumienia o wolnym handlu CPTPP rozpoczną rozmowy o przystąpieniu Zjednoczonych Emiratów Arabskich, Indonezji i Filipin."
+    },
+    {
+      "id": "n14",
+      "prog": "dokumentacja",
+      "tekst": "Kostaryka i ONZ: według Al Jazeery Kostaryka nie wpuściła 27.11 na swoje terytorium specjalnej sprawozdawczyni ONZ ds. okupowanych terytoriów palestyńskich Franceski Albanese.",
+      "sprawdzono": [
+        "Al Jazeera 27.11 (poziom 3)",
+        "Kanał RSS Euronews 27.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 27.11: brak wzmianki"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-11-26#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Wyszukiwarka – komunikat NATO 27.11: nie znaleziono",
+        "Kanał RSS Euronews 27.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 27.11: brak wzmianki"
+      ],
+      "powod": "Zgodę dowództwa NATO na wysunięte rozmieszczenie samolotu AWACS w Polsce nadal podaje tylko Euronews."
+    },
+    {
+      "dotyczy": "2026-11-26#n2",
+      "wynik": "ODPADA",
+      "powod": "Stanowisko rządu Włoch przedstawił 26.11 minister spraw zagranicznych Antonio Tajani (wydanie z 26.11, pozycja z7); odpowiedź Iranu z 27.11 – W obserwacji n12."
+    },
+    {
+      "dotyczy": "2026-11-26#n3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "sprawdzono": [
+        "Wyszukiwarka – wycofanie rosyjskiej straży granicznej z Armenii: tylko doniesienia z lat 2024–2025",
+        "Kanał RSS Meduzy 27.11: brak wzmianki",
+        "Kanał RSS Euronews 27.11: brak wzmianki"
+      ],
+      "powod": "Zapowiedź premiera Armenii nadal podaje tylko Meduza za News.am."
+    },
+    {
+      "dotyczy": "2026-11-26#n4",
+      "wynik": "UZUPEŁNIONE",
+      "pozycja": "z4"
+    },
+    {
+      "dotyczy": "2026-11-26#n5",
+      "wynik": "ODPADA",
+      "powod": "Brak nowych informacji o rozmowach przywódców Finlandii i Norwegii z Putinem; sprawa nie zmieniła stanu."
+    },
+    {
+      "dotyczy": "2026-11-26#n6",
+      "wynik": "ODPADA",
+      "powod": "Spór o parking w Olsztynie nie przyniósł kroków dyplomatycznych poza wypowiedziami z 26.11."
+    },
+    {
+      "dotyczy": "2026-11-26#n7",
+      "wynik": "ODPADA",
+      "powod": "Zapowiedź wyprzedziło podpisanie umowy 27.11 (W obserwacji n11)."
+    },
+    {
+      "dotyczy": "2026-11-26#n8",
+      "wynik": "ODPADA",
+      "powod": "Brak nowych informacji o pozwie współwłaścicieli koncernu Technonicol."
+    },
+    {
+      "dotyczy": "2026-11-26#n9",
+      "wynik": "ODPADA",
+      "powod": "Wypowiedź ministra Pistoriusa nie miała dalszego ciągu."
+    },
+    {
+      "dotyczy": "2026-11-26#n10",
+      "wynik": "ODPADA",
+      "powod": "Wypowiedź prezydenta Cypru nie miała dalszego ciągu."
+    },
+    {
+      "dotyczy": "2026-11-26#n11",
+      "wynik": "ODPADA",
+      "powod": "Sprawę wyprzedził komunikat Korpusu Strażników Rewolucji Islamskiej z 27.11 o trafionym tankowcu (W obserwacji n4)."
+    },
+    {
+      "dotyczy": "2026-11-26#n12",
+      "wynik": "ODPADA",
+      "powod": "Liczbę ofiar podają tylko władze okupacyjne; brak nowych informacji."
+    },
+    {
+      "dotyczy": "2026-11-26#n13",
+      "wynik": "ODPADA",
+      "powod": "Reuters 26.11 opisał kolejne naloty w Strefie Gazy; liczby ofiar nie potwierdziło drugie źródło."
+    }
+  ],
+  "do_sprawdzenia": [
+    "Rada Europejska 17.12 – budżet 2028–2034 i pożyczka dla Ukrainy",
+    "22. pakiet sankcji – stanowisko Bułgarii i Włoch",
+    "Umowa MON z Palantirem – komunikat MON z wartością",
+    "Korea Północna i Rosja – potwierdzenie zawieszenia współpracy",
+    "Wybory w Hiszpanii 29.11 – wynik",
+    "Wybory lokalne na Tajwanie 28.11 – wynik",
+    "Estonia – zamknięcie przejść granicznych 1.12",
+    "PISM – lista publikacji, jeśli się otworzy",
+    "Podpalenie WB Electronics – komunikat prokuratury"
+  ],
+  "nota": "Listy publikacji PISM (działy Komentarze i Biuletyny, wersja angielska i główna) zwróciły pustą stronę; teksty PISM ustalono wyszukiwarką. Dział Świat Onetu niesprawdzony: wyszukiwarka nie zwróciła nagłówków działu z 27.11. Komunikatów Dowództwa Operacyjnego, Straży Granicznej, Agencji Uzbrojenia i Prokuratury Krajowej z 27.11 wyszukiwarka nie zwróciła. Wydanie AP Morning Wire z 27.11 nie zawierało przeglądu wiadomości."
+}

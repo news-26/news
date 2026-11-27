@@ -6,20 +6,20 @@
       "nazwa": "Ukraina",
       "grupa": "miejsce",
       "opis": "Wojna Rosji z Ukrainą: ataki, obrona powietrzna, polityka Kijowa, pomoc zachodnia.",
-      "stan": "Rosja zaatakowała w nocy na 26.11 Kijów pociskami balistycznymi (siedmioro rannych); ukraińskie drony uderzyły w zakłady azotowe w Newinnomyssku. Przywódcy UE rozmawiają w Brukseli o pożyczce 45 mld euro dla Ukrainy na 2027 r.",
+      "stan": "Rosja zaatakowała w nocy na 27.11 Ukrainę 155 dronami i uszkodziła infrastrukturę energetyczną i kolejową w dziewięciu obwodach; UE nie zatwierdziła pożyczki 45 mld euro dla Ukrainy i wróci do sprawy 17.12.",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/russian-attacks-kill-10-injure-58-across-ukraine-over-past-day-strike-kyiv-with-ballistic-missiles/",
-          "data": "2026-11-26"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/27/russian-drone-strikes-hit-ukraines-energy-rail-and-civilian-infrastructure-causing-deaths",
+          "data": "2026-11-27"
         },
         {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/11/26/russian-strikes-on-ukraine-kill-two-in-kharkiv-and-injure-seven-in-kyiv",
-          "data": "2026-11-26"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/ukraine-stops-electricity-exports-as-russian-attacks-strain-power-grid/",
+          "data": "2026-11-27"
         }
       ],
-      "stan_data": "2026-11-26"
+      "stan_data": "2026-11-27"
     },
     {
       "id": "front",
@@ -66,18 +66,18 @@
       "nazwa": "Rosja",
       "grupa": "miejsce",
       "opis": "Polityka wewnętrzna, armia i budżet Rosji.",
-      "stan": "Trump i Rutte wezwali 25.11 Rosję do unikania działań rozszerzających wojnę; wysłannik USA Jared Kushner nazwał Putina „arcymistrzem polityki”.",
-      "stan_data": "2026-11-26",
+      "stan": "Według wywiadu wojskowego Ukrainy Korea Północna czasowo zawiesiła współpracę wojskową z Rosją; Rosja zaatakowała w nocy na 27.11 Ukrainę 155 dronami.",
+      "stan_data": "2026-11-27",
       "stan_zrodla": [
         {
-          "nazwa": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/26/trump-nato-rutte-russia-ukraine-war.html",
-          "data": "2026-11-26"
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/11/27/ukrainian-intelligence-says-north-korea-has-stopped-sending-troops-and-missiles-to-russia",
+          "data": "2026-11-27"
         },
         {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/feature/2026/11/26/jared-kushner-says-putin-has-shown-restraint-in-ukraine-and-promised-not-to-use-nuclear-weapons",
-          "data": "2026-11-26"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/27/north-korea-halts-russia-military-aid-over-seoul-row-kyiv-says",
+          "data": "2026-11-27"
         }
       ]
     },
@@ -266,17 +266,17 @@
       "nazwa": "USA",
       "grupa": "miejsce",
       "opis": "Polityka USA wobec Europy, Rosji, Ukrainy i Bliskiego Wschodu.",
-      "stan": "Trump i sekretarz generalny NATO Mark Rutte spotkali się 25.11 w Mar-a-Lago i wezwali Rosję do unikania działań rozszerzających wojnę; do Polski dotarły kolejne dwa myśliwce F-35.",
-      "stan_data": "2026-11-26",
+      "stan": "Prezydent USA Donald Trump powiedział 26.11, że chciałby, aby Władimir Putin przyjechał na szczyt G20 w Miami 14–15.12; według Reutersa administracja USA zachęcała Wenezuelę i Irak do rozważenia wyjścia z OPEC.",
+      "stan_data": "2026-11-27",
       "stan_zrodla": [
         {
-          "nazwa": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/26/trump-nato-rutte-russia-ukraine-war.html",
-          "data": "2026-11-26"
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/world/trump-says-putin-can-come-g20-if-he-wants-2026-11-27/",
+          "data": "2026-11-27"
         },
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/trump-tells-putin-to-pull-back-all-military-aggression-across-europe/",
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/world/europe/trump-says-hed-like-see-putin-pull-back-military-aggression-europe-2026-11-26/",
           "data": "2026-11-26"
         }
       ]
@@ -306,18 +306,18 @@
       "nazwa": "NATO",
       "grupa": "temat",
       "opis": "Sojusz Północnoatlantycki: decyzje, szczyty, wschodnia flanka.",
-      "stan": "Trump i Rutte we wspólnym oświadczeniu z 25.11 wezwali Rosję do unikania działań, które rozszerzyłyby wojnę w Ukrainie.",
-      "stan_data": "2026-11-26",
+      "stan": "Myśliwce natowskiej misji Baltic Air Policing poderwano w nocy na 27.11 po wlocie drona nad Łotwę.",
+      "stan_data": "2026-11-27",
       "stan_zrodla": [
         {
-          "nazwa": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/26/trump-nato-rutte-russia-ukraine-war.html",
-          "data": "2026-11-26"
+          "nazwa": "LSM",
+          "url": "https://eng.lsm.lv/article/society/defence/27.11.2026-possible-air-threats-in-balvi-and-ludza-municipalities-are-over.a673686/",
+          "data": "2026-11-27"
         },
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/trump-tells-putin-to-pull-back-all-military-aggression-across-europe/",
-          "data": "2026-11-26"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/27/nato-jets-scrambled-after-drone-briefly-enters-latvian-airspace",
+          "data": "2026-11-27"
         }
       ]
     },
@@ -326,20 +326,20 @@
       "nazwa": "UE",
       "grupa": "temat",
       "opis": "Unia Europejska: Rada, Komisja, obronność, budżet WRF 2028–2034.",
-      "stan": "Nadzwyczajna Rada Europejska rozpoczęła 26.11 w Brukseli rozmowy o budżecie UE 2028–2034 i pożyczce 45 mld euro dla Ukrainy; Niemcy żądają udziału wszystkich 27 państw.",
+      "stan": "Nadzwyczajna Rada Europejska zakończyła się w nocy na 27.11 bez porozumienia w sprawie budżetu 2028–2034 i pożyczki dla Ukrainy; przywódcy wrócą do obu spraw 17.12.",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/solidarity-and-winter-top-eu-agenda-as-leaders-discuss-new-support-for-ukraine/",
-          "data": "2026-11-26"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/26/eu-summit-leaders-ready-to-spar-over-new-budget-and-ukraine-aid",
+          "data": "2026-11-27"
         },
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/26/europe-tonight-eu-leaders-clash-over-record-high-budget-amid-ukraine-funding-standoff",
-          "data": "2026-11-26"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/why-bulgaria-czechia-hungary-and-slovakia-are-complicating-the-latest-eu-push-for-a-ukraine-loan/",
+          "data": "2026-11-27"
         }
       ],
-      "stan_data": "2026-11-26"
+      "stan_data": "2026-11-27"
     },
     {
       "id": "onz",
@@ -462,15 +462,20 @@
       "nazwa": "Łotwa",
       "grupa": "miejsce",
       "opis": "Polityka Łotwy, wybory.",
-      "stan": "ETPC orzekł 24.11, że Łotwa naruszyła Konwencję, zawracając na Białoruś dzieci w 2021 r.",
+      "stan": "Dron na krótko wleciał w nocy na 27.11 w przestrzeń powietrzną Łotwy w gminie Ludza; poderwano myśliwce misji NATO.",
       "stan_zrodla": [
         {
+          "nazwa": "LSM",
+          "url": "https://eng.lsm.lv/article/society/defence/27.11.2026-possible-air-threats-in-balvi-and-ludza-municipalities-are-over.a673686/",
+          "data": "2026-11-27"
+        },
+        {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/24/european-court-rules-against-poland-and-latvia-over-migrant-pushbacks-at-belarus-border",
-          "data": "2026-11-24"
+          "url": "https://www.euronews.com/2026/11/27/nato-jets-scrambled-after-drone-briefly-enters-latvian-airspace",
+          "data": "2026-11-27"
         }
       ],
-      "stan_data": "2026-11-24"
+      "stan_data": "2026-11-27"
     },
     {
       "id": "estonia",
@@ -622,20 +627,15 @@
       "nazwa": "Gospodarka",
       "grupa": "temat",
       "opis": "Gospodarka w wymiarze geopolitycznym: sankcje, cła i wojny handlowe, surowce i szlaki handlowe, pomoc finansowa dla państw w kryzysie.",
-      "stan": "Administracja USA zaproponowała po dochodzeniu z sekcji 301 nowe cła na towary z 14 gospodarek; uwagi można składać do 5.01.2027.",
+      "stan": "Według Reutersa administracja USA zachęcała Wenezuelę i Irak do rozważenia wyjścia z OPEC.",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/25/us-proposes-new-tariffs-on-14-major-trading-partners-the-eu-included",
-          "data": "2026-11-25"
-        },
-        {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/us/trump-administration-set-unveil-new-tariffs-after-probe-on-excess-factory-2026-11-24/",
-          "data": "2026-11-24"
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/business/energy/us-pushed-venezuela-iraq-consider-leaving-opec-sources-say-2026-11-27/",
+          "data": "2026-11-27"
         }
       ],
-      "stan_data": "2026-11-25"
+      "stan_data": "2026-11-27"
     },
     {
       "id": "inne",
@@ -662,20 +662,15 @@
       "nazwa": "Afryka",
       "grupa": "miejsce",
       "opis": "Wojny, przewroty i kryzysy w Afryce (Róg Afryki, Sudan, Sahel, Kongo).",
-      "stan": "Liczba zachorowań na ebolę w Demokratycznej Republice Konga przekroczyła 12 tys.; walki na wschodzie utrudniają walkę z epidemią.",
+      "stan": "Minister spraw zagranicznych Ukrainy Andrij Sybiha oświadczył 26.11, że zatopienie rosyjskich jednostek w porcie w Bengazi nie było wymierzone w Libię.",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak",
-          "data": "2026-11-26"
-        },
-        {
-          "nazwa": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/26/dr-congo-ebola-cases-surpass-12000-as-fighting-disrupts-response-in-east",
+          "nazwa": "Reuters",
+          "url": "https://www.reuters.com/world/ukrainian-foreign-minister-says-military-action-was-never-directed-against-libya-2026-11-26/",
           "data": "2026-11-26"
         }
       ],
-      "stan_data": "2026-11-26"
+      "stan_data": "2026-11-27"
     },
     {
       "id": "ameryki",

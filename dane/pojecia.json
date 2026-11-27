@@ -552,6 +552,12 @@
       "nazwa": "KCNA",
       "pelna": "Koreańska Centralna Agencja Prasowa",
       "definicja": "Państwowa agencja informacyjna Korei Północnej, oficjalny kanał komunikatów władz w Pjongjangu."
+    },
+    {
+      "id": "hur",
+      "nazwa": "HUR",
+      "pelna": "Główny Zarząd Wywiadu Ministerstwa Obrony Ukrainy",
+      "definicja": "Wywiad wojskowy Ukrainy. Publikuje informacje o rosyjskich siłach zbrojnych i ich sojusznikach; jego komunikaty są stanowiskiem strony wojny."
     }
   ]
 }

@@ -1027,6 +1027,20 @@
       "lon": 19.13,
       "lat": 51.59,
       "kraj": "Polska"
+    },
+    {
+      "id": "nizyn",
+      "nazwa": "Niżyn",
+      "lon": 31.88,
+      "lat": 51.05,
+      "kraj": "ukraina"
+    },
+    {
+      "id": "ludza",
+      "nazwa": "Ludza",
+      "lon": 27.72,
+      "lat": 56.55,
+      "kraj": "lotwa"
     }
   ]
 }

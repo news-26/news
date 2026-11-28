@@ -558,6 +558,36 @@
       "nazwa": "HUR",
       "pelna": "Główny Zarząd Wywiadu Ministerstwa Obrony Ukrainy",
       "definicja": "Wywiad wojskowy Ukrainy. Publikuje informacje o rosyjskich siłach zbrojnych i ich sojusznikach; jego komunikaty są stanowiskiem strony wojny."
+    },
+    {
+      "id": "pgz",
+      "nazwa": "PGZ",
+      "pelna": "Polska Grupa Zbrojeniowa",
+      "definicja": "Państwowa grupa kapitałowa skupiająca kilkadziesiąt polskich spółek zbrojeniowych, m.in. Hutę Stalowa Wola i Mesko, producenta zestawów przeciwlotniczych Piorun."
+    },
+    {
+      "id": "kmt",
+      "nazwa": "KMT",
+      "pelna": "Kuomintang (Chińska Partia Narodowa)",
+      "definicja": "Główna partia opozycyjna na Tajwanie, opowiadająca się za bliższymi relacjami z ChRL."
+    },
+    {
+      "id": "dpp",
+      "nazwa": "DPP",
+      "pelna": "Demokratyczna Partia Postępowa",
+      "definicja": "Rządząca partia Tajwanu, z której wywodzi się prezydent; podkreśla odrębność Tajwanu od ChRL."
+    },
+    {
+      "id": "msf",
+      "nazwa": "MSF",
+      "pelna": "Lekarze bez Granic (Médecins Sans Frontières)",
+      "definicja": "Międzynarodowa organizacja humanitarna niosąca pomoc medyczną w strefach konfliktów i katastrof."
+    },
+    {
+      "id": "sso",
+      "nazwa": "SSO",
+      "pelna": "Siły Operacji Specjalnych Sił Zbrojnych Rosji",
+      "definicja": "Najbardziej utajniona jednostka bojowa armii rosyjskiej, podporządkowana Sztabowi Generalnemu; prowadzi operacje specjalne za granicą."
     }
   ]
 }

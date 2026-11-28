@@ -34,16 +34,21 @@
       "kraj": [
         "ukraina"
       ],
-      "zweryfikowano": "2026-11-20",
+      "zweryfikowano": "2026-11-28",
       "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-says-ukraine-aligns-naval-strikes-with-partners-italy-denies-coordination-over-libya-attack/",
+          "data": "2026-11-27"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/28/russia-says-it-downed-hundreds-of-drones-as-ukraine-reports-first-laser-interception-of-a-",
+          "data": "2026-11-28"
+        },
         {
           "nazwa": "Euronews",
           "url": "https://www.euronews.com/2026/11/20/what-does-it-mean-zelenskyy-asks-us-to-clarify-article-5-like-guarantee",
-          "data": "2026-11-20"
-        },
-        {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/news/2026/11/20/zelensky-questions-whether-kyiv-and-washington-mean-the-same-thing-by-nato-style-guarantees-and-reiterates-that-postwar-ukraine-would-need-foreign-troops-on-its-soil",
           "data": "2026-11-20"
         }
       ]
@@ -55,17 +60,17 @@
       "kraj": [
         "rosja"
       ],
-      "zweryfikowano": "2026-11-22",
+      "zweryfikowano": "2026-11-28",
       "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/28/putin-unveils-russias-newest-nuclear-powered-submarine",
+          "data": "2026-11-28"
+        },
         {
           "nazwa": "Associated Press",
           "url": "https://apnews.com/article/russia-ukraine-war-putin-trump-security-europe-60752c921b031be80b1f7a9e83455a0e",
           "data": "2026-11-22"
-        },
-        {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks",
-          "data": "2026-11-12"
         }
       ]
     },
@@ -1356,17 +1361,22 @@
       "kraj": [
         "wlochy"
       ],
-      "zweryfikowano": "2026-10-22",
+      "zweryfikowano": "2026-11-28",
       "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-says-ukraine-aligns-naval-strikes-with-partners-italy-denies-coordination-over-libya-attack/",
+          "data": "2026-11-27"
+        },
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-27/premier-meloni-i-prezydent-zelenski-wyjasnili-sobie-kwestie-ukrainskiej-operacji-w-libii/",
+          "data": "2026-11-27"
+        },
         {
           "nazwa": "France 24",
           "url": "https://www.france24.com/en/europe/20261020-italy-announces-new-security-measures-after-milan-riots-deploying-500-soldiers",
           "data": "2026-10-20"
-        },
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/10/21/italy-deploys-500-troops-to-milan-under-new-security-decree-following-violent-clashes",
-          "data": "2026-10-21"
         }
       ]
     },
@@ -1407,8 +1417,18 @@
         "balkany"
       ],
       "panstwo": "Albania",
-      "zweryfikowano": "2026-10-22",
+      "zweryfikowano": "2026-11-28",
       "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/28/albania-protesters-call-for-pm-resignation-amid-clashs",
+          "data": "2026-11-28"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/28/albania-police-protesters-clash-as-thousands-rally-against-the-government",
+          "data": "2026-11-28"
+        },
         {
           "nazwa": "OSW",
           "url": "https://osw.waw.pl/pl/publikacje/analizy/2026-10-22/albania-eskalacja-protestow",
@@ -2233,6 +2253,155 @@
         "Kim Dzong Una",
         "Kim Dzong Unem",
         "Kim Dzong Unowi"
+      ]
+    },
+    {
+      "id": "siergiej-sobianin",
+      "imie": "Siergiej Sobianin",
+      "funkcja": "Mer Moskwy.",
+      "kraj": [
+        "rosja"
+      ],
+      "zweryfikowano": "2026-11-28",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/ukraine-reportedly-launches-massive-attack-on-moscow-oblast-with-460-drones/",
+          "data": "2026-11-28"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/28/russia-says-it-downed-hundreds-of-drones-as-ukraine-reports-first-laser-interception-of-a-",
+          "data": "2026-11-28"
+        }
+      ],
+      "formy": [
+        "Siergiej Sobianin",
+        "Siergieja Sobianina",
+        "Sobianin",
+        "Sobianina"
+      ]
+    },
+    {
+      "id": "antonio-tajani",
+      "imie": "Antonio Tajani",
+      "funkcja": "Wicepremier i minister spraw zagranicznych Włoch.",
+      "kraj": [
+        "wlochy"
+      ],
+      "zweryfikowano": "2026-11-28",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-says-ukraine-aligns-naval-strikes-with-partners-italy-denies-coordination-over-libya-attack/",
+          "data": "2026-11-27"
+        },
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-27/premier-meloni-i-prezydent-zelenski-wyjasnili-sobie-kwestie-ukrainskiej-operacji-w-libii/",
+          "data": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "jakub-deka",
+      "imie": "Jakub Deka",
+      "funkcja": "Prezes zarządu Fundacji „Polsko-Niemieckie Pojednanie”.",
+      "kraj": [
+        "dyplomacja-rp"
+      ],
+      "zweryfikowano": "2026-11-28",
+      "zrodla": [
+        {
+          "nazwa": "PAP (za Polsat News)",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-27/niemcy-zdecydowali-ws-polskich-ofiar-jestesmy-gleboko-zasmuceni/",
+          "data": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "adam-leszkiewicz",
+      "imie": "Adam Leszkiewicz",
+      "funkcja": "Prezes Polskiej Grupy Zbrojeniowej (PGZ).",
+      "kraj": [
+        "obronnosc-polski"
+      ],
+      "zweryfikowano": "2026-11-28",
+      "zrodla": [
+        {
+          "nazwa": "PAP (za Defence24)",
+          "url": "https://defence24.pl/przemysl/litwa-kupuje-pioruny-pgz-zapowiada-umowe-w-grudniu",
+          "data": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "chiang-wan-an",
+      "imie": "Chiang Wan-an",
+      "funkcja": "Burmistrz Tajpej (Kuomintang), wybrany ponownie 28.11.2026.",
+      "kraj": [
+        "inne"
+      ],
+      "zweryfikowano": "2026-11-28",
+      "zrodla": [
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/taipei-s-kuomintang-mayor-re-elected-in-tight-election-race",
+          "data": "2026-11-28"
+        },
+        {
+          "nazwa": "Focus Taiwan (CNA)",
+          "url": "https://focustaiwan.tw/politics/202611285002",
+          "data": "2026-11-28"
+        }
+      ],
+      "panstwo": "Tajwan",
+      "formy": [
+        "Chiang Wan-an",
+        "Chianga Wan-ana"
+      ]
+    },
+    {
+      "id": "wojciech-kononczuk",
+      "imie": "Wojciech Konończuk",
+      "funkcja": "Dyrektor Ośrodka Studiów Wschodnich (OSW).",
+      "kraj": [
+        "dyplomacja-rp"
+      ],
+      "zweryfikowano": "2026-11-28",
+      "zrodla": [
+        {
+          "nazwa": "OSW",
+          "url": "https://www.osw.waw.pl/en/eksperci/wojciech-kononczuk",
+          "data": "2026-11-28"
+        },
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-27/ekspert-nie-ma-dobrych-wiesci-dla-ukrainy-absolutnie-nie-do-przyjecia/",
+          "data": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "robert-browdi",
+      "imie": "Robert Browdi",
+      "funkcja": "Dowódca Sił Systemów Bezzałogowych Ukrainy, pseudonim „Madziar”.",
+      "kraj": [
+        "ukraina"
+      ],
+      "zweryfikowano": "2026-11-28",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/hungary-reportedly-lifts-entry-ban-on-ukraines-drone-forces-commander/",
+          "data": "2026-11-28"
+        }
+      ],
+      "formy": [
+        "Robert Browdi",
+        "Roberta Browdiego",
+        "Browdi",
+        "Browdiego"
       ]
     }
   ]

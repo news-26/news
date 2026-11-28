@@ -1,0 +1,578 @@
+{
+  "nr": 71,
+  "data": "2026-11-28",
+  "godzina": "20:00",
+  "typ": "dzienne",
+  "w_skrocie": [
+    "Mer Moskwy Siergiej Sobianin podał, że w nocy na 28 listopada nad obwód moskiewski nadleciało **ponad 460 ukraińskich dronów**. Według ukraińskich Sił Powietrznych Rosja wysłała tej samej nocy nad Ukrainę 162 drony.",
+    "Prezydent Ukrainy Wołodymyr Zełenski potwierdził 27 listopada w rozmowie z premier Włoch Giorgią Meloni, że **atak ukraińskich dronów morskich na rosyjską korwetę Merkury w libijskim Bengazi 22 listopada nie był uzgodniony z partnerami europejskimi**. Według Reutersa rosyjski konwój z pojazdami wojskowymi dla Libii zawrócił.",
+    "Bundestag przyjął budżet Niemiec na 2027 rok **bez pieniędzy na pomoc dla żyjących polskich ofiar niemieckiej okupacji**.",
+    "Opozycyjny Kuomintang utrzymał w wyborach lokalnych na Tajwanie **urząd burmistrza Tajpej**. Według nieoficjalnych wyników rządząca Demokratyczna Partia Postępowa odebrała mu Taizhong i kilka powiatów.",
+    "Amerykański samolot unieruchomił 26 listopada w Zatoce Omańskiej statek, który wypłynął z Iranu i próbował przełamać **amerykańską blokadę irańskich portów**."
+  ],
+  "korekty": [],
+  "zarys": [
+    {
+      "id": "z1",
+      "blok": "wojna",
+      "data": "2026-11-28",
+      "tagi": [
+        "ukraina",
+        "rosja"
+      ],
+      "etap": null,
+      "miejsce": "moskwa",
+      "krotko": "Drony nad obwodem moskiewskim",
+      "tekst": "Mer Moskwy {{o:siergiej-sobianin|Siergiej Sobianin}} podał 28.11, że w nocy na 28.11 nad obwód moskiewski nadleciało **ponad 460 ukraińskich dronów**, a lotniska Wnukowo i Domodiedowo ograniczyły ruch. Rosja wysłała tej samej nocy nad Ukrainę 162 drony; według Kyiv Independent (za ukraińskimi władzami) w uderzeniu na zakłady w Niżynie w obwodzie czernihowskim 27.11 zginęło siedem osób, a 28.11 dron zabił w dzień kobietę w Kijowie.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/ukraine-reportedly-launches-massive-attack-on-moscow-oblast-with-460-drones/",
+          "data": "2026-11-28"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/28/russia-says-it-downed-hundreds-of-drones-as-ukraine-reports-first-laser-interception-of-a-",
+          "data": "2026-11-28"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-attacks-kill-10-injure-55-across-ukraine-over-past-day-as-deadly-strike-hits-chernihiv-oblast-businesses/",
+          "data": "2026-11-28"
+        },
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-drones-target-critical-infrastructure-in-kyiv-residential-building-in-kharkiv/",
+          "data": "2026-11-28"
+        }
+      ]
+    },
+    {
+      "id": "z2",
+      "blok": "wojna",
+      "data": "2026-11-27",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "wlochy",
+        "afryka"
+      ],
+      "etap": null,
+      "kraje": [
+        "Libia"
+      ],
+      "tekst": "{{o:wolodymyr-zelenski|Prezydent Ukrainy Wołodymyr Zełenski}} rozmawiał 27.11 telefonicznie z {{o:giorgia-meloni|premier Włoch Giorgią Meloni}} i potwierdził, że **atak ukraińskich dronów morskich na rosyjską korwetę Merkury w porcie w Bengazi 22.11 nie był uzgodniony z partnerami europejskimi**. Wcześniej wicepremier i minister spraw zagranicznych Włoch {{o:antonio-tajani|Antonio Tajani}} zaprzeczył słowom Zełenskiego o koordynacji, a według Reutersa rosyjski konwój, który wiózł do Libii pojazdy wojskowe, po zatopieniu korwety zawrócił.",
+      "zrodla": [
+        {
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-says-ukraine-aligns-naval-strikes-with-partners-italy-denies-coordination-over-libya-attack/",
+          "data": "2026-11-27"
+        },
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-27/premier-meloni-i-prezydent-zelenski-wyjasnili-sobie-kwestie-ukrainskiej-operacji-w-libii/",
+          "data": "2026-11-27"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/europe/russian-military-flotilla-bound-libya-turns-around-after-warship-sunk-nov-22-2026-11-27/",
+          "data": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "z3",
+      "blok": "wojna",
+      "data": "2026-11-27",
+      "tagi": [
+        "rosja",
+        "uzbrojenie"
+      ],
+      "etap": null,
+      "miejsce": "siewierodwinsk",
+      "krotko": "Okręt podwodny Perm",
+      "tekst": "Prezydent Rosji {{o:wladimir-putin|Władimir Putin}} uczestniczył 27.11 w stoczni Sewmasz w Siewierodwińsku w podniesieniu bandery na **okręcie podwodnym o napędzie jądrowym Perm projektu 885M (Jasień-M)**, uzbrojonym w pociski hipersoniczne Cyrkon; okręt trafi do Floty Oceanu Spokojnego. Putin zapowiedział, że do 2030 r. flota dostanie pięć kolejnych okrętów podwodnych z pociskami, w tym trzy typu Jasień-M.",
+      "zrodla": [
+        {
+          "nazwa": "Kreml",
+          "url": "http://en.kremlin.ru/events/president/news/81370",
+          "data": "2026-11-27"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/27/putin-unveils-new-russian-nuclear-powered-submarine-with-hypersonic-weapons",
+          "data": "2026-11-27"
+        },
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/28/putin-unveils-russias-newest-nuclear-powered-submarine",
+          "data": "2026-11-28"
+        }
+      ]
+    },
+    {
+      "id": "z4",
+      "blok": "instytucje",
+      "data": "2026-11-27",
+      "tagi": [
+        "niemcy",
+        "dyplomacja-rp"
+      ],
+      "etap": "PRZYJĘTE",
+      "miejsce": "berlin",
+      "krotko": "Budżet Niemiec na 2027 r.",
+      "tekst": "Bundestag przyjął 27.11 budżet Niemiec na 2027 r., w którym **nie ma pieniędzy na pomoc dla żyjących polskich ofiar niemieckiej okupacji**; posłowie odrzucili też rezolucję Zielonych, która tego dotyczyła. Prezes Fundacji „Polsko-Niemieckie Pojednanie” {{o:jakub-deka|Jakub Deka}} powiedział, że fundacja jest głęboko zasmucona i rozczarowana; według PAP żyje jeszcze ok. 30–50 tys. takich osób.",
+      "zrodla": [
+        {
+          "nazwa": "PAP",
+          "url": "https://www.pap.pl/aktualnosci/bez-srodkow-na-zadoscuczynienie-dla-polskich-ofiar-bundestag-uchwalil-budzet-na-2027",
+          "data": "2026-11-27"
+        },
+        {
+          "nazwa": "Rzeczpospolita",
+          "url": "https://www.rp.pl/polityka/art45557661-marcin-przydacz-mowi-jednym-glosem-z-niemiecka-lewica-i-zielonymi-chodzi-o-polskie-ofiary-wojny",
+          "data": "2026-11-28"
+        },
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-27/niemcy-zdecydowali-ws-polskich-ofiar-jestesmy-gleboko-zasmuceni/",
+          "data": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "z5",
+      "blok": "instytucje",
+      "data": "2026-11-28",
+      "tagi": [
+        "balkany"
+      ],
+      "etap": null,
+      "miejsce": "tirana",
+      "krotko": "Protest w Tiranie",
+      "tekst": "Tysiące demonstrantów, głównie studentów, protestowały 28.11 w Tiranie w rocznicę niepodległości Albanii i **zażądały dymisji premiera {{o:edi-rama|Ediego Ramy}}**; policja użyła gazu łzawiącego i armatek wodnych. Według ministerstwa zdrowia rannych zostało osiem osób, w tym policjant i dwóch dziennikarzy.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/28/albania-protesters-call-for-pm-resignation-amid-clashs",
+          "data": "2026-11-28"
+        },
+        {
+          "nazwa": "France 24 (za AFP)",
+          "url": "https://www.france24.com/en/live-news/20261128-albanian-police-clash-with-anti-govt-protesters-in-tirana",
+          "data": "2026-11-28"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/28/albania-police-protesters-clash-as-thousands-rally-against-the-government",
+          "data": "2026-11-28"
+        },
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-28/turystyczny-kraj-pograza-sie-w-chaosie-protest-na-ulicach-sa-ranni/",
+          "data": "2026-11-28"
+        }
+      ]
+    },
+    {
+      "id": "z6",
+      "blok": "swiat",
+      "data": "2026-11-28",
+      "tagi": [
+        "chiny",
+        "wybory"
+      ],
+      "etap": null,
+      "miejsce": "tajpej",
+      "krotko": "Wybory lokalne na Tajwanie",
+      "tekst": "Opozycyjny Kuomintang ({{p:kmt|KMT}}) **utrzymał w wyborach lokalnych na Tajwanie 28.11 urząd burmistrza Tajpej**, gdzie ponownie wygrał {{o:chiang-wan-an|Chiang Wan-an}}, a także Nowe Tajpej i Taoyuan. Według nieoficjalnych wyników Focus Taiwan rządząca Demokratyczna Partia Postępowa ({{p:dpp|DPP}}) odebrała KMT m.in. Taizhong i zdobyła 10 z 22 miast i powiatów wobec 11 dla KMT; Centralna Komisja Wyborcza nie zatwierdziła jeszcze wyników.",
+      "zrodla": [
+        {
+          "nazwa": "Focus Taiwan (CNA)",
+          "url": "https://focustaiwan.tw/politics/202611285002",
+          "data": "2026-11-28"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/taipei-s-kuomintang-mayor-re-elected-in-tight-election-race",
+          "data": "2026-11-28"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/28/taiwan-opposition-party-wins-re-election-in-taipei-mayoral-race",
+          "data": "2026-11-28"
+        }
+      ]
+    },
+    {
+      "id": "z7",
+      "blok": "swiat",
+      "data": "2026-11-26",
+      "tagi": [
+        "iran",
+        "usa"
+      ],
+      "etap": null,
+      "miejsce": "ciesnina-ormuz",
+      "krotko": "USA unieruchomiły statek",
+      "tekst": "Dowództwo Centralne USA ({{p:centcom|CENTCOM}}) podało 27.11, że amerykański samolot **unieruchomił 26.11 w Zatoce Omańskiej statek Pacific Archer pod banderą Palau**, który wypłynął z irańskiego portu Bandar Abbas i próbował przełamać blokadę irańskich portów; załoga nie ucierpiała. Według CENTCOM od połowy lipca blokada unieruchomiła sześć statków i zawróciła 158, a {{o:esmaeil-baghaei|rzecznik MSZ Iranu Esmaeil Baghaei}} zapowiedział 23.11 przeciwdziałanie wszelkimi środkami.",
+      "zrodla": [
+        {
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/28/us-military-fires-at-a-ship-that-violated-blockade-of-iranian-ports",
+          "data": "2026-11-28"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/us-disables-ship-trying-leave-iran-tehran-vows-confront-blockade-2026-11-27/",
+          "data": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "z8",
+      "blok": "swiat",
+      "data": "2026-11-27",
+      "tagi": [
+        "inne"
+      ],
+      "etap": null,
+      "miejsce": "gaza",
+      "kraje": [
+        "Izrael"
+      ],
+      "krotko": "Nalot przy klinice MSF",
+      "tekst": "Izraelski nalot zabił 27.11 w mieście Gaza **dwóch ochroniarzy organizacji Lekarze bez Granic ({{p:msf|MSF}})** przy oznakowanej klinice tej organizacji. Armia izraelska potwierdziła atak i twierdzi, że obaj byli członkami Hamasu; według MSF liczba jej pracowników zabitych w Strefie Gazy wzrosła do 17.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/israeli-strike-killed-two-staff-outside-gaza-clinic-msf-says-2026-11-28/",
+          "data": "2026-11-28"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/28/israeli-strike-on-doctors-without-borders-clinic-in-gaza-kills-two-staff",
+          "data": "2026-11-28"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20261128-israeli-strike-on-gaza-kills-two-medics-from-doctors-without-borders",
+          "data": "2026-11-28"
+        },
+        {
+          "nazwa": "CBS News",
+          "url": "https://www.cbsnews.com/news/israel-gaza-msf-doctors-without-borders-strike/",
+          "data": "2026-11-28"
+        }
+      ]
+    },
+    {
+      "id": "z9",
+      "blok": "swiat",
+      "data": "2026-11-28",
+      "tagi": [
+        "inne"
+      ],
+      "etap": null,
+      "miejsce": "jemen",
+      "krotko": "Przejęcie statku u Jemenu",
+      "tekst": "Według Reutersa brytyjska agencja bezpieczeństwa morskiego {{p:ukmto|UKMTO}} podała 28.11, że **uzbrojeni ludzie weszli na pokład statku towarowego ok. 64 mil morskich na południowy zachód od Balhafu w Jemenie i przejęli nad nim kontrolę**. Nikt nie przyznał się do ataku, a statku nie zidentyfikowano.",
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/armed-group-boards-cargo-ship-off-yemen-takes-control-ukmto-says-2026-11-28/",
+          "data": "2026-11-28"
+        },
+        {
+          "nazwa": "Arab News",
+          "url": "https://www.arabnews.com/middle-east/armed-group-boards-cargo-ship-off-yemen-and-takes-control-ukmto-says-3014353",
+          "data": "2026-11-28"
+        }
+      ]
+    }
+  ],
+  "analizy": [
+    {
+      "tytul": "Dyrektor OSW Wojciech Konończuk: oddanie Donbasu w zamian za gwarancje na wzór art. 5 NATO jest dla Rosji nie do przyjęcia",
+      "autor": "Wojciech Konończuk (OSW), Polsat News, 27.11.2026",
+      "tekst": "{{o:wojciech-kononczuk|Wojciech Konończuk}} ocenia, że pomysł, by Ukraina oddała Donbas w zamian za gwarancje bezpieczeństwa wzorowane na art. 5 traktatu waszyngtońskiego, jest dla Rosji nie do przyjęcia. Wątpi też, by USA lub inne państwo NATO były gotowe dać Ukrainie tak twarde gwarancje.",
+      "dla_polski": "Konończuk uważa, że rosyjskie pociski manewrujące, które w ostatnich miesiącach spadły w Polsce, były celowym sprawdzianem NATO. Jego zdaniem słaba reakcja Sojuszu zachęca Rosję do dalszej eskalacji.",
+      "tagi": [
+        "ukraina",
+        "rosja",
+        "nato",
+        "obronnosc-polski"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-27/ekspert-nie-ma-dobrych-wiesci-dla-ukrainy-absolutnie-nie-do-przyjecia/",
+          "data": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "tytul": "Reuters: chłosta piosenkarki Parastu Ahmadi jest według rozmówców w Iranie pokazem siły twardogłowych duchownych",
+      "autor": "Rozmówcy Reutersa z kręgów władzy w Iranie, Reuters, 28.11.2026",
+      "tekst": "Władze Iranu wymierzyły karę chłosty piosenkarce Parastu Ahmadi i członkom jej zespołu. Rozmówcy Reutersa z kręgów władzy oceniają, że to pokaz siły duchownej elity, która czuje się zagrożona.",
+      "dla_polski": "Skutek pośredni: twardszy kurs władz w Teheranie może utrudniać rozmowy o zniesieniu amerykańskiej blokady irańskich portów i otwarciu cieśniny Ormuz, ważnej dla dostaw ropy do Europy.",
+      "tagi": [
+        "iran"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/irans-flogging-singer-was-warning-anxious-hardliners-insiders-say-2026-11-28/",
+          "data": "2026-11-28"
+        }
+      ]
+    },
+    {
+      "tytul": "iStories: Rosja straciła od lutego 2022 r. co najmniej 87 żołnierzy Sił Operacji Specjalnych",
+      "autor": "Redakcja iStories (śledztwo dziennikarskie, przedruk Meduzy), 26.11.2026",
+      "tekst": "Dziennikarze iStories przeanalizowali wykradzioną bazę aktów zgonu rosyjskiego urzędu statystycznego Rosstat. Ustalili, że od początku pełnoskalowej inwazji zginęło co najmniej 87 żołnierzy Sił Operacji Specjalnych ({{p:sso|SSO}}), w tym co najmniej 54 w Ukrainie i pięciu w Syrii.",
+      "dla_polski": "Część SSO włączono w 2023 r. do nowej struktury wywiadu wojskowego, która według „Wall Street Journal” prowadzi sabotaż w państwach NATO. Straty tej formacji dotyczą więc zaplecza rosyjskich działań dywersyjnych w Europie.",
+      "tagi": [
+        "rosja",
+        "hybryda"
+      ],
+      "zrodla": [
+        {
+          "nazwa": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/11/27/russia-has-lost-at-least-87-members-of-its-most-secretive-special-forces-unit-since-invading-ukraine-investigation-finds",
+          "data": "2026-11-27"
+        },
+        {
+          "nazwa": "Polsat News",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-27/tajne-sily-wladimira-putina-rosja-traci-elitarnych-zolnierzy/",
+          "data": "2026-11-27"
+        }
+      ]
+    }
+  ],
+  "kalendarz": [
+    {
+      "data": "2026-11-29",
+      "tekst": "29.11: Hiszpania – przedterminowe wybory parlamentarne.",
+      "tagi": [
+        "inne",
+        "wybory"
+      ]
+    },
+    {
+      "data": "2026-11-29",
+      "tekst": "29.11: OPEC+ – spotkanie ministrów w sprawie limitów wydobycia na 2027 r.",
+      "tagi": [
+        "gospodarka"
+      ],
+      "poza_kalendarium": "Termin podaje tylko Reuters (za źródłami w OPEC+); brak komunikatu OPEC."
+    },
+    {
+      "data": "2026-12-01",
+      "tekst": "1.12: Estonia – zamknięcie przejść granicznych z Rosją.",
+      "tagi": [
+        "estonia"
+      ],
+      "poza_kalendarium": "Decyzja administracyjna państwa, nie spotkanie ani wybory."
+    },
+    {
+      "data": "2026-12-03",
+      "tekst": "3–4.12: Lugano – 33. Rada Ministerialna OBWE.",
+      "tagi": [
+        "inne"
+      ]
+    }
+  ],
+  "poza_oknem": [
+    {
+      "data": "2026-12-14",
+      "tekst": "Miami – szczyt przywódców G20",
+      "tagi": [
+        "usa"
+      ]
+    },
+    {
+      "data": "2026-12-17",
+      "tekst": "Bruksela – Rada Europejska; przywódcy chcą porozumienia w sprawie budżetu UE 2028–2034",
+      "tagi": [
+        "ue"
+      ]
+    },
+    {
+      "data": "2026-12-27",
+      "tekst": "Serbia – wybory prezydenckie",
+      "tagi": [
+        "balkany",
+        "wybory"
+      ],
+      "poza_kalendarium": "Datę podaje tylko Euronews; brak komunikatu serbskiej Republikańskiej Komisji Wyborczej."
+    },
+    {
+      "data": "2027-01-12",
+      "tekst": "Litwa – drugie głosowanie Sejmu nad zmianą art. 137 konstytucji",
+      "tagi": [
+        "litwa"
+      ]
+    }
+  ],
+  "zrodla_analityczne": {
+    "osw": [
+      {
+        "tytul": "Turcja po COP31: kapitał i technologie mimo fiaska negocjacji",
+        "autor": "Adam Michalski",
+        "data": "2026-11-27",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-27/turcja-po-cop31-kapital-i-technologie-mimo-fiaska-negocjacji"
+      },
+      {
+        "tytul": "Reforma niemieckiego wywiadu i kontrwywiadu. Nowe uprawnienia BND i BfV",
+        "autor": "Kamil Frymark",
+        "data": "2026-11-27",
+        "url": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-11-27/reforma-niemieckiego-wywiadu-i-kontrwywiadu-nowe-uprawnienia"
+      },
+      {
+        "tytul": "Gra w statki: rozszerzenie rosyjskiej kampanii przeciw żegludze czarnomorskiej",
+        "autor": "Andrzej Wilk, Piotr Szymański, Kamil Całus, Jan Nowinowski, Krzysztof Nieczypor",
+        "data": "2026-11-27",
+        "url": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-11-27/gra-w-statki-rozszerzenie-rosyjskiej-kampanii-przeciw-zegludze"
+      },
+      {
+        "tytul": "Magyar na Zakarpaciu: symboliczny krok ku normalizacji stosunków z Ukrainą",
+        "autor": "Ilona Gizińska, Kacper Sienicki",
+        "data": "2026-11-26",
+        "url": "https://www.osw.waw.pl/pl/publikacje/analizy/2026-11-26/magyar-na-zakarpaciu-symboliczny-krok-ku-normalizacji-stosunkow-z"
+      }
+    ],
+    "pism": [],
+    "nieodczytane": [
+      "pism"
+    ]
+  },
+  "czego_nie_ma": [
+    {
+      "id": "n2",
+      "prog": "dokumentacja",
+      "tekst": "Węgry i Ukraina: według węgierskiego portalu Magyar Hang (za nim Kyiv Independent) Węgry zdjęły zakaz wjazdu do strefy Schengen nałożony w 2025 r. na dowódcę Sił Systemów Bezzałogowych Ukrainy {{o:robert-browdi|Roberta Browdiego}}.",
+      "sprawdzono": [
+        "Kyiv Independent 28.11 (za Magyar Hang)",
+        "Kanał RSS Meduzy 27–28.11: brak wzmianki",
+        "Kanał RSS Euronews 28.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 28.11: brak wzmianki"
+      ]
+    },
+    {
+      "id": "n4",
+      "prog": "dokumentacja",
+      "tekst": "Polska i Litwa: według Defence24 (za PAP i Radiem Znad Wilii) prezes {{p:pgz|Polskiej Grupy Zbrojeniowej}} {{o:adam-leszkiewicz|Adam Leszkiewicz}} zapowiedział 27.11 w Wilnie podpisanie w grudniu w Warszawie umowy wykonawczej na dostawy przenośnych zestawów przeciwlotniczych Piorun dla Litwy; liczby zestawów, wartości i terminu dostaw nie podał.",
+      "sprawdzono": [
+        "Defence24 27.11 (za PAP, poziom 3)",
+        "Strona MON (gov.pl), wiadomości 28.11: ostatni wpis z 24.11",
+        "Wyszukiwarka – PAP, PGZ i litewskie Ministerstwo Obrony: brak komunikatu z 27–28.11"
+      ]
+    }
+  ],
+  "rozstrzygniecia": [
+    {
+      "dotyczy": "2026-11-27#n11",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Wartość i okres umowy MON z Palantirem nadal podaje tylko „Rzeczpospolita”.",
+      "sprawdzono": [
+        "Strona MON (gov.pl), wiadomości 28.11: ostatni wpis z 24.11",
+        "Wyszukiwarka – Palantir i MON: tylko list intencyjny z 2025 r.",
+        "Defence24 28.11: tytuł o podpisaniu umowy bez wartości (poziom 3)"
+      ]
+    },
+    {
+      "dotyczy": "2026-11-27#n12",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Propozycję wspólnego śledztwa nadal podaje tylko Euronews; Al Jazeera opisuje odrzucenie oskarżeń przez Iran bez tej propozycji.",
+      "sprawdzono": [
+        "Al Jazeera 28.11 – reakcja Iranu (poziom 3)",
+        "Kanał RSS Euronews 28.11: brak nowej wzmianki",
+        "Kanał RSS Polsat News Świat 28.11: brak wzmianki"
+      ]
+    },
+    {
+      "dotyczy": "2026-11-27#n1",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Warunek Bułgarii nadal podaje tylko Kyiv Independent za anonimowymi dyplomatami.",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 28.11: brak nowej wzmianki",
+        "Kanał RSS Euronews 28.11: brak wzmianki",
+        "Reuters Weekend Briefing 28.11: brak wzmianki"
+      ]
+    },
+    {
+      "dotyczy": "2026-11-27#n2",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Decyzję sądu w Chorwacji nadal podaje tylko Kyiv Independent za obrońcami.",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 28.11: brak nowej wzmianki",
+        "Kanał RSS Euronews 28.11: brak wzmianki",
+        "Kanał RSS Meduzy 27–28.11: brak wzmianki"
+      ]
+    },
+    {
+      "dotyczy": "2026-11-27#n3",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Zmianę oświadczenia przez Trumpa nadal podaje tylko Politico, za nim Meduza i Polsat News.",
+      "sprawdzono": [
+        "Kanał RSS Euronews 28.11: brak wzmianki",
+        "Reuters Weekend Briefing 28.11: brak wzmianki",
+        "Kanał RSS Kyiv Independent 28.11: brak wzmianki"
+      ]
+    },
+    {
+      "dotyczy": "2026-11-27#n4",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Wybuch tankowca na minie nadal podaje tylko Al Jazeera za Korpusem Strażników Rewolucji Islamskiej.",
+      "sprawdzono": [
+        "Reuters Iran Briefing 28.11: brak wzmianki o minie",
+        "Euronews 28.11 o blokadzie: brak wzmianki o eksplozji tankowca",
+        "Al Jazeera, strona działu 28.11: brak nowej wzmianki"
+      ]
+    },
+    {
+      "dotyczy": "2026-11-27#n5",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Przełożenie wyborów w Gwinei Bissau nadal podaje tylko Al Jazeera.",
+      "sprawdzono": [
+        "Al Jazeera, strona działu 28.11: brak nowej wzmianki",
+        "Kanał RSS Euronews 28.11: brak wzmianki",
+        "Reuters Weekend Briefing 28.11: brak wzmianki"
+      ]
+    },
+    {
+      "dotyczy": "2026-11-27#n6",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Budowę rosyjskiego systemu łączności satelitarnej nadal podaje tylko wywiad wojskowy Ukrainy.",
+      "sprawdzono": [
+        "Kanał RSS Kyiv Independent 28.11: brak nowej wzmianki",
+        "Kanał RSS Meduzy 27–28.11: brak wzmianki",
+        "Kanał RSS Euronews 28.11: brak wzmianki"
+      ]
+    },
+    {
+      "dotyczy": "2026-11-27#n14",
+      "wynik": "NIE DO POTWIERDZENIA",
+      "powod": "Sprawę nadal opisuje tylko Al Jazeera; według niej sprawozdawczyni opuściła 28.11 Kostarykę.",
+      "sprawdzono": [
+        "Al Jazeera 28.11 – wyjazd sprawozdawczyni z Kostaryki (poziom 3)",
+        "Kanał RSS Euronews 28.11: brak wzmianki",
+        "Kanał RSS Polsat News Świat 28.11: brak wzmianki"
+      ]
+    }
+  ],
+  "do_sprawdzenia": [
+    "Wybory w Hiszpanii 29.11 – wynik",
+    "OPEC+ 29.11 – decyzja o limitach wydobycia na 2027 r.",
+    "Estonia – zamknięcie przejść granicznych 1.12",
+    "Tajwan – oficjalne wyniki Centralnej Komisji Wyborczej (Yunlin, Hualien)",
+    "Serbia – data wyborów prezydenckich (komunikat komisji wyborczej)",
+    "PGZ – umowa wykonawcza na Pioruny dla Litwy",
+    "Umowa MON z Palantirem – komunikat MON z wartością",
+    "Rada Europejska 17.12 – budżet 2028–2034 i pożyczka dla Ukrainy",
+    "PISM – lista publikacji, jeśli się otworzy",
+    "Podpalenie WB Electronics – komunikat prokuratury"
+  ],
+  "nota": "Listy publikacji PISM (działy Komentarze i Biuletyny, wersja angielska i strona główna) zwróciły pustą stronę. Dział Świat Onetu niesprawdzony: wyszukiwarka nie zwróciła nagłówków działu z 28.11. Kanał TVN24 odmówił dostępu. Komunikatów Dowództwa Operacyjnego, Straży Granicznej, Agencji Uzbrojenia i Prokuratury Krajowej z 27–28.11 wyszukiwarka nie zwróciła. Od poprzedniego wydania nie przyszło wydanie AP Morning Wire z przeglądem wiadomości."
+}

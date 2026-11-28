@@ -6,20 +6,20 @@
       "nazwa": "Ukraina",
       "grupa": "miejsce",
       "opis": "Wojna Rosji z Ukrainą: ataki, obrona powietrzna, polityka Kijowa, pomoc zachodnia.",
-      "stan": "Rosja zaatakowała w nocy na 27.11 Ukrainę 155 dronami i uszkodziła infrastrukturę energetyczną i kolejową w dziewięciu obwodach; UE nie zatwierdziła pożyczki 45 mld euro dla Ukrainy i wróci do sprawy 17.12.",
+      "stan": "Ukraina wysłała w nocy na 28.11 ponad 460 dronów nad obwód moskiewski; Rosja zaatakowała Ukrainę 162 dronami, a Zełenski potwierdził Meloni, że atak w Bengazi nie był uzgodniony z partnerami.",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/27/russian-drone-strikes-hit-ukraines-energy-rail-and-civilian-infrastructure-causing-deaths",
-          "data": "2026-11-27"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/ukraine-reportedly-launches-massive-attack-on-moscow-oblast-with-460-drones/",
+          "data": "2026-11-28"
         },
         {
           "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/ukraine-stops-electricity-exports-as-russian-attacks-strain-power-grid/",
+          "url": "https://kyivindependent.com/zelensky-says-ukraine-aligns-naval-strikes-with-partners-italy-denies-coordination-over-libya-attack/",
           "data": "2026-11-27"
         }
       ],
-      "stan_data": "2026-11-27"
+      "stan_data": "2026-11-28"
     },
     {
       "id": "front",
@@ -66,17 +66,17 @@
       "nazwa": "Rosja",
       "grupa": "miejsce",
       "opis": "Polityka wewnętrzna, armia i budżet Rosji.",
-      "stan": "Według wywiadu wojskowego Ukrainy Korea Północna czasowo zawiesiła współpracę wojskową z Rosją; Rosja zaatakowała w nocy na 27.11 Ukrainę 155 dronami.",
-      "stan_data": "2026-11-27",
+      "stan": "Mer Moskwy Siergiej Sobianin podał, że w nocy na 28.11 nad obwód moskiewski nadleciało ponad 460 ukraińskich dronów; według Reutersa rosyjski konwój do Libii zawrócił po zatopieniu korwety Merkury.",
+      "stan_data": "2026-11-28",
       "stan_zrodla": [
         {
-          "nazwa": "Meduza",
-          "url": "https://meduza.io/en/feature/2026/11/27/ukrainian-intelligence-says-north-korea-has-stopped-sending-troops-and-missiles-to-russia",
-          "data": "2026-11-27"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/ukraine-reportedly-launches-massive-attack-on-moscow-oblast-with-460-drones/",
+          "data": "2026-11-28"
         },
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/27/north-korea-halts-russia-military-aid-over-seoul-row-kyiv-says",
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/europe/russian-military-flotilla-bound-libya-turns-around-after-warship-sunk-nov-22-2026-11-27/",
           "data": "2026-11-27"
         }
       ]
@@ -146,20 +146,20 @@
       "nazwa": "Uzbrojenie",
       "grupa": "temat",
       "opis": "Systemy uzbrojenia, zakupy, produkcja i dostawy: nazwy, liczby, jednostki.",
-      "stan": "Do Łasku przyleciały 26.11 dwa kolejne myśliwce F-35A; do końca 2026 r. Polska ma mieć ich 14.",
+      "stan": "Rosja wprowadziła 27.11 do służby okręt podwodny o napędzie jądrowym Perm projektu 885M z pociskami Cyrkon; Putin zapowiada pięć kolejnych okrętów podwodnych z pociskami do 2030 r.",
       "stan_zrodla": [
         {
-          "nazwa": "MON (za Radio Łódź)",
-          "url": "https://radiolodz.pl/kolejne-dwa-mysliwce-f-35-dotarly-do-lasku,691454/",
-          "data": "2026-11-26"
+          "nazwa": "Kreml",
+          "url": "http://en.kremlin.ru/events/president/news/81370",
+          "data": "2026-11-27"
         },
         {
-          "nazwa": "MON (za Portal Obronny)",
-          "url": "https://portalobronny.se.pl/lotnictwo/nowe-f-35-juz-w-polsce-minister-kosiniak-kamysz-potwierdza-ladowanie-w-32-bazie-aa-qVSb-VGhR-GPBr.html",
-          "data": "2026-11-26"
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/27/putin-unveils-new-russian-nuclear-powered-submarine-with-hypersonic-weapons",
+          "data": "2026-11-27"
         }
       ],
-      "stan_data": "2026-11-26"
+      "stan_data": "2026-11-28"
     },
     {
       "id": "przemysl-zbrojeniowy",
@@ -206,18 +206,13 @@
       "nazwa": "DyplomacjaRP",
       "grupa": "temat",
       "opis": "Polityka zagraniczna Polski, wizyty, spory kompetencyjne.",
-      "stan": "Premier Donald Tusk wziął udział 19.11 w Berlinie w szczycie koalicji chętnych z udziałem wysłanników prezydenta USA.",
-      "stan_data": "2026-11-19",
+      "stan": "Według PAP budżet Niemiec na 2027 r., przyjęty 27.11 przez Bundestag, nie przewiduje pomocy dla żyjących polskich ofiar niemieckiej okupacji.",
+      "stan_data": "2026-11-28",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/zelensky-arrives-in-berlin-for-talks-with-european-officials-trumps-envoys/",
-          "data": "2026-11-19"
-        },
-        {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/19/trump-questions-europes-billions-in-ukraine-aid-during-surprise-call",
-          "data": "2026-11-19"
+          "nazwa": "PAP (za Polsat News)",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-27/niemcy-zdecydowali-ws-polskich-ofiar-jestesmy-gleboko-zasmuceni/",
+          "data": "2026-11-27"
         }
       ]
     },
@@ -246,38 +241,38 @@
       "nazwa": "Iran",
       "grupa": "miejsce",
       "opis": "Iran, Cieśnina Ormuz, rozmowy z USA i mediatorami.",
-      "stan": "Kuwejt przechwycił 26.11 drony, które przypisał Iranowi; ich szczątki zabiły dwóch Włochów. Teheran zaprzecza udziałowi w ataku.",
+      "stan": "CENTCOM podało 27.11, że USA unieruchomiły w Zatoce Omańskiej statek Pacific Archer, który próbował przełamać blokadę irańskich portów; Iran zapowiada przeciwdziałanie.",
       "stan_zrodla": [
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/26/civilian-flights-diverted-as-kuwait-army-intercepts-iranian-drone-attack",
-          "data": "2026-11-26"
+          "url": "https://www.euronews.com/2026/11/28/us-military-fires-at-a-ship-that-violated-blockade-of-iranian-ports",
+          "data": "2026-11-28"
         },
         {
-          "nazwa": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/11/26/iran-war-live-explosion-rocks-sanaa-missiles-intercepted-over-riyadh",
-          "data": "2026-11-26"
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/us-disables-ship-trying-leave-iran-tehran-vows-confront-blockade-2026-11-27/",
+          "data": "2026-11-27"
         }
       ],
-      "stan_data": "2026-11-26"
+      "stan_data": "2026-11-28"
     },
     {
       "id": "usa",
       "nazwa": "USA",
       "grupa": "miejsce",
       "opis": "Polityka USA wobec Europy, Rosji, Ukrainy i Bliskiego Wschodu.",
-      "stan": "Prezydent USA Donald Trump powiedział 26.11, że chciałby, aby Władimir Putin przyjechał na szczyt G20 w Miami 14–15.12; według Reutersa administracja USA zachęcała Wenezuelę i Irak do rozważenia wyjścia z OPEC.",
-      "stan_data": "2026-11-27",
+      "stan": "Siły USA unieruchomiły statek Pacific Archer, który wypłynął z Bandar Abbas; według CENTCOM blokada irańskich portów unieruchomiła sześć statków i zawróciła 158.",
+      "stan_data": "2026-11-28",
       "stan_zrodla": [
         {
-          "nazwa": "Reuters",
-          "url": "https://www.reuters.com/world/trump-says-putin-can-come-g20-if-he-wants-2026-11-27/",
-          "data": "2026-11-27"
+          "nazwa": "Euronews",
+          "url": "https://www.euronews.com/2026/11/28/us-military-fires-at-a-ship-that-violated-blockade-of-iranian-ports",
+          "data": "2026-11-28"
         },
         {
-          "nazwa": "Reuters",
-          "url": "https://www.reuters.com/world/europe/trump-says-hed-like-see-putin-pull-back-military-aggression-europe-2026-11-26/",
-          "data": "2026-11-26"
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/middle-east/us-disables-ship-trying-leave-iran-tehran-vows-confront-blockade-2026-11-27/",
+          "data": "2026-11-27"
         }
       ]
     },
@@ -286,18 +281,18 @@
       "nazwa": "Chiny",
       "grupa": "miejsce",
       "opis": "Chiny w polityce światowej i wobec Europy.",
-      "stan": "USA zaproponowały cła do 20 proc. na część chińskich towarów; według AP ława przysięgłych w USA uznała Huawei winnym kradzieży tajemnic handlowych.",
-      "stan_data": "2026-11-25",
+      "stan": "Kuomintang utrzymał w wyborach lokalnych na Tajwanie 28.11 Tajpej, Nowe Tajpej i Taoyuan; rządząca DPP odebrała mu m.in. Taizhong.",
+      "stan_data": "2026-11-28",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/25/us-proposes-new-tariffs-on-14-major-trading-partners-the-eu-included",
-          "data": "2026-11-25"
+          "nazwa": "Focus Taiwan (CNA)",
+          "url": "https://focustaiwan.tw/politics/202611285002",
+          "data": "2026-11-28"
         },
         {
-          "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/us/trump-administration-set-unveil-new-tariffs-after-probe-on-excess-factory-2026-11-24/",
-          "data": "2026-11-24"
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/taipei-s-kuomintang-mayor-re-elected-in-tight-election-race",
+          "data": "2026-11-28"
         }
       ]
     },
@@ -377,20 +372,20 @@
       "nazwa": "Niemcy",
       "grupa": "miejsce",
       "opis": "Polityka Niemiec: rząd, koalicja, wybory, obronność.",
-      "stan": "Kanclerz Friedrich Merz żąda na szczycie UE 26.11, by budżet, finansowanie Ukrainy i pożyczkę 45 mld euro rozstrzygnąć razem i z udziałem wszystkich 27 państw.",
+      "stan": "Bundestag przyjął 27.11 budżet na 2027 r.; według PAP nie ma w nim pieniędzy na pomoc dla żyjących polskich ofiar niemieckiej okupacji.",
       "stan_zrodla": [
         {
-          "nazwa": "Kyiv Independent",
-          "url": "https://kyivindependent.com/solidarity-and-winter-top-eu-agenda-as-leaders-discuss-new-support-for-ukraine/",
-          "data": "2026-11-26"
+          "nazwa": "PAP (za Polsat News)",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-27/niemcy-zdecydowali-ws-polskich-ofiar-jestesmy-gleboko-zasmuceni/",
+          "data": "2026-11-27"
         },
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/26/europe-tonight-eu-leaders-clash-over-record-high-budget-amid-ukraine-funding-standoff",
-          "data": "2026-11-26"
+          "url": "https://www.euronews.com/2026/11/27/german-bundestag-approves-record-2027-budget-as-borrowing-hits-210bn",
+          "data": "2026-11-27"
         }
       ],
-      "stan_data": "2026-11-26"
+      "stan_data": "2026-11-28"
     },
     {
       "id": "czechy",
@@ -572,33 +567,38 @@
       "nazwa": "Bałkany",
       "grupa": "miejsce",
       "opis": "Serbia, Bośnia i Hercegowina, Kosowo i inne państwa regionu.",
-      "stan": "Nowy parlament Serbii zebrał się 17.11; posłowie Listy Studenckiej, która ma 140 z 250 mandatów, objęli mandaty.",
+      "stan": "W Tiranie tysiące demonstrantów zażądały 28.11 dymisji premiera Albanii Ediego Ramy; osiem osób zostało rannych.",
       "stan_zrodla": [
         {
           "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/17/serbias-new-parliament-meets-for-first-time-since-student-led-movement-won-election",
-          "data": "2026-11-17"
+          "url": "https://www.euronews.com/2026/11/28/albania-protesters-call-for-pm-resignation-amid-clashs",
+          "data": "2026-11-28"
         },
         {
-          "nazwa": "Reuters (za U.S. News)",
-          "url": "https://www.usnews.com/news/world/articles/2026-11-17/serbias-student-list-deputies-take-seats-in-parliament-after-landmark-election-win",
-          "data": "2026-11-17"
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/28/albania-police-protesters-clash-as-thousands-rally-against-the-government",
+          "data": "2026-11-28"
         }
       ],
-      "stan_data": "2026-11-17"
+      "stan_data": "2026-11-28"
     },
     {
       "id": "wybory",
       "nazwa": "Wybory",
       "grupa": "temat",
       "opis": "Wybory w Europie i na świecie; wyniki wstępne odróżniane od oficjalnych.",
-      "stan": "W USA Demokraci zdobyli co najmniej 258 mandatów w Izbie Reprezentantów; 29.11 przedterminowe wybory w Hiszpanii.",
-      "stan_data": "2026-11-23",
+      "stan": "Na Tajwanie KMT utrzymał 28.11 Tajpej, a DPP zdobyła Taizhong; 29.11 Hiszpania wybiera parlament.",
+      "stan_data": "2026-11-28",
       "stan_zrodla": [
         {
-          "nazwa": "Associated Press",
-          "url": "https://apnews.com/article/democrats-house-majority-election-2026-congress-721096a4d9ba2cd68683692361798cdb",
-          "data": "2026-11-22"
+          "nazwa": "Focus Taiwan (CNA)",
+          "url": "https://focustaiwan.tw/politics/202611285002",
+          "data": "2026-11-28"
+        },
+        {
+          "nazwa": "France 24",
+          "url": "https://www.france24.com/en/taipei-s-kuomintang-mayor-re-elected-in-tight-election-race",
+          "data": "2026-11-28"
         }
       ]
     },
@@ -642,35 +642,45 @@
       "nazwa": "Inne",
       "grupa": "temat",
       "opis": "Wątki rzadkie, bez osobnego hashtagu.",
-      "stan": "Izraelski nalot zabił 24.11 dyrektora Służby Bezpieczeństwa Wewnętrznego w Gazie; Szejk Hasina zapowiada powrót do Bangladeszu 16.12.",
+      "stan": "Izraelski nalot zabił 27.11 w mieście Gaza dwóch ochroniarzy Lekarzy bez Granic; według UKMTO uzbrojeni ludzie przejęli 28.11 statek towarowy u wybrzeży Jemenu.",
       "stan_zrodla": [
         {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/middle-east/israeli-airstrike-kills-senior-hamas-security-official-gaza-hamas-sources-say-2026-11-24/",
-          "data": "2026-11-24"
+          "url": "https://www.reuters.com/world/middle-east/israeli-strike-killed-two-staff-outside-gaza-clinic-msf-says-2026-11-28/",
+          "data": "2026-11-28"
+        },
+        {
+          "nazwa": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/28/israeli-strike-on-doctors-without-borders-clinic-in-gaza-kills-two-staff",
+          "data": "2026-11-28"
         },
         {
           "nazwa": "Reuters (newsletter)",
-          "url": "https://www.reuters.com/world/asia-pacific/sheikh-hasina-seeks-return-bangladesh-december-16-state-carrier-2026-11-24/",
-          "data": "2026-11-24"
+          "url": "https://www.reuters.com/world/middle-east/armed-group-boards-cargo-ship-off-yemen-takes-control-ukmto-says-2026-11-28/",
+          "data": "2026-11-28"
         }
       ],
-      "stan_data": "2026-11-24"
+      "stan_data": "2026-11-28"
     },
     {
       "id": "afryka",
       "nazwa": "Afryka",
       "grupa": "miejsce",
       "opis": "Wojny, przewroty i kryzysy w Afryce (Róg Afryki, Sudan, Sahel, Kongo).",
-      "stan": "Minister spraw zagranicznych Ukrainy Andrij Sybiha oświadczył 26.11, że zatopienie rosyjskich jednostek w porcie w Bengazi nie było wymierzone w Libię.",
+      "stan": "Zełenski potwierdził 27.11, że atak ukraińskich dronów morskich na rosyjską korwetę w libijskim Bengazi nie był uzgodniony z partnerami europejskimi; według Reutersa rosyjski konwój do Libii zawrócił.",
       "stan_zrodla": [
         {
-          "nazwa": "Reuters",
-          "url": "https://www.reuters.com/world/ukrainian-foreign-minister-says-military-action-was-never-directed-against-libya-2026-11-26/",
-          "data": "2026-11-26"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-says-ukraine-aligns-naval-strikes-with-partners-italy-denies-coordination-over-libya-attack/",
+          "data": "2026-11-27"
+        },
+        {
+          "nazwa": "Reuters (newsletter)",
+          "url": "https://www.reuters.com/world/europe/russian-military-flotilla-bound-libya-turns-around-after-warship-sunk-nov-22-2026-11-27/",
+          "data": "2026-11-27"
         }
       ],
-      "stan_data": "2026-11-27"
+      "stan_data": "2026-11-28"
     },
     {
       "id": "ameryki",
@@ -723,20 +733,20 @@
       "nazwa": "Włochy",
       "grupa": "miejsce",
       "opis": "Polityka Włoch i ich rola w UE.",
-      "stan": "Dwóch Włochów pracujących dla Rheinmetallu zginęło 26.11 w Kuwejcie od szczątków zestrzelonych dronów.",
+      "stan": "Premier Giorgia Meloni rozmawiała 27.11 z Wołodymyrem Zełenskim, który potwierdził, że atak na rosyjską korwetę w Bengazi nie był uzgodniony z partnerami europejskimi.",
       "stan_zrodla": [
         {
-          "nazwa": "Euronews",
-          "url": "https://www.euronews.com/2026/11/26/civilian-flights-diverted-as-kuwait-army-intercepts-iranian-drone-attack",
-          "data": "2026-11-26"
+          "nazwa": "Kyiv Independent",
+          "url": "https://kyivindependent.com/zelensky-says-ukraine-aligns-naval-strikes-with-partners-italy-denies-coordination-over-libya-attack/",
+          "data": "2026-11-27"
         },
         {
           "nazwa": "Polsat News",
-          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-26/iran-zaatakowal-w-kuwejcie-nie-zyje-dwoch-wlochow/",
-          "data": "2026-11-26"
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-11-27/premier-meloni-i-prezydent-zelenski-wyjasnili-sobie-kwestie-ukrainskiej-operacji-w-libii/",
+          "data": "2026-11-27"
         }
       ],
-      "stan_data": "2026-11-26"
+      "stan_data": "2026-11-28"
     },
     {
       "id": "moldawia",
